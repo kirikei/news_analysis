@@ -1,0 +1,740 @@
+Sentence #1 (7 tokens):
+First Times Ride: Kawasaki Z1000.
+[Text=First CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=Times CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Times NamedEntityTag=O] [Text=Ride CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NN Lemma=ride NamedEntityTag=O] [Text=: CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Kawasaki CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Kawasaki NamedEntityTag=ORGANIZATION] [Text=Z1000 CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NNP Lemma=Z1000 NamedEntityTag=O] [Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP First) (NNP Times) (NN Ride))
+    (: :)
+    (NP (NNP Kawasaki) (NNP Z1000))
+    (. .)))
+
+nn(Ride-3, First-1)
+nn(Ride-3, Times-2)
+root(ROOT-0, Ride-3)
+nn(Z1000-6, Kawasaki-5)
+dep(Ride-3, Z1000-6)
+
+Sentence #2 (13 tokens):
+For 2014 Kawasaki is reintroducing its heralded Z1000 -- with a vengeance.
+[Text=For CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014</TIMEX3>] [Text=Kawasaki CharacterOffsetBegin=48 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Kawasaki NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=reintroducing CharacterOffsetBegin=60 CharacterOffsetEnd=73 PartOfSpeech=VBG Lemma=reintroduce NamedEntityTag=O] [Text=its CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=heralded CharacterOffsetBegin=78 CharacterOffsetEnd=86 PartOfSpeech=VBN Lemma=herald NamedEntityTag=O] [Text=Z1000 CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NN Lemma=z1000 NamedEntityTag=O] [Text=-- CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=with CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=vengeance CharacterOffsetBegin=103 CharacterOffsetEnd=112 PartOfSpeech=NN Lemma=vengeance NamedEntityTag=O] [Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (CD 2014)))
+    (NP (NNP Kawasaki))
+    (VP (VBZ is)
+      (S
+        (VP (VBG reintroducing)
+          (NP (PRP$ its)
+            (ADJP (VBN heralded))
+            (NN Z1000))
+          (: --)
+          (PP (IN with)
+            (NP (DT a) (NN vengeance))))))
+    (. .)))
+
+prep_for(is-4, 2014-2)
+nsubj(is-4, Kawasaki-3)
+root(ROOT-0, is-4)
+xcomp(is-4, reintroducing-5)
+poss(Z1000-8, its-6)
+amod(Z1000-8, heralded-7)
+dobj(reintroducing-5, Z1000-8)
+det(vengeance-12, a-11)
+prep_with(reintroducing-5, vengeance-12)
+
+Sentence #3 (30 tokens):
+The company hit hard with an all-out media campaign, taking motorcycle journalists on urban nighttime rides designed to bring out the best in this raw, naked beast.
+[Text=The CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=company CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text=hit CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VBD Lemma=hit NamedEntityTag=O] [Text=hard CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=RB Lemma=hard NamedEntityTag=O] [Text=with CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=an CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=all-out CharacterOffsetBegin=143 CharacterOffsetEnd=150 PartOfSpeech=JJ Lemma=all-out NamedEntityTag=O] [Text=media CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=campaign CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=NN Lemma=campaign NamedEntityTag=O] [Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=taking CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=motorcycle CharacterOffsetBegin=174 CharacterOffsetEnd=184 PartOfSpeech=NN Lemma=motorcycle NamedEntityTag=O] [Text=journalists CharacterOffsetBegin=185 CharacterOffsetEnd=196 PartOfSpeech=NNS Lemma=journalist NamedEntityTag=O] [Text=on CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=urban CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=JJ Lemma=urban NamedEntityTag=O] [Text=nighttime CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=JJ Lemma=nighttime NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t1" type="TIME" value="TNI">nighttime</TIMEX3>] [Text=rides CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=NNS Lemma=ride NamedEntityTag=O] [Text=designed CharacterOffsetBegin=222 CharacterOffsetEnd=230 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=to CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=bring CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=VB Lemma=bring NamedEntityTag=O] [Text=out CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=the CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=best CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=in CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=raw CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=JJ Lemma=raw NamedEntityTag=O] [Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=naked CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=JJ Lemma=naked NamedEntityTag=O] [Text=beast CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=beast NamedEntityTag=O] [Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN company))
+    (VP (VBD hit)
+      (ADVP (RB hard))
+      (PP (IN with)
+        (NP (DT an) (JJ all-out) (NNS media) (NN campaign)))
+      (, ,)
+      (S
+        (VP (VBG taking)
+          (NP (NN motorcycle) (NNS journalists))
+          (PP (IN on)
+            (NP
+              (NP (JJ urban) (JJ nighttime) (NNS rides))
+              (VP (VBN designed)
+                (S
+                  (VP (TO to)
+                    (VP (VB bring)
+                      (PRT (RP out))
+                      (NP
+                        (NP (DT the) (JJS best))
+                        (PP (IN in)
+                          (NP (DT this) (JJ raw) (, ,) (JJ naked) (NN beast)))))))))))))
+    (. .)))
+
+det(company-2, The-1)
+nsubj(hit-3, company-2)
+root(ROOT-0, hit-3)
+advmod(hit-3, hard-4)
+det(campaign-9, an-6)
+amod(campaign-9, all-out-7)
+nn(campaign-9, media-8)
+prep_with(hit-3, campaign-9)
+xcomp(hit-3, taking-11)
+nn(journalists-13, motorcycle-12)
+dobj(taking-11, journalists-13)
+amod(rides-17, urban-15)
+amod(rides-17, nighttime-16)
+prep_on(taking-11, rides-17)
+partmod(rides-17, designed-18)
+aux(bring-20, to-19)
+xcomp(designed-18, bring-20)
+prt(bring-20, out-21)
+det(best-23, the-22)
+dobj(bring-20, best-23)
+det(beast-29, this-25)
+amod(beast-29, raw-26)
+amod(beast-29, naked-28)
+prep_in(best-23, beast-29)
+
+Sentence #4 (8 tokens):
+They needn't have tried so hard.
+[Text=They CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=need CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=n't CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=tried CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=VBN Lemma=try NamedEntityTag=O] [Text=so CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=hard CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=RB Lemma=hard NamedEntityTag=O] [Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP need) (RB n't)
+      (VP (VB have)
+        (VP (VBN tried)
+          (ADVP (RB so) (RB hard)))))
+    (. .)))
+
+nsubj(need-2, They-1)
+root(ROOT-0, need-2)
+neg(need-2, n't-3)
+aux(tried-5, have-4)
+dep(need-2, tried-5)
+advmod(hard-7, so-6)
+advmod(tried-5, hard-7)
+
+Sentence #5 (5 tokens):
+The Z1000 sells itself.
+[Text=The CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Z1000 CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN Lemma=z1000 NamedEntityTag=O] [Text=sells CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=VBZ Lemma=sell NamedEntityTag=O] [Text=itself CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=PRP Lemma=itself NamedEntityTag=O] [Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN Z1000))
+    (VP (VBZ sells)
+      (NP (PRP itself)))
+    (. .)))
+
+det(Z1000-2, The-1)
+nsubj(sells-3, Z1000-2)
+root(ROOT-0, sells-3)
+dobj(sells-3, itself-4)
+
+Sentence #6 (9 tokens):
+It's lightweight, nimble and extremely powerful.
+[Text=It CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=lightweight CharacterOffsetBegin=354 CharacterOffsetEnd=365 PartOfSpeech=JJ Lemma=lightweight NamedEntityTag=O] [Text=, CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=nimble CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=JJ Lemma=nimble NamedEntityTag=O] [Text=and CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=extremely CharacterOffsetBegin=378 CharacterOffsetEnd=387 PartOfSpeech=RB Lemma=extremely NamedEntityTag=O] [Text=powerful CharacterOffsetBegin=388 CharacterOffsetEnd=396 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=O] [Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP
+        (ADJP (JJ lightweight))
+        (, ,)
+        (ADJP (JJ nimble))
+        (CC and)
+        (ADJP (RB extremely) (JJ powerful))))
+    (. .)))
+
+nsubj(lightweight-3, It-1)
+nsubj(nimble-5, It-1)
+nsubj(powerful-8, It-1)
+cop(lightweight-3, 's-2)
+root(ROOT-0, lightweight-3)
+conj_and(lightweight-3, nimble-5)
+advmod(powerful-8, extremely-7)
+conj_and(lightweight-3, powerful-8)
+
+Sentence #7 (23 tokens):
+Zero to 60 is exciting -- almost as exciting as 60 to 100 -- and 60 to zero isn't bad either.
+[Text=Zero CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=NNP Lemma=Zero NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0] [Text=to CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=60 CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=CD Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0] [Text=is CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=exciting CharacterOffsetBegin=412 CharacterOffsetEnd=420 PartOfSpeech=JJ Lemma=exciting NamedEntityTag=O] [Text=-- CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=almost CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=RB Lemma=almost NamedEntityTag=O] [Text=as CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=exciting CharacterOffsetBegin=434 CharacterOffsetEnd=442 PartOfSpeech=JJ Lemma=exciting NamedEntityTag=O] [Text=as CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=60 CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=CD Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=100 CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=CD Lemma=100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=100.0] [Text=-- CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=and CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=60 CharacterOffsetBegin=463 CharacterOffsetEnd=465 PartOfSpeech=CD Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0] [Text=to CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=zero CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=CD Lemma=zero NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0] [Text=is CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=bad CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=JJ Lemma=bad NamedEntityTag=O] [Text=either CharacterOffsetBegin=484 CharacterOffsetEnd=490 PartOfSpeech=CC Lemma=either NamedEntityTag=O] [Text=. CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Zero))
+        (PP (TO to)
+          (NP (CD 60))))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (JJ exciting) (: --)
+            (PP (RB almost) (IN as)
+              (ADJP (JJ exciting))))
+          (PP (IN as)
+            (NP
+              (QP (CD 60) (TO to) (CD 100)))))))
+    (: --)
+    (CC and)
+    (S
+      (NP
+        (NP (CD 60))
+        (PP (TO to)
+          (NP (CD zero))))
+      (VP (VBZ is) (RB n't)
+        (ADJP (JJ bad))
+        (ADVP (CC either))))
+    (. .)))
+
+nsubj(exciting-5, Zero-1)
+prep_to(Zero-1, 60-3)
+cop(exciting-5, is-4)
+root(ROOT-0, exciting-5)
+advmod(exciting-5, almost-7)
+prep_as(exciting-5, exciting-9)
+number(100-13, 60-11)
+dep(100-13, to-12)
+prep_as(exciting-5, 100-13)
+nsubj(bad-21, 60-16)
+prep_to(60-16, zero-18)
+cop(bad-21, is-19)
+neg(bad-21, n't-20)
+conj_and(exciting-5, bad-21)
+advmod(bad-21, either-22)
+
+Sentence #8 (14 tokens):
+The bike blasts off majestically but then comes in for a smooth landing.
+[Text=The CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bike CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=bike NamedEntityTag=O] [Text=blasts CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=NNS Lemma=blast NamedEntityTag=O] [Text=off CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=IN Lemma=off NamedEntityTag=O] [Text=majestically CharacterOffsetBegin=512 CharacterOffsetEnd=524 PartOfSpeech=RB Lemma=majestically NamedEntityTag=O] [Text=but CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=then CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=RB Lemma=then NamedEntityTag=O] [Text=comes CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=in CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=for CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=smooth CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=JJ Lemma=smooth NamedEntityTag=O] [Text=landing CharacterOffsetBegin=556 CharacterOffsetEnd=563 PartOfSpeech=NN Lemma=landing NamedEntityTag=O] [Text=. CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN bike) (NNS blasts))
+      (ADJP
+        (ADJP (IN off)
+          (ADVP (RB majestically)))
+        (CC but)
+        (ADVP (RB then))))
+    (VP (VBZ comes)
+      (PP (IN in)
+        (PP (IN for)
+          (NP (DT a) (JJ smooth) (NN landing)))))
+    (. .)))
+
+det(blasts-3, The-1)
+nn(blasts-3, bike-2)
+nsubj(comes-8, blasts-3)
+amod(blasts-3, off-4)
+advmod(off-4, majestically-5)
+amod(blasts-3, then-7)
+advmod(off-4, then-7)
+conj_but(off-4, then-7)
+root(ROOT-0, comes-8)
+prep(comes-8, in-9)
+pcomp(in-9, for-10)
+det(landing-13, a-11)
+amod(landing-13, smooth-12)
+pobj(for-10, landing-13)
+
+Sentence #9 (47 tokens):
+For a bike with such a radical look -- think Batman-meets-Antman, with an attitude that's somewhere between testy and really ticked off on the anger scale -- it's very comfortable, featuring a neutral stance that makes it an easy rider around town.
+[Text=For CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=bike CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=NN Lemma=bike NamedEntityTag=O] [Text=with CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=such CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=a CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=radical CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=JJ Lemma=radical NamedEntityTag=O] [Text=look CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=NN Lemma=look NamedEntityTag=O] [Text=-- CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=think CharacterOffsetBegin=609 CharacterOffsetEnd=614 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=Batman-meets-Antman CharacterOffsetBegin=615 CharacterOffsetEnd=634 PartOfSpeech=NNP Lemma=Batman-meets-Antman NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=an CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=attitude CharacterOffsetBegin=644 CharacterOffsetEnd=652 PartOfSpeech=NN Lemma=attitude NamedEntityTag=O] [Text=that CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=somewhere CharacterOffsetBegin=660 CharacterOffsetEnd=669 PartOfSpeech=RB Lemma=somewhere NamedEntityTag=O] [Text=between CharacterOffsetBegin=670 CharacterOffsetEnd=677 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=testy CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=JJ Lemma=testy NamedEntityTag=O] [Text=and CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=really CharacterOffsetBegin=688 CharacterOffsetEnd=694 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=ticked CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=VBN Lemma=tick NamedEntityTag=O] [Text=off CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=on CharacterOffsetBegin=706 CharacterOffsetEnd=708 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=anger CharacterOffsetBegin=713 CharacterOffsetEnd=718 PartOfSpeech=NN Lemma=anger NamedEntityTag=O] [Text=scale CharacterOffsetBegin=719 CharacterOffsetEnd=724 PartOfSpeech=NN Lemma=scale NamedEntityTag=O] [Text=-- CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=it CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=730 CharacterOffsetEnd=732 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=733 CharacterOffsetEnd=737 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=comfortable CharacterOffsetBegin=738 CharacterOffsetEnd=749 PartOfSpeech=JJ Lemma=comfortable NamedEntityTag=O] [Text=, CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=featuring CharacterOffsetBegin=751 CharacterOffsetEnd=760 PartOfSpeech=VBG Lemma=feature NamedEntityTag=O] [Text=a CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=neutral CharacterOffsetBegin=763 CharacterOffsetEnd=770 PartOfSpeech=JJ Lemma=neutral NamedEntityTag=O] [Text=stance CharacterOffsetBegin=771 CharacterOffsetEnd=777 PartOfSpeech=NN Lemma=stance NamedEntityTag=O] [Text=that CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=makes CharacterOffsetBegin=783 CharacterOffsetEnd=788 PartOfSpeech=VBZ Lemma=make NamedEntityTag=O] [Text=it CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=an CharacterOffsetBegin=792 CharacterOffsetEnd=794 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=easy CharacterOffsetBegin=795 CharacterOffsetEnd=799 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O] [Text=rider CharacterOffsetBegin=800 CharacterOffsetEnd=805 PartOfSpeech=NN Lemma=rider NamedEntityTag=O] [Text=around CharacterOffsetBegin=806 CharacterOffsetEnd=812 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=town CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=NN Lemma=town NamedEntityTag=O] [Text=. CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (DT a) (NN bike))
+        (PP (IN with)
+          (NP (JJ such) (DT a) (JJ radical) (NN look)))))
+    (PRN (: --)
+      (S
+        (VP (VBP think)
+          (NP
+            (NP (NNP Batman-meets-Antman))
+            (, ,)
+            (PP (IN with)
+              (NP
+                (NP (DT an) (NN attitude))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ 's)
+                      (UCP
+                        (PP
+                          (ADVP (RB somewhere))
+                          (IN between)
+                          (ADJP (JJ testy)))
+                        (CC and)
+                        (ADVP (RB really))
+                        (VP (VBN ticked)
+                          (PRT (RP off))
+                          (PP (IN on)
+                            (NP (DT the) (NN anger) (NN scale)))))))))))))
+      (: --))
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADJP (RB very) (JJ comfortable)))
+    (, ,)
+    (VP (VBG featuring)
+      (NP
+        (NP (DT a) (JJ neutral) (NN stance))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ makes)
+              (S
+                (NP (PRP it))
+                (NP
+                  (NP (DT an) (JJ easy) (NN rider))
+                  (PP (IN around)
+                    (NP (NN town))))))))))
+    (. .)))
+
+det(bike-3, a-2)
+prep_for(comfortable-33, bike-3)
+amod(look-8, such-5)
+det(look-8, a-6)
+amod(look-8, radical-7)
+prep_with(bike-3, look-8)
+parataxis(comfortable-33, think-10)
+parataxis(featuring-35, think-10)
+dobj(think-10, Batman-meets-Antman-11)
+det(attitude-15, an-14)
+prep_with(Batman-meets-Antman-11, attitude-15)
+nsubj('s-17, attitude-15)
+rcmod(attitude-15, 's-17)
+advmod(between-19, somewhere-18)
+dep('s-17, between-19)
+pobj(between-19, testy-20)
+dep('s-17, really-22)
+conj_and(between-19, really-22)
+dep('s-17, ticked-23)
+conj_and(between-19, ticked-23)
+prt(ticked-23, off-24)
+det(scale-28, the-26)
+nn(scale-28, anger-27)
+prep_on(ticked-23, scale-28)
+nsubj(comfortable-33, it-30)
+cop(comfortable-33, 's-31)
+advmod(comfortable-33, very-32)
+root(ROOT-0, comfortable-33)
+dep(comfortable-33, featuring-35)
+det(stance-38, a-36)
+amod(stance-38, neutral-37)
+dobj(featuring-35, stance-38)
+nsubj(makes-40, stance-38)
+rcmod(stance-38, makes-40)
+nsubj(rider-44, it-41)
+det(rider-44, an-42)
+amod(rider-44, easy-43)
+xcomp(makes-40, rider-44)
+prep_around(rider-44, town-46)
+
+Sentence #10 (20 tokens):
+I liked it better than the Ninja 1000, which I found twitchy and somewhat difficult to throttle comfortably.
+[Text=I CharacterOffsetBegin=824 CharacterOffsetEnd=825 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=liked CharacterOffsetBegin=826 CharacterOffsetEnd=831 PartOfSpeech=VBD Lemma=like NamedEntityTag=O] [Text=it CharacterOffsetBegin=832 CharacterOffsetEnd=834 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=better CharacterOffsetBegin=835 CharacterOffsetEnd=841 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=than CharacterOffsetBegin=842 CharacterOffsetEnd=846 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=the CharacterOffsetBegin=847 CharacterOffsetEnd=850 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Ninja CharacterOffsetBegin=851 CharacterOffsetEnd=856 PartOfSpeech=NNP Lemma=Ninja NamedEntityTag=MISC] [Text=1000 CharacterOffsetBegin=857 CharacterOffsetEnd=861 PartOfSpeech=CD Lemma=1000 NamedEntityTag=DATE NormalizedNamedEntityTag=1000 Timex=<TIMEX3 tid="t1" type="DATE" value="1000">1000</TIMEX3>] [Text=, CharacterOffsetBegin=861 CharacterOffsetEnd=862 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=863 CharacterOffsetEnd=868 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=I CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=found CharacterOffsetBegin=871 CharacterOffsetEnd=876 PartOfSpeech=VBD Lemma=find NamedEntityTag=O] [Text=twitchy CharacterOffsetBegin=877 CharacterOffsetEnd=884 PartOfSpeech=JJ Lemma=twitchy NamedEntityTag=O] [Text=and CharacterOffsetBegin=885 CharacterOffsetEnd=888 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=somewhat CharacterOffsetBegin=889 CharacterOffsetEnd=897 PartOfSpeech=RB Lemma=somewhat NamedEntityTag=O] [Text=difficult CharacterOffsetBegin=898 CharacterOffsetEnd=907 PartOfSpeech=JJ Lemma=difficult NamedEntityTag=O] [Text=to CharacterOffsetBegin=908 CharacterOffsetEnd=910 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=throttle CharacterOffsetBegin=911 CharacterOffsetEnd=919 PartOfSpeech=VB Lemma=throttle NamedEntityTag=O] [Text=comfortably CharacterOffsetBegin=920 CharacterOffsetEnd=931 PartOfSpeech=RB Lemma=comfortably NamedEntityTag=O] [Text=. CharacterOffsetBegin=931 CharacterOffsetEnd=932 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD liked)
+      (S
+        (NP (PRP it))
+        (ADJP (JJR better)
+          (PP (IN than)
+            (NP
+              (NP (DT the) (NNP Ninja) (CD 1000))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (NP (PRP I))
+                  (VP (VBD found)
+                    (ADJP
+                      (ADJP (JJ twitchy))
+                      (CC and)
+                      (ADJP (RB somewhat) (JJ difficult)
+                        (S
+                          (VP (TO to)
+                            (VP (VB throttle)
+                              (ADVP (RB comfortably)))))))))))))))
+    (. .)))
+
+nsubj(liked-2, I-1)
+root(ROOT-0, liked-2)
+nsubj(better-4, it-3)
+xcomp(liked-2, better-4)
+det(Ninja-7, the-6)
+prep_than(better-4, Ninja-7)
+dobj(found-12, Ninja-7)
+num(Ninja-7, 1000-8)
+nsubj(found-12, I-11)
+rcmod(Ninja-7, found-12)
+acomp(found-12, twitchy-13)
+advmod(difficult-16, somewhat-15)
+acomp(found-12, difficult-16)
+conj_and(twitchy-13, difficult-16)
+aux(throttle-18, to-17)
+xcomp(difficult-16, throttle-18)
+advmod(throttle-18, comfortably-19)
+
+Sentence #11 (18 tokens):
+(This may be the result of the Z1000's new ECU settings and intake cams.)
+[Text=-LRB- CharacterOffsetBegin=933 CharacterOffsetEnd=934 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=This CharacterOffsetBegin=934 CharacterOffsetEnd=938 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS XXXX-05 Timex=<TIMEX3 alt_value="THIS XXXX-05" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">This may</TIMEX3>] [Text=may CharacterOffsetBegin=939 CharacterOffsetEnd=942 PartOfSpeech=MD Lemma=may NamedEntityTag=DATE NormalizedNamedEntityTag=THIS XXXX-05 Timex=<TIMEX3 alt_value="THIS XXXX-05" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">This may</TIMEX3>] [Text=be CharacterOffsetBegin=943 CharacterOffsetEnd=945 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=946 CharacterOffsetEnd=949 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=result CharacterOffsetBegin=950 CharacterOffsetEnd=956 PartOfSpeech=NN Lemma=result NamedEntityTag=O] [Text=of CharacterOffsetBegin=957 CharacterOffsetEnd=959 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=960 CharacterOffsetEnd=963 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Z1000 CharacterOffsetBegin=964 CharacterOffsetEnd=969 PartOfSpeech=NN Lemma=z1000 NamedEntityTag=O] [Text='s CharacterOffsetBegin=969 CharacterOffsetEnd=971 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=new CharacterOffsetBegin=972 CharacterOffsetEnd=975 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=ECU CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=NNP Lemma=ECU NamedEntityTag=O] [Text=settings CharacterOffsetBegin=980 CharacterOffsetEnd=988 PartOfSpeech=NNS Lemma=setting NamedEntityTag=O] [Text=and CharacterOffsetBegin=989 CharacterOffsetEnd=992 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=intake CharacterOffsetBegin=993 CharacterOffsetEnd=999 PartOfSpeech=NN Lemma=intake NamedEntityTag=O] [Text=cams CharacterOffsetBegin=1000 CharacterOffsetEnd=1004 PartOfSpeech=NNS Lemma=cam NamedEntityTag=O] [Text=. CharacterOffsetBegin=1004 CharacterOffsetEnd=1005 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1005 CharacterOffsetEnd=1006 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] 
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (DT This))
+    (VP (MD may)
+      (VP (VB be)
+        (NP
+          (NP
+            (NP (DT the) (NN result))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN Z1000) (POS 's))
+                (JJ new) (NNP ECU) (NNS settings))))
+          (CC and)
+          (NP (NN intake) (NNS cams)))))
+    (. .) (-RRB- -RRB-)))
+
+nsubj(result-6, This-2)
+aux(result-6, may-3)
+cop(result-6, be-4)
+det(result-6, the-5)
+root(ROOT-0, result-6)
+det(Z1000-9, the-8)
+poss(settings-13, Z1000-9)
+amod(settings-13, new-11)
+nn(settings-13, ECU-12)
+prep_of(result-6, settings-13)
+nn(cams-16, intake-15)
+conj_and(result-6, cams-16)
+
+Sentence #12 (15 tokens):
+The Z1000's power dialed on smoothly, up and down the power band.
+[Text=The CharacterOffsetBegin=1007 CharacterOffsetEnd=1010 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Z1000 CharacterOffsetBegin=1011 CharacterOffsetEnd=1016 PartOfSpeech=NN Lemma=z1000 NamedEntityTag=O] [Text='s CharacterOffsetBegin=1016 CharacterOffsetEnd=1018 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=power CharacterOffsetBegin=1019 CharacterOffsetEnd=1024 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=dialed CharacterOffsetBegin=1025 CharacterOffsetEnd=1031 PartOfSpeech=VBD Lemma=dial NamedEntityTag=O] [Text=on CharacterOffsetBegin=1032 CharacterOffsetEnd=1034 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=smoothly CharacterOffsetBegin=1035 CharacterOffsetEnd=1043 PartOfSpeech=RB Lemma=smoothly NamedEntityTag=O] [Text=, CharacterOffsetBegin=1043 CharacterOffsetEnd=1044 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=up CharacterOffsetBegin=1045 CharacterOffsetEnd=1047 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=and CharacterOffsetBegin=1048 CharacterOffsetEnd=1051 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=down CharacterOffsetBegin=1052 CharacterOffsetEnd=1056 PartOfSpeech=RB Lemma=down NamedEntityTag=O] [Text=the CharacterOffsetBegin=1057 CharacterOffsetEnd=1060 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=power CharacterOffsetBegin=1061 CharacterOffsetEnd=1066 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=band CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=NN Lemma=band NamedEntityTag=O] [Text=. CharacterOffsetBegin=1071 CharacterOffsetEnd=1072 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN Z1000) (POS 's))
+      (NN power))
+    (VP (VBD dialed)
+      (PP (IN on)
+        (ADVP (RB smoothly)))
+      (, ,)
+      (ADVP (RB up)
+        (NP
+          (ADVP (CC and)
+            (RB down))
+          (DT the) (NN power) (NN band))))
+    (. .)))
+
+det(Z1000-2, The-1)
+poss(power-4, Z1000-2)
+nsubj(dialed-5, power-4)
+root(ROOT-0, dialed-5)
+prep(dialed-5, on-6)
+pcomp(on-6, smoothly-7)
+advmod(dialed-5, up-9)
+cc(down-11, and-10)
+advmod(band-14, down-11)
+det(band-14, the-12)
+nn(band-14, power-13)
+pobj(up-9, band-14)
+
+Sentence #13 (11 tokens):
+And yes you can wheelie more or less at will.
+[Text=And CharacterOffsetBegin=1073 CharacterOffsetEnd=1076 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=yes CharacterOffsetBegin=1077 CharacterOffsetEnd=1080 PartOfSpeech=UH Lemma=yes NamedEntityTag=O] [Text=you CharacterOffsetBegin=1081 CharacterOffsetEnd=1084 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=1085 CharacterOffsetEnd=1088 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=wheelie CharacterOffsetBegin=1089 CharacterOffsetEnd=1096 PartOfSpeech=VB Lemma=wheelie NamedEntityTag=O] [Text=more CharacterOffsetBegin=1097 CharacterOffsetEnd=1101 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=or CharacterOffsetBegin=1102 CharacterOffsetEnd=1104 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=less CharacterOffsetBegin=1105 CharacterOffsetEnd=1109 PartOfSpeech=RBR Lemma=less NamedEntityTag=O] [Text=at CharacterOffsetBegin=1110 CharacterOffsetEnd=1112 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=will CharacterOffsetBegin=1113 CharacterOffsetEnd=1117 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=. CharacterOffsetBegin=1117 CharacterOffsetEnd=1118 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC And)
+    (S
+      (INTJ (UH yes))
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB wheelie)
+          (NP (RBR more)))))
+    (CC or)
+    (S
+      (ADVP (RBR less) (IN at))
+      (VP (MD will)))
+    (. .)))
+
+discourse(wheelie-5, yes-2)
+nsubj(wheelie-5, you-3)
+aux(wheelie-5, can-4)
+root(ROOT-0, wheelie-5)
+dobj(wheelie-5, more-6)
+advmod(at-9, less-8)
+advmod(will-10, at-9)
+conj_or(wheelie-5, will-10)
+
+Sentence #14 (45 tokens):
+The bike sits low, has a nice close gearbox with a new, taller sixth gear for freeway riding, and a seat that's comfortable enough for an hour of canyon carving but not comfortable enough to contemplate any serious long-distance journeys.
+[Text=The CharacterOffsetBegin=1124 CharacterOffsetEnd=1127 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bike CharacterOffsetBegin=1128 CharacterOffsetEnd=1132 PartOfSpeech=NN Lemma=bike NamedEntityTag=O] [Text=sits CharacterOffsetBegin=1133 CharacterOffsetEnd=1137 PartOfSpeech=VBZ Lemma=sit NamedEntityTag=O] [Text=low CharacterOffsetBegin=1138 CharacterOffsetEnd=1141 PartOfSpeech=JJ Lemma=low NamedEntityTag=O] [Text=, CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=has CharacterOffsetBegin=1143 CharacterOffsetEnd=1146 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1147 CharacterOffsetEnd=1148 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=nice CharacterOffsetBegin=1149 CharacterOffsetEnd=1153 PartOfSpeech=JJ Lemma=nice NamedEntityTag=O] [Text=close CharacterOffsetBegin=1154 CharacterOffsetEnd=1159 PartOfSpeech=JJ Lemma=close NamedEntityTag=O] [Text=gearbox CharacterOffsetBegin=1160 CharacterOffsetEnd=1167 PartOfSpeech=NN Lemma=gearbox NamedEntityTag=O] [Text=with CharacterOffsetBegin=1168 CharacterOffsetEnd=1172 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1173 CharacterOffsetEnd=1174 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=1175 CharacterOffsetEnd=1178 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=, CharacterOffsetBegin=1178 CharacterOffsetEnd=1179 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=taller CharacterOffsetBegin=1180 CharacterOffsetEnd=1186 PartOfSpeech=JJR Lemma=taller NamedEntityTag=O] [Text=sixth CharacterOffsetBegin=1187 CharacterOffsetEnd=1192 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=6.0] [Text=gear CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=NN Lemma=gear NamedEntityTag=O] [Text=for CharacterOffsetBegin=1198 CharacterOffsetEnd=1201 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=freeway CharacterOffsetBegin=1202 CharacterOffsetEnd=1209 PartOfSpeech=NN Lemma=freeway NamedEntityTag=O] [Text=riding CharacterOffsetBegin=1210 CharacterOffsetEnd=1216 PartOfSpeech=VBG Lemma=ride NamedEntityTag=O] [Text=, CharacterOffsetBegin=1216 CharacterOffsetEnd=1217 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1218 CharacterOffsetEnd=1221 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=1222 CharacterOffsetEnd=1223 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=seat CharacterOffsetBegin=1224 CharacterOffsetEnd=1228 PartOfSpeech=NN Lemma=seat NamedEntityTag=O] [Text=that CharacterOffsetBegin=1229 CharacterOffsetEnd=1233 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=1233 CharacterOffsetEnd=1235 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=comfortable CharacterOffsetBegin=1236 CharacterOffsetEnd=1247 PartOfSpeech=JJ Lemma=comfortable NamedEntityTag=O] [Text=enough CharacterOffsetBegin=1248 CharacterOffsetEnd=1254 PartOfSpeech=RB Lemma=enough NamedEntityTag=O] [Text=for CharacterOffsetBegin=1255 CharacterOffsetEnd=1258 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=an CharacterOffsetBegin=1259 CharacterOffsetEnd=1261 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="PT1H">an hour</TIMEX3>] [Text=hour CharacterOffsetBegin=1262 CharacterOffsetEnd=1266 PartOfSpeech=NN Lemma=hour NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="PT1H">an hour</TIMEX3>] [Text=of CharacterOffsetBegin=1267 CharacterOffsetEnd=1269 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=canyon CharacterOffsetBegin=1270 CharacterOffsetEnd=1276 PartOfSpeech=NN Lemma=canyon NamedEntityTag=O] [Text=carving CharacterOffsetBegin=1277 CharacterOffsetEnd=1284 PartOfSpeech=VBG Lemma=carve NamedEntityTag=O] [Text=but CharacterOffsetBegin=1285 CharacterOffsetEnd=1288 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=not CharacterOffsetBegin=1289 CharacterOffsetEnd=1292 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=comfortable CharacterOffsetBegin=1293 CharacterOffsetEnd=1304 PartOfSpeech=JJ Lemma=comfortable NamedEntityTag=O] [Text=enough CharacterOffsetBegin=1305 CharacterOffsetEnd=1311 PartOfSpeech=JJ Lemma=enough NamedEntityTag=O] [Text=to CharacterOffsetBegin=1312 CharacterOffsetEnd=1314 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=contemplate CharacterOffsetBegin=1315 CharacterOffsetEnd=1326 PartOfSpeech=VB Lemma=contemplate NamedEntityTag=O] [Text=any CharacterOffsetBegin=1327 CharacterOffsetEnd=1330 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=serious CharacterOffsetBegin=1331 CharacterOffsetEnd=1338 PartOfSpeech=JJ Lemma=serious NamedEntityTag=O] [Text=long-distance CharacterOffsetBegin=1339 CharacterOffsetEnd=1352 PartOfSpeech=NN Lemma=long-distance NamedEntityTag=O] [Text=journeys CharacterOffsetBegin=1353 CharacterOffsetEnd=1361 PartOfSpeech=NNS Lemma=journey NamedEntityTag=O] [Text=. CharacterOffsetBegin=1361 CharacterOffsetEnd=1362 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN bike))
+    (VP (VBZ sits)
+      (SBAR
+        (S
+          (S
+            (ADJP (JJ low)))
+          (, ,)
+          (VP (VBZ has)
+            (NP
+              (NP
+                (NP (DT a)
+                  (ADJP (JJ nice) (JJ close))
+                  (NN gearbox))
+                (PP (IN with)
+                  (NP (DT a) (JJ new) (, ,) (JJR taller) (JJ sixth) (NN gear)))
+                (PP (IN for)
+                  (NP
+                    (NP (NN freeway))
+                    (VP (VBG riding)))))
+              (, ,)
+              (CC and)
+              (NP
+                (NP (DT a) (NN seat))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ 's)
+                      (ADJP (JJ comfortable) (RB enough)
+                        (PP (IN for)
+                          (NP
+                            (NP
+                              (NP (DT an) (NN hour))
+                              (PP (IN of)
+                                (NP
+                                  (NP (NN canyon))
+                                  (VP (VBG carving)))))
+                            (CONJP (CC but)
+                              (RB not))
+                            (NP
+                              (ADJP (JJ comfortable))
+                              (ADJP (JJ enough)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB contemplate)
+                                      (NP (DT any) (JJ serious) (NN long-distance))))))
+                              (NNS journeys))))))))))))))
+    (. .)))
+
+det(bike-2, The-1)
+nsubj(sits-3, bike-2)
+root(ROOT-0, sits-3)
+ccomp(has-6, low-4)
+ccomp(sits-3, has-6)
+det(gearbox-10, a-7)
+amod(close-9, nice-8)
+amod(gearbox-10, close-9)
+dobj(has-6, gearbox-10)
+det(gear-17, a-12)
+amod(gear-17, new-13)
+amod(gear-17, taller-15)
+amod(gear-17, sixth-16)
+prep_with(gearbox-10, gear-17)
+prep_for(gearbox-10, freeway-19)
+partmod(freeway-19, riding-20)
+det(seat-24, a-23)
+dobj(has-6, seat-24)
+conj_and(gearbox-10, seat-24)
+nsubj(comfortable-27, seat-24)
+cop(comfortable-27, 's-26)
+rcmod(seat-24, comfortable-27)
+advmod(comfortable-27, enough-28)
+det(hour-31, an-30)
+prep_for(comfortable-27, hour-31)
+prep_of(hour-31, canyon-33)
+partmod(canyon-33, carving-34)
+amod(journeys-44, comfortable-37)
+amod(journeys-44, enough-38)
+aux(contemplate-40, to-39)
+xcomp(enough-38, contemplate-40)
+det(long-distance-43, any-41)
+amod(long-distance-43, serious-42)
+dobj(contemplate-40, long-distance-43)
+prep_for(comfortable-27, journeys-44)
+conj_negcc(hour-31, journeys-44)
+
+Sentence #15 (32 tokens):
+The 2014 model features new suspension, new brakes, new aluminum wheels, newly enlarged gas tank, and a new instrument cluster that lights up like a pinball machine.
+[Text=The CharacterOffsetBegin=1369 CharacterOffsetEnd=1372 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=1373 CharacterOffsetEnd=1377 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014</TIMEX3>] [Text=model CharacterOffsetBegin=1378 CharacterOffsetEnd=1383 PartOfSpeech=NN Lemma=model NamedEntityTag=O] [Text=features CharacterOffsetBegin=1384 CharacterOffsetEnd=1392 PartOfSpeech=NNS Lemma=feature NamedEntityTag=O] [Text=new CharacterOffsetBegin=1393 CharacterOffsetEnd=1396 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=suspension CharacterOffsetBegin=1397 CharacterOffsetEnd=1407 PartOfSpeech=NN Lemma=suspension NamedEntityTag=O] [Text=, CharacterOffsetBegin=1407 CharacterOffsetEnd=1408 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=new CharacterOffsetBegin=1409 CharacterOffsetEnd=1412 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=brakes CharacterOffsetBegin=1413 CharacterOffsetEnd=1419 PartOfSpeech=NNS Lemma=brake NamedEntityTag=O] [Text=, CharacterOffsetBegin=1419 CharacterOffsetEnd=1420 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=new CharacterOffsetBegin=1421 CharacterOffsetEnd=1424 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=aluminum CharacterOffsetBegin=1425 CharacterOffsetEnd=1433 PartOfSpeech=NN Lemma=aluminum NamedEntityTag=O] [Text=wheels CharacterOffsetBegin=1434 CharacterOffsetEnd=1440 PartOfSpeech=NNS Lemma=wheel NamedEntityTag=O] [Text=, CharacterOffsetBegin=1440 CharacterOffsetEnd=1441 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=newly CharacterOffsetBegin=1442 CharacterOffsetEnd=1447 PartOfSpeech=RB Lemma=newly NamedEntityTag=O] [Text=enlarged CharacterOffsetBegin=1448 CharacterOffsetEnd=1456 PartOfSpeech=JJ Lemma=enlarged NamedEntityTag=O] [Text=gas CharacterOffsetBegin=1457 CharacterOffsetEnd=1460 PartOfSpeech=NN Lemma=gas NamedEntityTag=O] [Text=tank CharacterOffsetBegin=1461 CharacterOffsetEnd=1465 PartOfSpeech=NN Lemma=tank NamedEntityTag=O] [Text=, CharacterOffsetBegin=1465 CharacterOffsetEnd=1466 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1467 CharacterOffsetEnd=1470 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=1471 CharacterOffsetEnd=1472 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=1473 CharacterOffsetEnd=1476 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=instrument CharacterOffsetBegin=1477 CharacterOffsetEnd=1487 PartOfSpeech=NN Lemma=instrument NamedEntityTag=O] [Text=cluster CharacterOffsetBegin=1488 CharacterOffsetEnd=1495 PartOfSpeech=NN Lemma=cluster NamedEntityTag=O] [Text=that CharacterOffsetBegin=1496 CharacterOffsetEnd=1500 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=lights CharacterOffsetBegin=1501 CharacterOffsetEnd=1507 PartOfSpeech=NNS Lemma=light NamedEntityTag=O] [Text=up CharacterOffsetBegin=1508 CharacterOffsetEnd=1510 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=like CharacterOffsetBegin=1511 CharacterOffsetEnd=1515 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=a CharacterOffsetBegin=1516 CharacterOffsetEnd=1517 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pinball CharacterOffsetBegin=1518 CharacterOffsetEnd=1525 PartOfSpeech=NN Lemma=pinball NamedEntityTag=O] [Text=machine CharacterOffsetBegin=1526 CharacterOffsetEnd=1533 PartOfSpeech=NN Lemma=machine NamedEntityTag=O] [Text=. CharacterOffsetBegin=1533 CharacterOffsetEnd=1534 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (DT The) (CD 2014) (NN model) (NNS features))
+    (NP
+      (NP (JJ new) (NN suspension))
+      (, ,)
+      (NP (JJ new) (NNS brakes))
+      (, ,)
+      (NP (JJ new) (NN aluminum) (NNS wheels))
+      (, ,)
+      (NP
+        (NP
+          (ADJP (RB newly) (JJ enlarged))
+          (NN gas) (NN tank))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (DT a) (JJ new) (NN instrument) (NN cluster))
+          (SBAR
+            (WHNP (WDT that))))))
+    (NP
+      (NP (NNS lights))
+      (ADVP (RP up))
+      (PP (IN like)
+        (NP (DT a) (NN pinball) (NN machine))))
+    (. .)))
+
+det(features-4, The-1)
+num(features-4, 2014-2)
+nn(features-4, model-3)
+root(ROOT-0, features-4)
+amod(suspension-6, new-5)
+dep(features-4, suspension-6)
+amod(brakes-9, new-8)
+appos(suspension-6, brakes-9)
+amod(wheels-13, new-11)
+nn(wheels-13, aluminum-12)
+appos(suspension-6, wheels-13)
+advmod(enlarged-16, newly-15)
+amod(tank-18, enlarged-16)
+nn(tank-18, gas-17)
+appos(suspension-6, tank-18)
+det(cluster-24, a-21)
+amod(cluster-24, new-22)
+nn(cluster-24, instrument-23)
+appos(suspension-6, cluster-24)
+conj_and(tank-18, cluster-24)
+rcmod(cluster-24, that-25)
+dep(features-4, lights-26)
+advmod(lights-26, up-27)
+det(machine-31, a-29)
+nn(machine-31, pinball-30)
+prep_like(lights-26, machine-31)
+
+Sentence #16 (19 tokens):
+The bike does not offer quite the fit and finish of, say, a BMW or Ducati.
+[Text=The CharacterOffsetBegin=1541 CharacterOffsetEnd=1544 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bike CharacterOffsetBegin=1545 CharacterOffsetEnd=1549 PartOfSpeech=NN Lemma=bike NamedEntityTag=O] [Text=does CharacterOffsetBegin=1550 CharacterOffsetEnd=1554 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=1555 CharacterOffsetEnd=1558 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=offer CharacterOffsetBegin=1559 CharacterOffsetEnd=1564 PartOfSpeech=VB Lemma=offer NamedEntityTag=O] [Text=quite CharacterOffsetBegin=1565 CharacterOffsetEnd=1570 PartOfSpeech=RB Lemma=quite NamedEntityTag=O] [Text=the CharacterOffsetBegin=1571 CharacterOffsetEnd=1574 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fit CharacterOffsetBegin=1575 CharacterOffsetEnd=1578 PartOfSpeech=NN Lemma=fit NamedEntityTag=O] [Text=and CharacterOffsetBegin=1579 CharacterOffsetEnd=1582 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=finish CharacterOffsetBegin=1583 CharacterOffsetEnd=1589 PartOfSpeech=NN Lemma=finish NamedEntityTag=O] [Text=of CharacterOffsetBegin=1590 CharacterOffsetEnd=1592 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=, CharacterOffsetBegin=1592 CharacterOffsetEnd=1593 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=say CharacterOffsetBegin=1594 CharacterOffsetEnd=1597 PartOfSpeech=VB Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=1597 CharacterOffsetEnd=1598 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1599 CharacterOffsetEnd=1600 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=BMW CharacterOffsetBegin=1601 CharacterOffsetEnd=1604 PartOfSpeech=NNP Lemma=BMW NamedEntityTag=O] [Text=or CharacterOffsetBegin=1605 CharacterOffsetEnd=1607 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=Ducati CharacterOffsetBegin=1608 CharacterOffsetEnd=1614 PartOfSpeech=NNP Lemma=Ducati NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1614 CharacterOffsetEnd=1615 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN bike))
+    (VP (VBZ does) (RB not)
+      (VP (VB offer)
+        (NP
+          (NP (RB quite) (DT the) (NN fit)
+            (CC and)
+            (NN finish))
+          (PP (IN of)
+            (PRN (, ,)
+              (INTJ (VB say))
+              (, ,))
+            (NP (DT a) (NNP BMW)
+              (CC or)
+              (NNP Ducati))))))
+    (. .)))
+
+det(bike-2, The-1)
+nsubj(offer-5, bike-2)
+aux(offer-5, does-3)
+neg(offer-5, not-4)
+root(ROOT-0, offer-5)
+advmod(fit-8, quite-6)
+det(fit-8, the-7)
+dobj(offer-5, fit-8)
+dobj(offer-5, finish-10)
+conj_and(fit-8, finish-10)
+discourse(fit-8, say-13)
+det(BMW-16, a-15)
+prep_of(fit-8, BMW-16)
+prep_of(fit-8, Ducati-18)
+conj_or(BMW-16, Ducati-18)
+
+Sentence #17 (9 tokens):
+But neither does it command the same MSRP.
+[Text=But CharacterOffsetBegin=1616 CharacterOffsetEnd=1619 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=neither CharacterOffsetBegin=1620 CharacterOffsetEnd=1627 PartOfSpeech=DT Lemma=neither NamedEntityTag=O] [Text=does CharacterOffsetBegin=1628 CharacterOffsetEnd=1632 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=it CharacterOffsetBegin=1633 CharacterOffsetEnd=1635 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=command CharacterOffsetBegin=1636 CharacterOffsetEnd=1643 PartOfSpeech=VB Lemma=command NamedEntityTag=O] [Text=the CharacterOffsetBegin=1644 CharacterOffsetEnd=1647 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=same CharacterOffsetBegin=1648 CharacterOffsetEnd=1652 PartOfSpeech=JJ Lemma=same NamedEntityTag=O] [Text=MSRP CharacterOffsetBegin=1653 CharacterOffsetEnd=1657 PartOfSpeech=NN Lemma=msrp NamedEntityTag=O] [Text=. CharacterOffsetBegin=1657 CharacterOffsetEnd=1658 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (DT neither))
+    (VP (VBZ does)
+      (S
+        (NP (PRP it))
+        (VP (VB command)
+          (NP (DT the) (JJ same) (NN MSRP)))))
+    (. .)))
+
+cc(does-3, But-1)
+nsubj(does-3, neither-2)
+root(ROOT-0, does-3)
+nsubj(command-5, it-4)
+ccomp(does-3, command-5)
+det(MSRP-8, the-6)
+amod(MSRP-8, same-7)
+dobj(command-5, MSRP-8)
+
+Sentence #18 (10 tokens):
+This one is designed to move at $11,999.
+[Text=This CharacterOffsetBegin=1659 CharacterOffsetEnd=1663 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=one CharacterOffsetBegin=1664 CharacterOffsetEnd=1667 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=is CharacterOffsetBegin=1668 CharacterOffsetEnd=1670 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=designed CharacterOffsetBegin=1671 CharacterOffsetEnd=1679 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=to CharacterOffsetBegin=1680 CharacterOffsetEnd=1682 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=move CharacterOffsetBegin=1683 CharacterOffsetEnd=1687 PartOfSpeech=VB Lemma=move NamedEntityTag=O] [Text=at CharacterOffsetBegin=1688 CharacterOffsetEnd=1690 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1691 CharacterOffsetEnd=1692 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$11999.0] [Text=11,999 CharacterOffsetBegin=1692 CharacterOffsetEnd=1698 PartOfSpeech=CD Lemma=11,999 NamedEntityTag=MONEY NormalizedNamedEntityTag=$11999.0] [Text=. CharacterOffsetBegin=1698 CharacterOffsetEnd=1699 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT This) (CD one))
+    (VP (VBZ is)
+      (VP (VBN designed)
+        (S
+          (VP (TO to)
+            (VP (VB move)
+              (PP (IN at)
+                (NP ($ $) (CD 11,999))))))))
+    (. .)))
+
+det(one-2, This-1)
+nsubjpass(designed-4, one-2)
+xsubj(move-6, one-2)
+auxpass(designed-4, is-3)
+root(ROOT-0, designed-4)
+aux(move-6, to-5)
+xcomp(designed-4, move-6)
+prep_at(move-6, $-8)
+num($-8, 11,999-9)
+
+Coreference set:
+	(2,3,[3,4)) -> (1,5,[5,6)), that is: "Kawasaki" -> "Kawasaki"
+Coreference set:
+	(2,6,[6,7)) -> (2,2,[2,3)), that is: "its" -> "2014"
+	(15,2,[2,3)) -> (2,2,[2,3)), that is: "2014" -> "2014"
+Coreference set:
+	(5,2,[1,3)) -> (2,8,[6,9)), that is: "The Z1000" -> "its heralded Z1000"
+	(5,4,[4,5)) -> (2,8,[6,9)), that is: "itself" -> "its heralded Z1000"
+	(6,1,[1,2)) -> (2,8,[6,9)), that is: "It" -> "its heralded Z1000"
+	(11,9,[8,11)) -> (2,8,[6,9)), that is: "the Z1000 's" -> "its heralded Z1000"
+	(12,2,[1,4)) -> (2,8,[6,9)), that is: "The Z1000 's" -> "its heralded Z1000"
+Coreference set:
+	(4,1,[1,2)) -> (3,13,[12,14)), that is: "They" -> "motorcycle journalists"
+Coreference set:
+	(7,11,[11,12)) -> (7,3,[3,4)), that is: "60" -> "60"
+Coreference set:
+	(7,18,[18,19)) -> (7,1,[1,4)), that is: "zero" -> "Zero to 60"
+Coreference set:
+	(9,11,[11,12)) -> (9,11,[11,29)), that is: "Batman-meets-Antman" -> "Batman-meets-Antman , with an attitude that 's somewhere between testy and really ticked off on the anger scale"
+Coreference set:
+	(9,30,[30,31)) -> (9,3,[2,9)), that is: "it" -> "a bike with such a radical look"
+	(9,41,[41,42)) -> (9,3,[2,9)), that is: "it" -> "a bike with such a radical look"
+	(10,3,[3,4)) -> (9,3,[2,9)), that is: "it" -> "a bike with such a radical look"
+	(14,2,[1,3)) -> (9,3,[2,9)), that is: "The bike" -> "a bike with such a radical look"
+	(16,2,[1,3)) -> (9,3,[2,9)), that is: "The bike" -> "a bike with such a radical look"
+Coreference set:
+	(10,7,[6,9)) -> (10,7,[6,20)), that is: "the Ninja 1000" -> "the Ninja 1000 , which I found twitchy and somewhat difficult to throttle comfortably"
+Coreference set:
+	(10,11,[11,12)) -> (10,1,[1,2)), that is: "I" -> "I"
+Coreference set:
+	(11,6,[5,17)) -> (11,2,[2,4)), that is: "the result of the Z1000 's new ECU settings and intake cams" -> "This may"
+	(11,6,[5,14)) -> (11,2,[2,4)), that is: "the result of the Z1000 's new ECU settings" -> "This may"
+Coreference set:
+	(14,10,[7,21)) -> (14,10,[7,45)), that is: "a nice close gearbox with a new , taller sixth gear for freeway riding" -> "a nice close gearbox with a new , taller sixth gear for freeway riding , and a seat that 's comfortable enough for an hour of canyon carving but not comfortable enough to contemplate any serious long-distance journeys"
+	(14,24,[23,45)) -> (14,10,[7,45)), that is: "a seat that 's comfortable enough for an hour of canyon carving but not comfortable enough to contemplate any serious long-distance journeys" -> "a nice close gearbox with a new , taller sixth gear for freeway riding , and a seat that 's comfortable enough for an hour of canyon carving but not comfortable enough to contemplate any serious long-distance journeys"
+Coreference set:
+	(15,9,[8,10)) -> (15,13,[11,14)), that is: "new brakes" -> "new aluminum wheels"
+Coreference set:
+	(15,18,[15,19)) -> (15,18,[15,26)), that is: "newly enlarged gas tank" -> "newly enlarged gas tank , and a new instrument cluster that"
+	(15,24,[21,26)) -> (15,18,[15,26)), that is: "a new instrument cluster that" -> "newly enlarged gas tank , and a new instrument cluster that"
+Coreference set:
+	(17,4,[4,5)) -> (17,2,[2,3)), that is: "it" -> "neither"

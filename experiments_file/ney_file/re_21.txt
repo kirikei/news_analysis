@@ -1,0 +1,984 @@
+Sentence #1 (24 tokens):
+"As incredible as it seems, the ball came in hard and it ended up hitting my mustache," Fred said.
+[Text=`` CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=As CharacterOffsetBegin=1 CharacterOffsetEnd=3 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=incredible CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=JJ Lemma=incredible NamedEntityTag=O] [Text=as CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=it CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=seems CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O] [Text=, CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ball CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=NN Lemma=ball NamedEntityTag=O] [Text=came CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=VBD Lemma=come NamedEntityTag=O] [Text=in CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=hard CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=and CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=it CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=ended CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=up CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=hitting CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=VBG Lemma=hit NamedEntityTag=O] [Text=my CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=mustache CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=mustache NamedEntityTag=O] [Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (PP (IN As)
+        (ADJP (JJ incredible)))
+      (S
+        (SBAR (IN as)
+          (S
+            (NP (PRP it))
+            (VP (VBZ seems))))
+        (, ,)
+        (NP (DT the) (NN ball))
+        (VP (VBD came)
+          (PP (IN in)
+            (ADJP (JJ hard)))))
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBD ended)
+          (S
+            (ADVP (RB up))
+            (VP (VBG hitting)
+              (NP (PRP$ my) (NN mustache)))))))
+    (, ,) ('' '')
+    (NP (NNP Fred))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-23)
+prep_as(came-10, incredible-3)
+mark(seems-6, as-4)
+nsubj(seems-6, it-5)
+advcl(came-10, seems-6)
+det(ball-9, the-8)
+nsubj(came-10, ball-9)
+ccomp(said-23, came-10)
+prep_in(came-10, hard-12)
+nsubj(ended-15, it-14)
+conj_and(came-10, ended-15)
+advmod(hitting-17, up-16)
+xcomp(ended-15, hitting-17)
+poss(mustache-19, my-18)
+dobj(hitting-17, mustache-19)
+nsubj(said-23, Fred-22)
+
+Sentence #2 (8 tokens):
+"It was a mustache goal."
+[Text=`` CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=mustache CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=NN Lemma=mustache NamedEntityTag=O] [Text=goal CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (DT a) (NN mustache) (NN goal)))
+    (. .) ('' '')))
+
+root(ROOT-0, goal-6)
+nsubj(goal-6, It-2)
+cop(goal-6, was-3)
+det(goal-6, a-4)
+nn(goal-6, mustache-5)
+
+Sentence #3 (26 tokens):
+Teammate Neymar said he was the one who told Fred not to shave his upper lip, predicting it might turn things in his favor.
+[Text=Teammate CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=teammate NamedEntityTag=O] [Text=Neymar CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Neymar NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=he CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=one CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=NN Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=who CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=told CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=not CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=to CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=shave CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=VB Lemma=shave NamedEntityTag=O] [Text=his CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=upper CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=JJ Lemma=upper NamedEntityTag=O] [Text=lip CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NN Lemma=lip NamedEntityTag=O] [Text=, CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=predicting CharacterOffsetBegin=204 CharacterOffsetEnd=214 PartOfSpeech=VBG Lemma=predict NamedEntityTag=O] [Text=it CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=might CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=MD Lemma=might NamedEntityTag=O] [Text=turn CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=VB Lemma=turn NamedEntityTag=O] [Text=things CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O] [Text=in CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=favor CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NN Lemma=favor NamedEntityTag=O] [Text=. CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Teammate) (NNP Neymar))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (NP
+              (NP (DT the) (NN one))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD told)
+                    (S
+                      (NP (NNP Fred))
+                      (RB not)
+                      (VP (TO to)
+                        (VP (VB shave)
+                          (NP (PRP$ his) (JJ upper) (NN lip)))))
+                    (, ,)
+                    (S
+                      (VP (VBG predicting)
+                        (SBAR
+                          (S
+                            (NP (PRP it))
+                            (VP (MD might)
+                              (VP (VB turn)
+                                (NP (NNS things))
+                                (PP (IN in)
+                                  (NP (PRP$ his) (NN favor)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-3)
+nn(Neymar-2, Teammate-1)
+nsubj(said-3, Neymar-2)
+nsubj(one-7, he-4)
+cop(one-7, was-5)
+det(one-7, the-6)
+ccomp(said-3, one-7)
+nsubj(told-9, who-8)
+rcmod(one-7, told-9)
+nsubj(shave-13, Fred-10)
+neg(shave-13, not-11)
+aux(shave-13, to-12)
+xcomp(told-9, shave-13)
+poss(lip-16, his-14)
+amod(lip-16, upper-15)
+dobj(shave-13, lip-16)
+xcomp(told-9, predicting-18)
+nsubj(turn-21, it-19)
+aux(turn-21, might-20)
+ccomp(predicting-18, turn-21)
+dobj(turn-21, things-22)
+poss(favor-25, his-24)
+prep_in(turn-21, favor-25)
+
+Sentence #4 (32 tokens):
+"I said, 'Come on, Fred, if you leave the mustache you are going to score, the mustache never fails,'" Neymar later explained.
+[Text=`` CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=said CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=` CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=Come CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=VB Lemma=come NamedEntityTag=O] [Text=on CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=, CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=if CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=leave CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=VBP Lemma=leave NamedEntityTag=O] [Text=the CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mustache CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=NN Lemma=mustache NamedEntityTag=O] [Text=you CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=score CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=score NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0] [Text=, CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mustache CharacterOffsetBegin=330 CharacterOffsetEnd=338 PartOfSpeech=NN Lemma=mustache NamedEntityTag=O] [Text=never CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=fails CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=VBZ Lemma=fail NamedEntityTag=O] [Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=' CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech='' Lemma=' NamedEntityTag=O] [Text='' CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Neymar CharacterOffsetBegin=354 CharacterOffsetEnd=360 PartOfSpeech=NNP Lemma=Neymar NamedEntityTag=O] [Text=later CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=RB Lemma=later NamedEntityTag=O] [Text=explained CharacterOffsetBegin=367 CharacterOffsetEnd=376 PartOfSpeech=VBD Lemma=explain NamedEntityTag=O] [Text=. CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBD said) (, ,) (`` `)
+        (S
+          (S
+            (VP (VB Come)
+              (PP (IN on))))
+          (, ,)
+          (S
+            (NP (NNP Fred))
+            (, ,)
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (VP (VBP leave)
+                  (NP
+                    (NP (DT the) (NN mustache))
+                    (SBAR
+                      (S
+                        (NP (PRP you))
+                        (VP (VBP are)
+                          (VP (VBG going)
+                            (PP (TO to)
+                              (NP (NN score)))))))))))
+            (, ,)
+            (NP (DT the) (NN mustache))
+            (ADVP (RB never))
+            (VP (VBZ fails))))))
+    (, ,) ('' ') ('' '')
+    (NP (NNP Neymar))
+    (VP
+      (ADVP (RB later))
+      (VBD explained))
+    (. .)))
+
+root(ROOT-0, explained-31)
+nsubj(said-3, I-2)
+ccomp(explained-31, said-3)
+dep(said-3, Come-6)
+prep(Come-6, on-7)
+nsubj(fails-25, Fred-9)
+mark(leave-13, if-11)
+nsubj(leave-13, you-12)
+advcl(fails-25, leave-13)
+det(mustache-15, the-14)
+dobj(leave-13, mustache-15)
+nsubj(going-18, you-16)
+aux(going-18, are-17)
+rcmod(mustache-15, going-18)
+prep_to(going-18, score-20)
+det(mustache-23, the-22)
+nsubj(fails-25, mustache-23)
+neg(fails-25, never-24)
+parataxis(Come-6, fails-25)
+nsubj(explained-31, Neymar-29)
+advmod(explained-31, later-30)
+
+Sentence #5 (25 tokens):
+"After he scored I went to him and I said, 'See, I told you that it never fails.'"
+[Text=`` CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=After CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=scored CharacterOffsetBegin=388 CharacterOffsetEnd=394 PartOfSpeech=VBD Lemma=score NamedEntityTag=O] [Text=I CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=went CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=him CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=and CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=said CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=` CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=See CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=, CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=told CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=you CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=that CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=never CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=fails CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=VBZ Lemma=fail NamedEntityTag=O] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=' CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech='' Lemma=' NamedEntityTag=O] [Text='' CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (SBAR (IN After)
+      (S
+        (NP (PRP he))
+        (VP (VBD scored)
+          (SBAR
+            (S
+              (S
+                (NP (PRP I))
+                (VP (VBD went)
+                  (PP (TO to)
+                    (NP (PRP him)))))
+              (CC and)
+              (S
+                (NP (PRP I))
+                (VP (VBD said) (, ,) (`` `)
+                  (S
+                    (VP (VB See))))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD told)
+      (NP (PRP you))
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (ADVP (RB never))
+          (VP (VBZ fails)))))
+    (. .) ('' ') ('' '')))
+
+root(ROOT-0, told-17)
+mark(scored-4, After-2)
+nsubj(scored-4, he-3)
+advcl(told-17, scored-4)
+nsubj(went-6, I-5)
+dep(scored-4, went-6)
+prep_to(went-6, him-8)
+nsubj(said-11, I-10)
+conj_and(went-6, said-11)
+ccomp(said-11, See-14)
+nsubj(told-17, I-16)
+dobj(told-17, you-18)
+mark(fails-22, that-19)
+nsubj(fails-22, it-20)
+neg(fails-22, never-21)
+ccomp(told-17, fails-22)
+
+Sentence #6 (21 tokens):
+Fans and local media had been loudly criticizing the Fluminense striker because of his poor performances at the World Cup.
+[Text=Fans CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=and CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=local CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=media CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=had CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=loudly CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=RB Lemma=loudly NamedEntityTag=O] [Text=criticizing CharacterOffsetBegin=499 CharacterOffsetEnd=510 PartOfSpeech=VBG Lemma=criticize NamedEntityTag=O] [Text=the CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Fluminense CharacterOffsetBegin=515 CharacterOffsetEnd=525 PartOfSpeech=NNP Lemma=Fluminense NamedEntityTag=ORGANIZATION] [Text=striker CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=NN Lemma=striker NamedEntityTag=O] [Text=because CharacterOffsetBegin=534 CharacterOffsetEnd=541 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=of CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=his CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=poor CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=JJ Lemma=poor NamedEntityTag=O] [Text=performances CharacterOffsetBegin=554 CharacterOffsetEnd=566 PartOfSpeech=NNS Lemma=performance NamedEntityTag=O] [Text=at CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Fans))
+      (CC and)
+      (NP (JJ local) (NNS media)))
+    (VP (VBD had)
+      (VP (VBN been)
+        (ADVP (RB loudly)
+          (S
+            (VP (VBG criticizing)
+              (NP (DT the) (NNP Fluminense) (NN striker))
+              (PP (IN because) (IN of)
+                (NP
+                  (NP (PRP$ his) (JJ poor) (NNS performances))
+                  (PP (IN at)
+                    (NP (DT the) (NNP World) (NNP Cup))))))))))
+    (. .)))
+
+root(ROOT-0, been-6)
+nsubj(been-6, Fans-1)
+amod(media-4, local-3)
+conj_and(Fans-1, media-4)
+aux(been-6, had-5)
+advmod(been-6, loudly-7)
+dep(loudly-7, criticizing-8)
+det(striker-11, the-9)
+nn(striker-11, Fluminense-10)
+dobj(criticizing-8, striker-11)
+poss(performances-16, his-14)
+amod(performances-16, poor-15)
+prep_because_of(criticizing-8, performances-16)
+det(Cup-20, the-18)
+nn(Cup-20, World-19)
+prep_at(performances-16, Cup-20)
+
+Sentence #7 (12 tokens):
+"Thank God that ball went in," Fred said.
+[Text=`` CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Thank CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=VB Lemma=thank NamedEntityTag=O] [Text=God CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=NNP Lemma=God NamedEntityTag=O] [Text=that CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=ball CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=NN Lemma=ball NamedEntityTag=O] [Text=went CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=in CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=, CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=622 CharacterOffsetEnd=626 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (VP (VB Thank)
+        (NP (NNP God))
+        (SBAR (IN that)
+          (S
+            (NP (NN ball))
+            (VP (VBD went)
+              (PP (IN in)))))))
+    (, ,) ('' '')
+    (NP (NNP Fred))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-11)
+ccomp(said-11, Thank-2)
+dobj(Thank-2, God-3)
+mark(went-6, that-4)
+nsubj(went-6, ball-5)
+ccomp(Thank-2, went-6)
+prep(went-6, in-7)
+nsubj(said-11, Fred-10)
+
+Sentence #8 (11 tokens):
+"The critics were piling a heavy load on me.
+[Text=`` CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=critics CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NNS Lemma=critic NamedEntityTag=O] [Text=were CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=piling CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=VBG Lemma=pile NamedEntityTag=O] [Text=a CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=heavy CharacterOffsetBegin=655 CharacterOffsetEnd=660 PartOfSpeech=JJ Lemma=heavy NamedEntityTag=O] [Text=load CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=NN Lemma=load NamedEntityTag=O] [Text=on CharacterOffsetBegin=666 CharacterOffsetEnd=668 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=me CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=. CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (DT The) (NNS critics))
+    (VP (VBD were)
+      (VP (VBG piling)
+        (NP (DT a) (JJ heavy) (NN load))
+        (PP (IN on)
+          (NP (PRP me)))))
+    (. .)))
+
+root(ROOT-0, piling-5)
+det(critics-3, The-2)
+nsubj(piling-5, critics-3)
+aux(piling-5, were-4)
+det(load-8, a-6)
+amod(load-8, heavy-7)
+dobj(piling-5, load-8)
+prep_on(piling-5, me-10)
+
+Sentence #9 (7 tokens):
+I just tried to stay calm.
+[Text=I CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=just CharacterOffsetBegin=675 CharacterOffsetEnd=679 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=tried CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=VBD Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=686 CharacterOffsetEnd=688 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stay CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=VB Lemma=stay NamedEntityTag=O] [Text=calm CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=JJ Lemma=calm NamedEntityTag=O] [Text=. CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB just))
+    (VP (VBD tried)
+      (S
+        (VP (TO to)
+          (VP (VB stay)
+            (ADJP (JJ calm))))))
+    (. .)))
+
+root(ROOT-0, tried-3)
+nsubj(tried-3, I-1)
+advmod(tried-3, just-2)
+aux(calm-6, to-4)
+cop(calm-6, stay-5)
+xcomp(tried-3, calm-6)
+
+Sentence #10 (14 tokens):
+The squad was great with me, I need to thank everyone."
+[Text=The CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=squad CharacterOffsetBegin=704 CharacterOffsetEnd=709 PartOfSpeech=NN Lemma=squad NamedEntityTag=O] [Text=was CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=great CharacterOffsetBegin=714 CharacterOffsetEnd=719 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=with CharacterOffsetBegin=720 CharacterOffsetEnd=724 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=me CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=, CharacterOffsetBegin=727 CharacterOffsetEnd=728 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=need CharacterOffsetBegin=731 CharacterOffsetEnd=735 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=thank CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=VB Lemma=thank NamedEntityTag=O] [Text=everyone CharacterOffsetBegin=745 CharacterOffsetEnd=753 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O] [Text=. CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN squad))
+      (VP (VBD was)
+        (ADJP (JJ great)
+          (PP (IN with)
+            (NP (PRP me))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB thank)
+            (NP (NN everyone))))))
+    (. .) ('' '')))
+
+root(ROOT-0, need-9)
+det(squad-2, The-1)
+nsubj(great-4, squad-2)
+cop(great-4, was-3)
+ccomp(need-9, great-4)
+prep_with(great-4, me-6)
+nsubj(need-9, I-8)
+aux(thank-11, to-10)
+xcomp(need-9, thank-11)
+dobj(thank-11, everyone-12)
+
+Sentence #11 (19 tokens):
+Brazil coach Luiz Felipe Scolari said the goal will help Fred play better the rest of the tournament.
+[Text=Brazil CharacterOffsetBegin=757 CharacterOffsetEnd=763 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=coach CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Luiz CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=NNP Lemma=Luiz NamedEntityTag=PERSON] [Text=Felipe CharacterOffsetBegin=775 CharacterOffsetEnd=781 PartOfSpeech=NNP Lemma=Felipe NamedEntityTag=PERSON] [Text=Scolari CharacterOffsetBegin=782 CharacterOffsetEnd=789 PartOfSpeech=NNP Lemma=Scolari NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=790 CharacterOffsetEnd=794 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=795 CharacterOffsetEnd=798 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=goal CharacterOffsetBegin=799 CharacterOffsetEnd=803 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=will CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=help CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=play CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=better CharacterOffsetBegin=824 CharacterOffsetEnd=830 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=the CharacterOffsetBegin=831 CharacterOffsetEnd=834 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=rest CharacterOffsetBegin=835 CharacterOffsetEnd=839 PartOfSpeech=NN Lemma=rest NamedEntityTag=O] [Text=of CharacterOffsetBegin=840 CharacterOffsetEnd=842 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tournament CharacterOffsetBegin=847 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text=. CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Brazil) (NN coach) (NNP Luiz) (NNP Felipe) (NNP Scolari))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (NN goal))
+          (VP (MD will)
+            (VP (VB help)
+              (S
+                (NP (NNP Fred))
+                (VP (VB play)
+                  (S
+                    (ADJP (JJR better))
+                    (NP
+                      (NP (DT the) (NN rest))
+                      (PP (IN of)
+                        (NP (DT the) (NN tournament))))))))))))
+    (. .)))
+
+root(ROOT-0, said-6)
+nn(Scolari-5, Brazil-1)
+nn(Scolari-5, coach-2)
+nn(Scolari-5, Luiz-3)
+nn(Scolari-5, Felipe-4)
+nsubj(said-6, Scolari-5)
+det(goal-8, the-7)
+nsubj(help-10, goal-8)
+aux(help-10, will-9)
+ccomp(said-6, help-10)
+nsubj(play-12, Fred-11)
+ccomp(help-10, play-12)
+acomp(play-12, better-13)
+det(rest-15, the-14)
+dep(better-13, rest-15)
+det(tournament-18, the-17)
+prep_of(rest-15, tournament-18)
+
+Sentence #12 (18 tokens):
+"We knew that Fred was anxious because he hadn't scored yet," he said.
+[Text=`` CharacterOffsetBegin=860 CharacterOffsetEnd=861 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=861 CharacterOffsetEnd=863 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=knew CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=VBD Lemma=know NamedEntityTag=O] [Text=that CharacterOffsetBegin=869 CharacterOffsetEnd=873 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=874 CharacterOffsetEnd=878 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=879 CharacterOffsetEnd=882 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=anxious CharacterOffsetBegin=883 CharacterOffsetEnd=890 PartOfSpeech=JJ Lemma=anxious NamedEntityTag=O] [Text=because CharacterOffsetBegin=891 CharacterOffsetEnd=898 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=he CharacterOffsetBegin=899 CharacterOffsetEnd=901 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=902 CharacterOffsetEnd=905 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=n't CharacterOffsetBegin=905 CharacterOffsetEnd=908 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=scored CharacterOffsetBegin=909 CharacterOffsetEnd=915 PartOfSpeech=VBN Lemma=score NamedEntityTag=O] [Text=yet CharacterOffsetBegin=916 CharacterOffsetEnd=919 PartOfSpeech=RB Lemma=yet NamedEntityTag=O] [Text=, CharacterOffsetBegin=919 CharacterOffsetEnd=920 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=920 CharacterOffsetEnd=921 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=he CharacterOffsetBegin=922 CharacterOffsetEnd=924 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=925 CharacterOffsetEnd=929 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=929 CharacterOffsetEnd=930 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP We))
+      (VP (VBD knew)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Fred))
+            (VP (VBD was)
+              (ADJP (JJ anxious))
+              (SBAR (IN because)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD had) (RB n't)
+                    (VP (VBN scored)
+                      (ADVP (RB yet)))))))))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-17)
+nsubj(knew-3, We-2)
+ccomp(said-17, knew-3)
+mark(anxious-7, that-4)
+nsubj(anxious-7, Fred-5)
+cop(anxious-7, was-6)
+ccomp(knew-3, anxious-7)
+mark(scored-12, because-8)
+nsubj(scored-12, he-9)
+aux(scored-12, had-10)
+neg(scored-12, n't-11)
+advcl(anxious-7, scored-12)
+advmod(scored-12, yet-13)
+nsubj(said-17, he-16)
+
+Sentence #13 (32 tokens):
+It wasn't the first World Cup goal for the 30-year-old Fred, who had scored as a youngster when he was in the squad in the 2006 tournament in Germany.
+[Text=It CharacterOffsetBegin=932 CharacterOffsetEnd=934 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=935 CharacterOffsetEnd=938 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=938 CharacterOffsetEnd=941 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=the CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=946 CharacterOffsetEnd=951 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=World CharacterOffsetBegin=952 CharacterOffsetEnd=957 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=958 CharacterOffsetEnd=961 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=goal CharacterOffsetBegin=962 CharacterOffsetEnd=966 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=for CharacterOffsetBegin=967 CharacterOffsetEnd=970 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=30-year-old CharacterOffsetBegin=975 CharacterOffsetEnd=986 PartOfSpeech=JJ Lemma=30-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P30Y Timex=<TIMEX3 tid="t1" type="DURATION" value="P30Y">30-year-old</TIMEX3>] [Text=Fred CharacterOffsetBegin=987 CharacterOffsetEnd=991 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=991 CharacterOffsetEnd=992 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=993 CharacterOffsetEnd=996 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=had CharacterOffsetBegin=997 CharacterOffsetEnd=1000 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=scored CharacterOffsetBegin=1001 CharacterOffsetEnd=1007 PartOfSpeech=VBN Lemma=score NamedEntityTag=O] [Text=as CharacterOffsetBegin=1008 CharacterOffsetEnd=1010 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=1011 CharacterOffsetEnd=1012 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=youngster CharacterOffsetBegin=1013 CharacterOffsetEnd=1022 PartOfSpeech=NN Lemma=youngster NamedEntityTag=O] [Text=when CharacterOffsetBegin=1023 CharacterOffsetEnd=1027 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=he CharacterOffsetBegin=1028 CharacterOffsetEnd=1030 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=1031 CharacterOffsetEnd=1034 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=1035 CharacterOffsetEnd=1037 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1038 CharacterOffsetEnd=1041 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=squad CharacterOffsetBegin=1042 CharacterOffsetEnd=1047 PartOfSpeech=NN Lemma=squad NamedEntityTag=O] [Text=in CharacterOffsetBegin=1048 CharacterOffsetEnd=1050 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1051 CharacterOffsetEnd=1054 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2006 CharacterOffsetBegin=1055 CharacterOffsetEnd=1059 PartOfSpeech=CD Lemma=2006 NamedEntityTag=DATE NormalizedNamedEntityTag=2006 Timex=<TIMEX3 tid="t2" type="DATE" value="2006">2006</TIMEX3>] [Text=tournament CharacterOffsetBegin=1060 CharacterOffsetEnd=1070 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text=in CharacterOffsetBegin=1071 CharacterOffsetEnd=1073 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Germany CharacterOffsetBegin=1074 CharacterOffsetEnd=1081 PartOfSpeech=NNP Lemma=Germany NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1081 CharacterOffsetEnd=1082 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was) (RB n't)
+      (NP
+        (NP (DT the) (JJ first) (NNP World) (NNP Cup) (NN goal))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (JJ 30-year-old) (NNP Fred))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD had)
+                  (VP (VBN scored)
+                    (PP (IN as)
+                      (NP
+                        (NP (DT a) (NN youngster))
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP he))
+                            (VP (VBD was)
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT the) (NN squad))
+                                  (PP (IN in)
+                                    (NP
+                                      (NP (DT the) (CD 2006) (NN tournament))
+                                      (PP (IN in)
+                                        (NP (NNP Germany))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, goal-8)
+nsubj(goal-8, It-1)
+cop(goal-8, was-2)
+neg(goal-8, n't-3)
+det(goal-8, the-4)
+amod(goal-8, first-5)
+nn(goal-8, World-6)
+nn(goal-8, Cup-7)
+det(Fred-12, the-10)
+amod(Fred-12, 30-year-old-11)
+prep_for(goal-8, Fred-12)
+nsubj(scored-16, who-14)
+aux(scored-16, had-15)
+rcmod(Fred-12, scored-16)
+det(youngster-19, a-18)
+prep_as(scored-16, youngster-19)
+advmod(was-22, when-20)
+nsubj(was-22, he-21)
+rcmod(youngster-19, was-22)
+det(squad-25, the-24)
+prep_in(was-22, squad-25)
+det(tournament-29, the-27)
+num(tournament-29, 2006-28)
+prep_in(squad-25, tournament-29)
+prep_in(tournament-29, Germany-31)
+
+Sentence #14 (25 tokens):
+It was his first goal since the warm-up match against Serbia just before this tournament, and his 18th in 37 matches with Brazil.
+[Text=It CharacterOffsetBegin=1084 CharacterOffsetEnd=1086 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1087 CharacterOffsetEnd=1090 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=his CharacterOffsetBegin=1091 CharacterOffsetEnd=1094 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=first CharacterOffsetBegin=1095 CharacterOffsetEnd=1100 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=goal CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=since CharacterOffsetBegin=1106 CharacterOffsetEnd=1111 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=the CharacterOffsetBegin=1112 CharacterOffsetEnd=1115 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=warm-up CharacterOffsetBegin=1116 CharacterOffsetEnd=1123 PartOfSpeech=NN Lemma=warm-up NamedEntityTag=O] [Text=match CharacterOffsetBegin=1124 CharacterOffsetEnd=1129 PartOfSpeech=NN Lemma=match NamedEntityTag=O] [Text=against CharacterOffsetBegin=1130 CharacterOffsetEnd=1137 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Serbia CharacterOffsetBegin=1138 CharacterOffsetEnd=1144 PartOfSpeech=NNP Lemma=Serbia NamedEntityTag=LOCATION] [Text=just CharacterOffsetBegin=1145 CharacterOffsetEnd=1149 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=before CharacterOffsetBegin=1150 CharacterOffsetEnd=1156 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=this CharacterOffsetBegin=1157 CharacterOffsetEnd=1161 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=tournament CharacterOffsetBegin=1162 CharacterOffsetEnd=1172 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text=, CharacterOffsetBegin=1172 CharacterOffsetEnd=1173 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1174 CharacterOffsetEnd=1177 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=his CharacterOffsetBegin=1178 CharacterOffsetEnd=1181 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=18th CharacterOffsetBegin=1182 CharacterOffsetEnd=1186 PartOfSpeech=JJ Lemma=18th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=18.0] [Text=in CharacterOffsetBegin=1187 CharacterOffsetEnd=1189 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=37 CharacterOffsetBegin=1190 CharacterOffsetEnd=1192 PartOfSpeech=CD Lemma=37 NamedEntityTag=NUMBER NormalizedNamedEntityTag=37.0] [Text=matches CharacterOffsetBegin=1193 CharacterOffsetEnd=1200 PartOfSpeech=NNS Lemma=match NamedEntityTag=O] [Text=with CharacterOffsetBegin=1201 CharacterOffsetEnd=1205 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=1206 CharacterOffsetEnd=1212 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1212 CharacterOffsetEnd=1213 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ his) (JJ first) (NN goal))
+        (PP (IN since)
+          (NP
+            (NP (DT the) (NN warm-up) (NN match))
+            (PP (IN against)
+              (NP (NNP Serbia))))))
+      (PP (RB just) (IN before)
+        (NP
+          (NP (DT this) (NN tournament))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (PRP$ his) (JJ 18th))
+            (PP (IN in)
+              (NP
+                (NP (CD 37) (NNS matches))
+                (PP (IN with)
+                  (NP (NNP Brazil)))))))))
+    (. .)))
+
+root(ROOT-0, goal-5)
+nsubj(goal-5, It-1)
+cop(goal-5, was-2)
+poss(goal-5, his-3)
+amod(goal-5, first-4)
+det(match-9, the-7)
+nn(match-9, warm-up-8)
+prep_since(goal-5, match-9)
+prep_against(match-9, Serbia-11)
+advmod(goal-5, just-12)
+det(tournament-15, this-14)
+prep_before(goal-5, tournament-15)
+poss(18th-19, his-18)
+conj_and(tournament-15, 18th-19)
+num(matches-22, 37-21)
+prep_in(18th-19, matches-22)
+prep_with(matches-22, Brazil-24)
+
+Sentence #15 (15 tokens):
+Neymar is the leading scorer in this squad with 35 goals in 52 matches.
+[Text=Neymar CharacterOffsetBegin=1214 CharacterOffsetEnd=1220 PartOfSpeech=NNP Lemma=Neymar NamedEntityTag=O] [Text=is CharacterOffsetBegin=1221 CharacterOffsetEnd=1223 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1224 CharacterOffsetEnd=1227 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=leading CharacterOffsetBegin=1228 CharacterOffsetEnd=1235 PartOfSpeech=VBG Lemma=lead NamedEntityTag=O] [Text=scorer CharacterOffsetBegin=1236 CharacterOffsetEnd=1242 PartOfSpeech=NN Lemma=scorer NamedEntityTag=O] [Text=in CharacterOffsetBegin=1243 CharacterOffsetEnd=1245 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=1246 CharacterOffsetEnd=1250 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=squad CharacterOffsetBegin=1251 CharacterOffsetEnd=1256 PartOfSpeech=NN Lemma=squad NamedEntityTag=O] [Text=with CharacterOffsetBegin=1257 CharacterOffsetEnd=1261 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=35 CharacterOffsetBegin=1262 CharacterOffsetEnd=1264 PartOfSpeech=CD Lemma=35 NamedEntityTag=NUMBER NormalizedNamedEntityTag=35.0] [Text=goals CharacterOffsetBegin=1265 CharacterOffsetEnd=1270 PartOfSpeech=NNS Lemma=goal NamedEntityTag=O] [Text=in CharacterOffsetBegin=1271 CharacterOffsetEnd=1273 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=52 CharacterOffsetBegin=1274 CharacterOffsetEnd=1276 PartOfSpeech=CD Lemma=52 NamedEntityTag=NUMBER NormalizedNamedEntityTag=52.0] [Text=matches CharacterOffsetBegin=1277 CharacterOffsetEnd=1284 PartOfSpeech=NNS Lemma=match NamedEntityTag=O] [Text=. CharacterOffsetBegin=1284 CharacterOffsetEnd=1285 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Neymar))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (VBG leading) (NN scorer))
+        (PP (IN in)
+          (NP
+            (NP (DT this) (NN squad))
+            (PP (IN with)
+              (NP
+                (NP (CD 35) (NNS goals))
+                (PP (IN in)
+                  (NP (CD 52) (NNS matches)))))))))
+    (. .)))
+
+root(ROOT-0, scorer-5)
+nsubj(scorer-5, Neymar-1)
+cop(scorer-5, is-2)
+det(scorer-5, the-3)
+amod(scorer-5, leading-4)
+det(squad-8, this-7)
+prep_in(scorer-5, squad-8)
+num(goals-11, 35-10)
+prep_with(squad-8, goals-11)
+num(matches-14, 52-13)
+prep_in(goals-11, matches-14)
+
+Sentence #16 (26 tokens):
+Fred had been going through a similar slump during last year's Confederations Cup, when he also was scoreless in the first two matches.
+[Text=Fred CharacterOffsetBegin=1287 CharacterOffsetEnd=1291 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=had CharacterOffsetBegin=1292 CharacterOffsetEnd=1295 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1296 CharacterOffsetEnd=1300 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=1301 CharacterOffsetEnd=1306 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=1307 CharacterOffsetEnd=1314 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=a CharacterOffsetBegin=1315 CharacterOffsetEnd=1316 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=similar CharacterOffsetBegin=1317 CharacterOffsetEnd=1324 PartOfSpeech=JJ Lemma=similar NamedEntityTag=O] [Text=slump CharacterOffsetBegin=1325 CharacterOffsetEnd=1330 PartOfSpeech=NN Lemma=slump NamedEntityTag=O] [Text=during CharacterOffsetBegin=1331 CharacterOffsetEnd=1337 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=last CharacterOffsetBegin=1338 CharacterOffsetEnd=1342 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t4" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">last year</TIMEX3>] [Text=year CharacterOffsetBegin=1343 CharacterOffsetEnd=1347 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t4" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">last year</TIMEX3>] [Text='s CharacterOffsetBegin=1347 CharacterOffsetEnd=1349 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Confederations CharacterOffsetBegin=1350 CharacterOffsetEnd=1364 PartOfSpeech=NNPS Lemma=Confederations NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=1365 CharacterOffsetEnd=1368 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=1368 CharacterOffsetEnd=1369 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=when CharacterOffsetBegin=1370 CharacterOffsetEnd=1374 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=he CharacterOffsetBegin=1375 CharacterOffsetEnd=1377 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=also CharacterOffsetBegin=1378 CharacterOffsetEnd=1382 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=was CharacterOffsetBegin=1383 CharacterOffsetEnd=1386 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=scoreless CharacterOffsetBegin=1387 CharacterOffsetEnd=1396 PartOfSpeech=JJ Lemma=scoreless NamedEntityTag=O] [Text=in CharacterOffsetBegin=1397 CharacterOffsetEnd=1399 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1400 CharacterOffsetEnd=1403 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=1404 CharacterOffsetEnd=1409 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=two CharacterOffsetBegin=1410 CharacterOffsetEnd=1413 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=matches CharacterOffsetBegin=1414 CharacterOffsetEnd=1421 PartOfSpeech=NNS Lemma=match NamedEntityTag=O] [Text=. CharacterOffsetBegin=1421 CharacterOffsetEnd=1422 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Fred))
+    (VP (VBD had)
+      (VP (VBN been)
+        (VP (VBG going)
+          (PP (IN through)
+            (NP (DT a) (JJ similar) (NN slump)))
+          (PP (IN during)
+            (NP
+              (NP
+                (NP (JJ last) (NN year) (POS 's))
+                (NNPS Confederations) (NNP Cup))
+              (, ,)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP he))
+                  (ADVP (RB also))
+                  (VP (VBD was)
+                    (ADJP (JJ scoreless)
+                      (PP (IN in)
+                        (NP (DT the) (JJ first) (CD two) (NNS matches))))))))))))
+    (. .)))
+
+root(ROOT-0, going-4)
+nsubj(going-4, Fred-1)
+aux(going-4, had-2)
+aux(going-4, been-3)
+det(slump-8, a-6)
+amod(slump-8, similar-7)
+prep_through(going-4, slump-8)
+amod(year-11, last-10)
+poss(Cup-14, year-11)
+nn(Cup-14, Confederations-13)
+prep_during(going-4, Cup-14)
+advmod(scoreless-20, when-16)
+nsubj(scoreless-20, he-17)
+advmod(scoreless-20, also-18)
+cop(scoreless-20, was-19)
+rcmod(Cup-14, scoreless-20)
+det(matches-25, the-22)
+amod(matches-25, first-23)
+num(matches-25, two-24)
+prep_in(scoreless-20, matches-25)
+
+Sentence #17 (25 tokens):
+But he ended the tournament with five goals, including two in the 3-0 win over Spain in the final at the Maracana Stadium.
+[Text=But CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=he CharacterOffsetBegin=1427 CharacterOffsetEnd=1429 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=ended CharacterOffsetBegin=1430 CharacterOffsetEnd=1435 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=the CharacterOffsetBegin=1436 CharacterOffsetEnd=1439 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tournament CharacterOffsetBegin=1440 CharacterOffsetEnd=1450 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text=with CharacterOffsetBegin=1451 CharacterOffsetEnd=1455 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=five CharacterOffsetBegin=1456 CharacterOffsetEnd=1460 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=goals CharacterOffsetBegin=1461 CharacterOffsetEnd=1466 PartOfSpeech=NNS Lemma=goal NamedEntityTag=O] [Text=, CharacterOffsetBegin=1466 CharacterOffsetEnd=1467 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=1468 CharacterOffsetEnd=1477 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=two CharacterOffsetBegin=1478 CharacterOffsetEnd=1481 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=in CharacterOffsetBegin=1482 CharacterOffsetEnd=1484 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=3-0 CharacterOffsetBegin=1489 CharacterOffsetEnd=1492 PartOfSpeech=CD Lemma=3-0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0 - 0.0] [Text=win CharacterOffsetBegin=1493 CharacterOffsetEnd=1496 PartOfSpeech=VBP Lemma=win NamedEntityTag=O] [Text=over CharacterOffsetBegin=1497 CharacterOffsetEnd=1501 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=Spain CharacterOffsetBegin=1502 CharacterOffsetEnd=1507 PartOfSpeech=NNP Lemma=Spain NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=1508 CharacterOffsetEnd=1510 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1511 CharacterOffsetEnd=1514 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=final CharacterOffsetBegin=1515 CharacterOffsetEnd=1520 PartOfSpeech=JJ Lemma=final NamedEntityTag=O] [Text=at CharacterOffsetBegin=1521 CharacterOffsetEnd=1523 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1524 CharacterOffsetEnd=1527 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Maracana CharacterOffsetBegin=1528 CharacterOffsetEnd=1536 PartOfSpeech=NNP Lemma=Maracana NamedEntityTag=O] [Text=Stadium CharacterOffsetBegin=1537 CharacterOffsetEnd=1544 PartOfSpeech=NNP Lemma=Stadium NamedEntityTag=O] [Text=. CharacterOffsetBegin=1544 CharacterOffsetEnd=1545 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBD ended)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN tournament))
+            (PP (IN with)
+              (NP
+                (NP (CD five) (NNS goals))
+                (, ,)
+                (PP (VBG including)
+                  (NP
+                    (NP (CD two))
+                    (PP (IN in)
+                      (NP (DT the) (CD 3-0))))))))
+          (VP (VBP win)
+            (PP (IN over)
+              (NP (NNP Spain)))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (JJ final))
+                (PP (IN at)
+                  (NP (DT the) (NNP Maracana) (NNP Stadium)))))))))
+    (. .)))
+
+root(ROOT-0, ended-3)
+cc(ended-3, But-1)
+nsubj(ended-3, he-2)
+det(tournament-5, the-4)
+nsubj(win-15, tournament-5)
+num(goals-8, five-7)
+prep_with(tournament-5, goals-8)
+prep_including(goals-8, two-11)
+det(3-0-14, the-13)
+prep_in(two-11, 3-0-14)
+ccomp(ended-3, win-15)
+prep_over(win-15, Spain-17)
+det(final-20, the-19)
+prep_in(win-15, final-20)
+det(Stadium-24, the-22)
+nn(Stadium-24, Maracana-23)
+prep_at(final-20, Stadium-24)
+
+Sentence #18 (24 tokens):
+"I started like this in the Confederations Cup and I knew that I could have some trouble again," Fred said.
+[Text=`` CharacterOffsetBegin=1547 CharacterOffsetEnd=1548 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1548 CharacterOffsetEnd=1549 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=started CharacterOffsetBegin=1550 CharacterOffsetEnd=1557 PartOfSpeech=VBD Lemma=start NamedEntityTag=O] [Text=like CharacterOffsetBegin=1558 CharacterOffsetEnd=1562 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=this CharacterOffsetBegin=1563 CharacterOffsetEnd=1567 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=in CharacterOffsetBegin=1568 CharacterOffsetEnd=1570 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1571 CharacterOffsetEnd=1574 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Confederations CharacterOffsetBegin=1575 CharacterOffsetEnd=1589 PartOfSpeech=NNPS Lemma=Confederations NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=1590 CharacterOffsetEnd=1593 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=1594 CharacterOffsetEnd=1597 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=1598 CharacterOffsetEnd=1599 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=knew CharacterOffsetBegin=1600 CharacterOffsetEnd=1604 PartOfSpeech=VBD Lemma=know NamedEntityTag=O] [Text=that CharacterOffsetBegin=1605 CharacterOffsetEnd=1609 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=I CharacterOffsetBegin=1610 CharacterOffsetEnd=1611 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=could CharacterOffsetBegin=1612 CharacterOffsetEnd=1617 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=have CharacterOffsetBegin=1618 CharacterOffsetEnd=1622 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=some CharacterOffsetBegin=1623 CharacterOffsetEnd=1627 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=trouble CharacterOffsetBegin=1628 CharacterOffsetEnd=1635 PartOfSpeech=NN Lemma=trouble NamedEntityTag=O] [Text=again CharacterOffsetBegin=1636 CharacterOffsetEnd=1641 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=, CharacterOffsetBegin=1641 CharacterOffsetEnd=1642 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1642 CharacterOffsetEnd=1643 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Fred CharacterOffsetBegin=1644 CharacterOffsetEnd=1648 PartOfSpeech=NNP Lemma=Fred NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1649 CharacterOffsetEnd=1653 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1653 CharacterOffsetEnd=1654 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP I))
+        (VP (VBD started)
+          (PP (IN like)
+            (NP
+              (NP (DT this))
+              (PP (IN in)
+                (NP (DT the) (NNPS Confederations) (NNP Cup)))))))
+      (CC and)
+      (S
+        (NP (PRP I))
+        (VP (VBD knew)
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (VP (MD could)
+                (VP (VB have)
+                  (NP (DT some) (NN trouble))
+                  (ADVP (RB again)))))))))
+    (, ,) ('' '')
+    (NP (NNP Fred))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-23)
+nsubj(started-3, I-2)
+ccomp(said-23, started-3)
+prep_like(started-3, this-5)
+det(Cup-9, the-7)
+nn(Cup-9, Confederations-8)
+prep_in(this-5, Cup-9)
+nsubj(knew-12, I-11)
+conj_and(started-3, knew-12)
+mark(have-16, that-13)
+nsubj(have-16, I-14)
+aux(have-16, could-15)
+ccomp(knew-12, have-16)
+det(trouble-18, some-17)
+dobj(have-16, trouble-18)
+advmod(have-16, again-19)
+nsubj(said-23, Fred-22)
+
+Sentence #19 (13 tokens):
+"But I was calmer now, I was more prepared mentally.
+[Text=`` CharacterOffsetBegin=1655 CharacterOffsetEnd=1656 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=But CharacterOffsetBegin=1656 CharacterOffsetEnd=1659 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=I CharacterOffsetBegin=1660 CharacterOffsetEnd=1661 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1662 CharacterOffsetEnd=1665 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=calmer CharacterOffsetBegin=1666 CharacterOffsetEnd=1672 PartOfSpeech=JJR Lemma=calmer NamedEntityTag=O] [Text=now CharacterOffsetBegin=1673 CharacterOffsetEnd=1676 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t5" type="DATE" value="PRESENT_REF">now</TIMEX3>] [Text=, CharacterOffsetBegin=1676 CharacterOffsetEnd=1677 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=1678 CharacterOffsetEnd=1679 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1680 CharacterOffsetEnd=1683 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=more CharacterOffsetBegin=1684 CharacterOffsetEnd=1688 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=prepared CharacterOffsetBegin=1689 CharacterOffsetEnd=1697 PartOfSpeech=JJ Lemma=prepared NamedEntityTag=O] [Text=mentally CharacterOffsetBegin=1698 CharacterOffsetEnd=1706 PartOfSpeech=RB Lemma=mentally NamedEntityTag=O] [Text=. CharacterOffsetBegin=1706 CharacterOffsetEnd=1707 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S (CC But)
+      (NP (PRP I))
+      (VP (VBD was)
+        (NP (JJR calmer))
+        (ADVP (RB now))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD was)
+      (ADVP (RBR more))
+      (ADJP (JJ prepared) (RB mentally)))
+    (. .)))
+
+root(ROOT-0, prepared-11)
+cc(calmer-5, But-2)
+nsubj(calmer-5, I-3)
+cop(calmer-5, was-4)
+ccomp(prepared-11, calmer-5)
+advmod(calmer-5, now-6)
+nsubj(prepared-11, I-8)
+cop(prepared-11, was-9)
+advmod(prepared-11, more-10)
+advmod(prepared-11, mentally-12)
+
+Sentence #20 (25 tokens):
+It wasn't bothering me that I wasn't scoring, but that the team wasn't playing so well as it did today.
+[Text=It CharacterOffsetBegin=1708 CharacterOffsetEnd=1710 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1711 CharacterOffsetEnd=1714 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1714 CharacterOffsetEnd=1717 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=bothering CharacterOffsetBegin=1718 CharacterOffsetEnd=1727 PartOfSpeech=VBG Lemma=bother NamedEntityTag=O] [Text=me CharacterOffsetBegin=1728 CharacterOffsetEnd=1730 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=that CharacterOffsetBegin=1731 CharacterOffsetEnd=1735 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=I CharacterOffsetBegin=1736 CharacterOffsetEnd=1737 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1738 CharacterOffsetEnd=1741 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1741 CharacterOffsetEnd=1744 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=scoring CharacterOffsetBegin=1745 CharacterOffsetEnd=1752 PartOfSpeech=VBG Lemma=score NamedEntityTag=O] [Text=, CharacterOffsetBegin=1752 CharacterOffsetEnd=1753 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1754 CharacterOffsetEnd=1757 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=that CharacterOffsetBegin=1758 CharacterOffsetEnd=1762 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=1763 CharacterOffsetEnd=1766 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=team CharacterOffsetBegin=1767 CharacterOffsetEnd=1771 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=was CharacterOffsetBegin=1772 CharacterOffsetEnd=1775 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1775 CharacterOffsetEnd=1778 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=playing CharacterOffsetBegin=1779 CharacterOffsetEnd=1786 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=so CharacterOffsetBegin=1787 CharacterOffsetEnd=1789 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=well CharacterOffsetBegin=1790 CharacterOffsetEnd=1794 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=1795 CharacterOffsetEnd=1797 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=it CharacterOffsetBegin=1798 CharacterOffsetEnd=1800 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=did CharacterOffsetBegin=1801 CharacterOffsetEnd=1804 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=today CharacterOffsetBegin=1805 CharacterOffsetEnd=1810 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=. CharacterOffsetBegin=1810 CharacterOffsetEnd=1811 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was) (RB n't)
+      (VP (VBG bothering)
+        (NP (PRP me))
+        (SBAR
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (VP (VBD was) (RB n't)
+                (VP (VBG scoring)))))
+          (, ,)
+          (CC but)
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN team))
+              (VP (VBD was) (RB n't)
+                (VP (VBG playing)
+                  (ADVP
+                    (ADVP (RB so) (RB well))
+                    (SBAR (IN as)
+                      (S
+                        (NP (PRP it))
+                        (VP (VBD did)
+                          (NP-TMP (NN today)))))))))))))
+    (. .)))
+
+root(ROOT-0, bothering-4)
+nsubj(bothering-4, It-1)
+aux(bothering-4, was-2)
+neg(bothering-4, n't-3)
+dobj(bothering-4, me-5)
+mark(scoring-10, that-6)
+nsubj(scoring-10, I-7)
+aux(scoring-10, was-8)
+neg(scoring-10, n't-9)
+ccomp(bothering-4, scoring-10)
+mark(playing-18, that-13)
+det(team-15, the-14)
+nsubj(playing-18, team-15)
+aux(playing-18, was-16)
+neg(playing-18, n't-17)
+conj_but(scoring-10, playing-18)
+advmod(well-20, so-19)
+advmod(playing-18, well-20)
+mark(did-23, as-21)
+nsubj(did-23, it-22)
+ccomp(well-20, did-23)
+tmod(did-23, today-24)
+
+Sentence #21 (6 tokens):
+The entire team improved."
+[Text=The CharacterOffsetBegin=1812 CharacterOffsetEnd=1815 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=entire CharacterOffsetBegin=1816 CharacterOffsetEnd=1822 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O] [Text=team CharacterOffsetBegin=1823 CharacterOffsetEnd=1827 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=improved CharacterOffsetBegin=1828 CharacterOffsetEnd=1836 PartOfSpeech=VBN Lemma=improve NamedEntityTag=O] [Text=. CharacterOffsetBegin=1836 CharacterOffsetEnd=1837 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1837 CharacterOffsetEnd=1838 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT The) (JJ entire) (NN team))
+      (VP (VBN improved)))
+    (. .) ('' '')))
+
+root(ROOT-0, team-3)
+det(team-3, The-1)
+amod(team-3, entire-2)
+vmod(team-3, improved-4)
+
+Sentence #22 (12 tokens):
+Brazil secured first place in Group A with Monday's victory.
+[Text=Brazil CharacterOffsetBegin=1840 CharacterOffsetEnd=1846 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=secured CharacterOffsetBegin=1847 CharacterOffsetEnd=1854 PartOfSpeech=VBN Lemma=secure NamedEntityTag=O] [Text=first CharacterOffsetBegin=1855 CharacterOffsetEnd=1860 PartOfSpeech=RB Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=place CharacterOffsetBegin=1861 CharacterOffsetEnd=1866 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=in CharacterOffsetBegin=1867 CharacterOffsetEnd=1869 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Group CharacterOffsetBegin=1870 CharacterOffsetEnd=1875 PartOfSpeech=NNP Lemma=Group NamedEntityTag=MISC] [Text=A CharacterOffsetBegin=1876 CharacterOffsetEnd=1877 PartOfSpeech=NNP Lemma=A NamedEntityTag=MISC] [Text=with CharacterOffsetBegin=1878 CharacterOffsetEnd=1882 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=1883 CharacterOffsetEnd=1889 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-WXX-1">Monday</TIMEX3>] [Text='s CharacterOffsetBegin=1889 CharacterOffsetEnd=1891 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=victory CharacterOffsetBegin=1892 CharacterOffsetEnd=1899 PartOfSpeech=NN Lemma=victory NamedEntityTag=O] [Text=. CharacterOffsetBegin=1899 CharacterOffsetEnd=1900 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Brazil))
+    (VP (VBN secured)
+      (ADVP (RB first))
+      (NP (NN place))
+      (PP (IN in)
+        (NP
+          (NP (NNP Group) (NNP A))
+          (PP (IN with)
+            (NP
+              (NP (NNP Monday) (POS 's))
+              (NN victory))))))
+    (. .)))
+
+root(ROOT-0, secured-2)
+nsubj(secured-2, Brazil-1)
+advmod(secured-2, first-3)
+dobj(secured-2, place-4)
+nn(A-7, Group-6)
+prep_in(secured-2, A-7)
+poss(victory-11, Monday-9)
+prep_with(A-7, victory-11)
+
+Sentence #23 (18 tokens):
+It will play South American rival Chile in the round of 16 on Saturday in Belo Horizonte.
+[Text=It CharacterOffsetBegin=1901 CharacterOffsetEnd=1903 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=will CharacterOffsetBegin=1904 CharacterOffsetEnd=1908 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=play CharacterOffsetBegin=1909 CharacterOffsetEnd=1913 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=South CharacterOffsetBegin=1914 CharacterOffsetEnd=1919 PartOfSpeech=NNP Lemma=South NamedEntityTag=MISC] [Text=American CharacterOffsetBegin=1920 CharacterOffsetEnd=1928 PartOfSpeech=NNP Lemma=American NamedEntityTag=MISC] [Text=rival CharacterOffsetBegin=1929 CharacterOffsetEnd=1934 PartOfSpeech=JJ Lemma=rival NamedEntityTag=O] [Text=Chile CharacterOffsetBegin=1935 CharacterOffsetEnd=1940 PartOfSpeech=NNP Lemma=Chile NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=1941 CharacterOffsetEnd=1943 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1944 CharacterOffsetEnd=1947 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=round CharacterOffsetBegin=1948 CharacterOffsetEnd=1953 PartOfSpeech=NN Lemma=round NamedEntityTag=O] [Text=of CharacterOffsetBegin=1954 CharacterOffsetEnd=1956 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=16 CharacterOffsetBegin=1957 CharacterOffsetEnd=1959 PartOfSpeech=CD Lemma=16 NamedEntityTag=NUMBER NormalizedNamedEntityTag=16.0] [Text=on CharacterOffsetBegin=1960 CharacterOffsetEnd=1962 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=1963 CharacterOffsetEnd=1971 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-WXX-6">Saturday</TIMEX3>] [Text=in CharacterOffsetBegin=1972 CharacterOffsetEnd=1974 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Belo CharacterOffsetBegin=1975 CharacterOffsetEnd=1979 PartOfSpeech=NNP Lemma=Belo NamedEntityTag=PERSON] [Text=Horizonte CharacterOffsetBegin=1980 CharacterOffsetEnd=1989 PartOfSpeech=NNP Lemma=Horizonte NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1989 CharacterOffsetEnd=1990 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD will)
+      (VP (VB play)
+        (S
+          (NP (NNP South) (NNP American))
+          (NP
+            (NP (JJ rival) (NNP Chile))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN round))
+                (PP (IN of)
+                  (NP (CD 16)))))))
+        (PP (IN on)
+          (NP
+            (NP (NNP Saturday))
+            (PP (IN in)
+              (NP (NNP Belo) (NNP Horizonte)))))))
+    (. .)))
+
+root(ROOT-0, play-3)
+nsubj(play-3, It-1)
+aux(play-3, will-2)
+nn(American-5, South-4)
+nsubj(Chile-7, American-5)
+amod(Chile-7, rival-6)
+xcomp(play-3, Chile-7)
+det(round-10, the-9)
+prep_in(Chile-7, round-10)
+prep_of(round-10, 16-12)
+prep_on(play-3, Saturday-14)
+nn(Horizonte-17, Belo-16)
+prep_in(Saturday-14, Horizonte-17)
+
+Coreference set:
+	(1,5,[5,6]) -> (2,6,[4,7]), that is: "it" -> "a mustache goal"
+	(1,14,[14,15]) -> (2,6,[4,7]), that is: "it" -> "a mustache goal"
+	(2,2,[2,3]) -> (2,6,[4,7]), that is: "It" -> "a mustache goal"
+	(3,19,[19,20]) -> (2,6,[4,7]), that is: "it" -> "a mustache goal"
+	(11,8,[7,9]) -> (2,6,[4,7]), that is: "the goal" -> "a mustache goal"
+Coreference set:
+	(1,18,[18,19]) -> (13,12,[10,32]), that is: "my" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(1,22,[22,23]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(3,10,[10,11]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(3,14,[14,15]) -> (13,12,[10,32]), that is: "his" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(3,24,[24,25]) -> (13,12,[10,32]), that is: "his" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(4,9,[9,10]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(5,3,[3,4]) -> (13,12,[10,32]), that is: "he" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(5,8,[8,9]) -> (13,12,[10,32]), that is: "him" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(7,10,[10,11]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(8,10,[10,11]) -> (13,12,[10,32]), that is: "me" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(9,1,[1,2]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(10,6,[6,7]) -> (13,12,[10,32]), that is: "me" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(10,8,[8,9]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(11,11,[11,12]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(12,5,[5,6]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(12,9,[9,10]) -> (13,12,[10,32]), that is: "he" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(13,12,[10,13]) -> (13,12,[10,32]), that is: "the 30-year-old Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(13,12,[12,13]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(13,21,[21,22]) -> (13,12,[10,32]), that is: "he" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(14,3,[3,4]) -> (13,12,[10,32]), that is: "his" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(14,18,[18,19]) -> (13,12,[10,32]), that is: "his" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(16,1,[1,2]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(16,17,[17,18]) -> (13,12,[10,32]), that is: "he" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(17,2,[2,3]) -> (13,12,[10,32]), that is: "he" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(18,2,[2,3]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(18,11,[11,12]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(18,14,[14,15]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(18,22,[22,23]) -> (13,12,[10,32]), that is: "Fred" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(19,3,[3,4]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(19,8,[8,9]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(20,5,[5,6]) -> (13,12,[10,32]), that is: "me" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+	(20,7,[7,8]) -> (13,12,[10,32]), that is: "I" -> "the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany"
+Coreference set:
+	(3,4,[4,5]) -> (3,2,[1,3]), that is: "he" -> "Teammate Neymar"
+	(4,2,[2,3]) -> (3,2,[1,3]), that is: "I" -> "Teammate Neymar"
+	(4,29,[29,30]) -> (3,2,[1,3]), that is: "Neymar" -> "Teammate Neymar"
+	(5,5,[5,6]) -> (3,2,[1,3]), that is: "I" -> "Teammate Neymar"
+	(5,10,[10,11]) -> (3,2,[1,3]), that is: "I" -> "Teammate Neymar"
+	(5,16,[16,17]) -> (3,2,[1,3]), that is: "I" -> "Teammate Neymar"
+	(15,1,[1,2]) -> (3,2,[1,3]), that is: "Neymar" -> "Teammate Neymar"
+	(15,5,[3,15]) -> (3,2,[1,3]), that is: "the leading scorer in this squad with 35 goals in 52 matches" -> "Teammate Neymar"
+Coreference set:
+	(5,20,[20,21]) -> (3,7,[6,26]), that is: "it" -> "the one who told Fred not to shave his upper lip , predicting it might turn things in his favor"
+Coreference set:
+	(4,16,[16,17]) -> (4,12,[12,13]), that is: "you" -> "you"
+	(5,18,[18,19]) -> (4,12,[12,13]), that is: "you" -> "you"
+Coreference set:
+	(4,23,[22,24]) -> (4,15,[14,21]), that is: "the mustache" -> "the mustache you are going to score"
+Coreference set:
+	(6,14,[14,15]) -> (6,11,[9,12]), that is: "his" -> "the Fluminense striker"
+Coreference set:
+	(13,7,[6,8]) -> (6,20,[18,21]), that is: "World Cup" -> "the World Cup"
+Coreference set:
+	(13,1,[1,2]) -> (11,1,[1,2]), that is: "It" -> "Brazil"
+	(13,8,[4,32]) -> (11,1,[1,2]), that is: "the first World Cup goal for the 30-year-old Fred , who had scored as a youngster when he was in the squad in the 2006 tournament in Germany" -> "Brazil"
+	(14,1,[1,2]) -> (11,1,[1,2]), that is: "It" -> "Brazil"
+	(14,5,[3,12]) -> (11,1,[1,2]), that is: "his first goal since the warm-up match against Serbia" -> "Brazil"
+	(14,24,[24,25]) -> (11,1,[1,2]), that is: "Brazil" -> "Brazil"
+	(22,1,[1,2]) -> (11,1,[1,2]), that is: "Brazil" -> "Brazil"
+	(23,1,[1,2]) -> (11,1,[1,2]), that is: "It" -> "Brazil"
+Coreference set:
+	(12,16,[16,17]) -> (11,5,[1,6]), that is: "he" -> "Brazil coach Luiz Felipe Scolari"
+Coreference set:
+	(14,4,[4,5]) -> (13,5,[5,6]), that is: "first" -> "first"
+	(16,23,[23,24]) -> (13,5,[5,6]), that is: "first" -> "first"
+	(22,3,[3,4]) -> (13,5,[5,6]), that is: "first" -> "first"
+Coreference set:
+	(14,15,[14,16]) -> (13,29,[27,32]), that is: "this tournament" -> "the 2006 tournament in Germany"
+Coreference set:
+	(16,14,[13,15]) -> (18,9,[7,10]), that is: "Confederations Cup" -> "the Confederations Cup"
+	(18,9,[8,10]) -> (18,9,[7,10]), that is: "Confederations Cup" -> "the Confederations Cup"
+Coreference set:
+	(20,1,[1,2]) -> (19,5,[5,6]), that is: "It" -> "calmer"
+Coreference set:
+	(20,22,[22,23]) -> (20,15,[14,16]), that is: "it" -> "the team"

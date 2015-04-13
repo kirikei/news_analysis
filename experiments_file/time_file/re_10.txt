@@ -1,0 +1,990 @@
+Sentence #1 (30 tokens):
+Murdoch defends Irish tax regime - Independent.ie
+Jane Wardell
+Published 18/07/2014|00:00
+Rupert Murdoch speaking during a panel discussion at the B20 meeting of company CEOs in Sydney.
+[Text=Murdoch CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=defends CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=VBZ Lemma=defend NamedEntityTag=O] [Text=Irish CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=JJ Lemma=irish NamedEntityTag=MISC] [Text=tax CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=regime CharacterOffsetBegin=26 CharacterOffsetEnd=32 PartOfSpeech=NN Lemma=regime NamedEntityTag=O] [Text=- CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Independent.ie CharacterOffsetBegin=35 CharacterOffsetEnd=49 PartOfSpeech=NNP Lemma=Independent.ie NamedEntityTag=O] [Text=Jane CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Jane NamedEntityTag=PERSON] [Text=Wardell CharacterOffsetBegin=56 CharacterOffsetEnd=63 PartOfSpeech=NNP Lemma=Wardell NamedEntityTag=PERSON] [Text=Published CharacterOffsetBegin=65 CharacterOffsetEnd=74 PartOfSpeech=VBD Lemma=publish NamedEntityTag=O] [Text=18/07/2014 CharacterOffsetBegin=75 CharacterOffsetEnd=85 PartOfSpeech=CD Lemma=18/07/2014 NamedEntityTag=NUMBER] [Text=| CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=CD Lemma=| NamedEntityTag=NUMBER] [Text=00:00 CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=CD Lemma=00:00 NamedEntityTag=TIME NormalizedNamedEntityTag=T00:00 Timex=<TIMEX3 tid="t1" type="TIME" value="T00:00">00:00</TIMEX3>] [Text=Rupert CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=NNP Lemma=Rupert NamedEntityTag=PERSON] [Text=Murdoch CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=speaking CharacterOffsetBegin=108 CharacterOffsetEnd=116 PartOfSpeech=VBG Lemma=speak NamedEntityTag=O] [Text=during CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=panel CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN Lemma=panel NamedEntityTag=O] [Text=discussion CharacterOffsetBegin=132 CharacterOffsetEnd=142 PartOfSpeech=NN Lemma=discussion NamedEntityTag=O] [Text=at CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=B20 CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=NN Lemma=b20 NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=NN Lemma=meeting NamedEntityTag=O] [Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=company CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text=CEOs CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NNS Lemma=ceo NamedEntityTag=O] [Text=in CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sydney CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=NNP Lemma=Sydney NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Murdoch))
+      (VP (VBZ defends)
+        (NP (JJ Irish) (NN tax) (NN regime))))
+    (: -)
+    (S
+      (NP (NNP Independent.ie) (NNP Jane) (NNP Wardell))
+      (VP (VBD Published)
+        (NP
+          (NP (CD 18/07/2014) (CD |) (CD 00:00) (NNP Rupert) (NNP Murdoch))
+          (VP (VBG speaking)
+            (PP (IN during)
+              (NP (DT a) (NN panel) (NN discussion)))
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN B20) (NN meeting))
+                (PP (IN of)
+                  (NP
+                    (NP (NN company) (NNS CEOs))
+                    (PP (IN in)
+                      (NP (NNP Sydney)))))))))))
+    (. .)))
+
+root(ROOT-0, defends-2)
+nsubj(defends-2, Murdoch-1)
+amod(regime-5, Irish-3)
+nn(regime-5, tax-4)
+dobj(defends-2, regime-5)
+nn(Wardell-9, Independent.ie-7)
+nn(Wardell-9, Jane-8)
+nsubj(Published-10, Wardell-9)
+parataxis(defends-2, Published-10)
+num(Murdoch-15, 18/07/2014-11)
+num(Murdoch-15, bar-12)
+num(Murdoch-15, 00:00-13)
+nn(Murdoch-15, Rupert-14)
+dobj(Published-10, Murdoch-15)
+vmod(Murdoch-15, speaking-16)
+det(discussion-20, a-18)
+nn(discussion-20, panel-19)
+prep_during(speaking-16, discussion-20)
+det(meeting-24, the-22)
+nn(meeting-24, B20-23)
+prep_at(speaking-16, meeting-24)
+nn(CEOs-27, company-26)
+prep_of(meeting-24, CEOs-27)
+prep_in(CEOs-27, Sydney-29)
+
+Sentence #2 (30 tokens):
+Photo: Jason Reed - Pool/Getty Images
+Media mogul Rupert Murdoch criticised G20 governments for trying to introduce measures to prevent companies using low tax states such as Ireland.
+[Text=Photo CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Jason CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NNP Lemma=Jason NamedEntityTag=PERSON] [Text=Reed CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON] [Text=- CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Pool/Getty CharacterOffsetBegin=209 CharacterOffsetEnd=219 PartOfSpeech=NNP Lemma=Pool/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=Media CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NNP Lemma=Media NamedEntityTag=O] [Text=mogul CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=NN Lemma=mogul NamedEntityTag=O] [Text=Rupert CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NNP Lemma=Rupert NamedEntityTag=PERSON] [Text=Murdoch CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=criticised CharacterOffsetBegin=255 CharacterOffsetEnd=265 PartOfSpeech=VBD Lemma=criticise NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=governments CharacterOffsetBegin=270 CharacterOffsetEnd=281 PartOfSpeech=NNS Lemma=government NamedEntityTag=O] [Text=for CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=trying CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=VBG Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=introduce CharacterOffsetBegin=296 CharacterOffsetEnd=305 PartOfSpeech=VB Lemma=introduce NamedEntityTag=O] [Text=measures CharacterOffsetBegin=306 CharacterOffsetEnd=314 PartOfSpeech=NNS Lemma=measure NamedEntityTag=O] [Text=to CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=prevent CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=VB Lemma=prevent NamedEntityTag=O] [Text=companies CharacterOffsetBegin=326 CharacterOffsetEnd=335 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=using CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=VBG Lemma=use NamedEntityTag=O] [Text=low CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=JJ Lemma=low NamedEntityTag=O] [Text=tax CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=states CharacterOffsetBegin=350 CharacterOffsetEnd=356 PartOfSpeech=NNS Lemma=state NamedEntityTag=O] [Text=such CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=as CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Ireland CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=NNP Lemma=Ireland NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP Photo))
+      (: :)
+      (NP (NNP Jason) (NNP Reed)))
+    (: -)
+    (S
+      (NP (NNP Pool/Getty) (NNPS Images) (NNP Media) (NN mogul) (NNP Rupert) (NNP Murdoch))
+      (VP (VBD criticised)
+        (NP (NN G20) (NNS governments))
+        (PP (IN for)
+          (S
+            (VP (VBG trying)
+              (S
+                (VP (TO to)
+                  (VP (VB introduce)
+                    (S
+                      (NP (NNS measures))
+                      (VP (TO to)
+                        (VP (VB prevent)
+                          (NP
+                            (NP (NNS companies))
+                            (VP (VBG using)
+                              (NP
+                                (NP (JJ low) (NN tax) (NNS states))
+                                (PP (JJ such) (IN as)
+                                  (NP (NNP Ireland)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, Photo-1)
+nn(Reed-4, Jason-3)
+dep(Photo-1, Reed-4)
+nn(Murdoch-11, Pool/Getty-6)
+nn(Murdoch-11, Images-7)
+nn(Murdoch-11, Media-8)
+nn(Murdoch-11, mogul-9)
+nn(Murdoch-11, Rupert-10)
+nsubj(criticised-12, Murdoch-11)
+dep(Photo-1, criticised-12)
+nn(governments-14, G20-13)
+dobj(criticised-12, governments-14)
+prepc_for(criticised-12, trying-16)
+aux(introduce-18, to-17)
+xcomp(trying-16, introduce-18)
+nsubj(prevent-21, measures-19)
+aux(prevent-21, to-20)
+xcomp(introduce-18, prevent-21)
+dobj(prevent-21, companies-22)
+vmod(companies-22, using-23)
+amod(states-26, low-24)
+nn(states-26, tax-25)
+dobj(using-23, states-26)
+prep_such_as(states-26, Ireland-29)
+
+Sentence #3 (36 tokens):
+"Do we really expect overseas companies to voluntarily bring profits back to be taxed at 35pc to 40pc in the United States, when the corporate tax rate in Ireland is 12.5pc?"
+[Text=`` CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Do CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=we CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=really CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=expect CharacterOffsetBegin=389 CharacterOffsetEnd=395 PartOfSpeech=VBP Lemma=expect NamedEntityTag=O] [Text=overseas CharacterOffsetBegin=396 CharacterOffsetEnd=404 PartOfSpeech=JJ Lemma=overseas NamedEntityTag=O] [Text=companies CharacterOffsetBegin=405 CharacterOffsetEnd=414 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=to CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=voluntarily CharacterOffsetBegin=418 CharacterOffsetEnd=429 PartOfSpeech=RB Lemma=voluntarily NamedEntityTag=O] [Text=bring CharacterOffsetBegin=430 CharacterOffsetEnd=435 PartOfSpeech=VB Lemma=bring NamedEntityTag=O] [Text=profits CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=NNS Lemma=profit NamedEntityTag=O] [Text=back CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=taxed CharacterOffsetBegin=455 CharacterOffsetEnd=460 PartOfSpeech=VBN Lemma=tax NamedEntityTag=O] [Text=at CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=35pc CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=CD Lemma=35pc NamedEntityTag=NUMBER NormalizedNamedEntityTag=35.0] [Text=to CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=40pc CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=CD Lemma=40pc NamedEntityTag=NUMBER NormalizedNamedEntityTag=40.0] [Text=in CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=United CharacterOffsetBegin=484 CharacterOffsetEnd=490 PartOfSpeech=NNP Lemma=United NamedEntityTag=LOCATION] [Text=States CharacterOffsetBegin=491 CharacterOffsetEnd=497 PartOfSpeech=NNPS Lemma=States NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=when CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=the CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=corporate CharacterOffsetBegin=508 CharacterOffsetEnd=517 PartOfSpeech=JJ Lemma=corporate NamedEntityTag=O] [Text=tax CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=rate CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=NN Lemma=rate NamedEntityTag=O] [Text=in CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Ireland CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=NNP Lemma=Ireland NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=12.5 CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=CD Lemma=12.5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12.5] [Text=pc CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=NN Lemma=pc NamedEntityTag=O] [Text=? CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=. Lemma=? NamedEntityTag=O] [Text='' CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (VP (VBP Do)
+        (NP (PRP we))
+        (ADVP (RB really))))
+    (VP (VBP expect)
+      (S
+        (NP (JJ overseas) (NNS companies))
+        (VP (TO to)
+          (ADVP (RB voluntarily))
+          (VP (VB bring)
+            (NP (NNS profits))
+            (ADVP (RB back))
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN taxed)
+                    (PP (IN at)
+                      (NP
+                        (NP (CD 35pc) (TO to) (CD 40pc))
+                        (PP (IN in)
+                          (NP (DT the) (NNP United) (NNPS States))))))))))))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP
+            (NP (DT the) (JJ corporate) (NN tax) (NN rate))
+            (PP (IN in)
+              (NP (NNP Ireland))))
+          (VP (VBZ is)
+            (NP (CD 12.5) (NN pc))))))
+    (. ?) ('' '')))
+
+root(ROOT-0, expect-5)
+csubj(expect-5, Do-2)
+dobj(Do-2, we-3)
+advmod(Do-2, really-4)
+amod(companies-7, overseas-6)
+nsubj(bring-10, companies-7)
+aux(bring-10, to-8)
+advmod(bring-10, voluntarily-9)
+xcomp(expect-5, bring-10)
+dobj(bring-10, profits-11)
+advmod(bring-10, back-12)
+aux(taxed-15, to-13)
+auxpass(taxed-15, be-14)
+vmod(bring-10, taxed-15)
+num(40pc-19, 35pc-17)
+dep(40pc-19, to-18)
+prep_at(taxed-15, 40pc-19)
+det(States-23, the-21)
+nn(States-23, United-22)
+prep_in(40pc-19, States-23)
+advmod(pc-34, when-25)
+det(rate-29, the-26)
+amod(rate-29, corporate-27)
+nn(rate-29, tax-28)
+nsubj(pc-34, rate-29)
+prep_in(rate-29, Ireland-31)
+cop(pc-34, is-32)
+num(pc-34, 12.5-33)
+advcl(expect-5, pc-34)
+
+Sentence #4 (10 tokens):
+Mr Murdoch asked at a conference on business growth.
+[Text=Mr CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Murdoch CharacterOffsetBegin=553 CharacterOffsetEnd=560 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=asked CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=VBD Lemma=ask NamedEntityTag=O] [Text=at CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=conference CharacterOffsetBegin=572 CharacterOffsetEnd=582 PartOfSpeech=NN Lemma=conference NamedEntityTag=O] [Text=on CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=business CharacterOffsetBegin=586 CharacterOffsetEnd=594 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=growth CharacterOffsetBegin=595 CharacterOffsetEnd=601 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=. CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Mr) (NNP Murdoch))
+    (VP (VBD asked)
+      (PP (IN at)
+        (NP (DT a) (NN conference)))
+      (PP (IN on)
+        (NP (NN business) (NN growth))))
+    (. .)))
+
+root(ROOT-0, asked-3)
+nn(Murdoch-2, Mr-1)
+nsubj(asked-3, Murdoch-2)
+det(conference-6, a-5)
+prep_at(asked-3, conference-6)
+nn(growth-9, business-8)
+prep_on(asked-3, growth-9)
+
+Sentence #5 (12 tokens):
+"This is not the way to achieve economic growth."
+[Text=`` CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=This CharacterOffsetBegin=604 CharacterOffsetEnd=608 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=is CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=the CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=way CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=to CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=achieve CharacterOffsetBegin=627 CharacterOffsetEnd=634 PartOfSpeech=VB Lemma=achieve NamedEntityTag=O] [Text=economic CharacterOffsetBegin=635 CharacterOffsetEnd=643 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=growth CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (DT This))
+    (VP (VBZ is) (RB not)
+      (NP (DT the) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB achieve)
+              (NP (JJ economic) (NN growth)))))))
+    (. .) ('' '')))
+
+root(ROOT-0, way-6)
+nsubj(way-6, This-2)
+cop(way-6, is-3)
+neg(way-6, not-4)
+det(way-6, the-5)
+aux(achieve-8, to-7)
+vmod(way-6, achieve-8)
+amod(growth-10, economic-9)
+dobj(achieve-8, growth-10)
+
+Sentence #6 (31 tokens):
+The 80-year-old blamed excessive financial regulation for stymieing free markets and urged Group of 20 governments to "take a back seat" to allow businesses to drive economic growth.
+[Text=The CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=80-year-old CharacterOffsetBegin=658 CharacterOffsetEnd=669 PartOfSpeech=JJ Lemma=80-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P80Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P80Y">80-year-old</TIMEX3>] [Text=blamed CharacterOffsetBegin=670 CharacterOffsetEnd=676 PartOfSpeech=VBN Lemma=blame NamedEntityTag=O] [Text=excessive CharacterOffsetBegin=677 CharacterOffsetEnd=686 PartOfSpeech=JJ Lemma=excessive NamedEntityTag=O] [Text=financial CharacterOffsetBegin=687 CharacterOffsetEnd=696 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O] [Text=regulation CharacterOffsetBegin=697 CharacterOffsetEnd=707 PartOfSpeech=NN Lemma=regulation NamedEntityTag=O] [Text=for CharacterOffsetBegin=708 CharacterOffsetEnd=711 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=stymieing CharacterOffsetBegin=712 CharacterOffsetEnd=721 PartOfSpeech=VBG Lemma=stymie NamedEntityTag=O] [Text=free CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=markets CharacterOffsetBegin=727 CharacterOffsetEnd=734 PartOfSpeech=NNS Lemma=market NamedEntityTag=O] [Text=and CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=urged CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=VBD Lemma=urge NamedEntityTag=O] [Text=Group CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=NNP Lemma=Group NamedEntityTag=O] [Text=of CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=20 CharacterOffsetBegin=754 CharacterOffsetEnd=756 PartOfSpeech=CD Lemma=20 NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0] [Text=governments CharacterOffsetBegin=757 CharacterOffsetEnd=768 PartOfSpeech=NNS Lemma=government NamedEntityTag=O] [Text=to CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=`` CharacterOffsetBegin=772 CharacterOffsetEnd=773 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=take CharacterOffsetBegin=773 CharacterOffsetEnd=777 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=a CharacterOffsetBegin=778 CharacterOffsetEnd=779 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=back CharacterOffsetBegin=780 CharacterOffsetEnd=784 PartOfSpeech=JJ Lemma=back NamedEntityTag=O] [Text=seat CharacterOffsetBegin=785 CharacterOffsetEnd=789 PartOfSpeech=NN Lemma=seat NamedEntityTag=O] [Text='' CharacterOffsetBegin=789 CharacterOffsetEnd=790 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=to CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=allow CharacterOffsetBegin=794 CharacterOffsetEnd=799 PartOfSpeech=VB Lemma=allow NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=800 CharacterOffsetEnd=810 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=to CharacterOffsetBegin=811 CharacterOffsetEnd=813 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=drive CharacterOffsetBegin=814 CharacterOffsetEnd=819 PartOfSpeech=VB Lemma=drive NamedEntityTag=O] [Text=economic CharacterOffsetBegin=820 CharacterOffsetEnd=828 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=growth CharacterOffsetBegin=829 CharacterOffsetEnd=835 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=. CharacterOffsetBegin=835 CharacterOffsetEnd=836 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ 80-year-old))
+    (VP
+      (VP (VBN blamed)
+        (NP (JJ excessive) (JJ financial) (NN regulation))
+        (PP (IN for)
+          (S
+            (VP (VBG stymieing)
+              (NP (JJ free) (NNS markets))))))
+      (CC and)
+      (VP (VBD urged)
+        (NP
+          (NP (NNP Group))
+          (PP (IN of)
+            (NP (CD 20) (NNS governments))))
+        (S
+          (VP (TO to) (`` ``)
+            (VP (VB take)
+              (NP (DT a) (JJ back) (NN seat) ('' '')
+                (S
+                  (VP (TO to)
+                    (VP (VB allow)
+                      (S
+                        (NP (NNS businesses))
+                        (VP (TO to)
+                          (VP (VB drive)
+                            (NP (JJ economic) (NN growth))))))))))))))
+    (. .)))
+
+root(ROOT-0, blamed-3)
+det(80-year-old-2, The-1)
+nsubj(blamed-3, 80-year-old-2)
+amod(regulation-6, excessive-4)
+amod(regulation-6, financial-5)
+dobj(blamed-3, regulation-6)
+prepc_for(blamed-3, stymieing-8)
+amod(markets-10, free-9)
+dobj(stymieing-8, markets-10)
+conj_and(blamed-3, urged-12)
+dobj(urged-12, Group-13)
+num(governments-16, 20-15)
+prep_of(Group-13, governments-16)
+aux(take-19, to-17)
+xcomp(urged-12, take-19)
+det(seat-22, a-20)
+amod(seat-22, back-21)
+dobj(take-19, seat-22)
+aux(allow-25, to-24)
+vmod(seat-22, allow-25)
+nsubj(drive-28, businesses-26)
+aux(drive-28, to-27)
+xcomp(allow-25, drive-28)
+amod(growth-30, economic-29)
+dobj(drive-28, growth-30)
+
+Sentence #7 (42 tokens):
+Mr Murdoch also said US President Barack Obama was penalising businesses by cracking down on so-called "profit shifting" by major corporations to countries with lighter tax regimes, a technique that is also in the sights of the G20.
+[Text=Mr CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Murdoch CharacterOffsetBegin=841 CharacterOffsetEnd=848 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=also CharacterOffsetBegin=849 CharacterOffsetEnd=853 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=said CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=US CharacterOffsetBegin=859 CharacterOffsetEnd=861 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=President CharacterOffsetBegin=862 CharacterOffsetEnd=871 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=Barack CharacterOffsetBegin=872 CharacterOffsetEnd=878 PartOfSpeech=NNP Lemma=Barack NamedEntityTag=PERSON] [Text=Obama CharacterOffsetBegin=879 CharacterOffsetEnd=884 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=885 CharacterOffsetEnd=888 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=penalising CharacterOffsetBegin=889 CharacterOffsetEnd=899 PartOfSpeech=VBG Lemma=penalise NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=900 CharacterOffsetEnd=910 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=by CharacterOffsetBegin=911 CharacterOffsetEnd=913 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=cracking CharacterOffsetBegin=914 CharacterOffsetEnd=922 PartOfSpeech=VBG Lemma=crack NamedEntityTag=O] [Text=down CharacterOffsetBegin=923 CharacterOffsetEnd=927 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=on CharacterOffsetBegin=928 CharacterOffsetEnd=930 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=so-called CharacterOffsetBegin=931 CharacterOffsetEnd=940 PartOfSpeech=JJ Lemma=so-called NamedEntityTag=O] [Text=`` CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=profit CharacterOffsetBegin=942 CharacterOffsetEnd=948 PartOfSpeech=NN Lemma=profit NamedEntityTag=O] [Text=shifting CharacterOffsetBegin=949 CharacterOffsetEnd=957 PartOfSpeech=VBG Lemma=shift NamedEntityTag=O] [Text='' CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=by CharacterOffsetBegin=959 CharacterOffsetEnd=961 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=major CharacterOffsetBegin=962 CharacterOffsetEnd=967 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=corporations CharacterOffsetBegin=968 CharacterOffsetEnd=980 PartOfSpeech=NNS Lemma=corporation NamedEntityTag=O] [Text=to CharacterOffsetBegin=981 CharacterOffsetEnd=983 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=countries CharacterOffsetBegin=984 CharacterOffsetEnd=993 PartOfSpeech=NNS Lemma=country NamedEntityTag=O] [Text=with CharacterOffsetBegin=994 CharacterOffsetEnd=998 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=lighter CharacterOffsetBegin=999 CharacterOffsetEnd=1006 PartOfSpeech=JJR Lemma=lighter NamedEntityTag=O] [Text=tax CharacterOffsetBegin=1007 CharacterOffsetEnd=1010 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=regimes CharacterOffsetBegin=1011 CharacterOffsetEnd=1018 PartOfSpeech=NNS Lemma=regime NamedEntityTag=O] [Text=, CharacterOffsetBegin=1018 CharacterOffsetEnd=1019 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=technique CharacterOffsetBegin=1022 CharacterOffsetEnd=1031 PartOfSpeech=NN Lemma=technique NamedEntityTag=O] [Text=that CharacterOffsetBegin=1032 CharacterOffsetEnd=1036 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=1037 CharacterOffsetEnd=1039 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=also CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=in CharacterOffsetBegin=1045 CharacterOffsetEnd=1047 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1048 CharacterOffsetEnd=1051 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sights CharacterOffsetBegin=1052 CharacterOffsetEnd=1058 PartOfSpeech=NNS Lemma=sight NamedEntityTag=O] [Text=of CharacterOffsetBegin=1059 CharacterOffsetEnd=1061 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1062 CharacterOffsetEnd=1065 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=1066 CharacterOffsetEnd=1069 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=. CharacterOffsetBegin=1069 CharacterOffsetEnd=1070 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Mr) (NNP Murdoch))
+    (ADVP (RB also))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (NNP US) (NNP President) (NNP Barack) (NNP Obama))
+          (VP (VBD was)
+            (VP (VBG penalising)
+              (NP (NNS businesses))
+              (PP (IN by)
+                (S
+                  (VP (VBG cracking)
+                    (PRT (RP down))
+                    (PP (IN on)
+                      (NP (JJ so-called)))
+                    (NP (`` ``)
+                      (NP (NN profit) (VBG shifting))
+                      ('' '')
+                      (PP (IN by)
+                        (NP (JJ major) (NNS corporations)))))))
+              (PP (TO to)
+                (NP
+                  (NP (NNS countries))
+                  (PP (IN with)
+                    (NP
+                      (NP (JJR lighter) (NN tax) (NNS regimes))
+                      (, ,)
+                      (NP
+                        (NP (DT a) (NN technique))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBZ is)
+                              (ADVP (RB also))
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT the) (NNS sights))
+                                  (PP (IN of)
+                                    (NP (DT the) (NN G20))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-4)
+nn(Murdoch-2, Mr-1)
+nsubj(said-4, Murdoch-2)
+advmod(said-4, also-3)
+nn(Obama-8, US-5)
+nn(Obama-8, President-6)
+nn(Obama-8, Barack-7)
+nsubj(penalising-10, Obama-8)
+aux(penalising-10, was-9)
+ccomp(said-4, penalising-10)
+dobj(penalising-10, businesses-11)
+prepc_by(penalising-10, cracking-13)
+prt(cracking-13, down-14)
+prep_on(cracking-13, so-called-16)
+dobj(cracking-13, profit-18)
+amod(profit-18, shifting-19)
+amod(corporations-23, major-22)
+prep_by(profit-18, corporations-23)
+prep_to(penalising-10, countries-25)
+amod(regimes-29, lighter-27)
+nn(regimes-29, tax-28)
+prep_with(countries-25, regimes-29)
+det(technique-32, a-31)
+appos(regimes-29, technique-32)
+nsubj(is-34, that-33)
+rcmod(technique-32, is-34)
+advmod(is-34, also-35)
+det(sights-38, the-37)
+prep_in(is-34, sights-38)
+det(G20-41, the-40)
+prep_of(sights-38, G20-41)
+
+Sentence #8 (61 tokens):
+Audacious
+"My blood pressure goes up when I think of the number of local, state and federal regulations we have in our lives today," Mr Murdoch told a meeting of the Business 20 (B20) leaders in Sydney, a day after his Twenty-First Century Fox made an audacious $80bn offer for Time Warner.
+[Text=Audacious CharacterOffsetBegin=1072 CharacterOffsetEnd=1081 PartOfSpeech=JJ Lemma=audacious NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1083 CharacterOffsetEnd=1084 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=My CharacterOffsetBegin=1084 CharacterOffsetEnd=1086 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=blood CharacterOffsetBegin=1087 CharacterOffsetEnd=1092 PartOfSpeech=NN Lemma=blood NamedEntityTag=O] [Text=pressure CharacterOffsetBegin=1093 CharacterOffsetEnd=1101 PartOfSpeech=NN Lemma=pressure NamedEntityTag=O] [Text=goes CharacterOffsetBegin=1102 CharacterOffsetEnd=1106 PartOfSpeech=VBZ Lemma=go NamedEntityTag=O] [Text=up CharacterOffsetBegin=1107 CharacterOffsetEnd=1109 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=when CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=I CharacterOffsetBegin=1115 CharacterOffsetEnd=1116 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=think CharacterOffsetBegin=1117 CharacterOffsetEnd=1122 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=of CharacterOffsetBegin=1123 CharacterOffsetEnd=1125 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1126 CharacterOffsetEnd=1129 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=1130 CharacterOffsetEnd=1136 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=1137 CharacterOffsetEnd=1139 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=local CharacterOffsetBegin=1140 CharacterOffsetEnd=1145 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=, CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=state CharacterOffsetBegin=1147 CharacterOffsetEnd=1152 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=and CharacterOffsetBegin=1153 CharacterOffsetEnd=1156 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=federal CharacterOffsetBegin=1157 CharacterOffsetEnd=1164 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=regulations CharacterOffsetBegin=1165 CharacterOffsetEnd=1176 PartOfSpeech=NNS Lemma=regulation NamedEntityTag=O] [Text=we CharacterOffsetBegin=1177 CharacterOffsetEnd=1179 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=have CharacterOffsetBegin=1180 CharacterOffsetEnd=1184 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=in CharacterOffsetBegin=1185 CharacterOffsetEnd=1187 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=our CharacterOffsetBegin=1188 CharacterOffsetEnd=1191 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=lives CharacterOffsetBegin=1192 CharacterOffsetEnd=1197 PartOfSpeech=NNS Lemma=life NamedEntityTag=O] [Text=today CharacterOffsetBegin=1198 CharacterOffsetEnd=1203 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">today</TIMEX3>] [Text=, CharacterOffsetBegin=1203 CharacterOffsetEnd=1204 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1204 CharacterOffsetEnd=1205 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Mr CharacterOffsetBegin=1206 CharacterOffsetEnd=1208 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Murdoch CharacterOffsetBegin=1209 CharacterOffsetEnd=1216 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=told CharacterOffsetBegin=1217 CharacterOffsetEnd=1221 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=a CharacterOffsetBegin=1222 CharacterOffsetEnd=1223 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=1224 CharacterOffsetEnd=1231 PartOfSpeech=NN Lemma=meeting NamedEntityTag=O] [Text=of CharacterOffsetBegin=1232 CharacterOffsetEnd=1234 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1235 CharacterOffsetEnd=1238 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Business CharacterOffsetBegin=1239 CharacterOffsetEnd=1247 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=20 CharacterOffsetBegin=1248 CharacterOffsetEnd=1250 PartOfSpeech=CD Lemma=20 NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0] [Text=-LRB- CharacterOffsetBegin=1251 CharacterOffsetEnd=1252 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=B20 CharacterOffsetBegin=1252 CharacterOffsetEnd=1255 PartOfSpeech=NN Lemma=b20 NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1255 CharacterOffsetEnd=1256 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=leaders CharacterOffsetBegin=1257 CharacterOffsetEnd=1264 PartOfSpeech=NNS Lemma=leader NamedEntityTag=O] [Text=in CharacterOffsetBegin=1265 CharacterOffsetEnd=1267 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sydney CharacterOffsetBegin=1268 CharacterOffsetEnd=1274 PartOfSpeech=NNP Lemma=Sydney NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1274 CharacterOffsetEnd=1275 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1276 CharacterOffsetEnd=1277 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t4" type="DURATION" value="P1D">a day</TIMEX3>] [Text=day CharacterOffsetBegin=1278 CharacterOffsetEnd=1281 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t4" type="DURATION" value="P1D">a day</TIMEX3>] [Text=after CharacterOffsetBegin=1282 CharacterOffsetEnd=1287 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=his CharacterOffsetBegin=1288 CharacterOffsetEnd=1291 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=Twenty-First CharacterOffsetBegin=1292 CharacterOffsetEnd=1304 PartOfSpeech=NNP Lemma=Twenty-First NamedEntityTag=ORGANIZATION] [Text=Century CharacterOffsetBegin=1305 CharacterOffsetEnd=1312 PartOfSpeech=NNP Lemma=Century NamedEntityTag=ORGANIZATION Timex=<TIMEX3 tid="t5" type="DURATION" value="P100Y">Century</TIMEX3>] [Text=Fox CharacterOffsetBegin=1313 CharacterOffsetEnd=1316 PartOfSpeech=NNP Lemma=Fox NamedEntityTag=ORGANIZATION] [Text=made CharacterOffsetBegin=1317 CharacterOffsetEnd=1321 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=an CharacterOffsetBegin=1322 CharacterOffsetEnd=1324 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=audacious CharacterOffsetBegin=1325 CharacterOffsetEnd=1334 PartOfSpeech=JJ Lemma=audacious NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1335 CharacterOffsetEnd=1336 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$8.0E10] [Text=80bn CharacterOffsetBegin=1336 CharacterOffsetEnd=1340 PartOfSpeech=CD Lemma=80bn NamedEntityTag=MONEY NormalizedNamedEntityTag=$8.0E10] [Text=offer CharacterOffsetBegin=1341 CharacterOffsetEnd=1346 PartOfSpeech=NN Lemma=offer NamedEntityTag=O] [Text=for CharacterOffsetBegin=1347 CharacterOffsetEnd=1350 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Time CharacterOffsetBegin=1351 CharacterOffsetEnd=1355 PartOfSpeech=NNP Lemma=Time NamedEntityTag=ORGANIZATION] [Text=Warner CharacterOffsetBegin=1356 CharacterOffsetEnd=1362 PartOfSpeech=NNP Lemma=Warner NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1362 CharacterOffsetEnd=1363 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Audacious))
+    (`` ``)
+    (S
+      (NP (PRP$ My) (NN blood) (NN pressure))
+      (VP (VBZ goes)
+        (PRT (RP up))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP I))
+            (VP (VBP think)
+              (SBAR
+                (S
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN number))
+                      (PP (IN of)
+                        (NP
+                          (UCP (JJ local) (, ,) (NN state)
+                            (CC and)
+                            (JJ federal))
+                          (NNS regulations)))))
+                  (NP (PRP we))
+                  (VP (VBP have)
+                    (PP (IN in)
+                      (NP (PRP$ our) (NNS lives)))
+                    (ADVP (NN today))))))))))
+    (, ,) ('' '')
+    (NP (NNP Mr) (NNP Murdoch))
+    (VP (VBD told)
+      (NP
+        (NP (DT a) (NN meeting))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN Business) (CD 20) (-LRB- -LRB-) (NN B20) (-RRB- -RRB-))
+            (NP (NNS leaders)))))
+      (PP (IN in)
+        (NP (NNP Sydney)))
+      (, ,)
+      (SBAR
+        (NP (DT a) (NN day))
+        (IN after)
+        (S
+          (NP (PRP$ his) (NNP Twenty-First) (NNP Century) (NNP Fox))
+          (VP (VBD made)
+            (NP (DT an) (JJ audacious) ($ $) (CD 80bn))
+            (NP
+              (NP (NN offer))
+              (PP (IN for)
+                (NP (NNP Time) (NNP Warner))))))))
+    (. .)))
+
+root(ROOT-0, told-31)
+nsubj(told-31, Audacious-1)
+poss(pressure-5, My-3)
+nn(pressure-5, blood-4)
+nsubj(goes-6, pressure-5)
+ccomp(told-31, goes-6)
+prt(goes-6, up-7)
+advmod(think-10, when-8)
+nsubj(think-10, I-9)
+advcl(goes-6, think-10)
+det(number-13, the-12)
+prep_of(have-22, number-13)
+amod(regulations-20, local-15)
+conj_and(local-15, state-17)
+conj_and(local-15, federal-19)
+prep_of(number-13, regulations-20)
+nsubj(have-22, we-21)
+ccomp(think-10, have-22)
+poss(lives-25, our-24)
+prep_in(have-22, lives-25)
+advmod(have-22, today-26)
+nn(Murdoch-30, Mr-29)
+nsubj(told-31, Murdoch-30)
+det(meeting-33, a-32)
+dobj(told-31, meeting-33)
+det(B20-39, the-35)
+nn(B20-39, Business-36)
+num(B20-39, 20-37)
+prep_of(meeting-33, B20-39)
+dep(B20-39, leaders-41)
+prep_in(told-31, Sydney-43)
+det(day-46, a-45)
+dep(made-52, day-46)
+mark(made-52, after-47)
+poss(Fox-51, his-48)
+nn(Fox-51, Twenty-First-49)
+nn(Fox-51, Century-50)
+nsubj(made-52, Fox-51)
+advcl(told-31, made-52)
+det(dol-55, an-53)
+amod(dol-55, audacious-54)
+dep(made-52, dol-55)
+num(dol-55, 80bn-56)
+dobj(made-52, offer-57)
+nn(Warner-60, Time-59)
+prep_for(offer-57, Warner-60)
+
+Sentence #9 (7 tokens):
+"That is just in America.
+[Text=`` CharacterOffsetBegin=1365 CharacterOffsetEnd=1366 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=That CharacterOffsetBegin=1366 CharacterOffsetEnd=1370 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=1371 CharacterOffsetEnd=1373 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=just CharacterOffsetBegin=1374 CharacterOffsetEnd=1378 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=in CharacterOffsetBegin=1379 CharacterOffsetEnd=1381 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=America CharacterOffsetBegin=1382 CharacterOffsetEnd=1389 PartOfSpeech=NNP Lemma=America NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1389 CharacterOffsetEnd=1390 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (DT That))
+    (VP (VBZ is)
+      (ADVP (RB just))
+      (PP (IN in)
+        (NP (NNP America))))
+    (. .)))
+
+root(ROOT-0, is-3)
+nsubj(is-3, That-2)
+advmod(is-3, just-4)
+prep_in(is-3, America-6)
+
+Sentence #10 (12 tokens):
+Don't even get me started on the European Union."
+[Text=Do CharacterOffsetBegin=1391 CharacterOffsetEnd=1393 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1393 CharacterOffsetEnd=1396 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=even CharacterOffsetBegin=1397 CharacterOffsetEnd=1401 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=get CharacterOffsetBegin=1402 CharacterOffsetEnd=1405 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=me CharacterOffsetBegin=1406 CharacterOffsetEnd=1408 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=started CharacterOffsetBegin=1409 CharacterOffsetEnd=1416 PartOfSpeech=VBN Lemma=start NamedEntityTag=O] [Text=on CharacterOffsetBegin=1417 CharacterOffsetEnd=1419 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1420 CharacterOffsetEnd=1423 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=European CharacterOffsetBegin=1424 CharacterOffsetEnd=1432 PartOfSpeech=NNP Lemma=European NamedEntityTag=ORGANIZATION] [Text=Union CharacterOffsetBegin=1433 CharacterOffsetEnd=1438 PartOfSpeech=NNP Lemma=Union NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1438 CharacterOffsetEnd=1439 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1439 CharacterOffsetEnd=1440 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VBP Do) (RB n't)
+      (ADVP (RB even))
+      (VP (VB get)
+        (S
+          (NP (PRP me))
+          (VP (VBN started)
+            (PP (IN on)
+              (NP (DT the) (NNP European) (NNP Union)))))))
+    (. .) ('' '')))
+
+root(ROOT-0, get-4)
+aux(get-4, Do-1)
+neg(get-4, n't-2)
+advmod(get-4, even-3)
+nsubj(started-6, me-5)
+dep(get-4, started-6)
+det(Union-10, the-8)
+nn(Union-10, European-9)
+prep_on(started-6, Union-10)
+
+Sentence #11 (22 tokens):
+The B20 was set up in 2010 to give policy recommendations on behalf of the international business community to the G20.
+[Text=The CharacterOffsetBegin=1442 CharacterOffsetEnd=1445 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=B20 CharacterOffsetBegin=1446 CharacterOffsetEnd=1449 PartOfSpeech=NN Lemma=b20 NamedEntityTag=MISC] [Text=was CharacterOffsetBegin=1450 CharacterOffsetEnd=1453 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=set CharacterOffsetBegin=1454 CharacterOffsetEnd=1457 PartOfSpeech=VBN Lemma=set NamedEntityTag=O] [Text=up CharacterOffsetBegin=1458 CharacterOffsetEnd=1460 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=in CharacterOffsetBegin=1461 CharacterOffsetEnd=1463 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2010 CharacterOffsetBegin=1464 CharacterOffsetEnd=1468 PartOfSpeech=CD Lemma=2010 NamedEntityTag=DATE NormalizedNamedEntityTag=2010 Timex=<TIMEX3 tid="t6" type="DATE" value="2010">2010</TIMEX3>] [Text=to CharacterOffsetBegin=1469 CharacterOffsetEnd=1471 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=give CharacterOffsetBegin=1472 CharacterOffsetEnd=1476 PartOfSpeech=VB Lemma=give NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1477 CharacterOffsetEnd=1483 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=recommendations CharacterOffsetBegin=1484 CharacterOffsetEnd=1499 PartOfSpeech=NNS Lemma=recommendation NamedEntityTag=O] [Text=on CharacterOffsetBegin=1500 CharacterOffsetEnd=1502 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=behalf CharacterOffsetBegin=1503 CharacterOffsetEnd=1509 PartOfSpeech=NN Lemma=behalf NamedEntityTag=O] [Text=of CharacterOffsetBegin=1510 CharacterOffsetEnd=1512 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1513 CharacterOffsetEnd=1516 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=international CharacterOffsetBegin=1517 CharacterOffsetEnd=1530 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=business CharacterOffsetBegin=1531 CharacterOffsetEnd=1539 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=community CharacterOffsetBegin=1540 CharacterOffsetEnd=1549 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=to CharacterOffsetBegin=1550 CharacterOffsetEnd=1552 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1553 CharacterOffsetEnd=1556 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=. CharacterOffsetBegin=1560 CharacterOffsetEnd=1561 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN B20))
+    (VP (VBD was)
+      (VP (VBN set)
+        (PRT (RP up))
+        (PP (IN in)
+          (NP (CD 2010)))
+        (S
+          (VP (TO to)
+            (VP (VB give)
+              (NP (NN policy) (NNS recommendations))
+              (PP (IN on)
+                (NP
+                  (NP (NN behalf))
+                  (PP (IN of)
+                    (NP (DT the) (JJ international) (NN business) (NN community)))))
+              (PP (TO to)
+                (NP (DT the) (NN G20))))))))
+    (. .)))
+
+root(ROOT-0, set-4)
+det(B20-2, The-1)
+nsubjpass(set-4, B20-2)
+auxpass(set-4, was-3)
+prt(set-4, up-5)
+prep_in(set-4, 2010-7)
+aux(give-9, to-8)
+xcomp(set-4, give-9)
+nn(recommendations-11, policy-10)
+dobj(give-9, recommendations-11)
+det(community-18, the-15)
+amod(community-18, international-16)
+nn(community-18, business-17)
+prep_on_behalf_of(give-9, community-18)
+det(G20-21, the-20)
+prep_to(give-9, G20-21)
+
+Sentence #12 (20 tokens):
+Business leaders meeting here are looking to influence the outcome of the G20 Leaders Summit in Brisbane in November.
+[Text=Business CharacterOffsetBegin=1562 CharacterOffsetEnd=1570 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=leaders CharacterOffsetBegin=1571 CharacterOffsetEnd=1578 PartOfSpeech=NNS Lemma=leader NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=1579 CharacterOffsetEnd=1586 PartOfSpeech=VBG Lemma=meet NamedEntityTag=O] [Text=here CharacterOffsetBegin=1587 CharacterOffsetEnd=1591 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=are CharacterOffsetBegin=1592 CharacterOffsetEnd=1595 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=looking CharacterOffsetBegin=1596 CharacterOffsetEnd=1603 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=to CharacterOffsetBegin=1604 CharacterOffsetEnd=1606 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=influence CharacterOffsetBegin=1607 CharacterOffsetEnd=1616 PartOfSpeech=VB Lemma=influence NamedEntityTag=O] [Text=the CharacterOffsetBegin=1617 CharacterOffsetEnd=1620 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=outcome CharacterOffsetBegin=1621 CharacterOffsetEnd=1628 PartOfSpeech=NN Lemma=outcome NamedEntityTag=O] [Text=of CharacterOffsetBegin=1629 CharacterOffsetEnd=1631 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1632 CharacterOffsetEnd=1635 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=1636 CharacterOffsetEnd=1639 PartOfSpeech=NNP Lemma=G20 NamedEntityTag=O] [Text=Leaders CharacterOffsetBegin=1640 CharacterOffsetEnd=1647 PartOfSpeech=NNP Lemma=Leaders NamedEntityTag=O] [Text=Summit CharacterOffsetBegin=1648 CharacterOffsetEnd=1654 PartOfSpeech=NNP Lemma=Summit NamedEntityTag=O] [Text=in CharacterOffsetBegin=1655 CharacterOffsetEnd=1657 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Brisbane CharacterOffsetBegin=1658 CharacterOffsetEnd=1666 PartOfSpeech=NNP Lemma=Brisbane NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=1667 CharacterOffsetEnd=1669 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=November CharacterOffsetBegin=1670 CharacterOffsetEnd=1678 PartOfSpeech=NNP Lemma=November NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-11 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-11">November</TIMEX3>] [Text=. CharacterOffsetBegin=1678 CharacterOffsetEnd=1679 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Business) (NNS leaders))
+      (VP (VBG meeting)
+        (ADVP (RB here))))
+    (VP (VBP are)
+      (VP (VBG looking)
+        (S
+          (VP (TO to)
+            (VP (VB influence)
+              (NP
+                (NP (DT the) (NN outcome))
+                (PP (IN of)
+                  (NP (DT the) (NNP G20) (NNP Leaders) (NNP Summit))))
+              (PP (IN in)
+                (NP (NNP Brisbane)))
+              (PP (IN in)
+                (NP (NNP November))))))))
+    (. .)))
+
+root(ROOT-0, looking-6)
+nn(leaders-2, Business-1)
+nsubj(looking-6, leaders-2)
+vmod(leaders-2, meeting-3)
+advmod(meeting-3, here-4)
+aux(looking-6, are-5)
+aux(influence-8, to-7)
+xcomp(looking-6, influence-8)
+det(outcome-10, the-9)
+dobj(influence-8, outcome-10)
+det(Summit-15, the-12)
+nn(Summit-15, G20-13)
+nn(Summit-15, Leaders-14)
+prep_of(outcome-10, Summit-15)
+prep_in(influence-8, Brisbane-17)
+prep_in(influence-8, November-19)
+
+Sentence #13 (30 tokens):
+"I believe that business does have a role in shaping public policy, mainly in helping limit the size and scope of government," Mr Murdoch said.
+[Text=`` CharacterOffsetBegin=1681 CharacterOffsetEnd=1682 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1682 CharacterOffsetEnd=1683 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=believe CharacterOffsetBegin=1684 CharacterOffsetEnd=1691 PartOfSpeech=VBP Lemma=believe NamedEntityTag=O] [Text=that CharacterOffsetBegin=1692 CharacterOffsetEnd=1696 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=business CharacterOffsetBegin=1697 CharacterOffsetEnd=1705 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=does CharacterOffsetBegin=1706 CharacterOffsetEnd=1710 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=have CharacterOffsetBegin=1711 CharacterOffsetEnd=1715 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1716 CharacterOffsetEnd=1717 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=role CharacterOffsetBegin=1718 CharacterOffsetEnd=1722 PartOfSpeech=NN Lemma=role NamedEntityTag=O] [Text=in CharacterOffsetBegin=1723 CharacterOffsetEnd=1725 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=shaping CharacterOffsetBegin=1726 CharacterOffsetEnd=1733 PartOfSpeech=VBG Lemma=shape NamedEntityTag=O] [Text=public CharacterOffsetBegin=1734 CharacterOffsetEnd=1740 PartOfSpeech=JJ Lemma=public NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1741 CharacterOffsetEnd=1747 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=, CharacterOffsetBegin=1747 CharacterOffsetEnd=1748 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=mainly CharacterOffsetBegin=1749 CharacterOffsetEnd=1755 PartOfSpeech=RB Lemma=mainly NamedEntityTag=O] [Text=in CharacterOffsetBegin=1756 CharacterOffsetEnd=1758 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=helping CharacterOffsetBegin=1759 CharacterOffsetEnd=1766 PartOfSpeech=VBG Lemma=help NamedEntityTag=O] [Text=limit CharacterOffsetBegin=1767 CharacterOffsetEnd=1772 PartOfSpeech=VB Lemma=limit NamedEntityTag=O] [Text=the CharacterOffsetBegin=1773 CharacterOffsetEnd=1776 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=size CharacterOffsetBegin=1777 CharacterOffsetEnd=1781 PartOfSpeech=NN Lemma=size NamedEntityTag=O] [Text=and CharacterOffsetBegin=1782 CharacterOffsetEnd=1785 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=scope CharacterOffsetBegin=1786 CharacterOffsetEnd=1791 PartOfSpeech=NN Lemma=scope NamedEntityTag=O] [Text=of CharacterOffsetBegin=1792 CharacterOffsetEnd=1794 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=government CharacterOffsetBegin=1795 CharacterOffsetEnd=1805 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=, CharacterOffsetBegin=1805 CharacterOffsetEnd=1806 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1806 CharacterOffsetEnd=1807 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Mr CharacterOffsetBegin=1808 CharacterOffsetEnd=1810 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Murdoch CharacterOffsetBegin=1811 CharacterOffsetEnd=1818 PartOfSpeech=NNP Lemma=Murdoch NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1819 CharacterOffsetEnd=1823 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1823 CharacterOffsetEnd=1824 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP believe)
+        (SBAR (IN that)
+          (S
+            (NP (NN business))
+            (VP (VBZ does)
+              (VP (VB have)
+                (NP (DT a) (NN role))
+                (PP (IN in)
+                  (S
+                    (VP (VBG shaping)
+                      (NP (JJ public) (NN policy)))))
+                (, ,)
+                (PP
+                  (ADVP (RB mainly))
+                  (IN in)
+                  (S
+                    (VP (VBG helping)
+                      (S
+                        (VP (VB limit)
+                          (NP
+                            (NP (DT the) (NN size)
+                              (CC and)
+                              (NN scope))
+                            (PP (IN of)
+                              (NP (NN government)))))))))))))))
+    (, ,) ('' '')
+    (NP (NNP Mr) (NNP Murdoch))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-29)
+nsubj(believe-3, I-2)
+ccomp(said-29, believe-3)
+mark(have-7, that-4)
+nsubj(have-7, business-5)
+aux(have-7, does-6)
+ccomp(believe-3, have-7)
+det(role-9, a-8)
+dobj(have-7, role-9)
+prepc_in(have-7, shaping-11)
+amod(policy-13, public-12)
+dobj(shaping-11, policy-13)
+advmod(have-7, mainly-15)
+prepc_in(have-7, helping-17)
+ccomp(helping-17, limit-18)
+det(size-20, the-19)
+dobj(limit-18, size-20)
+conj_and(size-20, scope-22)
+prep_of(size-20, government-24)
+nn(Murdoch-28, Mr-27)
+nsubj(said-29, Murdoch-28)
+
+Sentence #14 (26 tokens):
+"For businesses large and small, there's simply too much red tape, too many subservient politicians stifling economic growth and entrepreneurism."
+[Text=`` CharacterOffsetBegin=1826 CharacterOffsetEnd=1827 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=For CharacterOffsetBegin=1827 CharacterOffsetEnd=1830 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=1831 CharacterOffsetEnd=1841 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=large CharacterOffsetBegin=1842 CharacterOffsetEnd=1847 PartOfSpeech=JJ Lemma=large NamedEntityTag=O] [Text=and CharacterOffsetBegin=1848 CharacterOffsetEnd=1851 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=small CharacterOffsetBegin=1852 CharacterOffsetEnd=1857 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=, CharacterOffsetBegin=1857 CharacterOffsetEnd=1858 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=there CharacterOffsetBegin=1859 CharacterOffsetEnd=1864 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text='s CharacterOffsetBegin=1864 CharacterOffsetEnd=1866 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=simply CharacterOffsetBegin=1867 CharacterOffsetEnd=1873 PartOfSpeech=RB Lemma=simply NamedEntityTag=O] [Text=too CharacterOffsetBegin=1874 CharacterOffsetEnd=1877 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=much CharacterOffsetBegin=1878 CharacterOffsetEnd=1882 PartOfSpeech=JJ Lemma=much NamedEntityTag=O] [Text=red CharacterOffsetBegin=1883 CharacterOffsetEnd=1886 PartOfSpeech=JJ Lemma=red NamedEntityTag=O] [Text=tape CharacterOffsetBegin=1887 CharacterOffsetEnd=1891 PartOfSpeech=NN Lemma=tape NamedEntityTag=O] [Text=, CharacterOffsetBegin=1891 CharacterOffsetEnd=1892 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=too CharacterOffsetBegin=1893 CharacterOffsetEnd=1896 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=many CharacterOffsetBegin=1897 CharacterOffsetEnd=1901 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=subservient CharacterOffsetBegin=1902 CharacterOffsetEnd=1913 PartOfSpeech=JJ Lemma=subservient NamedEntityTag=O] [Text=politicians CharacterOffsetBegin=1914 CharacterOffsetEnd=1925 PartOfSpeech=NNS Lemma=politician NamedEntityTag=O] [Text=stifling CharacterOffsetBegin=1926 CharacterOffsetEnd=1934 PartOfSpeech=VBG Lemma=stifle NamedEntityTag=O] [Text=economic CharacterOffsetBegin=1935 CharacterOffsetEnd=1943 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=growth CharacterOffsetBegin=1944 CharacterOffsetEnd=1950 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=and CharacterOffsetBegin=1951 CharacterOffsetEnd=1954 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=entrepreneurism CharacterOffsetBegin=1955 CharacterOffsetEnd=1970 PartOfSpeech=NN Lemma=entrepreneurism NamedEntityTag=O] [Text=. CharacterOffsetBegin=1970 CharacterOffsetEnd=1971 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1971 CharacterOffsetEnd=1972 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (PP (IN For)
+        (NP
+          (NP (NNS businesses))
+          (ADJP (JJ large)
+            (CC and)
+            (JJ small))))
+      (, ,)
+      (NP (EX there))
+      (VP (VBZ 's)
+        (ADVP (RB simply))
+        (NP
+          (ADJP (RB too) (JJ much))
+          (JJ red) (NN tape))))
+    (, ,)
+    (ADVP (RB too))
+    (S
+      (NP (JJ many) (JJ subservient) (NNS politicians))
+      (VP (VBG stifling)
+        (NP (JJ economic) (NN growth)
+          (CC and)
+          (NN entrepreneurism))))
+    (. .) ('' '')))
+
+root(ROOT-0, 's-9)
+prep_for('s-9, businesses-3)
+amod(businesses-3, large-4)
+conj_and(large-4, small-6)
+expl('s-9, there-8)
+advmod('s-9, simply-10)
+advmod(much-12, too-11)
+amod(tape-14, much-12)
+amod(tape-14, red-13)
+nsubj('s-9, tape-14)
+advmod(stifling-20, too-16)
+amod(politicians-19, many-17)
+amod(politicians-19, subservient-18)
+nsubj(stifling-20, politicians-19)
+parataxis('s-9, stifling-20)
+amod(growth-22, economic-21)
+dobj(stifling-20, growth-22)
+conj_and(growth-22, entrepreneurism-24)
+
+Sentence #15 (42 tokens):
+Along with targeting growth of 2pc above trend over the next five years, the G20 is tackling corporate "profit shifting", which has allowed multinationals such as Starbucks, Google, Apple and Amazon.com to avoid paying taxes.
+[Text=Along CharacterOffsetBegin=1974 CharacterOffsetEnd=1979 PartOfSpeech=IN Lemma=along NamedEntityTag=O] [Text=with CharacterOffsetBegin=1980 CharacterOffsetEnd=1984 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=targeting CharacterOffsetBegin=1985 CharacterOffsetEnd=1994 PartOfSpeech=VBG Lemma=target NamedEntityTag=O] [Text=growth CharacterOffsetBegin=1995 CharacterOffsetEnd=2001 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=of CharacterOffsetBegin=2002 CharacterOffsetEnd=2004 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=2pc CharacterOffsetBegin=2005 CharacterOffsetEnd=2008 PartOfSpeech=JJ Lemma=2pc NamedEntityTag=O] [Text=above CharacterOffsetBegin=2009 CharacterOffsetEnd=2014 PartOfSpeech=JJ Lemma=above NamedEntityTag=O] [Text=trend CharacterOffsetBegin=2015 CharacterOffsetEnd=2020 PartOfSpeech=NN Lemma=trend NamedEntityTag=O] [Text=over CharacterOffsetBegin=2021 CharacterOffsetEnd=2025 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=2026 CharacterOffsetEnd=2029 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t8" tid="t9" type="DURATION" value="P5Y">the next five years</TIMEX3>] [Text=next CharacterOffsetBegin=2030 CharacterOffsetEnd=2034 PartOfSpeech=JJ Lemma=next NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t8" tid="t9" type="DURATION" value="P5Y">the next five years</TIMEX3>] [Text=five CharacterOffsetBegin=2035 CharacterOffsetEnd=2039 PartOfSpeech=CD Lemma=five NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t8" tid="t9" type="DURATION" value="P5Y">the next five years</TIMEX3>] [Text=years CharacterOffsetBegin=2040 CharacterOffsetEnd=2045 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t8" tid="t9" type="DURATION" value="P5Y">the next five years</TIMEX3>] [Text=, CharacterOffsetBegin=2045 CharacterOffsetEnd=2046 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=2047 CharacterOffsetEnd=2050 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=2051 CharacterOffsetEnd=2054 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=is CharacterOffsetBegin=2055 CharacterOffsetEnd=2057 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=tackling CharacterOffsetBegin=2058 CharacterOffsetEnd=2066 PartOfSpeech=VBG Lemma=tackle NamedEntityTag=O] [Text=corporate CharacterOffsetBegin=2067 CharacterOffsetEnd=2076 PartOfSpeech=JJ Lemma=corporate NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2077 CharacterOffsetEnd=2078 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=profit CharacterOffsetBegin=2078 CharacterOffsetEnd=2084 PartOfSpeech=NN Lemma=profit NamedEntityTag=O] [Text=shifting CharacterOffsetBegin=2085 CharacterOffsetEnd=2093 PartOfSpeech=VBG Lemma=shift NamedEntityTag=O] [Text='' CharacterOffsetBegin=2093 CharacterOffsetEnd=2094 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=, CharacterOffsetBegin=2094 CharacterOffsetEnd=2095 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=2096 CharacterOffsetEnd=2101 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=has CharacterOffsetBegin=2102 CharacterOffsetEnd=2105 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=allowed CharacterOffsetBegin=2106 CharacterOffsetEnd=2113 PartOfSpeech=VBN Lemma=allow NamedEntityTag=O] [Text=multinationals CharacterOffsetBegin=2114 CharacterOffsetEnd=2128 PartOfSpeech=NNS Lemma=multinational NamedEntityTag=O] [Text=such CharacterOffsetBegin=2129 CharacterOffsetEnd=2133 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=as CharacterOffsetBegin=2134 CharacterOffsetEnd=2136 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Starbucks CharacterOffsetBegin=2137 CharacterOffsetEnd=2146 PartOfSpeech=NNP Lemma=Starbucks NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2146 CharacterOffsetEnd=2147 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Google CharacterOffsetBegin=2148 CharacterOffsetEnd=2154 PartOfSpeech=NNP Lemma=Google NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2154 CharacterOffsetEnd=2155 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=2156 CharacterOffsetEnd=2161 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=2162 CharacterOffsetEnd=2165 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Amazon.com CharacterOffsetBegin=2166 CharacterOffsetEnd=2176 PartOfSpeech=NNP Lemma=Amazon.com NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=2177 CharacterOffsetEnd=2179 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=avoid CharacterOffsetBegin=2180 CharacterOffsetEnd=2185 PartOfSpeech=VB Lemma=avoid NamedEntityTag=O] [Text=paying CharacterOffsetBegin=2186 CharacterOffsetEnd=2192 PartOfSpeech=VBG Lemma=pay NamedEntityTag=O] [Text=taxes CharacterOffsetBegin=2193 CharacterOffsetEnd=2198 PartOfSpeech=NNS Lemma=tax NamedEntityTag=O] [Text=. CharacterOffsetBegin=2198 CharacterOffsetEnd=2199 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (IN Along)
+      (PP (IN with)
+        (S
+          (VP (VBG targeting)
+            (NP
+              (NP (NN growth))
+              (PP (IN of)
+                (NP
+                  (NP (JJ 2pc) (JJ above) (NN trend))
+                  (PP (IN over)
+                    (NP (DT the) (JJ next) (CD five) (NNS years))))))))))
+    (, ,)
+    (NP (DT the) (NN G20))
+    (VP (VBZ is)
+      (VP (VBG tackling)
+        (NP
+          (NP
+            (NP (JJ corporate))
+            (`` ``)
+            (S
+              (NP (NN profit))
+              (VP (VBG shifting) ('' '')))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ has)
+                  (VP (VBN allowed)
+                    (NP
+                      (NP (NNS multinationals))
+                      (PP (JJ such) (IN as)
+                        (NP (NNP Starbucks) (, ,) (NNP Google) (, ,) (NNP Apple)
+                          (CC and)
+                          (NNP Amazon.com))))
+                    (S
+                      (VP (TO to)
+                        (VP (VB avoid)))))))))
+          (VP (VBG paying)
+            (NP (NNS taxes))))))
+    (. .)))
+
+root(ROOT-0, tackling-18)
+prepc_along_with(tackling-18, targeting-3)
+dobj(targeting-3, growth-4)
+amod(trend-8, 2pc-6)
+amod(trend-8, above-7)
+prep_of(growth-4, trend-8)
+det(years-13, the-10)
+amod(years-13, next-11)
+num(years-13, five-12)
+prep_over(trend-8, years-13)
+det(G20-16, the-15)
+nsubj(tackling-18, G20-16)
+aux(tackling-18, is-17)
+dobj(tackling-18, corporate-19)
+nsubj(shifting-22, profit-21)
+dep(corporate-19, shifting-22)
+nsubj(allowed-27, which-25)
+aux(allowed-27, has-26)
+rcmod(corporate-19, allowed-27)
+dobj(allowed-27, multinationals-28)
+prep_such_as(multinationals-28, Starbucks-31)
+conj_and(Starbucks-31, Google-33)
+conj_and(Starbucks-31, Apple-35)
+conj_and(Starbucks-31, Amazon.com-37)
+aux(avoid-39, to-38)
+xcomp(allowed-27, avoid-39)
+vmod(corporate-19, paying-40)
+dobj(paying-40, taxes-41)
+
+Sentence #16 (36 tokens):
+G20 finance ministers in February endorsed a set of common standards for sharing bank account information across borders, with automatic exchange of information among G20 members to take effect by the end of 2015.
+[Text=G20 CharacterOffsetBegin=2201 CharacterOffsetEnd=2204 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=finance CharacterOffsetBegin=2205 CharacterOffsetEnd=2212 PartOfSpeech=NN Lemma=finance NamedEntityTag=O] [Text=ministers CharacterOffsetBegin=2213 CharacterOffsetEnd=2222 PartOfSpeech=NNS Lemma=minister NamedEntityTag=O] [Text=in CharacterOffsetBegin=2223 CharacterOffsetEnd=2225 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=February CharacterOffsetBegin=2226 CharacterOffsetEnd=2234 PartOfSpeech=NNP Lemma=February NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-02 Timex=<TIMEX3 tid="t10" type="DATE" value="XXXX-02">February</TIMEX3>] [Text=endorsed CharacterOffsetBegin=2235 CharacterOffsetEnd=2243 PartOfSpeech=VBD Lemma=endorse NamedEntityTag=O] [Text=a CharacterOffsetBegin=2244 CharacterOffsetEnd=2245 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=set CharacterOffsetBegin=2246 CharacterOffsetEnd=2249 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=of CharacterOffsetBegin=2250 CharacterOffsetEnd=2252 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=common CharacterOffsetBegin=2253 CharacterOffsetEnd=2259 PartOfSpeech=JJ Lemma=common NamedEntityTag=O] [Text=standards CharacterOffsetBegin=2260 CharacterOffsetEnd=2269 PartOfSpeech=NNS Lemma=standard NamedEntityTag=O] [Text=for CharacterOffsetBegin=2270 CharacterOffsetEnd=2273 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=sharing CharacterOffsetBegin=2274 CharacterOffsetEnd=2281 PartOfSpeech=VBG Lemma=share NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2282 CharacterOffsetEnd=2286 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=account CharacterOffsetBegin=2287 CharacterOffsetEnd=2294 PartOfSpeech=NN Lemma=account NamedEntityTag=O] [Text=information CharacterOffsetBegin=2295 CharacterOffsetEnd=2306 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=across CharacterOffsetBegin=2307 CharacterOffsetEnd=2313 PartOfSpeech=IN Lemma=across NamedEntityTag=O] [Text=borders CharacterOffsetBegin=2314 CharacterOffsetEnd=2321 PartOfSpeech=NNS Lemma=border NamedEntityTag=O] [Text=, CharacterOffsetBegin=2321 CharacterOffsetEnd=2322 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=2323 CharacterOffsetEnd=2327 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=automatic CharacterOffsetBegin=2328 CharacterOffsetEnd=2337 PartOfSpeech=JJ Lemma=automatic NamedEntityTag=O] [Text=exchange CharacterOffsetBegin=2338 CharacterOffsetEnd=2346 PartOfSpeech=NN Lemma=exchange NamedEntityTag=O] [Text=of CharacterOffsetBegin=2347 CharacterOffsetEnd=2349 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=information CharacterOffsetBegin=2350 CharacterOffsetEnd=2361 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=among CharacterOffsetBegin=2362 CharacterOffsetEnd=2367 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=G20 CharacterOffsetBegin=2368 CharacterOffsetEnd=2371 PartOfSpeech=NN Lemma=g20 NamedEntityTag=O] [Text=members CharacterOffsetBegin=2372 CharacterOffsetEnd=2379 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=to CharacterOffsetBegin=2380 CharacterOffsetEnd=2382 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=take CharacterOffsetBegin=2383 CharacterOffsetEnd=2387 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=effect CharacterOffsetBegin=2388 CharacterOffsetEnd=2394 PartOfSpeech=NN Lemma=effect NamedEntityTag=O] [Text=by CharacterOffsetBegin=2395 CharacterOffsetEnd=2397 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=2398 CharacterOffsetEnd=2401 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 mod="LATE" tid="t11" type="DATE" value="2015">the end of 2015</TIMEX3>] [Text=end CharacterOffsetBegin=2402 CharacterOffsetEnd=2405 PartOfSpeech=NN Lemma=end NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 mod="LATE" tid="t11" type="DATE" value="2015">the end of 2015</TIMEX3>] [Text=of CharacterOffsetBegin=2406 CharacterOffsetEnd=2408 PartOfSpeech=IN Lemma=of NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 mod="LATE" tid="t11" type="DATE" value="2015">the end of 2015</TIMEX3>] [Text=2015 CharacterOffsetBegin=2409 CharacterOffsetEnd=2413 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 mod="LATE" tid="t11" type="DATE" value="2015">the end of 2015</TIMEX3>] [Text=. CharacterOffsetBegin=2413 CharacterOffsetEnd=2414 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN G20) (NN finance) (NNS ministers))
+      (PP (IN in)
+        (NP (NNP February))))
+    (VP (VBD endorsed)
+      (NP
+        (NP (DT a) (NN set))
+        (PP (IN of)
+          (NP (JJ common) (NNS standards))))
+      (PP (IN for)
+        (S
+          (VP (VBG sharing)
+            (NP (NN bank) (NN account) (NN information))
+            (PP (IN across)
+              (NP (NNS borders)))
+            (, ,)
+            (PP (IN with)
+              (NP
+                (NP (JJ automatic) (NN exchange))
+                (PP (IN of)
+                  (NP (NN information)))))
+            (PP (IN among)
+              (NP (NN G20) (NNS members)))
+            (S
+              (VP (TO to)
+                (VP (VB take)
+                  (NP (NN effect))
+                  (PP (IN by)
+                    (NP
+                      (NP (DT the) (NN end))
+                      (PP (IN of)
+                        (NP (CD 2015))))))))))))
+    (. .)))
+
+root(ROOT-0, endorsed-6)
+nn(ministers-3, G20-1)
+nn(ministers-3, finance-2)
+nsubj(endorsed-6, ministers-3)
+prep_in(ministers-3, February-5)
+det(set-8, a-7)
+dobj(endorsed-6, set-8)
+amod(standards-11, common-10)
+prep_of(set-8, standards-11)
+prepc_for(endorsed-6, sharing-13)
+nn(information-16, bank-14)
+nn(information-16, account-15)
+dobj(sharing-13, information-16)
+prep_across(sharing-13, borders-18)
+amod(exchange-22, automatic-21)
+prep_with(sharing-13, exchange-22)
+prep_of(exchange-22, information-24)
+nn(members-27, G20-26)
+prep_among(sharing-13, members-27)
+aux(take-29, to-28)
+vmod(sharing-13, take-29)
+dobj(take-29, effect-30)
+det(end-33, the-32)
+prep_by(take-29, end-33)
+prep_of(end-33, 2015-35)
+
+Sentence #17 (22 tokens):
+Mr Obama earlier this year proposed tightening restrictions on US multinationals that shift their tax domiciles abroad in his 2015 budget.
+[Text=Mr CharacterOffsetBegin=2416 CharacterOffsetEnd=2418 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Obama CharacterOffsetBegin=2419 CharacterOffsetEnd=2424 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=earlier CharacterOffsetBegin=2425 CharacterOffsetEnd=2432 PartOfSpeech=RBR Lemma=earlier NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t12" type="DATE" valueFromFunction="tf1">earlier this year</TIMEX3>] [Text=this CharacterOffsetBegin=2433 CharacterOffsetEnd=2437 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t12" type="DATE" valueFromFunction="tf1">earlier this year</TIMEX3>] [Text=year CharacterOffsetBegin=2438 CharacterOffsetEnd=2442 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t12" type="DATE" valueFromFunction="tf1">earlier this year</TIMEX3>] [Text=proposed CharacterOffsetBegin=2443 CharacterOffsetEnd=2451 PartOfSpeech=VBD Lemma=propose NamedEntityTag=O] [Text=tightening CharacterOffsetBegin=2452 CharacterOffsetEnd=2462 PartOfSpeech=VBG Lemma=tighten NamedEntityTag=O] [Text=restrictions CharacterOffsetBegin=2463 CharacterOffsetEnd=2475 PartOfSpeech=NNS Lemma=restriction NamedEntityTag=O] [Text=on CharacterOffsetBegin=2476 CharacterOffsetEnd=2478 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=US CharacterOffsetBegin=2479 CharacterOffsetEnd=2481 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=multinationals CharacterOffsetBegin=2482 CharacterOffsetEnd=2496 PartOfSpeech=NNS Lemma=multinational NamedEntityTag=O] [Text=that CharacterOffsetBegin=2497 CharacterOffsetEnd=2501 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=shift CharacterOffsetBegin=2502 CharacterOffsetEnd=2507 PartOfSpeech=VBP Lemma=shift NamedEntityTag=O] [Text=their CharacterOffsetBegin=2508 CharacterOffsetEnd=2513 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=tax CharacterOffsetBegin=2514 CharacterOffsetEnd=2517 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=domiciles CharacterOffsetBegin=2518 CharacterOffsetEnd=2527 PartOfSpeech=NNS Lemma=domicile NamedEntityTag=O] [Text=abroad CharacterOffsetBegin=2528 CharacterOffsetEnd=2534 PartOfSpeech=RB Lemma=abroad NamedEntityTag=O] [Text=in CharacterOffsetBegin=2535 CharacterOffsetEnd=2537 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=2538 CharacterOffsetEnd=2541 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=2542 CharacterOffsetEnd=2546 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t13" type="DATE" value="2015">2015</TIMEX3>] [Text=budget CharacterOffsetBegin=2547 CharacterOffsetEnd=2553 PartOfSpeech=NN Lemma=budget NamedEntityTag=O] [Text=. CharacterOffsetBegin=2553 CharacterOffsetEnd=2554 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Mr) (NNP Obama))
+    (NP-TMP (RBR earlier) (DT this) (NN year))
+    (VP (VBD proposed)
+      (NP
+        (NP (VBG tightening) (NNS restrictions))
+        (PP (IN on)
+          (NP (NNP US) (NNS multinationals)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP shift)
+              (NP (PRP$ their) (NN tax) (NNS domiciles))
+              (PP
+                (ADVP (RB abroad))
+                (IN in)
+                (NP (PRP$ his) (CD 2015) (NN budget))))))))
+    (. .)))
+
+root(ROOT-0, proposed-6)
+nn(Obama-2, Mr-1)
+nsubj(proposed-6, Obama-2)
+advmod(year-5, earlier-3)
+det(year-5, this-4)
+tmod(proposed-6, year-5)
+amod(restrictions-8, tightening-7)
+dobj(proposed-6, restrictions-8)
+nn(multinationals-11, US-10)
+prep_on(restrictions-8, multinationals-11)
+nsubj(shift-13, that-12)
+rcmod(restrictions-8, shift-13)
+poss(domiciles-16, their-14)
+nn(domiciles-16, tax-15)
+dobj(shift-13, domiciles-16)
+advmod(shift-13, abroad-17)
+poss(budget-21, his-19)
+num(budget-21, 2015-20)
+prep_in(shift-13, budget-21)
+
+Sentence #18 (29 tokens):
+Mr Obama wants to raise the minimum level of foreign ownership in a newly inverted holding company to 50pc from about 20pc, making the deals more difficult.
+[Text=Mr CharacterOffsetBegin=2556 CharacterOffsetEnd=2558 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Obama CharacterOffsetBegin=2559 CharacterOffsetEnd=2564 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=wants CharacterOffsetBegin=2565 CharacterOffsetEnd=2570 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O] [Text=to CharacterOffsetBegin=2571 CharacterOffsetEnd=2573 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=raise CharacterOffsetBegin=2574 CharacterOffsetEnd=2579 PartOfSpeech=VB Lemma=raise NamedEntityTag=O] [Text=the CharacterOffsetBegin=2580 CharacterOffsetEnd=2583 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=minimum CharacterOffsetBegin=2584 CharacterOffsetEnd=2591 PartOfSpeech=JJ Lemma=minimum NamedEntityTag=O] [Text=level CharacterOffsetBegin=2592 CharacterOffsetEnd=2597 PartOfSpeech=NN Lemma=level NamedEntityTag=O] [Text=of CharacterOffsetBegin=2598 CharacterOffsetEnd=2600 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=foreign CharacterOffsetBegin=2601 CharacterOffsetEnd=2608 PartOfSpeech=JJ Lemma=foreign NamedEntityTag=O] [Text=ownership CharacterOffsetBegin=2609 CharacterOffsetEnd=2618 PartOfSpeech=NN Lemma=ownership NamedEntityTag=O] [Text=in CharacterOffsetBegin=2619 CharacterOffsetEnd=2621 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=2622 CharacterOffsetEnd=2623 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=newly CharacterOffsetBegin=2624 CharacterOffsetEnd=2629 PartOfSpeech=RB Lemma=newly NamedEntityTag=O] [Text=inverted CharacterOffsetBegin=2630 CharacterOffsetEnd=2638 PartOfSpeech=VBN Lemma=invert NamedEntityTag=O] [Text=holding CharacterOffsetBegin=2639 CharacterOffsetEnd=2646 PartOfSpeech=VBG Lemma=hold NamedEntityTag=O] [Text=company CharacterOffsetBegin=2647 CharacterOffsetEnd=2654 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text=to CharacterOffsetBegin=2655 CharacterOffsetEnd=2657 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=50pc CharacterOffsetBegin=2658 CharacterOffsetEnd=2662 PartOfSpeech=JJ Lemma=50pc NamedEntityTag=O] [Text=from CharacterOffsetBegin=2663 CharacterOffsetEnd=2667 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=about CharacterOffsetBegin=2668 CharacterOffsetEnd=2673 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=20pc CharacterOffsetBegin=2674 CharacterOffsetEnd=2678 PartOfSpeech=JJ Lemma=20pc NamedEntityTag=O] [Text=, CharacterOffsetBegin=2678 CharacterOffsetEnd=2679 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=making CharacterOffsetBegin=2680 CharacterOffsetEnd=2686 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=the CharacterOffsetBegin=2687 CharacterOffsetEnd=2690 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=deals CharacterOffsetBegin=2691 CharacterOffsetEnd=2696 PartOfSpeech=NNS Lemma=deal NamedEntityTag=O] [Text=more CharacterOffsetBegin=2697 CharacterOffsetEnd=2701 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=difficult CharacterOffsetBegin=2702 CharacterOffsetEnd=2711 PartOfSpeech=JJ Lemma=difficult NamedEntityTag=O] [Text=. CharacterOffsetBegin=2711 CharacterOffsetEnd=2712 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Mr) (NNP Obama))
+    (VP (VBZ wants)
+      (S
+        (VP (TO to)
+          (VP (VB raise)
+            (NP
+              (NP (DT the) (JJ minimum) (NN level))
+              (PP (IN of)
+                (NP (JJ foreign) (NN ownership))))
+            (PP (IN in)
+              (NP
+                (NP (DT a)
+                  (ADJP (RB newly) (VBN inverted))
+                  (VBG holding) (NN company))
+                (PP (TO to)
+                  (NP (JJ 50pc))))))))
+      (PP (IN from) (IN about)
+        (NP
+          (NP (JJ 20pc))
+          (, ,)
+          (VP (VBG making)
+            (S
+              (NP (DT the) (NNS deals))
+              (ADJP (RBR more) (JJ difficult)))))))
+    (. .)))
+
+root(ROOT-0, wants-3)
+nn(Obama-2, Mr-1)
+nsubj(wants-3, Obama-2)
+aux(raise-5, to-4)
+xcomp(wants-3, raise-5)
+det(level-8, the-6)
+amod(level-8, minimum-7)
+dobj(raise-5, level-8)
+amod(ownership-11, foreign-10)
+prep_of(level-8, ownership-11)
+det(company-17, a-13)
+advmod(inverted-15, newly-14)
+amod(company-17, inverted-15)
+amod(company-17, holding-16)
+prep_in(raise-5, company-17)
+prep_to(company-17, 50pc-19)
+dep(wants-3, from-20)
+prep_about(wants-3, 20pc-22)
+vmod(20pc-22, making-24)
+det(deals-26, the-25)
+nsubj(difficult-28, deals-26)
+advmod(difficult-28, more-27)
+xcomp(making-24, difficult-28)
+
+Sentence #19 (2 tokens):
+Irish Independent
+[Text=Irish CharacterOffsetBegin=2714 CharacterOffsetEnd=2719 PartOfSpeech=JJ Lemma=irish NamedEntityTag=MISC] [Text=Independent CharacterOffsetBegin=2720 CharacterOffsetEnd=2731 PartOfSpeech=NNP Lemma=Independent NamedEntityTag=O] 
+(ROOT
+  (NP (JJ Irish) (NNP Independent)))
+
+root(ROOT-0, Independent-2)
+amod(Independent-2, Irish-1)
+
+Coreference set:
+	(1,1,[1,2]) -> (2,11,[6,12]), that is: "Murdoch" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(4,2,[1,3]) -> (2,11,[6,12]), that is: "Mr Murdoch" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(7,2,[1,3]) -> (2,11,[6,12]), that is: "Mr Murdoch" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(8,3,[3,4]) -> (2,11,[6,12]), that is: "My" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(8,9,[9,10]) -> (2,11,[6,12]), that is: "I" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(8,30,[29,31]) -> (2,11,[6,12]), that is: "Mr Murdoch" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(8,48,[48,49]) -> (2,11,[6,12]), that is: "his" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(10,5,[5,6]) -> (2,11,[6,12]), that is: "me" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(13,2,[2,3]) -> (2,11,[6,12]), that is: "I" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+	(13,28,[27,29]) -> (2,11,[6,12]), that is: "Mr Murdoch" -> "Pool/Getty Images Media mogul Rupert Murdoch"
+Coreference set:
+	(8,43,[43,44]) -> (1,29,[29,30]), that is: "Sydney" -> "Sydney"
+Coreference set:
+	(3,31,[31,32]) -> (2,29,[29,30]), that is: "Ireland" -> "Ireland"
+Coreference set:
+	(3,3,[3,4]) -> (2,22,[22,30]), that is: "we" -> "companies using low tax states such as Ireland"
+Coreference set:
+	(3,23,[22,24]) -> (3,19,[17,24]), that is: "United States" -> "35pc to 40pc in the United States"
+	(7,5,[5,6]) -> (3,19,[17,24]), that is: "US" -> "35pc to 40pc in the United States"
+	(17,10,[10,11]) -> (3,19,[17,24]), that is: "US" -> "35pc to 40pc in the United States"
+Coreference set:
+	(3,34,[33,35]) -> (3,29,[26,32]), that is: "12.5 pc" -> "the corporate tax rate in Ireland"
+Coreference set:
+	(5,2,[2,3]) -> (5,6,[5,11]), that is: "This" -> "the way to achieve economic growth"
+Coreference set:
+	(7,11,[11,12]) -> (6,26,[26,27]), that is: "businesses" -> "businesses"
+Coreference set:
+	(8,21,[21,22]) -> (7,23,[22,24]), that is: "we" -> "major corporations"
+	(8,24,[24,25]) -> (7,23,[22,24]), that is: "our" -> "major corporations"
+Coreference set:
+	(11,21,[20,22]) -> (7,41,[40,42]), that is: "the G20" -> "the G20"
+	(15,16,[15,17]) -> (7,41,[40,42]), that is: "the G20" -> "the G20"
+Coreference set:
+	(9,2,[2,3]) -> (8,1,[1,2]), that is: "That" -> "Audacious"
+Coreference set:
+	(8,39,[35,42]) -> (11,2,[1,3]), that is: "the Business 20 -LRB- B20 -RRB- leaders" -> "The B20"
+Coreference set:
+	(17,19,[19,20]) -> (17,2,[1,3]), that is: "his" -> "Mr Obama"
+	(18,2,[1,3]) -> (17,2,[1,3]), that is: "Mr Obama" -> "Mr Obama"
+Coreference set:
+	(17,14,[14,15]) -> (17,11,[10,12]), that is: "their" -> "US multinationals"

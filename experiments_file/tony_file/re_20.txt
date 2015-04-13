@@ -1,0 +1,876 @@
+Sentence #1 (23 tokens):
+Hall of Famer Tony Gwynn dies
+San Diego, CA (SportsNetwork.com) - Baseball Hall of Famer Tony Gwynn died Monday.
+[Text=Hall CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN Lemma=hall NamedEntityTag=O] [Text=of CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Famer CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Famer NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=Gwynn CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=dies CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=VBZ Lemma=die NamedEntityTag=O] [Text=San CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CA CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=CA NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=SportsNetwork.com CharacterOffsetBegin=46 CharacterOffsetEnd=63 PartOfSpeech=NNP Lemma=SportsNetwork.com NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=- CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Baseball CharacterOffsetBegin=67 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=Baseball NamedEntityTag=O] [Text=Hall CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=NNP Lemma=Hall NamedEntityTag=O] [Text=of CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Famer CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NNP Lemma=Famer NamedEntityTag=MISC] [Text=Tony CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=Gwynn CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=died CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBD Lemma=die NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-1">Monday</TIMEX3>] [Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN Hall))
+        (PP (IN of)
+          (NP (NNP Famer) (NNP Tony) (NNP Gwynn))))
+      (VP (VBZ dies)
+        (NP
+          (NP (NNP San) (NNP Diego))
+          (, ,)
+          (NP (NNP CA))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP SportsNetwork.com))
+            (-RRB- -RRB-)))))
+    (: -)
+    (S
+      (NP
+        (NP (NNP Baseball) (NNP Hall))
+        (PP (IN of)
+          (NP (NNP Famer) (NNP Tony) (NNP Gwynn))))
+      (VP (VBD died)
+        (NP-TMP (NNP Monday))))
+    (. .)))
+
+root(ROOT-0, dies-6)
+nsubj(dies-6, Hall-1)
+nn(Gwynn-5, Famer-3)
+nn(Gwynn-5, Tony-4)
+prep_of(Hall-1, Gwynn-5)
+nn(Diego-8, San-7)
+dobj(dies-6, Diego-8)
+appos(Diego-8, CA-10)
+appos(Diego-8, SportsNetwork.com-12)
+nn(Hall-16, Baseball-15)
+nsubj(died-21, Hall-16)
+nn(Gwynn-20, Famer-18)
+nn(Gwynn-20, Tony-19)
+prep_of(Hall-16, Gwynn-20)
+parataxis(dies-6, died-21)
+tmod(died-21, Monday-22)
+
+Sentence #2 (6 tokens):
+He was 54 years old.
+[Text=He CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=54 CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=CD Lemma=54 NamedEntityTag=DURATION NormalizedNamedEntityTag=P54Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P54Y">54 years old</TIMEX3>] [Text=years CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P54Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P54Y">54 years old</TIMEX3>] [Text=old CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=JJ Lemma=old NamedEntityTag=DURATION NormalizedNamedEntityTag=P54Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P54Y">54 years old</TIMEX3>] [Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (ADJP
+        (NP (CD 54) (NNS years))
+        (JJ old)))
+    (. .)))
+
+root(ROOT-0, old-5)
+nsubj(old-5, He-1)
+cop(old-5, was-2)
+num(years-4, 54-3)
+npadvmod(old-5, years-4)
+
+Sentence #3 (22 tokens):
+The San Diego Padres, for whom Gwynn played his entire 20-year big league career, announced the sad news Monday.
+[Text=The CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=San CharacterOffsetBegin=140 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Padres CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NNPS Lemma=Padres NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=for CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=whom CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=WP Lemma=whom NamedEntityTag=O] [Text=Gwynn CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=played CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=VBD Lemma=play NamedEntityTag=O] [Text=his CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=entire CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O] [Text=20-year CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=JJ Lemma=20-year NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 tid="t3" type="DURATION" value="P20Y">20-year</TIMEX3>] [Text=big CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=league CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=NN Lemma=league NamedEntityTag=O] [Text=career CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=, CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=announced CharacterOffsetBegin=218 CharacterOffsetEnd=227 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sad CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=JJ Lemma=sad NamedEntityTag=O] [Text=news CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-1">Monday</TIMEX3>] [Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP San) (NNP Diego) (NNPS Padres))
+      (, ,)
+      (SBAR
+        (WHPP (IN for)
+          (WHNP (WP whom)))
+        (S
+          (NP (NNP Gwynn))
+          (VP (VBD played)
+            (NP (PRP$ his) (JJ entire) (JJ 20-year) (JJ big) (NN league))
+            (NP (NN career)))))
+      (, ,))
+    (VP (VBD announced)
+      (NP (DT the) (JJ sad) (NN news))
+      (NP-TMP (NNP Monday)))
+    (. .)))
+
+root(ROOT-0, announced-17)
+det(Padres-4, The-1)
+nn(Padres-4, San-2)
+nn(Padres-4, Diego-3)
+nsubj(announced-17, Padres-4)
+prep_for(played-9, whom-7)
+nsubj(played-9, Gwynn-8)
+rcmod(Padres-4, played-9)
+poss(league-14, his-10)
+amod(league-14, entire-11)
+amod(league-14, 20-year-12)
+amod(league-14, big-13)
+dep(played-9, league-14)
+dobj(played-9, career-15)
+det(news-20, the-18)
+amod(news-20, sad-19)
+dobj(announced-17, news-20)
+tmod(announced-17, Monday-21)
+
+Sentence #4 (25 tokens):
+"There are no words to express what Tony means to this organization and this community," the Padres said in a statement.
+[Text=`` CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=There CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=are CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=no CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=words CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=NNS Lemma=word NamedEntityTag=O] [Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=express CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=VB Lemma=express NamedEntityTag=O] [Text=what CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=means CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O] [Text=to CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=this CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=organization CharacterOffsetBegin=305 CharacterOffsetEnd=317 PartOfSpeech=NN Lemma=organization NamedEntityTag=O] [Text=and CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=this CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=community CharacterOffsetBegin=327 CharacterOffsetEnd=336 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=, CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=the CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Padres CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=NNPS Lemma=Padres NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=in CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=statement CharacterOffsetBegin=360 CharacterOffsetEnd=369 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (EX There))
+      (VP (VBP are)
+        (NP (DT no) (NNS words)
+          (S
+            (VP (TO to)
+              (VP (VB express)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (NNP Tony))
+                    (VP (VBZ means)
+                      (PP (TO to)
+                        (NP
+                          (NP (DT this) (NN organization))
+                          (CC and)
+                          (NP (DT this) (NN community)))))))))))))
+    (, ,) ('' '')
+    (NP (DT the) (NNPS Padres))
+    (VP (VBD said)
+      (PP (IN in)
+        (NP (DT a) (NN statement))))
+    (. .)))
+
+root(ROOT-0, said-21)
+expl(are-3, There-2)
+ccomp(said-21, are-3)
+neg(words-5, no-4)
+nsubj(are-3, words-5)
+aux(express-7, to-6)
+vmod(words-5, express-7)
+dobj(means-10, what-8)
+nsubj(means-10, Tony-9)
+ccomp(express-7, means-10)
+det(organization-13, this-12)
+prep_to(means-10, organization-13)
+det(community-16, this-15)
+conj_and(organization-13, community-16)
+det(Padres-20, the-19)
+nsubj(said-21, Padres-20)
+det(statement-24, a-23)
+prep_in(said-21, statement-24)
+
+Sentence #5 (12 tokens):
+More than just Mr. Padre, Tony was Mr. San Diego.
+[Text=More CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=just CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=Mr. CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=NNP Lemma=Mr. NamedEntityTag=O] [Text=Padre CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NNP Lemma=Padre NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=Mr. CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=NNP Lemma=Mr. NamedEntityTag=O] [Text=San CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (QP (JJR More) (IN than) (RB just)))
+        (NP (NNP Mr.) (NNP Padre)))
+      (, ,)
+      (NP (NNP Tony)))
+    (VP (VBD was)
+      (NP (NNP Mr.) (NNP San) (NNP Diego)))
+    (. .)))
+
+root(ROOT-0, Diego-11)
+quantmod(than-2, More-1)
+nsubj(Diego-11, than-2)
+quantmod(than-2, just-3)
+nn(Padre-5, Mr.-4)
+dep(than-2, Padre-5)
+appos(than-2, Tony-7)
+cop(Diego-11, was-8)
+nn(Diego-11, Mr.-9)
+nn(Diego-11, San-10)
+
+Sentence #6 (15 tokens):
+He cared deeply about our city and had a profound impact on our community.
+[Text=He CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=cared CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=VBD Lemma=care NamedEntityTag=O] [Text=deeply CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=RB Lemma=deeply NamedEntityTag=O] [Text=about CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=our CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=city CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=and CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=had CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=profound CharacterOffsetBegin=462 CharacterOffsetEnd=470 PartOfSpeech=JJ Lemma=profound NamedEntityTag=O] [Text=impact CharacterOffsetBegin=471 CharacterOffsetEnd=477 PartOfSpeech=NN Lemma=impact NamedEntityTag=O] [Text=on CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=our CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=community CharacterOffsetBegin=485 CharacterOffsetEnd=494 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=. CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD cared)
+        (ADVP (RB deeply))
+        (PP (IN about)
+          (NP (PRP$ our) (NN city))))
+      (CC and)
+      (VP (VBD had)
+        (NP
+          (NP (DT a) (JJ profound) (NN impact))
+          (PP (IN on)
+            (NP (PRP$ our) (NN community))))))
+    (. .)))
+
+root(ROOT-0, cared-2)
+nsubj(cared-2, He-1)
+advmod(cared-2, deeply-3)
+poss(city-6, our-5)
+prep_about(cared-2, city-6)
+conj_and(cared-2, had-8)
+det(impact-11, a-9)
+amod(impact-11, profound-10)
+dobj(had-8, impact-11)
+poss(community-14, our-13)
+prep_on(impact-11, community-14)
+
+Sentence #7 (28 tokens):
+He forever will be remembered not only for his tremendous on-field accomplishments, but also for his infectious laugh, warm, outgoing personality and huge heart.
+[Text=He CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=forever CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=RB Lemma=forever NamedEntityTag=O] [Text=will CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=512 CharacterOffsetEnd=514 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=remembered CharacterOffsetBegin=515 CharacterOffsetEnd=525 PartOfSpeech=VBN Lemma=remember NamedEntityTag=O] [Text=not CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=only CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=for CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=his CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=tremendous CharacterOffsetBegin=543 CharacterOffsetEnd=553 PartOfSpeech=JJ Lemma=tremendous NamedEntityTag=O] [Text=on-field CharacterOffsetBegin=554 CharacterOffsetEnd=562 PartOfSpeech=JJ Lemma=on-field NamedEntityTag=O] [Text=accomplishments CharacterOffsetBegin=563 CharacterOffsetEnd=578 PartOfSpeech=NNS Lemma=accomplishment NamedEntityTag=O] [Text=, CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=also CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=for CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=his CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=infectious CharacterOffsetBegin=597 CharacterOffsetEnd=607 PartOfSpeech=JJ Lemma=infectious NamedEntityTag=O] [Text=laugh CharacterOffsetBegin=608 CharacterOffsetEnd=613 PartOfSpeech=NN Lemma=laugh NamedEntityTag=O] [Text=, CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=warm CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=JJ Lemma=warm NamedEntityTag=O] [Text=, CharacterOffsetBegin=619 CharacterOffsetEnd=620 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=outgoing CharacterOffsetBegin=621 CharacterOffsetEnd=629 PartOfSpeech=JJ Lemma=outgoing NamedEntityTag=O] [Text=personality CharacterOffsetBegin=630 CharacterOffsetEnd=641 PartOfSpeech=NN Lemma=personality NamedEntityTag=O] [Text=and CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=huge CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O] [Text=heart CharacterOffsetBegin=651 CharacterOffsetEnd=656 PartOfSpeech=NN Lemma=heart NamedEntityTag=O] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB forever))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN remembered)
+          (PP
+            (CONJP (RB not) (RB only))
+            (PP (IN for)
+              (NP (PRP$ his) (JJ tremendous) (JJ on-field) (NNS accomplishments)))
+            (, ,)
+            (CONJP (CC but)
+              (RB also))
+            (PP (IN for)
+              (NP
+                (NP (PRP$ his) (JJ infectious) (NN laugh))
+                (, ,)
+                (NP (JJ warm) (, ,) (JJ outgoing) (NN personality))
+                (CC and)
+                (NP (JJ huge) (NN heart))))))))
+    (. .)))
+
+root(ROOT-0, remembered-5)
+nsubjpass(remembered-5, He-1)
+advmod(remembered-5, forever-2)
+aux(remembered-5, will-3)
+auxpass(remembered-5, be-4)
+neg(only-7, not-6)
+preconj(remembered-5, only-7)
+poss(accomplishments-12, his-9)
+amod(accomplishments-12, tremendous-10)
+amod(accomplishments-12, on-field-11)
+prep_for(remembered-5, accomplishments-12)
+poss(laugh-19, his-17)
+amod(laugh-19, infectious-18)
+conj_and(accomplishments-12, laugh-19)
+amod(personality-24, warm-21)
+amod(personality-24, outgoing-23)
+conj_and(laugh-19, personality-24)
+amod(heart-27, huge-26)
+conj_and(laugh-19, heart-27)
+
+Sentence #8 (22 tokens):
+On behalf of Padres fans everywhere, we mourn the loss of a friend, a teammate and a legend."
+[Text=On CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=behalf CharacterOffsetBegin=661 CharacterOffsetEnd=667 PartOfSpeech=NN Lemma=behalf NamedEntityTag=O] [Text=of CharacterOffsetBegin=668 CharacterOffsetEnd=670 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Padres CharacterOffsetBegin=671 CharacterOffsetEnd=677 PartOfSpeech=NNPS Lemma=Padres NamedEntityTag=ORGANIZATION] [Text=fans CharacterOffsetBegin=678 CharacterOffsetEnd=682 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=everywhere CharacterOffsetBegin=683 CharacterOffsetEnd=693 PartOfSpeech=RB Lemma=everywhere NamedEntityTag=O] [Text=, CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=mourn CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=VBP Lemma=mourn NamedEntityTag=O] [Text=the CharacterOffsetBegin=704 CharacterOffsetEnd=707 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=loss CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=NN Lemma=loss NamedEntityTag=O] [Text=of CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=friend CharacterOffsetBegin=718 CharacterOffsetEnd=724 PartOfSpeech=NN Lemma=friend NamedEntityTag=O] [Text=, CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=726 CharacterOffsetEnd=727 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=teammate CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=NN Lemma=teammate NamedEntityTag=O] [Text=and CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=legend CharacterOffsetBegin=743 CharacterOffsetEnd=749 PartOfSpeech=NN Lemma=legend NamedEntityTag=O] [Text=. CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (NN behalf))
+        (PP (IN of)
+          (NP
+            (NP (NNPS Padres) (NNS fans))
+            (ADVP (RB everywhere))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP mourn)
+      (NP
+        (NP (DT the) (NN loss))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (NN friend))
+            (, ,)
+            (NP (DT a) (NN teammate))
+            (CC and)
+            (NP (DT a) (NN legend))))))
+    (. .) ('' '')))
+
+root(ROOT-0, mourn-9)
+nn(fans-5, Padres-4)
+prep_on_behalf_of(mourn-9, fans-5)
+advmod(fans-5, everywhere-6)
+nsubj(mourn-9, we-8)
+det(loss-11, the-10)
+dobj(mourn-9, loss-11)
+det(friend-14, a-13)
+prep_of(loss-11, friend-14)
+det(teammate-17, a-16)
+conj_and(friend-14, teammate-17)
+det(legend-20, a-19)
+conj_and(friend-14, legend-20)
+
+Sentence #9 (17 tokens):
+Gwynn had battled salivary gland cancer, the result of his longtime use of chewing tobacco.
+[Text=Gwynn CharacterOffsetBegin=753 CharacterOffsetEnd=758 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=had CharacterOffsetBegin=759 CharacterOffsetEnd=762 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=battled CharacterOffsetBegin=763 CharacterOffsetEnd=770 PartOfSpeech=VBN Lemma=battle NamedEntityTag=O] [Text=salivary CharacterOffsetBegin=771 CharacterOffsetEnd=779 PartOfSpeech=JJ Lemma=salivary NamedEntityTag=O] [Text=gland CharacterOffsetBegin=780 CharacterOffsetEnd=785 PartOfSpeech=NN Lemma=gland NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=, CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=result CharacterOffsetBegin=798 CharacterOffsetEnd=804 PartOfSpeech=NN Lemma=result NamedEntityTag=O] [Text=of CharacterOffsetBegin=805 CharacterOffsetEnd=807 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=his CharacterOffsetBegin=808 CharacterOffsetEnd=811 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=longtime CharacterOffsetBegin=812 CharacterOffsetEnd=820 PartOfSpeech=JJ Lemma=longtime NamedEntityTag=O] [Text=use CharacterOffsetBegin=821 CharacterOffsetEnd=824 PartOfSpeech=NN Lemma=use NamedEntityTag=O] [Text=of CharacterOffsetBegin=825 CharacterOffsetEnd=827 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=chewing CharacterOffsetBegin=828 CharacterOffsetEnd=835 PartOfSpeech=VBG Lemma=chew NamedEntityTag=O] [Text=tobacco CharacterOffsetBegin=836 CharacterOffsetEnd=843 PartOfSpeech=NN Lemma=tobacco NamedEntityTag=O] [Text=. CharacterOffsetBegin=843 CharacterOffsetEnd=844 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Gwynn))
+    (VP (VBD had)
+      (VP (VBN battled)
+        (NP
+          (NP (JJ salivary) (NN gland) (NN cancer))
+          (, ,)
+          (NP
+            (NP (DT the) (NN result))
+            (PP (IN of)
+              (NP
+                (NP (PRP$ his) (JJ longtime) (NN use))
+                (PP (IN of)
+                  (NP (VBG chewing) (NN tobacco)))))))))
+    (. .)))
+
+root(ROOT-0, battled-3)
+nsubj(battled-3, Gwynn-1)
+aux(battled-3, had-2)
+amod(cancer-6, salivary-4)
+nn(cancer-6, gland-5)
+dobj(battled-3, cancer-6)
+det(result-9, the-8)
+appos(cancer-6, result-9)
+poss(use-13, his-11)
+amod(use-13, longtime-12)
+prep_of(result-9, use-13)
+amod(tobacco-16, chewing-15)
+prep_of(use-13, tobacco-16)
+
+Sentence #10 (15 tokens):
+He had surgery to remove a malignant tumor in 2009 and again in 2012.
+[Text=He CharacterOffsetBegin=845 CharacterOffsetEnd=847 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=surgery CharacterOffsetBegin=852 CharacterOffsetEnd=859 PartOfSpeech=NN Lemma=surgery NamedEntityTag=O] [Text=to CharacterOffsetBegin=860 CharacterOffsetEnd=862 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=remove CharacterOffsetBegin=863 CharacterOffsetEnd=869 PartOfSpeech=VB Lemma=remove NamedEntityTag=O] [Text=a CharacterOffsetBegin=870 CharacterOffsetEnd=871 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=malignant CharacterOffsetBegin=872 CharacterOffsetEnd=881 PartOfSpeech=JJ Lemma=malignant NamedEntityTag=O] [Text=tumor CharacterOffsetBegin=882 CharacterOffsetEnd=887 PartOfSpeech=NN Lemma=tumor NamedEntityTag=O] [Text=in CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2009 CharacterOffsetBegin=891 CharacterOffsetEnd=895 PartOfSpeech=CD Lemma=2009 NamedEntityTag=DATE NormalizedNamedEntityTag=2009 Timex=<TIMEX3 tid="t4" type="DATE" value="2009">2009</TIMEX3>] [Text=and CharacterOffsetBegin=896 CharacterOffsetEnd=899 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=again CharacterOffsetBegin=900 CharacterOffsetEnd=905 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=in CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2012 CharacterOffsetBegin=909 CharacterOffsetEnd=913 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012 Timex=<TIMEX3 tid="t5" type="DATE" value="2012">2012</TIMEX3>] [Text=. CharacterOffsetBegin=913 CharacterOffsetEnd=914 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD had)
+      (NP (NN surgery)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB remove)
+                (NP (DT a) (JJ malignant) (NN tumor))
+                (PP (IN in)
+                  (NP (CD 2009))))
+              (CC and)
+              (VP
+                (ADVP (RB again))
+                (PP (IN in)
+                  (NP (CD 2012)))))))))
+    (. .)))
+
+root(ROOT-0, had-2)
+nsubj(had-2, He-1)
+dobj(had-2, surgery-3)
+aux(remove-5, to-4)
+vmod(surgery-3, remove-5)
+det(tumor-8, a-6)
+amod(tumor-8, malignant-7)
+dobj(remove-5, tumor-8)
+prep_in(remove-5, 2009-10)
+conj_and(remove-5, again-12)
+prep_in(again-12, 2012-14)
+
+Sentence #11 (25 tokens):
+A career .338 hitter, Gwynn was inducted into the Hall of Fame in 2007, having been selected on 97.6 percent of ballots.
+[Text=A CharacterOffsetBegin=916 CharacterOffsetEnd=917 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=career CharacterOffsetBegin=918 CharacterOffsetEnd=924 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=.338 CharacterOffsetBegin=925 CharacterOffsetEnd=929 PartOfSpeech=CD Lemma=.338 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.338] [Text=hitter CharacterOffsetBegin=930 CharacterOffsetEnd=936 PartOfSpeech=NN Lemma=hitter NamedEntityTag=O] [Text=, CharacterOffsetBegin=936 CharacterOffsetEnd=937 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Gwynn CharacterOffsetBegin=938 CharacterOffsetEnd=943 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=944 CharacterOffsetEnd=947 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=inducted CharacterOffsetBegin=948 CharacterOffsetEnd=956 PartOfSpeech=VBN Lemma=induct NamedEntityTag=O] [Text=into CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hall CharacterOffsetBegin=966 CharacterOffsetEnd=970 PartOfSpeech=NN Lemma=hall NamedEntityTag=MISC] [Text=of CharacterOffsetBegin=971 CharacterOffsetEnd=973 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC] [Text=Fame CharacterOffsetBegin=974 CharacterOffsetEnd=978 PartOfSpeech=NNP Lemma=Fame NamedEntityTag=MISC] [Text=in CharacterOffsetBegin=979 CharacterOffsetEnd=981 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2007 CharacterOffsetBegin=982 CharacterOffsetEnd=986 PartOfSpeech=CD Lemma=2007 NamedEntityTag=DATE NormalizedNamedEntityTag=2007 Timex=<TIMEX3 tid="t6" type="DATE" value="2007">2007</TIMEX3>] [Text=, CharacterOffsetBegin=986 CharacterOffsetEnd=987 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=having CharacterOffsetBegin=988 CharacterOffsetEnd=994 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=995 CharacterOffsetEnd=999 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=selected CharacterOffsetBegin=1000 CharacterOffsetEnd=1008 PartOfSpeech=VBN Lemma=select NamedEntityTag=O] [Text=on CharacterOffsetBegin=1009 CharacterOffsetEnd=1011 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=97.6 CharacterOffsetBegin=1012 CharacterOffsetEnd=1016 PartOfSpeech=CD Lemma=97.6 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%97.6] [Text=percent CharacterOffsetBegin=1017 CharacterOffsetEnd=1024 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%97.6] [Text=of CharacterOffsetBegin=1025 CharacterOffsetEnd=1027 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=ballots CharacterOffsetBegin=1028 CharacterOffsetEnd=1035 PartOfSpeech=NNS Lemma=ballot NamedEntityTag=O] [Text=. CharacterOffsetBegin=1035 CharacterOffsetEnd=1036 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP
+      (NP (DT A) (NN career))
+      (NP (CD .338) (NN hitter)))
+    (, ,)
+    (NP (NNP Gwynn))
+    (VP (VBD was)
+      (VP (VBN inducted)
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN Hall))
+            (PP (IN of)
+              (NP (NNP Fame)))))
+        (PP (IN in)
+          (NP (CD 2007)))
+        (, ,)
+        (S
+          (VP (VBG having)
+            (VP (VBN been)
+              (VP (VBN selected)
+                (PP (IN on)
+                  (NP
+                    (NP (CD 97.6) (NN percent))
+                    (PP (IN of)
+                      (NP (NNS ballots)))))))))))
+    (. .)))
+
+root(ROOT-0, inducted-8)
+det(career-2, A-1)
+tmod(inducted-8, career-2)
+num(hitter-4, .338-3)
+dep(career-2, hitter-4)
+nsubjpass(inducted-8, Gwynn-6)
+auxpass(inducted-8, was-7)
+det(Hall-11, the-10)
+prep_into(inducted-8, Hall-11)
+prep_of(Hall-11, Fame-13)
+prep_in(inducted-8, 2007-15)
+aux(selected-19, having-17)
+auxpass(selected-19, been-18)
+xcomp(inducted-8, selected-19)
+num(percent-22, 97.6-21)
+prep_on(selected-19, percent-22)
+prep_of(percent-22, ballots-24)
+
+Sentence #12 (13 tokens):
+He won eight National League batting titles and earned 15 All-Star selections.
+[Text=He CharacterOffsetBegin=1037 CharacterOffsetEnd=1039 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=won CharacterOffsetBegin=1040 CharacterOffsetEnd=1043 PartOfSpeech=VBD Lemma=win NamedEntityTag=O] [Text=eight CharacterOffsetBegin=1044 CharacterOffsetEnd=1049 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=National CharacterOffsetBegin=1050 CharacterOffsetEnd=1058 PartOfSpeech=NNP Lemma=National NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=1059 CharacterOffsetEnd=1065 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=batting CharacterOffsetBegin=1066 CharacterOffsetEnd=1073 PartOfSpeech=NN Lemma=batting NamedEntityTag=O] [Text=titles CharacterOffsetBegin=1074 CharacterOffsetEnd=1080 PartOfSpeech=NNS Lemma=title NamedEntityTag=O] [Text=and CharacterOffsetBegin=1081 CharacterOffsetEnd=1084 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=earned CharacterOffsetBegin=1085 CharacterOffsetEnd=1091 PartOfSpeech=VBN Lemma=earn NamedEntityTag=O] [Text=15 CharacterOffsetBegin=1092 CharacterOffsetEnd=1094 PartOfSpeech=CD Lemma=15 NamedEntityTag=NUMBER NormalizedNamedEntityTag=15.0] [Text=All-Star CharacterOffsetBegin=1095 CharacterOffsetEnd=1103 PartOfSpeech=JJ Lemma=all-star NamedEntityTag=MISC] [Text=selections CharacterOffsetBegin=1104 CharacterOffsetEnd=1114 PartOfSpeech=NNS Lemma=selection NamedEntityTag=O] [Text=. CharacterOffsetBegin=1114 CharacterOffsetEnd=1115 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD won)
+        (NP (CD eight) (NNP National) (NNP League) (NN batting) (NNS titles)))
+      (CC and)
+      (VP (VBN earned)
+        (NP (CD 15) (JJ All-Star) (NNS selections))))
+    (. .)))
+
+root(ROOT-0, won-2)
+nsubj(won-2, He-1)
+num(titles-7, eight-3)
+nn(titles-7, National-4)
+nn(titles-7, League-5)
+nn(titles-7, batting-6)
+dobj(won-2, titles-7)
+conj_and(won-2, earned-9)
+num(selections-12, 15-10)
+amod(selections-12, All-Star-11)
+dobj(earned-9, selections-12)
+
+Sentence #13 (18 tokens):
+Gwynn batted better than .350 seven times, including a career-best .394 during the strike-shortened 1994 season.
+[Text=Gwynn CharacterOffsetBegin=1117 CharacterOffsetEnd=1122 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=batted CharacterOffsetBegin=1123 CharacterOffsetEnd=1129 PartOfSpeech=VBD Lemma=bat NamedEntityTag=O] [Text=better CharacterOffsetBegin=1130 CharacterOffsetEnd=1136 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=than CharacterOffsetBegin=1137 CharacterOffsetEnd=1141 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=.350 CharacterOffsetBegin=1142 CharacterOffsetEnd=1146 PartOfSpeech=CD Lemma=.350 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.35] [Text=seven CharacterOffsetBegin=1147 CharacterOffsetEnd=1152 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.35] [Text=times CharacterOffsetBegin=1153 CharacterOffsetEnd=1158 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=, CharacterOffsetBegin=1158 CharacterOffsetEnd=1159 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=1160 CharacterOffsetEnd=1169 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=a CharacterOffsetBegin=1170 CharacterOffsetEnd=1171 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=career-best CharacterOffsetBegin=1172 CharacterOffsetEnd=1183 PartOfSpeech=JJ Lemma=career-best NamedEntityTag=O] [Text=.394 CharacterOffsetBegin=1184 CharacterOffsetEnd=1188 PartOfSpeech=CD Lemma=.394 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.394] [Text=during CharacterOffsetBegin=1189 CharacterOffsetEnd=1195 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=1196 CharacterOffsetEnd=1199 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strike-shortened CharacterOffsetBegin=1200 CharacterOffsetEnd=1216 PartOfSpeech=JJ Lemma=strike-shortened NamedEntityTag=O] [Text=1994 CharacterOffsetBegin=1217 CharacterOffsetEnd=1221 PartOfSpeech=CD Lemma=1994 NamedEntityTag=DATE NormalizedNamedEntityTag=1994 Timex=<TIMEX3 tid="t7" type="DATE" value="1994">1994</TIMEX3>] [Text=season CharacterOffsetBegin=1222 CharacterOffsetEnd=1228 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=1228 CharacterOffsetEnd=1229 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Gwynn))
+    (VP (VBD batted)
+      (NP
+        (QP (JJR better) (IN than) (CD .350)))
+      (NP-TMP (CD seven) (NNS times))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP (DT a) (JJ career-best) (CD .394))
+          (PP (IN during)
+            (NP (DT the) (JJ strike-shortened) (CD 1994) (NN season))))))
+    (. .)))
+
+root(ROOT-0, batted-2)
+nsubj(batted-2, Gwynn-1)
+mwe(than-4, better-3)
+quantmod(.350-5, than-4)
+dobj(batted-2, .350-5)
+num(times-7, seven-6)
+tmod(batted-2, times-7)
+det(.394-12, a-10)
+amod(.394-12, career-best-11)
+prep_including(batted-2, .394-12)
+det(season-17, the-14)
+amod(season-17, strike-shortened-15)
+num(season-17, 1994-16)
+prep_during(.394-12, season-17)
+
+Sentence #14 (17 tokens):
+He never hit below .309 in a full season and finished his career with 3,141 hits.
+[Text=He CharacterOffsetBegin=1230 CharacterOffsetEnd=1232 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=never CharacterOffsetBegin=1233 CharacterOffsetEnd=1238 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=hit CharacterOffsetBegin=1239 CharacterOffsetEnd=1242 PartOfSpeech=VBD Lemma=hit NamedEntityTag=O] [Text=below CharacterOffsetBegin=1243 CharacterOffsetEnd=1248 PartOfSpeech=IN Lemma=below NamedEntityTag=O] [Text=.309 CharacterOffsetBegin=1249 CharacterOffsetEnd=1253 PartOfSpeech=CD Lemma=.309 NamedEntityTag=NUMBER NormalizedNamedEntityTag=<0.309] [Text=in CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1257 CharacterOffsetEnd=1258 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=full CharacterOffsetBegin=1259 CharacterOffsetEnd=1263 PartOfSpeech=JJ Lemma=full NamedEntityTag=O] [Text=season CharacterOffsetBegin=1264 CharacterOffsetEnd=1270 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=and CharacterOffsetBegin=1271 CharacterOffsetEnd=1274 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=finished CharacterOffsetBegin=1275 CharacterOffsetEnd=1283 PartOfSpeech=VBD Lemma=finish NamedEntityTag=O] [Text=his CharacterOffsetBegin=1284 CharacterOffsetEnd=1287 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=career CharacterOffsetBegin=1288 CharacterOffsetEnd=1294 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=with CharacterOffsetBegin=1295 CharacterOffsetEnd=1299 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=3,141 CharacterOffsetBegin=1300 CharacterOffsetEnd=1305 PartOfSpeech=CD Lemma=3,141 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3141.0] [Text=hits CharacterOffsetBegin=1306 CharacterOffsetEnd=1310 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=. CharacterOffsetBegin=1310 CharacterOffsetEnd=1311 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB never))
+    (VP
+      (VP (VBD hit)
+        (PP (IN below)
+          (NP (CD .309)))
+        (PP (IN in)
+          (NP (DT a) (JJ full) (NN season))))
+      (CC and)
+      (VP (VBD finished)
+        (NP (PRP$ his) (NN career))
+        (PP (IN with)
+          (NP (CD 3,141) (NNS hits)))))
+    (. .)))
+
+root(ROOT-0, hit-3)
+nsubj(hit-3, He-1)
+neg(hit-3, never-2)
+prep_below(hit-3, .309-5)
+det(season-9, a-7)
+amod(season-9, full-8)
+prep_in(hit-3, season-9)
+conj_and(hit-3, finished-11)
+poss(career-13, his-12)
+dobj(finished-11, career-13)
+num(hits-16, 3,141-15)
+prep_with(finished-11, hits-16)
+
+Sentence #15 (43 tokens):
+"For more than 30 years, Tony Gwynn was a source of universal goodwill in the National Pastime, and he will be deeply missed by the many people he touched," said baseball commissioner Bud Selig in a statement.
+[Text=`` CharacterOffsetBegin=1313 CharacterOffsetEnd=1314 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=For CharacterOffsetBegin=1314 CharacterOffsetEnd=1317 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=more CharacterOffsetBegin=1318 CharacterOffsetEnd=1322 PartOfSpeech=JJR Lemma=more NamedEntityTag=DURATION NormalizedNamedEntityTag=P30Y Timex=<TIMEX3 mod="MORE_THAN" tid="t8" type="DURATION" value="P30Y">more than 30 years</TIMEX3>] [Text=than CharacterOffsetBegin=1323 CharacterOffsetEnd=1327 PartOfSpeech=IN Lemma=than NamedEntityTag=DURATION NormalizedNamedEntityTag=P30Y Timex=<TIMEX3 mod="MORE_THAN" tid="t8" type="DURATION" value="P30Y">more than 30 years</TIMEX3>] [Text=30 CharacterOffsetBegin=1328 CharacterOffsetEnd=1330 PartOfSpeech=CD Lemma=30 NamedEntityTag=DURATION NormalizedNamedEntityTag=P30Y Timex=<TIMEX3 mod="MORE_THAN" tid="t8" type="DURATION" value="P30Y">more than 30 years</TIMEX3>] [Text=years CharacterOffsetBegin=1331 CharacterOffsetEnd=1336 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P30Y Timex=<TIMEX3 mod="MORE_THAN" tid="t8" type="DURATION" value="P30Y">more than 30 years</TIMEX3>] [Text=, CharacterOffsetBegin=1336 CharacterOffsetEnd=1337 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=1338 CharacterOffsetEnd=1342 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=Gwynn CharacterOffsetBegin=1343 CharacterOffsetEnd=1348 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=1349 CharacterOffsetEnd=1352 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1353 CharacterOffsetEnd=1354 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=source CharacterOffsetBegin=1355 CharacterOffsetEnd=1361 PartOfSpeech=NN Lemma=source NamedEntityTag=O] [Text=of CharacterOffsetBegin=1362 CharacterOffsetEnd=1364 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=universal CharacterOffsetBegin=1365 CharacterOffsetEnd=1374 PartOfSpeech=JJ Lemma=universal NamedEntityTag=O] [Text=goodwill CharacterOffsetBegin=1375 CharacterOffsetEnd=1383 PartOfSpeech=NN Lemma=goodwill NamedEntityTag=O] [Text=in CharacterOffsetBegin=1384 CharacterOffsetEnd=1386 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1387 CharacterOffsetEnd=1390 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=National CharacterOffsetBegin=1391 CharacterOffsetEnd=1399 PartOfSpeech=NNP Lemma=National NamedEntityTag=MISC] [Text=Pastime CharacterOffsetBegin=1400 CharacterOffsetEnd=1407 PartOfSpeech=NNP Lemma=Pastime NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=1407 CharacterOffsetEnd=1408 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1409 CharacterOffsetEnd=1412 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=1413 CharacterOffsetEnd=1415 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=will CharacterOffsetBegin=1416 CharacterOffsetEnd=1420 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=1421 CharacterOffsetEnd=1423 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=deeply CharacterOffsetBegin=1424 CharacterOffsetEnd=1430 PartOfSpeech=RB Lemma=deeply NamedEntityTag=O] [Text=missed CharacterOffsetBegin=1431 CharacterOffsetEnd=1437 PartOfSpeech=VBN Lemma=miss NamedEntityTag=O] [Text=by CharacterOffsetBegin=1438 CharacterOffsetEnd=1440 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=1441 CharacterOffsetEnd=1444 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=many CharacterOffsetBegin=1445 CharacterOffsetEnd=1449 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=people CharacterOffsetBegin=1450 CharacterOffsetEnd=1456 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=he CharacterOffsetBegin=1457 CharacterOffsetEnd=1459 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=touched CharacterOffsetBegin=1460 CharacterOffsetEnd=1467 PartOfSpeech=VBD Lemma=touch NamedEntityTag=O] [Text=, CharacterOffsetBegin=1467 CharacterOffsetEnd=1468 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1468 CharacterOffsetEnd=1469 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=1470 CharacterOffsetEnd=1474 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=baseball CharacterOffsetBegin=1475 CharacterOffsetEnd=1483 PartOfSpeech=NN Lemma=baseball NamedEntityTag=O] [Text=commissioner CharacterOffsetBegin=1484 CharacterOffsetEnd=1496 PartOfSpeech=NN Lemma=commissioner NamedEntityTag=O] [Text=Bud CharacterOffsetBegin=1497 CharacterOffsetEnd=1500 PartOfSpeech=NNP Lemma=Bud NamedEntityTag=PERSON] [Text=Selig CharacterOffsetBegin=1501 CharacterOffsetEnd=1506 PartOfSpeech=NNP Lemma=Selig NamedEntityTag=PERSON] [Text=in CharacterOffsetBegin=1507 CharacterOffsetEnd=1509 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1510 CharacterOffsetEnd=1511 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=statement CharacterOffsetBegin=1512 CharacterOffsetEnd=1521 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=. CharacterOffsetBegin=1521 CharacterOffsetEnd=1522 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (S
+        (PP (IN For)
+          (NP
+            (QP (JJR more) (IN than) (CD 30))
+            (NNS years)))
+        (, ,)
+        (NP (NNP Tony) (NNP Gwynn))
+        (VP (VBD was)
+          (NP
+            (NP (DT a) (NN source))
+            (PP (IN of)
+              (NP
+                (NP (JJ universal) (NN goodwill))
+                (PP (IN in)
+                  (NP (DT the) (NNP National) (NNP Pastime))))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP he))
+        (VP (MD will)
+          (VP (VB be)
+            (VP
+              (ADVP (RB deeply))
+              (VBN missed)
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (JJ many) (NNS people))
+                  (SBAR
+                    (S
+                      (NP (PRP he))
+                      (VP (VBD touched)))))))))))
+    (, ,) ('' '')
+    (VP (VBD said)
+      (NP (NN baseball) (NN commissioner)))
+    (NP
+      (NP (NNP Bud) (NNP Selig))
+      (PP (IN in)
+        (NP (DT a) (NN statement))))
+    (. .)))
+
+root(ROOT-0, said-35)
+mwe(than-4, more-3)
+quantmod(30-5, than-4)
+num(years-6, 30-5)
+prep_for(source-12, years-6)
+nn(Gwynn-9, Tony-8)
+nsubj(source-12, Gwynn-9)
+cop(source-12, was-10)
+det(source-12, a-11)
+ccomp(said-35, source-12)
+amod(goodwill-15, universal-14)
+prep_of(source-12, goodwill-15)
+det(Pastime-19, the-17)
+nn(Pastime-19, National-18)
+prep_in(goodwill-15, Pastime-19)
+nsubjpass(missed-26, he-22)
+aux(missed-26, will-23)
+auxpass(missed-26, be-24)
+advmod(missed-26, deeply-25)
+conj_and(source-12, missed-26)
+det(people-30, the-28)
+amod(people-30, many-29)
+agent(missed-26, people-30)
+nsubj(touched-32, he-31)
+rcmod(people-30, touched-32)
+nn(commissioner-37, baseball-36)
+dobj(said-35, commissioner-37)
+nn(Selig-39, Bud-38)
+nsubj(said-35, Selig-39)
+det(statement-42, a-41)
+prep_in(Selig-39, statement-42)
+
+Sentence #16 (49 tokens):
+"On behalf of all of our clubs, I extend my deepest condolences to Tony's wife Alicia, their son Tony Jr. of the Phillies, their daughter Anisha, the Padres franchise, his fans in San Diego and his many admirers throughout baseball."
+[Text=`` CharacterOffsetBegin=1523 CharacterOffsetEnd=1524 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=On CharacterOffsetBegin=1524 CharacterOffsetEnd=1526 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=behalf CharacterOffsetBegin=1527 CharacterOffsetEnd=1533 PartOfSpeech=NN Lemma=behalf NamedEntityTag=O] [Text=of CharacterOffsetBegin=1534 CharacterOffsetEnd=1536 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=all CharacterOffsetBegin=1537 CharacterOffsetEnd=1540 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=1541 CharacterOffsetEnd=1543 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=1544 CharacterOffsetEnd=1547 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=clubs CharacterOffsetBegin=1548 CharacterOffsetEnd=1553 PartOfSpeech=NNS Lemma=club NamedEntityTag=O] [Text=, CharacterOffsetBegin=1553 CharacterOffsetEnd=1554 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=1555 CharacterOffsetEnd=1556 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=extend CharacterOffsetBegin=1557 CharacterOffsetEnd=1563 PartOfSpeech=VBP Lemma=extend NamedEntityTag=O] [Text=my CharacterOffsetBegin=1564 CharacterOffsetEnd=1566 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=deepest CharacterOffsetBegin=1567 CharacterOffsetEnd=1574 PartOfSpeech=JJS Lemma=deepest NamedEntityTag=O] [Text=condolences CharacterOffsetBegin=1575 CharacterOffsetEnd=1586 PartOfSpeech=NNS Lemma=condolence NamedEntityTag=O] [Text=to CharacterOffsetBegin=1587 CharacterOffsetEnd=1589 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=1590 CharacterOffsetEnd=1594 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=1594 CharacterOffsetEnd=1596 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=wife CharacterOffsetBegin=1597 CharacterOffsetEnd=1601 PartOfSpeech=NN Lemma=wife NamedEntityTag=O] [Text=Alicia CharacterOffsetBegin=1602 CharacterOffsetEnd=1608 PartOfSpeech=NNP Lemma=Alicia NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1608 CharacterOffsetEnd=1609 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=their CharacterOffsetBegin=1610 CharacterOffsetEnd=1615 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=son CharacterOffsetBegin=1616 CharacterOffsetEnd=1619 PartOfSpeech=NN Lemma=son NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=1620 CharacterOffsetEnd=1624 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=Jr. CharacterOffsetBegin=1625 CharacterOffsetEnd=1628 PartOfSpeech=NNP Lemma=Jr. NamedEntityTag=PERSON] [Text=of CharacterOffsetBegin=1629 CharacterOffsetEnd=1631 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1632 CharacterOffsetEnd=1635 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Phillies CharacterOffsetBegin=1636 CharacterOffsetEnd=1644 PartOfSpeech=NNPS Lemma=Phillies NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1644 CharacterOffsetEnd=1645 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=their CharacterOffsetBegin=1646 CharacterOffsetEnd=1651 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=daughter CharacterOffsetBegin=1652 CharacterOffsetEnd=1660 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O] [Text=Anisha CharacterOffsetBegin=1661 CharacterOffsetEnd=1667 PartOfSpeech=NNP Lemma=Anisha NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1667 CharacterOffsetEnd=1668 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1669 CharacterOffsetEnd=1672 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Padres CharacterOffsetBegin=1673 CharacterOffsetEnd=1679 PartOfSpeech=NNPS Lemma=Padres NamedEntityTag=ORGANIZATION] [Text=franchise CharacterOffsetBegin=1680 CharacterOffsetEnd=1689 PartOfSpeech=NN Lemma=franchise NamedEntityTag=O] [Text=, CharacterOffsetBegin=1689 CharacterOffsetEnd=1690 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=his CharacterOffsetBegin=1691 CharacterOffsetEnd=1694 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=fans CharacterOffsetBegin=1695 CharacterOffsetEnd=1699 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=in CharacterOffsetBegin=1700 CharacterOffsetEnd=1702 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=San CharacterOffsetBegin=1703 CharacterOffsetEnd=1706 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=1707 CharacterOffsetEnd=1712 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=1713 CharacterOffsetEnd=1716 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=his CharacterOffsetBegin=1717 CharacterOffsetEnd=1720 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=many CharacterOffsetBegin=1721 CharacterOffsetEnd=1725 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=admirers CharacterOffsetBegin=1726 CharacterOffsetEnd=1734 PartOfSpeech=NNS Lemma=admirer NamedEntityTag=O] [Text=throughout CharacterOffsetBegin=1735 CharacterOffsetEnd=1745 PartOfSpeech=IN Lemma=throughout NamedEntityTag=O] [Text=baseball CharacterOffsetBegin=1746 CharacterOffsetEnd=1754 PartOfSpeech=NN Lemma=baseball NamedEntityTag=O] [Text=. CharacterOffsetBegin=1754 CharacterOffsetEnd=1755 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1755 CharacterOffsetEnd=1756 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (PP (IN On)
+      (NP
+        (NP (NN behalf))
+        (PP (IN of)
+          (NP
+            (NP (DT all))
+            (PP (IN of)
+              (NP (PRP$ our) (NNS clubs)))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP extend)
+      (NP (PRP$ my) (JJS deepest) (NNS condolences))
+      (PP (TO to)
+        (NP
+          (NP
+            (NP
+              (NP (NNP Tony) (POS 's))
+              (NN wife))
+            (NP (NNP Alicia)))
+          (, ,)
+          (NP
+            (NP (PRP$ their) (NN son) (NNP Tony) (NNP Jr.))
+            (PP (IN of)
+              (NP (DT the) (NNPS Phillies))))
+          (, ,)
+          (NP
+            (NP (PRP$ their) (NN daughter) (NNP Anisha))
+            (, ,)
+            (NP (DT the) (NNPS Padres) (NN franchise)))
+          (, ,)
+          (NP
+            (NP (PRP$ his) (NNS fans))
+            (PP (IN in)
+              (NP (NNP San) (NNP Diego))))
+          (CC and)
+          (NP
+            (NP (PRP$ his) (JJ many) (NNS admirers))
+            (PP (IN throughout)
+              (NP (NN baseball)))))))
+    (. .) ('' '')))
+
+root(ROOT-0, extend-11)
+prep_on_behalf_of(extend-11, all-5)
+poss(clubs-8, our-7)
+prep_of(all-5, clubs-8)
+nsubj(extend-11, I-10)
+poss(condolences-14, my-12)
+amod(condolences-14, deepest-13)
+dobj(extend-11, condolences-14)
+poss(wife-18, Tony-16)
+prep_to(extend-11, wife-18)
+appos(wife-18, Alicia-19)
+poss(Jr.-24, their-21)
+nn(Jr.-24, son-22)
+nn(Jr.-24, Tony-23)
+conj_and(wife-18, Jr.-24)
+det(Phillies-27, the-26)
+prep_of(Jr.-24, Phillies-27)
+poss(Anisha-31, their-29)
+nn(Anisha-31, daughter-30)
+conj_and(wife-18, Anisha-31)
+det(franchise-35, the-33)
+nn(franchise-35, Padres-34)
+appos(Anisha-31, franchise-35)
+poss(fans-38, his-37)
+conj_and(wife-18, fans-38)
+nn(Diego-41, San-40)
+prep_in(fans-38, Diego-41)
+poss(admirers-45, his-43)
+amod(admirers-45, many-44)
+conj_and(wife-18, admirers-45)
+prep_throughout(admirers-45, baseball-47)
+
+Sentence #17 (20 tokens):
+Gwynn helped the Padres to a pair of World Series appearances -- first in 1984 and again in 1998.
+[Text=Gwynn CharacterOffsetBegin=1758 CharacterOffsetEnd=1763 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=helped CharacterOffsetBegin=1764 CharacterOffsetEnd=1770 PartOfSpeech=VBD Lemma=help NamedEntityTag=O] [Text=the CharacterOffsetBegin=1771 CharacterOffsetEnd=1774 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Padres CharacterOffsetBegin=1775 CharacterOffsetEnd=1781 PartOfSpeech=NNPS Lemma=Padres NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=1782 CharacterOffsetEnd=1784 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=1785 CharacterOffsetEnd=1786 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pair CharacterOffsetBegin=1787 CharacterOffsetEnd=1791 PartOfSpeech=NN Lemma=pair NamedEntityTag=O] [Text=of CharacterOffsetBegin=1792 CharacterOffsetEnd=1794 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=World CharacterOffsetBegin=1795 CharacterOffsetEnd=1800 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Series CharacterOffsetBegin=1801 CharacterOffsetEnd=1807 PartOfSpeech=NNP Lemma=Series NamedEntityTag=MISC] [Text=appearances CharacterOffsetBegin=1808 CharacterOffsetEnd=1819 PartOfSpeech=NNS Lemma=appearance NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1820 CharacterOffsetEnd=1822 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=first CharacterOffsetBegin=1823 CharacterOffsetEnd=1828 PartOfSpeech=RB Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=in CharacterOffsetBegin=1829 CharacterOffsetEnd=1831 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=1984 CharacterOffsetBegin=1832 CharacterOffsetEnd=1836 PartOfSpeech=CD Lemma=1984 NamedEntityTag=DATE NormalizedNamedEntityTag=1984 Timex=<TIMEX3 tid="t9" type="DATE" value="1984">1984</TIMEX3>] [Text=and CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=again CharacterOffsetBegin=1841 CharacterOffsetEnd=1846 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=in CharacterOffsetBegin=1847 CharacterOffsetEnd=1849 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=1998 CharacterOffsetBegin=1850 CharacterOffsetEnd=1854 PartOfSpeech=CD Lemma=1998 NamedEntityTag=DATE NormalizedNamedEntityTag=1998 Timex=<TIMEX3 tid="t10" type="DATE" value="1998">1998</TIMEX3>] [Text=. CharacterOffsetBegin=1854 CharacterOffsetEnd=1855 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Gwynn))
+    (VP (VBD helped)
+      (NP (DT the) (NNPS Padres))
+      (PP (TO to)
+        (NP
+          (NP
+            (NP (DT a) (NN pair))
+            (PP (IN of)
+              (NP (NNP World) (NNP Series) (NNS appearances))))
+          (: --)
+          (UCP
+            (PP
+              (ADVP (RB first))
+              (IN in)
+              (NP (CD 1984)))
+            (CC and)
+            (ADVP (RB again)))))
+      (PP (IN in)
+        (NP (CD 1998))))
+    (. .)))
+
+root(ROOT-0, helped-2)
+nsubj(helped-2, Gwynn-1)
+det(Padres-4, the-3)
+dobj(helped-2, Padres-4)
+det(pair-7, a-6)
+prep_to(helped-2, pair-7)
+nn(appearances-11, World-9)
+nn(appearances-11, Series-10)
+prep_of(pair-7, appearances-11)
+advmod(in-14, first-13)
+prep(pair-7, in-14)
+pobj(in-14, 1984-15)
+conj_and(in-14, again-17)
+prep_in(helped-2, 1998-19)
+
+Sentence #18 (14 tokens):
+He was 8-for-16 during the four-game sweep by the Yankees in '98.
+[Text=He CharacterOffsetBegin=1856 CharacterOffsetEnd=1858 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=1859 CharacterOffsetEnd=1862 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=8-for-16 CharacterOffsetBegin=1863 CharacterOffsetEnd=1871 PartOfSpeech=JJ Lemma=8-for-16 NamedEntityTag=O] [Text=during CharacterOffsetBegin=1872 CharacterOffsetEnd=1878 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=1879 CharacterOffsetEnd=1882 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=four-game CharacterOffsetBegin=1883 CharacterOffsetEnd=1892 PartOfSpeech=JJ Lemma=four-game NamedEntityTag=O] [Text=sweep CharacterOffsetBegin=1893 CharacterOffsetEnd=1898 PartOfSpeech=NN Lemma=sweep NamedEntityTag=O] [Text=by CharacterOffsetBegin=1899 CharacterOffsetEnd=1901 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=1902 CharacterOffsetEnd=1905 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Yankees CharacterOffsetBegin=1906 CharacterOffsetEnd=1913 PartOfSpeech=NNPS Lemma=Yankees NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=1914 CharacterOffsetEnd=1916 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=' CharacterOffsetBegin=1917 CharacterOffsetEnd=1918 PartOfSpeech='' Lemma=' NamedEntityTag=DATE NormalizedNamedEntityTag=XX98 Timex=<TIMEX3 tid="t11" type="DATE" value="XX98">'98</TIMEX3>] [Text=98 CharacterOffsetBegin=1918 CharacterOffsetEnd=1920 PartOfSpeech=CD Lemma=98 NamedEntityTag=DATE NormalizedNamedEntityTag=XX98 Timex=<TIMEX3 tid="t11" type="DATE" value="XX98">'98</TIMEX3>] [Text=. CharacterOffsetBegin=1920 CharacterOffsetEnd=1921 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (ADJP (JJ 8-for-16)
+        (PP (IN during)
+          (NP (DT the) (JJ four-game) (NN sweep))))
+      (PP (IN by)
+        (NP (DT the) (NNPS Yankees)))
+      (PP (IN in) ('' ')
+        (NP (CD 98))))
+    (. .)))
+
+root(ROOT-0, 8-for-16-3)
+nsubj(8-for-16-3, He-1)
+cop(8-for-16-3, was-2)
+det(sweep-7, the-5)
+amod(sweep-7, four-game-6)
+prep_during(8-for-16-3, sweep-7)
+det(Yankees-10, the-9)
+prep_by(8-for-16-3, Yankees-10)
+prep_in(8-for-16-3, 98-13)
+
+Sentence #19 (27 tokens):
+After his playing career ended in 2001, Gwynn returned to his alma mater at San Diego State and was the head baseball coach since 2003.
+[Text=After CharacterOffsetBegin=1923 CharacterOffsetEnd=1928 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=his CharacterOffsetBegin=1929 CharacterOffsetEnd=1932 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=playing CharacterOffsetBegin=1933 CharacterOffsetEnd=1940 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=career CharacterOffsetBegin=1941 CharacterOffsetEnd=1947 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=ended CharacterOffsetBegin=1948 CharacterOffsetEnd=1953 PartOfSpeech=VBN Lemma=end NamedEntityTag=O] [Text=in CharacterOffsetBegin=1954 CharacterOffsetEnd=1956 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2001 CharacterOffsetBegin=1957 CharacterOffsetEnd=1961 PartOfSpeech=CD Lemma=2001 NamedEntityTag=DATE NormalizedNamedEntityTag=2001 Timex=<TIMEX3 tid="t12" type="DATE" value="2001">2001</TIMEX3>] [Text=, CharacterOffsetBegin=1961 CharacterOffsetEnd=1962 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Gwynn CharacterOffsetBegin=1963 CharacterOffsetEnd=1968 PartOfSpeech=NNP Lemma=Gwynn NamedEntityTag=PERSON] [Text=returned CharacterOffsetBegin=1969 CharacterOffsetEnd=1977 PartOfSpeech=VBD Lemma=return NamedEntityTag=O] [Text=to CharacterOffsetBegin=1978 CharacterOffsetEnd=1980 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=his CharacterOffsetBegin=1981 CharacterOffsetEnd=1984 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=alma CharacterOffsetBegin=1985 CharacterOffsetEnd=1989 PartOfSpeech=JJ Lemma=alma NamedEntityTag=O] [Text=mater CharacterOffsetBegin=1990 CharacterOffsetEnd=1995 PartOfSpeech=NN Lemma=mater NamedEntityTag=O] [Text=at CharacterOffsetBegin=1996 CharacterOffsetEnd=1998 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=San CharacterOffsetBegin=1999 CharacterOffsetEnd=2002 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=2003 CharacterOffsetEnd=2008 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=State CharacterOffsetBegin=2009 CharacterOffsetEnd=2014 PartOfSpeech=NNP Lemma=State NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2015 CharacterOffsetEnd=2018 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=was CharacterOffsetBegin=2019 CharacterOffsetEnd=2022 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2023 CharacterOffsetEnd=2026 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=head CharacterOffsetBegin=2027 CharacterOffsetEnd=2031 PartOfSpeech=NN Lemma=head NamedEntityTag=O] [Text=baseball CharacterOffsetBegin=2032 CharacterOffsetEnd=2040 PartOfSpeech=NN Lemma=baseball NamedEntityTag=O] [Text=coach CharacterOffsetBegin=2041 CharacterOffsetEnd=2046 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=since CharacterOffsetBegin=2047 CharacterOffsetEnd=2052 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=2003 CharacterOffsetBegin=2053 CharacterOffsetEnd=2057 PartOfSpeech=CD Lemma=2003 NamedEntityTag=DATE NormalizedNamedEntityTag=2003 Timex=<TIMEX3 tid="t13" type="DATE" value="2003">2003</TIMEX3>] [Text=. CharacterOffsetBegin=2057 CharacterOffsetEnd=2058 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (PRP$ his) (VBG playing) (NN career))
+        (VP (VBN ended)
+          (PP (IN in)
+            (NP (CD 2001))))))
+    (, ,)
+    (NP (NNP Gwynn))
+    (VP
+      (VP (VBD returned)
+        (PP (TO to)
+          (NP (PRP$ his) (JJ alma) (NN mater)))
+        (PP (IN at)
+          (NP (NNP San) (NNP Diego) (NNP State))))
+      (CC and)
+      (VP (VBD was)
+        (NP (DT the) (NN head) (NN baseball) (NN coach))
+        (PP (IN since)
+          (NP (CD 2003)))))
+    (. .)))
+
+root(ROOT-0, returned-10)
+poss(career-4, his-2)
+amod(career-4, playing-3)
+prep_after(returned-10, career-4)
+vmod(career-4, ended-5)
+prep_in(ended-5, 2001-7)
+nsubj(returned-10, Gwynn-9)
+poss(mater-14, his-12)
+amod(mater-14, alma-13)
+prep_to(returned-10, mater-14)
+nn(State-18, San-16)
+nn(State-18, Diego-17)
+prep_at(returned-10, State-18)
+cop(coach-24, was-20)
+det(coach-24, the-21)
+nn(coach-24, head-22)
+nn(coach-24, baseball-23)
+conj_and(returned-10, coach-24)
+prep_since(coach-24, 2003-26)
+
+Sentence #20 (21 tokens):
+He had been on medical leave since March and had just signed a contract extension with the Aztecs last week.
+[Text=He CharacterOffsetBegin=2059 CharacterOffsetEnd=2061 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=2062 CharacterOffsetEnd=2065 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2066 CharacterOffsetEnd=2070 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=on CharacterOffsetBegin=2071 CharacterOffsetEnd=2073 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=medical CharacterOffsetBegin=2074 CharacterOffsetEnd=2081 PartOfSpeech=JJ Lemma=medical NamedEntityTag=O] [Text=leave CharacterOffsetBegin=2082 CharacterOffsetEnd=2087 PartOfSpeech=NN Lemma=leave NamedEntityTag=O] [Text=since CharacterOffsetBegin=2088 CharacterOffsetEnd=2093 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=March CharacterOffsetBegin=2094 CharacterOffsetEnd=2099 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t14" type="DATE" value="XXXX-03">March</TIMEX3>] [Text=and CharacterOffsetBegin=2100 CharacterOffsetEnd=2103 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=had CharacterOffsetBegin=2104 CharacterOffsetEnd=2107 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=just CharacterOffsetBegin=2108 CharacterOffsetEnd=2112 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=signed CharacterOffsetBegin=2113 CharacterOffsetEnd=2119 PartOfSpeech=VBN Lemma=sign NamedEntityTag=O] [Text=a CharacterOffsetBegin=2120 CharacterOffsetEnd=2121 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=contract CharacterOffsetBegin=2122 CharacterOffsetEnd=2130 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=extension CharacterOffsetBegin=2131 CharacterOffsetEnd=2140 PartOfSpeech=NN Lemma=extension NamedEntityTag=O] [Text=with CharacterOffsetBegin=2141 CharacterOffsetEnd=2145 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2146 CharacterOffsetEnd=2149 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Aztecs CharacterOffsetBegin=2150 CharacterOffsetEnd=2156 PartOfSpeech=NNP Lemma=Aztecs NamedEntityTag=ORGANIZATION] [Text=last CharacterOffsetBegin=2157 CharacterOffsetEnd=2161 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t16" temporalFunction="true" tid="t15" type="DATE" valueFromFunction="tf0">last week</TIMEX3>] [Text=week CharacterOffsetBegin=2162 CharacterOffsetEnd=2166 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t16" temporalFunction="true" tid="t15" type="DATE" valueFromFunction="tf0">last week</TIMEX3>] [Text=. CharacterOffsetBegin=2166 CharacterOffsetEnd=2167 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD had)
+        (VP (VBN been)
+          (PP (IN on)
+            (NP (JJ medical) (NN leave)))
+          (PP (IN since)
+            (NP (NNP March)))))
+      (CC and)
+      (VP (VBD had)
+        (VP
+          (ADVP (RB just))
+          (VBN signed)
+          (NP
+            (NP (DT a) (NN contract) (NN extension))
+            (PP (IN with)
+              (NP (DT the) (NNP Aztecs))))
+          (NP-TMP (JJ last) (NN week)))))
+    (. .)))
+
+root(ROOT-0, been-3)
+nsubj(been-3, He-1)
+aux(been-3, had-2)
+amod(leave-6, medical-5)
+prep_on(been-3, leave-6)
+prep_since(been-3, March-8)
+aux(signed-12, had-10)
+advmod(signed-12, just-11)
+conj_and(been-3, signed-12)
+det(extension-15, a-13)
+nn(extension-15, contract-14)
+dobj(signed-12, extension-15)
+det(Aztecs-18, the-17)
+prep_with(extension-15, Aztecs-18)
+amod(week-20, last-19)
+tmod(signed-12, week-20)
+
+Coreference set:
+	(16,41,[40,42]) -> (1,8,[7,9]), that is: "San Diego" -> "San Diego"
+Coreference set:
+	(1,20,[18,21]) -> (1,5,[3,6]), that is: "Famer Tony Gwynn" -> "Famer Tony Gwynn"
+	(2,1,[1,2]) -> (1,5,[3,6]), that is: "He" -> "Famer Tony Gwynn"
+	(3,8,[8,9]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(3,10,[10,11]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(4,9,[9,10]) -> (1,5,[3,6]), that is: "Tony" -> "Famer Tony Gwynn"
+	(5,7,[7,8]) -> (1,5,[3,6]), that is: "Tony" -> "Famer Tony Gwynn"
+	(9,1,[1,2]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(9,11,[11,12]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(10,1,[1,2]) -> (1,5,[3,6]), that is: "He" -> "Famer Tony Gwynn"
+	(11,6,[6,7]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(13,1,[1,2]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(14,1,[1,2]) -> (1,5,[3,6]), that is: "He" -> "Famer Tony Gwynn"
+	(14,12,[12,13]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(15,9,[8,10]) -> (1,5,[3,6]), that is: "Tony Gwynn" -> "Famer Tony Gwynn"
+	(15,22,[22,23]) -> (1,5,[3,6]), that is: "he" -> "Famer Tony Gwynn"
+	(15,31,[31,32]) -> (1,5,[3,6]), that is: "he" -> "Famer Tony Gwynn"
+	(16,16,[16,18]) -> (1,5,[3,6]), that is: "Tony 's" -> "Famer Tony Gwynn"
+	(16,37,[37,38]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(16,43,[43,44]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(17,1,[1,2]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(18,1,[1,2]) -> (1,5,[3,6]), that is: "He" -> "Famer Tony Gwynn"
+	(19,2,[2,3]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(19,9,[9,10]) -> (1,5,[3,6]), that is: "Gwynn" -> "Famer Tony Gwynn"
+	(19,12,[12,13]) -> (1,5,[3,6]), that is: "his" -> "Famer Tony Gwynn"
+	(20,1,[1,2]) -> (1,5,[3,6]), that is: "He" -> "Famer Tony Gwynn"
+Coreference set:
+	(3,21,[21,22]) -> (1,22,[22,23]), that is: "Monday" -> "Monday"
+Coreference set:
+	(4,20,[19,21]) -> (3,4,[2,5]), that is: "the Padres" -> "San Diego Padres"
+	(8,4,[4,5]) -> (3,4,[2,5]), that is: "Padres" -> "San Diego Padres"
+	(16,34,[34,35]) -> (3,4,[2,5]), that is: "Padres" -> "San Diego Padres"
+	(17,4,[3,5]) -> (3,4,[2,5]), that is: "the Padres" -> "San Diego Padres"
+Coreference set:
+	(6,14,[13,15]) -> (4,16,[15,17]), that is: "our community" -> "this community"
+Coreference set:
+	(15,42,[41,43]) -> (4,24,[23,25]), that is: "a statement" -> "a statement"
+Coreference set:
+	(6,1,[1,2]) -> (5,2,[1,8]), that is: "He" -> "More than just Mr. Padre , Tony"
+	(7,1,[1,2]) -> (5,2,[1,8]), that is: "He" -> "More than just Mr. Padre , Tony"
+	(7,9,[9,10]) -> (5,2,[1,8]), that is: "his" -> "More than just Mr. Padre , Tony"
+	(7,17,[17,18]) -> (5,2,[1,8]), that is: "his" -> "More than just Mr. Padre , Tony"
+Coreference set:
+	(5,2,[1,6]) -> (5,11,[9,12]), that is: "More than just Mr. Padre" -> "Mr. San Diego"
+Coreference set:
+	(6,13,[13,14]) -> (6,5,[5,6]), that is: "our" -> "our"
+	(8,8,[8,9]) -> (6,5,[5,6]), that is: "we" -> "our"
+Coreference set:
+	(14,13,[12,14]) -> (11,2,[1,5]), that is: "his career" -> "A career .338 hitter"
+Coreference set:
+	(12,1,[1,2]) -> (11,4,[3,5]), that is: "He" -> ".338 hitter"
+Coreference set:
+	(16,21,[21,22]) -> (15,30,[28,33]), that is: "their" -> "the many people he touched"
+	(16,29,[29,30]) -> (15,30,[28,33]), that is: "their" -> "the many people he touched"
+Coreference set:
+	(16,10,[10,11]) -> (15,39,[38,43]), that is: "I" -> "Bud Selig in a statement"
+	(16,12,[12,13]) -> (15,39,[38,43]), that is: "my" -> "Bud Selig in a statement"

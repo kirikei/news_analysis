@@ -1,0 +1,1776 @@
+Sentence #1 (8 tokens):
+River Hill wrestling overpowers Oakdale, 39-28.
+[Text=River CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=River NamedEntityTag=LOCATION] [Text=Hill CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=LOCATION] [Text=wrestling CharacterOffsetBegin=11 CharacterOffsetEnd=20 PartOfSpeech=VBG Lemma=wrestle NamedEntityTag=O] [Text=overpowers CharacterOffsetBegin=21 CharacterOffsetEnd=31 PartOfSpeech=NNS Lemma=overpower NamedEntityTag=O] [Text=Oakdale CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Oakdale NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=39-28 CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=CD Lemma=39-28 NamedEntityTag=NUMBER NormalizedNamedEntityTag=39.0 - 28.0] [Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP River) (NNP Hill))
+    (VP (VBG wrestling)
+      (NP (NNS overpowers))
+      (NP-TMP
+        (NP (NNP Oakdale))
+        (, ,)
+        (NP (CD 39-28))))
+    (. .)))
+
+nn(Hill-2, River-1)
+root(ROOT-0, Hill-2)
+partmod(Hill-2, wrestling-3)
+dobj(wrestling-3, overpowers-4)
+tmod(wrestling-3, Oakdale-5)
+amod(Oakdale-5, 39-28-7)
+
+Sentence #2 (22 tokens):
+Clarksville, MD- 
+
+River Hill's Logan Kirby doesn't put much weight on scouting when it comes to wrestling.
+[Text=Clarksville CharacterOffsetBegin=53 CharacterOffsetEnd=64 PartOfSpeech=NNP Lemma=Clarksville NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=MD CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=md NamedEntityTag=O] [Text=- CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=River CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NNP Lemma=River NamedEntityTag=LOCATION] [Text=Hill CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Logan CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Logan NamedEntityTag=PERSON] [Text=Kirby CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=does CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n't CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=put CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=VB Lemma=put NamedEntityTag=O] [Text=much CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=JJ Lemma=much NamedEntityTag=O] [Text=weight CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NN Lemma=weight NamedEntityTag=O] [Text=on CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=scouting CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=VBG Lemma=scout NamedEntityTag=O] [Text=when CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=it CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=comes CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=to CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestling CharacterOffsetBegin=154 CharacterOffsetEnd=163 PartOfSpeech=VBG Lemma=wrestle NamedEntityTag=O] [Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Clarksville))
+      (, ,)
+      (NP
+        (NP (NN MD))
+        (: -)
+        (NP
+          (NP (NNP River) (NNP Hill) (POS 's))
+          (NNP Logan) (NNP Kirby))))
+    (VP (VBZ does) (RB n't)
+      (VP (VB put)
+        (NP (JJ much) (NN weight))
+        (PP (IN on)
+          (S
+            (VP (VBG scouting)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ comes)
+                    (PP (TO to)
+                      (S
+                        (VP (VBG wrestling))))))))))))
+    (. .)))
+
+nsubj(put-12, Clarksville-1)
+appos(Clarksville-1, MD-3)
+nn(Hill-6, River-5)
+poss(Kirby-9, Hill-6)
+nn(Kirby-9, Logan-8)
+dep(MD-3, Kirby-9)
+aux(put-12, does-10)
+neg(put-12, n't-11)
+root(ROOT-0, put-12)
+amod(weight-14, much-13)
+dobj(put-12, weight-14)
+prepc_on(put-12, scouting-16)
+advmod(comes-19, when-17)
+nsubj(comes-19, it-18)
+advcl(scouting-16, comes-19)
+prepc_to(comes-19, wrestling-21)
+
+Sentence #3 (27 tokens):
+The Harvard bound senior has wrestled at 195, 220 and 285 pounds this year, so preparing for a specific opponent amounts to wasted energy.
+[Text=The CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Harvard CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Harvard NamedEntityTag=ORGANIZATION] [Text=bound CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=VBD Lemma=bind NamedEntityTag=O] [Text=senior CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=JJ Lemma=senior NamedEntityTag=O] [Text=has CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=wrestled CharacterOffsetBegin=199 CharacterOffsetEnd=207 PartOfSpeech=VBN Lemma=wrestle NamedEntityTag=O] [Text=at CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=195 CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=CD Lemma=195 NamedEntityTag=NUMBER NormalizedNamedEntityTag=195.0] [Text=, CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=220 CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=CD Lemma=220 NamedEntityTag=NUMBER NormalizedNamedEntityTag=220.0] [Text=and CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=285 CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CD Lemma=285 NamedEntityTag=MONEY NormalizedNamedEntityTag=Åí285.0] [Text=pounds CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NNS Lemma=pound NamedEntityTag=MONEY NormalizedNamedEntityTag=Åí285.0] [Text=this CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year</TIMEX3>] [Text=year CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year</TIMEX3>] [Text=, CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=preparing CharacterOffsetBegin=249 CharacterOffsetEnd=258 PartOfSpeech=VBG Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=specific CharacterOffsetBegin=265 CharacterOffsetEnd=273 PartOfSpeech=JJ Lemma=specific NamedEntityTag=O] [Text=opponent CharacterOffsetBegin=274 CharacterOffsetEnd=282 PartOfSpeech=NN Lemma=opponent NamedEntityTag=O] [Text=amounts CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NNS Lemma=amount NamedEntityTag=O] [Text=to CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wasted CharacterOffsetBegin=294 CharacterOffsetEnd=300 PartOfSpeech=VBN Lemma=waste NamedEntityTag=O] [Text=energy CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=NN Lemma=energy NamedEntityTag=O] [Text=. CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Harvard))
+    (VP (VBD bound)
+      (SBAR
+        (S
+          (NP (JJ senior))
+          (VP (VBZ has)
+            (VP (VBN wrestled)
+              (PP (IN at)
+                (NP
+                  (NP (CD 195))
+                  (, ,)
+                  (NP (CD 220))
+                  (CC and)
+                  (NP
+                    (NP (CD 285) (NNS pounds))
+                    (NP (DT this) (NN year)))))
+              (, ,)
+              (S (RB so)
+                (VP (VBG preparing)
+                  (PP (IN for)
+                    (NP (DT a) (JJ specific) (NN opponent) (NNS amounts)))
+                  (PP (TO to)
+                    (NP (VBN wasted) (NN energy))))))))))
+    (. .)))
+
+det(Harvard-2, The-1)
+nsubj(bound-3, Harvard-2)
+root(ROOT-0, bound-3)
+nsubj(wrestled-6, senior-4)
+aux(wrestled-6, has-5)
+ccomp(bound-3, wrestled-6)
+prep_at(wrestled-6, 195-8)
+prep_at(wrestled-6, 220-10)
+conj_and(195-8, 220-10)
+num(pounds-13, 285-12)
+prep_at(wrestled-6, pounds-13)
+conj_and(195-8, pounds-13)
+det(year-15, this-14)
+dep(pounds-13, year-15)
+advmod(preparing-18, so-17)
+xcomp(wrestled-6, preparing-18)
+det(amounts-23, a-20)
+amod(amounts-23, specific-21)
+nn(amounts-23, opponent-22)
+prep_for(preparing-18, amounts-23)
+amod(energy-26, wasted-25)
+prep_to(preparing-18, energy-26)
+
+Sentence #4 (35 tokens):
+"We wrestle where we're told to wrestle Åc I'm just ready to get prepared for Glenelg on Tuesday when it's showtime," said Kirby, a returning state finalist.
+[Text=`` CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=VBP Lemma=wrestle NamedEntityTag=O] [Text=where CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=we CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='re CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=told CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=VBN Lemma=tell NamedEntityTag=O] [Text=to CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=VB Lemma=wrestle NamedEntityTag=O] [Text=... CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=I CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=just CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=ready CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=JJ Lemma=ready NamedEntityTag=O] [Text=to CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=prepared CharacterOffsetBegin=378 CharacterOffsetEnd=386 PartOfSpeech=VBN Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Glenelg CharacterOffsetBegin=391 CharacterOffsetEnd=398 PartOfSpeech=NNP Lemma=Glenelg NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=402 CharacterOffsetEnd=409 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=when CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=it CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=417 CharacterOffsetEnd=419 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=showtime CharacterOffsetBegin=420 CharacterOffsetEnd=428 PartOfSpeech=NN Lemma=showtime NamedEntityTag=O] [Text=, CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Kirby CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=returning CharacterOffsetBegin=445 CharacterOffsetEnd=454 PartOfSpeech=VBG Lemma=return NamedEntityTag=O] [Text=state CharacterOffsetBegin=455 CharacterOffsetEnd=460 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=finalist CharacterOffsetBegin=461 CharacterOffsetEnd=469 PartOfSpeech=NN Lemma=finalist NamedEntityTag=O] [Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (S
+        (NP (PRP We))
+        (VP (VBP wrestle)
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (PRP we))
+              (VP (VBP 're)
+                (VP (VBN told)
+                  (S
+                    (VP (TO to)
+                      (VP (VB wrestle))))))))))
+      (: ...)
+      (S
+        (NP (PRP I))
+        (VP (VBP 'm)
+          (ADVP (RB just))
+          (ADJP (JJ ready)
+            (S
+              (VP (TO to)
+                (VP (VB get)
+                  (VP (VBN prepared)
+                    (PP (IN for)
+                      (NP (NNP Glenelg)))
+                    (PP (IN on)
+                      (NP (NNP Tuesday))))))))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP it))
+              (VP (VBZ 's)
+                (NP (NN showtime))))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP Kirby))
+      (, ,)
+      (NP (DT a) (VBG returning) (NN state) (NN finalist)))
+    (. .)))
+
+nsubj(wrestle-3, We-2)
+ccomp(said-28, wrestle-3)
+advmod(told-7, where-4)
+nsubjpass(told-7, we-5)
+xsubj(wrestle-9, we-5)
+auxpass(told-7, 're-6)
+advcl(wrestle-3, told-7)
+aux(wrestle-9, to-8)
+xcomp(told-7, wrestle-9)
+nsubj(ready-14, I-11)
+xsubj(prepared-17, I-11)
+cop(ready-14, 'm-12)
+advmod(ready-14, just-13)
+parataxis(wrestle-3, ready-14)
+aux(prepared-17, to-15)
+auxpass(prepared-17, get-16)
+xcomp(ready-14, prepared-17)
+prep_for(prepared-17, Glenelg-19)
+prep_on(prepared-17, Tuesday-21)
+advmod(showtime-25, when-22)
+nsubj(showtime-25, it-23)
+cop(showtime-25, 's-24)
+advcl(ready-14, showtime-25)
+root(ROOT-0, said-28)
+nsubj(said-28, Kirby-29)
+det(finalist-34, a-31)
+amod(finalist-34, returning-32)
+nn(finalist-34, state-33)
+appos(Kirby-29, finalist-34)
+
+Sentence #5 (25 tokens):
+"It's fun because you get to wrestle different styles of wrestlers from the real big strong guys to the smaller quicker guys.
+[Text=`` CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=fun CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=NN Lemma=fun NamedEntityTag=O] [Text=because CharacterOffsetBegin=481 CharacterOffsetEnd=488 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=you CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=get CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=VBP Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=500 CharacterOffsetEnd=507 PartOfSpeech=VB Lemma=wrestle NamedEntityTag=O] [Text=different CharacterOffsetBegin=508 CharacterOffsetEnd=517 PartOfSpeech=JJ Lemma=different NamedEntityTag=O] [Text=styles CharacterOffsetBegin=518 CharacterOffsetEnd=524 PartOfSpeech=NNS Lemma=style NamedEntityTag=O] [Text=of CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=wrestlers CharacterOffsetBegin=528 CharacterOffsetEnd=537 PartOfSpeech=NNS Lemma=wrestler NamedEntityTag=O] [Text=from CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=real CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=JJ Lemma=real NamedEntityTag=O] [Text=big CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=strong CharacterOffsetBegin=556 CharacterOffsetEnd=562 PartOfSpeech=JJ Lemma=strong NamedEntityTag=O] [Text=guys CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O] [Text=to CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=smaller CharacterOffsetBegin=575 CharacterOffsetEnd=582 PartOfSpeech=JJR Lemma=smaller NamedEntityTag=O] [Text=quicker CharacterOffsetBegin=583 CharacterOffsetEnd=590 PartOfSpeech=JJR Lemma=quicker NamedEntityTag=O] [Text=guys CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O] [Text=. CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP (NN fun))
+      (SBAR (IN because)
+        (S
+          (NP (PRP you))
+          (VP (VBP get)
+            (S
+              (VP (TO to)
+                (VP (VB wrestle)
+                  (NP
+                    (NP (JJ different) (NNS styles))
+                    (PP (IN of)
+                      (NP (NNS wrestlers))))
+                  (PP (IN from)
+                    (NP (DT the) (JJ real) (JJ big) (JJ strong) (NNS guys)))
+                  (PP (TO to)
+                    (NP (DT the)
+                      (ADJP
+                        (NP (JJR smaller))
+                        (JJR quicker))
+                      (NNS guys))))))))))
+    (. .)))
+
+nsubj(fun-4, It-2)
+cop(fun-4, 's-3)
+root(ROOT-0, fun-4)
+mark(get-7, because-5)
+nsubj(get-7, you-6)
+xsubj(wrestle-9, you-6)
+advcl(fun-4, get-7)
+aux(wrestle-9, to-8)
+xcomp(get-7, wrestle-9)
+amod(styles-11, different-10)
+dobj(wrestle-9, styles-11)
+prep_of(styles-11, wrestlers-13)
+det(guys-19, the-15)
+amod(guys-19, real-16)
+amod(guys-19, big-17)
+amod(guys-19, strong-18)
+prep_from(wrestle-9, guys-19)
+det(guys-24, the-21)
+npadvmod(quicker-23, smaller-22)
+amod(guys-24, quicker-23)
+prep_to(wrestle-9, guys-24)
+
+Sentence #6 (22 tokens):
+You're not quite sure what to prepare for but you just go out there and have fun and wrestle."
+[Text=You CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text='re CharacterOffsetBegin=600 CharacterOffsetEnd=603 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=quite CharacterOffsetBegin=608 CharacterOffsetEnd=613 PartOfSpeech=RB Lemma=quite NamedEntityTag=O] [Text=sure CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=what CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=to CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=prepare CharacterOffsetBegin=627 CharacterOffsetEnd=634 PartOfSpeech=VB Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=but CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=you CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=just CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=go CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=VBP Lemma=go NamedEntityTag=O] [Text=out CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=there CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=RB Lemma=there NamedEntityTag=O] [Text=and CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=fun CharacterOffsetBegin=674 CharacterOffsetEnd=677 PartOfSpeech=NN Lemma=fun NamedEntityTag=O] [Text=and CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=682 CharacterOffsetEnd=689 PartOfSpeech=VBP Lemma=wrestle NamedEntityTag=O] [Text=. CharacterOffsetBegin=689 CharacterOffsetEnd=690 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (VBP 're) (RB not)
+        (ADJP (RB quite) (JJ sure)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (TO to)
+                (VP (VB prepare)
+                  (PP (IN for)
+                    (SBAR (CC but)
+                      (S
+                        (NP (PRP you))
+                        (ADVP (RB just))
+                        (VP
+                          (VP (VBP go)
+                            (ADVP (IN out) (RB there)))
+                          (CC and)
+                          (VP (VBP have)
+                            (NP (NN fun)))))))))))))
+      (CC and)
+      (VP (VBP wrestle)))
+    (. .) ('' '')))
+
+nsubj(sure-5, You-1)
+nsubj(wrestle-20, You-1)
+cop(sure-5, 're-2)
+neg(sure-5, not-3)
+advmod(sure-5, quite-4)
+root(ROOT-0, sure-5)
+nsubj(prepare-8, what-6)
+aux(prepare-8, to-7)
+ccomp(sure-5, prepare-8)
+nsubj(go-13, you-11)
+nsubj(have-17, you-11)
+advmod(go-13, just-12)
+prepc_for(prepare-8, go-13)
+advmod(go-13, out-14)
+advmod(out-14, there-15)
+prepc_for(prepare-8, have-17)
+conj_and(go-13, have-17)
+dobj(have-17, fun-18)
+conj_and(sure-5, wrestle-20)
+
+Sentence #7 (16 tokens):
+So against visiting Oakdale on Thursday evening, Kirby just prepared for a tough match.
+[Text=So CharacterOffsetBegin=697 CharacterOffsetEnd=699 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=against CharacterOffsetBegin=700 CharacterOffsetEnd=707 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=visiting CharacterOffsetBegin=708 CharacterOffsetEnd=716 PartOfSpeech=VBG Lemma=visit NamedEntityTag=O] [Text=Oakdale CharacterOffsetBegin=717 CharacterOffsetEnd=724 PartOfSpeech=NNP Lemma=Oakdale NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=725 CharacterOffsetEnd=727 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4TEV Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-4TEV">Thursday evening</TIMEX3>] [Text=evening CharacterOffsetBegin=737 CharacterOffsetEnd=744 PartOfSpeech=NN Lemma=evening NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-4TEV Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-4TEV">Thursday evening</TIMEX3>] [Text=, CharacterOffsetBegin=744 CharacterOffsetEnd=745 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Kirby CharacterOffsetBegin=746 CharacterOffsetEnd=751 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=just CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=prepared CharacterOffsetBegin=757 CharacterOffsetEnd=765 PartOfSpeech=VBD Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=770 CharacterOffsetEnd=771 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tough CharacterOffsetBegin=772 CharacterOffsetEnd=777 PartOfSpeech=JJ Lemma=tough NamedEntityTag=O] [Text=match CharacterOffsetBegin=778 CharacterOffsetEnd=783 PartOfSpeech=NN Lemma=match NamedEntityTag=O] [Text=. CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB So)
+      (PP (IN against)
+        (S
+          (VP (VBG visiting)
+            (NP
+              (NP (NNP Oakdale))
+              (PP (IN on)
+                (NP (NNP Thursday))))
+            (NP-TMP (NN evening))))))
+    (, ,)
+    (NP (NNP Kirby))
+    (ADVP (RB just))
+    (VP (VBD prepared)
+      (PP (IN for)
+        (NP (DT a) (JJ tough) (NN match))))
+    (. .)))
+
+advmod(prepared-11, So-1)
+prepc_against(So-1, visiting-3)
+dobj(visiting-3, Oakdale-4)
+prep_on(Oakdale-4, Thursday-6)
+tmod(visiting-3, evening-7)
+nsubj(prepared-11, Kirby-9)
+advmod(prepared-11, just-10)
+root(ROOT-0, prepared-11)
+det(match-15, a-13)
+amod(match-15, tough-14)
+prep_for(prepared-11, match-15)
+
+Sentence #8 (28 tokens):
+He ended up pinning Oakdale's Tyler Brown (195) with 45 seconds remaining in the third period, leading the Hawks to a 39-28 win.
+[Text=He CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=ended CharacterOffsetBegin=788 CharacterOffsetEnd=793 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=up CharacterOffsetBegin=794 CharacterOffsetEnd=796 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=pinning CharacterOffsetBegin=797 CharacterOffsetEnd=804 PartOfSpeech=VBG Lemma=pin NamedEntityTag=O] [Text=Oakdale CharacterOffsetBegin=805 CharacterOffsetEnd=812 PartOfSpeech=NNP Lemma=Oakdale NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=812 CharacterOffsetEnd=814 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Tyler CharacterOffsetBegin=815 CharacterOffsetEnd=820 PartOfSpeech=NNP Lemma=Tyler NamedEntityTag=PERSON] [Text=Brown CharacterOffsetBegin=821 CharacterOffsetEnd=826 PartOfSpeech=NNP Lemma=Brown NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=827 CharacterOffsetEnd=828 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=195 CharacterOffsetBegin=828 CharacterOffsetEnd=831 PartOfSpeech=CD Lemma=195 NamedEntityTag=NUMBER NormalizedNamedEntityTag=195.0] [Text=-RRB- CharacterOffsetBegin=831 CharacterOffsetEnd=832 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=with CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=45 CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=CD Lemma=45 NamedEntityTag=DURATION NormalizedNamedEntityTag=45.0 Timex=<TIMEX3 tid="t1" type="DURATION" value="PT45S">45 seconds</TIMEX3>] [Text=seconds CharacterOffsetBegin=841 CharacterOffsetEnd=848 PartOfSpeech=NNS Lemma=seconds NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0 Timex=<TIMEX3 tid="t1" type="DURATION" value="PT45S">45 seconds</TIMEX3>] [Text=remaining CharacterOffsetBegin=849 CharacterOffsetEnd=858 PartOfSpeech=VBG Lemma=remain NamedEntityTag=O] [Text=in CharacterOffsetBegin=859 CharacterOffsetEnd=861 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=862 CharacterOffsetEnd=865 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=third CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=period CharacterOffsetBegin=872 CharacterOffsetEnd=878 PartOfSpeech=NN Lemma=period NamedEntityTag=O] [Text=, CharacterOffsetBegin=878 CharacterOffsetEnd=879 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=leading CharacterOffsetBegin=880 CharacterOffsetEnd=887 PartOfSpeech=VBG Lemma=lead NamedEntityTag=O] [Text=the CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=892 CharacterOffsetEnd=897 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=898 CharacterOffsetEnd=900 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=901 CharacterOffsetEnd=902 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=39-28 CharacterOffsetBegin=903 CharacterOffsetEnd=908 PartOfSpeech=CD Lemma=39-28 NamedEntityTag=NUMBER NormalizedNamedEntityTag=39.0 - 28.0] [Text=win CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=VBP Lemma=win NamedEntityTag=O] [Text=. CharacterOffsetBegin=912 CharacterOffsetEnd=913 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD ended)
+      (PRT (RP up))
+      (S
+        (VP (VBG pinning)
+          (NP
+            (NP
+              (NP (NNP Oakdale) (POS 's))
+              (NNP Tyler) (NNP Brown))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 195))
+              (-RRB- -RRB-)))
+          (SBAR (IN with)
+            (S
+              (NP
+                (NP (CD 45) (NNS seconds))
+                (VP (VBG remaining)
+                  (PP (IN in)
+                    (NP (DT the) (JJ third) (NN period)))
+                  (, ,)
+                  (S
+                    (VP (VBG leading)
+                      (NP (DT the) (NNPS Hawks))
+                      (PP (TO to)
+                        (NP (DT a) (CD 39-28)))))))
+              (VP (VBP win)))))))
+    (. .)))
+
+nsubj(ended-2, He-1)
+root(ROOT-0, ended-2)
+prt(ended-2, up-3)
+xcomp(ended-2, pinning-4)
+poss(Brown-8, Oakdale-5)
+nn(Brown-8, Tyler-7)
+dobj(pinning-4, Brown-8)
+appos(Brown-8, 195-10)
+mark(win-27, with-12)
+num(seconds-14, 45-13)
+nsubj(win-27, seconds-14)
+partmod(seconds-14, remaining-15)
+det(period-19, the-17)
+amod(period-19, third-18)
+prep_in(remaining-15, period-19)
+xcomp(remaining-15, leading-21)
+det(Hawks-23, the-22)
+dobj(leading-21, Hawks-23)
+det(39-28-26, a-25)
+prep_to(leading-21, 39-28-26)
+advcl(pinning-4, win-27)
+
+Sentence #9 (47 tokens):
+Sebastian Ames (170), Tyler Smith (285) and Michael Beck (120) also pinned for the Hawks (22-5), while Nic Przybocki (145) and Malik Boyd (152) got the falls for Oakdale (6-3).
+[Text=Sebastian CharacterOffsetBegin=919 CharacterOffsetEnd=928 PartOfSpeech=NNP Lemma=Sebastian NamedEntityTag=PERSON] [Text=Ames CharacterOffsetBegin=929 CharacterOffsetEnd=933 PartOfSpeech=NNP Lemma=Ames NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=934 CharacterOffsetEnd=935 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=170 CharacterOffsetBegin=935 CharacterOffsetEnd=938 PartOfSpeech=CD Lemma=170 NamedEntityTag=NUMBER NormalizedNamedEntityTag=170.0] [Text=-RRB- CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=939 CharacterOffsetEnd=940 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tyler CharacterOffsetBegin=941 CharacterOffsetEnd=946 PartOfSpeech=NNP Lemma=Tyler NamedEntityTag=PERSON] [Text=Smith CharacterOffsetBegin=947 CharacterOffsetEnd=952 PartOfSpeech=NNP Lemma=Smith NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=285 CharacterOffsetBegin=954 CharacterOffsetEnd=957 PartOfSpeech=CD Lemma=285 NamedEntityTag=NUMBER NormalizedNamedEntityTag=285.0] [Text=-RRB- CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Michael CharacterOffsetBegin=963 CharacterOffsetEnd=970 PartOfSpeech=NNP Lemma=Michael NamedEntityTag=PERSON] [Text=Beck CharacterOffsetBegin=971 CharacterOffsetEnd=975 PartOfSpeech=NNP Lemma=Beck NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=976 CharacterOffsetEnd=977 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=120 CharacterOffsetBegin=977 CharacterOffsetEnd=980 PartOfSpeech=CD Lemma=120 NamedEntityTag=NUMBER NormalizedNamedEntityTag=120.0] [Text=-RRB- CharacterOffsetBegin=980 CharacterOffsetEnd=981 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=also CharacterOffsetBegin=982 CharacterOffsetEnd=986 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=pinned CharacterOffsetBegin=987 CharacterOffsetEnd=993 PartOfSpeech=VBD Lemma=pin NamedEntityTag=O] [Text=for CharacterOffsetBegin=994 CharacterOffsetEnd=997 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=998 CharacterOffsetEnd=1001 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=1002 CharacterOffsetEnd=1007 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=-LRB- CharacterOffsetBegin=1008 CharacterOffsetEnd=1009 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=22-5 CharacterOffsetBegin=1009 CharacterOffsetEnd=1013 PartOfSpeech=CD Lemma=22-5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=22.0 - 5.0] [Text=-RRB- CharacterOffsetBegin=1013 CharacterOffsetEnd=1014 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=1014 CharacterOffsetEnd=1015 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=while CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=Nic CharacterOffsetBegin=1022 CharacterOffsetEnd=1025 PartOfSpeech=JJ Lemma=nic NamedEntityTag=MISC] [Text=Przybocki CharacterOffsetBegin=1026 CharacterOffsetEnd=1035 PartOfSpeech=NN Lemma=przybockus NamedEntityTag=MISC] [Text=-LRB- CharacterOffsetBegin=1036 CharacterOffsetEnd=1037 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=145 CharacterOffsetBegin=1037 CharacterOffsetEnd=1040 PartOfSpeech=CD Lemma=145 NamedEntityTag=NUMBER NormalizedNamedEntityTag=145.0] [Text=-RRB- CharacterOffsetBegin=1040 CharacterOffsetEnd=1041 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=1042 CharacterOffsetEnd=1045 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Malik CharacterOffsetBegin=1046 CharacterOffsetEnd=1051 PartOfSpeech=NNP Lemma=Malik NamedEntityTag=PERSON] [Text=Boyd CharacterOffsetBegin=1052 CharacterOffsetEnd=1056 PartOfSpeech=NNP Lemma=Boyd NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=1057 CharacterOffsetEnd=1058 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=152 CharacterOffsetBegin=1058 CharacterOffsetEnd=1061 PartOfSpeech=CD Lemma=152 NamedEntityTag=NUMBER NormalizedNamedEntityTag=152.0] [Text=-RRB- CharacterOffsetBegin=1061 CharacterOffsetEnd=1062 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=got CharacterOffsetBegin=1063 CharacterOffsetEnd=1066 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=1067 CharacterOffsetEnd=1070 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=falls CharacterOffsetBegin=1071 CharacterOffsetEnd=1076 PartOfSpeech=VBZ Lemma=fall NamedEntityTag=O] [Text=for CharacterOffsetBegin=1077 CharacterOffsetEnd=1080 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Oakdale CharacterOffsetBegin=1081 CharacterOffsetEnd=1088 PartOfSpeech=NNP Lemma=Oakdale NamedEntityTag=LOCATION] [Text=-LRB- CharacterOffsetBegin=1089 CharacterOffsetEnd=1090 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=6-3 CharacterOffsetBegin=1090 CharacterOffsetEnd=1093 PartOfSpeech=CD Lemma=6-3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0 - 3.0] [Text=-RRB- CharacterOffsetBegin=1093 CharacterOffsetEnd=1094 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=1094 CharacterOffsetEnd=1095 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Sebastian) (NNP Ames)
+        (PRN (-LRB- -LRB-)
+          (NP (CD 170))
+          (-RRB- -RRB-))
+        (, ,) (NNP Tyler) (NNP Smith)
+        (PRN (-LRB- -LRB-)
+          (NP (CD 285))
+          (-RRB- -RRB-)))
+      (CC and)
+      (NP (NNP Michael) (NNP Beck)
+        (PRN (-LRB- -LRB-)
+          (NP (CD 120))
+          (-RRB- -RRB-))))
+    (ADVP (RB also))
+    (VP (VBD pinned)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NNPS Hawks))
+          (PRN (-LRB- -LRB-)
+            (NP (CD 22-5))
+            (-RRB- -RRB-))))
+      (, ,)
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP
+              (NP (JJ Nic) (NN Przybocki))
+              (PRN (-LRB- -LRB-)
+                (NP (CD 145))
+                (-RRB- -RRB-)))
+            (CC and)
+            (NP
+              (NP (NNP Malik) (NNP Boyd))
+              (PRN (-LRB- -LRB-)
+                (NP (CD 152))
+                (-RRB- -RRB-))))
+          (VP (VBD got)
+            (SBAR
+              (S
+                (NP (DT the))
+                (VP (VBZ falls)
+                  (PP (IN for)
+                    (NP
+                      (NP (NNP Oakdale))
+                      (PRN (-LRB- -LRB-)
+                        (NP (CD 6-3))
+                        (-RRB- -RRB-)))))))))))
+    (. .)))
+
+nn(Smith-8, Sebastian-1)
+nn(Smith-8, Ames-2)
+appos(Smith-8, 170-4)
+dep(Smith-8, Tyler-7)
+nsubj(pinned-19, Smith-8)
+appos(Smith-8, 285-10)
+nn(Beck-14, Michael-13)
+conj_and(Smith-8, Beck-14)
+nsubj(pinned-19, Beck-14)
+appos(Beck-14, 120-16)
+advmod(pinned-19, also-18)
+root(ROOT-0, pinned-19)
+det(Hawks-22, the-21)
+prep_for(pinned-19, Hawks-22)
+appos(Hawks-22, 22-5-24)
+mark(got-39, while-27)
+amod(Przybocki-29, Nic-28)
+nsubj(got-39, Przybocki-29)
+appos(Przybocki-29, 145-31)
+nn(Boyd-35, Malik-34)
+conj_and(Przybocki-29, Boyd-35)
+nsubj(got-39, Boyd-35)
+appos(Boyd-35, 152-37)
+advcl(pinned-19, got-39)
+nsubj(falls-41, the-40)
+ccomp(got-39, falls-41)
+prep_for(falls-41, Oakdale-43)
+appos(Oakdale-43, 6-3-45)
+
+Sentence #10 (19 tokens):
+"Everybody in Frederick County puts out a good program, the whole county, top to bottom.
+[Text=`` CharacterOffsetBegin=1101 CharacterOffsetEnd=1102 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Everybody CharacterOffsetBegin=1102 CharacterOffsetEnd=1111 PartOfSpeech=NN Lemma=everybody NamedEntityTag=O] [Text=in CharacterOffsetBegin=1112 CharacterOffsetEnd=1114 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Frederick CharacterOffsetBegin=1115 CharacterOffsetEnd=1124 PartOfSpeech=NNP Lemma=Frederick NamedEntityTag=LOCATION] [Text=County CharacterOffsetBegin=1125 CharacterOffsetEnd=1131 PartOfSpeech=NNP Lemma=County NamedEntityTag=LOCATION] [Text=puts CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=VBZ Lemma=put NamedEntityTag=O] [Text=out CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=a CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=good CharacterOffsetBegin=1143 CharacterOffsetEnd=1147 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=program CharacterOffsetBegin=1148 CharacterOffsetEnd=1155 PartOfSpeech=NN Lemma=program NamedEntityTag=O] [Text=, CharacterOffsetBegin=1155 CharacterOffsetEnd=1156 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1157 CharacterOffsetEnd=1160 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=whole CharacterOffsetBegin=1161 CharacterOffsetEnd=1166 PartOfSpeech=JJ Lemma=whole NamedEntityTag=O] [Text=county CharacterOffsetBegin=1167 CharacterOffsetEnd=1173 PartOfSpeech=NN Lemma=county NamedEntityTag=O] [Text=, CharacterOffsetBegin=1173 CharacterOffsetEnd=1174 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=top CharacterOffsetBegin=1175 CharacterOffsetEnd=1178 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=to CharacterOffsetBegin=1179 CharacterOffsetEnd=1181 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=bottom CharacterOffsetBegin=1182 CharacterOffsetEnd=1188 PartOfSpeech=NN Lemma=bottom NamedEntityTag=O] [Text=. CharacterOffsetBegin=1188 CharacterOffsetEnd=1189 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (NN Everybody))
+      (PP (IN in)
+        (NP (NNP Frederick) (NNP County))))
+    (VP (VBZ puts)
+      (PRT (RP out))
+      (NP
+        (NP
+          (NP (DT a) (JJ good) (NN program))
+          (, ,)
+          (NP (DT the) (JJ whole) (NN county))
+          (, ,))
+        (ADJP (JJ top)
+          (PP (TO to)
+            (NP (NN bottom))))))
+    (. .)))
+
+nsubj(puts-6, Everybody-2)
+nn(County-5, Frederick-4)
+prep_in(Everybody-2, County-5)
+root(ROOT-0, puts-6)
+prt(puts-6, out-7)
+det(program-10, a-8)
+amod(program-10, good-9)
+dobj(puts-6, program-10)
+det(county-14, the-12)
+amod(county-14, whole-13)
+appos(program-10, county-14)
+amod(program-10, top-16)
+prep_to(top-16, bottom-18)
+
+Sentence #11 (15 tokens):
+There's never an easy match," said River Hill coach Brandon Lauer.
+[Text=There CharacterOffsetBegin=1190 CharacterOffsetEnd=1195 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text='s CharacterOffsetBegin=1195 CharacterOffsetEnd=1197 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=never CharacterOffsetBegin=1198 CharacterOffsetEnd=1203 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=an CharacterOffsetBegin=1204 CharacterOffsetEnd=1206 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=easy CharacterOffsetBegin=1207 CharacterOffsetEnd=1211 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O] [Text=match CharacterOffsetBegin=1212 CharacterOffsetEnd=1217 PartOfSpeech=NN Lemma=match NamedEntityTag=O] [Text=, CharacterOffsetBegin=1217 CharacterOffsetEnd=1218 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1218 CharacterOffsetEnd=1219 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=1220 CharacterOffsetEnd=1224 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=River CharacterOffsetBegin=1225 CharacterOffsetEnd=1230 PartOfSpeech=NNP Lemma=River NamedEntityTag=LOCATION] [Text=Hill CharacterOffsetBegin=1231 CharacterOffsetEnd=1235 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=LOCATION] [Text=coach CharacterOffsetBegin=1236 CharacterOffsetEnd=1241 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Brandon CharacterOffsetBegin=1242 CharacterOffsetEnd=1249 PartOfSpeech=NNP Lemma=Brandon NamedEntityTag=PERSON] [Text=Lauer CharacterOffsetBegin=1250 CharacterOffsetEnd=1255 PartOfSpeech=NNP Lemma=Lauer NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1255 CharacterOffsetEnd=1256 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP (EX There))
+      (VP (VBZ 's)
+        (ADVP (RB never))
+        (NP (DT an) (JJ easy) (NN match))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP (NNP River) (NNP Hill) (NN coach) (NNP Brandon) (NNP Lauer))
+    (. .)))
+
+expl('s-2, There-1)
+ccomp(said-9, 's-2)
+neg('s-2, never-3)
+det(match-6, an-4)
+amod(match-6, easy-5)
+nsubj('s-2, match-6)
+root(ROOT-0, said-9)
+nn(Lauer-14, River-10)
+nn(Lauer-14, Hill-11)
+nn(Lauer-14, coach-12)
+nn(Lauer-14, Brandon-13)
+nsubj(said-9, Lauer-14)
+
+Sentence #12 (32 tokens):
+"A lot of them have experience, they've got a good feeder system up there, so you're going to wrestle guys that know how to wrestle."
+[Text=`` CharacterOffsetBegin=1257 CharacterOffsetEnd=1258 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=A CharacterOffsetBegin=1258 CharacterOffsetEnd=1259 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=1260 CharacterOffsetEnd=1263 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=1264 CharacterOffsetEnd=1266 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=them CharacterOffsetBegin=1267 CharacterOffsetEnd=1271 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=have CharacterOffsetBegin=1272 CharacterOffsetEnd=1276 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=experience CharacterOffsetBegin=1277 CharacterOffsetEnd=1287 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=, CharacterOffsetBegin=1287 CharacterOffsetEnd=1288 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=they CharacterOffsetBegin=1289 CharacterOffsetEnd=1293 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text='ve CharacterOffsetBegin=1293 CharacterOffsetEnd=1296 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=got CharacterOffsetBegin=1297 CharacterOffsetEnd=1300 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=a CharacterOffsetBegin=1301 CharacterOffsetEnd=1302 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=good CharacterOffsetBegin=1303 CharacterOffsetEnd=1307 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=feeder CharacterOffsetBegin=1308 CharacterOffsetEnd=1314 PartOfSpeech=NN Lemma=feeder NamedEntityTag=O] [Text=system CharacterOffsetBegin=1315 CharacterOffsetEnd=1321 PartOfSpeech=NN Lemma=system NamedEntityTag=O] [Text=up CharacterOffsetBegin=1322 CharacterOffsetEnd=1324 PartOfSpeech=IN Lemma=up NamedEntityTag=O] [Text=there CharacterOffsetBegin=1325 CharacterOffsetEnd=1330 PartOfSpeech=RB Lemma=there NamedEntityTag=O] [Text=, CharacterOffsetBegin=1330 CharacterOffsetEnd=1331 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=1332 CharacterOffsetEnd=1334 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=you CharacterOffsetBegin=1335 CharacterOffsetEnd=1338 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text='re CharacterOffsetBegin=1338 CharacterOffsetEnd=1341 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=1342 CharacterOffsetEnd=1347 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1348 CharacterOffsetEnd=1350 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=1351 CharacterOffsetEnd=1358 PartOfSpeech=VB Lemma=wrestle NamedEntityTag=O] [Text=guys CharacterOffsetBegin=1359 CharacterOffsetEnd=1363 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O] [Text=that CharacterOffsetBegin=1364 CharacterOffsetEnd=1368 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=know CharacterOffsetBegin=1369 CharacterOffsetEnd=1373 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=how CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=to CharacterOffsetBegin=1378 CharacterOffsetEnd=1380 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=1381 CharacterOffsetEnd=1388 PartOfSpeech=VB Lemma=wrestle NamedEntityTag=O] [Text=. CharacterOffsetBegin=1388 CharacterOffsetEnd=1389 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1389 CharacterOffsetEnd=1390 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP
+        (NP (DT A) (NN lot))
+        (PP (IN of)
+          (NP (PRP them))))
+      (VP (VBP have)
+        (NP (NN experience))))
+    (PRN (, ,)
+      (S
+        (NP (PRP they))
+        (VP (VBP 've)
+          (VP (VBD got)
+            (NP (DT a) (JJ good) (NN feeder) (NN system))
+            (ADVP (IN up) (RB there)))))
+      (, ,))
+    (IN so)
+    (S
+      (NP (PRP you))
+      (VP (VBP 're)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB wrestle)
+                (NP
+                  (NP (NNS guys))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBP know)
+                        (SBAR
+                          (WHADVP (WRB how))
+                          (S
+                            (VP (TO to)
+                              (VP (VB wrestle)))))))))))))))
+    (. .) ('' '')))
+
+det(lot-3, A-2)
+nsubj(have-6, lot-3)
+prep_of(lot-3, them-5)
+root(ROOT-0, have-6)
+dobj(have-6, experience-7)
+nsubj(got-11, they-9)
+aux(got-11, 've-10)
+dep(have-6, got-11)
+det(system-15, a-12)
+amod(system-15, good-13)
+nn(system-15, feeder-14)
+dobj(got-11, system-15)
+advmod(got-11, up-16)
+advmod(up-16, there-17)
+dep(have-6, so-19)
+nsubj(going-22, you-20)
+xsubj(wrestle-24, you-20)
+aux(going-22, 're-21)
+ccomp(have-6, going-22)
+parataxis(have-6, going-22)
+aux(wrestle-24, to-23)
+xcomp(going-22, wrestle-24)
+dobj(wrestle-24, guys-25)
+nsubj(know-27, guys-25)
+nsubj(wrestle-30, guys-25)
+rcmod(guys-25, know-27)
+advmod(wrestle-30, how-28)
+aux(wrestle-30, to-29)
+ccomp(know-27, wrestle-30)
+xcomp(know-27, wrestle-30)
+
+Sentence #13 (16 tokens):
+Last year against Oakdale, Logan Kirby defeated eventual state champion Ryan Simonica, 5-4.
+[Text=Last CharacterOffsetBegin=1396 CharacterOffsetEnd=1400 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">Last year</TIMEX3>] [Text=year CharacterOffsetBegin=1401 CharacterOffsetEnd=1405 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">Last year</TIMEX3>] [Text=against CharacterOffsetBegin=1406 CharacterOffsetEnd=1413 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Oakdale CharacterOffsetBegin=1414 CharacterOffsetEnd=1421 PartOfSpeech=NNP Lemma=Oakdale NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1421 CharacterOffsetEnd=1422 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Logan CharacterOffsetBegin=1423 CharacterOffsetEnd=1428 PartOfSpeech=NNP Lemma=Logan NamedEntityTag=PERSON] [Text=Kirby CharacterOffsetBegin=1429 CharacterOffsetEnd=1434 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=defeated CharacterOffsetBegin=1435 CharacterOffsetEnd=1443 PartOfSpeech=VBD Lemma=defeat NamedEntityTag=O] [Text=eventual CharacterOffsetBegin=1444 CharacterOffsetEnd=1452 PartOfSpeech=JJ Lemma=eventual NamedEntityTag=O] [Text=state CharacterOffsetBegin=1453 CharacterOffsetEnd=1458 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=champion CharacterOffsetBegin=1459 CharacterOffsetEnd=1467 PartOfSpeech=NN Lemma=champion NamedEntityTag=O] [Text=Ryan CharacterOffsetBegin=1468 CharacterOffsetEnd=1472 PartOfSpeech=NNP Lemma=Ryan NamedEntityTag=PERSON] [Text=Simonica CharacterOffsetBegin=1473 CharacterOffsetEnd=1481 PartOfSpeech=NNP Lemma=Simonica NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1481 CharacterOffsetEnd=1482 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=5-4 CharacterOffsetBegin=1483 CharacterOffsetEnd=1486 PartOfSpeech=JJ Lemma=5-4 NamedEntityTag=O] [Text=. CharacterOffsetBegin=1486 CharacterOffsetEnd=1487 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (JJ Last) (NN year))
+    (PP (IN against)
+      (NP (NNP Oakdale)))
+    (, ,)
+    (NP (NNP Logan) (NNP Kirby))
+    (VP (VBD defeated)
+      (NP
+        (NP (JJ eventual) (NN state) (NN champion) (NNP Ryan) (NNP Simonica))
+        (, ,)
+        (NP (JJ 5-4))))
+    (. .)))
+
+amod(year-2, Last-1)
+tmod(defeated-8, year-2)
+prep_against(defeated-8, Oakdale-4)
+nn(Kirby-7, Logan-6)
+nsubj(defeated-8, Kirby-7)
+root(ROOT-0, defeated-8)
+amod(Simonica-13, eventual-9)
+nn(Simonica-13, state-10)
+nn(Simonica-13, champion-11)
+nn(Simonica-13, Ryan-12)
+dobj(defeated-8, Simonica-13)
+appos(Simonica-13, 5-4-15)
+
+Sentence #14 (26 tokens):
+"I just expected another good kid, because you know that's what you're gonna get from them," Kirby said.
+[Text=`` CharacterOffsetBegin=1493 CharacterOffsetEnd=1494 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1494 CharacterOffsetEnd=1495 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=just CharacterOffsetBegin=1496 CharacterOffsetEnd=1500 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=expected CharacterOffsetBegin=1501 CharacterOffsetEnd=1509 PartOfSpeech=VBD Lemma=expect NamedEntityTag=O] [Text=another CharacterOffsetBegin=1510 CharacterOffsetEnd=1517 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=good CharacterOffsetBegin=1518 CharacterOffsetEnd=1522 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=kid CharacterOffsetBegin=1523 CharacterOffsetEnd=1526 PartOfSpeech=NN Lemma=kid NamedEntityTag=O] [Text=, CharacterOffsetBegin=1526 CharacterOffsetEnd=1527 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=because CharacterOffsetBegin=1528 CharacterOffsetEnd=1535 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=you CharacterOffsetBegin=1536 CharacterOffsetEnd=1539 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=know CharacterOffsetBegin=1540 CharacterOffsetEnd=1544 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=that CharacterOffsetBegin=1545 CharacterOffsetEnd=1549 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=1549 CharacterOffsetEnd=1551 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=what CharacterOffsetBegin=1552 CharacterOffsetEnd=1556 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=you CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text='re CharacterOffsetBegin=1560 CharacterOffsetEnd=1563 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=gon CharacterOffsetBegin=1564 CharacterOffsetEnd=1567 PartOfSpeech=VBG Lemma=gon NamedEntityTag=O] [Text=na CharacterOffsetBegin=1567 CharacterOffsetEnd=1569 PartOfSpeech=TO Lemma=na NamedEntityTag=O] [Text=get CharacterOffsetBegin=1570 CharacterOffsetEnd=1573 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=from CharacterOffsetBegin=1574 CharacterOffsetEnd=1578 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=them CharacterOffsetBegin=1579 CharacterOffsetEnd=1583 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=, CharacterOffsetBegin=1583 CharacterOffsetEnd=1584 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1584 CharacterOffsetEnd=1585 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Kirby CharacterOffsetBegin=1586 CharacterOffsetEnd=1591 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1592 CharacterOffsetEnd=1596 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1596 CharacterOffsetEnd=1597 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (ADVP (RB just))
+      (VP (VBD expected)
+        (NP (DT another) (JJ good) (NN kid))
+        (, ,)
+        (SBAR (IN because)
+          (S
+            (NP (PRP you))
+            (VP (VBP know)
+              (SBAR
+                (S
+                  (NP (DT that))
+                  (VP (VBZ 's)
+                    (SBAR
+                      (WHNP (WP what))
+                      (S
+                        (NP (PRP you))
+                        (VP (VBP 're)
+                          (VP (VBG gon)
+                            (S
+                              (VP (TO na)
+                                (VP (VB get)
+                                  (PP (IN from)
+                                    (NP (PRP them))))))))))))))))))
+    (, ,) ('' '')
+    (NP (NNP Kirby))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(expected-4, I-2)
+advmod(expected-4, just-3)
+ccomp(said-25, expected-4)
+det(kid-7, another-5)
+amod(kid-7, good-6)
+dobj(expected-4, kid-7)
+mark(know-11, because-9)
+nsubj(know-11, you-10)
+advcl(expected-4, know-11)
+nsubj('s-13, that-12)
+ccomp(know-11, 's-13)
+dobj(gon-17, what-14)
+nsubj(gon-17, you-15)
+xsubj(get-19, you-15)
+aux(gon-17, 're-16)
+ccomp('s-13, gon-17)
+aux(get-19, na-18)
+xcomp(gon-17, get-19)
+prep_from(get-19, them-21)
+nsubj(said-25, Kirby-24)
+root(ROOT-0, said-25)
+
+Sentence #15 (15 tokens):
+"Good coaches breed good wrestlers, and that's what you get."
+[Text=`` CharacterOffsetBegin=1598 CharacterOffsetEnd=1599 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Good CharacterOffsetBegin=1599 CharacterOffsetEnd=1603 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=coaches CharacterOffsetBegin=1604 CharacterOffsetEnd=1611 PartOfSpeech=NNS Lemma=coach NamedEntityTag=O] [Text=breed CharacterOffsetBegin=1612 CharacterOffsetEnd=1617 PartOfSpeech=VBP Lemma=breed NamedEntityTag=O] [Text=good CharacterOffsetBegin=1618 CharacterOffsetEnd=1622 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=wrestlers CharacterOffsetBegin=1623 CharacterOffsetEnd=1632 PartOfSpeech=NNS Lemma=wrestler NamedEntityTag=O] [Text=, CharacterOffsetBegin=1632 CharacterOffsetEnd=1633 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1634 CharacterOffsetEnd=1637 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=that CharacterOffsetBegin=1638 CharacterOffsetEnd=1642 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=1642 CharacterOffsetEnd=1644 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=what CharacterOffsetBegin=1645 CharacterOffsetEnd=1649 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=you CharacterOffsetBegin=1650 CharacterOffsetEnd=1653 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=get CharacterOffsetBegin=1654 CharacterOffsetEnd=1657 PartOfSpeech=VBP Lemma=get NamedEntityTag=O] [Text=. CharacterOffsetBegin=1657 CharacterOffsetEnd=1658 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1658 CharacterOffsetEnd=1659 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (JJ Good) (NNS coaches))
+      (VP (VBP breed)
+        (NP (JJ good) (NNS wrestlers))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ 's)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP (VBP get))))))
+    (. .) ('' '')))
+
+amod(coaches-3, Good-2)
+nsubj(breed-4, coaches-3)
+root(ROOT-0, breed-4)
+amod(wrestlers-6, good-5)
+dobj(breed-4, wrestlers-6)
+nsubj('s-10, that-9)
+conj_and(breed-4, 's-10)
+dobj(get-13, what-11)
+nsubj(get-13, you-12)
+ccomp('s-10, get-13)
+
+Sentence #16 (11 tokens):
+The Hawks will now prepare to visit Glenelg on Tuesday.
+[Text=The CharacterOffsetBegin=1665 CharacterOffsetEnd=1668 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=1669 CharacterOffsetEnd=1674 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=1675 CharacterOffsetEnd=1679 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=now CharacterOffsetBegin=1680 CharacterOffsetEnd=1683 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>] [Text=prepare CharacterOffsetBegin=1684 CharacterOffsetEnd=1691 PartOfSpeech=VB Lemma=prepare NamedEntityTag=O] [Text=to CharacterOffsetBegin=1692 CharacterOffsetEnd=1694 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=visit CharacterOffsetBegin=1695 CharacterOffsetEnd=1700 PartOfSpeech=VB Lemma=visit NamedEntityTag=O] [Text=Glenelg CharacterOffsetBegin=1701 CharacterOffsetEnd=1708 PartOfSpeech=NNP Lemma=Glenelg NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=1709 CharacterOffsetEnd=1711 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=1712 CharacterOffsetEnd=1719 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=. CharacterOffsetBegin=1719 CharacterOffsetEnd=1720 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Hawks))
+    (VP (MD will)
+      (ADVP (RB now))
+      (VP (VB prepare)
+        (S
+          (VP (TO to)
+            (VP (VB visit)
+              (NP
+                (NP (NNP Glenelg))
+                (PP (IN on)
+                  (NP (NNP Tuesday)))))))))
+    (. .)))
+
+det(Hawks-2, The-1)
+nsubj(prepare-5, Hawks-2)
+xsubj(visit-7, Hawks-2)
+aux(prepare-5, will-3)
+advmod(prepare-5, now-4)
+root(ROOT-0, prepare-5)
+aux(visit-7, to-6)
+xcomp(prepare-5, visit-7)
+dobj(visit-7, Glenelg-8)
+prep_on(Glenelg-8, Tuesday-10)
+
+Sentence #17 (27 tokens):
+The two teams are the last undefeated programs in Howard County this season, and have combined to win the last seven county dual meet titles.
+[Text=The CharacterOffsetBegin=1721 CharacterOffsetEnd=1724 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=two CharacterOffsetBegin=1725 CharacterOffsetEnd=1728 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=teams CharacterOffsetBegin=1729 CharacterOffsetEnd=1734 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=are CharacterOffsetBegin=1735 CharacterOffsetEnd=1738 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1739 CharacterOffsetEnd=1742 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=1743 CharacterOffsetEnd=1747 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=undefeated CharacterOffsetBegin=1748 CharacterOffsetEnd=1758 PartOfSpeech=JJ Lemma=undefeated NamedEntityTag=O] [Text=programs CharacterOffsetBegin=1759 CharacterOffsetEnd=1767 PartOfSpeech=NNS Lemma=program NamedEntityTag=O] [Text=in CharacterOffsetBegin=1768 CharacterOffsetEnd=1770 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Howard CharacterOffsetBegin=1771 CharacterOffsetEnd=1777 PartOfSpeech=NNP Lemma=Howard NamedEntityTag=LOCATION] [Text=County CharacterOffsetBegin=1778 CharacterOffsetEnd=1784 PartOfSpeech=NNP Lemma=County NamedEntityTag=LOCATION] [Text=this CharacterOffsetBegin=1785 CharacterOffsetEnd=1789 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=season CharacterOffsetBegin=1790 CharacterOffsetEnd=1796 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=1796 CharacterOffsetEnd=1797 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1798 CharacterOffsetEnd=1801 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=1802 CharacterOffsetEnd=1806 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=combined CharacterOffsetBegin=1807 CharacterOffsetEnd=1815 PartOfSpeech=VBN Lemma=combine NamedEntityTag=O] [Text=to CharacterOffsetBegin=1816 CharacterOffsetEnd=1818 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=win CharacterOffsetBegin=1819 CharacterOffsetEnd=1822 PartOfSpeech=VB Lemma=win NamedEntityTag=O] [Text=the CharacterOffsetBegin=1823 CharacterOffsetEnd=1826 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=1827 CharacterOffsetEnd=1831 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=seven CharacterOffsetBegin=1832 CharacterOffsetEnd=1837 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0] [Text=county CharacterOffsetBegin=1838 CharacterOffsetEnd=1844 PartOfSpeech=NN Lemma=county NamedEntityTag=O] [Text=dual CharacterOffsetBegin=1845 CharacterOffsetEnd=1849 PartOfSpeech=JJ Lemma=dual NamedEntityTag=O] [Text=meet CharacterOffsetBegin=1850 CharacterOffsetEnd=1854 PartOfSpeech=VBP Lemma=meet NamedEntityTag=O] [Text=titles CharacterOffsetBegin=1855 CharacterOffsetEnd=1861 PartOfSpeech=NNS Lemma=title NamedEntityTag=O] [Text=. CharacterOffsetBegin=1861 CharacterOffsetEnd=1862 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (CD two) (NNS teams))
+    (VP
+      (VP (VBP are)
+        (NP
+          (NP (DT the) (JJ last) (JJ undefeated) (NNS programs))
+          (PP (IN in)
+            (NP
+              (NP (NNP Howard) (NNP County))
+              (NP-TMP (DT this) (NN season))))))
+      (, ,)
+      (CC and)
+      (VP (VBP have)
+        (VP (VBN combined)
+          (S
+            (VP (TO to)
+              (VP (VB win)
+                (NP
+                  (NP (DT the) (JJ last) (CD seven) (NN county))
+                  (SBAR
+                    (S
+                      (NP (JJ dual))
+                      (VP (VBP meet)
+                        (NP (NNS titles))))))))))))
+    (. .)))
+
+det(teams-3, The-1)
+num(teams-3, two-2)
+nsubj(programs-8, teams-3)
+nsubj(combined-17, teams-3)
+xsubj(win-19, teams-3)
+cop(programs-8, are-4)
+det(programs-8, the-5)
+amod(programs-8, last-6)
+amod(programs-8, undefeated-7)
+root(ROOT-0, programs-8)
+nn(County-11, Howard-10)
+prep_in(programs-8, County-11)
+det(season-13, this-12)
+tmod(County-11, season-13)
+aux(combined-17, have-16)
+conj_and(programs-8, combined-17)
+aux(win-19, to-18)
+xcomp(combined-17, win-19)
+det(county-23, the-20)
+amod(county-23, last-21)
+num(county-23, seven-22)
+dobj(win-19, county-23)
+nsubj(meet-25, dual-24)
+rcmod(county-23, meet-25)
+dobj(meet-25, titles-26)
+
+Sentence #18 (17 tokens):
+"It's two of the top programs year in and year out going at it.
+[Text=`` CharacterOffsetBegin=1868 CharacterOffsetEnd=1869 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=1869 CharacterOffsetEnd=1871 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=1871 CharacterOffsetEnd=1873 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=two CharacterOffsetBegin=1874 CharacterOffsetEnd=1877 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=of CharacterOffsetBegin=1878 CharacterOffsetEnd=1880 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1881 CharacterOffsetEnd=1884 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1885 CharacterOffsetEnd=1888 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=programs CharacterOffsetBegin=1889 CharacterOffsetEnd=1897 PartOfSpeech=NNS Lemma=program NamedEntityTag=O] [Text=year CharacterOffsetBegin=1898 CharacterOffsetEnd=1902 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="P1Y">year</TIMEX3>] [Text=in CharacterOffsetBegin=1903 CharacterOffsetEnd=1905 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=and CharacterOffsetBegin=1906 CharacterOffsetEnd=1909 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=year CharacterOffsetBegin=1910 CharacterOffsetEnd=1914 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="P1Y">year</TIMEX3>] [Text=out CharacterOffsetBegin=1915 CharacterOffsetEnd=1918 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=going CharacterOffsetBegin=1919 CharacterOffsetEnd=1924 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=at CharacterOffsetBegin=1925 CharacterOffsetEnd=1927 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=it CharacterOffsetBegin=1928 CharacterOffsetEnd=1930 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=1930 CharacterOffsetEnd=1931 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP
+        (NP (CD two))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ top) (NNS programs))
+            (VP
+              (ADVP
+                (ADVP (NN year) (IN in))
+                (CC and)
+                (ADVP (NN year) (IN out)))
+              (VBG going)
+              (PP (IN at)
+                (NP (PRP it))))))))
+    (. .)))
+
+nsubj(two-4, It-2)
+cop(two-4, 's-3)
+root(ROOT-0, two-4)
+det(programs-8, the-6)
+amod(programs-8, top-7)
+prep_of(two-4, programs-8)
+dep(in-10, year-9)
+advmod(going-14, in-10)
+dep(out-13, year-12)
+conj_and(in-10, out-13)
+advmod(going-14, out-13)
+partmod(programs-8, going-14)
+prep_at(going-14, it-16)
+
+Sentence #19 (21 tokens):
+It's going to be an exciting dual meet, it's going to be close," Lauer said.
+[Text=It CharacterOffsetBegin=1932 CharacterOffsetEnd=1934 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=1934 CharacterOffsetEnd=1936 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=1937 CharacterOffsetEnd=1942 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1943 CharacterOffsetEnd=1945 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1946 CharacterOffsetEnd=1948 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=an CharacterOffsetBegin=1949 CharacterOffsetEnd=1951 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=exciting CharacterOffsetBegin=1952 CharacterOffsetEnd=1960 PartOfSpeech=JJ Lemma=exciting NamedEntityTag=O] [Text=dual CharacterOffsetBegin=1961 CharacterOffsetEnd=1965 PartOfSpeech=JJ Lemma=dual NamedEntityTag=O] [Text=meet CharacterOffsetBegin=1966 CharacterOffsetEnd=1970 PartOfSpeech=VB Lemma=meet NamedEntityTag=O] [Text=, CharacterOffsetBegin=1970 CharacterOffsetEnd=1971 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=1972 CharacterOffsetEnd=1974 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=1974 CharacterOffsetEnd=1976 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=1977 CharacterOffsetEnd=1982 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1983 CharacterOffsetEnd=1985 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1986 CharacterOffsetEnd=1988 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=close CharacterOffsetBegin=1989 CharacterOffsetEnd=1994 PartOfSpeech=RB Lemma=close NamedEntityTag=O] [Text=, CharacterOffsetBegin=1994 CharacterOffsetEnd=1995 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1995 CharacterOffsetEnd=1996 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Lauer CharacterOffsetBegin=1997 CharacterOffsetEnd=2002 PartOfSpeech=NNP Lemma=Lauer NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2003 CharacterOffsetEnd=2007 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2007 CharacterOffsetEnd=2008 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (NP (DT an) (JJ exciting) (JJ dual))
+                (S
+                  (VP (VB meet) (, ,)
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ 's)
+                        (VP (VBG going)
+                          (S
+                            (VP (TO to)
+                              (VP (VB be)
+                                (VP (RB close))))))))))))))))
+    (, ,) ('' '')
+    (NP (NNP Lauer))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(going-3, It-1)
+xsubj(dual-8, It-1)
+aux(going-3, 's-2)
+ccomp(said-20, going-3)
+aux(dual-8, to-4)
+cop(dual-8, be-5)
+det(dual-8, an-6)
+amod(dual-8, exciting-7)
+xcomp(going-3, dual-8)
+dep(dual-8, meet-9)
+nsubj(going-13, it-11)
+xsubj(close-16, it-11)
+aux(going-13, 's-12)
+ccomp(meet-9, going-13)
+aux(close-16, to-14)
+aux(close-16, be-15)
+xcomp(going-13, close-16)
+nsubj(said-20, Lauer-19)
+root(ROOT-0, said-20)
+
+Sentence #20 (22 tokens):
+"It's going to be nip and tuck and we're excited for the opportunity to compete against them."
+[Text=`` CharacterOffsetBegin=2009 CharacterOffsetEnd=2010 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=2010 CharacterOffsetEnd=2012 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=2012 CharacterOffsetEnd=2014 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=2015 CharacterOffsetEnd=2020 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=2021 CharacterOffsetEnd=2023 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=2024 CharacterOffsetEnd=2026 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=nip CharacterOffsetBegin=2027 CharacterOffsetEnd=2030 PartOfSpeech=NN Lemma=nip NamedEntityTag=O] [Text=and CharacterOffsetBegin=2031 CharacterOffsetEnd=2034 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=tuck CharacterOffsetBegin=2035 CharacterOffsetEnd=2039 PartOfSpeech=VB Lemma=tuck NamedEntityTag=O] [Text=and CharacterOffsetBegin=2040 CharacterOffsetEnd=2043 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=2044 CharacterOffsetEnd=2046 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='re CharacterOffsetBegin=2046 CharacterOffsetEnd=2049 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=excited CharacterOffsetBegin=2050 CharacterOffsetEnd=2057 PartOfSpeech=VBN Lemma=excite NamedEntityTag=O] [Text=for CharacterOffsetBegin=2058 CharacterOffsetEnd=2061 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2062 CharacterOffsetEnd=2065 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=opportunity CharacterOffsetBegin=2066 CharacterOffsetEnd=2077 PartOfSpeech=NN Lemma=opportunity NamedEntityTag=O] [Text=to CharacterOffsetBegin=2078 CharacterOffsetEnd=2080 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=compete CharacterOffsetBegin=2081 CharacterOffsetEnd=2088 PartOfSpeech=VB Lemma=compete NamedEntityTag=O] [Text=against CharacterOffsetBegin=2089 CharacterOffsetEnd=2096 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=them CharacterOffsetBegin=2097 CharacterOffsetEnd=2101 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=. CharacterOffsetBegin=2101 CharacterOffsetEnd=2102 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=2102 CharacterOffsetEnd=2103 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB be)
+                  (NP (NN nip)))
+                (CC and)
+                (VP (VB tuck))))))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBP 're)
+        (VP (VBN excited)
+          (PP (IN for)
+            (NP (DT the) (NN opportunity)))
+          (S
+            (VP (TO to)
+              (VP (VB compete)
+                (PP (IN against)
+                  (NP (PRP them)))))))))
+    (. .) ('' '')))
+
+nsubj(going-4, It-2)
+xsubj(nip-7, It-2)
+aux(going-4, 's-3)
+root(ROOT-0, going-4)
+aux(nip-7, to-5)
+cop(nip-7, be-6)
+xcomp(going-4, nip-7)
+xcomp(going-4, tuck-9)
+conj_and(nip-7, tuck-9)
+nsubjpass(excited-13, we-11)
+xsubj(compete-18, we-11)
+auxpass(excited-13, 're-12)
+conj_and(going-4, excited-13)
+det(opportunity-16, the-15)
+prep_for(excited-13, opportunity-16)
+aux(compete-18, to-17)
+xcomp(excited-13, compete-18)
+prep_against(compete-18, them-20)
+
+Sentence #21 (27 tokens):
+River Hill senior Cory Daniel (220), the University of North Carolina bound defending state champion, is the Hawks' last undefeated wrestler.
+[Text=River CharacterOffsetBegin=2109 CharacterOffsetEnd=2114 PartOfSpeech=NNP Lemma=River NamedEntityTag=LOCATION] [Text=Hill CharacterOffsetBegin=2115 CharacterOffsetEnd=2119 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=LOCATION] [Text=senior CharacterOffsetBegin=2120 CharacterOffsetEnd=2126 PartOfSpeech=JJ Lemma=senior NamedEntityTag=O] [Text=Cory CharacterOffsetBegin=2127 CharacterOffsetEnd=2131 PartOfSpeech=NNP Lemma=Cory NamedEntityTag=PERSON] [Text=Daniel CharacterOffsetBegin=2132 CharacterOffsetEnd=2138 PartOfSpeech=NNP Lemma=Daniel NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=2139 CharacterOffsetEnd=2140 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=220 CharacterOffsetBegin=2140 CharacterOffsetEnd=2143 PartOfSpeech=CD Lemma=220 NamedEntityTag=NUMBER NormalizedNamedEntityTag=220.0] [Text=-RRB- CharacterOffsetBegin=2143 CharacterOffsetEnd=2144 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=2144 CharacterOffsetEnd=2145 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=2146 CharacterOffsetEnd=2149 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=University CharacterOffsetBegin=2150 CharacterOffsetEnd=2160 PartOfSpeech=NNP Lemma=University NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=2161 CharacterOffsetEnd=2163 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=North CharacterOffsetBegin=2164 CharacterOffsetEnd=2169 PartOfSpeech=NNP Lemma=North NamedEntityTag=ORGANIZATION] [Text=Carolina CharacterOffsetBegin=2170 CharacterOffsetEnd=2178 PartOfSpeech=NNP Lemma=Carolina NamedEntityTag=ORGANIZATION] [Text=bound CharacterOffsetBegin=2179 CharacterOffsetEnd=2184 PartOfSpeech=VBD Lemma=bind NamedEntityTag=O] [Text=defending CharacterOffsetBegin=2185 CharacterOffsetEnd=2194 PartOfSpeech=VBG Lemma=defend NamedEntityTag=O] [Text=state CharacterOffsetBegin=2195 CharacterOffsetEnd=2200 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=champion CharacterOffsetBegin=2201 CharacterOffsetEnd=2209 PartOfSpeech=NN Lemma=champion NamedEntityTag=O] [Text=, CharacterOffsetBegin=2209 CharacterOffsetEnd=2210 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=2211 CharacterOffsetEnd=2213 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2214 CharacterOffsetEnd=2217 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=2218 CharacterOffsetEnd=2223 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=' CharacterOffsetBegin=2223 CharacterOffsetEnd=2224 PartOfSpeech=POS Lemma=' NamedEntityTag=O] [Text=last CharacterOffsetBegin=2225 CharacterOffsetEnd=2229 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=undefeated CharacterOffsetBegin=2230 CharacterOffsetEnd=2240 PartOfSpeech=JJ Lemma=undefeated NamedEntityTag=O] [Text=wrestler CharacterOffsetBegin=2241 CharacterOffsetEnd=2249 PartOfSpeech=NN Lemma=wrestler NamedEntityTag=O] [Text=. CharacterOffsetBegin=2249 CharacterOffsetEnd=2250 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP River) (NNP Hill) (JJ senior) (NNP Cory) (NNP Daniel))
+      (PRN (-LRB- -LRB-)
+        (NP (CD 220))
+        (-RRB- -RRB-)))
+    (PRN (, ,)
+      (S
+        (NP
+          (NP (DT the) (NNP University))
+          (PP (IN of)
+            (NP (NNP North) (NNP Carolina))))
+        (VP (VBD bound)
+          (S
+            (VP (VBG defending)
+              (NP (NN state) (NN champion))))))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NNPS Hawks) (POS '))
+        (JJ last) (JJ undefeated) (NN wrestler)))
+    (. .)))
+
+nn(Daniel-5, River-1)
+nn(Daniel-5, Hill-2)
+amod(Daniel-5, senior-3)
+nn(Daniel-5, Cory-4)
+nsubj(wrestler-26, Daniel-5)
+appos(Daniel-5, 220-7)
+det(University-11, the-10)
+nsubj(bound-15, University-11)
+nn(Carolina-14, North-13)
+prep_of(University-11, Carolina-14)
+parataxis(wrestler-26, bound-15)
+xcomp(bound-15, defending-16)
+nn(champion-18, state-17)
+dobj(defending-16, champion-18)
+cop(wrestler-26, is-20)
+det(Hawks-22, the-21)
+poss(wrestler-26, Hawks-22)
+amod(wrestler-26, last-24)
+amod(wrestler-26, undefeated-25)
+root(ROOT-0, wrestler-26)
+
+Sentence #22 (33 tokens):
+His younger brother, freshman Brady Daniel (160), has been a strong addition on the mat this season, boasting an 18-6 record after his 8-2 win Tuesday night.
+[Text=His CharacterOffsetBegin=2251 CharacterOffsetEnd=2254 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=younger CharacterOffsetBegin=2255 CharacterOffsetEnd=2262 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O] [Text=brother CharacterOffsetBegin=2263 CharacterOffsetEnd=2270 PartOfSpeech=NN Lemma=brother NamedEntityTag=O] [Text=, CharacterOffsetBegin=2270 CharacterOffsetEnd=2271 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=freshman CharacterOffsetBegin=2272 CharacterOffsetEnd=2280 PartOfSpeech=NN Lemma=freshman NamedEntityTag=O] [Text=Brady CharacterOffsetBegin=2281 CharacterOffsetEnd=2286 PartOfSpeech=NNP Lemma=Brady NamedEntityTag=PERSON] [Text=Daniel CharacterOffsetBegin=2287 CharacterOffsetEnd=2293 PartOfSpeech=NNP Lemma=Daniel NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=2294 CharacterOffsetEnd=2295 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=160 CharacterOffsetBegin=2295 CharacterOffsetEnd=2298 PartOfSpeech=CD Lemma=160 NamedEntityTag=NUMBER NormalizedNamedEntityTag=160.0] [Text=-RRB- CharacterOffsetBegin=2298 CharacterOffsetEnd=2299 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=2299 CharacterOffsetEnd=2300 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=has CharacterOffsetBegin=2301 CharacterOffsetEnd=2304 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2305 CharacterOffsetEnd=2309 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2310 CharacterOffsetEnd=2311 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=strong CharacterOffsetBegin=2312 CharacterOffsetEnd=2318 PartOfSpeech=JJ Lemma=strong NamedEntityTag=O] [Text=addition CharacterOffsetBegin=2319 CharacterOffsetEnd=2327 PartOfSpeech=NN Lemma=addition NamedEntityTag=O] [Text=on CharacterOffsetBegin=2328 CharacterOffsetEnd=2330 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2331 CharacterOffsetEnd=2334 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mat CharacterOffsetBegin=2335 CharacterOffsetEnd=2338 PartOfSpeech=NN Lemma=mat NamedEntityTag=O] [Text=this CharacterOffsetBegin=2339 CharacterOffsetEnd=2343 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=season CharacterOffsetBegin=2344 CharacterOffsetEnd=2350 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=2350 CharacterOffsetEnd=2351 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=boasting CharacterOffsetBegin=2352 CharacterOffsetEnd=2360 PartOfSpeech=VBG Lemma=boast NamedEntityTag=O] [Text=an CharacterOffsetBegin=2361 CharacterOffsetEnd=2363 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=18-6 CharacterOffsetBegin=2364 CharacterOffsetEnd=2368 PartOfSpeech=CD Lemma=18-6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=18.0 - 6.0] [Text=record CharacterOffsetBegin=2369 CharacterOffsetEnd=2375 PartOfSpeech=NN Lemma=record NamedEntityTag=O] [Text=after CharacterOffsetBegin=2376 CharacterOffsetEnd=2381 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=his CharacterOffsetBegin=2382 CharacterOffsetEnd=2385 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=8-2 CharacterOffsetBegin=2386 CharacterOffsetEnd=2389 PartOfSpeech=CD Lemma=8-2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0 - 2.0] [Text=win CharacterOffsetBegin=2390 CharacterOffsetEnd=2393 PartOfSpeech=VBP Lemma=win NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2394 CharacterOffsetEnd=2401 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-2TNI">Tuesday night</TIMEX3>] [Text=night CharacterOffsetBegin=2402 CharacterOffsetEnd=2407 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-2TNI">Tuesday night</TIMEX3>] [Text=. CharacterOffsetBegin=2407 CharacterOffsetEnd=2408 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (JJR younger) (NN brother))
+      (, ,)
+      (NP
+        (NP (NN freshman) (NNP Brady) (NNP Daniel))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 160))
+          (-RRB- -RRB-)))
+      (, ,))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (NP
+          (NP (DT a) (JJ strong) (NN addition))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN mat))
+              (NP-TMP (DT this) (NN season)))))
+        (, ,)
+        (S
+          (VP (VBG boasting)
+            (NP (DT an) (CD 18-6) (NN record))
+            (SBAR (IN after)
+              (S
+                (NP (PRP$ his))
+                (VP
+                  (ADVP (CD 8-2))
+                  (VBP win)
+                  (NP (NNP Tuesday) (NN night)))))))))
+    (. .)))
+
+poss(brother-3, His-1)
+amod(brother-3, younger-2)
+nsubj(addition-16, brother-3)
+nn(Daniel-7, freshman-5)
+nn(Daniel-7, Brady-6)
+appos(brother-3, Daniel-7)
+appos(Daniel-7, 160-9)
+aux(addition-16, has-12)
+cop(addition-16, been-13)
+det(addition-16, a-14)
+amod(addition-16, strong-15)
+root(ROOT-0, addition-16)
+det(mat-19, the-18)
+prep_on(addition-16, mat-19)
+det(season-21, this-20)
+tmod(mat-19, season-21)
+partmod(addition-16, boasting-23)
+det(record-26, an-24)
+num(record-26, 18-6-25)
+dobj(boasting-23, record-26)
+mark(win-30, after-27)
+nsubj(win-30, his-28)
+advmod(win-30, 8-2-29)
+advcl(boasting-23, win-30)
+nn(night-32, Tuesday-31)
+tmod(win-30, night-32)
+
+Sentence #23 (6 tokens):
+"He's doing great.
+[Text=`` CharacterOffsetBegin=2414 CharacterOffsetEnd=2415 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=2415 CharacterOffsetEnd=2417 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text='s CharacterOffsetBegin=2417 CharacterOffsetEnd=2419 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=doing CharacterOffsetBegin=2420 CharacterOffsetEnd=2425 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=great CharacterOffsetBegin=2426 CharacterOffsetEnd=2431 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=. CharacterOffsetBegin=2431 CharacterOffsetEnd=2432 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP He))
+    (VP (VBZ 's)
+      (VP (VBG doing)
+        (ADJP (JJ great))))
+    (. .)))
+
+nsubj(doing-4, He-2)
+aux(doing-4, 's-3)
+root(ROOT-0, doing-4)
+acomp(doing-4, great-5)
+
+Sentence #24 (7 tokens):
+He's been working extremely hard.
+[Text=He CharacterOffsetBegin=2433 CharacterOffsetEnd=2435 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text='s CharacterOffsetBegin=2435 CharacterOffsetEnd=2437 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=been CharacterOffsetBegin=2438 CharacterOffsetEnd=2442 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=working CharacterOffsetBegin=2443 CharacterOffsetEnd=2450 PartOfSpeech=VBG Lemma=work NamedEntityTag=O] [Text=extremely CharacterOffsetBegin=2451 CharacterOffsetEnd=2460 PartOfSpeech=RB Lemma=extremely NamedEntityTag=O] [Text=hard CharacterOffsetBegin=2461 CharacterOffsetEnd=2465 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=. CharacterOffsetBegin=2465 CharacterOffsetEnd=2466 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ 's)
+      (VP (VBN been)
+        (VP (VBG working)
+          (ADJP (RB extremely) (JJ hard)))))
+    (. .)))
+
+nsubjpass(working-4, He-1)
+auxpass(working-4, 's-2)
+aux(working-4, been-3)
+root(ROOT-0, working-4)
+advmod(hard-6, extremely-5)
+acomp(working-4, hard-6)
+
+Sentence #25 (6 tokens):
+He definitely has no ceiling.
+[Text=He CharacterOffsetBegin=2467 CharacterOffsetEnd=2469 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=definitely CharacterOffsetBegin=2470 CharacterOffsetEnd=2480 PartOfSpeech=RB Lemma=definitely NamedEntityTag=O] [Text=has CharacterOffsetBegin=2481 CharacterOffsetEnd=2484 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=no CharacterOffsetBegin=2485 CharacterOffsetEnd=2487 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=ceiling CharacterOffsetBegin=2488 CharacterOffsetEnd=2495 PartOfSpeech=NN Lemma=ceiling NamedEntityTag=O] [Text=. CharacterOffsetBegin=2495 CharacterOffsetEnd=2496 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB definitely))
+    (VP (VBZ has)
+      (NP (DT no) (NN ceiling)))
+    (. .)))
+
+nsubj(has-3, He-1)
+advmod(has-3, definitely-2)
+root(ROOT-0, has-3)
+det(ceiling-5, no-4)
+dobj(has-3, ceiling-5)
+
+Sentence #26 (7 tokens):
+The possibilities are endless for him.
+[Text=The CharacterOffsetBegin=2497 CharacterOffsetEnd=2500 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=possibilities CharacterOffsetBegin=2501 CharacterOffsetEnd=2514 PartOfSpeech=NNS Lemma=possibility NamedEntityTag=O] [Text=are CharacterOffsetBegin=2515 CharacterOffsetEnd=2518 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=endless CharacterOffsetBegin=2519 CharacterOffsetEnd=2526 PartOfSpeech=JJ Lemma=endless NamedEntityTag=O] [Text=for CharacterOffsetBegin=2527 CharacterOffsetEnd=2530 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=him CharacterOffsetBegin=2531 CharacterOffsetEnd=2534 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=. CharacterOffsetBegin=2534 CharacterOffsetEnd=2535 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNS possibilities))
+    (VP (VBP are)
+      (ADJP (JJ endless)
+        (PP (IN for)
+          (NP (PRP him)))))
+    (. .)))
+
+det(possibilities-2, The-1)
+nsubj(endless-4, possibilities-2)
+cop(endless-4, are-3)
+root(ROOT-0, endless-4)
+prep_for(endless-4, him-6)
+
+Sentence #27 (24 tokens):
+It's just a matter of the commitment he puts in and what he does training wise off season," Lauer said.
+[Text=It CharacterOffsetBegin=2536 CharacterOffsetEnd=2538 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=2538 CharacterOffsetEnd=2540 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=just CharacterOffsetBegin=2541 CharacterOffsetEnd=2545 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=a CharacterOffsetBegin=2546 CharacterOffsetEnd=2547 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=matter CharacterOffsetBegin=2548 CharacterOffsetEnd=2554 PartOfSpeech=NN Lemma=matter NamedEntityTag=O] [Text=of CharacterOffsetBegin=2555 CharacterOffsetEnd=2557 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2558 CharacterOffsetEnd=2561 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=commitment CharacterOffsetBegin=2562 CharacterOffsetEnd=2572 PartOfSpeech=NN Lemma=commitment NamedEntityTag=O] [Text=he CharacterOffsetBegin=2573 CharacterOffsetEnd=2575 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=puts CharacterOffsetBegin=2576 CharacterOffsetEnd=2580 PartOfSpeech=VBZ Lemma=put NamedEntityTag=O] [Text=in CharacterOffsetBegin=2581 CharacterOffsetEnd=2583 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=and CharacterOffsetBegin=2584 CharacterOffsetEnd=2587 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=what CharacterOffsetBegin=2588 CharacterOffsetEnd=2592 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=he CharacterOffsetBegin=2593 CharacterOffsetEnd=2595 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=does CharacterOffsetBegin=2596 CharacterOffsetEnd=2600 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=training CharacterOffsetBegin=2601 CharacterOffsetEnd=2609 PartOfSpeech=NN Lemma=training NamedEntityTag=O] [Text=wise CharacterOffsetBegin=2610 CharacterOffsetEnd=2614 PartOfSpeech=JJ Lemma=wise NamedEntityTag=O] [Text=off CharacterOffsetBegin=2615 CharacterOffsetEnd=2618 PartOfSpeech=IN Lemma=off NamedEntityTag=O] [Text=season CharacterOffsetBegin=2619 CharacterOffsetEnd=2625 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=2625 CharacterOffsetEnd=2626 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2626 CharacterOffsetEnd=2627 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Lauer CharacterOffsetBegin=2628 CharacterOffsetEnd=2633 PartOfSpeech=NNP Lemma=Lauer NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2634 CharacterOffsetEnd=2638 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2638 CharacterOffsetEnd=2639 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (ADVP (RB just))
+        (NP
+          (NP (DT a) (NN matter))
+          (PP (IN of)
+            (NP (DT the) (NN commitment))))
+        (SBAR
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (VBZ puts)
+                (PP (IN in)))))
+          (CC and)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP he))
+              (VP (VBZ does)
+                (S
+                  (NP (NN training))
+                  (ADJP (JJ wise)
+                    (PP (IN off)
+                      (NP (NN season)))))))))))
+    (, ,) ('' '')
+    (NP (NNP Lauer))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(matter-5, It-1)
+cop(matter-5, 's-2)
+advmod(matter-5, just-3)
+det(matter-5, a-4)
+ccomp(said-23, matter-5)
+det(commitment-8, the-7)
+prep_of(matter-5, commitment-8)
+nsubj(puts-10, he-9)
+dep(matter-5, puts-10)
+prep(puts-10, in-11)
+dobj(does-15, what-13)
+nsubj(does-15, he-14)
+dep(matter-5, does-15)
+conj_and(puts-10, does-15)
+nsubj(wise-17, training-16)
+xcomp(does-15, wise-17)
+prep_off(wise-17, season-19)
+nsubj(said-23, Lauer-22)
+root(ROOT-0, said-23)
+
+Sentence #28 (28 tokens):
+"He has a lot of talent for a ninth grader, especially at 160...He knows he has to earn everything in high school wrestling.
+[Text=`` CharacterOffsetBegin=2640 CharacterOffsetEnd=2641 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=2641 CharacterOffsetEnd=2643 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=has CharacterOffsetBegin=2644 CharacterOffsetEnd=2647 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=2648 CharacterOffsetEnd=2649 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=2650 CharacterOffsetEnd=2653 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=2654 CharacterOffsetEnd=2656 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=talent CharacterOffsetBegin=2657 CharacterOffsetEnd=2663 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=for CharacterOffsetBegin=2664 CharacterOffsetEnd=2667 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=2668 CharacterOffsetEnd=2669 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=ninth CharacterOffsetBegin=2670 CharacterOffsetEnd=2675 PartOfSpeech=JJ Lemma=ninth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=9.0] [Text=grader CharacterOffsetBegin=2676 CharacterOffsetEnd=2682 PartOfSpeech=NN Lemma=grader NamedEntityTag=O] [Text=, CharacterOffsetBegin=2682 CharacterOffsetEnd=2683 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=especially CharacterOffsetBegin=2684 CharacterOffsetEnd=2694 PartOfSpeech=RB Lemma=especially NamedEntityTag=O] [Text=at CharacterOffsetBegin=2695 CharacterOffsetEnd=2697 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=160 CharacterOffsetBegin=2698 CharacterOffsetEnd=2701 PartOfSpeech=CD Lemma=160 NamedEntityTag=NUMBER NormalizedNamedEntityTag=160.0] [Text=... CharacterOffsetBegin=2701 CharacterOffsetEnd=2704 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=He CharacterOffsetBegin=2704 CharacterOffsetEnd=2706 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=knows CharacterOffsetBegin=2707 CharacterOffsetEnd=2712 PartOfSpeech=VBZ Lemma=know NamedEntityTag=O] [Text=he CharacterOffsetBegin=2713 CharacterOffsetEnd=2715 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=has CharacterOffsetBegin=2716 CharacterOffsetEnd=2719 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=2720 CharacterOffsetEnd=2722 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=earn CharacterOffsetBegin=2723 CharacterOffsetEnd=2727 PartOfSpeech=VB Lemma=earn NamedEntityTag=O] [Text=everything CharacterOffsetBegin=2728 CharacterOffsetEnd=2738 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=in CharacterOffsetBegin=2739 CharacterOffsetEnd=2741 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=high CharacterOffsetBegin=2742 CharacterOffsetEnd=2746 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=school CharacterOffsetBegin=2747 CharacterOffsetEnd=2753 PartOfSpeech=NN Lemma=school NamedEntityTag=O] [Text=wrestling CharacterOffsetBegin=2754 CharacterOffsetEnd=2763 PartOfSpeech=NN Lemma=wrestling NamedEntityTag=O] [Text=. CharacterOffsetBegin=2763 CharacterOffsetEnd=2764 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP He))
+      (VP (VBZ has)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN talent))))
+        (PP
+          (PP (IN for)
+            (NP (DT a) (JJ ninth) (NN grader)))
+          (, ,) (RB especially)
+          (PP (IN at)
+            (NP (CD 160))))))
+    (: ...)
+    (S
+      (NP (PRP He))
+      (VP (VBZ knows)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ has)
+              (S
+                (VP (TO to)
+                  (VP (VB earn)
+                    (NP (NN everything))
+                    (PP (IN in)
+                      (NP (JJ high) (NN school) (NN wrestling)))))))))))
+    (. .)))
+
+nsubj(has-3, He-2)
+root(ROOT-0, has-3)
+det(lot-5, a-4)
+dobj(has-3, lot-5)
+prep_of(lot-5, talent-7)
+det(grader-11, a-9)
+amod(grader-11, ninth-10)
+prep_for(has-3, grader-11)
+dep(has-3, especially-13)
+prep_at(has-3, 160-15)
+nsubj(knows-18, He-17)
+parataxis(has-3, knows-18)
+nsubj(has-20, he-19)
+xsubj(earn-22, he-19)
+ccomp(knows-18, has-20)
+aux(earn-22, to-21)
+xcomp(has-20, earn-22)
+dobj(earn-22, everything-23)
+amod(wrestling-27, high-25)
+nn(wrestling-27, school-26)
+prep_in(earn-22, wrestling-27)
+
+Sentence #29 (20 tokens):
+Everything that happened before high school doesn't matter and he's got to prove himself and establish himself.
+[Text=Everything CharacterOffsetBegin=2765 CharacterOffsetEnd=2775 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=that CharacterOffsetBegin=2776 CharacterOffsetEnd=2780 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=happened CharacterOffsetBegin=2781 CharacterOffsetEnd=2789 PartOfSpeech=VBD Lemma=happen NamedEntityTag=O] [Text=before CharacterOffsetBegin=2790 CharacterOffsetEnd=2796 PartOfSpeech=RB Lemma=before NamedEntityTag=O] [Text=high CharacterOffsetBegin=2797 CharacterOffsetEnd=2801 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=school CharacterOffsetBegin=2802 CharacterOffsetEnd=2808 PartOfSpeech=NN Lemma=school NamedEntityTag=O] [Text=does CharacterOffsetBegin=2809 CharacterOffsetEnd=2813 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n't CharacterOffsetBegin=2813 CharacterOffsetEnd=2816 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=matter CharacterOffsetBegin=2817 CharacterOffsetEnd=2823 PartOfSpeech=VB Lemma=matter NamedEntityTag=O] [Text=and CharacterOffsetBegin=2824 CharacterOffsetEnd=2827 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=2828 CharacterOffsetEnd=2830 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text='s CharacterOffsetBegin=2830 CharacterOffsetEnd=2832 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=got CharacterOffsetBegin=2833 CharacterOffsetEnd=2836 PartOfSpeech=VBN Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=2837 CharacterOffsetEnd=2839 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=prove CharacterOffsetBegin=2840 CharacterOffsetEnd=2845 PartOfSpeech=VB Lemma=prove NamedEntityTag=O] [Text=himself CharacterOffsetBegin=2846 CharacterOffsetEnd=2853 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O] [Text=and CharacterOffsetBegin=2854 CharacterOffsetEnd=2857 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=establish CharacterOffsetBegin=2858 CharacterOffsetEnd=2867 PartOfSpeech=VB Lemma=establish NamedEntityTag=O] [Text=himself CharacterOffsetBegin=2868 CharacterOffsetEnd=2875 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O] [Text=. CharacterOffsetBegin=2875 CharacterOffsetEnd=2876 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN Everything))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD happened)
+              (NP (RB before) (JJ high) (NN school))))))
+      (VP (VBZ does) (RB n't)
+        (VP (VB matter))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBZ 's)
+        (VP (VBN got)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB prove)
+                  (NP (PRP himself)))
+                (CC and)
+                (VP (VB establish)
+                  (NP (PRP himself)))))))))
+    (. .)))
+
+nsubj(happened-3, Everything-1)
+nsubj(matter-9, Everything-1)
+rcmod(Everything-1, happened-3)
+advmod(school-6, before-4)
+amod(school-6, high-5)
+dobj(happened-3, school-6)
+aux(matter-9, does-7)
+neg(matter-9, n't-8)
+root(ROOT-0, matter-9)
+nsubjpass(got-13, he-11)
+xsubj(prove-15, he-11)
+auxpass(got-13, 's-12)
+conj_and(matter-9, got-13)
+aux(prove-15, to-14)
+xcomp(got-13, prove-15)
+dobj(prove-15, himself-16)
+xcomp(got-13, establish-18)
+conj_and(prove-15, establish-18)
+dobj(establish-18, himself-19)
+
+Sentence #30 (6 tokens):
+That's his motivation."
+[Text=That CharacterOffsetBegin=2877 CharacterOffsetEnd=2881 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=2881 CharacterOffsetEnd=2883 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=his CharacterOffsetBegin=2884 CharacterOffsetEnd=2887 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=motivation CharacterOffsetBegin=2888 CharacterOffsetEnd=2898 PartOfSpeech=NN Lemma=motivation NamedEntityTag=O] [Text=. CharacterOffsetBegin=2898 CharacterOffsetEnd=2899 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=2899 CharacterOffsetEnd=2900 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ 's)
+      (NP (PRP$ his) (NN motivation)))
+    (. .) ('' '')))
+
+nsubj(motivation-4, That-1)
+cop(motivation-4, 's-2)
+poss(motivation-4, his-3)
+root(ROOT-0, motivation-4)
+
+Sentence #31 (29 tokens):
+Logan Kirby's younger brother, defending county champion Brian Kirby (195), has been limited this season with a lingering sprained ankle from football season.
+[Text=Logan CharacterOffsetBegin=2906 CharacterOffsetEnd=2911 PartOfSpeech=NNP Lemma=Logan NamedEntityTag=PERSON] [Text=Kirby CharacterOffsetBegin=2912 CharacterOffsetEnd=2917 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=2917 CharacterOffsetEnd=2919 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=younger CharacterOffsetBegin=2920 CharacterOffsetEnd=2927 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O] [Text=brother CharacterOffsetBegin=2928 CharacterOffsetEnd=2935 PartOfSpeech=NN Lemma=brother NamedEntityTag=O] [Text=, CharacterOffsetBegin=2935 CharacterOffsetEnd=2936 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=defending CharacterOffsetBegin=2937 CharacterOffsetEnd=2946 PartOfSpeech=VBG Lemma=defend NamedEntityTag=O] [Text=county CharacterOffsetBegin=2947 CharacterOffsetEnd=2953 PartOfSpeech=NN Lemma=county NamedEntityTag=O] [Text=champion CharacterOffsetBegin=2954 CharacterOffsetEnd=2962 PartOfSpeech=NN Lemma=champion NamedEntityTag=O] [Text=Brian CharacterOffsetBegin=2963 CharacterOffsetEnd=2968 PartOfSpeech=NNP Lemma=Brian NamedEntityTag=PERSON] [Text=Kirby CharacterOffsetBegin=2969 CharacterOffsetEnd=2974 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=2975 CharacterOffsetEnd=2976 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=195 CharacterOffsetBegin=2976 CharacterOffsetEnd=2979 PartOfSpeech=CD Lemma=195 NamedEntityTag=NUMBER NormalizedNamedEntityTag=195.0] [Text=-RRB- CharacterOffsetBegin=2979 CharacterOffsetEnd=2980 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=2980 CharacterOffsetEnd=2981 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=has CharacterOffsetBegin=2982 CharacterOffsetEnd=2985 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2986 CharacterOffsetEnd=2990 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=limited CharacterOffsetBegin=2991 CharacterOffsetEnd=2998 PartOfSpeech=VBN Lemma=limit NamedEntityTag=O] [Text=this CharacterOffsetBegin=2999 CharacterOffsetEnd=3003 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=season CharacterOffsetBegin=3004 CharacterOffsetEnd=3010 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=with CharacterOffsetBegin=3011 CharacterOffsetEnd=3015 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=3016 CharacterOffsetEnd=3017 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lingering CharacterOffsetBegin=3018 CharacterOffsetEnd=3027 PartOfSpeech=VBG Lemma=linger NamedEntityTag=O] [Text=sprained CharacterOffsetBegin=3028 CharacterOffsetEnd=3036 PartOfSpeech=VBN Lemma=sprain NamedEntityTag=O] [Text=ankle CharacterOffsetBegin=3037 CharacterOffsetEnd=3042 PartOfSpeech=NN Lemma=ankle NamedEntityTag=O] [Text=from CharacterOffsetBegin=3043 CharacterOffsetEnd=3047 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=football CharacterOffsetBegin=3048 CharacterOffsetEnd=3056 PartOfSpeech=NN Lemma=football NamedEntityTag=O] [Text=season CharacterOffsetBegin=3057 CharacterOffsetEnd=3063 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=3063 CharacterOffsetEnd=3064 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Logan) (NNP Kirby) (POS 's))
+        (JJR younger) (NN brother))
+      (, ,)
+      (VP (VBG defending)
+        (NP
+          (NP (NN county) (NN champion) (NNP Brian) (NNP Kirby))
+          (PRN (-LRB- -LRB-)
+            (NP (CD 195))
+            (-RRB- -RRB-))))
+      (, ,))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN limited)
+          (NP (DT this) (NN season))
+          (PP (IN with)
+            (NP
+              (NP (DT a) (VBG lingering))
+              (VP (VBN sprained)
+                (NP (NN ankle))
+                (PP (IN from)
+                  (NP (NN football) (NN season)))))))))
+    (. .)))
+
+nn(Kirby-2, Logan-1)
+poss(brother-5, Kirby-2)
+amod(brother-5, younger-4)
+nsubjpass(limited-18, brother-5)
+partmod(brother-5, defending-7)
+nn(Kirby-11, county-8)
+nn(Kirby-11, champion-9)
+nn(Kirby-11, Brian-10)
+dobj(defending-7, Kirby-11)
+appos(Kirby-11, 195-13)
+aux(limited-18, has-16)
+auxpass(limited-18, been-17)
+root(ROOT-0, limited-18)
+det(season-20, this-19)
+dobj(limited-18, season-20)
+prep_with(limited-18, a-22)
+amod(a-22, lingering-23)
+partmod(a-22, sprained-24)
+dobj(sprained-24, ankle-25)
+nn(season-28, football-27)
+prep_from(sprained-24, season-28)
+
+Sentence #32 (12 tokens):
+"We're seeing how long that's going to last.
+[Text=`` CharacterOffsetBegin=3070 CharacterOffsetEnd=3071 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=3071 CharacterOffsetEnd=3073 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='re CharacterOffsetBegin=3073 CharacterOffsetEnd=3076 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=seeing CharacterOffsetBegin=3077 CharacterOffsetEnd=3083 PartOfSpeech=VBG Lemma=see NamedEntityTag=O] [Text=how CharacterOffsetBegin=3084 CharacterOffsetEnd=3087 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=long CharacterOffsetBegin=3088 CharacterOffsetEnd=3092 PartOfSpeech=RB Lemma=long NamedEntityTag=O] [Text=that CharacterOffsetBegin=3093 CharacterOffsetEnd=3097 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=3097 CharacterOffsetEnd=3099 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=3100 CharacterOffsetEnd=3105 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=3106 CharacterOffsetEnd=3108 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=last CharacterOffsetBegin=3109 CharacterOffsetEnd=3113 PartOfSpeech=VB Lemma=last NamedEntityTag=O] [Text=. CharacterOffsetBegin=3113 CharacterOffsetEnd=3114 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP We))
+    (VP (VBP 're)
+      (VP (VBG seeing)
+        (SBAR
+          (WHADVP (WRB how) (RB long))
+          (S
+            (NP (DT that))
+            (VP (VBZ 's)
+              (VP (VBG going)
+                (S
+                  (VP (TO to)
+                    (VP (VB last))))))))))
+    (. .)))
+
+nsubj(seeing-4, We-2)
+aux(seeing-4, 're-3)
+root(ROOT-0, seeing-4)
+advmod(long-6, how-5)
+advmod(going-9, long-6)
+nsubj(going-9, that-7)
+xsubj(last-11, that-7)
+aux(going-9, 's-8)
+ccomp(seeing-4, going-9)
+aux(last-11, to-10)
+xcomp(going-9, last-11)
+
+Sentence #33 (12 tokens):
+We're taking it day by day," Lauer said.
+[Text=We CharacterOffsetBegin=3115 CharacterOffsetEnd=3117 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='re CharacterOffsetBegin=3117 CharacterOffsetEnd=3120 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=taking CharacterOffsetBegin=3121 CharacterOffsetEnd=3127 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=it CharacterOffsetBegin=3128 CharacterOffsetEnd=3130 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=day CharacterOffsetBegin=3131 CharacterOffsetEnd=3134 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="P1D">day</TIMEX3>] [Text=by CharacterOffsetBegin=3135 CharacterOffsetEnd=3137 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=day CharacterOffsetBegin=3138 CharacterOffsetEnd=3141 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="P1D">day</TIMEX3>] [Text=, CharacterOffsetBegin=3141 CharacterOffsetEnd=3142 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=3142 CharacterOffsetEnd=3143 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Lauer CharacterOffsetBegin=3144 CharacterOffsetEnd=3149 PartOfSpeech=NNP Lemma=Lauer NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=3150 CharacterOffsetEnd=3154 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=3154 CharacterOffsetEnd=3155 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP 're)
+        (VP (VBG taking)
+          (NP (PRP it))
+          (NP-TMP (NN day))
+          (PP (IN by)
+            (NP (NN day))))))
+    (, ,) ('' '')
+    (NP (NNP Lauer))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(taking-3, We-1)
+aux(taking-3, 're-2)
+ccomp(said-11, taking-3)
+dobj(taking-3, it-4)
+tmod(taking-3, day-5)
+prep_by(taking-3, day-7)
+nsubj(said-11, Lauer-10)
+root(ROOT-0, said-11)
+
+Sentence #34 (27 tokens):
+"We've been resting him, keeping him off of it, on the crutches and in the boot so he can heal up."
+[Text=`` CharacterOffsetBegin=3156 CharacterOffsetEnd=3157 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=3157 CharacterOffsetEnd=3159 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='ve CharacterOffsetBegin=3159 CharacterOffsetEnd=3162 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=3163 CharacterOffsetEnd=3167 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=resting CharacterOffsetBegin=3168 CharacterOffsetEnd=3175 PartOfSpeech=VBG Lemma=rest NamedEntityTag=O] [Text=him CharacterOffsetBegin=3176 CharacterOffsetEnd=3179 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=, CharacterOffsetBegin=3179 CharacterOffsetEnd=3180 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=keeping CharacterOffsetBegin=3181 CharacterOffsetEnd=3188 PartOfSpeech=VBG Lemma=keep NamedEntityTag=O] [Text=him CharacterOffsetBegin=3189 CharacterOffsetEnd=3192 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=off CharacterOffsetBegin=3193 CharacterOffsetEnd=3196 PartOfSpeech=IN Lemma=off NamedEntityTag=O] [Text=of CharacterOffsetBegin=3197 CharacterOffsetEnd=3199 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=it CharacterOffsetBegin=3200 CharacterOffsetEnd=3202 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=, CharacterOffsetBegin=3202 CharacterOffsetEnd=3203 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=on CharacterOffsetBegin=3204 CharacterOffsetEnd=3206 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=3207 CharacterOffsetEnd=3210 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=crutches CharacterOffsetBegin=3211 CharacterOffsetEnd=3219 PartOfSpeech=NNS Lemma=crutch NamedEntityTag=O] [Text=and CharacterOffsetBegin=3220 CharacterOffsetEnd=3223 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=in CharacterOffsetBegin=3224 CharacterOffsetEnd=3226 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3227 CharacterOffsetEnd=3230 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=boot CharacterOffsetBegin=3231 CharacterOffsetEnd=3235 PartOfSpeech=NN Lemma=boot NamedEntityTag=O] [Text=so CharacterOffsetBegin=3236 CharacterOffsetEnd=3238 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=he CharacterOffsetBegin=3239 CharacterOffsetEnd=3241 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=can CharacterOffsetBegin=3242 CharacterOffsetEnd=3245 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=heal CharacterOffsetBegin=3246 CharacterOffsetEnd=3250 PartOfSpeech=VB Lemma=heal NamedEntityTag=O] [Text=up CharacterOffsetBegin=3251 CharacterOffsetEnd=3253 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=. CharacterOffsetBegin=3253 CharacterOffsetEnd=3254 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=3254 CharacterOffsetEnd=3255 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP We))
+    (VP (VBP 've)
+      (VP (VBN been)
+        (VP
+          (VP (VBG resting)
+            (NP (PRP him)))
+          (, ,)
+          (VP (VBG keeping)
+            (NP (PRP him))
+            (PRT (IN off))
+            (PP (IN of)
+              (NP (PRP it)))
+            (, ,)
+            (PP (IN on)
+              (NP (DT the) (NNS crutches))))
+          (CC and)
+          (VP
+            (PP (IN in)
+              (NP (DT the) (NN boot)))
+            (SBAR (IN so)
+              (S
+                (NP (PRP he))
+                (VP (MD can)
+                  (VP (VB heal)
+                    (PRT (RP up))))))))))
+    (. .) ('' '')))
+
+nsubj(resting-5, We-2)
+nsubj(keeping-8, We-2)
+aux(resting-5, 've-3)
+aux(resting-5, been-4)
+root(ROOT-0, resting-5)
+dobj(resting-5, him-6)
+conj_and(resting-5, keeping-8)
+dobj(keeping-8, him-9)
+prep_off_of(keeping-8, it-12)
+det(crutches-16, the-15)
+prep_on(keeping-8, crutches-16)
+conj_and(resting-5, in-18)
+det(boot-20, the-19)
+pobj(in-18, boot-20)
+mark(heal-24, so-21)
+nsubj(heal-24, he-22)
+aux(heal-24, can-23)
+advcl(in-18, heal-24)
+prt(heal-24, up-25)
+
+Sentence #35 (54 tokens):
+The Hawks also have five sophomores - Matt Shealy (106, 17-7), Cole Mihalik (113, 4-5), Ryan Erskine (132, 15-10), Sean Guthier (138, 19-3) and Jack Connoly (145, 5-17) - who have combined for 60 wins.
+[Text=The CharacterOffsetBegin=3261 CharacterOffsetEnd=3264 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=3265 CharacterOffsetEnd=3270 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=also CharacterOffsetBegin=3271 CharacterOffsetEnd=3275 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=have CharacterOffsetBegin=3276 CharacterOffsetEnd=3280 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=five CharacterOffsetBegin=3281 CharacterOffsetEnd=3285 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=sophomores CharacterOffsetBegin=3286 CharacterOffsetEnd=3296 PartOfSpeech=NNS Lemma=sophomore NamedEntityTag=O] [Text=- CharacterOffsetBegin=3297 CharacterOffsetEnd=3298 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Matt CharacterOffsetBegin=3299 CharacterOffsetEnd=3303 PartOfSpeech=NNP Lemma=Matt NamedEntityTag=PERSON] [Text=Shealy CharacterOffsetBegin=3304 CharacterOffsetEnd=3310 PartOfSpeech=NNP Lemma=Shealy NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3311 CharacterOffsetEnd=3312 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=106 CharacterOffsetBegin=3312 CharacterOffsetEnd=3315 PartOfSpeech=CD Lemma=106 NamedEntityTag=NUMBER NormalizedNamedEntityTag=106.0] [Text=, CharacterOffsetBegin=3315 CharacterOffsetEnd=3316 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=17-7 CharacterOffsetBegin=3317 CharacterOffsetEnd=3321 PartOfSpeech=CD Lemma=17-7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.0 - 7.0] [Text=-RRB- CharacterOffsetBegin=3321 CharacterOffsetEnd=3322 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=3322 CharacterOffsetEnd=3323 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Cole CharacterOffsetBegin=3324 CharacterOffsetEnd=3328 PartOfSpeech=NNP Lemma=Cole NamedEntityTag=PERSON] [Text=Mihalik CharacterOffsetBegin=3329 CharacterOffsetEnd=3336 PartOfSpeech=NNP Lemma=Mihalik NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3337 CharacterOffsetEnd=3338 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=113 CharacterOffsetBegin=3338 CharacterOffsetEnd=3341 PartOfSpeech=CD Lemma=113 NamedEntityTag=NUMBER NormalizedNamedEntityTag=113.0] [Text=, CharacterOffsetBegin=3341 CharacterOffsetEnd=3342 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=4-5 CharacterOffsetBegin=3343 CharacterOffsetEnd=3346 PartOfSpeech=CD Lemma=4-5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0 - 5.0] [Text=-RRB- CharacterOffsetBegin=3346 CharacterOffsetEnd=3347 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=3347 CharacterOffsetEnd=3348 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Ryan CharacterOffsetBegin=3349 CharacterOffsetEnd=3353 PartOfSpeech=NNP Lemma=Ryan NamedEntityTag=PERSON] [Text=Erskine CharacterOffsetBegin=3354 CharacterOffsetEnd=3361 PartOfSpeech=NNP Lemma=Erskine NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3362 CharacterOffsetEnd=3363 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=132 CharacterOffsetBegin=3363 CharacterOffsetEnd=3366 PartOfSpeech=CD Lemma=132 NamedEntityTag=NUMBER NormalizedNamedEntityTag=132.0] [Text=, CharacterOffsetBegin=3366 CharacterOffsetEnd=3367 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=15-10 CharacterOffsetBegin=3368 CharacterOffsetEnd=3373 PartOfSpeech=CD Lemma=15-10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=15.0 - 10.0] [Text=-RRB- CharacterOffsetBegin=3373 CharacterOffsetEnd=3374 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=3374 CharacterOffsetEnd=3375 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Sean CharacterOffsetBegin=3376 CharacterOffsetEnd=3380 PartOfSpeech=NNP Lemma=Sean NamedEntityTag=PERSON] [Text=Guthier CharacterOffsetBegin=3381 CharacterOffsetEnd=3388 PartOfSpeech=NNP Lemma=Guthier NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3389 CharacterOffsetEnd=3390 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=138 CharacterOffsetBegin=3390 CharacterOffsetEnd=3393 PartOfSpeech=CD Lemma=138 NamedEntityTag=NUMBER NormalizedNamedEntityTag=138.0] [Text=, CharacterOffsetBegin=3393 CharacterOffsetEnd=3394 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=19-3 CharacterOffsetBegin=3395 CharacterOffsetEnd=3399 PartOfSpeech=CD Lemma=19-3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0 - 3.0] [Text=-RRB- CharacterOffsetBegin=3399 CharacterOffsetEnd=3400 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=3401 CharacterOffsetEnd=3404 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Jack CharacterOffsetBegin=3405 CharacterOffsetEnd=3409 PartOfSpeech=NNP Lemma=Jack NamedEntityTag=PERSON] [Text=Connoly CharacterOffsetBegin=3410 CharacterOffsetEnd=3417 PartOfSpeech=NNP Lemma=Connoly NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3418 CharacterOffsetEnd=3419 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=145 CharacterOffsetBegin=3419 CharacterOffsetEnd=3422 PartOfSpeech=CD Lemma=145 NamedEntityTag=NUMBER NormalizedNamedEntityTag=145.0] [Text=, CharacterOffsetBegin=3422 CharacterOffsetEnd=3423 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=5-17 CharacterOffsetBegin=3424 CharacterOffsetEnd=3428 PartOfSpeech=CD Lemma=5-17 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0 - 17.0] [Text=-RRB- CharacterOffsetBegin=3428 CharacterOffsetEnd=3429 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=- CharacterOffsetBegin=3430 CharacterOffsetEnd=3431 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=who CharacterOffsetBegin=3432 CharacterOffsetEnd=3435 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=3436 CharacterOffsetEnd=3440 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=combined CharacterOffsetBegin=3441 CharacterOffsetEnd=3449 PartOfSpeech=VBN Lemma=combine NamedEntityTag=O] [Text=for CharacterOffsetBegin=3450 CharacterOffsetEnd=3453 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=60 CharacterOffsetBegin=3454 CharacterOffsetEnd=3456 PartOfSpeech=CD Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0] [Text=wins CharacterOffsetBegin=3457 CharacterOffsetEnd=3461 PartOfSpeech=NNS Lemma=win NamedEntityTag=O] [Text=. CharacterOffsetBegin=3461 CharacterOffsetEnd=3462 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Hawks))
+    (ADVP (RB also))
+    (VP (VBP have)
+      (NP
+        (NP (CD five) (NNS sophomores))
+        (: -)
+        (NP
+          (NP
+            (NP (NNP Matt) (NNP Shealy))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 106))
+              (, ,)
+              (NP (CD 17-7))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP Cole) (NNP Mihalik))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 113))
+              (, ,)
+              (NP (CD 4-5))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP Ryan) (NNP Erskine))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 132))
+              (, ,)
+              (NP (CD 15-10))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP Sean) (NNP Guthier))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 138))
+              (, ,)
+              (NP (CD 19-3))
+              (-RRB- -RRB-)))
+          (CC and)
+          (NP
+            (NP (NNP Jack) (NNP Connoly))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 145))
+              (, ,)
+              (NP (CD 5-17))
+              (-RRB- -RRB-)))))
+      (: -)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN combined)
+              (PP (IN for)
+                (NP (CD 60) (NNS wins))))))))
+    (. .)))
+
+det(Hawks-2, The-1)
+nsubj(have-4, Hawks-2)
+advmod(have-4, also-3)
+root(ROOT-0, have-4)
+num(sophomores-6, five-5)
+dobj(have-4, sophomores-6)
+nn(Shealy-9, Matt-8)
+dep(sophomores-6, Shealy-9)
+appos(Shealy-9, 106-11)
+dep(106-11, 17-7-13)
+nn(Mihalik-17, Cole-16)
+dep(sophomores-6, Mihalik-17)
+conj_and(Shealy-9, Mihalik-17)
+appos(Mihalik-17, 113-19)
+dep(113-19, 4-5-21)
+nn(Erskine-25, Ryan-24)
+dep(sophomores-6, Erskine-25)
+conj_and(Shealy-9, Erskine-25)
+appos(Erskine-25, 132-27)
+dep(132-27, 15-10-29)
+nn(Guthier-33, Sean-32)
+dep(sophomores-6, Guthier-33)
+conj_and(Shealy-9, Guthier-33)
+appos(Guthier-33, 138-35)
+dep(138-35, 19-3-37)
+nn(Connoly-41, Jack-40)
+dep(sophomores-6, Connoly-41)
+conj_and(Shealy-9, Connoly-41)
+appos(Connoly-41, 145-43)
+dep(145-43, 5-17-45)
+nsubj(combined-50, who-48)
+aux(combined-50, have-49)
+parataxis(have-4, combined-50)
+num(wins-53, 60-52)
+prep_for(combined-50, wins-53)
+
+Sentence #36 (19 tokens):
+"They're all catching up now, ready to wrestle the postseason," Logan Kirby said.
+[Text=`` CharacterOffsetBegin=3468 CharacterOffsetEnd=3469 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=They CharacterOffsetBegin=3469 CharacterOffsetEnd=3473 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text='re CharacterOffsetBegin=3473 CharacterOffsetEnd=3476 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=all CharacterOffsetBegin=3477 CharacterOffsetEnd=3480 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=catching CharacterOffsetBegin=3481 CharacterOffsetEnd=3489 PartOfSpeech=VBG Lemma=catch NamedEntityTag=O] [Text=up CharacterOffsetBegin=3490 CharacterOffsetEnd=3492 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=now CharacterOffsetBegin=3493 CharacterOffsetEnd=3496 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>] [Text=, CharacterOffsetBegin=3496 CharacterOffsetEnd=3497 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=ready CharacterOffsetBegin=3498 CharacterOffsetEnd=3503 PartOfSpeech=JJ Lemma=ready NamedEntityTag=O] [Text=to CharacterOffsetBegin=3504 CharacterOffsetEnd=3506 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wrestle CharacterOffsetBegin=3507 CharacterOffsetEnd=3514 PartOfSpeech=VB Lemma=wrestle NamedEntityTag=O] [Text=the CharacterOffsetBegin=3515 CharacterOffsetEnd=3518 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=postseason CharacterOffsetBegin=3519 CharacterOffsetEnd=3529 PartOfSpeech=NN Lemma=postseason NamedEntityTag=O] [Text=, CharacterOffsetBegin=3529 CharacterOffsetEnd=3530 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=3530 CharacterOffsetEnd=3531 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Logan CharacterOffsetBegin=3532 CharacterOffsetEnd=3537 PartOfSpeech=NNP Lemma=Logan NamedEntityTag=PERSON] [Text=Kirby CharacterOffsetBegin=3538 CharacterOffsetEnd=3543 PartOfSpeech=NNP Lemma=Kirby NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=3544 CharacterOffsetEnd=3548 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=3548 CharacterOffsetEnd=3549 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP They))
+      (VP (VBP 're)
+        (ADVP (DT all))
+        (VP (VBG catching)
+          (PRT (RP up))
+          (ADVP (RB now))
+          (, ,)
+          (S
+            (ADJP (JJ ready)
+              (S
+                (VP (TO to)
+                  (VP (VB wrestle)
+                    (NP (DT the) (NN postseason))))))))))
+    (, ,) ('' '')
+    (NP (NNP Logan) (NNP Kirby))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(catching-5, They-2)
+aux(catching-5, 're-3)
+advmod(catching-5, all-4)
+ccomp(said-18, catching-5)
+prt(catching-5, up-6)
+advmod(catching-5, now-7)
+dep(catching-5, ready-9)
+aux(wrestle-11, to-10)
+xcomp(ready-9, wrestle-11)
+det(postseason-13, the-12)
+dobj(wrestle-11, postseason-13)
+nn(Kirby-17, Logan-16)
+nsubj(said-18, Kirby-17)
+root(ROOT-0, said-18)
+
+Sentence #37 (17 tokens):
+"If everyone does their job, we can't lose" against Glenelg on Tuesday.
+[Text=`` CharacterOffsetBegin=3550 CharacterOffsetEnd=3551 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=If CharacterOffsetBegin=3551 CharacterOffsetEnd=3553 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=everyone CharacterOffsetBegin=3554 CharacterOffsetEnd=3562 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O] [Text=does CharacterOffsetBegin=3563 CharacterOffsetEnd=3567 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=their CharacterOffsetBegin=3568 CharacterOffsetEnd=3573 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=job CharacterOffsetBegin=3574 CharacterOffsetEnd=3577 PartOfSpeech=NN Lemma=job NamedEntityTag=O] [Text=, CharacterOffsetBegin=3577 CharacterOffsetEnd=3578 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=3579 CharacterOffsetEnd=3581 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=ca CharacterOffsetBegin=3582 CharacterOffsetEnd=3584 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=n't CharacterOffsetBegin=3584 CharacterOffsetEnd=3587 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=lose CharacterOffsetBegin=3588 CharacterOffsetEnd=3592 PartOfSpeech=VB Lemma=lose NamedEntityTag=O] [Text='' CharacterOffsetBegin=3592 CharacterOffsetEnd=3593 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=against CharacterOffsetBegin=3594 CharacterOffsetEnd=3601 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Glenelg CharacterOffsetBegin=3602 CharacterOffsetEnd=3609 PartOfSpeech=NNP Lemma=Glenelg NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=3610 CharacterOffsetEnd=3612 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=3613 CharacterOffsetEnd=3620 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=. CharacterOffsetBegin=3620 CharacterOffsetEnd=3621 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (SBAR (IN If)
+      (S
+        (NP (NN everyone))
+        (VP (VBZ does)
+          (NP (PRP$ their) (NN job)))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD ca) (RB n't)
+      (VP (VB lose) ('' '')
+        (PP (IN against)
+          (NP
+            (NP (NNP Glenelg))
+            (PP (IN on)
+              (NP (NNP Tuesday)))))))
+    (. .)))
+
+mark(does-4, If-2)
+nsubj(does-4, everyone-3)
+advcl(lose-11, does-4)
+poss(job-6, their-5)
+dobj(does-4, job-6)
+nsubj(lose-11, we-8)
+aux(lose-11, ca-9)
+neg(lose-11, n't-10)
+root(ROOT-0, lose-11)
+prep_against(lose-11, Glenelg-14)
+prep_on(Glenelg-14, Tuesday-16)
+
+Coreference set:
+	(2,6,[5,8)) -> (1,2,[1,9)), that is: "River Hill 's" -> "River Hill wrestling overpowers Oakdale , 39-28 ."
+	(11,11,[10,12)) -> (1,2,[1,9)), that is: "River Hill" -> "River Hill wrestling overpowers Oakdale , 39-28 ."
+	(21,2,[1,3)) -> (1,2,[1,9)), that is: "River Hill" -> "River Hill wrestling overpowers Oakdale , 39-28 ."
+Coreference set:
+	(4,2,[2,3)) -> (1,4,[4,5)), that is: "We" -> "overpowers"
+	(4,5,[5,6)) -> (1,4,[4,5)), that is: "we" -> "overpowers"
+Coreference set:
+	(1,5,[5,6)) -> (1,5,[5,8)), that is: "Oakdale" -> "Oakdale , 39-28"
+	(8,5,[5,7)) -> (1,5,[5,8)), that is: "Oakdale 's" -> "Oakdale , 39-28"
+	(13,4,[4,5)) -> (1,5,[5,8)), that is: "Oakdale" -> "Oakdale , 39-28"
+Coreference set:
+	(2,1,[1,2)) -> (2,1,[1,10)), that is: "Clarksville" -> "Clarksville , MD - River Hill 's Logan Kirby"
+	(2,18,[18,19)) -> (2,1,[1,10)), that is: "it" -> "Clarksville , MD - River Hill 's Logan Kirby"
+Coreference set:
+	(35,9,[8,15)) -> (35,9,[8,47)), that is: "Matt Shealy -LRB- 106 , 17-7 -RRB-" -> "Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+	(35,17,[16,23)) -> (35,9,[8,47)), that is: "Cole Mihalik -LRB- 113 , 4-5 -RRB-" -> "Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+	(35,25,[24,31)) -> (35,9,[8,47)), that is: "Ryan Erskine -LRB- 132 , 15-10 -RRB-" -> "Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+	(35,33,[32,39)) -> (35,9,[8,47)), that is: "Sean Guthier -LRB- 138 , 19-3 -RRB-" -> "Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+	(35,41,[40,47)) -> (35,9,[8,47)), that is: "Jack Connoly -LRB- 145 , 5-17 -RRB-" -> "Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+Coreference set:
+	(36,2,[2,3)) -> (35,6,[5,47)), that is: "They" -> "five sophomores - Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+	(37,5,[5,6)) -> (35,6,[5,47)), that is: "their" -> "five sophomores - Matt Shealy -LRB- 106 , 17-7 -RRB- , Cole Mihalik -LRB- 113 , 4-5 -RRB- , Ryan Erskine -LRB- 132 , 15-10 -RRB- , Sean Guthier -LRB- 138 , 19-3 -RRB- and Jack Connoly -LRB- 145 , 5-17 -RRB-"
+Coreference set:
+	(4,11,[11,12)) -> (2,9,[5,10)), that is: "I" -> "River Hill 's Logan Kirby"
+	(4,29,[29,35)) -> (2,9,[5,10)), that is: "Kirby , a returning state finalist" -> "River Hill 's Logan Kirby"
+	(4,29,[29,30)) -> (2,9,[5,10)), that is: "Kirby" -> "River Hill 's Logan Kirby"
+	(4,34,[31,35)) -> (2,9,[5,10)), that is: "a returning state finalist" -> "River Hill 's Logan Kirby"
+	(7,9,[9,10)) -> (2,9,[5,10)), that is: "Kirby" -> "River Hill 's Logan Kirby"
+	(8,1,[1,2)) -> (2,9,[5,10)), that is: "He" -> "River Hill 's Logan Kirby"
+	(13,7,[6,8)) -> (2,9,[5,10)), that is: "Logan Kirby" -> "River Hill 's Logan Kirby"
+	(14,2,[2,3)) -> (2,9,[5,10)), that is: "I" -> "River Hill 's Logan Kirby"
+	(14,24,[24,25)) -> (2,9,[5,10)), that is: "Kirby" -> "River Hill 's Logan Kirby"
+	(31,2,[1,4)) -> (2,9,[5,10)), that is: "Logan Kirby 's" -> "River Hill 's Logan Kirby"
+	(36,17,[16,18)) -> (2,9,[5,10)), that is: "Logan Kirby" -> "River Hill 's Logan Kirby"
+Coreference set:
+	(3,8,[8,9)) -> (3,8,[8,16)), that is: "195" -> "195 , 220 and 285 pounds this year"
+	(8,10,[10,11)) -> (3,8,[8,16)), that is: "195" -> "195 , 220 and 285 pounds this year"
+	(31,13,[13,14)) -> (3,8,[8,16)), that is: "195" -> "195 , 220 and 285 pounds this year"
+	(33,4,[4,5)) -> (3,8,[8,16)), that is: "it" -> "195 , 220 and 285 pounds this year"
+	(34,12,[12,13)) -> (3,8,[8,16)), that is: "it" -> "195 , 220 and 285 pounds this year"
+Coreference set:
+	(21,7,[7,8)) -> (3,10,[10,11)), that is: "220" -> "220"
+Coreference set:
+	(4,23,[23,24)) -> (4,19,[19,20)), that is: "it" -> "Glenelg"
+	(5,2,[2,3)) -> (4,19,[19,20)), that is: "It" -> "Glenelg"
+Coreference set:
+	(16,10,[10,11)) -> (4,21,[21,22)), that is: "Tuesday" -> "Tuesday"
+	(22,31,[31,32)) -> (4,21,[21,22)), that is: "Tuesday" -> "Tuesday"
+	(37,16,[16,17)) -> (4,21,[21,22)), that is: "Tuesday" -> "Tuesday"
+Coreference set:
+	(6,1,[1,2)) -> (5,6,[6,7)), that is: "You" -> "you"
+	(6,11,[11,12)) -> (5,6,[6,7)), that is: "you" -> "you"
+Coreference set:
+	(8,23,[22,24)) -> (21,22,[21,24)), that is: "the Hawks" -> "the Hawks '"
+	(16,2,[1,3)) -> (21,22,[21,24)), that is: "The Hawks" -> "the Hawks '"
+	(35,2,[1,3)) -> (21,22,[21,24)), that is: "The Hawks" -> "the Hawks '"
+Coreference set:
+	(9,2,[1,3)) -> (9,8,[1,12)), that is: "Sebastian Ames" -> "Sebastian Ames -LRB- 170 -RRB- , Tyler Smith -LRB- 285 -RRB-"
+Coreference set:
+	(35,43,[43,44)) -> (9,31,[31,32)), that is: "145" -> "145"
+Coreference set:
+	(10,10,[8,11)) -> (10,10,[8,19)), that is: "a good program" -> "a good program , the whole county , top to bottom"
+	(10,14,[12,15)) -> (10,10,[8,19)), that is: "the whole county" -> "a good program , the whole county , top to bottom"
+Coreference set:
+	(12,9,[9,10)) -> (12,5,[5,6)), that is: "they" -> "them"
+	(14,21,[21,22)) -> (12,5,[5,6)), that is: "them" -> "them"
+Coreference set:
+	(19,19,[19,20)) -> (11,14,[10,15)), that is: "Lauer" -> "River Hill coach Brandon Lauer"
+	(27,22,[22,23)) -> (11,14,[10,15)), that is: "Lauer" -> "River Hill coach Brandon Lauer"
+	(33,10,[10,11)) -> (11,14,[10,15)), that is: "Lauer" -> "River Hill coach Brandon Lauer"
+Coreference set:
+	(18,9,[9,10)) -> (13,2,[1,3)), that is: "year" -> "Last year"
+	(18,12,[12,13)) -> (13,2,[1,3)), that is: "year" -> "Last year"
+Coreference set:
+	(14,15,[15,16)) -> (14,10,[10,11)), that is: "you" -> "you"
+	(15,12,[12,13)) -> (14,10,[10,11)), that is: "you" -> "you"
+Coreference set:
+	(14,12,[12,13)) -> (14,7,[5,8)), that is: "that" -> "another good kid"
+Coreference set:
+	(13,13,[9,14)) -> (13,13,[9,16)), that is: "eventual state champion Ryan Simonica" -> "eventual state champion Ryan Simonica , 5-4"
+	(13,13,[12,14)) -> (13,13,[9,16)), that is: "Ryan Simonica" -> "eventual state champion Ryan Simonica , 5-4"
+	(13,15,[15,16)) -> (13,13,[9,16)), that is: "5-4" -> "eventual state champion Ryan Simonica , 5-4"
+Coreference set:
+	(36,7,[7,8)) -> (16,4,[4,5)), that is: "now" -> "now"
+Coreference set:
+	(17,2,[2,3)) -> (18,4,[4,17)), that is: "two" -> "two of the top programs year in and year out going at it"
+	(18,2,[2,3)) -> (18,4,[4,17)), that is: "It" -> "two of the top programs year in and year out going at it"
+	(18,16,[16,17)) -> (18,4,[4,17)), that is: "it" -> "two of the top programs year in and year out going at it"
+	(19,1,[1,2)) -> (18,4,[4,17)), that is: "It" -> "two of the top programs year in and year out going at it"
+	(20,2,[2,3)) -> (18,4,[4,17)), that is: "It" -> "two of the top programs year in and year out going at it"
+Coreference set:
+	(37,14,[14,17)) -> (16,8,[8,11)), that is: "Glenelg on Tuesday" -> "Glenelg on Tuesday"
+Coreference set:
+	(15,9,[9,10)) -> (15,6,[5,7)), that is: "that" -> "good wrestlers"
+Coreference set:
+	(20,11,[11,12)) -> (17,3,[1,4)), that is: "we" -> "The two teams"
+Coreference set:
+	(22,21,[20,22)) -> (17,13,[12,14)), that is: "this season" -> "this season"
+	(27,19,[19,20)) -> (17,13,[12,14)), that is: "season" -> "this season"
+	(31,20,[19,21)) -> (17,13,[12,14)), that is: "this season" -> "this season"
+Coreference set:
+	(21,26,[21,27)) -> (21,5,[1,9)), that is: "the Hawks ' last undefeated wrestler" -> "River Hill senior Cory Daniel -LRB- 220 -RRB-"
+	(22,1,[1,2)) -> (21,5,[1,9)), that is: "His" -> "River Hill senior Cory Daniel -LRB- 220 -RRB-"
+Coreference set:
+	(19,11,[11,12)) -> (19,8,[6,9)), that is: "it" -> "an exciting dual"
+Coreference set:
+	(22,3,[1,12)) -> (22,7,[5,11)), that is: "His younger brother , freshman Brady Daniel -LRB- 160 -RRB- ," -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(22,3,[1,4)) -> (22,7,[5,11)), that is: "His younger brother" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(22,28,[28,29)) -> (22,7,[5,11)), that is: "his" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(23,2,[2,3)) -> (22,7,[5,11)), that is: "He" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(24,1,[1,2)) -> (22,7,[5,11)), that is: "He" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(25,1,[1,2)) -> (22,7,[5,11)), that is: "He" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(26,6,[6,7)) -> (22,7,[5,11)), that is: "him" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(27,9,[9,10)) -> (22,7,[5,11)), that is: "he" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(27,14,[14,15)) -> (22,7,[5,11)), that is: "he" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(28,2,[2,3)) -> (22,7,[5,11)), that is: "He" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(28,17,[17,18)) -> (22,7,[5,11)), that is: "He" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(28,19,[19,20)) -> (22,7,[5,11)), that is: "he" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(29,11,[11,12)) -> (22,7,[5,11)), that is: "he" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(29,16,[16,17)) -> (22,7,[5,11)), that is: "himself" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(29,19,[19,20)) -> (22,7,[5,11)), that is: "himself" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+	(30,3,[3,4)) -> (22,7,[5,11)), that is: "his" -> "freshman Brady Daniel -LRB- 160 -RRB-"
+Coreference set:
+	(28,15,[15,16)) -> (22,9,[9,10)), that is: "160" -> "160"
+Coreference set:
+	(25,5,[4,6)) -> (27,5,[4,9)), that is: "no ceiling" -> "a matter of the commitment"
+	(27,1,[1,2)) -> (27,5,[4,9)), that is: "It" -> "a matter of the commitment"
+Coreference set:
+	(31,5,[1,6)) -> (31,5,[1,16)), that is: "Logan Kirby 's younger brother" -> "Logan Kirby 's younger brother , defending county champion Brian Kirby -LRB- 195 -RRB- ,"
+	(34,6,[6,7)) -> (31,5,[1,16)), that is: "him" -> "Logan Kirby 's younger brother , defending county champion Brian Kirby -LRB- 195 -RRB- ,"
+	(34,9,[9,10)) -> (31,5,[1,16)), that is: "him" -> "Logan Kirby 's younger brother , defending county champion Brian Kirby -LRB- 195 -RRB- ,"
+	(34,22,[22,23)) -> (31,5,[1,16)), that is: "he" -> "Logan Kirby 's younger brother , defending county champion Brian Kirby -LRB- 195 -RRB- ,"
+Coreference set:
+	(30,1,[1,2)) -> (29,6,[4,7)), that is: "That" -> "before high school"
+	(30,4,[3,5)) -> (29,6,[4,7)), that is: "his motivation" -> "before high school"
+Coreference set:
+	(33,7,[7,8)) -> (33,5,[5,6)), that is: "day" -> "day"
+Coreference set:
+	(32,2,[2,3)) -> (31,22,[22,29)), that is: "We" -> "a lingering sprained ankle from football season"
+	(32,7,[7,8)) -> (31,22,[22,29)), that is: "that" -> "a lingering sprained ankle from football season"
+	(33,1,[1,2)) -> (31,22,[22,29)), that is: "We" -> "a lingering sprained ankle from football season"
+	(34,2,[2,3)) -> (31,22,[22,29)), that is: "We" -> "a lingering sprained ankle from football season"
+	(37,8,[8,9)) -> (31,22,[22,29)), that is: "we" -> "a lingering sprained ankle from football season"

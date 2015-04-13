@@ -1,0 +1,1727 @@
+Sentence #1 (32 tokens):
+Japan Ups Military Spending Amid China Dispute 
+
+
+SEOUL - Japan has announced a large defense build-up and national security strategy aimed at countering China's increasingly assertive claims on disputed territory.
+[Text=Japan CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=Ups CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Ups NamedEntityTag=ORGANIZATION] [Text=Military CharacterOffsetBegin=10 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Military NamedEntityTag=ORGANIZATION] [Text=Spending CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=VBG Lemma=spend NamedEntityTag=ORGANIZATION] [Text=Amid CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=amid NamedEntityTag=ORGANIZATION] [Text=China CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=China NamedEntityTag=ORGANIZATION] [Text=Dispute CharacterOffsetBegin=39 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Dispute NamedEntityTag=ORGANIZATION] [Text=SEOUL CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NNP Lemma=SEOUL NamedEntityTag=ORGANIZATION] [Text=- CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=has CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=announced CharacterOffsetBegin=74 CharacterOffsetEnd=83 PartOfSpeech=VBN Lemma=announce NamedEntityTag=O] [Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=large CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=JJ Lemma=large NamedEntityTag=O] [Text=defense CharacterOffsetBegin=92 CharacterOffsetEnd=99 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=build-up CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=NN Lemma=build-up NamedEntityTag=O] [Text=and CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=national CharacterOffsetBegin=113 CharacterOffsetEnd=121 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=security CharacterOffsetBegin=122 CharacterOffsetEnd=130 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=131 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=aimed CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=VBN Lemma=aim NamedEntityTag=O] [Text=at CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=countering CharacterOffsetBegin=149 CharacterOffsetEnd=159 PartOfSpeech=VBG Lemma=counter NamedEntityTag=O] [Text=China CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=increasingly CharacterOffsetBegin=168 CharacterOffsetEnd=180 PartOfSpeech=RB Lemma=increasingly NamedEntityTag=O] [Text=assertive CharacterOffsetBegin=181 CharacterOffsetEnd=190 PartOfSpeech=JJ Lemma=assertive NamedEntityTag=O] [Text=claims CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=NNS Lemma=claim NamedEntityTag=O] [Text=on CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=disputed CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=VBN Lemma=dispute NamedEntityTag=O] [Text=territory CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN Lemma=territory NamedEntityTag=O] [Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Japan) (NNP Ups) (NNP Military))
+      (SBAR
+        (S
+          (S
+            (NP (VBG Spending))
+            (PP (IN Amid)
+              (NP (NNP China) (NNP Dispute) (NNP SEOUL))))
+          (: -)
+          (S
+            (NP (NNP Japan))
+            (VP (VBZ has)
+              (VP (VBN announced)
+                (NP
+                  (NP (DT a) (JJ large) (NN defense) (NN build-up))
+                  (CC and)
+                  (NP (JJ national) (NN security) (NN strategy)))))))))
+    (VP (VBN aimed)
+      (PP (IN at)
+        (S
+          (VP (VBG countering)
+            (NP
+              (NP
+                (NP (NNP China) (POS 's))
+                (ADJP (RB increasingly) (JJ assertive))
+                (NNS claims))
+              (PP (IN on)
+                (NP (VBN disputed) (NN territory))))))))
+    (. .)))
+
+nn(Military-3, Japan-1)
+nn(Military-3, Ups-2)
+nsubj(aimed-21, Military-3)
+rcmod(Military-3, Spending-4)
+dep(Spending-4, Amid-5)
+nn(SEOUL-8, China-6)
+nn(SEOUL-8, Dispute-7)
+pobj(Amid-5, SEOUL-8)
+nsubj(announced-12, Japan-10)
+aux(announced-12, has-11)
+parataxis(Spending-4, announced-12)
+det(build-up-16, a-13)
+amod(build-up-16, large-14)
+nn(build-up-16, defense-15)
+dobj(announced-12, build-up-16)
+amod(strategy-20, national-18)
+nn(strategy-20, security-19)
+dobj(announced-12, strategy-20)
+conj_and(build-up-16, strategy-20)
+root(ROOT-0, aimed-21)
+prepc_at(aimed-21, countering-23)
+poss(claims-28, China-24)
+advmod(assertive-27, increasingly-26)
+amod(claims-28, assertive-27)
+dobj(countering-23, claims-28)
+amod(territory-31, disputed-30)
+prep_on(claims-28, territory-31)
+
+Sentence #2 (35 tokens):
+The plan calls for increased air and maritime capabilities and comes just weeks after Beijing alarmed the region by unilaterally expanding its Air Defense Identification Zone (ADIZ) in the East China Sea.
+[Text=The CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=plan CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=calls CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=VBZ Lemma=call NamedEntityTag=O] [Text=for CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=increased CharacterOffsetBegin=240 CharacterOffsetEnd=249 PartOfSpeech=VBN Lemma=increase NamedEntityTag=O] [Text=air CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=NN Lemma=air NamedEntityTag=O] [Text=and CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=maritime CharacterOffsetBegin=258 CharacterOffsetEnd=266 PartOfSpeech=NN Lemma=maritime NamedEntityTag=O] [Text=capabilities CharacterOffsetBegin=267 CharacterOffsetEnd=279 PartOfSpeech=NNS Lemma=capability NamedEntityTag=O] [Text=and CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=comes CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=just CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=weeks CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=NNS Lemma=week NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="PXW">weeks</TIMEX3>] [Text=after CharacterOffsetBegin=301 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=alarmed CharacterOffsetBegin=315 CharacterOffsetEnd=322 PartOfSpeech=VBD Lemma=alarm NamedEntityTag=O] [Text=the CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=region CharacterOffsetBegin=327 CharacterOffsetEnd=333 PartOfSpeech=NN Lemma=region NamedEntityTag=O] [Text=by CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=unilaterally CharacterOffsetBegin=337 CharacterOffsetEnd=349 PartOfSpeech=RB Lemma=unilaterally NamedEntityTag=O] [Text=expanding CharacterOffsetBegin=350 CharacterOffsetEnd=359 PartOfSpeech=VBG Lemma=expand NamedEntityTag=O] [Text=its CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Air CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=NNP Lemma=Air NamedEntityTag=O] [Text=Defense CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NNP Lemma=Defense NamedEntityTag=O] [Text=Identification CharacterOffsetBegin=376 CharacterOffsetEnd=390 PartOfSpeech=NN Lemma=identification NamedEntityTag=O] [Text=Zone CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=NNP Lemma=Zone NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=ADIZ CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=NNP Lemma=ADIZ NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=in CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=East CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=NNP Lemma=East NamedEntityTag=LOCATION] [Text=China CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=Sea CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=NNP Lemma=Sea NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP (DT The) (NN plan))
+      (VP
+        (VP (VBZ calls)
+          (PP (IN for)
+            (NP
+              (NP (VBN increased) (NN air))
+              (CC and)
+              (NP (NN maritime) (NNS capabilities)))))
+        (CC and)
+        (VP (VBZ comes)
+          (ADVP (RB just))
+          (NP (NNS weeks))
+          (PP (IN after)
+            (NP (NNP Beijing))))))
+    (VP (VBD alarmed)
+      (NP (DT the) (NN region))
+      (PP (IN by)
+        (S
+          (ADVP (RB unilaterally))
+          (VP (VBG expanding)
+            (NP (PRP$ its) (NNP Air) (NNP Defense) (NN Identification))))))
+    (NP
+      (NP (NNP Zone))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP ADIZ))
+        (-RRB- -RRB-)))
+    (PP (IN in)
+      (NP (DT the) (NNP East) (NNP China) (NNP Sea)))
+    (. .)))
+
+det(plan-2, The-1)
+nsubj(calls-3, plan-2)
+nsubj(comes-11, plan-2)
+dep(alarmed-16, calls-3)
+amod(air-6, increased-5)
+prep_for(calls-3, air-6)
+nn(capabilities-9, maritime-8)
+prep_for(calls-3, capabilities-9)
+conj_and(air-6, capabilities-9)
+conj_and(calls-3, comes-11)
+dep(alarmed-16, comes-11)
+advmod(comes-11, just-12)
+tmod(comes-11, weeks-13)
+prep_after(comes-11, Beijing-15)
+root(ROOT-0, alarmed-16)
+det(region-18, the-17)
+dobj(alarmed-16, region-18)
+advmod(expanding-21, unilaterally-20)
+prepc_by(alarmed-16, expanding-21)
+poss(Identification-25, its-22)
+nn(Identification-25, Air-23)
+nn(Identification-25, Defense-24)
+dobj(expanding-21, Identification-25)
+nsubj(alarmed-16, Zone-26)
+appos(Zone-26, ADIZ-28)
+det(Sea-34, the-31)
+nn(Sea-34, East-32)
+nn(Sea-34, China-33)
+prep_in(alarmed-16, Sea-34)
+
+Sentence #3 (29 tokens):
+Japan's Cabinet on Tuesday released details of its first defense spending increase in years, along with a national security plan designed with Chinese aggression in mind.
+[Text=Japan CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Cabinet CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=NNP Lemma=Cabinet NamedEntityTag=O] [Text=on CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=451 CharacterOffsetEnd=458 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=released CharacterOffsetBegin=459 CharacterOffsetEnd=467 PartOfSpeech=VBD Lemma=release NamedEntityTag=O] [Text=details CharacterOffsetBegin=468 CharacterOffsetEnd=475 PartOfSpeech=NNS Lemma=detail NamedEntityTag=O] [Text=of CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=first CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=defense CharacterOffsetBegin=489 CharacterOffsetEnd=496 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=spending CharacterOffsetBegin=497 CharacterOffsetEnd=505 PartOfSpeech=NN Lemma=spending NamedEntityTag=O] [Text=increase CharacterOffsetBegin=506 CharacterOffsetEnd=514 PartOfSpeech=NN Lemma=increase NamedEntityTag=O] [Text=in CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=years CharacterOffsetBegin=518 CharacterOffsetEnd=523 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION Timex=<TIMEX3 tid="t2" type="DURATION" value="PXY">years</TIMEX3>] [Text=, CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=along CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=IN Lemma=along NamedEntityTag=O] [Text=with CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=national CharacterOffsetBegin=538 CharacterOffsetEnd=546 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=security CharacterOffsetBegin=547 CharacterOffsetEnd=555 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=plan CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=designed CharacterOffsetBegin=561 CharacterOffsetEnd=569 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=with CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Chinese CharacterOffsetBegin=575 CharacterOffsetEnd=582 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC] [Text=aggression CharacterOffsetBegin=583 CharacterOffsetEnd=593 PartOfSpeech=NN Lemma=aggression NamedEntityTag=O] [Text=in CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=mind CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=NN Lemma=mind NamedEntityTag=O] [Text=. CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Japan) (POS 's))
+        (NNP Cabinet))
+      (PP (IN on)
+        (NP (NNP Tuesday))))
+    (VP (VBD released)
+      (NP
+        (NP (NNS details))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ its) (JJ first) (NN defense) (NN spending) (NN increase))
+            (PP (IN in)
+              (NP (NNS years)))
+            (, ,)
+            (ADVP (IN along)
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (JJ national) (NN security) (NN plan))
+                  (VP (VBN designed)
+                    (PP (IN with)
+                      (NP
+                        (NP (JJ Chinese) (NN aggression))
+                        (PP (IN in)
+                          (NP (NN mind)))))))))))))
+    (. .)))
+
+poss(Cabinet-3, Japan-1)
+nsubj(released-6, Cabinet-3)
+prep_on(Cabinet-3, Tuesday-5)
+root(ROOT-0, released-6)
+dobj(released-6, details-7)
+poss(increase-13, its-9)
+amod(increase-13, first-10)
+nn(increase-13, defense-11)
+nn(increase-13, spending-12)
+prep_of(details-7, increase-13)
+prep_in(increase-13, years-15)
+det(plan-22, a-19)
+amod(plan-22, national-20)
+nn(plan-22, security-21)
+prep_along_with(increase-13, plan-22)
+partmod(plan-22, designed-23)
+amod(aggression-26, Chinese-25)
+prep_with(designed-23, aggression-26)
+prep_in(aggression-26, mind-28)
+
+Sentence #4 (28 tokens):
+The five-year budget earmarks more than $230 billion for fighter jets, combat and amphibious vehicles, as well as surveillance drones and early warning aircraft.
+[Text=The CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=five-year CharacterOffsetBegin=613 CharacterOffsetEnd=622 PartOfSpeech=JJ Lemma=five-year NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="P5Y">five-year</TIMEX3>] [Text=budget CharacterOffsetBegin=623 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=budget NamedEntityTag=O] [Text=earmarks CharacterOffsetBegin=630 CharacterOffsetEnd=638 PartOfSpeech=NNS Lemma=earmark NamedEntityTag=O] [Text=more CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=$ CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=>$2.3E11] [Text=230 CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=CD Lemma=230 NamedEntityTag=MONEY NormalizedNamedEntityTag=>$2.3E11] [Text=billion CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=>$2.3E11] [Text=for CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=fighter CharacterOffsetBegin=666 CharacterOffsetEnd=673 PartOfSpeech=NN Lemma=fighter NamedEntityTag=O] [Text=jets CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=NNS Lemma=jet NamedEntityTag=O] [Text=, CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=combat CharacterOffsetBegin=680 CharacterOffsetEnd=686 PartOfSpeech=NN Lemma=combat NamedEntityTag=O] [Text=and CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=amphibious CharacterOffsetBegin=691 CharacterOffsetEnd=701 PartOfSpeech=JJ Lemma=amphibious NamedEntityTag=O] [Text=vehicles CharacterOffsetBegin=702 CharacterOffsetEnd=710 PartOfSpeech=NNS Lemma=vehicle NamedEntityTag=O] [Text=, CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=712 CharacterOffsetEnd=714 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=surveillance CharacterOffsetBegin=723 CharacterOffsetEnd=735 PartOfSpeech=NN Lemma=surveillance NamedEntityTag=O] [Text=drones CharacterOffsetBegin=736 CharacterOffsetEnd=742 PartOfSpeech=NNS Lemma=drone NamedEntityTag=O] [Text=and CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=early CharacterOffsetBegin=747 CharacterOffsetEnd=752 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=warning CharacterOffsetBegin=753 CharacterOffsetEnd=760 PartOfSpeech=NN Lemma=warning NamedEntityTag=O] [Text=aircraft CharacterOffsetBegin=761 CharacterOffsetEnd=769 PartOfSpeech=NN Lemma=aircraft NamedEntityTag=O] [Text=. CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (DT The) (JJ five-year) (NN budget) (NNS earmarks))
+    (NP
+      (NP
+        (QP (RBR more) (IN than) ($ $) (CD 230) (CD billion)))
+      (PP (IN for)
+        (NP
+          (NP
+            (NP (NN fighter) (NNS jets))
+            (, ,)
+            (NP (NN combat))
+            (CC and)
+            (NP (JJ amphibious) (NNS vehicles)))
+          (, ,)
+          (CONJP (RB as) (RB well) (IN as))
+          (NP
+            (NP (NN surveillance) (NNS drones))
+            (CC and)
+            (NP (JJ early) (NN warning) (NN aircraft))))))
+    (. .)))
+
+det(earmarks-4, The-1)
+amod(earmarks-4, five-year-2)
+nn(earmarks-4, budget-3)
+root(ROOT-0, earmarks-4)
+quantmod($-7, more-5)
+quantmod($-7, than-6)
+dep(earmarks-4, $-7)
+number($-7, 230-8)
+number($-7, billion-9)
+nn(jets-12, fighter-11)
+prep_for($-7, jets-12)
+prep_for($-7, combat-14)
+conj_and(jets-12, combat-14)
+amod(vehicles-17, amphibious-16)
+prep_for($-7, vehicles-17)
+conj_and(jets-12, vehicles-17)
+nn(drones-23, surveillance-22)
+prep_for($-7, drones-23)
+conj_and(jets-12, drones-23)
+amod(aircraft-27, early-25)
+nn(aircraft-27, warning-26)
+conj_and(jets-12, aircraft-27)
+conj_and(drones-23, aircraft-27)
+
+Sentence #5 (21 tokens):
+The national security strategy is Japan's first since it formed a U.S.-style National Security Council to streamline defense policy.
+[Text=The CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=national CharacterOffsetBegin=781 CharacterOffsetEnd=789 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=security CharacterOffsetBegin=790 CharacterOffsetEnd=798 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=799 CharacterOffsetEnd=807 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=is CharacterOffsetBegin=808 CharacterOffsetEnd=810 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=811 CharacterOffsetEnd=816 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=816 CharacterOffsetEnd=818 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=first CharacterOffsetBegin=819 CharacterOffsetEnd=824 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=since CharacterOffsetBegin=825 CharacterOffsetEnd=830 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=it CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=formed CharacterOffsetBegin=834 CharacterOffsetEnd=840 PartOfSpeech=VBD Lemma=form NamedEntityTag=O] [Text=a CharacterOffsetBegin=841 CharacterOffsetEnd=842 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=U.S.-style CharacterOffsetBegin=843 CharacterOffsetEnd=853 PartOfSpeech=JJ Lemma=u.s.-style NamedEntityTag=ORGANIZATION] [Text=National CharacterOffsetBegin=854 CharacterOffsetEnd=862 PartOfSpeech=NNP Lemma=National NamedEntityTag=ORGANIZATION] [Text=Security CharacterOffsetBegin=863 CharacterOffsetEnd=871 PartOfSpeech=NNP Lemma=Security NamedEntityTag=ORGANIZATION] [Text=Council CharacterOffsetBegin=872 CharacterOffsetEnd=879 PartOfSpeech=NNP Lemma=Council NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=880 CharacterOffsetEnd=882 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=streamline CharacterOffsetBegin=883 CharacterOffsetEnd=893 PartOfSpeech=VB Lemma=streamline NamedEntityTag=O] [Text=defense CharacterOffsetBegin=894 CharacterOffsetEnd=901 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=policy CharacterOffsetBegin=902 CharacterOffsetEnd=908 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=908 CharacterOffsetEnd=909 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ national) (NN security) (NN strategy))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Japan) (POS 's))
+        (JJ first))
+      (SBAR (IN since)
+        (S
+          (NP (PRP it))
+          (VP (VBD formed)
+            (S
+              (NP (DT a) (JJ U.S.-style) (NNP National) (NNP Security) (NNP Council))
+              (VP (TO to)
+                (VP (VB streamline)
+                  (NP (NN defense) (NN policy)))))))))
+    (. .)))
+
+det(strategy-4, The-1)
+amod(strategy-4, national-2)
+nn(strategy-4, security-3)
+nsubj(Japan-6, strategy-4)
+cop(Japan-6, is-5)
+root(ROOT-0, Japan-6)
+possessive(Japan-6, 's-7)
+amod(Japan-6, first-8)
+mark(formed-11, since-9)
+nsubj(formed-11, it-10)
+advcl(Japan-6, formed-11)
+det(Council-16, a-12)
+amod(Council-16, U.S.-style-13)
+nn(Council-16, National-14)
+nn(Council-16, Security-15)
+nsubj(streamline-18, Council-16)
+aux(streamline-18, to-17)
+xcomp(formed-11, streamline-18)
+nn(policy-20, defense-19)
+dobj(streamline-18, policy-20)
+
+Sentence #6 (41 tokens):
+(File) This photo from Oct. 13, 2011, shows Japanese Maritime Self-Defense Force plane flying over the disputed islets known as the Senkaku islands in Japan and Diaoyu islands in China, in the East China Sea.
+[Text=-LRB- CharacterOffsetBegin=921 CharacterOffsetEnd=922 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=File CharacterOffsetBegin=922 CharacterOffsetEnd=926 PartOfSpeech=NN Lemma=file NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=926 CharacterOffsetEnd=927 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=This CharacterOffsetBegin=928 CharacterOffsetEnd=932 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=photo CharacterOffsetBegin=933 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=photo NamedEntityTag=O] [Text=from CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Oct. CharacterOffsetBegin=944 CharacterOffsetEnd=948 PartOfSpeech=NNP Lemma=Oct. NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-13 Timex=<TIMEX3 tid="t1" type="DATE" value="2011-10-13">Oct. 13, 2011</TIMEX3>] [Text=13 CharacterOffsetBegin=949 CharacterOffsetEnd=951 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-13 Timex=<TIMEX3 tid="t1" type="DATE" value="2011-10-13">Oct. 13, 2011</TIMEX3>] [Text=, CharacterOffsetBegin=951 CharacterOffsetEnd=952 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-13 Timex=<TIMEX3 tid="t1" type="DATE" value="2011-10-13">Oct. 13, 2011</TIMEX3>] [Text=2011 CharacterOffsetBegin=953 CharacterOffsetEnd=957 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-13 Timex=<TIMEX3 tid="t1" type="DATE" value="2011-10-13">Oct. 13, 2011</TIMEX3>] [Text=, CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=shows CharacterOffsetBegin=959 CharacterOffsetEnd=964 PartOfSpeech=VBZ Lemma=show NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=965 CharacterOffsetEnd=973 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=ORGANIZATION] [Text=Maritime CharacterOffsetBegin=974 CharacterOffsetEnd=982 PartOfSpeech=NNP Lemma=Maritime NamedEntityTag=ORGANIZATION] [Text=Self-Defense CharacterOffsetBegin=983 CharacterOffsetEnd=995 PartOfSpeech=NNP Lemma=Self-Defense NamedEntityTag=ORGANIZATION] [Text=Force CharacterOffsetBegin=996 CharacterOffsetEnd=1001 PartOfSpeech=NNP Lemma=Force NamedEntityTag=ORGANIZATION] [Text=plane CharacterOffsetBegin=1002 CharacterOffsetEnd=1007 PartOfSpeech=NN Lemma=plane NamedEntityTag=O] [Text=flying CharacterOffsetBegin=1008 CharacterOffsetEnd=1014 PartOfSpeech=VBG Lemma=fly NamedEntityTag=O] [Text=over CharacterOffsetBegin=1015 CharacterOffsetEnd=1019 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=1020 CharacterOffsetEnd=1023 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=disputed CharacterOffsetBegin=1024 CharacterOffsetEnd=1032 PartOfSpeech=VBN Lemma=dispute NamedEntityTag=O] [Text=islets CharacterOffsetBegin=1033 CharacterOffsetEnd=1039 PartOfSpeech=NNS Lemma=islet NamedEntityTag=O] [Text=known CharacterOffsetBegin=1040 CharacterOffsetEnd=1045 PartOfSpeech=VBN Lemma=know NamedEntityTag=O] [Text=as CharacterOffsetBegin=1046 CharacterOffsetEnd=1048 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=1049 CharacterOffsetEnd=1052 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Senkaku CharacterOffsetBegin=1053 CharacterOffsetEnd=1060 PartOfSpeech=NNP Lemma=Senkaku NamedEntityTag=MISC] [Text=islands CharacterOffsetBegin=1061 CharacterOffsetEnd=1068 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=in CharacterOffsetBegin=1069 CharacterOffsetEnd=1071 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1072 CharacterOffsetEnd=1077 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=1078 CharacterOffsetEnd=1081 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Diaoyu CharacterOffsetBegin=1082 CharacterOffsetEnd=1088 PartOfSpeech=NNP Lemma=Diaoyu NamedEntityTag=PERSON] [Text=islands CharacterOffsetBegin=1089 CharacterOffsetEnd=1096 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=in CharacterOffsetBegin=1097 CharacterOffsetEnd=1099 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=China CharacterOffsetBegin=1100 CharacterOffsetEnd=1105 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1105 CharacterOffsetEnd=1106 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in CharacterOffsetBegin=1107 CharacterOffsetEnd=1109 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1110 CharacterOffsetEnd=1113 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=East CharacterOffsetBegin=1114 CharacterOffsetEnd=1118 PartOfSpeech=NNP Lemma=East NamedEntityTag=LOCATION] [Text=China CharacterOffsetBegin=1119 CharacterOffsetEnd=1124 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=Sea CharacterOffsetBegin=1125 CharacterOffsetEnd=1128 PartOfSpeech=NNP Lemma=Sea NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1128 CharacterOffsetEnd=1129 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NN File) (-RRB- -RRB-))
+      (SBAR
+        (S
+          (NP
+            (NP (DT This) (NN photo))
+            (PP (IN from)
+              (NP (NNP Oct.) (CD 13) (, ,) (CD 2011) (, ,))))
+          (VP (VBZ shows)
+            (NP
+              (NP (JJ Japanese) (NNP Maritime) (NNP Self-Defense) (NNP Force) (NN plane))
+              (VP (VBG flying)
+                (PP (IN over)
+                  (NP (DT the) (VBN disputed) (NNS islets)))))))))
+    (VP (VBN known)
+      (PP (IN as)
+        (NP
+          (NP (DT the) (NNP Senkaku) (NNS islands))
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (NNP Japan)
+                  (CC and)
+                  (NNP Diaoyu))
+                (NNS islands))
+              (PP (IN in)
+                (NP (NNP China)))))))
+      (, ,)
+      (PP (IN in)
+        (NP (DT the) (NNP East) (NNP China) (NNP Sea))))
+    (. .)))
+
+nsubj(known-23, File-2)
+det(photo-5, This-4)
+nsubj(shows-12, photo-5)
+prep_from(photo-5, Oct.-7)
+num(Oct.-7, 13-8)
+num(Oct.-7, 2011-10)
+rcmod(File-2, shows-12)
+amod(plane-17, Japanese-13)
+nn(plane-17, Maritime-14)
+nn(plane-17, Self-Defense-15)
+nn(plane-17, Force-16)
+dobj(shows-12, plane-17)
+partmod(plane-17, flying-18)
+det(islets-22, the-20)
+amod(islets-22, disputed-21)
+prep_over(flying-18, islets-22)
+root(ROOT-0, known-23)
+det(islands-27, the-25)
+nn(islands-27, Senkaku-26)
+prep_as(known-23, islands-27)
+nn(islands-32, Japan-29)
+conj_and(Japan-29, Diaoyu-31)
+nn(islands-32, Diaoyu-31)
+prep_in(islands-27, islands-32)
+prep_in(islands-32, China-34)
+det(Sea-40, the-37)
+nn(Sea-40, East-38)
+nn(Sea-40, China-39)
+prep_in(known-23, Sea-40)
+
+Sentence #7 (28 tokens):
+It centers on Japan's southwest where Beijing is increasingly aggressive in a dispute over ownership of the Japan-administered Senkaku islands, known as Diaoyu in China.
+[Text=It CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=centers CharacterOffsetBegin=1136 CharacterOffsetEnd=1143 PartOfSpeech=VBZ Lemma=center NamedEntityTag=O] [Text=on CharacterOffsetBegin=1144 CharacterOffsetEnd=1146 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1147 CharacterOffsetEnd=1152 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1152 CharacterOffsetEnd=1154 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=southwest CharacterOffsetBegin=1155 CharacterOffsetEnd=1164 PartOfSpeech=NN Lemma=southwest NamedEntityTag=O] [Text=where CharacterOffsetBegin=1165 CharacterOffsetEnd=1170 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=1171 CharacterOffsetEnd=1178 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=1179 CharacterOffsetEnd=1181 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=increasingly CharacterOffsetBegin=1182 CharacterOffsetEnd=1194 PartOfSpeech=RB Lemma=increasingly NamedEntityTag=O] [Text=aggressive CharacterOffsetBegin=1195 CharacterOffsetEnd=1205 PartOfSpeech=JJ Lemma=aggressive NamedEntityTag=O] [Text=in CharacterOffsetBegin=1206 CharacterOffsetEnd=1208 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1209 CharacterOffsetEnd=1210 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=dispute CharacterOffsetBegin=1211 CharacterOffsetEnd=1218 PartOfSpeech=NN Lemma=dispute NamedEntityTag=O] [Text=over CharacterOffsetBegin=1219 CharacterOffsetEnd=1223 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=ownership CharacterOffsetBegin=1224 CharacterOffsetEnd=1233 PartOfSpeech=NN Lemma=ownership NamedEntityTag=O] [Text=of CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1237 CharacterOffsetEnd=1240 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Japan-administered CharacterOffsetBegin=1241 CharacterOffsetEnd=1259 PartOfSpeech=JJ Lemma=japan-administered NamedEntityTag=MISC] [Text=Senkaku CharacterOffsetBegin=1260 CharacterOffsetEnd=1267 PartOfSpeech=NNP Lemma=Senkaku NamedEntityTag=MISC] [Text=islands CharacterOffsetBegin=1268 CharacterOffsetEnd=1275 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=, CharacterOffsetBegin=1275 CharacterOffsetEnd=1276 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=known CharacterOffsetBegin=1277 CharacterOffsetEnd=1282 PartOfSpeech=VBN Lemma=know NamedEntityTag=O] [Text=as CharacterOffsetBegin=1283 CharacterOffsetEnd=1285 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Diaoyu CharacterOffsetBegin=1286 CharacterOffsetEnd=1292 PartOfSpeech=NNP Lemma=Diaoyu NamedEntityTag=O] [Text=in CharacterOffsetBegin=1293 CharacterOffsetEnd=1295 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=China CharacterOffsetBegin=1296 CharacterOffsetEnd=1301 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1301 CharacterOffsetEnd=1302 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ centers)
+      (PP (IN on)
+        (NP
+          (NP (NNP Japan) (POS 's))
+          (NN southwest)))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (NNP Beijing))
+          (VP (VBZ is)
+            (ADJP (RB increasingly) (JJ aggressive)
+              (PP (IN in)
+                (NP
+                  (NP (DT a) (NN dispute))
+                  (PP (IN over)
+                    (NP
+                      (NP (NN ownership))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (JJ Japan-administered) (NNP Senkaku) (NNS islands))
+                          (, ,)
+                          (VP (VBN known)
+                            (PP (IN as)
+                              (NP (NNP Diaoyu)))
+                            (PP (IN in)
+                              (NP (NNP China)))))))))))))))
+    (. .)))
+
+nsubj(centers-2, It-1)
+root(ROOT-0, centers-2)
+poss(southwest-6, Japan-4)
+prep_on(centers-2, southwest-6)
+advmod(aggressive-11, where-7)
+nsubj(aggressive-11, Beijing-8)
+cop(aggressive-11, is-9)
+advmod(aggressive-11, increasingly-10)
+advcl(centers-2, aggressive-11)
+det(dispute-14, a-13)
+prep_in(aggressive-11, dispute-14)
+prep_over(dispute-14, ownership-16)
+det(islands-21, the-18)
+amod(islands-21, Japan-administered-19)
+nn(islands-21, Senkaku-20)
+prep_of(ownership-16, islands-21)
+partmod(islands-21, known-23)
+prep_as(known-23, Diaoyu-25)
+prep_in(known-23, China-27)
+
+Sentence #8 (20 tokens):
+The security policy underscores expanding the capabilities of Japan's Self Defense Forces in the face of Chinese intrusions.
+[Text=The CharacterOffsetBegin=1309 CharacterOffsetEnd=1312 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=security CharacterOffsetBegin=1313 CharacterOffsetEnd=1321 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1322 CharacterOffsetEnd=1328 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=underscores CharacterOffsetBegin=1329 CharacterOffsetEnd=1340 PartOfSpeech=VBZ Lemma=underscore NamedEntityTag=O] [Text=expanding CharacterOffsetBegin=1341 CharacterOffsetEnd=1350 PartOfSpeech=VBG Lemma=expand NamedEntityTag=O] [Text=the CharacterOffsetBegin=1351 CharacterOffsetEnd=1354 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=capabilities CharacterOffsetBegin=1355 CharacterOffsetEnd=1367 PartOfSpeech=NNS Lemma=capability NamedEntityTag=O] [Text=of CharacterOffsetBegin=1368 CharacterOffsetEnd=1370 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1371 CharacterOffsetEnd=1376 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1376 CharacterOffsetEnd=1378 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Self CharacterOffsetBegin=1379 CharacterOffsetEnd=1383 PartOfSpeech=NN Lemma=self NamedEntityTag=O] [Text=Defense CharacterOffsetBegin=1384 CharacterOffsetEnd=1391 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=Forces CharacterOffsetBegin=1392 CharacterOffsetEnd=1398 PartOfSpeech=NNS Lemma=force NamedEntityTag=O] [Text=in CharacterOffsetBegin=1399 CharacterOffsetEnd=1401 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1402 CharacterOffsetEnd=1405 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=face CharacterOffsetBegin=1406 CharacterOffsetEnd=1410 PartOfSpeech=NN Lemma=face NamedEntityTag=O] [Text=of CharacterOffsetBegin=1411 CharacterOffsetEnd=1413 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Chinese CharacterOffsetBegin=1414 CharacterOffsetEnd=1421 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC] [Text=intrusions CharacterOffsetBegin=1422 CharacterOffsetEnd=1432 PartOfSpeech=NNS Lemma=intrusion NamedEntityTag=O] [Text=. CharacterOffsetBegin=1432 CharacterOffsetEnd=1433 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN security) (NN policy))
+    (VP (VBZ underscores)
+      (S
+        (VP (VBG expanding)
+          (NP
+            (NP (DT the) (NNS capabilities))
+            (PP (IN of)
+              (NP
+                (NP (NNP Japan) (POS 's))
+                (NN Self) (NN Defense) (NNS Forces))))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN face))
+              (PP (IN of)
+                (NP (JJ Chinese) (NNS intrusions))))))))
+    (. .)))
+
+det(policy-3, The-1)
+nn(policy-3, security-2)
+nsubj(underscores-4, policy-3)
+root(ROOT-0, underscores-4)
+xcomp(underscores-4, expanding-5)
+det(capabilities-7, the-6)
+dobj(expanding-5, capabilities-7)
+poss(Forces-13, Japan-9)
+nn(Forces-13, Self-11)
+nn(Forces-13, Defense-12)
+prep_of(capabilities-7, Forces-13)
+det(face-16, the-15)
+prep_in(expanding-5, face-16)
+amod(intrusions-19, Chinese-18)
+prep_of(face-16, intrusions-19)
+
+Sentence #9 (19 tokens):
+Prime Minister Shinzo Abe has championed re-defining Japan's pacifist military and spoke to journalists after the announcement.
+[Text=Prime CharacterOffsetBegin=1434 CharacterOffsetEnd=1439 PartOfSpeech=NNP Lemma=Prime NamedEntityTag=O] [Text=Minister CharacterOffsetBegin=1440 CharacterOffsetEnd=1448 PartOfSpeech=NNP Lemma=Minister NamedEntityTag=O] [Text=Shinzo CharacterOffsetBegin=1449 CharacterOffsetEnd=1455 PartOfSpeech=NNP Lemma=Shinzo NamedEntityTag=PERSON] [Text=Abe CharacterOffsetBegin=1456 CharacterOffsetEnd=1459 PartOfSpeech=NNP Lemma=Abe NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=1460 CharacterOffsetEnd=1463 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=championed CharacterOffsetBegin=1464 CharacterOffsetEnd=1474 PartOfSpeech=VBN Lemma=champion NamedEntityTag=O] [Text=re-defining CharacterOffsetBegin=1475 CharacterOffsetEnd=1486 PartOfSpeech=JJ Lemma=re-defining NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1487 CharacterOffsetEnd=1492 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1492 CharacterOffsetEnd=1494 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=pacifist CharacterOffsetBegin=1495 CharacterOffsetEnd=1503 PartOfSpeech=NN Lemma=pacifist NamedEntityTag=O] [Text=military CharacterOffsetBegin=1504 CharacterOffsetEnd=1512 PartOfSpeech=NN Lemma=military NamedEntityTag=O] [Text=and CharacterOffsetBegin=1513 CharacterOffsetEnd=1516 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=spoke CharacterOffsetBegin=1517 CharacterOffsetEnd=1522 PartOfSpeech=VBD Lemma=speak NamedEntityTag=O] [Text=to CharacterOffsetBegin=1523 CharacterOffsetEnd=1525 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=journalists CharacterOffsetBegin=1526 CharacterOffsetEnd=1537 PartOfSpeech=NNS Lemma=journalist NamedEntityTag=O] [Text=after CharacterOffsetBegin=1538 CharacterOffsetEnd=1543 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=the CharacterOffsetBegin=1544 CharacterOffsetEnd=1547 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=announcement CharacterOffsetBegin=1548 CharacterOffsetEnd=1560 PartOfSpeech=NN Lemma=announcement NamedEntityTag=O] [Text=. CharacterOffsetBegin=1560 CharacterOffsetEnd=1561 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Prime) (NNP Minister) (NNP Shinzo) (NNP Abe))
+    (VP
+      (VP (VBZ has)
+        (VP (VBN championed)
+          (NP
+            (NP (JJ re-defining) (NNP Japan) (POS 's))
+            (NN pacifist) (NN military))))
+      (CC and)
+      (VP (VBD spoke)
+        (PP (TO to)
+          (NP (NNS journalists)))
+        (PP (IN after)
+          (NP (DT the) (NN announcement)))))
+    (. .)))
+
+nn(Abe-4, Prime-1)
+nn(Abe-4, Minister-2)
+nn(Abe-4, Shinzo-3)
+nsubj(championed-6, Abe-4)
+nsubj(spoke-13, Abe-4)
+aux(championed-6, has-5)
+root(ROOT-0, championed-6)
+amod(Japan-8, re-defining-7)
+poss(military-11, Japan-8)
+nn(military-11, pacifist-10)
+dobj(championed-6, military-11)
+conj_and(championed-6, spoke-13)
+prep_to(spoke-13, journalists-15)
+det(announcement-18, the-17)
+prep_after(spoke-13, announcement-18)
+
+Sentence #10 (30 tokens):
+He says the National Security Strategy shows Japan's diplomatic and security policy to the Japanese people, as well as the international community, with clarity and transparency.
+[Text=He CharacterOffsetBegin=1568 CharacterOffsetEnd=1570 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=1571 CharacterOffsetEnd=1575 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=1576 CharacterOffsetEnd=1579 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=National CharacterOffsetBegin=1580 CharacterOffsetEnd=1588 PartOfSpeech=NNP Lemma=National NamedEntityTag=ORGANIZATION] [Text=Security CharacterOffsetBegin=1589 CharacterOffsetEnd=1597 PartOfSpeech=NNP Lemma=Security NamedEntityTag=ORGANIZATION] [Text=Strategy CharacterOffsetBegin=1598 CharacterOffsetEnd=1606 PartOfSpeech=NNP Lemma=Strategy NamedEntityTag=ORGANIZATION] [Text=shows CharacterOffsetBegin=1607 CharacterOffsetEnd=1612 PartOfSpeech=VBZ Lemma=show NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1613 CharacterOffsetEnd=1618 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1618 CharacterOffsetEnd=1620 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=diplomatic CharacterOffsetBegin=1621 CharacterOffsetEnd=1631 PartOfSpeech=JJ Lemma=diplomatic NamedEntityTag=O] [Text=and CharacterOffsetBegin=1632 CharacterOffsetEnd=1635 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=security CharacterOffsetBegin=1636 CharacterOffsetEnd=1644 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1645 CharacterOffsetEnd=1651 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=to CharacterOffsetBegin=1652 CharacterOffsetEnd=1654 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1655 CharacterOffsetEnd=1658 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=1659 CharacterOffsetEnd=1667 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=people CharacterOffsetBegin=1668 CharacterOffsetEnd=1674 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=, CharacterOffsetBegin=1674 CharacterOffsetEnd=1675 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=1676 CharacterOffsetEnd=1678 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=1679 CharacterOffsetEnd=1683 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=1684 CharacterOffsetEnd=1686 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=1687 CharacterOffsetEnd=1690 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=international CharacterOffsetBegin=1691 CharacterOffsetEnd=1704 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=community CharacterOffsetBegin=1705 CharacterOffsetEnd=1714 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=, CharacterOffsetBegin=1714 CharacterOffsetEnd=1715 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=1716 CharacterOffsetEnd=1720 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=clarity CharacterOffsetBegin=1721 CharacterOffsetEnd=1728 PartOfSpeech=NN Lemma=clarity NamedEntityTag=O] [Text=and CharacterOffsetBegin=1729 CharacterOffsetEnd=1732 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=transparency CharacterOffsetBegin=1733 CharacterOffsetEnd=1745 PartOfSpeech=NN Lemma=transparency NamedEntityTag=O] [Text=. CharacterOffsetBegin=1745 CharacterOffsetEnd=1746 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT the) (NNP National) (NNP Security) (NNP Strategy))
+          (VP (VBZ shows)
+            (NP
+              (NP
+                (NP
+                  (NP (NNP Japan) (POS 's))
+                  (JJ diplomatic))
+                (CC and)
+                (NP
+                  (NP (NN security) (NN policy))
+                  (PP (TO to)
+                    (NP (DT the) (JJ Japanese) (NNS people)))))
+              (, ,)
+              (CONJP (RB as) (RB well) (IN as))
+              (NP (DT the) (JJ international) (NN community)))
+            (, ,)
+            (PP (IN with)
+              (NP (NN clarity)
+                (CC and)
+                (NN transparency)))))))
+    (. .)))
+
+nsubj(says-2, He-1)
+root(ROOT-0, says-2)
+det(Strategy-6, the-3)
+nn(Strategy-6, National-4)
+nn(Strategy-6, Security-5)
+nsubj(shows-7, Strategy-6)
+ccomp(says-2, shows-7)
+dobj(shows-7, Japan-8)
+possessive(Japan-8, 's-9)
+amod(Japan-8, diplomatic-10)
+nn(policy-13, security-12)
+dobj(shows-7, policy-13)
+conj_and(Japan-8, policy-13)
+det(people-17, the-15)
+amod(people-17, Japanese-16)
+prep_to(policy-13, people-17)
+det(community-24, the-22)
+amod(community-24, international-23)
+dobj(shows-7, community-24)
+conj_and(Japan-8, community-24)
+prep_with(shows-7, clarity-27)
+prep_with(shows-7, transparency-29)
+conj_and(clarity-27, transparency-29)
+
+Sentence #11 (30 tokens):
+He says through international cooperation and their "proactive" peace policy, Japan will continue efforts to make even more of a contribution to international peace and stability.
+[Text=He CharacterOffsetBegin=1747 CharacterOffsetEnd=1749 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=1750 CharacterOffsetEnd=1754 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=through CharacterOffsetBegin=1755 CharacterOffsetEnd=1762 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=international CharacterOffsetBegin=1763 CharacterOffsetEnd=1776 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=cooperation CharacterOffsetBegin=1777 CharacterOffsetEnd=1788 PartOfSpeech=NN Lemma=cooperation NamedEntityTag=O] [Text=and CharacterOffsetBegin=1789 CharacterOffsetEnd=1792 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=their CharacterOffsetBegin=1793 CharacterOffsetEnd=1798 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1799 CharacterOffsetEnd=1800 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=proactive CharacterOffsetBegin=1800 CharacterOffsetEnd=1809 PartOfSpeech=JJ Lemma=proactive NamedEntityTag=O] [Text='' CharacterOffsetBegin=1809 CharacterOffsetEnd=1810 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=peace CharacterOffsetBegin=1811 CharacterOffsetEnd=1816 PartOfSpeech=NN Lemma=peace NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1817 CharacterOffsetEnd=1823 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=, CharacterOffsetBegin=1823 CharacterOffsetEnd=1824 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1825 CharacterOffsetEnd=1830 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=will CharacterOffsetBegin=1831 CharacterOffsetEnd=1835 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=continue CharacterOffsetBegin=1836 CharacterOffsetEnd=1844 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=efforts CharacterOffsetBegin=1845 CharacterOffsetEnd=1852 PartOfSpeech=NNS Lemma=effort NamedEntityTag=O] [Text=to CharacterOffsetBegin=1853 CharacterOffsetEnd=1855 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=1856 CharacterOffsetEnd=1860 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=even CharacterOffsetBegin=1861 CharacterOffsetEnd=1865 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=more CharacterOffsetBegin=1866 CharacterOffsetEnd=1870 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=of CharacterOffsetBegin=1871 CharacterOffsetEnd=1873 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1874 CharacterOffsetEnd=1875 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=contribution CharacterOffsetBegin=1876 CharacterOffsetEnd=1888 PartOfSpeech=NN Lemma=contribution NamedEntityTag=O] [Text=to CharacterOffsetBegin=1889 CharacterOffsetEnd=1891 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=international CharacterOffsetBegin=1892 CharacterOffsetEnd=1905 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=peace CharacterOffsetBegin=1906 CharacterOffsetEnd=1911 PartOfSpeech=NN Lemma=peace NamedEntityTag=O] [Text=and CharacterOffsetBegin=1912 CharacterOffsetEnd=1915 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=stability CharacterOffsetBegin=1916 CharacterOffsetEnd=1925 PartOfSpeech=NN Lemma=stability NamedEntityTag=O] [Text=. CharacterOffsetBegin=1925 CharacterOffsetEnd=1926 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ says)
+        (PP (IN through)
+          (NP
+            (NP (JJ international) (NN cooperation))
+            (CC and)
+            (NP (PRP$ their) (`` ``) (JJ proactive) ('' '') (NN peace) (NN policy))))))
+    (, ,)
+    (NP (NNP Japan))
+    (VP (MD will)
+      (VP (VB continue)
+        (S
+          (NP (NNS efforts))
+          (VP (TO to)
+            (VP (VB make)
+              (NP
+                (NP (RB even) (JJR more))
+                (PP (IN of)
+                  (NP (DT a) (NN contribution))))
+              (PP (TO to)
+                (NP (JJ international) (NN peace)
+                  (CC and)
+                  (NN stability))))))))
+    (. .)))
+
+nsubj(says-2, He-1)
+ccomp(continue-16, says-2)
+amod(cooperation-5, international-4)
+prep_through(says-2, cooperation-5)
+poss(policy-12, their-7)
+amod(policy-12, proactive-9)
+nn(policy-12, peace-11)
+prep_through(says-2, policy-12)
+conj_and(cooperation-5, policy-12)
+nsubj(continue-16, Japan-14)
+aux(continue-16, will-15)
+root(ROOT-0, continue-16)
+nsubj(make-19, efforts-17)
+aux(make-19, to-18)
+xcomp(continue-16, make-19)
+advmod(more-21, even-20)
+dobj(make-19, more-21)
+det(contribution-24, a-23)
+prep_of(more-21, contribution-24)
+amod(peace-27, international-26)
+prep_to(make-19, peace-27)
+prep_to(make-19, stability-29)
+conj_and(peace-27, stability-29)
+
+Sentence #12 (31 tokens):
+Japan's Kyodo news agency reports under the security policy Tokyo will deepen defense relations with the United States and seek a more pro-active role for its Self-Defense Forces overseas.
+[Text=Japan CharacterOffsetBegin=1932 CharacterOffsetEnd=1937 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1937 CharacterOffsetEnd=1939 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Kyodo CharacterOffsetBegin=1940 CharacterOffsetEnd=1945 PartOfSpeech=NNP Lemma=Kyodo NamedEntityTag=ORGANIZATION] [Text=news CharacterOffsetBegin=1946 CharacterOffsetEnd=1950 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=agency CharacterOffsetBegin=1951 CharacterOffsetEnd=1957 PartOfSpeech=NN Lemma=agency NamedEntityTag=O] [Text=reports CharacterOffsetBegin=1958 CharacterOffsetEnd=1965 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=under CharacterOffsetBegin=1966 CharacterOffsetEnd=1971 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=the CharacterOffsetBegin=1972 CharacterOffsetEnd=1975 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=security CharacterOffsetBegin=1976 CharacterOffsetEnd=1984 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=policy CharacterOffsetBegin=1985 CharacterOffsetEnd=1991 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=Tokyo CharacterOffsetBegin=1992 CharacterOffsetEnd=1997 PartOfSpeech=NNP Lemma=Tokyo NamedEntityTag=LOCATION] [Text=will CharacterOffsetBegin=1998 CharacterOffsetEnd=2002 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=deepen CharacterOffsetBegin=2003 CharacterOffsetEnd=2009 PartOfSpeech=VB Lemma=deepen NamedEntityTag=O] [Text=defense CharacterOffsetBegin=2010 CharacterOffsetEnd=2017 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=relations CharacterOffsetBegin=2018 CharacterOffsetEnd=2027 PartOfSpeech=NNS Lemma=relation NamedEntityTag=O] [Text=with CharacterOffsetBegin=2028 CharacterOffsetEnd=2032 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2033 CharacterOffsetEnd=2036 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=United CharacterOffsetBegin=2037 CharacterOffsetEnd=2043 PartOfSpeech=NNP Lemma=United NamedEntityTag=LOCATION] [Text=States CharacterOffsetBegin=2044 CharacterOffsetEnd=2050 PartOfSpeech=NNPS Lemma=States NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2051 CharacterOffsetEnd=2054 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=seek CharacterOffsetBegin=2055 CharacterOffsetEnd=2059 PartOfSpeech=VB Lemma=seek NamedEntityTag=O] [Text=a CharacterOffsetBegin=2060 CharacterOffsetEnd=2061 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=more CharacterOffsetBegin=2062 CharacterOffsetEnd=2066 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=pro-active CharacterOffsetBegin=2067 CharacterOffsetEnd=2077 PartOfSpeech=JJ Lemma=pro-active NamedEntityTag=O] [Text=role CharacterOffsetBegin=2078 CharacterOffsetEnd=2082 PartOfSpeech=NN Lemma=role NamedEntityTag=O] [Text=for CharacterOffsetBegin=2083 CharacterOffsetEnd=2086 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=its CharacterOffsetBegin=2087 CharacterOffsetEnd=2090 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Self-Defense CharacterOffsetBegin=2091 CharacterOffsetEnd=2103 PartOfSpeech=NNP Lemma=Self-Defense NamedEntityTag=O] [Text=Forces CharacterOffsetBegin=2104 CharacterOffsetEnd=2110 PartOfSpeech=NNP Lemma=Forces NamedEntityTag=O] [Text=overseas CharacterOffsetBegin=2111 CharacterOffsetEnd=2119 PartOfSpeech=RB Lemma=overseas NamedEntityTag=O] [Text=. CharacterOffsetBegin=2119 CharacterOffsetEnd=2120 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Japan) (POS 's))
+        (NNP Kyodo) (NN news) (NN agency) (NNS reports))
+      (PP (IN under)
+        (NP (DT the) (NN security) (NN policy) (NNP Tokyo))))
+    (VP (MD will)
+      (VP
+        (VP (VB deepen)
+          (NP (NN defense) (NNS relations))
+          (PP (IN with)
+            (NP (DT the) (NNP United) (NNPS States))))
+        (CC and)
+        (VP (VB seek)
+          (NP
+            (NP (DT a) (RBR more) (JJ pro-active) (NN role))
+            (PP (IN for)
+              (NP (PRP$ its) (NNP Self-Defense) (NNP Forces))))
+          (ADVP (RB overseas)))))
+    (. .)))
+
+poss(reports-6, Japan-1)
+nn(reports-6, Kyodo-3)
+nn(reports-6, news-4)
+nn(reports-6, agency-5)
+nsubj(deepen-13, reports-6)
+nsubj(seek-21, reports-6)
+det(Tokyo-11, the-8)
+nn(Tokyo-11, security-9)
+nn(Tokyo-11, policy-10)
+prep_under(reports-6, Tokyo-11)
+aux(deepen-13, will-12)
+root(ROOT-0, deepen-13)
+nn(relations-15, defense-14)
+dobj(deepen-13, relations-15)
+det(States-19, the-17)
+nn(States-19, United-18)
+prep_with(deepen-13, States-19)
+conj_and(deepen-13, seek-21)
+det(role-25, a-22)
+advmod(role-25, more-23)
+amod(role-25, pro-active-24)
+dobj(seek-21, role-25)
+poss(Forces-29, its-27)
+nn(Forces-29, Self-Defense-28)
+prep_for(role-25, Forces-29)
+advmod(seek-21, overseas-30)
+
+Sentence #13 (35 tokens):
+Japan's neighbors, who suffered under its colonial rule and World War II aggression, are wary of Mr. Abe's efforts to redefine the role of Japan's military and pacifist constitution.
+[Text=Japan CharacterOffsetBegin=2127 CharacterOffsetEnd=2132 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=2132 CharacterOffsetEnd=2134 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=neighbors CharacterOffsetBegin=2135 CharacterOffsetEnd=2144 PartOfSpeech=NNS Lemma=neighbor NamedEntityTag=O] [Text=, CharacterOffsetBegin=2144 CharacterOffsetEnd=2145 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=2146 CharacterOffsetEnd=2149 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=suffered CharacterOffsetBegin=2150 CharacterOffsetEnd=2158 PartOfSpeech=VBD Lemma=suffer NamedEntityTag=O] [Text=under CharacterOffsetBegin=2159 CharacterOffsetEnd=2164 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=its CharacterOffsetBegin=2165 CharacterOffsetEnd=2168 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=colonial CharacterOffsetBegin=2169 CharacterOffsetEnd=2177 PartOfSpeech=NN Lemma=colonial NamedEntityTag=O] [Text=rule CharacterOffsetBegin=2178 CharacterOffsetEnd=2182 PartOfSpeech=NN Lemma=rule NamedEntityTag=O] [Text=and CharacterOffsetBegin=2183 CharacterOffsetEnd=2186 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=World CharacterOffsetBegin=2187 CharacterOffsetEnd=2192 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=War CharacterOffsetBegin=2193 CharacterOffsetEnd=2196 PartOfSpeech=NNP Lemma=War NamedEntityTag=MISC] [Text=II CharacterOffsetBegin=2197 CharacterOffsetEnd=2199 PartOfSpeech=NNP Lemma=II NamedEntityTag=MISC] [Text=aggression CharacterOffsetBegin=2200 CharacterOffsetEnd=2210 PartOfSpeech=NN Lemma=aggression NamedEntityTag=O] [Text=, CharacterOffsetBegin=2210 CharacterOffsetEnd=2211 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=are CharacterOffsetBegin=2212 CharacterOffsetEnd=2215 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=wary CharacterOffsetBegin=2216 CharacterOffsetEnd=2220 PartOfSpeech=JJ Lemma=wary NamedEntityTag=O] [Text=of CharacterOffsetBegin=2221 CharacterOffsetEnd=2223 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Mr. CharacterOffsetBegin=2224 CharacterOffsetEnd=2227 PartOfSpeech=NNP Lemma=Mr. NamedEntityTag=O] [Text=Abe CharacterOffsetBegin=2228 CharacterOffsetEnd=2231 PartOfSpeech=NNP Lemma=Abe NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=2231 CharacterOffsetEnd=2233 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=efforts CharacterOffsetBegin=2234 CharacterOffsetEnd=2241 PartOfSpeech=NNS Lemma=effort NamedEntityTag=O] [Text=to CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=redefine CharacterOffsetBegin=2245 CharacterOffsetEnd=2253 PartOfSpeech=VB Lemma=redefine NamedEntityTag=O] [Text=the CharacterOffsetBegin=2254 CharacterOffsetEnd=2257 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=role CharacterOffsetBegin=2258 CharacterOffsetEnd=2262 PartOfSpeech=NN Lemma=role NamedEntityTag=O] [Text=of CharacterOffsetBegin=2263 CharacterOffsetEnd=2265 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2266 CharacterOffsetEnd=2271 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=2271 CharacterOffsetEnd=2273 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=military CharacterOffsetBegin=2274 CharacterOffsetEnd=2282 PartOfSpeech=JJ Lemma=military NamedEntityTag=O] [Text=and CharacterOffsetBegin=2283 CharacterOffsetEnd=2286 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=pacifist CharacterOffsetBegin=2287 CharacterOffsetEnd=2295 PartOfSpeech=JJ Lemma=pacifist NamedEntityTag=O] [Text=constitution CharacterOffsetBegin=2296 CharacterOffsetEnd=2308 PartOfSpeech=NN Lemma=constitution NamedEntityTag=O] [Text=. CharacterOffsetBegin=2308 CharacterOffsetEnd=2309 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Japan) (POS 's))
+        (NNS neighbors))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD suffered)
+            (PP (IN under)
+              (NP
+                (NP (PRP$ its) (NN colonial) (NN rule))
+                (CC and)
+                (NP (NNP World) (NNP War) (NNP II) (NN aggression)))))))
+      (, ,))
+    (VP (VBP are)
+      (ADJP (JJ wary)
+        (PP (IN of)
+          (NP
+            (NP (NNP Mr.) (NNP Abe) (POS 's))
+            (NNS efforts)
+            (S
+              (VP (TO to)
+                (VP (VB redefine)
+                  (NP
+                    (NP (DT the) (NN role))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNP Japan) (POS 's))
+                        (ADJP (JJ military)
+                          (CC and)
+                          (JJ pacifist))
+                        (NN constitution)))))))))))
+    (. .)))
+
+poss(neighbors-3, Japan-1)
+nsubj(suffered-6, neighbors-3)
+nsubj(wary-18, neighbors-3)
+rcmod(neighbors-3, suffered-6)
+poss(rule-10, its-8)
+nn(rule-10, colonial-9)
+prep_under(suffered-6, rule-10)
+nn(aggression-15, World-12)
+nn(aggression-15, War-13)
+nn(aggression-15, II-14)
+prep_under(suffered-6, aggression-15)
+conj_and(rule-10, aggression-15)
+cop(wary-18, are-17)
+root(ROOT-0, wary-18)
+nn(Abe-21, Mr.-20)
+poss(efforts-23, Abe-21)
+prep_of(wary-18, efforts-23)
+aux(redefine-25, to-24)
+infmod(efforts-23, redefine-25)
+det(role-27, the-26)
+dobj(redefine-25, role-27)
+poss(constitution-34, Japan-29)
+amod(constitution-34, military-31)
+conj_and(military-31, pacifist-33)
+amod(constitution-34, pacifist-33)
+prep_of(role-27, constitution-34)
+
+Sentence #14 (12 tokens):
+China's Foreign Ministry on Tuesday criticized Japan's defense policy.
+[Text=China CharacterOffsetBegin=2316 CharacterOffsetEnd=2321 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=2321 CharacterOffsetEnd=2323 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Foreign CharacterOffsetBegin=2324 CharacterOffsetEnd=2331 PartOfSpeech=NNP Lemma=Foreign NamedEntityTag=ORGANIZATION] [Text=Ministry CharacterOffsetBegin=2332 CharacterOffsetEnd=2340 PartOfSpeech=NNP Lemma=Ministry NamedEntityTag=ORGANIZATION] [Text=on CharacterOffsetBegin=2341 CharacterOffsetEnd=2343 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2344 CharacterOffsetEnd=2351 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=criticized CharacterOffsetBegin=2352 CharacterOffsetEnd=2362 PartOfSpeech=VBD Lemma=criticize NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2363 CharacterOffsetEnd=2368 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=2368 CharacterOffsetEnd=2370 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=defense CharacterOffsetBegin=2371 CharacterOffsetEnd=2378 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=policy CharacterOffsetBegin=2379 CharacterOffsetEnd=2385 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=2385 CharacterOffsetEnd=2386 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP China) (POS 's))
+        (NNP Foreign) (NNP Ministry))
+      (PP (IN on)
+        (NP (NNP Tuesday))))
+    (VP (VBD criticized)
+      (NP
+        (NP (NNP Japan) (POS 's))
+        (NN defense) (NN policy)))
+    (. .)))
+
+poss(Ministry-4, China-1)
+nn(Ministry-4, Foreign-3)
+nsubj(criticized-7, Ministry-4)
+prep_on(Ministry-4, Tuesday-6)
+root(ROOT-0, criticized-7)
+poss(policy-11, Japan-8)
+nn(policy-11, defense-10)
+dobj(criticized-7, policy-11)
+
+Sentence #15 (21 tokens):
+Spokeswoman Hua Chunying called on Japan to face up to history and not just talk peace but take constructive actions.
+[Text=Spokeswoman CharacterOffsetBegin=2387 CharacterOffsetEnd=2398 PartOfSpeech=NNP Lemma=Spokeswoman NamedEntityTag=O] [Text=Hua CharacterOffsetBegin=2399 CharacterOffsetEnd=2402 PartOfSpeech=NNP Lemma=Hua NamedEntityTag=PERSON] [Text=Chunying CharacterOffsetBegin=2403 CharacterOffsetEnd=2411 PartOfSpeech=NNP Lemma=Chunying NamedEntityTag=PERSON] [Text=called CharacterOffsetBegin=2412 CharacterOffsetEnd=2418 PartOfSpeech=VBN Lemma=call NamedEntityTag=O] [Text=on CharacterOffsetBegin=2419 CharacterOffsetEnd=2421 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2422 CharacterOffsetEnd=2427 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=to CharacterOffsetBegin=2428 CharacterOffsetEnd=2430 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=face CharacterOffsetBegin=2431 CharacterOffsetEnd=2435 PartOfSpeech=VB Lemma=face NamedEntityTag=O] [Text=up CharacterOffsetBegin=2436 CharacterOffsetEnd=2438 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=to CharacterOffsetBegin=2439 CharacterOffsetEnd=2441 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=history CharacterOffsetBegin=2442 CharacterOffsetEnd=2449 PartOfSpeech=NN Lemma=history NamedEntityTag=O] [Text=and CharacterOffsetBegin=2450 CharacterOffsetEnd=2453 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=not CharacterOffsetBegin=2454 CharacterOffsetEnd=2457 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=just CharacterOffsetBegin=2458 CharacterOffsetEnd=2462 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=talk CharacterOffsetBegin=2463 CharacterOffsetEnd=2467 PartOfSpeech=VB Lemma=talk NamedEntityTag=O] [Text=peace CharacterOffsetBegin=2468 CharacterOffsetEnd=2473 PartOfSpeech=NN Lemma=peace NamedEntityTag=O] [Text=but CharacterOffsetBegin=2474 CharacterOffsetEnd=2477 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=take CharacterOffsetBegin=2478 CharacterOffsetEnd=2482 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=constructive CharacterOffsetBegin=2483 CharacterOffsetEnd=2495 PartOfSpeech=JJ Lemma=constructive NamedEntityTag=O] [Text=actions CharacterOffsetBegin=2496 CharacterOffsetEnd=2503 PartOfSpeech=NNS Lemma=action NamedEntityTag=O] [Text=. CharacterOffsetBegin=2503 CharacterOffsetEnd=2504 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Spokeswoman) (NNP Hua) (NNP Chunying))
+      (VP (VBN called)
+        (PP (IN on)
+          (NP (NNP Japan)))
+        (S
+          (VP (TO to)
+            (VP (VB face)
+              (PRT (RP up))
+              (PP (TO to)
+                (NP
+                  (NP (NN history))
+                  (CC and)
+                  (NP (RB not) (RB just)))))))))
+    (VP
+      (VP (VB talk)
+        (NP (NN peace)))
+      (CC but)
+      (VP (VB take)
+        (NP (JJ constructive) (NNS actions))))
+    (. .)))
+
+nn(Chunying-3, Spokeswoman-1)
+nn(Chunying-3, Hua-2)
+nsubj(talk-15, Chunying-3)
+nsubj(take-18, Chunying-3)
+partmod(Chunying-3, called-4)
+prep_on(called-4, Japan-6)
+aux(face-8, to-7)
+xcomp(called-4, face-8)
+prt(face-8, up-9)
+prep_to(face-8, history-11)
+neg(just-14, not-13)
+prep_to(face-8, just-14)
+conj_and(history-11, just-14)
+root(ROOT-0, talk-15)
+dobj(talk-15, peace-16)
+conj_but(talk-15, take-18)
+amod(actions-20, constructive-19)
+dobj(take-18, actions-20)
+
+Sentence #16 (16 tokens):
+She says Japan's policy on military security affects the entire region's security environment.
+[Text=She CharacterOffsetBegin=2511 CharacterOffsetEnd=2514 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=says CharacterOffsetBegin=2515 CharacterOffsetEnd=2519 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2520 CharacterOffsetEnd=2525 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=2525 CharacterOffsetEnd=2527 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=policy CharacterOffsetBegin=2528 CharacterOffsetEnd=2534 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=on CharacterOffsetBegin=2535 CharacterOffsetEnd=2537 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=military CharacterOffsetBegin=2538 CharacterOffsetEnd=2546 PartOfSpeech=JJ Lemma=military NamedEntityTag=O] [Text=security CharacterOffsetBegin=2547 CharacterOffsetEnd=2555 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=affects CharacterOffsetBegin=2556 CharacterOffsetEnd=2563 PartOfSpeech=VBZ Lemma=affect NamedEntityTag=O] [Text=the CharacterOffsetBegin=2564 CharacterOffsetEnd=2567 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=entire CharacterOffsetBegin=2568 CharacterOffsetEnd=2574 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O] [Text=region CharacterOffsetBegin=2575 CharacterOffsetEnd=2581 PartOfSpeech=NN Lemma=region NamedEntityTag=O] [Text='s CharacterOffsetBegin=2581 CharacterOffsetEnd=2583 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=security CharacterOffsetBegin=2584 CharacterOffsetEnd=2592 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=environment CharacterOffsetBegin=2593 CharacterOffsetEnd=2604 PartOfSpeech=NN Lemma=environment NamedEntityTag=O] [Text=. CharacterOffsetBegin=2604 CharacterOffsetEnd=2605 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (NNP Japan) (POS 's))
+              (NN policy))
+            (PP (IN on)
+              (NP (JJ military) (NN security))))
+          (VP (VBZ affects)
+            (NP
+              (NP (DT the) (JJ entire) (NN region) (POS 's))
+              (NN security) (NN environment))))))
+    (. .)))
+
+nsubj(says-2, She-1)
+root(ROOT-0, says-2)
+poss(policy-5, Japan-3)
+nsubj(affects-9, policy-5)
+amod(security-8, military-7)
+prep_on(policy-5, security-8)
+ccomp(says-2, affects-9)
+det(region-12, the-10)
+amod(region-12, entire-11)
+poss(environment-15, region-12)
+nn(environment-15, security-14)
+dobj(affects-9, environment-15)
+
+Sentence #17 (28 tokens):
+She says Asian countries, including China, as well as the international community are paying close attention to these negative trends and are maintaining high alert.
+[Text=She CharacterOffsetBegin=2606 CharacterOffsetEnd=2609 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=says CharacterOffsetBegin=2610 CharacterOffsetEnd=2614 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=Asian CharacterOffsetBegin=2615 CharacterOffsetEnd=2620 PartOfSpeech=JJ Lemma=asian NamedEntityTag=LOCATION] [Text=countries CharacterOffsetBegin=2621 CharacterOffsetEnd=2630 PartOfSpeech=NNS Lemma=country NamedEntityTag=O] [Text=, CharacterOffsetBegin=2630 CharacterOffsetEnd=2631 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=2632 CharacterOffsetEnd=2641 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=China CharacterOffsetBegin=2642 CharacterOffsetEnd=2647 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2647 CharacterOffsetEnd=2648 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=2649 CharacterOffsetEnd=2651 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=2652 CharacterOffsetEnd=2656 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=2657 CharacterOffsetEnd=2659 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=2660 CharacterOffsetEnd=2663 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=international CharacterOffsetBegin=2664 CharacterOffsetEnd=2677 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=community CharacterOffsetBegin=2678 CharacterOffsetEnd=2687 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=are CharacterOffsetBegin=2688 CharacterOffsetEnd=2691 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=paying CharacterOffsetBegin=2692 CharacterOffsetEnd=2698 PartOfSpeech=VBG Lemma=pay NamedEntityTag=O] [Text=close CharacterOffsetBegin=2699 CharacterOffsetEnd=2704 PartOfSpeech=JJ Lemma=close NamedEntityTag=O] [Text=attention CharacterOffsetBegin=2705 CharacterOffsetEnd=2714 PartOfSpeech=NN Lemma=attention NamedEntityTag=O] [Text=to CharacterOffsetBegin=2715 CharacterOffsetEnd=2717 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=these CharacterOffsetBegin=2718 CharacterOffsetEnd=2723 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=negative CharacterOffsetBegin=2724 CharacterOffsetEnd=2732 PartOfSpeech=JJ Lemma=negative NamedEntityTag=O] [Text=trends CharacterOffsetBegin=2733 CharacterOffsetEnd=2739 PartOfSpeech=NNS Lemma=trend NamedEntityTag=O] [Text=and CharacterOffsetBegin=2740 CharacterOffsetEnd=2743 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=are CharacterOffsetBegin=2744 CharacterOffsetEnd=2747 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=maintaining CharacterOffsetBegin=2748 CharacterOffsetEnd=2759 PartOfSpeech=VBG Lemma=maintain NamedEntityTag=O] [Text=high CharacterOffsetBegin=2760 CharacterOffsetEnd=2764 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=alert CharacterOffsetBegin=2765 CharacterOffsetEnd=2770 PartOfSpeech=NN Lemma=alert NamedEntityTag=O] [Text=. CharacterOffsetBegin=2770 CharacterOffsetEnd=2771 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBZ says)
+        (NP
+          (NP
+            (NP (JJ Asian) (NNS countries))
+            (, ,)
+            (PP (VBG including)
+              (NP (NNP China))))
+          (, ,)
+          (CONJP (RB as) (RB well) (IN as))
+          (NP
+            (NP (DT the) (JJ international) (NN community))
+            (SBAR
+              (S
+                (VP (VBP are)
+                  (VP (VBG paying)
+                    (NP (JJ close) (NN attention))
+                    (PP (TO to)
+                      (NP (DT these) (JJ negative) (NNS trends))))))))))
+      (CC and)
+      (VP (VBP are)
+        (VP (VBG maintaining)
+          (NP (JJ high) (NN alert)))))
+    (. .)))
+
+nsubj(says-2, She-1)
+nsubj(maintaining-25, She-1)
+root(ROOT-0, says-2)
+amod(countries-4, Asian-3)
+dobj(says-2, countries-4)
+prep_including(countries-4, China-7)
+det(community-14, the-12)
+amod(community-14, international-13)
+dobj(says-2, community-14)
+conj_and(countries-4, community-14)
+aux(paying-16, are-15)
+rcmod(community-14, paying-16)
+amod(attention-18, close-17)
+dobj(paying-16, attention-18)
+det(trends-22, these-20)
+amod(trends-22, negative-21)
+prep_to(paying-16, trends-22)
+aux(maintaining-25, are-24)
+conj_and(says-2, maintaining-25)
+amod(alert-27, high-26)
+dobj(maintaining-25, alert-27)
+
+Sentence #18 (32 tokens):
+Tensions over history, and a separate island dispute, have kept relations between U.S. allies Japan and South Korea frigid while Seoul and Beijing bonded somewhat over their shared mistreatment.
+[Text=Tensions CharacterOffsetBegin=2778 CharacterOffsetEnd=2786 PartOfSpeech=NNS Lemma=tension NamedEntityTag=O] [Text=over CharacterOffsetBegin=2787 CharacterOffsetEnd=2791 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=history CharacterOffsetBegin=2792 CharacterOffsetEnd=2799 PartOfSpeech=NN Lemma=history NamedEntityTag=O] [Text=, CharacterOffsetBegin=2799 CharacterOffsetEnd=2800 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2801 CharacterOffsetEnd=2804 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=2805 CharacterOffsetEnd=2806 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=separate CharacterOffsetBegin=2807 CharacterOffsetEnd=2815 PartOfSpeech=JJ Lemma=separate NamedEntityTag=O] [Text=island CharacterOffsetBegin=2816 CharacterOffsetEnd=2822 PartOfSpeech=NN Lemma=island NamedEntityTag=O] [Text=dispute CharacterOffsetBegin=2823 CharacterOffsetEnd=2830 PartOfSpeech=NN Lemma=dispute NamedEntityTag=O] [Text=, CharacterOffsetBegin=2830 CharacterOffsetEnd=2831 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=have CharacterOffsetBegin=2832 CharacterOffsetEnd=2836 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=kept CharacterOffsetBegin=2837 CharacterOffsetEnd=2841 PartOfSpeech=VBN Lemma=keep NamedEntityTag=O] [Text=relations CharacterOffsetBegin=2842 CharacterOffsetEnd=2851 PartOfSpeech=NNS Lemma=relation NamedEntityTag=O] [Text=between CharacterOffsetBegin=2852 CharacterOffsetEnd=2859 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=2860 CharacterOffsetEnd=2864 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=allies CharacterOffsetBegin=2865 CharacterOffsetEnd=2871 PartOfSpeech=NNS Lemma=ally NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2872 CharacterOffsetEnd=2877 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2878 CharacterOffsetEnd=2881 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=South CharacterOffsetBegin=2882 CharacterOffsetEnd=2887 PartOfSpeech=NNP Lemma=South NamedEntityTag=LOCATION] [Text=Korea CharacterOffsetBegin=2888 CharacterOffsetEnd=2893 PartOfSpeech=NNP Lemma=Korea NamedEntityTag=LOCATION] [Text=frigid CharacterOffsetBegin=2894 CharacterOffsetEnd=2900 PartOfSpeech=VBD Lemma=frigid NamedEntityTag=O] [Text=while CharacterOffsetBegin=2901 CharacterOffsetEnd=2906 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=Seoul CharacterOffsetBegin=2907 CharacterOffsetEnd=2912 PartOfSpeech=NNP Lemma=Seoul NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2913 CharacterOffsetEnd=2916 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=2917 CharacterOffsetEnd=2924 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=bonded CharacterOffsetBegin=2925 CharacterOffsetEnd=2931 PartOfSpeech=VBD Lemma=bond NamedEntityTag=O] [Text=somewhat CharacterOffsetBegin=2932 CharacterOffsetEnd=2940 PartOfSpeech=RB Lemma=somewhat NamedEntityTag=O] [Text=over CharacterOffsetBegin=2941 CharacterOffsetEnd=2945 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=their CharacterOffsetBegin=2946 CharacterOffsetEnd=2951 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=shared CharacterOffsetBegin=2952 CharacterOffsetEnd=2958 PartOfSpeech=VBN Lemma=share NamedEntityTag=O] [Text=mistreatment CharacterOffsetBegin=2959 CharacterOffsetEnd=2971 PartOfSpeech=NN Lemma=mistreatment NamedEntityTag=O] [Text=. CharacterOffsetBegin=2971 CharacterOffsetEnd=2972 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Tensions))
+      (PP (IN over)
+        (NP
+          (NP (NN history))
+          (, ,)
+          (CC and)
+          (NP (DT a) (JJ separate) (NN island) (NN dispute))
+          (, ,))))
+    (VP (VBP have)
+      (VP (VBN kept)
+        (SBAR
+          (S
+            (NP
+              (NP (NNS relations))
+              (PP (IN between)
+                (NP
+                  (NP (NNP U.S.) (NNS allies) (NNP Japan))
+                  (CC and)
+                  (NP (NNP South) (NNP Korea)))))
+            (VP (VBD frigid)
+              (SBAR (IN while)
+                (S
+                  (NP (NNP Seoul)
+                    (CC and)
+                    (NNP Beijing))
+                  (VP (VBD bonded)
+                    (ADVP (RB somewhat))
+                    (PP (IN over)
+                      (NP (PRP$ their) (VBN shared) (NN mistreatment)))))))))))
+    (. .)))
+
+nsubj(kept-12, Tensions-1)
+prep_over(Tensions-1, history-3)
+det(dispute-9, a-6)
+amod(dispute-9, separate-7)
+nn(dispute-9, island-8)
+prep_over(Tensions-1, dispute-9)
+conj_and(history-3, dispute-9)
+aux(kept-12, have-11)
+root(ROOT-0, kept-12)
+nsubj(frigid-21, relations-13)
+nn(Japan-17, U.S.-15)
+nn(Japan-17, allies-16)
+prep_between(relations-13, Japan-17)
+nn(Korea-20, South-19)
+prep_between(relations-13, Korea-20)
+conj_and(Japan-17, Korea-20)
+ccomp(kept-12, frigid-21)
+mark(bonded-26, while-22)
+nsubj(bonded-26, Seoul-23)
+conj_and(Seoul-23, Beijing-25)
+nsubj(bonded-26, Beijing-25)
+advcl(frigid-21, bonded-26)
+advmod(bonded-26, somewhat-27)
+poss(mistreatment-31, their-29)
+amod(mistreatment-31, shared-30)
+prep_over(bonded-26, mistreatment-31)
+
+Sentence #19 (34 tokens):
+But China was soundly criticized by Japan, South Korea, and the U.S. in late November for abruptly announcing the expansion of its Air Defense Identification Zone in the East China Sea.
+[Text=But CharacterOffsetBegin=2979 CharacterOffsetEnd=2982 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=China CharacterOffsetBegin=2983 CharacterOffsetEnd=2988 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=was CharacterOffsetBegin=2989 CharacterOffsetEnd=2992 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=soundly CharacterOffsetBegin=2993 CharacterOffsetEnd=3000 PartOfSpeech=RB Lemma=soundly NamedEntityTag=O] [Text=criticized CharacterOffsetBegin=3001 CharacterOffsetEnd=3011 PartOfSpeech=VBN Lemma=criticize NamedEntityTag=O] [Text=by CharacterOffsetBegin=3012 CharacterOffsetEnd=3014 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3015 CharacterOffsetEnd=3020 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3020 CharacterOffsetEnd=3021 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=South CharacterOffsetBegin=3022 CharacterOffsetEnd=3027 PartOfSpeech=NNP Lemma=South NamedEntityTag=LOCATION] [Text=Korea CharacterOffsetBegin=3028 CharacterOffsetEnd=3033 PartOfSpeech=NNP Lemma=Korea NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3033 CharacterOffsetEnd=3034 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=3035 CharacterOffsetEnd=3038 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=3039 CharacterOffsetEnd=3042 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=3043 CharacterOffsetEnd=3047 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=3048 CharacterOffsetEnd=3050 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=late CharacterOffsetBegin=3051 CharacterOffsetEnd=3055 PartOfSpeech=JJ Lemma=late NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-11 Timex=<TIMEX3 mod="LATE" tid="t1" type="DATE" value="XXXX-11">late November</TIMEX3>] [Text=November CharacterOffsetBegin=3056 CharacterOffsetEnd=3064 PartOfSpeech=NNP Lemma=November NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-11 Timex=<TIMEX3 mod="LATE" tid="t1" type="DATE" value="XXXX-11">late November</TIMEX3>] [Text=for CharacterOffsetBegin=3065 CharacterOffsetEnd=3068 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=abruptly CharacterOffsetBegin=3069 CharacterOffsetEnd=3077 PartOfSpeech=RB Lemma=abruptly NamedEntityTag=O] [Text=announcing CharacterOffsetBegin=3078 CharacterOffsetEnd=3088 PartOfSpeech=VBG Lemma=announce NamedEntityTag=O] [Text=the CharacterOffsetBegin=3089 CharacterOffsetEnd=3092 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=expansion CharacterOffsetBegin=3093 CharacterOffsetEnd=3102 PartOfSpeech=NN Lemma=expansion NamedEntityTag=O] [Text=of CharacterOffsetBegin=3103 CharacterOffsetEnd=3105 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=3106 CharacterOffsetEnd=3109 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Air CharacterOffsetBegin=3110 CharacterOffsetEnd=3113 PartOfSpeech=NNP Lemma=Air NamedEntityTag=O] [Text=Defense CharacterOffsetBegin=3114 CharacterOffsetEnd=3121 PartOfSpeech=NNP Lemma=Defense NamedEntityTag=O] [Text=Identification CharacterOffsetBegin=3122 CharacterOffsetEnd=3136 PartOfSpeech=NN Lemma=identification NamedEntityTag=O] [Text=Zone CharacterOffsetBegin=3137 CharacterOffsetEnd=3141 PartOfSpeech=NNP Lemma=Zone NamedEntityTag=O] [Text=in CharacterOffsetBegin=3142 CharacterOffsetEnd=3144 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3145 CharacterOffsetEnd=3148 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=East CharacterOffsetBegin=3149 CharacterOffsetEnd=3153 PartOfSpeech=NNP Lemma=East NamedEntityTag=LOCATION] [Text=China CharacterOffsetBegin=3154 CharacterOffsetEnd=3159 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=Sea CharacterOffsetBegin=3160 CharacterOffsetEnd=3163 PartOfSpeech=NNP Lemma=Sea NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=3163 CharacterOffsetEnd=3164 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (NNP China))
+    (VP (VBD was)
+      (ADVP (RB soundly))
+      (VP (VBN criticized)
+        (PP (IN by)
+          (NP
+            (NP (NNP Japan))
+            (, ,)
+            (NP (NNP South) (NNP Korea))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (DT the) (NNP U.S.))
+              (PP (IN in)
+                (NP (JJ late) (NNP November))))))
+        (PP (IN for)
+          (S
+            (ADVP (RB abruptly))
+            (VP (VBG announcing)
+              (NP
+                (NP (DT the) (NN expansion))
+                (PP (IN of)
+                  (NP (PRP$ its) (NNP Air) (NNP Defense) (NN Identification) (NNP Zone))))
+              (PP (IN in)
+                (NP (DT the) (NNP East) (NNP China) (NNP Sea))))))))
+    (. .)))
+
+cc(criticized-5, But-1)
+nsubjpass(criticized-5, China-2)
+auxpass(criticized-5, was-3)
+advmod(criticized-5, soundly-4)
+root(ROOT-0, criticized-5)
+agent(criticized-5, Japan-7)
+nn(Korea-10, South-9)
+agent(criticized-5, Korea-10)
+conj_and(Japan-7, Korea-10)
+det(U.S.-14, the-13)
+agent(criticized-5, U.S.-14)
+conj_and(Japan-7, U.S.-14)
+amod(November-17, late-16)
+prep_in(U.S.-14, November-17)
+advmod(announcing-20, abruptly-19)
+prepc_for(criticized-5, announcing-20)
+det(expansion-22, the-21)
+dobj(announcing-20, expansion-22)
+poss(Zone-28, its-24)
+nn(Zone-28, Air-25)
+nn(Zone-28, Defense-26)
+nn(Zone-28, Identification-27)
+prep_of(expansion-22, Zone-28)
+det(Sea-33, the-30)
+nn(Sea-33, East-31)
+nn(Sea-33, China-32)
+prep_in(announcing-20, Sea-33)
+
+Sentence #20 (27 tokens):
+The new ADIZ overlaps international waters as well as the islands disputed with Japan and a South Korean occupied reef, raising the risk of conflict.
+[Text=The CharacterOffsetBegin=3171 CharacterOffsetEnd=3174 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=new CharacterOffsetBegin=3175 CharacterOffsetEnd=3178 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=ADIZ CharacterOffsetBegin=3179 CharacterOffsetEnd=3183 PartOfSpeech=NN Lemma=adiz NamedEntityTag=O] [Text=overlaps CharacterOffsetBegin=3184 CharacterOffsetEnd=3192 PartOfSpeech=VBZ Lemma=overlap NamedEntityTag=O] [Text=international CharacterOffsetBegin=3193 CharacterOffsetEnd=3206 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=waters CharacterOffsetBegin=3207 CharacterOffsetEnd=3213 PartOfSpeech=NNS Lemma=water NamedEntityTag=O] [Text=as CharacterOffsetBegin=3214 CharacterOffsetEnd=3216 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=3217 CharacterOffsetEnd=3221 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=3222 CharacterOffsetEnd=3224 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=3225 CharacterOffsetEnd=3228 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=islands CharacterOffsetBegin=3229 CharacterOffsetEnd=3236 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=disputed CharacterOffsetBegin=3237 CharacterOffsetEnd=3245 PartOfSpeech=VBN Lemma=dispute NamedEntityTag=O] [Text=with CharacterOffsetBegin=3246 CharacterOffsetEnd=3250 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3251 CharacterOffsetEnd=3256 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=3257 CharacterOffsetEnd=3260 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=3261 CharacterOffsetEnd=3262 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=South CharacterOffsetBegin=3263 CharacterOffsetEnd=3268 PartOfSpeech=JJ Lemma=south NamedEntityTag=MISC] [Text=Korean CharacterOffsetBegin=3269 CharacterOffsetEnd=3275 PartOfSpeech=JJ Lemma=korean NamedEntityTag=MISC] [Text=occupied CharacterOffsetBegin=3276 CharacterOffsetEnd=3284 PartOfSpeech=JJ Lemma=occupied NamedEntityTag=O] [Text=reef CharacterOffsetBegin=3285 CharacterOffsetEnd=3289 PartOfSpeech=NN Lemma=reef NamedEntityTag=O] [Text=, CharacterOffsetBegin=3289 CharacterOffsetEnd=3290 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=raising CharacterOffsetBegin=3291 CharacterOffsetEnd=3298 PartOfSpeech=VBG Lemma=raise NamedEntityTag=O] [Text=the CharacterOffsetBegin=3299 CharacterOffsetEnd=3302 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=risk CharacterOffsetBegin=3303 CharacterOffsetEnd=3307 PartOfSpeech=NN Lemma=risk NamedEntityTag=O] [Text=of CharacterOffsetBegin=3308 CharacterOffsetEnd=3310 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=conflict CharacterOffsetBegin=3311 CharacterOffsetEnd=3319 PartOfSpeech=NN Lemma=conflict NamedEntityTag=O] [Text=. CharacterOffsetBegin=3319 CharacterOffsetEnd=3320 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ new) (NN ADIZ))
+    (VP (VBZ overlaps)
+      (NP
+        (NP (JJ international) (NNS waters))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP
+          (NP (DT the) (NNS islands))
+          (VP (VBN disputed)
+            (PP (IN with)
+              (NP
+                (NP (NNP Japan))
+                (CC and)
+                (NP (DT a)
+                  (ADJP (JJ South) (JJ Korean))
+                  (JJ occupied) (NN reef))))))
+        (, ,)
+        (VP (VBG raising)
+          (NP
+            (NP (DT the) (NN risk))
+            (PP (IN of)
+              (NP (NN conflict)))))))
+    (. .)))
+
+det(ADIZ-3, The-1)
+amod(ADIZ-3, new-2)
+nsubj(overlaps-4, ADIZ-3)
+root(ROOT-0, overlaps-4)
+amod(waters-6, international-5)
+dobj(overlaps-4, waters-6)
+det(islands-11, the-10)
+dobj(overlaps-4, islands-11)
+conj_and(waters-6, islands-11)
+partmod(islands-11, disputed-12)
+prep_with(disputed-12, Japan-14)
+det(reef-20, a-16)
+amod(Korean-18, South-17)
+amod(reef-20, Korean-18)
+amod(reef-20, occupied-19)
+prep_with(disputed-12, reef-20)
+conj_and(Japan-14, reef-20)
+dobj(overlaps-4, raising-22)
+conj_and(waters-6, raising-22)
+partmod(waters-6, raising-22)
+det(risk-24, the-23)
+dobj(raising-22, risk-24)
+prep_of(risk-24, conflict-26)
+
+Sentence #21 (28 tokens):
+A set of remote islands called Dokdo in Korean and Takeshima in Japanese is seen in this picture taken from a helicopter, Aug. 10, 2012.
+[Text=A CharacterOffsetBegin=3329 CharacterOffsetEnd=3330 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=set CharacterOffsetBegin=3331 CharacterOffsetEnd=3334 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=of CharacterOffsetBegin=3335 CharacterOffsetEnd=3337 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=remote CharacterOffsetBegin=3338 CharacterOffsetEnd=3344 PartOfSpeech=JJ Lemma=remote NamedEntityTag=O] [Text=islands CharacterOffsetBegin=3345 CharacterOffsetEnd=3352 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=called CharacterOffsetBegin=3353 CharacterOffsetEnd=3359 PartOfSpeech=VBN Lemma=call NamedEntityTag=O] [Text=Dokdo CharacterOffsetBegin=3360 CharacterOffsetEnd=3365 PartOfSpeech=NNP Lemma=Dokdo NamedEntityTag=PERSON] [Text=in CharacterOffsetBegin=3366 CharacterOffsetEnd=3368 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Korean CharacterOffsetBegin=3369 CharacterOffsetEnd=3375 PartOfSpeech=NNP Lemma=Korean NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=3376 CharacterOffsetEnd=3379 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Takeshima CharacterOffsetBegin=3380 CharacterOffsetEnd=3389 PartOfSpeech=NNP Lemma=Takeshima NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=3390 CharacterOffsetEnd=3392 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=3393 CharacterOffsetEnd=3401 PartOfSpeech=NNP Lemma=Japanese NamedEntityTag=MISC] [Text=is CharacterOffsetBegin=3402 CharacterOffsetEnd=3404 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=seen CharacterOffsetBegin=3405 CharacterOffsetEnd=3409 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=in CharacterOffsetBegin=3410 CharacterOffsetEnd=3412 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=3413 CharacterOffsetEnd=3417 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=picture CharacterOffsetBegin=3418 CharacterOffsetEnd=3425 PartOfSpeech=NN Lemma=picture NamedEntityTag=O] [Text=taken CharacterOffsetBegin=3426 CharacterOffsetEnd=3431 PartOfSpeech=VBN Lemma=take NamedEntityTag=O] [Text=from CharacterOffsetBegin=3432 CharacterOffsetEnd=3436 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=3437 CharacterOffsetEnd=3438 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=helicopter CharacterOffsetBegin=3439 CharacterOffsetEnd=3449 PartOfSpeech=NN Lemma=helicopter NamedEntityTag=O] [Text=, CharacterOffsetBegin=3449 CharacterOffsetEnd=3450 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Aug. CharacterOffsetBegin=3451 CharacterOffsetEnd=3455 PartOfSpeech=NNP Lemma=Aug. NamedEntityTag=DATE NormalizedNamedEntityTag=2012-08-10 Timex=<TIMEX3 tid="t1" type="DATE" value="2012-08-10">Aug. 10, 2012</TIMEX3>] [Text=10 CharacterOffsetBegin=3456 CharacterOffsetEnd=3458 PartOfSpeech=CD Lemma=10 NamedEntityTag=DATE NormalizedNamedEntityTag=2012-08-10 Timex=<TIMEX3 tid="t1" type="DATE" value="2012-08-10">Aug. 10, 2012</TIMEX3>] [Text=, CharacterOffsetBegin=3458 CharacterOffsetEnd=3459 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2012-08-10 Timex=<TIMEX3 tid="t1" type="DATE" value="2012-08-10">Aug. 10, 2012</TIMEX3>] [Text=2012 CharacterOffsetBegin=3460 CharacterOffsetEnd=3464 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012-08-10 Timex=<TIMEX3 tid="t1" type="DATE" value="2012-08-10">Aug. 10, 2012</TIMEX3>] [Text=. CharacterOffsetBegin=3464 CharacterOffsetEnd=3465 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN set))
+      (PP (IN of)
+        (NP
+          (NP (JJ remote) (NNS islands))
+          (VP (VBN called)
+            (NP
+              (NP (NNP Dokdo))
+              (PP (IN in)
+                (NP (NNP Korean)
+                  (CC and)
+                  (NNP Takeshima))))
+            (PP (IN in)
+              (NP (NNP Japanese)))))))
+    (VP (VBZ is)
+      (VP (VBN seen)
+        (PP (IN in)
+          (NP
+            (NP (DT this) (NN picture))
+            (VP (VBN taken)
+              (PP (IN from)
+                (NP
+                  (NP (DT a) (NN helicopter))
+                  (, ,)
+                  (NP (NNP Aug.) (CD 10) (, ,) (CD 2012)))))))))
+    (. .)))
+
+det(set-2, A-1)
+nsubjpass(seen-15, set-2)
+amod(islands-5, remote-4)
+prep_of(set-2, islands-5)
+partmod(islands-5, called-6)
+dobj(called-6, Dokdo-7)
+prep_in(Dokdo-7, Korean-9)
+prep_in(Dokdo-7, Takeshima-11)
+conj_and(Korean-9, Takeshima-11)
+prep_in(called-6, Japanese-13)
+auxpass(seen-15, is-14)
+root(ROOT-0, seen-15)
+det(picture-18, this-17)
+prep_in(seen-15, picture-18)
+partmod(picture-18, taken-19)
+det(helicopter-22, a-21)
+prep_from(taken-19, helicopter-22)
+appos(helicopter-22, Aug.-24)
+num(Aug.-24, 10-25)
+num(Aug.-24, 2012-27)
+
+Sentence #22 (25 tokens):
+South Korea's Foreign Ministry rebuked Japan for including the disputed Dokdo islands, known as Takeshima in Japan, in its security strategy.
+[Text=South CharacterOffsetBegin=3469 CharacterOffsetEnd=3474 PartOfSpeech=NNP Lemma=South NamedEntityTag=LOCATION] [Text=Korea CharacterOffsetBegin=3475 CharacterOffsetEnd=3480 PartOfSpeech=NNP Lemma=Korea NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=3480 CharacterOffsetEnd=3482 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Foreign CharacterOffsetBegin=3483 CharacterOffsetEnd=3490 PartOfSpeech=NNP Lemma=Foreign NamedEntityTag=ORGANIZATION] [Text=Ministry CharacterOffsetBegin=3491 CharacterOffsetEnd=3499 PartOfSpeech=NNP Lemma=Ministry NamedEntityTag=ORGANIZATION] [Text=rebuked CharacterOffsetBegin=3500 CharacterOffsetEnd=3507 PartOfSpeech=VBD Lemma=rebuke NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3508 CharacterOffsetEnd=3513 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=for CharacterOffsetBegin=3514 CharacterOffsetEnd=3517 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=including CharacterOffsetBegin=3518 CharacterOffsetEnd=3527 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=3528 CharacterOffsetEnd=3531 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=disputed CharacterOffsetBegin=3532 CharacterOffsetEnd=3540 PartOfSpeech=VBN Lemma=dispute NamedEntityTag=O] [Text=Dokdo CharacterOffsetBegin=3541 CharacterOffsetEnd=3546 PartOfSpeech=NNP Lemma=Dokdo NamedEntityTag=PERSON] [Text=islands CharacterOffsetBegin=3547 CharacterOffsetEnd=3554 PartOfSpeech=NNS Lemma=island NamedEntityTag=O] [Text=, CharacterOffsetBegin=3554 CharacterOffsetEnd=3555 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=known CharacterOffsetBegin=3556 CharacterOffsetEnd=3561 PartOfSpeech=VBN Lemma=know NamedEntityTag=O] [Text=as CharacterOffsetBegin=3562 CharacterOffsetEnd=3564 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Takeshima CharacterOffsetBegin=3565 CharacterOffsetEnd=3574 PartOfSpeech=NNP Lemma=Takeshima NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=3575 CharacterOffsetEnd=3577 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3578 CharacterOffsetEnd=3583 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3583 CharacterOffsetEnd=3584 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in CharacterOffsetBegin=3585 CharacterOffsetEnd=3587 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=its CharacterOffsetBegin=3588 CharacterOffsetEnd=3591 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=security CharacterOffsetBegin=3592 CharacterOffsetEnd=3600 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=3601 CharacterOffsetEnd=3609 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=. CharacterOffsetBegin=3609 CharacterOffsetEnd=3610 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP South) (NNP Korea) (POS 's))
+      (NNP Foreign) (NNP Ministry))
+    (VP (VBD rebuked)
+      (NP
+        (NP (NNP Japan))
+        (PP (IN for)
+          (S
+            (VP (VBG including)
+              (NP
+                (NP (DT the) (VBN disputed) (NNP Dokdo) (NNS islands))
+                (, ,)
+                (VP (VBN known)
+                  (PP (IN as)
+                    (NP (NNP Takeshima)))
+                  (PP (IN in)
+                    (NP (NNP Japan)))
+                  (, ,)
+                  (PP (IN in)
+                    (NP (PRP$ its) (NN security) (NN strategy))))))))))
+    (. .)))
+
+nn(Korea-2, South-1)
+poss(Ministry-5, Korea-2)
+nn(Ministry-5, Foreign-4)
+nsubj(rebuked-6, Ministry-5)
+root(ROOT-0, rebuked-6)
+dobj(rebuked-6, Japan-7)
+prepc_for(Japan-7, including-9)
+det(islands-13, the-10)
+amod(islands-13, disputed-11)
+nn(islands-13, Dokdo-12)
+dobj(including-9, islands-13)
+partmod(islands-13, known-15)
+prep_as(known-15, Takeshima-17)
+prep_in(known-15, Japan-19)
+poss(strategy-24, its-22)
+nn(strategy-24, security-23)
+prep_in(known-15, strategy-24)
+
+Sentence #23 (13 tokens):
+But spokesman Cho Tai-young stopped short of criticizing Japan's military build-up.
+[Text=But CharacterOffsetBegin=3612 CharacterOffsetEnd=3615 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=spokesman CharacterOffsetBegin=3616 CharacterOffsetEnd=3625 PartOfSpeech=NN Lemma=spokesman NamedEntityTag=O] [Text=Cho CharacterOffsetBegin=3626 CharacterOffsetEnd=3629 PartOfSpeech=NNP Lemma=Cho NamedEntityTag=PERSON] [Text=Tai-young CharacterOffsetBegin=3630 CharacterOffsetEnd=3639 PartOfSpeech=NNP Lemma=Tai-young NamedEntityTag=PERSON] [Text=stopped CharacterOffsetBegin=3640 CharacterOffsetEnd=3647 PartOfSpeech=VBD Lemma=stop NamedEntityTag=O] [Text=short CharacterOffsetBegin=3648 CharacterOffsetEnd=3653 PartOfSpeech=RB Lemma=short NamedEntityTag=O] [Text=of CharacterOffsetBegin=3654 CharacterOffsetEnd=3656 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=criticizing CharacterOffsetBegin=3657 CharacterOffsetEnd=3668 PartOfSpeech=VBG Lemma=criticize NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3669 CharacterOffsetEnd=3674 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=3674 CharacterOffsetEnd=3676 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=military CharacterOffsetBegin=3677 CharacterOffsetEnd=3685 PartOfSpeech=JJ Lemma=military NamedEntityTag=O] [Text=build-up CharacterOffsetBegin=3686 CharacterOffsetEnd=3694 PartOfSpeech=NN Lemma=build-up NamedEntityTag=O] [Text=. CharacterOffsetBegin=3694 CharacterOffsetEnd=3695 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (NN spokesman) (NNP Cho) (NNP Tai-young))
+    (VP (VBD stopped)
+      (ADVP (RB short))
+      (PP (IN of)
+        (S
+          (VP (VBG criticizing)
+            (NP
+              (NP (NNP Japan) (POS 's))
+              (JJ military) (NN build-up))))))
+    (. .)))
+
+cc(stopped-5, But-1)
+nn(Tai-young-4, spokesman-2)
+nn(Tai-young-4, Cho-3)
+nsubj(stopped-5, Tai-young-4)
+root(ROOT-0, stopped-5)
+advmod(stopped-5, short-6)
+prepc_of(stopped-5, criticizing-8)
+poss(build-up-12, Japan-9)
+amod(build-up-12, military-11)
+dobj(criticizing-8, build-up-12)
+
+Sentence #24 (13 tokens):
+He says there must be no case affecting stability in the region.
+[Text=He CharacterOffsetBegin=3702 CharacterOffsetEnd=3704 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=3705 CharacterOffsetEnd=3709 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=there CharacterOffsetBegin=3710 CharacterOffsetEnd=3715 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=must CharacterOffsetBegin=3716 CharacterOffsetEnd=3720 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=be CharacterOffsetBegin=3721 CharacterOffsetEnd=3723 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=no CharacterOffsetBegin=3724 CharacterOffsetEnd=3726 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=case CharacterOffsetBegin=3727 CharacterOffsetEnd=3731 PartOfSpeech=NN Lemma=case NamedEntityTag=O] [Text=affecting CharacterOffsetBegin=3732 CharacterOffsetEnd=3741 PartOfSpeech=VBG Lemma=affect NamedEntityTag=O] [Text=stability CharacterOffsetBegin=3742 CharacterOffsetEnd=3751 PartOfSpeech=NN Lemma=stability NamedEntityTag=O] [Text=in CharacterOffsetBegin=3752 CharacterOffsetEnd=3754 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3755 CharacterOffsetEnd=3758 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=region CharacterOffsetBegin=3759 CharacterOffsetEnd=3765 PartOfSpeech=NN Lemma=region NamedEntityTag=O] [Text=. CharacterOffsetBegin=3765 CharacterOffsetEnd=3766 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (EX there))
+          (VP (MD must)
+            (VP (VB be)
+              (NP
+                (NP (DT no) (NN case))
+                (VP (VBG affecting)
+                  (NP
+                    (NP (NN stability))
+                    (PP (IN in)
+                      (NP (DT the) (NN region)))))))))))
+    (. .)))
+
+nsubj(says-2, He-1)
+root(ROOT-0, says-2)
+expl(case-7, there-3)
+aux(case-7, must-4)
+cop(case-7, be-5)
+det(case-7, no-6)
+ccomp(says-2, case-7)
+partmod(case-7, affecting-8)
+dobj(affecting-8, stability-9)
+det(region-12, the-11)
+prep_in(stability-9, region-12)
+
+Sentence #25 (39 tokens):
+He says the government's position is that Japan's defense and security program must be done in a transparent way, respecting the ideology of its peaceful constitution and the principle of its exclusively defensive security policy.
+[Text=He CharacterOffsetBegin=3767 CharacterOffsetEnd=3769 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=3770 CharacterOffsetEnd=3774 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=3775 CharacterOffsetEnd=3778 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=government CharacterOffsetBegin=3779 CharacterOffsetEnd=3789 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text='s CharacterOffsetBegin=3789 CharacterOffsetEnd=3791 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=position CharacterOffsetBegin=3792 CharacterOffsetEnd=3800 PartOfSpeech=NN Lemma=position NamedEntityTag=O] [Text=is CharacterOffsetBegin=3801 CharacterOffsetEnd=3803 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=that CharacterOffsetBegin=3804 CharacterOffsetEnd=3808 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=3809 CharacterOffsetEnd=3814 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=3814 CharacterOffsetEnd=3816 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=defense CharacterOffsetBegin=3817 CharacterOffsetEnd=3824 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=and CharacterOffsetBegin=3825 CharacterOffsetEnd=3828 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=security CharacterOffsetBegin=3829 CharacterOffsetEnd=3837 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=program CharacterOffsetBegin=3838 CharacterOffsetEnd=3845 PartOfSpeech=NN Lemma=program NamedEntityTag=O] [Text=must CharacterOffsetBegin=3846 CharacterOffsetEnd=3850 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=be CharacterOffsetBegin=3851 CharacterOffsetEnd=3853 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=done CharacterOffsetBegin=3854 CharacterOffsetEnd=3858 PartOfSpeech=VBN Lemma=do NamedEntityTag=O] [Text=in CharacterOffsetBegin=3859 CharacterOffsetEnd=3861 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=3862 CharacterOffsetEnd=3863 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=transparent CharacterOffsetBegin=3864 CharacterOffsetEnd=3875 PartOfSpeech=JJ Lemma=transparent NamedEntityTag=O] [Text=way CharacterOffsetBegin=3876 CharacterOffsetEnd=3879 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=, CharacterOffsetBegin=3879 CharacterOffsetEnd=3880 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=respecting CharacterOffsetBegin=3881 CharacterOffsetEnd=3891 PartOfSpeech=VBG Lemma=respect NamedEntityTag=O] [Text=the CharacterOffsetBegin=3892 CharacterOffsetEnd=3895 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ideology CharacterOffsetBegin=3896 CharacterOffsetEnd=3904 PartOfSpeech=NN Lemma=ideology NamedEntityTag=O] [Text=of CharacterOffsetBegin=3905 CharacterOffsetEnd=3907 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=3908 CharacterOffsetEnd=3911 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=peaceful CharacterOffsetBegin=3912 CharacterOffsetEnd=3920 PartOfSpeech=JJ Lemma=peaceful NamedEntityTag=O] [Text=constitution CharacterOffsetBegin=3921 CharacterOffsetEnd=3933 PartOfSpeech=NN Lemma=constitution NamedEntityTag=O] [Text=and CharacterOffsetBegin=3934 CharacterOffsetEnd=3937 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=3938 CharacterOffsetEnd=3941 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=principle CharacterOffsetBegin=3942 CharacterOffsetEnd=3951 PartOfSpeech=NN Lemma=principle NamedEntityTag=O] [Text=of CharacterOffsetBegin=3952 CharacterOffsetEnd=3954 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=3955 CharacterOffsetEnd=3958 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=exclusively CharacterOffsetBegin=3959 CharacterOffsetEnd=3970 PartOfSpeech=RB Lemma=exclusively NamedEntityTag=O] [Text=defensive CharacterOffsetBegin=3971 CharacterOffsetEnd=3980 PartOfSpeech=JJ Lemma=defensive NamedEntityTag=O] [Text=security CharacterOffsetBegin=3981 CharacterOffsetEnd=3989 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=policy CharacterOffsetBegin=3990 CharacterOffsetEnd=3996 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=3996 CharacterOffsetEnd=3997 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN government) (POS 's))
+            (NN position))
+          (VP (VBZ is)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP
+                    (NP (NNP Japan) (POS 's))
+                    (NN defense))
+                  (CC and)
+                  (NP (NN security) (NN program)))
+                (VP (MD must)
+                  (VP (VB be)
+                    (VP (VBN done)
+                      (PP (IN in)
+                        (NP (DT a) (JJ transparent) (NN way)))
+                      (, ,)
+                      (S
+                        (VP (VBG respecting)
+                          (NP
+                            (NP
+                              (NP (DT the) (NN ideology))
+                              (PP (IN of)
+                                (NP (PRP$ its) (JJ peaceful) (NN constitution))))
+                            (CC and)
+                            (NP
+                              (NP (DT the) (NN principle))
+                              (PP (IN of)
+                                (NP (PRP$ its)
+                                  (ADJP
+                                    (ADVP (RB exclusively))
+                                    (JJ defensive))
+                                  (NN security) (NN policy))))))))))))))))
+    (. .)))
+
+nsubj(says-2, He-1)
+root(ROOT-0, says-2)
+det(government-4, the-3)
+poss(position-6, government-4)
+nsubj(is-7, position-6)
+ccomp(says-2, is-7)
+mark(done-17, that-8)
+poss(defense-11, Japan-9)
+nsubjpass(done-17, defense-11)
+nn(program-14, security-13)
+conj_and(defense-11, program-14)
+nsubjpass(done-17, program-14)
+aux(done-17, must-15)
+auxpass(done-17, be-16)
+ccomp(is-7, done-17)
+det(way-21, a-19)
+amod(way-21, transparent-20)
+prep_in(done-17, way-21)
+xcomp(done-17, respecting-23)
+det(ideology-25, the-24)
+dobj(respecting-23, ideology-25)
+poss(constitution-29, its-27)
+amod(constitution-29, peaceful-28)
+prep_of(ideology-25, constitution-29)
+det(principle-32, the-31)
+dobj(respecting-23, principle-32)
+conj_and(ideology-25, principle-32)
+poss(policy-38, its-34)
+advmod(defensive-36, exclusively-35)
+amod(policy-38, defensive-36)
+nn(policy-38, security-37)
+prep_of(principle-32, policy-38)
+
+Sentence #26 (31 tokens):
+Jeff Kingston, director of Asian Studies at Japan's Temple University, says China's expanded air defense zone has pushed Seoul, Tokyo, and Washington closer together.
+[Text=Jeff CharacterOffsetBegin=4004 CharacterOffsetEnd=4008 PartOfSpeech=NNP Lemma=Jeff NamedEntityTag=PERSON] [Text=Kingston CharacterOffsetBegin=4009 CharacterOffsetEnd=4017 PartOfSpeech=NNP Lemma=Kingston NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=4017 CharacterOffsetEnd=4018 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=director CharacterOffsetBegin=4019 CharacterOffsetEnd=4027 PartOfSpeech=NN Lemma=director NamedEntityTag=O] [Text=of CharacterOffsetBegin=4028 CharacterOffsetEnd=4030 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Asian CharacterOffsetBegin=4031 CharacterOffsetEnd=4036 PartOfSpeech=JJ Lemma=asian NamedEntityTag=O] [Text=Studies CharacterOffsetBegin=4037 CharacterOffsetEnd=4044 PartOfSpeech=NNS Lemma=study NamedEntityTag=O] [Text=at CharacterOffsetBegin=4045 CharacterOffsetEnd=4047 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=4048 CharacterOffsetEnd=4053 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4053 CharacterOffsetEnd=4055 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Temple CharacterOffsetBegin=4056 CharacterOffsetEnd=4062 PartOfSpeech=NNP Lemma=Temple NamedEntityTag=ORGANIZATION] [Text=University CharacterOffsetBegin=4063 CharacterOffsetEnd=4073 PartOfSpeech=NNP Lemma=University NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=4073 CharacterOffsetEnd=4074 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=says CharacterOffsetBegin=4075 CharacterOffsetEnd=4079 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=China CharacterOffsetBegin=4080 CharacterOffsetEnd=4085 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4085 CharacterOffsetEnd=4087 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=expanded CharacterOffsetBegin=4088 CharacterOffsetEnd=4096 PartOfSpeech=VBN Lemma=expand NamedEntityTag=O] [Text=air CharacterOffsetBegin=4097 CharacterOffsetEnd=4100 PartOfSpeech=NN Lemma=air NamedEntityTag=O] [Text=defense CharacterOffsetBegin=4101 CharacterOffsetEnd=4108 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=zone CharacterOffsetBegin=4109 CharacterOffsetEnd=4113 PartOfSpeech=NN Lemma=zone NamedEntityTag=O] [Text=has CharacterOffsetBegin=4114 CharacterOffsetEnd=4117 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=pushed CharacterOffsetBegin=4118 CharacterOffsetEnd=4124 PartOfSpeech=VBN Lemma=push NamedEntityTag=O] [Text=Seoul CharacterOffsetBegin=4125 CharacterOffsetEnd=4130 PartOfSpeech=NNP Lemma=Seoul NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=4130 CharacterOffsetEnd=4131 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tokyo CharacterOffsetBegin=4132 CharacterOffsetEnd=4137 PartOfSpeech=NNP Lemma=Tokyo NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=4137 CharacterOffsetEnd=4138 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=4139 CharacterOffsetEnd=4142 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Washington CharacterOffsetBegin=4143 CharacterOffsetEnd=4153 PartOfSpeech=NNP Lemma=Washington NamedEntityTag=LOCATION] [Text=closer CharacterOffsetBegin=4154 CharacterOffsetEnd=4160 PartOfSpeech=RBR Lemma=closer NamedEntityTag=O] [Text=together CharacterOffsetBegin=4161 CharacterOffsetEnd=4169 PartOfSpeech=RB Lemma=together NamedEntityTag=O] [Text=. CharacterOffsetBegin=4169 CharacterOffsetEnd=4170 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jeff) (NNP Kingston))
+      (, ,)
+      (NP
+        (NP (NN director))
+        (PP (IN of)
+          (NP
+            (NP (JJ Asian) (NNS Studies))
+            (PP (IN at)
+              (NP
+                (NP (NNP Japan) (POS 's))
+                (NNP Temple) (NNP University))))))
+      (, ,))
+    (VP (VBZ says)
+      (NP
+        (NP
+          (NP (NNP China) (POS 's))
+          (VBN expanded) (NN air))
+        (SBAR
+          (S
+            (NP (NN defense) (NN zone))
+            (VP (VBZ has)
+              (VP (VBN pushed)
+                (NP (NNP Seoul) (, ,) (NNP Tokyo) (, ,)
+                  (CC and)
+                  (NNP Washington))
+                (ADVP (RBR closer) (RB together))))))))
+    (. .)))
+
+nn(Kingston-2, Jeff-1)
+nsubj(says-14, Kingston-2)
+appos(Kingston-2, director-4)
+amod(Studies-7, Asian-6)
+prep_of(director-4, Studies-7)
+poss(University-12, Japan-9)
+nn(University-12, Temple-11)
+prep_at(Studies-7, University-12)
+root(ROOT-0, says-14)
+poss(air-18, China-15)
+amod(air-18, expanded-17)
+dobj(says-14, air-18)
+nn(zone-20, defense-19)
+nsubj(pushed-22, zone-20)
+aux(pushed-22, has-21)
+rcmod(air-18, pushed-22)
+dobj(pushed-22, Seoul-23)
+dobj(pushed-22, Tokyo-25)
+conj_and(Seoul-23, Tokyo-25)
+dobj(pushed-22, Washington-28)
+conj_and(Seoul-23, Washington-28)
+advmod(together-30, closer-29)
+advmod(pushed-22, together-30)
+
+Sentence #27 (27 tokens):
+"And, Japan's reaction to Seoul's announcement of its own expanded ADIZ was very low key even though it overlaps the Japanese ADIZ.
+[Text=`` CharacterOffsetBegin=4176 CharacterOffsetEnd=4177 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=And CharacterOffsetBegin=4177 CharacterOffsetEnd=4180 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=, CharacterOffsetBegin=4180 CharacterOffsetEnd=4181 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=4182 CharacterOffsetEnd=4187 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4187 CharacterOffsetEnd=4189 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=reaction CharacterOffsetBegin=4190 CharacterOffsetEnd=4198 PartOfSpeech=NN Lemma=reaction NamedEntityTag=O] [Text=to CharacterOffsetBegin=4199 CharacterOffsetEnd=4201 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Seoul CharacterOffsetBegin=4202 CharacterOffsetEnd=4207 PartOfSpeech=NNP Lemma=Seoul NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4207 CharacterOffsetEnd=4209 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=announcement CharacterOffsetBegin=4210 CharacterOffsetEnd=4222 PartOfSpeech=NN Lemma=announcement NamedEntityTag=O] [Text=of CharacterOffsetBegin=4223 CharacterOffsetEnd=4225 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=4226 CharacterOffsetEnd=4229 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=own CharacterOffsetBegin=4230 CharacterOffsetEnd=4233 PartOfSpeech=JJ Lemma=own NamedEntityTag=O] [Text=expanded CharacterOffsetBegin=4234 CharacterOffsetEnd=4242 PartOfSpeech=VBN Lemma=expand NamedEntityTag=O] [Text=ADIZ CharacterOffsetBegin=4243 CharacterOffsetEnd=4247 PartOfSpeech=NN Lemma=adiz NamedEntityTag=O] [Text=was CharacterOffsetBegin=4248 CharacterOffsetEnd=4251 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=4252 CharacterOffsetEnd=4256 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=low CharacterOffsetBegin=4257 CharacterOffsetEnd=4260 PartOfSpeech=JJ Lemma=low NamedEntityTag=O] [Text=key CharacterOffsetBegin=4261 CharacterOffsetEnd=4264 PartOfSpeech=NN Lemma=key NamedEntityTag=O] [Text=even CharacterOffsetBegin=4265 CharacterOffsetEnd=4269 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=though CharacterOffsetBegin=4270 CharacterOffsetEnd=4276 PartOfSpeech=IN Lemma=though NamedEntityTag=O] [Text=it CharacterOffsetBegin=4277 CharacterOffsetEnd=4279 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=overlaps CharacterOffsetBegin=4280 CharacterOffsetEnd=4288 PartOfSpeech=VBZ Lemma=overlap NamedEntityTag=O] [Text=the CharacterOffsetBegin=4289 CharacterOffsetEnd=4292 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=4293 CharacterOffsetEnd=4301 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=ADIZ CharacterOffsetBegin=4302 CharacterOffsetEnd=4306 PartOfSpeech=NN Lemma=adiz NamedEntityTag=O] [Text=. CharacterOffsetBegin=4306 CharacterOffsetEnd=4307 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S (CC And)
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP Japan) (POS 's))
+          (NN reaction))
+        (PP (TO to)
+          (NP
+            (NP
+              (NP (NNP Seoul) (POS 's))
+              (NN announcement))
+            (PP (IN of)
+              (NP (PRP$ its) (JJ own) (VBN expanded) (NN ADIZ))))))
+      (VP (VBD was)
+        (NP
+          (ADJP (RB very) (JJ low))
+          (NN key))
+        (ADVP (RB even) (IN though))))
+    (NP (PRP it))
+    (VP (VBZ overlaps)
+      (NP (DT the) (JJ Japanese) (NN ADIZ)))
+    (. .)))
+
+cc(key-19, And-2)
+poss(reaction-6, Japan-4)
+nsubj(key-19, reaction-6)
+poss(announcement-10, Seoul-8)
+prep_to(reaction-6, announcement-10)
+poss(ADIZ-15, its-12)
+amod(ADIZ-15, own-13)
+amod(ADIZ-15, expanded-14)
+prep_of(announcement-10, ADIZ-15)
+cop(key-19, was-16)
+advmod(low-18, very-17)
+amod(key-19, low-18)
+dep(overlaps-23, key-19)
+advmod(though-21, even-20)
+advmod(key-19, though-21)
+nsubj(overlaps-23, it-22)
+root(ROOT-0, overlaps-23)
+det(ADIZ-26, the-24)
+amod(ADIZ-26, Japanese-25)
+dobj(overlaps-23, ADIZ-26)
+
+Sentence #28 (42 tokens):
+So, I think that we're far from a thaw in Korean-Japanese relations but, compared to what's been going over the last year, I guess this is one of the more encouraging signs," said Kingston.
+[Text=So CharacterOffsetBegin=4308 CharacterOffsetEnd=4310 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=, CharacterOffsetBegin=4310 CharacterOffsetEnd=4311 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=4312 CharacterOffsetEnd=4313 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=think CharacterOffsetBegin=4314 CharacterOffsetEnd=4319 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=that CharacterOffsetBegin=4320 CharacterOffsetEnd=4324 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=we CharacterOffsetBegin=4325 CharacterOffsetEnd=4327 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text='re CharacterOffsetBegin=4327 CharacterOffsetEnd=4330 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=far CharacterOffsetBegin=4331 CharacterOffsetEnd=4334 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=from CharacterOffsetBegin=4335 CharacterOffsetEnd=4339 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=4340 CharacterOffsetEnd=4341 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=thaw CharacterOffsetBegin=4342 CharacterOffsetEnd=4346 PartOfSpeech=NN Lemma=thaw NamedEntityTag=O] [Text=in CharacterOffsetBegin=4347 CharacterOffsetEnd=4349 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Korean-Japanese CharacterOffsetBegin=4350 CharacterOffsetEnd=4365 PartOfSpeech=JJ Lemma=korean-japanese NamedEntityTag=MISC] [Text=relations CharacterOffsetBegin=4366 CharacterOffsetEnd=4375 PartOfSpeech=NNS Lemma=relation NamedEntityTag=O] [Text=but CharacterOffsetBegin=4376 CharacterOffsetEnd=4379 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=, CharacterOffsetBegin=4379 CharacterOffsetEnd=4380 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=compared CharacterOffsetBegin=4381 CharacterOffsetEnd=4389 PartOfSpeech=VBN Lemma=compare NamedEntityTag=O] [Text=to CharacterOffsetBegin=4390 CharacterOffsetEnd=4392 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=what CharacterOffsetBegin=4393 CharacterOffsetEnd=4397 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text='s CharacterOffsetBegin=4397 CharacterOffsetEnd=4399 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=been CharacterOffsetBegin=4400 CharacterOffsetEnd=4404 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=4405 CharacterOffsetEnd=4410 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=over CharacterOffsetBegin=4411 CharacterOffsetEnd=4415 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=4416 CharacterOffsetEnd=4419 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the last year</TIMEX3>] [Text=last CharacterOffsetBegin=4420 CharacterOffsetEnd=4424 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the last year</TIMEX3>] [Text=year CharacterOffsetBegin=4425 CharacterOffsetEnd=4429 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the last year</TIMEX3>] [Text=, CharacterOffsetBegin=4429 CharacterOffsetEnd=4430 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=4431 CharacterOffsetEnd=4432 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=guess CharacterOffsetBegin=4433 CharacterOffsetEnd=4438 PartOfSpeech=VBP Lemma=guess NamedEntityTag=O] [Text=this CharacterOffsetBegin=4439 CharacterOffsetEnd=4443 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=is CharacterOffsetBegin=4444 CharacterOffsetEnd=4446 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=one CharacterOffsetBegin=4447 CharacterOffsetEnd=4450 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=4451 CharacterOffsetEnd=4453 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=4454 CharacterOffsetEnd=4457 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=more CharacterOffsetBegin=4458 CharacterOffsetEnd=4462 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=encouraging CharacterOffsetBegin=4463 CharacterOffsetEnd=4474 PartOfSpeech=JJ Lemma=encouraging NamedEntityTag=O] [Text=signs CharacterOffsetBegin=4475 CharacterOffsetEnd=4480 PartOfSpeech=NNS Lemma=sign NamedEntityTag=O] [Text=, CharacterOffsetBegin=4480 CharacterOffsetEnd=4481 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=4481 CharacterOffsetEnd=4482 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=4483 CharacterOffsetEnd=4487 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Kingston CharacterOffsetBegin=4488 CharacterOffsetEnd=4496 PartOfSpeech=NNP Lemma=Kingston NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=4496 CharacterOffsetEnd=4497 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (ADVP (RB So))
+      (, ,)
+      (S
+        (NP (PRP I))
+        (VP (VBP think)
+          (SBAR (IN that)
+            (S
+              (NP (PRP we))
+              (VP (VBP 're)
+                (ADVP (RB far)
+                  (PP (IN from)
+                    (NP
+                      (NP (DT a) (NN thaw))
+                      (PP (IN in)
+                        (NP (JJ Korean-Japanese) (NNS relations))))))
+                (ADVP (CC but))
+                (, ,)
+                (PP (VBN compared)
+                  (PP (TO to)
+                    (SBAR
+                      (WHNP (WP what))
+                      (S
+                        (VP (VBZ 's)
+                          (VP (VBN been)
+                            (VP (VBG going)
+                              (PP (IN over)
+                                (NP (DT the) (JJ last) (NN year)))))))))))))))
+      (, ,)
+      (S
+        (NP (PRP I))
+        (VP (VBP guess)
+          (SBAR
+            (S
+              (NP (DT this))
+              (VP (VBZ is)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (DT the)
+                      (ADJP (RBR more) (JJ encouraging))
+                      (NNS signs))))))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP (NNP Kingston))
+    (. .)))
+
+advmod(think-4, So-1)
+nsubj(think-4, I-3)
+ccomp(said-40, think-4)
+mark('re-7, that-5)
+nsubj('re-7, we-6)
+ccomp(think-4, 're-7)
+det(thaw-11, a-10)
+prep_far_from('re-7, thaw-11)
+amod(relations-14, Korean-Japanese-13)
+prep_in(thaw-11, relations-14)
+advmod('re-7, but-15)
+prepc_compared_to('re-7, to-18)
+nsubjpass(going-22, what-19)
+auxpass(going-22, 's-20)
+aux(going-22, been-21)
+pcomp('re-7, going-22)
+det(year-26, the-24)
+amod(year-26, last-25)
+prep_over(going-22, year-26)
+nsubj(guess-29, I-28)
+parataxis(think-4, guess-29)
+nsubj(one-32, this-30)
+cop(one-32, is-31)
+ccomp(guess-29, one-32)
+det(signs-37, the-34)
+advmod(encouraging-36, more-35)
+amod(signs-37, encouraging-36)
+prep_of(one-32, signs-37)
+root(ROOT-0, said-40)
+nsubj(said-40, Kingston-41)
+
+Sentence #29 (26 tokens):
+Japan's national security strategy also notes concerns about North Korea's nuclear weapons and missile programs and budgets for two new Aegis missile destroyers.
+[Text=Japan CharacterOffsetBegin=4504 CharacterOffsetEnd=4509 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4509 CharacterOffsetEnd=4511 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=national CharacterOffsetBegin=4512 CharacterOffsetEnd=4520 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=security CharacterOffsetBegin=4521 CharacterOffsetEnd=4529 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=4530 CharacterOffsetEnd=4538 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=also CharacterOffsetBegin=4539 CharacterOffsetEnd=4543 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=notes CharacterOffsetBegin=4544 CharacterOffsetEnd=4549 PartOfSpeech=VBZ Lemma=note NamedEntityTag=O] [Text=concerns CharacterOffsetBegin=4550 CharacterOffsetEnd=4558 PartOfSpeech=NNS Lemma=concern NamedEntityTag=O] [Text=about CharacterOffsetBegin=4559 CharacterOffsetEnd=4564 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=North CharacterOffsetBegin=4565 CharacterOffsetEnd=4570 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION] [Text=Korea CharacterOffsetBegin=4571 CharacterOffsetEnd=4576 PartOfSpeech=NNP Lemma=Korea NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=4576 CharacterOffsetEnd=4578 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=nuclear CharacterOffsetBegin=4579 CharacterOffsetEnd=4586 PartOfSpeech=JJ Lemma=nuclear NamedEntityTag=O] [Text=weapons CharacterOffsetBegin=4587 CharacterOffsetEnd=4594 PartOfSpeech=NNS Lemma=weapon NamedEntityTag=O] [Text=and CharacterOffsetBegin=4595 CharacterOffsetEnd=4598 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=missile CharacterOffsetBegin=4599 CharacterOffsetEnd=4606 PartOfSpeech=NN Lemma=missile NamedEntityTag=O] [Text=programs CharacterOffsetBegin=4607 CharacterOffsetEnd=4615 PartOfSpeech=NNS Lemma=program NamedEntityTag=O] [Text=and CharacterOffsetBegin=4616 CharacterOffsetEnd=4619 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=budgets CharacterOffsetBegin=4620 CharacterOffsetEnd=4627 PartOfSpeech=NNS Lemma=budget NamedEntityTag=O] [Text=for CharacterOffsetBegin=4628 CharacterOffsetEnd=4631 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=two CharacterOffsetBegin=4632 CharacterOffsetEnd=4635 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=new CharacterOffsetBegin=4636 CharacterOffsetEnd=4639 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=Aegis CharacterOffsetBegin=4640 CharacterOffsetEnd=4645 PartOfSpeech=NNP Lemma=Aegis NamedEntityTag=O] [Text=missile CharacterOffsetBegin=4646 CharacterOffsetEnd=4653 PartOfSpeech=NN Lemma=missile NamedEntityTag=O] [Text=destroyers CharacterOffsetBegin=4654 CharacterOffsetEnd=4664 PartOfSpeech=NNS Lemma=destroyer NamedEntityTag=O] [Text=. CharacterOffsetBegin=4664 CharacterOffsetEnd=4665 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Japan) (POS 's))
+      (JJ national) (NN security) (NN strategy))
+    (ADVP (RB also))
+    (VP (VBZ notes)
+      (NP
+        (NP (NNS concerns))
+        (PP (IN about)
+          (NP
+            (NP
+              (NP
+                (NP (NNP North) (NNP Korea) (POS 's))
+                (JJ nuclear) (NNS weapons))
+              (CC and)
+              (NP (NN missile) (NNS programs)))
+            (CC and)
+            (NNS budgets)))
+        (PP (IN for)
+          (NP (CD two) (JJ new) (NNP Aegis) (NN missile) (NNS destroyers)))))
+    (. .)))
+
+poss(strategy-5, Japan-1)
+amod(strategy-5, national-3)
+nn(strategy-5, security-4)
+nsubj(notes-7, strategy-5)
+advmod(notes-7, also-6)
+root(ROOT-0, notes-7)
+dobj(notes-7, concerns-8)
+nn(Korea-11, North-10)
+poss(weapons-14, Korea-11)
+amod(weapons-14, nuclear-13)
+prep_about(concerns-8, weapons-14)
+nn(programs-17, missile-16)
+prep_about(concerns-8, programs-17)
+conj_and(weapons-14, programs-17)
+prep_about(concerns-8, budgets-19)
+conj_and(weapons-14, budgets-19)
+num(destroyers-25, two-21)
+amod(destroyers-25, new-22)
+nn(destroyers-25, Aegis-23)
+nn(destroyers-25, missile-24)
+prep_for(concerns-8, destroyers-25)
+
+Sentence #30 (17 tokens):
+The strategy will also set up new guidelines for joint development and production of arms exports.
+[Text=The CharacterOffsetBegin=4672 CharacterOffsetEnd=4675 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=4676 CharacterOffsetEnd=4684 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=will CharacterOffsetBegin=4685 CharacterOffsetEnd=4689 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=also CharacterOffsetBegin=4690 CharacterOffsetEnd=4694 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=set CharacterOffsetBegin=4695 CharacterOffsetEnd=4698 PartOfSpeech=VB Lemma=set NamedEntityTag=O] [Text=up CharacterOffsetBegin=4699 CharacterOffsetEnd=4701 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=new CharacterOffsetBegin=4702 CharacterOffsetEnd=4705 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=guidelines CharacterOffsetBegin=4706 CharacterOffsetEnd=4716 PartOfSpeech=NNS Lemma=guideline NamedEntityTag=O] [Text=for CharacterOffsetBegin=4717 CharacterOffsetEnd=4720 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=joint CharacterOffsetBegin=4721 CharacterOffsetEnd=4726 PartOfSpeech=JJ Lemma=joint NamedEntityTag=O] [Text=development CharacterOffsetBegin=4727 CharacterOffsetEnd=4738 PartOfSpeech=NN Lemma=development NamedEntityTag=O] [Text=and CharacterOffsetBegin=4739 CharacterOffsetEnd=4742 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=production CharacterOffsetBegin=4743 CharacterOffsetEnd=4753 PartOfSpeech=NN Lemma=production NamedEntityTag=O] [Text=of CharacterOffsetBegin=4754 CharacterOffsetEnd=4756 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=arms CharacterOffsetBegin=4757 CharacterOffsetEnd=4761 PartOfSpeech=NNS Lemma=arm NamedEntityTag=O] [Text=exports CharacterOffsetBegin=4762 CharacterOffsetEnd=4769 PartOfSpeech=NNS Lemma=export NamedEntityTag=O] [Text=. CharacterOffsetBegin=4769 CharacterOffsetEnd=4770 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN strategy))
+    (VP (MD will)
+      (ADVP (RB also))
+      (VP (VB set)
+        (PRT (RP up))
+        (NP
+          (NP (JJ new) (NNS guidelines))
+          (PP (IN for)
+            (NP (JJ joint) (NN development)
+              (CC and)
+              (NN production)))
+          (PP (IN of)
+            (NP (NNS arms) (NNS exports))))))
+    (. .)))
+
+det(strategy-2, The-1)
+nsubj(set-5, strategy-2)
+aux(set-5, will-3)
+advmod(set-5, also-4)
+root(ROOT-0, set-5)
+prt(set-5, up-6)
+amod(guidelines-8, new-7)
+dobj(set-5, guidelines-8)
+amod(development-11, joint-10)
+prep_for(guidelines-8, development-11)
+prep_for(guidelines-8, production-13)
+conj_and(development-11, production-13)
+nn(exports-16, arms-15)
+prep_of(guidelines-8, exports-16)
+
+Sentence #31 (20 tokens):
+Tokyo in 2011 lifted a four-decade-old ban on weapons exports but has been cautious to grow its defense industry.
+[Text=Tokyo CharacterOffsetBegin=4771 CharacterOffsetEnd=4776 PartOfSpeech=NNP Lemma=Tokyo NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=4777 CharacterOffsetEnd=4779 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2011 CharacterOffsetBegin=4780 CharacterOffsetEnd=4784 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011 Timex=<TIMEX3 tid="t1" type="DATE" value="2011">2011</TIMEX3>] [Text=lifted CharacterOffsetBegin=4785 CharacterOffsetEnd=4791 PartOfSpeech=VBD Lemma=lift NamedEntityTag=O] [Text=a CharacterOffsetBegin=4792 CharacterOffsetEnd=4793 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=four-decade-old CharacterOffsetBegin=4794 CharacterOffsetEnd=4809 PartOfSpeech=JJ Lemma=four-decade-old NamedEntityTag=O] [Text=ban CharacterOffsetBegin=4810 CharacterOffsetEnd=4813 PartOfSpeech=NN Lemma=ban NamedEntityTag=O] [Text=on CharacterOffsetBegin=4814 CharacterOffsetEnd=4816 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=weapons CharacterOffsetBegin=4817 CharacterOffsetEnd=4824 PartOfSpeech=NNS Lemma=weapon NamedEntityTag=O] [Text=exports CharacterOffsetBegin=4825 CharacterOffsetEnd=4832 PartOfSpeech=NNS Lemma=export NamedEntityTag=O] [Text=but CharacterOffsetBegin=4833 CharacterOffsetEnd=4836 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=has CharacterOffsetBegin=4837 CharacterOffsetEnd=4840 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=4841 CharacterOffsetEnd=4845 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=cautious CharacterOffsetBegin=4846 CharacterOffsetEnd=4854 PartOfSpeech=JJ Lemma=cautious NamedEntityTag=O] [Text=to CharacterOffsetBegin=4855 CharacterOffsetEnd=4857 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=grow CharacterOffsetBegin=4858 CharacterOffsetEnd=4862 PartOfSpeech=VB Lemma=grow NamedEntityTag=O] [Text=its CharacterOffsetBegin=4863 CharacterOffsetEnd=4866 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=defense CharacterOffsetBegin=4867 CharacterOffsetEnd=4874 PartOfSpeech=NN Lemma=defense NamedEntityTag=O] [Text=industry CharacterOffsetBegin=4875 CharacterOffsetEnd=4883 PartOfSpeech=NN Lemma=industry NamedEntityTag=O] [Text=. CharacterOffsetBegin=4883 CharacterOffsetEnd=4884 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Tokyo))
+      (PP (IN in)
+        (NP (CD 2011))))
+    (VP
+      (VP (VBD lifted)
+        (NP (DT a) (JJ four-decade-old) (NN ban))
+        (PP (IN on)
+          (NP (NNS weapons) (NNS exports))))
+      (CC but)
+      (VP (VBZ has)
+        (VP (VBN been)
+          (ADJP (JJ cautious)
+            (S
+              (VP (TO to)
+                (VP (VB grow)
+                  (NP (PRP$ its) (NN defense) (NN industry)))))))))
+    (. .)))
+
+nsubj(lifted-4, Tokyo-1)
+nsubj(cautious-14, Tokyo-1)
+xsubj(grow-16, Tokyo-1)
+prep_in(Tokyo-1, 2011-3)
+root(ROOT-0, lifted-4)
+det(ban-7, a-5)
+amod(ban-7, four-decade-old-6)
+dobj(lifted-4, ban-7)
+nn(exports-10, weapons-9)
+prep_on(lifted-4, exports-10)
+aux(cautious-14, has-12)
+cop(cautious-14, been-13)
+conj_but(lifted-4, cautious-14)
+aux(grow-16, to-15)
+xcomp(cautious-14, grow-16)
+poss(industry-19, its-17)
+nn(industry-19, defense-18)
+dobj(grow-16, industry-19)
+
+Coreference set:
+	(24,1,[1,2)) -> (23,4,[2,5)), that is: "He" -> "spokesman Cho Tai-young"
+	(25,1,[1,2)) -> (23,4,[2,5)), that is: "He" -> "spokesman Cho Tai-young"
+Coreference set:
+	(1,1,[1,2)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(1,10,[10,11)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(3,1,[1,3)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(6,29,[29,30)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(7,4,[4,6)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(8,9,[9,11)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(11,14,[14,15)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(12,1,[1,3)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(12,27,[27,28)) -> (18,17,[15,21)), that is: "its" -> "U.S. allies Japan and South Korea"
+	(13,1,[1,3)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(13,8,[8,9)) -> (18,17,[15,21)), that is: "its" -> "U.S. allies Japan and South Korea"
+	(13,29,[29,31)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(14,8,[8,10)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(15,6,[6,7)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(16,3,[3,5)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(18,17,[15,18)) -> (18,17,[15,21)), that is: "U.S. allies Japan" -> "U.S. allies Japan and South Korea"
+	(18,17,[17,18)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(19,7,[7,18)) -> (18,17,[15,21)), that is: "Japan , South Korea , and the U.S. in late November" -> "U.S. allies Japan and South Korea"
+	(19,7,[7,8)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(19,14,[13,18)) -> (18,17,[15,21)), that is: "the U.S. in late November" -> "U.S. allies Japan and South Korea"
+	(20,14,[14,15)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(22,19,[19,20)) -> (18,17,[15,21)), that is: "Japan" -> "U.S. allies Japan and South Korea"
+	(23,9,[9,11)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(25,9,[9,11)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(26,9,[9,11)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(27,4,[4,6)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+	(27,12,[12,13)) -> (18,17,[15,21)), that is: "its" -> "U.S. allies Japan and South Korea"
+	(29,1,[1,3)) -> (18,17,[15,21)), that is: "Japan 's" -> "U.S. allies Japan and South Korea"
+Coreference set:
+	(6,34,[34,35)) -> (1,24,[24,26)), that is: "China" -> "China 's"
+	(7,27,[27,28)) -> (1,24,[24,26)), that is: "China" -> "China 's"
+	(14,1,[1,3)) -> (1,24,[24,26)), that is: "China 's" -> "China 's"
+	(17,7,[7,8)) -> (1,24,[24,26)), that is: "China" -> "China 's"
+	(19,2,[2,3)) -> (1,24,[24,26)), that is: "China" -> "China 's"
+	(19,24,[24,25)) -> (1,24,[24,26)), that is: "its" -> "China 's"
+	(26,15,[15,17)) -> (1,24,[24,26)), that is: "China 's" -> "China 's"
+Coreference set:
+	(7,8,[8,9)) -> (2,15,[15,16)), that is: "Beijing" -> "Beijing"
+	(18,25,[25,26)) -> (2,15,[15,16)), that is: "Beijing" -> "Beijing"
+Coreference set:
+	(21,22,[21,28)) -> (21,24,[24,28)), that is: "a helicopter , Aug. 10 , 2012" -> "Aug. 10 , 2012"
+	(21,22,[21,23)) -> (21,24,[24,28)), that is: "a helicopter" -> "Aug. 10 , 2012"
+Coreference set:
+	(2,22,[22,23)) -> (2,2,[1,3)), that is: "its" -> "The plan"
+Coreference set:
+	(24,12,[11,13)) -> (2,18,[17,19)), that is: "the region" -> "the region"
+Coreference set:
+	(2,28,[28,29)) -> (19,28,[24,29)), that is: "ADIZ" -> "its Air Defense Identification Zone"
+	(19,22,[21,29)) -> (19,28,[24,29)), that is: "the expansion of its Air Defense Identification Zone" -> "its Air Defense Identification Zone"
+	(26,20,[19,21)) -> (19,28,[24,29)), that is: "defense zone" -> "its Air Defense Identification Zone"
+Coreference set:
+	(6,40,[37,41)) -> (2,34,[31,35)), that is: "the East China Sea" -> "the East China Sea"
+	(19,33,[30,34)) -> (2,34,[31,35)), that is: "the East China Sea" -> "the East China Sea"
+Coreference set:
+	(5,8,[8,9)) -> (3,10,[10,11)), that is: "first" -> "first"
+Coreference set:
+	(14,6,[6,7)) -> (3,5,[5,6)), that is: "Tuesday" -> "Tuesday"
+Coreference set:
+	(22,13,[10,14)) -> (22,13,[10,25)), that is: "the disputed Dokdo islands" -> "the disputed Dokdo islands , known as Takeshima in Japan , in its security strategy"
+Coreference set:
+	(3,9,[9,10)) -> (3,3,[1,6)), that is: "its" -> "Japan 's Cabinet on Tuesday"
+Coreference set:
+	(25,27,[27,28)) -> (25,11,[9,12)), that is: "its" -> "Japan 's defense"
+Coreference set:
+	(4,12,[11,18)) -> (4,12,[11,28)), that is: "fighter jets , combat and amphibious vehicles" -> "fighter jets , combat and amphibious vehicles , as well as surveillance drones and early warning aircraft"
+	(4,12,[11,13)) -> (4,12,[11,28)), that is: "fighter jets" -> "fighter jets , combat and amphibious vehicles , as well as surveillance drones and early warning aircraft"
+	(4,17,[16,18)) -> (4,12,[11,28)), that is: "amphibious vehicles" -> "fighter jets , combat and amphibious vehicles , as well as surveillance drones and early warning aircraft"
+	(4,23,[22,28)) -> (4,12,[11,28)), that is: "surveillance drones and early warning aircraft" -> "fighter jets , combat and amphibious vehicles , as well as surveillance drones and early warning aircraft"
+	(4,23,[22,24)) -> (4,12,[11,28)), that is: "surveillance drones" -> "fighter jets , combat and amphibious vehicles , as well as surveillance drones and early warning aircraft"
+Coreference set:
+	(25,34,[34,35)) -> (25,25,[24,30)), that is: "its" -> "the ideology of its peaceful constitution"
+Coreference set:
+	(26,2,[1,3)) -> (26,2,[1,14)), that is: "Jeff Kingston" -> "Jeff Kingston , director of Asian Studies at Japan 's Temple University ,"
+	(26,4,[4,13)) -> (26,2,[1,14)), that is: "director of Asian Studies at Japan 's Temple University" -> "Jeff Kingston , director of Asian Studies at Japan 's Temple University ,"
+	(28,3,[3,4)) -> (26,2,[1,14)), that is: "I" -> "Jeff Kingston , director of Asian Studies at Japan 's Temple University ,"
+	(28,28,[28,29)) -> (26,2,[1,14)), that is: "I" -> "Jeff Kingston , director of Asian Studies at Japan 's Temple University ,"
+	(28,41,[41,42)) -> (26,2,[1,14)), that is: "Kingston" -> "Jeff Kingston , director of Asian Studies at Japan 's Temple University ,"
+Coreference set:
+	(5,4,[1,5)) -> (10,6,[3,7)), that is: "The national security strategy" -> "the National Security Strategy"
+	(5,10,[10,11)) -> (10,6,[3,7)), that is: "it" -> "the National Security Strategy"
+	(22,24,[22,25)) -> (10,6,[3,7)), that is: "its security strategy" -> "the National Security Strategy"
+Coreference set:
+	(6,26,[26,27)) -> (7,20,[19,21)), that is: "Senkaku" -> "Japan-administered Senkaku"
+Coreference set:
+	(7,25,[25,26)) -> (6,31,[31,32)), that is: "Diaoyu" -> "Diaoyu"
+Coreference set:
+	(6,7,[7,11)) -> (6,7,[7,12)), that is: "Oct. 13 , 2011" -> "Oct. 13 , 2011 ,"
+Coreference set:
+	(7,1,[1,2)) -> (6,2,[1,23)), that is: "It" -> "-LRB- File -RRB- This photo from Oct. 13 , 2011 , shows Japanese Maritime Self-Defense Force plane flying over the disputed islets"
+Coreference set:
+	(30,2,[1,3)) -> (29,5,[1,6)), that is: "The strategy" -> "Japan 's national security strategy"
+Coreference set:
+	(27,19,[17,20)) -> (27,6,[4,16)), that is: "very low key" -> "Japan 's reaction to Seoul 's announcement of its own expanded ADIZ"
+	(27,22,[22,23)) -> (27,6,[4,16)), that is: "it" -> "Japan 's reaction to Seoul 's announcement of its own expanded ADIZ"
+Coreference set:
+	(7,21,[18,22)) -> (7,21,[18,28)), that is: "the Japan-administered Senkaku islands" -> "the Japan-administered Senkaku islands , known as Diaoyu in China"
+Coreference set:
+	(10,1,[1,2)) -> (9,4,[1,5)), that is: "He" -> "Prime Minister Shinzo Abe"
+	(11,1,[1,2)) -> (9,4,[1,5)), that is: "He" -> "Prime Minister Shinzo Abe"
+	(13,21,[20,23)) -> (9,4,[1,5)), that is: "Mr. Abe 's" -> "Prime Minister Shinzo Abe"
+Coreference set:
+	(11,7,[7,8)) -> (10,17,[15,18)), that is: "their" -> "the Japanese people"
+Coreference set:
+	(31,17,[17,18)) -> (31,1,[1,4)), that is: "its" -> "Tokyo in 2011"
+Coreference set:
+	(10,8,[8,18)) -> (10,8,[8,25)), that is: "Japan 's diplomatic and security policy to the Japanese people" -> "Japan 's diplomatic and security policy to the Japanese people , as well as the international community"
+	(10,8,[8,11)) -> (10,8,[8,25)), that is: "Japan 's diplomatic" -> "Japan 's diplomatic and security policy to the Japanese people , as well as the international community"
+	(10,24,[22,25)) -> (10,8,[8,25)), that is: "the international community" -> "Japan 's diplomatic and security policy to the Japanese people , as well as the international community"
+Coreference set:
+	(12,19,[18,20)) -> (12,19,[17,20)), that is: "United States" -> "the United States"
+Coreference set:
+	(13,3,[1,4)) -> (13,3,[1,17)), that is: "Japan 's neighbors" -> "Japan 's neighbors , who suffered under its colonial rule and World War II aggression ,"
+Coreference set:
+	(26,25,[25,26)) -> (12,11,[8,12)), that is: "Tokyo" -> "the security policy Tokyo"
+Coreference set:
+	(16,1,[1,2)) -> (15,3,[1,15)), that is: "She" -> "Spokeswoman Hua Chunying called on Japan to face up to history and not just"
+	(17,1,[1,2)) -> (15,3,[1,15)), that is: "She" -> "Spokeswoman Hua Chunying called on Japan to face up to history and not just"
+Coreference set:
+	(18,23,[23,24)) -> (26,23,[23,29)), that is: "Seoul" -> "Seoul , Tokyo , and Washington"
+	(26,23,[23,24)) -> (26,23,[23,29)), that is: "Seoul" -> "Seoul , Tokyo , and Washington"
+	(27,8,[8,10)) -> (26,23,[23,29)), that is: "Seoul 's" -> "Seoul , Tokyo , and Washington"
+Coreference set:
+	(18,20,[19,21)) -> (22,2,[1,4)), that is: "South Korea" -> "South Korea 's"
+	(19,10,[9,11)) -> (22,2,[1,4)), that is: "South Korea" -> "South Korea 's"
+Coreference set:
+	(17,4,[3,8)) -> (17,4,[3,23)), that is: "Asian countries , including China" -> "Asian countries , including China , as well as the international community are paying close attention to these negative trends"
+	(17,4,[3,5)) -> (17,4,[3,23)), that is: "Asian countries" -> "Asian countries , including China , as well as the international community are paying close attention to these negative trends"
+Coreference set:
+	(18,3,[3,11)) -> (18,9,[6,10)), that is: "history , and a separate island dispute ," -> "a separate island dispute"
+Coreference set:
+	(22,12,[12,13)) -> (21,7,[7,12)), that is: "Dokdo" -> "Dokdo in Korean and Takeshima"
+Coreference set:
+	(28,13,[13,14)) -> (21,9,[9,10)), that is: "Korean-Japanese" -> "Korean"
+Coreference set:
+	(22,17,[17,18)) -> (21,11,[11,12)), that is: "Takeshima" -> "Takeshima"
+	(22,22,[22,23)) -> (21,11,[11,12)), that is: "its" -> "Takeshima"
