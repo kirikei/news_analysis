@@ -39,7 +39,7 @@ public class word_hit {
 	public static ArrayList<String> entity_get(String text_file1){
 		ArrayList<String> entities = new ArrayList<String>();
 		try{
-			File file = new File(text_file1);
+			File file = new File(connecter_stan.ArticleFolder + text_file1);
 
 			if (cut_file.checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));
@@ -167,7 +167,7 @@ public class word_hit {
 	//照応解析
 	public static Map<String,String> organize_entity(String arg){	
 		try{
-			File file = new File(arg);
+			File file = new File(connecter_stan.ArticleFolder + arg);
 
 			if (cut_file.checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));
@@ -208,7 +208,7 @@ public class word_hit {
 	public static Map<Integer, Map<String, Double>> POS_score_get(String text_file1){
 		Map<Integer,Map<String,Double>> sentense_wordscores = new HashMap<Integer,Map<String,Double>>();//�e�Z���e���X���Ƃ�wordscore
 		try{
-			File file = new File(text_file1);
+			File file = new File(connecter_stan.ArticleFolder + text_file1);
 
 			if (cut_file.checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));

@@ -1,0 +1,415 @@
+Sentence #1 (31 tokens):
+Dan Friedman
+John Minchillo-AP
+Sen. Robert Menendez pleaded not guilty Thursday to charges that he pocketed nearly $1 million in gifts from a Florida eye doctor for political favors.
+[Text=Dan CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Dan NamedEntityTag=PERSON] [Text=Friedman CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Friedman NamedEntityTag=PERSON] [Text=John CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Minchillo-AP CharacterOffsetBegin=18 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Minchillo-AP NamedEntityTag=O] [Text=Sen. CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=NNP Lemma=Sen. NamedEntityTag=O] [Text=Robert CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON] [Text=Menendez CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Menendez NamedEntityTag=PERSON] [Text=pleaded CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=VBD Lemma=plead NamedEntityTag=O] [Text=not CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=guilty CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=JJ Lemma=guilty NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=71 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-4">Thursday<-TIMEX3>] [Text=to CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=charges CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=that CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=pocketed CharacterOffsetBegin=99 CharacterOffsetEnd=107 PartOfSpeech=VBD Lemma=pocket NamedEntityTag=O] [Text=nearly CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=RB Lemma=nearly NamedEntityTag=O] [Text=$ CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=1 CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=CD Lemma=1 NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=million CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=in CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=gifts CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NNS Lemma=gift NamedEntityTag=O] [Text=from CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=LOCATION] [Text=eye CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=NN Lemma=eye NamedEntityTag=O] [Text=doctor CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=doctor NamedEntityTag=O] [Text=for CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=political CharacterOffsetBegin=165 CharacterOffsetEnd=174 PartOfSpeech=JJ Lemma=political NamedEntityTag=O] [Text=favors CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=NNS Lemma=favor NamedEntityTag=O] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Dan) (NNP Friedman) (NNP John) (NNP Minchillo-AP) (NNP Sen.) (NNP Robert) (NNP Menendez))
+    (VP (VBD pleaded)
+      (ADJP (RB not) (JJ guilty))
+      (NP-TMP (NNP Thursday))
+      (PP (TO to)
+        (NP (NNS charges)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD pocketed)
+            (NP
+              (QP (RB nearly) ($ $) (CD 1) (CD million)))
+            (PP (IN in)
+              (NP (NNS gifts)))
+            (PP (IN from)
+              (NP
+                (NP (DT a) (NNP Florida) (NN eye) (NN doctor))
+                (PP (IN for)
+                  (NP (JJ political) (NNS favors)))))))))
+    (. .)))
+
+root(ROOT-0, pleaded-8)
+nn(Menendez-7, Dan-1)
+nn(Menendez-7, Friedman-2)
+nn(Menendez-7, John-3)
+nn(Menendez-7, Minchillo-AP-4)
+nn(Menendez-7, Sen.-5)
+nn(Menendez-7, Robert-6)
+nsubj(pleaded-8, Menendez-7)
+neg(guilty-10, not-9)
+acomp(pleaded-8, guilty-10)
+tmod(pleaded-8, Thursday-11)
+prep_to(pleaded-8, charges-13)
+mark(pocketed-16, that-14)
+nsubj(pocketed-16, he-15)
+ccomp(pleaded-8, pocketed-16)
+quantmod(dol-18, nearly-17)
+dobj(pocketed-16, dol-18)
+number(dol-18, 1-19)
+number(dol-18, million-20)
+prep_in(pocketed-16, gifts-22)
+det(doctor-27, a-24)
+nn(doctor-27, Florida-25)
+nn(doctor-27, eye-26)
+prep_from(pocketed-16, doctor-27)
+amod(favors-30, political-29)
+prep_for(doctor-27, favors-30)
+
+Sentence #2 (38 tokens):
+Sen. Robert Menendez pleaded not guilty Thursday to charges that he pocketed nearly $1 million in gifts from a Florida eye doctor for political favors, including travel visas for three of the doctor’s paramours.
+[Text=Sen. CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NNP Lemma=Sen. NamedEntityTag=O] [Text=Robert CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON] [Text=Menendez CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=Menendez NamedEntityTag=PERSON] [Text=pleaded CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VBD Lemma=plead NamedEntityTag=O] [Text=not CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=guilty CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=JJ Lemma=guilty NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-4">Thursday<-TIMEX3>] [Text=to CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=charges CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=that CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=pocketed CharacterOffsetBegin=251 CharacterOffsetEnd=259 PartOfSpeech=VBD Lemma=pocket NamedEntityTag=O] [Text=nearly CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=RB Lemma=nearly NamedEntityTag=O] [Text=$ CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=1 CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=CD Lemma=1 NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=million CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1000000.0] [Text=in CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=gifts CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=NNS Lemma=gift NamedEntityTag=O] [Text=from CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=294 CharacterOffsetEnd=301 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=LOCATION] [Text=eye CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=NN Lemma=eye NamedEntityTag=O] [Text=doctor CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=NN Lemma=doctor NamedEntityTag=O] [Text=for CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=political CharacterOffsetBegin=317 CharacterOffsetEnd=326 PartOfSpeech=JJ Lemma=political NamedEntityTag=O] [Text=favors CharacterOffsetBegin=327 CharacterOffsetEnd=333 PartOfSpeech=NNS Lemma=favor NamedEntityTag=O] [Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=335 CharacterOffsetEnd=344 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=travel CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=NN Lemma=travel NamedEntityTag=O] [Text=visas CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=NNS Lemma=visa NamedEntityTag=O] [Text=for CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=three CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=of CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=doctor CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NN Lemma=doctor NamedEntityTag=O] [Text=-s CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=paramours CharacterOffsetBegin=384 CharacterOffsetEnd=393 PartOfSpeech=NNS Lemma=paramour NamedEntityTag=O] [Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Sen.) (NNP Robert) (NNP Menendez))
+    (VP (VBD pleaded)
+      (ADJP (RB not) (JJ guilty))
+      (NP-TMP (NNP Thursday))
+      (PP (TO to)
+        (NP (NNS charges)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD pocketed)
+            (NP
+              (QP (RB nearly) ($ $) (CD 1) (CD million)))
+            (PP (IN in)
+              (NP (NNS gifts)))
+            (PP (IN from)
+              (NP
+                (NP (DT a) (NNP Florida) (NN eye) (NN doctor))
+                (PP (IN for)
+                  (NP (JJ political) (NNS favors)))))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP (NN travel) (NNS visas))
+                (PP (IN for)
+                  (NP
+                    (NP (CD three))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NN doctor) (POS -s))
+                        (NNS paramours)))))))))))
+    (. .)))
+
+root(ROOT-0, pleaded-4)
+nn(Menendez-3, Sen.-1)
+nn(Menendez-3, Robert-2)
+nsubj(pleaded-4, Menendez-3)
+neg(guilty-6, not-5)
+acomp(pleaded-4, guilty-6)
+tmod(pleaded-4, Thursday-7)
+prep_to(pleaded-4, charges-9)
+mark(pocketed-12, that-10)
+nsubj(pocketed-12, he-11)
+ccomp(pleaded-4, pocketed-12)
+quantmod(dol-14, nearly-13)
+dobj(pocketed-12, dol-14)
+number(dol-14, 1-15)
+number(dol-14, million-16)
+prep_in(pocketed-12, gifts-18)
+det(doctor-23, a-20)
+nn(doctor-23, Florida-21)
+nn(doctor-23, eye-22)
+prep_from(pocketed-12, doctor-23)
+amod(favors-26, political-25)
+prep_for(doctor-23, favors-26)
+nn(visas-30, travel-29)
+prep_including(pocketed-12, visas-30)
+prep_for(visas-30, three-32)
+det(doctor-35, the-34)
+poss(paramours-37, doctor-35)
+prep_of(three-32, paramours-37)
+
+Sentence #3 (20 tokens):
+Newark federal district court Judge William Walls set a tentative July 13 trial date for the New Jersey Democrat.
+[Text=Newark CharacterOffsetBegin=395 CharacterOffsetEnd=401 PartOfSpeech=NNP Lemma=Newark NamedEntityTag=LOCATION] [Text=federal CharacterOffsetBegin=402 CharacterOffsetEnd=409 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=district CharacterOffsetBegin=410 CharacterOffsetEnd=418 PartOfSpeech=NN Lemma=district NamedEntityTag=O] [Text=court CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NN Lemma=court NamedEntityTag=O] [Text=Judge CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NNP Lemma=Judge NamedEntityTag=O] [Text=William CharacterOffsetBegin=431 CharacterOffsetEnd=438 PartOfSpeech=NNP Lemma=William NamedEntityTag=PERSON] [Text=Walls CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=NNP Lemma=Walls NamedEntityTag=PERSON] [Text=set CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=VBD Lemma=set NamedEntityTag=O] [Text=a CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tentative CharacterOffsetBegin=451 CharacterOffsetEnd=460 PartOfSpeech=JJ Lemma=tentative NamedEntityTag=O] [Text=July CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-13 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-07-13">July 13<-TIMEX3>] [Text=13 CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-13 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-07-13">July 13<-TIMEX3>] [Text=trial CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=NN Lemma=trial NamedEntityTag=O] [Text=date CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NN Lemma=date NamedEntityTag=O] [Text=for CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=New CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=NNP Lemma=New NamedEntityTag=O] [Text=Jersey CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=NNP Lemma=Jersey NamedEntityTag=O] [Text=Democrat CharacterOffsetBegin=499 CharacterOffsetEnd=507 PartOfSpeech=NNP Lemma=Democrat NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (NP (NNP Newark) (JJ federal) (NN district) (NN court) (NNP Judge) (NNP William) (NNP Walls))
+    (VP (VBD set)
+      (NP (DT a)
+        (ADJP (JJ tentative)
+          (NP-TMP (NNP July) (CD 13)))
+        (NN trial) (NN date))
+      (PP (IN for)
+        (NP (DT the) (NNP New) (NNP Jersey) (NNP Democrat))))
+    (. .)))
+
+root(ROOT-0, set-8)
+nn(Walls-7, Newark-1)
+amod(Walls-7, federal-2)
+nn(Walls-7, district-3)
+nn(Walls-7, court-4)
+nn(Walls-7, Judge-5)
+nn(Walls-7, William-6)
+nsubj(set-8, Walls-7)
+det(date-14, a-9)
+amod(date-14, tentative-10)
+tmod(tentative-10, July-11)
+num(July-11, 13-12)
+nn(date-14, trial-13)
+dobj(set-8, date-14)
+det(Democrat-19, the-16)
+nn(Democrat-19, New-17)
+nn(Democrat-19, Jersey-18)
+prep_for(set-8, Democrat-19)
+
+Sentence #4 (43 tokens):
+Menendez’s attorney, Abbe Lowell, entered the plea on the lawmaker’s behalf — then compared the government’s case to failed federal prosecutions of the late Sen. Ted Stevens of Alaska and 2004 Democratic vice presidential nominee John Edwards.
+[Text=Menendez CharacterOffsetBegin=509 CharacterOffsetEnd=517 PartOfSpeech=NNP Lemma=Menendez NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=attorney CharacterOffsetBegin=520 CharacterOffsetEnd=528 PartOfSpeech=NN Lemma=attorney NamedEntityTag=O] [Text=, CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Abbe CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=NNP Lemma=Abbe NamedEntityTag=PERSON] [Text=Lowell CharacterOffsetBegin=535 CharacterOffsetEnd=541 PartOfSpeech=NNP Lemma=Lowell NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=entered CharacterOffsetBegin=543 CharacterOffsetEnd=550 PartOfSpeech=VBD Lemma=enter NamedEntityTag=O] [Text=the CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=plea CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=NN Lemma=plea NamedEntityTag=O] [Text=on CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lawmaker CharacterOffsetBegin=567 CharacterOffsetEnd=575 PartOfSpeech=NN Lemma=lawmaker NamedEntityTag=O] [Text=-s CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=behalf CharacterOffsetBegin=578 CharacterOffsetEnd=584 PartOfSpeech=NN Lemma=behalf NamedEntityTag=O] [Text=-- CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=then CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=RB Lemma=then NamedEntityTag=O] [Text=compared CharacterOffsetBegin=592 CharacterOffsetEnd=600 PartOfSpeech=VBN Lemma=compare NamedEntityTag=O] [Text=the CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=government CharacterOffsetBegin=605 CharacterOffsetEnd=615 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=-s CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=case CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=NN Lemma=case NamedEntityTag=O] [Text=to CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=failed CharacterOffsetBegin=626 CharacterOffsetEnd=632 PartOfSpeech=VBN Lemma=fail NamedEntityTag=O] [Text=federal CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=prosecutions CharacterOffsetBegin=641 CharacterOffsetEnd=653 PartOfSpeech=NNS Lemma=prosecution NamedEntityTag=O] [Text=of CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=late CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=JJ Lemma=late NamedEntityTag=O] [Text=Sen. CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=NNP Lemma=Sen. NamedEntityTag=O] [Text=Ted CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=NNP Lemma=Ted NamedEntityTag=PERSON] [Text=Stevens CharacterOffsetBegin=675 CharacterOffsetEnd=682 PartOfSpeech=NNP Lemma=Stevens NamedEntityTag=PERSON] [Text=of CharacterOffsetBegin=683 CharacterOffsetEnd=685 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Alaska CharacterOffsetBegin=686 CharacterOffsetEnd=692 PartOfSpeech=NNP Lemma=Alaska NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=2004 CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=CD Lemma=2004 NamedEntityTag=DATE NormalizedNamedEntityTag=2004 Timex=<TIMEX3 tid="t3" type="DATE" value="2004">2004<-TIMEX3>] [Text=Democratic CharacterOffsetBegin=702 CharacterOffsetEnd=712 PartOfSpeech=JJ Lemma=democratic NamedEntityTag=MISC] [Text=vice CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=vice NamedEntityTag=O] [Text=presidential CharacterOffsetBegin=718 CharacterOffsetEnd=730 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=nominee CharacterOffsetBegin=731 CharacterOffsetEnd=738 PartOfSpeech=NN Lemma=nominee NamedEntityTag=O] [Text=John CharacterOffsetBegin=739 CharacterOffsetEnd=743 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Edwards CharacterOffsetBegin=744 CharacterOffsetEnd=751 PartOfSpeech=NNP Lemma=Edwards NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Menendez) (POS -s))
+        (NN attorney))
+      (, ,)
+      (NP (NNP Abbe) (NNP Lowell))
+      (, ,))
+    (VP (VBD entered)
+      (NP
+        (NP
+          (NP (DT the) (NN plea))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN lawmaker) (POS -s))
+              (NN behalf))))
+        (: --)
+        (UCP
+          (ADVP (RB then))
+          (PP (VBN compared)
+            (NP
+              (NP (DT the) (NN government) (POS -s))
+              (NN case)))))
+      (PP (TO to)
+        (NP
+          (NP (VBN failed) (JJ federal) (NNS prosecutions))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (DT the) (JJ late) (NNP Sen.) (NNP Ted) (NNP Stevens))
+                (PP (IN of)
+                  (NP (NNP Alaska))))
+              (CC and)
+              (NP
+                (NP (CD 2004) (JJ Democratic) (NN vice))
+                (NP (JJ presidential) (NN nominee) (NNP John) (NNP Edwards))))))))
+    (. .)))
+
+root(ROOT-0, entered-8)
+poss(attorney-3, Menendez-1)
+nsubj(entered-8, attorney-3)
+nn(Lowell-6, Abbe-5)
+appos(attorney-3, Lowell-6)
+det(plea-10, the-9)
+dobj(entered-8, plea-10)
+det(lawmaker-13, the-12)
+poss(behalf-15, lawmaker-13)
+prep_on(plea-10, behalf-15)
+advmod(plea-10, then-17)
+prep(then-17, compared-18)
+det(government-20, the-19)
+poss(case-22, government-20)
+pobj(compared-18, case-22)
+amod(prosecutions-26, failed-24)
+amod(prosecutions-26, federal-25)
+prep_to(entered-8, prosecutions-26)
+det(Stevens-32, the-28)
+amod(Stevens-32, late-29)
+nn(Stevens-32, Sen.-30)
+nn(Stevens-32, Ted-31)
+prep_of(prosecutions-26, Stevens-32)
+prep_of(Stevens-32, Alaska-34)
+num(vice-38, 2004-36)
+amod(vice-38, Democratic-37)
+conj_and(Stevens-32, vice-38)
+amod(Edwards-42, presidential-39)
+nn(Edwards-42, nominee-40)
+nn(Edwards-42, John-41)
+dep(vice-38, Edwards-42)
+
+Sentence #5 (27 tokens):
+Julio Cortez-AP
+He contended Menendez accepted gifts from and helped the doctor, Salomon Melgen (pictured), because of -a real friendship.-
+[Text=Julio CharacterOffsetBegin=753 CharacterOffsetEnd=758 PartOfSpeech=NNP Lemma=Julio NamedEntityTag=PERSON] [Text=Cortez-AP CharacterOffsetBegin=759 CharacterOffsetEnd=768 PartOfSpeech=NNP Lemma=Cortez-AP NamedEntityTag=O] [Text=He CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=contended CharacterOffsetBegin=772 CharacterOffsetEnd=781 PartOfSpeech=VBD Lemma=contend NamedEntityTag=O] [Text=Menendez CharacterOffsetBegin=782 CharacterOffsetEnd=790 PartOfSpeech=NNP Lemma=Menendez NamedEntityTag=PERSON] [Text=accepted CharacterOffsetBegin=791 CharacterOffsetEnd=799 PartOfSpeech=VBD Lemma=accept NamedEntityTag=O] [Text=gifts CharacterOffsetBegin=800 CharacterOffsetEnd=805 PartOfSpeech=NNS Lemma=gift NamedEntityTag=O] [Text=from CharacterOffsetBegin=806 CharacterOffsetEnd=810 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=and CharacterOffsetBegin=811 CharacterOffsetEnd=814 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=helped CharacterOffsetBegin=815 CharacterOffsetEnd=821 PartOfSpeech=VBD Lemma=help NamedEntityTag=O] [Text=the CharacterOffsetBegin=822 CharacterOffsetEnd=825 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=doctor CharacterOffsetBegin=826 CharacterOffsetEnd=832 PartOfSpeech=NN Lemma=doctor NamedEntityTag=O] [Text=, CharacterOffsetBegin=832 CharacterOffsetEnd=833 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Salomon CharacterOffsetBegin=834 CharacterOffsetEnd=841 PartOfSpeech=NNP Lemma=Salomon NamedEntityTag=PERSON] [Text=Melgen CharacterOffsetBegin=842 CharacterOffsetEnd=848 PartOfSpeech=NNP Lemma=Melgen NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=pictured CharacterOffsetBegin=850 CharacterOffsetEnd=858 PartOfSpeech=VBN Lemma=picture NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=859 CharacterOffsetEnd=860 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=because CharacterOffsetBegin=861 CharacterOffsetEnd=868 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=of CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=- CharacterOffsetBegin=872 CharacterOffsetEnd=873 PartOfSpeech=-- Lemma=- NamedEntityTag=O] [Text=a CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=real CharacterOffsetBegin=875 CharacterOffsetEnd=879 PartOfSpeech=JJ Lemma=real NamedEntityTag=O] [Text=friendship CharacterOffsetBegin=880 CharacterOffsetEnd=890 PartOfSpeech=NN Lemma=friendship NamedEntityTag=O] [Text=. CharacterOffsetBegin=890 CharacterOffsetEnd=891 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=- CharacterOffsetBegin=891 CharacterOffsetEnd=892 PartOfSpeech=-- Lemma=- NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Julio) (NNP Cortez-AP) (PRP He))
+    (VP (VBD contended)
+      (SBAR
+        (S
+          (NP (NNP Menendez))
+          (VP
+            (VP (VBD accepted)
+              (NP (NNS gifts))
+              (PP (IN from)))
+            (CC and)
+            (VP (VBD helped)
+              (NP
+                (NP (DT the) (NN doctor))
+                (, ,)
+                (NP
+                  (NP (NNP Salomon) (NNP Melgen))
+                  (PRN (-LRB- -LRB-)
+                    (VP (VBN pictured))
+                    (-RRB- -RRB-)))
+                (, ,))
+              (PP (IN because))
+              (PP (IN of) (-- -)
+                (NP (DT a) (JJ real) (NN friendship))))))))
+    (. .) (-- -)))
+
+root(ROOT-0, contended-4)
+nn(Cortez-AP-2, Julio-1)
+nsubj(contended-4, Cortez-AP-2)
+dep(Cortez-AP-2, He-3)
+nsubj(accepted-6, Menendez-5)
+ccomp(contended-4, accepted-6)
+dobj(accepted-6, gifts-7)
+prep(accepted-6, from-8)
+conj_and(accepted-6, helped-10)
+det(doctor-12, the-11)
+dobj(helped-10, doctor-12)
+nn(Melgen-15, Salomon-14)
+appos(doctor-12, Melgen-15)
+dep(Melgen-15, pictured-17)
+prep(helped-10, because-20)
+det(friendship-25, a-23)
+amod(friendship-25, real-24)
+prep_of(helped-10, friendship-25)
+
+Sentence #6 (22 tokens):
+“This case too will become another of those mistaken cases that should not have been brought,” Lowell said.
+[Text=`` CharacterOffsetBegin=893 CharacterOffsetEnd=894 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=This CharacterOffsetBegin=894 CharacterOffsetEnd=898 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=case CharacterOffsetBegin=899 CharacterOffsetEnd=903 PartOfSpeech=NN Lemma=case NamedEntityTag=O] [Text=too CharacterOffsetBegin=904 CharacterOffsetEnd=907 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=will CharacterOffsetBegin=908 CharacterOffsetEnd=912 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=become CharacterOffsetBegin=913 CharacterOffsetEnd=919 PartOfSpeech=VB Lemma=become NamedEntityTag=O] [Text=another CharacterOffsetBegin=920 CharacterOffsetEnd=927 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=of CharacterOffsetBegin=928 CharacterOffsetEnd=930 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=those CharacterOffsetBegin=931 CharacterOffsetEnd=936 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=mistaken CharacterOffsetBegin=937 CharacterOffsetEnd=945 PartOfSpeech=JJ Lemma=mistaken NamedEntityTag=O] [Text=cases CharacterOffsetBegin=946 CharacterOffsetEnd=951 PartOfSpeech=NNS Lemma=case NamedEntityTag=O] [Text=that CharacterOffsetBegin=952 CharacterOffsetEnd=956 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=should CharacterOffsetBegin=957 CharacterOffsetEnd=963 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=not CharacterOffsetBegin=964 CharacterOffsetEnd=967 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=968 CharacterOffsetEnd=972 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=973 CharacterOffsetEnd=977 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=brought CharacterOffsetBegin=978 CharacterOffsetEnd=985 PartOfSpeech=VBN Lemma=bring NamedEntityTag=O] [Text=, CharacterOffsetBegin=985 CharacterOffsetEnd=986 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=986 CharacterOffsetEnd=987 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=Lowell CharacterOffsetBegin=988 CharacterOffsetEnd=994 PartOfSpeech=NNP Lemma=Lowell NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=995 CharacterOffsetEnd=999 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (DT This) (NN case))
+      (ADVP (RB too))
+      (VP (MD will)
+        (VP (VB become)
+          (NP
+            (NP (DT another))
+            (PP (IN of)
+              (NP
+                (NP (DT those) (JJ mistaken) (NNS cases))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD should) (RB not)
+                      (VP (VB have)
+                        (VP (VBN been)
+                          (VP (VBN brought)))))))))))))
+    (, ,) (-- --)
+    (NP (NNP Lowell))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-21)
+det(case-3, This-2)
+nsubj(another-7, case-3)
+advmod(another-7, too-4)
+aux(another-7, will-5)
+cop(another-7, become-6)
+ccomp(said-21, another-7)
+det(cases-11, those-9)
+amod(cases-11, mistaken-10)
+prep_of(another-7, cases-11)
+nsubjpass(brought-17, that-12)
+aux(brought-17, should-13)
+neg(brought-17, not-14)
+aux(brought-17, have-15)
+auxpass(brought-17, been-16)
+rcmod(cases-11, brought-17)
+nsubj(said-21, Lowell-20)
+
+Sentence #7 (22 tokens):
+He contended Menendez accepted gifts from and helped the doctor, Salomon Melgen, because of “a real friendship.”
+[Text=He CharacterOffsetBegin=1001 CharacterOffsetEnd=1003 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=contended CharacterOffsetBegin=1004 CharacterOffsetEnd=1013 PartOfSpeech=VBD Lemma=contend NamedEntityTag=O] [Text=Menendez CharacterOffsetBegin=1014 CharacterOffsetEnd=1022 PartOfSpeech=NNP Lemma=Menendez NamedEntityTag=PERSON] [Text=accepted CharacterOffsetBegin=1023 CharacterOffsetEnd=1031 PartOfSpeech=VBD Lemma=accept NamedEntityTag=O] [Text=gifts CharacterOffsetBegin=1032 CharacterOffsetEnd=1037 PartOfSpeech=NNS Lemma=gift NamedEntityTag=O] [Text=from CharacterOffsetBegin=1038 CharacterOffsetEnd=1042 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=and CharacterOffsetBegin=1043 CharacterOffsetEnd=1046 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=helped CharacterOffsetBegin=1047 CharacterOffsetEnd=1053 PartOfSpeech=VBD Lemma=help NamedEntityTag=O] [Text=the CharacterOffsetBegin=1054 CharacterOffsetEnd=1057 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=doctor CharacterOffsetBegin=1058 CharacterOffsetEnd=1064 PartOfSpeech=NN Lemma=doctor NamedEntityTag=O] [Text=, CharacterOffsetBegin=1064 CharacterOffsetEnd=1065 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Salomon CharacterOffsetBegin=1066 CharacterOffsetEnd=1073 PartOfSpeech=NNP Lemma=Salomon NamedEntityTag=PERSON] [Text=Melgen CharacterOffsetBegin=1074 CharacterOffsetEnd=1080 PartOfSpeech=NNP Lemma=Melgen NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1080 CharacterOffsetEnd=1081 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=because CharacterOffsetBegin=1082 CharacterOffsetEnd=1089 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=of CharacterOffsetBegin=1090 CharacterOffsetEnd=1092 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1093 CharacterOffsetEnd=1094 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=a CharacterOffsetBegin=1094 CharacterOffsetEnd=1095 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=real CharacterOffsetBegin=1096 CharacterOffsetEnd=1100 PartOfSpeech=JJ Lemma=real NamedEntityTag=O] [Text=friendship CharacterOffsetBegin=1101 CharacterOffsetEnd=1111 PartOfSpeech=NN Lemma=friendship NamedEntityTag=O] [Text=. CharacterOffsetBegin=1111 CharacterOffsetEnd=1112 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1112 CharacterOffsetEnd=1113 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD contended)
+      (SBAR
+        (S
+          (NP (NNP Menendez))
+          (VP
+            (VP (VBD accepted)
+              (NP (NNS gifts))
+              (PP (IN from)))
+            (CC and)
+            (VP (VBD helped)
+              (NP
+                (NP (DT the) (NN doctor))
+                (, ,)
+                (NP (NNP Salomon) (NNP Melgen))
+                (, ,))
+              (PP (IN because)
+                (PP (IN of) (`` ``)
+                  (NP (DT a) (JJ real) (NN friendship)))))))))
+    (. .) (-- --)))
+
+root(ROOT-0, contended-2)
+nsubj(contended-2, He-1)
+nsubj(accepted-4, Menendez-3)
+ccomp(contended-2, accepted-4)
+dobj(accepted-4, gifts-5)
+prep(accepted-4, from-6)
+conj_and(accepted-4, helped-8)
+det(doctor-10, the-9)
+dobj(helped-8, doctor-10)
+nn(Melgen-13, Salomon-12)
+appos(doctor-10, Melgen-13)
+prepc_because_of(helped-8, of-16)
+det(friendship-20, a-18)
+amod(friendship-20, real-19)
+pobj(helped-8, friendship-20)
+
+Sentence #8 (2 tokens):
+More Articles
+[Text=More CharacterOffsetBegin=1114 CharacterOffsetEnd=1118 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=Articles CharacterOffsetBegin=1119 CharacterOffsetEnd=1127 PartOfSpeech=NNPS Lemma=Articles NamedEntityTag=O] 
+(ROOT
+  (NP
+    (ADJP (RBR More))
+    (NNPS Articles)))
+
+root(ROOT-0, Articles-2)
+amod(Articles-2, More-1)
+
+Coreference set:
+	(2,21,[21,22]) -> (1,25,[25,26]), that is: "Florida" -> "Florida"
+Coreference set:
+	(1,15,[15,16]) -> (1,7,[1,8]), that is: "he" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+	(2,3,[1,4]) -> (1,7,[1,8]), that is: "Sen. Robert Menendez" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+	(2,11,[11,12]) -> (1,7,[1,8]), that is: "he" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+	(4,1,[1,3]) -> (1,7,[1,8]), that is: "Menendez -s" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+	(5,5,[5,6]) -> (1,7,[1,8]), that is: "Menendez" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+	(7,3,[3,4]) -> (1,7,[1,8]), that is: "Menendez" -> "Dan Friedman John Minchillo-AP Sen. Robert Menendez"
+Coreference set:
+	(2,7,[7,8]) -> (1,11,[11,12]), that is: "Thursday" -> "Thursday"
+Coreference set:
+	(2,9,[9,10]) -> (1,13,[13,14]), that is: "charges" -> "charges"
+Coreference set:
+	(2,18,[18,19]) -> (1,22,[22,23]), that is: "gifts" -> "gifts"
+	(5,7,[7,8]) -> (1,22,[22,23]), that is: "gifts" -> "gifts"
+	(7,5,[5,6]) -> (1,22,[22,23]), that is: "gifts" -> "gifts"
+Coreference set:
+	(2,23,[20,27]) -> (1,27,[24,31]), that is: "a Florida eye doctor for political favors" -> "a Florida eye doctor for political favors"
+Coreference set:
+	(2,26,[25,27]) -> (1,30,[29,31]), that is: "political favors" -> "political favors"
+Coreference set:
+	(4,3,[1,4]) -> (4,6,[5,7]), that is: "Menendez -s attorney" -> "Abbe Lowell"
+	(6,20,[20,21]) -> (4,6,[5,7]), that is: "Lowell" -> "Abbe Lowell"
+Coreference set:
+	(6,3,[2,4]) -> (4,22,[19,23]), that is: "This case" -> "the government -s case"
+Coreference set:
+	(5,3,[3,4]) -> (5,1,[1,2]), that is: "He" -> "Julio"
+Coreference set:
+	(5,12,[11,13]) -> (5,12,[11,19]), that is: "the doctor" -> "the doctor , Salomon Melgen -LRB- pictured -RRB-"
+	(7,10,[9,14]) -> (5,12,[11,19]), that is: "the doctor , Salomon Melgen" -> "the doctor , Salomon Melgen -LRB- pictured -RRB-"
+	(7,10,[9,11]) -> (5,12,[11,19]), that is: "the doctor" -> "the doctor , Salomon Melgen -LRB- pictured -RRB-"
+Coreference set:
+	(7,13,[12,14]) -> (5,15,[14,19]), that is: "Salomon Melgen" -> "Salomon Melgen -LRB- pictured -RRB-"
+Coreference set:
+	(7,20,[18,21]) -> (5,25,[23,26]), that is: "a real friendship" -> "a real friendship"
+Coreference set:
+	(7,1,[1,2]) -> (6,7,[7,18]), that is: "He" -> "another of those mistaken cases that should not have been brought"

@@ -12,9 +12,9 @@ import java.util.ArrayList;
 public class cut_file {
 	public static void combine_files(String ori, String a, String res){//元記事と関連記事の合成
 		try{
-			File ori_file = new File(ori);	//元記事
-			File a_file = new File(a);		//関連記事
-			File com_file = new File(res);		//合成後の記事
+			File ori_file = new File(connecter_stan.ArticleFolder + ori);	//元記事
+			File a_file = new File(connecter_stan.ArticleFolder + a);		//関連記事
+			File com_file = new File(connecter_stan.ArticleFolder + res);		//合成後の記事
 
 			PrintWriter pw = new PrintWriter(new FileWriter(com_file));
 
@@ -53,7 +53,7 @@ public class cut_file {
 				return true;
 			}
 		}
-
+		System.out.println(file + " は見つかりませんでした。");
 		return false;
 	}
 
@@ -68,7 +68,7 @@ public class cut_file {
 	public static void replace_escape(String file){//元記事と関連記事の合成
 		ArrayList<String> rows = new  ArrayList<String>();
 		try{
-			File replace_file = new File(file);	//元記事
+			File replace_file = new File(connecter_stan.ArticleFolder + file);	//元記事
 			//File result_file = new File("next.txt");
 
 			if (checkBeforeReadfile(replace_file) ){
@@ -78,6 +78,7 @@ public class cut_file {
 					str = str.replace("|-", "bar-");
 					str = str.replace("$-", "dol-");
 					str = str.replace("/", "-");
+					str = str.replace("'", "-");//SQLに対応するため
 					rows.add(str);
 				}
 				br.close();

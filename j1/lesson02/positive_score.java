@@ -21,13 +21,12 @@ public class positive_score {
 	public static Map<String,Double> positive(String file1, ArrayList<String> entities){
 
 		//System.out.println("aaa");
-
 		Map<Integer, ArrayList<String>> trees = organize_entity.get_tree(file1);//センテンス毎のツリー
 		//System.out.println("trees::"+trees);
 		Map<Integer, Map<String, Double>> wordscores = word_hit.POS_score_get(file1);//センテンス毎の感情語とスコア
 		Map<Integer,ArrayList<String>> verbs = organize_entity.get_verb(file1);//センテンス毎の動詞
 		Map<String,Double> entity_score = new HashMap<String,Double>();//entityの感情語スコア
-		int sentense_num = 1;
+		int sentense_num = 1;//1???
 
 		//センテンス毎に回す
 		while(sentense_num < trees.size()){ 

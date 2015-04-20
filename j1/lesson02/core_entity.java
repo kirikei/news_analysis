@@ -104,7 +104,7 @@ public class core_entity {
 	//各記事内のword数を計算
 	public static int count_word(String file1){
 		try{
-			File file = new File(file1);
+			File file = new File(connecter_stan.ArticleFolder +file1);
 
 			if (checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));

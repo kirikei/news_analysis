@@ -21,19 +21,19 @@ public class StanfordCoreNlpDemo {
   public static void stan(String[] args) throws IOException {
     PrintWriter out;
     if (args.length > 1) {
-      out = new PrintWriter(args[1]);
+      out = new PrintWriter(connecter_stan.ArticleFolder + args[1]);
     } else {
       out = new PrintWriter(System.out);
     }
     PrintWriter xmlOut = null;
     if (args.length > 2) {
-      xmlOut = new PrintWriter(args[2]);
+      xmlOut = new PrintWriter(connecter_stan.ArticleFolder + args[2]);
     }
 
     StanfordCoreNLP pipeline = new StanfordCoreNLP();
     Annotation annotation;
     if (args.length > 0) {
-      annotation = new Annotation(IOUtils.slurpFileNoExceptions(args[0]));
+      annotation = new Annotation(IOUtils.slurpFileNoExceptions(connecter_stan.ArticleFolder + args[0]));
     } else {
       annotation = new Annotation("Japan said depressed US and Japan talked with he which is growing rapidly.");
     }

@@ -40,7 +40,7 @@ public class organize_entity {
 					if(tree_change.first_facter(str).equals(is_facter)){//�؂������̂ڂ�
 
 						//System.out.println(verbs.get(p));
-						str = i_facter;//�e�̃m�[�h��str�Ɋi�[
+						str = i_facter;//
 						q = i;//System.out.println(q);
 					}
 					i++;
@@ -250,7 +250,7 @@ public class organize_entity {
 //sentenceを読んで関係構文木（aaa-1, bbb-2）を抽出する
 	public static Map<Integer,ArrayList<String>> get_tree(String args){
 		try{
-			File file = new File(args);
+			File file = new File(connecter_stan.ArticleFolder + args);
 
 			if (cut_file.checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));
@@ -328,7 +328,7 @@ public class organize_entity {
 	//動詞を取り出す
 	public static Map<Integer,ArrayList<String>> get_verb(String args){
 		try{
-			File file = new File(args);
+			File file = new File(connecter_stan.ArticleFolder + args);
 
 			if (cut_file.checkBeforeReadfile(file)){
 				BufferedReader br = new BufferedReader(new FileReader(file));
