@@ -1,0 +1,1084 @@
+Sentence #1 (26 tokens):
+Numbers related to GM-s delayed recall of cars for faulty ignition switches
+Ignition switches have presented General Motors with significant safety issues this year.
+[Text=Numbers CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNS Lemma=number NamedEntityTag=O] [Text=related CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=VBN Lemma=relate NamedEntityTag=O] [Text=to CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=GM CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=delayed CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=VBN Lemma=delay NamedEntityTag=O] [Text=recall CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=of CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=cars CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=for CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=faulty CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=JJ Lemma=faulty NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=switches CharacterOffsetBegin=67 CharacterOffsetEnd=75 PartOfSpeech=VBZ Lemma=switch NamedEntityTag=O] [Text=Ignition CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=NNP Lemma=Ignition NamedEntityTag=O] [Text=switches CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=NNS Lemma=switch NamedEntityTag=O] [Text=have CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=presented CharacterOffsetBegin=100 CharacterOffsetEnd=109 PartOfSpeech=VBN Lemma=present NamedEntityTag=O] [Text=General CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=NNP Lemma=General NamedEntityTag=ORGANIZATION] [Text=Motors CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NNPS Lemma=Motors NamedEntityTag=ORGANIZATION] [Text=with CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=significant CharacterOffsetBegin=130 CharacterOffsetEnd=141 PartOfSpeech=JJ Lemma=significant NamedEntityTag=O] [Text=safety CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=NN Lemma=safety NamedEntityTag=O] [Text=issues CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O] [Text=this CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=year CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Numbers))
+      (VP (VBN related)
+        (PP (TO to)
+          (NP
+            (NP
+              (NP (NNP GM) (POS -s))
+              (VBN delayed) (NN recall))
+            (PP (IN of)
+              (NP
+                (NP (NNS cars))
+                (PP (IN for)
+                  (NP (JJ faulty) (NN ignition)))))))))
+    (VP (VBZ switches)
+      (SBAR
+        (S
+          (NP (NNP Ignition) (NNS switches))
+          (VP (VBP have)
+            (VP (VBN presented)
+              (NP
+                (NP (NNP General) (NNPS Motors))
+                (PP (IN with)
+                  (NP
+                    (NP (JJ significant) (NN safety) (NNS issues))
+                    (NP (DT this) (NN year))))))))))
+    (. .)))
+
+root(ROOT-0, switches-13)
+nsubj(switches-13, Numbers-1)
+vmod(Numbers-1, related-2)
+poss(recall-7, GM-4)
+amod(recall-7, delayed-6)
+prep_to(related-2, recall-7)
+prep_of(recall-7, cars-9)
+amod(ignition-12, faulty-11)
+prep_for(cars-9, ignition-12)
+nn(switches-15, Ignition-14)
+nsubj(presented-17, switches-15)
+aux(presented-17, have-16)
+ccomp(switches-13, presented-17)
+nn(Motors-19, General-18)
+dobj(presented-17, Motors-19)
+amod(issues-23, significant-21)
+nn(issues-23, safety-22)
+prep_with(Motors-19, issues-23)
+det(year-25, this-24)
+dep(issues-23, year-25)
+
+Sentence #2 (47 tokens):
+Here are details of the switch problems by the numbers:
+*2.6 million: The number of older small cars, including the Chevrolet Cobalt, that GM recalled in February to fix faulty ignition switches that it knew about for more than a decade.
+[Text=Here CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=are CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=details CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=NNS Lemma=detail NamedEntityTag=O] [Text=of CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=switch CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=NN Lemma=switch NamedEntityTag=O] [Text=problems CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=by CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=numbers CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=NNS Lemma=number NamedEntityTag=O] [Text=: CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=* CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=2.6 CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=CD Lemma=2.6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2600000.0] [Text=million CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=2600000.0] [Text=: CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=older CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=JJR Lemma=older NamedEntityTag=O] [Text=small CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=cars CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=, CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=270 CharacterOffsetEnd=279 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Chevrolet CharacterOffsetBegin=284 CharacterOffsetEnd=293 PartOfSpeech=NNP Lemma=Chevrolet NamedEntityTag=ORGANIZATION] [Text=Cobalt CharacterOffsetBegin=294 CharacterOffsetEnd=300 PartOfSpeech=NN Lemma=cobalt NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=that CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=GM CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=recalled CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=VBD Lemma=recall NamedEntityTag=O] [Text=in CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=February CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=February NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-02 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-02">February<-TIMEX3>] [Text=to CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=fix CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=VB Lemma=fix NamedEntityTag=O] [Text=faulty CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=JJ Lemma=faulty NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=345 CharacterOffsetEnd=353 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=switches CharacterOffsetBegin=354 CharacterOffsetEnd=362 PartOfSpeech=VBZ Lemma=switch NamedEntityTag=O] [Text=that CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=knew CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=VBD Lemma=know NamedEntityTag=O] [Text=about CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=for CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=more CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=JJR Lemma=more NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="MORE_THAN" tid="t3" type="DURATION" value="P10Y">more than a decade<-TIMEX3>] [Text=than CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=IN Lemma=than NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="MORE_THAN" tid="t3" type="DURATION" value="P10Y">more than a decade<-TIMEX3>] [Text=a CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="MORE_THAN" tid="t3" type="DURATION" value="P10Y">more than a decade<-TIMEX3>] [Text=decade CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=NN Lemma=decade NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="MORE_THAN" tid="t3" type="DURATION" value="P10Y">more than a decade<-TIMEX3>] [Text=. CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are)
+      (NP
+        (NP (NNS details))
+        (PP (IN of)
+          (NP (DT the) (NN switch)))))
+    (NP
+      (NP
+        (NP (NNS problems))
+        (PP (IN by)
+          (NP (DT the) (NNS numbers))))
+      (: :)
+      (NP
+        (NP
+          (QP (SYM *) (CD 2.6) (CD million)))
+        (: :)
+        (NP
+          (NP (DT The) (NN number))
+          (PP (IN of)
+            (NP (JJR older) (JJ small) (NNS cars))))))
+    (, ,)
+    (PP (VBG including)
+      (NP
+        (NP (DT the) (NNP Chevrolet) (NN Cobalt))
+        (, ,)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (NP (NNP GM))
+            (VP (VBD recalled)
+              (PP (IN in)
+                (NP (NNP February)))
+              (S
+                (VP (TO to)
+                  (VP (VB fix)
+                    (SBAR
+                      (S
+                        (NP (JJ faulty) (NN ignition))
+                        (VP (VBZ switches)
+                          (SBAR (IN that)
+                            (S
+                              (NP (PRP it))
+                              (VP (VBD knew)
+                                (PP (IN about)
+                                  (PP (IN for)
+                                    (NP
+                                      (QP (JJR more) (IN than) (DT a))
+                                      (NN decade))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, details-3)
+advmod(details-3, Here-1)
+cop(details-3, are-2)
+det(switch-6, the-5)
+prep_of(details-3, switch-6)
+nsubj(details-3, problems-7)
+det(numbers-10, the-9)
+prep_by(problems-7, numbers-10)
+dep(million-14, *-12)
+number(million-14, 2.6-13)
+dep(problems-7, million-14)
+det(number-17, The-16)
+dep(million-14, number-17)
+amod(cars-21, older-19)
+amod(cars-21, small-20)
+prep_of(number-17, cars-21)
+det(Cobalt-26, the-24)
+nn(Cobalt-26, Chevrolet-25)
+prep_including(details-3, Cobalt-26)
+dobj(recalled-30, that-28)
+nsubj(recalled-30, GM-29)
+rcmod(Cobalt-26, recalled-30)
+prep_in(recalled-30, February-32)
+aux(fix-34, to-33)
+xcomp(recalled-30, fix-34)
+amod(ignition-36, faulty-35)
+nsubj(switches-37, ignition-36)
+ccomp(fix-34, switches-37)
+mark(knew-40, that-38)
+nsubj(knew-40, it-39)
+ccomp(switches-37, knew-40)
+prep(knew-40, about-41)
+pcomp(about-41, for-42)
+mwe(than-44, more-43)
+quantmod(a-45, than-44)
+num(decade-46, a-45)
+pobj(for-42, decade-46)
+
+Sentence #3 (13 tokens):
+The recall touched off a review of ignitions in other GM vehicles.
+[Text=The CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=recall CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=touched CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=VBD Lemma=touch NamedEntityTag=O] [Text=off CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=a CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=review CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=NN Lemma=review NamedEntityTag=O] [Text=of CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=ignitions CharacterOffsetBegin=441 CharacterOffsetEnd=450 PartOfSpeech=NNS Lemma=ignition NamedEntityTag=O] [Text=in CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=other CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=GM CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=vehicles CharacterOffsetBegin=463 CharacterOffsetEnd=471 PartOfSpeech=NNS Lemma=vehicle NamedEntityTag=O] [Text=. CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN recall))
+    (VP (VBD touched)
+      (PRT (RP off))
+      (NP
+        (NP (DT a) (NN review))
+        (PP (IN of)
+          (NP (NNS ignitions))))
+      (PP (IN in)
+        (NP (JJ other) (NNP GM) (NNS vehicles))))
+    (. .)))
+
+root(ROOT-0, touched-3)
+det(recall-2, The-1)
+nsubj(touched-3, recall-2)
+prt(touched-3, off-4)
+det(review-6, a-5)
+dobj(touched-3, review-6)
+prep_of(review-6, ignitions-8)
+amod(vehicles-12, other-10)
+nn(vehicles-12, GM-11)
+prep_in(touched-3, vehicles-12)
+
+Sentence #4 (17 tokens):
+*17.1 million: The number of GM vehicles recalled as of Monday for ignition-related defects.
+[Text=* CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=17.1 CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=CD Lemma=17.1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.71E7] [Text=million CharacterOffsetBegin=480 CharacterOffsetEnd=487 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.71E7] [Text=: CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=GM CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=vehicles CharacterOffsetBegin=506 CharacterOffsetEnd=514 PartOfSpeech=NNS Lemma=vehicle NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=515 CharacterOffsetEnd=523 PartOfSpeech=VBD Lemma=recall NamedEntityTag=O] [Text=as CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=of CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=530 CharacterOffsetEnd=536 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=for CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=ignition-related CharacterOffsetBegin=541 CharacterOffsetEnd=557 PartOfSpeech=JJ Lemma=ignition-related NamedEntityTag=O] [Text=defects CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=NNS Lemma=defect NamedEntityTag=O] [Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (FRAG
+      (X (SYM *))
+      (NP (CD 17.1) (CD million)))
+    (: :)
+    (S
+      (NP
+        (NP (DT The) (NN number))
+        (PP (IN of)
+          (NP (NNP GM) (NNS vehicles))))
+      (VP (VBD recalled)
+        (ADVP (IN as)
+          (PP (IN of)
+            (NP-TMP (NNP Monday))))
+        (PP (IN for)
+          (NP (JJ ignition-related) (NNS defects)))))
+    (. .)))
+
+root(ROOT-0, recalled-10)
+dep(million-3, *-1)
+num(million-3, 17.1-2)
+dep(recalled-10, million-3)
+det(number-6, The-5)
+nsubj(recalled-10, number-6)
+nn(vehicles-9, GM-8)
+prep_of(number-6, vehicles-9)
+prep_as_of(recalled-10, Monday-13)
+amod(defects-16, ignition-related-15)
+prep_for(recalled-10, defects-16)
+
+Sentence #5 (25 tokens):
+Since the February recall, GM has issued five more recalls of ignitions as well as keys that may easily bump out of position.
+[Text=Since CharacterOffsetBegin=567 CharacterOffsetEnd=572 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=the CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=February CharacterOffsetBegin=577 CharacterOffsetEnd=585 PartOfSpeech=NNP Lemma=February NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-02 Timex=<TIMEX3 tid="t5" type="DATE" value="XXXX-02">February<-TIMEX3>] [Text=recall CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=, CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=GM CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=issued CharacterOffsetBegin=601 CharacterOffsetEnd=607 PartOfSpeech=VBN Lemma=issue NamedEntityTag=O] [Text=five CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=more CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=recalls CharacterOffsetBegin=618 CharacterOffsetEnd=625 PartOfSpeech=NNS Lemma=recall NamedEntityTag=O] [Text=of CharacterOffsetBegin=626 CharacterOffsetEnd=628 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=ignitions CharacterOffsetBegin=629 CharacterOffsetEnd=638 PartOfSpeech=NNS Lemma=ignition NamedEntityTag=O] [Text=as CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=as CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=keys CharacterOffsetBegin=650 CharacterOffsetEnd=654 PartOfSpeech=NNS Lemma=key NamedEntityTag=O] [Text=that CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=may CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=easily CharacterOffsetBegin=664 CharacterOffsetEnd=670 PartOfSpeech=RB Lemma=easily NamedEntityTag=O] [Text=bump CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=VB Lemma=bump NamedEntityTag=O] [Text=out CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=position CharacterOffsetBegin=683 CharacterOffsetEnd=691 PartOfSpeech=NN Lemma=position NamedEntityTag=O] [Text=. CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Since)
+      (NP (DT the) (NNP February) (NN recall)))
+    (, ,)
+    (NP (NNP GM))
+    (VP (VBZ has)
+      (VP (VBN issued)
+        (NP
+          (NP (CD five) (JJR more) (NNS recalls))
+          (PP (IN of)
+            (NP
+              (NP (NNS ignitions)
+                (CONJP (RB as) (RB well) (IN as))
+                (NNS keys))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD may)
+                    (ADVP (RB easily))
+                    (VP (VB bump)
+                      (PRT (IN out))
+                      (PP (IN of)
+                        (NP (NN position))))))))))))
+    (. .)))
+
+root(ROOT-0, issued-8)
+det(recall-4, the-2)
+nn(recall-4, February-3)
+prep_since(issued-8, recall-4)
+nsubj(issued-8, GM-6)
+aux(issued-8, has-7)
+num(recalls-11, five-9)
+amod(recalls-11, more-10)
+dobj(issued-8, recalls-11)
+prep_of(recalls-11, ignitions-13)
+conj_and(ignitions-13, keys-17)
+nsubj(bump-21, that-18)
+aux(bump-21, may-19)
+advmod(bump-21, easily-20)
+rcmod(ignitions-13, bump-21)
+prep_out_of(bump-21, position-24)
+
+Sentence #6 (18 tokens):
+The latest recall, of 8.2 million large cars, including the Chevrolet Malibu, happened Monday.
+[Text=The CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=latest CharacterOffsetBegin=697 CharacterOffsetEnd=703 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=recall CharacterOffsetBegin=704 CharacterOffsetEnd=710 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=, CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=of CharacterOffsetBegin=712 CharacterOffsetEnd=714 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=8.2 CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=CD Lemma=8.2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8199999.999999999] [Text=million CharacterOffsetBegin=719 CharacterOffsetEnd=726 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=8199999.999999999] [Text=large CharacterOffsetBegin=727 CharacterOffsetEnd=732 PartOfSpeech=JJ Lemma=large NamedEntityTag=O] [Text=cars CharacterOffsetBegin=733 CharacterOffsetEnd=737 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=, CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=739 CharacterOffsetEnd=748 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=749 CharacterOffsetEnd=752 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Chevrolet CharacterOffsetBegin=753 CharacterOffsetEnd=762 PartOfSpeech=NNP Lemma=Chevrolet NamedEntityTag=LOCATION] [Text=Malibu CharacterOffsetBegin=763 CharacterOffsetEnd=769 PartOfSpeech=NNP Lemma=Malibu NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=happened CharacterOffsetBegin=771 CharacterOffsetEnd=779 PartOfSpeech=VBD Lemma=happen NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=780 CharacterOffsetEnd=786 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=. CharacterOffsetBegin=786 CharacterOffsetEnd=787 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS latest) (NN recall))
+      (, ,)
+      (PP (IN of)
+        (NP
+          (NP
+            (QP (CD 8.2) (CD million))
+            (JJ large) (NNS cars))
+          (, ,)
+          (PP (VBG including)
+            (NP (DT the) (NNP Chevrolet) (NNP Malibu)))))
+      (, ,))
+    (VP (VBD happened)
+      (NP-TMP (NNP Monday)))
+    (. .)))
+
+root(ROOT-0, happened-16)
+det(recall-3, The-1)
+amod(recall-3, latest-2)
+nsubj(happened-16, recall-3)
+number(million-7, 8.2-6)
+num(cars-9, million-7)
+amod(cars-9, large-8)
+prep_of(recall-3, cars-9)
+det(Malibu-14, the-12)
+nn(Malibu-14, Chevrolet-13)
+prep_including(cars-9, Malibu-14)
+tmod(happened-16, Monday-17)
+
+Sentence #7 (20 tokens):
+*13: The number of people GM says died in crashes related to ignition-switch problems in small cars.
+[Text=* CharacterOffsetBegin=789 CharacterOffsetEnd=790 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=13 CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=CD Lemma=13 NamedEntityTag=NUMBER NormalizedNamedEntityTag=13.0] [Text=: CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=798 CharacterOffsetEnd=804 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=805 CharacterOffsetEnd=807 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=people CharacterOffsetBegin=808 CharacterOffsetEnd=814 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=GM CharacterOffsetBegin=815 CharacterOffsetEnd=817 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=818 CharacterOffsetEnd=822 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=died CharacterOffsetBegin=823 CharacterOffsetEnd=827 PartOfSpeech=VBD Lemma=die NamedEntityTag=O] [Text=in CharacterOffsetBegin=828 CharacterOffsetEnd=830 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=crashes CharacterOffsetBegin=831 CharacterOffsetEnd=838 PartOfSpeech=NNS Lemma=crash NamedEntityTag=O] [Text=related CharacterOffsetBegin=839 CharacterOffsetEnd=846 PartOfSpeech=VBN Lemma=relate NamedEntityTag=O] [Text=to CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=ignition-switch CharacterOffsetBegin=850 CharacterOffsetEnd=865 PartOfSpeech=JJ Lemma=ignition-switch NamedEntityTag=O] [Text=problems CharacterOffsetBegin=866 CharacterOffsetEnd=874 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=in CharacterOffsetBegin=875 CharacterOffsetEnd=877 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=small CharacterOffsetBegin=878 CharacterOffsetEnd=883 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=cars CharacterOffsetBegin=884 CharacterOffsetEnd=888 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=. CharacterOffsetBegin=888 CharacterOffsetEnd=889 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP (CD 13)))
+    (: :)
+    (NP
+      (NP (DT The) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NNS people))
+          (SBAR
+            (S
+              (NP (NNP GM))
+              (VP (VBZ says)
+                (SBAR
+                  (S
+                    (VP (VBD died)
+                      (PP (IN in)
+                        (NP
+                          (NP (NNS crashes))
+                          (VP (VBN related)
+                            (PP (TO to)
+                              (NP
+                                (NP (JJ ignition-switch) (NNS problems))
+                                (PP (IN in)
+                                  (NP (JJ small) (NNS cars)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, number-5)
+dep(13-2, *-1)
+dep(number-5, 13-2)
+det(number-5, The-4)
+prep_of(number-5, people-7)
+nsubj(says-9, GM-8)
+rcmod(people-7, says-9)
+ccomp(says-9, died-10)
+prep_in(died-10, crashes-12)
+vmod(crashes-12, related-13)
+amod(problems-16, ignition-switch-15)
+prep_to(related-13, problems-16)
+amod(cars-19, small-18)
+prep_in(problems-16, cars-19)
+
+Sentence #8 (18 tokens):
+*3: The number of people GM says died in crashes in the vehicles recalled Monday.
+[Text=* CharacterOffsetBegin=891 CharacterOffsetEnd=892 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=3 CharacterOffsetBegin=892 CharacterOffsetEnd=893 PartOfSpeech=CD Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=: CharacterOffsetBegin=893 CharacterOffsetEnd=894 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=895 CharacterOffsetEnd=898 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=899 CharacterOffsetEnd=905 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=people CharacterOffsetBegin=909 CharacterOffsetEnd=915 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=GM CharacterOffsetBegin=916 CharacterOffsetEnd=918 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=died CharacterOffsetBegin=924 CharacterOffsetEnd=928 PartOfSpeech=VBD Lemma=die NamedEntityTag=O] [Text=in CharacterOffsetBegin=929 CharacterOffsetEnd=931 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=crashes CharacterOffsetBegin=932 CharacterOffsetEnd=939 PartOfSpeech=NNS Lemma=crash NamedEntityTag=O] [Text=in CharacterOffsetBegin=940 CharacterOffsetEnd=942 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=943 CharacterOffsetEnd=946 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=vehicles CharacterOffsetBegin=947 CharacterOffsetEnd=955 PartOfSpeech=NNS Lemma=vehicle NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=956 CharacterOffsetEnd=964 PartOfSpeech=VBD Lemma=recall NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=965 CharacterOffsetEnd=971 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=. CharacterOffsetBegin=971 CharacterOffsetEnd=972 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP (CD 3)))
+    (: :)
+    (NP
+      (NP (DT The) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NNS people))
+          (SBAR
+            (S
+              (NP (NNP GM))
+              (VP (VBZ says)
+                (SBAR
+                  (S
+                    (VP (VBD died)
+                      (PP (IN in)
+                        (NP (NNS crashes)))
+                      (SBAR (IN in)
+                        (S
+                          (NP (DT the) (NNS vehicles))
+                          (VP (VBD recalled)
+                            (NP-TMP (NNP Monday))))))))))))))
+    (. .)))
+
+root(ROOT-0, number-5)
+dep(3-2, *-1)
+dep(number-5, 3-2)
+det(number-5, The-4)
+prep_of(number-5, people-7)
+nsubj(says-9, GM-8)
+rcmod(people-7, says-9)
+ccomp(says-9, died-10)
+prep_in(died-10, crashes-12)
+mark(recalled-16, in-13)
+det(vehicles-15, the-14)
+nsubj(recalled-16, vehicles-15)
+advcl(died-10, recalled-16)
+tmod(recalled-16, Monday-17)
+
+Sentence #9 (15 tokens):
+GM says it doesn-t yet know if the ignition switches caused the crashes.
+[Text=GM CharacterOffsetBegin=973 CharacterOffsetEnd=975 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=976 CharacterOffsetEnd=980 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=it CharacterOffsetBegin=981 CharacterOffsetEnd=983 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=does CharacterOffsetBegin=984 CharacterOffsetEnd=988 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=988 CharacterOffsetEnd=991 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=yet CharacterOffsetBegin=992 CharacterOffsetEnd=995 PartOfSpeech=RB Lemma=yet NamedEntityTag=O] [Text=know CharacterOffsetBegin=996 CharacterOffsetEnd=1000 PartOfSpeech=VB Lemma=know NamedEntityTag=O] [Text=if CharacterOffsetBegin=1001 CharacterOffsetEnd=1003 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=the CharacterOffsetBegin=1004 CharacterOffsetEnd=1007 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=1008 CharacterOffsetEnd=1016 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=switches CharacterOffsetBegin=1017 CharacterOffsetEnd=1025 PartOfSpeech=VBZ Lemma=switch NamedEntityTag=O] [Text=caused CharacterOffsetBegin=1026 CharacterOffsetEnd=1032 PartOfSpeech=VBD Lemma=cause NamedEntityTag=O] [Text=the CharacterOffsetBegin=1033 CharacterOffsetEnd=1036 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=crashes CharacterOffsetBegin=1037 CharacterOffsetEnd=1044 PartOfSpeech=NNS Lemma=crash NamedEntityTag=O] [Text=. CharacterOffsetBegin=1044 CharacterOffsetEnd=1045 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP GM))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ does) (RB n-t)
+            (ADVP (RB yet))
+            (VP (VB know)
+              (SBAR (IN if)
+                (S
+                  (NP (DT the) (NN ignition))
+                  (VP (VBZ switches)
+                    (SBAR
+                      (S
+                        (VP (VBD caused)
+                          (NP (DT the) (NNS crashes)))))))))))))
+    (. .)))
+
+root(ROOT-0, says-2)
+nsubj(says-2, GM-1)
+nsubj(know-7, it-3)
+aux(know-7, does-4)
+neg(know-7, n-t-5)
+advmod(know-7, yet-6)
+ccomp(says-2, know-7)
+mark(switches-11, if-8)
+det(ignition-10, the-9)
+nsubj(switches-11, ignition-10)
+advcl(know-7, switches-11)
+ccomp(switches-11, caused-12)
+det(crashes-14, the-13)
+dobj(caused-12, crashes-14)
+
+Sentence #10 (24 tokens):
+*165: The number of people GM victims- advocates say have died in crashes related to ignition-switch problems in small cars.
+[Text=* CharacterOffsetBegin=1047 CharacterOffsetEnd=1048 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=165 CharacterOffsetBegin=1048 CharacterOffsetEnd=1051 PartOfSpeech=CD Lemma=165 NamedEntityTag=NUMBER NormalizedNamedEntityTag=165.0] [Text=: CharacterOffsetBegin=1051 CharacterOffsetEnd=1052 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=1053 CharacterOffsetEnd=1056 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=number CharacterOffsetBegin=1057 CharacterOffsetEnd=1063 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=1064 CharacterOffsetEnd=1066 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=people CharacterOffsetBegin=1067 CharacterOffsetEnd=1073 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1074 CharacterOffsetEnd=1076 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=victims CharacterOffsetBegin=1077 CharacterOffsetEnd=1084 PartOfSpeech=NNS Lemma=victim NamedEntityTag=O] [Text=- CharacterOffsetBegin=1084 CharacterOffsetEnd=1085 PartOfSpeech=POS Lemma=- NamedEntityTag=O] [Text=advocates CharacterOffsetBegin=1086 CharacterOffsetEnd=1095 PartOfSpeech=NNS Lemma=advocate NamedEntityTag=O] [Text=say CharacterOffsetBegin=1096 CharacterOffsetEnd=1099 PartOfSpeech=VBP Lemma=say NamedEntityTag=O] [Text=have CharacterOffsetBegin=1100 CharacterOffsetEnd=1104 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=died CharacterOffsetBegin=1105 CharacterOffsetEnd=1109 PartOfSpeech=VBN Lemma=die NamedEntityTag=O] [Text=in CharacterOffsetBegin=1110 CharacterOffsetEnd=1112 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=crashes CharacterOffsetBegin=1113 CharacterOffsetEnd=1120 PartOfSpeech=NNS Lemma=crash NamedEntityTag=O] [Text=related CharacterOffsetBegin=1121 CharacterOffsetEnd=1128 PartOfSpeech=VBN Lemma=relate NamedEntityTag=O] [Text=to CharacterOffsetBegin=1129 CharacterOffsetEnd=1131 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=ignition-switch CharacterOffsetBegin=1132 CharacterOffsetEnd=1147 PartOfSpeech=JJ Lemma=ignition-switch NamedEntityTag=O] [Text=problems CharacterOffsetBegin=1148 CharacterOffsetEnd=1156 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=in CharacterOffsetBegin=1157 CharacterOffsetEnd=1159 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=small CharacterOffsetBegin=1160 CharacterOffsetEnd=1165 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=cars CharacterOffsetBegin=1166 CharacterOffsetEnd=1170 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=. CharacterOffsetBegin=1170 CharacterOffsetEnd=1171 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP (CD 165)))
+    (: :)
+    (NP
+      (NP (DT The) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NNS people))
+          (SBAR
+            (S
+              (NP
+                (NP (NNP GM) (NNS victims) (POS -))
+                (NNS advocates))
+              (VP (VBP say)
+                (SBAR
+                  (S
+                    (VP (VBP have)
+                      (VP (VBN died)
+                        (PP (IN in)
+                          (NP
+                            (NP (NNS crashes))
+                            (VP (VBN related)
+                              (PP (TO to)
+                                (NP
+                                  (NP (JJ ignition-switch) (NNS problems))
+                                  (PP (IN in)
+                                    (NP (JJ small) (NNS cars))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, number-5)
+dep(165-2, *-1)
+dep(number-5, 165-2)
+det(number-5, The-4)
+prep_of(number-5, people-7)
+nn(victims-9, GM-8)
+poss(advocates-11, victims-9)
+nsubj(say-12, advocates-11)
+rcmod(people-7, say-12)
+aux(died-14, have-13)
+ccomp(say-12, died-14)
+prep_in(died-14, crashes-16)
+vmod(crashes-16, related-17)
+amod(problems-20, ignition-switch-19)
+prep_to(related-17, problems-20)
+amod(cars-23, small-22)
+prep_in(problems-20, cars-23)
+
+Sentence #11 (15 tokens):
+*1997: Oldest model year of a vehicle recalled for a faulty ignition.
+[Text=* CharacterOffsetBegin=1173 CharacterOffsetEnd=1174 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=1997 CharacterOffsetBegin=1174 CharacterOffsetEnd=1178 PartOfSpeech=CD Lemma=1997 NamedEntityTag=DATE NormalizedNamedEntityTag=1997 Timex=<TIMEX3 tid="t6" type="DATE" value="1997">1997<-TIMEX3>] [Text=: CharacterOffsetBegin=1178 CharacterOffsetEnd=1179 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Oldest CharacterOffsetBegin=1180 CharacterOffsetEnd=1186 PartOfSpeech=JJS Lemma=oldest NamedEntityTag=O] [Text=model CharacterOffsetBegin=1187 CharacterOffsetEnd=1192 PartOfSpeech=NN Lemma=model NamedEntityTag=O] [Text=year CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P1Y Timex=<TIMEX3 tid="t7" type="DURATION" value="P1Y">year<-TIMEX3>] [Text=of CharacterOffsetBegin=1198 CharacterOffsetEnd=1200 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1201 CharacterOffsetEnd=1202 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=vehicle CharacterOffsetBegin=1203 CharacterOffsetEnd=1210 PartOfSpeech=NN Lemma=vehicle NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=1211 CharacterOffsetEnd=1219 PartOfSpeech=VBD Lemma=recall NamedEntityTag=O] [Text=for CharacterOffsetBegin=1220 CharacterOffsetEnd=1223 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=1224 CharacterOffsetEnd=1225 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=faulty CharacterOffsetBegin=1226 CharacterOffsetEnd=1232 PartOfSpeech=JJ Lemma=faulty NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=1233 CharacterOffsetEnd=1241 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=. CharacterOffsetBegin=1241 CharacterOffsetEnd=1242 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP (CD 1997)))
+    (: :)
+    (NP
+      (NP (JJS Oldest))
+      (SBAR
+        (S
+          (NP
+            (NP (NN model) (NN year))
+            (PP (IN of)
+              (NP (DT a) (NN vehicle))))
+          (VP (VBD recalled)
+            (PP (IN for)
+              (NP (DT a) (JJ faulty) (NN ignition)))))))
+    (. .)))
+
+root(ROOT-0, Oldest-4)
+dep(1997-2, *-1)
+dep(Oldest-4, 1997-2)
+nn(year-6, model-5)
+nsubj(recalled-10, year-6)
+det(vehicle-9, a-8)
+prep_of(year-6, vehicle-9)
+rcmod(Oldest-4, recalled-10)
+det(ignition-14, a-12)
+amod(ignition-14, faulty-13)
+prep_for(recalled-10, ignition-14)
+
+Sentence #12 (15 tokens):
+The 1997 Chevrolet Malibu was included in Monday-s recall of 7.6 million vehicles.
+[Text=The CharacterOffsetBegin=1243 CharacterOffsetEnd=1246 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=1997 CharacterOffsetBegin=1247 CharacterOffsetEnd=1251 PartOfSpeech=CD Lemma=1997 NamedEntityTag=DATE NormalizedNamedEntityTag=1997 Timex=<TIMEX3 tid="t8" type="DATE" value="1997">1997<-TIMEX3>] [Text=Chevrolet CharacterOffsetBegin=1252 CharacterOffsetEnd=1261 PartOfSpeech=NNP Lemma=Chevrolet NamedEntityTag=PERSON] [Text=Malibu CharacterOffsetBegin=1262 CharacterOffsetEnd=1268 PartOfSpeech=NNP Lemma=Malibu NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=1269 CharacterOffsetEnd=1272 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=included CharacterOffsetBegin=1273 CharacterOffsetEnd=1281 PartOfSpeech=VBN Lemma=include NamedEntityTag=O] [Text=in CharacterOffsetBegin=1282 CharacterOffsetEnd=1284 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=1285 CharacterOffsetEnd=1291 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=-s CharacterOffsetBegin=1291 CharacterOffsetEnd=1293 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=recall CharacterOffsetBegin=1294 CharacterOffsetEnd=1300 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=of CharacterOffsetBegin=1301 CharacterOffsetEnd=1303 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=7.6 CharacterOffsetBegin=1304 CharacterOffsetEnd=1307 PartOfSpeech=CD Lemma=7.6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7600000.0] [Text=million CharacterOffsetBegin=1308 CharacterOffsetEnd=1315 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=7600000.0] [Text=vehicles CharacterOffsetBegin=1316 CharacterOffsetEnd=1324 PartOfSpeech=NNS Lemma=vehicle NamedEntityTag=O] [Text=. CharacterOffsetBegin=1324 CharacterOffsetEnd=1325 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (CD 1997))
+      (NP (NNP Chevrolet) (NNP Malibu)))
+    (VP (VBD was)
+      (VP (VBN included)
+        (PP (IN in)
+          (NP
+            (NP
+              (NP (NNP Monday) (POS -s))
+              (NN recall))
+            (PP (IN of)
+              (NP
+                (QP (CD 7.6) (CD million))
+                (NNS vehicles)))))))
+    (. .)))
+
+root(ROOT-0, included-6)
+det(1997-2, The-1)
+nsubjpass(included-6, 1997-2)
+nn(Malibu-4, Chevrolet-3)
+dep(1997-2, Malibu-4)
+auxpass(included-6, was-5)
+poss(recall-10, Monday-8)
+prep_in(included-6, recall-10)
+number(million-13, 7.6-12)
+num(vehicles-14, million-13)
+prep_of(recall-10, vehicles-14)
+
+Sentence #13 (15 tokens):
+*2014: Latest model year of a vehicle recalled for a faulty ignition.
+[Text=* CharacterOffsetBegin=1327 CharacterOffsetEnd=1328 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=1328 CharacterOffsetEnd=1332 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t9" type="DATE" value="2014">2014<-TIMEX3>] [Text=: CharacterOffsetBegin=1332 CharacterOffsetEnd=1333 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Latest CharacterOffsetBegin=1334 CharacterOffsetEnd=1340 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=model CharacterOffsetBegin=1341 CharacterOffsetEnd=1346 PartOfSpeech=NN Lemma=model NamedEntityTag=O] [Text=year CharacterOffsetBegin=1347 CharacterOffsetEnd=1351 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P1Y Timex=<TIMEX3 tid="t7" type="DURATION" value="P1Y">year<-TIMEX3>] [Text=of CharacterOffsetBegin=1352 CharacterOffsetEnd=1354 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1355 CharacterOffsetEnd=1356 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=vehicle CharacterOffsetBegin=1357 CharacterOffsetEnd=1364 PartOfSpeech=NN Lemma=vehicle NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=1365 CharacterOffsetEnd=1373 PartOfSpeech=VBD Lemma=recall NamedEntityTag=O] [Text=for CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=1378 CharacterOffsetEnd=1379 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=faulty CharacterOffsetBegin=1380 CharacterOffsetEnd=1386 PartOfSpeech=JJ Lemma=faulty NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=1387 CharacterOffsetEnd=1395 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=. CharacterOffsetBegin=1395 CharacterOffsetEnd=1396 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP (CD 2014)))
+    (: :)
+    (NP
+      (NP (JJS Latest))
+      (SBAR
+        (S
+          (NP
+            (NP (NN model) (NN year))
+            (PP (IN of)
+              (NP (DT a) (NN vehicle))))
+          (VP (VBD recalled)
+            (PP (IN for)
+              (NP (DT a) (JJ faulty) (NN ignition)))))))
+    (. .)))
+
+root(ROOT-0, Latest-4)
+dep(2014-2, *-1)
+dep(Latest-4, 2014-2)
+nn(year-6, model-5)
+nsubj(recalled-10, year-6)
+det(vehicle-9, a-8)
+prep_of(year-6, vehicle-9)
+rcmod(Latest-4, recalled-10)
+det(ignition-14, a-12)
+amod(ignition-14, faulty-13)
+prep_for(recalled-10, ignition-14)
+
+Sentence #14 (19 tokens):
+The 2014 Cadillac CTS was recalled Monday because its key can unintentionally rotate and turn the ignition off.
+[Text=The CharacterOffsetBegin=1397 CharacterOffsetEnd=1400 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=1401 CharacterOffsetEnd=1405 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t10" type="DATE" value="2014">2014<-TIMEX3>] [Text=Cadillac CharacterOffsetBegin=1406 CharacterOffsetEnd=1414 PartOfSpeech=NNP Lemma=Cadillac NamedEntityTag=ORGANIZATION] [Text=CTS CharacterOffsetBegin=1415 CharacterOffsetEnd=1418 PartOfSpeech=NNP Lemma=CTS NamedEntityTag=ORGANIZATION] [Text=was CharacterOffsetBegin=1419 CharacterOffsetEnd=1422 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=1423 CharacterOffsetEnd=1431 PartOfSpeech=VBN Lemma=recall NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=1432 CharacterOffsetEnd=1438 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=because CharacterOffsetBegin=1439 CharacterOffsetEnd=1446 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=its CharacterOffsetBegin=1447 CharacterOffsetEnd=1450 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=key CharacterOffsetBegin=1451 CharacterOffsetEnd=1454 PartOfSpeech=NN Lemma=key NamedEntityTag=O] [Text=can CharacterOffsetBegin=1455 CharacterOffsetEnd=1458 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=unintentionally CharacterOffsetBegin=1459 CharacterOffsetEnd=1474 PartOfSpeech=RB Lemma=unintentionally NamedEntityTag=O] [Text=rotate CharacterOffsetBegin=1475 CharacterOffsetEnd=1481 PartOfSpeech=VB Lemma=rotate NamedEntityTag=O] [Text=and CharacterOffsetBegin=1482 CharacterOffsetEnd=1485 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=turn CharacterOffsetBegin=1486 CharacterOffsetEnd=1490 PartOfSpeech=VB Lemma=turn NamedEntityTag=O] [Text=the CharacterOffsetBegin=1491 CharacterOffsetEnd=1494 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=1495 CharacterOffsetEnd=1503 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=off CharacterOffsetBegin=1504 CharacterOffsetEnd=1507 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=. CharacterOffsetBegin=1507 CharacterOffsetEnd=1508 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (CD 2014))
+      (SBAR
+        (S
+          (NP (NNP Cadillac) (NNP CTS))
+          (VP (VBD was)
+            (VP (VBN recalled)
+              (NP-TMP (NNP Monday))
+              (PP (IN because)
+                (NP (PRP$ its) (NN key))))))))
+    (VP (MD can)
+      (ADVP (RB unintentionally))
+      (VP
+        (VP (VB rotate))
+        (CC and)
+        (VP (VB turn)
+          (NP (DT the) (NN ignition))
+          (PRT (RP off)))))
+    (. .)))
+
+root(ROOT-0, rotate-13)
+det(2014-2, The-1)
+nsubj(rotate-13, 2014-2)
+nn(CTS-4, Cadillac-3)
+nsubjpass(recalled-6, CTS-4)
+auxpass(recalled-6, was-5)
+rcmod(2014-2, recalled-6)
+tmod(recalled-6, Monday-7)
+poss(key-10, its-9)
+prep_because(recalled-6, key-10)
+aux(rotate-13, can-11)
+advmod(rotate-13, unintentionally-12)
+conj_and(rotate-13, turn-15)
+det(ignition-17, the-16)
+dobj(turn-15, ignition-17)
+prt(turn-15, off-18)
+
+Sentence #15 (12 tokens):
+*54: Number of GM recalls so far this year.
+[Text=* CharacterOffsetBegin=1510 CharacterOffsetEnd=1511 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=54 CharacterOffsetBegin=1511 CharacterOffsetEnd=1513 PartOfSpeech=CD Lemma=54 NamedEntityTag=NUMBER NormalizedNamedEntityTag=54.0] [Text=: CharacterOffsetBegin=1513 CharacterOffsetEnd=1514 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Number CharacterOffsetBegin=1515 CharacterOffsetEnd=1521 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=1522 CharacterOffsetEnd=1524 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1525 CharacterOffsetEnd=1527 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=recalls CharacterOffsetBegin=1528 CharacterOffsetEnd=1535 PartOfSpeech=VBZ Lemma=recall NamedEntityTag=O] [Text=so CharacterOffsetBegin=1536 CharacterOffsetEnd=1538 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=1539 CharacterOffsetEnd=1542 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=this CharacterOffsetBegin=1543 CharacterOffsetEnd=1547 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=year CharacterOffsetBegin=1548 CharacterOffsetEnd=1552 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=. CharacterOffsetBegin=1552 CharacterOffsetEnd=1553 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (FRAG
+      (X (SYM *))
+      (NP (CD 54)))
+    (: :)
+    (S
+      (NP
+        (NP (NN Number))
+        (PP (IN of)
+          (NP (NNP GM))))
+      (VP (VBZ recalls)
+        (ADVP (RB so) (RB far))
+        (NP-TMP (DT this) (NN year))))
+    (. .)))
+
+root(ROOT-0, recalls-7)
+dep(54-2, *-1)
+dep(recalls-7, 54-2)
+nsubj(recalls-7, Number-4)
+prep_of(Number-4, GM-6)
+advmod(far-9, so-8)
+advmod(recalls-7, far-9)
+det(year-11, this-10)
+tmod(recalls-7, year-11)
+
+Sentence #16 (20 tokens):
+*28.9 million: Number of cars and trucks recalled by GM so far this year in North America.
+[Text=* CharacterOffsetBegin=1555 CharacterOffsetEnd=1556 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=28.9 CharacterOffsetBegin=1556 CharacterOffsetEnd=1560 PartOfSpeech=CD Lemma=28.9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.89E7] [Text=million CharacterOffsetBegin=1561 CharacterOffsetEnd=1568 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.89E7] [Text=: CharacterOffsetBegin=1568 CharacterOffsetEnd=1569 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Number CharacterOffsetBegin=1570 CharacterOffsetEnd=1576 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=1577 CharacterOffsetEnd=1579 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=cars CharacterOffsetBegin=1580 CharacterOffsetEnd=1584 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=and CharacterOffsetBegin=1585 CharacterOffsetEnd=1588 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=trucks CharacterOffsetBegin=1589 CharacterOffsetEnd=1595 PartOfSpeech=NNS Lemma=truck NamedEntityTag=O] [Text=recalled CharacterOffsetBegin=1596 CharacterOffsetEnd=1604 PartOfSpeech=VBN Lemma=recall NamedEntityTag=O] [Text=by CharacterOffsetBegin=1605 CharacterOffsetEnd=1607 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1608 CharacterOffsetEnd=1610 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=so CharacterOffsetBegin=1611 CharacterOffsetEnd=1613 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=1614 CharacterOffsetEnd=1617 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=this CharacterOffsetBegin=1618 CharacterOffsetEnd=1622 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=year CharacterOffsetBegin=1623 CharacterOffsetEnd=1627 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this year<-TIMEX3>] [Text=in CharacterOffsetBegin=1628 CharacterOffsetEnd=1630 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=North CharacterOffsetBegin=1631 CharacterOffsetEnd=1636 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION] [Text=America CharacterOffsetBegin=1637 CharacterOffsetEnd=1644 PartOfSpeech=NNP Lemma=America NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1644 CharacterOffsetEnd=1645 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (FRAG
+      (X (SYM *))
+      (NP (CD 28.9) (CD million)))
+    (: :)
+    (S
+      (NP
+        (NP (NN Number))
+        (PP (IN of)
+          (NP (NNS cars)
+            (CC and)
+            (NNS trucks))))
+      (VP (VBN recalled)
+        (PP (IN by)
+          (NP
+            (NP (NNP GM))
+            (ADVP (RB so) (RB far))
+            (NP-TMP (DT this) (NN year))))
+        (PP (IN in)
+          (NP (NNP North) (NNP America)))))
+    (. .)))
+
+root(ROOT-0, recalled-10)
+dep(million-3, *-1)
+num(million-3, 28.9-2)
+dep(recalled-10, million-3)
+nsubj(recalled-10, Number-5)
+prep_of(Number-5, cars-7)
+conj_and(cars-7, trucks-9)
+prep_by(recalled-10, GM-12)
+advmod(far-14, so-13)
+advmod(GM-12, far-14)
+det(year-16, this-15)
+tmod(GM-12, year-16)
+nn(America-19, North-18)
+prep_in(recalled-10, America-19)
+
+Sentence #17 (19 tokens):
+*$2.5 billion: GM-s estimate for recall-related costs through the first half of the year.
+[Text=* CharacterOffsetBegin=1647 CharacterOffsetEnd=1648 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1648 CharacterOffsetEnd=1649 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.5E9] [Text=2.5 CharacterOffsetBegin=1649 CharacterOffsetEnd=1652 PartOfSpeech=CD Lemma=2.5 NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.5E9] [Text=billion CharacterOffsetBegin=1653 CharacterOffsetEnd=1660 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.5E9] [Text=: CharacterOffsetBegin=1660 CharacterOffsetEnd=1661 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1662 CharacterOffsetEnd=1664 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=1664 CharacterOffsetEnd=1666 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=estimate CharacterOffsetBegin=1667 CharacterOffsetEnd=1675 PartOfSpeech=NN Lemma=estimate NamedEntityTag=O] [Text=for CharacterOffsetBegin=1676 CharacterOffsetEnd=1679 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=recall-related CharacterOffsetBegin=1680 CharacterOffsetEnd=1694 PartOfSpeech=JJ Lemma=recall-related NamedEntityTag=O] [Text=costs CharacterOffsetBegin=1695 CharacterOffsetEnd=1700 PartOfSpeech=NNS Lemma=cost NamedEntityTag=O] [Text=through CharacterOffsetBegin=1701 CharacterOffsetEnd=1708 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=the CharacterOffsetBegin=1709 CharacterOffsetEnd=1712 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=first CharacterOffsetBegin=1713 CharacterOffsetEnd=1718 PartOfSpeech=JJ Lemma=first NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=half CharacterOffsetBegin=1719 CharacterOffsetEnd=1723 PartOfSpeech=NN Lemma=half NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=of CharacterOffsetBegin=1724 CharacterOffsetEnd=1726 PartOfSpeech=IN Lemma=of NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=the CharacterOffsetBegin=1727 CharacterOffsetEnd=1730 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=year CharacterOffsetBegin=1731 CharacterOffsetEnd=1735 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the first half of the year<-TIMEX3>] [Text=. CharacterOffsetBegin=1735 CharacterOffsetEnd=1736 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP
+        (NP
+          (NP
+            (QP ($ $) (CD 2.5) (CD billion)))
+          (: :)
+          (NP
+            (NP
+              (NP (NNP GM) (POS -s))
+              (NN estimate))
+            (PP (IN for)
+              (NP (JJ recall-related) (NNS costs)))))
+        (PP (IN through)
+          (NP (DT the) (JJ first) (NN half)))))
+    (PP (IN of)
+      (NP (DT the) (NN year))
+      (. .))))
+
+root(ROOT-0, dol-2)
+dep(dol-2, *-1)
+number(billion-4, 2.5-3)
+num(dol-2, billion-4)
+poss(estimate-8, GM-6)
+dep(dol-2, estimate-8)
+amod(costs-11, recall-related-10)
+prep_for(estimate-8, costs-11)
+det(half-15, the-13)
+amod(half-15, first-14)
+prep_through(dol-2, half-15)
+det(year-18, the-17)
+prep_of(dol-2, year-18)
+
+Sentence #18 (36 tokens):
+*$7.8 million: The amount compensation expert Kenneth Feinberg says GM would pay to compensate a 10-year-old paraplegic injured in a crash in a small car that was part of the initial recall.
+[Text=* CharacterOffsetBegin=1738 CharacterOffsetEnd=1739 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1739 CharacterOffsetEnd=1740 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$7800000.0] [Text=7.8 CharacterOffsetBegin=1740 CharacterOffsetEnd=1743 PartOfSpeech=CD Lemma=7.8 NamedEntityTag=MONEY NormalizedNamedEntityTag=$7800000.0] [Text=million CharacterOffsetBegin=1744 CharacterOffsetEnd=1751 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$7800000.0] [Text=: CharacterOffsetBegin=1751 CharacterOffsetEnd=1752 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=1753 CharacterOffsetEnd=1756 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=amount CharacterOffsetBegin=1757 CharacterOffsetEnd=1763 PartOfSpeech=NN Lemma=amount NamedEntityTag=O] [Text=compensation CharacterOffsetBegin=1764 CharacterOffsetEnd=1776 PartOfSpeech=NN Lemma=compensation NamedEntityTag=O] [Text=expert CharacterOffsetBegin=1777 CharacterOffsetEnd=1783 PartOfSpeech=NN Lemma=expert NamedEntityTag=O] [Text=Kenneth CharacterOffsetBegin=1784 CharacterOffsetEnd=1791 PartOfSpeech=NNP Lemma=Kenneth NamedEntityTag=PERSON] [Text=Feinberg CharacterOffsetBegin=1792 CharacterOffsetEnd=1800 PartOfSpeech=NNP Lemma=Feinberg NamedEntityTag=PERSON] [Text=says CharacterOffsetBegin=1801 CharacterOffsetEnd=1805 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1806 CharacterOffsetEnd=1808 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=would CharacterOffsetBegin=1809 CharacterOffsetEnd=1814 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=pay CharacterOffsetBegin=1815 CharacterOffsetEnd=1818 PartOfSpeech=VB Lemma=pay NamedEntityTag=O] [Text=to CharacterOffsetBegin=1819 CharacterOffsetEnd=1821 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=compensate CharacterOffsetBegin=1822 CharacterOffsetEnd=1832 PartOfSpeech=VB Lemma=compensate NamedEntityTag=O] [Text=a CharacterOffsetBegin=1833 CharacterOffsetEnd=1834 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=10-year-old CharacterOffsetBegin=1835 CharacterOffsetEnd=1846 PartOfSpeech=JJ Lemma=10-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 tid="t11" type="DURATION" value="P10Y">10-year-old<-TIMEX3>] [Text=paraplegic CharacterOffsetBegin=1847 CharacterOffsetEnd=1857 PartOfSpeech=JJ Lemma=paraplegic NamedEntityTag=O] [Text=injured CharacterOffsetBegin=1858 CharacterOffsetEnd=1865 PartOfSpeech=VBN Lemma=injure NamedEntityTag=O] [Text=in CharacterOffsetBegin=1866 CharacterOffsetEnd=1868 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1869 CharacterOffsetEnd=1870 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=crash CharacterOffsetBegin=1871 CharacterOffsetEnd=1876 PartOfSpeech=NN Lemma=crash NamedEntityTag=O] [Text=in CharacterOffsetBegin=1877 CharacterOffsetEnd=1879 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1880 CharacterOffsetEnd=1881 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=small CharacterOffsetBegin=1882 CharacterOffsetEnd=1887 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=car CharacterOffsetBegin=1888 CharacterOffsetEnd=1891 PartOfSpeech=NN Lemma=car NamedEntityTag=O] [Text=that CharacterOffsetBegin=1892 CharacterOffsetEnd=1896 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=was CharacterOffsetBegin=1897 CharacterOffsetEnd=1900 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=part CharacterOffsetBegin=1901 CharacterOffsetEnd=1905 PartOfSpeech=NN Lemma=part NamedEntityTag=O] [Text=of CharacterOffsetBegin=1906 CharacterOffsetEnd=1908 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1909 CharacterOffsetEnd=1912 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=initial CharacterOffsetBegin=1913 CharacterOffsetEnd=1920 PartOfSpeech=JJ Lemma=initial NamedEntityTag=O] [Text=recall CharacterOffsetBegin=1921 CharacterOffsetEnd=1927 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=. CharacterOffsetBegin=1927 CharacterOffsetEnd=1928 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X
+        (X (SYM *))
+        (NP ($ $) (CD 7.8)))
+      (NP (CD million)))
+    (: :)
+    (NP
+      (NP (DT The) (NN amount) (NN compensation) (NN expert))
+      (SBAR
+        (S
+          (NP (NNP Kenneth) (NNP Feinberg))
+          (VP (VBZ says)
+            (SBAR
+              (S
+                (NP (NNP GM))
+                (VP (MD would)
+                  (VP (VB pay)
+                    (S
+                      (VP (TO to)
+                        (VP (VB compensate)
+                          (NP
+                            (NP (DT a) (JJ 10-year-old) (JJ paraplegic))
+                            (VP (VBN injured)
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT a) (NN crash))
+                                  (PP (IN in)
+                                    (NP
+                                      (NP (DT a) (JJ small) (NN car))
+                                      (SBAR
+                                        (WHNP (WDT that))
+                                        (S
+                                          (VP (VBD was)
+                                            (NP
+                                              (NP (NN part))
+                                              (PP (IN of)
+                                                (NP (DT the) (JJ initial) (NN recall))))))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, expert-9)
+dep(dol-2, *-1)
+dep(million-4, dol-2)
+num(dol-2, 7.8-3)
+dep(expert-9, million-4)
+det(expert-9, The-6)
+nn(expert-9, amount-7)
+nn(expert-9, compensation-8)
+nn(Feinberg-11, Kenneth-10)
+nsubj(says-12, Feinberg-11)
+rcmod(expert-9, says-12)
+nsubj(pay-15, GM-13)
+aux(pay-15, would-14)
+ccomp(says-12, pay-15)
+aux(compensate-17, to-16)
+xcomp(pay-15, compensate-17)
+det(paraplegic-20, a-18)
+amod(paraplegic-20, 10-year-old-19)
+dobj(compensate-17, paraplegic-20)
+vmod(paraplegic-20, injured-21)
+det(crash-24, a-23)
+prep_in(injured-21, crash-24)
+det(car-28, a-26)
+amod(car-28, small-27)
+prep_in(crash-24, car-28)
+nsubj(part-31, that-29)
+cop(part-31, was-30)
+rcmod(car-28, part-31)
+det(recall-35, the-33)
+amod(recall-35, initial-34)
+prep_of(part-31, recall-35)
+
+Sentence #19 (21 tokens):
+Feinberg announced Monday that GM-s compensation fund will begin taking claims from victims and their families on Aug. 1.
+[Text=Feinberg CharacterOffsetBegin=1929 CharacterOffsetEnd=1937 PartOfSpeech=NNP Lemma=Feinberg NamedEntityTag=PERSON] [Text=announced CharacterOffsetBegin=1938 CharacterOffsetEnd=1947 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=1948 CharacterOffsetEnd=1954 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-1">Monday<-TIMEX3>] [Text=that CharacterOffsetBegin=1955 CharacterOffsetEnd=1959 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=GM CharacterOffsetBegin=1960 CharacterOffsetEnd=1962 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=1962 CharacterOffsetEnd=1964 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=compensation CharacterOffsetBegin=1965 CharacterOffsetEnd=1977 PartOfSpeech=NN Lemma=compensation NamedEntityTag=O] [Text=fund CharacterOffsetBegin=1978 CharacterOffsetEnd=1982 PartOfSpeech=NN Lemma=fund NamedEntityTag=O] [Text=will CharacterOffsetBegin=1983 CharacterOffsetEnd=1987 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=begin CharacterOffsetBegin=1988 CharacterOffsetEnd=1993 PartOfSpeech=VB Lemma=begin NamedEntityTag=O] [Text=taking CharacterOffsetBegin=1994 CharacterOffsetEnd=2000 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=claims CharacterOffsetBegin=2001 CharacterOffsetEnd=2007 PartOfSpeech=NNS Lemma=claim NamedEntityTag=O] [Text=from CharacterOffsetBegin=2008 CharacterOffsetEnd=2012 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=victims CharacterOffsetBegin=2013 CharacterOffsetEnd=2020 PartOfSpeech=NNS Lemma=victim NamedEntityTag=O] [Text=and CharacterOffsetBegin=2021 CharacterOffsetEnd=2024 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=their CharacterOffsetBegin=2025 CharacterOffsetEnd=2030 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=families CharacterOffsetBegin=2031 CharacterOffsetEnd=2039 PartOfSpeech=NNS Lemma=family NamedEntityTag=O] [Text=on CharacterOffsetBegin=2040 CharacterOffsetEnd=2042 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Aug. CharacterOffsetBegin=2043 CharacterOffsetEnd=2047 PartOfSpeech=NNP Lemma=Aug. NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08-01 Timex=<TIMEX3 tid="t12" type="DATE" value="XXXX-08-01">Aug. 1<-TIMEX3>] [Text=1 CharacterOffsetBegin=2048 CharacterOffsetEnd=2049 PartOfSpeech=CD Lemma=1 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08-01 Timex=<TIMEX3 tid="t12" type="DATE" value="XXXX-08-01">Aug. 1<-TIMEX3>] [Text=. CharacterOffsetBegin=2049 CharacterOffsetEnd=2050 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Feinberg))
+    (VP (VBD announced)
+      (NP-TMP (NNP Monday))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNP GM) (POS -s))
+            (NN compensation) (NN fund))
+          (VP (MD will)
+            (VP (VB begin)
+              (S
+                (VP (VBG taking)
+                  (NP (NNS claims))
+                  (PP (IN from)
+                    (NP
+                      (NP (NNS victims))
+                      (CC and)
+                      (NP (PRP$ their) (NNS families))))
+                  (PP (IN on)
+                    (NP (NNP Aug.) (CD 1))))))))))
+    (. .)))
+
+root(ROOT-0, announced-2)
+nsubj(announced-2, Feinberg-1)
+tmod(announced-2, Monday-3)
+mark(begin-10, that-4)
+poss(fund-8, GM-5)
+nn(fund-8, compensation-7)
+nsubj(begin-10, fund-8)
+aux(begin-10, will-9)
+ccomp(announced-2, begin-10)
+xcomp(begin-10, taking-11)
+dobj(taking-11, claims-12)
+prep_from(taking-11, victims-14)
+poss(families-17, their-16)
+conj_and(victims-14, families-17)
+prep_on(taking-11, Aug.-19)
+num(Aug.-19, 1-20)
+
+Sentence #20 (16 tokens):
+*57 cents: Cost of each replacement switch for the 2.6 million small cars.
+[Text=* CharacterOffsetBegin=2052 CharacterOffsetEnd=2053 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=57 CharacterOffsetBegin=2053 CharacterOffsetEnd=2055 PartOfSpeech=CD Lemma=57 NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.5700000000000001] [Text=cents CharacterOffsetBegin=2056 CharacterOffsetEnd=2061 PartOfSpeech=NNS Lemma=cent NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.5700000000000001] [Text=: CharacterOffsetBegin=2061 CharacterOffsetEnd=2062 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Cost CharacterOffsetBegin=2063 CharacterOffsetEnd=2067 PartOfSpeech=NN Lemma=cost NamedEntityTag=O] [Text=of CharacterOffsetBegin=2068 CharacterOffsetEnd=2070 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=each CharacterOffsetBegin=2071 CharacterOffsetEnd=2075 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=replacement CharacterOffsetBegin=2076 CharacterOffsetEnd=2087 PartOfSpeech=NN Lemma=replacement NamedEntityTag=O] [Text=switch CharacterOffsetBegin=2088 CharacterOffsetEnd=2094 PartOfSpeech=NN Lemma=switch NamedEntityTag=O] [Text=for CharacterOffsetBegin=2095 CharacterOffsetEnd=2098 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2099 CharacterOffsetEnd=2102 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2.6 CharacterOffsetBegin=2103 CharacterOffsetEnd=2106 PartOfSpeech=CD Lemma=2.6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2600000.0] [Text=million CharacterOffsetBegin=2107 CharacterOffsetEnd=2114 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=2600000.0] [Text=small CharacterOffsetBegin=2115 CharacterOffsetEnd=2120 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=cars CharacterOffsetBegin=2121 CharacterOffsetEnd=2125 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=. CharacterOffsetBegin=2125 CharacterOffsetEnd=2126 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (PP
+    (X
+      (X (SYM *))
+      (NP (CD 57) (NNS cents)))
+    (: :)
+    (PP
+      (NP
+        (NP (NN Cost))
+        (PP (IN of)
+          (NP (DT each) (NN replacement) (NN switch))))
+      (IN for)
+      (NP (DT the)
+        (QP (CD 2.6) (CD million))
+        (JJ small) (NNS cars)))
+    (. .)))
+
+root(ROOT-0, for-10)
+dep(cents-3, *-1)
+num(cents-3, 57-2)
+dep(for-10, cents-3)
+npadvmod(for-10, Cost-5)
+det(switch-9, each-7)
+nn(switch-9, replacement-8)
+prep_of(Cost-5, switch-9)
+det(cars-15, the-11)
+number(million-13, 2.6-12)
+num(cars-15, million-13)
+amod(cars-15, small-14)
+pobj(for-10, cars-15)
+
+Sentence #21 (23 tokens):
+*$35 million: Fine levied on GM by the National Highway Traffic Safety Administration for concealing the ignition switch problems.
+[Text=* CharacterOffsetBegin=2128 CharacterOffsetEnd=2129 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2129 CharacterOffsetEnd=2130 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.5E7] [Text=35 CharacterOffsetBegin=2130 CharacterOffsetEnd=2132 PartOfSpeech=CD Lemma=35 NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.5E7] [Text=million CharacterOffsetBegin=2133 CharacterOffsetEnd=2140 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.5E7] [Text=: CharacterOffsetBegin=2140 CharacterOffsetEnd=2141 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Fine CharacterOffsetBegin=2142 CharacterOffsetEnd=2146 PartOfSpeech=NNP Lemma=Fine NamedEntityTag=O] [Text=levied CharacterOffsetBegin=2147 CharacterOffsetEnd=2153 PartOfSpeech=VBD Lemma=levy NamedEntityTag=O] [Text=on CharacterOffsetBegin=2154 CharacterOffsetEnd=2156 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=GM CharacterOffsetBegin=2157 CharacterOffsetEnd=2159 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=by CharacterOffsetBegin=2160 CharacterOffsetEnd=2162 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=2163 CharacterOffsetEnd=2166 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=National CharacterOffsetBegin=2167 CharacterOffsetEnd=2175 PartOfSpeech=NNP Lemma=National NamedEntityTag=ORGANIZATION] [Text=Highway CharacterOffsetBegin=2176 CharacterOffsetEnd=2183 PartOfSpeech=NNP Lemma=Highway NamedEntityTag=ORGANIZATION] [Text=Traffic CharacterOffsetBegin=2184 CharacterOffsetEnd=2191 PartOfSpeech=NNP Lemma=Traffic NamedEntityTag=ORGANIZATION] [Text=Safety CharacterOffsetBegin=2192 CharacterOffsetEnd=2198 PartOfSpeech=NNP Lemma=Safety NamedEntityTag=ORGANIZATION] [Text=Administration CharacterOffsetBegin=2199 CharacterOffsetEnd=2213 PartOfSpeech=NNP Lemma=Administration NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=2214 CharacterOffsetEnd=2217 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=concealing CharacterOffsetBegin=2218 CharacterOffsetEnd=2228 PartOfSpeech=VBG Lemma=conceal NamedEntityTag=O] [Text=the CharacterOffsetBegin=2229 CharacterOffsetEnd=2232 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ignition CharacterOffsetBegin=2233 CharacterOffsetEnd=2241 PartOfSpeech=NN Lemma=ignition NamedEntityTag=O] [Text=switch CharacterOffsetBegin=2242 CharacterOffsetEnd=2248 PartOfSpeech=NN Lemma=switch NamedEntityTag=O] [Text=problems CharacterOffsetBegin=2249 CharacterOffsetEnd=2257 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=. CharacterOffsetBegin=2257 CharacterOffsetEnd=2258 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (X
+      (X
+        (X (SYM *))
+        (NP ($ $) (CD 35)))
+      (NP (CD million)))
+    (: :)
+    (NP (NNP Fine))
+    (VP (VBD levied)
+      (PP (IN on)
+        (NP (NNP GM)))
+      (PP (IN by)
+        (NP (DT the) (NNP National) (NNP Highway) (NNP Traffic) (NNP Safety) (NNP Administration)))
+      (PP (IN for)
+        (S
+          (VP (VBG concealing)
+            (NP (DT the) (NN ignition) (NN switch) (NNS problems))))))
+    (. .)))
+
+root(ROOT-0, levied-7)
+dep(dol-2, *-1)
+dep(million-4, dol-2)
+num(dol-2, 35-3)
+dep(levied-7, million-4)
+nsubj(levied-7, Fine-6)
+prep_on(levied-7, GM-9)
+det(Administration-16, the-11)
+nn(Administration-16, National-12)
+nn(Administration-16, Highway-13)
+nn(Administration-16, Traffic-14)
+nn(Administration-16, Safety-15)
+prep_by(levied-7, Administration-16)
+prepc_for(levied-7, concealing-18)
+det(problems-22, the-19)
+nn(problems-22, ignition-20)
+nn(problems-22, switch-21)
+dobj(concealing-18, problems-22)
+
+Sentence #22 (12 tokens):
+*$3.8 billion: GM-s net income last year.
+[Text=* CharacterOffsetBegin=2260 CharacterOffsetEnd=2261 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2261 CharacterOffsetEnd=2262 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.8E9] [Text=3.8 CharacterOffsetBegin=2262 CharacterOffsetEnd=2265 PartOfSpeech=CD Lemma=3.8 NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.8E9] [Text=billion CharacterOffsetBegin=2266 CharacterOffsetEnd=2273 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.8E9] [Text=: CharacterOffsetBegin=2273 CharacterOffsetEnd=2274 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=GM CharacterOffsetBegin=2275 CharacterOffsetEnd=2277 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=2277 CharacterOffsetEnd=2279 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=net CharacterOffsetBegin=2280 CharacterOffsetEnd=2283 PartOfSpeech=JJ Lemma=net NamedEntityTag=O] [Text=income CharacterOffsetBegin=2284 CharacterOffsetEnd=2290 PartOfSpeech=NN Lemma=income NamedEntityTag=O] [Text=last CharacterOffsetBegin=2291 CharacterOffsetEnd=2295 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t14" temporalFunction="true" tid="t13" type="DATE" valueFromFunction="tf1">last year<-TIMEX3>] [Text=year CharacterOffsetBegin=2296 CharacterOffsetEnd=2300 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t14" temporalFunction="true" tid="t13" type="DATE" valueFromFunction="tf1">last year<-TIMEX3>] [Text=. CharacterOffsetBegin=2300 CharacterOffsetEnd=2301 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (X
+      (X (SYM *))
+      (NP
+        (NP ($ $) (CD 3.8))
+        (NP
+          (NP (CD billion))
+          (: :)
+          (NP
+            (NP (NNP GM) (POS -s))
+            (JJ net) (NN income)))))
+    (NP (JJ last) (NN year) (. .))))
+
+root(ROOT-0, year-11)
+dep(dol-2, *-1)
+dep(year-11, dol-2)
+num(dol-2, 3.8-3)
+dep(dol-2, billion-4)
+poss(income-9, GM-6)
+amod(income-9, net-8)
+dep(billion-4, income-9)
+amod(year-11, last-10)
+
+Sentence #23 (16 tokens):
+*9.7 million: Number of cars and trucks sold by GM globally last year.
+[Text=* CharacterOffsetBegin=2303 CharacterOffsetEnd=2304 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=9.7 CharacterOffsetBegin=2304 CharacterOffsetEnd=2307 PartOfSpeech=CD Lemma=9.7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9700000.0] [Text=million CharacterOffsetBegin=2308 CharacterOffsetEnd=2315 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=9700000.0] [Text=: CharacterOffsetBegin=2315 CharacterOffsetEnd=2316 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Number CharacterOffsetBegin=2317 CharacterOffsetEnd=2323 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=2324 CharacterOffsetEnd=2326 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=cars CharacterOffsetBegin=2327 CharacterOffsetEnd=2331 PartOfSpeech=NNS Lemma=car NamedEntityTag=O] [Text=and CharacterOffsetBegin=2332 CharacterOffsetEnd=2335 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=trucks CharacterOffsetBegin=2336 CharacterOffsetEnd=2342 PartOfSpeech=NNS Lemma=truck NamedEntityTag=O] [Text=sold CharacterOffsetBegin=2343 CharacterOffsetEnd=2347 PartOfSpeech=VBN Lemma=sell NamedEntityTag=O] [Text=by CharacterOffsetBegin=2348 CharacterOffsetEnd=2350 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=GM CharacterOffsetBegin=2351 CharacterOffsetEnd=2353 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=globally CharacterOffsetBegin=2354 CharacterOffsetEnd=2362 PartOfSpeech=RB Lemma=globally NamedEntityTag=O] [Text=last CharacterOffsetBegin=2363 CharacterOffsetEnd=2367 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t14" temporalFunction="true" tid="t15" type="DATE" valueFromFunction="tf2">last year<-TIMEX3>] [Text=year CharacterOffsetBegin=2368 CharacterOffsetEnd=2372 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t14" temporalFunction="true" tid="t15" type="DATE" valueFromFunction="tf2">last year<-TIMEX3>] [Text=. CharacterOffsetBegin=2372 CharacterOffsetEnd=2373 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (FRAG
+      (X (SYM *))
+      (NP (CD 9.7) (CD million)))
+    (: :)
+    (S
+      (NP
+        (NP (NN Number))
+        (PP (IN of)
+          (NP (NNS cars)
+            (CC and)
+            (NNS trucks))))
+      (VP (VBN sold)
+        (PP (IN by)
+          (NP
+            (NP (NNP GM))
+            (ADVP (RB globally))
+            (NP-TMP (JJ last) (NN year))))))
+    (. .)))
+
+root(ROOT-0, sold-10)
+dep(million-3, *-1)
+num(million-3, 9.7-2)
+dep(sold-10, million-3)
+nsubj(sold-10, Number-5)
+prep_of(Number-5, cars-7)
+conj_and(cars-7, trucks-9)
+prep_by(sold-10, GM-12)
+advmod(GM-12, globally-13)
+amod(year-15, last-14)
+tmod(GM-12, year-15)
+
+Sentence #24 (16 tokens):
+*15: Number of GM employees dismissed for conduct that delayed the small-car recall.
+[Text=* CharacterOffsetBegin=2375 CharacterOffsetEnd=2376 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=15 CharacterOffsetBegin=2376 CharacterOffsetEnd=2378 PartOfSpeech=CD Lemma=15 NamedEntityTag=NUMBER NormalizedNamedEntityTag=15.0] [Text=: CharacterOffsetBegin=2378 CharacterOffsetEnd=2379 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Number CharacterOffsetBegin=2380 CharacterOffsetEnd=2386 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=2387 CharacterOffsetEnd=2389 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=GM CharacterOffsetBegin=2390 CharacterOffsetEnd=2392 PartOfSpeech=NNP Lemma=GM NamedEntityTag=ORGANIZATION] [Text=employees CharacterOffsetBegin=2393 CharacterOffsetEnd=2402 PartOfSpeech=NNS Lemma=employee NamedEntityTag=O] [Text=dismissed CharacterOffsetBegin=2403 CharacterOffsetEnd=2412 PartOfSpeech=VBD Lemma=dismiss NamedEntityTag=O] [Text=for CharacterOffsetBegin=2413 CharacterOffsetEnd=2416 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=conduct CharacterOffsetBegin=2417 CharacterOffsetEnd=2424 PartOfSpeech=NN Lemma=conduct NamedEntityTag=O] [Text=that CharacterOffsetBegin=2425 CharacterOffsetEnd=2429 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=delayed CharacterOffsetBegin=2430 CharacterOffsetEnd=2437 PartOfSpeech=VBD Lemma=delay NamedEntityTag=O] [Text=the CharacterOffsetBegin=2438 CharacterOffsetEnd=2441 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=small-car CharacterOffsetBegin=2442 CharacterOffsetEnd=2451 PartOfSpeech=JJ Lemma=small-car NamedEntityTag=O] [Text=recall CharacterOffsetBegin=2452 CharacterOffsetEnd=2458 PartOfSpeech=NN Lemma=recall NamedEntityTag=O] [Text=. CharacterOffsetBegin=2458 CharacterOffsetEnd=2459 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (FRAG
+      (X (SYM *))
+      (NP (CD 15)))
+    (: :)
+    (S
+      (NP
+        (NP (NN Number))
+        (PP (IN of)
+          (NP (NNP GM) (NNS employees))))
+      (VP (VBD dismissed)
+        (PP (IN for)
+          (NP
+            (NP (NN conduct))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD delayed)
+                  (NP (DT the) (JJ small-car) (NN recall)))))))))
+    (. .)))
+
+root(ROOT-0, dismissed-8)
+dep(15-2, *-1)
+dep(dismissed-8, 15-2)
+nsubj(dismissed-8, Number-4)
+nn(employees-7, GM-6)
+prep_of(Number-4, employees-7)
+prep_for(dismissed-8, conduct-10)
+nsubj(delayed-12, that-11)
+rcmod(conduct-10, delayed-12)
+det(recall-15, the-13)
+amod(recall-15, small-car-14)
+dobj(delayed-12, recall-15)
+
+Coreference set:
+	(1,4,[4,6]) -> (1,19,[18,26]), that is: "GM -s" -> "General Motors with significant safety issues this year"
+	(2,29,[29,30]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(2,39,[39,40]) -> (1,19,[18,26]), that is: "it" -> "General Motors with significant safety issues this year"
+	(3,11,[11,12]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(5,6,[6,7]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(7,8,[8,9]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(8,8,[8,9]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(9,1,[1,2]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(9,3,[3,4]) -> (1,19,[18,26]), that is: "it" -> "General Motors with significant safety issues this year"
+	(10,8,[8,9]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(17,6,[6,8]) -> (1,19,[18,26]), that is: "GM -s" -> "General Motors with significant safety issues this year"
+	(18,13,[13,14]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(19,5,[5,7]) -> (1,19,[18,26]), that is: "GM -s" -> "General Motors with significant safety issues this year"
+	(21,9,[9,10]) -> (1,19,[18,26]), that is: "GM" -> "General Motors with significant safety issues this year"
+	(22,6,[6,8]) -> (1,19,[18,26]), that is: "GM -s" -> "General Motors with significant safety issues this year"
+Coreference set:
+	(1,1,[1,13]) -> (2,10,[9,11]), that is: "Numbers related to GM -s delayed recall of cars for faulty ignition" -> "the numbers"
+Coreference set:
+	(23,15,[14,16]) -> (22,11,[10,13]), that is: "last year" -> "last year ."
+Coreference set:
+	(3,2,[1,3]) -> (1,7,[4,13]), that is: "The recall" -> "GM -s delayed recall of cars for faulty ignition"
+Coreference set:
+	(15,11,[10,12]) -> (1,25,[24,26]), that is: "this year" -> "this year"
+	(16,16,[15,17]) -> (1,25,[24,26]), that is: "this year" -> "this year"
+Coreference set:
+	(20,13,[12,14]) -> (2,14,[12,22]), that is: "2.6 million" -> "* 2.6 million : The number of older small cars"
+Coreference set:
+	(8,15,[14,16]) -> (3,12,[10,13]), that is: "the vehicles" -> "other GM vehicles"
+Coreference set:
+	(4,13,[13,14]) -> (12,8,[8,10]), that is: "Monday" -> "Monday -s"
+	(6,17,[17,18]) -> (12,8,[8,10]), that is: "Monday" -> "Monday -s"
+	(8,17,[17,18]) -> (12,8,[8,10]), that is: "Monday" -> "Monday -s"
+	(14,7,[7,8]) -> (12,8,[8,10]), that is: "Monday" -> "Monday -s"
+	(19,3,[3,4]) -> (12,8,[8,10]), that is: "Monday" -> "Monday -s"
+Coreference set:
+	(12,4,[3,5]) -> (6,14,[13,15]), that is: "Chevrolet Malibu" -> "Chevrolet Malibu"
+Coreference set:
+	(7,12,[12,20]) -> (9,14,[13,15]), that is: "crashes related to ignition-switch problems in small cars" -> "the crashes"
+	(8,12,[12,13]) -> (9,14,[13,15]), that is: "crashes" -> "the crashes"
+	(10,16,[16,24]) -> (9,14,[13,15]), that is: "crashes related to ignition-switch problems in small cars" -> "the crashes"
+Coreference set:
+	(10,20,[19,24]) -> (7,16,[15,20]), that is: "ignition-switch problems in small cars" -> "ignition-switch problems in small cars"
+Coreference set:
+	(10,23,[22,24]) -> (7,19,[18,20]), that is: "small cars" -> "small cars"
+Coreference set:
+	(14,17,[16,18]) -> (9,10,[9,11]), that is: "the ignition" -> "the ignition"
+Coreference set:
+	(15,4,[4,7]) -> (10,5,[4,24]), that is: "Number of GM" -> "The number of people GM victims - advocates say have died in crashes related to ignition-switch problems in small cars"
+Coreference set:
+	(19,14,[14,15]) -> (10,9,[8,11]), that is: "victims" -> "GM victims -"
+	(19,16,[16,17]) -> (10,9,[8,11]), that is: "their" -> "GM victims -"
+Coreference set:
+	(13,6,[5,10]) -> (11,6,[5,10]), that is: "model year of a vehicle" -> "model year of a vehicle"
+Coreference set:
+	(13,9,[8,10]) -> (11,9,[8,10]), that is: "a vehicle" -> "a vehicle"
+Coreference set:
+	(13,14,[12,15]) -> (11,14,[12,15]), that is: "a faulty ignition" -> "a faulty ignition"
+Coreference set:
+	(14,9,[9,10]) -> (14,4,[3,5]), that is: "its" -> "Cadillac CTS"
+Coreference set:
+	(23,5,[5,10]) -> (16,5,[5,10]), that is: "Number of cars and trucks" -> "Number of cars and trucks"
+Coreference set:
+	(19,1,[1,2]) -> (18,11,[10,12]), that is: "Feinberg" -> "Kenneth Feinberg"

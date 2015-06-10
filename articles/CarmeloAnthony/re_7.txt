@@ -1,0 +1,758 @@
+Sentence #1 (26 tokens):
+Jordan Farmar and Chris Kaman officially ex-Lakers - Los Angeles Times
+The NBA-s annual moratorium ended Thursday, allowing teams to sign free agents.
+[Text=Jordan CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Jordan NamedEntityTag=PERSON] [Text=Farmar CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Farmar NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Chris CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Kaman CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NNP Lemma=Kaman NamedEntityTag=PERSON] [Text=officially CharacterOffsetBegin=30 CharacterOffsetEnd=40 PartOfSpeech=RB Lemma=officially NamedEntityTag=O] [Text=ex-Lakers CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=NNPS Lemma=ex-Lakers NamedEntityTag=O] [Text=- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Los CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Los NamedEntityTag=LOCATION] [Text=Angeles CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=NNP Lemma=Angeles NamedEntityTag=LOCATION] [Text=Times CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=NNP Lemma=Times NamedEntityTag=O] [Text=The CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=The NamedEntityTag=O] [Text=NBA CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=NBA NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=annual CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t1" type="SET" value="P1Y">annual<-TIMEX3>] [Text=moratorium CharacterOffsetBegin=89 CharacterOffsetEnd=99 PartOfSpeech=NN Lemma=moratorium NamedEntityTag=O] [Text=ended CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-4">Thursday<-TIMEX3>] [Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=allowing CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=VBG Lemma=allow NamedEntityTag=O] [Text=teams CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=to CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sign CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=free CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=agents CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NNS Lemma=agent NamedEntityTag=O] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jordan) (NNP Farmar))
+      (CC and)
+      (NP
+        (NP
+          (NP (NNP Chris) (NNP Kaman))
+          (NP (RB officially) (NNPS ex-Lakers)))
+        (: -)
+        (NP
+          (NP (NNP Los) (NNP Angeles) (NNP Times))
+          (NP
+            (NP (NNP The) (NNP NBA) (POS -s))
+            (JJ annual) (NN moratorium)))))
+    (VP (VBD ended)
+      (NP-TMP (NNP Thursday))
+      (, ,)
+      (S
+        (VP (VBG allowing)
+          (NP (NNS teams))
+          (S
+            (VP (TO to)
+              (VP (VB sign)
+                (NP (JJ free) (NNS agents))))))))
+    (. .)))
+
+root(ROOT-0, ended-17)
+nn(Farmar-2, Jordan-1)
+nsubj(ended-17, Farmar-2)
+nn(Kaman-5, Chris-4)
+conj_and(Farmar-2, Kaman-5)
+advmod(ex-Lakers-7, officially-6)
+dep(Kaman-5, ex-Lakers-7)
+nn(Times-11, Los-9)
+nn(Times-11, Angeles-10)
+dep(Kaman-5, Times-11)
+nn(NBA-13, The-12)
+poss(moratorium-16, NBA-13)
+amod(moratorium-16, annual-15)
+dep(Times-11, moratorium-16)
+tmod(ended-17, Thursday-18)
+vmod(ended-17, allowing-20)
+dobj(allowing-20, teams-21)
+aux(sign-23, to-22)
+xcomp(allowing-20, sign-23)
+amod(agents-25, free-24)
+dobj(sign-23, agents-25)
+
+Sentence #2 (35 tokens):
+While it didn-t take long before a number of players signed their deals, the Lakers remained in neutral while waiting for New York Knicks free agent Carmelo Anthony to decide his future.
+[Text=While CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=it CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=did CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=take CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=long CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=JJ Lemma=long NamedEntityTag=O] [Text=before CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=a CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=number CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=of CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=players CharacterOffsetBegin=198 CharacterOffsetEnd=205 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=signed CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=VBD Lemma=sign NamedEntityTag=O] [Text=their CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=deals CharacterOffsetBegin=219 CharacterOffsetEnd=224 PartOfSpeech=NNS Lemma=deal NamedEntityTag=O] [Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=230 CharacterOffsetEnd=236 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=remained CharacterOffsetBegin=237 CharacterOffsetEnd=245 PartOfSpeech=VBD Lemma=remain NamedEntityTag=O] [Text=in CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=neutral CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=JJ Lemma=neutral NamedEntityTag=O] [Text=while CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=waiting CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=VBG Lemma=wait NamedEntityTag=O] [Text=for CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=New CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=NNP Lemma=New NamedEntityTag=ORGANIZATION] [Text=York CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=NNP Lemma=York NamedEntityTag=ORGANIZATION] [Text=Knicks CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NNPS Lemma=Knicks NamedEntityTag=ORGANIZATION] [Text=free CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=agent CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=NN Lemma=agent NamedEntityTag=O] [Text=Carmelo CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=NNP Lemma=Carmelo NamedEntityTag=PERSON] [Text=Anthony CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=decide CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=VB Lemma=decide NamedEntityTag=O] [Text=his CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=future CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NN Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t3" type="DATE" value="FUTURE_REF">future<-TIMEX3>] [Text=. CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (PRP it))
+        (VP (VBD did) (RB n-t)
+          (VP (VB take)
+            (ADVP (JJ long))
+            (SBAR (IN before)
+              (S
+                (NP
+                  (NP (DT a) (NN number))
+                  (PP (IN of)
+                    (NP (NNS players))))
+                (VP (VBD signed)
+                  (NP (PRP$ their) (NNS deals)))))))))
+    (, ,)
+    (NP (DT the) (NNPS Lakers))
+    (VP (VBD remained)
+      (PP (IN in)
+        (ADJP (JJ neutral)))
+      (SBAR (IN while)
+        (S
+          (VP (VBG waiting)
+            (PP (IN for)
+              (NP (NNP New) (NNP York) (NNPS Knicks)))
+            (NP-TMP
+              (NP (JJ free) (NN agent))
+              (NP (NNP Carmelo) (NNP Anthony)))
+            (S
+              (VP (TO to)
+                (VP (VB decide)
+                  (NP (PRP$ his) (NN future)))))))))
+    (. .)))
+
+root(ROOT-0, remained-18)
+mark(take-5, While-1)
+nsubj(take-5, it-2)
+aux(take-5, did-3)
+neg(take-5, n-t-4)
+advcl(remained-18, take-5)
+advmod(take-5, long-6)
+mark(signed-12, before-7)
+det(number-9, a-8)
+nsubj(signed-12, number-9)
+prep_of(number-9, players-11)
+advcl(take-5, signed-12)
+poss(deals-14, their-13)
+dobj(signed-12, deals-14)
+det(Lakers-17, the-16)
+nsubj(remained-18, Lakers-17)
+prep_in(remained-18, neutral-20)
+mark(waiting-22, while-21)
+advcl(remained-18, waiting-22)
+nn(Knicks-26, New-24)
+nn(Knicks-26, York-25)
+prep_for(waiting-22, Knicks-26)
+amod(agent-28, free-27)
+tmod(waiting-22, agent-28)
+nn(Anthony-30, Carmelo-29)
+dep(agent-28, Anthony-30)
+aux(decide-32, to-31)
+xcomp(waiting-22, decide-32)
+poss(future-34, his-33)
+dobj(decide-32, future-34)
+
+Sentence #3 (34 tokens):
+The Lakers would love to give Anthony a significant deal to change coasts, but a New York Daily News report Wednesday indicated the high-scoring forward is expected to return to the Knicks.
+[Text=The CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=O] [Text=would CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=love CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=VB Lemma=love NamedEntityTag=O] [Text=to CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=give CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=VB Lemma=give NamedEntityTag=O] [Text=Anthony CharacterOffsetBegin=371 CharacterOffsetEnd=378 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=a CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=significant CharacterOffsetBegin=381 CharacterOffsetEnd=392 PartOfSpeech=JJ Lemma=significant NamedEntityTag=O] [Text=deal CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=to CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=change CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=coasts CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNS Lemma=coast NamedEntityTag=O] [Text=, CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=a CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=New CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=NNP Lemma=New NamedEntityTag=ORGANIZATION] [Text=York CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=NNP Lemma=York NamedEntityTag=ORGANIZATION] [Text=Daily CharacterOffsetBegin=431 CharacterOffsetEnd=436 PartOfSpeech=NNP Lemma=Daily NamedEntityTag=ORGANIZATION Timex=<TIMEX3 freq="P1X" periodicity="P1D" quant="EVERY" tid="t4" type="SET" value="P1D">Daily<-TIMEX3>] [Text=News CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=NNP Lemma=News NamedEntityTag=ORGANIZATION] [Text=report CharacterOffsetBegin=442 CharacterOffsetEnd=448 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=449 CharacterOffsetEnd=458 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t5" type="DATE" value="XXXX-WXX-3">Wednesday<-TIMEX3>] [Text=indicated CharacterOffsetBegin=459 CharacterOffsetEnd=468 PartOfSpeech=VBD Lemma=indicate NamedEntityTag=O] [Text=the CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=high-scoring CharacterOffsetBegin=473 CharacterOffsetEnd=485 PartOfSpeech=JJ Lemma=high-scoring NamedEntityTag=O] [Text=forward CharacterOffsetBegin=486 CharacterOffsetEnd=493 PartOfSpeech=RB Lemma=forward NamedEntityTag=O] [Text=is CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=497 CharacterOffsetEnd=505 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=return CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=VB Lemma=return NamedEntityTag=O] [Text=to CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Knicks CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NNPS Lemma=Knicks NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNPS Lakers))
+      (VP (MD would)
+        (VP (VB love)
+          (S
+            (VP (TO to)
+              (VP (VB give)
+                (NP (NNP Anthony))
+                (NP (DT a) (JJ significant) (NN deal)
+                  (S
+                    (VP (TO to)
+                      (VP (VB change)
+                        (NP (NNS coasts))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT a) (NNP New) (NNP York) (NNP Daily) (NNP News) (NN report))
+      (NP-TMP (NNP Wednesday))
+      (VP (VBD indicated)
+        (SBAR
+          (S
+            (NP (DT the) (JJ high-scoring))
+            (ADVP (RB forward))
+            (VP (VBZ is)
+              (VP (VBN expected)
+                (S
+                  (VP (TO to)
+                    (VP (VB return)
+                      (PP (TO to)
+                        (NP (DT the) (NNPS Knicks))))))))))))
+    (. .)))
+
+root(ROOT-0, love-4)
+det(Lakers-2, The-1)
+nsubj(love-4, Lakers-2)
+aux(love-4, would-3)
+aux(give-6, to-5)
+xcomp(love-4, give-6)
+iobj(give-6, Anthony-7)
+det(deal-10, a-8)
+amod(deal-10, significant-9)
+dobj(give-6, deal-10)
+aux(change-12, to-11)
+vmod(deal-10, change-12)
+dobj(change-12, coasts-13)
+det(report-21, a-16)
+nn(report-21, New-17)
+nn(report-21, York-18)
+nn(report-21, Daily-19)
+nn(report-21, News-20)
+nsubj(indicated-23, report-21)
+tmod(indicated-23, Wednesday-22)
+conj_but(love-4, indicated-23)
+det(high-scoring-25, the-24)
+nsubjpass(expected-28, high-scoring-25)
+advmod(expected-28, forward-26)
+auxpass(expected-28, is-27)
+ccomp(indicated-23, expected-28)
+aux(return-30, to-29)
+xcomp(expected-28, return-30)
+det(Knicks-33, the-32)
+prep_to(return-30, Knicks-33)
+
+Sentence #4 (14 tokens):
+Meanwhile, the Lakers officially lost two players from last year-s squad.
+[Text=Meanwhile CharacterOffsetBegin=532 CharacterOffsetEnd=541 PartOfSpeech=RB Lemma=meanwhile NamedEntityTag=O] [Text=, CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=officially CharacterOffsetBegin=554 CharacterOffsetEnd=564 PartOfSpeech=RB Lemma=officially NamedEntityTag=O] [Text=lost CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O] [Text=two CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=players CharacterOffsetBegin=574 CharacterOffsetEnd=581 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=from CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=last CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">last year<-TIMEX3>] [Text=year CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">last year<-TIMEX3>] [Text=-s CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=squad CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NN Lemma=squad NamedEntityTag=O] [Text=. CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP (DT the) (NNPS Lakers))
+    (ADVP (RB officially))
+    (VP (VBD lost)
+      (NP (CD two) (NNS players))
+      (PP (IN from)
+        (NP
+          (NP-TMP (JJ last) (NN year) (POS -s))
+          (NN squad))))
+    (. .)))
+
+root(ROOT-0, lost-6)
+advmod(lost-6, Meanwhile-1)
+det(Lakers-4, the-3)
+nsubj(lost-6, Lakers-4)
+advmod(lost-6, officially-5)
+num(players-8, two-7)
+dobj(lost-6, players-8)
+amod(year-11, last-10)
+tmod(squad-13, year-11)
+possessive(year-11, -s-12)
+prep_from(lost-6, squad-13)
+
+Sentence #5 (17 tokens):
+Chris Kaman officially joined the Portland Trail Blazers on Thursday; Jordan Farmar became a Clipper.
+[Text=Chris CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Kaman CharacterOffsetBegin=612 CharacterOffsetEnd=617 PartOfSpeech=NNP Lemma=Kaman NamedEntityTag=PERSON] [Text=officially CharacterOffsetBegin=618 CharacterOffsetEnd=628 PartOfSpeech=RB Lemma=officially NamedEntityTag=O] [Text=joined CharacterOffsetBegin=629 CharacterOffsetEnd=635 PartOfSpeech=VBD Lemma=join NamedEntityTag=O] [Text=the CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Portland CharacterOffsetBegin=640 CharacterOffsetEnd=648 PartOfSpeech=NNP Lemma=Portland NamedEntityTag=LOCATION] [Text=Trail CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=NN Lemma=trail NamedEntityTag=O] [Text=Blazers CharacterOffsetBegin=655 CharacterOffsetEnd=662 PartOfSpeech=NNS Lemma=blazer NamedEntityTag=O] [Text=on CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=666 CharacterOffsetEnd=674 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-4">Thursday<-TIMEX3>] [Text=; CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=Jordan CharacterOffsetBegin=676 CharacterOffsetEnd=682 PartOfSpeech=NNP Lemma=Jordan NamedEntityTag=PERSON] [Text=Farmar CharacterOffsetBegin=683 CharacterOffsetEnd=689 PartOfSpeech=NNP Lemma=Farmar NamedEntityTag=PERSON] [Text=became CharacterOffsetBegin=690 CharacterOffsetEnd=696 PartOfSpeech=VBD Lemma=become NamedEntityTag=O] [Text=a CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Clipper CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NNP Lemma=Clipper NamedEntityTag=O] [Text=. CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Chris) (NNP Kaman))
+      (ADVP (RB officially))
+      (VP (VBD joined)
+        (NP (DT the) (NNP Portland) (NN Trail) (NNS Blazers))
+        (PP (IN on)
+          (NP (NNP Thursday)))))
+    (: ;)
+    (S
+      (NP (NNP Jordan) (NNP Farmar))
+      (VP (VBD became)
+        (NP (DT a) (NNP Clipper))))
+    (. .)))
+
+root(ROOT-0, joined-4)
+nn(Kaman-2, Chris-1)
+nsubj(joined-4, Kaman-2)
+advmod(joined-4, officially-3)
+det(Blazers-8, the-5)
+nn(Blazers-8, Portland-6)
+nn(Blazers-8, Trail-7)
+dobj(joined-4, Blazers-8)
+prep_on(joined-4, Thursday-10)
+nn(Farmar-13, Jordan-12)
+nsubj(Clipper-16, Farmar-13)
+cop(Clipper-16, became-14)
+det(Clipper-16, a-15)
+parataxis(joined-4, Clipper-16)
+
+Sentence #6 (25 tokens):
+Shooting guard Jodie Meeks has agreed to leave the Lakers for the Detroit Pistons on a lucrative, $19-million contract over three seasons.
+[Text=Shooting CharacterOffsetBegin=709 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=shooting NamedEntityTag=O] [Text=guard CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=NN Lemma=guard NamedEntityTag=O] [Text=Jodie CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=NNP Lemma=Jodie NamedEntityTag=PERSON] [Text=Meeks CharacterOffsetBegin=730 CharacterOffsetEnd=735 PartOfSpeech=NNP Lemma=Meeks NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=agreed CharacterOffsetBegin=740 CharacterOffsetEnd=746 PartOfSpeech=VBN Lemma=agree NamedEntityTag=O] [Text=to CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=leave CharacterOffsetBegin=750 CharacterOffsetEnd=755 PartOfSpeech=VB Lemma=leave NamedEntityTag=O] [Text=the CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=760 CharacterOffsetEnd=766 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=767 CharacterOffsetEnd=770 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=771 CharacterOffsetEnd=774 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Detroit CharacterOffsetBegin=775 CharacterOffsetEnd=782 PartOfSpeech=NNP Lemma=Detroit NamedEntityTag=ORGANIZATION] [Text=Pistons CharacterOffsetBegin=783 CharacterOffsetEnd=790 PartOfSpeech=NNPS Lemma=Pistons NamedEntityTag=ORGANIZATION] [Text=on CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=794 CharacterOffsetEnd=795 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lucrative CharacterOffsetBegin=796 CharacterOffsetEnd=805 PartOfSpeech=JJ Lemma=lucrative NamedEntityTag=O] [Text=, CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=$ CharacterOffsetBegin=807 CharacterOffsetEnd=808 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.9E7] [Text=19-million CharacterOffsetBegin=808 CharacterOffsetEnd=818 PartOfSpeech=CD Lemma=19-million NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.9E7] [Text=contract CharacterOffsetBegin=819 CharacterOffsetEnd=827 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=over CharacterOffsetBegin=828 CharacterOffsetEnd=832 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=three CharacterOffsetBegin=833 CharacterOffsetEnd=838 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=>3.0] [Text=seasons CharacterOffsetBegin=839 CharacterOffsetEnd=846 PartOfSpeech=NNS Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=846 CharacterOffsetEnd=847 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Shooting) (NN guard) (NNP Jodie) (NNP Meeks))
+    (VP (VBZ has)
+      (VP (VBN agreed)
+        (S
+          (VP (TO to)
+            (VP (VB leave)
+              (NP (DT the) (NNPS Lakers))
+              (PP (IN for)
+                (NP (DT the) (NNP Detroit) (NNPS Pistons)))
+              (PP (IN on)
+                (NP
+                  (NP (DT a) (JJ lucrative) (, ,)
+                    (ADJP
+                      (QP ($ $) (CD 19-million)))
+                    (NN contract))
+                  (PP (IN over)
+                    (NP (CD three) (NNS seasons))))))))))
+    (. .)))
+
+root(ROOT-0, agreed-6)
+nn(Meeks-4, Shooting-1)
+nn(Meeks-4, guard-2)
+nn(Meeks-4, Jodie-3)
+nsubj(agreed-6, Meeks-4)
+aux(agreed-6, has-5)
+aux(leave-8, to-7)
+xcomp(agreed-6, leave-8)
+det(Lakers-10, the-9)
+dobj(leave-8, Lakers-10)
+det(Pistons-14, the-12)
+nn(Pistons-14, Detroit-13)
+prep_for(leave-8, Pistons-14)
+det(contract-21, a-16)
+amod(contract-21, lucrative-17)
+amod(contract-21, dol-19)
+number(dol-19, 19-million-20)
+prep_on(leave-8, contract-21)
+num(seasons-24, three-23)
+prep_over(contract-21, seasons-24)
+
+Sentence #7 (35 tokens):
+Veteran point guard Steve Blake, who the Lakers traded to the Golden State Warriors in February, also signed a contract to join the Trail Blazers for the third time in his career.
+[Text=Veteran CharacterOffsetBegin=849 CharacterOffsetEnd=856 PartOfSpeech=NN Lemma=veteran NamedEntityTag=O] [Text=point CharacterOffsetBegin=857 CharacterOffsetEnd=862 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=guard CharacterOffsetBegin=863 CharacterOffsetEnd=868 PartOfSpeech=NN Lemma=guard NamedEntityTag=O] [Text=Steve CharacterOffsetBegin=869 CharacterOffsetEnd=874 PartOfSpeech=NNP Lemma=Steve NamedEntityTag=PERSON] [Text=Blake CharacterOffsetBegin=875 CharacterOffsetEnd=880 PartOfSpeech=NNP Lemma=Blake NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=880 CharacterOffsetEnd=881 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=882 CharacterOffsetEnd=885 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=the CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=890 CharacterOffsetEnd=896 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=traded CharacterOffsetBegin=897 CharacterOffsetEnd=903 PartOfSpeech=VBD Lemma=trade NamedEntityTag=O] [Text=to CharacterOffsetBegin=904 CharacterOffsetEnd=906 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=907 CharacterOffsetEnd=910 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Golden CharacterOffsetBegin=911 CharacterOffsetEnd=917 PartOfSpeech=NNP Lemma=Golden NamedEntityTag=ORGANIZATION] [Text=State CharacterOffsetBegin=918 CharacterOffsetEnd=923 PartOfSpeech=NNP Lemma=State NamedEntityTag=ORGANIZATION] [Text=Warriors CharacterOffsetBegin=924 CharacterOffsetEnd=932 PartOfSpeech=NNS Lemma=warrior NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=933 CharacterOffsetEnd=935 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=February CharacterOffsetBegin=936 CharacterOffsetEnd=944 PartOfSpeech=NNP Lemma=February NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-02 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-02">February<-TIMEX3>] [Text=, CharacterOffsetBegin=944 CharacterOffsetEnd=945 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=also CharacterOffsetBegin=946 CharacterOffsetEnd=950 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=signed CharacterOffsetBegin=951 CharacterOffsetEnd=957 PartOfSpeech=VBD Lemma=sign NamedEntityTag=O] [Text=a CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=contract CharacterOffsetBegin=960 CharacterOffsetEnd=968 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=to CharacterOffsetBegin=969 CharacterOffsetEnd=971 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=join CharacterOffsetBegin=972 CharacterOffsetEnd=976 PartOfSpeech=VB Lemma=join NamedEntityTag=O] [Text=the CharacterOffsetBegin=977 CharacterOffsetEnd=980 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Trail CharacterOffsetBegin=981 CharacterOffsetEnd=986 PartOfSpeech=NN Lemma=trail NamedEntityTag=O] [Text=Blazers CharacterOffsetBegin=987 CharacterOffsetEnd=994 PartOfSpeech=NNS Lemma=blazer NamedEntityTag=O] [Text=for CharacterOffsetBegin=995 CharacterOffsetEnd=998 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=999 CharacterOffsetEnd=1002 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=third CharacterOffsetBegin=1003 CharacterOffsetEnd=1008 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=time CharacterOffsetBegin=1009 CharacterOffsetEnd=1013 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=in CharacterOffsetBegin=1014 CharacterOffsetEnd=1016 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=1017 CharacterOffsetEnd=1020 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=career CharacterOffsetBegin=1021 CharacterOffsetEnd=1027 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=. CharacterOffsetBegin=1027 CharacterOffsetEnd=1028 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN Veteran) (NN point) (NN guard))
+        (NP (NNP Steve) (NNP Blake)))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (DT the) (NNPS Lakers))
+          (VP (VBD traded)
+            (PP (TO to)
+              (NP (DT the) (NNP Golden) (NNP State) (NNS Warriors)))
+            (PP (IN in)
+              (NP (NNP February))))))
+      (, ,))
+    (ADVP (RB also))
+    (VP (VBD signed)
+      (NP (DT a) (NN contract)
+        (S
+          (VP (TO to)
+            (VP (VB join)
+              (NP (DT the) (NN Trail) (NNS Blazers))
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (JJ third) (NN time))
+                  (PP (IN in)
+                    (NP (PRP$ his) (NN career))))))))))
+    (. .)))
+
+root(ROOT-0, signed-20)
+nn(guard-3, Veteran-1)
+nn(guard-3, point-2)
+nsubj(signed-20, guard-3)
+nn(Blake-5, Steve-4)
+dep(guard-3, Blake-5)
+dobj(traded-10, who-7)
+det(Lakers-9, the-8)
+nsubj(traded-10, Lakers-9)
+rcmod(guard-3, traded-10)
+det(Warriors-15, the-12)
+nn(Warriors-15, Golden-13)
+nn(Warriors-15, State-14)
+prep_to(traded-10, Warriors-15)
+prep_in(traded-10, February-17)
+advmod(signed-20, also-19)
+det(contract-22, a-21)
+dobj(signed-20, contract-22)
+aux(join-24, to-23)
+vmod(contract-22, join-24)
+det(Blazers-27, the-25)
+nn(Blazers-27, Trail-26)
+dobj(join-24, Blazers-27)
+det(time-31, the-29)
+amod(time-31, third-30)
+prep_for(join-24, time-31)
+poss(career-34, his-33)
+prep_in(time-31, career-34)
+
+Sentence #8 (36 tokens):
+With some recruiting from Kobe Bryant, the Lakers reached out to Blake this week but were only willing to discuss a minimum contract offered with a minimum offer, starting at $1.4 million.
+[Text=With CharacterOffsetBegin=1030 CharacterOffsetEnd=1034 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=some CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=recruiting CharacterOffsetBegin=1040 CharacterOffsetEnd=1050 PartOfSpeech=NN Lemma=recruiting NamedEntityTag=O] [Text=from CharacterOffsetBegin=1051 CharacterOffsetEnd=1055 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Kobe CharacterOffsetBegin=1056 CharacterOffsetEnd=1060 PartOfSpeech=NNP Lemma=Kobe NamedEntityTag=PERSON] [Text=Bryant CharacterOffsetBegin=1061 CharacterOffsetEnd=1067 PartOfSpeech=NNP Lemma=Bryant NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1067 CharacterOffsetEnd=1068 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1069 CharacterOffsetEnd=1072 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=1073 CharacterOffsetEnd=1079 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=reached CharacterOffsetBegin=1080 CharacterOffsetEnd=1087 PartOfSpeech=VBD Lemma=reach NamedEntityTag=O] [Text=out CharacterOffsetBegin=1088 CharacterOffsetEnd=1091 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=to CharacterOffsetBegin=1092 CharacterOffsetEnd=1094 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Blake CharacterOffsetBegin=1095 CharacterOffsetEnd=1100 PartOfSpeech=NNP Lemma=Blake NamedEntityTag=PERSON] [Text=this CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t9" type="DATE" valueFromFunction="tf1">this week<-TIMEX3>] [Text=week CharacterOffsetBegin=1106 CharacterOffsetEnd=1110 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t9" type="DATE" valueFromFunction="tf1">this week<-TIMEX3>] [Text=but CharacterOffsetBegin=1111 CharacterOffsetEnd=1114 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=were CharacterOffsetBegin=1115 CharacterOffsetEnd=1119 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=only CharacterOffsetBegin=1120 CharacterOffsetEnd=1124 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=willing CharacterOffsetBegin=1125 CharacterOffsetEnd=1132 PartOfSpeech=JJ Lemma=willing NamedEntityTag=O] [Text=to CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=discuss CharacterOffsetBegin=1136 CharacterOffsetEnd=1143 PartOfSpeech=VB Lemma=discuss NamedEntityTag=O] [Text=a CharacterOffsetBegin=1144 CharacterOffsetEnd=1145 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=minimum CharacterOffsetBegin=1146 CharacterOffsetEnd=1153 PartOfSpeech=JJ Lemma=minimum NamedEntityTag=O] [Text=contract CharacterOffsetBegin=1154 CharacterOffsetEnd=1162 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=offered CharacterOffsetBegin=1163 CharacterOffsetEnd=1170 PartOfSpeech=VBN Lemma=offer NamedEntityTag=O] [Text=with CharacterOffsetBegin=1171 CharacterOffsetEnd=1175 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1176 CharacterOffsetEnd=1177 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=minimum CharacterOffsetBegin=1178 CharacterOffsetEnd=1185 PartOfSpeech=JJ Lemma=minimum NamedEntityTag=O] [Text=offer CharacterOffsetBegin=1186 CharacterOffsetEnd=1191 PartOfSpeech=NN Lemma=offer NamedEntityTag=O] [Text=, CharacterOffsetBegin=1191 CharacterOffsetEnd=1192 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=starting CharacterOffsetBegin=1193 CharacterOffsetEnd=1201 PartOfSpeech=VBG Lemma=start NamedEntityTag=O] [Text=at CharacterOffsetBegin=1202 CharacterOffsetEnd=1204 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1205 CharacterOffsetEnd=1206 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1400000.0] [Text=1.4 CharacterOffsetBegin=1206 CharacterOffsetEnd=1209 PartOfSpeech=CD Lemma=1.4 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1400000.0] [Text=million CharacterOffsetBegin=1210 CharacterOffsetEnd=1217 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$1400000.0] [Text=. CharacterOffsetBegin=1217 CharacterOffsetEnd=1218 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN With)
+      (NP
+        (NP (DT some) (NN recruiting))
+        (PP (IN from)
+          (NP (NNP Kobe) (NNP Bryant)))))
+    (, ,)
+    (NP (DT the) (NNPS Lakers))
+    (VP
+      (VP (VBD reached)
+        (PRT (RP out))
+        (PP (TO to)
+          (NP (NNP Blake)))
+        (NP-TMP (DT this) (NN week)))
+      (CC but)
+      (VP (VBD were)
+        (ADJP (RB only) (JJ willing)
+          (S
+            (VP (TO to)
+              (VP (VB discuss)
+                (NP
+                  (NP (DT a) (JJ minimum) (NN contract))
+                  (VP (VBN offered)
+                    (PP (IN with)
+                      (NP (DT a) (JJ minimum) (NN offer)))))))))
+        (, ,)
+        (S
+          (VP (VBG starting)
+            (PP (IN at)
+              (NP
+                (QP ($ $) (CD 1.4) (CD million))))))))
+    (. .)))
+
+root(ROOT-0, reached-10)
+det(recruiting-3, some-2)
+prep_with(reached-10, recruiting-3)
+nn(Bryant-6, Kobe-5)
+prep_from(recruiting-3, Bryant-6)
+det(Lakers-9, the-8)
+nsubj(reached-10, Lakers-9)
+prt(reached-10, out-11)
+prep_to(reached-10, Blake-13)
+det(week-15, this-14)
+tmod(reached-10, week-15)
+cop(willing-19, were-17)
+advmod(willing-19, only-18)
+conj_but(reached-10, willing-19)
+aux(discuss-21, to-20)
+xcomp(willing-19, discuss-21)
+det(contract-24, a-22)
+amod(contract-24, minimum-23)
+dobj(discuss-21, contract-24)
+vmod(contract-24, offered-25)
+det(offer-29, a-27)
+amod(offer-29, minimum-28)
+prep_with(offered-25, offer-29)
+xcomp(willing-19, starting-31)
+prep_at(starting-31, dol-33)
+number(million-35, 1.4-34)
+num(dol-33, million-35)
+
+Sentence #9 (15 tokens):
+Instead, Blake got a two-year deal starting at $2.1 million from Portland.
+[Text=Instead CharacterOffsetBegin=1219 CharacterOffsetEnd=1226 PartOfSpeech=RB Lemma=instead NamedEntityTag=O] [Text=, CharacterOffsetBegin=1226 CharacterOffsetEnd=1227 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Blake CharacterOffsetBegin=1228 CharacterOffsetEnd=1233 PartOfSpeech=NNP Lemma=Blake NamedEntityTag=PERSON] [Text=got CharacterOffsetBegin=1234 CharacterOffsetEnd=1237 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=a CharacterOffsetBegin=1238 CharacterOffsetEnd=1239 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=two-year CharacterOffsetBegin=1240 CharacterOffsetEnd=1248 PartOfSpeech=JJ Lemma=two-year NamedEntityTag=DURATION NormalizedNamedEntityTag=P2Y Timex=<TIMEX3 tid="t10" type="DURATION" value="P2Y">two-year<-TIMEX3>] [Text=deal CharacterOffsetBegin=1249 CharacterOffsetEnd=1253 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=starting CharacterOffsetBegin=1254 CharacterOffsetEnd=1262 PartOfSpeech=VBG Lemma=start NamedEntityTag=O] [Text=at CharacterOffsetBegin=1263 CharacterOffsetEnd=1265 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1266 CharacterOffsetEnd=1267 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$2100000.0] [Text=2.1 CharacterOffsetBegin=1267 CharacterOffsetEnd=1270 PartOfSpeech=CD Lemma=2.1 NamedEntityTag=MONEY NormalizedNamedEntityTag=$2100000.0] [Text=million CharacterOffsetBegin=1271 CharacterOffsetEnd=1278 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$2100000.0] [Text=from CharacterOffsetBegin=1279 CharacterOffsetEnd=1283 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Portland CharacterOffsetBegin=1284 CharacterOffsetEnd=1292 PartOfSpeech=NNP Lemma=Portland NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1292 CharacterOffsetEnd=1293 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Instead))
+    (, ,)
+    (NP (NNP Blake))
+    (VP (VBD got)
+      (NP (DT a) (JJ two-year) (NN deal))
+      (PP (VBG starting)
+        (PP (IN at)
+          (NP
+            (NP
+              (QP ($ $) (CD 2.1) (CD million)))
+            (PP (IN from)
+              (NP (NNP Portland)))))))
+    (. .)))
+
+root(ROOT-0, got-4)
+advmod(got-4, Instead-1)
+nsubj(got-4, Blake-3)
+det(deal-7, a-5)
+amod(deal-7, two-year-6)
+dobj(got-4, deal-7)
+prep(got-4, starting-8)
+pcomp(starting-8, at-9)
+pobj(at-9, dol-10)
+number(million-12, 2.1-11)
+num(dol-10, million-12)
+prep_from(dol-10, Portland-14)
+
+Sentence #10 (21 tokens):
+Farmar agreed to a similar deal with the Clippers, choosing a sure thing instead of waiting on the Lakers.
+[Text=Farmar CharacterOffsetBegin=1295 CharacterOffsetEnd=1301 PartOfSpeech=NNP Lemma=Farmar NamedEntityTag=PERSON] [Text=agreed CharacterOffsetBegin=1302 CharacterOffsetEnd=1308 PartOfSpeech=VBD Lemma=agree NamedEntityTag=O] [Text=to CharacterOffsetBegin=1309 CharacterOffsetEnd=1311 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=1312 CharacterOffsetEnd=1313 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=similar CharacterOffsetBegin=1314 CharacterOffsetEnd=1321 PartOfSpeech=JJ Lemma=similar NamedEntityTag=O] [Text=deal CharacterOffsetBegin=1322 CharacterOffsetEnd=1326 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=with CharacterOffsetBegin=1327 CharacterOffsetEnd=1331 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1332 CharacterOffsetEnd=1335 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Clippers CharacterOffsetBegin=1336 CharacterOffsetEnd=1344 PartOfSpeech=NNP Lemma=Clippers NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1344 CharacterOffsetEnd=1345 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=choosing CharacterOffsetBegin=1346 CharacterOffsetEnd=1354 PartOfSpeech=VBG Lemma=choose NamedEntityTag=O] [Text=a CharacterOffsetBegin=1355 CharacterOffsetEnd=1356 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=sure CharacterOffsetBegin=1357 CharacterOffsetEnd=1361 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=thing CharacterOffsetBegin=1362 CharacterOffsetEnd=1367 PartOfSpeech=NN Lemma=thing NamedEntityTag=O] [Text=instead CharacterOffsetBegin=1368 CharacterOffsetEnd=1375 PartOfSpeech=RB Lemma=instead NamedEntityTag=O] [Text=of CharacterOffsetBegin=1376 CharacterOffsetEnd=1378 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=waiting CharacterOffsetBegin=1379 CharacterOffsetEnd=1386 PartOfSpeech=VBG Lemma=wait NamedEntityTag=O] [Text=on CharacterOffsetBegin=1387 CharacterOffsetEnd=1389 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1390 CharacterOffsetEnd=1393 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=1394 CharacterOffsetEnd=1400 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1400 CharacterOffsetEnd=1401 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Farmar))
+    (VP (VBD agreed)
+      (PP (TO to)
+        (NP (DT a) (JJ similar) (NN deal)))
+      (PP (IN with)
+        (NP (DT the) (NNP Clippers)))
+      (, ,)
+      (S
+        (VP
+          (VP (VBG choosing)
+            (NP (DT a) (JJ sure) (NN thing)))
+          (CONJP (RB instead) (IN of))
+          (VP (VBG waiting)
+            (PP (IN on)
+              (NP (DT the) (NNPS Lakers)))))))
+    (. .)))
+
+root(ROOT-0, agreed-2)
+nsubj(agreed-2, Farmar-1)
+det(deal-6, a-4)
+amod(deal-6, similar-5)
+prep_to(agreed-2, deal-6)
+det(Clippers-9, the-8)
+prep_with(agreed-2, Clippers-9)
+ccomp(agreed-2, choosing-11)
+det(thing-14, a-12)
+amod(thing-14, sure-13)
+dobj(choosing-11, thing-14)
+conj_negcc(choosing-11, waiting-17)
+det(Lakers-20, the-19)
+prep_on(waiting-17, Lakers-20)
+
+Sentence #11 (13 tokens):
+Kaman will make about $5 million a season for the Blazers.
+[Text=Kaman CharacterOffsetBegin=1403 CharacterOffsetEnd=1408 PartOfSpeech=NNP Lemma=Kaman NamedEntityTag=PERSON] [Text=will CharacterOffsetBegin=1409 CharacterOffsetEnd=1413 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=make CharacterOffsetBegin=1414 CharacterOffsetEnd=1418 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=about CharacterOffsetBegin=1419 CharacterOffsetEnd=1424 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1425 CharacterOffsetEnd=1426 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=~$5000000.0] [Text=5 CharacterOffsetBegin=1426 CharacterOffsetEnd=1427 PartOfSpeech=CD Lemma=5 NamedEntityTag=MONEY NormalizedNamedEntityTag=~$5000000.0] [Text=million CharacterOffsetBegin=1428 CharacterOffsetEnd=1435 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=~$5000000.0] [Text=a CharacterOffsetBegin=1436 CharacterOffsetEnd=1437 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=season CharacterOffsetBegin=1438 CharacterOffsetEnd=1444 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=for CharacterOffsetBegin=1445 CharacterOffsetEnd=1448 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1449 CharacterOffsetEnd=1452 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Blazers CharacterOffsetBegin=1453 CharacterOffsetEnd=1460 PartOfSpeech=NNP Lemma=Blazers NamedEntityTag=O] [Text=. CharacterOffsetBegin=1460 CharacterOffsetEnd=1461 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Kaman))
+    (VP (MD will)
+      (VP (VB make)
+        (PP (IN about)
+          (NP
+            (NP
+              (QP ($ $) (CD 5) (CD million))
+              (DT a) (NN season))
+            (PP (IN for)
+              (NP (DT the) (NNP Blazers)))))))
+    (. .)))
+
+root(ROOT-0, make-3)
+nsubj(make-3, Kaman-1)
+aux(make-3, will-2)
+num(season-9, dol-5)
+number(million-7, 5-6)
+num(dol-5, million-7)
+det(season-9, a-8)
+prep_about(make-3, season-9)
+det(Blazers-12, the-11)
+prep_for(season-9, Blazers-12)
+
+Sentence #12 (32 tokens):
+The Lakers have just four players under contract (Kobe Bryant, Steve Nash, Robert Sacre and Kendall Marshall) -- six including unsigned rookies Julius Randle and Jordan Clarkson.
+[Text=The CharacterOffsetBegin=1463 CharacterOffsetEnd=1466 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=1467 CharacterOffsetEnd=1473 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=have CharacterOffsetBegin=1474 CharacterOffsetEnd=1478 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=just CharacterOffsetBegin=1479 CharacterOffsetEnd=1483 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=four CharacterOffsetBegin=1484 CharacterOffsetEnd=1488 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=players CharacterOffsetBegin=1489 CharacterOffsetEnd=1496 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=under CharacterOffsetBegin=1497 CharacterOffsetEnd=1502 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=contract CharacterOffsetBegin=1503 CharacterOffsetEnd=1511 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1512 CharacterOffsetEnd=1513 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Kobe CharacterOffsetBegin=1513 CharacterOffsetEnd=1517 PartOfSpeech=NNP Lemma=Kobe NamedEntityTag=PERSON] [Text=Bryant CharacterOffsetBegin=1518 CharacterOffsetEnd=1524 PartOfSpeech=NNP Lemma=Bryant NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1524 CharacterOffsetEnd=1525 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Steve CharacterOffsetBegin=1526 CharacterOffsetEnd=1531 PartOfSpeech=NNP Lemma=Steve NamedEntityTag=PERSON] [Text=Nash CharacterOffsetBegin=1532 CharacterOffsetEnd=1536 PartOfSpeech=NNP Lemma=Nash NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1536 CharacterOffsetEnd=1537 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Robert CharacterOffsetBegin=1538 CharacterOffsetEnd=1544 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON] [Text=Sacre CharacterOffsetBegin=1545 CharacterOffsetEnd=1550 PartOfSpeech=NNP Lemma=Sacre NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1551 CharacterOffsetEnd=1554 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Kendall CharacterOffsetBegin=1555 CharacterOffsetEnd=1562 PartOfSpeech=NNP Lemma=Kendall NamedEntityTag=PERSON] [Text=Marshall CharacterOffsetBegin=1563 CharacterOffsetEnd=1571 PartOfSpeech=NNP Lemma=Marshall NamedEntityTag=PERSON] [Text=-RRB- CharacterOffsetBegin=1571 CharacterOffsetEnd=1572 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1573 CharacterOffsetEnd=1575 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=six CharacterOffsetBegin=1576 CharacterOffsetEnd=1579 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=including CharacterOffsetBegin=1580 CharacterOffsetEnd=1589 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=unsigned CharacterOffsetBegin=1590 CharacterOffsetEnd=1598 PartOfSpeech=JJ Lemma=unsigned NamedEntityTag=O] [Text=rookies CharacterOffsetBegin=1599 CharacterOffsetEnd=1606 PartOfSpeech=NNS Lemma=rookie NamedEntityTag=O] [Text=Julius CharacterOffsetBegin=1607 CharacterOffsetEnd=1613 PartOfSpeech=NNP Lemma=Julius NamedEntityTag=PERSON] [Text=Randle CharacterOffsetBegin=1614 CharacterOffsetEnd=1620 PartOfSpeech=NNP Lemma=Randle NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1621 CharacterOffsetEnd=1624 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Jordan CharacterOffsetBegin=1625 CharacterOffsetEnd=1631 PartOfSpeech=NNP Lemma=Jordan NamedEntityTag=PERSON] [Text=Clarkson CharacterOffsetBegin=1632 CharacterOffsetEnd=1640 PartOfSpeech=NNP Lemma=Clarkson NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1640 CharacterOffsetEnd=1641 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Lakers))
+    (VP (VBP have)
+      (NP
+        (NP
+          (NP (RB just) (CD four) (NNS players))
+          (PP (IN under)
+            (NP
+              (NP (NN contract))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NNP Kobe) (NNP Bryant))
+                  (, ,)
+                  (NP (NNP Steve) (NNP Nash))
+                  (, ,)
+                  (NP (NNP Robert) (NNP Sacre))
+                  (CC and)
+                  (NP (NNP Kendall) (NNP Marshall)))
+                (-RRB- -RRB-)))))
+        (: --)
+        (NP
+          (NP (CD six))
+          (PP (VBG including)
+            (NP (JJ unsigned) (NNS rookies) (NNP Julius) (NNP Randle)
+              (CC and)
+              (NNP Jordan) (NNP Clarkson))))))
+    (. .)))
+
+root(ROOT-0, have-3)
+det(Lakers-2, The-1)
+nsubj(have-3, Lakers-2)
+advmod(players-6, just-4)
+num(players-6, four-5)
+dobj(have-3, players-6)
+prep_under(players-6, contract-8)
+nn(Bryant-11, Kobe-10)
+dep(contract-8, Bryant-11)
+nn(Nash-14, Steve-13)
+conj_and(Bryant-11, Nash-14)
+nn(Sacre-17, Robert-16)
+conj_and(Bryant-11, Sacre-17)
+nn(Marshall-20, Kendall-19)
+conj_and(Bryant-11, Marshall-20)
+dep(players-6, six-23)
+amod(Randle-28, unsigned-25)
+nn(Randle-28, rookies-26)
+nn(Randle-28, Julius-27)
+prep_including(six-23, Randle-28)
+nn(Clarkson-31, Jordan-30)
+conj_and(Randle-28, Clarkson-31)
+
+Sentence #13 (15 tokens):
+Anthony is believed to be choosing among the Chicago Bulls, Knicks and Lakers.
+[Text=Anthony CharacterOffsetBegin=1643 CharacterOffsetEnd=1650 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1651 CharacterOffsetEnd=1653 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=believed CharacterOffsetBegin=1654 CharacterOffsetEnd=1662 PartOfSpeech=VBN Lemma=believe NamedEntityTag=O] [Text=to CharacterOffsetBegin=1663 CharacterOffsetEnd=1665 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1666 CharacterOffsetEnd=1668 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=choosing CharacterOffsetBegin=1669 CharacterOffsetEnd=1677 PartOfSpeech=VBG Lemma=choose NamedEntityTag=O] [Text=among CharacterOffsetBegin=1678 CharacterOffsetEnd=1683 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=the CharacterOffsetBegin=1684 CharacterOffsetEnd=1687 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Chicago CharacterOffsetBegin=1688 CharacterOffsetEnd=1695 PartOfSpeech=NNP Lemma=Chicago NamedEntityTag=ORGANIZATION] [Text=Bulls CharacterOffsetBegin=1696 CharacterOffsetEnd=1701 PartOfSpeech=NNPS Lemma=Bulls NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1701 CharacterOffsetEnd=1702 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Knicks CharacterOffsetBegin=1703 CharacterOffsetEnd=1709 PartOfSpeech=NNPS Lemma=Knicks NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=1710 CharacterOffsetEnd=1713 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=1714 CharacterOffsetEnd=1720 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1720 CharacterOffsetEnd=1721 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Anthony))
+    (VP (VBZ is)
+      (VP (VBN believed)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBG choosing)
+                (PP (IN among)
+                  (NP
+                    (NP (DT the) (NNP Chicago) (NNPS Bulls))
+                    (, ,)
+                    (NP (NNPS Knicks)
+                      (CC and)
+                      (NNPS Lakers))))))))))
+    (. .)))
+
+root(ROOT-0, believed-3)
+nsubjpass(believed-3, Anthony-1)
+auxpass(believed-3, is-2)
+aux(choosing-6, to-4)
+aux(choosing-6, be-5)
+xcomp(believed-3, choosing-6)
+det(Bulls-10, the-8)
+nn(Bulls-10, Chicago-9)
+prep_among(choosing-6, Bulls-10)
+appos(Bulls-10, Knicks-12)
+conj_and(Knicks-12, Lakers-14)
+
+Sentence #14 (27 tokens):
+With free agents quickly coming off the market, the longer the process drags on, the more challenging Plan B might be for the Lakers.
+[Text=With CharacterOffsetBegin=1722 CharacterOffsetEnd=1726 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=free CharacterOffsetBegin=1727 CharacterOffsetEnd=1731 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=agents CharacterOffsetBegin=1732 CharacterOffsetEnd=1738 PartOfSpeech=NNS Lemma=agent NamedEntityTag=O] [Text=quickly CharacterOffsetBegin=1739 CharacterOffsetEnd=1746 PartOfSpeech=RB Lemma=quickly NamedEntityTag=O] [Text=coming CharacterOffsetBegin=1747 CharacterOffsetEnd=1753 PartOfSpeech=VBG Lemma=come NamedEntityTag=O] [Text=off CharacterOffsetBegin=1754 CharacterOffsetEnd=1757 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=the CharacterOffsetBegin=1758 CharacterOffsetEnd=1761 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=market CharacterOffsetBegin=1762 CharacterOffsetEnd=1768 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=, CharacterOffsetBegin=1768 CharacterOffsetEnd=1769 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1770 CharacterOffsetEnd=1773 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=longer CharacterOffsetBegin=1774 CharacterOffsetEnd=1780 PartOfSpeech=JJR Lemma=longer NamedEntityTag=O] [Text=the CharacterOffsetBegin=1781 CharacterOffsetEnd=1784 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=process CharacterOffsetBegin=1785 CharacterOffsetEnd=1792 PartOfSpeech=NN Lemma=process NamedEntityTag=O] [Text=drags CharacterOffsetBegin=1793 CharacterOffsetEnd=1798 PartOfSpeech=VBZ Lemma=drag NamedEntityTag=O] [Text=on CharacterOffsetBegin=1799 CharacterOffsetEnd=1801 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=, CharacterOffsetBegin=1801 CharacterOffsetEnd=1802 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1803 CharacterOffsetEnd=1806 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=more CharacterOffsetBegin=1807 CharacterOffsetEnd=1811 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=challenging CharacterOffsetBegin=1812 CharacterOffsetEnd=1823 PartOfSpeech=JJ Lemma=challenging NamedEntityTag=O] [Text=Plan CharacterOffsetBegin=1824 CharacterOffsetEnd=1828 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=B CharacterOffsetBegin=1829 CharacterOffsetEnd=1830 PartOfSpeech=NN Lemma=b NamedEntityTag=O] [Text=might CharacterOffsetBegin=1831 CharacterOffsetEnd=1836 PartOfSpeech=MD Lemma=might NamedEntityTag=O] [Text=be CharacterOffsetBegin=1837 CharacterOffsetEnd=1839 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=for CharacterOffsetBegin=1840 CharacterOffsetEnd=1843 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1844 CharacterOffsetEnd=1847 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lakers CharacterOffsetBegin=1848 CharacterOffsetEnd=1854 PartOfSpeech=NNPS Lemma=Lakers NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1854 CharacterOffsetEnd=1855 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (PP (IN With)
+        (S
+          (NP (JJ free) (NNS agents))
+          (ADVP (RB quickly))
+          (VP (VBG coming)
+            (PRT (RP off))
+            (NP (DT the) (NN market)))))
+      (, ,)
+      (X (DT the) (JJR longer))
+      (NP (DT the) (NN process))
+      (VP (VBZ drags)
+        (PP (IN on))))
+    (, ,)
+    (NP (DT the)
+      (ADJP (RBR more) (JJ challenging))
+      (NN Plan) (NN B))
+    (VP (MD might)
+      (VP (VB be)
+        (PP (IN for)
+          (NP (DT the) (NNPS Lakers)))))
+    (. .)))
+
+root(ROOT-0, be-23)
+amod(agents-3, free-2)
+nsubj(coming-5, agents-3)
+advmod(coming-5, quickly-4)
+prepc_with(drags-14, coming-5)
+prt(coming-5, off-6)
+det(market-8, the-7)
+dobj(coming-5, market-8)
+det(longer-11, the-10)
+dep(drags-14, longer-11)
+det(process-13, the-12)
+nsubj(drags-14, process-13)
+ccomp(be-23, drags-14)
+prep(drags-14, on-15)
+det(B-21, the-17)
+advmod(challenging-19, more-18)
+amod(B-21, challenging-19)
+nn(B-21, Plan-20)
+nsubj(be-23, B-21)
+aux(be-23, might-22)
+det(Lakers-26, the-25)
+prep_for(be-23, Lakers-26)
+
+Sentence #15 (12 tokens):
+Email Eric Pincus at eric.pincus@gmail.com and follow him on Twitter @EricPincus.
+[Text=Email CharacterOffsetBegin=1857 CharacterOffsetEnd=1862 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=Eric CharacterOffsetBegin=1863 CharacterOffsetEnd=1867 PartOfSpeech=NNP Lemma=Eric NamedEntityTag=PERSON] [Text=Pincus CharacterOffsetBegin=1868 CharacterOffsetEnd=1874 PartOfSpeech=NNP Lemma=Pincus NamedEntityTag=PERSON] [Text=at CharacterOffsetBegin=1875 CharacterOffsetEnd=1877 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=eric.pincus@gmail.com CharacterOffsetBegin=1878 CharacterOffsetEnd=1899 PartOfSpeech=NNP Lemma=eric.pincus@gmail.com NamedEntityTag=O] [Text=and CharacterOffsetBegin=1900 CharacterOffsetEnd=1903 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=follow CharacterOffsetBegin=1904 CharacterOffsetEnd=1910 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=him CharacterOffsetBegin=1911 CharacterOffsetEnd=1914 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=on CharacterOffsetBegin=1915 CharacterOffsetEnd=1917 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=1918 CharacterOffsetEnd=1925 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=@EricPincus CharacterOffsetBegin=1926 CharacterOffsetEnd=1937 PartOfSpeech=NNP Lemma=@EricPincus NamedEntityTag=O] [Text=. CharacterOffsetBegin=1937 CharacterOffsetEnd=1938 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP
+      (VP (VB Email)
+        (NP
+          (NP (NNP Eric) (NNP Pincus))
+          (PP (IN at)
+            (NP (NNP eric.pincus@gmail.com)))))
+      (CC and)
+      (VP (VB follow)
+        (NP (PRP him))
+        (PP (IN on)
+          (NP (NNP Twitter) (NNP @EricPincus)))))
+    (. .)))
+
+root(ROOT-0, Email-1)
+nn(Pincus-3, Eric-2)
+dobj(Email-1, Pincus-3)
+prep_at(Pincus-3, eric.pincus@gmail.com-5)
+conj_and(Email-1, follow-7)
+dobj(follow-7, him-8)
+nn(@EricPincus-11, Twitter-10)
+prep_on(follow-7, @EricPincus-11)
+
+Sentence #16 (9 tokens):
+Copyright (c) 2014, Los Angeles Times
+[Text=Copyright CharacterOffsetBegin=1940 CharacterOffsetEnd=1949 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1950 CharacterOffsetEnd=1951 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=c CharacterOffsetBegin=1951 CharacterOffsetEnd=1952 PartOfSpeech=NN Lemma=c NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1952 CharacterOffsetEnd=1953 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=1954 CharacterOffsetEnd=1958 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t11" type="DATE" value="2014">2014<-TIMEX3>] [Text=, CharacterOffsetBegin=1958 CharacterOffsetEnd=1959 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Los CharacterOffsetBegin=1960 CharacterOffsetEnd=1963 PartOfSpeech=NNP Lemma=Los NamedEntityTag=LOCATION] [Text=Angeles CharacterOffsetBegin=1964 CharacterOffsetEnd=1971 PartOfSpeech=NNP Lemma=Angeles NamedEntityTag=LOCATION] [Text=Times CharacterOffsetBegin=1972 CharacterOffsetEnd=1977 PartOfSpeech=NNP Lemma=Times NamedEntityTag=LOCATION] 
+(ROOT
+  (NP
+    (NP
+      (NP (NN Copyright))
+      (PRN (-LRB- -LRB-)
+        (NP (NN c))
+        (-RRB- -RRB-)))
+    (NP
+      (NP (CD 2014))
+      (, ,)
+      (NP (NNP Los) (NNP Angeles) (NNP Times)))))
+
+root(ROOT-0, Copyright-1)
+appos(Copyright-1, c-3)
+dep(Copyright-1, 2014-5)
+nn(Times-9, Los-7)
+nn(Times-9, Angeles-8)
+appos(2014-5, Times-9)
+
+Coreference set:
+ (5,13,[12,14]) -> (1,2,[1,3]), that is: "Jordan Farmar" -> "Jordan Farmar"
+ (10,1,[1,2]) -> (1,2,[1,3]), that is: "Farmar" -> "Jordan Farmar"
+Coreference set:
+ (2,13,[13,14]) -> (1,2,[1,17]), that is: "their" -> "Jordan Farmar and Chris Kaman officially ex-Lakers - Los Angeles Times The NBA -s annual moratorium"
+Coreference set:
+ (5,2,[1,3]) -> (1,5,[4,17]), that is: "Chris Kaman" -> "Chris Kaman officially ex-Lakers - Los Angeles Times The NBA -s annual moratorium"
+ (11,1,[1,2]) -> (1,5,[4,17]), that is: "Kaman" -> "Chris Kaman officially ex-Lakers - Los Angeles Times The NBA -s annual moratorium"
+Coreference set:
+ (2,2,[2,3]) -> (1,11,[9,17]), that is: "it" -> "Los Angeles Times The NBA -s annual moratorium"
+ (16,9,[7,10]) -> (1,11,[9,17]), that is: "Los Angeles Times" -> "Los Angeles Times The NBA -s annual moratorium"
+Coreference set:
+ (5,10,[10,11]) -> (1,18,[18,19]), that is: "Thursday" -> "Thursday"
+Coreference set:
+ (14,3,[2,4]) -> (1,25,[24,26]), that is: "free agents" -> "free agents"
+Coreference set:
+ (3,33,[32,34]) -> (2,26,[24,27]), that is: "the Knicks" -> "New York Knicks"
+Coreference set:
+ (2,33,[33,34]) -> (2,30,[29,31]), that is: "his" -> "Carmelo Anthony"
+ (3,7,[7,8]) -> (2,30,[29,31]), that is: "Anthony" -> "Carmelo Anthony"
+ (13,1,[1,2]) -> (2,30,[29,31]), that is: "Anthony" -> "Carmelo Anthony"
+Coreference set:
+ (3,2,[1,3]) -> (2,17,[16,18]), that is: "The Lakers" -> "the Lakers"
+ (4,4,[3,5]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+ (6,10,[9,11]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+ (7,9,[8,10]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+ (8,9,[8,10]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+ (10,20,[19,21]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+ (12,2,[1,3]) -> (2,17,[16,18]), that is: "The Lakers" -> "the Lakers"
+ (13,14,[14,15]) -> (2,17,[16,18]), that is: "Lakers" -> "the Lakers"
+ (14,26,[25,27]) -> (2,17,[16,18]), that is: "the Lakers" -> "the Lakers"
+Coreference set:
+ (9,14,[14,15]) -> (5,6,[6,7]), that is: "Portland" -> "Portland"
+Coreference set:
+ (5,8,[5,9]) -> (11,12,[11,13]), that is: "the Portland Trail Blazers" -> "the Blazers"
+ (7,27,[25,28]) -> (11,12,[11,13]), that is: "the Trail Blazers" -> "the Blazers"
+ (7,33,[33,34]) -> (11,12,[11,13]), that is: "his" -> "the Blazers"
+Coreference set:
+ (8,13,[13,14]) -> (7,5,[4,6]), that is: "Blake" -> "Steve Blake"
+ (9,3,[3,4]) -> (7,5,[4,6]), that is: "Blake" -> "Steve Blake"
+Coreference set:
+ (12,11,[10,12]) -> (8,6,[5,7]), that is: "Kobe Bryant" -> "Kobe Bryant"
+Coreference set:
+ (13,12,[12,15]) -> (13,10,[9,11]), that is: "Knicks and Lakers" -> "Chicago Bulls"
+ (13,12,[12,13]) -> (13,10,[9,11]), that is: "Knicks" -> "Chicago Bulls"
+Coreference set:
+ (15,8,[8,9]) -> (15,3,[2,6]), that is: "him" -> "Eric Pincus at eric.pincus@gmail.com"

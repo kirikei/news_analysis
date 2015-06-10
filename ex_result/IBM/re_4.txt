@@ -1,0 +1,1970 @@
+Sentence #1 (15 tokens):
+IBM-Apple Deal Feeds CIO App Ambitions
+But do CIOs want Apple-only, ready-made apps?
+[Text=IBM-Apple CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=IBM-Apple NamedEntityTag=MISC] [Text=Deal CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=NNP Lemma=Deal NamedEntityTag=MISC] [Text=Feeds CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=VBZ Lemma=feed NamedEntityTag=MISC] [Text=CIO CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=NNP Lemma=CIO NamedEntityTag=MISC] [Text=App CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=NNP Lemma=App NamedEntityTag=MISC] [Text=Ambitions CharacterOffsetBegin=29 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=Ambitions NamedEntityTag=MISC] [Text=But CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CC Lemma=but NamedEntityTag=MISC] [Text=do CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=VBP Lemma=do NamedEntityTag=MISC] [Text=CIOs CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNS Lemma=cio NamedEntityTag=MISC] [Text=want CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=Apple-only CharacterOffsetBegin=57 CharacterOffsetEnd=67 PartOfSpeech=JJ Lemma=apple-only NamedEntityTag=O] [Text=, CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=ready-made CharacterOffsetBegin=69 CharacterOffsetEnd=79 PartOfSpeech=JJ Lemma=ready-made NamedEntityTag=O] [Text=apps CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=? CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP IBM-Apple) (NNP Deal))
+    (VP (VBZ Feeds)
+      (SBAR
+        (S
+          (NP (NNP CIO) (NNP App) (NNP Ambitions))
+          (ADVP (CC But))
+          (VP (VBP do)
+            (SBAR
+              (S
+                (NP (NNS CIOs))
+                (VP (VBP want)
+                  (NP (JJ Apple-only) (, ,) (JJ ready-made) (NNS apps)))))))))
+    (. ?)))
+
+root(ROOT-0, Feeds-3)
+nn(Deal-2, IBM-Apple-1)
+nsubj(Feeds-3, Deal-2)
+nn(Ambitions-6, CIO-4)
+nn(Ambitions-6, App-5)
+nsubj(do-8, Ambitions-6)
+advmod(do-8, But-7)
+ccomp(Feeds-3, do-8)
+nsubj(want-10, CIOs-9)
+ccomp(do-8, want-10)
+amod(apps-14, Apple-only-11)
+amod(apps-14, ready-made-13)
+dobj(want-10, apps-14)
+
+Sentence #2 (7 tokens):
+Custom, in-house apps have advantages.
+[Text=Custom CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Custom NamedEntityTag=O] [Text=, CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in-house CharacterOffsetBegin=94 CharacterOffsetEnd=102 PartOfSpeech=JJ Lemma=in-house NamedEntityTag=O] [Text=apps CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=have CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=advantages CharacterOffsetBegin=113 CharacterOffsetEnd=123 PartOfSpeech=NNS Lemma=advantage NamedEntityTag=O] [Text=. CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Custom))
+      (, ,)
+      (NP (JJ in-house) (NNS apps)))
+    (VP (VBP have)
+      (NP (NNS advantages)))
+    (. .)))
+
+root(ROOT-0, have-5)
+nsubj(have-5, Custom-1)
+amod(apps-4, in-house-3)
+appos(Custom-1, apps-4)
+dobj(have-5, advantages-6)
+
+Sentence #3 (35 tokens):
+CIOs desperately want to shed IT's reputation for doing only big, hairy, not-quite-right technology projects, and instead be seen as the go-to source of nimble, lightweight, just-what-you-need apps.
+[Text=CIOs CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=cio NamedEntityTag=O] [Text=desperately CharacterOffsetBegin=131 CharacterOffsetEnd=142 PartOfSpeech=RB Lemma=desperately NamedEntityTag=O] [Text=want CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=to CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=shed CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VB Lemma=shed NamedEntityTag=O] [Text=IT CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=reputation CharacterOffsetBegin=161 CharacterOffsetEnd=171 PartOfSpeech=NN Lemma=reputation NamedEntityTag=O] [Text=for CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=doing CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=only CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=big CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=, CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=hairy CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=JJ Lemma=hairy NamedEntityTag=O] [Text=, CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=not-quite-right CharacterOffsetBegin=199 CharacterOffsetEnd=214 PartOfSpeech=JJ Lemma=not-quite-right NamedEntityTag=O] [Text=technology CharacterOffsetBegin=215 CharacterOffsetEnd=225 PartOfSpeech=NN Lemma=technology NamedEntityTag=O] [Text=projects CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=NNS Lemma=project NamedEntityTag=O] [Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=instead CharacterOffsetBegin=240 CharacterOffsetEnd=247 PartOfSpeech=RB Lemma=instead NamedEntityTag=O] [Text=be CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=seen CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=as CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=go-to CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=JJ Lemma=go-to NamedEntityTag=O] [Text=source CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=NN Lemma=source NamedEntityTag=O] [Text=of CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=nimble CharacterOffsetBegin=279 CharacterOffsetEnd=285 PartOfSpeech=JJ Lemma=nimble NamedEntityTag=O] [Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=lightweight CharacterOffsetBegin=287 CharacterOffsetEnd=298 PartOfSpeech=JJ Lemma=lightweight NamedEntityTag=O] [Text=, CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=just-what-you-need CharacterOffsetBegin=300 CharacterOffsetEnd=318 PartOfSpeech=JJ Lemma=just-what-you-need NamedEntityTag=O] [Text=apps CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=. CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS CIOs))
+    (ADVP (RB desperately))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB shed)
+              (NP
+                (NP (PRP IT) (POS 's))
+                (NN reputation))
+              (PP (IN for)
+                (S
+                  (VP (VBG doing)
+                    (NP (RB only) (JJ big) (, ,) (JJ hairy) (, ,) (JJ not-quite-right) (NN technology) (NNS projects))))))
+            (, ,)
+            (CC and)
+            (ADVP (RB instead))
+            (VP (VB be)
+              (VP (VBN seen)
+                (PP (IN as)
+                  (NP
+                    (NP (DT the) (JJ go-to) (NN source))
+                    (PP (IN of)
+                      (NP (JJ nimble) (, ,) (JJ lightweight) (, ,) (JJ just-what-you-need) (NNS apps)))))))))))
+    (. .)))
+
+root(ROOT-0, want-3)
+nsubj(want-3, CIOs-1)
+advmod(want-3, desperately-2)
+aux(shed-5, to-4)
+xcomp(want-3, shed-5)
+poss(reputation-8, IT-6)
+dobj(shed-5, reputation-8)
+prepc_for(shed-5, doing-10)
+advmod(projects-18, only-11)
+amod(projects-18, big-12)
+amod(projects-18, hairy-14)
+amod(projects-18, not-quite-right-16)
+nn(projects-18, technology-17)
+dobj(doing-10, projects-18)
+advmod(seen-23, instead-21)
+auxpass(seen-23, be-22)
+conj_and(shed-5, seen-23)
+det(source-27, the-25)
+amod(source-27, go-to-26)
+prep_as(seen-23, source-27)
+amod(apps-34, nimble-29)
+amod(apps-34, lightweight-31)
+amod(apps-34, just-what-you-need-33)
+prep_of(source-27, apps-34)
+
+Sentence #4 (16 tokens):
+The new IBM-Apple deal, announced on July 15, feeds on this IT aspiration.
+[Text=The CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=new CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=IBM-Apple CharacterOffsetBegin=334 CharacterOffsetEnd=343 PartOfSpeech=JJ Lemma=ibm-apple NamedEntityTag=O] [Text=deal CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=, CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=announced CharacterOffsetBegin=350 CharacterOffsetEnd=359 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=on CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-15 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-07-15">July 15</TIMEX3>] [Text=15 CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=CD Lemma=15 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-15 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-07-15">July 15</TIMEX3>] [Text=, CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=feeds CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=VBZ Lemma=feed NamedEntityTag=O] [Text=on CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=this CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=IT CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=aspiration CharacterOffsetBegin=389 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=aspiration NamedEntityTag=O] [Text=. CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ new) (JJ IBM-Apple) (NN deal))
+      (, ,)
+      (VP (VBD announced)
+        (PP (IN on)
+          (NP (NNP July) (CD 15))))
+      (, ,))
+    (VP (VBZ feeds)
+      (PP (IN on)
+        (NP (DT this)
+          (NP (PRP IT))
+          (NN aspiration))))
+    (. .)))
+
+root(ROOT-0, feeds-11)
+det(deal-4, The-1)
+amod(deal-4, new-2)
+amod(deal-4, IBM-Apple-3)
+nsubj(feeds-11, deal-4)
+vmod(deal-4, announced-6)
+prep_on(announced-6, July-8)
+num(July-8, 15-9)
+det(aspiration-15, this-13)
+nn(aspiration-15, IT-14)
+prep_on(feeds-11, aspiration-15)
+
+Sentence #5 (30 tokens):
+The deal promises to deliver 100 ready-made, enterprise-class smartphone apps tuned to your industry, better enterprise support for iPhones and iPads, and easier Apple device management.
+[Text=The CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=deal CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=promises CharacterOffsetBegin=410 CharacterOffsetEnd=418 PartOfSpeech=VBZ Lemma=promise NamedEntityTag=O] [Text=to CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=deliver CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=VB Lemma=deliver NamedEntityTag=O] [Text=100 CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CD Lemma=100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=100.0] [Text=ready-made CharacterOffsetBegin=434 CharacterOffsetEnd=444 PartOfSpeech=JJ Lemma=ready-made NamedEntityTag=O] [Text=, CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=enterprise-class CharacterOffsetBegin=446 CharacterOffsetEnd=462 PartOfSpeech=JJ Lemma=enterprise-class NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=463 CharacterOffsetEnd=473 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=apps CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=tuned CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=VBD Lemma=tune NamedEntityTag=O] [Text=to CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=your CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=industry CharacterOffsetBegin=493 CharacterOffsetEnd=501 PartOfSpeech=NN Lemma=industry NamedEntityTag=O] [Text=, CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=better CharacterOffsetBegin=503 CharacterOffsetEnd=509 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=510 CharacterOffsetEnd=520 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=support CharacterOffsetBegin=521 CharacterOffsetEnd=528 PartOfSpeech=NN Lemma=support NamedEntityTag=O] [Text=for CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=iPhones CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=NNS Lemma=iphone NamedEntityTag=O] [Text=and CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=iPads CharacterOffsetBegin=545 CharacterOffsetEnd=550 PartOfSpeech=NNS Lemma=ipad NamedEntityTag=O] [Text=, CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=easier CharacterOffsetBegin=556 CharacterOffsetEnd=562 PartOfSpeech=JJR Lemma=easier NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=563 CharacterOffsetEnd=568 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=device CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=NN Lemma=device NamedEntityTag=O] [Text=management CharacterOffsetBegin=576 CharacterOffsetEnd=586 PartOfSpeech=NN Lemma=management NamedEntityTag=O] [Text=. CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN deal))
+    (VP (VBZ promises)
+      (S
+        (VP (TO to)
+          (VP (VB deliver)
+            (NP
+              (NP (CD 100) (JJ ready-made) (, ,) (JJ enterprise-class) (NN smartphone) (NNS apps))
+              (SBAR
+                (S
+                  (VP (VBD tuned)
+                    (PP (TO to)
+                      (NP
+                        (NP (PRP$ your) (NN industry))
+                        (, ,)
+                        (NP
+                          (NP (JJR better) (NN enterprise) (NN support))
+                          (PP (IN for)
+                            (NP (NNS iPhones)
+                              (CC and)
+                              (NNS iPads))))
+                        (, ,)
+                        (CC and)
+                        (ADVP (JJR easier))
+                        (NP (NNP Apple) (NN device) (NN management))))))))))))
+    (. .)))
+
+root(ROOT-0, promises-3)
+det(deal-2, The-1)
+nsubj(promises-3, deal-2)
+aux(deliver-5, to-4)
+xcomp(promises-3, deliver-5)
+num(apps-11, 100-6)
+amod(apps-11, ready-made-7)
+amod(apps-11, enterprise-class-9)
+nn(apps-11, smartphone-10)
+dobj(deliver-5, apps-11)
+rcmod(apps-11, tuned-12)
+poss(industry-15, your-14)
+prep_to(tuned-12, industry-15)
+amod(support-19, better-17)
+nn(support-19, enterprise-18)
+conj_and(industry-15, support-19)
+prep_for(support-19, iPhones-21)
+conj_and(iPhones-21, iPads-23)
+advmod(industry-15, easier-26)
+nn(management-29, Apple-27)
+nn(management-29, device-28)
+conj_and(industry-15, management-29)
+
+Sentence #6 (12 tokens):
+It promises IBM's big data analytical depth with iPhone glitz.
+[Text=It CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=promises CharacterOffsetBegin=591 CharacterOffsetEnd=599 PartOfSpeech=VBZ Lemma=promise NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=600 CharacterOffsetEnd=603 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=big CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=data CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=analytical CharacterOffsetBegin=615 CharacterOffsetEnd=625 PartOfSpeech=JJ Lemma=analytical NamedEntityTag=O] [Text=depth CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=NN Lemma=depth NamedEntityTag=O] [Text=with CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=iPhone CharacterOffsetBegin=637 CharacterOffsetEnd=643 PartOfSpeech=NNP Lemma=iPhone NamedEntityTag=O] [Text=glitz CharacterOffsetBegin=644 CharacterOffsetEnd=649 PartOfSpeech=NN Lemma=glitz NamedEntityTag=O] [Text=. CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ promises)
+      (S
+        (NP
+          (NP (NNP IBM) (POS 's))
+          (JJ big) (NNS data))
+        (NP
+          (NP (JJ analytical) (NN depth))
+          (PP (IN with)
+            (NP (NNP iPhone) (NN glitz))))))
+    (. .)))
+
+root(ROOT-0, promises-2)
+nsubj(promises-2, It-1)
+poss(data-6, IBM-3)
+amod(data-6, big-5)
+nsubj(depth-8, data-6)
+amod(depth-8, analytical-7)
+xcomp(promises-2, depth-8)
+nn(glitz-11, iPhone-10)
+prep_with(depth-8, glitz-11)
+
+Sentence #7 (35 tokens):
+In those areas it touches, the IBM-Apple pact does look like a very big deal that will help CIOs solve certain employees' mobility problems, including their growing thirst for mobile data.
+[Text=In CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=those CharacterOffsetBegin=655 CharacterOffsetEnd=660 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=areas CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=NNS Lemma=area NamedEntityTag=O] [Text=it CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=touches CharacterOffsetBegin=670 CharacterOffsetEnd=677 PartOfSpeech=NNS Lemma=touch NamedEntityTag=O] [Text=, CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=679 CharacterOffsetEnd=682 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IBM-Apple CharacterOffsetBegin=683 CharacterOffsetEnd=692 PartOfSpeech=JJ Lemma=ibm-apple NamedEntityTag=O] [Text=pact CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NN Lemma=pact NamedEntityTag=O] [Text=does CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=look CharacterOffsetBegin=703 CharacterOffsetEnd=707 PartOfSpeech=VB Lemma=look NamedEntityTag=O] [Text=like CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=a CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=very CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=big CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=deal CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=that CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=will CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=help CharacterOffsetBegin=739 CharacterOffsetEnd=743 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=NNS Lemma=cio NamedEntityTag=MISC] [Text=solve CharacterOffsetBegin=749 CharacterOffsetEnd=754 PartOfSpeech=VB Lemma=solve NamedEntityTag=O] [Text=certain CharacterOffsetBegin=755 CharacterOffsetEnd=762 PartOfSpeech=JJ Lemma=certain NamedEntityTag=O] [Text=employees CharacterOffsetBegin=763 CharacterOffsetEnd=772 PartOfSpeech=NNS Lemma=employee NamedEntityTag=O] [Text=' CharacterOffsetBegin=772 CharacterOffsetEnd=773 PartOfSpeech=POS Lemma=' NamedEntityTag=O] [Text=mobility CharacterOffsetBegin=774 CharacterOffsetEnd=782 PartOfSpeech=NN Lemma=mobility NamedEntityTag=O] [Text=problems CharacterOffsetBegin=783 CharacterOffsetEnd=791 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=, CharacterOffsetBegin=791 CharacterOffsetEnd=792 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=793 CharacterOffsetEnd=802 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=their CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=growing CharacterOffsetBegin=809 CharacterOffsetEnd=816 PartOfSpeech=VBG Lemma=grow NamedEntityTag=O] [Text=thirst CharacterOffsetBegin=817 CharacterOffsetEnd=823 PartOfSpeech=NN Lemma=thirst NamedEntityTag=O] [Text=for CharacterOffsetBegin=824 CharacterOffsetEnd=827 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=828 CharacterOffsetEnd=834 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=data CharacterOffsetBegin=835 CharacterOffsetEnd=839 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=. CharacterOffsetBegin=839 CharacterOffsetEnd=840 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT those) (NNS areas))
+        (NP (PRP it) (NNS touches))))
+    (, ,)
+    (NP (DT the) (JJ IBM-Apple) (NN pact))
+    (VP (VBZ does)
+      (VP (VB look)
+        (PP (IN like)
+          (NP
+            (NP (DT a)
+              (ADJP (RB very) (JJ big))
+              (NN deal))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD will)
+                  (VP (VB help)
+                    (S
+                      (NP (NNS CIOs))
+                      (VP (VB solve)
+                        (NP
+                          (NP (JJ certain) (NNS employees) (POS '))
+                          (NN mobility) (NNS problems))))))))))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (PRP$ their) (VBG growing) (NN thirst))
+            (PP (IN for)
+              (NP (JJ mobile) (NNS data)))))))
+    (. .)))
+
+root(ROOT-0, look-11)
+det(areas-3, those-2)
+prep_in(look-11, areas-3)
+dep(touches-5, it-4)
+dep(areas-3, touches-5)
+det(pact-9, the-7)
+amod(pact-9, IBM-Apple-8)
+nsubj(look-11, pact-9)
+aux(look-11, does-10)
+det(deal-16, a-13)
+advmod(big-15, very-14)
+amod(deal-16, big-15)
+prep_like(look-11, deal-16)
+nsubj(help-19, that-17)
+aux(help-19, will-18)
+rcmod(deal-16, help-19)
+nsubj(solve-21, CIOs-20)
+ccomp(help-19, solve-21)
+amod(employees-23, certain-22)
+poss(problems-26, employees-23)
+nn(problems-26, mobility-25)
+dobj(solve-21, problems-26)
+poss(thirst-31, their-29)
+amod(thirst-31, growing-30)
+prep_including(look-11, thirst-31)
+amod(data-34, mobile-33)
+prep_for(thirst-31, data-34)
+
+Sentence #8 (13 tokens):
+For example, CIOs will welcome better enterprise support of Apple products.
+[Text=For CharacterOffsetBegin=841 CharacterOffsetEnd=844 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=example CharacterOffsetBegin=845 CharacterOffsetEnd=852 PartOfSpeech=NN Lemma=example NamedEntityTag=O] [Text=, CharacterOffsetBegin=852 CharacterOffsetEnd=853 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=NNS Lemma=cio NamedEntityTag=MISC] [Text=will CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=welcome CharacterOffsetBegin=864 CharacterOffsetEnd=871 PartOfSpeech=VB Lemma=welcome NamedEntityTag=O] [Text=better CharacterOffsetBegin=872 CharacterOffsetEnd=878 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=879 CharacterOffsetEnd=889 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=support CharacterOffsetBegin=890 CharacterOffsetEnd=897 PartOfSpeech=NN Lemma=support NamedEntityTag=O] [Text=of CharacterOffsetBegin=898 CharacterOffsetEnd=900 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=901 CharacterOffsetEnd=906 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=products CharacterOffsetBegin=907 CharacterOffsetEnd=915 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=. CharacterOffsetBegin=915 CharacterOffsetEnd=916 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (NNS CIOs))
+    (VP (MD will)
+      (VP (VB welcome)
+        (NP
+          (NP (JJR better) (NN enterprise) (NN support))
+          (PP (IN of)
+            (NP (NNP Apple) (NNS products))))))
+    (. .)))
+
+root(ROOT-0, welcome-6)
+prep_for(welcome-6, example-2)
+nsubj(welcome-6, CIOs-4)
+aux(welcome-6, will-5)
+amod(support-9, better-7)
+nn(support-9, enterprise-8)
+dobj(welcome-6, support-9)
+nn(products-12, Apple-11)
+prep_of(support-9, products-12)
+
+Sentence #9 (13 tokens):
+I've heard many a CIO grumble about Apple's limited support.
+[Text=I CharacterOffsetBegin=917 CharacterOffsetEnd=918 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='ve CharacterOffsetBegin=918 CharacterOffsetEnd=921 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=heard CharacterOffsetBegin=922 CharacterOffsetEnd=927 PartOfSpeech=VBN Lemma=hear NamedEntityTag=O] [Text=many CharacterOffsetBegin=928 CharacterOffsetEnd=932 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=a CharacterOffsetBegin=933 CharacterOffsetEnd=934 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=CIO CharacterOffsetBegin=935 CharacterOffsetEnd=938 PartOfSpeech=NNP Lemma=CIO NamedEntityTag=O] [Text=grumble CharacterOffsetBegin=939 CharacterOffsetEnd=946 PartOfSpeech=VB Lemma=grumble NamedEntityTag=O] [Text=about CharacterOffsetBegin=947 CharacterOffsetEnd=952 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=953 CharacterOffsetEnd=958 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=958 CharacterOffsetEnd=960 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=limited CharacterOffsetBegin=961 CharacterOffsetEnd=968 PartOfSpeech=JJ Lemma=limited NamedEntityTag=O] [Text=support CharacterOffsetBegin=969 CharacterOffsetEnd=976 PartOfSpeech=NN Lemma=support NamedEntityTag=O] [Text=. CharacterOffsetBegin=976 CharacterOffsetEnd=977 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 've)
+      (VP (VBN heard)
+        (ADJP (JJ many)
+          (SBAR
+            (S
+              (NP (DT a) (NNP CIO))
+              (VP (VB grumble)
+                (PP (IN about)
+                  (NP
+                    (NP (NNP Apple) (POS 's))
+                    (JJ limited) (NN support)))))))))
+    (. .)))
+
+root(ROOT-0, heard-3)
+nsubj(heard-3, I-1)
+aux(heard-3, 've-2)
+acomp(heard-3, many-4)
+det(CIO-6, a-5)
+nsubj(grumble-7, CIO-6)
+ccomp(many-4, grumble-7)
+poss(support-12, Apple-9)
+amod(support-12, limited-11)
+prep_about(grumble-7, support-12)
+
+Sentence #10 (22 tokens):
+Whether it's procuring devices or troubleshooting problems, Apple hasn't had its heart in this kind of IT hand-holding.
+[Text=Whether CharacterOffsetBegin=978 CharacterOffsetEnd=985 PartOfSpeech=IN Lemma=whether NamedEntityTag=O] [Text=it CharacterOffsetBegin=986 CharacterOffsetEnd=988 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=988 CharacterOffsetEnd=990 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=procuring CharacterOffsetBegin=991 CharacterOffsetEnd=1000 PartOfSpeech=VBG Lemma=procure NamedEntityTag=O] [Text=devices CharacterOffsetBegin=1001 CharacterOffsetEnd=1008 PartOfSpeech=NNS Lemma=device NamedEntityTag=O] [Text=or CharacterOffsetBegin=1009 CharacterOffsetEnd=1011 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=troubleshooting CharacterOffsetBegin=1012 CharacterOffsetEnd=1027 PartOfSpeech=VBG Lemma=troubleshoot NamedEntityTag=O] [Text=problems CharacterOffsetBegin=1028 CharacterOffsetEnd=1036 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=, CharacterOffsetBegin=1036 CharacterOffsetEnd=1037 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=1038 CharacterOffsetEnd=1043 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1044 CharacterOffsetEnd=1047 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1047 CharacterOffsetEnd=1050 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=had CharacterOffsetBegin=1051 CharacterOffsetEnd=1054 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=its CharacterOffsetBegin=1055 CharacterOffsetEnd=1058 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=heart CharacterOffsetBegin=1059 CharacterOffsetEnd=1064 PartOfSpeech=NN Lemma=heart NamedEntityTag=O] [Text=in CharacterOffsetBegin=1065 CharacterOffsetEnd=1067 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=1068 CharacterOffsetEnd=1072 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=kind CharacterOffsetBegin=1073 CharacterOffsetEnd=1077 PartOfSpeech=NN Lemma=kind NamedEntityTag=O] [Text=of CharacterOffsetBegin=1078 CharacterOffsetEnd=1080 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=IT CharacterOffsetBegin=1081 CharacterOffsetEnd=1083 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=hand-holding CharacterOffsetBegin=1084 CharacterOffsetEnd=1096 PartOfSpeech=NN Lemma=hand-holding NamedEntityTag=O] [Text=. CharacterOffsetBegin=1096 CharacterOffsetEnd=1097 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN Whether)
+      (S
+        (NP (PRP it))
+        (VP (VBZ 's)
+          (NP
+            (NP (VBG procuring) (NNS devices))
+            (CC or)
+            (NP (VBG troubleshooting) (NNS problems))))))
+    (, ,)
+    (NP (NNP Apple))
+    (VP (VBZ has) (RB n't)
+      (VP (VBD had)
+        (NP
+          (NP (PRP$ its) (NN heart))
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (DT this) (NN kind))
+                (PP (IN of)
+                  (NP (PRP IT))))
+              (NN hand-holding))))))
+    (. .)))
+
+root(ROOT-0, had-13)
+mark(devices-5, Whether-1)
+nsubj(devices-5, it-2)
+cop(devices-5, 's-3)
+amod(devices-5, procuring-4)
+advcl(had-13, devices-5)
+amod(problems-8, troubleshooting-7)
+conj_or(devices-5, problems-8)
+nsubj(had-13, Apple-10)
+aux(had-13, has-11)
+neg(had-13, n't-12)
+poss(heart-15, its-14)
+dobj(had-13, heart-15)
+det(kind-18, this-17)
+nn(hand-holding-21, kind-18)
+prep_of(kind-18, IT-20)
+prep_in(heart-15, hand-holding-21)
+
+Sentence #11 (10 tokens):
+Apple often would point IT organizations to third-party firms.
+[Text=Apple CharacterOffsetBegin=1098 CharacterOffsetEnd=1103 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=often CharacterOffsetBegin=1104 CharacterOffsetEnd=1109 PartOfSpeech=RB Lemma=often NamedEntityTag=O] [Text=would CharacterOffsetBegin=1110 CharacterOffsetEnd=1115 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=point CharacterOffsetBegin=1116 CharacterOffsetEnd=1121 PartOfSpeech=VB Lemma=point NamedEntityTag=O] [Text=IT CharacterOffsetBegin=1122 CharacterOffsetEnd=1124 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=organizations CharacterOffsetBegin=1125 CharacterOffsetEnd=1138 PartOfSpeech=NNS Lemma=organization NamedEntityTag=O] [Text=to CharacterOffsetBegin=1139 CharacterOffsetEnd=1141 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=third-party CharacterOffsetBegin=1142 CharacterOffsetEnd=1153 PartOfSpeech=JJ Lemma=third-party NamedEntityTag=O] [Text=firms CharacterOffsetBegin=1154 CharacterOffsetEnd=1159 PartOfSpeech=NNS Lemma=firm NamedEntityTag=O] [Text=. CharacterOffsetBegin=1159 CharacterOffsetEnd=1160 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Apple))
+    (ADVP (RB often))
+    (VP (MD would)
+      (VP (VB point)
+        (S
+          (NP (PRP IT))
+          (NP
+            (NP (NNS organizations))
+            (PP (TO to)
+              (NP (JJ third-party) (NNS firms)))))))
+    (. .)))
+
+root(ROOT-0, point-4)
+nsubj(point-4, Apple-1)
+advmod(point-4, often-2)
+aux(point-4, would-3)
+nsubj(organizations-6, IT-5)
+xcomp(point-4, organizations-6)
+amod(firms-9, third-party-8)
+prep_to(organizations-6, firms-9)
+
+Sentence #12 (14 tokens):
+Now it has one very big third-party partner to point to: IBM.
+[Text=Now CharacterOffsetBegin=1161 CharacterOffsetEnd=1164 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Now</TIMEX3>] [Text=it CharacterOffsetBegin=1165 CharacterOffsetEnd=1167 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=has CharacterOffsetBegin=1168 CharacterOffsetEnd=1171 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=one CharacterOffsetBegin=1172 CharacterOffsetEnd=1175 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=very CharacterOffsetBegin=1176 CharacterOffsetEnd=1180 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=big CharacterOffsetBegin=1181 CharacterOffsetEnd=1184 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=third-party CharacterOffsetBegin=1185 CharacterOffsetEnd=1196 PartOfSpeech=JJ Lemma=third-party NamedEntityTag=O] [Text=partner CharacterOffsetBegin=1197 CharacterOffsetEnd=1204 PartOfSpeech=NN Lemma=partner NamedEntityTag=O] [Text=to CharacterOffsetBegin=1205 CharacterOffsetEnd=1207 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=point CharacterOffsetBegin=1208 CharacterOffsetEnd=1213 PartOfSpeech=VB Lemma=point NamedEntityTag=O] [Text=to CharacterOffsetBegin=1214 CharacterOffsetEnd=1216 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=: CharacterOffsetBegin=1216 CharacterOffsetEnd=1217 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=1218 CharacterOffsetEnd=1221 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1221 CharacterOffsetEnd=1222 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP it))
+    (VP (VBZ has)
+      (NP
+        (NP (CD one)
+          (ADJP (RB very) (JJ big))
+          (JJ third-party) (NN partner))
+        (SBAR
+          (S
+            (VP (TO to)
+              (VP (VB point)
+                (FRAG
+                  (X (TO to))
+                  (: :)
+                  (NP (NNP IBM)))))))))
+    (. .)))
+
+root(ROOT-0, has-3)
+advmod(has-3, Now-1)
+nsubj(has-3, it-2)
+num(partner-8, one-4)
+advmod(big-6, very-5)
+amod(partner-8, big-6)
+amod(partner-8, third-party-7)
+dobj(has-3, partner-8)
+aux(point-10, to-9)
+vmod(partner-8, point-10)
+dep(IBM-13, to-11)
+dep(point-10, IBM-13)
+
+Sentence #13 (20 tokens):
+However, the deal speaks only to those problems that fit into a tidy picture of an Apple-centric ecosystem.
+[Text=However CharacterOffsetBegin=1224 CharacterOffsetEnd=1231 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=1231 CharacterOffsetEnd=1232 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1233 CharacterOffsetEnd=1236 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=deal CharacterOffsetBegin=1237 CharacterOffsetEnd=1241 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=speaks CharacterOffsetBegin=1242 CharacterOffsetEnd=1248 PartOfSpeech=VBZ Lemma=speak NamedEntityTag=O] [Text=only CharacterOffsetBegin=1249 CharacterOffsetEnd=1253 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=to CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=those CharacterOffsetBegin=1257 CharacterOffsetEnd=1262 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=problems CharacterOffsetBegin=1263 CharacterOffsetEnd=1271 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=that CharacterOffsetBegin=1272 CharacterOffsetEnd=1276 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=fit CharacterOffsetBegin=1277 CharacterOffsetEnd=1280 PartOfSpeech=VBP Lemma=fit NamedEntityTag=O] [Text=into CharacterOffsetBegin=1281 CharacterOffsetEnd=1285 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=a CharacterOffsetBegin=1286 CharacterOffsetEnd=1287 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tidy CharacterOffsetBegin=1288 CharacterOffsetEnd=1292 PartOfSpeech=JJ Lemma=tidy NamedEntityTag=O] [Text=picture CharacterOffsetBegin=1293 CharacterOffsetEnd=1300 PartOfSpeech=NN Lemma=picture NamedEntityTag=O] [Text=of CharacterOffsetBegin=1301 CharacterOffsetEnd=1303 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=an CharacterOffsetBegin=1304 CharacterOffsetEnd=1306 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Apple-centric CharacterOffsetBegin=1307 CharacterOffsetEnd=1320 PartOfSpeech=JJ Lemma=apple-centric NamedEntityTag=MISC] [Text=ecosystem CharacterOffsetBegin=1321 CharacterOffsetEnd=1330 PartOfSpeech=NN Lemma=ecosystem NamedEntityTag=O] [Text=. CharacterOffsetBegin=1330 CharacterOffsetEnd=1331 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT the) (NN deal))
+    (VP (VBZ speaks)
+      (ADVP (RB only))
+      (PP (TO to)
+        (NP
+          (NP (DT those) (NNS problems))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP fit)
+                (PP (IN into)
+                  (NP
+                    (NP (DT a) (JJ tidy) (NN picture))
+                    (PP (IN of)
+                      (NP (DT an) (JJ Apple-centric) (NN ecosystem)))))))))))
+    (. .)))
+
+root(ROOT-0, speaks-5)
+advmod(speaks-5, However-1)
+det(deal-4, the-3)
+nsubj(speaks-5, deal-4)
+advmod(speaks-5, only-6)
+det(problems-9, those-8)
+prep_to(speaks-5, problems-9)
+nsubj(fit-11, that-10)
+rcmod(problems-9, fit-11)
+det(picture-15, a-13)
+amod(picture-15, tidy-14)
+prep_into(fit-11, picture-15)
+det(ecosystem-19, an-17)
+amod(ecosystem-19, Apple-centric-18)
+prep_of(picture-15, ecosystem-19)
+
+Sentence #14 (25 tokens):
+Mobility for CIOs is a whole lot more complicated, including Android devices, BYOD policies, Internet of Things data, and more.
+[Text=Mobility CharacterOffsetBegin=1332 CharacterOffsetEnd=1340 PartOfSpeech=NN Lemma=mobility NamedEntityTag=O] [Text=for CharacterOffsetBegin=1341 CharacterOffsetEnd=1344 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=1345 CharacterOffsetEnd=1349 PartOfSpeech=NNS Lemma=cio NamedEntityTag=MISC] [Text=is CharacterOffsetBegin=1350 CharacterOffsetEnd=1352 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1353 CharacterOffsetEnd=1354 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=whole CharacterOffsetBegin=1355 CharacterOffsetEnd=1360 PartOfSpeech=JJ Lemma=whole NamedEntityTag=O] [Text=lot CharacterOffsetBegin=1361 CharacterOffsetEnd=1364 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=more CharacterOffsetBegin=1365 CharacterOffsetEnd=1369 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=complicated CharacterOffsetBegin=1370 CharacterOffsetEnd=1381 PartOfSpeech=JJ Lemma=complicated NamedEntityTag=O] [Text=, CharacterOffsetBegin=1381 CharacterOffsetEnd=1382 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=1383 CharacterOffsetEnd=1392 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=Android CharacterOffsetBegin=1393 CharacterOffsetEnd=1400 PartOfSpeech=NNP Lemma=Android NamedEntityTag=O] [Text=devices CharacterOffsetBegin=1401 CharacterOffsetEnd=1408 PartOfSpeech=NNS Lemma=device NamedEntityTag=O] [Text=, CharacterOffsetBegin=1408 CharacterOffsetEnd=1409 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=BYOD CharacterOffsetBegin=1410 CharacterOffsetEnd=1414 PartOfSpeech=NN Lemma=byod NamedEntityTag=O] [Text=policies CharacterOffsetBegin=1415 CharacterOffsetEnd=1423 PartOfSpeech=NNS Lemma=policy NamedEntityTag=O] [Text=, CharacterOffsetBegin=1423 CharacterOffsetEnd=1424 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Internet CharacterOffsetBegin=1425 CharacterOffsetEnd=1433 PartOfSpeech=NN Lemma=internet NamedEntityTag=MISC] [Text=of CharacterOffsetBegin=1434 CharacterOffsetEnd=1436 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC] [Text=Things CharacterOffsetBegin=1437 CharacterOffsetEnd=1443 PartOfSpeech=NNS Lemma=thing NamedEntityTag=MISC] [Text=data CharacterOffsetBegin=1444 CharacterOffsetEnd=1448 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=, CharacterOffsetBegin=1448 CharacterOffsetEnd=1449 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1450 CharacterOffsetEnd=1453 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=more CharacterOffsetBegin=1454 CharacterOffsetEnd=1458 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=. CharacterOffsetBegin=1458 CharacterOffsetEnd=1459 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Mobility))
+      (PP (IN for)
+        (NP (NNS CIOs))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ whole) (NN lot))
+        (ADJP (RBR more) (JJ complicated))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNP Android) (NNS devices))
+            (, ,)
+            (NP (NN BYOD) (NNS policies))
+            (, ,)
+            (NP
+              (NP (NN Internet))
+              (PP (IN of)
+                (NP (NNS Things) (NNS data))))
+            (, ,)
+            (CC and)
+            (NP (RBR more))))))
+    (. .)))
+
+root(ROOT-0, lot-7)
+nsubj(lot-7, Mobility-1)
+prep_for(Mobility-1, CIOs-3)
+cop(lot-7, is-4)
+det(lot-7, a-5)
+amod(lot-7, whole-6)
+advmod(complicated-9, more-8)
+amod(lot-7, complicated-9)
+nn(devices-13, Android-12)
+prep_including(lot-7, devices-13)
+nn(policies-16, BYOD-15)
+conj_and(devices-13, policies-16)
+conj_and(devices-13, Internet-18)
+nn(data-21, Things-20)
+prep_of(Internet-18, data-21)
+conj_and(devices-13, more-24)
+
+Sentence #15 (27 tokens):
+IBM has deep expertise and services across those areas, but the announcement refers four times to the "exclusive" nature of the IBM-Apple deal.
+[Text=IBM CharacterOffsetBegin=1460 CharacterOffsetEnd=1463 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1464 CharacterOffsetEnd=1467 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=deep CharacterOffsetBegin=1468 CharacterOffsetEnd=1472 PartOfSpeech=JJ Lemma=deep NamedEntityTag=O] [Text=expertise CharacterOffsetBegin=1473 CharacterOffsetEnd=1482 PartOfSpeech=NN Lemma=expertise NamedEntityTag=O] [Text=and CharacterOffsetBegin=1483 CharacterOffsetEnd=1486 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=services CharacterOffsetBegin=1487 CharacterOffsetEnd=1495 PartOfSpeech=NNS Lemma=service NamedEntityTag=O] [Text=across CharacterOffsetBegin=1496 CharacterOffsetEnd=1502 PartOfSpeech=IN Lemma=across NamedEntityTag=O] [Text=those CharacterOffsetBegin=1503 CharacterOffsetEnd=1508 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=areas CharacterOffsetBegin=1509 CharacterOffsetEnd=1514 PartOfSpeech=NNS Lemma=area NamedEntityTag=O] [Text=, CharacterOffsetBegin=1514 CharacterOffsetEnd=1515 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1516 CharacterOffsetEnd=1519 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=1520 CharacterOffsetEnd=1523 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=announcement CharacterOffsetBegin=1524 CharacterOffsetEnd=1536 PartOfSpeech=NN Lemma=announcement NamedEntityTag=O] [Text=refers CharacterOffsetBegin=1537 CharacterOffsetEnd=1543 PartOfSpeech=VBZ Lemma=refer NamedEntityTag=O] [Text=four CharacterOffsetBegin=1544 CharacterOffsetEnd=1548 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=times CharacterOffsetBegin=1549 CharacterOffsetEnd=1554 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=to CharacterOffsetBegin=1555 CharacterOffsetEnd=1557 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1558 CharacterOffsetEnd=1561 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1562 CharacterOffsetEnd=1563 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=exclusive CharacterOffsetBegin=1563 CharacterOffsetEnd=1572 PartOfSpeech=JJ Lemma=exclusive NamedEntityTag=O] [Text='' CharacterOffsetBegin=1572 CharacterOffsetEnd=1573 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=nature CharacterOffsetBegin=1574 CharacterOffsetEnd=1580 PartOfSpeech=NN Lemma=nature NamedEntityTag=O] [Text=of CharacterOffsetBegin=1581 CharacterOffsetEnd=1583 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1584 CharacterOffsetEnd=1587 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IBM-Apple CharacterOffsetBegin=1588 CharacterOffsetEnd=1597 PartOfSpeech=JJ Lemma=ibm-apple NamedEntityTag=O] [Text=deal CharacterOffsetBegin=1598 CharacterOffsetEnd=1602 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=. CharacterOffsetBegin=1602 CharacterOffsetEnd=1603 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP IBM))
+      (VP (VBZ has)
+        (NP
+          (NP (JJ deep) (NN expertise)
+            (CC and)
+            (NNS services))
+          (PP (IN across)
+            (NP (DT those) (NNS areas))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NN announcement))
+      (VP (VBZ refers)
+        (NP (CD four) (NNS times))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (`` ``) (JJ exclusive) ('' '') (NN nature))
+            (PP (IN of)
+              (NP (DT the) (JJ IBM-Apple) (NN deal)))))))
+    (. .)))
+
+root(ROOT-0, has-2)
+nsubj(has-2, IBM-1)
+amod(expertise-4, deep-3)
+dobj(has-2, expertise-4)
+conj_and(expertise-4, services-6)
+det(areas-9, those-8)
+prep_across(expertise-4, areas-9)
+det(announcement-13, the-12)
+nsubj(refers-14, announcement-13)
+conj_but(has-2, refers-14)
+num(times-16, four-15)
+dobj(refers-14, times-16)
+det(nature-22, the-18)
+amod(nature-22, exclusive-20)
+prep_to(refers-14, nature-22)
+det(deal-26, the-24)
+amod(deal-26, IBM-Apple-25)
+prep_of(nature-22, deal-26)
+
+Sentence #16 (18 tokens):
+CIOs will be looking for assurances that their complex mobile technology environments jibe with the IBM-Apple vision.
+[Text=CIOs CharacterOffsetBegin=1604 CharacterOffsetEnd=1608 PartOfSpeech=NNS Lemma=cio NamedEntityTag=O] [Text=will CharacterOffsetBegin=1609 CharacterOffsetEnd=1613 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=1614 CharacterOffsetEnd=1616 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=looking CharacterOffsetBegin=1617 CharacterOffsetEnd=1624 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=for CharacterOffsetBegin=1625 CharacterOffsetEnd=1628 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=assurances CharacterOffsetBegin=1629 CharacterOffsetEnd=1639 PartOfSpeech=NNS Lemma=assurance NamedEntityTag=O] [Text=that CharacterOffsetBegin=1640 CharacterOffsetEnd=1644 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=their CharacterOffsetBegin=1645 CharacterOffsetEnd=1650 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=complex CharacterOffsetBegin=1651 CharacterOffsetEnd=1658 PartOfSpeech=JJ Lemma=complex NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=1659 CharacterOffsetEnd=1665 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=technology CharacterOffsetBegin=1666 CharacterOffsetEnd=1676 PartOfSpeech=NN Lemma=technology NamedEntityTag=O] [Text=environments CharacterOffsetBegin=1677 CharacterOffsetEnd=1689 PartOfSpeech=NNS Lemma=environment NamedEntityTag=O] [Text=jibe CharacterOffsetBegin=1690 CharacterOffsetEnd=1694 PartOfSpeech=VBP Lemma=jibe NamedEntityTag=O] [Text=with CharacterOffsetBegin=1695 CharacterOffsetEnd=1699 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1700 CharacterOffsetEnd=1703 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IBM-Apple CharacterOffsetBegin=1704 CharacterOffsetEnd=1713 PartOfSpeech=JJ Lemma=ibm-apple NamedEntityTag=O] [Text=vision CharacterOffsetBegin=1714 CharacterOffsetEnd=1720 PartOfSpeech=NN Lemma=vision NamedEntityTag=O] [Text=. CharacterOffsetBegin=1720 CharacterOffsetEnd=1721 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS CIOs))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG looking)
+          (PP (IN for)
+            (NP (NNS assurances)))
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (PRP$ their) (JJ complex) (JJ mobile) (NN technology))
+                (NP (NNS environments)))
+              (VP (VBP jibe)
+                (PP (IN with)
+                  (NP (DT the) (JJ IBM-Apple) (NN vision)))))))))
+    (. .)))
+
+root(ROOT-0, looking-4)
+nsubj(looking-4, CIOs-1)
+aux(looking-4, will-2)
+aux(looking-4, be-3)
+prep_for(looking-4, assurances-6)
+mark(jibe-13, that-7)
+poss(technology-11, their-8)
+amod(technology-11, complex-9)
+amod(technology-11, mobile-10)
+nsubj(jibe-13, technology-11)
+dep(technology-11, environments-12)
+ccomp(looking-4, jibe-13)
+det(vision-17, the-15)
+amod(vision-17, IBM-Apple-16)
+prep_with(jibe-13, vision-17)
+
+Sentence #17 (7 tokens):
+[Who loses from this deal?
+[Text=-LSB- CharacterOffsetBegin=1723 CharacterOffsetEnd=1724 PartOfSpeech=-LRB- Lemma=-lsb- NamedEntityTag=O] [Text=Who CharacterOffsetBegin=1724 CharacterOffsetEnd=1727 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=loses CharacterOffsetBegin=1728 CharacterOffsetEnd=1733 PartOfSpeech=VBZ Lemma=lose NamedEntityTag=O] [Text=from CharacterOffsetBegin=1734 CharacterOffsetEnd=1738 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=this CharacterOffsetBegin=1739 CharacterOffsetEnd=1743 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=deal CharacterOffsetBegin=1744 CharacterOffsetEnd=1748 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=? CharacterOffsetBegin=1748 CharacterOffsetEnd=1749 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SBARQ (-LRB- -LSB-)
+    (WHNP (WP Who))
+    (SQ
+      (VP (VBZ loses)
+        (PP (IN from)
+          (NP (DT this) (NN deal)))))
+    (. ?)))
+
+root(ROOT-0, loses-3)
+punct(loses-3, -LSB--1)
+nsubj(loses-3, Who-2)
+det(deal-6, this-5)
+prep_from(loses-3, deal-6)
+
+Sentence #18 (11 tokens):
+Read Apple-IBM Deal: Trouble For Google, Microsoft.]
+[Text=Read CharacterOffsetBegin=1750 CharacterOffsetEnd=1754 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=Apple-IBM CharacterOffsetBegin=1755 CharacterOffsetEnd=1764 PartOfSpeech=NNP Lemma=Apple-IBM NamedEntityTag=O] [Text=Deal CharacterOffsetBegin=1765 CharacterOffsetEnd=1769 PartOfSpeech=NNP Lemma=Deal NamedEntityTag=O] [Text=: CharacterOffsetBegin=1769 CharacterOffsetEnd=1770 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Trouble CharacterOffsetBegin=1771 CharacterOffsetEnd=1778 PartOfSpeech=NN Lemma=trouble NamedEntityTag=O] [Text=For CharacterOffsetBegin=1779 CharacterOffsetEnd=1782 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Google CharacterOffsetBegin=1783 CharacterOffsetEnd=1789 PartOfSpeech=NNP Lemma=Google NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1789 CharacterOffsetEnd=1790 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Microsoft CharacterOffsetBegin=1791 CharacterOffsetEnd=1800 PartOfSpeech=NNP Lemma=Microsoft NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1800 CharacterOffsetEnd=1801 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-RSB- CharacterOffsetBegin=1801 CharacterOffsetEnd=1802 PartOfSpeech=-RRB- Lemma=-rsb- NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Read)
+      (NP
+        (NP (NNP Apple-IBM) (NNP Deal))
+        (: :)
+        (NP
+          (NP (NN Trouble))
+          (PP (IN For)
+            (NP (NNP Google) (, ,) (NNP Microsoft))))))
+    (. .) (-RRB- -RSB-)))
+
+root(ROOT-0, Read-1)
+nn(Deal-3, Apple-IBM-2)
+dobj(Read-1, Deal-3)
+dep(Deal-3, Trouble-5)
+nn(Microsoft-9, Google-7)
+prep_for(Trouble-5, Microsoft-9)
+punct(Read-1, -RSB--11)
+
+Sentence #19 (27 tokens):
+IBM's plan to deliver 100 iOS apps this year and next also will appeal to CIOs looking to deliver on this fast-and-efficient vision for IT.
+[Text=IBM CharacterOffsetBegin=1804 CharacterOffsetEnd=1807 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=1807 CharacterOffsetEnd=1809 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=plan CharacterOffsetBegin=1810 CharacterOffsetEnd=1814 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=1815 CharacterOffsetEnd=1817 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=deliver CharacterOffsetBegin=1818 CharacterOffsetEnd=1825 PartOfSpeech=VB Lemma=deliver NamedEntityTag=O] [Text=100 CharacterOffsetBegin=1826 CharacterOffsetEnd=1829 PartOfSpeech=CD Lemma=100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=100.0] [Text=iOS CharacterOffsetBegin=1830 CharacterOffsetEnd=1833 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=apps CharacterOffsetBegin=1834 CharacterOffsetEnd=1838 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=this CharacterOffsetBegin=1839 CharacterOffsetEnd=1843 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year</TIMEX3>] [Text=year CharacterOffsetBegin=1844 CharacterOffsetEnd=1848 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year</TIMEX3>] [Text=and CharacterOffsetBegin=1849 CharacterOffsetEnd=1852 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=next CharacterOffsetBegin=1853 CharacterOffsetEnd=1857 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=also CharacterOffsetBegin=1858 CharacterOffsetEnd=1862 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=will CharacterOffsetBegin=1863 CharacterOffsetEnd=1867 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=appeal CharacterOffsetBegin=1868 CharacterOffsetEnd=1874 PartOfSpeech=VB Lemma=appeal NamedEntityTag=O] [Text=to CharacterOffsetBegin=1875 CharacterOffsetEnd=1877 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=1878 CharacterOffsetEnd=1882 PartOfSpeech=NNS Lemma=cio NamedEntityTag=O] [Text=looking CharacterOffsetBegin=1883 CharacterOffsetEnd=1890 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=to CharacterOffsetBegin=1891 CharacterOffsetEnd=1893 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=deliver CharacterOffsetBegin=1894 CharacterOffsetEnd=1901 PartOfSpeech=VB Lemma=deliver NamedEntityTag=O] [Text=on CharacterOffsetBegin=1902 CharacterOffsetEnd=1904 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=this CharacterOffsetBegin=1905 CharacterOffsetEnd=1909 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=fast-and-efficient CharacterOffsetBegin=1910 CharacterOffsetEnd=1928 PartOfSpeech=JJ Lemma=fast-and-efficient NamedEntityTag=O] [Text=vision CharacterOffsetBegin=1929 CharacterOffsetEnd=1935 PartOfSpeech=NN Lemma=vision NamedEntityTag=O] [Text=for CharacterOffsetBegin=1936 CharacterOffsetEnd=1939 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=IT CharacterOffsetBegin=1940 CharacterOffsetEnd=1942 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=1942 CharacterOffsetEnd=1943 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP IBM) (POS 's))
+      (NN plan)
+      (S
+        (VP (TO to)
+          (VP (VB deliver)
+            (NP (CD 100) (NNP iOS) (NNS apps))
+            (NP-TMP (DT this) (NN year)
+              (CC and)
+              (JJ next))))))
+    (ADVP (RB also))
+    (VP (MD will)
+      (VP (VB appeal)
+        (PP (TO to)
+          (NP
+            (NP (NNS CIOs))
+            (VP (VBG looking)
+              (S
+                (VP (TO to)
+                  (VP (VB deliver)
+                    (PP (IN on)
+                      (NP
+                        (NP (DT this) (JJ fast-and-efficient) (NN vision))
+                        (PP (IN for)
+                          (NP (PRP IT)))))))))))))
+    (. .)))
+
+root(ROOT-0, appeal-15)
+poss(plan-3, IBM-1)
+nsubj(appeal-15, plan-3)
+aux(deliver-5, to-4)
+vmod(plan-3, deliver-5)
+num(apps-8, 100-6)
+nn(apps-8, iOS-7)
+dobj(deliver-5, apps-8)
+det(year-10, this-9)
+tmod(deliver-5, year-10)
+conj_and(year-10, next-12)
+advmod(appeal-15, also-13)
+aux(appeal-15, will-14)
+prep_to(appeal-15, CIOs-17)
+vmod(CIOs-17, looking-18)
+aux(deliver-20, to-19)
+xcomp(looking-18, deliver-20)
+det(vision-24, this-22)
+amod(vision-24, fast-and-efficient-23)
+prep_on(deliver-20, vision-24)
+prep_for(vision-24, IT-26)
+
+Sentence #20 (37 tokens):
+But it raises one of the biggest questions I have about mobile strategies: Do CIOs see competitive advantage in such ready-made, single-platform apps, or will they instead do more custom mobile app development?
+[Text=But CharacterOffsetBegin=1944 CharacterOffsetEnd=1947 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=it CharacterOffsetBegin=1948 CharacterOffsetEnd=1950 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=raises CharacterOffsetBegin=1951 CharacterOffsetEnd=1957 PartOfSpeech=VBZ Lemma=raise NamedEntityTag=O] [Text=one CharacterOffsetBegin=1958 CharacterOffsetEnd=1961 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1962 CharacterOffsetEnd=1964 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1965 CharacterOffsetEnd=1968 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=biggest CharacterOffsetBegin=1969 CharacterOffsetEnd=1976 PartOfSpeech=JJS Lemma=biggest NamedEntityTag=O] [Text=questions CharacterOffsetBegin=1977 CharacterOffsetEnd=1986 PartOfSpeech=NNS Lemma=question NamedEntityTag=O] [Text=I CharacterOffsetBegin=1987 CharacterOffsetEnd=1988 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=1989 CharacterOffsetEnd=1993 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=about CharacterOffsetBegin=1994 CharacterOffsetEnd=1999 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=2000 CharacterOffsetEnd=2006 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=strategies CharacterOffsetBegin=2007 CharacterOffsetEnd=2017 PartOfSpeech=NNS Lemma=strategy NamedEntityTag=O] [Text=: CharacterOffsetBegin=2017 CharacterOffsetEnd=2018 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Do CharacterOffsetBegin=2019 CharacterOffsetEnd=2021 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=2022 CharacterOffsetEnd=2026 PartOfSpeech=NNS Lemma=cio NamedEntityTag=O] [Text=see CharacterOffsetBegin=2027 CharacterOffsetEnd=2030 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=competitive CharacterOffsetBegin=2031 CharacterOffsetEnd=2042 PartOfSpeech=JJ Lemma=competitive NamedEntityTag=O] [Text=advantage CharacterOffsetBegin=2043 CharacterOffsetEnd=2052 PartOfSpeech=NN Lemma=advantage NamedEntityTag=O] [Text=in CharacterOffsetBegin=2053 CharacterOffsetEnd=2055 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=such CharacterOffsetBegin=2056 CharacterOffsetEnd=2060 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=ready-made CharacterOffsetBegin=2061 CharacterOffsetEnd=2071 PartOfSpeech=JJ Lemma=ready-made NamedEntityTag=O] [Text=, CharacterOffsetBegin=2071 CharacterOffsetEnd=2072 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=single-platform CharacterOffsetBegin=2073 CharacterOffsetEnd=2088 PartOfSpeech=JJ Lemma=single-platform NamedEntityTag=O] [Text=apps CharacterOffsetBegin=2089 CharacterOffsetEnd=2093 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=, CharacterOffsetBegin=2093 CharacterOffsetEnd=2094 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2095 CharacterOffsetEnd=2097 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=will CharacterOffsetBegin=2098 CharacterOffsetEnd=2102 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=they CharacterOffsetBegin=2103 CharacterOffsetEnd=2107 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=instead CharacterOffsetBegin=2108 CharacterOffsetEnd=2115 PartOfSpeech=RB Lemma=instead NamedEntityTag=O] [Text=do CharacterOffsetBegin=2116 CharacterOffsetEnd=2118 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=more CharacterOffsetBegin=2119 CharacterOffsetEnd=2123 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=custom CharacterOffsetBegin=2124 CharacterOffsetEnd=2130 PartOfSpeech=NN Lemma=custom NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=2131 CharacterOffsetEnd=2137 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=app CharacterOffsetBegin=2138 CharacterOffsetEnd=2141 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=development CharacterOffsetBegin=2142 CharacterOffsetEnd=2153 PartOfSpeech=NN Lemma=development NamedEntityTag=O] [Text=? CharacterOffsetBegin=2153 CharacterOffsetEnd=2154 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ raises)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJS biggest) (NNS questions))
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBP have)
+                  (PP (IN about)
+                    (NP
+                      (NP (JJ mobile) (NNS strategies))
+                      (: :)
+                      (SQ
+                        (SQ (VBP Do)
+                          (NP (NNS CIOs))
+                          (VP (VB see)
+                            (NP (JJ competitive) (NN advantage))
+                            (PP (IN in)
+                              (NP (JJ such) (JJ ready-made) (, ,) (JJ single-platform) (NNS apps)))))
+                        (, ,)
+                        (CC or)
+                        (SQ (MD will)
+                          (NP (PRP they))
+                          (VP
+                            (ADVP (RB instead))
+                            (VBP do)
+                            (NP (JJR more) (NN custom) (JJ mobile) (NN app) (NN development))))))))))))))
+    (. ?)))
+
+root(ROOT-0, raises-3)
+cc(raises-3, But-1)
+nsubj(raises-3, it-2)
+dobj(raises-3, one-4)
+det(questions-8, the-6)
+amod(questions-8, biggest-7)
+prep_of(one-4, questions-8)
+nsubj(have-10, I-9)
+rcmod(questions-8, have-10)
+amod(strategies-13, mobile-12)
+prep_about(have-10, strategies-13)
+aux(see-17, Do-15)
+nsubj(see-17, CIOs-16)
+dep(strategies-13, see-17)
+amod(advantage-19, competitive-18)
+dobj(see-17, advantage-19)
+amod(apps-25, such-21)
+amod(apps-25, ready-made-22)
+amod(apps-25, single-platform-24)
+prep_in(see-17, apps-25)
+aux(do-31, will-28)
+nsubj(do-31, they-29)
+advmod(do-31, instead-30)
+conj_or(see-17, do-31)
+amod(development-36, more-32)
+nn(development-36, custom-33)
+amod(development-36, mobile-34)
+nn(development-36, app-35)
+dobj(do-31, development-36)
+
+Sentence #21 (21 tokens):
+IBM is promising that these apps will solve industry-specific business problems, based on its consulting work in these industries.
+[Text=IBM CharacterOffsetBegin=2155 CharacterOffsetEnd=2158 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=is CharacterOffsetBegin=2159 CharacterOffsetEnd=2161 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=promising CharacterOffsetBegin=2162 CharacterOffsetEnd=2171 PartOfSpeech=VBG Lemma=promise NamedEntityTag=O] [Text=that CharacterOffsetBegin=2172 CharacterOffsetEnd=2176 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=these CharacterOffsetBegin=2177 CharacterOffsetEnd=2182 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=apps CharacterOffsetBegin=2183 CharacterOffsetEnd=2187 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=will CharacterOffsetBegin=2188 CharacterOffsetEnd=2192 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=solve CharacterOffsetBegin=2193 CharacterOffsetEnd=2198 PartOfSpeech=VB Lemma=solve NamedEntityTag=O] [Text=industry-specific CharacterOffsetBegin=2199 CharacterOffsetEnd=2216 PartOfSpeech=JJ Lemma=industry-specific NamedEntityTag=O] [Text=business CharacterOffsetBegin=2217 CharacterOffsetEnd=2225 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=problems CharacterOffsetBegin=2226 CharacterOffsetEnd=2234 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O] [Text=, CharacterOffsetBegin=2234 CharacterOffsetEnd=2235 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=based CharacterOffsetBegin=2236 CharacterOffsetEnd=2241 PartOfSpeech=VBN Lemma=base NamedEntityTag=O] [Text=on CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=its CharacterOffsetBegin=2245 CharacterOffsetEnd=2248 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=consulting CharacterOffsetBegin=2249 CharacterOffsetEnd=2259 PartOfSpeech=NN Lemma=consulting NamedEntityTag=O] [Text=work CharacterOffsetBegin=2260 CharacterOffsetEnd=2264 PartOfSpeech=NN Lemma=work NamedEntityTag=O] [Text=in CharacterOffsetBegin=2265 CharacterOffsetEnd=2267 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=these CharacterOffsetBegin=2268 CharacterOffsetEnd=2273 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=industries CharacterOffsetBegin=2274 CharacterOffsetEnd=2284 PartOfSpeech=NNS Lemma=industry NamedEntityTag=O] [Text=. CharacterOffsetBegin=2284 CharacterOffsetEnd=2285 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP IBM))
+    (VP (VBZ is)
+      (VP (VBG promising)
+        (SBAR (IN that)
+          (S
+            (NP (DT these) (NNS apps))
+            (VP (MD will)
+              (VP (VB solve)
+                (NP (JJ industry-specific) (NN business) (NNS problems))
+                (, ,)
+                (PP (VBN based)
+                  (PP (IN on)
+                    (NP
+                      (NP (PRP$ its) (NN consulting) (NN work))
+                      (PP (IN in)
+                        (NP (DT these) (NNS industries))))))))))))
+    (. .)))
+
+root(ROOT-0, promising-3)
+nsubj(promising-3, IBM-1)
+aux(promising-3, is-2)
+mark(solve-8, that-4)
+det(apps-6, these-5)
+nsubj(solve-8, apps-6)
+aux(solve-8, will-7)
+ccomp(promising-3, solve-8)
+amod(problems-11, industry-specific-9)
+nn(problems-11, business-10)
+dobj(solve-8, problems-11)
+prepc_based_on(solve-8, on-14)
+poss(work-17, its-15)
+nn(work-17, consulting-16)
+pobj(solve-8, work-17)
+det(industries-20, these-19)
+prep_in(work-17, industries-20)
+
+Sentence #22 (31 tokens):
+But custom mobile apps should in theory be easier for IT teams to create in-house (or by tapping a few outside developers) than on-premises, custom-coded client-server apps.
+[Text=But CharacterOffsetBegin=2286 CharacterOffsetEnd=2289 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=custom CharacterOffsetBegin=2290 CharacterOffsetEnd=2296 PartOfSpeech=NN Lemma=custom NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=2297 CharacterOffsetEnd=2303 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=apps CharacterOffsetBegin=2304 CharacterOffsetEnd=2308 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=should CharacterOffsetBegin=2309 CharacterOffsetEnd=2315 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=in CharacterOffsetBegin=2316 CharacterOffsetEnd=2318 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=theory CharacterOffsetBegin=2319 CharacterOffsetEnd=2325 PartOfSpeech=NN Lemma=theory NamedEntityTag=O] [Text=be CharacterOffsetBegin=2326 CharacterOffsetEnd=2328 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=easier CharacterOffsetBegin=2329 CharacterOffsetEnd=2335 PartOfSpeech=JJR Lemma=easier NamedEntityTag=O] [Text=for CharacterOffsetBegin=2336 CharacterOffsetEnd=2339 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=IT CharacterOffsetBegin=2340 CharacterOffsetEnd=2342 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=teams CharacterOffsetBegin=2343 CharacterOffsetEnd=2348 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=to CharacterOffsetBegin=2349 CharacterOffsetEnd=2351 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=create CharacterOffsetBegin=2352 CharacterOffsetEnd=2358 PartOfSpeech=VB Lemma=create NamedEntityTag=O] [Text=in-house CharacterOffsetBegin=2359 CharacterOffsetEnd=2367 PartOfSpeech=JJ Lemma=in-house NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=2368 CharacterOffsetEnd=2369 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=or CharacterOffsetBegin=2369 CharacterOffsetEnd=2371 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=by CharacterOffsetBegin=2372 CharacterOffsetEnd=2374 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=tapping CharacterOffsetBegin=2375 CharacterOffsetEnd=2382 PartOfSpeech=VBG Lemma=tap NamedEntityTag=O] [Text=a CharacterOffsetBegin=2383 CharacterOffsetEnd=2384 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=few CharacterOffsetBegin=2385 CharacterOffsetEnd=2388 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=outside CharacterOffsetBegin=2389 CharacterOffsetEnd=2396 PartOfSpeech=JJ Lemma=outside NamedEntityTag=O] [Text=developers CharacterOffsetBegin=2397 CharacterOffsetEnd=2407 PartOfSpeech=NNS Lemma=developer NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2407 CharacterOffsetEnd=2408 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=than CharacterOffsetBegin=2409 CharacterOffsetEnd=2413 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=on-premises CharacterOffsetBegin=2414 CharacterOffsetEnd=2425 PartOfSpeech=JJ Lemma=on-premises NamedEntityTag=O] [Text=, CharacterOffsetBegin=2425 CharacterOffsetEnd=2426 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=custom-coded CharacterOffsetBegin=2427 CharacterOffsetEnd=2439 PartOfSpeech=JJ Lemma=custom-coded NamedEntityTag=O] [Text=client-server CharacterOffsetBegin=2440 CharacterOffsetEnd=2453 PartOfSpeech=NN Lemma=client-server NamedEntityTag=O] [Text=apps CharacterOffsetBegin=2454 CharacterOffsetEnd=2458 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=. CharacterOffsetBegin=2458 CharacterOffsetEnd=2459 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (NN custom) (JJ mobile) (NNS apps))
+    (VP (MD should)
+      (PP (IN in)
+        (NP (NN theory)))
+      (VP (VB be)
+        (ADJP
+          (ADJP (JJR easier))
+          (PP (IN for)
+            (NP (PRP IT) (NNS teams))))
+        (S
+          (VP (TO to)
+            (VP (VB create)
+              (ADVP (JJ in-house))
+              (PRN (-LRB- -LRB-)
+                (CC or)
+                (VP
+                  (ADVP (IN by))
+                  (VBG tapping)
+                  (NP (DT a) (JJ few) (JJ outside) (NNS developers)))
+                (-RRB- -RRB-))
+              (PP (IN than)
+                (NP (JJ on-premises) (, ,) (JJ custom-coded) (NN client-server) (NNS apps))))))))
+    (. .)))
+
+root(ROOT-0, easier-9)
+cc(easier-9, But-1)
+nn(apps-4, custom-2)
+amod(apps-4, mobile-3)
+nsubj(easier-9, apps-4)
+aux(easier-9, should-5)
+prep_in(easier-9, theory-7)
+cop(easier-9, be-8)
+dep(teams-12, IT-11)
+prep_for(easier-9, teams-12)
+aux(create-14, to-13)
+xcomp(easier-9, create-14)
+advmod(create-14, in-house-15)
+cc(tapping-19, or-17)
+advmod(tapping-19, by-18)
+dep(create-14, tapping-19)
+det(developers-23, a-20)
+amod(developers-23, few-21)
+amod(developers-23, outside-22)
+dobj(tapping-19, developers-23)
+amod(apps-30, on-premises-26)
+amod(apps-30, custom-coded-28)
+nn(apps-30, client-server-29)
+prep_than(create-14, apps-30)
+
+Sentence #23 (37 tokens):
+The new app mentality -- delivering only and exactly what the business needs, quickly -- could spark a new wave of in-house development, at least for large businesses, and particularly for customer-facing apps.
+[Text=The CharacterOffsetBegin=2460 CharacterOffsetEnd=2463 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=new CharacterOffsetBegin=2464 CharacterOffsetEnd=2467 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=app CharacterOffsetBegin=2468 CharacterOffsetEnd=2471 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=mentality CharacterOffsetBegin=2472 CharacterOffsetEnd=2481 PartOfSpeech=NN Lemma=mentality NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2482 CharacterOffsetEnd=2484 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=delivering CharacterOffsetBegin=2485 CharacterOffsetEnd=2495 PartOfSpeech=VBG Lemma=deliver NamedEntityTag=O] [Text=only CharacterOffsetBegin=2496 CharacterOffsetEnd=2500 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=and CharacterOffsetBegin=2501 CharacterOffsetEnd=2504 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=exactly CharacterOffsetBegin=2505 CharacterOffsetEnd=2512 PartOfSpeech=RB Lemma=exactly NamedEntityTag=O] [Text=what CharacterOffsetBegin=2513 CharacterOffsetEnd=2517 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=the CharacterOffsetBegin=2518 CharacterOffsetEnd=2521 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=business CharacterOffsetBegin=2522 CharacterOffsetEnd=2530 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=needs CharacterOffsetBegin=2531 CharacterOffsetEnd=2536 PartOfSpeech=NNS Lemma=need NamedEntityTag=O] [Text=, CharacterOffsetBegin=2536 CharacterOffsetEnd=2537 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=quickly CharacterOffsetBegin=2538 CharacterOffsetEnd=2545 PartOfSpeech=RB Lemma=quickly NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2546 CharacterOffsetEnd=2548 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=could CharacterOffsetBegin=2549 CharacterOffsetEnd=2554 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=spark CharacterOffsetBegin=2555 CharacterOffsetEnd=2560 PartOfSpeech=VB Lemma=spark NamedEntityTag=O] [Text=a CharacterOffsetBegin=2561 CharacterOffsetEnd=2562 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=2563 CharacterOffsetEnd=2566 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=wave CharacterOffsetBegin=2567 CharacterOffsetEnd=2571 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=of CharacterOffsetBegin=2572 CharacterOffsetEnd=2574 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=in-house CharacterOffsetBegin=2575 CharacterOffsetEnd=2583 PartOfSpeech=JJ Lemma=in-house NamedEntityTag=O] [Text=development CharacterOffsetBegin=2584 CharacterOffsetEnd=2595 PartOfSpeech=NN Lemma=development NamedEntityTag=O] [Text=, CharacterOffsetBegin=2595 CharacterOffsetEnd=2596 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=at CharacterOffsetBegin=2597 CharacterOffsetEnd=2599 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=least CharacterOffsetBegin=2600 CharacterOffsetEnd=2605 PartOfSpeech=JJS Lemma=least NamedEntityTag=O] [Text=for CharacterOffsetBegin=2606 CharacterOffsetEnd=2609 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=large CharacterOffsetBegin=2610 CharacterOffsetEnd=2615 PartOfSpeech=JJ Lemma=large NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=2616 CharacterOffsetEnd=2626 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=, CharacterOffsetBegin=2626 CharacterOffsetEnd=2627 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2628 CharacterOffsetEnd=2631 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=particularly CharacterOffsetBegin=2632 CharacterOffsetEnd=2644 PartOfSpeech=RB Lemma=particularly NamedEntityTag=O] [Text=for CharacterOffsetBegin=2645 CharacterOffsetEnd=2648 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=customer-facing CharacterOffsetBegin=2649 CharacterOffsetEnd=2664 PartOfSpeech=JJ Lemma=customer-facing NamedEntityTag=O] [Text=apps CharacterOffsetBegin=2665 CharacterOffsetEnd=2669 PartOfSpeech=NNS Lemma=app NamedEntityTag=O] [Text=. CharacterOffsetBegin=2669 CharacterOffsetEnd=2670 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ new) (NN app) (NN mentality))
+      (PRN (: --)
+        (VP (VBG delivering)
+          (ADVP (RB only)
+            (CC and)
+            (RB exactly))
+          (NP
+            (NP
+              (NP (WP what))
+              (NP (DT the) (NN business) (NNS needs)))
+            (, ,)
+            (ADVP (RB quickly))))
+        (: --)))
+    (VP (MD could)
+      (VP (VB spark)
+        (NP
+          (NP (DT a) (JJ new) (NN wave))
+          (PP (IN of)
+            (NP (JJ in-house) (NN development)))
+          (, ,)
+          (ADVP (IN at) (JJS least)))
+        (PP
+          (PP (IN for)
+            (NP (JJ large) (NNS businesses)))
+          (, ,)
+          (CC and)
+          (RB particularly)
+          (PP (IN for)
+            (NP (JJ customer-facing) (NNS apps))))))
+    (. .)))
+
+root(ROOT-0, spark-18)
+det(mentality-4, The-1)
+amod(mentality-4, new-2)
+nn(mentality-4, app-3)
+nsubj(spark-18, mentality-4)
+dep(mentality-4, delivering-6)
+advmod(delivering-6, only-7)
+conj_and(only-7, exactly-9)
+dobj(delivering-6, what-10)
+det(needs-13, the-11)
+nn(needs-13, business-12)
+dep(what-10, needs-13)
+advmod(what-10, quickly-15)
+aux(spark-18, could-17)
+det(wave-21, a-19)
+amod(wave-21, new-20)
+dobj(spark-18, wave-21)
+amod(development-24, in-house-23)
+prep_of(wave-21, development-24)
+advmod(wave-21, at-26)
+pobj(at-26, least-27)
+prep(spark-18, for-28)
+amod(businesses-30, large-29)
+pobj(for-28, businesses-30)
+conj_and(for-28, particularly-33)
+dep(for-28, for-34)
+amod(apps-36, customer-facing-35)
+pobj(for-34, apps-36)
+
+Sentence #24 (11 tokens):
+IBM faces plenty of competition in this purpose-built app market.
+[Text=IBM CharacterOffsetBegin=2672 CharacterOffsetEnd=2675 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=faces CharacterOffsetBegin=2676 CharacterOffsetEnd=2681 PartOfSpeech=VBZ Lemma=face NamedEntityTag=O] [Text=plenty CharacterOffsetBegin=2682 CharacterOffsetEnd=2688 PartOfSpeech=NN Lemma=plenty NamedEntityTag=O] [Text=of CharacterOffsetBegin=2689 CharacterOffsetEnd=2691 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=competition CharacterOffsetBegin=2692 CharacterOffsetEnd=2703 PartOfSpeech=NN Lemma=competition NamedEntityTag=O] [Text=in CharacterOffsetBegin=2704 CharacterOffsetEnd=2706 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=2707 CharacterOffsetEnd=2711 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=purpose-built CharacterOffsetBegin=2712 CharacterOffsetEnd=2725 PartOfSpeech=JJ Lemma=purpose-built NamedEntityTag=O] [Text=app CharacterOffsetBegin=2726 CharacterOffsetEnd=2729 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=market CharacterOffsetBegin=2730 CharacterOffsetEnd=2736 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=. CharacterOffsetBegin=2736 CharacterOffsetEnd=2737 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP IBM))
+    (VP (VBZ faces)
+      (NP
+        (NP (NN plenty))
+        (PP (IN of)
+          (NP
+            (NP (NN competition))
+            (PP (IN in)
+              (NP (DT this) (JJ purpose-built) (NN app) (NN market)))))))
+    (. .)))
+
+root(ROOT-0, faces-2)
+nsubj(faces-2, IBM-1)
+dobj(faces-2, plenty-3)
+prep_of(plenty-3, competition-5)
+det(market-10, this-7)
+amod(market-10, purpose-built-8)
+nn(market-10, app-9)
+prep_in(competition-5, market-10)
+
+Sentence #25 (37 tokens):
+The company has stayed out of the core enterprise application market, letting the likes of SAP and Oracle build the ERP, CRM, and supply chain systems while IBM gets paid to implement them.
+[Text=The CharacterOffsetBegin=2738 CharacterOffsetEnd=2741 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=company CharacterOffsetBegin=2742 CharacterOffsetEnd=2749 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text=has CharacterOffsetBegin=2750 CharacterOffsetEnd=2753 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=stayed CharacterOffsetBegin=2754 CharacterOffsetEnd=2760 PartOfSpeech=VBN Lemma=stay NamedEntityTag=O] [Text=out CharacterOffsetBegin=2761 CharacterOffsetEnd=2764 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=2765 CharacterOffsetEnd=2767 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2768 CharacterOffsetEnd=2771 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=core CharacterOffsetBegin=2772 CharacterOffsetEnd=2776 PartOfSpeech=NN Lemma=core NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=2777 CharacterOffsetEnd=2787 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=application CharacterOffsetBegin=2788 CharacterOffsetEnd=2799 PartOfSpeech=NN Lemma=application NamedEntityTag=O] [Text=market CharacterOffsetBegin=2800 CharacterOffsetEnd=2806 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=, CharacterOffsetBegin=2806 CharacterOffsetEnd=2807 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=letting CharacterOffsetBegin=2808 CharacterOffsetEnd=2815 PartOfSpeech=VBG Lemma=let NamedEntityTag=O] [Text=the CharacterOffsetBegin=2816 CharacterOffsetEnd=2819 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=likes CharacterOffsetBegin=2820 CharacterOffsetEnd=2825 PartOfSpeech=NN Lemma=likes NamedEntityTag=O] [Text=of CharacterOffsetBegin=2826 CharacterOffsetEnd=2828 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=SAP CharacterOffsetBegin=2829 CharacterOffsetEnd=2832 PartOfSpeech=NN Lemma=sap NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=2833 CharacterOffsetEnd=2836 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Oracle CharacterOffsetBegin=2837 CharacterOffsetEnd=2843 PartOfSpeech=NNP Lemma=Oracle NamedEntityTag=O] [Text=build CharacterOffsetBegin=2844 CharacterOffsetEnd=2849 PartOfSpeech=VBP Lemma=build NamedEntityTag=O] [Text=the CharacterOffsetBegin=2850 CharacterOffsetEnd=2853 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ERP CharacterOffsetBegin=2854 CharacterOffsetEnd=2857 PartOfSpeech=NN Lemma=erp NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2857 CharacterOffsetEnd=2858 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CRM CharacterOffsetBegin=2859 CharacterOffsetEnd=2862 PartOfSpeech=NNP Lemma=CRM NamedEntityTag=O] [Text=, CharacterOffsetBegin=2862 CharacterOffsetEnd=2863 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2864 CharacterOffsetEnd=2867 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=supply CharacterOffsetBegin=2868 CharacterOffsetEnd=2874 PartOfSpeech=NN Lemma=supply NamedEntityTag=O] [Text=chain CharacterOffsetBegin=2875 CharacterOffsetEnd=2880 PartOfSpeech=NN Lemma=chain NamedEntityTag=O] [Text=systems CharacterOffsetBegin=2881 CharacterOffsetEnd=2888 PartOfSpeech=NNS Lemma=system NamedEntityTag=O] [Text=while CharacterOffsetBegin=2889 CharacterOffsetEnd=2894 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=2895 CharacterOffsetEnd=2898 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=gets CharacterOffsetBegin=2899 CharacterOffsetEnd=2903 PartOfSpeech=VBZ Lemma=get NamedEntityTag=O] [Text=paid CharacterOffsetBegin=2904 CharacterOffsetEnd=2908 PartOfSpeech=VBN Lemma=pay NamedEntityTag=O] [Text=to CharacterOffsetBegin=2909 CharacterOffsetEnd=2911 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=implement CharacterOffsetBegin=2912 CharacterOffsetEnd=2921 PartOfSpeech=VB Lemma=implement NamedEntityTag=O] [Text=them CharacterOffsetBegin=2922 CharacterOffsetEnd=2926 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=. CharacterOffsetBegin=2926 CharacterOffsetEnd=2927 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN company))
+      (VP (VBZ has)
+        (VP (VBN stayed)
+          (PRT (IN out))
+          (PP (IN of)
+            (NP (DT the) (NN core) (NN enterprise) (NN application) (NN market)))
+          (, ,)
+          (S
+            (VP (VBG letting)
+              (NP
+                (NP (DT the) (NN likes))
+                (PP (IN of)
+                  (NP (NN SAP)))))))))
+    (CC and)
+    (S
+      (NP (NNP Oracle))
+      (VP (VBP build)
+        (NP
+          (NP (DT the) (NN ERP))
+          (, ,)
+          (NP (NNP CRM))
+          (, ,)
+          (CC and)
+          (NP (NN supply) (NN chain) (NNS systems)))
+        (SBAR (IN while)
+          (S
+            (NP (NNP IBM))
+            (VP (VBZ gets)
+              (VP (VBN paid)
+                (S
+                  (VP (TO to)
+                    (VP (VB implement)
+                      (NP (PRP them)))))))))))
+    (. .)))
+
+root(ROOT-0, stayed-4)
+det(company-2, The-1)
+nsubj(stayed-4, company-2)
+aux(stayed-4, has-3)
+det(market-11, the-7)
+nn(market-11, core-8)
+nn(market-11, enterprise-9)
+nn(market-11, application-10)
+prep_out_of(stayed-4, market-11)
+xcomp(stayed-4, letting-13)
+det(likes-15, the-14)
+dobj(letting-13, likes-15)
+prep_of(likes-15, SAP-17)
+nsubj(build-20, Oracle-19)
+conj_and(stayed-4, build-20)
+det(ERP-22, the-21)
+dobj(build-20, ERP-22)
+conj_and(ERP-22, CRM-24)
+nn(systems-29, supply-27)
+nn(systems-29, chain-28)
+conj_and(ERP-22, systems-29)
+mark(paid-33, while-30)
+nsubjpass(paid-33, IBM-31)
+auxpass(paid-33, gets-32)
+advcl(build-20, paid-33)
+aux(implement-35, to-34)
+xcomp(paid-33, implement-35)
+dobj(implement-35, them-36)
+
+Sentence #26 (40 tokens):
+Now the action has moved to the edge, and the battle is over whose products will deliver the data generated by those core applications to the employee or customer touchscreen, and whose products will analyze that data.
+[Text=Now CharacterOffsetBegin=2928 CharacterOffsetEnd=2931 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t4" type="DATE" value="PRESENT_REF">Now</TIMEX3>] [Text=the CharacterOffsetBegin=2932 CharacterOffsetEnd=2935 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=action CharacterOffsetBegin=2936 CharacterOffsetEnd=2942 PartOfSpeech=NN Lemma=action NamedEntityTag=O] [Text=has CharacterOffsetBegin=2943 CharacterOffsetEnd=2946 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=moved CharacterOffsetBegin=2947 CharacterOffsetEnd=2952 PartOfSpeech=VBN Lemma=move NamedEntityTag=O] [Text=to CharacterOffsetBegin=2953 CharacterOffsetEnd=2955 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2956 CharacterOffsetEnd=2959 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=edge CharacterOffsetBegin=2960 CharacterOffsetEnd=2964 PartOfSpeech=NN Lemma=edge NamedEntityTag=O] [Text=, CharacterOffsetBegin=2964 CharacterOffsetEnd=2965 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2966 CharacterOffsetEnd=2969 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=2970 CharacterOffsetEnd=2973 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=battle CharacterOffsetBegin=2974 CharacterOffsetEnd=2980 PartOfSpeech=NN Lemma=battle NamedEntityTag=O] [Text=is CharacterOffsetBegin=2981 CharacterOffsetEnd=2983 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=over CharacterOffsetBegin=2984 CharacterOffsetEnd=2988 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=whose CharacterOffsetBegin=2989 CharacterOffsetEnd=2994 PartOfSpeech=WP$ Lemma=whose NamedEntityTag=O] [Text=products CharacterOffsetBegin=2995 CharacterOffsetEnd=3003 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=will CharacterOffsetBegin=3004 CharacterOffsetEnd=3008 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=deliver CharacterOffsetBegin=3009 CharacterOffsetEnd=3016 PartOfSpeech=VB Lemma=deliver NamedEntityTag=O] [Text=the CharacterOffsetBegin=3017 CharacterOffsetEnd=3020 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=data CharacterOffsetBegin=3021 CharacterOffsetEnd=3025 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=generated CharacterOffsetBegin=3026 CharacterOffsetEnd=3035 PartOfSpeech=VBN Lemma=generate NamedEntityTag=O] [Text=by CharacterOffsetBegin=3036 CharacterOffsetEnd=3038 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=those CharacterOffsetBegin=3039 CharacterOffsetEnd=3044 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=core CharacterOffsetBegin=3045 CharacterOffsetEnd=3049 PartOfSpeech=NN Lemma=core NamedEntityTag=O] [Text=applications CharacterOffsetBegin=3050 CharacterOffsetEnd=3062 PartOfSpeech=NNS Lemma=application NamedEntityTag=O] [Text=to CharacterOffsetBegin=3063 CharacterOffsetEnd=3065 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=3066 CharacterOffsetEnd=3069 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=employee CharacterOffsetBegin=3070 CharacterOffsetEnd=3078 PartOfSpeech=NN Lemma=employee NamedEntityTag=O] [Text=or CharacterOffsetBegin=3079 CharacterOffsetEnd=3081 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=customer CharacterOffsetBegin=3082 CharacterOffsetEnd=3090 PartOfSpeech=NN Lemma=customer NamedEntityTag=O] [Text=touchscreen CharacterOffsetBegin=3091 CharacterOffsetEnd=3102 PartOfSpeech=NN Lemma=touchscreen NamedEntityTag=O] [Text=, CharacterOffsetBegin=3102 CharacterOffsetEnd=3103 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=3104 CharacterOffsetEnd=3107 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=whose CharacterOffsetBegin=3108 CharacterOffsetEnd=3113 PartOfSpeech=WP$ Lemma=whose NamedEntityTag=O] [Text=products CharacterOffsetBegin=3114 CharacterOffsetEnd=3122 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=will CharacterOffsetBegin=3123 CharacterOffsetEnd=3127 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=analyze CharacterOffsetBegin=3128 CharacterOffsetEnd=3135 PartOfSpeech=VB Lemma=analyze NamedEntityTag=O] [Text=that CharacterOffsetBegin=3136 CharacterOffsetEnd=3140 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=data CharacterOffsetBegin=3141 CharacterOffsetEnd=3145 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=. CharacterOffsetBegin=3145 CharacterOffsetEnd=3146 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (ADVP (RB Now))
+      (NP (DT the) (NN action))
+      (VP (VBZ has)
+        (VP (VBN moved)
+          (PP (TO to)
+            (NP (DT the) (NN edge))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NN battle))
+      (VP (VBZ is)
+        (ADJP (IN over))
+        (SBAR
+          (SBAR
+            (WHNP (WP$ whose) (NNS products))
+            (S
+              (VP (MD will)
+                (VP (VB deliver)
+                  (NP
+                    (NP (DT the) (NNS data))
+                    (VP (VBN generated)
+                      (PP (IN by)
+                        (NP (DT those) (NN core) (NNS applications)))
+                      (PP (TO to)
+                        (NP (DT the) (NN employee)
+                          (CC or)
+                          (NN customer) (NN touchscreen)))))))))
+          (, ,)
+          (CC and)
+          (SBAR
+            (WHNP (WP$ whose) (NNS products))
+            (S
+              (VP (MD will)
+                (VP (VB analyze)
+                  (PP (IN that)
+                    (NP (NNS data))))))))))
+    (. .)))
+
+root(ROOT-0, moved-5)
+advmod(moved-5, Now-1)
+det(action-3, the-2)
+nsubj(moved-5, action-3)
+aux(moved-5, has-4)
+det(edge-8, the-7)
+prep_to(moved-5, edge-8)
+det(battle-12, the-11)
+nsubj(over-14, battle-12)
+cop(over-14, is-13)
+conj_and(moved-5, over-14)
+poss(products-16, whose-15)
+nsubj(deliver-18, products-16)
+aux(deliver-18, will-17)
+dep(over-14, deliver-18)
+det(data-20, the-19)
+dobj(deliver-18, data-20)
+vmod(data-20, generated-21)
+det(applications-25, those-23)
+nn(applications-25, core-24)
+agent(generated-21, applications-25)
+det(touchscreen-31, the-27)
+nn(touchscreen-31, employee-28)
+conj_or(employee-28, customer-30)
+prep_to(generated-21, touchscreen-31)
+poss(products-35, whose-34)
+nsubj(analyze-37, products-35)
+aux(analyze-37, will-36)
+conj_and(deliver-18, analyze-37)
+prep_that(analyze-37, data-39)
+
+Sentence #27 (39 tokens):
+With the Apple deal, IBM gets an impressive new partner to go after that app market, but it still faces the big enterprise software vendors, which want to sell mobile add-ons to their enterprise applications.
+[Text=With CharacterOffsetBegin=3147 CharacterOffsetEnd=3151 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=3152 CharacterOffsetEnd=3155 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=3156 CharacterOffsetEnd=3161 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=deal CharacterOffsetBegin=3162 CharacterOffsetEnd=3166 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=, CharacterOffsetBegin=3166 CharacterOffsetEnd=3167 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=3168 CharacterOffsetEnd=3171 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=gets CharacterOffsetBegin=3172 CharacterOffsetEnd=3176 PartOfSpeech=VBZ Lemma=get NamedEntityTag=O] [Text=an CharacterOffsetBegin=3177 CharacterOffsetEnd=3179 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=impressive CharacterOffsetBegin=3180 CharacterOffsetEnd=3190 PartOfSpeech=JJ Lemma=impressive NamedEntityTag=O] [Text=new CharacterOffsetBegin=3191 CharacterOffsetEnd=3194 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=partner CharacterOffsetBegin=3195 CharacterOffsetEnd=3202 PartOfSpeech=NN Lemma=partner NamedEntityTag=O] [Text=to CharacterOffsetBegin=3203 CharacterOffsetEnd=3205 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=go CharacterOffsetBegin=3206 CharacterOffsetEnd=3208 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=after CharacterOffsetBegin=3209 CharacterOffsetEnd=3214 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=that CharacterOffsetBegin=3215 CharacterOffsetEnd=3219 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=app CharacterOffsetBegin=3220 CharacterOffsetEnd=3223 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=market CharacterOffsetBegin=3224 CharacterOffsetEnd=3230 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=, CharacterOffsetBegin=3230 CharacterOffsetEnd=3231 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=3232 CharacterOffsetEnd=3235 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=it CharacterOffsetBegin=3236 CharacterOffsetEnd=3238 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=still CharacterOffsetBegin=3239 CharacterOffsetEnd=3244 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=faces CharacterOffsetBegin=3245 CharacterOffsetEnd=3250 PartOfSpeech=VBZ Lemma=face NamedEntityTag=O] [Text=the CharacterOffsetBegin=3251 CharacterOffsetEnd=3254 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=big CharacterOffsetBegin=3255 CharacterOffsetEnd=3258 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=3259 CharacterOffsetEnd=3269 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=software CharacterOffsetBegin=3270 CharacterOffsetEnd=3278 PartOfSpeech=NN Lemma=software NamedEntityTag=O] [Text=vendors CharacterOffsetBegin=3279 CharacterOffsetEnd=3286 PartOfSpeech=NNS Lemma=vendor NamedEntityTag=O] [Text=, CharacterOffsetBegin=3286 CharacterOffsetEnd=3287 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=3288 CharacterOffsetEnd=3293 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=want CharacterOffsetBegin=3294 CharacterOffsetEnd=3298 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=to CharacterOffsetBegin=3299 CharacterOffsetEnd=3301 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sell CharacterOffsetBegin=3302 CharacterOffsetEnd=3306 PartOfSpeech=VB Lemma=sell NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=3307 CharacterOffsetEnd=3313 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=add-ons CharacterOffsetBegin=3314 CharacterOffsetEnd=3321 PartOfSpeech=NNS Lemma=add-on NamedEntityTag=O] [Text=to CharacterOffsetBegin=3322 CharacterOffsetEnd=3324 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=their CharacterOffsetBegin=3325 CharacterOffsetEnd=3330 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=3331 CharacterOffsetEnd=3341 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=applications CharacterOffsetBegin=3342 CharacterOffsetEnd=3354 PartOfSpeech=NNS Lemma=application NamedEntityTag=O] [Text=. CharacterOffsetBegin=3354 CharacterOffsetEnd=3355 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (PP (IN With)
+        (NP (DT the) (NNP Apple) (NN deal)))
+      (, ,)
+      (NP (NNP IBM))
+      (VP (VBZ gets)
+        (NP (DT an) (JJ impressive) (JJ new) (NN partner))
+        (S
+          (VP (TO to)
+            (VP (VB go)
+              (PP (IN after)
+                (NP (DT that) (NN app) (NN market))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (ADVP (RB still))
+      (VP (VBZ faces)
+        (NP (DT the) (JJ big) (NN enterprise))
+        (NP
+          (NP (NN software) (NNS vendors))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP want)
+                (S
+                  (VP (TO to)
+                    (VP (VB sell)
+                      (NP (JJ mobile) (NNS add-ons))
+                      (PP (TO to)
+                        (NP (PRP$ their) (NN enterprise) (NNS applications))))))))))))
+    (. .)))
+
+root(ROOT-0, gets-7)
+det(deal-4, the-2)
+nn(deal-4, Apple-3)
+prep_with(gets-7, deal-4)
+nsubj(gets-7, IBM-6)
+det(partner-11, an-8)
+amod(partner-11, impressive-9)
+amod(partner-11, new-10)
+dobj(gets-7, partner-11)
+aux(go-13, to-12)
+vmod(gets-7, go-13)
+det(market-17, that-15)
+nn(market-17, app-16)
+prep_after(go-13, market-17)
+nsubj(faces-22, it-20)
+advmod(faces-22, still-21)
+conj_but(gets-7, faces-22)
+det(enterprise-25, the-23)
+amod(enterprise-25, big-24)
+iobj(faces-22, enterprise-25)
+nn(vendors-27, software-26)
+dobj(faces-22, vendors-27)
+nsubj(want-30, which-29)
+rcmod(vendors-27, want-30)
+aux(sell-32, to-31)
+xcomp(want-30, sell-32)
+amod(add-ons-34, mobile-33)
+dobj(sell-32, add-ons-34)
+poss(applications-38, their-36)
+nn(applications-38, enterprise-37)
+prep_to(sell-32, applications-38)
+
+Sentence #28 (27 tokens):
+For Apple, the IBM deal is a smart move, a clear move by CEO Tim Cook to put Apple in a more business-friendly mode.
+[Text=For CharacterOffsetBegin=3357 CharacterOffsetEnd=3360 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=3361 CharacterOffsetEnd=3366 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=, CharacterOffsetBegin=3366 CharacterOffsetEnd=3367 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=3368 CharacterOffsetEnd=3371 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=3372 CharacterOffsetEnd=3375 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=deal CharacterOffsetBegin=3376 CharacterOffsetEnd=3380 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=is CharacterOffsetBegin=3381 CharacterOffsetEnd=3383 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=3384 CharacterOffsetEnd=3385 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=smart CharacterOffsetBegin=3386 CharacterOffsetEnd=3391 PartOfSpeech=JJ Lemma=smart NamedEntityTag=O] [Text=move CharacterOffsetBegin=3392 CharacterOffsetEnd=3396 PartOfSpeech=NN Lemma=move NamedEntityTag=O] [Text=, CharacterOffsetBegin=3396 CharacterOffsetEnd=3397 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=3398 CharacterOffsetEnd=3399 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=clear CharacterOffsetBegin=3400 CharacterOffsetEnd=3405 PartOfSpeech=JJ Lemma=clear NamedEntityTag=O] [Text=move CharacterOffsetBegin=3406 CharacterOffsetEnd=3410 PartOfSpeech=NN Lemma=move NamedEntityTag=O] [Text=by CharacterOffsetBegin=3411 CharacterOffsetEnd=3413 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=CEO CharacterOffsetBegin=3414 CharacterOffsetEnd=3417 PartOfSpeech=NNP Lemma=CEO NamedEntityTag=O] [Text=Tim CharacterOffsetBegin=3418 CharacterOffsetEnd=3421 PartOfSpeech=NNP Lemma=Tim NamedEntityTag=PERSON] [Text=Cook CharacterOffsetBegin=3422 CharacterOffsetEnd=3426 PartOfSpeech=VB Lemma=cook NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=3427 CharacterOffsetEnd=3429 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=put CharacterOffsetBegin=3430 CharacterOffsetEnd=3433 PartOfSpeech=VB Lemma=put NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=3434 CharacterOffsetEnd=3439 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=3440 CharacterOffsetEnd=3442 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=3443 CharacterOffsetEnd=3444 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=more CharacterOffsetBegin=3445 CharacterOffsetEnd=3449 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=business-friendly CharacterOffsetBegin=3450 CharacterOffsetEnd=3467 PartOfSpeech=JJ Lemma=business-friendly NamedEntityTag=O] [Text=mode CharacterOffsetBegin=3468 CharacterOffsetEnd=3472 PartOfSpeech=NN Lemma=mode NamedEntityTag=O] [Text=. CharacterOffsetBegin=3472 CharacterOffsetEnd=3473 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (PP (IN For)
+        (NP (NNP Apple)))
+      (, ,)
+      (NP (DT the) (NNP IBM) (NN deal))
+      (VP (VBZ is)
+        (NP (DT a) (JJ smart) (NN move))))
+    (, ,)
+    (NP
+      (NP (DT a) (JJ clear) (NN move))
+      (PP (IN by)
+        (NP (NNP CEO) (NNP Tim))))
+    (VP (VB Cook)
+      (S
+        (VP (TO to)
+          (VP (VB put)
+            (NP
+              (NP (NNP Apple))
+              (PP (IN in)
+                (NP (DT a) (RBR more) (JJ business-friendly) (NN mode))))))))
+    (. .)))
+
+root(ROOT-0, Cook-18)
+prep_for(move-10, Apple-2)
+det(deal-6, the-4)
+nn(deal-6, IBM-5)
+nsubj(move-10, deal-6)
+cop(move-10, is-7)
+det(move-10, a-8)
+amod(move-10, smart-9)
+ccomp(Cook-18, move-10)
+det(move-14, a-12)
+amod(move-14, clear-13)
+nsubj(Cook-18, move-14)
+nn(Tim-17, CEO-16)
+prep_by(move-14, Tim-17)
+aux(put-20, to-19)
+xcomp(Cook-18, put-20)
+dobj(put-20, Apple-21)
+det(mode-26, a-23)
+advmod(mode-26, more-24)
+amod(mode-26, business-friendly-25)
+prep_in(Apple-21, mode-26)
+
+Sentence #29 (17 tokens):
+Much of the first-day analysis contrasted the deal with Steve Jobs's disinterest in enterprise IT.
+[Text=Much CharacterOffsetBegin=3474 CharacterOffsetEnd=3478 PartOfSpeech=JJ Lemma=much NamedEntityTag=O] [Text=of CharacterOffsetBegin=3479 CharacterOffsetEnd=3481 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=3482 CharacterOffsetEnd=3485 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first-day CharacterOffsetBegin=3486 CharacterOffsetEnd=3495 PartOfSpeech=JJ Lemma=first-day NamedEntityTag=O] [Text=analysis CharacterOffsetBegin=3496 CharacterOffsetEnd=3504 PartOfSpeech=NN Lemma=analysis NamedEntityTag=O] [Text=contrasted CharacterOffsetBegin=3505 CharacterOffsetEnd=3515 PartOfSpeech=VBD Lemma=contrast NamedEntityTag=O] [Text=the CharacterOffsetBegin=3516 CharacterOffsetEnd=3519 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=deal CharacterOffsetBegin=3520 CharacterOffsetEnd=3524 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=with CharacterOffsetBegin=3525 CharacterOffsetEnd=3529 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Steve CharacterOffsetBegin=3530 CharacterOffsetEnd=3535 PartOfSpeech=NNP Lemma=Steve NamedEntityTag=PERSON] [Text=Jobs CharacterOffsetBegin=3536 CharacterOffsetEnd=3540 PartOfSpeech=NNP Lemma=Jobs NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=3540 CharacterOffsetEnd=3542 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=disinterest CharacterOffsetBegin=3543 CharacterOffsetEnd=3554 PartOfSpeech=NN Lemma=disinterest NamedEntityTag=O] [Text=in CharacterOffsetBegin=3555 CharacterOffsetEnd=3557 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=3558 CharacterOffsetEnd=3568 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=IT CharacterOffsetBegin=3569 CharacterOffsetEnd=3571 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=3571 CharacterOffsetEnd=3572 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (JJ Much))
+      (PP (IN of)
+        (NP (DT the) (JJ first-day) (NN analysis))))
+    (VP (VBD contrasted)
+      (S
+        (NP
+          (NP (DT the) (NN deal))
+          (PP (IN with)
+            (NP
+              (NP
+                (NP (NNP Steve) (NNP Jobs) (POS 's))
+                (NN disinterest))
+              (PP (IN in)
+                (NP (NN enterprise))))))
+        (NP (PRP IT))))
+    (. .)))
+
+root(ROOT-0, contrasted-6)
+nsubj(contrasted-6, Much-1)
+det(analysis-5, the-3)
+amod(analysis-5, first-day-4)
+prep_of(Much-1, analysis-5)
+det(deal-8, the-7)
+nsubj(IT-16, deal-8)
+nn(Jobs-11, Steve-10)
+poss(disinterest-13, Jobs-11)
+prep_with(deal-8, disinterest-13)
+prep_in(disinterest-13, enterprise-15)
+xcomp(contrasted-6, IT-16)
+
+Sentence #30 (8 tokens):
+However, Cook's hardly committing heresy.
+[Text=However CharacterOffsetBegin=3573 CharacterOffsetEnd=3580 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=3580 CharacterOffsetEnd=3581 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Cook CharacterOffsetBegin=3582 CharacterOffsetEnd=3586 PartOfSpeech=NNP Lemma=Cook NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=3586 CharacterOffsetEnd=3588 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=hardly CharacterOffsetBegin=3589 CharacterOffsetEnd=3595 PartOfSpeech=RB Lemma=hardly NamedEntityTag=O] [Text=committing CharacterOffsetBegin=3596 CharacterOffsetEnd=3606 PartOfSpeech=VBG Lemma=commit NamedEntityTag=O] [Text=heresy CharacterOffsetBegin=3607 CharacterOffsetEnd=3613 PartOfSpeech=RB Lemma=heresy NamedEntityTag=O] [Text=. CharacterOffsetBegin=3613 CharacterOffsetEnd=3614 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (S
+      (NP
+        (NP (NNP Cook))
+        (VP
+          (S
+            (NP (POS 's)))
+          (PP (RB hardly))))
+      (VP (VBG committing)
+        (ADVP (RB heresy))))
+    (. .)))
+
+root(ROOT-0, committing-6)
+advmod(committing-6, However-1)
+nsubj(committing-6, Cook-3)
+dep(Cook-3, 's-4)
+prep('s-4, hardly-5)
+advmod(committing-6, heresy-7)
+
+Sentence #31 (26 tokens):
+Jobs's attitude toward the enterprise was something like: "You're welcome to buy our products once you realize they're superior."
+[Text=Jobs CharacterOffsetBegin=3615 CharacterOffsetEnd=3619 PartOfSpeech=NNP Lemma=Jobs NamedEntityTag=O] [Text='s CharacterOffsetBegin=3619 CharacterOffsetEnd=3621 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=attitude CharacterOffsetBegin=3622 CharacterOffsetEnd=3630 PartOfSpeech=NN Lemma=attitude NamedEntityTag=O] [Text=toward CharacterOffsetBegin=3631 CharacterOffsetEnd=3637 PartOfSpeech=IN Lemma=toward NamedEntityTag=O] [Text=the CharacterOffsetBegin=3638 CharacterOffsetEnd=3641 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=3642 CharacterOffsetEnd=3652 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=was CharacterOffsetBegin=3653 CharacterOffsetEnd=3656 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=something CharacterOffsetBegin=3657 CharacterOffsetEnd=3666 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=like CharacterOffsetBegin=3667 CharacterOffsetEnd=3671 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=: CharacterOffsetBegin=3671 CharacterOffsetEnd=3672 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=`` CharacterOffsetBegin=3673 CharacterOffsetEnd=3674 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=You CharacterOffsetBegin=3674 CharacterOffsetEnd=3677 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text='re CharacterOffsetBegin=3677 CharacterOffsetEnd=3680 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=welcome CharacterOffsetBegin=3681 CharacterOffsetEnd=3688 PartOfSpeech=JJ Lemma=welcome NamedEntityTag=O] [Text=to CharacterOffsetBegin=3689 CharacterOffsetEnd=3691 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=buy CharacterOffsetBegin=3692 CharacterOffsetEnd=3695 PartOfSpeech=VB Lemma=buy NamedEntityTag=O] [Text=our CharacterOffsetBegin=3696 CharacterOffsetEnd=3699 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=products CharacterOffsetBegin=3700 CharacterOffsetEnd=3708 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=once CharacterOffsetBegin=3709 CharacterOffsetEnd=3713 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t5" type="DATE" value="PAST_REF">once</TIMEX3>] [Text=you CharacterOffsetBegin=3714 CharacterOffsetEnd=3717 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=realize CharacterOffsetBegin=3718 CharacterOffsetEnd=3725 PartOfSpeech=VBP Lemma=realize NamedEntityTag=O] [Text=they CharacterOffsetBegin=3726 CharacterOffsetEnd=3730 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text='re CharacterOffsetBegin=3730 CharacterOffsetEnd=3733 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=superior CharacterOffsetBegin=3734 CharacterOffsetEnd=3742 PartOfSpeech=JJ Lemma=superior NamedEntityTag=O] [Text=. CharacterOffsetBegin=3742 CharacterOffsetEnd=3743 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=3743 CharacterOffsetEnd=3744 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NNP Jobs) (POS 's))
+          (NN attitude))
+        (PP (IN toward)
+          (NP (DT the) (NN enterprise))))
+      (VP (VBD was)
+        (NP (NN something))
+        (PP (IN like))))
+    (: :) (`` ``)
+    (S
+      (NP (PRP You))
+      (VP (VBP 're)
+        (ADJP (JJ welcome)
+          (S
+            (VP (TO to)
+              (VP (VB buy)
+                (NP (PRP$ our) (NNS products))
+                (SBAR (RB once)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP realize)
+                      (SBAR
+                        (S
+                          (NP (PRP they))
+                          (VP (VBP 're)
+                            (ADJP (JJ superior))))))))))))))
+    (. .) ('' '')))
+
+root(ROOT-0, something-8)
+poss(attitude-3, Jobs-1)
+nsubj(something-8, attitude-3)
+det(enterprise-6, the-5)
+prep_toward(attitude-3, enterprise-6)
+cop(something-8, was-7)
+prep(something-8, like-9)
+nsubj(welcome-14, You-12)
+cop(welcome-14, 're-13)
+parataxis(something-8, welcome-14)
+aux(buy-16, to-15)
+xcomp(welcome-14, buy-16)
+poss(products-18, our-17)
+dobj(buy-16, products-18)
+advmod(realize-21, once-19)
+nsubj(realize-21, you-20)
+dep(buy-16, realize-21)
+nsubj(superior-24, they-22)
+cop(superior-24, 're-23)
+ccomp(realize-21, superior-24)
+
+Sentence #32 (39 tokens):
+What he wasn't going to do was make accommodations to meet the picayune needs of the enterprise IT buyer, whom he once referred to as "confused" about what people really want from their technology.
+[Text=What CharacterOffsetBegin=3745 CharacterOffsetEnd=3749 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=he CharacterOffsetBegin=3750 CharacterOffsetEnd=3752 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=3753 CharacterOffsetEnd=3756 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=3756 CharacterOffsetEnd=3759 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=going CharacterOffsetBegin=3760 CharacterOffsetEnd=3765 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=3766 CharacterOffsetEnd=3768 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=3769 CharacterOffsetEnd=3771 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=was CharacterOffsetBegin=3772 CharacterOffsetEnd=3775 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=make CharacterOffsetBegin=3776 CharacterOffsetEnd=3780 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=accommodations CharacterOffsetBegin=3781 CharacterOffsetEnd=3795 PartOfSpeech=NNS Lemma=accommodation NamedEntityTag=O] [Text=to CharacterOffsetBegin=3796 CharacterOffsetEnd=3798 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=meet CharacterOffsetBegin=3799 CharacterOffsetEnd=3803 PartOfSpeech=VB Lemma=meet NamedEntityTag=O] [Text=the CharacterOffsetBegin=3804 CharacterOffsetEnd=3807 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=picayune CharacterOffsetBegin=3808 CharacterOffsetEnd=3816 PartOfSpeech=NN Lemma=picayune NamedEntityTag=O] [Text=needs CharacterOffsetBegin=3817 CharacterOffsetEnd=3822 PartOfSpeech=NNS Lemma=need NamedEntityTag=O] [Text=of CharacterOffsetBegin=3823 CharacterOffsetEnd=3825 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=3826 CharacterOffsetEnd=3829 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=enterprise CharacterOffsetBegin=3830 CharacterOffsetEnd=3840 PartOfSpeech=NN Lemma=enterprise NamedEntityTag=O] [Text=IT CharacterOffsetBegin=3841 CharacterOffsetEnd=3843 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=buyer CharacterOffsetBegin=3844 CharacterOffsetEnd=3849 PartOfSpeech=NN Lemma=buyer NamedEntityTag=O] [Text=, CharacterOffsetBegin=3849 CharacterOffsetEnd=3850 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=whom CharacterOffsetBegin=3851 CharacterOffsetEnd=3855 PartOfSpeech=WP Lemma=whom NamedEntityTag=O] [Text=he CharacterOffsetBegin=3856 CharacterOffsetEnd=3858 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=once CharacterOffsetBegin=3859 CharacterOffsetEnd=3863 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t6" type="DATE" value="PAST_REF">once</TIMEX3>] [Text=referred CharacterOffsetBegin=3864 CharacterOffsetEnd=3872 PartOfSpeech=VBD Lemma=refer NamedEntityTag=O] [Text=to CharacterOffsetBegin=3873 CharacterOffsetEnd=3875 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=as CharacterOffsetBegin=3876 CharacterOffsetEnd=3878 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=`` CharacterOffsetBegin=3879 CharacterOffsetEnd=3880 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=confused CharacterOffsetBegin=3880 CharacterOffsetEnd=3888 PartOfSpeech=JJ Lemma=confused NamedEntityTag=O] [Text='' CharacterOffsetBegin=3888 CharacterOffsetEnd=3889 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=about CharacterOffsetBegin=3890 CharacterOffsetEnd=3895 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=what CharacterOffsetBegin=3896 CharacterOffsetEnd=3900 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=people CharacterOffsetBegin=3901 CharacterOffsetEnd=3907 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=really CharacterOffsetBegin=3908 CharacterOffsetEnd=3914 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=want CharacterOffsetBegin=3915 CharacterOffsetEnd=3919 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=from CharacterOffsetBegin=3920 CharacterOffsetEnd=3924 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=their CharacterOffsetBegin=3925 CharacterOffsetEnd=3930 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=technology CharacterOffsetBegin=3931 CharacterOffsetEnd=3941 PartOfSpeech=NN Lemma=technology NamedEntityTag=O] [Text=. CharacterOffsetBegin=3941 CharacterOffsetEnd=3942 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP he))
+        (VP (VBD was) (RB n't)
+          (VP (VBG going)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBD was)
+      (S
+        (VP (VB make)
+          (S
+            (NP (NNS accommodations))
+            (VP (TO to)
+              (VP (VB meet)
+                (NP
+                  (NP (DT the) (NN picayune) (NNS needs))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN enterprise))
+                      (NP-TMP
+                        (NP (PRP IT) (NN buyer))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WP whom))
+                          (S
+                            (NP (PRP he))
+                            (ADVP (RB once))
+                            (VP (VBD referred)
+                              (PP (TO to))
+                              (PP (IN as) (`` ``)
+                                (ADJP (JJ confused))
+                                ('' ''))
+                              (PP (IN about)
+                                (SBAR
+                                  (WHNP (WP what))
+                                  (S
+                                    (NP (NNS people))
+                                    (ADVP (RB really))
+                                    (VP (VBP want)
+                                      (PP (IN from)
+                                        (NP (PRP$ their) (NN technology))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, was-8)
+dobj(going-5, What-1)
+nsubj(going-5, he-2)
+aux(going-5, was-3)
+neg(going-5, n't-4)
+csubj(was-8, going-5)
+aux(do-7, to-6)
+xcomp(going-5, do-7)
+ccomp(was-8, make-9)
+nsubj(meet-12, accommodations-10)
+aux(meet-12, to-11)
+xcomp(make-9, meet-12)
+det(needs-15, the-13)
+nn(needs-15, picayune-14)
+dobj(meet-12, needs-15)
+det(enterprise-18, the-17)
+prep_of(needs-15, enterprise-18)
+dep(buyer-20, IT-19)
+tmod(enterprise-18, buyer-20)
+prep_to(referred-25, whom-22)
+nsubj(referred-25, he-23)
+advmod(referred-25, once-24)
+rcmod(buyer-20, referred-25)
+prep_as(referred-25, confused-29)
+dobj(want-35, what-32)
+nsubj(want-35, people-33)
+advmod(want-35, really-34)
+prepc_about(referred-25, want-35)
+poss(technology-38, their-37)
+prep_from(want-35, technology-38)
+
+Sentence #33 (23 tokens):
+The Apple-IBM deal isn't a huge departure from the idea that Apple will build products for people, not for businesses.
+[Text=The CharacterOffsetBegin=3944 CharacterOffsetEnd=3947 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Apple-IBM CharacterOffsetBegin=3948 CharacterOffsetEnd=3957 PartOfSpeech=JJ Lemma=apple-ibm NamedEntityTag=O] [Text=deal CharacterOffsetBegin=3958 CharacterOffsetEnd=3962 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=is CharacterOffsetBegin=3963 CharacterOffsetEnd=3965 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=3965 CharacterOffsetEnd=3968 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=3969 CharacterOffsetEnd=3970 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=huge CharacterOffsetBegin=3971 CharacterOffsetEnd=3975 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O] [Text=departure CharacterOffsetBegin=3976 CharacterOffsetEnd=3985 PartOfSpeech=NN Lemma=departure NamedEntityTag=O] [Text=from CharacterOffsetBegin=3986 CharacterOffsetEnd=3990 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=3991 CharacterOffsetEnd=3994 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=idea CharacterOffsetBegin=3995 CharacterOffsetEnd=3999 PartOfSpeech=NN Lemma=idea NamedEntityTag=O] [Text=that CharacterOffsetBegin=4000 CharacterOffsetEnd=4004 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=4005 CharacterOffsetEnd=4010 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=4011 CharacterOffsetEnd=4015 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=build CharacterOffsetBegin=4016 CharacterOffsetEnd=4021 PartOfSpeech=VB Lemma=build NamedEntityTag=O] [Text=products CharacterOffsetBegin=4022 CharacterOffsetEnd=4030 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=for CharacterOffsetBegin=4031 CharacterOffsetEnd=4034 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=people CharacterOffsetBegin=4035 CharacterOffsetEnd=4041 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=, CharacterOffsetBegin=4041 CharacterOffsetEnd=4042 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=not CharacterOffsetBegin=4043 CharacterOffsetEnd=4046 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=for CharacterOffsetBegin=4047 CharacterOffsetEnd=4050 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=4051 CharacterOffsetEnd=4061 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=. CharacterOffsetBegin=4061 CharacterOffsetEnd=4062 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ Apple-IBM) (NN deal))
+    (VP (VBZ is) (RB n't)
+      (NP
+        (NP (DT a) (JJ huge) (NN departure))
+        (PP (IN from)
+          (NP (DT the) (NN idea))))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Apple))
+          (VP (MD will)
+            (VP (VB build)
+              (NP (NNS products))
+              (PP
+                (PP (IN for)
+                  (NP (NNS people)))
+                (, ,) (RB not)
+                (PP (IN for)
+                  (NP (NNS businesses)))))))))
+    (. .)))
+
+root(ROOT-0, departure-8)
+det(deal-3, The-1)
+amod(deal-3, Apple-IBM-2)
+nsubj(departure-8, deal-3)
+cop(departure-8, is-4)
+neg(departure-8, n't-5)
+det(departure-8, a-6)
+amod(departure-8, huge-7)
+det(idea-11, the-10)
+prep_from(departure-8, idea-11)
+mark(build-15, that-12)
+nsubj(build-15, Apple-13)
+aux(build-15, will-14)
+ccomp(departure-8, build-15)
+dobj(build-15, products-16)
+prep_for(build-15, people-18)
+neg(build-15, not-20)
+prep_for(build-15, businesses-22)
+
+Sentence #34 (16 tokens):
+iOS 8 does include new business-friendly security and management improvements, and those are important.
+[Text=iOS CharacterOffsetBegin=4063 CharacterOffsetEnd=4066 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=8 CharacterOffsetBegin=4067 CharacterOffsetEnd=4068 PartOfSpeech=CD Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=does CharacterOffsetBegin=4069 CharacterOffsetEnd=4073 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=include CharacterOffsetBegin=4074 CharacterOffsetEnd=4081 PartOfSpeech=VB Lemma=include NamedEntityTag=O] [Text=new CharacterOffsetBegin=4082 CharacterOffsetEnd=4085 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=business-friendly CharacterOffsetBegin=4086 CharacterOffsetEnd=4103 PartOfSpeech=JJ Lemma=business-friendly NamedEntityTag=O] [Text=security CharacterOffsetBegin=4104 CharacterOffsetEnd=4112 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=and CharacterOffsetBegin=4113 CharacterOffsetEnd=4116 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=management CharacterOffsetBegin=4117 CharacterOffsetEnd=4127 PartOfSpeech=NN Lemma=management NamedEntityTag=O] [Text=improvements CharacterOffsetBegin=4128 CharacterOffsetEnd=4140 PartOfSpeech=NNS Lemma=improvement NamedEntityTag=O] [Text=, CharacterOffsetBegin=4140 CharacterOffsetEnd=4141 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=4142 CharacterOffsetEnd=4145 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=those CharacterOffsetBegin=4146 CharacterOffsetEnd=4151 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=are CharacterOffsetBegin=4152 CharacterOffsetEnd=4155 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=important CharacterOffsetBegin=4156 CharacterOffsetEnd=4165 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=. CharacterOffsetBegin=4165 CharacterOffsetEnd=4166 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP iOS) (CD 8))
+      (VP (VBZ does)
+        (VP (VB include)
+          (NP (JJ new) (JJ business-friendly) (NN security)
+            (CC and)
+            (NN management) (NNS improvements)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT those))
+      (VP (VBP are)
+        (ADJP (JJ important))))
+    (. .)))
+
+root(ROOT-0, include-4)
+nsubj(include-4, iOS-1)
+num(iOS-1, 8-2)
+aux(include-4, does-3)
+amod(security-7, new-5)
+amod(security-7, business-friendly-6)
+dobj(include-4, security-7)
+nn(improvements-10, management-9)
+conj_and(security-7, improvements-10)
+nsubj(important-15, those-13)
+cop(important-15, are-14)
+conj_and(include-4, important-15)
+
+Sentence #35 (34 tokens):
+Overall, this deal shows Apple acknowledging that CIOs buying iPhones and iPads have some legit, unmet needs, but it's leaving the heaviest lifting to meet those needs to IBM.
+[Text=Overall CharacterOffsetBegin=4167 CharacterOffsetEnd=4174 PartOfSpeech=RB Lemma=overall NamedEntityTag=O] [Text=, CharacterOffsetBegin=4174 CharacterOffsetEnd=4175 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=this CharacterOffsetBegin=4176 CharacterOffsetEnd=4180 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=deal CharacterOffsetBegin=4181 CharacterOffsetEnd=4185 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=shows CharacterOffsetBegin=4186 CharacterOffsetEnd=4191 PartOfSpeech=VBZ Lemma=show NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=4192 CharacterOffsetEnd=4197 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=ORGANIZATION] [Text=acknowledging CharacterOffsetBegin=4198 CharacterOffsetEnd=4211 PartOfSpeech=VBG Lemma=acknowledge NamedEntityTag=O] [Text=that CharacterOffsetBegin=4212 CharacterOffsetEnd=4216 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=CIOs CharacterOffsetBegin=4217 CharacterOffsetEnd=4221 PartOfSpeech=NNS Lemma=cio NamedEntityTag=MISC] [Text=buying CharacterOffsetBegin=4222 CharacterOffsetEnd=4228 PartOfSpeech=VBG Lemma=buy NamedEntityTag=O] [Text=iPhones CharacterOffsetBegin=4229 CharacterOffsetEnd=4236 PartOfSpeech=NNS Lemma=iphone NamedEntityTag=O] [Text=and CharacterOffsetBegin=4237 CharacterOffsetEnd=4240 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=iPads CharacterOffsetBegin=4241 CharacterOffsetEnd=4246 PartOfSpeech=NNS Lemma=ipad NamedEntityTag=O] [Text=have CharacterOffsetBegin=4247 CharacterOffsetEnd=4251 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=some CharacterOffsetBegin=4252 CharacterOffsetEnd=4256 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=legit CharacterOffsetBegin=4257 CharacterOffsetEnd=4262 PartOfSpeech=NN Lemma=legit NamedEntityTag=O] [Text=, CharacterOffsetBegin=4262 CharacterOffsetEnd=4263 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=unmet CharacterOffsetBegin=4264 CharacterOffsetEnd=4269 PartOfSpeech=JJ Lemma=unmet NamedEntityTag=O] [Text=needs CharacterOffsetBegin=4270 CharacterOffsetEnd=4275 PartOfSpeech=NNS Lemma=need NamedEntityTag=O] [Text=, CharacterOffsetBegin=4275 CharacterOffsetEnd=4276 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=4277 CharacterOffsetEnd=4280 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=it CharacterOffsetBegin=4281 CharacterOffsetEnd=4283 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=4283 CharacterOffsetEnd=4285 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=leaving CharacterOffsetBegin=4286 CharacterOffsetEnd=4293 PartOfSpeech=VBG Lemma=leave NamedEntityTag=O] [Text=the CharacterOffsetBegin=4294 CharacterOffsetEnd=4297 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heaviest CharacterOffsetBegin=4298 CharacterOffsetEnd=4306 PartOfSpeech=JJS Lemma=heaviest NamedEntityTag=O] [Text=lifting CharacterOffsetBegin=4307 CharacterOffsetEnd=4314 PartOfSpeech=NN Lemma=lifting NamedEntityTag=O] [Text=to CharacterOffsetBegin=4315 CharacterOffsetEnd=4317 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=meet CharacterOffsetBegin=4318 CharacterOffsetEnd=4322 PartOfSpeech=VB Lemma=meet NamedEntityTag=O] [Text=those CharacterOffsetBegin=4323 CharacterOffsetEnd=4328 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=needs CharacterOffsetBegin=4329 CharacterOffsetEnd=4334 PartOfSpeech=NNS Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=4335 CharacterOffsetEnd=4337 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=4338 CharacterOffsetEnd=4341 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=4341 CharacterOffsetEnd=4342 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (ADVP (RB Overall))
+      (, ,)
+      (NP (DT this) (NN deal))
+      (VP (VBZ shows)
+        (S
+          (NP (NNP Apple))
+          (VP (VBG acknowledging)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (NNS CIOs))
+                  (VP (VBG buying)
+                    (NP (NNS iPhones)
+                      (CC and)
+                      (NNS iPads))))
+                (VP (VBP have)
+                  (NP
+                    (NP (DT some) (NN legit))
+                    (, ,)
+                    (NP (JJ unmet) (NNS needs))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBZ 's)
+        (VP (VBG leaving)
+          (NP (DT the) (JJS heaviest) (NN lifting))
+          (S
+            (VP (TO to)
+              (VP (VB meet)
+                (NP (DT those) (NNS needs))
+                (PP (TO to)
+                  (NP (NNP IBM)))))))))
+    (. .)))
+
+root(ROOT-0, shows-5)
+advmod(shows-5, Overall-1)
+det(deal-4, this-3)
+nsubj(shows-5, deal-4)
+nsubj(acknowledging-7, Apple-6)
+dep(shows-5, acknowledging-7)
+mark(have-14, that-8)
+nsubj(have-14, CIOs-9)
+vmod(CIOs-9, buying-10)
+dobj(buying-10, iPhones-11)
+conj_and(iPhones-11, iPads-13)
+ccomp(acknowledging-7, have-14)
+det(legit-16, some-15)
+dobj(have-14, legit-16)
+amod(needs-19, unmet-18)
+appos(legit-16, needs-19)
+nsubj(leaving-24, it-22)
+aux(leaving-24, 's-23)
+conj_but(shows-5, leaving-24)
+det(lifting-27, the-25)
+amod(lifting-27, heaviest-26)
+dobj(leaving-24, lifting-27)
+aux(meet-29, to-28)
+vmod(leaving-24, meet-29)
+det(needs-31, those-30)
+dobj(meet-29, needs-31)
+prep_to(meet-29, IBM-33)
+
+Sentence #36 (9 tokens):
+That's the right focus for both companies.
+[Text=That CharacterOffsetBegin=4343 CharacterOffsetEnd=4347 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text='s CharacterOffsetBegin=4347 CharacterOffsetEnd=4349 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=4350 CharacterOffsetEnd=4353 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=right CharacterOffsetBegin=4354 CharacterOffsetEnd=4359 PartOfSpeech=JJ Lemma=right NamedEntityTag=O] [Text=focus CharacterOffsetBegin=4360 CharacterOffsetEnd=4365 PartOfSpeech=NN Lemma=focus NamedEntityTag=O] [Text=for CharacterOffsetBegin=4366 CharacterOffsetEnd=4369 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=both CharacterOffsetBegin=4370 CharacterOffsetEnd=4374 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=companies CharacterOffsetBegin=4375 CharacterOffsetEnd=4384 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=. CharacterOffsetBegin=4384 CharacterOffsetEnd=4385 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (JJ right) (NN focus))
+        (PP (IN for)
+          (NP (DT both) (NNS companies)))))
+    (. .)))
+
+root(ROOT-0, focus-5)
+nsubj(focus-5, That-1)
+cop(focus-5, 's-2)
+det(focus-5, the-3)
+amod(focus-5, right-4)
+det(companies-8, both-7)
+prep_for(focus-5, companies-8)
+
+Sentence #37 (19 tokens):
+InformationWeek's new Must Reads is a compendium of our best recent coverage of the Internet of Things.
+[Text=InformationWeek CharacterOffsetBegin=4387 CharacterOffsetEnd=4402 PartOfSpeech=NNP Lemma=InformationWeek NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=4402 CharacterOffsetEnd=4404 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=new CharacterOffsetBegin=4405 CharacterOffsetEnd=4408 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=Must CharacterOffsetBegin=4409 CharacterOffsetEnd=4413 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=Reads CharacterOffsetBegin=4414 CharacterOffsetEnd=4419 PartOfSpeech=NNPS Lemma=Reads NamedEntityTag=O] [Text=is CharacterOffsetBegin=4420 CharacterOffsetEnd=4422 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=4423 CharacterOffsetEnd=4424 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=compendium CharacterOffsetBegin=4425 CharacterOffsetEnd=4435 PartOfSpeech=NN Lemma=compendium NamedEntityTag=O] [Text=of CharacterOffsetBegin=4436 CharacterOffsetEnd=4438 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=4439 CharacterOffsetEnd=4442 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=best CharacterOffsetBegin=4443 CharacterOffsetEnd=4447 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=recent CharacterOffsetBegin=4448 CharacterOffsetEnd=4454 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O] [Text=coverage CharacterOffsetBegin=4455 CharacterOffsetEnd=4463 PartOfSpeech=NN Lemma=coverage NamedEntityTag=O] [Text=of CharacterOffsetBegin=4464 CharacterOffsetEnd=4466 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=4467 CharacterOffsetEnd=4470 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Internet CharacterOffsetBegin=4471 CharacterOffsetEnd=4479 PartOfSpeech=NN Lemma=internet NamedEntityTag=O] [Text=of CharacterOffsetBegin=4480 CharacterOffsetEnd=4482 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Things CharacterOffsetBegin=4483 CharacterOffsetEnd=4489 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O] [Text=. CharacterOffsetBegin=4489 CharacterOffsetEnd=4490 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP InformationWeek) (POS 's))
+        (JJ new))
+      (VP (MD Must)))
+    (NP (NNPS Reads))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN compendium))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ our) (JJS best) (JJ recent) (NN coverage))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN Internet))
+                (PP (IN of)
+                  (NP (NNS Things)))))))))
+    (. .)))
+
+root(ROOT-0, compendium-8)
+nsubj(Must-4, InformationWeek-1)
+possessive(InformationWeek-1, 's-2)
+amod(InformationWeek-1, new-3)
+dep(compendium-8, Must-4)
+nsubj(compendium-8, Reads-5)
+cop(compendium-8, is-6)
+det(compendium-8, a-7)
+poss(coverage-13, our-10)
+amod(coverage-13, best-11)
+amod(coverage-13, recent-12)
+prep_of(compendium-8, coverage-13)
+det(Internet-16, the-15)
+prep_of(coverage-13, Internet-16)
+prep_of(Internet-16, Things-18)
+
+Sentence #38 (44 tokens):
+Find out the way in which an aging workforce will drive progress on the Internet of Things, why the IoT isn't as scary as some folks seem to think, how connected machines will change the supply chain, and more.
+[Text=Find CharacterOffsetBegin=4491 CharacterOffsetEnd=4495 PartOfSpeech=VB Lemma=find NamedEntityTag=O] [Text=out CharacterOffsetBegin=4496 CharacterOffsetEnd=4499 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=the CharacterOffsetBegin=4500 CharacterOffsetEnd=4503 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=way CharacterOffsetBegin=4504 CharacterOffsetEnd=4507 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=in CharacterOffsetBegin=4508 CharacterOffsetEnd=4510 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=which CharacterOffsetBegin=4511 CharacterOffsetEnd=4516 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=an CharacterOffsetBegin=4517 CharacterOffsetEnd=4519 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=aging CharacterOffsetBegin=4520 CharacterOffsetEnd=4525 PartOfSpeech=NN Lemma=aging NamedEntityTag=O] [Text=workforce CharacterOffsetBegin=4526 CharacterOffsetEnd=4535 PartOfSpeech=NN Lemma=workforce NamedEntityTag=O] [Text=will CharacterOffsetBegin=4536 CharacterOffsetEnd=4540 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=drive CharacterOffsetBegin=4541 CharacterOffsetEnd=4546 PartOfSpeech=VB Lemma=drive NamedEntityTag=O] [Text=progress CharacterOffsetBegin=4547 CharacterOffsetEnd=4555 PartOfSpeech=NN Lemma=progress NamedEntityTag=O] [Text=on CharacterOffsetBegin=4556 CharacterOffsetEnd=4558 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=4559 CharacterOffsetEnd=4562 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Internet CharacterOffsetBegin=4563 CharacterOffsetEnd=4571 PartOfSpeech=NN Lemma=internet NamedEntityTag=MISC] [Text=of CharacterOffsetBegin=4572 CharacterOffsetEnd=4574 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC] [Text=Things CharacterOffsetBegin=4575 CharacterOffsetEnd=4581 PartOfSpeech=NNS Lemma=thing NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=4581 CharacterOffsetEnd=4582 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=why CharacterOffsetBegin=4583 CharacterOffsetEnd=4586 PartOfSpeech=WRB Lemma=why NamedEntityTag=O] [Text=the CharacterOffsetBegin=4587 CharacterOffsetEnd=4590 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IoT CharacterOffsetBegin=4591 CharacterOffsetEnd=4594 PartOfSpeech=NN Lemma=iot NamedEntityTag=O] [Text=is CharacterOffsetBegin=4595 CharacterOffsetEnd=4597 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=n't CharacterOffsetBegin=4597 CharacterOffsetEnd=4600 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=as CharacterOffsetBegin=4601 CharacterOffsetEnd=4603 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=scary CharacterOffsetBegin=4604 CharacterOffsetEnd=4609 PartOfSpeech=JJ Lemma=scary NamedEntityTag=O] [Text=as CharacterOffsetBegin=4610 CharacterOffsetEnd=4612 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=some CharacterOffsetBegin=4613 CharacterOffsetEnd=4617 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=folks CharacterOffsetBegin=4618 CharacterOffsetEnd=4623 PartOfSpeech=NNS Lemma=folk NamedEntityTag=O] [Text=seem CharacterOffsetBegin=4624 CharacterOffsetEnd=4628 PartOfSpeech=VBP Lemma=seem NamedEntityTag=O] [Text=to CharacterOffsetBegin=4629 CharacterOffsetEnd=4631 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=think CharacterOffsetBegin=4632 CharacterOffsetEnd=4637 PartOfSpeech=VB Lemma=think NamedEntityTag=O] [Text=, CharacterOffsetBegin=4637 CharacterOffsetEnd=4638 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=how CharacterOffsetBegin=4639 CharacterOffsetEnd=4642 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=connected CharacterOffsetBegin=4643 CharacterOffsetEnd=4652 PartOfSpeech=JJ Lemma=connected NamedEntityTag=O] [Text=machines CharacterOffsetBegin=4653 CharacterOffsetEnd=4661 PartOfSpeech=NNS Lemma=machine NamedEntityTag=O] [Text=will CharacterOffsetBegin=4662 CharacterOffsetEnd=4666 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=change CharacterOffsetBegin=4667 CharacterOffsetEnd=4673 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=the CharacterOffsetBegin=4674 CharacterOffsetEnd=4677 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=supply CharacterOffsetBegin=4678 CharacterOffsetEnd=4684 PartOfSpeech=NN Lemma=supply NamedEntityTag=O] [Text=chain CharacterOffsetBegin=4685 CharacterOffsetEnd=4690 PartOfSpeech=NN Lemma=chain NamedEntityTag=O] [Text=, CharacterOffsetBegin=4690 CharacterOffsetEnd=4691 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=4692 CharacterOffsetEnd=4695 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=more CharacterOffsetBegin=4696 CharacterOffsetEnd=4700 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=. CharacterOffsetBegin=4700 CharacterOffsetEnd=4701 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Find)
+      (PRT (RP out))
+      (NP
+        (NP
+          (NP (DT the) (NN way))
+          (SBAR
+            (WHPP (IN in)
+              (WHNP (WDT which)))
+            (S
+              (NP (DT an) (NN aging) (NN workforce))
+              (VP (MD will)
+                (VP (VB drive)
+                  (NP (NN progress))
+                  (PP (IN on)
+                    (NP
+                      (NP (DT the) (NN Internet))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNS Things))
+                          (, ,)
+                          (SBAR
+                            (WHADVP (WRB why))
+                            (S
+                              (NP (DT the) (NN IoT))
+                              (VP (VBZ is) (RB n't)
+                                (ADJP (IN as) (JJ scary))
+                                (SBAR (IN as)
+                                  (S
+                                    (NP (DT some) (NNS folks))
+                                    (VP (VBP seem)
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB think)))))))
+                                (, ,)
+                                (SBAR
+                                  (WHADVP (WRB how))
+                                  (S
+                                    (NP (JJ connected) (NNS machines))
+                                    (VP (MD will)
+                                      (VP (VB change)
+                                        (NP (DT the) (NN supply) (NN chain))))))))))))))))))
+        (, ,)
+        (CC and)
+        (NP (RBR more))))
+    (. .)))
+
+root(ROOT-0, Find-1)
+prt(Find-1, out-2)
+det(way-4, the-3)
+dobj(Find-1, way-4)
+prep_in(drive-11, which-6)
+det(workforce-9, an-7)
+nn(workforce-9, aging-8)
+nsubj(drive-11, workforce-9)
+aux(drive-11, will-10)
+rcmod(way-4, drive-11)
+dobj(drive-11, progress-12)
+det(Internet-15, the-14)
+prep_on(drive-11, Internet-15)
+prep_of(Internet-15, Things-17)
+advmod(scary-25, why-19)
+det(IoT-21, the-20)
+nsubj(scary-25, IoT-21)
+cop(scary-25, is-22)
+neg(scary-25, n't-23)
+dep(scary-25, as-24)
+rcmod(Things-17, scary-25)
+mark(seem-29, as-26)
+det(folks-28, some-27)
+nsubj(seem-29, folks-28)
+advcl(scary-25, seem-29)
+aux(think-31, to-30)
+xcomp(seem-29, think-31)
+advmod(change-37, how-33)
+amod(machines-35, connected-34)
+nsubj(change-37, machines-35)
+aux(change-37, will-36)
+ccomp(scary-25, change-37)
+det(chain-40, the-38)
+nn(chain-40, supply-39)
+dobj(change-37, chain-40)
+conj_and(way-4, more-43)
+
+Sentence #39 (6 tokens):
+(Free registration required.)
+[Text=-LRB- CharacterOffsetBegin=4702 CharacterOffsetEnd=4703 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Free CharacterOffsetBegin=4703 CharacterOffsetEnd=4707 PartOfSpeech=NNP Lemma=Free NamedEntityTag=O] [Text=registration CharacterOffsetBegin=4708 CharacterOffsetEnd=4720 PartOfSpeech=NN Lemma=registration NamedEntityTag=O] [Text=required CharacterOffsetBegin=4721 CharacterOffsetEnd=4729 PartOfSpeech=VBN Lemma=require NamedEntityTag=O] [Text=. CharacterOffsetBegin=4729 CharacterOffsetEnd=4730 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=4730 CharacterOffsetEnd=4731 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] 
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (S
+      (NP (NNP Free) (NN registration))
+      (VP (VBN required)))
+    (. .) (-RRB- -RRB-)))
+
+root(ROOT-0, required-4)
+nn(registration-3, Free-2)
+nsubj(required-4, registration-3)
+
+Sentence #40 (14 tokens):
+Chris Murphy is editor of InformationWeek and leader of its Strategic CIO community.
+[Text=Chris CharacterOffsetBegin=4733 CharacterOffsetEnd=4738 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Murphy CharacterOffsetBegin=4739 CharacterOffsetEnd=4745 PartOfSpeech=NNP Lemma=Murphy NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=4746 CharacterOffsetEnd=4748 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=editor CharacterOffsetBegin=4749 CharacterOffsetEnd=4755 PartOfSpeech=NN Lemma=editor NamedEntityTag=O] [Text=of CharacterOffsetBegin=4756 CharacterOffsetEnd=4758 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=InformationWeek CharacterOffsetBegin=4759 CharacterOffsetEnd=4774 PartOfSpeech=NNP Lemma=InformationWeek NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=4775 CharacterOffsetEnd=4778 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=leader CharacterOffsetBegin=4779 CharacterOffsetEnd=4785 PartOfSpeech=NN Lemma=leader NamedEntityTag=O] [Text=of CharacterOffsetBegin=4786 CharacterOffsetEnd=4788 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=4789 CharacterOffsetEnd=4792 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Strategic CharacterOffsetBegin=4793 CharacterOffsetEnd=4802 PartOfSpeech=NNP Lemma=Strategic NamedEntityTag=O] [Text=CIO CharacterOffsetBegin=4803 CharacterOffsetEnd=4806 PartOfSpeech=NNP Lemma=CIO NamedEntityTag=O] [Text=community CharacterOffsetBegin=4807 CharacterOffsetEnd=4816 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=. CharacterOffsetBegin=4816 CharacterOffsetEnd=4817 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Chris) (NNP Murphy))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (NN editor))
+          (PP (IN of)
+            (NP (NNP InformationWeek))))
+        (CC and)
+        (NP
+          (NP (NN leader))
+          (PP (IN of)
+            (NP (PRP$ its) (NNP Strategic) (NNP CIO) (NN community))))))
+    (. .)))
+
+root(ROOT-0, editor-4)
+nn(Murphy-2, Chris-1)
+nsubj(editor-4, Murphy-2)
+cop(editor-4, is-3)
+prep_of(editor-4, InformationWeek-6)
+conj_and(editor-4, leader-8)
+poss(community-13, its-10)
+nn(community-13, Strategic-11)
+nn(community-13, CIO-12)
+prep_of(leader-8, community-13)
+
+Sentence #41 (14 tokens):
+He has been covering technology leadership and strategy issues for InformationWeek since 1999.
+[Text=He CharacterOffsetBegin=4818 CharacterOffsetEnd=4820 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=has CharacterOffsetBegin=4821 CharacterOffsetEnd=4824 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=4825 CharacterOffsetEnd=4829 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=covering CharacterOffsetBegin=4830 CharacterOffsetEnd=4838 PartOfSpeech=VBG Lemma=cover NamedEntityTag=O] [Text=technology CharacterOffsetBegin=4839 CharacterOffsetEnd=4849 PartOfSpeech=NN Lemma=technology NamedEntityTag=O] [Text=leadership CharacterOffsetBegin=4850 CharacterOffsetEnd=4860 PartOfSpeech=NN Lemma=leadership NamedEntityTag=O] [Text=and CharacterOffsetBegin=4861 CharacterOffsetEnd=4864 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=4865 CharacterOffsetEnd=4873 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=issues CharacterOffsetBegin=4874 CharacterOffsetEnd=4880 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O] [Text=for CharacterOffsetBegin=4881 CharacterOffsetEnd=4884 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=InformationWeek CharacterOffsetBegin=4885 CharacterOffsetEnd=4900 PartOfSpeech=NNP Lemma=InformationWeek NamedEntityTag=ORGANIZATION] [Text=since CharacterOffsetBegin=4901 CharacterOffsetEnd=4906 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=1999 CharacterOffsetBegin=4907 CharacterOffsetEnd=4911 PartOfSpeech=CD Lemma=1999 NamedEntityTag=DATE NormalizedNamedEntityTag=1999 Timex=<TIMEX3 tid="t7" type="DATE" value="1999">1999</TIMEX3>] [Text=. CharacterOffsetBegin=4911 CharacterOffsetEnd=4912 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG covering)
+          (NP (NN technology) (NN leadership)
+            (CC and)
+            (NN strategy) (NNS issues))
+          (PP (IN for)
+            (NP
+              (NP (NNP InformationWeek))
+              (PP (IN since)
+                (NP (CD 1999))))))))
+    (. .)))
+
+root(ROOT-0, covering-4)
+nsubj(covering-4, He-1)
+aux(covering-4, has-2)
+aux(covering-4, been-3)
+nn(leadership-6, technology-5)
+dobj(covering-4, leadership-6)
+nn(issues-9, strategy-8)
+conj_and(leadership-6, issues-9)
+prep_for(covering-4, InformationWeek-11)
+prep_since(InformationWeek-11, 1999-13)
+
+Sentence #42 (24 tokens):
+Before that, he was editor of the Budapest Business Journal, a business newspaper in Hungary; ... View Full Bio
+More Insights
+[Text=Before CharacterOffsetBegin=4913 CharacterOffsetEnd=4919 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=that CharacterOffsetBegin=4920 CharacterOffsetEnd=4924 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=, CharacterOffsetBegin=4924 CharacterOffsetEnd=4925 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=4926 CharacterOffsetEnd=4928 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=4929 CharacterOffsetEnd=4932 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=editor CharacterOffsetBegin=4933 CharacterOffsetEnd=4939 PartOfSpeech=NN Lemma=editor NamedEntityTag=O] [Text=of CharacterOffsetBegin=4940 CharacterOffsetEnd=4942 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=4943 CharacterOffsetEnd=4946 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Budapest CharacterOffsetBegin=4947 CharacterOffsetEnd=4955 PartOfSpeech=NNP Lemma=Budapest NamedEntityTag=ORGANIZATION] [Text=Business CharacterOffsetBegin=4956 CharacterOffsetEnd=4964 PartOfSpeech=NNP Lemma=Business NamedEntityTag=ORGANIZATION] [Text=Journal CharacterOffsetBegin=4965 CharacterOffsetEnd=4972 PartOfSpeech=NNP Lemma=Journal NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=4972 CharacterOffsetEnd=4973 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=4974 CharacterOffsetEnd=4975 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=business CharacterOffsetBegin=4976 CharacterOffsetEnd=4984 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=newspaper CharacterOffsetBegin=4985 CharacterOffsetEnd=4994 PartOfSpeech=NN Lemma=newspaper NamedEntityTag=O] [Text=in CharacterOffsetBegin=4995 CharacterOffsetEnd=4997 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Hungary CharacterOffsetBegin=4998 CharacterOffsetEnd=5005 PartOfSpeech=NNP Lemma=Hungary NamedEntityTag=LOCATION] [Text=; CharacterOffsetBegin=5005 CharacterOffsetEnd=5006 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=... CharacterOffsetBegin=5007 CharacterOffsetEnd=5010 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=View CharacterOffsetBegin=5011 CharacterOffsetEnd=5015 PartOfSpeech=NNP Lemma=View NamedEntityTag=O] [Text=Full CharacterOffsetBegin=5016 CharacterOffsetEnd=5020 PartOfSpeech=JJ Lemma=full NamedEntityTag=O] [Text=Bio CharacterOffsetBegin=5021 CharacterOffsetEnd=5024 PartOfSpeech=NNP Lemma=Bio NamedEntityTag=O] [Text=More CharacterOffsetBegin=5026 CharacterOffsetEnd=5030 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=Insights CharacterOffsetBegin=5031 CharacterOffsetEnd=5039 PartOfSpeech=NNPS Lemma=Insights NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Before)
+      (NP (DT that)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD was)
+      (ADVP
+        (NP
+          (NP (NN editor))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNP Budapest) (NNP Business) (NNP Journal))
+              (, ,)
+              (NP
+                (NP
+                  (NP (DT a) (NN business) (NN newspaper))
+                  (PP (IN in)
+                    (NP (NNP Hungary))
+                    (: ;)))
+                (: ...)
+                (NP
+                  (NP (NNP View))
+                  (NP (JJ Full) (NNP Bio)))))))
+        (RBR More))
+      (NP (NNPS Insights)))))
+
+root(ROOT-0, Insights-24)
+prep_before(Insights-24, that-2)
+nsubj(Insights-24, he-4)
+cop(Insights-24, was-5)
+npadvmod(More-23, editor-6)
+det(Journal-11, the-8)
+nn(Journal-11, Budapest-9)
+nn(Journal-11, Business-10)
+prep_of(editor-6, Journal-11)
+det(newspaper-15, a-13)
+nn(newspaper-15, business-14)
+appos(Journal-11, newspaper-15)
+prep_in(newspaper-15, Hungary-17)
+dep(newspaper-15, View-20)
+amod(Bio-22, Full-21)
+dep(View-20, Bio-22)
+advmod(Insights-24, More-23)
+
+Coreference set:
+	(3,1,[1,2]) -> (7,20,[20,21]), that is: "CIOs" -> "CIOs"
+	(3,6,[6,8]) -> (7,20,[20,21]), that is: "IT 's" -> "CIOs"
+	(8,4,[4,5]) -> (7,20,[20,21]), that is: "CIOs" -> "CIOs"
+	(14,3,[3,4]) -> (7,20,[20,21]), that is: "CIOs" -> "CIOs"
+	(16,1,[1,2]) -> (7,20,[20,21]), that is: "CIOs" -> "CIOs"
+	(20,16,[16,17]) -> (7,20,[20,21]), that is: "CIOs" -> "CIOs"
+Coreference set:
+	(15,26,[24,27]) -> (4,4,[1,10]), that is: "the IBM-Apple deal" -> "The new IBM-Apple deal , announced on July 15"
+	(17,6,[5,7]) -> (4,4,[1,10]), that is: "this deal" -> "The new IBM-Apple deal , announced on July 15"
+	(35,4,[3,5]) -> (4,4,[1,10]), that is: "this deal" -> "The new IBM-Apple deal , announced on July 15"
+	(35,22,[22,23]) -> (4,4,[1,10]), that is: "it" -> "The new IBM-Apple deal , announced on July 15"
+	(36,1,[1,2]) -> (4,4,[1,10]), that is: "That" -> "The new IBM-Apple deal , announced on July 15"
+	(36,5,[3,9]) -> (4,4,[1,10]), that is: "the right focus for both companies" -> "The new IBM-Apple deal , announced on July 15"
+Coreference set:
+	(4,14,[14,15]) -> (4,4,[1,5]), that is: "IT" -> "The new IBM-Apple deal"
+	(5,2,[1,3]) -> (4,4,[1,5]), that is: "The deal" -> "The new IBM-Apple deal"
+	(6,1,[1,2]) -> (4,4,[1,5]), that is: "It" -> "The new IBM-Apple deal"
+	(7,4,[4,5]) -> (4,4,[1,5]), that is: "it" -> "The new IBM-Apple deal"
+	(13,4,[3,5]) -> (4,4,[1,5]), that is: "the deal" -> "The new IBM-Apple deal"
+Coreference set:
+	(19,6,[6,7]) -> (5,6,[6,7]), that is: "100" -> "100"
+Coreference set:
+	(35,11,[11,14]) -> (5,21,[21,24]), that is: "iPhones and iPads" -> "iPhones and iPads"
+Coreference set:
+	(12,13,[13,14]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(15,1,[1,2]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(19,1,[1,3]) -> (6,3,[3,5]), that is: "IBM 's" -> "IBM 's"
+	(21,1,[1,2]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(21,15,[15,16]) -> (6,3,[3,5]), that is: "its" -> "IBM 's"
+	(22,11,[11,12]) -> (6,3,[3,5]), that is: "IT" -> "IBM 's"
+	(24,1,[1,2]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(25,31,[31,32]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(27,6,[6,7]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(28,5,[5,6]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+	(35,33,[33,34]) -> (6,3,[3,5]), that is: "IBM" -> "IBM 's"
+Coreference set:
+	(15,9,[8,10]) -> (7,3,[2,6]), that is: "those areas" -> "those areas it touches"
+Coreference set:
+	(7,29,[29,30]) -> (7,23,[22,25]), that is: "their" -> "certain employees '"
+Coreference set:
+	(31,18,[17,19]) -> (8,12,[11,13]), that is: "our products" -> "Apple products"
+	(33,16,[16,17]) -> (8,12,[11,13]), that is: "products" -> "Apple products"
+Coreference set:
+	(10,10,[10,11]) -> (9,9,[9,11]), that is: "Apple" -> "Apple 's"
+	(11,1,[1,2]) -> (9,9,[9,11]), that is: "Apple" -> "Apple 's"
+	(12,2,[2,3]) -> (9,9,[9,11]), that is: "it" -> "Apple 's"
+	(28,2,[2,3]) -> (9,9,[9,11]), that is: "Apple" -> "Apple 's"
+	(33,13,[13,14]) -> (9,9,[9,11]), that is: "Apple" -> "Apple 's"
+	(35,6,[6,7]) -> (9,9,[9,11]), that is: "Apple" -> "Apple 's"
+Coreference set:
+	(20,9,[9,10]) -> (9,1,[1,2]), that is: "I" -> "I"
+	(31,12,[12,13]) -> (9,1,[1,2]), that is: "You" -> "I"
+	(31,20,[20,21]) -> (9,1,[1,2]), that is: "you" -> "I"
+Coreference set:
+	(10,2,[2,3]) -> (9,12,[9,13]), that is: "it" -> "Apple 's limited support"
+	(10,14,[14,15]) -> (9,12,[9,13]), that is: "its" -> "Apple 's limited support"
+	(10,20,[20,21]) -> (9,12,[9,13]), that is: "IT" -> "Apple 's limited support"
+Coreference set:
+	(11,5,[5,6]) -> (14,18,[18,22]), that is: "IT" -> "Internet of Things data"
+Coreference set:
+	(14,1,[1,4]) -> (14,7,[5,25]), that is: "Mobility for CIOs" -> "a whole lot more complicated , including Android devices , BYOD policies , Internet of Things data , and more"
+Coreference set:
+	(32,38,[37,39]) -> (16,11,[8,13]), that is: "their technology" -> "their complex mobile technology environments"
+Coreference set:
+	(33,3,[1,4]) -> (18,3,[2,10]), that is: "The Apple-IBM deal" -> "Apple-IBM Deal : Trouble For Google , Microsoft"
+Coreference set:
+	(19,26,[26,27]) -> (19,3,[1,13]), that is: "IT" -> "IBM 's plan to deliver 100 iOS apps this year and next"
+	(20,2,[2,3]) -> (19,3,[1,13]), that is: "it" -> "IBM 's plan to deliver 100 iOS apps this year and next"
+Coreference set:
+	(20,29,[29,30]) -> (19,17,[17,27]), that is: "they" -> "CIOs looking to deliver on this fast-and-efficient vision for IT"
+Coreference set:
+	(21,6,[5,7]) -> (20,25,[21,26]), that is: "these apps" -> "such ready-made , single-platform apps"
+Coreference set:
+	(25,36,[36,37]) -> (23,10,[10,14]), that is: "them" -> "what the business needs"
+	(27,36,[36,37]) -> (23,10,[10,14]), that is: "their" -> "what the business needs"
+Coreference set:
+	(33,22,[22,23]) -> (23,30,[29,31]), that is: "businesses" -> "large businesses"
+Coreference set:
+	(27,17,[15,18]) -> (24,10,[7,11]), that is: "that app market" -> "this purpose-built app market"
+Coreference set:
+	(26,39,[39,40]) -> (26,20,[19,32]), that is: "data" -> "the data generated by those core applications to the employee or customer touchscreen"
+Coreference set:
+	(27,20,[20,21]) -> (27,4,[2,5]), that is: "it" -> "the Apple deal"
+Coreference set:
+	(31,6,[5,7]) -> (27,25,[23,26]), that is: "the enterprise" -> "the big enterprise"
+Coreference set:
+	(30,3,[3,6]) -> (28,18,[17,19]), that is: "Cook 's hardly" -> "Tim Cook"
+Coreference set:
+	(28,10,[8,11]) -> (28,6,[4,7]), that is: "a smart move" -> "the IBM deal"
+Coreference set:
+	(31,1,[1,3]) -> (29,11,[10,13]), that is: "Jobs 's" -> "Steve Jobs 's"
+	(32,2,[2,3]) -> (29,11,[10,13]), that is: "he" -> "Steve Jobs 's"
+Coreference set:
+	(29,16,[16,17]) -> (29,8,[7,16]), that is: "IT" -> "the deal with Steve Jobs 's disinterest in enterprise"
+Coreference set:
+	(32,23,[23,24]) -> (32,20,[19,21]), that is: "he" -> "IT buyer"
+Coreference set:
+	(32,19,[19,20]) -> (38,15,[14,41]), that is: "IT" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+	(37,8,[7,19]) -> (38,15,[14,41]), that is: "a compendium of our best recent coverage of the Internet of Things" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+	(37,13,[10,19]) -> (38,15,[14,41]), that is: "our best recent coverage of the Internet of Things" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+	(37,16,[15,19]) -> (38,15,[14,41]), that is: "the Internet of Things" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+	(38,15,[15,18]) -> (38,15,[14,41]), that is: "Internet of Things" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+	(38,21,[20,22]) -> (38,15,[14,41]), that is: "the IoT" -> "the Internet of Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+Coreference set:
+	(32,37,[37,38]) -> (32,33,[33,34]), that is: "their" -> "people"
+	(33,18,[18,19]) -> (32,33,[33,34]), that is: "people" -> "people"
+Coreference set:
+	(35,31,[30,32]) -> (35,19,[18,20]), that is: "those needs" -> "unmet needs"
+Coreference set:
+	(40,6,[6,7]) -> (37,1,[1,4]), that is: "InformationWeek" -> "InformationWeek 's new"
+	(40,10,[10,11]) -> (37,1,[1,4]), that is: "its" -> "InformationWeek 's new"
+Coreference set:
+	(37,18,[18,19]) -> (38,17,[17,41]), that is: "Things" -> "Things , why the IoT is n't as scary as some folks seem to think , how connected machines will change the supply chain"
+Coreference set:
+	(40,4,[4,7]) -> (40,2,[1,3]), that is: "editor of InformationWeek" -> "Chris Murphy"
+	(41,1,[1,2]) -> (40,2,[1,3]), that is: "He" -> "Chris Murphy"
+	(42,4,[4,5]) -> (40,2,[1,3]), that is: "he" -> "Chris Murphy"
+Coreference set:
+	(42,2,[2,3]) -> (41,9,[5,10]), that is: "that" -> "technology leadership and strategy issues"
+Coreference set:
+	(42,15,[13,23]) -> (42,11,[9,12]), that is: "a business newspaper in Hungary ; ... View Full Bio" -> "Budapest Business Journal"

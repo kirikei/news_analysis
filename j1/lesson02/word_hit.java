@@ -215,11 +215,16 @@ public class word_hit {
 				String str1;
 				String[] strs1;
 				int sent_num = 0;
+				boolean frag = false; //sentenceを拾ったらtrueになる
 
 				while((str1 = br.readLine()) != null){
+					
+					
 					Map<String,String> POSs = new HashMap<String,String>();//品詞とその品詞の種類を格納
 					Map<String,Double> wordscores = new HashMap<String,Double>();	//品詞とそのスコアを格納
-
+//					if(str1.matches("Sentence" + " #.*")){
+//						
+//					}
 					if (str1.matches(".*" + "Text=" + ".*")){
 						strs1 = str1.split("] ");
 						int i=0;	
@@ -256,7 +261,7 @@ public class word_hit {
 
 
 					}
-					if(POSs.size() > 0){
+					if(POSs.size() > 0){//一つでも感情語があれば
 
 						for(String key : POSs.keySet()){
 							String data = POSs.get(key);

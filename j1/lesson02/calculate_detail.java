@@ -158,7 +158,10 @@ public class calculate_detail {
 						at_s.put(ss, new_at);
 					}
 
+				}else{//重み以下の場合
+					at_s.put(ss, 0.0);//トピックssは0
 				}
+				
 				ss++;
 
 			}			
@@ -270,7 +273,7 @@ public class calculate_detail {
 
 
 
-	public static Map<String, Double> dif_detailedness(String[] args, Map<String, ArrayList<String>> all_entities, ArrayList<String> cores) throws Exception{
+	public static Map<String, Double> dif_detailedness(String[] args, Map<String, ArrayList<String>> all_entities, ArrayList<String> cores, ArrayList<String> history) throws Exception{
 		
 		String origin = args[0]; //元記事
 		//綺麗に出力するためのマップ
@@ -346,9 +349,14 @@ public class calculate_detail {
 
 					String topic_file_name = named_entity + ".csv";
 					//System.out.println("name:"+topic_file_name);
-					//Map<Integer,String[]> topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
-					Map<Integer,String[]> topic_words = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/"+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
-					Map<Integer,String[]> topic_scores = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/topic_"+named_entity+".csv"); //各行のトピック確率
+					Map<Integer,String[]> topic_words = new HashMap<Integer, String[]>();
+					//一回目はLDAを掛ける（２回目以降ならSecondはtrue）
+					if(connecter_stan.Second){
+						topic_words = get_csv1(connecter_stan.TopicCsvFolder+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
+					}else{
+						topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
+					}
+					Map<Integer,String[]> topic_scores = get_csv1(connecter_stan.TopicCsvFolder+"topic_"+named_entity+".csv"); //各行のトピック確率
 					//print_map(topic_words);
 					//print_map(topic_scores);
 					Set<String> file_names2 = file_topics.keySet();//ファイル毎のサブツリー
@@ -388,16 +396,40 @@ public class calculate_detail {
 
 					Set<String> file_keys = at_scores.keySet();
 					Iterator<String> it_file_at = file_keys.iterator();
-					Map<Integer, Double> ori_score_each = at_scores.get(origin);//元記事のat_score
+					
+					//元記事のat_score
+					Map<Integer, Double> ori_score_each = at_scores.get(origin);
+					//System.out.println("entity : " + named_entity + " ori_score_each : "+ ori_score_each);
+					//historyのスコアと合成
+					for (String hist_file : history) {
+						//元記事を除く
+						if(hist_file.equals(origin) == false){
+						Map<Integer, Double> hist_score_each = at_scores.get(hist_file);
+						//System.out.println("hist_score_each : "+ hist_score_each);
+						for (Map.Entry<Integer, Double> e : hist_score_each.entrySet()) {
+							Integer key_hist = e.getKey();
+							//元記事がkey_hisを含む時は
+							if(ori_score_each.containsKey(key_hist)){
+								ori_score_each.put(key_hist, ori_score_each.get(key_hist) + e.getValue());
+							}else{
+								//含まない時(ori_scoreが空のとき)は
+								ori_score_each.put(key_hist, e.getValue());
+							}
+							
+						}
+						
+						}
+					}
+					System.out.println("ori_re_rank : "+ ori_score_each);
 
-					//file毎に詳細の差を出す
+					//-------------------file毎に詳細の差を出す------------------------
 					while(it_file_at.hasNext()){
 
 						String file_S = it_file_at.next();
-						if(file_S.equals(origin) == false){//元記事でなければ
-							//System.out.print(file_S);
+						if(history.contains(file_S) == false){//元記事でなければ
+							
 							Map<Integer, Double> at_score_each = at_scores.get(file_S);
-							//System.out.println(" +++ "+at_score_each);
+							
 							double detail_each = cal_det(at_score_each, ori_score_each);//file_Sの詳細の差を計算
 							//entityで場合分け
 							if(cores.contains(named_entity)){

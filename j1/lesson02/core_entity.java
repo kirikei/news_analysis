@@ -57,7 +57,7 @@ public class core_entity {
 			ent0.addAll(ent0_dash);//ent_0には各記事のentityが入る
 			i++;
 		}
-		System.out.println("tf score all::"+ent_tf_score);
+		//System.out.println("tf score all::"+ent_tf_score);
 
 
 		//------文書頻度の計算--------
@@ -117,7 +117,7 @@ public class core_entity {
 				br.close();
 				String[] words = str1.split(" ");
 				count_file = words.length;
-				System.out.println(file1 + ":" +count_file);
+				//System.out.println(file1 + ":" +count_file);
 				return count_file;
 
 			}else{
@@ -150,7 +150,7 @@ public class core_entity {
 		
 		//a_fileのoverlap_remove処理をしていないentity
 		ArrayList<String> overlap_ents = word_hit.entity_get("re_"+a_file);
-		System.out.println("over:" + overlap_ents);
+		//System.out.println("over:" + overlap_ents);
 		
 		//entsが存在すれば加算
 		while(i < overlap_ents.size()){
@@ -171,7 +171,7 @@ public class core_entity {
 			}
 			i++;
 		}
-		System.out.println("tf_ent1:"+tf_ent);
+		//System.out.println("tf_ent1:"+tf_ent);
 		Set<String> key = tf_ent.keySet();
 		Iterator<String> it = key.iterator();
 
@@ -179,7 +179,7 @@ public class core_entity {
 			String S = it.next();
 			tf_ent.put(S, tf_ent.get(S)/file_size);
 		}
-		System.out.println("tf_ent2:"+tf_ent);
+		//System.out.println("tf_ent2:"+tf_ent);
 		return tf_ent;
 
 	}

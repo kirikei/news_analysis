@@ -79,6 +79,7 @@ public class cut_file {
 					str = str.replace("$-", "dol-");
 					str = str.replace("/", "-");
 					str = str.replace("'", "-");//SQLに対応するため
+					str = str.replace("\t", " ");
 					rows.add(str);
 				}
 				br.close();

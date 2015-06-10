@@ -1,0 +1,519 @@
+Sentence #1 (27 tokens):
+BET Awards misspell Lionel Richie-s name
+exhoopsprguy via Twitter
+NOT QUITE: Lionel Richie on stage at the BET Awards, featuring his misspelled name.
+[Text=BET CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=BET NamedEntityTag=O] [Text=Awards CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNS Lemma=award NamedEntityTag=O] [Text=misspell CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=VBP Lemma=misspell NamedEntityTag=O] [Text=Lionel CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Lionel NamedEntityTag=PERSON] [Text=Richie CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=name CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NN Lemma=name NamedEntityTag=O] [Text=exhoopsprguy CharacterOffsetBegin=42 CharacterOffsetEnd=54 PartOfSpeech=NN Lemma=exhoopsprguy NamedEntityTag=O] [Text=via CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=IN Lemma=via NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=NOT CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=NOT NamedEntityTag=O] [Text=QUITE CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=QUITE NamedEntityTag=O] [Text=: CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Lionel CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NNP Lemma=Lionel NamedEntityTag=PERSON] [Text=Richie CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=stage CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=stage NamedEntityTag=O] [Text=at CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=BET CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=NNP Lemma=BET NamedEntityTag=MISC] [Text=Awards CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=NNS Lemma=award NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=featuring CharacterOffsetBegin=121 CharacterOffsetEnd=130 PartOfSpeech=VBG Lemma=feature NamedEntityTag=O] [Text=his CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=misspelled CharacterOffsetBegin=135 CharacterOffsetEnd=145 PartOfSpeech=VBN Lemma=misspell NamedEntityTag=O] [Text=name CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=name NamedEntityTag=O] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP BET) (NNS Awards))
+    (VP (VBP misspell)
+      (NP
+        (NP
+          (NP (NNP Lionel) (NNP Richie) (POS -s))
+          (NN name) (NN exhoopsprguy))
+        (PP (IN via)
+          (NP
+            (NP (NNP Twitter) (NNP NOT) (NNP QUITE))
+            (: :)
+            (NP
+              (NP (NNP Lionel) (NNP Richie))
+              (PP (IN on)
+                (NP (NN stage)))))))
+      (PP (IN at)
+        (NP (DT the) (NNP BET) (NNS Awards)))
+      (, ,)
+      (S
+        (VP (VBG featuring)
+          (S
+            (NP (PRP$ his))
+            (VP (VBN misspelled)
+              (NP (NN name)))))))
+    (. .)))
+
+root(ROOT-0, misspell-3)
+nn(Awards-2, BET-1)
+nsubj(misspell-3, Awards-2)
+nn(Richie-5, Lionel-4)
+poss(exhoopsprguy-8, Richie-5)
+nn(exhoopsprguy-8, name-7)
+dobj(misspell-3, exhoopsprguy-8)
+nn(QUITE-12, Twitter-10)
+nn(QUITE-12, NOT-11)
+prep_via(exhoopsprguy-8, QUITE-12)
+nn(Richie-15, Lionel-14)
+dep(QUITE-12, Richie-15)
+prep_on(Richie-15, stage-17)
+det(Awards-21, the-19)
+nn(Awards-21, BET-20)
+prep_at(misspell-3, Awards-21)
+vmod(misspell-3, featuring-23)
+nsubj(misspelled-25, his-24)
+dep(featuring-23, misspelled-25)
+dobj(misspelled-25, name-26)
+
+Sentence #2 (26 tokens):
+You-d have thought someone would-ve checked, before airing to almost eight million viewers, the spelling of BET Award winners- names.
+[Text=You CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=-d CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=have CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=thought CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=VBN Lemma=think NamedEntityTag=O] [Text=someone CharacterOffsetBegin=172 CharacterOffsetEnd=179 PartOfSpeech=NN Lemma=someone NamedEntityTag=O] [Text=would CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=-ve CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=checked CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=VBN Lemma=check NamedEntityTag=O] [Text=, CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=before CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=airing CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=VBG Lemma=air NamedEntityTag=O] [Text=to CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=almost CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=RB Lemma=almost NamedEntityTag=O] [Text=eight CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=~8000000.0] [Text=million CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=~8000000.0] [Text=viewers CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=NNS Lemma=viewer NamedEntityTag=O] [Text=, CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=spelling CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=NN Lemma=spelling NamedEntityTag=O] [Text=of CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=BET CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=NNP Lemma=BET NamedEntityTag=ORGANIZATION] [Text=Award CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=NN Lemma=award NamedEntityTag=O] [Text=winners CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=NNS Lemma=winner NamedEntityTag=O] [Text=- CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=POS Lemma=- NamedEntityTag=O] [Text=names CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NNS Lemma=name NamedEntityTag=O] [Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP (PRP You))
+      (VP (MD -d)
+        (VP (VB have)
+          (VP (VBN thought)
+            (NP (NN someone))))))
+    (VP (MD would)
+      (VP (VB -ve)
+        (VP (VBN checked) (, ,)
+          (PP (IN before)
+            (S
+              (VP (VBG airing)
+                (PP (TO to)
+                  (NP
+                    (QP (RB almost) (CD eight) (CD million))))))))))
+    (NP
+      (NP (NNS viewers))
+      (, ,)
+      (NP
+        (NP (DT the) (NN spelling))
+        (PP (IN of)
+          (NP
+            (NP (NNP BET) (NN Award) (NNS winners) (POS -))
+            (NNS names)))))
+    (. .)))
+
+root(ROOT-0, checked-8)
+nsubj(thought-4, You-1)
+aux(thought-4, -d-2)
+aux(thought-4, have-3)
+dep(checked-8, thought-4)
+dobj(thought-4, someone-5)
+aux(checked-8, would-6)
+aux(checked-8, -ve-7)
+prepc_before(checked-8, airing-11)
+quantmod(million-15, almost-13)
+number(million-15, eight-14)
+prep_to(airing-11, million-15)
+nsubj(checked-8, viewers-16)
+det(spelling-19, the-18)
+appos(viewers-16, spelling-19)
+nn(winners-23, BET-21)
+nn(winners-23, Award-22)
+poss(names-25, winners-23)
+prep_of(spelling-19, names-25)
+
+Sentence #3 (13 tokens):
+Lionel Richie was honoured on Sunday night with the Lifetime Achievement Award.
+[Text=Lionel CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NNP Lemma=Lionel NamedEntityTag=PERSON] [Text=Richie CharacterOffsetBegin=295 CharacterOffsetEnd=301 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=honoured CharacterOffsetBegin=306 CharacterOffsetEnd=314 PartOfSpeech=VBN Lemma=honour NamedEntityTag=O] [Text=on CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7TNI Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-7TNI">Sunday night<-TIMEX3>] [Text=night CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-7TNI Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-7TNI">Sunday night<-TIMEX3>] [Text=with CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Lifetime CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=NNP Lemma=Lifetime NamedEntityTag=O] [Text=Achievement CharacterOffsetBegin=349 CharacterOffsetEnd=360 PartOfSpeech=NNP Lemma=Achievement NamedEntityTag=O] [Text=Award CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=NN Lemma=award NamedEntityTag=O] [Text=. CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Lionel) (NNP Richie))
+    (VP (VBD was)
+      (ADJP (VBN honoured))
+      (PP (IN on)
+        (NP (NNP Sunday)))
+      (NP-TMP (NN night))
+      (PP (IN with)
+        (NP (DT the) (NNP Lifetime) (NNP Achievement) (NN Award))))
+    (. .)))
+
+root(ROOT-0, honoured-4)
+nn(Richie-2, Lionel-1)
+nsubjpass(honoured-4, Richie-2)
+auxpass(honoured-4, was-3)
+prep_on(honoured-4, Sunday-6)
+tmod(honoured-4, night-7)
+det(Award-12, the-9)
+nn(Award-12, Lifetime-10)
+nn(Award-12, Achievement-11)
+prep_with(honoured-4, Award-12)
+
+Sentence #4 (30 tokens):
+Artists such as John Legend, Pharrell Williams, and Yolanda Adams took part in the ceremony, performing his songs and presenting the trophy to the soul singer-songwriter.
+[Text=Artists CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NNS Lemma=artist NamedEntityTag=O] [Text=such CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=as CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=John CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Legend CharacterOffsetBegin=389 CharacterOffsetEnd=395 PartOfSpeech=NNP Lemma=Legend NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Pharrell CharacterOffsetBegin=397 CharacterOffsetEnd=405 PartOfSpeech=NNP Lemma=Pharrell NamedEntityTag=PERSON] [Text=Williams CharacterOffsetBegin=406 CharacterOffsetEnd=414 PartOfSpeech=NNP Lemma=Williams NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Yolanda CharacterOffsetBegin=420 CharacterOffsetEnd=427 PartOfSpeech=NNP Lemma=Yolanda NamedEntityTag=PERSON] [Text=Adams CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NNP Lemma=Adams NamedEntityTag=PERSON] [Text=took CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=part CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=NN Lemma=part NamedEntityTag=O] [Text=in CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ceremony CharacterOffsetBegin=451 CharacterOffsetEnd=459 PartOfSpeech=NN Lemma=ceremony NamedEntityTag=O] [Text=, CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=performing CharacterOffsetBegin=461 CharacterOffsetEnd=471 PartOfSpeech=VBG Lemma=perform NamedEntityTag=O] [Text=his CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=songs CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=NNS Lemma=song NamedEntityTag=O] [Text=and CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=presenting CharacterOffsetBegin=486 CharacterOffsetEnd=496 PartOfSpeech=VBG Lemma=present NamedEntityTag=O] [Text=the CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=trophy CharacterOffsetBegin=501 CharacterOffsetEnd=507 PartOfSpeech=NN Lemma=trophy NamedEntityTag=O] [Text=to CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=soul CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=soul NamedEntityTag=O] [Text=singer-songwriter CharacterOffsetBegin=520 CharacterOffsetEnd=537 PartOfSpeech=NN Lemma=singer-songwriter NamedEntityTag=O] [Text=. CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Artists))
+      (PP (JJ such) (IN as)
+        (NP
+          (NP (NNP John) (NNP Legend))
+          (, ,)
+          (NP (NNP Pharrell) (NNP Williams))
+          (, ,)
+          (CC and)
+          (NP (NNP Yolanda) (NNP Adams)))))
+    (VP (VBD took)
+      (NP (NN part))
+      (PP (IN in)
+        (NP (DT the) (NN ceremony)))
+      (, ,)
+      (S
+        (VP
+          (VP (VBG performing)
+            (NP (PRP$ his) (NNS songs)))
+          (CC and)
+          (VP (VBG presenting)
+            (NP (DT the) (NN trophy))
+            (PP (TO to)
+              (NP (DT the) (NN soul) (NN singer-songwriter)))))))
+    (. .)))
+
+root(ROOT-0, took-13)
+nsubj(took-13, Artists-1)
+nn(Legend-5, John-4)
+prep_such_as(Artists-1, Legend-5)
+nn(Williams-8, Pharrell-7)
+conj_and(Legend-5, Williams-8)
+nn(Adams-12, Yolanda-11)
+conj_and(Legend-5, Adams-12)
+dobj(took-13, part-14)
+det(ceremony-17, the-16)
+prep_in(took-13, ceremony-17)
+dep(took-13, performing-19)
+poss(songs-21, his-20)
+dobj(performing-19, songs-21)
+conj_and(performing-19, presenting-23)
+det(trophy-25, the-24)
+dobj(presenting-23, trophy-25)
+det(singer-songwriter-29, the-27)
+nn(singer-songwriter-29, soul-28)
+prep_to(presenting-23, singer-songwriter-29)
+
+Sentence #5 (19 tokens):
+Despite this, BET still managed to misspell his name on national television, the Huffington Post reports.
+[Text=Despite CharacterOffsetBegin=540 CharacterOffsetEnd=547 PartOfSpeech=IN Lemma=despite NamedEntityTag=O] [Text=this CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=, CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=BET CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=NN Lemma=bet NamedEntityTag=ORGANIZATION] [Text=still CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=managed CharacterOffsetBegin=564 CharacterOffsetEnd=571 PartOfSpeech=VBD Lemma=manage NamedEntityTag=O] [Text=to CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=misspell CharacterOffsetBegin=575 CharacterOffsetEnd=583 PartOfSpeech=VB Lemma=misspell NamedEntityTag=O] [Text=his CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=name CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=NN Lemma=name NamedEntityTag=O] [Text=on CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=national CharacterOffsetBegin=596 CharacterOffsetEnd=604 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=television CharacterOffsetBegin=605 CharacterOffsetEnd=615 PartOfSpeech=NN Lemma=television NamedEntityTag=O] [Text=, CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Huffington CharacterOffsetBegin=621 CharacterOffsetEnd=631 PartOfSpeech=NNP Lemma=Huffington NamedEntityTag=PERSON] [Text=Post CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=NNP Lemma=Post NamedEntityTag=PERSON] [Text=reports CharacterOffsetBegin=637 CharacterOffsetEnd=644 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=. CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Despite)
+      (NP (DT this)))
+    (, ,)
+    (NP (NN BET))
+    (ADVP (RB still))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB misspell)
+            (NP (PRP$ his) (NN name))
+            (PP (IN on)
+              (NP
+                (NP (JJ national) (NN television))
+                (, ,)
+                (NP (DT the) (NNP Huffington) (NNP Post) (NNS reports))))))))
+    (. .)))
+
+root(ROOT-0, managed-6)
+prep_despite(managed-6, this-2)
+nsubj(managed-6, BET-4)
+advmod(managed-6, still-5)
+aux(misspell-8, to-7)
+xcomp(managed-6, misspell-8)
+poss(name-10, his-9)
+dobj(misspell-8, name-10)
+amod(television-13, national-12)
+prep_on(misspell-8, television-13)
+det(reports-18, the-15)
+nn(reports-18, Huffington-16)
+nn(reports-18, Post-17)
+appos(television-13, reports-18)
+
+Sentence #6 (18 tokens):
+Upon announcement of the award, a caption reading: "Lionel Ritchie" appeared on screen.
+[Text=Upon CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=IN Lemma=upon NamedEntityTag=O] [Text=announcement CharacterOffsetBegin=652 CharacterOffsetEnd=664 PartOfSpeech=NN Lemma=announcement NamedEntityTag=O] [Text=of CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=668 CharacterOffsetEnd=671 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=award CharacterOffsetBegin=672 CharacterOffsetEnd=677 PartOfSpeech=NN Lemma=award NamedEntityTag=O] [Text=, CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=caption CharacterOffsetBegin=681 CharacterOffsetEnd=688 PartOfSpeech=NN Lemma=caption NamedEntityTag=O] [Text=reading CharacterOffsetBegin=689 CharacterOffsetEnd=696 PartOfSpeech=NN Lemma=reading NamedEntityTag=O] [Text=: CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=`` CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Lionel CharacterOffsetBegin=699 CharacterOffsetEnd=705 PartOfSpeech=NNP Lemma=Lionel NamedEntityTag=PERSON] [Text=Ritchie CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=NNP Lemma=Ritchie NamedEntityTag=PERSON] [Text=-- CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=appeared CharacterOffsetBegin=715 CharacterOffsetEnd=723 PartOfSpeech=VBD Lemma=appear NamedEntityTag=O] [Text=on CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=screen CharacterOffsetBegin=727 CharacterOffsetEnd=733 PartOfSpeech=NN Lemma=screen NamedEntityTag=O] [Text=. CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Upon)
+      (NP
+        (NP (NN announcement))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN award))
+            (, ,)
+            (NP (DT a) (NN caption) (NN reading))))))
+    (: :) (`` ``)
+    (NP (NNP Lionel) (NNP Ritchie))
+    (-- --)
+    (VP (VBD appeared)
+      (PP (IN on)
+        (NP (NN screen))))
+    (. .)))
+
+root(ROOT-0, appeared-15)
+prep_upon(appeared-15, announcement-2)
+det(award-5, the-4)
+prep_of(announcement-2, award-5)
+det(reading-9, a-7)
+nn(reading-9, caption-8)
+appos(award-5, reading-9)
+nn(Ritchie-13, Lionel-12)
+nsubj(appeared-15, Ritchie-13)
+prep_on(appeared-15, screen-17)
+
+Sentence #7 (21 tokens):
+The mistake soon started trending on Twitter -- with most tweeters not realising the error, and others expressing outrage.
+[Text=The CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mistake CharacterOffsetBegin=740 CharacterOffsetEnd=747 PartOfSpeech=NN Lemma=mistake NamedEntityTag=O] [Text=soon CharacterOffsetBegin=748 CharacterOffsetEnd=752 PartOfSpeech=RB Lemma=soon NamedEntityTag=O] [Text=started CharacterOffsetBegin=753 CharacterOffsetEnd=760 PartOfSpeech=VBD Lemma=start NamedEntityTag=O] [Text=trending CharacterOffsetBegin=761 CharacterOffsetEnd=769 PartOfSpeech=VBG Lemma=trend NamedEntityTag=O] [Text=on CharacterOffsetBegin=770 CharacterOffsetEnd=772 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=773 CharacterOffsetEnd=780 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=-- CharacterOffsetBegin=781 CharacterOffsetEnd=783 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=with CharacterOffsetBegin=784 CharacterOffsetEnd=788 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=most CharacterOffsetBegin=789 CharacterOffsetEnd=793 PartOfSpeech=JJS Lemma=most NamedEntityTag=O] [Text=tweeters CharacterOffsetBegin=794 CharacterOffsetEnd=802 PartOfSpeech=NNS Lemma=tweeter NamedEntityTag=O] [Text=not CharacterOffsetBegin=803 CharacterOffsetEnd=806 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=realising CharacterOffsetBegin=807 CharacterOffsetEnd=816 PartOfSpeech=VBG Lemma=realise NamedEntityTag=O] [Text=the CharacterOffsetBegin=817 CharacterOffsetEnd=820 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=error CharacterOffsetBegin=821 CharacterOffsetEnd=826 PartOfSpeech=NN Lemma=error NamedEntityTag=O] [Text=, CharacterOffsetBegin=826 CharacterOffsetEnd=827 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=828 CharacterOffsetEnd=831 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=others CharacterOffsetBegin=832 CharacterOffsetEnd=838 PartOfSpeech=NNS Lemma=other NamedEntityTag=O] [Text=expressing CharacterOffsetBegin=839 CharacterOffsetEnd=849 PartOfSpeech=VBG Lemma=express NamedEntityTag=O] [Text=outrage CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=outrage NamedEntityTag=O] [Text=. CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN mistake))
+      (ADVP (RB soon))
+      (VP (VBD started)
+        (S
+          (VP (VBG trending)
+            (PP (IN on)
+              (NP (NNP Twitter)))
+            (: --)
+            (PP (IN with)
+              (NP (JJS most) (NNS tweeters)))
+            (PP (RB not)
+              (S
+                (VP (VBG realising)
+                  (NP (DT the) (NN error)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS others))
+      (VP (VBG expressing)
+        (NP (NN outrage))))
+    (. .)))
+
+root(ROOT-0, started-4)
+det(mistake-2, The-1)
+nsubj(started-4, mistake-2)
+advmod(started-4, soon-3)
+xcomp(started-4, trending-5)
+prep_on(trending-5, Twitter-7)
+amod(tweeters-11, most-10)
+prep_with(trending-5, tweeters-11)
+prep(trending-5, not-12)
+pcomp(not-12, realising-13)
+det(error-15, the-14)
+dobj(realising-13, error-15)
+nsubj(expressing-19, others-18)
+conj_and(started-4, expressing-19)
+dobj(expressing-19, outrage-20)
+
+Sentence #8 (13 tokens):
+However, the blunder was forgotten when Richie took to the stage.
+[Text=However CharacterOffsetBegin=860 CharacterOffsetEnd=867 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=867 CharacterOffsetEnd=868 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=869 CharacterOffsetEnd=872 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=blunder CharacterOffsetBegin=873 CharacterOffsetEnd=880 PartOfSpeech=NN Lemma=blunder NamedEntityTag=O] [Text=was CharacterOffsetBegin=881 CharacterOffsetEnd=884 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=forgotten CharacterOffsetBegin=885 CharacterOffsetEnd=894 PartOfSpeech=VBN Lemma=forget NamedEntityTag=O] [Text=when CharacterOffsetBegin=895 CharacterOffsetEnd=899 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Richie CharacterOffsetBegin=900 CharacterOffsetEnd=906 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=took CharacterOffsetBegin=907 CharacterOffsetEnd=911 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=to CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=915 CharacterOffsetEnd=918 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=stage CharacterOffsetBegin=919 CharacterOffsetEnd=924 PartOfSpeech=NN Lemma=stage NamedEntityTag=O] [Text=. CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT the) (NN blunder))
+    (VP (VBD was)
+      (VP (VBN forgotten)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (NNP Richie))
+            (VP (VBD took)
+              (PP (TO to)
+                (NP (DT the) (NN stage))))))))
+    (. .)))
+
+root(ROOT-0, forgotten-6)
+advmod(forgotten-6, However-1)
+det(blunder-4, the-3)
+nsubjpass(forgotten-6, blunder-4)
+auxpass(forgotten-6, was-5)
+advmod(took-9, when-7)
+nsubj(took-9, Richie-8)
+advcl(forgotten-6, took-9)
+det(stage-12, the-11)
+prep_to(took-9, stage-12)
+
+Sentence #9 (6 tokens):
+"Soul is a feeling.
+[Text=`` CharacterOffsetBegin=927 CharacterOffsetEnd=928 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Soul CharacterOffsetBegin=928 CharacterOffsetEnd=932 PartOfSpeech=NN Lemma=soul NamedEntityTag=O] [Text=is CharacterOffsetBegin=933 CharacterOffsetEnd=935 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=936 CharacterOffsetEnd=937 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=feeling CharacterOffsetBegin=938 CharacterOffsetEnd=945 PartOfSpeech=NN Lemma=feeling NamedEntityTag=O] [Text=. CharacterOffsetBegin=945 CharacterOffsetEnd=946 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (NN Soul))
+    (VP (VBZ is)
+      (NP (DT a) (NN feeling)))
+    (. .)))
+
+root(ROOT-0, feeling-5)
+nsubj(feeling-5, Soul-2)
+cop(feeling-5, is-3)
+det(feeling-5, a-4)
+
+Sentence #10 (8 tokens):
+Not a colour," he said.
+[Text=Not CharacterOffsetBegin=947 CharacterOffsetEnd=950 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=951 CharacterOffsetEnd=952 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=colour CharacterOffsetBegin=953 CharacterOffsetEnd=959 PartOfSpeech=NN Lemma=colour NamedEntityTag=O] [Text=, CharacterOffsetBegin=959 CharacterOffsetEnd=960 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=960 CharacterOffsetEnd=961 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=he CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=965 CharacterOffsetEnd=969 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=969 CharacterOffsetEnd=970 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (RB Not) (DT a) (NN colour))
+    (, ,) (-- --)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-7)
+neg(colour-3, Not-1)
+det(colour-3, a-2)
+nsubj(said-7, colour-3)
+nsubj(said-7, he-6)
+
+Sentence #11 (12 tokens):
+"Talent is a God-given gift, and not a category.
+[Text=`` CharacterOffsetBegin=971 CharacterOffsetEnd=972 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Talent CharacterOffsetBegin=972 CharacterOffsetEnd=978 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=is CharacterOffsetBegin=979 CharacterOffsetEnd=981 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=982 CharacterOffsetEnd=983 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=God-given CharacterOffsetBegin=984 CharacterOffsetEnd=993 PartOfSpeech=JJ Lemma=god-given NamedEntityTag=MISC] [Text=gift CharacterOffsetBegin=994 CharacterOffsetEnd=998 PartOfSpeech=NN Lemma=gift NamedEntityTag=O] [Text=, CharacterOffsetBegin=998 CharacterOffsetEnd=999 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=not CharacterOffsetBegin=1004 CharacterOffsetEnd=1007 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=1008 CharacterOffsetEnd=1009 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=category CharacterOffsetBegin=1010 CharacterOffsetEnd=1018 PartOfSpeech=NN Lemma=category NamedEntityTag=O] [Text=. CharacterOffsetBegin=1018 CharacterOffsetEnd=1019 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (NN Talent))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ God-given) (NN gift))
+        (, ,)
+        (CC and)
+        (NP (RB not) (DT a) (NN category))))
+    (. .)))
+
+root(ROOT-0, gift-6)
+nsubj(gift-6, Talent-2)
+cop(gift-6, is-3)
+det(gift-6, a-4)
+amod(gift-6, God-given-5)
+neg(category-11, not-9)
+det(category-11, a-10)
+conj_and(gift-6, category-11)
+
+Sentence #12 (22 tokens):
+Out of the box is that magical place where talent -- pure talent goes -- to live and thrive and breathe.
+[Text=Out CharacterOffsetBegin=1020 CharacterOffsetEnd=1023 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1027 CharacterOffsetEnd=1030 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=box CharacterOffsetBegin=1031 CharacterOffsetEnd=1034 PartOfSpeech=NN Lemma=box NamedEntityTag=O] [Text=is CharacterOffsetBegin=1035 CharacterOffsetEnd=1037 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=that CharacterOffsetBegin=1038 CharacterOffsetEnd=1042 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=magical CharacterOffsetBegin=1043 CharacterOffsetEnd=1050 PartOfSpeech=JJ Lemma=magical NamedEntityTag=O] [Text=place CharacterOffsetBegin=1051 CharacterOffsetEnd=1056 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=where CharacterOffsetBegin=1057 CharacterOffsetEnd=1062 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=talent CharacterOffsetBegin=1063 CharacterOffsetEnd=1069 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1070 CharacterOffsetEnd=1072 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=pure CharacterOffsetBegin=1073 CharacterOffsetEnd=1077 PartOfSpeech=JJ Lemma=pure NamedEntityTag=O] [Text=talent CharacterOffsetBegin=1078 CharacterOffsetEnd=1084 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=goes CharacterOffsetBegin=1085 CharacterOffsetEnd=1089 PartOfSpeech=VBZ Lemma=go NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1090 CharacterOffsetEnd=1092 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=to CharacterOffsetBegin=1093 CharacterOffsetEnd=1095 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=live CharacterOffsetBegin=1096 CharacterOffsetEnd=1100 PartOfSpeech=VB Lemma=live NamedEntityTag=O] [Text=and CharacterOffsetBegin=1101 CharacterOffsetEnd=1104 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=thrive CharacterOffsetBegin=1105 CharacterOffsetEnd=1111 PartOfSpeech=VB Lemma=thrive NamedEntityTag=O] [Text=and CharacterOffsetBegin=1112 CharacterOffsetEnd=1115 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=breathe CharacterOffsetBegin=1116 CharacterOffsetEnd=1123 PartOfSpeech=VB Lemma=breathe NamedEntityTag=O] [Text=. CharacterOffsetBegin=1123 CharacterOffsetEnd=1124 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (IN Out))
+      (PP (IN of)
+        (NP (DT the) (NN box))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (X
+          (NP (JJ magical) (NN place))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP
+                (NP (NN talent))
+                (PRN (: --)
+                  (S
+                    (NP (JJ pure) (NN talent))
+                    (VP (VBZ goes)))
+                  (: --)))
+              (VP (TO to)
+                (VP
+                  (VP (VB live))
+                  (CC and)
+                  (VP (VB thrive)
+                    (CC and)
+                    (VB breathe)))))))))
+    (. .)))
+
+root(ROOT-0, is-5)
+nsubj(is-5, Out-1)
+det(box-4, the-3)
+prep_of(Out-1, box-4)
+dep(is-5, that-6)
+amod(place-8, magical-7)
+dep(that-6, place-8)
+advmod(live-17, where-9)
+nsubj(live-17, talent-10)
+amod(talent-13, pure-12)
+nsubj(goes-14, talent-13)
+dep(talent-10, goes-14)
+aux(live-17, to-16)
+dep(place-8, live-17)
+conj_and(live-17, thrive-19)
+conj_and(thrive-19, breathe-21)
+
+Sentence #13 (17 tokens):
+And may you never give that up as long as you-re in this business."
+[Text=And CharacterOffsetBegin=1125 CharacterOffsetEnd=1128 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=may CharacterOffsetBegin=1129 CharacterOffsetEnd=1132 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=you CharacterOffsetBegin=1133 CharacterOffsetEnd=1136 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=never CharacterOffsetBegin=1137 CharacterOffsetEnd=1142 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=give CharacterOffsetBegin=1143 CharacterOffsetEnd=1147 PartOfSpeech=VBP Lemma=give NamedEntityTag=O] [Text=that CharacterOffsetBegin=1148 CharacterOffsetEnd=1152 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=up CharacterOffsetBegin=1153 CharacterOffsetEnd=1155 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=as CharacterOffsetBegin=1156 CharacterOffsetEnd=1158 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=long CharacterOffsetBegin=1159 CharacterOffsetEnd=1163 PartOfSpeech=JJ Lemma=long NamedEntityTag=O] [Text=as CharacterOffsetBegin=1164 CharacterOffsetEnd=1166 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=you CharacterOffsetBegin=1167 CharacterOffsetEnd=1170 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=-re CharacterOffsetBegin=1170 CharacterOffsetEnd=1173 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=1174 CharacterOffsetEnd=1176 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=1177 CharacterOffsetEnd=1181 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=business CharacterOffsetBegin=1182 CharacterOffsetEnd=1190 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=. CharacterOffsetBegin=1190 CharacterOffsetEnd=1191 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1191 CharacterOffsetEnd=1192 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S (CC And)
+    (S
+      (VP (MD may)
+        (VP
+          (NP (PRP you))
+          (ADVP (RB never)))))
+    (VP (VBP give)
+      (SBAR
+        (ADVP
+          (ADVP (IN that))
+          (RB up) (RB as) (JJ long))
+        (IN as)
+        (S
+          (NP (PRP you))
+          (VP (VBP -re)
+            (PP (IN in)
+              (NP (DT this) (NN business)))))))
+    (. .) (-- --)))
+
+root(ROOT-0, give-5)
+cc(give-5, And-1)
+aux(you-3, may-2)
+csubj(give-5, you-3)
+neg(you-3, never-4)
+advmod(-re-12, that-6)
+advmod(that-6, up-7)
+advmod(that-6, as-8)
+advmod(that-6, long-9)
+mark(-re-12, as-10)
+nsubj(-re-12, you-11)
+advcl(give-5, -re-12)
+det(business-15, this-14)
+prep_in(-re-12, business-15)
+
+Sentence #14 (9 tokens):
+Neither Richie nor BET commented on the error.
+[Text=Neither CharacterOffsetBegin=1194 CharacterOffsetEnd=1201 PartOfSpeech=DT Lemma=neither NamedEntityTag=O] [Text=Richie CharacterOffsetBegin=1202 CharacterOffsetEnd=1208 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=nor CharacterOffsetBegin=1209 CharacterOffsetEnd=1212 PartOfSpeech=CC Lemma=nor NamedEntityTag=O] [Text=BET CharacterOffsetBegin=1213 CharacterOffsetEnd=1216 PartOfSpeech=NNP Lemma=BET NamedEntityTag=ORGANIZATION] [Text=commented CharacterOffsetBegin=1217 CharacterOffsetEnd=1226 PartOfSpeech=VBD Lemma=comment NamedEntityTag=O] [Text=on CharacterOffsetBegin=1227 CharacterOffsetEnd=1229 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1230 CharacterOffsetEnd=1233 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=error CharacterOffsetBegin=1234 CharacterOffsetEnd=1239 PartOfSpeech=NN Lemma=error NamedEntityTag=O] [Text=. CharacterOffsetBegin=1239 CharacterOffsetEnd=1240 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT Neither))
+      (NP (NNP Richie)
+        (CC nor)
+        (NNP BET)))
+    (VP (VBD commented)
+      (PP (IN on)
+        (NP (DT the) (NN error))))
+    (. .)))
+
+root(ROOT-0, commented-5)
+nsubj(commented-5, Neither-1)
+dep(Neither-1, Richie-2)
+conj_nor(Richie-2, BET-4)
+det(error-8, the-7)
+prep_on(commented-5, error-8)
+
+Sentence #15 (2 tokens):
+- Stuff
+[Text=- CharacterOffsetBegin=1242 CharacterOffsetEnd=1243 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Stuff CharacterOffsetBegin=1244 CharacterOffsetEnd=1249 PartOfSpeech=NN Lemma=stuff NamedEntityTag=O] 
+(ROOT
+  (PRN (: -)
+    (ADVP (NN Stuff))))
+
+root(ROOT-0, Stuff-2)
+
+Coreference set:
+ (3,2,[1,3]) -> (1,5,[4,7]), that is: "Lionel Richie" -> "Lionel Richie -s"
+ (8,8,[8,9]) -> (1,5,[4,7]), that is: "Richie" -> "Lionel Richie -s"
+ (10,6,[6,7]) -> (1,5,[4,7]), that is: "he" -> "Lionel Richie -s"
+ (14,2,[2,3]) -> (1,5,[4,7]), that is: "Richie" -> "Lionel Richie -s"
+Coreference set:
+ (1,2,[1,3]) -> (1,21,[19,22]), that is: "BET Awards" -> "the BET Awards"
+ (1,21,[20,22]) -> (1,21,[19,22]), that is: "BET Awards" -> "the BET Awards"
+Coreference set:
+ (1,24,[24,25]) -> (1,8,[4,18]), that is: "his" -> "Lionel Richie -s name exhoopsprguy via Twitter NOT QUITE : Lionel Richie on stage"
+Coreference set:
+ (14,4,[4,5]) -> (2,21,[21,22]), that is: "BET" -> "BET"
+Coreference set:
+ (4,20,[20,21]) -> (4,5,[4,6]), that is: "his" -> "John Legend"
+ (5,9,[9,10]) -> (4,5,[4,6]), that is: "his" -> "John Legend"
+Coreference set:
+ (6,5,[4,6]) -> (6,9,[7,10]), that is: "the award" -> "a caption reading"
+Coreference set:
+ (14,8,[7,9]) -> (7,15,[14,16]), that is: "the error" -> "the error"
+Coreference set:
+ (13,11,[11,12]) -> (13,3,[3,4]), that is: "you" -> "you"

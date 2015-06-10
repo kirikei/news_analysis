@@ -1,0 +1,2173 @@
+Sentence #1 (30 tokens):
+Martin Kaymer wins US Open by eight shots to claim his second major | Sport | The Guardian
+There were always two tournaments scheduled for Pinehurst No2 this month.
+[Text=Martin CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Martin NamedEntityTag=PERSON] [Text=Kaymer CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=wins CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBZ Lemma=win NamedEntityTag=O] [Text=US CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=US NamedEntityTag=MISC] [Text=Open CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VB Lemma=open NamedEntityTag=MISC] [Text=by CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=eight CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=shots CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NNS Lemma=shot NamedEntityTag=O] [Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=claim CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=VB Lemma=claim NamedEntityTag=O] [Text=his CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=second CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=major CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=| CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=NN Lemma=| NamedEntityTag=O] [Text=Sport CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=Sport NamedEntityTag=O] [Text=| CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=CD Lemma=| NamedEntityTag=NUMBER] [Text=The CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Guardian CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=NNP Lemma=Guardian NamedEntityTag=O] [Text=There CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=were CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=always CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=RB Lemma=always NamedEntityTag=O] [Text=two CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=tournaments CharacterOffsetBegin=114 CharacterOffsetEnd=125 PartOfSpeech=NNS Lemma=tournament NamedEntityTag=O] [Text=scheduled CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=VBN Lemma=schedule NamedEntityTag=O] [Text=for CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Pinehurst CharacterOffsetBegin=140 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Pinehurst NamedEntityTag=LOCATION] [Text=No2 CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=NN Lemma=no2 NamedEntityTag=O] [Text=this CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M Timex=<TIMEX3 alt_value="THIS P1M" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this month<-TIMEX3>] [Text=month CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=NN Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M Timex=<TIMEX3 alt_value="THIS P1M" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this month<-TIMEX3>] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Martin) (NNP Kaymer))
+      (VP (VBZ wins)
+        (S
+          (NP (NNP US))
+          (VP (VB Open)
+            (PP (IN by)
+              (NP (CD eight) (NNS shots)))
+            (S
+              (VP (TO to)
+                (VP (VB claim)
+                  (NP (PRP$ his) (JJ second) (JJ major) (NN |))
+                  (NP-TMP
+                    (NP (NNP Sport) (CD |))
+                    (NP (DT The) (NNP Guardian))))))))))
+    (NP (EX There))
+    (VP (VBD were)
+      (ADVP (RB always)
+        (NP (CD two) (NNS tournaments)))
+      (VP (VBN scheduled)
+        (PP (IN for)
+          (NP (NNP Pinehurst) (NN No2)))
+        (NP-TMP (DT this) (NN month))))
+    (. .)))
+
+root(ROOT-0, scheduled-24)
+nn(Kaymer-2, Martin-1)
+nsubj(wins-3, Kaymer-2)
+dep(scheduled-24, wins-3)
+nsubj(Open-5, US-4)
+ccomp(wins-3, Open-5)
+num(shots-8, eight-7)
+prep_by(Open-5, shots-8)
+aux(claim-10, to-9)
+xcomp(Open-5, claim-10)
+poss(bar-14, his-11)
+amod(bar-14, second-12)
+amod(bar-14, major-13)
+dobj(claim-10, bar-14)
+tmod(claim-10, Sport-15)
+num(Sport-15, bar-16)
+det(Guardian-18, The-17)
+dep(Sport-15, Guardian-18)
+expl(scheduled-24, There-19)
+auxpass(scheduled-24, were-20)
+advmod(scheduled-24, always-21)
+num(tournaments-23, two-22)
+pobj(always-21, tournaments-23)
+nn(No2-27, Pinehurst-26)
+prep_for(scheduled-24, No2-27)
+det(month-29, this-28)
+tmod(scheduled-24, month-29)
+
+Sentence #2 (12 tokens):
+Martin Kaymer ensured that number took place on the same weekend.
+[Text=Martin CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NNP Lemma=Martin NamedEntityTag=PERSON] [Text=Kaymer CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=ensured CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=VBD Lemma=ensure NamedEntityTag=O] [Text=that CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=number CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=took CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=on CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=same CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=JJ Lemma=same NamedEntityTag=O] [Text=weekend CharacterOffsetBegin=223 CharacterOffsetEnd=230 PartOfSpeech=NN Lemma=weekend NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WE">weekend<-TIMEX3>] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Martin) (NNP Kaymer))
+    (VP (VBD ensured)
+      (SBAR
+        (S
+          (NP (DT that) (NN number))
+          (VP (VBD took)
+            (NP (NN place))
+            (PP (IN on)
+              (NP (DT the) (JJ same) (NN weekend)))))))
+    (. .)))
+
+root(ROOT-0, ensured-3)
+nn(Kaymer-2, Martin-1)
+nsubj(ensured-3, Kaymer-2)
+det(number-5, that-4)
+nsubj(took-6, number-5)
+ccomp(ensured-3, took-6)
+dobj(took-6, place-7)
+det(weekend-11, the-9)
+amod(weekend-11, same-10)
+prep_on(took-6, weekend-11)
+
+Sentence #3 (26 tokens):
+As this famous old venue prepares to stage the women-s US Open, reflections on the male equivalent should centre around Kaymer-s dominance.
+[Text=As CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=this CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=famous CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=JJ Lemma=famous NamedEntityTag=O] [Text=old CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=JJ Lemma=old NamedEntityTag=O] [Text=venue CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN Lemma=venue NamedEntityTag=O] [Text=prepares CharacterOffsetBegin=258 CharacterOffsetEnd=266 PartOfSpeech=VBZ Lemma=prepare NamedEntityTag=O] [Text=to CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stage CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=VB Lemma=stage NamedEntityTag=O] [Text=the CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=women CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NNS Lemma=woman NamedEntityTag=O] [Text=-s CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=US CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=NNP Lemma=US NamedEntityTag=ORGANIZATION] [Text=Open CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NNP Lemma=Open NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=reflections CharacterOffsetBegin=297 CharacterOffsetEnd=308 PartOfSpeech=NNS Lemma=reflection NamedEntityTag=O] [Text=on CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=male CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=JJ Lemma=male NamedEntityTag=O] [Text=equivalent CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=NN Lemma=equivalent NamedEntityTag=O] [Text=should CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=centre CharacterOffsetBegin=339 CharacterOffsetEnd=345 PartOfSpeech=VB Lemma=centre NamedEntityTag=O] [Text=around CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=dominance CharacterOffsetBegin=362 CharacterOffsetEnd=371 PartOfSpeech=NN Lemma=dominance NamedEntityTag=O] [Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (DT this) (JJ famous) (JJ old) (NN venue))
+        (VP (VBZ prepares)
+          (S
+            (VP (TO to)
+              (VP (VB stage)
+                (NP
+                  (NP (DT the) (NNS women) (POS -s))
+                  (NNP US) (NNP Open))))))))
+    (, ,)
+    (NP
+      (NP (NNS reflections))
+      (PP (IN on)
+        (NP (DT the) (JJ male) (NN equivalent))))
+    (VP (MD should)
+      (VP (VB centre)
+        (PP (IN around)
+          (NP
+            (NP (NNP Kaymer) (POS -s))
+            (NN dominance)))))
+    (. .)))
+
+root(ROOT-0, centre-21)
+mark(prepares-6, As-1)
+det(venue-5, this-2)
+amod(venue-5, famous-3)
+amod(venue-5, old-4)
+nsubj(prepares-6, venue-5)
+advcl(centre-21, prepares-6)
+aux(stage-8, to-7)
+xcomp(prepares-6, stage-8)
+det(women-10, the-9)
+poss(Open-13, women-10)
+nn(Open-13, US-12)
+dobj(stage-8, Open-13)
+nsubj(centre-21, reflections-15)
+det(equivalent-19, the-17)
+amod(equivalent-19, male-18)
+prep_on(reflections-15, equivalent-19)
+aux(centre-21, should-20)
+poss(dominance-25, Kaymer-23)
+prep_around(centre-21, dominance-25)
+
+Sentence #4 (21 tokens):
+If you removed the German from the field, there was a keenly fought contest over the four days here.
+[Text=If CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=removed CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=VBD Lemma=remove NamedEntityTag=O] [Text=the CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=German CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=JJ Lemma=german NamedEntityTag=MISC] [Text=from CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=field CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NN Lemma=field NamedEntityTag=O] [Text=, CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=there CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=was CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=keenly CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=RB Lemma=keenly NamedEntityTag=O] [Text=fought CharacterOffsetBegin=434 CharacterOffsetEnd=440 PartOfSpeech=VBN Lemma=fight NamedEntityTag=O] [Text=contest CharacterOffsetBegin=441 CharacterOffsetEnd=448 PartOfSpeech=NN Lemma=contest NamedEntityTag=O] [Text=over CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P4D Timex=<TIMEX3 tid="t3" type="DURATION" value="P4D">the four days<-TIMEX3>] [Text=four CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=CD Lemma=four NamedEntityTag=DURATION NormalizedNamedEntityTag=P4D Timex=<TIMEX3 tid="t3" type="DURATION" value="P4D">the four days<-TIMEX3>] [Text=days CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P4D Timex=<TIMEX3 tid="t3" type="DURATION" value="P4D">the four days<-TIMEX3>] [Text=here CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBD removed)
+          (NP (DT the) (JJ German))
+          (PP (IN from)
+            (NP (DT the) (NN field))))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBD was)
+      (NP
+        (NP (DT a)
+          (ADJP (RB keenly) (VBN fought))
+          (NN contest))
+        (PP (IN over)
+          (NP
+            (NP (DT the) (CD four) (NNS days))
+            (ADVP (RB here))))))
+    (. .)))
+
+root(ROOT-0, was-11)
+mark(removed-3, If-1)
+nsubj(removed-3, you-2)
+advcl(was-11, removed-3)
+det(German-5, the-4)
+dobj(removed-3, German-5)
+det(field-8, the-7)
+prep_from(removed-3, field-8)
+expl(was-11, there-10)
+det(contest-15, a-12)
+advmod(fought-14, keenly-13)
+amod(contest-15, fought-14)
+nsubj(was-11, contest-15)
+det(days-19, the-17)
+num(days-19, four-18)
+prep_over(contest-15, days-19)
+advmod(days-19, here-20)
+
+Sentence #5 (11 tokens):
+With Kaymer as part of it this was a procession.
+[Text=With CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=479 CharacterOffsetEnd=485 PartOfSpeech=NN Lemma=kaymer NamedEntityTag=PERSON] [Text=as CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=part CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=NN Lemma=part NamedEntityTag=O] [Text=of CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=it CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=this CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=was CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=procession CharacterOffsetBegin=511 CharacterOffsetEnd=521 PartOfSpeech=NN Lemma=procession NamedEntityTag=O] [Text=. CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN With)
+      (NP
+        (NP (NN Kaymer))
+        (PP (IN as)
+          (NP
+            (NP (NN part))
+            (PP (IN of)
+              (NP (PRP it)))))))
+    (NP (DT this))
+    (VP (VBD was)
+      (NP (DT a) (NN procession)))
+    (. .)))
+
+root(ROOT-0, procession-10)
+prep_with(procession-10, Kaymer-2)
+prep_as(Kaymer-2, part-4)
+prep_of(part-4, it-6)
+nsubj(procession-10, this-7)
+cop(procession-10, was-8)
+det(procession-10, a-9)
+
+Sentence #6 (25 tokens):
+The church bells from Pinehurst-s village chapel played Beethoven-s Ode to Joy as Kaymer stepped towards the 1st tee on Sunday afternoon.
+[Text=The CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=church CharacterOffsetBegin=528 CharacterOffsetEnd=534 PartOfSpeech=NN Lemma=church NamedEntityTag=O] [Text=bells CharacterOffsetBegin=535 CharacterOffsetEnd=540 PartOfSpeech=NNS Lemma=bell NamedEntityTag=O] [Text=from CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Pinehurst CharacterOffsetBegin=546 CharacterOffsetEnd=555 PartOfSpeech=NNP Lemma=Pinehurst NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=village CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=NN Lemma=village NamedEntityTag=O] [Text=chapel CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=NN Lemma=chapel NamedEntityTag=O] [Text=played CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=VBD Lemma=play NamedEntityTag=O] [Text=Beethoven CharacterOffsetBegin=580 CharacterOffsetEnd=589 PartOfSpeech=NNP Lemma=Beethoven NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=589 CharacterOffsetEnd=591 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Ode CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=NNP Lemma=Ode NamedEntityTag=O] [Text=to CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Joy CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=O] [Text=as CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=stepped CharacterOffsetBegin=613 CharacterOffsetEnd=620 PartOfSpeech=VBD Lemma=step NamedEntityTag=O] [Text=towards CharacterOffsetBegin=621 CharacterOffsetEnd=628 PartOfSpeech=IN Lemma=towards NamedEntityTag=O] [Text=the CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=1st CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=JJ Lemma=1st NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=tee CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=NN Lemma=tee NamedEntityTag=O] [Text=on CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7TAF Timex=<TIMEX3 tid="t4" type="TIME" value="XXXX-WXX-7TAF">Sunday afternoon<-TIMEX3>] [Text=afternoon CharacterOffsetBegin=651 CharacterOffsetEnd=660 PartOfSpeech=NN Lemma=afternoon NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-7TAF Timex=<TIMEX3 tid="t4" type="TIME" value="XXXX-WXX-7TAF">Sunday afternoon<-TIMEX3>] [Text=. CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN church) (NNS bells))
+      (PP (IN from)
+        (NP
+          (NP (NNP Pinehurst) (POS -s))
+          (NN village) (NN chapel))))
+    (VP (VBD played)
+      (NP
+        (NP
+          (NP (NNP Beethoven) (POS -s))
+          (NNP Ode))
+        (PP (TO to)
+          (NP (NNP Joy))))
+      (SBAR (IN as)
+        (S
+          (NP (NNP Kaymer))
+          (VP (VBD stepped)
+            (PP (IN towards)
+              (NP
+                (NP (DT the) (JJ 1st) (NN tee))
+                (PP (IN on)
+                  (NP (NNP Sunday)))))
+            (NP-TMP (NN afternoon))))))
+    (. .)))
+
+root(ROOT-0, played-9)
+det(bells-3, The-1)
+nn(bells-3, church-2)
+nsubj(played-9, bells-3)
+poss(chapel-8, Pinehurst-5)
+nn(chapel-8, village-7)
+prep_from(bells-3, chapel-8)
+poss(Ode-12, Beethoven-10)
+dobj(played-9, Ode-12)
+prep_to(Ode-12, Joy-14)
+mark(stepped-17, as-15)
+nsubj(stepped-17, Kaymer-16)
+advcl(played-9, stepped-17)
+det(tee-21, the-19)
+amod(tee-21, 1st-20)
+prep_towards(stepped-17, tee-21)
+prep_on(tee-21, Sunday-23)
+tmod(stepped-17, afternoon-24)
+
+Sentence #7 (22 tokens):
+That proved an appropriate backdrop; he won by eight, at nine under, following a fourth round of 69.
+[Text=That CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=proved CharacterOffsetBegin=667 CharacterOffsetEnd=673 PartOfSpeech=VBD Lemma=prove NamedEntityTag=O] [Text=an CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=appropriate CharacterOffsetBegin=677 CharacterOffsetEnd=688 PartOfSpeech=JJ Lemma=appropriate NamedEntityTag=O] [Text=backdrop CharacterOffsetBegin=689 CharacterOffsetEnd=697 PartOfSpeech=NN Lemma=backdrop NamedEntityTag=O] [Text=; CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=he CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=won CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VBD Lemma=win NamedEntityTag=O] [Text=by CharacterOffsetBegin=706 CharacterOffsetEnd=708 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=eight CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=, CharacterOffsetBegin=714 CharacterOffsetEnd=715 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=at CharacterOffsetBegin=716 CharacterOffsetEnd=718 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=nine CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=CD Lemma=nine NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0] [Text=under CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=, CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=following CharacterOffsetBegin=731 CharacterOffsetEnd=740 PartOfSpeech=VBG Lemma=follow NamedEntityTag=O] [Text=a CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=fourth CharacterOffsetBegin=743 CharacterOffsetEnd=749 PartOfSpeech=JJ Lemma=fourth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=4.0] [Text=round CharacterOffsetBegin=750 CharacterOffsetEnd=755 PartOfSpeech=NN Lemma=round NamedEntityTag=O] [Text=of CharacterOffsetBegin=756 CharacterOffsetEnd=758 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=69 CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=CD Lemma=69 NamedEntityTag=NUMBER NormalizedNamedEntityTag=69.0] [Text=. CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBD proved)
+        (NP (DT an) (JJ appropriate) (NN backdrop))))
+    (: ;)
+    (S
+      (NP (PRP he))
+      (VP (VBD won)
+        (PP (IN by)
+          (NP (CD eight)))
+        (, ,)
+        (PP (IN at)
+          (NP (CD nine)))
+        (PP (IN under))
+        (, ,)
+        (PP (VBG following)
+          (NP
+            (NP (DT a) (JJ fourth) (NN round))
+            (PP (IN of)
+              (NP (CD 69)))))))
+    (. .)))
+
+root(ROOT-0, proved-2)
+nsubj(proved-2, That-1)
+det(backdrop-5, an-3)
+amod(backdrop-5, appropriate-4)
+dobj(proved-2, backdrop-5)
+nsubj(won-8, he-7)
+parataxis(proved-2, won-8)
+prep_by(won-8, eight-10)
+prep_at(won-8, nine-13)
+prep(won-8, under-14)
+det(round-19, a-17)
+amod(round-19, fourth-18)
+prep_following(won-8, round-19)
+prep_of(round-19, 69-21)
+
+Sentence #8 (20 tokens):
+Kaymer is now a history maker, as the first player from continental Europe to win a US Open.
+[Text=Kaymer CharacterOffsetBegin=764 CharacterOffsetEnd=770 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=now CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t5" type="DATE" value="PRESENT_REF">now<-TIMEX3>] [Text=a CharacterOffsetBegin=778 CharacterOffsetEnd=779 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=history CharacterOffsetBegin=780 CharacterOffsetEnd=787 PartOfSpeech=NN Lemma=history NamedEntityTag=O] [Text=maker CharacterOffsetBegin=788 CharacterOffsetEnd=793 PartOfSpeech=NN Lemma=maker NamedEntityTag=O] [Text=, CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=795 CharacterOffsetEnd=797 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=player CharacterOffsetBegin=808 CharacterOffsetEnd=814 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=from CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=continental CharacterOffsetBegin=820 CharacterOffsetEnd=831 PartOfSpeech=JJ Lemma=continental NamedEntityTag=O] [Text=Europe CharacterOffsetBegin=832 CharacterOffsetEnd=838 PartOfSpeech=NNP Lemma=Europe NamedEntityTag=LOCATION] [Text=to CharacterOffsetBegin=839 CharacterOffsetEnd=841 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=win CharacterOffsetBegin=842 CharacterOffsetEnd=845 PartOfSpeech=VB Lemma=win NamedEntityTag=O] [Text=a CharacterOffsetBegin=846 CharacterOffsetEnd=847 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=US CharacterOffsetBegin=848 CharacterOffsetEnd=850 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=Open CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=NNP Lemma=Open NamedEntityTag=O] [Text=. CharacterOffsetBegin=855 CharacterOffsetEnd=856 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Kaymer))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (NP (DT a) (NN history) (NN maker))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (NP
+            (NP (DT the) (JJ first) (NN player))
+            (PP (IN from)
+              (NP (JJ continental) (NNP Europe))))
+          (VP (TO to)
+            (VP (VB win)
+              (NP (DT a) (NNP US) (NNP Open)))))))
+    (. .)))
+
+root(ROOT-0, maker-6)
+nsubj(maker-6, Kaymer-1)
+cop(maker-6, is-2)
+advmod(maker-6, now-3)
+det(maker-6, a-4)
+nn(maker-6, history-5)
+mark(win-16, as-8)
+det(player-11, the-9)
+amod(player-11, first-10)
+nsubj(win-16, player-11)
+amod(Europe-14, continental-13)
+prep_from(player-11, Europe-14)
+aux(win-16, to-15)
+advcl(maker-6, win-16)
+det(Open-19, a-17)
+nn(Open-19, US-18)
+dobj(win-16, Open-19)
+
+Sentence #9 (21 tokens):
+The denouement to this event was not remotely exciting, which serves as a tribute to the imperious 2014 champion.
+[Text=The CharacterOffsetBegin=857 CharacterOffsetEnd=860 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=denouement CharacterOffsetBegin=861 CharacterOffsetEnd=871 PartOfSpeech=NN Lemma=denouement NamedEntityTag=O] [Text=to CharacterOffsetBegin=872 CharacterOffsetEnd=874 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=this CharacterOffsetBegin=875 CharacterOffsetEnd=879 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=event CharacterOffsetBegin=880 CharacterOffsetEnd=885 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=was CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=890 CharacterOffsetEnd=893 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=remotely CharacterOffsetBegin=894 CharacterOffsetEnd=902 PartOfSpeech=RB Lemma=remotely NamedEntityTag=O] [Text=exciting CharacterOffsetBegin=903 CharacterOffsetEnd=911 PartOfSpeech=JJ Lemma=exciting NamedEntityTag=O] [Text=, CharacterOffsetBegin=911 CharacterOffsetEnd=912 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=913 CharacterOffsetEnd=918 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=serves CharacterOffsetBegin=919 CharacterOffsetEnd=925 PartOfSpeech=VBZ Lemma=serve NamedEntityTag=O] [Text=as CharacterOffsetBegin=926 CharacterOffsetEnd=928 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=929 CharacterOffsetEnd=930 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tribute CharacterOffsetBegin=931 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=tribute NamedEntityTag=O] [Text=to CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=imperious CharacterOffsetBegin=946 CharacterOffsetEnd=955 PartOfSpeech=JJ Lemma=imperious NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=956 CharacterOffsetEnd=960 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t6" type="DATE" value="2014">2014<-TIMEX3>] [Text=champion CharacterOffsetBegin=961 CharacterOffsetEnd=969 PartOfSpeech=NN Lemma=champion NamedEntityTag=O] [Text=. CharacterOffsetBegin=969 CharacterOffsetEnd=970 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN denouement))
+      (PP (TO to)
+        (NP (DT this) (NN event))))
+    (VP (VBD was) (RB not)
+      (ADJP (RB remotely) (JJ exciting))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBZ serves)
+            (PP (IN as)
+              (NP (DT a) (NN tribute)))
+            (PP (TO to)
+              (NP (DT the)
+                (ADJP (JJ imperious)
+                  (NP-TMP (CD 2014)))
+                (NN champion)))))))
+    (. .)))
+
+root(ROOT-0, exciting-9)
+det(denouement-2, The-1)
+nsubj(exciting-9, denouement-2)
+det(event-5, this-4)
+prep_to(denouement-2, event-5)
+cop(exciting-9, was-6)
+neg(exciting-9, not-7)
+advmod(exciting-9, remotely-8)
+nsubj(serves-12, which-11)
+ccomp(exciting-9, serves-12)
+det(tribute-15, a-14)
+prep_as(serves-12, tribute-15)
+det(champion-20, the-17)
+amod(champion-20, imperious-18)
+tmod(imperious-18, 2014-19)
+prep_to(serves-12, champion-20)
+
+Sentence #10 (7 tokens):
+Kaymer-s golfing redemption is complete.
+[Text=Kaymer CharacterOffsetBegin=972 CharacterOffsetEnd=978 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=978 CharacterOffsetEnd=980 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=golfing CharacterOffsetBegin=981 CharacterOffsetEnd=988 PartOfSpeech=NN Lemma=golfing NamedEntityTag=O] [Text=redemption CharacterOffsetBegin=989 CharacterOffsetEnd=999 PartOfSpeech=NN Lemma=redemption NamedEntityTag=O] [Text=is CharacterOffsetBegin=1000 CharacterOffsetEnd=1002 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=complete CharacterOffsetBegin=1003 CharacterOffsetEnd=1011 PartOfSpeech=JJ Lemma=complete NamedEntityTag=O] [Text=. CharacterOffsetBegin=1011 CharacterOffsetEnd=1012 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kaymer) (POS -s))
+      (NN golfing) (NN redemption))
+    (VP (VBZ is)
+      (ADJP (JJ complete)))
+    (. .)))
+
+root(ROOT-0, complete-6)
+poss(redemption-4, Kaymer-1)
+nn(redemption-4, golfing-3)
+nsubj(complete-6, redemption-4)
+cop(complete-6, is-5)
+
+Sentence #11 (32 tokens):
+If victory at the Players Championship last month highlighted his long-awaited return to form, a second major success reaffirmed Kaymer-s status as one of the sport-s leading lights.
+[Text=If CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=victory CharacterOffsetBegin=1016 CharacterOffsetEnd=1023 PartOfSpeech=NN Lemma=victory NamedEntityTag=O] [Text=at CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1027 CharacterOffsetEnd=1030 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Players CharacterOffsetBegin=1031 CharacterOffsetEnd=1038 PartOfSpeech=NNPS Lemma=Players NamedEntityTag=MISC] [Text=Championship CharacterOffsetBegin=1039 CharacterOffsetEnd=1051 PartOfSpeech=NNP Lemma=Championship NamedEntityTag=MISC] [Text=last CharacterOffsetBegin=1052 CharacterOffsetEnd=1056 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t8" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf1">last month<-TIMEX3>] [Text=month CharacterOffsetBegin=1057 CharacterOffsetEnd=1062 PartOfSpeech=NN Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t8" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf1">last month<-TIMEX3>] [Text=highlighted CharacterOffsetBegin=1063 CharacterOffsetEnd=1074 PartOfSpeech=VBD Lemma=highlight NamedEntityTag=O] [Text=his CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=long-awaited CharacterOffsetBegin=1079 CharacterOffsetEnd=1091 PartOfSpeech=JJ Lemma=long-awaited NamedEntityTag=O] [Text=return CharacterOffsetBegin=1092 CharacterOffsetEnd=1098 PartOfSpeech=NN Lemma=return NamedEntityTag=O] [Text=to CharacterOffsetBegin=1099 CharacterOffsetEnd=1101 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=form CharacterOffsetBegin=1102 CharacterOffsetEnd=1106 PartOfSpeech=VB Lemma=form NamedEntityTag=O] [Text=, CharacterOffsetBegin=1106 CharacterOffsetEnd=1107 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1108 CharacterOffsetEnd=1109 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1S Timex=<TIMEX3 tid="t9" type="DURATION" value="PT1S">a second<-TIMEX3>] [Text=second CharacterOffsetBegin=1110 CharacterOffsetEnd=1116 PartOfSpeech=JJ Lemma=second NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1S Timex=<TIMEX3 tid="t9" type="DURATION" value="PT1S">a second<-TIMEX3>] [Text=major CharacterOffsetBegin=1117 CharacterOffsetEnd=1122 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=success CharacterOffsetBegin=1123 CharacterOffsetEnd=1130 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=reaffirmed CharacterOffsetBegin=1131 CharacterOffsetEnd=1141 PartOfSpeech=VBD Lemma=reaffirm NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=1142 CharacterOffsetEnd=1148 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=1148 CharacterOffsetEnd=1150 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=status CharacterOffsetBegin=1151 CharacterOffsetEnd=1157 PartOfSpeech=NN Lemma=status NamedEntityTag=O] [Text=as CharacterOffsetBegin=1158 CharacterOffsetEnd=1160 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=one CharacterOffsetBegin=1161 CharacterOffsetEnd=1164 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1165 CharacterOffsetEnd=1167 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1168 CharacterOffsetEnd=1171 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sport CharacterOffsetBegin=1172 CharacterOffsetEnd=1177 PartOfSpeech=NN Lemma=sport NamedEntityTag=O] [Text=-s CharacterOffsetBegin=1177 CharacterOffsetEnd=1179 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=leading CharacterOffsetBegin=1180 CharacterOffsetEnd=1187 PartOfSpeech=VBG Lemma=lead NamedEntityTag=O] [Text=lights CharacterOffsetBegin=1188 CharacterOffsetEnd=1194 PartOfSpeech=NNS Lemma=light NamedEntityTag=O] [Text=. CharacterOffsetBegin=1194 CharacterOffsetEnd=1195 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP
+          (NP (NN victory))
+          (PP (IN at)
+            (NP (DT the) (NNPS Players) (NNP Championship))))
+        (NP-TMP (JJ last) (NN month))
+        (VP (VBD highlighted)
+          (NP (PRP$ his) (JJ long-awaited) (NN return))
+          (S
+            (VP (TO to)
+              (VP (VB form)))))))
+    (, ,)
+    (NP (DT a) (JJ second) (JJ major) (NN success))
+    (VP (VBD reaffirmed)
+      (NP
+        (NP (NNP Kaymer) (POS -s))
+        (NN status))
+      (PP (IN as)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN sport) (POS -s))
+              (VBG leading) (NNS lights))))))
+    (. .)))
+
+root(ROOT-0, reaffirmed-20)
+mark(highlighted-9, If-1)
+nsubj(highlighted-9, victory-2)
+det(Championship-6, the-4)
+nn(Championship-6, Players-5)
+prep_at(victory-2, Championship-6)
+amod(month-8, last-7)
+tmod(highlighted-9, month-8)
+advcl(reaffirmed-20, highlighted-9)
+poss(return-12, his-10)
+amod(return-12, long-awaited-11)
+dobj(highlighted-9, return-12)
+aux(form-14, to-13)
+vmod(highlighted-9, form-14)
+det(success-19, a-16)
+amod(success-19, second-17)
+amod(success-19, major-18)
+nsubj(reaffirmed-20, success-19)
+poss(status-23, Kaymer-21)
+dobj(reaffirmed-20, status-23)
+prep_as(reaffirmed-20, one-25)
+det(sport-28, the-27)
+poss(lights-31, sport-28)
+amod(lights-31, leading-30)
+prep_of(one-25, lights-31)
+
+Sentence #12 (17 tokens):
+His earlier period in the wilderness was brief in the context of a long professional career.
+[Text=His CharacterOffsetBegin=1196 CharacterOffsetEnd=1199 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=earlier CharacterOffsetBegin=1200 CharacterOffsetEnd=1207 PartOfSpeech=JJR Lemma=earlier NamedEntityTag=O] [Text=period CharacterOffsetBegin=1208 CharacterOffsetEnd=1214 PartOfSpeech=NN Lemma=period NamedEntityTag=O] [Text=in CharacterOffsetBegin=1215 CharacterOffsetEnd=1217 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1218 CharacterOffsetEnd=1221 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wilderness CharacterOffsetBegin=1222 CharacterOffsetEnd=1232 PartOfSpeech=NN Lemma=wilderness NamedEntityTag=O] [Text=was CharacterOffsetBegin=1233 CharacterOffsetEnd=1236 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=brief CharacterOffsetBegin=1237 CharacterOffsetEnd=1242 PartOfSpeech=JJ Lemma=brief NamedEntityTag=O] [Text=in CharacterOffsetBegin=1243 CharacterOffsetEnd=1245 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1246 CharacterOffsetEnd=1249 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=context CharacterOffsetBegin=1250 CharacterOffsetEnd=1257 PartOfSpeech=NN Lemma=context NamedEntityTag=O] [Text=of CharacterOffsetBegin=1258 CharacterOffsetEnd=1260 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1261 CharacterOffsetEnd=1262 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=long CharacterOffsetBegin=1263 CharacterOffsetEnd=1267 PartOfSpeech=JJ Lemma=long NamedEntityTag=O] [Text=professional CharacterOffsetBegin=1268 CharacterOffsetEnd=1280 PartOfSpeech=JJ Lemma=professional NamedEntityTag=O] [Text=career CharacterOffsetBegin=1281 CharacterOffsetEnd=1287 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=. CharacterOffsetBegin=1287 CharacterOffsetEnd=1288 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (JJR earlier) (NN period))
+      (PP (IN in)
+        (NP (DT the) (NN wilderness))))
+    (VP (VBD was)
+      (ADJP (JJ brief)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN context))
+            (PP (IN of)
+              (NP (DT a) (JJ long) (JJ professional) (NN career)))))))
+    (. .)))
+
+root(ROOT-0, brief-8)
+poss(period-3, His-1)
+amod(period-3, earlier-2)
+nsubj(brief-8, period-3)
+det(wilderness-6, the-5)
+prep_in(period-3, wilderness-6)
+cop(brief-8, was-7)
+det(context-11, the-10)
+prep_in(brief-8, context-11)
+det(career-16, a-13)
+amod(career-16, long-14)
+amod(career-16, professional-15)
+prep_of(context-11, career-16)
+
+Sentence #13 (21 tokens):
+Kaymer has thereby matched the major haul of his great compatriot, Bernhard Langer, before the age of 30.
+[Text=Kaymer CharacterOffsetBegin=1290 CharacterOffsetEnd=1296 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=1297 CharacterOffsetEnd=1300 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=thereby CharacterOffsetBegin=1301 CharacterOffsetEnd=1308 PartOfSpeech=RB Lemma=thereby NamedEntityTag=O] [Text=matched CharacterOffsetBegin=1309 CharacterOffsetEnd=1316 PartOfSpeech=VBN Lemma=match NamedEntityTag=O] [Text=the CharacterOffsetBegin=1317 CharacterOffsetEnd=1320 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=major CharacterOffsetBegin=1321 CharacterOffsetEnd=1326 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=haul CharacterOffsetBegin=1327 CharacterOffsetEnd=1331 PartOfSpeech=NN Lemma=haul NamedEntityTag=O] [Text=of CharacterOffsetBegin=1332 CharacterOffsetEnd=1334 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=his CharacterOffsetBegin=1335 CharacterOffsetEnd=1338 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=great CharacterOffsetBegin=1339 CharacterOffsetEnd=1344 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=compatriot CharacterOffsetBegin=1345 CharacterOffsetEnd=1355 PartOfSpeech=NN Lemma=compatriot NamedEntityTag=O] [Text=, CharacterOffsetBegin=1355 CharacterOffsetEnd=1356 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Bernhard CharacterOffsetBegin=1357 CharacterOffsetEnd=1365 PartOfSpeech=NNP Lemma=Bernhard NamedEntityTag=PERSON] [Text=Langer CharacterOffsetBegin=1366 CharacterOffsetEnd=1372 PartOfSpeech=NNP Lemma=Langer NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1372 CharacterOffsetEnd=1373 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=before CharacterOffsetBegin=1374 CharacterOffsetEnd=1380 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=the CharacterOffsetBegin=1381 CharacterOffsetEnd=1384 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=age CharacterOffsetBegin=1385 CharacterOffsetEnd=1388 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=of CharacterOffsetBegin=1389 CharacterOffsetEnd=1391 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=30 CharacterOffsetBegin=1392 CharacterOffsetEnd=1394 PartOfSpeech=CD Lemma=30 NamedEntityTag=NUMBER NormalizedNamedEntityTag=30.0] [Text=. CharacterOffsetBegin=1394 CharacterOffsetEnd=1395 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Kaymer))
+    (VP (VBZ has)
+      (ADVP (RB thereby))
+      (VP (VBN matched)
+        (NP
+          (NP (DT the) (JJ major) (NN haul))
+          (PP (IN of)
+            (NP
+              (NP (PRP$ his) (JJ great) (NN compatriot))
+              (, ,)
+              (NP (NNP Bernhard) (NNP Langer))
+              (, ,))))
+        (PP (IN before)
+          (NP
+            (NP (DT the) (NN age))
+            (PP (IN of)
+              (NP (CD 30)))))))
+    (. .)))
+
+root(ROOT-0, matched-4)
+nsubj(matched-4, Kaymer-1)
+aux(matched-4, has-2)
+advmod(matched-4, thereby-3)
+det(haul-7, the-5)
+amod(haul-7, major-6)
+dobj(matched-4, haul-7)
+poss(compatriot-11, his-9)
+amod(compatriot-11, great-10)
+prep_of(haul-7, compatriot-11)
+nn(Langer-14, Bernhard-13)
+appos(compatriot-11, Langer-14)
+det(age-18, the-17)
+prep_before(matched-4, age-18)
+prep_of(age-18, 30-20)
+
+Sentence #14 (11 tokens):
+Langer never finished higher than fourth in a US Open.
+[Text=Langer CharacterOffsetBegin=1396 CharacterOffsetEnd=1402 PartOfSpeech=NNP Lemma=Langer NamedEntityTag=PERSON] [Text=never CharacterOffsetBegin=1403 CharacterOffsetEnd=1408 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=finished CharacterOffsetBegin=1409 CharacterOffsetEnd=1417 PartOfSpeech=VBD Lemma=finish NamedEntityTag=O] [Text=higher CharacterOffsetBegin=1418 CharacterOffsetEnd=1424 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=than CharacterOffsetBegin=1425 CharacterOffsetEnd=1429 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=fourth CharacterOffsetBegin=1430 CharacterOffsetEnd=1436 PartOfSpeech=JJ Lemma=fourth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=4.0] [Text=in CharacterOffsetBegin=1437 CharacterOffsetEnd=1439 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1440 CharacterOffsetEnd=1441 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=US CharacterOffsetBegin=1442 CharacterOffsetEnd=1444 PartOfSpeech=NNP Lemma=US NamedEntityTag=MISC] [Text=Open CharacterOffsetBegin=1445 CharacterOffsetEnd=1449 PartOfSpeech=NNP Lemma=Open NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=1449 CharacterOffsetEnd=1450 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Langer))
+    (ADVP (RB never))
+    (VP (VBD finished)
+      (ADJP
+        (ADVP (JJR higher) (IN than))
+        (JJ fourth))
+      (PP (IN in)
+        (NP (DT a) (NNP US) (NNP Open))))
+    (. .)))
+
+root(ROOT-0, finished-3)
+nsubj(finished-3, Langer-1)
+neg(finished-3, never-2)
+dep(than-5, higher-4)
+advmod(fourth-6, than-5)
+acomp(finished-3, fourth-6)
+det(Open-10, a-8)
+nn(Open-10, US-9)
+prep_in(finished-3, Open-10)
+
+Sentence #15 (23 tokens):
+It was another player in his pomp, however, that Kaymer-s nerveless Sunday Pinehurst was reminiscent of: Tiger Woods.
+[Text=It CharacterOffsetBegin=1451 CharacterOffsetEnd=1453 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1454 CharacterOffsetEnd=1457 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=another CharacterOffsetBegin=1458 CharacterOffsetEnd=1465 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=player CharacterOffsetBegin=1466 CharacterOffsetEnd=1472 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=in CharacterOffsetBegin=1473 CharacterOffsetEnd=1475 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=1476 CharacterOffsetEnd=1479 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=pomp CharacterOffsetBegin=1480 CharacterOffsetEnd=1484 PartOfSpeech=NN Lemma=pomp NamedEntityTag=O] [Text=, CharacterOffsetBegin=1484 CharacterOffsetEnd=1485 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=however CharacterOffsetBegin=1486 CharacterOffsetEnd=1493 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=1493 CharacterOffsetEnd=1494 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=that CharacterOffsetBegin=1495 CharacterOffsetEnd=1499 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=1500 CharacterOffsetEnd=1506 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=1506 CharacterOffsetEnd=1508 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=nerveless CharacterOffsetBegin=1509 CharacterOffsetEnd=1518 PartOfSpeech=JJ Lemma=nerveless NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=1519 CharacterOffsetEnd=1525 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7 Timex=<TIMEX3 tid="t10" type="DATE" value="XXXX-WXX-7">Sunday<-TIMEX3>] [Text=Pinehurst CharacterOffsetBegin=1526 CharacterOffsetEnd=1535 PartOfSpeech=NNP Lemma=Pinehurst NamedEntityTag=O] [Text=was CharacterOffsetBegin=1536 CharacterOffsetEnd=1539 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=reminiscent CharacterOffsetBegin=1540 CharacterOffsetEnd=1551 PartOfSpeech=JJ Lemma=reminiscent NamedEntityTag=O] [Text=of CharacterOffsetBegin=1552 CharacterOffsetEnd=1554 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=: CharacterOffsetBegin=1554 CharacterOffsetEnd=1555 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Tiger CharacterOffsetBegin=1556 CharacterOffsetEnd=1561 PartOfSpeech=NNP Lemma=Tiger NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=1562 CharacterOffsetEnd=1567 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=O] [Text=. CharacterOffsetBegin=1567 CharacterOffsetEnd=1568 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (NP (DT another) (NN player))
+        (PP (IN in)
+          (NP (PRP$ his) (NN pomp)))
+        (, ,)
+        (ADVP (RB however))
+        (, ,)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NNP Kaymer) (POS -s))
+              (JJ nerveless) (NNP Sunday) (NNP Pinehurst))
+            (VP (VBD was)
+              (ADJP (JJ reminiscent)
+                (PP (IN of))))))))
+    (: :)
+    (NP (NNP Tiger) (NNP Woods))
+    (. .)))
+
+root(ROOT-0, player-4)
+nsubj(player-4, It-1)
+cop(player-4, was-2)
+det(player-4, another-3)
+poss(pomp-7, his-6)
+prep_in(player-4, pomp-7)
+advmod(player-4, however-9)
+mark(reminiscent-18, that-11)
+poss(Pinehurst-16, Kaymer-12)
+amod(Pinehurst-16, nerveless-14)
+nn(Pinehurst-16, Sunday-15)
+nsubj(reminiscent-18, Pinehurst-16)
+cop(reminiscent-18, was-17)
+ccomp(player-4, reminiscent-18)
+prep(reminiscent-18, of-19)
+nn(Woods-22, Tiger-21)
+dep(player-4, Woods-22)
+
+Sentence #16 (26 tokens):
+No sooner had the 29-year-old offered a brief glimpse of fallibility than he slammed shut the door of hope in front of the brow-beaten opposition.
+[Text=No CharacterOffsetBegin=1570 CharacterOffsetEnd=1572 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=sooner CharacterOffsetBegin=1573 CharacterOffsetEnd=1579 PartOfSpeech=RBR Lemma=sooner NamedEntityTag=O] [Text=had CharacterOffsetBegin=1580 CharacterOffsetEnd=1583 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=the CharacterOffsetBegin=1584 CharacterOffsetEnd=1587 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=29-year-old CharacterOffsetBegin=1588 CharacterOffsetEnd=1599 PartOfSpeech=JJ Lemma=29-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P29Y Timex=<TIMEX3 tid="t11" type="DURATION" value="P29Y">29-year-old<-TIMEX3>] [Text=offered CharacterOffsetBegin=1600 CharacterOffsetEnd=1607 PartOfSpeech=VBD Lemma=offer NamedEntityTag=O] [Text=a CharacterOffsetBegin=1608 CharacterOffsetEnd=1609 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=brief CharacterOffsetBegin=1610 CharacterOffsetEnd=1615 PartOfSpeech=JJ Lemma=brief NamedEntityTag=O] [Text=glimpse CharacterOffsetBegin=1616 CharacterOffsetEnd=1623 PartOfSpeech=NN Lemma=glimpse NamedEntityTag=O] [Text=of CharacterOffsetBegin=1624 CharacterOffsetEnd=1626 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=fallibility CharacterOffsetBegin=1627 CharacterOffsetEnd=1638 PartOfSpeech=NN Lemma=fallibility NamedEntityTag=O] [Text=than CharacterOffsetBegin=1639 CharacterOffsetEnd=1643 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=he CharacterOffsetBegin=1644 CharacterOffsetEnd=1646 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=slammed CharacterOffsetBegin=1647 CharacterOffsetEnd=1654 PartOfSpeech=VBD Lemma=slam NamedEntityTag=O] [Text=shut CharacterOffsetBegin=1655 CharacterOffsetEnd=1659 PartOfSpeech=VBN Lemma=shut NamedEntityTag=O] [Text=the CharacterOffsetBegin=1660 CharacterOffsetEnd=1663 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=door CharacterOffsetBegin=1664 CharacterOffsetEnd=1668 PartOfSpeech=NN Lemma=door NamedEntityTag=O] [Text=of CharacterOffsetBegin=1669 CharacterOffsetEnd=1671 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=hope CharacterOffsetBegin=1672 CharacterOffsetEnd=1676 PartOfSpeech=NN Lemma=hope NamedEntityTag=O] [Text=in CharacterOffsetBegin=1677 CharacterOffsetEnd=1679 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=front CharacterOffsetBegin=1680 CharacterOffsetEnd=1685 PartOfSpeech=NN Lemma=front NamedEntityTag=O] [Text=of CharacterOffsetBegin=1686 CharacterOffsetEnd=1688 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1689 CharacterOffsetEnd=1692 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=brow-beaten CharacterOffsetBegin=1693 CharacterOffsetEnd=1704 PartOfSpeech=JJ Lemma=brow-beaten NamedEntityTag=O] [Text=opposition CharacterOffsetBegin=1705 CharacterOffsetEnd=1715 PartOfSpeech=NN Lemma=opposition NamedEntityTag=O] [Text=. CharacterOffsetBegin=1715 CharacterOffsetEnd=1716 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP
+      (ADVP (DT No) (RBR sooner))
+      (SBAR (VBD had)
+        (S
+          (NP (DT the) (JJ 29-year-old))
+          (VP (VBD offered)
+            (NP
+              (NP (DT a) (JJ brief) (NN glimpse))
+              (PP (IN of)
+                (NP (NN fallibility))))
+            (PP (IN than))))))
+    (NP (PRP he))
+    (VP (VBD slammed)
+      (VP (VBN shut)
+        (NP
+          (NP (DT the) (NN door))
+          (PP (IN of)
+            (NP (NN hope))))
+        (PP (IN in)
+          (NP
+            (NP (NN front))
+            (PP (IN of)
+              (NP (DT the) (JJ brow-beaten) (NN opposition)))))))
+    (. .)))
+
+root(ROOT-0, slammed-14)
+neg(sooner-2, No-1)
+advmod(slammed-14, sooner-2)
+dep(offered-6, had-3)
+det(29-year-old-5, the-4)
+nsubj(offered-6, 29-year-old-5)
+dep(sooner-2, offered-6)
+det(glimpse-9, a-7)
+amod(glimpse-9, brief-8)
+dobj(offered-6, glimpse-9)
+prep_of(glimpse-9, fallibility-11)
+prep(offered-6, than-12)
+nsubj(slammed-14, he-13)
+dep(slammed-14, shut-15)
+det(door-17, the-16)
+dobj(shut-15, door-17)
+prep_of(door-17, hope-19)
+det(opposition-25, the-23)
+amod(opposition-25, brow-beaten-24)
+prep_in_front_of(shut-15, opposition-25)
+
+Sentence #17 (9 tokens):
+At the Players Kaymer secured a wire-to-wire triumph.
+[Text=At CharacterOffsetBegin=1717 CharacterOffsetEnd=1719 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1720 CharacterOffsetEnd=1723 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Players CharacterOffsetBegin=1724 CharacterOffsetEnd=1731 PartOfSpeech=NNPS Lemma=Players NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=1732 CharacterOffsetEnd=1738 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=secured CharacterOffsetBegin=1739 CharacterOffsetEnd=1746 PartOfSpeech=VBN Lemma=secure NamedEntityTag=O] [Text=a CharacterOffsetBegin=1747 CharacterOffsetEnd=1748 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=wire-to-wire CharacterOffsetBegin=1749 CharacterOffsetEnd=1761 PartOfSpeech=JJ Lemma=wire-to-wire NamedEntityTag=O] [Text=triumph CharacterOffsetBegin=1762 CharacterOffsetEnd=1769 PartOfSpeech=NN Lemma=triumph NamedEntityTag=O] [Text=. CharacterOffsetBegin=1769 CharacterOffsetEnd=1770 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NNPS Players) (NNP Kaymer))
+        (VP (VBN secured)
+          (NP (DT a) (JJ wire-to-wire) (NN triumph)))))
+    (. .)))
+
+root(ROOT-0, At-1)
+det(Kaymer-4, the-2)
+nn(Kaymer-4, Players-3)
+pobj(At-1, Kaymer-4)
+vmod(Kaymer-4, secured-5)
+det(triumph-8, a-6)
+amod(triumph-8, wire-to-wire-7)
+dobj(secured-5, triumph-8)
+
+Sentence #18 (26 tokens):
+To do it again in a major championship endorses a special talent, one which previously catapulted Kaymer to the summit of the world rankings.
+[Text=To CharacterOffsetBegin=1771 CharacterOffsetEnd=1773 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=1774 CharacterOffsetEnd=1776 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=it CharacterOffsetBegin=1777 CharacterOffsetEnd=1779 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=again CharacterOffsetBegin=1780 CharacterOffsetEnd=1785 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=in CharacterOffsetBegin=1786 CharacterOffsetEnd=1788 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1789 CharacterOffsetEnd=1790 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=major CharacterOffsetBegin=1791 CharacterOffsetEnd=1796 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=championship CharacterOffsetBegin=1797 CharacterOffsetEnd=1809 PartOfSpeech=NN Lemma=championship NamedEntityTag=O] [Text=endorses CharacterOffsetBegin=1810 CharacterOffsetEnd=1818 PartOfSpeech=VBZ Lemma=endorse NamedEntityTag=O] [Text=a CharacterOffsetBegin=1819 CharacterOffsetEnd=1820 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=special CharacterOffsetBegin=1821 CharacterOffsetEnd=1828 PartOfSpeech=JJ Lemma=special NamedEntityTag=O] [Text=talent CharacterOffsetBegin=1829 CharacterOffsetEnd=1835 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=, CharacterOffsetBegin=1835 CharacterOffsetEnd=1836 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=one CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=which CharacterOffsetBegin=1841 CharacterOffsetEnd=1846 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=previously CharacterOffsetBegin=1847 CharacterOffsetEnd=1857 PartOfSpeech=RB Lemma=previously NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t12" type="DATE" value="PAST_REF">previously<-TIMEX3>] [Text=catapulted CharacterOffsetBegin=1858 CharacterOffsetEnd=1868 PartOfSpeech=VBD Lemma=catapult NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=1869 CharacterOffsetEnd=1875 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=1876 CharacterOffsetEnd=1878 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1879 CharacterOffsetEnd=1882 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=summit CharacterOffsetBegin=1883 CharacterOffsetEnd=1889 PartOfSpeech=NN Lemma=summit NamedEntityTag=O] [Text=of CharacterOffsetBegin=1890 CharacterOffsetEnd=1892 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1893 CharacterOffsetEnd=1896 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=1897 CharacterOffsetEnd=1902 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=rankings CharacterOffsetBegin=1903 CharacterOffsetEnd=1911 PartOfSpeech=NNS Lemma=ranking NamedEntityTag=O] [Text=. CharacterOffsetBegin=1911 CharacterOffsetEnd=1912 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (VP (TO To)
+        (VP (VB do)
+          (NP (PRP it))
+          (ADVP (RB again))
+          (PP (IN in)
+            (NP (DT a) (JJ major) (NN championship))))))
+    (VP (VBZ endorses))
+    (NP
+      (NP (DT a) (JJ special) (NN talent))
+      (, ,)
+      (NP
+        (NP (CD one))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (ADVP (RB previously))
+            (VP (VBD catapulted)
+              (NP (NNP Kaymer))
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN summit))
+                  (PP (IN of)
+                    (NP (DT the) (NN world) (NNS rankings))))))))))
+    (. .)))
+
+root(ROOT-0, endorses-9)
+aux(do-2, To-1)
+dep(endorses-9, do-2)
+dobj(do-2, it-3)
+advmod(do-2, again-4)
+det(championship-8, a-6)
+amod(championship-8, major-7)
+prep_in(do-2, championship-8)
+det(talent-12, a-10)
+amod(talent-12, special-11)
+nsubj(endorses-9, talent-12)
+appos(talent-12, one-14)
+nsubj(catapulted-17, which-15)
+advmod(catapulted-17, previously-16)
+rcmod(one-14, catapulted-17)
+dobj(catapulted-17, Kaymer-18)
+det(summit-21, the-20)
+prep_to(catapulted-17, summit-21)
+det(rankings-25, the-23)
+nn(rankings-25, world-24)
+prep_of(summit-21, rankings-25)
+
+Sentence #19 (23 tokens):
+When Kaymer speaks of working his way back to the summit of this game, such sentiment should not be taken lightly.
+[Text=When CharacterOffsetBegin=1914 CharacterOffsetEnd=1918 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=1919 CharacterOffsetEnd=1925 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=speaks CharacterOffsetBegin=1926 CharacterOffsetEnd=1932 PartOfSpeech=VBZ Lemma=speak NamedEntityTag=O] [Text=of CharacterOffsetBegin=1933 CharacterOffsetEnd=1935 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=working CharacterOffsetBegin=1936 CharacterOffsetEnd=1943 PartOfSpeech=VBG Lemma=work NamedEntityTag=O] [Text=his CharacterOffsetBegin=1944 CharacterOffsetEnd=1947 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=way CharacterOffsetBegin=1948 CharacterOffsetEnd=1951 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=back CharacterOffsetBegin=1952 CharacterOffsetEnd=1956 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=to CharacterOffsetBegin=1957 CharacterOffsetEnd=1959 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1960 CharacterOffsetEnd=1963 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=summit CharacterOffsetBegin=1964 CharacterOffsetEnd=1970 PartOfSpeech=NN Lemma=summit NamedEntityTag=O] [Text=of CharacterOffsetBegin=1971 CharacterOffsetEnd=1973 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=1974 CharacterOffsetEnd=1978 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=game CharacterOffsetBegin=1979 CharacterOffsetEnd=1983 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=, CharacterOffsetBegin=1983 CharacterOffsetEnd=1984 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=such CharacterOffsetBegin=1985 CharacterOffsetEnd=1989 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=sentiment CharacterOffsetBegin=1990 CharacterOffsetEnd=1999 PartOfSpeech=NN Lemma=sentiment NamedEntityTag=O] [Text=should CharacterOffsetBegin=2000 CharacterOffsetEnd=2006 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=not CharacterOffsetBegin=2007 CharacterOffsetEnd=2010 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=be CharacterOffsetBegin=2011 CharacterOffsetEnd=2013 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=taken CharacterOffsetBegin=2014 CharacterOffsetEnd=2019 PartOfSpeech=VBN Lemma=take NamedEntityTag=O] [Text=lightly CharacterOffsetBegin=2020 CharacterOffsetEnd=2027 PartOfSpeech=RB Lemma=lightly NamedEntityTag=O] [Text=. CharacterOffsetBegin=2027 CharacterOffsetEnd=2028 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Kaymer))
+        (VP (VBZ speaks)
+          (PP (IN of)
+            (S
+              (VP (VBG working)
+                (NP (PRP$ his) (NN way))
+                (ADVP (RB back))
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (NN summit))
+                    (PP (IN of)
+                      (NP (DT this) (NN game)))))))))))
+    (, ,)
+    (NP (JJ such) (NN sentiment))
+    (VP (MD should) (RB not)
+      (VP (VB be)
+        (VP (VBN taken)
+          (ADVP (RB lightly)))))
+    (. .)))
+
+root(ROOT-0, taken-21)
+advmod(speaks-3, When-1)
+nsubj(speaks-3, Kaymer-2)
+advcl(taken-21, speaks-3)
+prepc_of(speaks-3, working-5)
+poss(way-7, his-6)
+dobj(working-5, way-7)
+advmod(working-5, back-8)
+det(summit-11, the-10)
+prep_to(working-5, summit-11)
+det(game-14, this-13)
+prep_of(summit-11, game-14)
+amod(sentiment-17, such-16)
+nsubjpass(taken-21, sentiment-17)
+aux(taken-21, should-18)
+neg(taken-21, not-19)
+auxpass(taken-21, be-20)
+advmod(taken-21, lightly-22)
+
+Sentence #20 (24 tokens):
+This is a player who has hit range balls until his hands bled, such is his determination even to flirt with perfection.
+[Text=This CharacterOffsetBegin=2029 CharacterOffsetEnd=2033 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=is CharacterOffsetBegin=2034 CharacterOffsetEnd=2036 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2037 CharacterOffsetEnd=2038 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=player CharacterOffsetBegin=2039 CharacterOffsetEnd=2045 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=who CharacterOffsetBegin=2046 CharacterOffsetEnd=2049 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=has CharacterOffsetBegin=2050 CharacterOffsetEnd=2053 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=hit CharacterOffsetBegin=2054 CharacterOffsetEnd=2057 PartOfSpeech=VBN Lemma=hit NamedEntityTag=O] [Text=range CharacterOffsetBegin=2058 CharacterOffsetEnd=2063 PartOfSpeech=NN Lemma=range NamedEntityTag=O] [Text=balls CharacterOffsetBegin=2064 CharacterOffsetEnd=2069 PartOfSpeech=NNS Lemma=ball NamedEntityTag=O] [Text=until CharacterOffsetBegin=2070 CharacterOffsetEnd=2075 PartOfSpeech=IN Lemma=until NamedEntityTag=O] [Text=his CharacterOffsetBegin=2076 CharacterOffsetEnd=2079 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=hands CharacterOffsetBegin=2080 CharacterOffsetEnd=2085 PartOfSpeech=NNS Lemma=hand NamedEntityTag=O] [Text=bled CharacterOffsetBegin=2086 CharacterOffsetEnd=2090 PartOfSpeech=VBD Lemma=bleed NamedEntityTag=O] [Text=, CharacterOffsetBegin=2090 CharacterOffsetEnd=2091 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=such CharacterOffsetBegin=2092 CharacterOffsetEnd=2096 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=is CharacterOffsetBegin=2097 CharacterOffsetEnd=2099 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=his CharacterOffsetBegin=2100 CharacterOffsetEnd=2103 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=determination CharacterOffsetBegin=2104 CharacterOffsetEnd=2117 PartOfSpeech=NN Lemma=determination NamedEntityTag=O] [Text=even CharacterOffsetBegin=2118 CharacterOffsetEnd=2122 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=to CharacterOffsetBegin=2123 CharacterOffsetEnd=2125 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=flirt CharacterOffsetBegin=2126 CharacterOffsetEnd=2131 PartOfSpeech=VB Lemma=flirt NamedEntityTag=O] [Text=with CharacterOffsetBegin=2132 CharacterOffsetEnd=2136 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=perfection CharacterOffsetBegin=2137 CharacterOffsetEnd=2147 PartOfSpeech=NN Lemma=perfection NamedEntityTag=O] [Text=. CharacterOffsetBegin=2147 CharacterOffsetEnd=2148 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (NN player))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBZ has)
+                (VP (VBN hit)
+                  (NP (NN range) (NNS balls))
+                  (SBAR (IN until)
+                    (S
+                      (NP (PRP$ his) (NNS hands))
+                      (VP (VBD bled)))))))))))
+    (, ,)
+    (NP (JJ such))
+    (VP (VBZ is)
+      (NP (PRP$ his) (NN determination))
+      (ADVP (RB even))
+      (S
+        (VP (TO to)
+          (VP (VB flirt)
+            (PP (IN with)
+              (NP (NN perfection)))))))
+    (. .)))
+
+root(ROOT-0, determination-18)
+nsubj(player-4, This-1)
+cop(player-4, is-2)
+det(player-4, a-3)
+ccomp(determination-18, player-4)
+nsubj(hit-7, who-5)
+aux(hit-7, has-6)
+rcmod(player-4, hit-7)
+nn(balls-9, range-8)
+dobj(hit-7, balls-9)
+mark(bled-13, until-10)
+poss(hands-12, his-11)
+nsubj(bled-13, hands-12)
+advcl(hit-7, bled-13)
+nsubj(determination-18, such-15)
+cop(determination-18, is-16)
+poss(determination-18, his-17)
+advmod(determination-18, even-19)
+aux(flirt-21, to-20)
+vmod(determination-18, flirt-21)
+prep_with(flirt-21, perfection-23)
+
+Sentence #21 (24 tokens):
+Two years after he holed the winning putt at Medinah, Kaymer is virtually certain to return to the Ryder Cup in September.
+[Text=Two CharacterOffsetBegin=2150 CharacterOffsetEnd=2153 PartOfSpeech=CD Lemma=two NamedEntityTag=DURATION NormalizedNamedEntityTag=P2Y Timex=<TIMEX3 tid="t13" type="DURATION" value="P2Y">Two years<-TIMEX3>] [Text=years CharacterOffsetBegin=2154 CharacterOffsetEnd=2159 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P2Y Timex=<TIMEX3 tid="t13" type="DURATION" value="P2Y">Two years<-TIMEX3>] [Text=after CharacterOffsetBegin=2160 CharacterOffsetEnd=2165 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=2166 CharacterOffsetEnd=2168 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=holed CharacterOffsetBegin=2169 CharacterOffsetEnd=2174 PartOfSpeech=VBD Lemma=hole NamedEntityTag=O] [Text=the CharacterOffsetBegin=2175 CharacterOffsetEnd=2178 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=winning CharacterOffsetBegin=2179 CharacterOffsetEnd=2186 PartOfSpeech=VBG Lemma=win NamedEntityTag=O] [Text=putt CharacterOffsetBegin=2187 CharacterOffsetEnd=2191 PartOfSpeech=NN Lemma=putt NamedEntityTag=O] [Text=at CharacterOffsetBegin=2192 CharacterOffsetEnd=2194 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Medinah CharacterOffsetBegin=2195 CharacterOffsetEnd=2202 PartOfSpeech=NNP Lemma=Medinah NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2202 CharacterOffsetEnd=2203 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=2204 CharacterOffsetEnd=2210 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=2211 CharacterOffsetEnd=2213 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=virtually CharacterOffsetBegin=2214 CharacterOffsetEnd=2223 PartOfSpeech=RB Lemma=virtually NamedEntityTag=O] [Text=certain CharacterOffsetBegin=2224 CharacterOffsetEnd=2231 PartOfSpeech=JJ Lemma=certain NamedEntityTag=O] [Text=to CharacterOffsetBegin=2232 CharacterOffsetEnd=2234 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=return CharacterOffsetBegin=2235 CharacterOffsetEnd=2241 PartOfSpeech=VB Lemma=return NamedEntityTag=O] [Text=to CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2245 CharacterOffsetEnd=2248 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Ryder CharacterOffsetBegin=2249 CharacterOffsetEnd=2254 PartOfSpeech=NNP Lemma=Ryder NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=2255 CharacterOffsetEnd=2258 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=in CharacterOffsetBegin=2259 CharacterOffsetEnd=2261 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=September CharacterOffsetBegin=2262 CharacterOffsetEnd=2271 PartOfSpeech=NNP Lemma=September NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-09 Timex=<TIMEX3 tid="t14" type="DATE" value="XXXX-09">September<-TIMEX3>] [Text=. CharacterOffsetBegin=2271 CharacterOffsetEnd=2272 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (NP (CD Two) (NNS years))
+      (IN after)
+      (S
+        (NP (PRP he))
+        (VP (VBD holed)
+          (NP
+            (NP (DT the) (VBG winning) (NN putt))
+            (PP (IN at)
+              (NP (NNP Medinah)))))))
+    (, ,)
+    (NP (NNP Kaymer))
+    (VP (VBZ is)
+      (ADJP (RB virtually) (JJ certain))
+      (S
+        (VP (TO to)
+          (VP (VB return)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NNP Ryder) (NNP Cup))
+                (PP (IN in)
+                  (NP (NNP September)))))))))
+    (. .)))
+
+root(ROOT-0, certain-15)
+num(years-2, Two-1)
+dep(holed-5, years-2)
+mark(holed-5, after-3)
+nsubj(holed-5, he-4)
+advcl(certain-15, holed-5)
+det(putt-8, the-6)
+amod(putt-8, winning-7)
+dobj(holed-5, putt-8)
+prep_at(putt-8, Medinah-10)
+nsubj(certain-15, Kaymer-12)
+cop(certain-15, is-13)
+advmod(certain-15, virtually-14)
+aux(return-17, to-16)
+xcomp(certain-15, return-17)
+det(Cup-21, the-19)
+nn(Cup-21, Ryder-20)
+prep_to(return-17, Cup-21)
+prep_in(Cup-21, September-23)
+
+Sentence #22 (10 tokens):
+His competitive toughness renders him a significant European weapon.
+[Text=His CharacterOffsetBegin=2273 CharacterOffsetEnd=2276 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=competitive CharacterOffsetBegin=2277 CharacterOffsetEnd=2288 PartOfSpeech=JJ Lemma=competitive NamedEntityTag=O] [Text=toughness CharacterOffsetBegin=2289 CharacterOffsetEnd=2298 PartOfSpeech=NN Lemma=toughness NamedEntityTag=O] [Text=renders CharacterOffsetBegin=2299 CharacterOffsetEnd=2306 PartOfSpeech=VBZ Lemma=render NamedEntityTag=O] [Text=him CharacterOffsetBegin=2307 CharacterOffsetEnd=2310 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=a CharacterOffsetBegin=2311 CharacterOffsetEnd=2312 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=significant CharacterOffsetBegin=2313 CharacterOffsetEnd=2324 PartOfSpeech=JJ Lemma=significant NamedEntityTag=O] [Text=European CharacterOffsetBegin=2325 CharacterOffsetEnd=2333 PartOfSpeech=JJ Lemma=european NamedEntityTag=MISC] [Text=weapon CharacterOffsetBegin=2334 CharacterOffsetEnd=2340 PartOfSpeech=NN Lemma=weapon NamedEntityTag=O] [Text=. CharacterOffsetBegin=2340 CharacterOffsetEnd=2341 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ His) (JJ competitive) (NN toughness))
+    (VP (VBZ renders)
+      (S
+        (NP (PRP him))
+        (NP (DT a) (JJ significant) (JJ European) (NN weapon))))
+    (. .)))
+
+root(ROOT-0, renders-4)
+poss(toughness-3, His-1)
+amod(toughness-3, competitive-2)
+nsubj(renders-4, toughness-3)
+nsubj(weapon-9, him-5)
+det(weapon-9, a-6)
+amod(weapon-9, significant-7)
+amod(weapon-9, European-8)
+xcomp(renders-4, weapon-9)
+
+Sentence #23 (46 tokens):
+"If you got him in a Ryder Cup match or coming down the end of a tournament, he-s probably a guy you would rather not face," said Keegan Bradley, who partnered Kaymer over the first two rounds at Pinehurst.
+[Text=`` CharacterOffsetBegin=2343 CharacterOffsetEnd=2344 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=If CharacterOffsetBegin=2344 CharacterOffsetEnd=2346 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=2347 CharacterOffsetEnd=2350 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=got CharacterOffsetBegin=2351 CharacterOffsetEnd=2354 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=him CharacterOffsetBegin=2355 CharacterOffsetEnd=2358 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=in CharacterOffsetBegin=2359 CharacterOffsetEnd=2361 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=2362 CharacterOffsetEnd=2363 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Ryder CharacterOffsetBegin=2364 CharacterOffsetEnd=2369 PartOfSpeech=NNP Lemma=Ryder NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=2370 CharacterOffsetEnd=2373 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=match CharacterOffsetBegin=2374 CharacterOffsetEnd=2379 PartOfSpeech=NN Lemma=match NamedEntityTag=O] [Text=or CharacterOffsetBegin=2380 CharacterOffsetEnd=2382 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=coming CharacterOffsetBegin=2383 CharacterOffsetEnd=2389 PartOfSpeech=VBG Lemma=come NamedEntityTag=O] [Text=down CharacterOffsetBegin=2390 CharacterOffsetEnd=2394 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=the CharacterOffsetBegin=2395 CharacterOffsetEnd=2398 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=end CharacterOffsetBegin=2399 CharacterOffsetEnd=2402 PartOfSpeech=NN Lemma=end NamedEntityTag=O] [Text=of CharacterOffsetBegin=2403 CharacterOffsetEnd=2405 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=2406 CharacterOffsetEnd=2407 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tournament CharacterOffsetBegin=2408 CharacterOffsetEnd=2418 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text=, CharacterOffsetBegin=2418 CharacterOffsetEnd=2419 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=2420 CharacterOffsetEnd=2422 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2422 CharacterOffsetEnd=2424 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=probably CharacterOffsetBegin=2425 CharacterOffsetEnd=2433 PartOfSpeech=RB Lemma=probably NamedEntityTag=O] [Text=a CharacterOffsetBegin=2434 CharacterOffsetEnd=2435 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=guy CharacterOffsetBegin=2436 CharacterOffsetEnd=2439 PartOfSpeech=NN Lemma=guy NamedEntityTag=O] [Text=you CharacterOffsetBegin=2440 CharacterOffsetEnd=2443 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=would CharacterOffsetBegin=2444 CharacterOffsetEnd=2449 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=rather CharacterOffsetBegin=2450 CharacterOffsetEnd=2456 PartOfSpeech=RB Lemma=rather NamedEntityTag=O] [Text=not CharacterOffsetBegin=2457 CharacterOffsetEnd=2460 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=face CharacterOffsetBegin=2461 CharacterOffsetEnd=2465 PartOfSpeech=VB Lemma=face NamedEntityTag=O] [Text=, CharacterOffsetBegin=2465 CharacterOffsetEnd=2466 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2466 CharacterOffsetEnd=2467 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=said CharacterOffsetBegin=2468 CharacterOffsetEnd=2472 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Keegan CharacterOffsetBegin=2473 CharacterOffsetEnd=2479 PartOfSpeech=NNP Lemma=Keegan NamedEntityTag=PERSON] [Text=Bradley CharacterOffsetBegin=2480 CharacterOffsetEnd=2487 PartOfSpeech=NNP Lemma=Bradley NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2487 CharacterOffsetEnd=2488 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=2489 CharacterOffsetEnd=2492 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=partnered CharacterOffsetBegin=2493 CharacterOffsetEnd=2502 PartOfSpeech=VBD Lemma=partner NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=2503 CharacterOffsetEnd=2509 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=over CharacterOffsetBegin=2510 CharacterOffsetEnd=2514 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=2515 CharacterOffsetEnd=2518 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=2519 CharacterOffsetEnd=2524 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=two CharacterOffsetBegin=2525 CharacterOffsetEnd=2528 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=rounds CharacterOffsetBegin=2529 CharacterOffsetEnd=2535 PartOfSpeech=NNS Lemma=round NamedEntityTag=O] [Text=at CharacterOffsetBegin=2536 CharacterOffsetEnd=2538 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Pinehurst CharacterOffsetBegin=2539 CharacterOffsetEnd=2548 PartOfSpeech=NNP Lemma=Pinehurst NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2548 CharacterOffsetEnd=2549 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (PRP you))
+          (VP (VBD got)
+            (NP (PRP him))
+            (UCP
+              (PP (IN in)
+                (NP (DT a) (NNP Ryder) (NNP Cup) (NN match)))
+              (CC or)
+              (S
+                (VP (VBG coming)
+                  (PRT (RP down))
+                  (NP
+                    (NP (DT the) (NN end))
+                    (PP (IN of)
+                      (NP (DT a) (NN tournament))))))))))
+      (, ,)
+      (NP (PRP he))
+      (VP (VBZ -s)
+        (ADVP (RB probably))
+        (NP
+          (NP (DT a) (NN guy))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (MD would)
+                (ADVP (RB rather))
+                (RB not)
+                (VP (VB face))))))))
+    (, ,) (-- --)
+    (VP (VBD said))
+    (NP
+      (NP (NNP Keegan) (NNP Bradley))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD partnered)
+            (NP (NNP Kaymer))
+            (PP (IN over)
+              (NP (DT the) (JJ first) (CD two) (NNS rounds)))
+            (PP (IN at)
+              (NP (NNP Pinehurst)))))))
+    (. .)))
+
+root(ROOT-0, said-32)
+mark(got-4, If-2)
+nsubj(got-4, you-3)
+advcl(guy-24, got-4)
+dobj(got-4, him-5)
+dep(got-4, in-6)
+det(match-10, a-7)
+nn(match-10, Ryder-8)
+nn(match-10, Cup-9)
+pobj(in-6, match-10)
+conj_or(in-6, coming-12)
+prt(coming-12, down-13)
+det(end-15, the-14)
+dobj(coming-12, end-15)
+det(tournament-18, a-17)
+prep_of(end-15, tournament-18)
+nsubj(guy-24, he-20)
+cop(guy-24, -s-21)
+advmod(guy-24, probably-22)
+det(guy-24, a-23)
+ccomp(said-32, guy-24)
+nsubj(face-29, you-25)
+aux(face-29, would-26)
+advmod(face-29, rather-27)
+neg(face-29, not-28)
+rcmod(guy-24, face-29)
+nn(Bradley-34, Keegan-33)
+nsubj(said-32, Bradley-34)
+nsubj(partnered-37, who-36)
+rcmod(Bradley-34, partnered-37)
+dobj(partnered-37, Kaymer-38)
+det(rounds-43, the-40)
+amod(rounds-43, first-41)
+num(rounds-43, two-42)
+prep_over(partnered-37, rounds-43)
+prep_at(partnered-37, Pinehurst-45)
+
+Sentence #24 (13 tokens):
+"He-s tough and he-s very, very good."
+[Text=`` CharacterOffsetBegin=2550 CharacterOffsetEnd=2551 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=2551 CharacterOffsetEnd=2553 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2553 CharacterOffsetEnd=2555 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=tough CharacterOffsetBegin=2556 CharacterOffsetEnd=2561 PartOfSpeech=JJ Lemma=tough NamedEntityTag=O] [Text=and CharacterOffsetBegin=2562 CharacterOffsetEnd=2565 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=2566 CharacterOffsetEnd=2568 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2568 CharacterOffsetEnd=2570 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=2571 CharacterOffsetEnd=2575 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=, CharacterOffsetBegin=2575 CharacterOffsetEnd=2576 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=very CharacterOffsetBegin=2577 CharacterOffsetEnd=2581 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=good CharacterOffsetBegin=2582 CharacterOffsetEnd=2586 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=. CharacterOffsetBegin=2586 CharacterOffsetEnd=2587 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2587 CharacterOffsetEnd=2588 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP He))
+      (VP (VBZ -s)
+        (ADJP (JJ tough))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBZ -s)
+        (ADJP (RB very) (, ,) (RB very) (JJ good))))
+    (. .) (-- --)))
+
+root(ROOT-0, tough-4)
+nsubj(tough-4, He-2)
+cop(tough-4, -s-3)
+nsubj(good-11, he-6)
+cop(good-11, -s-7)
+advmod(good-11, very-8)
+advmod(good-11, very-10)
+conj_and(tough-4, good-11)
+
+Sentence #25 (11 tokens):
+Kaymer-s lead had stood at five after 54 holes.
+[Text=Kaymer CharacterOffsetBegin=2590 CharacterOffsetEnd=2596 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=2596 CharacterOffsetEnd=2598 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=lead CharacterOffsetBegin=2599 CharacterOffsetEnd=2603 PartOfSpeech=NN Lemma=lead NamedEntityTag=O] [Text=had CharacterOffsetBegin=2604 CharacterOffsetEnd=2607 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=stood CharacterOffsetBegin=2608 CharacterOffsetEnd=2613 PartOfSpeech=VBN Lemma=stand NamedEntityTag=O] [Text=at CharacterOffsetBegin=2614 CharacterOffsetEnd=2616 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=five CharacterOffsetBegin=2617 CharacterOffsetEnd=2621 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=after CharacterOffsetBegin=2622 CharacterOffsetEnd=2627 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=54 CharacterOffsetBegin=2628 CharacterOffsetEnd=2630 PartOfSpeech=CD Lemma=54 NamedEntityTag=NUMBER NormalizedNamedEntityTag=54.0] [Text=holes CharacterOffsetBegin=2631 CharacterOffsetEnd=2636 PartOfSpeech=NNS Lemma=hole NamedEntityTag=O] [Text=. CharacterOffsetBegin=2636 CharacterOffsetEnd=2637 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kaymer) (POS -s))
+      (NN lead))
+    (VP (VBD had)
+      (VP (VBN stood)
+        (PP (IN at)
+          (NP (CD five)))
+        (PP (IN after)
+          (NP (CD 54) (NNS holes)))))
+    (. .)))
+
+root(ROOT-0, stood-5)
+poss(lead-3, Kaymer-1)
+nsubj(stood-5, lead-3)
+aux(stood-5, had-4)
+prep_at(stood-5, five-7)
+num(holes-10, 54-9)
+prep_after(stood-5, holes-10)
+
+Sentence #26 (30 tokens):
+Barring a nerve-inflicted disaster, that always looked insurmountable leeway; even a slightly generous Sunday set-up at Pinehurst was not going to trigger scores of 65 or better.
+[Text=Barring CharacterOffsetBegin=2638 CharacterOffsetEnd=2645 PartOfSpeech=VBG Lemma=bar NamedEntityTag=O] [Text=a CharacterOffsetBegin=2646 CharacterOffsetEnd=2647 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=nerve-inflicted CharacterOffsetBegin=2648 CharacterOffsetEnd=2663 PartOfSpeech=JJ Lemma=nerve-inflicted NamedEntityTag=O] [Text=disaster CharacterOffsetBegin=2664 CharacterOffsetEnd=2672 PartOfSpeech=NN Lemma=disaster NamedEntityTag=O] [Text=, CharacterOffsetBegin=2672 CharacterOffsetEnd=2673 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=that CharacterOffsetBegin=2674 CharacterOffsetEnd=2678 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=always CharacterOffsetBegin=2679 CharacterOffsetEnd=2685 PartOfSpeech=RB Lemma=always NamedEntityTag=O] [Text=looked CharacterOffsetBegin=2686 CharacterOffsetEnd=2692 PartOfSpeech=VBD Lemma=look NamedEntityTag=O] [Text=insurmountable CharacterOffsetBegin=2693 CharacterOffsetEnd=2707 PartOfSpeech=JJ Lemma=insurmountable NamedEntityTag=O] [Text=leeway CharacterOffsetBegin=2708 CharacterOffsetEnd=2714 PartOfSpeech=NN Lemma=leeway NamedEntityTag=O] [Text=; CharacterOffsetBegin=2714 CharacterOffsetEnd=2715 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=even CharacterOffsetBegin=2716 CharacterOffsetEnd=2720 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=a CharacterOffsetBegin=2721 CharacterOffsetEnd=2722 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=slightly CharacterOffsetBegin=2723 CharacterOffsetEnd=2731 PartOfSpeech=RB Lemma=slightly NamedEntityTag=O] [Text=generous CharacterOffsetBegin=2732 CharacterOffsetEnd=2740 PartOfSpeech=JJ Lemma=generous NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=2741 CharacterOffsetEnd=2747 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7 Timex=<TIMEX3 tid="t10" type="DATE" value="XXXX-WXX-7">Sunday<-TIMEX3>] [Text=set-up CharacterOffsetBegin=2748 CharacterOffsetEnd=2754 PartOfSpeech=NN Lemma=set-up NamedEntityTag=O] [Text=at CharacterOffsetBegin=2755 CharacterOffsetEnd=2757 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Pinehurst CharacterOffsetBegin=2758 CharacterOffsetEnd=2767 PartOfSpeech=NNP Lemma=Pinehurst NamedEntityTag=LOCATION] [Text=was CharacterOffsetBegin=2768 CharacterOffsetEnd=2771 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2772 CharacterOffsetEnd=2775 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=going CharacterOffsetBegin=2776 CharacterOffsetEnd=2781 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=2782 CharacterOffsetEnd=2784 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=trigger CharacterOffsetBegin=2785 CharacterOffsetEnd=2792 PartOfSpeech=VB Lemma=trigger NamedEntityTag=O] [Text=scores CharacterOffsetBegin=2793 CharacterOffsetEnd=2799 PartOfSpeech=NNS Lemma=score NamedEntityTag=O] [Text=of CharacterOffsetBegin=2800 CharacterOffsetEnd=2802 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=65 CharacterOffsetBegin=2803 CharacterOffsetEnd=2805 PartOfSpeech=CD Lemma=65 NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0] [Text=or CharacterOffsetBegin=2806 CharacterOffsetEnd=2808 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=better CharacterOffsetBegin=2809 CharacterOffsetEnd=2815 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=. CharacterOffsetBegin=2815 CharacterOffsetEnd=2816 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (PP (VBG Barring)
+        (NP (DT a) (JJ nerve-inflicted) (NN disaster)))
+      (, ,)
+      (NP (WDT that))
+      (ADVP (RB always))
+      (VP (VBD looked)
+        (NP (JJ insurmountable) (NN leeway))))
+    (: ;)
+    (S
+      (NP
+        (NP (RB even) (DT a)
+          (ADJP (RB slightly) (JJ generous))
+          (NNP Sunday) (NN set-up))
+        (PP (IN at)
+          (NP (NNP Pinehurst))))
+      (VP (VBD was) (RB not)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB trigger)
+                (NP
+                  (NP (NNS scores))
+                  (PP (IN of)
+                    (NP
+                      (QP (CD 65)
+                        (CC or)
+                        (JJR better)))))))))))
+    (. .)))
+
+root(ROOT-0, looked-8)
+det(disaster-4, a-2)
+amod(disaster-4, nerve-inflicted-3)
+prep_barring(looked-8, disaster-4)
+nsubj(looked-8, that-6)
+advmod(looked-8, always-7)
+amod(leeway-10, insurmountable-9)
+dobj(looked-8, leeway-10)
+advmod(set-up-17, even-12)
+det(set-up-17, a-13)
+advmod(generous-15, slightly-14)
+amod(set-up-17, generous-15)
+nn(set-up-17, Sunday-16)
+nsubj(going-22, set-up-17)
+prep_at(set-up-17, Pinehurst-19)
+aux(going-22, was-20)
+neg(going-22, not-21)
+parataxis(looked-8, going-22)
+aux(trigger-24, to-23)
+xcomp(going-22, trigger-24)
+dobj(trigger-24, scores-25)
+prep_of(scores-25, 65-27)
+conj_or(65-27, better-29)
+
+Sentence #27 (20 tokens):
+The closest any player got to Kaymer on day four was four strokes, after he bogeyed the 7th.
+[Text=The CharacterOffsetBegin=2818 CharacterOffsetEnd=2821 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=closest CharacterOffsetBegin=2822 CharacterOffsetEnd=2829 PartOfSpeech=JJS Lemma=closest NamedEntityTag=O] [Text=any CharacterOffsetBegin=2830 CharacterOffsetEnd=2833 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=player CharacterOffsetBegin=2834 CharacterOffsetEnd=2840 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=got CharacterOffsetBegin=2841 CharacterOffsetEnd=2844 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=2845 CharacterOffsetEnd=2847 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=2848 CharacterOffsetEnd=2854 PartOfSpeech=NNP Lemma=Kaymer NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=2855 CharacterOffsetEnd=2857 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=day CharacterOffsetBegin=2858 CharacterOffsetEnd=2861 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t15" type="DURATION" value="P1D">day<-TIMEX3>] [Text=four CharacterOffsetBegin=2862 CharacterOffsetEnd=2866 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=was CharacterOffsetBegin=2867 CharacterOffsetEnd=2870 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=four CharacterOffsetBegin=2871 CharacterOffsetEnd=2875 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=strokes CharacterOffsetBegin=2876 CharacterOffsetEnd=2883 PartOfSpeech=NNS Lemma=stroke NamedEntityTag=O] [Text=, CharacterOffsetBegin=2883 CharacterOffsetEnd=2884 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=after CharacterOffsetBegin=2885 CharacterOffsetEnd=2890 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=2891 CharacterOffsetEnd=2893 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=bogeyed CharacterOffsetBegin=2894 CharacterOffsetEnd=2901 PartOfSpeech=VBD Lemma=bogey NamedEntityTag=O] [Text=the CharacterOffsetBegin=2902 CharacterOffsetEnd=2905 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=7th CharacterOffsetBegin=2906 CharacterOffsetEnd=2909 PartOfSpeech=JJ Lemma=7th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=7.0] [Text=. CharacterOffsetBegin=2909 CharacterOffsetEnd=2910 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS closest))
+      (SBAR
+        (S
+          (NP (DT any) (NN player))
+          (VP (VBD got)
+            (PP (TO to)
+              (NP (NNP Kaymer)))
+            (PP (IN on)
+              (NP (NN day) (CD four)))))))
+    (VP (VBD was)
+      (NP (CD four) (NNS strokes))
+      (, ,)
+      (SBAR (IN after)
+        (S
+          (NP (PRP he))
+          (VP (VBD bogeyed)
+            (NP (DT the) (JJ 7th))))))
+    (. .)))
+
+root(ROOT-0, strokes-13)
+det(closest-2, The-1)
+nsubj(strokes-13, closest-2)
+det(player-4, any-3)
+nsubj(got-5, player-4)
+rcmod(closest-2, got-5)
+prep_to(got-5, Kaymer-7)
+prep_on(got-5, day-9)
+num(day-9, four-10)
+cop(strokes-13, was-11)
+num(strokes-13, four-12)
+mark(bogeyed-17, after-15)
+nsubj(bogeyed-17, he-16)
+advcl(strokes-13, bogeyed-17)
+det(7th-19, the-18)
+dobj(bogeyed-17, 7th-19)
+
+Sentence #28 (20 tokens):
+By the time Kaymer holed out for birdie threes at the 13th and 14th, his advantage was eight.
+[Text=By CharacterOffsetBegin=2911 CharacterOffsetEnd=2913 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=2914 CharacterOffsetEnd=2917 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=time CharacterOffsetBegin=2918 CharacterOffsetEnd=2922 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=Kaymer CharacterOffsetBegin=2923 CharacterOffsetEnd=2929 PartOfSpeech=NN Lemma=kaymer NamedEntityTag=PERSON] [Text=holed CharacterOffsetBegin=2930 CharacterOffsetEnd=2935 PartOfSpeech=VBD Lemma=hole NamedEntityTag=O] [Text=out CharacterOffsetBegin=2936 CharacterOffsetEnd=2939 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=for CharacterOffsetBegin=2940 CharacterOffsetEnd=2943 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=birdie CharacterOffsetBegin=2944 CharacterOffsetEnd=2950 PartOfSpeech=NN Lemma=birdie NamedEntityTag=O] [Text=threes CharacterOffsetBegin=2951 CharacterOffsetEnd=2957 PartOfSpeech=NNS Lemma=three NamedEntityTag=O] [Text=at CharacterOffsetBegin=2958 CharacterOffsetEnd=2960 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=2961 CharacterOffsetEnd=2964 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=13th CharacterOffsetBegin=2965 CharacterOffsetEnd=2969 PartOfSpeech=JJ Lemma=13th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=13.0] [Text=and CharacterOffsetBegin=2970 CharacterOffsetEnd=2973 PartOfSpeech=CC Lemma=and NamedEntityTag=ORDINAL NormalizedNamedEntityTag=13.0] [Text=14th CharacterOffsetBegin=2974 CharacterOffsetEnd=2978 PartOfSpeech=JJ Lemma=14th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=13.0] [Text=, CharacterOffsetBegin=2978 CharacterOffsetEnd=2979 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=his CharacterOffsetBegin=2980 CharacterOffsetEnd=2983 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=advantage CharacterOffsetBegin=2984 CharacterOffsetEnd=2993 PartOfSpeech=NN Lemma=advantage NamedEntityTag=O] [Text=was CharacterOffsetBegin=2994 CharacterOffsetEnd=2997 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=eight CharacterOffsetBegin=2998 CharacterOffsetEnd=3003 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=. CharacterOffsetBegin=3003 CharacterOffsetEnd=3004 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN By)
+      (NP
+        (NP (DT the) (NN time) (NN Kaymer))
+        (VP (VBD holed)
+          (PRT (RP out))
+          (PP (IN for)
+            (NP (NN birdie) (NNS threes)))
+          (PP (IN at)
+            (NP (DT the) (JJ 13th)
+              (CC and)
+              (JJ 14th))))))
+    (, ,)
+    (NP (PRP$ his) (NN advantage))
+    (VP (VBD was)
+      (NP (CD eight)))
+    (. .)))
+
+root(ROOT-0, eight-19)
+det(Kaymer-4, the-2)
+nn(Kaymer-4, time-3)
+prep_by(eight-19, Kaymer-4)
+vmod(Kaymer-4, holed-5)
+prt(holed-5, out-6)
+nn(threes-9, birdie-8)
+prep_for(holed-5, threes-9)
+dep(13th-12, the-11)
+prep_at(holed-5, 13th-12)
+conj_and(13th-12, 14th-14)
+poss(advantage-17, his-16)
+nsubj(eight-19, advantage-17)
+cop(eight-19, was-18)
+
+Sentence #29 (9 tokens):
+To coin World Cup parlance: game over.
+[Text=To CharacterOffsetBegin=3005 CharacterOffsetEnd=3007 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=coin CharacterOffsetBegin=3008 CharacterOffsetEnd=3012 PartOfSpeech=NN Lemma=coin NamedEntityTag=O] [Text=World CharacterOffsetBegin=3013 CharacterOffsetEnd=3018 PartOfSpeech=NN Lemma=world NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=3019 CharacterOffsetEnd=3022 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=parlance CharacterOffsetBegin=3023 CharacterOffsetEnd=3031 PartOfSpeech=NN Lemma=parlance NamedEntityTag=O] [Text=: CharacterOffsetBegin=3031 CharacterOffsetEnd=3032 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=game CharacterOffsetBegin=3033 CharacterOffsetEnd=3037 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=over CharacterOffsetBegin=3038 CharacterOffsetEnd=3042 PartOfSpeech=RP Lemma=over NamedEntityTag=O] [Text=. CharacterOffsetBegin=3042 CharacterOffsetEnd=3043 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (FRAG
+      (PP (TO To)
+        (NP (NN coin) (NN World) (NNP Cup)))
+      (NP (NN parlance)))
+    (: :)
+    (FRAG
+      (NP (NN game))
+      (ADVP (RP over))
+      (. .))))
+
+root(ROOT-0, parlance-5)
+nn(Cup-4, coin-2)
+nn(Cup-4, World-3)
+prep_to(parlance-5, Cup-4)
+dep(parlance-5, game-7)
+dep(game-7, over-8)
+
+Sentence #30 (17 tokens):
+Of those making up the numbers Erik Compton-s story was by far the most remarkable.
+[Text=Of CharacterOffsetBegin=3045 CharacterOffsetEnd=3047 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=those CharacterOffsetBegin=3048 CharacterOffsetEnd=3053 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=making CharacterOffsetBegin=3054 CharacterOffsetEnd=3060 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=up CharacterOffsetBegin=3061 CharacterOffsetEnd=3063 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=the CharacterOffsetBegin=3064 CharacterOffsetEnd=3067 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=numbers CharacterOffsetBegin=3068 CharacterOffsetEnd=3075 PartOfSpeech=NNS Lemma=number NamedEntityTag=O] [Text=Erik CharacterOffsetBegin=3076 CharacterOffsetEnd=3080 PartOfSpeech=NNP Lemma=Erik NamedEntityTag=PERSON] [Text=Compton CharacterOffsetBegin=3081 CharacterOffsetEnd=3088 PartOfSpeech=NNP Lemma=Compton NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=3088 CharacterOffsetEnd=3090 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=story CharacterOffsetBegin=3091 CharacterOffsetEnd=3096 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=was CharacterOffsetBegin=3097 CharacterOffsetEnd=3100 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=by CharacterOffsetBegin=3101 CharacterOffsetEnd=3103 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=far CharacterOffsetBegin=3104 CharacterOffsetEnd=3107 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=the CharacterOffsetBegin=3108 CharacterOffsetEnd=3111 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=most CharacterOffsetBegin=3112 CharacterOffsetEnd=3116 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=remarkable CharacterOffsetBegin=3117 CharacterOffsetEnd=3127 PartOfSpeech=JJ Lemma=remarkable NamedEntityTag=O] [Text=. CharacterOffsetBegin=3127 CharacterOffsetEnd=3128 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Of)
+      (S
+        (NP (DT those))
+        (VP (VBG making)
+          (PRT (RP up))
+          (NP (DT the) (NNS numbers)))))
+    (NP
+      (NP (NNP Erik) (NNP Compton) (POS -s))
+      (NN story))
+    (VP (VBD was)
+      (PP (IN by)
+        (NP
+          (NP (RB far) (DT the))
+          (ADJP (RBS most) (JJ remarkable)))))
+    (. .)))
+
+root(ROOT-0, was-11)
+nsubj(making-3, those-2)
+prepc_of(was-11, making-3)
+prt(making-3, up-4)
+det(numbers-6, the-5)
+dobj(making-3, numbers-6)
+nn(Compton-8, Erik-7)
+poss(story-10, Compton-8)
+nsubj(was-11, story-10)
+advmod(the-14, far-13)
+prep_by(was-11, the-14)
+advmod(remarkable-16, most-15)
+amod(the-14, remarkable-16)
+
+Sentence #31 (17 tokens):
+The 34-year-old has undergone two heart transplants and was competing in only his second major championship.
+[Text=The CharacterOffsetBegin=3129 CharacterOffsetEnd=3132 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=34-year-old CharacterOffsetBegin=3133 CharacterOffsetEnd=3144 PartOfSpeech=JJ Lemma=34-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P34Y Timex=<TIMEX3 tid="t16" type="DURATION" value="P34Y">34-year-old<-TIMEX3>] [Text=has CharacterOffsetBegin=3145 CharacterOffsetEnd=3148 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=undergone CharacterOffsetBegin=3149 CharacterOffsetEnd=3158 PartOfSpeech=VBN Lemma=undergo NamedEntityTag=O] [Text=two CharacterOffsetBegin=3159 CharacterOffsetEnd=3162 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=heart CharacterOffsetBegin=3163 CharacterOffsetEnd=3168 PartOfSpeech=NN Lemma=heart NamedEntityTag=O] [Text=transplants CharacterOffsetBegin=3169 CharacterOffsetEnd=3180 PartOfSpeech=NNS Lemma=transplant NamedEntityTag=O] [Text=and CharacterOffsetBegin=3181 CharacterOffsetEnd=3184 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=was CharacterOffsetBegin=3185 CharacterOffsetEnd=3188 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=competing CharacterOffsetBegin=3189 CharacterOffsetEnd=3198 PartOfSpeech=VBG Lemma=compete NamedEntityTag=O] [Text=in CharacterOffsetBegin=3199 CharacterOffsetEnd=3201 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=only CharacterOffsetBegin=3202 CharacterOffsetEnd=3206 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=his CharacterOffsetBegin=3207 CharacterOffsetEnd=3210 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=second CharacterOffsetBegin=3211 CharacterOffsetEnd=3217 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=major CharacterOffsetBegin=3218 CharacterOffsetEnd=3223 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=championship CharacterOffsetBegin=3224 CharacterOffsetEnd=3236 PartOfSpeech=NN Lemma=championship NamedEntityTag=O] [Text=. CharacterOffsetBegin=3236 CharacterOffsetEnd=3237 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ 34-year-old))
+    (VP (VBZ has)
+      (VP
+        (VP (VBN undergone)
+          (NP (CD two) (NN heart) (NNS transplants)))
+        (CC and)
+        (VP (VBD was)
+          (VP (VBG competing)
+            (PP (IN in)
+              (ADVP (RB only)))))
+        (NP (PRP$ his) (JJ second) (JJ major) (NN championship))))
+    (. .)))
+
+root(ROOT-0, undergone-4)
+det(34-year-old-2, The-1)
+nsubj(undergone-4, 34-year-old-2)
+aux(undergone-4, has-3)
+num(transplants-7, two-5)
+nn(transplants-7, heart-6)
+dobj(undergone-4, transplants-7)
+aux(competing-10, was-9)
+conj_and(undergone-4, competing-10)
+prep(competing-10, in-11)
+pcomp(in-11, only-12)
+poss(championship-16, his-13)
+amod(championship-16, second-14)
+amod(championship-16, major-15)
+dobj(undergone-4, championship-16)
+
+Sentence #32 (31 tokens):
+His tie for second with Rickie Fowler would be worthy of immense credit, even without the personal battles which the inspirational Compton has endured to get to this point.
+[Text=His CharacterOffsetBegin=3238 CharacterOffsetEnd=3241 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=tie CharacterOffsetBegin=3242 CharacterOffsetEnd=3245 PartOfSpeech=NN Lemma=tie NamedEntityTag=O] [Text=for CharacterOffsetBegin=3246 CharacterOffsetEnd=3249 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=second CharacterOffsetBegin=3250 CharacterOffsetEnd=3256 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=with CharacterOffsetBegin=3257 CharacterOffsetEnd=3261 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Rickie CharacterOffsetBegin=3262 CharacterOffsetEnd=3268 PartOfSpeech=NNP Lemma=Rickie NamedEntityTag=PERSON] [Text=Fowler CharacterOffsetBegin=3269 CharacterOffsetEnd=3275 PartOfSpeech=NNP Lemma=Fowler NamedEntityTag=PERSON] [Text=would CharacterOffsetBegin=3276 CharacterOffsetEnd=3281 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=be CharacterOffsetBegin=3282 CharacterOffsetEnd=3284 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=worthy CharacterOffsetBegin=3285 CharacterOffsetEnd=3291 PartOfSpeech=JJ Lemma=worthy NamedEntityTag=O] [Text=of CharacterOffsetBegin=3292 CharacterOffsetEnd=3294 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=immense CharacterOffsetBegin=3295 CharacterOffsetEnd=3302 PartOfSpeech=JJ Lemma=immense NamedEntityTag=O] [Text=credit CharacterOffsetBegin=3303 CharacterOffsetEnd=3309 PartOfSpeech=NN Lemma=credit NamedEntityTag=O] [Text=, CharacterOffsetBegin=3309 CharacterOffsetEnd=3310 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=even CharacterOffsetBegin=3311 CharacterOffsetEnd=3315 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=without CharacterOffsetBegin=3316 CharacterOffsetEnd=3323 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=3324 CharacterOffsetEnd=3327 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=personal CharacterOffsetBegin=3328 CharacterOffsetEnd=3336 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=battles CharacterOffsetBegin=3337 CharacterOffsetEnd=3344 PartOfSpeech=NNS Lemma=battle NamedEntityTag=O] [Text=which CharacterOffsetBegin=3345 CharacterOffsetEnd=3350 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=the CharacterOffsetBegin=3351 CharacterOffsetEnd=3354 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=inspirational CharacterOffsetBegin=3355 CharacterOffsetEnd=3368 PartOfSpeech=JJ Lemma=inspirational NamedEntityTag=O] [Text=Compton CharacterOffsetBegin=3369 CharacterOffsetEnd=3376 PartOfSpeech=NNP Lemma=Compton NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=3377 CharacterOffsetEnd=3380 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=endured CharacterOffsetBegin=3381 CharacterOffsetEnd=3388 PartOfSpeech=VBN Lemma=endure NamedEntityTag=O] [Text=to CharacterOffsetBegin=3389 CharacterOffsetEnd=3391 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=3392 CharacterOffsetEnd=3395 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=3396 CharacterOffsetEnd=3398 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=this CharacterOffsetBegin=3399 CharacterOffsetEnd=3403 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=point CharacterOffsetBegin=3404 CharacterOffsetEnd=3409 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=. CharacterOffsetBegin=3409 CharacterOffsetEnd=3410 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN tie))
+      (PP (IN for)
+        (NP
+          (NP (JJ second))
+          (PP (IN with)
+            (NP (NNP Rickie) (NNP Fowler))))))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ worthy))
+        (PP (IN of)
+          (NP (JJ immense) (NN credit)))
+        (, ,)
+        (PP (RB even) (IN without)
+          (NP
+            (NP (DT the) (JJ personal) (NNS battles))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (DT the) (JJ inspirational) (NNP Compton))
+                (VP (VBZ has)
+                  (VP (VBN endured)
+                    (S
+                      (VP (TO to)
+                        (VP (VB get)
+                          (PP (TO to)
+                            (NP (DT this) (NN point))))))))))))))
+    (. .)))
+
+root(ROOT-0, worthy-10)
+poss(tie-2, His-1)
+nsubj(worthy-10, tie-2)
+prep_for(tie-2, second-4)
+nn(Fowler-7, Rickie-6)
+prep_with(second-4, Fowler-7)
+aux(worthy-10, would-8)
+cop(worthy-10, be-9)
+amod(credit-13, immense-12)
+prep_of(worthy-10, credit-13)
+advmod(worthy-10, even-15)
+det(battles-19, the-17)
+amod(battles-19, personal-18)
+prep_without(worthy-10, battles-19)
+dobj(endured-25, which-20)
+det(Compton-23, the-21)
+amod(Compton-23, inspirational-22)
+nsubj(endured-25, Compton-23)
+aux(endured-25, has-24)
+rcmod(battles-19, endured-25)
+aux(get-27, to-26)
+xcomp(endured-25, get-27)
+det(point-30, this-29)
+prep_to(get-27, point-30)
+
+Sentence #33 (39 tokens):
+He has medical permission to use a buggy in competitive rounds but never chooses to do so; to be going toe-to-toe with the best players in world golf, on level terms, is an astonishing feat.
+[Text=He CharacterOffsetBegin=3411 CharacterOffsetEnd=3413 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=has CharacterOffsetBegin=3414 CharacterOffsetEnd=3417 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=medical CharacterOffsetBegin=3418 CharacterOffsetEnd=3425 PartOfSpeech=JJ Lemma=medical NamedEntityTag=O] [Text=permission CharacterOffsetBegin=3426 CharacterOffsetEnd=3436 PartOfSpeech=NN Lemma=permission NamedEntityTag=O] [Text=to CharacterOffsetBegin=3437 CharacterOffsetEnd=3439 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=use CharacterOffsetBegin=3440 CharacterOffsetEnd=3443 PartOfSpeech=VB Lemma=use NamedEntityTag=O] [Text=a CharacterOffsetBegin=3444 CharacterOffsetEnd=3445 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=buggy CharacterOffsetBegin=3446 CharacterOffsetEnd=3451 PartOfSpeech=NN Lemma=buggy NamedEntityTag=O] [Text=in CharacterOffsetBegin=3452 CharacterOffsetEnd=3454 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=competitive CharacterOffsetBegin=3455 CharacterOffsetEnd=3466 PartOfSpeech=JJ Lemma=competitive NamedEntityTag=O] [Text=rounds CharacterOffsetBegin=3467 CharacterOffsetEnd=3473 PartOfSpeech=NNS Lemma=round NamedEntityTag=O] [Text=but CharacterOffsetBegin=3474 CharacterOffsetEnd=3477 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=never CharacterOffsetBegin=3478 CharacterOffsetEnd=3483 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=chooses CharacterOffsetBegin=3484 CharacterOffsetEnd=3491 PartOfSpeech=VBZ Lemma=choose NamedEntityTag=O] [Text=to CharacterOffsetBegin=3492 CharacterOffsetEnd=3494 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=3495 CharacterOffsetEnd=3497 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=so CharacterOffsetBegin=3498 CharacterOffsetEnd=3500 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=; CharacterOffsetBegin=3500 CharacterOffsetEnd=3501 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=to CharacterOffsetBegin=3502 CharacterOffsetEnd=3504 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=3505 CharacterOffsetEnd=3507 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=3508 CharacterOffsetEnd=3513 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=toe-to-toe CharacterOffsetBegin=3514 CharacterOffsetEnd=3524 PartOfSpeech=RB Lemma=toe-to-toe NamedEntityTag=O] [Text=with CharacterOffsetBegin=3525 CharacterOffsetEnd=3529 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=3530 CharacterOffsetEnd=3533 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=best CharacterOffsetBegin=3534 CharacterOffsetEnd=3538 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=players CharacterOffsetBegin=3539 CharacterOffsetEnd=3546 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=in CharacterOffsetBegin=3547 CharacterOffsetEnd=3549 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=world CharacterOffsetBegin=3550 CharacterOffsetEnd=3555 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=golf CharacterOffsetBegin=3556 CharacterOffsetEnd=3560 PartOfSpeech=NN Lemma=golf NamedEntityTag=O] [Text=, CharacterOffsetBegin=3560 CharacterOffsetEnd=3561 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=on CharacterOffsetBegin=3562 CharacterOffsetEnd=3564 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=level CharacterOffsetBegin=3565 CharacterOffsetEnd=3570 PartOfSpeech=NN Lemma=level NamedEntityTag=O] [Text=terms CharacterOffsetBegin=3571 CharacterOffsetEnd=3576 PartOfSpeech=NNS Lemma=term NamedEntityTag=O] [Text=, CharacterOffsetBegin=3576 CharacterOffsetEnd=3577 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=3578 CharacterOffsetEnd=3580 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=an CharacterOffsetBegin=3581 CharacterOffsetEnd=3583 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=astonishing CharacterOffsetBegin=3584 CharacterOffsetEnd=3595 PartOfSpeech=JJ Lemma=astonishing NamedEntityTag=O] [Text=feat CharacterOffsetBegin=3596 CharacterOffsetEnd=3600 PartOfSpeech=NN Lemma=feat NamedEntityTag=O] [Text=. CharacterOffsetBegin=3600 CharacterOffsetEnd=3601 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP
+        (VP (VBZ has)
+          (NP (JJ medical) (NN permission)
+            (S
+              (VP (TO to)
+                (VP (VB use)
+                  (NP
+                    (NP (DT a) (NN buggy))
+                    (PP (IN in)
+                      (NP (JJ competitive) (NNS rounds)))))))))
+        (CC but)
+        (ADVP (RB never))
+        (VP (VBZ chooses)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (ADVP (RB so))))))))
+    (: ;)
+    (S
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBG going)
+              (ADVP (RB toe-to-toe))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (JJS best) (NNS players))
+                  (PP (IN in)
+                    (NP
+                      (NP (NN world) (NN golf))
+                      (, ,)
+                      (PP (IN on)
+                        (NP (NN level) (NNS terms)))
+                      (, ,)))))))))
+      (VP (VBZ is)
+        (NP (DT an) (JJ astonishing) (NN feat))))
+    (. .)))
+
+root(ROOT-0, has-2)
+nsubj(has-2, He-1)
+amod(permission-4, medical-3)
+dobj(has-2, permission-4)
+aux(use-6, to-5)
+vmod(permission-4, use-6)
+det(buggy-8, a-7)
+dobj(use-6, buggy-8)
+amod(rounds-11, competitive-10)
+prep_in(buggy-8, rounds-11)
+neg(chooses-14, never-13)
+conj_but(has-2, chooses-14)
+aux(do-16, to-15)
+xcomp(chooses-14, do-16)
+advmod(do-16, so-17)
+aux(going-21, to-19)
+aux(going-21, be-20)
+csubj(feat-38, going-21)
+advmod(going-21, toe-to-toe-22)
+det(players-26, the-24)
+amod(players-26, best-25)
+prep_with(going-21, players-26)
+nn(golf-29, world-28)
+prep_in(players-26, golf-29)
+nn(terms-33, level-32)
+prep_on(golf-29, terms-33)
+cop(feat-38, is-35)
+det(feat-38, an-36)
+amod(feat-38, astonishing-37)
+parataxis(has-2, feat-38)
+
+Sentence #34 (12 tokens):
+Compton-s story has not been lost on those around him.
+[Text=Compton CharacterOffsetBegin=3603 CharacterOffsetEnd=3610 PartOfSpeech=NNP Lemma=Compton NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=3610 CharacterOffsetEnd=3612 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=story CharacterOffsetBegin=3613 CharacterOffsetEnd=3618 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=has CharacterOffsetBegin=3619 CharacterOffsetEnd=3622 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=not CharacterOffsetBegin=3623 CharacterOffsetEnd=3626 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=been CharacterOffsetBegin=3627 CharacterOffsetEnd=3631 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=lost CharacterOffsetBegin=3632 CharacterOffsetEnd=3636 PartOfSpeech=VBN Lemma=lose NamedEntityTag=O] [Text=on CharacterOffsetBegin=3637 CharacterOffsetEnd=3639 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=those CharacterOffsetBegin=3640 CharacterOffsetEnd=3645 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=around CharacterOffsetBegin=3646 CharacterOffsetEnd=3652 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=him CharacterOffsetBegin=3653 CharacterOffsetEnd=3656 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=. CharacterOffsetBegin=3656 CharacterOffsetEnd=3657 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Compton) (POS -s))
+      (NN story))
+    (VP (VBZ has) (RB not)
+      (VP (VBN been)
+        (VP (VBN lost)
+          (PP (IN on)
+            (NP
+              (NP (DT those))
+              (PP (IN around)
+                (NP (PRP him))))))))
+    (. .)))
+
+root(ROOT-0, lost-7)
+poss(story-3, Compton-1)
+nsubjpass(lost-7, story-3)
+aux(lost-7, has-4)
+neg(lost-7, not-5)
+auxpass(lost-7, been-6)
+prep_on(lost-7, those-9)
+prep_around(those-9, him-11)
+
+Sentence #35 (15 tokens):
+"It-s incredible, what Erik is doing," said Rory McIlroy.
+[Text=`` CharacterOffsetBegin=3658 CharacterOffsetEnd=3659 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=3659 CharacterOffsetEnd=3661 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=-s CharacterOffsetBegin=3661 CharacterOffsetEnd=3663 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=incredible CharacterOffsetBegin=3664 CharacterOffsetEnd=3674 PartOfSpeech=JJ Lemma=incredible NamedEntityTag=O] [Text=, CharacterOffsetBegin=3674 CharacterOffsetEnd=3675 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=what CharacterOffsetBegin=3676 CharacterOffsetEnd=3680 PartOfSpeech=WDT Lemma=what NamedEntityTag=O] [Text=Erik CharacterOffsetBegin=3681 CharacterOffsetEnd=3685 PartOfSpeech=NNP Lemma=Erik NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=3686 CharacterOffsetEnd=3688 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=doing CharacterOffsetBegin=3689 CharacterOffsetEnd=3694 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=, CharacterOffsetBegin=3694 CharacterOffsetEnd=3695 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=3695 CharacterOffsetEnd=3696 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=said CharacterOffsetBegin=3697 CharacterOffsetEnd=3701 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Rory CharacterOffsetBegin=3702 CharacterOffsetEnd=3706 PartOfSpeech=NNP Lemma=Rory NamedEntityTag=PERSON] [Text=McIlroy CharacterOffsetBegin=3707 CharacterOffsetEnd=3714 PartOfSpeech=NNP Lemma=McIlroy NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=3714 CharacterOffsetEnd=3715 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (VBZ -s)
+        (ADJP (JJ incredible))
+        (, ,)
+        (SBAR
+          (WHNP (WDT what))
+          (S
+            (NP (NNP Erik))
+            (VP (VBZ is)
+              (VP (VBG doing)))))))
+    (, ,) (-- --)
+    (VP (VBD said))
+    (NP (NNP Rory) (NNP McIlroy))
+    (. .)))
+
+root(ROOT-0, said-12)
+nsubj(incredible-4, It-2)
+cop(incredible-4, -s-3)
+ccomp(said-12, incredible-4)
+dobj(doing-9, what-6)
+nsubj(doing-9, Erik-7)
+aux(doing-9, is-8)
+ccomp(incredible-4, doing-9)
+nn(McIlroy-14, Rory-13)
+nsubj(said-12, McIlroy-14)
+
+Sentence #36 (23 tokens):
+"By that I mean, just to be playing in a US Open, given everything that Erik has gone through.
+[Text=`` CharacterOffsetBegin=3716 CharacterOffsetEnd=3717 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=By CharacterOffsetBegin=3717 CharacterOffsetEnd=3719 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=that CharacterOffsetBegin=3720 CharacterOffsetEnd=3724 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=I CharacterOffsetBegin=3725 CharacterOffsetEnd=3726 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=mean CharacterOffsetBegin=3727 CharacterOffsetEnd=3731 PartOfSpeech=VBP Lemma=mean NamedEntityTag=O] [Text=, CharacterOffsetBegin=3731 CharacterOffsetEnd=3732 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=just CharacterOffsetBegin=3733 CharacterOffsetEnd=3737 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=to CharacterOffsetBegin=3738 CharacterOffsetEnd=3740 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=3741 CharacterOffsetEnd=3743 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=playing CharacterOffsetBegin=3744 CharacterOffsetEnd=3751 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=in CharacterOffsetBegin=3752 CharacterOffsetEnd=3754 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=3755 CharacterOffsetEnd=3756 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=US CharacterOffsetBegin=3757 CharacterOffsetEnd=3759 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=Open CharacterOffsetBegin=3760 CharacterOffsetEnd=3764 PartOfSpeech=NNP Lemma=Open NamedEntityTag=O] [Text=, CharacterOffsetBegin=3764 CharacterOffsetEnd=3765 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=given CharacterOffsetBegin=3766 CharacterOffsetEnd=3771 PartOfSpeech=VBN Lemma=give NamedEntityTag=O] [Text=everything CharacterOffsetBegin=3772 CharacterOffsetEnd=3782 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=that CharacterOffsetBegin=3783 CharacterOffsetEnd=3787 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=Erik CharacterOffsetBegin=3788 CharacterOffsetEnd=3792 PartOfSpeech=NNP Lemma=Erik NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=3793 CharacterOffsetEnd=3796 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=gone CharacterOffsetBegin=3797 CharacterOffsetEnd=3801 PartOfSpeech=VBN Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=3802 CharacterOffsetEnd=3809 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=. CharacterOffsetBegin=3809 CharacterOffsetEnd=3810 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (PP (IN By)
+      (ADVP (IN that)))
+    (NP (PRP I))
+    (VP (VBP mean) (, ,)
+      (ADVP (RB just))
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBG playing)
+              (PP (IN in)
+                (NP (DT a) (NNP US) (NNP Open)))
+              (, ,)
+              (PP (VBN given)
+                (NP
+                  (NP (NN everything))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (NP (NNP Erik))
+                      (VP (VBZ has)
+                        (VP (VBN gone)
+                          (PP (IN through)))))))))))))
+    (. .)))
+
+root(ROOT-0, mean-5)
+prep(mean-5, By-2)
+pcomp(By-2, that-3)
+nsubj(mean-5, I-4)
+advmod(mean-5, just-7)
+aux(playing-10, to-8)
+aux(playing-10, be-9)
+xcomp(mean-5, playing-10)
+det(Open-14, a-12)
+nn(Open-14, US-13)
+prep_in(playing-10, Open-14)
+prep(playing-10, given-16)
+pobj(given-16, everything-17)
+prep_through(gone-21, that-18)
+nsubj(gone-21, Erik-19)
+aux(gone-21, has-20)
+rcmod(everything-17, gone-21)
+
+Sentence #37 (14 tokens):
+I have got to know him pretty well over the last few years.
+[Text=I CharacterOffsetBegin=3811 CharacterOffsetEnd=3812 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=3813 CharacterOffsetEnd=3817 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=got CharacterOffsetBegin=3818 CharacterOffsetEnd=3821 PartOfSpeech=VBN Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=3822 CharacterOffsetEnd=3824 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=know CharacterOffsetBegin=3825 CharacterOffsetEnd=3829 PartOfSpeech=VB Lemma=know NamedEntityTag=O] [Text=him CharacterOffsetBegin=3830 CharacterOffsetEnd=3833 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=pretty CharacterOffsetBegin=3834 CharacterOffsetEnd=3840 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O] [Text=well CharacterOffsetBegin=3841 CharacterOffsetEnd=3845 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=over CharacterOffsetBegin=3846 CharacterOffsetEnd=3850 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=3851 CharacterOffsetEnd=3854 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t17" type="DURATION" value="PXY">the last few years<-TIMEX3>] [Text=last CharacterOffsetBegin=3855 CharacterOffsetEnd=3859 PartOfSpeech=JJ Lemma=last NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t17" type="DURATION" value="PXY">the last few years<-TIMEX3>] [Text=few CharacterOffsetBegin=3860 CharacterOffsetEnd=3863 PartOfSpeech=JJ Lemma=few NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t17" type="DURATION" value="PXY">the last few years<-TIMEX3>] [Text=years CharacterOffsetBegin=3864 CharacterOffsetEnd=3869 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t17" type="DURATION" value="PXY">the last few years<-TIMEX3>] [Text=. CharacterOffsetBegin=3869 CharacterOffsetEnd=3870 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN got)
+        (S
+          (VP (TO to)
+            (VP (VB know)
+              (NP (PRP him))
+              (ADVP (RB pretty) (RB well))
+              (PP (IN over)
+                (NP (DT the) (JJ last) (JJ few) (NNS years))))))))
+    (. .)))
+
+root(ROOT-0, got-3)
+nsubj(got-3, I-1)
+aux(got-3, have-2)
+aux(know-5, to-4)
+xcomp(got-3, know-5)
+dobj(know-5, him-6)
+advmod(well-8, pretty-7)
+advmod(know-5, well-8)
+det(years-13, the-10)
+amod(years-13, last-11)
+amod(years-13, few-12)
+prep_over(know-5, years-13)
+
+Sentence #38 (13 tokens):
+And just a really incredible guy, upbeat and obviously very talented.
+[Text=And CharacterOffsetBegin=3871 CharacterOffsetEnd=3874 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=just CharacterOffsetBegin=3875 CharacterOffsetEnd=3879 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=a CharacterOffsetBegin=3880 CharacterOffsetEnd=3881 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=really CharacterOffsetBegin=3882 CharacterOffsetEnd=3888 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=incredible CharacterOffsetBegin=3889 CharacterOffsetEnd=3899 PartOfSpeech=JJ Lemma=incredible NamedEntityTag=O] [Text=guy CharacterOffsetBegin=3900 CharacterOffsetEnd=3903 PartOfSpeech=NN Lemma=guy NamedEntityTag=O] [Text=, CharacterOffsetBegin=3903 CharacterOffsetEnd=3904 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=upbeat CharacterOffsetBegin=3905 CharacterOffsetEnd=3911 PartOfSpeech=JJ Lemma=upbeat NamedEntityTag=O] [Text=and CharacterOffsetBegin=3912 CharacterOffsetEnd=3915 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=obviously CharacterOffsetBegin=3916 CharacterOffsetEnd=3925 PartOfSpeech=RB Lemma=obviously NamedEntityTag=O] [Text=very CharacterOffsetBegin=3926 CharacterOffsetEnd=3930 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=talented CharacterOffsetBegin=3931 CharacterOffsetEnd=3939 PartOfSpeech=JJ Lemma=talented NamedEntityTag=O] [Text=. CharacterOffsetBegin=3939 CharacterOffsetEnd=3940 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG (CC And)
+    (NP
+      (NP (RB just) (DT a))
+      (NP
+        (NP (RB really) (JJ incredible) (NN guy) (, ,))
+        (ADJP
+          (ADJP (JJ upbeat))
+          (CC and)
+          (ADJP (RB obviously) (RB very) (JJ talented)))))
+    (. .)))
+
+root(ROOT-0, a-3)
+cc(a-3, And-1)
+advmod(a-3, just-2)
+advmod(guy-6, really-4)
+amod(guy-6, incredible-5)
+dep(a-3, guy-6)
+amod(guy-6, upbeat-8)
+advmod(talented-12, obviously-10)
+advmod(talented-12, very-11)
+conj_and(upbeat-8, talented-12)
+
+Sentence #39 (19 tokens):
+Given everything that Erik has gone through and continues to go through, it-s really phenomenal."
+[Text=Given CharacterOffsetBegin=3941 CharacterOffsetEnd=3946 PartOfSpeech=VBN Lemma=give NamedEntityTag=O] [Text=everything CharacterOffsetBegin=3947 CharacterOffsetEnd=3957 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=that CharacterOffsetBegin=3958 CharacterOffsetEnd=3962 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=Erik CharacterOffsetBegin=3963 CharacterOffsetEnd=3967 PartOfSpeech=NNP Lemma=Erik NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=3968 CharacterOffsetEnd=3971 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=gone CharacterOffsetBegin=3972 CharacterOffsetEnd=3976 PartOfSpeech=VBN Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=3977 CharacterOffsetEnd=3984 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=and CharacterOffsetBegin=3985 CharacterOffsetEnd=3988 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=continues CharacterOffsetBegin=3989 CharacterOffsetEnd=3998 PartOfSpeech=VBZ Lemma=continue NamedEntityTag=O] [Text=to CharacterOffsetBegin=3999 CharacterOffsetEnd=4001 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=go CharacterOffsetBegin=4002 CharacterOffsetEnd=4004 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=4005 CharacterOffsetEnd=4012 PartOfSpeech=RB Lemma=through NamedEntityTag=O] [Text=, CharacterOffsetBegin=4012 CharacterOffsetEnd=4013 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=4014 CharacterOffsetEnd=4016 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=-s CharacterOffsetBegin=4016 CharacterOffsetEnd=4018 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=really CharacterOffsetBegin=4019 CharacterOffsetEnd=4025 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=phenomenal CharacterOffsetBegin=4026 CharacterOffsetEnd=4036 PartOfSpeech=JJ Lemma=phenomenal NamedEntityTag=O] [Text=. CharacterOffsetBegin=4036 CharacterOffsetEnd=4037 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=4037 CharacterOffsetEnd=4038 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBN Given)
+      (NP
+        (NP (NN everything))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (NP (NNP Erik))
+            (VP
+              (VP (VBZ has)
+                (VP (VBN gone)
+                  (PP (IN through))))
+              (CC and)
+              (VP (VBZ continues)
+                (S
+                  (VP (TO to)
+                    (VP (VB go)
+                      (ADVP (RB through)))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ -s)
+      (ADJP (RB really) (JJ phenomenal)))
+    (. .) (-- --)))
+
+root(ROOT-0, phenomenal-17)
+prep(phenomenal-17, Given-1)
+pobj(Given-1, everything-2)
+prep_through(gone-6, that-3)
+nsubj(gone-6, Erik-4)
+aux(gone-6, has-5)
+rcmod(everything-2, gone-6)
+conj_and(gone-6, continues-9)
+aux(go-11, to-10)
+xcomp(continues-9, go-11)
+advmod(go-11, through-12)
+nsubj(phenomenal-17, it-14)
+cop(phenomenal-17, -s-15)
+advmod(phenomenal-17, really-16)
+
+Sentence #40 (25 tokens):
+McIlroy-s US Open ended with a third plus-70 round out of four, this time 73, which left him at six over.
+[Text=McIlroy CharacterOffsetBegin=4040 CharacterOffsetEnd=4047 PartOfSpeech=NNP Lemma=McIlroy NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=4047 CharacterOffsetEnd=4049 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=US CharacterOffsetBegin=4050 CharacterOffsetEnd=4052 PartOfSpeech=NNP Lemma=US NamedEntityTag=MISC] [Text=Open CharacterOffsetBegin=4053 CharacterOffsetEnd=4057 PartOfSpeech=NNP Lemma=Open NamedEntityTag=MISC] [Text=ended CharacterOffsetBegin=4058 CharacterOffsetEnd=4063 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=with CharacterOffsetBegin=4064 CharacterOffsetEnd=4068 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=4069 CharacterOffsetEnd=4070 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=third CharacterOffsetBegin=4071 CharacterOffsetEnd=4076 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=plus-70 CharacterOffsetBegin=4077 CharacterOffsetEnd=4084 PartOfSpeech=JJ Lemma=plus-70 NamedEntityTag=O] [Text=round CharacterOffsetBegin=4085 CharacterOffsetEnd=4090 PartOfSpeech=NN Lemma=round NamedEntityTag=O] [Text=out CharacterOffsetBegin=4091 CharacterOffsetEnd=4094 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=4095 CharacterOffsetEnd=4097 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=four CharacterOffsetBegin=4098 CharacterOffsetEnd=4102 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=, CharacterOffsetBegin=4102 CharacterOffsetEnd=4103 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=this CharacterOffsetBegin=4104 CharacterOffsetEnd=4108 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=time CharacterOffsetBegin=4109 CharacterOffsetEnd=4113 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=73 CharacterOffsetBegin=4114 CharacterOffsetEnd=4116 PartOfSpeech=CD Lemma=73 NamedEntityTag=NUMBER NormalizedNamedEntityTag=73.0] [Text=, CharacterOffsetBegin=4116 CharacterOffsetEnd=4117 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=4118 CharacterOffsetEnd=4123 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=left CharacterOffsetBegin=4124 CharacterOffsetEnd=4128 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O] [Text=him CharacterOffsetBegin=4129 CharacterOffsetEnd=4132 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=at CharacterOffsetBegin=4133 CharacterOffsetEnd=4135 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=six CharacterOffsetBegin=4136 CharacterOffsetEnd=4139 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=over CharacterOffsetBegin=4140 CharacterOffsetEnd=4144 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=. CharacterOffsetBegin=4144 CharacterOffsetEnd=4145 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP McIlroy) (POS -s))
+      (NNP US) (NNP Open))
+    (VP (VBD ended)
+      (PP (IN with)
+        (NP (DT a) (JJ third) (JJ plus-70) (NN round)))
+      (PP (IN out) (IN of)
+        (NP
+          (NP (CD four))
+          (, ,)
+          (NP (DT this) (NN time) (CD 73))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD left)
+                (NP (PRP him))
+                (PP (IN at)
+                  (NP (CD six)))
+                (PP (IN over))))))))
+    (. .)))
+
+root(ROOT-0, ended-5)
+poss(Open-4, McIlroy-1)
+nn(Open-4, US-3)
+nsubj(ended-5, Open-4)
+det(round-10, a-7)
+amod(round-10, third-8)
+amod(round-10, plus-70-9)
+prep_with(ended-5, round-10)
+prep_out_of(ended-5, four-13)
+det(time-16, this-15)
+appos(four-13, time-16)
+num(time-16, 73-17)
+nsubj(left-20, which-19)
+rcmod(four-13, left-20)
+dobj(left-20, him-21)
+prep_at(left-20, six-23)
+prep(left-20, over-24)
+
+Sentence #41 (28 tokens):
+A 72 from Phil Mickelson meant he finished one shot worse off than McIlroy and still looking for a kickstart to what has been a low-key season.
+[Text=A CharacterOffsetBegin=4146 CharacterOffsetEnd=4147 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=72 CharacterOffsetBegin=4148 CharacterOffsetEnd=4150 PartOfSpeech=CD Lemma=72 NamedEntityTag=NUMBER NormalizedNamedEntityTag=72.0] [Text=from CharacterOffsetBegin=4151 CharacterOffsetEnd=4155 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Phil CharacterOffsetBegin=4156 CharacterOffsetEnd=4160 PartOfSpeech=NNP Lemma=Phil NamedEntityTag=PERSON] [Text=Mickelson CharacterOffsetBegin=4161 CharacterOffsetEnd=4170 PartOfSpeech=NNP Lemma=Mickelson NamedEntityTag=PERSON] [Text=meant CharacterOffsetBegin=4171 CharacterOffsetEnd=4176 PartOfSpeech=VBD Lemma=mean NamedEntityTag=O] [Text=he CharacterOffsetBegin=4177 CharacterOffsetEnd=4179 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=finished CharacterOffsetBegin=4180 CharacterOffsetEnd=4188 PartOfSpeech=VBD Lemma=finish NamedEntityTag=O] [Text=one CharacterOffsetBegin=4189 CharacterOffsetEnd=4192 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=shot CharacterOffsetBegin=4193 CharacterOffsetEnd=4197 PartOfSpeech=NN Lemma=shot NamedEntityTag=O] [Text=worse CharacterOffsetBegin=4198 CharacterOffsetEnd=4203 PartOfSpeech=JJR Lemma=worse NamedEntityTag=O] [Text=off CharacterOffsetBegin=4204 CharacterOffsetEnd=4207 PartOfSpeech=IN Lemma=off NamedEntityTag=O] [Text=than CharacterOffsetBegin=4208 CharacterOffsetEnd=4212 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=McIlroy CharacterOffsetBegin=4213 CharacterOffsetEnd=4220 PartOfSpeech=NNP Lemma=McIlroy NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=4221 CharacterOffsetEnd=4224 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=still CharacterOffsetBegin=4225 CharacterOffsetEnd=4230 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=looking CharacterOffsetBegin=4231 CharacterOffsetEnd=4238 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=for CharacterOffsetBegin=4239 CharacterOffsetEnd=4242 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=4243 CharacterOffsetEnd=4244 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=kickstart CharacterOffsetBegin=4245 CharacterOffsetEnd=4254 PartOfSpeech=NN Lemma=kickstart NamedEntityTag=O] [Text=to CharacterOffsetBegin=4255 CharacterOffsetEnd=4257 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=what CharacterOffsetBegin=4258 CharacterOffsetEnd=4262 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=has CharacterOffsetBegin=4263 CharacterOffsetEnd=4266 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=4267 CharacterOffsetEnd=4271 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=4272 CharacterOffsetEnd=4273 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=low-key CharacterOffsetBegin=4274 CharacterOffsetEnd=4281 PartOfSpeech=JJ Lemma=low-key NamedEntityTag=O] [Text=season CharacterOffsetBegin=4282 CharacterOffsetEnd=4288 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=4288 CharacterOffsetEnd=4289 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (CD 72))
+      (PP (IN from)
+        (NP (NNP Phil) (NNP Mickelson))))
+    (VP (VBD meant)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD finished)
+            (UCP
+              (ADJP
+                (NP (CD one) (NN shot))
+                (JJR worse)
+                (PP (IN off)
+                  (PP (IN than)
+                    (NP (NNP McIlroy)))))
+              (CC and)
+              (ADVP (RB still)))
+            (S
+              (VP (VBG looking)
+                (PP (IN for)
+                  (NP (DT a) (NN kickstart)))
+                (PP (TO to)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (VP (VBZ has)
+                        (VP (VBN been)
+                          (NP (DT a) (JJ low-key) (NN season)))))))))))))
+    (. .)))
+
+root(ROOT-0, meant-6)
+det(72-2, A-1)
+nsubj(meant-6, 72-2)
+nn(Mickelson-5, Phil-4)
+prep_from(72-2, Mickelson-5)
+nsubj(finished-8, he-7)
+ccomp(meant-6, finished-8)
+num(shot-10, one-9)
+npadvmod(worse-11, shot-10)
+acomp(finished-8, worse-11)
+prep(worse-11, off-12)
+pcomp(off-12, than-13)
+pobj(than-13, McIlroy-14)
+cc(worse-11, and-15)
+advmod(worse-11, still-16)
+xcomp(finished-8, looking-17)
+det(kickstart-20, a-19)
+prep_for(looking-17, kickstart-20)
+nsubj(season-27, what-22)
+aux(season-27, has-23)
+cop(season-27, been-24)
+det(season-27, a-25)
+amod(season-27, low-key-26)
+prepc_to(looking-17, season-27)
+
+Sentence #42 (19 tokens):
+"You have got to put it all together to win a major championship," Mickelson said.
+[Text=`` CharacterOffsetBegin=4291 CharacterOffsetEnd=4292 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=You CharacterOffsetBegin=4292 CharacterOffsetEnd=4295 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=4296 CharacterOffsetEnd=4300 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=got CharacterOffsetBegin=4301 CharacterOffsetEnd=4304 PartOfSpeech=VBN Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=4305 CharacterOffsetEnd=4307 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=put CharacterOffsetBegin=4308 CharacterOffsetEnd=4311 PartOfSpeech=VB Lemma=put NamedEntityTag=O] [Text=it CharacterOffsetBegin=4312 CharacterOffsetEnd=4314 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=all CharacterOffsetBegin=4315 CharacterOffsetEnd=4318 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=together CharacterOffsetBegin=4319 CharacterOffsetEnd=4327 PartOfSpeech=RB Lemma=together NamedEntityTag=O] [Text=to CharacterOffsetBegin=4328 CharacterOffsetEnd=4330 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=win CharacterOffsetBegin=4331 CharacterOffsetEnd=4334 PartOfSpeech=VB Lemma=win NamedEntityTag=O] [Text=a CharacterOffsetBegin=4335 CharacterOffsetEnd=4336 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=major CharacterOffsetBegin=4337 CharacterOffsetEnd=4342 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=championship CharacterOffsetBegin=4343 CharacterOffsetEnd=4355 PartOfSpeech=NN Lemma=championship NamedEntityTag=O] [Text=, CharacterOffsetBegin=4355 CharacterOffsetEnd=4356 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=4356 CharacterOffsetEnd=4357 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=Mickelson CharacterOffsetBegin=4358 CharacterOffsetEnd=4367 PartOfSpeech=NNP Lemma=Mickelson NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=4368 CharacterOffsetEnd=4372 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=4372 CharacterOffsetEnd=4373 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP You))
+      (VP (VBP have)
+        (VP (VBN got)
+          (S
+            (VP (TO to)
+              (VP (VB put)
+                (NP (PRP it))
+                (ADVP (DT all) (RB together)
+                  (SBAR
+                    (S
+                      (VP (TO to)
+                        (VP (VB win)
+                          (NP (DT a) (JJ major) (NN championship)))))))))))))
+    (, ,) (-- --)
+    (NP (NNP Mickelson))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-18)
+nsubj(got-4, You-2)
+aux(got-4, have-3)
+ccomp(said-18, got-4)
+aux(put-6, to-5)
+xcomp(got-4, put-6)
+dobj(put-6, it-7)
+dep(together-9, all-8)
+advmod(put-6, together-9)
+aux(win-11, to-10)
+dep(together-9, win-11)
+det(championship-14, a-12)
+amod(championship-14, major-13)
+dobj(win-11, championship-14)
+nsubj(said-18, Mickelson-17)
+
+Sentence #43 (8 tokens):
+"Somebody is going to play well.
+[Text=`` CharacterOffsetBegin=4374 CharacterOffsetEnd=4375 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Somebody CharacterOffsetBegin=4375 CharacterOffsetEnd=4383 PartOfSpeech=NN Lemma=somebody NamedEntityTag=O] [Text=is CharacterOffsetBegin=4384 CharacterOffsetEnd=4386 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=4387 CharacterOffsetEnd=4392 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=4393 CharacterOffsetEnd=4395 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=4396 CharacterOffsetEnd=4400 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=well CharacterOffsetBegin=4401 CharacterOffsetEnd=4405 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=. CharacterOffsetBegin=4405 CharacterOffsetEnd=4406 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (NN Somebody))
+    (VP (VBZ is)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (ADVP (RB well)))))))
+    (. .)))
+
+root(ROOT-0, going-4)
+nsubj(going-4, Somebody-2)
+aux(going-4, is-3)
+aux(play-6, to-5)
+xcomp(going-4, play-6)
+advmod(play-6, well-7)
+
+Sentence #44 (18 tokens):
+You can-t get by with scraping it around, you have to have it all firing.
+[Text=You CharacterOffsetBegin=4407 CharacterOffsetEnd=4410 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=ca CharacterOffsetBegin=4411 CharacterOffsetEnd=4413 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=4413 CharacterOffsetEnd=4416 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=get CharacterOffsetBegin=4417 CharacterOffsetEnd=4420 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=by CharacterOffsetBegin=4421 CharacterOffsetEnd=4423 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=with CharacterOffsetBegin=4424 CharacterOffsetEnd=4428 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=scraping CharacterOffsetBegin=4429 CharacterOffsetEnd=4437 PartOfSpeech=VBG Lemma=scrape NamedEntityTag=O] [Text=it CharacterOffsetBegin=4438 CharacterOffsetEnd=4440 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=around CharacterOffsetBegin=4441 CharacterOffsetEnd=4447 PartOfSpeech=RP Lemma=around NamedEntityTag=O] [Text=, CharacterOffsetBegin=4447 CharacterOffsetEnd=4448 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=4449 CharacterOffsetEnd=4452 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=4453 CharacterOffsetEnd=4457 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=4458 CharacterOffsetEnd=4460 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=have CharacterOffsetBegin=4461 CharacterOffsetEnd=4465 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=it CharacterOffsetBegin=4466 CharacterOffsetEnd=4468 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=all CharacterOffsetBegin=4469 CharacterOffsetEnd=4472 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=firing CharacterOffsetBegin=4473 CharacterOffsetEnd=4479 PartOfSpeech=NN Lemma=firing NamedEntityTag=O] [Text=. CharacterOffsetBegin=4479 CharacterOffsetEnd=4480 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD ca) (RB n-t)
+        (VP (VB get)
+          (PP (IN by)
+            (PP (IN with)
+              (S
+                (VP (VBG scraping)
+                  (NP (PRP it))
+                  (PRT (RP around)))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (S
+              (NP (PRP it))
+              (NP (DT all) (NN firing)))))))
+    (. .)))
+
+root(ROOT-0, have-12)
+nsubj(get-4, You-1)
+aux(get-4, ca-2)
+neg(get-4, n-t-3)
+ccomp(have-12, get-4)
+prep(get-4, by-5)
+pcomp(by-5, with-6)
+pcomp(with-6, scraping-7)
+dobj(scraping-7, it-8)
+prt(scraping-7, around-9)
+nsubj(have-12, you-11)
+aux(have-14, to-13)
+xcomp(have-12, have-14)
+nsubj(firing-17, it-15)
+det(firing-17, all-16)
+xcomp(have-14, firing-17)
+
+Sentence #45 (11 tokens):
+"I thought that I had a great game plan.
+[Text=`` CharacterOffsetBegin=4482 CharacterOffsetEnd=4483 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=4483 CharacterOffsetEnd=4484 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=thought CharacterOffsetBegin=4485 CharacterOffsetEnd=4492 PartOfSpeech=VBD Lemma=think NamedEntityTag=O] [Text=that CharacterOffsetBegin=4493 CharacterOffsetEnd=4497 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=I CharacterOffsetBegin=4498 CharacterOffsetEnd=4499 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=had CharacterOffsetBegin=4500 CharacterOffsetEnd=4503 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=4504 CharacterOffsetEnd=4505 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=great CharacterOffsetBegin=4506 CharacterOffsetEnd=4511 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=game CharacterOffsetBegin=4512 CharacterOffsetEnd=4516 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=plan CharacterOffsetBegin=4517 CharacterOffsetEnd=4521 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=. CharacterOffsetBegin=4521 CharacterOffsetEnd=4522 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP I))
+    (VP (VBD thought)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD had)
+            (NP (DT a) (JJ great) (NN game) (NN plan))))))
+    (. .)))
+
+root(ROOT-0, thought-3)
+nsubj(thought-3, I-2)
+mark(had-6, that-4)
+nsubj(had-6, I-5)
+ccomp(thought-3, had-6)
+det(plan-10, a-7)
+amod(plan-10, great-8)
+nn(plan-10, game-9)
+dobj(had-6, plan-10)
+
+Sentence #46 (13 tokens):
+I was ready to play and sometimes it just doesn-t click.
+[Text=I CharacterOffsetBegin=4523 CharacterOffsetEnd=4524 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=4525 CharacterOffsetEnd=4528 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=ready CharacterOffsetBegin=4529 CharacterOffsetEnd=4534 PartOfSpeech=JJ Lemma=ready NamedEntityTag=O] [Text=to CharacterOffsetBegin=4535 CharacterOffsetEnd=4537 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=4538 CharacterOffsetEnd=4542 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=and CharacterOffsetBegin=4543 CharacterOffsetEnd=4546 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=sometimes CharacterOffsetBegin=4547 CharacterOffsetEnd=4556 PartOfSpeech=RB Lemma=sometimes NamedEntityTag=O] [Text=it CharacterOffsetBegin=4557 CharacterOffsetEnd=4559 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=just CharacterOffsetBegin=4560 CharacterOffsetEnd=4564 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=does CharacterOffsetBegin=4565 CharacterOffsetEnd=4569 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=4569 CharacterOffsetEnd=4572 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=click CharacterOffsetBegin=4573 CharacterOffsetEnd=4578 PartOfSpeech=VB Lemma=click NamedEntityTag=O] [Text=. CharacterOffsetBegin=4578 CharacterOffsetEnd=4579 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (ADJP (JJ ready)
+          (S
+            (VP (TO to)
+              (VP (VB play)))))))
+    (CC and)
+    (ADVP (RB sometimes))
+    (S
+      (NP (PRP it))
+      (ADVP (RB just))
+      (VP (VBZ does) (RB n-t)
+        (VP (VB click))))
+    (. .)))
+
+root(ROOT-0, ready-3)
+nsubj(ready-3, I-1)
+cop(ready-3, was-2)
+aux(play-5, to-4)
+xcomp(ready-3, play-5)
+advmod(click-12, sometimes-7)
+nsubj(click-12, it-8)
+advmod(click-12, just-9)
+aux(click-12, does-10)
+neg(click-12, n-t-11)
+conj_and(ready-3, click-12)
+
+Sentence #47 (7 tokens):
+It just doesn-t come together.
+[Text=It CharacterOffsetBegin=4580 CharacterOffsetEnd=4582 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=just CharacterOffsetBegin=4583 CharacterOffsetEnd=4587 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=does CharacterOffsetBegin=4588 CharacterOffsetEnd=4592 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=4592 CharacterOffsetEnd=4595 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=come CharacterOffsetBegin=4596 CharacterOffsetEnd=4600 PartOfSpeech=VBN Lemma=come NamedEntityTag=O] [Text=together CharacterOffsetBegin=4601 CharacterOffsetEnd=4609 PartOfSpeech=RB Lemma=together NamedEntityTag=O] [Text=. CharacterOffsetBegin=4609 CharacterOffsetEnd=4610 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB just))
+    (VP (VBZ does) (RB n-t)
+      (VP (VBN come)
+        (ADVP (RB together))))
+    (. .)))
+
+root(ROOT-0, come-5)
+nsubj(come-5, It-1)
+advmod(come-5, just-2)
+aux(come-5, does-3)
+neg(come-5, n-t-4)
+advmod(come-5, together-6)
+
+Sentence #48 (47 tokens):
+It-s one thing to have a great game plan, but you have to execute, you got to hit some shots, make some putts, and I threw too many shots away the first two rounds to really have a good chance."
+[Text=It CharacterOffsetBegin=4611 CharacterOffsetEnd=4613 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=-s CharacterOffsetBegin=4613 CharacterOffsetEnd=4615 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=one CharacterOffsetBegin=4616 CharacterOffsetEnd=4619 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=thing CharacterOffsetBegin=4620 CharacterOffsetEnd=4625 PartOfSpeech=NN Lemma=thing NamedEntityTag=O] [Text=to CharacterOffsetBegin=4626 CharacterOffsetEnd=4628 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=have CharacterOffsetBegin=4629 CharacterOffsetEnd=4633 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=4634 CharacterOffsetEnd=4635 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=great CharacterOffsetBegin=4636 CharacterOffsetEnd=4641 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=game CharacterOffsetBegin=4642 CharacterOffsetEnd=4646 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=plan CharacterOffsetBegin=4647 CharacterOffsetEnd=4651 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=, CharacterOffsetBegin=4651 CharacterOffsetEnd=4652 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=4653 CharacterOffsetEnd=4656 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=you CharacterOffsetBegin=4657 CharacterOffsetEnd=4660 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=4661 CharacterOffsetEnd=4665 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=4666 CharacterOffsetEnd=4668 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=execute CharacterOffsetBegin=4669 CharacterOffsetEnd=4676 PartOfSpeech=VB Lemma=execute NamedEntityTag=O] [Text=, CharacterOffsetBegin=4676 CharacterOffsetEnd=4677 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=4678 CharacterOffsetEnd=4681 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=got CharacterOffsetBegin=4682 CharacterOffsetEnd=4685 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=4686 CharacterOffsetEnd=4688 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hit CharacterOffsetBegin=4689 CharacterOffsetEnd=4692 PartOfSpeech=VB Lemma=hit NamedEntityTag=O] [Text=some CharacterOffsetBegin=4693 CharacterOffsetEnd=4697 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=shots CharacterOffsetBegin=4698 CharacterOffsetEnd=4703 PartOfSpeech=NNS Lemma=shot NamedEntityTag=O] [Text=, CharacterOffsetBegin=4703 CharacterOffsetEnd=4704 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=make CharacterOffsetBegin=4705 CharacterOffsetEnd=4709 PartOfSpeech=VBP Lemma=make NamedEntityTag=O] [Text=some CharacterOffsetBegin=4710 CharacterOffsetEnd=4714 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=putts CharacterOffsetBegin=4715 CharacterOffsetEnd=4720 PartOfSpeech=NNS Lemma=putt NamedEntityTag=O] [Text=, CharacterOffsetBegin=4720 CharacterOffsetEnd=4721 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=4722 CharacterOffsetEnd=4725 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=4726 CharacterOffsetEnd=4727 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=threw CharacterOffsetBegin=4728 CharacterOffsetEnd=4733 PartOfSpeech=VBD Lemma=throw NamedEntityTag=O] [Text=too CharacterOffsetBegin=4734 CharacterOffsetEnd=4737 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=many CharacterOffsetBegin=4738 CharacterOffsetEnd=4742 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=shots CharacterOffsetBegin=4743 CharacterOffsetEnd=4748 PartOfSpeech=NNS Lemma=shot NamedEntityTag=O] [Text=away CharacterOffsetBegin=4749 CharacterOffsetEnd=4753 PartOfSpeech=RB Lemma=away NamedEntityTag=O] [Text=the CharacterOffsetBegin=4754 CharacterOffsetEnd=4757 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=4758 CharacterOffsetEnd=4763 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=two CharacterOffsetBegin=4764 CharacterOffsetEnd=4767 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=rounds CharacterOffsetBegin=4768 CharacterOffsetEnd=4774 PartOfSpeech=NNS Lemma=round NamedEntityTag=O] [Text=to CharacterOffsetBegin=4775 CharacterOffsetEnd=4777 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=really CharacterOffsetBegin=4778 CharacterOffsetEnd=4784 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=have CharacterOffsetBegin=4785 CharacterOffsetEnd=4789 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=4790 CharacterOffsetEnd=4791 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=good CharacterOffsetBegin=4792 CharacterOffsetEnd=4796 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=chance CharacterOffsetBegin=4797 CharacterOffsetEnd=4803 PartOfSpeech=NN Lemma=chance NamedEntityTag=O] [Text=. CharacterOffsetBegin=4803 CharacterOffsetEnd=4804 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=4804 CharacterOffsetEnd=4805 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP It))
+        (VP (VBZ -s)
+          (NP
+            (NP (CD one) (NN thing))
+            (SBAR
+              (S
+                (VP (TO to)
+                  (VP (VB have)
+                    (NP (DT a) (JJ great) (NN game) (NN plan)))))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (S
+            (VP (TO to)
+              (VP (VB execute)))))))
+    (PRN (, ,)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VBD got)
+            (S
+              (VP (TO to)
+                (VP (VB hit)
+                  (NP (DT some) (NNS shots))))))
+          (, ,)
+          (VP (VBP make)
+            (NP (DT some) (NNS putts)))))
+      (, ,))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD threw)
+        (NP (RB too) (JJ many) (NNS shots))
+        (PP (RB away)
+          (NP (DT the) (JJ first) (CD two) (NNS rounds)))
+        (S
+          (VP (TO to)
+            (VP
+              (ADVP (RB really))
+              (VB have)
+              (NP (DT a) (JJ good) (NN chance)))))))
+    (. .) (-- --)))
+
+root(ROOT-0, thing-4)
+nsubj(thing-4, It-1)
+cop(thing-4, -s-2)
+num(thing-4, one-3)
+aux(have-6, to-5)
+vmod(thing-4, have-6)
+det(plan-10, a-7)
+amod(plan-10, great-8)
+nn(plan-10, game-9)
+dobj(have-6, plan-10)
+nsubj(have-14, you-13)
+conj_but(thing-4, have-14)
+aux(execute-16, to-15)
+xcomp(have-14, execute-16)
+nsubj(got-19, you-18)
+dep(thing-4, got-19)
+aux(hit-21, to-20)
+xcomp(got-19, hit-21)
+det(shots-23, some-22)
+dobj(hit-21, shots-23)
+dep(got-19, make-25)
+det(putts-27, some-26)
+dobj(make-25, putts-27)
+nsubj(threw-31, I-30)
+conj_and(thing-4, threw-31)
+advmod(shots-34, too-32)
+amod(shots-34, many-33)
+dobj(threw-31, shots-34)
+prep(threw-31, away-35)
+det(rounds-39, the-36)
+amod(rounds-39, first-37)
+num(rounds-39, two-38)
+pobj(away-35, rounds-39)
+aux(have-42, to-40)
+advmod(have-42, really-41)
+vmod(threw-31, have-42)
+det(chance-45, a-43)
+amod(chance-45, good-44)
+dobj(have-42, chance-45)
+
+Sentence #49 (15 tokens):
+Being blunt, Mickelson and co were consigned to the territory of the also-ran.
+[Text=Being CharacterOffsetBegin=4807 CharacterOffsetEnd=4812 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=blunt CharacterOffsetBegin=4813 CharacterOffsetEnd=4818 PartOfSpeech=JJ Lemma=blunt NamedEntityTag=O] [Text=, CharacterOffsetBegin=4818 CharacterOffsetEnd=4819 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Mickelson CharacterOffsetBegin=4820 CharacterOffsetEnd=4829 PartOfSpeech=NNP Lemma=Mickelson NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=4830 CharacterOffsetEnd=4833 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=co CharacterOffsetBegin=4834 CharacterOffsetEnd=4836 PartOfSpeech=NN Lemma=co NamedEntityTag=O] [Text=were CharacterOffsetBegin=4837 CharacterOffsetEnd=4841 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=consigned CharacterOffsetBegin=4842 CharacterOffsetEnd=4851 PartOfSpeech=VBN Lemma=consign NamedEntityTag=O] [Text=to CharacterOffsetBegin=4852 CharacterOffsetEnd=4854 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=4855 CharacterOffsetEnd=4858 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=territory CharacterOffsetBegin=4859 CharacterOffsetEnd=4868 PartOfSpeech=NN Lemma=territory NamedEntityTag=O] [Text=of CharacterOffsetBegin=4869 CharacterOffsetEnd=4871 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=4872 CharacterOffsetEnd=4875 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=also-ran CharacterOffsetBegin=4876 CharacterOffsetEnd=4884 PartOfSpeech=NN Lemma=also-ran NamedEntityTag=O] [Text=. CharacterOffsetBegin=4884 CharacterOffsetEnd=4885 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBG Being)
+        (ADJP (JJ blunt))))
+    (, ,)
+    (NP
+      (NP (NNP Mickelson))
+      (CC and)
+      (NP (NN co)))
+    (VP (VBD were)
+      (VP (VBN consigned)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN territory))
+            (PP (IN of)
+              (NP (DT the) (NN also-ran)))))))
+    (. .)))
+
+root(ROOT-0, consigned-8)
+cop(blunt-2, Being-1)
+vmod(consigned-8, blunt-2)
+nsubjpass(consigned-8, Mickelson-4)
+conj_and(Mickelson-4, co-6)
+auxpass(consigned-8, were-7)
+det(territory-11, the-10)
+prep_to(consigned-8, territory-11)
+det(also-ran-14, the-13)
+prep_of(territory-11, also-ran-14)
+
+Sentence #50 (6 tokens):
+This was a one-man show.
+[Text=This CharacterOffsetBegin=4886 CharacterOffsetEnd=4890 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=was CharacterOffsetBegin=4891 CharacterOffsetEnd=4894 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=4895 CharacterOffsetEnd=4896 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=one-man CharacterOffsetBegin=4897 CharacterOffsetEnd=4904 PartOfSpeech=JJ Lemma=one-man NamedEntityTag=O] [Text=show CharacterOffsetBegin=4905 CharacterOffsetEnd=4909 PartOfSpeech=NN Lemma=show NamedEntityTag=O] [Text=. CharacterOffsetBegin=4909 CharacterOffsetEnd=4910 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBD was)
+      (NP (DT a) (JJ one-man) (NN show)))
+    (. .)))
+
+root(ROOT-0, show-5)
+nsubj(show-5, This-1)
+cop(show-5, was-2)
+det(show-5, a-3)
+amod(show-5, one-man-4)
+
+Coreference set:
+ (1,11,[11,12]) -> (1,2,[1,3]), that is: "his" -> "Martin Kaymer"
+ (2,2,[1,3]) -> (1,2,[1,3]), that is: "Martin Kaymer" -> "Martin Kaymer"
+ (3,23,[23,25]) -> (1,2,[1,3]), that is: "Kaymer -s" -> "Martin Kaymer"
+ (6,16,[16,17]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (8,1,[1,2]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (8,6,[4,7]) -> (1,2,[1,3]), that is: "a history maker" -> "Martin Kaymer"
+ (10,1,[1,3]) -> (1,2,[1,3]), that is: "Kaymer -s" -> "Martin Kaymer"
+ (11,10,[10,11]) -> (1,2,[1,3]), that is: "his" -> "Martin Kaymer"
+ (11,21,[21,23]) -> (1,2,[1,3]), that is: "Kaymer -s" -> "Martin Kaymer"
+ (12,1,[1,2]) -> (1,2,[1,3]), that is: "His" -> "Martin Kaymer"
+ (13,1,[1,2]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (13,9,[9,10]) -> (1,2,[1,3]), that is: "his" -> "Martin Kaymer"
+ (15,12,[12,14]) -> (1,2,[1,3]), that is: "Kaymer -s" -> "Martin Kaymer"
+ (18,18,[18,19]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (19,2,[2,3]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (19,6,[6,7]) -> (1,2,[1,3]), that is: "his" -> "Martin Kaymer"
+ (20,11,[11,12]) -> (1,2,[1,3]), that is: "his" -> "Martin Kaymer"
+ (21,12,[12,13]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (23,38,[38,39]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (25,1,[1,3]) -> (1,2,[1,3]), that is: "Kaymer -s" -> "Martin Kaymer"
+ (27,7,[7,8]) -> (1,2,[1,3]), that is: "Kaymer" -> "Martin Kaymer"
+ (27,16,[16,17]) -> (1,2,[1,3]), that is: "he" -> "Martin Kaymer"
+Coreference set:
+ (1,5,[4,6]) -> (3,13,[9,14]), that is: "US Open" -> "the women -s US Open"
+ (3,13,[12,14]) -> (3,13,[9,14]), that is: "US Open" -> "the women -s US Open"
+Coreference set:
+ (7,10,[10,11]) -> (1,7,[7,8]), that is: "eight" -> "eight"
+ (28,19,[19,20]) -> (1,7,[7,8]), that is: "eight" -> "eight"
+Coreference set:
+ (31,14,[14,15]) -> (1,12,[12,13]), that is: "second" -> "second"
+Coreference set:
+ (46,8,[8,9]) -> (45,10,[7,11]), that is: "it" -> "a great game plan"
+ (47,1,[1,2]) -> (45,10,[7,11]), that is: "It" -> "a great game plan"
+ (48,1,[1,2]) -> (45,10,[7,11]), that is: "It" -> "a great game plan"
+ (48,10,[7,11]) -> (45,10,[7,11]), that is: "a great game plan" -> "a great game plan"
+Coreference set:
+ (23,42,[42,43]) -> (1,22,[22,23]), that is: "two" -> "two"
+ (31,5,[5,6]) -> (1,22,[22,23]), that is: "two" -> "two"
+ (48,38,[38,39]) -> (1,22,[22,23]), that is: "two" -> "two"
+Coreference set:
+ (1,26,[26,27]) -> (15,16,[12,17]), that is: "Pinehurst" -> "Kaymer -s nerveless Sunday Pinehurst"
+ (6,5,[5,7]) -> (15,16,[12,17]), that is: "Pinehurst -s" -> "Kaymer -s nerveless Sunday Pinehurst"
+ (23,45,[45,46]) -> (15,16,[12,17]), that is: "Pinehurst" -> "Kaymer -s nerveless Sunday Pinehurst"
+ (26,19,[19,20]) -> (15,16,[12,17]), that is: "Pinehurst" -> "Kaymer -s nerveless Sunday Pinehurst"
+Coreference set:
+ (1,14,[11,15]) -> (1,16,[16,17]), that is: "his second major |" -> "|"
+Coreference set:
+ (50,1,[1,2]) -> (50,5,[3,6]), that is: "This" -> "a one-man show"
+Coreference set:
+ (5,6,[6,7]) -> (4,8,[7,9]), that is: "it" -> "the field"
+Coreference set:
+ (5,7,[7,8]) -> (5,10,[9,11]), that is: "this" -> "a procession"
+Coreference set:
+ (7,7,[7,8]) -> (6,10,[10,12]), that is: "he" -> "Beethoven -s"
+Coreference set:
+ (7,1,[1,2]) -> (6,3,[1,9]), that is: "That" -> "The church bells from Pinehurst -s village chapel"
+Coreference set:
+ (14,6,[6,7]) -> (7,18,[18,19]), that is: "fourth" -> "fourth"
+Coreference set:
+ (23,41,[41,42]) -> (8,10,[10,11]), that is: "first" -> "first"
+ (48,37,[37,38]) -> (8,10,[10,11]), that is: "first" -> "first"
+Coreference set:
+ (8,19,[17,20]) -> (40,4,[1,5]), that is: "a US Open" -> "McIlroy -s US Open"
+ (14,10,[8,11]) -> (40,4,[1,5]), that is: "a US Open" -> "McIlroy -s US Open"
+ (36,14,[12,15]) -> (40,4,[1,5]), that is: "a US Open" -> "McIlroy -s US Open"
+Coreference set:
+ (13,11,[9,12]) -> (13,14,[13,15]), that is: "his great compatriot" -> "Bernhard Langer"
+ (14,1,[1,2]) -> (13,14,[13,15]), that is: "Langer" -> "Bernhard Langer"
+Coreference set:
+ (15,6,[6,7]) -> (15,4,[3,5]), that is: "his" -> "another player"
+Coreference set:
+ (16,13,[13,14]) -> (16,5,[4,6]), that is: "he" -> "the 29-year-old"
+Coreference set:
+ (18,3,[3,4]) -> (17,8,[6,9]), that is: "it" -> "a wire-to-wire triumph"
+Coreference set:
+ (42,14,[12,15]) -> (18,8,[6,9]), that is: "a major championship" -> "a major championship"
+Coreference set:
+ (20,17,[17,18]) -> (20,4,[3,14]), that is: "his" -> "a player who has hit range balls until his hands bled"
+ (21,4,[4,5]) -> (20,4,[3,14]), that is: "he" -> "a player who has hit range balls until his hands bled"
+ (22,1,[1,2]) -> (20,4,[3,14]), that is: "His" -> "a player who has hit range balls until his hands bled"
+ (22,5,[5,6]) -> (20,4,[3,14]), that is: "him" -> "a player who has hit range balls until his hands bled"
+ (23,5,[5,6]) -> (20,4,[3,14]), that is: "him" -> "a player who has hit range balls until his hands bled"
+ (23,20,[20,21]) -> (20,4,[3,14]), that is: "he" -> "a player who has hit range balls until his hands bled"
+ (23,24,[23,30]) -> (20,4,[3,14]), that is: "a guy you would rather not face" -> "a player who has hit range balls until his hands bled"
+ (24,2,[2,3]) -> (20,4,[3,14]), that is: "He" -> "a player who has hit range balls until his hands bled"
+ (24,6,[6,7]) -> (20,4,[3,14]), that is: "he" -> "a player who has hit range balls until his hands bled"
+Coreference set:
+ (20,15,[15,16]) -> (20,18,[17,19]), that is: "such" -> "his determination"
+Coreference set:
+ (23,9,[8,10]) -> (21,21,[19,24]), that is: "Ryder Cup" -> "the Ryder Cup in September"
+ (29,4,[2,5]) -> (21,21,[19,24]), that is: "coin World Cup" -> "the Ryder Cup in September"
+Coreference set:
+ (23,25,[25,26]) -> (23,3,[3,4]), that is: "you" -> "you"
+Coreference set:
+ (48,39,[36,40]) -> (23,43,[40,44]), that is: "the first two rounds" -> "the first two rounds"
+Coreference set:
+ (26,6,[6,7]) -> (26,4,[2,5]), that is: "that" -> "a nerve-inflicted disaster"
+Coreference set:
+ (27,10,[10,11]) -> (40,13,[13,25]), that is: "four" -> "four , this time 73 , which left him at six over"
+ (27,12,[12,13]) -> (40,13,[13,25]), that is: "four" -> "four , this time 73 , which left him at six over"
+ (40,13,[13,14]) -> (40,13,[13,25]), that is: "four" -> "four , this time 73 , which left him at six over"
+ (40,16,[15,18]) -> (40,13,[13,25]), that is: "this time 73" -> "four , this time 73 , which left him at six over"
+Coreference set:
+ (27,13,[12,14]) -> (27,2,[1,11]), that is: "four strokes" -> "The closest any player got to Kaymer on day four"
+Coreference set:
+ (28,16,[16,17]) -> (28,12,[12,15]), that is: "his" -> "13th and 14th"
+Coreference set:
+ (35,7,[7,8]) -> (30,8,[7,10]), that is: "Erik" -> "Erik Compton -s"
+ (36,19,[19,20]) -> (30,8,[7,10]), that is: "Erik" -> "Erik Compton -s"
+ (37,6,[6,7]) -> (30,8,[7,10]), that is: "him" -> "Erik Compton -s"
+ (39,4,[4,5]) -> (30,8,[7,10]), that is: "Erik" -> "Erik Compton -s"
+Coreference set:
+ (30,2,[2,3]) -> (34,9,[9,12]), that is: "those" -> "those around him"
+Coreference set:
+ (34,3,[1,4]) -> (30,10,[7,11]), that is: "Compton -s story" -> "Erik Compton -s story"
+ (35,2,[2,3]) -> (30,10,[7,11]), that is: "It" -> "Erik Compton -s story"
+Coreference set:
+ (31,13,[13,14]) -> (31,2,[1,3]), that is: "his" -> "The 34-year-old"
+ (32,1,[1,2]) -> (31,2,[1,3]), that is: "His" -> "The 34-year-old"
+ (33,1,[1,2]) -> (31,2,[1,3]), that is: "He" -> "The 34-year-old"
+Coreference set:
+ (34,1,[1,3]) -> (32,23,[21,24]), that is: "Compton -s" -> "the inspirational Compton"
+ (34,11,[11,12]) -> (32,23,[21,24]), that is: "him" -> "the inspirational Compton"
+Coreference set:
+ (36,4,[4,5]) -> (35,14,[13,15]), that is: "I" -> "Rory McIlroy"
+ (36,13,[13,14]) -> (35,14,[13,15]), that is: "US" -> "Rory McIlroy"
+ (37,1,[1,2]) -> (35,14,[13,15]), that is: "I" -> "Rory McIlroy"
+ (40,1,[1,3]) -> (35,14,[13,15]), that is: "McIlroy -s" -> "Rory McIlroy"
+ (40,21,[21,22]) -> (35,14,[13,15]), that is: "him" -> "Rory McIlroy"
+ (41,14,[14,15]) -> (35,14,[13,15]), that is: "McIlroy" -> "Rory McIlroy"
+Coreference set:
+ (39,14,[14,15]) -> (37,13,[10,14]), that is: "it" -> "the last few years"
+Coreference set:
+ (41,7,[7,8]) -> (41,5,[4,6]), that is: "he" -> "Phil Mickelson"
+ (42,17,[17,18]) -> (41,5,[4,6]), that is: "Mickelson" -> "Phil Mickelson"
+ (48,13,[13,14]) -> (41,5,[4,6]), that is: "you" -> "Phil Mickelson"
+ (48,18,[18,19]) -> (41,5,[4,6]), that is: "you" -> "Phil Mickelson"
+ (49,4,[4,5]) -> (41,5,[4,6]), that is: "Mickelson" -> "Phil Mickelson"
+Coreference set:
+ (42,7,[7,8]) -> (41,2,[1,6]), that is: "it" -> "A 72 from Phil Mickelson"
+ (44,8,[8,9]) -> (41,2,[1,6]), that is: "it" -> "A 72 from Phil Mickelson"
+ (44,15,[15,16]) -> (41,2,[1,6]), that is: "it" -> "A 72 from Phil Mickelson"
+Coreference set:
+ (44,1,[1,2]) -> (42,2,[2,3]), that is: "You" -> "You"
+ (44,11,[11,12]) -> (42,2,[2,3]), that is: "you" -> "You"
+ (45,2,[2,3]) -> (42,2,[2,3]), that is: "I" -> "You"
+ (45,5,[5,6]) -> (42,2,[2,3]), that is: "I" -> "You"
+ (46,1,[1,2]) -> (42,2,[2,3]), that is: "I" -> "You"
+ (48,30,[30,31]) -> (42,2,[2,3]), that is: "I" -> "You"

@@ -1,0 +1,912 @@
+Sentence #1 (27 tokens):
+Philippine government bonds fell, driving the three-year yield toward a two-week high, on concern inflation will accelerate after Typhoon Rammasun destroyed crops this week.
+[Text=Philippine CharacterOffsetBegin=0 CharacterOffsetEnd=10 PartOfSpeech=JJ Lemma=philippine NamedEntityTag=MISC] [Text=government CharacterOffsetBegin=11 CharacterOffsetEnd=21 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=bonds CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNS Lemma=bond NamedEntityTag=O] [Text=fell CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=, CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=driving CharacterOffsetBegin=34 CharacterOffsetEnd=41 PartOfSpeech=VBG Lemma=drive NamedEntityTag=O] [Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=three-year CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=JJ Lemma=three-year NamedEntityTag=DURATION NormalizedNamedEntityTag=P3Y Timex=<TIMEX3 tid="t1" type="DURATION" value="P3Y">three-year</TIMEX3>] [Text=yield CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=toward CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=toward NamedEntityTag=O] [Text=a CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=two-week CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=JJ Lemma=two-week NamedEntityTag=DURATION NormalizedNamedEntityTag=P2W Timex=<TIMEX3 tid="t2" type="DURATION" value="P2W">two-week</TIMEX3>] [Text=high CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=on CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=concern CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN Lemma=concern NamedEntityTag=O] [Text=inflation CharacterOffsetBegin=98 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=inflation NamedEntityTag=O] [Text=will CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=accelerate CharacterOffsetBegin=113 CharacterOffsetEnd=123 PartOfSpeech=VB Lemma=accelerate NamedEntityTag=O] [Text=after CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=Typhoon CharacterOffsetBegin=130 CharacterOffsetEnd=137 PartOfSpeech=NNP Lemma=Typhoon NamedEntityTag=O] [Text=Rammasun CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=NNP Lemma=Rammasun NamedEntityTag=PERSON] [Text=destroyed CharacterOffsetBegin=147 CharacterOffsetEnd=156 PartOfSpeech=VBD Lemma=destroy NamedEntityTag=O] [Text=crops CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=NNS Lemma=crop NamedEntityTag=O] [Text=this CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=week CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Philippine) (NN government) (NNS bonds))
+    (VP (VBD fell) (, ,)
+      (S
+        (VP (VBG driving)
+          (NP (DT the) (JJ three-year) (NN yield))
+          (PP (IN toward)
+            (NP (DT a) (JJ two-week) (JJ high)))
+          (, ,)
+          (PP (IN on)
+            (NP
+              (NP (NN concern) (NN inflation))
+              (SBAR
+                (S
+                  (VP (MD will)
+                    (VP (VB accelerate)
+                      (SBAR (IN after)
+                        (S
+                          (NP (NNP Typhoon) (NNP Rammasun))
+                          (VP (VBD destroyed)
+                            (NP (NNS crops))
+                            (NP-TMP (DT this) (NN week))))))))))))))
+    (. .)))
+
+root(ROOT-0, fell-4)
+amod(bonds-3, Philippine-1)
+nn(bonds-3, government-2)
+nsubj(fell-4, bonds-3)
+xcomp(fell-4, driving-6)
+det(yield-9, the-7)
+amod(yield-9, three-year-8)
+dobj(driving-6, yield-9)
+det(high-13, a-11)
+amod(high-13, two-week-12)
+prep_toward(driving-6, high-13)
+nn(inflation-17, concern-16)
+prep_on(driving-6, inflation-17)
+aux(accelerate-19, will-18)
+rcmod(inflation-17, accelerate-19)
+mark(destroyed-23, after-20)
+nn(Rammasun-22, Typhoon-21)
+nsubj(destroyed-23, Rammasun-22)
+advcl(accelerate-19, destroyed-23)
+dobj(destroyed-23, crops-24)
+det(week-26, this-25)
+tmod(destroyed-23, week-26)
+
+Sentence #2 (36 tokens):
+The storm was the strongest to hit the Philippine capital of Manila in eight years and the agriculture department estimated nationwide losses to farmers will total some 2.88 billion pesos ($66.2 million).
+[Text=The CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=storm CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NN Lemma=storm NamedEntityTag=O] [Text=was CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strongest CharacterOffsetBegin=193 CharacterOffsetEnd=202 PartOfSpeech=JJS Lemma=strongest NamedEntityTag=O] [Text=to CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hit CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=VB Lemma=hit NamedEntityTag=O] [Text=the CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Philippine CharacterOffsetBegin=214 CharacterOffsetEnd=224 PartOfSpeech=JJ Lemma=philippine NamedEntityTag=MISC] [Text=capital CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=capital NamedEntityTag=O] [Text=of CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Manila CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NNP Lemma=Manila NamedEntityTag=LOCATION] [Text=in CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=eight CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=CD Lemma=eight NamedEntityTag=DURATION NormalizedNamedEntityTag=P8Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P8Y">eight years</TIMEX3>] [Text=years CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P8Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P8Y">eight years</TIMEX3>] [Text=and CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=agriculture CharacterOffsetBegin=266 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=agriculture NamedEntityTag=O] [Text=department CharacterOffsetBegin=278 CharacterOffsetEnd=288 PartOfSpeech=NN Lemma=department NamedEntityTag=O] [Text=estimated CharacterOffsetBegin=289 CharacterOffsetEnd=298 PartOfSpeech=VBD Lemma=estimate NamedEntityTag=O] [Text=nationwide CharacterOffsetBegin=299 CharacterOffsetEnd=309 PartOfSpeech=JJ Lemma=nationwide NamedEntityTag=O] [Text=losses CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=NNS Lemma=loss NamedEntityTag=O] [Text=to CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=farmers CharacterOffsetBegin=320 CharacterOffsetEnd=327 PartOfSpeech=NNS Lemma=farmer NamedEntityTag=O] [Text=will CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=total CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=VB Lemma=total NamedEntityTag=O] [Text=some CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=2.88 CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=CD Lemma=2.88 NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.88E9] [Text=billion CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.88E9] [Text=pesos CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NNS Lemma=peso NamedEntityTag=MONEY NormalizedNamedEntityTag=$2.88E9] [Text=-LRB- CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=$ CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$6.62E7] [Text=66.2 CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=CD Lemma=66.2 NamedEntityTag=MONEY NormalizedNamedEntityTag=$6.62E7] [Text=million CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$6.62E7] [Text=-RRB- CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN storm))
+      (VP (VBD was)
+        (NP (DT the) (JJS strongest)
+          (S
+            (VP (TO to)
+              (VP (VB hit)
+                (NP
+                  (NP (DT the) (JJ Philippine) (NN capital))
+                  (PP (IN of)
+                    (NP (NNP Manila))))
+                (PP (IN in)
+                  (NP (CD eight) (NNS years)))))))))
+    (CC and)
+    (S
+      (NP (DT the) (NN agriculture) (NN department))
+      (VP (VBD estimated)
+        (SBAR
+          (S
+            (NP
+              (NP (JJ nationwide) (NNS losses))
+              (PP (TO to)
+                (NP (NNS farmers))))
+            (VP (MD will)
+              (VP (VB total)
+                (NP
+                  (NP
+                    (QP (DT some) (CD 2.88) (CD billion))
+                    (NNS pesos))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (QP ($ $) (CD 66.2) (CD million)))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+root(ROOT-0, strongest-5)
+det(storm-2, The-1)
+nsubj(strongest-5, storm-2)
+cop(strongest-5, was-3)
+det(strongest-5, the-4)
+aux(hit-7, to-6)
+dep(strongest-5, hit-7)
+det(capital-10, the-8)
+amod(capital-10, Philippine-9)
+dobj(hit-7, capital-10)
+prep_of(capital-10, Manila-12)
+num(years-15, eight-14)
+prep_in(hit-7, years-15)
+det(department-19, the-17)
+nn(department-19, agriculture-18)
+nsubj(estimated-20, department-19)
+conj_and(strongest-5, estimated-20)
+amod(losses-22, nationwide-21)
+nsubj(total-26, losses-22)
+prep_to(losses-22, farmers-24)
+aux(total-26, will-25)
+ccomp(estimated-20, total-26)
+quantmod(billion-29, some-27)
+number(billion-29, 2.88-28)
+num(pesos-30, billion-29)
+dobj(total-26, pesos-30)
+dep(pesos-30, $-32)
+number(million-34, 66.2-33)
+num($-32, million-34)
+
+Sentence #3 (23 tokens):
+That includes 55,015 metric tons of rice, a staple food item in Asia's biggest importer of the grain after China.
+[Text=That CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=includes CharacterOffsetBegin=385 CharacterOffsetEnd=393 PartOfSpeech=VBZ Lemma=include NamedEntityTag=O] [Text=55,015 CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=CD Lemma=55,015 NamedEntityTag=NUMBER NormalizedNamedEntityTag=55015.0] [Text=metric CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=JJ Lemma=metric NamedEntityTag=O] [Text=tons CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=NNS Lemma=ton NamedEntityTag=O] [Text=of CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=rice CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=NN Lemma=rice NamedEntityTag=O] [Text=, CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=staple CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=JJ Lemma=staple NamedEntityTag=O] [Text=food CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=NN Lemma=food NamedEntityTag=O] [Text=item CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=NN Lemma=item NamedEntityTag=O] [Text=in CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Asia CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NNP Lemma=Asia NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=biggest CharacterOffsetBegin=451 CharacterOffsetEnd=458 PartOfSpeech=JJS Lemma=biggest NamedEntityTag=O] [Text=importer CharacterOffsetBegin=459 CharacterOffsetEnd=467 PartOfSpeech=NN Lemma=importer NamedEntityTag=O] [Text=of CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=grain CharacterOffsetBegin=475 CharacterOffsetEnd=480 PartOfSpeech=NN Lemma=grain NamedEntityTag=O] [Text=after CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=China CharacterOffsetBegin=487 CharacterOffsetEnd=492 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ includes)
+      (NP
+        (NP (CD 55,015) (JJ metric) (NNS tons))
+        (PP (IN of)
+          (NP
+            (NP (NN rice))
+            (, ,)
+            (NP
+              (NP (DT a) (JJ staple) (NN food) (NN item))
+              (PP (IN in)
+                (NP
+                  (NP
+                    (NP (NNP Asia) (POS 's))
+                    (JJS biggest) (NN importer))
+                  (PP (IN of)
+                    (NP (DT the) (NN grain)))))))))
+      (PP (IN after)
+        (NP (NNP China))))
+    (. .)))
+
+root(ROOT-0, includes-2)
+nsubj(includes-2, That-1)
+num(tons-5, 55,015-3)
+amod(tons-5, metric-4)
+dobj(includes-2, tons-5)
+prep_of(tons-5, rice-7)
+det(item-12, a-9)
+amod(item-12, staple-10)
+nn(item-12, food-11)
+appos(rice-7, item-12)
+poss(importer-17, Asia-14)
+amod(importer-17, biggest-16)
+prep_in(item-12, importer-17)
+det(grain-20, the-19)
+prep_of(importer-17, grain-20)
+prep_after(includes-2, China-22)
+
+Sentence #4 (12 tokens):
+Another tropical storm entered the Philippines today after Rammasun exited yesterday.
+[Text=Another CharacterOffsetBegin=494 CharacterOffsetEnd=501 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=tropical CharacterOffsetBegin=502 CharacterOffsetEnd=510 PartOfSpeech=JJ Lemma=tropical NamedEntityTag=O] [Text=storm CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=NN Lemma=storm NamedEntityTag=O] [Text=entered CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=VBD Lemma=enter NamedEntityTag=O] [Text=the CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Philippines CharacterOffsetBegin=529 CharacterOffsetEnd=540 PartOfSpeech=NNPS Lemma=Philippines NamedEntityTag=LOCATION] [Text=today CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=after CharacterOffsetBegin=547 CharacterOffsetEnd=552 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=Rammasun CharacterOffsetBegin=553 CharacterOffsetEnd=561 PartOfSpeech=NNP Lemma=Rammasun NamedEntityTag=PERSON] [Text=exited CharacterOffsetBegin=562 CharacterOffsetEnd=568 PartOfSpeech=VBD Lemma=exit NamedEntityTag=O] [Text=yesterday CharacterOffsetBegin=569 CharacterOffsetEnd=578 PartOfSpeech=NN Lemma=yesterday NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D Timex=<TIMEX3 alt_value="OFFSET P-1D" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf2">yesterday</TIMEX3>] [Text=. CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT Another) (JJ tropical) (NN storm))
+    (VP (VBD entered)
+      (NP (DT the) (NNPS Philippines))
+      (NP-TMP (NN today))
+      (SBAR (IN after)
+        (S
+          (NP (NNP Rammasun))
+          (VP (VBD exited)
+            (NP-TMP (NN yesterday))))))
+    (. .)))
+
+root(ROOT-0, entered-4)
+det(storm-3, Another-1)
+amod(storm-3, tropical-2)
+nsubj(entered-4, storm-3)
+det(Philippines-6, the-5)
+dobj(entered-4, Philippines-6)
+tmod(entered-4, today-7)
+mark(exited-10, after-8)
+nsubj(exited-10, Rammasun-9)
+advcl(entered-4, exited-10)
+tmod(exited-10, yesterday-11)
+
+Sentence #5 (14 tokens):
+The weather bureau is predicting as many as 10 typhoons for this quarter.
+[Text=The CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=weather CharacterOffsetBegin=584 CharacterOffsetEnd=591 PartOfSpeech=NN Lemma=weather NamedEntityTag=O] [Text=bureau CharacterOffsetBegin=592 CharacterOffsetEnd=598 PartOfSpeech=NN Lemma=bureau NamedEntityTag=O] [Text=is CharacterOffsetBegin=599 CharacterOffsetEnd=601 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=predicting CharacterOffsetBegin=602 CharacterOffsetEnd=612 PartOfSpeech=VBG Lemma=predict NamedEntityTag=O] [Text=as CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=many CharacterOffsetBegin=616 CharacterOffsetEnd=620 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=as CharacterOffsetBegin=621 CharacterOffsetEnd=623 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=10 CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=CD Lemma=10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=<=10.0] [Text=typhoons CharacterOffsetBegin=627 CharacterOffsetEnd=635 PartOfSpeech=NNS Lemma=typhoon NamedEntityTag=O] [Text=for CharacterOffsetBegin=636 CharacterOffsetEnd=639 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=this CharacterOffsetBegin=640 CharacterOffsetEnd=644 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P3M Timex=<TIMEX3 alt_value="THIS P3M" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf3">this quarter</TIMEX3>] [Text=quarter CharacterOffsetBegin=645 CharacterOffsetEnd=652 PartOfSpeech=NN Lemma=quarter NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P3M Timex=<TIMEX3 alt_value="THIS P3M" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf3">this quarter</TIMEX3>] [Text=. CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN weather) (NN bureau))
+    (VP (VBZ is)
+      (VP (VBG predicting)
+        (NP
+          (NP
+            (QP (RB as) (JJ many) (IN as) (CD 10))
+            (NNS typhoons))
+          (PP (IN for)
+            (NP (DT this) (NN quarter))))))
+    (. .)))
+
+root(ROOT-0, predicting-5)
+det(bureau-3, The-1)
+nn(bureau-3, weather-2)
+nsubj(predicting-5, bureau-3)
+aux(predicting-5, is-4)
+quantmod(10-9, as-6)
+quantmod(10-9, many-7)
+quantmod(10-9, as-8)
+num(typhoons-10, 10-9)
+dobj(predicting-5, typhoons-10)
+det(quarter-13, this-12)
+prep_for(typhoons-10, quarter-13)
+
+Sentence #6 (30 tokens):
+"There are renewed inflation concerns after the recent typhoon and the approaching one," said Dave Estacio, vice president at First Metro Investment Corp. in Manila.
+[Text=`` CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=There CharacterOffsetBegin=656 CharacterOffsetEnd=661 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=are CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=renewed CharacterOffsetBegin=666 CharacterOffsetEnd=673 PartOfSpeech=VBN Lemma=renew NamedEntityTag=O] [Text=inflation CharacterOffsetBegin=674 CharacterOffsetEnd=683 PartOfSpeech=NN Lemma=inflation NamedEntityTag=O] [Text=concerns CharacterOffsetBegin=684 CharacterOffsetEnd=692 PartOfSpeech=NNS Lemma=concern NamedEntityTag=O] [Text=after CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=the CharacterOffsetBegin=699 CharacterOffsetEnd=702 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=recent CharacterOffsetBegin=703 CharacterOffsetEnd=709 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O] [Text=typhoon CharacterOffsetBegin=710 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=typhoon NamedEntityTag=O] [Text=and CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=approaching CharacterOffsetBegin=726 CharacterOffsetEnd=737 PartOfSpeech=VBG Lemma=approach NamedEntityTag=O] [Text=one CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=, CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Dave CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=NNP Lemma=Dave NamedEntityTag=PERSON] [Text=Estacio CharacterOffsetBegin=754 CharacterOffsetEnd=761 PartOfSpeech=NNP Lemma=Estacio NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=vice CharacterOffsetBegin=763 CharacterOffsetEnd=767 PartOfSpeech=NN Lemma=vice NamedEntityTag=O] [Text=president CharacterOffsetBegin=768 CharacterOffsetEnd=777 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=at CharacterOffsetBegin=778 CharacterOffsetEnd=780 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=First CharacterOffsetBegin=781 CharacterOffsetEnd=786 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORGANIZATION] [Text=Metro CharacterOffsetBegin=787 CharacterOffsetEnd=792 PartOfSpeech=NNP Lemma=Metro NamedEntityTag=ORGANIZATION] [Text=Investment CharacterOffsetBegin=793 CharacterOffsetEnd=803 PartOfSpeech=NNP Lemma=Investment NamedEntityTag=ORGANIZATION] [Text=Corp. CharacterOffsetBegin=804 CharacterOffsetEnd=809 PartOfSpeech=NNP Lemma=Corp. NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=810 CharacterOffsetEnd=812 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Manila CharacterOffsetBegin=813 CharacterOffsetEnd=819 PartOfSpeech=NNP Lemma=Manila NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=819 CharacterOffsetEnd=820 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (EX There))
+      (VP (VBP are)
+        (VP (VBN renewed)
+          (NP (NN inflation) (NNS concerns))
+          (PP (IN after)
+            (NP
+              (NP (DT the) (JJ recent) (NN typhoon))
+              (CC and)
+              (NP (DT the))))
+          (S
+            (VP (VBG approaching)
+              (NP (CD one)))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP Dave) (NNP Estacio))
+      (, ,)
+      (NP
+        (NP (NN vice) (NN president))
+        (PP (IN at)
+          (NP
+            (NP (NNP First) (NNP Metro) (NNP Investment) (NNP Corp.))
+            (PP (IN in)
+              (NP (NNP Manila)))))))
+    (. .)))
+
+root(ROOT-0, said-17)
+expl(renewed-4, There-2)
+auxpass(renewed-4, are-3)
+ccomp(said-17, renewed-4)
+nn(concerns-6, inflation-5)
+dobj(renewed-4, concerns-6)
+det(typhoon-10, the-8)
+amod(typhoon-10, recent-9)
+prep_after(renewed-4, typhoon-10)
+conj_and(typhoon-10, the-12)
+xcomp(renewed-4, approaching-13)
+dobj(approaching-13, one-14)
+nn(Estacio-19, Dave-18)
+nsubj(said-17, Estacio-19)
+nn(president-22, vice-21)
+appos(Estacio-19, president-22)
+nn(Corp.-27, First-24)
+nn(Corp.-27, Metro-25)
+nn(Corp.-27, Investment-26)
+prep_at(president-22, Corp.-27)
+prep_in(Corp.-27, Manila-29)
+
+Sentence #7 (17 tokens):
+"The selling pressure may continue ahead of the July 31 central bank policy meeting."
+[Text=`` CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=822 CharacterOffsetEnd=825 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=selling CharacterOffsetBegin=826 CharacterOffsetEnd=833 PartOfSpeech=NN Lemma=selling NamedEntityTag=O] [Text=pressure CharacterOffsetBegin=834 CharacterOffsetEnd=842 PartOfSpeech=NN Lemma=pressure NamedEntityTag=O] [Text=may CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=continue CharacterOffsetBegin=847 CharacterOffsetEnd=855 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=ahead CharacterOffsetBegin=856 CharacterOffsetEnd=861 PartOfSpeech=RB Lemma=ahead NamedEntityTag=O] [Text=of CharacterOffsetBegin=862 CharacterOffsetEnd=864 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=865 CharacterOffsetEnd=868 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=July CharacterOffsetBegin=869 CharacterOffsetEnd=873 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-31 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-07-31">July 31</TIMEX3>] [Text=31 CharacterOffsetBegin=874 CharacterOffsetEnd=876 PartOfSpeech=CD Lemma=31 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-31 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-07-31">July 31</TIMEX3>] [Text=central CharacterOffsetBegin=877 CharacterOffsetEnd=884 PartOfSpeech=JJ Lemma=central NamedEntityTag=O] [Text=bank CharacterOffsetBegin=885 CharacterOffsetEnd=889 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=policy CharacterOffsetBegin=890 CharacterOffsetEnd=896 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=897 CharacterOffsetEnd=904 PartOfSpeech=NN Lemma=meeting NamedEntityTag=O] [Text=. CharacterOffsetBegin=904 CharacterOffsetEnd=905 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=905 CharacterOffsetEnd=906 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (DT The) (NN selling) (NN pressure))
+    (VP (MD may)
+      (VP (VB continue)
+        (ADVP (RB ahead))
+        (PP (IN of)
+          (NP (DT the) (NNP July) (CD 31) (JJ central) (NN bank) (NN policy) (NN meeting)))))
+    (. .) ('' '')))
+
+root(ROOT-0, continue-6)
+det(pressure-4, The-2)
+nn(pressure-4, selling-3)
+nsubj(continue-6, pressure-4)
+aux(continue-6, may-5)
+det(meeting-15, the-9)
+nn(meeting-15, July-10)
+num(meeting-15, 31-11)
+amod(meeting-15, central-12)
+nn(meeting-15, bank-13)
+nn(meeting-15, policy-14)
+prep_ahead_of(continue-6, meeting-15)
+
+Sentence #8 (36 tokens):
+The yield on the 2.875 percent bonds due May 2017 rose three basis points, or 0.03 percentage point, to 2.63 percent, according to Tradition Financial Services prices at 4:31 p.m. in Manila.
+[Text=The CharacterOffsetBegin=908 CharacterOffsetEnd=911 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=yield CharacterOffsetBegin=912 CharacterOffsetEnd=917 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=on CharacterOffsetBegin=918 CharacterOffsetEnd=920 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=921 CharacterOffsetEnd=924 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2.875 CharacterOffsetBegin=925 CharacterOffsetEnd=930 PartOfSpeech=CD Lemma=2.875 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.875] [Text=percent CharacterOffsetBegin=931 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.875] [Text=bonds CharacterOffsetBegin=939 CharacterOffsetEnd=944 PartOfSpeech=NNS Lemma=bond NamedEntityTag=O] [Text=due CharacterOffsetBegin=945 CharacterOffsetEnd=948 PartOfSpeech=JJ Lemma=due NamedEntityTag=O] [Text=May CharacterOffsetBegin=949 CharacterOffsetEnd=952 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2017-05 Timex=<TIMEX3 tid="t9" type="DATE" value="2017-05">May 2017</TIMEX3>] [Text=2017 CharacterOffsetBegin=953 CharacterOffsetEnd=957 PartOfSpeech=CD Lemma=2017 NamedEntityTag=DATE NormalizedNamedEntityTag=2017-05 Timex=<TIMEX3 tid="t9" type="DATE" value="2017-05">May 2017</TIMEX3>] [Text=rose CharacterOffsetBegin=958 CharacterOffsetEnd=962 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=three CharacterOffsetBegin=963 CharacterOffsetEnd=968 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=basis CharacterOffsetBegin=969 CharacterOffsetEnd=974 PartOfSpeech=NN Lemma=basis NamedEntityTag=O] [Text=points CharacterOffsetBegin=975 CharacterOffsetEnd=981 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=, CharacterOffsetBegin=981 CharacterOffsetEnd=982 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=983 CharacterOffsetEnd=985 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=0.03 CharacterOffsetBegin=986 CharacterOffsetEnd=990 PartOfSpeech=CD Lemma=0.03 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.03] [Text=percentage CharacterOffsetBegin=991 CharacterOffsetEnd=1001 PartOfSpeech=NN Lemma=percentage NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.03] [Text=point CharacterOffsetBegin=1002 CharacterOffsetEnd=1007 PartOfSpeech=NN Lemma=point NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.03] [Text=, CharacterOffsetBegin=1007 CharacterOffsetEnd=1008 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=1009 CharacterOffsetEnd=1011 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=2.63 CharacterOffsetBegin=1012 CharacterOffsetEnd=1016 PartOfSpeech=CD Lemma=2.63 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.63] [Text=percent CharacterOffsetBegin=1017 CharacterOffsetEnd=1024 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.63] [Text=, CharacterOffsetBegin=1024 CharacterOffsetEnd=1025 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=1026 CharacterOffsetEnd=1035 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=1036 CharacterOffsetEnd=1038 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Tradition CharacterOffsetBegin=1039 CharacterOffsetEnd=1048 PartOfSpeech=NN Lemma=tradition NamedEntityTag=ORGANIZATION] [Text=Financial CharacterOffsetBegin=1049 CharacterOffsetEnd=1058 PartOfSpeech=NNP Lemma=Financial NamedEntityTag=ORGANIZATION] [Text=Services CharacterOffsetBegin=1059 CharacterOffsetEnd=1067 PartOfSpeech=NNPS Lemma=Services NamedEntityTag=ORGANIZATION] [Text=prices CharacterOffsetBegin=1068 CharacterOffsetEnd=1074 PartOfSpeech=NNS Lemma=price NamedEntityTag=O] [Text=at CharacterOffsetBegin=1075 CharacterOffsetEnd=1077 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=4:31 CharacterOffsetBegin=1078 CharacterOffsetEnd=1082 PartOfSpeech=CD Lemma=4:31 NamedEntityTag=TIME NormalizedNamedEntityTag=T16:31 Timex=<TIMEX3 tid="t10" type="TIME" value="T16:31">4:31 p.m.</TIMEX3>] [Text=p.m. CharacterOffsetBegin=1083 CharacterOffsetEnd=1087 PartOfSpeech=NN Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=T16:31 Timex=<TIMEX3 tid="t10" type="TIME" value="T16:31">4:31 p.m.</TIMEX3>] [Text=in CharacterOffsetBegin=1088 CharacterOffsetEnd=1090 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Manila CharacterOffsetBegin=1091 CharacterOffsetEnd=1097 PartOfSpeech=NNP Lemma=Manila NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1097 CharacterOffsetEnd=1098 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN yield))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (CD 2.875) (NN percent) (NNS bonds))
+          (ADJP (JJ due)
+            (NP-TMP (NNP May) (CD 2017))))))
+    (VP (VBD rose)
+      (NP
+        (NP (CD three) (NN basis) (NNS points))
+        (, ,)
+        (CC or)
+        (NP (CD 0.03) (NN percentage) (NN point))
+        (, ,))
+      (PP (TO to)
+        (NP (CD 2.63) (NN percent)))
+      (, ,)
+      (PP (VBG according)
+        (PP (TO to)
+          (NP (NN Tradition))
+          (PP
+            (NP (NNP Financial) (NNPS Services) (NNS prices))
+            (IN at)
+            (NP
+              (NP (CD 4:31) (NN p.m.))
+              (PP (IN in)
+                (NP (NNP Manila))))))))
+    (. .)))
+
+root(ROOT-0, rose-11)
+det(yield-2, The-1)
+nsubj(rose-11, yield-2)
+det(bonds-7, the-4)
+num(bonds-7, 2.875-5)
+nn(bonds-7, percent-6)
+prep_on(yield-2, bonds-7)
+amod(bonds-7, due-8)
+tmod(due-8, May-9)
+num(May-9, 2017-10)
+num(points-14, three-12)
+nn(points-14, basis-13)
+dobj(rose-11, points-14)
+num(point-19, 0.03-17)
+nn(point-19, percentage-18)
+conj_or(points-14, point-19)
+num(percent-23, 2.63-22)
+prep_to(rose-11, percent-23)
+prepc_according_to(rose-11, to-26)
+pobj(rose-11, Tradition-27)
+nn(prices-30, Financial-28)
+nn(prices-30, Services-29)
+dep(rose-11, prices-30)
+num(p.m.-33, 4:31-32)
+prep_at(rose-11, p.m.-33)
+prep_in(p.m.-33, Manila-35)
+
+Sentence #9 (9 tokens):
+The rate increased four basis points this week.
+[Text=The CharacterOffsetBegin=1099 CharacterOffsetEnd=1102 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=rate CharacterOffsetBegin=1103 CharacterOffsetEnd=1107 PartOfSpeech=NN Lemma=rate NamedEntityTag=O] [Text=increased CharacterOffsetBegin=1108 CharacterOffsetEnd=1117 PartOfSpeech=VBD Lemma=increase NamedEntityTag=O] [Text=four CharacterOffsetBegin=1118 CharacterOffsetEnd=1122 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=basis CharacterOffsetBegin=1123 CharacterOffsetEnd=1128 PartOfSpeech=NN Lemma=basis NamedEntityTag=O] [Text=points CharacterOffsetBegin=1129 CharacterOffsetEnd=1135 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=this CharacterOffsetBegin=1136 CharacterOffsetEnd=1140 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=week CharacterOffsetBegin=1141 CharacterOffsetEnd=1145 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=. CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN rate))
+    (VP (VBD increased)
+      (NP (CD four) (NN basis) (NNS points))
+      (NP-TMP (DT this) (NN week)))
+    (. .)))
+
+root(ROOT-0, increased-3)
+det(rate-2, The-1)
+nsubj(increased-3, rate-2)
+num(points-6, four-4)
+nn(points-6, basis-5)
+dobj(increased-3, points-6)
+det(week-8, this-7)
+tmod(increased-3, week-8)
+
+Sentence #10 (39 tokens):
+The typhoon won't threaten inflation targets this year and next, and Rammasun's effects are expected to be "substantially less" than previous storms, Bangko Sentral ng Pilipinas Governor Amando Tetangco told reporters today.
+[Text=The CharacterOffsetBegin=1148 CharacterOffsetEnd=1151 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=typhoon CharacterOffsetBegin=1152 CharacterOffsetEnd=1159 PartOfSpeech=NN Lemma=typhoon NamedEntityTag=O] [Text=wo CharacterOffsetBegin=1160 CharacterOffsetEnd=1162 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=n't CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=threaten CharacterOffsetBegin=1166 CharacterOffsetEnd=1174 PartOfSpeech=VB Lemma=threaten NamedEntityTag=O] [Text=inflation CharacterOffsetBegin=1175 CharacterOffsetEnd=1184 PartOfSpeech=NN Lemma=inflation NamedEntityTag=O] [Text=targets CharacterOffsetBegin=1185 CharacterOffsetEnd=1192 PartOfSpeech=NNS Lemma=target NamedEntityTag=O] [Text=this CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t11" type="DATE" valueFromFunction="tf4">this year</TIMEX3>] [Text=year CharacterOffsetBegin=1198 CharacterOffsetEnd=1202 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t11" type="DATE" valueFromFunction="tf4">this year</TIMEX3>] [Text=and CharacterOffsetBegin=1203 CharacterOffsetEnd=1206 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=next CharacterOffsetBegin=1207 CharacterOffsetEnd=1211 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=, CharacterOffsetBegin=1211 CharacterOffsetEnd=1212 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1213 CharacterOffsetEnd=1216 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Rammasun CharacterOffsetBegin=1217 CharacterOffsetEnd=1225 PartOfSpeech=NNP Lemma=Rammasun NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=1225 CharacterOffsetEnd=1227 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=effects CharacterOffsetBegin=1228 CharacterOffsetEnd=1235 PartOfSpeech=NNS Lemma=effect NamedEntityTag=O] [Text=are CharacterOffsetBegin=1236 CharacterOffsetEnd=1239 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=1240 CharacterOffsetEnd=1248 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=1249 CharacterOffsetEnd=1251 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1252 CharacterOffsetEnd=1254 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1255 CharacterOffsetEnd=1256 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=substantially CharacterOffsetBegin=1256 CharacterOffsetEnd=1269 PartOfSpeech=RB Lemma=substantially NamedEntityTag=O] [Text=less CharacterOffsetBegin=1270 CharacterOffsetEnd=1274 PartOfSpeech=JJR Lemma=less NamedEntityTag=O] [Text='' CharacterOffsetBegin=1274 CharacterOffsetEnd=1275 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=than CharacterOffsetBegin=1276 CharacterOffsetEnd=1280 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=previous CharacterOffsetBegin=1281 CharacterOffsetEnd=1289 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O] [Text=storms CharacterOffsetBegin=1290 CharacterOffsetEnd=1296 PartOfSpeech=NNS Lemma=storm NamedEntityTag=O] [Text=, CharacterOffsetBegin=1296 CharacterOffsetEnd=1297 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Bangko CharacterOffsetBegin=1298 CharacterOffsetEnd=1304 PartOfSpeech=NNP Lemma=Bangko NamedEntityTag=PERSON] [Text=Sentral CharacterOffsetBegin=1305 CharacterOffsetEnd=1312 PartOfSpeech=NNP Lemma=Sentral NamedEntityTag=PERSON] [Text=ng CharacterOffsetBegin=1313 CharacterOffsetEnd=1315 PartOfSpeech=NN Lemma=ng NamedEntityTag=O] [Text=Pilipinas CharacterOffsetBegin=1316 CharacterOffsetEnd=1325 PartOfSpeech=NNP Lemma=Pilipinas NamedEntityTag=O] [Text=Governor CharacterOffsetBegin=1326 CharacterOffsetEnd=1334 PartOfSpeech=NNP Lemma=Governor NamedEntityTag=O] [Text=Amando CharacterOffsetBegin=1335 CharacterOffsetEnd=1341 PartOfSpeech=NNP Lemma=Amando NamedEntityTag=PERSON] [Text=Tetangco CharacterOffsetBegin=1342 CharacterOffsetEnd=1350 PartOfSpeech=NNP Lemma=Tetangco NamedEntityTag=PERSON] [Text=told CharacterOffsetBegin=1351 CharacterOffsetEnd=1355 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=reporters CharacterOffsetBegin=1356 CharacterOffsetEnd=1365 PartOfSpeech=NNS Lemma=reporter NamedEntityTag=O] [Text=today CharacterOffsetBegin=1366 CharacterOffsetEnd=1371 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=. CharacterOffsetBegin=1371 CharacterOffsetEnd=1372 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (S
+        (NP (DT The) (NN typhoon))
+        (VP (MD wo) (RB n't)
+          (VP (VB threaten)
+            (NP (NN inflation) (NNS targets))
+            (NP-TMP (DT this) (NN year)
+              (CC and)
+              (JJ next)))))
+      (, ,)
+      (CC and)
+      (S
+        (NP
+          (NP (NNP Rammasun) (POS 's))
+          (NNS effects))
+        (VP (VBP are)
+          (VP (VBN expected)
+            (S
+              (VP (TO to)
+                (VP (VB be) (`` ``)
+                  (ADJP (RB substantially) (JJR less))
+                  ('' '')
+                  (PP (IN than)
+                    (NP (JJ previous) (NNS storms))))))))))
+    (, ,)
+    (NP (NNP Bangko) (NNP Sentral) (NN ng) (NNP Pilipinas) (NNP Governor) (NNP Amando) (NNP Tetangco))
+    (VP (VBD told)
+      (NP (NNS reporters))
+      (NP-TMP (NN today)))
+    (. .)))
+
+root(ROOT-0, told-36)
+det(typhoon-2, The-1)
+nsubj(threaten-5, typhoon-2)
+aux(threaten-5, wo-3)
+neg(threaten-5, n't-4)
+ccomp(told-36, threaten-5)
+nn(targets-7, inflation-6)
+dobj(threaten-5, targets-7)
+det(year-9, this-8)
+tmod(threaten-5, year-9)
+conj_and(year-9, next-11)
+poss(effects-16, Rammasun-14)
+nsubjpass(expected-18, effects-16)
+auxpass(expected-18, are-17)
+conj_and(threaten-5, expected-18)
+aux(less-23, to-19)
+cop(less-23, be-20)
+advmod(less-23, substantially-22)
+xcomp(expected-18, less-23)
+amod(storms-27, previous-26)
+prep_than(less-23, storms-27)
+nn(Tetangco-35, Bangko-29)
+nn(Tetangco-35, Sentral-30)
+nn(Tetangco-35, ng-31)
+nn(Tetangco-35, Pilipinas-32)
+nn(Tetangco-35, Governor-33)
+nn(Tetangco-35, Amando-34)
+nsubj(told-36, Tetangco-35)
+dobj(told-36, reporters-37)
+tmod(told-36, today-38)
+
+Sentence #11 (19 tokens):
+The three-year bond yield which rose as much as five basis points earlier today, pared its advance.
+[Text=The CharacterOffsetBegin=1373 CharacterOffsetEnd=1376 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=three-year CharacterOffsetBegin=1377 CharacterOffsetEnd=1387 PartOfSpeech=JJ Lemma=three-year NamedEntityTag=DURATION NormalizedNamedEntityTag=P3Y Timex=<TIMEX3 tid="t12" type="DURATION" value="P3Y">three-year</TIMEX3>] [Text=bond CharacterOffsetBegin=1388 CharacterOffsetEnd=1392 PartOfSpeech=NN Lemma=bond NamedEntityTag=O] [Text=yield CharacterOffsetBegin=1393 CharacterOffsetEnd=1398 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=which CharacterOffsetBegin=1399 CharacterOffsetEnd=1404 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1405 CharacterOffsetEnd=1409 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=as CharacterOffsetBegin=1410 CharacterOffsetEnd=1412 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=much CharacterOffsetBegin=1413 CharacterOffsetEnd=1417 PartOfSpeech=JJ Lemma=much NamedEntityTag=O] [Text=as CharacterOffsetBegin=1418 CharacterOffsetEnd=1420 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=five CharacterOffsetBegin=1421 CharacterOffsetEnd=1425 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=<=5.0] [Text=basis CharacterOffsetBegin=1426 CharacterOffsetEnd=1431 PartOfSpeech=NN Lemma=basis NamedEntityTag=O] [Text=points CharacterOffsetBegin=1432 CharacterOffsetEnd=1438 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=earlier CharacterOffsetBegin=1439 CharacterOffsetEnd=1446 PartOfSpeech=RBR Lemma=earlier NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">earlier today</TIMEX3>] [Text=today CharacterOffsetBegin=1447 CharacterOffsetEnd=1452 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">earlier today</TIMEX3>] [Text=, CharacterOffsetBegin=1452 CharacterOffsetEnd=1453 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=pared CharacterOffsetBegin=1454 CharacterOffsetEnd=1459 PartOfSpeech=VBD Lemma=pare NamedEntityTag=O] [Text=its CharacterOffsetBegin=1460 CharacterOffsetEnd=1463 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=advance CharacterOffsetBegin=1464 CharacterOffsetEnd=1471 PartOfSpeech=NN Lemma=advance NamedEntityTag=O] [Text=. CharacterOffsetBegin=1471 CharacterOffsetEnd=1472 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ three-year) (NN bond) (NN yield))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBD rose)
+            (NP
+              (QP (RB as) (JJ much) (IN as) (CD five))
+              (NN basis) (NNS points))
+            (ADVP (RBR earlier))
+            (NP-TMP (NN today))))))
+    (, ,)
+    (VP (VBD pared)
+      (NP (PRP$ its) (NN advance)))
+    (. .)))
+
+root(ROOT-0, pared-16)
+det(yield-4, The-1)
+amod(yield-4, three-year-2)
+nn(yield-4, bond-3)
+nsubj(pared-16, yield-4)
+nsubj(rose-6, which-5)
+rcmod(yield-4, rose-6)
+quantmod(five-10, as-7)
+quantmod(five-10, much-8)
+quantmod(five-10, as-9)
+num(points-12, five-10)
+nn(points-12, basis-11)
+dobj(rose-6, points-12)
+advmod(rose-6, earlier-13)
+tmod(rose-6, today-14)
+poss(advance-18, its-17)
+dobj(pared-16, advance-18)
+
+Sentence #12 (32 tokens):
+'Chilling Effect'
+The peso was little changed today and rose 0.1 percent this week to close at 43.515 per dollar in Manila, according to Tullett Prebon Plc prices.
+[Text=` CharacterOffsetBegin=1474 CharacterOffsetEnd=1475 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=Chilling CharacterOffsetBegin=1475 CharacterOffsetEnd=1483 PartOfSpeech=NNP Lemma=Chilling NamedEntityTag=O] [Text=Effect CharacterOffsetBegin=1484 CharacterOffsetEnd=1490 PartOfSpeech=NN Lemma=effect NamedEntityTag=O] [Text=' CharacterOffsetBegin=1490 CharacterOffsetEnd=1491 PartOfSpeech='' Lemma=' NamedEntityTag=O] [Text=The CharacterOffsetBegin=1493 CharacterOffsetEnd=1496 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=peso CharacterOffsetBegin=1497 CharacterOffsetEnd=1501 PartOfSpeech=NN Lemma=peso NamedEntityTag=O] [Text=was CharacterOffsetBegin=1502 CharacterOffsetEnd=1505 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=little CharacterOffsetBegin=1506 CharacterOffsetEnd=1512 PartOfSpeech=RB Lemma=little NamedEntityTag=O] [Text=changed CharacterOffsetBegin=1513 CharacterOffsetEnd=1520 PartOfSpeech=JJ Lemma=changed NamedEntityTag=O] [Text=today CharacterOffsetBegin=1521 CharacterOffsetEnd=1526 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=and CharacterOffsetBegin=1527 CharacterOffsetEnd=1530 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1531 CharacterOffsetEnd=1535 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=0.1 CharacterOffsetBegin=1536 CharacterOffsetEnd=1539 PartOfSpeech=CD Lemma=0.1 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.1] [Text=percent CharacterOffsetBegin=1540 CharacterOffsetEnd=1547 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.1] [Text=this CharacterOffsetBegin=1548 CharacterOffsetEnd=1552 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=week CharacterOffsetBegin=1553 CharacterOffsetEnd=1557 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=to CharacterOffsetBegin=1558 CharacterOffsetEnd=1560 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=close CharacterOffsetBegin=1561 CharacterOffsetEnd=1566 PartOfSpeech=VB Lemma=close NamedEntityTag=O] [Text=at CharacterOffsetBegin=1567 CharacterOffsetEnd=1569 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=43.515 CharacterOffsetBegin=1570 CharacterOffsetEnd=1576 PartOfSpeech=CD Lemma=43.515 NamedEntityTag=NUMBER NormalizedNamedEntityTag=43.515] [Text=per CharacterOffsetBegin=1577 CharacterOffsetEnd=1580 PartOfSpeech=IN Lemma=per NamedEntityTag=O] [Text=dollar CharacterOffsetBegin=1581 CharacterOffsetEnd=1587 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=in CharacterOffsetBegin=1588 CharacterOffsetEnd=1590 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Manila CharacterOffsetBegin=1591 CharacterOffsetEnd=1597 PartOfSpeech=NNP Lemma=Manila NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1597 CharacterOffsetEnd=1598 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=1599 CharacterOffsetEnd=1608 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=1609 CharacterOffsetEnd=1611 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Tullett CharacterOffsetBegin=1612 CharacterOffsetEnd=1619 PartOfSpeech=NNP Lemma=Tullett NamedEntityTag=ORGANIZATION] [Text=Prebon CharacterOffsetBegin=1620 CharacterOffsetEnd=1626 PartOfSpeech=NNP Lemma=Prebon NamedEntityTag=ORGANIZATION] [Text=Plc CharacterOffsetBegin=1627 CharacterOffsetEnd=1630 PartOfSpeech=NNP Lemma=Plc NamedEntityTag=ORGANIZATION] [Text=prices CharacterOffsetBegin=1631 CharacterOffsetEnd=1637 PartOfSpeech=NNS Lemma=price NamedEntityTag=O] [Text=. CharacterOffsetBegin=1637 CharacterOffsetEnd=1638 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP
+      (NP (`` `)
+        (NP (NNP Chilling) (NN Effect))
+        ('' ')
+        (SBAR
+          (S
+            (NP (DT The) (NN peso))
+            (VP
+              (VP (VBD was)
+                (ADJP (RB little) (JJ changed))
+                (NP-TMP (NN today)))
+              (CC and)
+              (VP (VBD rose)
+                (NP (CD 0.1) (NN percent))
+                (NP-TMP (DT this) (NN week))
+                (S
+                  (VP (TO to)
+                    (VP (VB close)
+                      (PP (IN at)
+                        (NP
+                          (NP (CD 43.515))
+                          (PP (IN per)
+                            (NP (NN dollar)))))
+                      (PP (IN in)
+                        (NP (NNP Manila)))
+                      (, ,)
+                      (PP (VBG according)
+                        (PP (TO to)
+                          (NP (NNP Tullett) (NNP Prebon) (NNP Plc) (NNS prices)))))))))))))
+    (. .)))
+
+root(ROOT-0, Effect-3)
+nn(Effect-3, Chilling-2)
+det(peso-6, The-5)
+nsubj(changed-9, peso-6)
+cop(changed-9, was-7)
+advmod(changed-9, little-8)
+rcmod(Effect-3, changed-9)
+tmod(changed-9, today-10)
+conj_and(changed-9, rose-12)
+num(percent-14, 0.1-13)
+dobj(rose-12, percent-14)
+det(week-16, this-15)
+tmod(rose-12, week-16)
+aux(close-18, to-17)
+vmod(rose-12, close-18)
+prep_at(close-18, 43.515-20)
+prep_per(43.515-20, dollar-22)
+prep_in(close-18, Manila-24)
+prepc_according_to(close-18, to-27)
+nn(prices-31, Tullett-28)
+nn(prices-31, Prebon-29)
+nn(prices-31, Plc-30)
+pobj(close-18, prices-31)
+
+Sentence #13 (27 tokens):
+One-month implied volatility, a measure of expected moves in the exchange rate used to price options, rose eight basis points today to 4.58 percent.
+[Text=One-month CharacterOffsetBegin=1639 CharacterOffsetEnd=1648 PartOfSpeech=JJ Lemma=one-month NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t13" type="DURATION" value="P1M">One-month</TIMEX3>] [Text=implied CharacterOffsetBegin=1649 CharacterOffsetEnd=1656 PartOfSpeech=VBN Lemma=imply NamedEntityTag=O] [Text=volatility CharacterOffsetBegin=1657 CharacterOffsetEnd=1667 PartOfSpeech=NN Lemma=volatility NamedEntityTag=O] [Text=, CharacterOffsetBegin=1667 CharacterOffsetEnd=1668 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1669 CharacterOffsetEnd=1670 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=measure CharacterOffsetBegin=1671 CharacterOffsetEnd=1678 PartOfSpeech=NN Lemma=measure NamedEntityTag=O] [Text=of CharacterOffsetBegin=1679 CharacterOffsetEnd=1681 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=expected CharacterOffsetBegin=1682 CharacterOffsetEnd=1690 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=moves CharacterOffsetBegin=1691 CharacterOffsetEnd=1696 PartOfSpeech=NNS Lemma=move NamedEntityTag=O] [Text=in CharacterOffsetBegin=1697 CharacterOffsetEnd=1699 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1700 CharacterOffsetEnd=1703 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=exchange CharacterOffsetBegin=1704 CharacterOffsetEnd=1712 PartOfSpeech=NN Lemma=exchange NamedEntityTag=O] [Text=rate CharacterOffsetBegin=1713 CharacterOffsetEnd=1717 PartOfSpeech=NN Lemma=rate NamedEntityTag=O] [Text=used CharacterOffsetBegin=1718 CharacterOffsetEnd=1722 PartOfSpeech=VBN Lemma=use NamedEntityTag=O] [Text=to CharacterOffsetBegin=1723 CharacterOffsetEnd=1725 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=price CharacterOffsetBegin=1726 CharacterOffsetEnd=1731 PartOfSpeech=NN Lemma=price NamedEntityTag=O] [Text=options CharacterOffsetBegin=1732 CharacterOffsetEnd=1739 PartOfSpeech=NNS Lemma=option NamedEntityTag=O] [Text=, CharacterOffsetBegin=1739 CharacterOffsetEnd=1740 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1741 CharacterOffsetEnd=1745 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=eight CharacterOffsetBegin=1746 CharacterOffsetEnd=1751 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=basis CharacterOffsetBegin=1752 CharacterOffsetEnd=1757 PartOfSpeech=NN Lemma=basis NamedEntityTag=O] [Text=points CharacterOffsetBegin=1758 CharacterOffsetEnd=1764 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=today CharacterOffsetBegin=1765 CharacterOffsetEnd=1770 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=to CharacterOffsetBegin=1771 CharacterOffsetEnd=1773 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=4.58 CharacterOffsetBegin=1774 CharacterOffsetEnd=1778 PartOfSpeech=CD Lemma=4.58 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.58] [Text=percent CharacterOffsetBegin=1779 CharacterOffsetEnd=1786 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.58] [Text=. CharacterOffsetBegin=1786 CharacterOffsetEnd=1787 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (JJ One-month) (VBN implied) (NN volatility))
+      (, ,)
+      (NP
+        (NP (DT a) (NN measure))
+        (PP (IN of)
+          (NP
+            (NP (VBN expected) (NNS moves))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN exchange) (NN rate))
+                (VP (VBN used)
+                  (PP (TO to)
+                    (NP (NN price) (NNS options)))))))))
+      (, ,))
+    (VP (VBD rose)
+      (NP (CD eight) (NN basis) (NNS points))
+      (NP-TMP (NN today))
+      (PP (TO to)
+        (NP (CD 4.58) (NN percent))))
+    (. .)))
+
+root(ROOT-0, rose-19)
+amod(volatility-3, One-month-1)
+amod(volatility-3, implied-2)
+nsubj(rose-19, volatility-3)
+det(measure-6, a-5)
+appos(volatility-3, measure-6)
+amod(moves-9, expected-8)
+prep_of(measure-6, moves-9)
+det(rate-13, the-11)
+nn(rate-13, exchange-12)
+prep_in(moves-9, rate-13)
+vmod(rate-13, used-14)
+nn(options-17, price-16)
+prep_to(used-14, options-17)
+num(points-22, eight-20)
+nn(points-22, basis-21)
+dobj(rose-19, points-22)
+tmod(rose-19, today-23)
+num(percent-26, 4.58-25)
+prep_to(rose-19, percent-26)
+
+Sentence #14 (24 tokens):
+The peso lagged gains in other Southeast Asian currencis this month as a court ruling declaring parts of a government stimulus program unconstitutional.
+[Text=The CharacterOffsetBegin=1789 CharacterOffsetEnd=1792 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=peso CharacterOffsetBegin=1793 CharacterOffsetEnd=1797 PartOfSpeech=NN Lemma=peso NamedEntityTag=O] [Text=lagged CharacterOffsetBegin=1798 CharacterOffsetEnd=1804 PartOfSpeech=VBD Lemma=lag NamedEntityTag=O] [Text=gains CharacterOffsetBegin=1805 CharacterOffsetEnd=1810 PartOfSpeech=NNS Lemma=gain NamedEntityTag=O] [Text=in CharacterOffsetBegin=1811 CharacterOffsetEnd=1813 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=other CharacterOffsetBegin=1814 CharacterOffsetEnd=1819 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=Southeast CharacterOffsetBegin=1820 CharacterOffsetEnd=1829 PartOfSpeech=JJ Lemma=southeast NamedEntityTag=LOCATION] [Text=Asian CharacterOffsetBegin=1830 CharacterOffsetEnd=1835 PartOfSpeech=JJ Lemma=asian NamedEntityTag=LOCATION] [Text=currencis CharacterOffsetBegin=1836 CharacterOffsetEnd=1845 PartOfSpeech=NNS Lemma=currenci NamedEntityTag=O] [Text=this CharacterOffsetBegin=1846 CharacterOffsetEnd=1850 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M Timex=<TIMEX3 alt_value="THIS P1M" anchorTimeID="t0" temporalFunction="true" tid="t14" type="DATE" valueFromFunction="tf5">this month</TIMEX3>] [Text=month CharacterOffsetBegin=1851 CharacterOffsetEnd=1856 PartOfSpeech=NN Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M Timex=<TIMEX3 alt_value="THIS P1M" anchorTimeID="t0" temporalFunction="true" tid="t14" type="DATE" valueFromFunction="tf5">this month</TIMEX3>] [Text=as CharacterOffsetBegin=1857 CharacterOffsetEnd=1859 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=1860 CharacterOffsetEnd=1861 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=court CharacterOffsetBegin=1862 CharacterOffsetEnd=1867 PartOfSpeech=NN Lemma=court NamedEntityTag=O] [Text=ruling CharacterOffsetBegin=1868 CharacterOffsetEnd=1874 PartOfSpeech=NN Lemma=ruling NamedEntityTag=O] [Text=declaring CharacterOffsetBegin=1875 CharacterOffsetEnd=1884 PartOfSpeech=VBG Lemma=declare NamedEntityTag=O] [Text=parts CharacterOffsetBegin=1885 CharacterOffsetEnd=1890 PartOfSpeech=NNS Lemma=part NamedEntityTag=O] [Text=of CharacterOffsetBegin=1891 CharacterOffsetEnd=1893 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1894 CharacterOffsetEnd=1895 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=government CharacterOffsetBegin=1896 CharacterOffsetEnd=1906 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=stimulus CharacterOffsetBegin=1907 CharacterOffsetEnd=1915 PartOfSpeech=NN Lemma=stimulus NamedEntityTag=O] [Text=program CharacterOffsetBegin=1916 CharacterOffsetEnd=1923 PartOfSpeech=NN Lemma=program NamedEntityTag=O] [Text=unconstitutional CharacterOffsetBegin=1924 CharacterOffsetEnd=1940 PartOfSpeech=JJ Lemma=unconstitutional NamedEntityTag=O] [Text=. CharacterOffsetBegin=1940 CharacterOffsetEnd=1941 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN peso))
+    (VP (VBD lagged)
+      (NP (NNS gains))
+      (PP (IN in)
+        (NP (JJ other)
+          (ADJP (JJ Southeast) (JJ Asian))
+          (NNS currencis)))
+      (NP-TMP (DT this) (NN month))
+      (PP (IN as)
+        (NP
+          (NP (DT a) (NN court) (NN ruling))
+          (VP (VBG declaring)
+            (S
+              (NP
+                (NP (NNS parts))
+                (PP (IN of)
+                  (NP (DT a) (NN government) (NN stimulus) (NN program))))
+              (ADJP (JJ unconstitutional)))))))
+    (. .)))
+
+root(ROOT-0, lagged-3)
+det(peso-2, The-1)
+nsubj(lagged-3, peso-2)
+dobj(lagged-3, gains-4)
+amod(currencis-9, other-6)
+amod(Asian-8, Southeast-7)
+amod(currencis-9, Asian-8)
+prep_in(lagged-3, currencis-9)
+det(month-11, this-10)
+tmod(lagged-3, month-11)
+det(ruling-15, a-13)
+nn(ruling-15, court-14)
+prep_as(lagged-3, ruling-15)
+vmod(ruling-15, declaring-16)
+nsubj(unconstitutional-23, parts-17)
+det(program-22, a-19)
+nn(program-22, government-20)
+nn(program-22, stimulus-21)
+prep_of(parts-17, program-22)
+xcomp(declaring-16, unconstitutional-23)
+
+Sentence #15 (20 tokens):
+President Benigno Aquino said on July 15 the decision could have a "chilling effect" on the economy.
+[Text=President CharacterOffsetBegin=1942 CharacterOffsetEnd=1951 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=Benigno CharacterOffsetBegin=1952 CharacterOffsetEnd=1959 PartOfSpeech=NNP Lemma=Benigno NamedEntityTag=PERSON] [Text=Aquino CharacterOffsetBegin=1960 CharacterOffsetEnd=1966 PartOfSpeech=NNP Lemma=Aquino NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1967 CharacterOffsetEnd=1971 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=on CharacterOffsetBegin=1972 CharacterOffsetEnd=1974 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=1975 CharacterOffsetEnd=1979 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-15 Timex=<TIMEX3 tid="t15" type="DATE" value="XXXX-07-15">July 15</TIMEX3>] [Text=15 CharacterOffsetBegin=1980 CharacterOffsetEnd=1982 PartOfSpeech=CD Lemma=15 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-15 Timex=<TIMEX3 tid="t15" type="DATE" value="XXXX-07-15">July 15</TIMEX3>] [Text=the CharacterOffsetBegin=1983 CharacterOffsetEnd=1986 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=decision CharacterOffsetBegin=1987 CharacterOffsetEnd=1995 PartOfSpeech=NN Lemma=decision NamedEntityTag=O] [Text=could CharacterOffsetBegin=1996 CharacterOffsetEnd=2001 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=have CharacterOffsetBegin=2002 CharacterOffsetEnd=2006 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=2007 CharacterOffsetEnd=2008 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2009 CharacterOffsetEnd=2010 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=chilling CharacterOffsetBegin=2010 CharacterOffsetEnd=2018 PartOfSpeech=JJ Lemma=chilling NamedEntityTag=O] [Text=effect CharacterOffsetBegin=2019 CharacterOffsetEnd=2025 PartOfSpeech=NN Lemma=effect NamedEntityTag=O] [Text='' CharacterOffsetBegin=2025 CharacterOffsetEnd=2026 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=2027 CharacterOffsetEnd=2029 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2030 CharacterOffsetEnd=2033 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=economy CharacterOffsetBegin=2034 CharacterOffsetEnd=2041 PartOfSpeech=NN Lemma=economy NamedEntityTag=O] [Text=. CharacterOffsetBegin=2041 CharacterOffsetEnd=2042 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP President) (NNP Benigno) (NNP Aquino))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (PP (IN on)
+            (NP (NNP July) (CD 15)))
+          (NP (DT the) (NN decision))
+          (VP (MD could)
+            (VP (VB have)
+              (NP
+                (NP (DT a) (`` ``) (JJ chilling) (NN effect) ('' ''))
+                (PP (IN on)
+                  (NP (DT the) (NN economy)))))))))
+    (. .)))
+
+root(ROOT-0, said-4)
+nn(Aquino-3, President-1)
+nn(Aquino-3, Benigno-2)
+nsubj(said-4, Aquino-3)
+prep_on(have-11, July-6)
+num(July-6, 15-7)
+det(decision-9, the-8)
+nsubj(have-11, decision-9)
+aux(have-11, could-10)
+ccomp(said-4, have-11)
+det(effect-15, a-12)
+amod(effect-15, chilling-14)
+dobj(have-11, effect-15)
+det(economy-19, the-18)
+prep_on(effect-15, economy-19)
+
+Sentence #16 (14 tokens):
+Financial markets are affected by factors including external developments, Tetangco said today.
+[Text=Financial CharacterOffsetBegin=2044 CharacterOffsetEnd=2053 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O] [Text=markets CharacterOffsetBegin=2054 CharacterOffsetEnd=2061 PartOfSpeech=NNS Lemma=market NamedEntityTag=O] [Text=are CharacterOffsetBegin=2062 CharacterOffsetEnd=2065 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=affected CharacterOffsetBegin=2066 CharacterOffsetEnd=2074 PartOfSpeech=VBN Lemma=affect NamedEntityTag=O] [Text=by CharacterOffsetBegin=2075 CharacterOffsetEnd=2077 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=factors CharacterOffsetBegin=2078 CharacterOffsetEnd=2085 PartOfSpeech=NNS Lemma=factor NamedEntityTag=O] [Text=including CharacterOffsetBegin=2086 CharacterOffsetEnd=2095 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=external CharacterOffsetBegin=2096 CharacterOffsetEnd=2104 PartOfSpeech=JJ Lemma=external NamedEntityTag=O] [Text=developments CharacterOffsetBegin=2105 CharacterOffsetEnd=2117 PartOfSpeech=NNS Lemma=development NamedEntityTag=O] [Text=, CharacterOffsetBegin=2117 CharacterOffsetEnd=2118 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tetangco CharacterOffsetBegin=2119 CharacterOffsetEnd=2127 PartOfSpeech=NNP Lemma=Tetangco NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2128 CharacterOffsetEnd=2132 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=today CharacterOffsetBegin=2133 CharacterOffsetEnd=2138 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">today</TIMEX3>] [Text=. CharacterOffsetBegin=2138 CharacterOffsetEnd=2139 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (JJ Financial) (NNS markets))
+      (VP (VBP are)
+        (VP (VBN affected)
+          (PP (IN by)
+            (NP
+              (NP (NNS factors))
+              (PP (VBG including)
+                (NP (JJ external) (NNS developments))))))))
+    (, ,)
+    (NP (NNP Tetangco))
+    (VP (VBD said)
+      (NP-TMP (NN today)))
+    (. .)))
+
+root(ROOT-0, said-12)
+amod(markets-2, Financial-1)
+nsubjpass(affected-4, markets-2)
+auxpass(affected-4, are-3)
+ccomp(said-12, affected-4)
+agent(affected-4, factors-6)
+amod(developments-9, external-8)
+prep_including(factors-6, developments-9)
+nsubj(said-12, Tetangco-11)
+tmod(said-12, today-13)
+
+Sentence #17 (25 tokens):
+Geopolitical risks including the shooting of Malaysia Airline System Bhd Flight 17 over Ukraine added to risk aversion, First Metro's Estacio said.
+[Text=Geopolitical CharacterOffsetBegin=2140 CharacterOffsetEnd=2152 PartOfSpeech=JJ Lemma=geopolitical NamedEntityTag=O] [Text=risks CharacterOffsetBegin=2153 CharacterOffsetEnd=2158 PartOfSpeech=NNS Lemma=risk NamedEntityTag=O] [Text=including CharacterOffsetBegin=2159 CharacterOffsetEnd=2168 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=2169 CharacterOffsetEnd=2172 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=shooting CharacterOffsetBegin=2173 CharacterOffsetEnd=2181 PartOfSpeech=NN Lemma=shooting NamedEntityTag=O] [Text=of CharacterOffsetBegin=2182 CharacterOffsetEnd=2184 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Malaysia CharacterOffsetBegin=2185 CharacterOffsetEnd=2193 PartOfSpeech=NNP Lemma=Malaysia NamedEntityTag=ORGANIZATION] [Text=Airline CharacterOffsetBegin=2194 CharacterOffsetEnd=2201 PartOfSpeech=NNP Lemma=Airline NamedEntityTag=ORGANIZATION] [Text=System CharacterOffsetBegin=2202 CharacterOffsetEnd=2208 PartOfSpeech=NNP Lemma=System NamedEntityTag=ORGANIZATION] [Text=Bhd CharacterOffsetBegin=2209 CharacterOffsetEnd=2212 PartOfSpeech=NNP Lemma=Bhd NamedEntityTag=ORGANIZATION] [Text=Flight CharacterOffsetBegin=2213 CharacterOffsetEnd=2219 PartOfSpeech=NNP Lemma=Flight NamedEntityTag=O] [Text=17 CharacterOffsetBegin=2220 CharacterOffsetEnd=2222 PartOfSpeech=CD Lemma=17 NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.0] [Text=over CharacterOffsetBegin=2223 CharacterOffsetEnd=2227 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=Ukraine CharacterOffsetBegin=2228 CharacterOffsetEnd=2235 PartOfSpeech=NNP Lemma=Ukraine NamedEntityTag=LOCATION] [Text=added CharacterOffsetBegin=2236 CharacterOffsetEnd=2241 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=to CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=risk CharacterOffsetBegin=2245 CharacterOffsetEnd=2249 PartOfSpeech=VB Lemma=risk NamedEntityTag=O] [Text=aversion CharacterOffsetBegin=2250 CharacterOffsetEnd=2258 PartOfSpeech=NN Lemma=aversion NamedEntityTag=O] [Text=, CharacterOffsetBegin=2258 CharacterOffsetEnd=2259 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=First CharacterOffsetBegin=2260 CharacterOffsetEnd=2265 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORGANIZATION] [Text=Metro CharacterOffsetBegin=2266 CharacterOffsetEnd=2271 PartOfSpeech=NNP Lemma=Metro NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=2271 CharacterOffsetEnd=2273 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Estacio CharacterOffsetBegin=2274 CharacterOffsetEnd=2281 PartOfSpeech=NNP Lemma=Estacio NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=2282 CharacterOffsetEnd=2286 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2286 CharacterOffsetEnd=2287 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (JJ Geopolitical) (NNS risks))
+        (PP (VBG including)
+          (NP
+            (NP (DT the) (NN shooting))
+            (PP (IN of)
+              (NP
+                (NP (NNP Malaysia) (NNP Airline) (NNP System) (NNP Bhd) (NNP Flight) (CD 17))
+                (PP (IN over)
+                  (NP (NNP Ukraine))))))))
+      (VP (VBD added)
+        (S
+          (VP (TO to)
+            (VP (VB risk)
+              (NP (NN aversion)))))))
+    (, ,)
+    (NP
+      (NP (NNP First) (NNP Metro) (POS 's))
+      (NNP Estacio))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-24)
+amod(risks-2, Geopolitical-1)
+nsubj(added-15, risks-2)
+det(shooting-5, the-4)
+prep_including(risks-2, shooting-5)
+nn(Flight-11, Malaysia-7)
+nn(Flight-11, Airline-8)
+nn(Flight-11, System-9)
+nn(Flight-11, Bhd-10)
+prep_of(shooting-5, Flight-11)
+num(Flight-11, 17-12)
+prep_over(Flight-11, Ukraine-14)
+ccomp(said-24, added-15)
+aux(risk-17, to-16)
+xcomp(added-15, risk-17)
+dobj(risk-17, aversion-18)
+nn(Metro-21, First-20)
+poss(Estacio-23, Metro-21)
+nsubj(said-24, Estacio-23)
+
+Sentence #18 (22 tokens):
+Any storm damage to crops could add pressure to the supply chain, central bank Deputy Governor Diwa Guinigundo said yesterday.
+[Text=Any CharacterOffsetBegin=2289 CharacterOffsetEnd=2292 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=storm CharacterOffsetBegin=2293 CharacterOffsetEnd=2298 PartOfSpeech=NN Lemma=storm NamedEntityTag=O] [Text=damage CharacterOffsetBegin=2299 CharacterOffsetEnd=2305 PartOfSpeech=NN Lemma=damage NamedEntityTag=O] [Text=to CharacterOffsetBegin=2306 CharacterOffsetEnd=2308 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=crops CharacterOffsetBegin=2309 CharacterOffsetEnd=2314 PartOfSpeech=NNS Lemma=crop NamedEntityTag=O] [Text=could CharacterOffsetBegin=2315 CharacterOffsetEnd=2320 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=add CharacterOffsetBegin=2321 CharacterOffsetEnd=2324 PartOfSpeech=VB Lemma=add NamedEntityTag=O] [Text=pressure CharacterOffsetBegin=2325 CharacterOffsetEnd=2333 PartOfSpeech=NN Lemma=pressure NamedEntityTag=O] [Text=to CharacterOffsetBegin=2334 CharacterOffsetEnd=2336 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2337 CharacterOffsetEnd=2340 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=supply CharacterOffsetBegin=2341 CharacterOffsetEnd=2347 PartOfSpeech=NN Lemma=supply NamedEntityTag=O] [Text=chain CharacterOffsetBegin=2348 CharacterOffsetEnd=2353 PartOfSpeech=NN Lemma=chain NamedEntityTag=O] [Text=, CharacterOffsetBegin=2353 CharacterOffsetEnd=2354 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=central CharacterOffsetBegin=2355 CharacterOffsetEnd=2362 PartOfSpeech=JJ Lemma=central NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2363 CharacterOffsetEnd=2367 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=Deputy CharacterOffsetBegin=2368 CharacterOffsetEnd=2374 PartOfSpeech=NNP Lemma=Deputy NamedEntityTag=O] [Text=Governor CharacterOffsetBegin=2375 CharacterOffsetEnd=2383 PartOfSpeech=NNP Lemma=Governor NamedEntityTag=O] [Text=Diwa CharacterOffsetBegin=2384 CharacterOffsetEnd=2388 PartOfSpeech=NNP Lemma=Diwa NamedEntityTag=PERSON] [Text=Guinigundo CharacterOffsetBegin=2389 CharacterOffsetEnd=2399 PartOfSpeech=NNP Lemma=Guinigundo NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2400 CharacterOffsetEnd=2404 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=yesterday CharacterOffsetBegin=2405 CharacterOffsetEnd=2414 PartOfSpeech=NN Lemma=yesterday NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D Timex=<TIMEX3 alt_value="OFFSET P-1D" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf2">yesterday</TIMEX3>] [Text=. CharacterOffsetBegin=2414 CharacterOffsetEnd=2415 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT Any) (NN storm) (NN damage))
+        (PP (TO to)
+          (NP (NNS crops))))
+      (VP (MD could)
+        (VP (VB add)
+          (NP (NN pressure))
+          (PP (TO to)
+            (NP (DT the) (NN supply) (NN chain))))))
+    (, ,)
+    (NP (JJ central) (NN bank) (NNP Deputy) (NNP Governor) (NNP Diwa) (NNP Guinigundo))
+    (VP (VBD said)
+      (NP-TMP (NN yesterday)))
+    (. .)))
+
+root(ROOT-0, said-20)
+det(damage-3, Any-1)
+nn(damage-3, storm-2)
+nsubj(add-7, damage-3)
+prep_to(damage-3, crops-5)
+aux(add-7, could-6)
+ccomp(said-20, add-7)
+dobj(add-7, pressure-8)
+det(chain-12, the-10)
+nn(chain-12, supply-11)
+prep_to(add-7, chain-12)
+amod(Guinigundo-19, central-14)
+nn(Guinigundo-19, bank-15)
+nn(Guinigundo-19, Deputy-16)
+nn(Guinigundo-19, Governor-17)
+nn(Guinigundo-19, Diwa-18)
+nsubj(said-20, Guinigundo-19)
+tmod(said-20, yesterday-21)
+
+Sentence #19 (25 tokens):
+Bangko Sentral ng Pilipinas raised banks' reserve requirements in March and May, and last month increased the interest rate on special-deposit accounts.
+[Text=Bangko CharacterOffsetBegin=2416 CharacterOffsetEnd=2422 PartOfSpeech=NNP Lemma=Bangko NamedEntityTag=O] [Text=Sentral CharacterOffsetBegin=2423 CharacterOffsetEnd=2430 PartOfSpeech=NNP Lemma=Sentral NamedEntityTag=O] [Text=ng CharacterOffsetBegin=2431 CharacterOffsetEnd=2433 PartOfSpeech=NN Lemma=ng NamedEntityTag=O] [Text=Pilipinas CharacterOffsetBegin=2434 CharacterOffsetEnd=2443 PartOfSpeech=NNP Lemma=Pilipinas NamedEntityTag=PERSON] [Text=raised CharacterOffsetBegin=2444 CharacterOffsetEnd=2450 PartOfSpeech=VBD Lemma=raise NamedEntityTag=O] [Text=banks CharacterOffsetBegin=2451 CharacterOffsetEnd=2456 PartOfSpeech=NNS Lemma=bank NamedEntityTag=O] [Text=' CharacterOffsetBegin=2456 CharacterOffsetEnd=2457 PartOfSpeech=POS Lemma=' NamedEntityTag=O] [Text=reserve CharacterOffsetBegin=2458 CharacterOffsetEnd=2465 PartOfSpeech=NN Lemma=reserve NamedEntityTag=O] [Text=requirements CharacterOffsetBegin=2466 CharacterOffsetEnd=2478 PartOfSpeech=NNS Lemma=requirement NamedEntityTag=O] [Text=in CharacterOffsetBegin=2479 CharacterOffsetEnd=2481 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=March CharacterOffsetBegin=2482 CharacterOffsetEnd=2487 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t16" type="DATE" value="XXXX-03">March</TIMEX3>] [Text=and CharacterOffsetBegin=2488 CharacterOffsetEnd=2491 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=May CharacterOffsetBegin=2492 CharacterOffsetEnd=2495 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05 Timex=<TIMEX3 tid="t17" type="DATE" value="XXXX-05">May</TIMEX3>] [Text=, CharacterOffsetBegin=2495 CharacterOffsetEnd=2496 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2497 CharacterOffsetEnd=2500 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=last CharacterOffsetBegin=2501 CharacterOffsetEnd=2505 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t19" temporalFunction="true" tid="t18" type="DATE" valueFromFunction="tf6">last month</TIMEX3>] [Text=month CharacterOffsetBegin=2506 CharacterOffsetEnd=2511 PartOfSpeech=NN Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t19" temporalFunction="true" tid="t18" type="DATE" valueFromFunction="tf6">last month</TIMEX3>] [Text=increased CharacterOffsetBegin=2512 CharacterOffsetEnd=2521 PartOfSpeech=VBD Lemma=increase NamedEntityTag=O] [Text=the CharacterOffsetBegin=2522 CharacterOffsetEnd=2525 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=interest CharacterOffsetBegin=2526 CharacterOffsetEnd=2534 PartOfSpeech=NN Lemma=interest NamedEntityTag=O] [Text=rate CharacterOffsetBegin=2535 CharacterOffsetEnd=2539 PartOfSpeech=NN Lemma=rate NamedEntityTag=O] [Text=on CharacterOffsetBegin=2540 CharacterOffsetEnd=2542 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=special-deposit CharacterOffsetBegin=2543 CharacterOffsetEnd=2558 PartOfSpeech=JJ Lemma=special-deposit NamedEntityTag=O] [Text=accounts CharacterOffsetBegin=2559 CharacterOffsetEnd=2567 PartOfSpeech=NNS Lemma=account NamedEntityTag=O] [Text=. CharacterOffsetBegin=2567 CharacterOffsetEnd=2568 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Bangko) (NNP Sentral) (NN ng) (NNP Pilipinas))
+      (VP (VBD raised)
+        (NP
+          (NP (NNS banks) (POS '))
+          (NN reserve) (NNS requirements))
+        (PP (IN in)
+          (NP (NNP March)
+            (CC and)
+            (NNP May)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ last) (NN month))
+      (VP (VBD increased)
+        (NP (DT the) (NN interest) (NN rate))
+        (PP (IN on)
+          (NP (JJ special-deposit) (NNS accounts)))))
+    (. .)))
+
+root(ROOT-0, raised-5)
+nn(Pilipinas-4, Bangko-1)
+nn(Pilipinas-4, Sentral-2)
+nn(Pilipinas-4, ng-3)
+nsubj(raised-5, Pilipinas-4)
+poss(requirements-9, banks-6)
+nn(requirements-9, reserve-8)
+dobj(raised-5, requirements-9)
+prep_in(raised-5, March-11)
+conj_and(March-11, May-13)
+amod(month-17, last-16)
+nsubj(increased-18, month-17)
+conj_and(raised-5, increased-18)
+det(rate-21, the-19)
+nn(rate-21, interest-20)
+dobj(increased-18, rate-21)
+amod(accounts-24, special-deposit-23)
+prep_on(increased-18, accounts-24)
+
+Sentence #20 (18 tokens):
+Consumer-price increases slowed to 4.4 percent in June from 4.5 percent in May, official data show.
+[Text=Consumer-price CharacterOffsetBegin=2570 CharacterOffsetEnd=2584 PartOfSpeech=JJ Lemma=consumer-price NamedEntityTag=O] [Text=increases CharacterOffsetBegin=2585 CharacterOffsetEnd=2594 PartOfSpeech=NNS Lemma=increase NamedEntityTag=O] [Text=slowed CharacterOffsetBegin=2595 CharacterOffsetEnd=2601 PartOfSpeech=VBD Lemma=slow NamedEntityTag=O] [Text=to CharacterOffsetBegin=2602 CharacterOffsetEnd=2604 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=4.4 CharacterOffsetBegin=2605 CharacterOffsetEnd=2608 PartOfSpeech=CD Lemma=4.4 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.4] [Text=percent CharacterOffsetBegin=2609 CharacterOffsetEnd=2616 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.4] [Text=in CharacterOffsetBegin=2617 CharacterOffsetEnd=2619 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=June CharacterOffsetBegin=2620 CharacterOffsetEnd=2624 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06 Timex=<TIMEX3 tid="t20" type="DATE" value="XXXX-06">June</TIMEX3>] [Text=from CharacterOffsetBegin=2625 CharacterOffsetEnd=2629 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=4.5 CharacterOffsetBegin=2630 CharacterOffsetEnd=2633 PartOfSpeech=CD Lemma=4.5 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.5] [Text=percent CharacterOffsetBegin=2634 CharacterOffsetEnd=2641 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%4.5] [Text=in CharacterOffsetBegin=2642 CharacterOffsetEnd=2644 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=May CharacterOffsetBegin=2645 CharacterOffsetEnd=2648 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05 Timex=<TIMEX3 tid="t21" type="DATE" value="XXXX-05">May</TIMEX3>] [Text=, CharacterOffsetBegin=2648 CharacterOffsetEnd=2649 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=official CharacterOffsetBegin=2650 CharacterOffsetEnd=2658 PartOfSpeech=JJ Lemma=official NamedEntityTag=O] [Text=data CharacterOffsetBegin=2659 CharacterOffsetEnd=2663 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=show CharacterOffsetBegin=2664 CharacterOffsetEnd=2668 PartOfSpeech=VBP Lemma=show NamedEntityTag=O] [Text=. CharacterOffsetBegin=2668 CharacterOffsetEnd=2669 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (JJ Consumer-price) (NNS increases))
+      (VP (VBD slowed)
+        (PP (TO to)
+          (NP
+            (NP (CD 4.4) (NN percent))
+            (PP (IN in)
+              (NP (NNP June)))))
+        (PP (IN from)
+          (NP
+            (NP (CD 4.5) (NN percent))
+            (PP (IN in)
+              (NP (NNP May)))))))
+    (, ,)
+    (NP (JJ official) (NNS data))
+    (VP (VBP show))
+    (. .)))
+
+root(ROOT-0, show-17)
+amod(increases-2, Consumer-price-1)
+nsubj(slowed-3, increases-2)
+ccomp(show-17, slowed-3)
+num(percent-6, 4.4-5)
+prep_to(slowed-3, percent-6)
+prep_in(percent-6, June-8)
+num(percent-11, 4.5-10)
+prep_from(slowed-3, percent-11)
+prep_in(percent-11, May-13)
+amod(data-16, official-15)
+nsubj(show-17, data-16)
+
+Coreference set:
+	(4,9,[9,10]) -> (1,22,[21,23]), that is: "Rammasun" -> "Typhoon Rammasun"
+	(10,14,[14,16]) -> (1,22,[21,23]), that is: "Rammasun 's" -> "Typhoon Rammasun"
+Coreference set:
+	(18,5,[5,6]) -> (1,24,[24,25]), that is: "crops" -> "crops"
+Coreference set:
+	(9,8,[7,9]) -> (1,26,[25,27]), that is: "this week" -> "this week"
+	(12,16,[15,17]) -> (1,26,[25,27]), that is: "this week" -> "this week"
+Coreference set:
+	(6,29,[29,30]) -> (2,12,[12,13]), that is: "Manila" -> "Manila"
+	(8,35,[35,36]) -> (2,12,[12,13]), that is: "Manila" -> "Manila"
+	(12,24,[24,25]) -> (2,12,[12,13]), that is: "Manila" -> "Manila"
+Coreference set:
+	(2,2,[1,3]) -> (2,5,[4,16]), that is: "The storm" -> "the strongest to hit the Philippine capital of Manila in eight years"
+	(3,1,[1,2]) -> (2,5,[4,16]), that is: "That" -> "the strongest to hit the Philippine capital of Manila in eight years"
+Coreference set:
+	(18,21,[21,22]) -> (4,11,[11,12]), that is: "yesterday" -> "yesterday"
+Coreference set:
+	(6,22,[21,30]) -> (6,19,[18,20]), that is: "vice president at First Metro Investment Corp. in Manila" -> "Dave Estacio"
+Coreference set:
+	(10,2,[1,3]) -> (6,10,[8,11]), that is: "The typhoon" -> "the recent typhoon"
+Coreference set:
+	(6,19,[18,30]) -> (17,23,[20,24]), that is: "Dave Estacio , vice president at First Metro Investment Corp. in Manila" -> "First Metro 's Estacio"
+Coreference set:
+	(17,21,[20,23]) -> (6,26,[24,30]), that is: "First Metro 's" -> "First Metro Investment Corp. in Manila"
+Coreference set:
+	(19,13,[13,14]) -> (8,9,[9,11]), that is: "May" -> "May 2017"
+	(20,13,[13,14]) -> (8,9,[9,11]), that is: "May" -> "May 2017"
+Coreference set:
+	(16,11,[11,12]) -> (10,35,[29,36]), that is: "Tetangco" -> "Bangko Sentral ng Pilipinas Governor Amando Tetangco"
+Coreference set:
+	(11,17,[17,18]) -> (11,4,[1,15]), that is: "its" -> "The three-year bond yield which rose as much as five basis points earlier today"
+Coreference set:
+	(14,2,[1,3]) -> (12,6,[5,7]), that is: "The peso" -> "The peso"

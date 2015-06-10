@@ -1,0 +1,697 @@
+Sentence #1 (21 tokens):
+Recap: Athletics 6, Giants 1 - chicagotribune.com
+Reuters 	8:35 p.m. CDT, July 10, 2014
+SportsDirect Inc.
+[Text=Recap CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Recap NamedEntityTag=O] [Text=: CharacterOffsetBegin=5 CharacterOffsetEnd=6 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Athletics CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=ORGANIZATION] [Text=6 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=, CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Giants CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Giants NamedEntityTag=ORGANIZATION] [Text=1 CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=LS Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=- CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=chicagotribune.com CharacterOffsetBegin=31 CharacterOffsetEnd=49 PartOfSpeech=NNP Lemma=chicagotribune.com NamedEntityTag=O] [Text=Reuters CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=NNP Lemma=Reuters NamedEntityTag=ORGANIZATION] [Text=8:35 CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=CD Lemma=8:35 NamedEntityTag=TIME NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=p.m. CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=RB Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=CDT CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=NNP Lemma=CDT NamedEntityTag=TIME NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=, Lemma=, NamedEntityTag=TIME NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=July CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=10 CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=CD Lemma=10 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-10T20:35-0600 Timex=<TIMEX3 tid="t1" type="TIME" value="2014-07-10T20:35-0600">8:35 p.m. CDT, July 10, 2014</TIMEX3>] [Text=SportsDirect CharacterOffsetBegin=90 CharacterOffsetEnd=102 PartOfSpeech=NNP Lemma=SportsDirect NamedEntityTag=ORGANIZATION] [Text=Inc. CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=NNP Lemma=Inc. NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Recap))
+    (: :)
+    (NP (NNP Athletics) (CD 6))
+    (, ,)
+    (NP (NNP Giants) (LS 1))
+    (: -)
+    (NP
+      (NP (NNP chicagotribune.com) (NNP Reuters))
+      (NP (CD 8:35) (RB p.m.) (NNP CDT)))
+    (, ,)
+    (NP
+      (NP (NNP July) (CD 10) (, ,) (CD 2014))
+      (NP (NNP SportsDirect) (NNP Inc.)))
+    (. .)))
+
+root(ROOT-0, Recap-1)
+dep(Recap-1, Athletics-3)
+num(Athletics-3, 6-4)
+appos(Recap-1, Giants-6)
+dep(Giants-6, 1-7)
+nn(Reuters-10, chicagotribune.com-9)
+dep(Recap-1, Reuters-10)
+num(CDT-13, 8:35-11)
+advmod(CDT-13, p.m.-12)
+dep(Reuters-10, CDT-13)
+appos(Recap-1, July-15)
+num(July-15, 10-16)
+num(July-15, 2014-18)
+nn(Inc.-20, SportsDirect-19)
+dep(July-15, Inc.-20)
+
+Sentence #2 (39 tokens):
+Recap: Athletics 6, Giants 1
+Athletics 6, Giants 1: Josh Donaldson homered and Scott Kazmir dominated through seven scoreless innings as visiting Oakland knocked off San Francisco for the third time in four days.
+[Text=Recap CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NNP Lemma=Recap NamedEntityTag=O] [Text=: CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Athletics CharacterOffsetBegin=116 CharacterOffsetEnd=125 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=ORGANIZATION] [Text=6 CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=, CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Giants CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NNP Lemma=Giants NamedEntityTag=ORGANIZATION] [Text=1 CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=CD Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=Athletics CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=ORGANIZATION] [Text=6 CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=, CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Giants CharacterOffsetBegin=152 CharacterOffsetEnd=158 PartOfSpeech=NNP Lemma=Giants NamedEntityTag=ORGANIZATION] [Text=1 CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=CD Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=: CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Josh CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NNP Lemma=Josh NamedEntityTag=PERSON] [Text=Donaldson CharacterOffsetBegin=167 CharacterOffsetEnd=176 PartOfSpeech=NNP Lemma=Donaldson NamedEntityTag=PERSON] [Text=homered CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=VBD Lemma=homer NamedEntityTag=O] [Text=and CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Scott CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NNP Lemma=Scott NamedEntityTag=PERSON] [Text=Kazmir CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNP Lemma=Kazmir NamedEntityTag=PERSON] [Text=dominated CharacterOffsetBegin=202 CharacterOffsetEnd=211 PartOfSpeech=VBD Lemma=dominate NamedEntityTag=O] [Text=through CharacterOffsetBegin=212 CharacterOffsetEnd=219 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=seven CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0] [Text=scoreless CharacterOffsetBegin=226 CharacterOffsetEnd=235 PartOfSpeech=JJ Lemma=scoreless NamedEntityTag=O] [Text=innings CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=as CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=visiting CharacterOffsetBegin=247 CharacterOffsetEnd=255 PartOfSpeech=VBG Lemma=visit NamedEntityTag=O] [Text=Oakland CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Oakland NamedEntityTag=ORGANIZATION] [Text=knocked CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=VBD Lemma=knock NamedEntityTag=O] [Text=off CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=San CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Francisco CharacterOffsetBegin=280 CharacterOffsetEnd=289 PartOfSpeech=NNP Lemma=Francisco NamedEntityTag=LOCATION] [Text=for CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=third CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=time CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=in CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=four CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=CD Lemma=four NamedEntityTag=DURATION NormalizedNamedEntityTag=P4D Timex=<TIMEX3 tid="t2" type="DURATION" value="P4D">four days</TIMEX3>] [Text=days CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P4D Timex=<TIMEX3 tid="t2" type="DURATION" value="P4D">four days</TIMEX3>] [Text=. CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Recap))
+    (: :)
+    (NP (NNP Athletics) (CD 6))
+    (, ,)
+    (NP
+      (NP (NNP Giants) (CD 1))
+      (NP (NNP Athletics) (CD 6)))
+    (, ,)
+    (NP
+      (NP (NNP Giants) (CD 1))
+      (: :)
+      (S
+        (S
+          (NP (NNP Josh) (NNP Donaldson))
+          (VP (VBD homered)))
+        (CC and)
+        (S
+          (NP (NNP Scott) (NNP Kazmir))
+          (VP (VBD dominated)
+            (PP (IN through)
+              (NP (CD seven) (JJ scoreless) (NNS innings)))
+            (PP (IN as)
+              (S
+                (VP (VBG visiting)
+                  (SBAR
+                    (S
+                      (NP (NNP Oakland))
+                      (VP (VBD knocked)
+                        (PRT (RP off))
+                        (NP
+                          (NP (NNP San) (NNP Francisco))
+                          (PP (IN for)
+                            (NP (DT the) (JJ third) (NN time))))
+                        (PP (IN in)
+                          (NP (CD four) (NNS days)))))))))))))
+    (. .)))
+
+root(ROOT-0, Recap-1)
+dep(Recap-1, Athletics-3)
+num(Athletics-3, 6-4)
+appos(Recap-1, Giants-6)
+num(Giants-6, 1-7)
+dep(Giants-6, Athletics-8)
+num(Athletics-8, 6-9)
+appos(Recap-1, Giants-11)
+num(Giants-11, 1-12)
+nn(Donaldson-15, Josh-14)
+nsubj(homered-16, Donaldson-15)
+dep(Giants-11, homered-16)
+nn(Kazmir-19, Scott-18)
+nsubj(dominated-20, Kazmir-19)
+conj_and(homered-16, dominated-20)
+num(innings-24, seven-22)
+amod(innings-24, scoreless-23)
+prep_through(dominated-20, innings-24)
+prepc_as(dominated-20, visiting-26)
+nsubj(knocked-28, Oakland-27)
+ccomp(visiting-26, knocked-28)
+prt(knocked-28, off-29)
+nn(Francisco-31, San-30)
+dobj(knocked-28, Francisco-31)
+det(time-35, the-33)
+amod(time-35, third-34)
+prep_for(Francisco-31, time-35)
+num(days-38, four-37)
+prep_in(knocked-28, days-38)
+
+Sentence #3 (41 tokens):
+Stephen Vogt drove in three runs, Brandon Moss doubled and scored twice and Alberto Callaspo added a sacrifice fly for the Athletics, who took both road contests before splitting the two home games of the home-and-home interleague set.
+[Text=Stephen CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=Stephen NamedEntityTag=PERSON] [Text=Vogt CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=NNP Lemma=Vogt NamedEntityTag=PERSON] [Text=drove CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=VBD Lemma=drive NamedEntityTag=O] [Text=in CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=three CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=runs CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=NNS Lemma=run NamedEntityTag=O] [Text=, CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Brandon CharacterOffsetBegin=358 CharacterOffsetEnd=365 PartOfSpeech=NNP Lemma=Brandon NamedEntityTag=PERSON] [Text=Moss CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=NNP Lemma=Moss NamedEntityTag=PERSON] [Text=doubled CharacterOffsetBegin=371 CharacterOffsetEnd=378 PartOfSpeech=VBD Lemma=double NamedEntityTag=O] [Text=and CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=scored CharacterOffsetBegin=383 CharacterOffsetEnd=389 PartOfSpeech=VBD Lemma=score NamedEntityTag=O] [Text=twice CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=RB Lemma=twice NamedEntityTag=O] [Text=and CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Alberto CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=NNP Lemma=Alberto NamedEntityTag=PERSON] [Text=Callaspo CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=NNP Lemma=Callaspo NamedEntityTag=PERSON] [Text=added CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=a CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=sacrifice CharacterOffsetBegin=425 CharacterOffsetEnd=434 PartOfSpeech=NN Lemma=sacrifice NamedEntityTag=O] [Text=fly CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=NN Lemma=fly NamedEntityTag=O] [Text=for CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Athletics CharacterOffsetBegin=447 CharacterOffsetEnd=456 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=took CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=both CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=road CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=NN Lemma=road NamedEntityTag=O] [Text=contests CharacterOffsetBegin=477 CharacterOffsetEnd=485 PartOfSpeech=NNS Lemma=contest NamedEntityTag=O] [Text=before CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=splitting CharacterOffsetBegin=493 CharacterOffsetEnd=502 PartOfSpeech=NN Lemma=splitting NamedEntityTag=O] [Text=the CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=two CharacterOffsetBegin=507 CharacterOffsetEnd=510 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=home CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=games CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=of CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=home-and-home CharacterOffsetBegin=529 CharacterOffsetEnd=542 PartOfSpeech=JJ Lemma=home-and-home NamedEntityTag=O] [Text=interleague CharacterOffsetBegin=543 CharacterOffsetEnd=554 PartOfSpeech=JJ Lemma=interleague NamedEntityTag=O] [Text=set CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=. CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Stephen) (NNP Vogt))
+      (VP (VBD drove)
+        (PP (IN in)
+          (NP (CD three) (NNS runs)))))
+    (, ,)
+    (S
+      (NP (NNP Brandon) (NNP Moss))
+      (VP
+        (VP (VBD doubled))
+        (CC and)
+        (VP (VBD scored)
+          (ADVP (RB twice)))))
+    (CC and)
+    (S
+      (NP (NNP Alberto) (NNP Callaspo))
+      (VP (VBD added)
+        (NP (DT a) (NN sacrifice) (NN fly))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (NNP Athletics))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD took)
+                  (NP
+                    (NP (DT both) (NN road) (NNS contests))
+                    (PP (IN before)
+                      (NP (NN splitting))))
+                  (NP-TMP
+                    (NP (DT the) (CD two) (NN home) (NNS games))
+                    (PP (IN of)
+                      (NP (DT the) (JJ home-and-home) (JJ interleague) (NN set)))))))))))
+    (. .)))
+
+root(ROOT-0, drove-3)
+nn(Vogt-2, Stephen-1)
+nsubj(drove-3, Vogt-2)
+num(runs-6, three-5)
+prep_in(drove-3, runs-6)
+nn(Moss-9, Brandon-8)
+nsubj(doubled-10, Moss-9)
+conj_and(drove-3, doubled-10)
+conj_and(doubled-10, scored-12)
+advmod(scored-12, twice-13)
+nn(Callaspo-16, Alberto-15)
+nsubj(added-17, Callaspo-16)
+conj_and(drove-3, added-17)
+det(fly-20, a-18)
+nn(fly-20, sacrifice-19)
+dobj(added-17, fly-20)
+det(Athletics-23, the-22)
+prep_for(added-17, Athletics-23)
+nsubj(took-26, who-25)
+rcmod(Athletics-23, took-26)
+det(contests-29, both-27)
+nn(contests-29, road-28)
+dobj(took-26, contests-29)
+prep_before(contests-29, splitting-31)
+det(games-35, the-32)
+num(games-35, two-33)
+nn(games-35, home-34)
+tmod(took-26, games-35)
+det(set-40, the-37)
+amod(set-40, home-and-home-38)
+amod(set-40, interleague-39)
+prep_of(games-35, set-40)
+
+Sentence #4 (27 tokens):
+Kazmir (11-3), who was named to the American League All-Star team, scattered three hits and allowed a walk while striking out nine.
+[Text=Kazmir CharacterOffsetBegin=560 CharacterOffsetEnd=566 PartOfSpeech=NNP Lemma=Kazmir NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=11-3 CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=CD Lemma=11-3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=11.0 - 3.0] [Text=-RRB- CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=was CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=named CharacterOffsetBegin=583 CharacterOffsetEnd=588 PartOfSpeech=VBN Lemma=name NamedEntityTag=O] [Text=to CharacterOffsetBegin=589 CharacterOffsetEnd=591 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=592 CharacterOffsetEnd=595 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=American CharacterOffsetBegin=596 CharacterOffsetEnd=604 PartOfSpeech=NNP Lemma=American NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=605 CharacterOffsetEnd=611 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=All-Star CharacterOffsetBegin=612 CharacterOffsetEnd=620 PartOfSpeech=NNP Lemma=All-Star NamedEntityTag=MISC] [Text=team CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=, CharacterOffsetBegin=625 CharacterOffsetEnd=626 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=scattered CharacterOffsetBegin=627 CharacterOffsetEnd=636 PartOfSpeech=VBN Lemma=scatter NamedEntityTag=O] [Text=three CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=hits CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=and CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=allowed CharacterOffsetBegin=652 CharacterOffsetEnd=659 PartOfSpeech=VBD Lemma=allow NamedEntityTag=O] [Text=a CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=walk CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=NN Lemma=walk NamedEntityTag=O] [Text=while CharacterOffsetBegin=667 CharacterOffsetEnd=672 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=striking CharacterOffsetBegin=673 CharacterOffsetEnd=681 PartOfSpeech=VBG Lemma=strike NamedEntityTag=O] [Text=out CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=nine CharacterOffsetBegin=686 CharacterOffsetEnd=690 PartOfSpeech=CD Lemma=nine NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0] [Text=. CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kazmir))
+      (PRN (-LRB- -LRB-)
+        (NP (CD 11-3))
+        (-RRB- -RRB-))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD was)
+            (VP (VBN named)
+              (PP (TO to)
+                (NP (DT the) (NNP American) (NNP League) (NNP All-Star) (NN team)))))))
+      (, ,))
+    (VP
+      (VP (VBN scattered)
+        (NP (CD three) (NNS hits)))
+      (CC and)
+      (VP (VBD allowed)
+        (NP (DT a) (NN walk))
+        (PP (IN while)
+          (S
+            (VP (VBG striking)
+              (PRT (RP out))
+              (NP (CD nine)))))))
+    (. .)))
+
+root(ROOT-0, scattered-16)
+nsubj(scattered-16, Kazmir-1)
+appos(Kazmir-1, 11-3-3)
+nsubjpass(named-8, who-6)
+auxpass(named-8, was-7)
+rcmod(Kazmir-1, named-8)
+det(team-14, the-10)
+nn(team-14, American-11)
+nn(team-14, League-12)
+nn(team-14, All-Star-13)
+prep_to(named-8, team-14)
+num(hits-18, three-17)
+dobj(scattered-16, hits-18)
+conj_and(scattered-16, allowed-20)
+det(walk-22, a-21)
+dobj(allowed-20, walk-22)
+prepc_while(allowed-20, striking-24)
+prt(striking-24, out-25)
+dobj(striking-24, nine-26)
+
+Sentence #5 (27 tokens):
+Tim Hudson (7-6) was knocked around for six runs on nine hits in 5 1/3 innings to run his winless streak to five straight outings.
+[Text=Tim CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=NNP Lemma=Tim NamedEntityTag=PERSON] [Text=Hudson CharacterOffsetBegin=697 CharacterOffsetEnd=703 PartOfSpeech=NNP Lemma=Hudson NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=7-6 CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=CD Lemma=7-6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0 - 6.0] [Text=-RRB- CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=was CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=knocked CharacterOffsetBegin=714 CharacterOffsetEnd=721 PartOfSpeech=VBN Lemma=knock NamedEntityTag=O] [Text=around CharacterOffsetBegin=722 CharacterOffsetEnd=728 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=for CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=six CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=runs CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=NNS Lemma=run NamedEntityTag=O] [Text=on CharacterOffsetBegin=742 CharacterOffsetEnd=744 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=nine CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=CD Lemma=nine NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0] [Text=hits CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=in CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=5 1/3 CharacterOffsetBegin=758 CharacterOffsetEnd=763 PartOfSpeech=CD Lemma=5 1/3 NamedEntityTag=NUMBER] [Text=innings CharacterOffsetBegin=764 CharacterOffsetEnd=771 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=to CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=run CharacterOffsetBegin=775 CharacterOffsetEnd=778 PartOfSpeech=VB Lemma=run NamedEntityTag=O] [Text=his CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=winless CharacterOffsetBegin=783 CharacterOffsetEnd=790 PartOfSpeech=JJ Lemma=winless NamedEntityTag=O] [Text=streak CharacterOffsetBegin=791 CharacterOffsetEnd=797 PartOfSpeech=NN Lemma=streak NamedEntityTag=O] [Text=to CharacterOffsetBegin=798 CharacterOffsetEnd=800 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=five CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=straight CharacterOffsetBegin=806 CharacterOffsetEnd=814 PartOfSpeech=JJ Lemma=straight NamedEntityTag=O] [Text=outings CharacterOffsetBegin=815 CharacterOffsetEnd=822 PartOfSpeech=NNS Lemma=outing NamedEntityTag=O] [Text=. CharacterOffsetBegin=822 CharacterOffsetEnd=823 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Tim) (NNP Hudson))
+      (PRN (-LRB- -LRB-)
+        (NP (CD 7-6))
+        (-RRB- -RRB-)))
+    (VP (VBD was)
+      (VP (VBN knocked)
+        (PP (IN around) (IN for)
+          (NP
+            (NP (CD six) (NNS runs))
+            (PP (IN on)
+              (NP
+                (NP (CD nine) (NNS hits))
+                (PP (IN in)
+                  (NP (CD 5 1/3) (NNS innings)))))))
+        (S
+          (VP (TO to)
+            (VP (VB run)
+              (NP (PRP$ his) (JJ winless) (NN streak))
+              (PP (TO to)
+                (NP (CD five) (JJ straight) (NNS outings))))))))
+    (. .)))
+
+root(ROOT-0, knocked-7)
+nn(Hudson-2, Tim-1)
+nsubjpass(knocked-7, Hudson-2)
+appos(Hudson-2, 7-6-4)
+auxpass(knocked-7, was-6)
+dep(knocked-7, around-8)
+num(runs-11, six-10)
+prep_for(knocked-7, runs-11)
+num(hits-14, nine-13)
+prep_on(runs-11, hits-14)
+num(innings-17, 5 1/3-16)
+prep_in(hits-14, innings-17)
+aux(run-19, to-18)
+xcomp(knocked-7, run-19)
+poss(streak-22, his-20)
+amod(streak-22, winless-21)
+dobj(run-19, streak-22)
+num(outings-26, five-24)
+amod(outings-26, straight-25)
+prep_to(run-19, outings-26)
+
+Sentence #6 (18 tokens):
+Pablo Sandoval singled in a run and Hunter Pence recorded a pair of hits for San Francisco.
+[Text=Pablo CharacterOffsetBegin=824 CharacterOffsetEnd=829 PartOfSpeech=NNP Lemma=Pablo NamedEntityTag=PERSON] [Text=Sandoval CharacterOffsetBegin=830 CharacterOffsetEnd=838 PartOfSpeech=NNP Lemma=Sandoval NamedEntityTag=PERSON] [Text=singled CharacterOffsetBegin=839 CharacterOffsetEnd=846 PartOfSpeech=VBD Lemma=single NamedEntityTag=O] [Text=in CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=850 CharacterOffsetEnd=851 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=run CharacterOffsetBegin=852 CharacterOffsetEnd=855 PartOfSpeech=NN Lemma=run NamedEntityTag=O] [Text=and CharacterOffsetBegin=856 CharacterOffsetEnd=859 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Hunter CharacterOffsetBegin=860 CharacterOffsetEnd=866 PartOfSpeech=NNP Lemma=Hunter NamedEntityTag=O] [Text=Pence CharacterOffsetBegin=867 CharacterOffsetEnd=872 PartOfSpeech=NNP Lemma=Pence NamedEntityTag=O] [Text=recorded CharacterOffsetBegin=873 CharacterOffsetEnd=881 PartOfSpeech=VBD Lemma=record NamedEntityTag=O] [Text=a CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pair CharacterOffsetBegin=884 CharacterOffsetEnd=888 PartOfSpeech=NN Lemma=pair NamedEntityTag=O] [Text=of CharacterOffsetBegin=889 CharacterOffsetEnd=891 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=hits CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=for CharacterOffsetBegin=897 CharacterOffsetEnd=900 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=San CharacterOffsetBegin=901 CharacterOffsetEnd=904 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Francisco CharacterOffsetBegin=905 CharacterOffsetEnd=914 PartOfSpeech=NNP Lemma=Francisco NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=914 CharacterOffsetEnd=915 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Pablo) (NNP Sandoval))
+      (VP (VBD singled)
+        (PP (IN in)
+          (NP (DT a) (NN run)))))
+    (CC and)
+    (S
+      (NP (NNP Hunter) (NNP Pence))
+      (VP (VBD recorded)
+        (NP
+          (NP (DT a) (NN pair))
+          (PP (IN of)
+            (NP
+              (NP (NNS hits))
+              (PP (IN for)
+                (NP (NNP San) (NNP Francisco))))))))
+    (. .)))
+
+root(ROOT-0, singled-3)
+nn(Sandoval-2, Pablo-1)
+nsubj(singled-3, Sandoval-2)
+det(run-6, a-5)
+prep_in(singled-3, run-6)
+nn(Pence-9, Hunter-8)
+nsubj(recorded-10, Pence-9)
+conj_and(singled-3, recorded-10)
+det(pair-12, a-11)
+dobj(recorded-10, pair-12)
+prep_of(pair-12, hits-14)
+nn(Francisco-17, San-16)
+prep_for(hits-14, Francisco-17)
+
+Sentence #7 (34 tokens):
+Callaspo's fly scored Moss to put Oakland on top in the second, and Vogt followed John Jaso's triple with a single to right to make it 2-0 in the fifth.
+[Text=Callaspo CharacterOffsetBegin=917 CharacterOffsetEnd=925 PartOfSpeech=NNP Lemma=Callaspo NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=fly CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=NN Lemma=fly NamedEntityTag=O] [Text=scored CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=VBD Lemma=score NamedEntityTag=O] [Text=Moss CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=NNP Lemma=Moss NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=944 CharacterOffsetEnd=946 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=put CharacterOffsetBegin=947 CharacterOffsetEnd=950 PartOfSpeech=VB Lemma=put NamedEntityTag=O] [Text=Oakland CharacterOffsetBegin=951 CharacterOffsetEnd=958 PartOfSpeech=NNP Lemma=Oakland NamedEntityTag=ORGANIZATION] [Text=on CharacterOffsetBegin=959 CharacterOffsetEnd=961 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=top CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=in CharacterOffsetBegin=966 CharacterOffsetEnd=968 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=969 CharacterOffsetEnd=972 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=second CharacterOffsetBegin=973 CharacterOffsetEnd=979 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=, CharacterOffsetBegin=979 CharacterOffsetEnd=980 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=981 CharacterOffsetEnd=984 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Vogt CharacterOffsetBegin=985 CharacterOffsetEnd=989 PartOfSpeech=NNP Lemma=Vogt NamedEntityTag=PERSON] [Text=followed CharacterOffsetBegin=990 CharacterOffsetEnd=998 PartOfSpeech=VBD Lemma=follow NamedEntityTag=O] [Text=John CharacterOffsetBegin=999 CharacterOffsetEnd=1003 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Jaso CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=NNP Lemma=Jaso NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=1008 CharacterOffsetEnd=1010 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=triple CharacterOffsetBegin=1011 CharacterOffsetEnd=1017 PartOfSpeech=JJ Lemma=triple NamedEntityTag=O] [Text=with CharacterOffsetBegin=1018 CharacterOffsetEnd=1022 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1023 CharacterOffsetEnd=1024 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=single CharacterOffsetBegin=1025 CharacterOffsetEnd=1031 PartOfSpeech=JJ Lemma=single NamedEntityTag=O] [Text=to CharacterOffsetBegin=1032 CharacterOffsetEnd=1034 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=right CharacterOffsetBegin=1035 CharacterOffsetEnd=1040 PartOfSpeech=JJ Lemma=right NamedEntityTag=O] [Text=to CharacterOffsetBegin=1041 CharacterOffsetEnd=1043 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=1044 CharacterOffsetEnd=1048 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=it CharacterOffsetBegin=1049 CharacterOffsetEnd=1051 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=2-0 CharacterOffsetBegin=1052 CharacterOffsetEnd=1055 PartOfSpeech=CD Lemma=2-0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0 - 0.0] [Text=in CharacterOffsetBegin=1056 CharacterOffsetEnd=1058 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1059 CharacterOffsetEnd=1062 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fifth CharacterOffsetBegin=1063 CharacterOffsetEnd=1068 PartOfSpeech=JJ Lemma=fifth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=5.0] [Text=. CharacterOffsetBegin=1068 CharacterOffsetEnd=1069 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Callaspo) (POS 's))
+        (NN fly))
+      (VP (VBD scored)
+        (S
+          (NP (NNP Moss))
+          (VP (TO to)
+            (VP (VB put)
+              (NP
+                (NP (NNP Oakland))
+                (PP (IN on)
+                  (NP (NN top))))
+              (PP (IN in)
+                (NP (DT the) (JJ second))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Vogt))
+      (VP (VBD followed)
+        (NP
+          (NP (NNP John) (NNP Jaso) (POS 's))
+          (JJ triple))
+        (PP (IN with)
+          (NP
+            (NP (DT a)
+              (ADJP (JJ single)
+                (PP (TO to)
+                  (ADJP (JJ right)))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (PRP it))))))
+              (CD 2-0))
+            (PP (IN in)
+              (NP (DT the) (JJ fifth)))))))
+    (. .)))
+
+root(ROOT-0, scored-4)
+poss(fly-3, Callaspo-1)
+nsubj(scored-4, fly-3)
+nsubj(put-7, Moss-5)
+aux(put-7, to-6)
+xcomp(scored-4, put-7)
+dobj(put-7, Oakland-8)
+prep_on(Oakland-8, top-10)
+det(second-13, the-12)
+prep_in(put-7, second-13)
+nsubj(followed-17, Vogt-16)
+conj_and(scored-4, followed-17)
+nn(Jaso-19, John-18)
+dobj(followed-17, Jaso-19)
+possessive(Jaso-19, 's-20)
+amod(Jaso-19, triple-21)
+det(single-24, a-23)
+prep_with(followed-17, single-24)
+prep_to(single-24, right-26)
+aux(make-28, to-27)
+xcomp(single-24, make-28)
+dobj(make-28, it-29)
+num(single-24, 2-0-30)
+det(fifth-33, the-32)
+prep_in(single-24, fifth-33)
+
+Sentence #8 (26 tokens):
+Moss doubled to start off the sixth and Donaldson sent a first-pitch cutter the opposite way out to right field for his 20th home run.
+[Text=Moss CharacterOffsetBegin=1070 CharacterOffsetEnd=1074 PartOfSpeech=NNP Lemma=Moss NamedEntityTag=PERSON] [Text=doubled CharacterOffsetBegin=1075 CharacterOffsetEnd=1082 PartOfSpeech=VBD Lemma=double NamedEntityTag=O] [Text=to CharacterOffsetBegin=1083 CharacterOffsetEnd=1085 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=start CharacterOffsetBegin=1086 CharacterOffsetEnd=1091 PartOfSpeech=VB Lemma=start NamedEntityTag=O] [Text=off CharacterOffsetBegin=1092 CharacterOffsetEnd=1095 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=the CharacterOffsetBegin=1096 CharacterOffsetEnd=1099 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sixth CharacterOffsetBegin=1100 CharacterOffsetEnd=1105 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=6.0] [Text=and CharacterOffsetBegin=1106 CharacterOffsetEnd=1109 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Donaldson CharacterOffsetBegin=1110 CharacterOffsetEnd=1119 PartOfSpeech=NNP Lemma=Donaldson NamedEntityTag=PERSON] [Text=sent CharacterOffsetBegin=1120 CharacterOffsetEnd=1124 PartOfSpeech=VBD Lemma=send NamedEntityTag=O] [Text=a CharacterOffsetBegin=1125 CharacterOffsetEnd=1126 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=first-pitch CharacterOffsetBegin=1127 CharacterOffsetEnd=1138 PartOfSpeech=JJ Lemma=first-pitch NamedEntityTag=O] [Text=cutter CharacterOffsetBegin=1139 CharacterOffsetEnd=1145 PartOfSpeech=NN Lemma=cutter NamedEntityTag=O] [Text=the CharacterOffsetBegin=1146 CharacterOffsetEnd=1149 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=opposite CharacterOffsetBegin=1150 CharacterOffsetEnd=1158 PartOfSpeech=JJ Lemma=opposite NamedEntityTag=O] [Text=way CharacterOffsetBegin=1159 CharacterOffsetEnd=1162 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=out CharacterOffsetBegin=1163 CharacterOffsetEnd=1166 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=to CharacterOffsetBegin=1167 CharacterOffsetEnd=1169 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=right CharacterOffsetBegin=1170 CharacterOffsetEnd=1175 PartOfSpeech=JJ Lemma=right NamedEntityTag=O] [Text=field CharacterOffsetBegin=1176 CharacterOffsetEnd=1181 PartOfSpeech=NN Lemma=field NamedEntityTag=O] [Text=for CharacterOffsetBegin=1182 CharacterOffsetEnd=1185 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=his CharacterOffsetBegin=1186 CharacterOffsetEnd=1189 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=20th CharacterOffsetBegin=1190 CharacterOffsetEnd=1194 PartOfSpeech=JJ Lemma=20th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=20.0] [Text=home CharacterOffsetBegin=1195 CharacterOffsetEnd=1199 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=run CharacterOffsetBegin=1200 CharacterOffsetEnd=1203 PartOfSpeech=NN Lemma=run NamedEntityTag=O] [Text=. CharacterOffsetBegin=1203 CharacterOffsetEnd=1204 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Moss))
+      (VP (VBD doubled)
+        (S
+          (VP (TO to)
+            (VP (VB start)
+              (PRT (RP off))
+              (NP (DT the) (JJ sixth)))))))
+    (CC and)
+    (S
+      (NP (NNP Donaldson))
+      (VP (VBD sent)
+        (NP (DT a) (JJ first-pitch) (NN cutter))
+        (NP (DT the) (JJ opposite) (NN way))
+        (ADVP (IN out)
+          (PP (TO to)
+            (NP
+              (NP (JJ right) (NN field))
+              (PP (IN for)
+                (NP (PRP$ his) (JJ 20th) (NN home) (NN run))))))))
+    (. .)))
+
+root(ROOT-0, doubled-2)
+nsubj(doubled-2, Moss-1)
+aux(start-4, to-3)
+xcomp(doubled-2, start-4)
+prt(start-4, off-5)
+det(sixth-7, the-6)
+dobj(start-4, sixth-7)
+nsubj(sent-10, Donaldson-9)
+conj_and(doubled-2, sent-10)
+det(cutter-13, a-11)
+amod(cutter-13, first-pitch-12)
+iobj(sent-10, cutter-13)
+det(way-16, the-14)
+amod(way-16, opposite-15)
+dobj(sent-10, way-16)
+advmod(sent-10, out-17)
+amod(field-20, right-19)
+prep_to(out-17, field-20)
+poss(run-25, his-22)
+amod(run-25, 20th-23)
+nn(run-25, home-24)
+prep_for(field-20, run-25)
+
+Sentence #9 (25 tokens):
+The Athletics loaded the bases later in the sixth and Javier Lopez surrendered a two-run single to Vogt to make it a 6-0 advantage.
+[Text=The CharacterOffsetBegin=1206 CharacterOffsetEnd=1209 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Athletics CharacterOffsetBegin=1210 CharacterOffsetEnd=1219 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=O] [Text=loaded CharacterOffsetBegin=1220 CharacterOffsetEnd=1226 PartOfSpeech=VBD Lemma=load NamedEntityTag=O] [Text=the CharacterOffsetBegin=1227 CharacterOffsetEnd=1230 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bases CharacterOffsetBegin=1231 CharacterOffsetEnd=1236 PartOfSpeech=NNS Lemma=basis NamedEntityTag=O] [Text=later CharacterOffsetBegin=1237 CharacterOffsetEnd=1242 PartOfSpeech=RB Lemma=later NamedEntityTag=O] [Text=in CharacterOffsetBegin=1243 CharacterOffsetEnd=1245 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1246 CharacterOffsetEnd=1249 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sixth CharacterOffsetBegin=1250 CharacterOffsetEnd=1255 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=6.0] [Text=and CharacterOffsetBegin=1256 CharacterOffsetEnd=1259 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Javier CharacterOffsetBegin=1260 CharacterOffsetEnd=1266 PartOfSpeech=NNP Lemma=Javier NamedEntityTag=PERSON] [Text=Lopez CharacterOffsetBegin=1267 CharacterOffsetEnd=1272 PartOfSpeech=NNP Lemma=Lopez NamedEntityTag=PERSON] [Text=surrendered CharacterOffsetBegin=1273 CharacterOffsetEnd=1284 PartOfSpeech=VBD Lemma=surrender NamedEntityTag=O] [Text=a CharacterOffsetBegin=1285 CharacterOffsetEnd=1286 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=two-run CharacterOffsetBegin=1287 CharacterOffsetEnd=1294 PartOfSpeech=JJ Lemma=two-run NamedEntityTag=O] [Text=single CharacterOffsetBegin=1295 CharacterOffsetEnd=1301 PartOfSpeech=JJ Lemma=single NamedEntityTag=O] [Text=to CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Vogt CharacterOffsetBegin=1305 CharacterOffsetEnd=1309 PartOfSpeech=NNP Lemma=Vogt NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=1310 CharacterOffsetEnd=1312 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=1313 CharacterOffsetEnd=1317 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=it CharacterOffsetBegin=1318 CharacterOffsetEnd=1320 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=a CharacterOffsetBegin=1321 CharacterOffsetEnd=1322 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=6-0 CharacterOffsetBegin=1323 CharacterOffsetEnd=1326 PartOfSpeech=CD Lemma=6-0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0 - 0.0] [Text=advantage CharacterOffsetBegin=1327 CharacterOffsetEnd=1336 PartOfSpeech=NN Lemma=advantage NamedEntityTag=O] [Text=. CharacterOffsetBegin=1336 CharacterOffsetEnd=1337 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Athletics))
+    (VP (VBD loaded)
+      (SBAR
+        (S
+          (NP (DT the) (NNS bases))
+          (VP
+            (ADVP (RB later)
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (JJ sixth))
+                  (CC and)
+                  (NP (NNP Javier) (NNP Lopez)))))
+            (VBD surrendered)
+            (NP (DT a) (JJ two-run) (JJ single))
+            (PP (TO to)
+              (NP (NNP Vogt)))
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (S
+                    (NP (PRP it))
+                    (NP (DT a) (CD 6-0) (NN advantage))))))))))
+    (. .)))
+
+root(ROOT-0, loaded-3)
+det(Athletics-2, The-1)
+nsubj(loaded-3, Athletics-2)
+det(bases-5, the-4)
+nsubj(surrendered-13, bases-5)
+advmod(surrendered-13, later-6)
+det(sixth-9, the-8)
+prep_in(later-6, sixth-9)
+nn(Lopez-12, Javier-11)
+conj_and(sixth-9, Lopez-12)
+ccomp(loaded-3, surrendered-13)
+det(single-16, a-14)
+amod(single-16, two-run-15)
+dobj(surrendered-13, single-16)
+prep_to(surrendered-13, Vogt-18)
+aux(make-20, to-19)
+vmod(surrendered-13, make-20)
+nsubj(advantage-24, it-21)
+det(advantage-24, a-22)
+num(advantage-24, 6-0-23)
+xcomp(make-20, advantage-24)
+
+Sentence #10 (16 tokens):
+The Giants finally got on the board when Sandoval reach Dan Otero in the eighth.
+[Text=The CharacterOffsetBegin=1338 CharacterOffsetEnd=1341 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Giants CharacterOffsetBegin=1342 CharacterOffsetEnd=1348 PartOfSpeech=NNPS Lemma=Giants NamedEntityTag=ORGANIZATION] [Text=finally CharacterOffsetBegin=1349 CharacterOffsetEnd=1356 PartOfSpeech=RB Lemma=finally NamedEntityTag=O] [Text=got CharacterOffsetBegin=1357 CharacterOffsetEnd=1360 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=on CharacterOffsetBegin=1361 CharacterOffsetEnd=1363 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1364 CharacterOffsetEnd=1367 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=board CharacterOffsetBegin=1368 CharacterOffsetEnd=1373 PartOfSpeech=NN Lemma=board NamedEntityTag=O] [Text=when CharacterOffsetBegin=1374 CharacterOffsetEnd=1378 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Sandoval CharacterOffsetBegin=1379 CharacterOffsetEnd=1387 PartOfSpeech=NNP Lemma=Sandoval NamedEntityTag=PERSON] [Text=reach CharacterOffsetBegin=1388 CharacterOffsetEnd=1393 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=Dan CharacterOffsetBegin=1394 CharacterOffsetEnd=1397 PartOfSpeech=NNP Lemma=Dan NamedEntityTag=PERSON] [Text=Otero CharacterOffsetBegin=1398 CharacterOffsetEnd=1403 PartOfSpeech=NNP Lemma=Otero NamedEntityTag=PERSON] [Text=in CharacterOffsetBegin=1404 CharacterOffsetEnd=1406 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1407 CharacterOffsetEnd=1410 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=eighth CharacterOffsetBegin=1411 CharacterOffsetEnd=1417 PartOfSpeech=JJ Lemma=eighth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=8.0] [Text=. CharacterOffsetBegin=1417 CharacterOffsetEnd=1418 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Giants))
+    (ADVP (RB finally))
+    (VP (VBD got)
+      (PP (IN on)
+        (NP (DT the) (NN board)))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Sandoval))
+          (VP (VB reach)
+            (NP
+              (NP (NNP Dan) (NNP Otero))
+              (PP (IN in)
+                (NP (DT the) (JJ eighth))))))))
+    (. .)))
+
+root(ROOT-0, got-4)
+det(Giants-2, The-1)
+nsubj(got-4, Giants-2)
+advmod(got-4, finally-3)
+det(board-7, the-6)
+prep_on(got-4, board-7)
+advmod(reach-10, when-8)
+nsubj(reach-10, Sandoval-9)
+advcl(got-4, reach-10)
+nn(Otero-12, Dan-11)
+dobj(reach-10, Otero-12)
+det(eighth-15, the-14)
+prep_in(Otero-12, eighth-15)
+
+Sentence #11 (24 tokens):
+GAME NOTEBOOK: Home plate umpire Adrian Johnson left after being hit in the mask and was replaced by 2B ump Angel Hernandez.
+[Text=GAME CharacterOffsetBegin=1420 CharacterOffsetEnd=1424 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=NOTEBOOK CharacterOffsetBegin=1425 CharacterOffsetEnd=1433 PartOfSpeech=CD Lemma=notebook NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0] [Text=: CharacterOffsetBegin=1433 CharacterOffsetEnd=1434 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Home CharacterOffsetBegin=1435 CharacterOffsetEnd=1439 PartOfSpeech=NNP Lemma=Home NamedEntityTag=O] [Text=plate CharacterOffsetBegin=1440 CharacterOffsetEnd=1445 PartOfSpeech=NN Lemma=plate NamedEntityTag=O] [Text=umpire CharacterOffsetBegin=1446 CharacterOffsetEnd=1452 PartOfSpeech=NN Lemma=umpire NamedEntityTag=O] [Text=Adrian CharacterOffsetBegin=1453 CharacterOffsetEnd=1459 PartOfSpeech=NNP Lemma=Adrian NamedEntityTag=PERSON] [Text=Johnson CharacterOffsetBegin=1460 CharacterOffsetEnd=1467 PartOfSpeech=NNP Lemma=Johnson NamedEntityTag=PERSON] [Text=left CharacterOffsetBegin=1468 CharacterOffsetEnd=1472 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O] [Text=after CharacterOffsetBegin=1473 CharacterOffsetEnd=1478 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=being CharacterOffsetBegin=1479 CharacterOffsetEnd=1484 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=hit CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=VBN Lemma=hit NamedEntityTag=O] [Text=in CharacterOffsetBegin=1489 CharacterOffsetEnd=1491 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1492 CharacterOffsetEnd=1495 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mask CharacterOffsetBegin=1496 CharacterOffsetEnd=1500 PartOfSpeech=NN Lemma=mask NamedEntityTag=O] [Text=and CharacterOffsetBegin=1501 CharacterOffsetEnd=1504 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=was CharacterOffsetBegin=1505 CharacterOffsetEnd=1508 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=replaced CharacterOffsetBegin=1509 CharacterOffsetEnd=1517 PartOfSpeech=VBN Lemma=replace NamedEntityTag=O] [Text=by CharacterOffsetBegin=1518 CharacterOffsetEnd=1520 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=2B CharacterOffsetBegin=1521 CharacterOffsetEnd=1523 PartOfSpeech=NN Lemma=2b NamedEntityTag=O] [Text=ump CharacterOffsetBegin=1524 CharacterOffsetEnd=1527 PartOfSpeech=NN Lemma=ump NamedEntityTag=O] [Text=Angel CharacterOffsetBegin=1528 CharacterOffsetEnd=1533 PartOfSpeech=NNP Lemma=Angel NamedEntityTag=PERSON] [Text=Hernandez CharacterOffsetBegin=1534 CharacterOffsetEnd=1543 PartOfSpeech=NNP Lemma=Hernandez NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1543 CharacterOffsetEnd=1544 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN GAME) (CD NOTEBOOK))
+    (: :)
+    (S
+      (NP (NNP Home) (NN plate) (NN umpire) (NNP Adrian) (NNP Johnson))
+      (VP
+        (VP (VBD left)
+          (PP (IN after)
+            (S
+              (VP (VBG being)
+                (VP (VBN hit)
+                  (PP (IN in)
+                    (NP (DT the) (NN mask))))))))
+        (CC and)
+        (VP (VBD was)
+          (VP (VBN replaced)
+            (PP (IN by)
+              (NP (NN 2B) (NN ump) (NNP Angel) (NNP Hernandez)))))))
+    (. .)))
+
+root(ROOT-0, GAME-1)
+num(GAME-1, NOTEBOOK-2)
+nn(Johnson-8, Home-4)
+nn(Johnson-8, plate-5)
+nn(Johnson-8, umpire-6)
+nn(Johnson-8, Adrian-7)
+nsubj(left-9, Johnson-8)
+dep(GAME-1, left-9)
+auxpass(hit-12, being-11)
+prepc_after(left-9, hit-12)
+det(mask-15, the-14)
+prep_in(hit-12, mask-15)
+auxpass(replaced-18, was-17)
+conj_and(left-9, replaced-18)
+nn(Hernandez-23, 2B-20)
+nn(Hernandez-23, ump-21)
+nn(Hernandez-23, Angel-22)
+agent(replaced-18, Hernandez-23)
+
+Sentence #12 (18 tokens):
+... Oakland RHP Fernando Abad worked a clean ninth inning, marking his seventh straight scoreless appearance.
+[Text=... CharacterOffsetBegin=1545 CharacterOffsetEnd=1548 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=Oakland CharacterOffsetBegin=1549 CharacterOffsetEnd=1556 PartOfSpeech=NNP Lemma=Oakland NamedEntityTag=O] [Text=RHP CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=NNP Lemma=RHP NamedEntityTag=O] [Text=Fernando CharacterOffsetBegin=1561 CharacterOffsetEnd=1569 PartOfSpeech=NNP Lemma=Fernando NamedEntityTag=PERSON] [Text=Abad CharacterOffsetBegin=1570 CharacterOffsetEnd=1574 PartOfSpeech=NNP Lemma=Abad NamedEntityTag=PERSON] [Text=worked CharacterOffsetBegin=1575 CharacterOffsetEnd=1581 PartOfSpeech=VBD Lemma=work NamedEntityTag=O] [Text=a CharacterOffsetBegin=1582 CharacterOffsetEnd=1583 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=clean CharacterOffsetBegin=1584 CharacterOffsetEnd=1589 PartOfSpeech=JJ Lemma=clean NamedEntityTag=O] [Text=ninth CharacterOffsetBegin=1590 CharacterOffsetEnd=1595 PartOfSpeech=JJ Lemma=ninth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=9.0] [Text=inning CharacterOffsetBegin=1596 CharacterOffsetEnd=1602 PartOfSpeech=NN Lemma=inning NamedEntityTag=O] [Text=, CharacterOffsetBegin=1602 CharacterOffsetEnd=1603 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=marking CharacterOffsetBegin=1604 CharacterOffsetEnd=1611 PartOfSpeech=VBG Lemma=mark NamedEntityTag=O] [Text=his CharacterOffsetBegin=1612 CharacterOffsetEnd=1615 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=seventh CharacterOffsetBegin=1616 CharacterOffsetEnd=1623 PartOfSpeech=JJ Lemma=seventh NamedEntityTag=ORDINAL NormalizedNamedEntityTag=7.0] [Text=straight CharacterOffsetBegin=1624 CharacterOffsetEnd=1632 PartOfSpeech=JJ Lemma=straight NamedEntityTag=O] [Text=scoreless CharacterOffsetBegin=1633 CharacterOffsetEnd=1642 PartOfSpeech=JJ Lemma=scoreless NamedEntityTag=O] [Text=appearance CharacterOffsetBegin=1643 CharacterOffsetEnd=1653 PartOfSpeech=NN Lemma=appearance NamedEntityTag=O] [Text=. CharacterOffsetBegin=1653 CharacterOffsetEnd=1654 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (: ...)
+    (NP (NNP Oakland) (NNP RHP) (NNP Fernando) (NNP Abad))
+    (VP (VBD worked)
+      (NP (DT a) (JJ clean) (JJ ninth) (NN inning))
+      (, ,)
+      (S
+        (VP (VBG marking)
+          (NP (PRP$ his) (JJ seventh) (JJ straight) (JJ scoreless) (NN appearance)))))
+    (. .)))
+
+root(ROOT-0, worked-6)
+nn(Abad-5, Oakland-2)
+nn(Abad-5, RHP-3)
+nn(Abad-5, Fernando-4)
+nsubj(worked-6, Abad-5)
+det(inning-10, a-7)
+amod(inning-10, clean-8)
+amod(inning-10, ninth-9)
+dobj(worked-6, inning-10)
+vmod(worked-6, marking-12)
+poss(appearance-17, his-13)
+amod(appearance-17, seventh-14)
+amod(appearance-17, straight-15)
+amod(appearance-17, scoreless-16)
+dobj(marking-12, appearance-17)
+
+Sentence #13 (26 tokens):
+... The Giants finish up the first half by hosting Arizona over the weekend while the Athletics will travel to Seattle for a three-game set.
+[Text=... CharacterOffsetBegin=1655 CharacterOffsetEnd=1658 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=The CharacterOffsetBegin=1659 CharacterOffsetEnd=1662 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Giants CharacterOffsetBegin=1663 CharacterOffsetEnd=1669 PartOfSpeech=NNPS Lemma=Giants NamedEntityTag=ORGANIZATION] [Text=finish CharacterOffsetBegin=1670 CharacterOffsetEnd=1676 PartOfSpeech=VBP Lemma=finish NamedEntityTag=O] [Text=up CharacterOffsetBegin=1677 CharacterOffsetEnd=1679 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=the CharacterOffsetBegin=1680 CharacterOffsetEnd=1683 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=1684 CharacterOffsetEnd=1689 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=half CharacterOffsetBegin=1690 CharacterOffsetEnd=1694 PartOfSpeech=NN Lemma=half NamedEntityTag=O] [Text=by CharacterOffsetBegin=1695 CharacterOffsetEnd=1697 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=hosting CharacterOffsetBegin=1698 CharacterOffsetEnd=1705 PartOfSpeech=VBG Lemma=host NamedEntityTag=O] [Text=Arizona CharacterOffsetBegin=1706 CharacterOffsetEnd=1713 PartOfSpeech=NNP Lemma=Arizona NamedEntityTag=ORGANIZATION] [Text=over CharacterOffsetBegin=1714 CharacterOffsetEnd=1718 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=1719 CharacterOffsetEnd=1722 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WE">the weekend</TIMEX3>] [Text=weekend CharacterOffsetBegin=1723 CharacterOffsetEnd=1730 PartOfSpeech=NN Lemma=weekend NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WE">the weekend</TIMEX3>] [Text=while CharacterOffsetBegin=1731 CharacterOffsetEnd=1736 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=the CharacterOffsetBegin=1737 CharacterOffsetEnd=1740 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Athletics CharacterOffsetBegin=1741 CharacterOffsetEnd=1750 PartOfSpeech=NNP Lemma=Athletics NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=1751 CharacterOffsetEnd=1755 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=travel CharacterOffsetBegin=1756 CharacterOffsetEnd=1762 PartOfSpeech=VB Lemma=travel NamedEntityTag=O] [Text=to CharacterOffsetBegin=1763 CharacterOffsetEnd=1765 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Seattle CharacterOffsetBegin=1766 CharacterOffsetEnd=1773 PartOfSpeech=NNP Lemma=Seattle NamedEntityTag=LOCATION] [Text=for CharacterOffsetBegin=1774 CharacterOffsetEnd=1777 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=1778 CharacterOffsetEnd=1779 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=three-game CharacterOffsetBegin=1780 CharacterOffsetEnd=1790 PartOfSpeech=JJ Lemma=three-game NamedEntityTag=O] [Text=set CharacterOffsetBegin=1791 CharacterOffsetEnd=1794 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=. CharacterOffsetBegin=1794 CharacterOffsetEnd=1795 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (: ...)
+    (NP (DT The) (NNPS Giants))
+    (VP (VBP finish)
+      (PRT (RP up))
+      (NP (DT the) (JJ first) (NN half))
+      (PP (IN by)
+        (S
+          (VP (VBG hosting)
+            (NP
+              (NP (NNP Arizona))
+              (PP (IN over)
+                (NP (DT the) (NN weekend))))
+            (SBAR (IN while)
+              (S
+                (NP (DT the) (NNP Athletics))
+                (VP (MD will)
+                  (VP (VB travel)
+                    (PP (TO to)
+                      (NP (NNP Seattle)))
+                    (PP (IN for)
+                      (NP (DT a) (JJ three-game) (NN set)))))))))))
+    (. .)))
+
+root(ROOT-0, finish-4)
+det(Giants-3, The-2)
+nsubj(finish-4, Giants-3)
+prt(finish-4, up-5)
+det(half-8, the-6)
+amod(half-8, first-7)
+dobj(finish-4, half-8)
+prepc_by(finish-4, hosting-10)
+dobj(hosting-10, Arizona-11)
+det(weekend-14, the-13)
+prep_over(Arizona-11, weekend-14)
+mark(travel-19, while-15)
+det(Athletics-17, the-16)
+nsubj(travel-19, Athletics-17)
+aux(travel-19, will-18)
+advcl(hosting-10, travel-19)
+prep_to(travel-19, Seattle-21)
+det(set-25, a-23)
+amod(set-25, three-game-24)
+prep_for(travel-19, set-25)
+
+Coreference set:
+	(2,4,[4,5]) -> (1,4,[4,5]), that is: "6" -> "6"
+	(2,9,[9,10]) -> (1,4,[4,5]), that is: "6" -> "6"
+Coreference set:
+	(2,7,[7,8]) -> (1,7,[7,8]), that is: "1" -> "1"
+	(2,12,[12,13]) -> (1,7,[7,8]), that is: "1" -> "1"
+Coreference set:
+	(1,1,[1,22]) -> (2,1,[1,40]), that is: "Recap : Athletics 6 , Giants 1 - chicagotribune.com Reuters 8:35 p.m. CDT , July 10 , 2014 SportsDirect Inc. ." -> "Recap : Athletics 6 , Giants 1 Athletics 6 , Giants 1 : Josh Donaldson homered and Scott Kazmir dominated through seven scoreless innings as visiting Oakland knocked off San Francisco for the third time in four days ."
+Coreference set:
+	(1,3,[3,5]) -> (3,23,[22,24]), that is: "Athletics 6" -> "the Athletics"
+	(2,3,[3,5]) -> (3,23,[22,24]), that is: "Athletics 6" -> "the Athletics"
+	(2,8,[8,10]) -> (3,23,[22,24]), that is: "Athletics 6" -> "the Athletics"
+	(3,23,[23,24]) -> (3,23,[22,24]), that is: "Athletics" -> "the Athletics"
+	(9,2,[1,3]) -> (3,23,[22,24]), that is: "The Athletics" -> "the Athletics"
+	(9,21,[21,22]) -> (3,23,[22,24]), that is: "it" -> "the Athletics"
+	(13,17,[16,18]) -> (3,23,[22,24]), that is: "the Athletics" -> "the Athletics"
+Coreference set:
+	(8,9,[9,10]) -> (2,15,[14,16]), that is: "Donaldson" -> "Josh Donaldson"
+	(8,22,[22,23]) -> (2,15,[14,16]), that is: "his" -> "Josh Donaldson"
+Coreference set:
+	(2,6,[6,10]) -> (10,2,[1,3]), that is: "Giants 1 Athletics 6" -> "The Giants"
+	(13,3,[2,4]) -> (10,2,[1,3]), that is: "The Giants" -> "The Giants"
+Coreference set:
+	(6,17,[16,18]) -> (2,31,[30,36]), that is: "San Francisco" -> "San Francisco for the third time"
+Coreference set:
+	(7,16,[16,17]) -> (3,2,[1,3]), that is: "Vogt" -> "Stephen Vogt"
+	(9,18,[18,19]) -> (3,2,[1,3]), that is: "Vogt" -> "Stephen Vogt"
+Coreference set:
+	(4,17,[17,18]) -> (3,5,[5,6]), that is: "three" -> "three"
+Coreference set:
+	(7,5,[5,6]) -> (3,9,[8,10]), that is: "Moss" -> "Brandon Moss"
+	(8,1,[1,2]) -> (3,9,[8,10]), that is: "Moss" -> "Brandon Moss"
+Coreference set:
+	(7,1,[1,3]) -> (3,16,[15,17]), that is: "Callaspo 's" -> "Alberto Callaspo"
+Coreference set:
+	(5,13,[13,14]) -> (4,26,[26,27]), that is: "nine" -> "nine"
+Coreference set:
+	(5,20,[20,21]) -> (5,2,[1,6]), that is: "his" -> "Tim Hudson -LRB- 7-6 -RRB-"
+Coreference set:
+	(10,9,[9,10]) -> (6,2,[1,3]), that is: "Sandoval" -> "Pablo Sandoval"
+Coreference set:
+	(7,29,[29,30]) -> (7,3,[1,4]), that is: "it" -> "Callaspo 's fly"
+Coreference set:
+	(9,9,[9,10]) -> (8,7,[7,8]), that is: "sixth" -> "sixth"
+Coreference set:
+	(9,9,[8,10]) -> (8,7,[6,8]), that is: "the sixth" -> "the sixth"
+Coreference set:
+	(12,13,[13,14]) -> (12,5,[2,6]), that is: "his" -> "Oakland RHP Fernando Abad"

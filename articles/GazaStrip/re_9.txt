@@ -1,0 +1,733 @@
+Sentence #1 (31 tokens):
+Photos Show Israelis Gathering to Watch Gaza Air Strikes - ABC News
+Photos captured on a hilltop in Israel show residents who gathered to watch Israel's airstrikes on Gaza.
+[Text=Photos CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Photos NamedEntityTag=O] [Text=Show CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Show NamedEntityTag=O] [Text=Israelis CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=NNPS Lemma=Israelis NamedEntityTag=O] [Text=Gathering CharacterOffsetBegin=21 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Gathering NamedEntityTag=O] [Text=to CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Watch CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=VB Lemma=watch NamedEntityTag=ORGANIZATION] [Text=Gaza CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=ORGANIZATION] [Text=Air CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=NNP Lemma=Air NamedEntityTag=ORGANIZATION] [Text=Strikes CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=VBZ Lemma=strike NamedEntityTag=ORGANIZATION] [Text=- CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=ABC CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=NNP Lemma=ABC NamedEntityTag=O] [Text=News CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NNP Lemma=News NamedEntityTag=O] [Text=Photos CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=Photos NamedEntityTag=O] [Text=captured CharacterOffsetBegin=76 CharacterOffsetEnd=84 PartOfSpeech=VBN Lemma=capture NamedEntityTag=O] [Text=on CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hilltop CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN Lemma=hilltop NamedEntityTag=O] [Text=in CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=show CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=VBP Lemma=show NamedEntityTag=O] [Text=residents CharacterOffsetBegin=113 CharacterOffsetEnd=122 PartOfSpeech=NNS Lemma=resident NamedEntityTag=O] [Text=who CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=gathered CharacterOffsetBegin=127 CharacterOffsetEnd=135 PartOfSpeech=VBD Lemma=gather NamedEntityTag=O] [Text=to CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=watch CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=VB Lemma=watch NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=airstrikes CharacterOffsetBegin=154 CharacterOffsetEnd=164 PartOfSpeech=NNS Lemma=airstrike NamedEntityTag=O] [Text=on CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Photos) (NNP Show) (NNPS Israelis) (NNP Gathering))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB Watch)
+              (SBAR
+                (S
+                  (NP (NNP Gaza) (NNP Air))
+                  (VP (VBZ Strikes) (: -)
+                    (S
+                      (NP (NNP ABC) (NNP News) (NNP Photos))
+                      (VP (VBN captured)
+                        (PP (IN on)
+                          (NP
+                            (NP (DT a) (NN hilltop))
+                            (PP (IN in)
+                              (NP (NNP Israel)))))))))))))))
+    (VP (VBP show)
+      (NP
+        (NP (NNS residents))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD gathered)
+              (S
+                (VP (TO to)
+                  (VP (VB watch)
+                    (NP
+                      (NP (NNP Israel) (POS 's))
+                      (NNS airstrikes))
+                    (PP (IN on)
+                      (NP (NNP Gaza)))))))))))
+    (. .)))
+
+root(ROOT-0, show-20)
+nn(Gathering-4, Photos-1)
+nn(Gathering-4, Show-2)
+nn(Gathering-4, Israelis-3)
+nsubj(show-20, Gathering-4)
+aux(Watch-6, to-5)
+vmod(Gathering-4, Watch-6)
+nn(Air-8, Gaza-7)
+nsubj(Strikes-9, Air-8)
+ccomp(Watch-6, Strikes-9)
+nn(Photos-13, ABC-11)
+nn(Photos-13, News-12)
+nsubj(captured-14, Photos-13)
+parataxis(Strikes-9, captured-14)
+det(hilltop-17, a-16)
+prep_on(captured-14, hilltop-17)
+prep_in(hilltop-17, Israel-19)
+dobj(show-20, residents-21)
+nsubj(gathered-23, who-22)
+rcmod(residents-21, gathered-23)
+aux(watch-25, to-24)
+xcomp(gathered-23, watch-25)
+poss(airstrikes-28, Israel-26)
+dobj(watch-25, airstrikes-28)
+prep_on(watch-25, Gaza-30)
+
+Sentence #2 (35 tokens):
+Everything You Need To Know About The Israel-Gaza Conflict
+The photographs were taken Sunday evening in Sderot, Israel, as a group of Israelis brought chairs, cameras and hookahs to the hilltop.
+[Text=Everything CharacterOffsetBegin=175 CharacterOffsetEnd=185 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=You CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=Need CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=VBD Lemma=need NamedEntityTag=O] [Text=To CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Know CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=NNP Lemma=Know NamedEntityTag=O] [Text=About CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=The CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Israel-Gaza CharacterOffsetBegin=213 CharacterOffsetEnd=224 PartOfSpeech=NNP Lemma=Israel-Gaza NamedEntityTag=MISC] [Text=Conflict CharacterOffsetBegin=225 CharacterOffsetEnd=233 PartOfSpeech=NNP Lemma=Conflict NamedEntityTag=O] [Text=The CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=The NamedEntityTag=O] [Text=photographs CharacterOffsetBegin=239 CharacterOffsetEnd=250 PartOfSpeech=NNS Lemma=photograph NamedEntityTag=O] [Text=were CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=taken CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=VBN Lemma=take NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7TEV Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-7TEV">Sunday evening</TIMEX3>] [Text=evening CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=NN Lemma=evening NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-7TEV Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-7TEV">Sunday evening</TIMEX3>] [Text=in CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=group CharacterOffsetBegin=301 CharacterOffsetEnd=306 PartOfSpeech=NN Lemma=group NamedEntityTag=O] [Text=of CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israelis CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=NNPS Lemma=Israelis NamedEntityTag=MISC] [Text=brought CharacterOffsetBegin=319 CharacterOffsetEnd=326 PartOfSpeech=VBD Lemma=bring NamedEntityTag=O] [Text=chairs CharacterOffsetBegin=327 CharacterOffsetEnd=333 PartOfSpeech=NNS Lemma=chair NamedEntityTag=O] [Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=cameras CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=NNS Lemma=camera NamedEntityTag=O] [Text=and CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=hookahs CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NNS Lemma=hookah NamedEntityTag=O] [Text=to CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=hilltop CharacterOffsetBegin=362 CharacterOffsetEnd=369 PartOfSpeech=NN Lemma=hilltop NamedEntityTag=O] [Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Everything))
+      (SBAR
+        (S
+          (NP (PRP You))
+          (VP (VBD Need)
+            (PP (TO To)
+              (NP (NNP Know)))
+            (PP (IN About)
+              (NP (DT The) (NNP Israel-Gaza) (NNP Conflict) (NNP The) (NNS photographs)))))))
+    (VP (VBD were)
+      (VP (VBN taken)
+        (NP-TMP (NNP Sunday) (NN evening))
+        (PP (IN in)
+          (NP (NNP Sderot) (, ,) (NNP Israel) (, ,)))
+        (SBAR (IN as)
+          (S
+            (NP
+              (NP (DT a) (NN group))
+              (PP (IN of)
+                (NP (NNPS Israelis))))
+            (VP (VBD brought)
+              (NP (NNS chairs) (, ,) (NNS cameras)
+                (CC and)
+                (NNS hookahs))
+              (PP (TO to)
+                (NP (DT the) (NN hilltop))))))))
+    (. .)))
+
+root(ROOT-0, taken-13)
+nsubjpass(taken-13, Everything-1)
+nsubj(Need-3, You-2)
+rcmod(Everything-1, Need-3)
+prep_to(Need-3, Know-5)
+det(photographs-11, The-7)
+nn(photographs-11, Israel-Gaza-8)
+nn(photographs-11, Conflict-9)
+nn(photographs-11, The-10)
+prep_about(Need-3, photographs-11)
+auxpass(taken-13, were-12)
+nn(evening-15, Sunday-14)
+tmod(taken-13, evening-15)
+nn(Israel-19, Sderot-17)
+prep_in(taken-13, Israel-19)
+mark(brought-26, as-21)
+det(group-23, a-22)
+nsubj(brought-26, group-23)
+prep_of(group-23, Israelis-25)
+advcl(taken-13, brought-26)
+dobj(brought-26, chairs-27)
+conj_and(chairs-27, cameras-29)
+conj_and(chairs-27, hookahs-31)
+det(hilltop-34, the-33)
+prep_to(brought-26, hilltop-34)
+
+Sentence #3 (45 tokens):
+Andrew Burton/Getty Images
+PHOTO: A man uses binoculars while waiting to watch Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel's operation "Protective Edge" on July 13, 2014 in Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=379 CharacterOffsetEnd=391 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=A CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=man CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=NN Lemma=man NamedEntityTag=O] [Text=uses CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=VBZ Lemma=use NamedEntityTag=O] [Text=binoculars CharacterOffsetBegin=418 CharacterOffsetEnd=428 PartOfSpeech=NNS Lemma=binoculars NamedEntityTag=O] [Text=while CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=waiting CharacterOffsetBegin=435 CharacterOffsetEnd=442 PartOfSpeech=VBG Lemma=wait NamedEntityTag=O] [Text=to CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=watch CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=VB Lemma=watch NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=452 CharacterOffsetEnd=459 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=460 CharacterOffsetEnd=467 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=inside CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=of CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hill CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=NN Lemma=hill NamedEntityTag=O] [Text=on CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t2" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t2" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t2" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=532 CharacterOffsetEnd=541 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=543 CharacterOffsetEnd=553 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t3" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t3" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t3" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t3" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=in CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=580 CharacterOffsetEnd=586 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (S
+      (NP (DT A) (NN man))
+      (VP (VBZ uses)
+        (NP (NNS binoculars))
+        (PP (IN while)
+          (S
+            (VP (VBG waiting)
+              (S
+                (VP (TO to)
+                  (VP (VB watch)
+                    (NP
+                      (NP (JJ Israeli) (NNS attacks))
+                      (PP (IN inside)
+                        (NP (NNP Gaza))))
+                    (PP (IN from)
+                      (NP
+                        (NP (DT the) (NN top))
+                        (PP (IN of)
+                          (NP
+                            (NP (DT a) (NN hill))
+                            (PP (IN on)
+                              (NP
+                                (NP (DT the) (JJ sixth) (NN day))
+                                (PP (IN of)
+                                  (NP
+                                    (NP (NNP Israel) (POS 's))
+                                    (NN operation)))
+                                (`` ``)
+                                (NP (JJ Protective) (NNP Edge))
+                                ('' '')
+                                (PP (IN on)
+                                  (NP (NNP July) (CD 13) (, ,) (CD 2014)))))))))
+                    (PP (IN in)
+                      (NP (NNP Sderot) (, ,) (NNP Israel)))))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+det(man-7, A-6)
+nsubj(uses-8, man-7)
+dep(PHOTO-4, uses-8)
+dobj(uses-8, binoculars-9)
+prepc_while(uses-8, waiting-11)
+aux(watch-13, to-12)
+xcomp(waiting-11, watch-13)
+amod(attacks-15, Israeli-14)
+dobj(watch-13, attacks-15)
+prep_inside(attacks-15, Gaza-17)
+det(top-20, the-19)
+prep_from(watch-13, top-20)
+det(hill-23, a-22)
+prep_of(top-20, hill-23)
+det(day-27, the-25)
+amod(day-27, sixth-26)
+prep_on(hill-23, day-27)
+poss(operation-31, Israel-29)
+prep_of(day-27, operation-31)
+amod(Edge-34, Protective-33)
+dep(day-27, Edge-34)
+prep_on(day-27, July-37)
+num(July-37, 13-38)
+num(July-37, 2014-40)
+nn(Israel-44, Sderot-42)
+prep_in(watch-13, Israel-44)
+
+Sentence #4 (46 tokens):
+Andrew Burton/Getty Images
+PHOTO: Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel's operation "Protective Edge" on July 13, 2014 in Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=597 CharacterOffsetEnd=603 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=604 CharacterOffsetEnd=616 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=617 CharacterOffsetEnd=623 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Civilians CharacterOffsetBegin=632 CharacterOffsetEnd=641 PartOfSpeech=NNPS Lemma=Civilians NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=members CharacterOffsetBegin=646 CharacterOffsetEnd=653 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=wait CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=NN Lemma=wait NamedEntityTag=O] [Text=to CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=679 CharacterOffsetEnd=686 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=687 CharacterOffsetEnd=694 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=inside CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=707 CharacterOffsetEnd=711 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=716 CharacterOffsetEnd=719 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=of CharacterOffsetBegin=720 CharacterOffsetEnd=722 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hill CharacterOffsetBegin=725 CharacterOffsetEnd=729 PartOfSpeech=NN Lemma=hill NamedEntityTag=O] [Text=on CharacterOffsetBegin=730 CharacterOffsetEnd=732 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t4" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=737 CharacterOffsetEnd=742 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t4" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t4" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=750 CharacterOffsetEnd=756 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=756 CharacterOffsetEnd=758 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=759 CharacterOffsetEnd=768 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=770 CharacterOffsetEnd=780 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=785 CharacterOffsetEnd=786 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=787 CharacterOffsetEnd=789 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=790 CharacterOffsetEnd=794 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t5" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=795 CharacterOffsetEnd=797 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t5" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t5" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=799 CharacterOffsetEnd=803 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t5" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=in CharacterOffsetBegin=804 CharacterOffsetEnd=806 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=807 CharacterOffsetEnd=813 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=813 CharacterOffsetEnd=814 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=815 CharacterOffsetEnd=821 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (NP
+      (NP (NNPS Civilians))
+      (CC and)
+      (NP
+        (NP (NNS members))
+        (PP (IN of)
+          (NP (DT the) (NNS media) (NN wait)))
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (JJ Israeli) (NNS attacks))
+                (PP (IN inside)
+                  (NP (NNP Gaza))))
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN hill))
+                      (PP (IN on)
+                        (NP
+                          (NP (DT the) (JJ sixth) (NN day))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNP Israel) (POS 's))
+                              (NN operation)))
+                          (`` ``)
+                          (NP (JJ Protective) (NNP Edge))
+                          ('' '')
+                          (PP (IN on)
+                            (NP (NNP July) (CD 13) (, ,) (CD 2014)))))))))
+              (PP (IN in)
+                (NP (NNP Sderot) (, ,) (NNP Israel))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+dep(PHOTO-4, Civilians-6)
+conj_and(Civilians-6, members-8)
+det(wait-12, the-10)
+nn(wait-12, media-11)
+prep_of(members-8, wait-12)
+aux(see-14, to-13)
+vmod(members-8, see-14)
+amod(attacks-16, Israeli-15)
+dobj(see-14, attacks-16)
+prep_inside(attacks-16, Gaza-18)
+det(top-21, the-20)
+prep_from(see-14, top-21)
+det(hill-24, a-23)
+prep_of(top-21, hill-24)
+det(day-28, the-26)
+amod(day-28, sixth-27)
+prep_on(hill-24, day-28)
+poss(operation-32, Israel-30)
+prep_of(day-28, operation-32)
+amod(Edge-35, Protective-34)
+dep(day-28, Edge-35)
+prep_on(day-28, July-38)
+num(July-38, 13-39)
+num(July-38, 2014-41)
+nn(Israel-45, Sderot-43)
+prep_in(see-14, Israel-45)
+
+Sentence #5 (11 tokens):
+More than 170 Palestinians have been killed in the conflict.
+[Text=More CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=829 CharacterOffsetEnd=833 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=170 CharacterOffsetBegin=834 CharacterOffsetEnd=837 PartOfSpeech=CD Lemma=170 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>170.0] [Text=Palestinians CharacterOffsetBegin=838 CharacterOffsetEnd=850 PartOfSpeech=NNPS Lemma=Palestinians NamedEntityTag=MISC] [Text=have CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=killed CharacterOffsetBegin=861 CharacterOffsetEnd=867 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O] [Text=in CharacterOffsetBegin=868 CharacterOffsetEnd=870 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=871 CharacterOffsetEnd=874 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=conflict CharacterOffsetBegin=875 CharacterOffsetEnd=883 PartOfSpeech=NN Lemma=conflict NamedEntityTag=O] [Text=. CharacterOffsetBegin=883 CharacterOffsetEnd=884 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (QP (JJR More) (IN than) (CD 170))
+      (NNPS Palestinians))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN killed)
+          (PP (IN in)
+            (NP (DT the) (NN conflict))))))
+    (. .)))
+
+root(ROOT-0, killed-7)
+mwe(than-2, More-1)
+quantmod(170-3, than-2)
+num(Palestinians-4, 170-3)
+nsubjpass(killed-7, Palestinians-4)
+aux(killed-7, have-5)
+auxpass(killed-7, been-6)
+det(conflict-10, the-9)
+prep_in(killed-7, conflict-10)
+
+Sentence #6 (14 tokens):
+In response, Hamas has launched rockets into Israel this week as well.
+[Text=In CharacterOffsetBegin=885 CharacterOffsetEnd=887 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=response CharacterOffsetBegin=888 CharacterOffsetEnd=896 PartOfSpeech=NN Lemma=response NamedEntityTag=O] [Text=, CharacterOffsetBegin=896 CharacterOffsetEnd=897 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Hamas CharacterOffsetBegin=898 CharacterOffsetEnd=903 PartOfSpeech=NNP Lemma=Hamas NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=904 CharacterOffsetEnd=907 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=launched CharacterOffsetBegin=908 CharacterOffsetEnd=916 PartOfSpeech=VBN Lemma=launch NamedEntityTag=O] [Text=rockets CharacterOffsetBegin=917 CharacterOffsetEnd=924 PartOfSpeech=NNS Lemma=rocket NamedEntityTag=O] [Text=into CharacterOffsetBegin=925 CharacterOffsetEnd=929 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=930 CharacterOffsetEnd=936 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=this CharacterOffsetBegin=937 CharacterOffsetEnd=941 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=week CharacterOffsetBegin=942 CharacterOffsetEnd=946 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">this week</TIMEX3>] [Text=as CharacterOffsetBegin=947 CharacterOffsetEnd=949 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=950 CharacterOffsetEnd=954 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=. CharacterOffsetBegin=954 CharacterOffsetEnd=955 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN response)))
+    (, ,)
+    (NP (NNP Hamas))
+    (VP (VBZ has)
+      (VP (VBN launched)
+        (NP (NNS rockets))
+        (PP (IN into)
+          (NP
+            (NP (NNP Israel))
+            (NP (DT this) (NN week))))
+        (ADVP (RB as) (RB well))))
+    (. .)))
+
+root(ROOT-0, launched-6)
+prep_in(launched-6, response-2)
+nsubj(launched-6, Hamas-4)
+aux(launched-6, has-5)
+dobj(launched-6, rockets-7)
+prep_into(launched-6, Israel-9)
+det(week-11, this-10)
+dep(Israel-9, week-11)
+advmod(well-13, as-12)
+advmod(launched-6, well-13)
+
+Sentence #7 (6 tokens):
+No Israelis have been killed.
+[Text=No CharacterOffsetBegin=956 CharacterOffsetEnd=958 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=Israelis CharacterOffsetBegin=959 CharacterOffsetEnd=967 PartOfSpeech=NNPS Lemma=Israelis NamedEntityTag=MISC] [Text=have CharacterOffsetBegin=968 CharacterOffsetEnd=972 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=973 CharacterOffsetEnd=977 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=killed CharacterOffsetBegin=978 CharacterOffsetEnd=984 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O] [Text=. CharacterOffsetBegin=984 CharacterOffsetEnd=985 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT No) (NNPS Israelis))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN killed))))
+    (. .)))
+
+root(ROOT-0, killed-5)
+neg(Israelis-2, No-1)
+nsubjpass(killed-5, Israelis-2)
+aux(killed-5, have-3)
+auxpass(killed-5, been-4)
+
+Sentence #8 (38 tokens):
+Andrew Burton/Getty Images
+PHOTO: Smoke rises from inside Gaza from Israeli attacks on the sixth day of Israel's operation "Protective Edge" on July 13, 2014, as seen from Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=987 CharacterOffsetEnd=993 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=994 CharacterOffsetEnd=1006 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=1007 CharacterOffsetEnd=1013 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=1015 CharacterOffsetEnd=1020 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Smoke CharacterOffsetBegin=1022 CharacterOffsetEnd=1027 PartOfSpeech=NN Lemma=smoke NamedEntityTag=O] [Text=rises CharacterOffsetBegin=1028 CharacterOffsetEnd=1033 PartOfSpeech=VBZ Lemma=rise NamedEntityTag=O] [Text=from CharacterOffsetBegin=1034 CharacterOffsetEnd=1038 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=inside CharacterOffsetBegin=1039 CharacterOffsetEnd=1045 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=1046 CharacterOffsetEnd=1050 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=1051 CharacterOffsetEnd=1055 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=1056 CharacterOffsetEnd=1063 PartOfSpeech=NNP Lemma=Israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=1064 CharacterOffsetEnd=1071 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=on CharacterOffsetBegin=1072 CharacterOffsetEnd=1074 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t7" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=1079 CharacterOffsetEnd=1084 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t7" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=1085 CharacterOffsetEnd=1088 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t7" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=1089 CharacterOffsetEnd=1091 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1092 CharacterOffsetEnd=1098 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1098 CharacterOffsetEnd=1100 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=1101 CharacterOffsetEnd=1110 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1111 CharacterOffsetEnd=1112 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=1112 CharacterOffsetEnd=1122 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1123 CharacterOffsetEnd=1127 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=1127 CharacterOffsetEnd=1128 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=1129 CharacterOffsetEnd=1131 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t8" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=1137 CharacterOffsetEnd=1139 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t8" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=1139 CharacterOffsetEnd=1140 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t8" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=1141 CharacterOffsetEnd=1145 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t8" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=1147 CharacterOffsetEnd=1149 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=seen CharacterOffsetBegin=1150 CharacterOffsetEnd=1154 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=from CharacterOffsetBegin=1155 CharacterOffsetEnd=1159 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=1160 CharacterOffsetEnd=1166 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1166 CharacterOffsetEnd=1167 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1168 CharacterOffsetEnd=1174 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1174 CharacterOffsetEnd=1175 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (S
+      (NP (NN Smoke))
+      (VP (VBZ rises)
+        (PP (IN from) (IN inside)
+          (NP
+            (NP (NNP Gaza))
+            (PP (IN from)
+              (NP (NNP Israeli) (NNS attacks)))))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ sixth) (NN day))
+            (PP (IN of)
+              (NP
+                (NP (NNP Israel) (POS 's))
+                (NN operation)))
+            (`` ``)
+            (NP (JJ Protective) (NNP Edge))
+            ('' '')
+            (PP (IN on)
+              (NP (NNP July) (CD 13) (, ,) (CD 2014)))))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (VP (VBN seen)
+              (PP (IN from)
+                (NP (NNP Sderot) (, ,) (NNP Israel))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+nsubj(rises-7, Smoke-6)
+dep(PHOTO-4, rises-7)
+dep(rises-7, from-8)
+prep_inside(rises-7, Gaza-10)
+nn(attacks-13, Israeli-12)
+prep_from(Gaza-10, attacks-13)
+det(day-17, the-15)
+amod(day-17, sixth-16)
+prep_on(rises-7, day-17)
+poss(operation-21, Israel-19)
+prep_of(day-17, operation-21)
+amod(Edge-24, Protective-23)
+dep(day-17, Edge-24)
+prep_on(day-17, July-27)
+num(July-27, 13-28)
+num(July-27, 2014-30)
+mark(seen-33, as-32)
+advcl(rises-7, seen-33)
+nn(Israel-37, Sderot-35)
+prep_from(seen-33, Israel-37)
+
+Sentence #9 (46 tokens):
+Andrew Burton/Getty Images
+PHOTO: Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel's operation "Protective Edge" on July 13, 2014 in Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=1177 CharacterOffsetEnd=1183 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=1184 CharacterOffsetEnd=1196 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=1197 CharacterOffsetEnd=1203 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=1205 CharacterOffsetEnd=1210 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=1210 CharacterOffsetEnd=1211 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Civilians CharacterOffsetBegin=1212 CharacterOffsetEnd=1221 PartOfSpeech=NNPS Lemma=Civilians NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=1222 CharacterOffsetEnd=1225 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=members CharacterOffsetBegin=1226 CharacterOffsetEnd=1233 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1237 CharacterOffsetEnd=1240 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=1241 CharacterOffsetEnd=1246 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=wait CharacterOffsetBegin=1247 CharacterOffsetEnd=1251 PartOfSpeech=NN Lemma=wait NamedEntityTag=O] [Text=to CharacterOffsetBegin=1252 CharacterOffsetEnd=1254 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=1255 CharacterOffsetEnd=1258 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=1259 CharacterOffsetEnd=1266 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=1267 CharacterOffsetEnd=1274 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=inside CharacterOffsetBegin=1275 CharacterOffsetEnd=1281 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=1282 CharacterOffsetEnd=1286 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=1287 CharacterOffsetEnd=1291 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=1292 CharacterOffsetEnd=1295 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1296 CharacterOffsetEnd=1299 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=of CharacterOffsetBegin=1300 CharacterOffsetEnd=1302 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1303 CharacterOffsetEnd=1304 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hill CharacterOffsetBegin=1305 CharacterOffsetEnd=1309 PartOfSpeech=NN Lemma=hill NamedEntityTag=O] [Text=on CharacterOffsetBegin=1310 CharacterOffsetEnd=1312 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1313 CharacterOffsetEnd=1316 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t9" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=1317 CharacterOffsetEnd=1322 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t9" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=1323 CharacterOffsetEnd=1326 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t9" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=1327 CharacterOffsetEnd=1329 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1330 CharacterOffsetEnd=1336 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1336 CharacterOffsetEnd=1338 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=1339 CharacterOffsetEnd=1348 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1349 CharacterOffsetEnd=1350 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=1350 CharacterOffsetEnd=1360 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1361 CharacterOffsetEnd=1365 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=1365 CharacterOffsetEnd=1366 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=1367 CharacterOffsetEnd=1369 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=1370 CharacterOffsetEnd=1374 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t10" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=1375 CharacterOffsetEnd=1377 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t10" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=1377 CharacterOffsetEnd=1378 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t10" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=1379 CharacterOffsetEnd=1383 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t10" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=in CharacterOffsetBegin=1384 CharacterOffsetEnd=1386 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=1387 CharacterOffsetEnd=1393 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1393 CharacterOffsetEnd=1394 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1395 CharacterOffsetEnd=1401 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1401 CharacterOffsetEnd=1402 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (NP
+      (NP (NNPS Civilians))
+      (CC and)
+      (NP
+        (NP (NNS members))
+        (PP (IN of)
+          (NP (DT the) (NNS media) (NN wait)))
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (JJ Israeli) (NNS attacks))
+                (PP (IN inside)
+                  (NP (NNP Gaza))))
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN hill))
+                      (PP (IN on)
+                        (NP
+                          (NP (DT the) (JJ sixth) (NN day))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNP Israel) (POS 's))
+                              (NN operation)))
+                          (`` ``)
+                          (NP (JJ Protective) (NNP Edge))
+                          ('' '')
+                          (PP (IN on)
+                            (NP (NNP July) (CD 13) (, ,) (CD 2014)))))))))
+              (PP (IN in)
+                (NP (NNP Sderot) (, ,) (NNP Israel))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+dep(PHOTO-4, Civilians-6)
+conj_and(Civilians-6, members-8)
+det(wait-12, the-10)
+nn(wait-12, media-11)
+prep_of(members-8, wait-12)
+aux(see-14, to-13)
+vmod(members-8, see-14)
+amod(attacks-16, Israeli-15)
+dobj(see-14, attacks-16)
+prep_inside(attacks-16, Gaza-18)
+det(top-21, the-20)
+prep_from(see-14, top-21)
+det(hill-24, a-23)
+prep_of(top-21, hill-24)
+det(day-28, the-26)
+amod(day-28, sixth-27)
+prep_on(hill-24, day-28)
+poss(operation-32, Israel-30)
+prep_of(day-28, operation-32)
+amod(Edge-35, Protective-34)
+dep(day-28, Edge-35)
+prep_on(day-28, July-38)
+num(July-38, 13-39)
+num(July-38, 2014-41)
+nn(Israel-45, Sderot-43)
+prep_in(see-14, Israel-45)
+
+Sentence #10 (46 tokens):
+Andrew Burton/Getty Images
+PHOTO: Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel's operation "Protective Edge" on July 13, 2014 in Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=1404 CharacterOffsetEnd=1410 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=1411 CharacterOffsetEnd=1423 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=1424 CharacterOffsetEnd=1430 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=1432 CharacterOffsetEnd=1437 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=1437 CharacterOffsetEnd=1438 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Civilians CharacterOffsetBegin=1439 CharacterOffsetEnd=1448 PartOfSpeech=NNPS Lemma=Civilians NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=1449 CharacterOffsetEnd=1452 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=members CharacterOffsetBegin=1453 CharacterOffsetEnd=1460 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=1461 CharacterOffsetEnd=1463 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1464 CharacterOffsetEnd=1467 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=1468 CharacterOffsetEnd=1473 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=wait CharacterOffsetBegin=1474 CharacterOffsetEnd=1478 PartOfSpeech=NN Lemma=wait NamedEntityTag=O] [Text=to CharacterOffsetBegin=1479 CharacterOffsetEnd=1481 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=1482 CharacterOffsetEnd=1485 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=1486 CharacterOffsetEnd=1493 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=1494 CharacterOffsetEnd=1501 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=inside CharacterOffsetBegin=1502 CharacterOffsetEnd=1508 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=1509 CharacterOffsetEnd=1513 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=1514 CharacterOffsetEnd=1518 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=1519 CharacterOffsetEnd=1522 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1523 CharacterOffsetEnd=1526 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=of CharacterOffsetBegin=1527 CharacterOffsetEnd=1529 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1530 CharacterOffsetEnd=1531 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hill CharacterOffsetBegin=1532 CharacterOffsetEnd=1536 PartOfSpeech=NN Lemma=hill NamedEntityTag=O] [Text=on CharacterOffsetBegin=1537 CharacterOffsetEnd=1539 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1540 CharacterOffsetEnd=1543 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t11" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=1544 CharacterOffsetEnd=1549 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t11" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=1550 CharacterOffsetEnd=1553 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t11" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=1554 CharacterOffsetEnd=1556 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1557 CharacterOffsetEnd=1563 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1563 CharacterOffsetEnd=1565 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=1566 CharacterOffsetEnd=1575 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1576 CharacterOffsetEnd=1577 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=1577 CharacterOffsetEnd=1587 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1588 CharacterOffsetEnd=1592 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=1592 CharacterOffsetEnd=1593 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=1594 CharacterOffsetEnd=1596 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=1597 CharacterOffsetEnd=1601 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t12" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=1602 CharacterOffsetEnd=1604 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t12" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=1604 CharacterOffsetEnd=1605 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t12" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=1606 CharacterOffsetEnd=1610 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t12" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=in CharacterOffsetBegin=1611 CharacterOffsetEnd=1613 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=1614 CharacterOffsetEnd=1620 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1620 CharacterOffsetEnd=1621 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1622 CharacterOffsetEnd=1628 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1628 CharacterOffsetEnd=1629 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (NP
+      (NP (NNPS Civilians))
+      (CC and)
+      (NP
+        (NP (NNS members))
+        (PP (IN of)
+          (NP (DT the) (NNS media) (NN wait)))
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (JJ Israeli) (NNS attacks))
+                (PP (IN inside)
+                  (NP (NNP Gaza))))
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN hill))
+                      (PP (IN on)
+                        (NP
+                          (NP (DT the) (JJ sixth) (NN day))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNP Israel) (POS 's))
+                              (NN operation)))
+                          (`` ``)
+                          (NP (JJ Protective) (NNP Edge))
+                          ('' '')
+                          (PP (IN on)
+                            (NP (NNP July) (CD 13) (, ,) (CD 2014)))))))))
+              (PP (IN in)
+                (NP (NNP Sderot) (, ,) (NNP Israel))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+dep(PHOTO-4, Civilians-6)
+conj_and(Civilians-6, members-8)
+det(wait-12, the-10)
+nn(wait-12, media-11)
+prep_of(members-8, wait-12)
+aux(see-14, to-13)
+vmod(members-8, see-14)
+amod(attacks-16, Israeli-15)
+dobj(see-14, attacks-16)
+prep_inside(attacks-16, Gaza-18)
+det(top-21, the-20)
+prep_from(see-14, top-21)
+det(hill-24, a-23)
+prep_of(top-21, hill-24)
+det(day-28, the-26)
+amod(day-28, sixth-27)
+prep_on(hill-24, day-28)
+poss(operation-32, Israel-30)
+prep_of(day-28, operation-32)
+amod(Edge-35, Protective-34)
+dep(day-28, Edge-35)
+prep_on(day-28, July-38)
+num(July-38, 13-39)
+num(July-38, 2014-41)
+nn(Israel-45, Sderot-43)
+prep_in(see-14, Israel-45)
+
+Sentence #11 (46 tokens):
+Andrew Burton/Getty Images
+PHOTO: Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel's operation "Protective Edge" on July 13, 2014 in Sderot, Israel.
+[Text=Andrew CharacterOffsetBegin=1631 CharacterOffsetEnd=1637 PartOfSpeech=NNP Lemma=Andrew NamedEntityTag=PERSON] [Text=Burton/Getty CharacterOffsetBegin=1638 CharacterOffsetEnd=1650 PartOfSpeech=NNP Lemma=Burton/Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=1651 CharacterOffsetEnd=1657 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=PHOTO CharacterOffsetBegin=1659 CharacterOffsetEnd=1664 PartOfSpeech=NNP Lemma=PHOTO NamedEntityTag=O] [Text=: CharacterOffsetBegin=1664 CharacterOffsetEnd=1665 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Civilians CharacterOffsetBegin=1666 CharacterOffsetEnd=1675 PartOfSpeech=NNPS Lemma=Civilians NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=1676 CharacterOffsetEnd=1679 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=members CharacterOffsetBegin=1680 CharacterOffsetEnd=1687 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=1688 CharacterOffsetEnd=1690 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1691 CharacterOffsetEnd=1694 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=1695 CharacterOffsetEnd=1700 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=wait CharacterOffsetBegin=1701 CharacterOffsetEnd=1705 PartOfSpeech=NN Lemma=wait NamedEntityTag=O] [Text=to CharacterOffsetBegin=1706 CharacterOffsetEnd=1708 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=1709 CharacterOffsetEnd=1712 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=1713 CharacterOffsetEnd=1720 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=attacks CharacterOffsetBegin=1721 CharacterOffsetEnd=1728 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=inside CharacterOffsetBegin=1729 CharacterOffsetEnd=1735 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=1736 CharacterOffsetEnd=1740 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=1741 CharacterOffsetEnd=1745 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=1746 CharacterOffsetEnd=1749 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1750 CharacterOffsetEnd=1753 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=of CharacterOffsetBegin=1754 CharacterOffsetEnd=1756 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1757 CharacterOffsetEnd=1758 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hill CharacterOffsetBegin=1759 CharacterOffsetEnd=1763 PartOfSpeech=NN Lemma=hill NamedEntityTag=O] [Text=on CharacterOffsetBegin=1764 CharacterOffsetEnd=1766 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1767 CharacterOffsetEnd=1770 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t13" type="DATE">the sixth day</TIMEX3>] [Text=sixth CharacterOffsetBegin=1771 CharacterOffsetEnd=1776 PartOfSpeech=JJ Lemma=sixth NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t13" type="DATE">the sixth day</TIMEX3>] [Text=day CharacterOffsetBegin=1777 CharacterOffsetEnd=1780 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=P1D-#6 Timex=<TIMEX3 alt_value="P1D-#6" tid="t13" type="DATE">the sixth day</TIMEX3>] [Text=of CharacterOffsetBegin=1781 CharacterOffsetEnd=1783 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1784 CharacterOffsetEnd=1790 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text='s CharacterOffsetBegin=1790 CharacterOffsetEnd=1792 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=operation CharacterOffsetBegin=1793 CharacterOffsetEnd=1802 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1803 CharacterOffsetEnd=1804 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Protective CharacterOffsetBegin=1804 CharacterOffsetEnd=1814 PartOfSpeech=JJ Lemma=protective NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1815 CharacterOffsetEnd=1819 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text='' CharacterOffsetBegin=1819 CharacterOffsetEnd=1820 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=on CharacterOffsetBegin=1821 CharacterOffsetEnd=1823 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=1824 CharacterOffsetEnd=1828 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t14" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=13 CharacterOffsetBegin=1829 CharacterOffsetEnd=1831 PartOfSpeech=CD Lemma=13 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t14" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=, CharacterOffsetBegin=1831 CharacterOffsetEnd=1832 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t14" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=2014 CharacterOffsetBegin=1833 CharacterOffsetEnd=1837 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014-07-13 Timex=<TIMEX3 tid="t14" type="DATE" value="2014-07-13">July 13, 2014</TIMEX3>] [Text=in CharacterOffsetBegin=1838 CharacterOffsetEnd=1840 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sderot CharacterOffsetBegin=1841 CharacterOffsetEnd=1847 PartOfSpeech=NNP Lemma=Sderot NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1847 CharacterOffsetEnd=1848 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1849 CharacterOffsetEnd=1855 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1855 CharacterOffsetEnd=1856 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Andrew) (NNP Burton/Getty) (NNPS Images) (NNP PHOTO))
+    (: :)
+    (NP
+      (NP (NNPS Civilians))
+      (CC and)
+      (NP
+        (NP (NNS members))
+        (PP (IN of)
+          (NP (DT the) (NNS media) (NN wait)))
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (JJ Israeli) (NNS attacks))
+                (PP (IN inside)
+                  (NP (NNP Gaza))))
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN hill))
+                      (PP (IN on)
+                        (NP
+                          (NP (DT the) (JJ sixth) (NN day))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNP Israel) (POS 's))
+                              (NN operation)))
+                          (`` ``)
+                          (NP (JJ Protective) (NNP Edge))
+                          ('' '')
+                          (PP (IN on)
+                            (NP (NNP July) (CD 13) (, ,) (CD 2014)))))))))
+              (PP (IN in)
+                (NP (NNP Sderot) (, ,) (NNP Israel))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-4)
+nn(PHOTO-4, Andrew-1)
+nn(PHOTO-4, Burton/Getty-2)
+nn(PHOTO-4, Images-3)
+dep(PHOTO-4, Civilians-6)
+conj_and(Civilians-6, members-8)
+det(wait-12, the-10)
+nn(wait-12, media-11)
+prep_of(members-8, wait-12)
+aux(see-14, to-13)
+vmod(members-8, see-14)
+amod(attacks-16, Israeli-15)
+dobj(see-14, attacks-16)
+prep_inside(attacks-16, Gaza-18)
+det(top-21, the-20)
+prep_from(see-14, top-21)
+det(hill-24, a-23)
+prep_of(top-21, hill-24)
+det(day-28, the-26)
+amod(day-28, sixth-27)
+prep_on(hill-24, day-28)
+poss(operation-32, Israel-30)
+prep_of(day-28, operation-32)
+amod(Edge-35, Protective-34)
+dep(day-28, Edge-35)
+prep_on(day-28, July-38)
+num(July-38, 13-39)
+num(July-38, 2014-41)
+nn(Israel-45, Sderot-43)
+prep_in(see-14, Israel-45)
+
+Coreference set:
+	(1,19,[19,20]) -> (1,26,[26,28]), that is: "Israel" -> "Israel 's"
+	(2,19,[19,20]) -> (1,26,[26,28]), that is: "Israel" -> "Israel 's"
+	(3,29,[29,31]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+	(4,30,[30,32]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+	(8,19,[19,21]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+	(9,30,[30,32]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+	(10,30,[30,32]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+	(11,30,[30,32]) -> (1,26,[26,28]), that is: "Israel 's" -> "Israel 's"
+Coreference set:
+	(3,17,[17,18]) -> (1,30,[30,31]), that is: "Gaza" -> "Gaza"
+	(4,18,[18,19]) -> (1,30,[30,31]), that is: "Gaza" -> "Gaza"
+	(9,18,[18,19]) -> (1,30,[30,31]), that is: "Gaza" -> "Gaza"
+	(10,18,[18,19]) -> (1,30,[30,31]), that is: "Gaza" -> "Gaza"
+	(11,18,[18,19]) -> (1,30,[30,31]), that is: "Gaza" -> "Gaza"
+Coreference set:
+	(2,34,[33,35]) -> (1,17,[16,20]), that is: "the hilltop" -> "a hilltop in Israel"
+Coreference set:
+	(3,42,[42,43]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+	(4,43,[43,44]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+	(8,35,[35,36]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+	(9,43,[43,44]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+	(10,43,[43,44]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+	(11,43,[43,44]) -> (2,17,[17,18]), that is: "Sderot" -> "Sderot"
+Coreference set:
+	(2,17,[17,20]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+	(4,45,[43,46]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+	(8,37,[35,38]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+	(9,45,[43,46]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+	(10,45,[43,46]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+	(11,45,[43,46]) -> (3,44,[42,45]), that is: "Sderot , Israel" -> "Sderot , Israel"
+Coreference set:
+	(4,1,[1,2]) -> (3,1,[1,2]), that is: "Andrew" -> "Andrew"
+	(8,1,[1,2]) -> (3,1,[1,2]), that is: "Andrew" -> "Andrew"
+	(9,1,[1,2]) -> (3,1,[1,2]), that is: "Andrew" -> "Andrew"
+	(10,1,[1,2]) -> (3,1,[1,2]), that is: "Andrew" -> "Andrew"
+	(11,1,[1,2]) -> (3,1,[1,2]), that is: "Andrew" -> "Andrew"
+Coreference set:
+	(4,16,[15,19]) -> (3,15,[14,18]), that is: "Israeli attacks inside Gaza" -> "Israeli attacks inside Gaza"
+	(8,13,[12,14]) -> (3,15,[14,18]), that is: "Israeli attacks" -> "Israeli attacks inside Gaza"
+	(9,16,[15,19]) -> (3,15,[14,18]), that is: "Israeli attacks inside Gaza" -> "Israeli attacks inside Gaza"
+	(10,16,[15,19]) -> (3,15,[14,18]), that is: "Israeli attacks inside Gaza" -> "Israeli attacks inside Gaza"
+	(11,16,[15,19]) -> (3,15,[14,18]), that is: "Israeli attacks inside Gaza" -> "Israeli attacks inside Gaza"
+Coreference set:
+	(4,21,[20,42]) -> (3,20,[19,41]), that is: "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(9,21,[20,42]) -> (3,20,[19,41]), that is: "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(10,21,[20,42]) -> (3,20,[19,41]), that is: "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(11,21,[20,42]) -> (3,20,[19,41]), that is: "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+Coreference set:
+	(4,24,[23,42]) -> (3,23,[22,41]), that is: "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(9,24,[23,42]) -> (3,23,[22,41]), that is: "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(10,24,[23,42]) -> (3,23,[22,41]), that is: "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(11,24,[23,42]) -> (3,23,[22,41]), that is: "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+Coreference set:
+	(4,28,[26,42]) -> (3,27,[25,41]), that is: "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(8,17,[15,31]) -> (3,27,[25,41]), that is: "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(9,28,[26,42]) -> (3,27,[25,41]), that is: "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(10,28,[26,42]) -> (3,27,[25,41]), that is: "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+	(11,28,[26,42]) -> (3,27,[25,41]), that is: "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014" -> "the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014"
+Coreference set:
+	(4,32,[30,33]) -> (3,31,[29,32]), that is: "Israel 's operation" -> "Israel 's operation"
+	(8,21,[19,22]) -> (3,31,[29,32]), that is: "Israel 's operation" -> "Israel 's operation"
+	(9,32,[30,33]) -> (3,31,[29,32]), that is: "Israel 's operation" -> "Israel 's operation"
+	(10,32,[30,33]) -> (3,31,[29,32]), that is: "Israel 's operation" -> "Israel 's operation"
+	(11,32,[30,33]) -> (3,31,[29,32]), that is: "Israel 's operation" -> "Israel 's operation"
+Coreference set:
+	(4,35,[34,36]) -> (3,34,[33,35]), that is: "Protective Edge" -> "Protective Edge"
+	(8,24,[23,25]) -> (3,34,[33,35]), that is: "Protective Edge" -> "Protective Edge"
+	(9,35,[34,36]) -> (3,34,[33,35]), that is: "Protective Edge" -> "Protective Edge"
+	(10,35,[34,36]) -> (3,34,[33,35]), that is: "Protective Edge" -> "Protective Edge"
+	(11,35,[34,36]) -> (3,34,[33,35]), that is: "Protective Edge" -> "Protective Edge"
+Coreference set:
+	(4,38,[38,42]) -> (3,37,[37,41]), that is: "July 13 , 2014" -> "July 13 , 2014"
+	(8,27,[27,31]) -> (3,37,[37,41]), that is: "July 13 , 2014" -> "July 13 , 2014"
+	(9,38,[38,42]) -> (3,37,[37,41]), that is: "July 13 , 2014" -> "July 13 , 2014"
+	(10,38,[38,42]) -> (3,37,[37,41]), that is: "July 13 , 2014" -> "July 13 , 2014"
+	(11,38,[38,42]) -> (3,37,[37,41]), that is: "July 13 , 2014" -> "July 13 , 2014"
+Coreference set:
+	(9,6,[6,7]) -> (4,6,[6,7]), that is: "Civilians" -> "Civilians"
+	(10,6,[6,7]) -> (4,6,[6,7]), that is: "Civilians" -> "Civilians"
+	(11,6,[6,7]) -> (4,6,[6,7]), that is: "Civilians" -> "Civilians"
+Coreference set:
+	(9,4,[1,47]) -> (4,4,[1,47]), that is: "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ." -> "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ."
+	(10,4,[1,47]) -> (4,4,[1,47]), that is: "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ." -> "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ."
+	(11,4,[1,47]) -> (4,4,[1,47]), that is: "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ." -> "Andrew Burton/Getty Images PHOTO : Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel ."
+Coreference set:
+	(9,6,[6,46]) -> (4,6,[6,46]), that is: "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+	(10,6,[6,46]) -> (4,6,[6,46]), that is: "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+	(11,6,[6,46]) -> (4,6,[6,46]), that is: "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "Civilians and members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+Coreference set:
+	(9,8,[8,46]) -> (4,8,[8,46]), that is: "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+	(10,8,[8,46]) -> (4,8,[8,46]), that is: "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+	(11,8,[8,46]) -> (4,8,[8,46]), that is: "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel" -> "members of the media wait to see Israeli attacks inside Gaza from the top of a hill on the sixth day of Israel 's operation `` Protective Edge '' on July 13 , 2014 in Sderot , Israel"
+Coreference set:
+	(9,12,[10,13]) -> (4,12,[10,13]), that is: "the media wait" -> "the media wait"
+	(10,12,[10,13]) -> (4,12,[10,13]), that is: "the media wait" -> "the media wait"
+	(11,12,[10,13]) -> (4,12,[10,13]), that is: "the media wait" -> "the media wait"

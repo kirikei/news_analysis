@@ -1,0 +1,823 @@
+Sentence #1 (15 tokens):
+Florida GOP candidate bucks party calls to withdraw after 'deplorable' Obama comment.
+[Text=Florida CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=LOCATION] [Text=GOP CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=GOP NamedEntityTag=ORGANIZATION] [Text=candidate CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=NN Lemma=candidate NamedEntityTag=O] [Text=bucks CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNS Lemma=buck NamedEntityTag=O] [Text=party CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NN Lemma=party NamedEntityTag=O] [Text=calls CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=VBZ Lemma=call NamedEntityTag=O] [Text=to CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=withdraw CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=VB Lemma=withdraw NamedEntityTag=O] [Text=after CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=` CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=deplorable CharacterOffsetBegin=59 CharacterOffsetEnd=69 PartOfSpeech=JJ Lemma=deplorable NamedEntityTag=O] [Text=' CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech='' Lemma=' NamedEntityTag=O] [Text=Obama CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=comment CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Florida) (NNP GOP) (NN candidate) (NNS bucks) (NN party))
+    (VP (VBZ calls)
+      (S
+        (VP (TO to)
+          (VP (VB withdraw)
+            (PP (IN after) (`` `)
+              (ADJP (JJ deplorable))
+              ('' '))
+            (NP (NNP Obama) (NN comment))))))
+    (. .)))
+
+nn(party-5, Florida-1)
+nn(party-5, GOP-2)
+nn(party-5, candidate-3)
+nn(party-5, bucks-4)
+nsubj(calls-6, party-5)
+xsubj(withdraw-8, party-5)
+root(ROOT-0, calls-6)
+aux(withdraw-8, to-7)
+xcomp(calls-6, withdraw-8)
+prep_after(withdraw-8, deplorable-11)
+nn(comment-14, Obama-13)
+dobj(withdraw-8, comment-14)
+
+Sentence #2 (40 tokens):
+A Republican candidate for Florida state legislative office is bucking calls from his own party to drop out of the race, after he agreed with comments on social media that President Obama should be hanged for war crimes.
+[Text=A CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Republican CharacterOffsetBegin=93 CharacterOffsetEnd=103 PartOfSpeech=JJ Lemma=republican NamedEntityTag=ORGANIZATION] [Text=candidate CharacterOffsetBegin=104 CharacterOffsetEnd=113 PartOfSpeech=NN Lemma=candidate NamedEntityTag=O] [Text=for CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=LOCATION] [Text=state CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=legislative CharacterOffsetBegin=132 CharacterOffsetEnd=143 PartOfSpeech=JJ Lemma=legislative NamedEntityTag=O] [Text=office CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=office NamedEntityTag=O] [Text=is CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=bucking CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=VBG Lemma=buck NamedEntityTag=O] [Text=calls CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNS Lemma=call NamedEntityTag=O] [Text=from CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=his CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=own CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=JJ Lemma=own NamedEntityTag=O] [Text=party CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=party NamedEntityTag=O] [Text=to CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=drop CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=VB Lemma=drop NamedEntityTag=O] [Text=out CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=race CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NN Lemma=race NamedEntityTag=O] [Text=, CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=after CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=agreed CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=VBD Lemma=agree NamedEntityTag=O] [Text=with CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=comments CharacterOffsetBegin=233 CharacterOffsetEnd=241 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=on CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=social CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=media CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=that CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=President CharacterOffsetBegin=263 CharacterOffsetEnd=272 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=Obama CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=should CharacterOffsetBegin=279 CharacterOffsetEnd=285 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=be CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=hanged CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=VBN Lemma=hang NamedEntityTag=O] [Text=for CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=war CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NN Lemma=war NamedEntityTag=O] [Text=crimes CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=NNS Lemma=crime NamedEntityTag=O] [Text=. CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ Republican) (NN candidate))
+      (PP (IN for)
+        (NP (NNP Florida) (NN state) (JJ legislative) (NN office))))
+    (VP (VBZ is)
+      (VP (VBG bucking)
+        (NP (NNS calls))
+        (PP (IN from)
+          (NP (PRP$ his) (JJ own) (NN party)))
+        (S
+          (VP (TO to)
+            (VP (VB drop)
+              (PRT (IN out))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN race))
+                  (, ,)
+                  (SBAR (IN after)
+                    (S
+                      (NP (PRP he))
+                      (VP (VBD agreed)
+                        (PP (IN with)
+                          (NP
+                            (NP (NNS comments))
+                            (PP (IN on)
+                              (NP (JJ social) (NNS media)))))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (NP (NNP President) (NNP Obama))
+                            (VP (MD should)
+                              (VP (VB be)
+                                (VP (VBN hanged)
+                                  (PP (IN for)
+                                    (NP (NN war) (NNS crimes))))))))))))))))))
+    (. .)))
+
+det(candidate-3, A-1)
+amod(candidate-3, Republican-2)
+nsubj(bucking-10, candidate-3)
+xsubj(drop-17, candidate-3)
+nn(office-8, Florida-5)
+nn(office-8, state-6)
+amod(office-8, legislative-7)
+prep_for(candidate-3, office-8)
+aux(bucking-10, is-9)
+root(ROOT-0, bucking-10)
+dobj(bucking-10, calls-11)
+poss(party-15, his-13)
+amod(party-15, own-14)
+prep_from(bucking-10, party-15)
+aux(drop-17, to-16)
+xcomp(bucking-10, drop-17)
+det(race-21, the-20)
+prep_out_of(drop-17, race-21)
+mark(agreed-25, after-23)
+nsubj(agreed-25, he-24)
+dep(race-21, agreed-25)
+prep_with(agreed-25, comments-27)
+amod(media-30, social-29)
+prep_on(comments-27, media-30)
+dobj(hanged-36, that-31)
+nn(Obama-33, President-32)
+nsubjpass(hanged-36, Obama-33)
+aux(hanged-36, should-34)
+auxpass(hanged-36, be-35)
+ccomp(agreed-25, hanged-36)
+nn(crimes-39, war-38)
+prep_for(hanged-36, crimes-39)
+
+Sentence #3 (25 tokens):
+Both the Florida Republican Party and GOP Gov. Rick Scott have called on Joshua Black to withdraw his candidacy for a Florida House seat.
+[Text=Both CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=CC Lemma=both NamedEntityTag=O] [Text=the CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=ORGANIZATION] [Text=Republican CharacterOffsetBegin=335 CharacterOffsetEnd=345 PartOfSpeech=NNP Lemma=Republican NamedEntityTag=ORGANIZATION] [Text=Party CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=NNP Lemma=Party NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=GOP CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=GOP NamedEntityTag=O] [Text=Gov. CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=NNP Lemma=Gov. NamedEntityTag=O] [Text=Rick CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=NNP Lemma=Rick NamedEntityTag=PERSON] [Text=Scott CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=NNP Lemma=Scott NamedEntityTag=PERSON] [Text=have CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=called CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=VBN Lemma=call NamedEntityTag=O] [Text=on CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=RP Lemma=on NamedEntityTag=O] [Text=Joshua CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=NNP Lemma=Joshua NamedEntityTag=PERSON] [Text=Black CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NNP Lemma=Black NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=withdraw CharacterOffsetBegin=407 CharacterOffsetEnd=415 PartOfSpeech=VB Lemma=withdraw NamedEntityTag=O] [Text=his CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=candidacy CharacterOffsetBegin=420 CharacterOffsetEnd=429 PartOfSpeech=NN Lemma=candidacy NamedEntityTag=O] [Text=for CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=ORGANIZATION] [Text=House CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=NNP Lemma=House NamedEntityTag=ORGANIZATION] [Text=seat CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=NN Lemma=seat NamedEntityTag=O] [Text=. CharacterOffsetBegin=454 CharacterOffsetEnd=455 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (CC Both)
+      (NP (DT the) (NNP Florida) (NNP Republican) (NNP Party))
+      (CC and)
+      (NP (NNP GOP) (NNP Gov.) (NNP Rick) (NNP Scott)))
+    (VP (VBP have)
+      (VP (VBN called)
+        (PRT (RP on))
+        (NP (NNP Joshua) (NNP Black))
+        (S
+          (VP (TO to)
+            (VP (VB withdraw)
+              (NP (PRP$ his) (NN candidacy))
+              (PP (IN for)
+                (NP (DT a) (NNP Florida) (NNP House) (NN seat))))))))
+    (. .)))
+
+preconj(Party-5, Both-1)
+det(Party-5, the-2)
+nn(Party-5, Florida-3)
+nn(Party-5, Republican-4)
+nsubj(called-12, Party-5)
+xsubj(withdraw-17, Party-5)
+nn(Scott-10, GOP-7)
+nn(Scott-10, Gov.-8)
+nn(Scott-10, Rick-9)
+conj_and(Party-5, Scott-10)
+nsubj(called-12, Scott-10)
+xsubj(withdraw-17, Scott-10)
+aux(called-12, have-11)
+root(ROOT-0, called-12)
+prt(called-12, on-13)
+nn(Black-15, Joshua-14)
+dobj(called-12, Black-15)
+aux(withdraw-17, to-16)
+xcomp(called-12, withdraw-17)
+poss(candidacy-19, his-18)
+dobj(withdraw-17, candidacy-19)
+det(seat-24, a-21)
+nn(seat-24, Florida-22)
+nn(seat-24, House-23)
+prep_for(withdraw-17, seat-24)
+
+Sentence #4 (11 tokens):
+On Twitter, Scott called his comments "outrageous."
+[Text=On CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=459 CharacterOffsetEnd=466 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Scott CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=NNP Lemma=Scott NamedEntityTag=PERSON] [Text=called CharacterOffsetBegin=474 CharacterOffsetEnd=480 PartOfSpeech=VBD Lemma=call NamedEntityTag=O] [Text=his CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=comments CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=`` CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=outrageous CharacterOffsetBegin=495 CharacterOffsetEnd=505 PartOfSpeech=JJ Lemma=outrageous NamedEntityTag=O] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NNP Twitter)))
+    (, ,)
+    (NP (NNP Scott))
+    (VP (VBD called)
+      (S
+        (NP (PRP$ his) (NNS comments))
+        (`` ``)
+        (ADJP (JJ outrageous))))
+    (. .) ('' '')))
+
+prep_on(called-5, Twitter-2)
+nsubj(called-5, Scott-4)
+root(ROOT-0, called-5)
+poss(comments-7, his-6)
+dep(outrageous-9, comments-7)
+dep(called-5, outrageous-9)
+
+Sentence #5 (5 tokens):
+But Black denied wrongdoing.
+[Text=But CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=Black CharacterOffsetBegin=518 CharacterOffsetEnd=523 PartOfSpeech=NNP Lemma=Black NamedEntityTag=O] [Text=denied CharacterOffsetBegin=524 CharacterOffsetEnd=530 PartOfSpeech=VBD Lemma=deny NamedEntityTag=O] [Text=wrongdoing CharacterOffsetBegin=531 CharacterOffsetEnd=541 PartOfSpeech=NN Lemma=wrongdoing NamedEntityTag=O] [Text=. CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (NNP Black))
+    (VP (VBD denied)
+      (NP (NN wrongdoing)))
+    (. .)))
+
+cc(denied-3, But-1)
+nsubj(denied-3, Black-2)
+root(ROOT-0, denied-3)
+dobj(denied-3, wrongdoing-4)
+
+Sentence #6 (21 tokens):
+"There is no reason for me to drop out," Black told Fox News in a phone interview.
+[Text=`` CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=There CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=is CharacterOffsetBegin=556 CharacterOffsetEnd=558 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=no CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=reason CharacterOffsetBegin=562 CharacterOffsetEnd=568 PartOfSpeech=NN Lemma=reason NamedEntityTag=O] [Text=for CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=me CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=to CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=drop CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=VB Lemma=drop NamedEntityTag=O] [Text=out CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=, CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Black CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=NNP Lemma=Black NamedEntityTag=PERSON] [Text=told CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=Fox CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=NNP Lemma=Fox NamedEntityTag=ORGANIZATION] [Text=News CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=NNP Lemma=News NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=phone CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NN Lemma=phone NamedEntityTag=O] [Text=interview CharacterOffsetBegin=621 CharacterOffsetEnd=630 PartOfSpeech=NN Lemma=interview NamedEntityTag=O] [Text=. CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (EX There))
+      (VP (VBZ is)
+        (NP
+          (NP (DT no) (NN reason))
+          (PP (IN for)
+            (NP (PRP me)))
+          (S
+            (VP (TO to)
+              (VP (VB drop)
+                (PRT (RP out))))))))
+    (, ,) ('' '')
+    (NP (NNP Black))
+    (VP (VBD told)
+      (NP
+        (NP (NNP Fox) (NNP News))
+        (PP (IN in)
+          (NP (DT a) (NN phone) (NN interview)))))
+    (. .)))
+
+expl(is-3, There-2)
+ccomp(told-14, is-3)
+det(reason-5, no-4)
+nsubj(is-3, reason-5)
+prep_for(reason-5, me-7)
+aux(drop-9, to-8)
+infmod(reason-5, drop-9)
+prt(drop-9, out-10)
+nsubj(told-14, Black-13)
+root(ROOT-0, told-14)
+nn(News-16, Fox-15)
+dobj(told-14, News-16)
+det(interview-20, a-18)
+nn(interview-20, phone-19)
+prep_in(News-16, interview-20)
+
+Sentence #7 (6 tokens):
+"I did nothing wrong.
+[Text=`` CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=633 CharacterOffsetEnd=634 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=did CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=nothing CharacterOffsetBegin=639 CharacterOffsetEnd=646 PartOfSpeech=NN Lemma=nothing NamedEntityTag=O] [Text=wrong CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=JJ Lemma=wrong NamedEntityTag=O] [Text=. CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP I))
+    (VP (VBD did)
+      (ADJP (NN nothing) (JJ wrong)))
+    (. .)))
+
+nsubj(wrong-5, I-2)
+dep(wrong-5, did-3)
+npadvmod(wrong-5, nothing-4)
+root(ROOT-0, wrong-5)
+
+Sentence #8 (8 tokens):
+I did not threaten the president."
+[Text=I CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=did CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=threaten CharacterOffsetBegin=664 CharacterOffsetEnd=672 PartOfSpeech=VB Lemma=threaten NamedEntityTag=O] [Text=the CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=president CharacterOffsetBegin=677 CharacterOffsetEnd=686 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=. CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VB threaten)
+        (NP (DT the) (NN president))))
+    (. .) ('' '')))
+
+nsubj(threaten-4, I-1)
+aux(threaten-4, did-2)
+neg(threaten-4, not-3)
+root(ROOT-0, threaten-4)
+det(president-6, the-5)
+dobj(threaten-4, president-6)
+
+Sentence #9 (18 tokens):
+The U.S. Secret Service has confirmed to Fox News that they questioned Black on Tuesday in Florida.
+[Text=The CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=ORGANIZATION] [Text=Secret CharacterOffsetBegin=704 CharacterOffsetEnd=710 PartOfSpeech=NNP Lemma=Secret NamedEntityTag=ORGANIZATION] [Text=Service CharacterOffsetBegin=711 CharacterOffsetEnd=718 PartOfSpeech=NNP Lemma=Service NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=719 CharacterOffsetEnd=722 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=confirmed CharacterOffsetBegin=723 CharacterOffsetEnd=732 PartOfSpeech=VBN Lemma=confirm NamedEntityTag=O] [Text=to CharacterOffsetBegin=733 CharacterOffsetEnd=735 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Fox CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=NNP Lemma=Fox NamedEntityTag=ORGANIZATION] [Text=News CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=NNP Lemma=News NamedEntityTag=ORGANIZATION] [Text=that CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=they CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=questioned CharacterOffsetBegin=755 CharacterOffsetEnd=765 PartOfSpeech=VBD Lemma=question NamedEntityTag=O] [Text=Black CharacterOffsetBegin=766 CharacterOffsetEnd=771 PartOfSpeech=JJ Lemma=black NamedEntityTag=O] [Text=on CharacterOffsetBegin=772 CharacterOffsetEnd=774 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=775 CharacterOffsetEnd=782 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=in CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Florida CharacterOffsetBegin=786 CharacterOffsetEnd=793 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP U.S.) (NNP Secret) (NNP Service))
+    (VP (VBZ has)
+      (VP (VBN confirmed)
+        (PP (TO to)
+          (NP (NNP Fox) (NNP News)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBD questioned)
+              (NP (JJ Black))
+              (PP (IN on)
+                (NP (NNP Tuesday)))
+              (PP (IN in)
+                (NP (NNP Florida))))))))
+    (. .)))
+
+det(Service-4, The-1)
+nn(Service-4, U.S.-2)
+nn(Service-4, Secret-3)
+nsubj(confirmed-6, Service-4)
+aux(confirmed-6, has-5)
+root(ROOT-0, confirmed-6)
+nn(News-9, Fox-8)
+prep_to(confirmed-6, News-9)
+mark(questioned-12, that-10)
+nsubj(questioned-12, they-11)
+ccomp(confirmed-6, questioned-12)
+dobj(questioned-12, Black-13)
+prep_on(questioned-12, Tuesday-15)
+prep_in(questioned-12, Florida-17)
+
+Sentence #10 (31 tokens):
+They reached out after he posted on Twitter that he "agreed" with a statement that it was time to arrest the president and "hang him high."
+[Text=They CharacterOffsetBegin=795 CharacterOffsetEnd=799 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=reached CharacterOffsetBegin=800 CharacterOffsetEnd=807 PartOfSpeech=VBD Lemma=reach NamedEntityTag=O] [Text=out CharacterOffsetBegin=808 CharacterOffsetEnd=811 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=after CharacterOffsetBegin=812 CharacterOffsetEnd=817 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=818 CharacterOffsetEnd=820 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=posted CharacterOffsetBegin=821 CharacterOffsetEnd=827 PartOfSpeech=VBD Lemma=post NamedEntityTag=O] [Text=on CharacterOffsetBegin=828 CharacterOffsetEnd=830 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=831 CharacterOffsetEnd=838 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=MISC] [Text=that CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=`` CharacterOffsetBegin=847 CharacterOffsetEnd=848 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=agreed CharacterOffsetBegin=848 CharacterOffsetEnd=854 PartOfSpeech=VBD Lemma=agree NamedEntityTag=O] [Text='' CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=with CharacterOffsetBegin=856 CharacterOffsetEnd=860 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=861 CharacterOffsetEnd=862 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=statement CharacterOffsetBegin=863 CharacterOffsetEnd=872 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=that CharacterOffsetBegin=873 CharacterOffsetEnd=877 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=878 CharacterOffsetEnd=880 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=881 CharacterOffsetEnd=884 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=time CharacterOffsetBegin=885 CharacterOffsetEnd=889 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=to CharacterOffsetBegin=890 CharacterOffsetEnd=892 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=arrest CharacterOffsetBegin=893 CharacterOffsetEnd=899 PartOfSpeech=VB Lemma=arrest NamedEntityTag=O] [Text=the CharacterOffsetBegin=900 CharacterOffsetEnd=903 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=president CharacterOffsetBegin=904 CharacterOffsetEnd=913 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=and CharacterOffsetBegin=914 CharacterOffsetEnd=917 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=`` CharacterOffsetBegin=918 CharacterOffsetEnd=919 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=hang CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=VB Lemma=hang NamedEntityTag=O] [Text=him CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=high CharacterOffsetBegin=928 CharacterOffsetEnd=932 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=. CharacterOffsetBegin=932 CharacterOffsetEnd=933 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=933 CharacterOffsetEnd=934 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD reached)
+      (PRT (RP out))
+      (SBAR (IN after)
+        (S
+          (NP (PRP he))
+          (VP (VBD posted)
+            (PP (IN on)
+              (NP (NNP Twitter)))
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (`` ``)
+                (VP (VBD agreed) ('' '')
+                  (PP (IN with)
+                    (NP (DT a) (NN statement)))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP it))
+                      (VP (VBD was)
+                        (VP (NN time)
+                          (S
+                            (VP (TO to)
+                              (VP
+                                (VP (VB arrest)
+                                  (NP (DT the) (NN president)))
+                                (CC and)
+                                (`` ``)
+                                (VP (VB hang)
+                                  (S
+                                    (NP (PRP him))
+                                    (ADJP (JJ high))))))))))))))))))
+    (. .) ('' '')))
+
+nsubj(reached-2, They-1)
+root(ROOT-0, reached-2)
+prt(reached-2, out-3)
+mark(posted-6, after-4)
+nsubj(posted-6, he-5)
+advcl(reached-2, posted-6)
+prep_on(posted-6, Twitter-8)
+mark(agreed-12, that-9)
+nsubj(agreed-12, he-10)
+ccomp(posted-6, agreed-12)
+det(statement-16, a-15)
+prep_with(agreed-12, statement-16)
+mark(time-20, that-17)
+nsubj(time-20, it-18)
+xsubj(arrest-22, it-18)
+aux(time-20, was-19)
+ccomp(agreed-12, time-20)
+aux(arrest-22, to-21)
+xcomp(time-20, arrest-22)
+det(president-24, the-23)
+dobj(arrest-22, president-24)
+xcomp(time-20, hang-27)
+conj_and(arrest-22, hang-27)
+nsubj(high-29, him-28)
+xcomp(hang-27, high-29)
+
+Sentence #11 (45 tokens):
+Secret Service spokesman Brian Leary said that "any time we receive information, we have to make an assessment on things like veracity and/or urgency while also considering context and dangerousness," noting "people have the right to free speech."
+[Text=Secret CharacterOffsetBegin=941 CharacterOffsetEnd=947 PartOfSpeech=NNP Lemma=Secret NamedEntityTag=ORGANIZATION] [Text=Service CharacterOffsetBegin=948 CharacterOffsetEnd=955 PartOfSpeech=NNP Lemma=Service NamedEntityTag=ORGANIZATION] [Text=spokesman CharacterOffsetBegin=956 CharacterOffsetEnd=965 PartOfSpeech=NN Lemma=spokesman NamedEntityTag=O] [Text=Brian CharacterOffsetBegin=966 CharacterOffsetEnd=971 PartOfSpeech=NNP Lemma=Brian NamedEntityTag=PERSON] [Text=Leary CharacterOffsetBegin=972 CharacterOffsetEnd=977 PartOfSpeech=NNP Lemma=Leary NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=978 CharacterOffsetEnd=982 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=that CharacterOffsetBegin=983 CharacterOffsetEnd=987 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=`` CharacterOffsetBegin=988 CharacterOffsetEnd=989 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=any CharacterOffsetBegin=989 CharacterOffsetEnd=992 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=time CharacterOffsetBegin=993 CharacterOffsetEnd=997 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=we CharacterOffsetBegin=998 CharacterOffsetEnd=1000 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=receive CharacterOffsetBegin=1001 CharacterOffsetEnd=1008 PartOfSpeech=VBP Lemma=receive NamedEntityTag=O] [Text=information CharacterOffsetBegin=1009 CharacterOffsetEnd=1020 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=, CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=1022 CharacterOffsetEnd=1024 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=have CharacterOffsetBegin=1025 CharacterOffsetEnd=1029 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=1030 CharacterOffsetEnd=1032 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=1033 CharacterOffsetEnd=1037 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=an CharacterOffsetBegin=1038 CharacterOffsetEnd=1040 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=assessment CharacterOffsetBegin=1041 CharacterOffsetEnd=1051 PartOfSpeech=NN Lemma=assessment NamedEntityTag=O] [Text=on CharacterOffsetBegin=1052 CharacterOffsetEnd=1054 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=things CharacterOffsetBegin=1055 CharacterOffsetEnd=1061 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O] [Text=like CharacterOffsetBegin=1062 CharacterOffsetEnd=1066 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=veracity CharacterOffsetBegin=1067 CharacterOffsetEnd=1075 PartOfSpeech=NN Lemma=veracity NamedEntityTag=O] [Text=and\/or CharacterOffsetBegin=1076 CharacterOffsetEnd=1082 PartOfSpeech=CC Lemma=and\/or NamedEntityTag=O] [Text=urgency CharacterOffsetBegin=1083 CharacterOffsetEnd=1090 PartOfSpeech=NN Lemma=urgency NamedEntityTag=O] [Text=while CharacterOffsetBegin=1091 CharacterOffsetEnd=1096 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=also CharacterOffsetBegin=1097 CharacterOffsetEnd=1101 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=considering CharacterOffsetBegin=1102 CharacterOffsetEnd=1113 PartOfSpeech=VBG Lemma=consider NamedEntityTag=O] [Text=context CharacterOffsetBegin=1114 CharacterOffsetEnd=1121 PartOfSpeech=NN Lemma=context NamedEntityTag=O] [Text=and CharacterOffsetBegin=1122 CharacterOffsetEnd=1125 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=dangerousness CharacterOffsetBegin=1126 CharacterOffsetEnd=1139 PartOfSpeech=NN Lemma=dangerousness NamedEntityTag=O] [Text=, CharacterOffsetBegin=1139 CharacterOffsetEnd=1140 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1140 CharacterOffsetEnd=1141 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=noting CharacterOffsetBegin=1142 CharacterOffsetEnd=1148 PartOfSpeech=VBG Lemma=note NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=people CharacterOffsetBegin=1150 CharacterOffsetEnd=1156 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=have CharacterOffsetBegin=1157 CharacterOffsetEnd=1161 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=the CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=right CharacterOffsetBegin=1166 CharacterOffsetEnd=1171 PartOfSpeech=NN Lemma=right NamedEntityTag=O] [Text=to CharacterOffsetBegin=1172 CharacterOffsetEnd=1174 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=free CharacterOffsetBegin=1175 CharacterOffsetEnd=1179 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=speech CharacterOffsetBegin=1180 CharacterOffsetEnd=1186 PartOfSpeech=NN Lemma=speech NamedEntityTag=O] [Text=. CharacterOffsetBegin=1186 CharacterOffsetEnd=1187 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1187 CharacterOffsetEnd=1188 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Secret) (NNP Service) (NN spokesman) (NNP Brian) (NNP Leary))
+      (VP (VBD said)
+        (SBAR (IN that) (`` ``)
+          (S
+            (NP-TMP (DT any) (NN time))
+            (NP (PRP we))
+            (VP (VBP receive)
+              (NP (NN information)))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (NP (DT an) (NN assessment))
+            (PP (IN on)
+              (S
+                (NP
+                  (NP (NNS things))
+                  (PP (IN like)
+                    (NP (NN veracity))))
+                (VP (CC and\/or)
+                  (VP
+                    (ADVP (NN urgency)
+                      (PP (IN while)
+                        (ADVP (RB also))))
+                    (VBG considering)
+                    (NP (NN context)
+                      (CC and)
+                      (NN dangerousness)))
+                  (, ,) ('' '')
+                  (VP (VBG noting)
+                    (S (`` ``)
+                      (NP (NNS people))
+                      (VP (VBP have)
+                        (NP (DT the) (NN right))
+                        (PP (TO to)
+                          (NP (JJ free) (NN speech)))))))))))))
+    (. .) ('' '')))
+
+nn(Leary-5, Secret-1)
+nn(Leary-5, Service-2)
+nn(Leary-5, spokesman-3)
+nn(Leary-5, Brian-4)
+nsubj(said-6, Leary-5)
+ccomp(have-16, said-6)
+mark(receive-12, that-7)
+det(time-10, any-9)
+tmod(receive-12, time-10)
+nsubj(receive-12, we-11)
+ccomp(said-6, receive-12)
+dobj(receive-12, information-13)
+nsubj(have-16, we-15)
+xsubj(make-18, we-15)
+root(ROOT-0, have-16)
+aux(make-18, to-17)
+xcomp(have-16, make-18)
+det(assessment-20, an-19)
+dobj(make-18, assessment-20)
+nsubj(considering-29, things-22)
+prep_like(things-22, veracity-24)
+cc(considering-29, and\/or-25)
+advmod(considering-29, urgency-26)
+prep(urgency-26, while-27)
+pcomp(while-27, also-28)
+prepc_on(make-18, considering-29)
+dobj(considering-29, context-30)
+dobj(considering-29, dangerousness-32)
+conj_and(context-30, dangerousness-32)
+dep(considering-29, noting-35)
+nsubj(have-38, people-37)
+ccomp(noting-35, have-38)
+det(right-40, the-39)
+dobj(have-38, right-40)
+amod(speech-43, free-42)
+prep_to(have-38, speech-43)
+
+Sentence #12 (22 tokens):
+Black did resign as a committee member of his local Pinellas County Republican Party after the controversy surrounding his comments. 
+
+"
+[Text=Black CharacterOffsetBegin=1195 CharacterOffsetEnd=1200 PartOfSpeech=NNP Lemma=Black NamedEntityTag=PERSON] [Text=did CharacterOffsetBegin=1201 CharacterOffsetEnd=1204 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=resign CharacterOffsetBegin=1205 CharacterOffsetEnd=1211 PartOfSpeech=VB Lemma=resign NamedEntityTag=O] [Text=as CharacterOffsetBegin=1212 CharacterOffsetEnd=1214 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=1215 CharacterOffsetEnd=1216 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=committee CharacterOffsetBegin=1217 CharacterOffsetEnd=1226 PartOfSpeech=NN Lemma=committee NamedEntityTag=O] [Text=member CharacterOffsetBegin=1227 CharacterOffsetEnd=1233 PartOfSpeech=NN Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=his CharacterOffsetBegin=1237 CharacterOffsetEnd=1240 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=local CharacterOffsetBegin=1241 CharacterOffsetEnd=1246 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=Pinellas CharacterOffsetBegin=1247 CharacterOffsetEnd=1255 PartOfSpeech=NNP Lemma=Pinellas NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=1256 CharacterOffsetEnd=1262 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=Republican CharacterOffsetBegin=1263 CharacterOffsetEnd=1273 PartOfSpeech=NNP Lemma=Republican NamedEntityTag=ORGANIZATION] [Text=Party CharacterOffsetBegin=1274 CharacterOffsetEnd=1279 PartOfSpeech=NNP Lemma=Party NamedEntityTag=ORGANIZATION] [Text=after CharacterOffsetBegin=1280 CharacterOffsetEnd=1285 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=the CharacterOffsetBegin=1286 CharacterOffsetEnd=1289 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=controversy CharacterOffsetBegin=1290 CharacterOffsetEnd=1301 PartOfSpeech=NN Lemma=controversy NamedEntityTag=O] [Text=surrounding CharacterOffsetBegin=1302 CharacterOffsetEnd=1313 PartOfSpeech=VBG Lemma=surround NamedEntityTag=O] [Text=his CharacterOffsetBegin=1314 CharacterOffsetEnd=1317 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=comments CharacterOffsetBegin=1318 CharacterOffsetEnd=1326 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=. CharacterOffsetBegin=1326 CharacterOffsetEnd=1327 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1334 CharacterOffsetEnd=1335 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Black))
+    (VP (VBD did)
+      (VP (VB resign)
+        (PP (IN as)
+          (NP
+            (NP (DT a) (NN committee) (NN member))
+            (PP (IN of)
+              (NP (PRP$ his) (JJ local) (NNP Pinellas) (NNP County) (NNP Republican) (NNP Party)))))
+        (PP (IN after)
+          (NP
+            (NP (DT the) (NN controversy))
+            (VP (VBG surrounding)
+              (NP (PRP$ his) (NNS comments)))))))
+    (. .) ('' '')))
+
+nsubj(resign-3, Black-1)
+aux(resign-3, did-2)
+root(ROOT-0, resign-3)
+det(member-7, a-5)
+nn(member-7, committee-6)
+prep_as(resign-3, member-7)
+poss(Party-14, his-9)
+amod(Party-14, local-10)
+nn(Party-14, Pinellas-11)
+nn(Party-14, County-12)
+nn(Party-14, Republican-13)
+prep_of(member-7, Party-14)
+det(controversy-17, the-16)
+prep_after(resign-3, controversy-17)
+partmod(controversy-17, surrounding-18)
+poss(comments-20, his-19)
+dobj(surrounding-18, comments-20)
+
+Sentence #13 (29 tokens):
+(Black) was embarrassed that he had embarrassed us and he resigned right away," said Charlotte Smith, executive director of the Pinellas County GOP.
+[Text=-LRB- CharacterOffsetBegin=1335 CharacterOffsetEnd=1336 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Black CharacterOffsetBegin=1336 CharacterOffsetEnd=1341 PartOfSpeech=JJ Lemma=black NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1341 CharacterOffsetEnd=1342 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=was CharacterOffsetBegin=1343 CharacterOffsetEnd=1346 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=embarrassed CharacterOffsetBegin=1347 CharacterOffsetEnd=1358 PartOfSpeech=JJ Lemma=embarrassed NamedEntityTag=O] [Text=that CharacterOffsetBegin=1359 CharacterOffsetEnd=1363 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=1364 CharacterOffsetEnd=1366 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=1367 CharacterOffsetEnd=1370 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=embarrassed CharacterOffsetBegin=1371 CharacterOffsetEnd=1382 PartOfSpeech=VBN Lemma=embarrass NamedEntityTag=O] [Text=us CharacterOffsetBegin=1383 CharacterOffsetEnd=1385 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=and CharacterOffsetBegin=1386 CharacterOffsetEnd=1389 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=1390 CharacterOffsetEnd=1392 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=resigned CharacterOffsetBegin=1393 CharacterOffsetEnd=1401 PartOfSpeech=VBD Lemma=resign NamedEntityTag=O] [Text=right CharacterOffsetBegin=1402 CharacterOffsetEnd=1407 PartOfSpeech=RB Lemma=right NamedEntityTag=O] [Text=away CharacterOffsetBegin=1408 CharacterOffsetEnd=1412 PartOfSpeech=RB Lemma=away NamedEntityTag=O] [Text=, CharacterOffsetBegin=1412 CharacterOffsetEnd=1413 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1413 CharacterOffsetEnd=1414 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=1415 CharacterOffsetEnd=1419 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Charlotte CharacterOffsetBegin=1420 CharacterOffsetEnd=1429 PartOfSpeech=NNP Lemma=Charlotte NamedEntityTag=PERSON] [Text=Smith CharacterOffsetBegin=1430 CharacterOffsetEnd=1435 PartOfSpeech=NNP Lemma=Smith NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1435 CharacterOffsetEnd=1436 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=executive CharacterOffsetBegin=1437 CharacterOffsetEnd=1446 PartOfSpeech=JJ Lemma=executive NamedEntityTag=O] [Text=director CharacterOffsetBegin=1447 CharacterOffsetEnd=1455 PartOfSpeech=NN Lemma=director NamedEntityTag=O] [Text=of CharacterOffsetBegin=1456 CharacterOffsetEnd=1458 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1459 CharacterOffsetEnd=1462 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Pinellas CharacterOffsetBegin=1463 CharacterOffsetEnd=1471 PartOfSpeech=NNP Lemma=Pinellas NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=1472 CharacterOffsetEnd=1478 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=GOP CharacterOffsetBegin=1479 CharacterOffsetEnd=1482 PartOfSpeech=NNP Lemma=GOP NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1482 CharacterOffsetEnd=1483 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S (-LRB- -LRB-)
+      (NP (JJ Black))
+      (-RRB- -RRB-)
+      (VP (VBD was)
+        (ADJP (JJ embarrassed))
+        (SBAR (IN that)
+          (S
+            (S
+              (NP (PRP he))
+              (VP (VBD had)
+                (VP (VBN embarrassed)
+                  (NP (PRP us)))))
+            (CC and)
+            (S
+              (NP (PRP he))
+              (VP (VBD resigned)
+                (ADVP (RB right) (RB away))))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP Charlotte) (NNP Smith))
+      (, ,)
+      (NP
+        (NP (JJ executive) (NN director))
+        (PP (IN of)
+          (NP (DT the) (NNP Pinellas) (NNP County) (NNP GOP)))))
+    (. .)))
+
+nsubj(embarrassed-5, Black-2)
+cop(embarrassed-5, was-4)
+ccomp(said-18, embarrassed-5)
+mark(embarrassed-9, that-6)
+nsubj(embarrassed-9, he-7)
+aux(embarrassed-9, had-8)
+ccomp(embarrassed-5, embarrassed-9)
+dobj(embarrassed-9, us-10)
+nsubj(resigned-13, he-12)
+ccomp(embarrassed-5, resigned-13)
+conj_and(embarrassed-9, resigned-13)
+advmod(away-15, right-14)
+advmod(resigned-13, away-15)
+root(ROOT-0, said-18)
+nn(Smith-20, Charlotte-19)
+nsubj(said-18, Smith-20)
+amod(director-23, executive-22)
+appos(Smith-20, director-23)
+det(GOP-28, the-25)
+nn(GOP-28, Pinellas-26)
+nn(GOP-28, County-27)
+prep_of(director-23, GOP-28)
+
+Sentence #14 (21 tokens):
+But he's refusing to leave the House race, arguing that he was referring to Obama's drone policies.
+[Text=But CharacterOffsetBegin=1490 CharacterOffsetEnd=1493 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=he CharacterOffsetBegin=1494 CharacterOffsetEnd=1496 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text='s CharacterOffsetBegin=1496 CharacterOffsetEnd=1498 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=refusing CharacterOffsetBegin=1499 CharacterOffsetEnd=1507 PartOfSpeech=VBG Lemma=refuse NamedEntityTag=O] [Text=to CharacterOffsetBegin=1508 CharacterOffsetEnd=1510 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=leave CharacterOffsetBegin=1511 CharacterOffsetEnd=1516 PartOfSpeech=VB Lemma=leave NamedEntityTag=O] [Text=the CharacterOffsetBegin=1517 CharacterOffsetEnd=1520 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=House CharacterOffsetBegin=1521 CharacterOffsetEnd=1526 PartOfSpeech=NNP Lemma=House NamedEntityTag=ORGANIZATION] [Text=race CharacterOffsetBegin=1527 CharacterOffsetEnd=1531 PartOfSpeech=NN Lemma=race NamedEntityTag=O] [Text=, CharacterOffsetBegin=1531 CharacterOffsetEnd=1532 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=arguing CharacterOffsetBegin=1533 CharacterOffsetEnd=1540 PartOfSpeech=VBG Lemma=argue NamedEntityTag=O] [Text=that CharacterOffsetBegin=1541 CharacterOffsetEnd=1545 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=1546 CharacterOffsetEnd=1548 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=1549 CharacterOffsetEnd=1552 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=referring CharacterOffsetBegin=1553 CharacterOffsetEnd=1562 PartOfSpeech=VBG Lemma=refer NamedEntityTag=O] [Text=to CharacterOffsetBegin=1563 CharacterOffsetEnd=1565 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Obama CharacterOffsetBegin=1566 CharacterOffsetEnd=1571 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=1571 CharacterOffsetEnd=1573 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=drone CharacterOffsetBegin=1574 CharacterOffsetEnd=1579 PartOfSpeech=NN Lemma=drone NamedEntityTag=O] [Text=policies CharacterOffsetBegin=1580 CharacterOffsetEnd=1588 PartOfSpeech=NNS Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=1588 CharacterOffsetEnd=1589 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBZ 's)
+      (VP (VBG refusing)
+        (S
+          (VP (TO to)
+            (VP (VB leave)
+              (NP (DT the) (NNP House) (NN race)))))
+        (, ,)
+        (S
+          (VP (VBG arguing)
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (VBD was)
+                  (VP (VBG referring)
+                    (PP (TO to)
+                      (NP
+                        (NP (NNP Obama) (POS 's))
+                        (NN drone) (NNS policies)))))))))))
+    (. .)))
+
+cc(refusing-4, But-1)
+nsubj(refusing-4, he-2)
+xsubj(leave-6, he-2)
+aux(refusing-4, 's-3)
+root(ROOT-0, refusing-4)
+aux(leave-6, to-5)
+xcomp(refusing-4, leave-6)
+det(race-9, the-7)
+nn(race-9, House-8)
+dobj(leave-6, race-9)
+xcomp(refusing-4, arguing-11)
+mark(referring-15, that-12)
+nsubj(referring-15, he-13)
+aux(referring-15, was-14)
+ccomp(arguing-11, referring-15)
+poss(policies-20, Obama-17)
+nn(policies-20, drone-19)
+prep_to(referring-15, policies-20)
+
+Sentence #15 (48 tokens):
+"I'm not ashamed for saying that government officials should be held to the same standards that we are," Black wrote on Facebook, citing a 2011 U.S. drone strike that killed American-born Al Qaeda operative Anwar al-Awlaki and his teenage son in Yemen.
+[Text=`` CharacterOffsetBegin=1598 CharacterOffsetEnd=1599 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1599 CharacterOffsetEnd=1600 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=1600 CharacterOffsetEnd=1602 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=1603 CharacterOffsetEnd=1606 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=ashamed CharacterOffsetBegin=1607 CharacterOffsetEnd=1614 PartOfSpeech=JJ Lemma=ashamed NamedEntityTag=O] [Text=for CharacterOffsetBegin=1615 CharacterOffsetEnd=1618 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=saying CharacterOffsetBegin=1619 CharacterOffsetEnd=1625 PartOfSpeech=VBG Lemma=say NamedEntityTag=O] [Text=that CharacterOffsetBegin=1626 CharacterOffsetEnd=1630 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=government CharacterOffsetBegin=1631 CharacterOffsetEnd=1641 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=officials CharacterOffsetBegin=1642 CharacterOffsetEnd=1651 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=should CharacterOffsetBegin=1652 CharacterOffsetEnd=1658 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=be CharacterOffsetBegin=1659 CharacterOffsetEnd=1661 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=held CharacterOffsetBegin=1662 CharacterOffsetEnd=1666 PartOfSpeech=VBN Lemma=hold NamedEntityTag=O] [Text=to CharacterOffsetBegin=1667 CharacterOffsetEnd=1669 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1670 CharacterOffsetEnd=1673 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=same CharacterOffsetBegin=1674 CharacterOffsetEnd=1678 PartOfSpeech=JJ Lemma=same NamedEntityTag=O] [Text=standards CharacterOffsetBegin=1679 CharacterOffsetEnd=1688 PartOfSpeech=NNS Lemma=standard NamedEntityTag=O] [Text=that CharacterOffsetBegin=1689 CharacterOffsetEnd=1693 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=we CharacterOffsetBegin=1694 CharacterOffsetEnd=1696 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=1697 CharacterOffsetEnd=1700 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=, CharacterOffsetBegin=1700 CharacterOffsetEnd=1701 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=1701 CharacterOffsetEnd=1702 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Black CharacterOffsetBegin=1703 CharacterOffsetEnd=1708 PartOfSpeech=JJ Lemma=black NamedEntityTag=PERSON] [Text=wrote CharacterOffsetBegin=1709 CharacterOffsetEnd=1714 PartOfSpeech=VBD Lemma=write NamedEntityTag=O] [Text=on CharacterOffsetBegin=1715 CharacterOffsetEnd=1717 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=1718 CharacterOffsetEnd=1726 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1726 CharacterOffsetEnd=1727 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=citing CharacterOffsetBegin=1728 CharacterOffsetEnd=1734 PartOfSpeech=VBG Lemma=cite NamedEntityTag=O] [Text=a CharacterOffsetBegin=1735 CharacterOffsetEnd=1736 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=2011 CharacterOffsetBegin=1737 CharacterOffsetEnd=1741 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011 Timex=<TIMEX3 tid="t1" type="DATE" value="2011">2011</TIMEX3>] [Text=U.S. CharacterOffsetBegin=1742 CharacterOffsetEnd=1746 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=drone CharacterOffsetBegin=1747 CharacterOffsetEnd=1752 PartOfSpeech=NN Lemma=drone NamedEntityTag=O] [Text=strike CharacterOffsetBegin=1753 CharacterOffsetEnd=1759 PartOfSpeech=NN Lemma=strike NamedEntityTag=O] [Text=that CharacterOffsetBegin=1760 CharacterOffsetEnd=1764 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=killed CharacterOffsetBegin=1765 CharacterOffsetEnd=1771 PartOfSpeech=VBD Lemma=kill NamedEntityTag=O] [Text=American-born CharacterOffsetBegin=1772 CharacterOffsetEnd=1785 PartOfSpeech=JJ Lemma=american-born NamedEntityTag=MISC] [Text=Al CharacterOffsetBegin=1786 CharacterOffsetEnd=1788 PartOfSpeech=NNP Lemma=Al NamedEntityTag=PERSON] [Text=Qaeda CharacterOffsetBegin=1789 CharacterOffsetEnd=1794 PartOfSpeech=NNP Lemma=Qaeda NamedEntityTag=PERSON] [Text=operative CharacterOffsetBegin=1795 CharacterOffsetEnd=1804 PartOfSpeech=JJ Lemma=operative NamedEntityTag=O] [Text=Anwar CharacterOffsetBegin=1805 CharacterOffsetEnd=1810 PartOfSpeech=NNP Lemma=Anwar NamedEntityTag=PERSON] [Text=al-Awlaki CharacterOffsetBegin=1811 CharacterOffsetEnd=1820 PartOfSpeech=NNP Lemma=al-Awlaki NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1821 CharacterOffsetEnd=1824 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=his CharacterOffsetBegin=1825 CharacterOffsetEnd=1828 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=teenage CharacterOffsetBegin=1829 CharacterOffsetEnd=1836 PartOfSpeech=JJ Lemma=teenage NamedEntityTag=O] [Text=son CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=NN Lemma=son NamedEntityTag=O] [Text=in CharacterOffsetBegin=1841 CharacterOffsetEnd=1843 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Yemen CharacterOffsetBegin=1844 CharacterOffsetEnd=1849 PartOfSpeech=NNP Lemma=Yemen NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1849 CharacterOffsetEnd=1850 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP 'm) (RB not)
+        (ADJP (JJ ashamed)
+          (PP (IN for)
+            (S
+              (VP (VBG saying)
+                (SBAR (IN that)
+                  (S
+                    (NP (NN government) (NNS officials))
+                    (VP (MD should)
+                      (VP (VB be)
+                        (VP (VBN held)
+                          (PP (TO to)
+                            (NP (DT the) (JJ same) (NNS standards))))))))))))
+        (SBAR (IN that)
+          (S
+            (NP (PRP we))
+            (VP (VBP are))))))
+    (, ,) ('' '')
+    (NP (JJ Black))
+    (VP (VBD wrote)
+      (PP (IN on)
+        (NP (NNP Facebook)))
+      (, ,)
+      (S
+        (VP (VBG citing)
+          (NP
+            (NP (DT a) (CD 2011) (NNP U.S.) (NN drone) (NN strike))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD killed)
+                  (NP
+                    (NP (JJ American-born) (NNP Al) (NNP Qaeda) (JJ operative) (NNP Anwar) (NNP al-Awlaki))
+                    (CC and)
+                    (NP (PRP$ his) (JJ teenage) (NN son)))
+                  (PP (IN in)
+                    (NP (NNP Yemen))))))))))
+    (. .)))
+
+nsubj(ashamed-5, I-2)
+cop(ashamed-5, 'm-3)
+neg(ashamed-5, not-4)
+ccomp(wrote-24, ashamed-5)
+prepc_for(ashamed-5, saying-7)
+mark(held-13, that-8)
+nn(officials-10, government-9)
+nsubjpass(held-13, officials-10)
+aux(held-13, should-11)
+auxpass(held-13, be-12)
+ccomp(saying-7, held-13)
+det(standards-17, the-15)
+amod(standards-17, same-16)
+prep_to(held-13, standards-17)
+mark(are-20, that-18)
+nsubj(are-20, we-19)
+ccomp(ashamed-5, are-20)
+nsubj(wrote-24, Black-23)
+root(ROOT-0, wrote-24)
+prep_on(wrote-24, Facebook-26)
+xcomp(wrote-24, citing-28)
+det(strike-33, a-29)
+num(strike-33, 2011-30)
+nn(strike-33, U.S.-31)
+nn(strike-33, drone-32)
+dobj(citing-28, strike-33)
+nsubj(killed-35, strike-33)
+rcmod(strike-33, killed-35)
+amod(al-Awlaki-41, American-born-36)
+nn(al-Awlaki-41, Al-37)
+nn(al-Awlaki-41, Qaeda-38)
+amod(al-Awlaki-41, operative-39)
+nn(al-Awlaki-41, Anwar-40)
+dobj(killed-35, al-Awlaki-41)
+poss(son-45, his-43)
+amod(son-45, teenage-44)
+dobj(killed-35, son-45)
+conj_and(al-Awlaki-41, son-45)
+prep_in(killed-35, Yemen-47)
+
+Sentence #16 (21 tokens):
+In a written statement, the Republican Party of Florida called his remarks "deplorable" and "despicable."
+[Text=In CharacterOffsetBegin=1857 CharacterOffsetEnd=1859 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1860 CharacterOffsetEnd=1861 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=written CharacterOffsetBegin=1862 CharacterOffsetEnd=1869 PartOfSpeech=VBN Lemma=write NamedEntityTag=O] [Text=statement CharacterOffsetBegin=1870 CharacterOffsetEnd=1879 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=, CharacterOffsetBegin=1879 CharacterOffsetEnd=1880 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1881 CharacterOffsetEnd=1884 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Republican CharacterOffsetBegin=1885 CharacterOffsetEnd=1895 PartOfSpeech=NNP Lemma=Republican NamedEntityTag=ORGANIZATION] [Text=Party CharacterOffsetBegin=1896 CharacterOffsetEnd=1901 PartOfSpeech=NNP Lemma=Party NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=1902 CharacterOffsetEnd=1904 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=Florida CharacterOffsetBegin=1905 CharacterOffsetEnd=1912 PartOfSpeech=NNP Lemma=Florida NamedEntityTag=ORGANIZATION] [Text=called CharacterOffsetBegin=1913 CharacterOffsetEnd=1919 PartOfSpeech=VBD Lemma=call NamedEntityTag=O] [Text=his CharacterOffsetBegin=1920 CharacterOffsetEnd=1923 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=remarks CharacterOffsetBegin=1924 CharacterOffsetEnd=1931 PartOfSpeech=NNS Lemma=remark NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1932 CharacterOffsetEnd=1933 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=deplorable CharacterOffsetBegin=1933 CharacterOffsetEnd=1943 PartOfSpeech=JJ Lemma=deplorable NamedEntityTag=O] [Text='' CharacterOffsetBegin=1943 CharacterOffsetEnd=1944 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=and CharacterOffsetBegin=1945 CharacterOffsetEnd=1948 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1949 CharacterOffsetEnd=1950 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=despicable CharacterOffsetBegin=1950 CharacterOffsetEnd=1960 PartOfSpeech=JJ Lemma=despicable NamedEntityTag=O] [Text=. CharacterOffsetBegin=1960 CharacterOffsetEnd=1961 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1961 CharacterOffsetEnd=1962 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT a) (VBN written) (NN statement)))
+    (, ,)
+    (NP
+      (NP (DT the) (NNP Republican) (NNP Party))
+      (PP (IN of)
+        (NP (NNP Florida))))
+    (VP (VBD called)
+      (NP
+        (NP (PRP$ his) (NNS remarks))
+        (UCP (`` ``)
+          (ADJP (JJ deplorable))
+          ('' '')
+          (CC and)
+          (`` ``)
+          (NP (JJ despicable)))))
+    (. .) ('' '')))
+
+det(statement-4, a-2)
+amod(statement-4, written-3)
+prep_in(called-11, statement-4)
+det(Party-8, the-6)
+nn(Party-8, Republican-7)
+nsubj(called-11, Party-8)
+prep_of(Party-8, Florida-10)
+root(ROOT-0, called-11)
+poss(remarks-13, his-12)
+dobj(called-11, remarks-13)
+dep(remarks-13, deplorable-15)
+dep(remarks-13, despicable-19)
+conj_and(deplorable-15, despicable-19)
+
+Sentence #17 (22 tokens):
+"He should probably just go ahead and bow out of the race," party Press Secretary Susan Hepworth added.
+[Text=`` CharacterOffsetBegin=1969 CharacterOffsetEnd=1970 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=1970 CharacterOffsetEnd=1972 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=should CharacterOffsetBegin=1973 CharacterOffsetEnd=1979 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=probably CharacterOffsetBegin=1980 CharacterOffsetEnd=1988 PartOfSpeech=RB Lemma=probably NamedEntityTag=O] [Text=just CharacterOffsetBegin=1989 CharacterOffsetEnd=1993 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=go CharacterOffsetBegin=1994 CharacterOffsetEnd=1996 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=ahead CharacterOffsetBegin=1997 CharacterOffsetEnd=2002 PartOfSpeech=RB Lemma=ahead NamedEntityTag=O] [Text=and CharacterOffsetBegin=2003 CharacterOffsetEnd=2006 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=bow CharacterOffsetBegin=2007 CharacterOffsetEnd=2010 PartOfSpeech=VB Lemma=bow NamedEntityTag=O] [Text=out CharacterOffsetBegin=2011 CharacterOffsetEnd=2014 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=2015 CharacterOffsetEnd=2017 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2018 CharacterOffsetEnd=2021 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=race CharacterOffsetBegin=2022 CharacterOffsetEnd=2026 PartOfSpeech=NN Lemma=race NamedEntityTag=O] [Text=, CharacterOffsetBegin=2026 CharacterOffsetEnd=2027 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2027 CharacterOffsetEnd=2028 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=party CharacterOffsetBegin=2029 CharacterOffsetEnd=2034 PartOfSpeech=NN Lemma=party NamedEntityTag=O] [Text=Press CharacterOffsetBegin=2035 CharacterOffsetEnd=2040 PartOfSpeech=NNP Lemma=Press NamedEntityTag=O] [Text=Secretary CharacterOffsetBegin=2041 CharacterOffsetEnd=2050 PartOfSpeech=NNP Lemma=Secretary NamedEntityTag=O] [Text=Susan CharacterOffsetBegin=2051 CharacterOffsetEnd=2056 PartOfSpeech=NNP Lemma=Susan NamedEntityTag=PERSON] [Text=Hepworth CharacterOffsetBegin=2057 CharacterOffsetEnd=2065 PartOfSpeech=NNP Lemma=Hepworth NamedEntityTag=PERSON] [Text=added CharacterOffsetBegin=2066 CharacterOffsetEnd=2071 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=. CharacterOffsetBegin=2071 CharacterOffsetEnd=2072 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP He))
+      (VP (MD should)
+        (ADVP (RB probably))
+        (ADVP (RB just))
+        (VP
+          (VP (VB go)
+            (ADVP (RB ahead)))
+          (CC and)
+          (VP (VB bow)
+            (PRT (IN out))
+            (PP (IN of)
+              (NP (DT the) (NN race)))))))
+    (, ,) ('' '')
+    (NP (NN party) (NNP Press) (NNP Secretary)
+      (NP (NNP Susan) (NNP Hepworth)))
+    (VP (VBD added))
+    (. .)))
+
+nsubj(go-6, He-2)
+nsubj(bow-9, He-2)
+aux(go-6, should-3)
+advmod(go-6, probably-4)
+advmod(go-6, just-5)
+ccomp(added-21, go-6)
+advmod(go-6, ahead-7)
+conj_and(go-6, bow-9)
+ccomp(added-21, bow-9)
+det(race-13, the-12)
+prep_out_of(bow-9, race-13)
+nn(Secretary-18, party-16)
+nn(Secretary-18, Press-17)
+nsubj(added-21, Secretary-18)
+nn(Hepworth-20, Susan-19)
+dep(Secretary-18, Hepworth-20)
+root(ROOT-0, added-21)
+
+Coreference set:
+	(2,5,[5,6)) -> (1,1,[1,2)), that is: "Florida" -> "Florida"
+	(9,17,[17,18)) -> (1,1,[1,2)), that is: "Florida" -> "Florida"
+Coreference set:
+	(1,2,[2,3)) -> (13,28,[25,29)), that is: "GOP" -> "the Pinellas County GOP"
+Coreference set:
+	(1,13,[13,14)) -> (2,33,[32,34)), that is: "Obama" -> "President Obama"
+	(14,17,[17,19)) -> (2,33,[32,34)), that is: "Obama 's" -> "President Obama"
+Coreference set:
+	(2,13,[13,14)) -> (2,3,[1,9)), that is: "his" -> "A Republican candidate for Florida state legislative office"
+	(2,24,[24,25)) -> (2,3,[1,9)), that is: "he" -> "A Republican candidate for Florida state legislative office"
+Coreference set:
+	(2,21,[20,22)) -> (2,21,[20,40)), that is: "the race" -> "the race , after he agreed with comments on social media that President Obama should be hanged for war crimes"
+	(17,13,[12,14)) -> (2,21,[20,40)), that is: "the race" -> "the race , after he agreed with comments on social media that President Obama should be hanged for war crimes"
+Coreference set:
+	(2,27,[27,31)) -> (4,7,[6,8)), that is: "comments on social media" -> "his comments"
+	(12,20,[19,21)) -> (4,7,[6,8)), that is: "his comments" -> "his comments"
+Coreference set:
+	(3,5,[3,6)) -> (3,5,[2,6)), that is: "Florida Republican Party" -> "the Florida Republican Party"
+	(16,8,[6,11)) -> (3,5,[2,6)), that is: "the Republican Party of Florida" -> "the Florida Republican Party"
+Coreference set:
+	(5,2,[2,3)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(6,7,[7,8)) -> (3,15,[14,16)), that is: "me" -> "Joshua Black"
+	(6,13,[13,14)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(7,2,[2,3)) -> (3,15,[14,16)), that is: "I" -> "Joshua Black"
+	(8,1,[1,2)) -> (3,15,[14,16)), that is: "I" -> "Joshua Black"
+	(9,13,[13,14)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(10,5,[5,6)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(10,10,[10,11)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(12,1,[1,2)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(12,9,[9,10)) -> (3,15,[14,16)), that is: "his" -> "Joshua Black"
+	(12,19,[19,20)) -> (3,15,[14,16)), that is: "his" -> "Joshua Black"
+	(13,2,[2,3)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(13,7,[7,8)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(13,12,[12,13)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(14,2,[2,3)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(14,13,[13,14)) -> (3,15,[14,16)), that is: "he" -> "Joshua Black"
+	(15,2,[2,3)) -> (3,15,[14,16)), that is: "I" -> "Joshua Black"
+	(15,23,[23,24)) -> (3,15,[14,16)), that is: "Black" -> "Joshua Black"
+	(16,12,[12,13)) -> (3,15,[14,16)), that is: "his" -> "Joshua Black"
+	(17,2,[2,3)) -> (3,15,[14,16)), that is: "He" -> "Joshua Black"
+Coreference set:
+	(14,8,[8,9)) -> (3,23,[22,24)), that is: "House" -> "Florida House"
+Coreference set:
+	(3,18,[18,19)) -> (3,10,[7,11)), that is: "his" -> "GOP Gov. Rick Scott"
+	(4,4,[4,5)) -> (3,10,[7,11)), that is: "Scott" -> "GOP Gov. Rick Scott"
+	(4,6,[6,7)) -> (3,10,[7,11)), that is: "his" -> "GOP Gov. Rick Scott"
+Coreference set:
+	(10,8,[8,9)) -> (4,2,[2,3)), that is: "Twitter" -> "Twitter"
+Coreference set:
+	(9,9,[8,10)) -> (6,16,[15,21)), that is: "Fox News" -> "Fox News in a phone interview"
+Coreference set:
+	(10,24,[23,25)) -> (8,6,[5,7)), that is: "the president" -> "the president"
+	(10,28,[28,29)) -> (8,6,[5,7)), that is: "him" -> "the president"
+Coreference set:
+	(10,1,[1,2)) -> (9,11,[11,12)), that is: "They" -> "they"
+	(11,11,[11,12)) -> (9,11,[11,12)), that is: "we" -> "they"
+	(11,15,[15,16)) -> (9,11,[11,12)), that is: "we" -> "they"
+Coreference set:
+	(11,2,[1,3)) -> (9,4,[1,5)), that is: "Secret Service" -> "The U.S. Secret Service"
+Coreference set:
+	(10,18,[18,19)) -> (10,16,[15,17)), that is: "it" -> "a statement"
+Coreference set:
+	(13,10,[10,11)) -> (11,37,[37,38)), that is: "us" -> "people"
+	(15,19,[19,20)) -> (11,37,[37,38)), that is: "we" -> "people"
+Coreference set:
+	(13,20,[19,21)) -> (13,20,[19,29)), that is: "Charlotte Smith" -> "Charlotte Smith , executive director of the Pinellas County GOP"
+Coreference set:
+	(15,41,[40,42)) -> (15,41,[36,42)), that is: "Anwar al-Awlaki" -> "American-born Al Qaeda operative Anwar al-Awlaki"
+	(15,43,[43,44)) -> (15,41,[36,42)), that is: "his" -> "American-born Al Qaeda operative Anwar al-Awlaki"

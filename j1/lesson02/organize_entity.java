@@ -12,21 +12,27 @@ import java.util.regex.Pattern;
 
 public class organize_entity {
 
+	//部分木を取り出す
 	public static Map<Integer,String[]> get_subsentense(String file, String nomal_entity,int number){
 		Map<Integer,ArrayList<String>> subtrees = new HashMap<Integer,ArrayList<String>>();
 		Map<Integer,ArrayList<String>> treesan = get_tree(file);
 		Map<Integer,ArrayList<String>> verbs = get_verb(file);//System.out.println("bbb");
 		ArrayList<String> sub_tree = new ArrayList<String>();
 		int p = 1,t = 0;
+		//named entityの最後尾だけを探す
 		String[] ent_case = nomal_entity.split(" ");
 		String entity = ent_case[ent_case.length-1];
+		
+		//ファイル内の全ての部分木より
 		while(p < treesan.size()){
 			//System.out.println(p);
 			//System.out.println("aaa");
+			//treeの付け替え
 			ArrayList<String> word_tree = tree_change.tree_c_m(treesan.get(p),verbs.get(p)); //System.out.println("word_tree:"+word_tree);
+			//named entityがあれば
 			if((t = check_in_list(word_tree,entity)) != -1){
-				String str = word_tree.get(t); //args[1]����entity�������word_tree������΂��̎}��str��
-				int i = 0,q=0;	//System.out.println(str);//
+				String str = word_tree.get(t);
+				int i = 0, q=0;	
 				while(true){
 					//entity�̐e�ƂȂ铮���𔭌�������
 					String i_facter = word_tree.get(i);
@@ -87,8 +93,8 @@ public class organize_entity {
 
 
 			try {
-				//�o�͐���쐬����
-				FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmcsvs/"+ nomal_entity + ".csv", true);  //���P
+				
+				FileWriter fw = new FileWriter(connecter_stan.EntityTreeCsvFolder+ nomal_entity + ".csv", true);  //���P
 				PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
 				//FileWriter fw_lda = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmtxt/"+nomal_entity+".txt",true);
 				//PrintWriter pw_lda = new PrintWriter(new BufferedWriter(fw_lda));
@@ -102,17 +108,17 @@ public class organize_entity {
 					if(itemIdList.indexOf(key) != -1){
 						sentense = subtrees.get(key);
 						int sent_num = 0;
-						//pw.print(number+",");
+						pw.print(number+",");
 						String[] sent_rs = new String[sentense.size()];
 						while(sent_num < sentense.size()){
 							String str = sentense.get(sent_num);
-							//pw.print(str);
-							//pw.print(" ");
+							pw.print(str);
+							pw.print(" ");
 							//pw_lda.print(str+" ");
 							sent_rs[sent_num] = str;
 							sent_num++;
 						}
-						//pw.println();
+						pw.println();
 						//pw_lda.println();
 						result_subtree.put(num_rs,sent_rs);
 						num_rs++;
@@ -215,10 +221,11 @@ public class organize_entity {
 		}
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println(e + " str : " + str);
 			return -1;
 		}
 		
-		//System.out.println(-1);	
+		//System.out.println("error : check_in_listで見つかりません。str : "+str+" list : "+list);	
 		return -1;
 
 	}

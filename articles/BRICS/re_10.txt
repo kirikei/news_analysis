@@ -1,0 +1,1231 @@
+Sentence #1 (13 tokens):
+BRICS bank a plus for China, but what will India gain?
+[Text=BRICS CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=ORGANIZATION] [Text=bank CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=a CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=plus CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NN Lemma=plus NamedEntityTag=O] [Text=for CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=China CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=what CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=will CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=India CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=gain CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=VB Lemma=gain NamedEntityTag=O] [Text=? CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SBARQ
+    (WHNP
+      (NP (NNP BRICS) (NN bank))
+      (PP
+        (NP (DT a) (NN plus))
+        (PP (IN for)
+          (NP
+            (NP (NNP China))
+            (, ,)
+            (CC but)
+            (NP (WP what))))))
+    (SQ (MD will)
+      (NP (NNP India))
+      (VP (VB gain)))
+    (. ?)))
+
+root(ROOT-0, gain-12)
+nn(bank-2, BRICS-1)
+dobj(gain-12, bank-2)
+det(plus-4, a-3)
+dep(bank-2, plus-4)
+prep_for(bank-2, China-6)
+conj_but(China-6, what-9)
+aux(gain-12, will-10)
+nsubj(gain-12, India-11)
+
+Sentence #2 (15 tokens):
+- Hindustan Times
+The BRICS bank is seen as a mixed blessing for India.
+[Text=- CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Hindustan CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Hindustan NamedEntityTag=ORGANIZATION] [Text=Times CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NNP Lemma=Times NamedEntityTag=ORGANIZATION] [Text=The CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=The NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=ORGANIZATION] [Text=bank CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=is CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=seen CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=as CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=mixed CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=JJ Lemma=mixed NamedEntityTag=O] [Text=blessing CharacterOffsetBegin=108 CharacterOffsetEnd=116 PartOfSpeech=NN Lemma=blessing NamedEntityTag=O] [Text=for CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=India CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (: -)
+    (NP (NNP Hindustan) (NNP Times) (NNP The) (NNP BRICS) (NN bank))
+    (VP (VBZ is)
+      (VP (VBN seen)
+        (PP (IN as)
+          (NP
+            (NP (DT a) (JJ mixed) (NN blessing))
+            (PP (IN for)
+              (NP (NNP India)))))))
+    (. .)))
+
+root(ROOT-0, seen-8)
+nn(bank-6, Hindustan-2)
+nn(bank-6, Times-3)
+nn(bank-6, The-4)
+nn(bank-6, BRICS-5)
+nsubjpass(seen-8, bank-6)
+auxpass(seen-8, is-7)
+det(blessing-12, a-10)
+amod(blessing-12, mixed-11)
+prep_as(seen-8, blessing-12)
+prep_for(blessing-12, India-14)
+
+Sentence #3 (26 tokens):
+Touted as the first step towards an alternative financial order, the concern is India is only replacing a West-centric system with a Chinese-controlled one.
+[Text=Touted CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=VBN Lemma=tout NamedEntityTag=O] [Text=as CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=step CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=NN Lemma=step NamedEntityTag=O] [Text=towards CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=IN Lemma=towards NamedEntityTag=O] [Text=an CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=alternative CharacterOffsetBegin=164 CharacterOffsetEnd=175 PartOfSpeech=JJ Lemma=alternative NamedEntityTag=O] [Text=financial CharacterOffsetBegin=176 CharacterOffsetEnd=185 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O] [Text=order CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=, CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=concern CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NN Lemma=concern NamedEntityTag=O] [Text=is CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=India CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=only CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=replacing CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=VBG Lemma=replace NamedEntityTag=O] [Text=a CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=West-centric CharacterOffsetBegin=234 CharacterOffsetEnd=246 PartOfSpeech=JJ Lemma=west-centric NamedEntityTag=MISC] [Text=system CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NN Lemma=system NamedEntityTag=O] [Text=with CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Chinese-controlled CharacterOffsetBegin=261 CharacterOffsetEnd=279 PartOfSpeech=JJ Lemma=chinese-controlled NamedEntityTag=MISC] [Text=one CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBN Touted)
+        (PP (IN as)
+          (NP
+            (NP (DT the) (JJ first) (NN step))
+            (PP (IN towards)
+              (NP (DT an) (JJ alternative) (JJ financial) (NN order)))))))
+    (, ,)
+    (NP (DT the) (NN concern))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP India))
+        (SBAR
+          (S
+            (VP (VBZ is)
+              (ADVP (RB only))
+              (VP (VBG replacing)
+                (NP (DT a) (JJ West-centric) (NN system))
+                (PP (IN with)
+                  (NP (DT a) (JJ Chinese-controlled) (CD one)))))))))
+    (. .)))
+
+root(ROOT-0, India-15)
+vmod(India-15, Touted-1)
+det(step-5, the-3)
+amod(step-5, first-4)
+prep_as(Touted-1, step-5)
+det(order-10, an-7)
+amod(order-10, alternative-8)
+amod(order-10, financial-9)
+prep_towards(step-5, order-10)
+det(concern-13, the-12)
+nsubj(India-15, concern-13)
+cop(India-15, is-14)
+aux(replacing-18, is-16)
+advmod(replacing-18, only-17)
+rcmod(India-15, replacing-18)
+det(system-21, a-19)
+amod(system-21, West-centric-20)
+dobj(replacing-18, system-21)
+det(one-25, a-23)
+amod(one-25, Chinese-controlled-24)
+prep_with(replacing-18, one-25)
+
+Sentence #4 (30 tokens):
+One school says China-s economic clout -- the Middle Kingdom represents over half of the BRICS-s GDP -- means all BRICS institutions will be puppets of Beijing.
+[Text=One CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=school CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=NN Lemma=school NamedEntityTag=O] [Text=says CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=China CharacterOffsetBegin=302 CharacterOffsetEnd=307 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=economic CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=clout CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=clout NamedEntityTag=O] [Text=-- CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Middle CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NNP Lemma=Middle NamedEntityTag=LOCATION] [Text=Kingdom CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=NNP Lemma=Kingdom NamedEntityTag=LOCATION] [Text=represents CharacterOffsetBegin=347 CharacterOffsetEnd=357 PartOfSpeech=VBZ Lemma=represent NamedEntityTag=O] [Text=over CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=half CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=NN Lemma=half NamedEntityTag=O] [Text=of CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=GDP CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=NNP Lemma=GDP NamedEntityTag=O] [Text=-- CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=means CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O] [Text=all CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=NN Lemma=bric NamedEntityTag=ORGANIZATION] [Text=institutions CharacterOffsetBegin=406 CharacterOffsetEnd=418 PartOfSpeech=NNS Lemma=institution NamedEntityTag=O] [Text=will CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=puppets CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=NNS Lemma=puppet NamedEntityTag=O] [Text=of CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (CD One) (NN school))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP China) (POS -s))
+            (JJ economic) (NN clout)
+            (PRN (: --)
+              (S
+                (NP (DT the) (NNP Middle) (NNP Kingdom))
+                (VP (VBZ represents)
+                  (PP (IN over)
+                    (NP
+                      (NP (NN half))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NNP BRICS) (POS -s))
+                          (NNP GDP)))))))
+              (: --)))
+          (VP (VBZ means)
+            (SBAR
+              (S
+                (NP (DT all) (NN BRICS) (NNS institutions))
+                (VP (MD will)
+                  (VP (VB be)
+                    (NP
+                      (NP (NNS puppets))
+                      (PP (IN of)
+                        (NP (NNP Beijing))))))))))))
+    (. .)))
+
+root(ROOT-0, says-3)
+num(school-2, One-1)
+nsubj(says-3, school-2)
+poss(clout-7, China-4)
+amod(clout-7, economic-6)
+nsubj(means-21, clout-7)
+det(Kingdom-11, the-9)
+nn(Kingdom-11, Middle-10)
+nsubj(represents-12, Kingdom-11)
+dep(clout-7, represents-12)
+prep_over(represents-12, half-14)
+det(BRICS-17, the-16)
+poss(GDP-19, BRICS-17)
+prep_of(half-14, GDP-19)
+ccomp(says-3, means-21)
+det(institutions-24, all-22)
+nn(institutions-24, BRICS-23)
+nsubj(puppets-27, institutions-24)
+aux(puppets-27, will-25)
+cop(puppets-27, be-26)
+ccomp(means-21, puppets-27)
+prep_of(puppets-27, Beijing-29)
+
+Sentence #5 (49 tokens):
+Brazilian President Dilma Rousseff (C), Russia-s Prez Vladimir Putin(L), PM Narendra Modi(2L), China-s Prez Xi Jinping(2R) and South Africa-s Prez Jacob Zuma at the 6th BRICS summit in Fortaleza, Brazil.
+[Text=Brazilian CharacterOffsetBegin=448 CharacterOffsetEnd=457 PartOfSpeech=JJ Lemma=brazilian NamedEntityTag=MISC] [Text=President CharacterOffsetBegin=458 CharacterOffsetEnd=467 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=Dilma CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=NNP Lemma=Dilma NamedEntityTag=PERSON] [Text=Rousseff CharacterOffsetBegin=474 CharacterOffsetEnd=482 PartOfSpeech=NNP Lemma=Rousseff NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=C CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=NNP Lemma=C NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Russia CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=NNP Lemma=Russia NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Prez CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=NNP Lemma=Prez NamedEntityTag=O] [Text=Vladimir CharacterOffsetBegin=502 CharacterOffsetEnd=510 PartOfSpeech=NNP Lemma=Vladimir NamedEntityTag=PERSON] [Text=Putin CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=NNP Lemma=Putin NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=516 CharacterOffsetEnd=517 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=L CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=NNP Lemma=L NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=PM CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=NNP Lemma=PM NamedEntityTag=O] [Text=Narendra CharacterOffsetBegin=524 CharacterOffsetEnd=532 PartOfSpeech=NNP Lemma=Narendra NamedEntityTag=PERSON] [Text=Modi CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=NNP Lemma=Modi NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=2L CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=NN Lemma=2l NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=China CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Prez CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=NNP Lemma=Prez NamedEntityTag=O] [Text=Xi CharacterOffsetBegin=556 CharacterOffsetEnd=558 PartOfSpeech=NN Lemma=xi NamedEntityTag=O] [Text=Jinping CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=NN Lemma=jinping NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=2R CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=NN Lemma=2r NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=569 CharacterOffsetEnd=570 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=South CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=NNP Lemma=South NamedEntityTag=LOCATION] [Text=Africa CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=NNP Lemma=Africa NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Prez CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NNP Lemma=Prez NamedEntityTag=PERSON] [Text=Jacob CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NNP Lemma=Jacob NamedEntityTag=PERSON] [Text=Zuma CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=NNP Lemma=Zuma NamedEntityTag=PERSON] [Text=at CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=6th CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=JJ Lemma=6th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=6.0] [Text=BRICS CharacterOffsetBegin=617 CharacterOffsetEnd=622 PartOfSpeech=NNS Lemma=bric NamedEntityTag=ORGANIZATION] [Text=summit CharacterOffsetBegin=623 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=summit NamedEntityTag=O] [Text=in CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Fortaleza CharacterOffsetBegin=633 CharacterOffsetEnd=642 PartOfSpeech=NNP Lemma=Fortaleza NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (JJ Brazilian))
+    (NP
+      (NP
+        (NP (NNP President) (NNP Dilma) (NNP Rousseff))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP C))
+          (-RRB- -RRB-)))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP Russia) (POS -s))
+          (NNP Prez) (NNP Vladimir) (NNP Putin))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP L))
+          (-RRB- -RRB-)))
+      (, ,)
+      (NP
+        (NP (NNP PM) (NNP Narendra) (NNP Modi))
+        (PRN (-LRB- -LRB-)
+          (NP (NN 2L))
+          (-RRB- -RRB-)))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP China) (POS -s))
+          (NNP Prez) (NN Xi) (NN Jinping))
+        (PRN (-LRB- -LRB-)
+          (NP (NN 2R))
+          (-RRB- -RRB-)))
+      (CC and)
+      (NP
+        (NP (NNP South) (NNP Africa) (POS -s))
+        (NNP Prez) (NNP Jacob) (NNP Zuma)))
+    (PP (IN at)
+      (NP
+        (NP (DT the) (JJ 6th) (NNS BRICS) (NN summit))
+        (PP (IN in)
+          (NP (NNP Fortaleza) (, ,) (NNP Brazil)))))
+    (. .)))
+
+root(ROOT-0, Brazilian-1)
+nn(Rousseff-4, President-2)
+nn(Rousseff-4, Dilma-3)
+dep(Brazilian-1, Rousseff-4)
+appos(Rousseff-4, C-6)
+poss(Putin-13, Russia-9)
+nn(Putin-13, Prez-11)
+nn(Putin-13, Vladimir-12)
+conj_and(Rousseff-4, Putin-13)
+appos(Putin-13, L-15)
+nn(Modi-20, PM-18)
+nn(Modi-20, Narendra-19)
+conj_and(Rousseff-4, Modi-20)
+appos(Modi-20, 2L-22)
+poss(Jinping-29, China-25)
+nn(Jinping-29, Prez-27)
+nn(Jinping-29, Xi-28)
+conj_and(Rousseff-4, Jinping-29)
+appos(Jinping-29, 2R-31)
+nn(Africa-35, South-34)
+poss(Zuma-39, Africa-35)
+nn(Zuma-39, Prez-37)
+nn(Zuma-39, Jacob-38)
+conj_and(Rousseff-4, Zuma-39)
+det(summit-44, the-41)
+amod(summit-44, 6th-42)
+nn(summit-44, BRICS-43)
+prep_at(Brazilian-1, summit-44)
+nn(Brazil-48, Fortaleza-46)
+prep_in(summit-44, Brazil-48)
+
+Sentence #6 (32 tokens):
+(AFP Photo)
+This school believes the fact that the bank will be based in Shanghai rather than Johannesburg, as originally planned, will only increase China-s hold.
+[Text=-LRB- CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=AFP CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=NNP Lemma=AFP NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=This CharacterOffsetBegin=665 CharacterOffsetEnd=669 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=school CharacterOffsetBegin=670 CharacterOffsetEnd=676 PartOfSpeech=NN Lemma=school NamedEntityTag=O] [Text=believes CharacterOffsetBegin=677 CharacterOffsetEnd=685 PartOfSpeech=VBZ Lemma=believe NamedEntityTag=O] [Text=the CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fact CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=NN Lemma=fact NamedEntityTag=O] [Text=that CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bank CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=will CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=714 CharacterOffsetEnd=716 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=based CharacterOffsetBegin=717 CharacterOffsetEnd=722 PartOfSpeech=VBN Lemma=base NamedEntityTag=O] [Text=in CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Shanghai CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NNP Lemma=Shanghai NamedEntityTag=LOCATION] [Text=rather CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=RB Lemma=rather NamedEntityTag=O] [Text=than CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=Johannesburg CharacterOffsetBegin=747 CharacterOffsetEnd=759 PartOfSpeech=NNP Lemma=Johannesburg NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=759 CharacterOffsetEnd=760 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=originally CharacterOffsetBegin=764 CharacterOffsetEnd=774 PartOfSpeech=RB Lemma=originally NamedEntityTag=O] [Text=planned CharacterOffsetBegin=775 CharacterOffsetEnd=782 PartOfSpeech=VBN Lemma=plan NamedEntityTag=O] [Text=, CharacterOffsetBegin=782 CharacterOffsetEnd=783 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=will CharacterOffsetBegin=784 CharacterOffsetEnd=788 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=only CharacterOffsetBegin=789 CharacterOffsetEnd=793 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=increase CharacterOffsetBegin=794 CharacterOffsetEnd=802 PartOfSpeech=VB Lemma=increase NamedEntityTag=O] [Text=China CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=808 CharacterOffsetEnd=810 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=hold CharacterOffsetBegin=811 CharacterOffsetEnd=815 PartOfSpeech=NN Lemma=hold NamedEntityTag=O] [Text=. CharacterOffsetBegin=815 CharacterOffsetEnd=816 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP AFP) (NNP Photo))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT This) (NN school))
+        (VP (VBZ believes)
+          (NP (DT the) (NN fact))
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN bank))
+              (VP (MD will)
+                (VP (VB be)
+                  (VP (VBN based)
+                    (PP (IN in)
+                      (NP (NNP Shanghai)
+                        (CONJP (RB rather) (IN than))
+                        (NNP Johannesburg)))))))))))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (ADVP (RB originally))
+        (VP (VBN planned))))
+    (, ,)
+    (VP (MD will)
+      (ADVP (RB only))
+      (VP (VB increase)
+        (NP
+          (NP (NNP China) (POS -s))
+          (NN hold))))
+    (. .)))
+
+root(ROOT-0, increase-28)
+nn(Photo-3, AFP-2)
+dep(believes-7, Photo-3)
+det(school-6, This-5)
+nsubj(believes-7, school-6)
+dep(increase-28, believes-7)
+det(fact-9, the-8)
+dobj(believes-7, fact-9)
+mark(based-15, that-10)
+det(bank-12, the-11)
+nsubjpass(based-15, bank-12)
+aux(based-15, will-13)
+auxpass(based-15, be-14)
+ccomp(believes-7, based-15)
+prep_in(based-15, Shanghai-17)
+conj_negcc(Shanghai-17, Johannesburg-20)
+mark(planned-24, as-22)
+advmod(planned-24, originally-23)
+dep(increase-28, planned-24)
+aux(increase-28, will-26)
+advmod(increase-28, only-27)
+poss(hold-31, China-29)
+dobj(increase-28, hold-31)
+
+Sentence #7 (27 tokens):
+"Staffing will now largely be Chinese," says Rajiv Kumar, economist at the Centre for Policy Research and an ex-Asian Development Bank staffer.
+[Text=`` CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Staffing CharacterOffsetBegin=818 CharacterOffsetEnd=826 PartOfSpeech=NN Lemma=staffing NamedEntityTag=O] [Text=will CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=now CharacterOffsetBegin=832 CharacterOffsetEnd=835 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now<-TIMEX3>] [Text=largely CharacterOffsetBegin=836 CharacterOffsetEnd=843 PartOfSpeech=RB Lemma=largely NamedEntityTag=O] [Text=be CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=Chinese CharacterOffsetBegin=847 CharacterOffsetEnd=854 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=854 CharacterOffsetEnd=855 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=855 CharacterOffsetEnd=856 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=says CharacterOffsetBegin=857 CharacterOffsetEnd=861 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=Rajiv CharacterOffsetBegin=862 CharacterOffsetEnd=867 PartOfSpeech=NNP Lemma=Rajiv NamedEntityTag=PERSON] [Text=Kumar CharacterOffsetBegin=868 CharacterOffsetEnd=873 PartOfSpeech=NNP Lemma=Kumar NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=economist CharacterOffsetBegin=875 CharacterOffsetEnd=884 PartOfSpeech=NN Lemma=economist NamedEntityTag=O] [Text=at CharacterOffsetBegin=885 CharacterOffsetEnd=887 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Centre CharacterOffsetBegin=892 CharacterOffsetEnd=898 PartOfSpeech=NNP Lemma=Centre NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=899 CharacterOffsetEnd=902 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=Policy CharacterOffsetBegin=903 CharacterOffsetEnd=909 PartOfSpeech=NNP Lemma=Policy NamedEntityTag=ORGANIZATION] [Text=Research CharacterOffsetBegin=910 CharacterOffsetEnd=918 PartOfSpeech=NNP Lemma=Research NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=919 CharacterOffsetEnd=922 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=an CharacterOffsetBegin=923 CharacterOffsetEnd=925 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=ex-Asian CharacterOffsetBegin=926 CharacterOffsetEnd=934 PartOfSpeech=JJ Lemma=ex-asian NamedEntityTag=O] [Text=Development CharacterOffsetBegin=935 CharacterOffsetEnd=946 PartOfSpeech=NNP Lemma=Development NamedEntityTag=ORGANIZATION] [Text=Bank CharacterOffsetBegin=947 CharacterOffsetEnd=951 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION] [Text=staffer CharacterOffsetBegin=952 CharacterOffsetEnd=959 PartOfSpeech=NN Lemma=staffer NamedEntityTag=O] [Text=. CharacterOffsetBegin=959 CharacterOffsetEnd=960 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (NN Staffing))
+      (VP (MD will)
+        (ADVP (RB now))
+        (ADVP (RB largely))
+        (VP (VB be)
+          (ADJP (JJ Chinese)))))
+    (, ,) (-- --)
+    (VP (VBZ says))
+    (NP
+      (NP (NNP Rajiv) (NNP Kumar))
+      (, ,)
+      (NP
+        (NP (NN economist))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NNP Centre))
+            (PP (IN for)
+              (NP
+                (NP (NNP Policy) (NNP Research))
+                (CC and)
+                (NP (DT an) (JJ ex-Asian) (NNP Development) (NNP Bank) (NN staffer))))))))
+    (. .)))
+
+root(ROOT-0, says-10)
+nsubj(Chinese-7, Staffing-2)
+aux(Chinese-7, will-3)
+advmod(Chinese-7, now-4)
+advmod(Chinese-7, largely-5)
+cop(Chinese-7, be-6)
+ccomp(says-10, Chinese-7)
+nn(Kumar-12, Rajiv-11)
+nsubj(says-10, Kumar-12)
+appos(Kumar-12, economist-14)
+det(Centre-17, the-16)
+prep_at(economist-14, Centre-17)
+nn(Research-20, Policy-19)
+prep_for(Centre-17, Research-20)
+det(staffer-26, an-22)
+amod(staffer-26, ex-Asian-23)
+nn(staffer-26, Development-24)
+nn(staffer-26, Bank-25)
+conj_and(Research-20, staffer-26)
+
+Sentence #8 (11 tokens):
+"Beijing will ultimately determine lending policies for all."
+[Text=`` CharacterOffsetBegin=961 CharacterOffsetEnd=962 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=962 CharacterOffsetEnd=969 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=will CharacterOffsetBegin=970 CharacterOffsetEnd=974 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=ultimately CharacterOffsetBegin=975 CharacterOffsetEnd=985 PartOfSpeech=RB Lemma=ultimately NamedEntityTag=O] [Text=determine CharacterOffsetBegin=986 CharacterOffsetEnd=995 PartOfSpeech=VB Lemma=determine NamedEntityTag=O] [Text=lending CharacterOffsetBegin=996 CharacterOffsetEnd=1003 PartOfSpeech=VBG Lemma=lend NamedEntityTag=O] [Text=policies CharacterOffsetBegin=1004 CharacterOffsetEnd=1012 PartOfSpeech=NNS Lemma=policy NamedEntityTag=O] [Text=for CharacterOffsetBegin=1013 CharacterOffsetEnd=1016 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=all CharacterOffsetBegin=1017 CharacterOffsetEnd=1020 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=. CharacterOffsetBegin=1020 CharacterOffsetEnd=1021 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1021 CharacterOffsetEnd=1022 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (NNP Beijing))
+    (VP (MD will)
+      (ADVP (RB ultimately))
+      (VP (VB determine)
+        (NP
+          (NP (VBG lending) (NNS policies))
+          (PP (IN for)
+            (NP (DT all))))))
+    (. .) (-- --)))
+
+root(ROOT-0, determine-5)
+nsubj(determine-5, Beijing-2)
+aux(determine-5, will-3)
+advmod(determine-5, ultimately-4)
+amod(policies-7, lending-6)
+dobj(determine-5, policies-7)
+prep_for(policies-7, all-9)
+
+Sentence #9 (64 tokens):
+Read: India to hold BRICS bank president post; PM bats for developing nations
+Granting the first presidency to an Indian, says Sanjaya Baru, geoeconomics professor for the International Institute for Strategic Studies, "was a lollipop from China designed to win over the bureaucrats of our finance ministry -- they will now vie to get the post".
+[Text=Read CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=NNP Lemma=Read NamedEntityTag=O] [Text=: CharacterOffsetBegin=1028 CharacterOffsetEnd=1029 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=India CharacterOffsetBegin=1030 CharacterOffsetEnd=1035 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=to CharacterOffsetBegin=1036 CharacterOffsetEnd=1038 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hold CharacterOffsetBegin=1039 CharacterOffsetEnd=1043 PartOfSpeech=VB Lemma=hold NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=1044 CharacterOffsetEnd=1049 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=ORGANIZATION] [Text=bank CharacterOffsetBegin=1050 CharacterOffsetEnd=1054 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=president CharacterOffsetBegin=1055 CharacterOffsetEnd=1064 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=post CharacterOffsetBegin=1065 CharacterOffsetEnd=1069 PartOfSpeech=NN Lemma=post NamedEntityTag=O] [Text=; CharacterOffsetBegin=1069 CharacterOffsetEnd=1070 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=PM CharacterOffsetBegin=1071 CharacterOffsetEnd=1073 PartOfSpeech=NNP Lemma=PM NamedEntityTag=O] [Text=bats CharacterOffsetBegin=1074 CharacterOffsetEnd=1078 PartOfSpeech=NNS Lemma=bat NamedEntityTag=O] [Text=for CharacterOffsetBegin=1079 CharacterOffsetEnd=1082 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=developing CharacterOffsetBegin=1083 CharacterOffsetEnd=1093 PartOfSpeech=VBG Lemma=develop NamedEntityTag=O] [Text=nations CharacterOffsetBegin=1094 CharacterOffsetEnd=1101 PartOfSpeech=NNS Lemma=nation NamedEntityTag=O] [Text=Granting CharacterOffsetBegin=1103 CharacterOffsetEnd=1111 PartOfSpeech=VBG Lemma=grant NamedEntityTag=O] [Text=the CharacterOffsetBegin=1112 CharacterOffsetEnd=1115 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=1116 CharacterOffsetEnd=1121 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=presidency CharacterOffsetBegin=1122 CharacterOffsetEnd=1132 PartOfSpeech=NN Lemma=presidency NamedEntityTag=O] [Text=to CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=an CharacterOffsetBegin=1136 CharacterOffsetEnd=1138 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Indian CharacterOffsetBegin=1139 CharacterOffsetEnd=1145 PartOfSpeech=JJ Lemma=indian NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=says CharacterOffsetBegin=1147 CharacterOffsetEnd=1151 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=Sanjaya CharacterOffsetBegin=1152 CharacterOffsetEnd=1159 PartOfSpeech=NNP Lemma=Sanjaya NamedEntityTag=PERSON] [Text=Baru CharacterOffsetBegin=1160 CharacterOffsetEnd=1164 PartOfSpeech=NNP Lemma=Baru NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1164 CharacterOffsetEnd=1165 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=geoeconomics CharacterOffsetBegin=1166 CharacterOffsetEnd=1178 PartOfSpeech=NNS Lemma=geoeconomic NamedEntityTag=O] [Text=professor CharacterOffsetBegin=1179 CharacterOffsetEnd=1188 PartOfSpeech=NN Lemma=professor NamedEntityTag=O] [Text=for CharacterOffsetBegin=1189 CharacterOffsetEnd=1192 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1193 CharacterOffsetEnd=1196 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=International CharacterOffsetBegin=1197 CharacterOffsetEnd=1210 PartOfSpeech=NNP Lemma=International NamedEntityTag=ORGANIZATION] [Text=Institute CharacterOffsetBegin=1211 CharacterOffsetEnd=1220 PartOfSpeech=NNP Lemma=Institute NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=1221 CharacterOffsetEnd=1224 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=Strategic CharacterOffsetBegin=1225 CharacterOffsetEnd=1234 PartOfSpeech=NNP Lemma=Strategic NamedEntityTag=ORGANIZATION] [Text=Studies CharacterOffsetBegin=1235 CharacterOffsetEnd=1242 PartOfSpeech=NNPS Lemma=Studies NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1242 CharacterOffsetEnd=1243 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1244 CharacterOffsetEnd=1245 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=was CharacterOffsetBegin=1245 CharacterOffsetEnd=1248 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1249 CharacterOffsetEnd=1250 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lollipop CharacterOffsetBegin=1251 CharacterOffsetEnd=1259 PartOfSpeech=NN Lemma=lollipop NamedEntityTag=O] [Text=from CharacterOffsetBegin=1260 CharacterOffsetEnd=1264 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=China CharacterOffsetBegin=1265 CharacterOffsetEnd=1270 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=designed CharacterOffsetBegin=1271 CharacterOffsetEnd=1279 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=to CharacterOffsetBegin=1280 CharacterOffsetEnd=1282 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=win CharacterOffsetBegin=1283 CharacterOffsetEnd=1286 PartOfSpeech=VB Lemma=win NamedEntityTag=O] [Text=over CharacterOffsetBegin=1287 CharacterOffsetEnd=1291 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=1292 CharacterOffsetEnd=1295 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bureaucrats CharacterOffsetBegin=1296 CharacterOffsetEnd=1307 PartOfSpeech=NNS Lemma=bureaucrat NamedEntityTag=O] [Text=of CharacterOffsetBegin=1308 CharacterOffsetEnd=1310 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=1311 CharacterOffsetEnd=1314 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=finance CharacterOffsetBegin=1315 CharacterOffsetEnd=1322 PartOfSpeech=NN Lemma=finance NamedEntityTag=O] [Text=ministry CharacterOffsetBegin=1323 CharacterOffsetEnd=1331 PartOfSpeech=NN Lemma=ministry NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1332 CharacterOffsetEnd=1334 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=they CharacterOffsetBegin=1335 CharacterOffsetEnd=1339 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=will CharacterOffsetBegin=1340 CharacterOffsetEnd=1344 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=now CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">now<-TIMEX3>] [Text=vie CharacterOffsetBegin=1349 CharacterOffsetEnd=1352 PartOfSpeech=VB Lemma=vie NamedEntityTag=O] [Text=to CharacterOffsetBegin=1353 CharacterOffsetEnd=1355 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=1356 CharacterOffsetEnd=1359 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=1360 CharacterOffsetEnd=1363 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=post CharacterOffsetBegin=1364 CharacterOffsetEnd=1368 PartOfSpeech=NN Lemma=post NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1368 CharacterOffsetEnd=1369 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=. CharacterOffsetBegin=1369 CharacterOffsetEnd=1370 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Read))
+      (: :)
+      (NP
+        (NP (NNP India))
+        (SBAR
+          (S
+            (VP (TO to)
+              (VP (VB hold)
+                (NP
+                  (NP (NNP BRICS) (NN bank) (NN president) (NN post))
+                  (: ;)
+                  (NP
+                    (NP (NNP PM) (NNS bats))
+                    (PP (IN for)
+                      (NP
+                        (NP (VBG developing) (NNS nations))
+                        (VP (VBG Granting)
+                          (NP (DT the) (JJ first) (NN presidency))
+                          (PP (TO to)
+                            (NP (DT an) (JJ Indian)))))))))))))
+      (, ,))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Sanjaya) (NNP Baru))
+            (, ,)
+            (NP
+              (NP (NNS geoeconomics) (NN professor))
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NNP International) (NNP Institute))
+                  (PP (IN for)
+                    (NP (NNP Strategic) (NNPS Studies))))))
+            (, ,))
+          (`` ``)
+          (VP (VBD was)
+            (NP
+              (NP
+                (NP (DT a) (NN lollipop))
+                (PP (IN from)
+                  (NP (NNP China))))
+              (VP (VBN designed)
+                (S
+                  (VP (TO to)
+                    (VP (VB win)
+                      (PP (IN over)
+                        (NP
+                          (NP (DT the) (NNS bureaucrats))
+                          (PP (IN of)
+                            (NP (PRP$ our) (NN finance) (NN ministry)))))))))
+              (PRN (: --)
+                (S
+                  (NP (PRP they))
+                  (VP (MD will)
+                    (ADVP (RB now))
+                    (VP (VB vie)
+                      (S
+                        (VP (TO to)
+                          (VP (VB get)
+                            (NP (DT the) (NN post)))))))))))
+          (-- --))))
+    (. .)))
+
+root(ROOT-0, says-24)
+nsubj(says-24, Read-1)
+dep(Read-1, India-3)
+aux(hold-5, to-4)
+vmod(India-3, hold-5)
+nn(post-9, BRICS-6)
+nn(post-9, bank-7)
+nn(post-9, president-8)
+dobj(hold-5, post-9)
+nn(bats-12, PM-11)
+dep(post-9, bats-12)
+amod(nations-15, developing-14)
+prep_for(bats-12, nations-15)
+vmod(nations-15, Granting-16)
+det(presidency-19, the-17)
+amod(presidency-19, first-18)
+dobj(Granting-16, presidency-19)
+det(Indian-22, an-21)
+prep_to(Granting-16, Indian-22)
+nn(Baru-26, Sanjaya-25)
+nsubj(lollipop-41, Baru-26)
+nn(professor-29, geoeconomics-28)
+appos(Baru-26, professor-29)
+det(Institute-33, the-31)
+nn(Institute-33, International-32)
+prep_for(professor-29, Institute-33)
+nn(Studies-36, Strategic-35)
+prep_for(Institute-33, Studies-36)
+cop(lollipop-41, was-39)
+det(lollipop-41, a-40)
+ccomp(says-24, lollipop-41)
+prep_from(lollipop-41, China-43)
+vmod(lollipop-41, designed-44)
+aux(win-46, to-45)
+xcomp(designed-44, win-46)
+det(bureaucrats-49, the-48)
+prep_over(win-46, bureaucrats-49)
+poss(ministry-53, our-51)
+nn(ministry-53, finance-52)
+prep_of(bureaucrats-49, ministry-53)
+nsubj(vie-58, they-55)
+aux(vie-58, will-56)
+advmod(vie-58, now-57)
+dep(lollipop-41, vie-58)
+aux(get-60, to-59)
+xcomp(vie-58, get-60)
+det(post-62, the-61)
+dobj(get-60, post-62)
+
+Sentence #10 (15 tokens):
+BR Deepak, a Brics specialist at Jawaharlal Nehru University, is more sanguine.
+[Text=BR CharacterOffsetBegin=1372 CharacterOffsetEnd=1374 PartOfSpeech=NNP Lemma=BR NamedEntityTag=PERSON] [Text=Deepak CharacterOffsetBegin=1375 CharacterOffsetEnd=1381 PartOfSpeech=NNP Lemma=Deepak NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1381 CharacterOffsetEnd=1382 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1383 CharacterOffsetEnd=1384 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Brics CharacterOffsetBegin=1385 CharacterOffsetEnd=1390 PartOfSpeech=NNP Lemma=Brics NamedEntityTag=ORGANIZATION] [Text=specialist CharacterOffsetBegin=1391 CharacterOffsetEnd=1401 PartOfSpeech=NN Lemma=specialist NamedEntityTag=O] [Text=at CharacterOffsetBegin=1402 CharacterOffsetEnd=1404 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Jawaharlal CharacterOffsetBegin=1405 CharacterOffsetEnd=1415 PartOfSpeech=NNP Lemma=Jawaharlal NamedEntityTag=ORGANIZATION] [Text=Nehru CharacterOffsetBegin=1416 CharacterOffsetEnd=1421 PartOfSpeech=NNP Lemma=Nehru NamedEntityTag=ORGANIZATION] [Text=University CharacterOffsetBegin=1422 CharacterOffsetEnd=1432 PartOfSpeech=NNP Lemma=University NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1432 CharacterOffsetEnd=1433 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=1434 CharacterOffsetEnd=1436 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=more CharacterOffsetBegin=1437 CharacterOffsetEnd=1441 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=sanguine CharacterOffsetBegin=1442 CharacterOffsetEnd=1450 PartOfSpeech=JJ Lemma=sanguine NamedEntityTag=O] [Text=. CharacterOffsetBegin=1450 CharacterOffsetEnd=1451 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP BR) (NNP Deepak))
+      (, ,)
+      (NP
+        (NP (DT a) (NNP Brics) (NN specialist))
+        (PP (IN at)
+          (NP (NNP Jawaharlal) (NNP Nehru) (NNP University))))
+      (, ,))
+    (VP (VBZ is)
+      (ADJP (RBR more) (JJ sanguine)))
+    (. .)))
+
+root(ROOT-0, sanguine-14)
+nn(Deepak-2, BR-1)
+nsubj(sanguine-14, Deepak-2)
+det(specialist-6, a-4)
+nn(specialist-6, Brics-5)
+appos(Deepak-2, specialist-6)
+nn(University-10, Jawaharlal-8)
+nn(University-10, Nehru-9)
+prep_at(specialist-6, University-10)
+cop(sanguine-14, is-12)
+advmod(sanguine-14, more-13)
+
+Sentence #11 (33 tokens):
+The decision to split the vote share equally among the five members will contain Beijing-s influence, he feels, but adds that "China would like to change this."
+[Text=The CharacterOffsetBegin=1452 CharacterOffsetEnd=1455 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=decision CharacterOffsetBegin=1456 CharacterOffsetEnd=1464 PartOfSpeech=NN Lemma=decision NamedEntityTag=O] [Text=to CharacterOffsetBegin=1465 CharacterOffsetEnd=1467 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=split CharacterOffsetBegin=1468 CharacterOffsetEnd=1473 PartOfSpeech=VB Lemma=split NamedEntityTag=O] [Text=the CharacterOffsetBegin=1474 CharacterOffsetEnd=1477 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=vote CharacterOffsetBegin=1478 CharacterOffsetEnd=1482 PartOfSpeech=NN Lemma=vote NamedEntityTag=O] [Text=share CharacterOffsetBegin=1483 CharacterOffsetEnd=1488 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=equally CharacterOffsetBegin=1489 CharacterOffsetEnd=1496 PartOfSpeech=RB Lemma=equally NamedEntityTag=O] [Text=among CharacterOffsetBegin=1497 CharacterOffsetEnd=1502 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=the CharacterOffsetBegin=1503 CharacterOffsetEnd=1506 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=five CharacterOffsetBegin=1507 CharacterOffsetEnd=1511 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=members CharacterOffsetBegin=1512 CharacterOffsetEnd=1519 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=will CharacterOffsetBegin=1520 CharacterOffsetEnd=1524 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=contain CharacterOffsetBegin=1525 CharacterOffsetEnd=1532 PartOfSpeech=VB Lemma=contain NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=1533 CharacterOffsetEnd=1540 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=1540 CharacterOffsetEnd=1542 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=influence CharacterOffsetBegin=1543 CharacterOffsetEnd=1552 PartOfSpeech=NN Lemma=influence NamedEntityTag=O] [Text=, CharacterOffsetBegin=1552 CharacterOffsetEnd=1553 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=1554 CharacterOffsetEnd=1556 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=feels CharacterOffsetBegin=1557 CharacterOffsetEnd=1562 PartOfSpeech=VBZ Lemma=feel NamedEntityTag=O] [Text=, CharacterOffsetBegin=1562 CharacterOffsetEnd=1563 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1564 CharacterOffsetEnd=1567 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=adds CharacterOffsetBegin=1568 CharacterOffsetEnd=1572 PartOfSpeech=VBZ Lemma=add NamedEntityTag=O] [Text=that CharacterOffsetBegin=1573 CharacterOffsetEnd=1577 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1578 CharacterOffsetEnd=1579 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=China CharacterOffsetBegin=1579 CharacterOffsetEnd=1584 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=would CharacterOffsetBegin=1585 CharacterOffsetEnd=1590 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=like CharacterOffsetBegin=1591 CharacterOffsetEnd=1595 PartOfSpeech=VB Lemma=like NamedEntityTag=O] [Text=to CharacterOffsetBegin=1596 CharacterOffsetEnd=1598 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=change CharacterOffsetBegin=1599 CharacterOffsetEnd=1605 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=this CharacterOffsetBegin=1606 CharacterOffsetEnd=1610 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=. CharacterOffsetBegin=1610 CharacterOffsetEnd=1611 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1611 CharacterOffsetEnd=1612 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN decision)
+        (S
+          (VP (TO to)
+            (VP (VB split)
+              (NP (DT the) (NN vote) (NN share))
+              (ADVP (RB equally))
+              (PP (IN among)
+                (NP (DT the) (CD five) (NNS members)))))))
+      (VP (MD will)
+        (VP (VB contain)
+          (NP
+            (NP (NNP Beijing) (POS -s))
+            (NN influence)))))
+    (, ,)
+    (NP (PRP he))
+    (VP
+      (VP (VBZ feels))
+      (, ,)
+      (CC but)
+      (VP (VBZ adds)
+        (SBAR (IN that) (`` ``)
+          (S
+            (NP (NNP China))
+            (VP (MD would)
+              (VP (VB like)
+                (S
+                  (VP (TO to)
+                    (VP (VB change)
+                      (NP (DT this)))))))))))
+    (. .) (-- --)))
+
+root(ROOT-0, feels-20)
+det(decision-2, The-1)
+nsubj(contain-14, decision-2)
+aux(split-4, to-3)
+vmod(decision-2, split-4)
+det(share-7, the-5)
+nn(share-7, vote-6)
+dobj(split-4, share-7)
+advmod(split-4, equally-8)
+det(members-12, the-10)
+num(members-12, five-11)
+prep_among(split-4, members-12)
+aux(contain-14, will-13)
+ccomp(feels-20, contain-14)
+poss(influence-17, Beijing-15)
+dobj(contain-14, influence-17)
+nsubj(feels-20, he-19)
+conj_but(feels-20, adds-23)
+mark(like-28, that-24)
+nsubj(like-28, China-26)
+aux(like-28, would-27)
+ccomp(adds-23, like-28)
+aux(change-30, to-29)
+xcomp(like-28, change-30)
+dobj(change-30, this-31)
+
+Sentence #12 (22 tokens):
+Deepak believes the bank is financially beneficial to India: "It will help fund Indian infrastructure without IMF-style conditionalities."
+[Text=Deepak CharacterOffsetBegin=1614 CharacterOffsetEnd=1620 PartOfSpeech=NNP Lemma=Deepak NamedEntityTag=PERSON] [Text=believes CharacterOffsetBegin=1621 CharacterOffsetEnd=1629 PartOfSpeech=VBZ Lemma=believe NamedEntityTag=O] [Text=the CharacterOffsetBegin=1630 CharacterOffsetEnd=1633 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bank CharacterOffsetBegin=1634 CharacterOffsetEnd=1638 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=is CharacterOffsetBegin=1639 CharacterOffsetEnd=1641 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=financially CharacterOffsetBegin=1642 CharacterOffsetEnd=1653 PartOfSpeech=RB Lemma=financially NamedEntityTag=O] [Text=beneficial CharacterOffsetBegin=1654 CharacterOffsetEnd=1664 PartOfSpeech=JJ Lemma=beneficial NamedEntityTag=O] [Text=to CharacterOffsetBegin=1665 CharacterOffsetEnd=1667 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=India CharacterOffsetBegin=1668 CharacterOffsetEnd=1673 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=: CharacterOffsetBegin=1673 CharacterOffsetEnd=1674 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1675 CharacterOffsetEnd=1676 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=1676 CharacterOffsetEnd=1678 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=will CharacterOffsetBegin=1679 CharacterOffsetEnd=1683 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=help CharacterOffsetBegin=1684 CharacterOffsetEnd=1688 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=fund CharacterOffsetBegin=1689 CharacterOffsetEnd=1693 PartOfSpeech=NN Lemma=fund NamedEntityTag=O] [Text=Indian CharacterOffsetBegin=1694 CharacterOffsetEnd=1700 PartOfSpeech=JJ Lemma=indian NamedEntityTag=MISC] [Text=infrastructure CharacterOffsetBegin=1701 CharacterOffsetEnd=1715 PartOfSpeech=NN Lemma=infrastructure NamedEntityTag=O] [Text=without CharacterOffsetBegin=1716 CharacterOffsetEnd=1723 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=IMF-style CharacterOffsetBegin=1724 CharacterOffsetEnd=1733 PartOfSpeech=JJ Lemma=imf-style NamedEntityTag=MISC] [Text=conditionalities CharacterOffsetBegin=1734 CharacterOffsetEnd=1750 PartOfSpeech=NNS Lemma=conditionality NamedEntityTag=O] [Text=. CharacterOffsetBegin=1750 CharacterOffsetEnd=1751 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1751 CharacterOffsetEnd=1752 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Deepak))
+      (VP (VBZ believes)
+        (SBAR
+          (S
+            (NP (DT the) (NN bank))
+            (VP (VBZ is)
+              (ADJP (RB financially) (JJ beneficial)
+                (PP (TO to)
+                  (NP (NNP India)))))))))
+    (: :) (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (MD will)
+        (VP (VB help)
+          (NP
+            (NP (NN fund) (JJ Indian) (NN infrastructure))
+            (PP (IN without)
+              (NP (JJ IMF-style) (NNS conditionalities)))))))
+    (. .) (-- --)))
+
+root(ROOT-0, believes-2)
+nsubj(believes-2, Deepak-1)
+det(bank-4, the-3)
+nsubj(beneficial-7, bank-4)
+cop(beneficial-7, is-5)
+advmod(beneficial-7, financially-6)
+ccomp(believes-2, beneficial-7)
+prep_to(beneficial-7, India-9)
+nsubj(help-14, It-12)
+aux(help-14, will-13)
+parataxis(believes-2, help-14)
+nn(infrastructure-17, fund-15)
+amod(infrastructure-17, Indian-16)
+dobj(help-14, infrastructure-17)
+amod(conditionalities-20, IMF-style-19)
+prep_without(infrastructure-17, conditionalities-20)
+
+Sentence #13 (24 tokens):
+HT Edit: Yes, they can: Bank on BRICS to shake up world order
+Kumar, though, sees this differently.
+[Text=HT CharacterOffsetBegin=1754 CharacterOffsetEnd=1756 PartOfSpeech=NNP Lemma=HT NamedEntityTag=O] [Text=Edit CharacterOffsetBegin=1757 CharacterOffsetEnd=1761 PartOfSpeech=NNP Lemma=Edit NamedEntityTag=O] [Text=: CharacterOffsetBegin=1761 CharacterOffsetEnd=1762 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Yes CharacterOffsetBegin=1763 CharacterOffsetEnd=1766 PartOfSpeech=UH Lemma=yes NamedEntityTag=O] [Text=, CharacterOffsetBegin=1766 CharacterOffsetEnd=1767 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=they CharacterOffsetBegin=1768 CharacterOffsetEnd=1772 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=can CharacterOffsetBegin=1773 CharacterOffsetEnd=1776 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=: CharacterOffsetBegin=1776 CharacterOffsetEnd=1777 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Bank CharacterOffsetBegin=1778 CharacterOffsetEnd=1782 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=O] [Text=on CharacterOffsetBegin=1783 CharacterOffsetEnd=1785 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=1786 CharacterOffsetEnd=1791 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=1792 CharacterOffsetEnd=1794 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=shake CharacterOffsetBegin=1795 CharacterOffsetEnd=1800 PartOfSpeech=VB Lemma=shake NamedEntityTag=O] [Text=up CharacterOffsetBegin=1801 CharacterOffsetEnd=1803 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=world CharacterOffsetBegin=1804 CharacterOffsetEnd=1809 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=order CharacterOffsetBegin=1810 CharacterOffsetEnd=1815 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=Kumar CharacterOffsetBegin=1817 CharacterOffsetEnd=1822 PartOfSpeech=NNP Lemma=Kumar NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1822 CharacterOffsetEnd=1823 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=though CharacterOffsetBegin=1824 CharacterOffsetEnd=1830 PartOfSpeech=RB Lemma=though NamedEntityTag=O] [Text=, CharacterOffsetBegin=1830 CharacterOffsetEnd=1831 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=sees CharacterOffsetBegin=1832 CharacterOffsetEnd=1836 PartOfSpeech=VBZ Lemma=see NamedEntityTag=O] [Text=this CharacterOffsetBegin=1837 CharacterOffsetEnd=1841 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=differently CharacterOffsetBegin=1842 CharacterOffsetEnd=1853 PartOfSpeech=RB Lemma=differently NamedEntityTag=O] [Text=. CharacterOffsetBegin=1853 CharacterOffsetEnd=1854 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP HT) (NNP Edit))
+    (: :)
+    (S
+      (S
+        (INTJ (UH Yes))
+        (, ,)
+        (NP (PRP they))
+        (VP (MD can)))
+      (: :)
+      (S
+        (NP
+          (NP (NNP Bank))
+          (PP (IN on)
+            (NP (NNP BRICS))))
+        (VP (TO to)
+          (VP (VB shake)
+            (PRT (RP up))
+            (NP
+              (NP (NN world) (NN order))
+              (SBAR
+                (S
+                  (NP (NNP Kumar))
+                  (, ,)
+                  (ADVP (RB though))
+                  (, ,)
+                  (VP (VBZ sees)
+                    (NP (DT this))
+                    (ADVP (RB differently))))))))))
+    (. .)))
+
+root(ROOT-0, Edit-2)
+nn(Edit-2, HT-1)
+discourse(can-7, Yes-4)
+nsubj(can-7, they-6)
+dep(Edit-2, can-7)
+nsubj(shake-13, Bank-9)
+prep_on(Bank-9, BRICS-11)
+aux(shake-13, to-12)
+parataxis(can-7, shake-13)
+prt(shake-13, up-14)
+nn(order-16, world-15)
+dobj(shake-13, order-16)
+nsubj(sees-21, Kumar-17)
+advmod(sees-21, though-19)
+rcmod(order-16, sees-21)
+dobj(sees-21, this-22)
+advmod(sees-21, differently-23)
+
+Sentence #14 (11 tokens):
+"Getting finance for infrastructure has never been an issue.
+[Text=`` CharacterOffsetBegin=1855 CharacterOffsetEnd=1856 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Getting CharacterOffsetBegin=1856 CharacterOffsetEnd=1863 PartOfSpeech=VBG Lemma=get NamedEntityTag=O] [Text=finance CharacterOffsetBegin=1864 CharacterOffsetEnd=1871 PartOfSpeech=NN Lemma=finance NamedEntityTag=O] [Text=for CharacterOffsetBegin=1872 CharacterOffsetEnd=1875 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=infrastructure CharacterOffsetBegin=1876 CharacterOffsetEnd=1890 PartOfSpeech=NN Lemma=infrastructure NamedEntityTag=O] [Text=has CharacterOffsetBegin=1891 CharacterOffsetEnd=1894 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=never CharacterOffsetBegin=1895 CharacterOffsetEnd=1900 PartOfSpeech=RB Lemma=never NamedEntityTag=O] [Text=been CharacterOffsetBegin=1901 CharacterOffsetEnd=1905 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=an CharacterOffsetBegin=1906 CharacterOffsetEnd=1908 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=issue CharacterOffsetBegin=1909 CharacterOffsetEnd=1914 PartOfSpeech=NN Lemma=issue NamedEntityTag=O] [Text=. CharacterOffsetBegin=1914 CharacterOffsetEnd=1915 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (VP (VBG Getting)
+        (NP (NN finance))
+        (PP (IN for)
+          (NP (NN infrastructure)))))
+    (VP (VBZ has)
+      (ADVP (RB never))
+      (VP (VBN been)
+        (NP (DT an) (NN issue))))
+    (. .)))
+
+root(ROOT-0, issue-10)
+csubj(issue-10, Getting-2)
+dobj(Getting-2, finance-3)
+prep_for(Getting-2, infrastructure-5)
+aux(issue-10, has-6)
+neg(issue-10, never-7)
+cop(issue-10, been-8)
+det(issue-10, an-9)
+
+Sentence #15 (17 tokens):
+The problem in India has been of execution, not of funds," he says.
+[Text=The CharacterOffsetBegin=1916 CharacterOffsetEnd=1919 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=problem CharacterOffsetBegin=1920 CharacterOffsetEnd=1927 PartOfSpeech=NN Lemma=problem NamedEntityTag=O] [Text=in CharacterOffsetBegin=1928 CharacterOffsetEnd=1930 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=India CharacterOffsetBegin=1931 CharacterOffsetEnd=1936 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=has CharacterOffsetBegin=1937 CharacterOffsetEnd=1940 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1941 CharacterOffsetEnd=1945 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=of CharacterOffsetBegin=1946 CharacterOffsetEnd=1948 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=execution CharacterOffsetBegin=1949 CharacterOffsetEnd=1958 PartOfSpeech=NN Lemma=execution NamedEntityTag=O] [Text=, CharacterOffsetBegin=1958 CharacterOffsetEnd=1959 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=not CharacterOffsetBegin=1960 CharacterOffsetEnd=1963 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=of CharacterOffsetBegin=1964 CharacterOffsetEnd=1966 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=funds CharacterOffsetBegin=1967 CharacterOffsetEnd=1972 PartOfSpeech=NNS Lemma=fund NamedEntityTag=O] [Text=, CharacterOffsetBegin=1972 CharacterOffsetEnd=1973 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1973 CharacterOffsetEnd=1974 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=he CharacterOffsetBegin=1975 CharacterOffsetEnd=1977 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=1978 CharacterOffsetEnd=1982 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1982 CharacterOffsetEnd=1983 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN problem))
+        (PP (IN in)
+          (NP (NNP India))))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (PP (IN of)
+            (NP
+              (NP (NN execution))
+              (, ,)
+              (CONJP (RB not) (IN of))
+              (NP (NNS funds)))))))
+    (, ,) (-- --)
+    (NP (PRP he))
+    (VP (VBZ says))
+    (. .)))
+
+root(ROOT-0, says-16)
+det(problem-2, The-1)
+nsubj(been-6, problem-2)
+prep_in(problem-2, India-4)
+aux(been-6, has-5)
+ccomp(says-16, been-6)
+prep_of(been-6, execution-8)
+conj_negcc(execution-8, funds-12)
+nsubj(says-16, he-15)
+
+Sentence #16 (30 tokens):
+The New Development Bank-s capital base of $50 billion, he says, is too small: India-s needs an estimated $1 trillion ( Rs.
+[Text=The CharacterOffsetBegin=1985 CharacterOffsetEnd=1988 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=New CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=NNP Lemma=New NamedEntityTag=ORGANIZATION] [Text=Development CharacterOffsetBegin=1993 CharacterOffsetEnd=2004 PartOfSpeech=NNP Lemma=Development NamedEntityTag=ORGANIZATION] [Text=Bank CharacterOffsetBegin=2005 CharacterOffsetEnd=2009 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=2009 CharacterOffsetEnd=2011 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=capital CharacterOffsetBegin=2012 CharacterOffsetEnd=2019 PartOfSpeech=NN Lemma=capital NamedEntityTag=O] [Text=base CharacterOffsetBegin=2020 CharacterOffsetEnd=2024 PartOfSpeech=NN Lemma=base NamedEntityTag=O] [Text=of CharacterOffsetBegin=2025 CharacterOffsetEnd=2027 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2028 CharacterOffsetEnd=2029 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.0E10] [Text=50 CharacterOffsetBegin=2029 CharacterOffsetEnd=2031 PartOfSpeech=CD Lemma=50 NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.0E10] [Text=billion CharacterOffsetBegin=2032 CharacterOffsetEnd=2039 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.0E10] [Text=, CharacterOffsetBegin=2039 CharacterOffsetEnd=2040 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=2041 CharacterOffsetEnd=2043 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=says CharacterOffsetBegin=2044 CharacterOffsetEnd=2048 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=2048 CharacterOffsetEnd=2049 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=2050 CharacterOffsetEnd=2052 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=too CharacterOffsetBegin=2053 CharacterOffsetEnd=2056 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=small CharacterOffsetBegin=2057 CharacterOffsetEnd=2062 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=: CharacterOffsetBegin=2062 CharacterOffsetEnd=2063 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=India CharacterOffsetBegin=2064 CharacterOffsetEnd=2069 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=2069 CharacterOffsetEnd=2071 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=needs CharacterOffsetBegin=2072 CharacterOffsetEnd=2077 PartOfSpeech=VBZ Lemma=need NamedEntityTag=O] [Text=an CharacterOffsetBegin=2078 CharacterOffsetEnd=2080 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=estimated CharacterOffsetBegin=2081 CharacterOffsetEnd=2090 PartOfSpeech=VBN Lemma=estimate NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2091 CharacterOffsetEnd=2092 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1.0E12] [Text=1 CharacterOffsetBegin=2092 CharacterOffsetEnd=2093 PartOfSpeech=CD Lemma=1 NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1.0E12] [Text=trillion CharacterOffsetBegin=2094 CharacterOffsetEnd=2102 PartOfSpeech=CD Lemma=trillion NamedEntityTag=MONEY NormalizedNamedEntityTag=~$1.0E12] [Text=-LRB- CharacterOffsetBegin=2103 CharacterOffsetEnd=2104 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Rs CharacterOffsetBegin=2105 CharacterOffsetEnd=2107 PartOfSpeech=NN Lemma=r NamedEntityTag=O] [Text=. CharacterOffsetBegin=2107 CharacterOffsetEnd=2108 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (DT The) (NNP New) (NNP Development) (NNP Bank) (POS -s))
+          (NN capital) (NN base))
+        (PP (IN of)
+          (NP
+            (QP ($ $) (CD 50) (CD billion)))))
+      (PRN (, ,)
+        (S
+          (NP (PRP he))
+          (VP (VBZ says)))
+        (, ,))
+      (VP (VBZ is)
+        (ADJP (RB too) (JJ small))))
+    (: :)
+    (S
+      (NP (NNP India) (POS -s))
+      (VP (VBZ needs)
+        (VP
+          (ADVP (DT an))
+          (VBN estimated)
+          (NP ($ $)
+            (QP (CD 1) (CD trillion)))
+          (-LRB- -LRB-)
+          (PP (NN Rs)))))
+    (. .)))
+
+root(ROOT-0, small-18)
+det(Bank-4, The-1)
+nn(Bank-4, New-2)
+nn(Bank-4, Development-3)
+poss(base-7, Bank-4)
+nn(base-7, capital-6)
+nsubj(small-18, base-7)
+prep_of(base-7, dol-9)
+number(billion-11, 50-10)
+num(dol-9, billion-11)
+nsubj(says-14, he-13)
+parataxis(small-18, says-14)
+cop(small-18, is-16)
+advmod(small-18, too-17)
+nsubj(needs-22, India-20)
+possessive(India-20, -s-21)
+parataxis(small-18, needs-22)
+advmod(estimated-24, an-23)
+dep(needs-22, estimated-24)
+dobj(estimated-24, dol-25)
+number(trillion-27, 1-26)
+num(dol-25, trillion-27)
+prep(estimated-24, Rs-29)
+
+Sentence #17 (15 tokens):
+60 lakh crore) over the next five years to restore its crumbling infrastructure.
+[Text=60 CharacterOffsetBegin=2109 CharacterOffsetEnd=2111 PartOfSpeech=CD Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0] [Text=lakh CharacterOffsetBegin=2112 CharacterOffsetEnd=2116 PartOfSpeech=NN Lemma=lakh NamedEntityTag=O] [Text=crore CharacterOffsetBegin=2117 CharacterOffsetEnd=2122 PartOfSpeech=NN Lemma=crore NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2122 CharacterOffsetEnd=2123 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=over CharacterOffsetBegin=2124 CharacterOffsetEnd=2128 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=2129 CharacterOffsetEnd=2132 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t3" tid="t4" type="DURATION" value="P5Y">the next five years<-TIMEX3>] [Text=next CharacterOffsetBegin=2133 CharacterOffsetEnd=2137 PartOfSpeech=JJ Lemma=next NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t3" tid="t4" type="DURATION" value="P5Y">the next five years<-TIMEX3>] [Text=five CharacterOffsetBegin=2138 CharacterOffsetEnd=2142 PartOfSpeech=CD Lemma=five NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t3" tid="t4" type="DURATION" value="P5Y">the next five years<-TIMEX3>] [Text=years CharacterOffsetBegin=2143 CharacterOffsetEnd=2148 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P5Y Timex=<TIMEX3 beginPoint="t0" endPoint="t3" tid="t4" type="DURATION" value="P5Y">the next five years<-TIMEX3>] [Text=to CharacterOffsetBegin=2149 CharacterOffsetEnd=2151 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=restore CharacterOffsetBegin=2152 CharacterOffsetEnd=2159 PartOfSpeech=VB Lemma=restore NamedEntityTag=O] [Text=its CharacterOffsetBegin=2160 CharacterOffsetEnd=2163 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=crumbling CharacterOffsetBegin=2164 CharacterOffsetEnd=2173 PartOfSpeech=VBG Lemma=crumble NamedEntityTag=O] [Text=infrastructure CharacterOffsetBegin=2174 CharacterOffsetEnd=2188 PartOfSpeech=NN Lemma=infrastructure NamedEntityTag=O] [Text=. CharacterOffsetBegin=2188 CharacterOffsetEnd=2189 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (CD 60) (NN lakh))
+    (SBAR
+      (S
+        (NP (NN crore))
+        (-RRB- -RRB-)
+        (VP
+          (ADVP (IN over)
+            (NP (DT the) (JJ next) (CD five) (NNS years)))
+          (TO to)
+          (VP (VB restore)
+            (NP (PRP$ its) (VBG crumbling) (NN infrastructure))))))
+    (. .)))
+
+root(ROOT-0, lakh-2)
+num(lakh-2, 60-1)
+nsubj(restore-11, crore-3)
+advmod(restore-11, over-5)
+det(years-9, the-6)
+amod(years-9, next-7)
+num(years-9, five-8)
+pobj(over-5, years-9)
+aux(restore-11, to-10)
+vmod(lakh-2, restore-11)
+poss(infrastructure-14, its-12)
+amod(infrastructure-14, crumbling-13)
+dobj(restore-11, infrastructure-14)
+
+Sentence #18 (49 tokens):
+Read: BRICS bank: how PM got big powers to accept India-s idea
+The other concern is over the Brics contingency reserve fund which is already in Beijing-s grip: China is providing over 40% of the fund-s initial $100 billion corpus.
+[Text=Read CharacterOffsetBegin=2191 CharacterOffsetEnd=2195 PartOfSpeech=NNP Lemma=Read NamedEntityTag=O] [Text=: CharacterOffsetBegin=2195 CharacterOffsetEnd=2196 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=2197 CharacterOffsetEnd=2202 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2203 CharacterOffsetEnd=2207 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=: CharacterOffsetBegin=2207 CharacterOffsetEnd=2208 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=how CharacterOffsetBegin=2209 CharacterOffsetEnd=2212 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=PM CharacterOffsetBegin=2213 CharacterOffsetEnd=2215 PartOfSpeech=NNP Lemma=PM NamedEntityTag=O] [Text=got CharacterOffsetBegin=2216 CharacterOffsetEnd=2219 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=big CharacterOffsetBegin=2220 CharacterOffsetEnd=2223 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=powers CharacterOffsetBegin=2224 CharacterOffsetEnd=2230 PartOfSpeech=NNS Lemma=power NamedEntityTag=O] [Text=to CharacterOffsetBegin=2231 CharacterOffsetEnd=2233 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=accept CharacterOffsetBegin=2234 CharacterOffsetEnd=2240 PartOfSpeech=VB Lemma=accept NamedEntityTag=O] [Text=India CharacterOffsetBegin=2241 CharacterOffsetEnd=2246 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=2246 CharacterOffsetEnd=2248 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=idea CharacterOffsetBegin=2249 CharacterOffsetEnd=2253 PartOfSpeech=NN Lemma=idea NamedEntityTag=O] [Text=The CharacterOffsetBegin=2255 CharacterOffsetEnd=2258 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=other CharacterOffsetBegin=2259 CharacterOffsetEnd=2264 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=concern CharacterOffsetBegin=2265 CharacterOffsetEnd=2272 PartOfSpeech=NN Lemma=concern NamedEntityTag=O] [Text=is CharacterOffsetBegin=2273 CharacterOffsetEnd=2275 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=over CharacterOffsetBegin=2276 CharacterOffsetEnd=2280 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=2281 CharacterOffsetEnd=2284 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Brics CharacterOffsetBegin=2285 CharacterOffsetEnd=2290 PartOfSpeech=NNP Lemma=Brics NamedEntityTag=ORGANIZATION] [Text=contingency CharacterOffsetBegin=2291 CharacterOffsetEnd=2302 PartOfSpeech=NN Lemma=contingency NamedEntityTag=O] [Text=reserve CharacterOffsetBegin=2303 CharacterOffsetEnd=2310 PartOfSpeech=NN Lemma=reserve NamedEntityTag=O] [Text=fund CharacterOffsetBegin=2311 CharacterOffsetEnd=2315 PartOfSpeech=NN Lemma=fund NamedEntityTag=O] [Text=which CharacterOffsetBegin=2316 CharacterOffsetEnd=2321 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=is CharacterOffsetBegin=2322 CharacterOffsetEnd=2324 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=already CharacterOffsetBegin=2325 CharacterOffsetEnd=2332 PartOfSpeech=RB Lemma=already NamedEntityTag=O] [Text=in CharacterOffsetBegin=2333 CharacterOffsetEnd=2335 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=2336 CharacterOffsetEnd=2343 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=2343 CharacterOffsetEnd=2345 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=grip CharacterOffsetBegin=2346 CharacterOffsetEnd=2350 PartOfSpeech=NN Lemma=grip NamedEntityTag=O] [Text=: CharacterOffsetBegin=2350 CharacterOffsetEnd=2351 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=China CharacterOffsetBegin=2352 CharacterOffsetEnd=2357 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=2358 CharacterOffsetEnd=2360 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=providing CharacterOffsetBegin=2361 CharacterOffsetEnd=2370 PartOfSpeech=VBG Lemma=provide NamedEntityTag=O] [Text=over CharacterOffsetBegin=2371 CharacterOffsetEnd=2375 PartOfSpeech=RP Lemma=over NamedEntityTag=O] [Text=40 CharacterOffsetBegin=2376 CharacterOffsetEnd=2378 PartOfSpeech=CD Lemma=40 NamedEntityTag=PERCENT NormalizedNamedEntityTag=>%40.0] [Text=% CharacterOffsetBegin=2378 CharacterOffsetEnd=2379 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=>%40.0] [Text=of CharacterOffsetBegin=2380 CharacterOffsetEnd=2382 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2383 CharacterOffsetEnd=2386 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fund CharacterOffsetBegin=2387 CharacterOffsetEnd=2391 PartOfSpeech=NN Lemma=fund NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2391 CharacterOffsetEnd=2393 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=initial CharacterOffsetBegin=2394 CharacterOffsetEnd=2401 PartOfSpeech=JJ Lemma=initial NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2402 CharacterOffsetEnd=2403 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E11] [Text=100 CharacterOffsetBegin=2403 CharacterOffsetEnd=2406 PartOfSpeech=CD Lemma=100 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E11] [Text=billion CharacterOffsetBegin=2407 CharacterOffsetEnd=2414 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E11] [Text=corpus CharacterOffsetBegin=2415 CharacterOffsetEnd=2421 PartOfSpeech=NN Lemma=corpus NamedEntityTag=O] [Text=. CharacterOffsetBegin=2421 CharacterOffsetEnd=2422 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Read))
+    (: :)
+    (NP
+      (NP (NNP BRICS) (NN bank))
+      (: :)
+      (S
+        (S
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (NNP PM))
+              (VP (VBD got)
+                (NP (JJ big) (NNS powers))
+                (S
+                  (VP (TO to)
+                    (VP (VB accept)
+                      (NP
+                        (NP (NNP India) (POS -s))
+                        (NN idea))))))))
+          (NP (DT The) (JJ other) (NN concern))
+          (VP (VBZ is)
+            (PP (IN over)
+              (NP
+                (NP (DT the) (NNP Brics) (NN contingency) (NN reserve) (NN fund))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ is)
+                      (ADVP (RB already))
+                      (PP (IN in)
+                        (NP
+                          (NP (NNP Beijing) (POS -s))
+                          (NN grip))))))))))
+        (: :)
+        (S
+          (NP (NNP China))
+          (VP (VBZ is)
+            (VP (VBG providing)
+              (PRT (RP over))
+              (NP
+                (NP (CD 40) (NN %))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN fund) (POS -s))
+                    (JJ initial)
+                    (ADJP
+                      (QP ($ $) (CD 100) (CD billion)))
+                    (NN corpus)))))))))
+    (. .)))
+
+root(ROOT-0, Read-1)
+nn(bank-4, BRICS-3)
+dep(Read-1, bank-4)
+advmod(got-8, how-6)
+nsubj(got-8, PM-7)
+advcl(is-19, got-8)
+amod(powers-10, big-9)
+dobj(got-8, powers-10)
+aux(accept-12, to-11)
+vmod(got-8, accept-12)
+poss(idea-15, India-13)
+dobj(accept-12, idea-15)
+det(concern-18, The-16)
+amod(concern-18, other-17)
+nsubj(is-19, concern-18)
+dep(bank-4, is-19)
+det(fund-25, the-21)
+nn(fund-25, Brics-22)
+nn(fund-25, contingency-23)
+nn(fund-25, reserve-24)
+prep_over(is-19, fund-25)
+nsubj(is-27, which-26)
+rcmod(fund-25, is-27)
+advmod(is-27, already-28)
+poss(grip-32, Beijing-30)
+prep_in(is-27, grip-32)
+nsubj(providing-36, China-34)
+aux(providing-36, is-35)
+parataxis(is-19, providing-36)
+prt(providing-36, over-37)
+num(%-39, 40-38)
+dobj(providing-36, %-39)
+det(fund-42, the-41)
+poss(corpus-48, fund-42)
+amod(corpus-48, initial-44)
+amod(corpus-48, dol-45)
+number(billion-47, 100-46)
+num(dol-45, billion-47)
+prep_of(%-39, corpus-48)
+
+Sentence #19 (37 tokens):
+Baru sees the bank-s creation as an implicit acceptance by New Delhi that "for the foreseeable future, we won-t get in the way of China and we are only buying time".
+[Text=Baru CharacterOffsetBegin=2424 CharacterOffsetEnd=2428 PartOfSpeech=NNP Lemma=Baru NamedEntityTag=O] [Text=sees CharacterOffsetBegin=2429 CharacterOffsetEnd=2433 PartOfSpeech=VBZ Lemma=see NamedEntityTag=O] [Text=the CharacterOffsetBegin=2434 CharacterOffsetEnd=2437 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2438 CharacterOffsetEnd=2442 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2442 CharacterOffsetEnd=2444 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=creation CharacterOffsetBegin=2445 CharacterOffsetEnd=2453 PartOfSpeech=NN Lemma=creation NamedEntityTag=O] [Text=as CharacterOffsetBegin=2454 CharacterOffsetEnd=2456 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=an CharacterOffsetBegin=2457 CharacterOffsetEnd=2459 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=implicit CharacterOffsetBegin=2460 CharacterOffsetEnd=2468 PartOfSpeech=JJ Lemma=implicit NamedEntityTag=O] [Text=acceptance CharacterOffsetBegin=2469 CharacterOffsetEnd=2479 PartOfSpeech=NN Lemma=acceptance NamedEntityTag=O] [Text=by CharacterOffsetBegin=2480 CharacterOffsetEnd=2482 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=New CharacterOffsetBegin=2483 CharacterOffsetEnd=2486 PartOfSpeech=NNP Lemma=New NamedEntityTag=LOCATION] [Text=Delhi CharacterOffsetBegin=2487 CharacterOffsetEnd=2492 PartOfSpeech=NNP Lemma=Delhi NamedEntityTag=LOCATION] [Text=that CharacterOffsetBegin=2493 CharacterOffsetEnd=2497 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2498 CharacterOffsetEnd=2499 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=for CharacterOffsetBegin=2499 CharacterOffsetEnd=2502 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2503 CharacterOffsetEnd=2506 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=foreseeable CharacterOffsetBegin=2507 CharacterOffsetEnd=2518 PartOfSpeech=JJ Lemma=foreseeable NamedEntityTag=O] [Text=future CharacterOffsetBegin=2519 CharacterOffsetEnd=2525 PartOfSpeech=NN Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t5" type="DATE" value="FUTURE_REF">future<-TIMEX3>] [Text=, CharacterOffsetBegin=2525 CharacterOffsetEnd=2526 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=2527 CharacterOffsetEnd=2529 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=wo CharacterOffsetBegin=2530 CharacterOffsetEnd=2532 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=n-t CharacterOffsetBegin=2532 CharacterOffsetEnd=2535 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=get CharacterOffsetBegin=2536 CharacterOffsetEnd=2539 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=in CharacterOffsetBegin=2540 CharacterOffsetEnd=2542 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=2543 CharacterOffsetEnd=2546 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=way CharacterOffsetBegin=2547 CharacterOffsetEnd=2550 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=of CharacterOffsetBegin=2551 CharacterOffsetEnd=2553 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=China CharacterOffsetBegin=2554 CharacterOffsetEnd=2559 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2560 CharacterOffsetEnd=2563 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=2564 CharacterOffsetEnd=2566 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=2567 CharacterOffsetEnd=2570 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=only CharacterOffsetBegin=2571 CharacterOffsetEnd=2575 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=buying CharacterOffsetBegin=2576 CharacterOffsetEnd=2582 PartOfSpeech=VBG Lemma=buy NamedEntityTag=O] [Text=time CharacterOffsetBegin=2583 CharacterOffsetEnd=2587 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2587 CharacterOffsetEnd=2588 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=. CharacterOffsetBegin=2588 CharacterOffsetEnd=2589 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Baru))
+    (VP (VBZ sees)
+      (NP
+        (NP (DT the) (NN bank) (POS -s))
+        (NN creation))
+      (PP (IN as)
+        (NP
+          (NP (DT an) (JJ implicit) (NN acceptance))
+          (PP (IN by)
+            (NP (NNP New) (NNP Delhi)))))
+      (SBAR (IN that) (`` ``)
+        (S
+          (S
+            (PP (IN for)
+              (NP (DT the) (JJ foreseeable) (NN future)))
+            (, ,)
+            (NP (PRP we))
+            (VP (MD wo) (RB n-t)
+              (VP (VB get)
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN way))
+                    (PP (IN of)
+                      (NP (NNP China))))))))
+          (CC and)
+          (S
+            (NP (PRP we))
+            (VP (VBP are)
+              (ADVP (RB only))
+              (VP (VBG buying)
+                (NP (NN time))))))
+        (-- --)))
+    (. .)))
+
+root(ROOT-0, sees-2)
+nsubj(sees-2, Baru-1)
+det(bank-4, the-3)
+poss(creation-6, bank-4)
+dobj(sees-2, creation-6)
+det(acceptance-10, an-8)
+amod(acceptance-10, implicit-9)
+prep_as(sees-2, acceptance-10)
+nn(Delhi-13, New-12)
+prep_by(acceptance-10, Delhi-13)
+mark(get-24, that-14)
+det(future-19, the-17)
+amod(future-19, foreseeable-18)
+prep_for(get-24, future-19)
+nsubj(get-24, we-21)
+aux(get-24, wo-22)
+neg(get-24, n-t-23)
+ccomp(sees-2, get-24)
+det(way-27, the-26)
+prep_in(get-24, way-27)
+prep_of(way-27, China-29)
+nsubj(buying-34, we-31)
+aux(buying-34, are-32)
+advmod(buying-34, only-33)
+conj_and(get-24, buying-34)
+dobj(buying-34, time-35)
+
+Sentence #20 (50 tokens):
+Read: Brics bank will restore balance in world financial system, says China
+Indian officials have argued that the bank can be a positive so long as New Delhi keeps a close watch on how its rules develop, while forming the right bonds with Brazil and Russia.
+[Text=Read CharacterOffsetBegin=2591 CharacterOffsetEnd=2595 PartOfSpeech=NNP Lemma=Read NamedEntityTag=O] [Text=: CharacterOffsetBegin=2595 CharacterOffsetEnd=2596 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Brics CharacterOffsetBegin=2597 CharacterOffsetEnd=2602 PartOfSpeech=NNS Lemma=bric NamedEntityTag=ORGANIZATION] [Text=bank CharacterOffsetBegin=2603 CharacterOffsetEnd=2607 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=will CharacterOffsetBegin=2608 CharacterOffsetEnd=2612 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=restore CharacterOffsetBegin=2613 CharacterOffsetEnd=2620 PartOfSpeech=VB Lemma=restore NamedEntityTag=O] [Text=balance CharacterOffsetBegin=2621 CharacterOffsetEnd=2628 PartOfSpeech=NN Lemma=balance NamedEntityTag=O] [Text=in CharacterOffsetBegin=2629 CharacterOffsetEnd=2631 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=world CharacterOffsetBegin=2632 CharacterOffsetEnd=2637 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=financial CharacterOffsetBegin=2638 CharacterOffsetEnd=2647 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O] [Text=system CharacterOffsetBegin=2648 CharacterOffsetEnd=2654 PartOfSpeech=NN Lemma=system NamedEntityTag=O] [Text=, CharacterOffsetBegin=2654 CharacterOffsetEnd=2655 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=says CharacterOffsetBegin=2656 CharacterOffsetEnd=2660 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=China CharacterOffsetBegin=2661 CharacterOffsetEnd=2666 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=Indian CharacterOffsetBegin=2668 CharacterOffsetEnd=2674 PartOfSpeech=NNP Lemma=Indian NamedEntityTag=LOCATION] [Text=officials CharacterOffsetBegin=2675 CharacterOffsetEnd=2684 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=have CharacterOffsetBegin=2685 CharacterOffsetEnd=2689 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=argued CharacterOffsetBegin=2690 CharacterOffsetEnd=2696 PartOfSpeech=VBN Lemma=argue NamedEntityTag=O] [Text=that CharacterOffsetBegin=2697 CharacterOffsetEnd=2701 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=2702 CharacterOffsetEnd=2705 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2706 CharacterOffsetEnd=2710 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=can CharacterOffsetBegin=2711 CharacterOffsetEnd=2714 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=be CharacterOffsetBegin=2715 CharacterOffsetEnd=2717 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2718 CharacterOffsetEnd=2719 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=positive CharacterOffsetBegin=2720 CharacterOffsetEnd=2728 PartOfSpeech=JJ Lemma=positive NamedEntityTag=O] [Text=so CharacterOffsetBegin=2729 CharacterOffsetEnd=2731 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=long CharacterOffsetBegin=2732 CharacterOffsetEnd=2736 PartOfSpeech=RB Lemma=long NamedEntityTag=O] [Text=as CharacterOffsetBegin=2737 CharacterOffsetEnd=2739 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=New CharacterOffsetBegin=2740 CharacterOffsetEnd=2743 PartOfSpeech=NNP Lemma=New NamedEntityTag=LOCATION] [Text=Delhi CharacterOffsetBegin=2744 CharacterOffsetEnd=2749 PartOfSpeech=NNP Lemma=Delhi NamedEntityTag=LOCATION] [Text=keeps CharacterOffsetBegin=2750 CharacterOffsetEnd=2755 PartOfSpeech=VBZ Lemma=keep NamedEntityTag=O] [Text=a CharacterOffsetBegin=2756 CharacterOffsetEnd=2757 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=close CharacterOffsetBegin=2758 CharacterOffsetEnd=2763 PartOfSpeech=JJ Lemma=close NamedEntityTag=O] [Text=watch CharacterOffsetBegin=2764 CharacterOffsetEnd=2769 PartOfSpeech=NN Lemma=watch NamedEntityTag=O] [Text=on CharacterOffsetBegin=2770 CharacterOffsetEnd=2772 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=how CharacterOffsetBegin=2773 CharacterOffsetEnd=2776 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=its CharacterOffsetBegin=2777 CharacterOffsetEnd=2780 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=rules CharacterOffsetBegin=2781 CharacterOffsetEnd=2786 PartOfSpeech=NNS Lemma=rule NamedEntityTag=O] [Text=develop CharacterOffsetBegin=2787 CharacterOffsetEnd=2794 PartOfSpeech=VBP Lemma=develop NamedEntityTag=O] [Text=, CharacterOffsetBegin=2794 CharacterOffsetEnd=2795 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=while CharacterOffsetBegin=2796 CharacterOffsetEnd=2801 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=forming CharacterOffsetBegin=2802 CharacterOffsetEnd=2809 PartOfSpeech=VBG Lemma=form NamedEntityTag=O] [Text=the CharacterOffsetBegin=2810 CharacterOffsetEnd=2813 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=right CharacterOffsetBegin=2814 CharacterOffsetEnd=2819 PartOfSpeech=JJ Lemma=right NamedEntityTag=O] [Text=bonds CharacterOffsetBegin=2820 CharacterOffsetEnd=2825 PartOfSpeech=NNS Lemma=bond NamedEntityTag=O] [Text=with CharacterOffsetBegin=2826 CharacterOffsetEnd=2830 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=2831 CharacterOffsetEnd=2837 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2838 CharacterOffsetEnd=2841 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Russia CharacterOffsetBegin=2842 CharacterOffsetEnd=2848 PartOfSpeech=NNP Lemma=Russia NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2848 CharacterOffsetEnd=2849 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Read))
+      (: :)
+      (NP
+        (NP (NNS Brics))
+        (SBAR
+          (S
+            (NP (NN bank))
+            (VP (MD will)
+              (VP (VB restore)
+                (NP (NN balance))
+                (PP (IN in)
+                  (NP (NN world) (JJ financial) (NN system))))))))
+      (, ,))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (NNP China) (NNP Indian) (NNS officials))
+          (VP (VBP have)
+            (VP (VBN argued)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NN bank))
+                  (VP (MD can)
+                    (VP (VB be)
+                      (ADJP (DT a) (JJ positive))
+                      (ADVP (RB so) (RB long))
+                      (SBAR (IN as)
+                        (S
+                          (NP (NNP New) (NNP Delhi))
+                          (VP (VBZ keeps)
+                            (NP
+                              (NP (DT a) (JJ close) (NN watch))
+                              (PP (IN on)
+                                (SBAR
+                                  (WHADVP (WRB how))
+                                  (S
+                                    (NP (PRP$ its) (NNS rules))
+                                    (VP (VBP develop)
+                                      (PRN (, ,) (IN while)
+                                        (S
+                                          (VP (VBG forming)
+                                            (NP (DT the) (JJ right) (NNS bonds))
+                                            (PP (IN with)
+                                              (NP (NNP Brazil)
+                                                (CC and)
+                                                (NNP Russia)))))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, says-13)
+nsubj(says-13, Read-1)
+dep(Read-1, Brics-3)
+nsubj(restore-6, bank-4)
+aux(restore-6, will-5)
+rcmod(Brics-3, restore-6)
+dobj(restore-6, balance-7)
+nn(system-11, world-9)
+amod(system-11, financial-10)
+prep_in(restore-6, system-11)
+nn(officials-16, China-14)
+nn(officials-16, Indian-15)
+nsubj(argued-18, officials-16)
+aux(argued-18, have-17)
+ccomp(says-13, argued-18)
+mark(positive-25, that-19)
+det(bank-21, the-20)
+nsubj(positive-25, bank-21)
+aux(positive-25, can-22)
+cop(positive-25, be-23)
+det(positive-25, a-24)
+ccomp(argued-18, positive-25)
+advmod(long-27, so-26)
+advmod(positive-25, long-27)
+mark(keeps-31, as-28)
+nn(Delhi-30, New-29)
+nsubj(keeps-31, Delhi-30)
+advcl(positive-25, keeps-31)
+det(watch-34, a-32)
+amod(watch-34, close-33)
+dobj(keeps-31, watch-34)
+advmod(develop-39, how-36)
+poss(rules-38, its-37)
+nsubj(develop-39, rules-38)
+prepc_on(watch-34, develop-39)
+dep(forming-42, while-41)
+parataxis(develop-39, forming-42)
+det(bonds-45, the-43)
+amod(bonds-45, right-44)
+dobj(forming-42, bonds-45)
+prep_with(forming-42, Brazil-47)
+conj_and(Brazil-47, Russia-49)
+
+Sentence #21 (10 tokens):
+But that will be tall order for Indian diplomacy.
+[Text=But CharacterOffsetBegin=2851 CharacterOffsetEnd=2854 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=that CharacterOffsetBegin=2855 CharacterOffsetEnd=2859 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=will CharacterOffsetBegin=2860 CharacterOffsetEnd=2864 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=2865 CharacterOffsetEnd=2867 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=tall CharacterOffsetBegin=2868 CharacterOffsetEnd=2872 PartOfSpeech=JJ Lemma=tall NamedEntityTag=O] [Text=order CharacterOffsetBegin=2873 CharacterOffsetEnd=2878 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=for CharacterOffsetBegin=2879 CharacterOffsetEnd=2882 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Indian CharacterOffsetBegin=2883 CharacterOffsetEnd=2889 PartOfSpeech=JJ Lemma=indian NamedEntityTag=MISC] [Text=diplomacy CharacterOffsetBegin=2890 CharacterOffsetEnd=2899 PartOfSpeech=NN Lemma=diplomacy NamedEntityTag=O] [Text=. CharacterOffsetBegin=2899 CharacterOffsetEnd=2900 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (DT that))
+    (VP (MD will)
+      (VP (VB be)
+        (NP
+          (NP (JJ tall) (NN order))
+          (PP (IN for)
+            (NP (JJ Indian) (NN diplomacy))))))
+    (. .)))
+
+root(ROOT-0, order-6)
+cc(order-6, But-1)
+nsubj(order-6, that-2)
+aux(order-6, will-3)
+cop(order-6, be-4)
+amod(order-6, tall-5)
+amod(diplomacy-9, Indian-8)
+prep_for(order-6, diplomacy-9)
+
+Sentence #22 (19 tokens):
+Kumar concludes the BRICS bank "does not contribute in any way to India-s national interest".
+[Text=Kumar CharacterOffsetBegin=2901 CharacterOffsetEnd=2906 PartOfSpeech=NNP Lemma=Kumar NamedEntityTag=PERSON] [Text=concludes CharacterOffsetBegin=2907 CharacterOffsetEnd=2916 PartOfSpeech=VBZ Lemma=conclude NamedEntityTag=O] [Text=the CharacterOffsetBegin=2917 CharacterOffsetEnd=2920 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=BRICS CharacterOffsetBegin=2921 CharacterOffsetEnd=2926 PartOfSpeech=NNP Lemma=BRICS NamedEntityTag=O] [Text=bank CharacterOffsetBegin=2927 CharacterOffsetEnd=2931 PartOfSpeech=NN Lemma=bank NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2932 CharacterOffsetEnd=2933 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=does CharacterOffsetBegin=2933 CharacterOffsetEnd=2937 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=2938 CharacterOffsetEnd=2941 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=contribute CharacterOffsetBegin=2942 CharacterOffsetEnd=2952 PartOfSpeech=VB Lemma=contribute NamedEntityTag=O] [Text=in CharacterOffsetBegin=2953 CharacterOffsetEnd=2955 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=any CharacterOffsetBegin=2956 CharacterOffsetEnd=2959 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=way CharacterOffsetBegin=2960 CharacterOffsetEnd=2963 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=to CharacterOffsetBegin=2964 CharacterOffsetEnd=2966 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=India CharacterOffsetBegin=2967 CharacterOffsetEnd=2972 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=-s CharacterOffsetBegin=2972 CharacterOffsetEnd=2974 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=national CharacterOffsetBegin=2975 CharacterOffsetEnd=2983 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=interest CharacterOffsetBegin=2984 CharacterOffsetEnd=2992 PartOfSpeech=NN Lemma=interest NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2992 CharacterOffsetEnd=2993 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=. CharacterOffsetBegin=2993 CharacterOffsetEnd=2994 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Kumar))
+    (VP (VBZ concludes)
+      (SBAR
+        (S
+          (NP (DT the) (NNP BRICS) (NN bank))
+          (`` ``)
+          (VP (VBZ does) (RB not)
+            (VP (VB contribute)
+              (PP (IN in)
+                (NP (DT any) (NN way)))
+              (PP (TO to)
+                (NP
+                  (NP (NNP India) (POS -s))
+                  (JJ national) (NN interest)))))
+          (-- --))))
+    (. .)))
+
+root(ROOT-0, concludes-2)
+nsubj(concludes-2, Kumar-1)
+det(bank-5, the-3)
+nn(bank-5, BRICS-4)
+nsubj(contribute-9, bank-5)
+aux(contribute-9, does-7)
+neg(contribute-9, not-8)
+ccomp(concludes-2, contribute-9)
+det(way-12, any-11)
+prep_in(contribute-9, way-12)
+poss(interest-17, India-14)
+amod(interest-17, national-16)
+prep_to(contribute-9, interest-17)
+
+Coreference set:
+ (1,1,[1,2]) -> (4,17,[17,19]), that is: "BRICS" -> "BRICS -s"
+ (2,5,[5,6]) -> (4,17,[17,19]), that is: "BRICS" -> "BRICS -s"
+ (5,43,[43,44]) -> (4,17,[17,19]), that is: "BRICS" -> "BRICS -s"
+ (9,6,[6,7]) -> (4,17,[17,19]), that is: "BRICS" -> "BRICS -s"
+ (10,5,[5,6]) -> (4,17,[17,19]), that is: "Brics" -> "BRICS -s"
+ (13,11,[11,12]) -> (4,17,[17,19]), that is: "BRICS" -> "BRICS -s"
+ (18,22,[22,23]) -> (4,17,[17,19]), that is: "Brics" -> "BRICS -s"
+Coreference set:
+ (1,6,[6,7]) -> (20,15,[14,16]), that is: "China" -> "China Indian"
+ (4,4,[4,6]) -> (20,15,[14,16]), that is: "China -s" -> "China Indian"
+ (5,25,[25,27]) -> (20,15,[14,16]), that is: "China -s" -> "China Indian"
+ (6,29,[29,31]) -> (20,15,[14,16]), that is: "China -s" -> "China Indian"
+ (9,43,[43,44]) -> (20,15,[14,16]), that is: "China" -> "China Indian"
+ (11,26,[26,27]) -> (20,15,[14,16]), that is: "China" -> "China Indian"
+ (18,34,[34,35]) -> (20,15,[14,16]), that is: "China" -> "China Indian"
+ (19,29,[29,30]) -> (20,15,[14,16]), that is: "China" -> "China Indian"
+Coreference set:
+ (1,11,[11,12]) -> (16,20,[20,22]), that is: "India" -> "India -s"
+ (2,14,[14,15]) -> (16,20,[20,22]), that is: "India" -> "India -s"
+ (12,9,[9,10]) -> (16,20,[20,22]), that is: "India" -> "India -s"
+ (15,4,[4,5]) -> (16,20,[20,22]), that is: "India" -> "India -s"
+ (18,13,[13,15]) -> (16,20,[20,22]), that is: "India -s" -> "India -s"
+ (22,14,[14,16]) -> (16,20,[20,22]), that is: "India -s" -> "India -s"
+Coreference set:
+ (1,2,[1,3]) -> (13,9,[9,12]), that is: "BRICS bank" -> "Bank on BRICS"
+Coreference set:
+ (6,12,[11,13]) -> (2,6,[2,7]), that is: "the bank" -> "Hindustan Times The BRICS bank"
+ (12,4,[3,5]) -> (2,6,[2,7]), that is: "the bank" -> "Hindustan Times The BRICS bank"
+ (12,12,[12,13]) -> (2,6,[2,7]), that is: "It" -> "Hindustan Times The BRICS bank"
+ (19,4,[3,6]) -> (2,6,[2,7]), that is: "the bank -s" -> "Hindustan Times The BRICS bank"
+ (20,21,[20,22]) -> (2,6,[2,7]), that is: "the bank" -> "Hindustan Times The BRICS bank"
+Coreference set:
+ (9,18,[18,19]) -> (3,4,[4,5]), that is: "first" -> "first"
+Coreference set:
+ (3,13,[12,14]) -> (3,15,[15,26]), that is: "the concern" -> "India is only replacing a West-centric system with a Chinese-controlled one"
+Coreference set:
+ (4,29,[29,30]) -> (11,15,[15,17]), that is: "Beijing" -> "Beijing -s"
+ (8,2,[2,3]) -> (11,15,[15,17]), that is: "Beijing" -> "Beijing -s"
+ (18,30,[30,32]) -> (11,15,[15,17]), that is: "Beijing -s" -> "Beijing -s"
+Coreference set:
+ (6,6,[5,7]) -> (4,2,[1,3]), that is: "This school" -> "One school"
+Coreference set:
+ (20,49,[49,50]) -> (5,9,[9,11]), that is: "Russia" -> "Russia -s"
+Coreference set:
+ (20,47,[47,48]) -> (5,48,[46,49]), that is: "Brazil" -> "Fortaleza , Brazil"
+Coreference set:
+ (7,14,[14,27]) -> (7,12,[11,13]), that is: "economist at the Centre for Policy Research and an ex-Asian Development Bank staffer" -> "Rajiv Kumar"
+ (13,17,[17,18]) -> (7,12,[11,13]), that is: "Kumar" -> "Rajiv Kumar"
+ (15,15,[15,16]) -> (7,12,[11,13]), that is: "he" -> "Rajiv Kumar"
+ (16,13,[13,14]) -> (7,12,[11,13]), that is: "he" -> "Rajiv Kumar"
+ (22,1,[1,2]) -> (7,12,[11,13]), that is: "Kumar" -> "Rajiv Kumar"
+Coreference set:
+ (9,29,[28,37]) -> (9,26,[25,27]), that is: "geoeconomics professor for the International Institute for Strategic Studies" -> "Sanjaya Baru"
+ (19,1,[1,2]) -> (9,26,[25,27]), that is: "Baru" -> "Sanjaya Baru"
+Coreference set:
+ (9,62,[61,63]) -> (9,9,[6,23]), that is: "the post" -> "BRICS bank president post ; PM bats for developing nations Granting the first presidency to an Indian"
+Coreference set:
+ (9,55,[55,56]) -> (9,49,[48,54]), that is: "they" -> "the bureaucrats of our finance ministry"
+Coreference set:
+ (10,6,[4,11]) -> (10,2,[1,3]), that is: "a Brics specialist at Jawaharlal Nehru University" -> "BR Deepak"
+ (11,19,[19,20]) -> (10,2,[1,3]), that is: "he" -> "BR Deepak"
+ (12,1,[1,2]) -> (10,2,[1,3]), that is: "Deepak" -> "BR Deepak"
+Coreference set:
+ (13,6,[6,7]) -> (11,12,[10,13]), that is: "they" -> "the five members"
+Coreference set:
+ (13,22,[22,23]) -> (11,31,[31,32]), that is: "this" -> "this"
+Coreference set:
+ (17,12,[12,13]) -> (17,9,[6,10]), that is: "its" -> "the next five years"
+Coreference set:
+ (18,4,[3,49]) -> (22,5,[3,6]), that is: "BRICS bank : how PM got big powers to accept India -s idea The other concern is over the Brics contingency reserve fund which is already in Beijing -s grip : China is providing over 40 % of the fund -s initial $ 100 billion corpus" -> "the BRICS bank"
+Coreference set:
+ (18,42,[41,44]) -> (18,25,[21,33]), that is: "the fund -s" -> "the Brics contingency reserve fund which is already in Beijing -s grip"
+Coreference set:
+ (20,30,[29,31]) -> (19,13,[12,14]), that is: "New Delhi" -> "New Delhi"
+ (20,37,[37,38]) -> (19,13,[12,14]), that is: "its" -> "New Delhi"
+Coreference set:
+ (19,31,[31,32]) -> (19,21,[21,22]), that is: "we" -> "we"
+Coreference set:
+ (21,2,[2,3]) -> (20,3,[3,12]), that is: "that" -> "Brics bank will restore balance in world financial system"

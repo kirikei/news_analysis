@@ -75,7 +75,7 @@ public class calculate_rel_div {
 		}else{
 			regular_eve_rel = 0;
 		}
-		System.out.println("@@@@commmmmm:"+regular_eve_rel);
+		//System.out.println("@@@@commmmmm:"+regular_eve_rel);
 		return regular_eve_rel;
 
 	}
@@ -98,7 +98,7 @@ public class calculate_rel_div {
 		com_list.addAll(a_entities);
 		com_list.addAll(ori_ents);
 		
-		System.out.println("@@@@commmmmm"+com_data+" com_list:"+com_list);
+		//System.out.println("@@@@commmmmm"+com_data+" com_list:"+com_list);
 		System.out.println(com_data / com_list.size());
 		return com_data / com_list.size();
 	}
@@ -176,14 +176,25 @@ public class calculate_rel_div {
 		return result;
 	}
 
-	public static Map<String, Double> start_div(String[] args, ArrayList<String> core_entities, Map<String,ArrayList<String>> entities){
+	public static Map<String, Double> start_div(String[] args, ArrayList<String> core_entities, Map<String,ArrayList<String>> entities,ArrayList<String> history){
 
 		String most_file = null;//最大の記事
 		//出力データ
 		Map<String, Double> div_scores = new HashMap<String, Double>();
 		Map<String, Double> div_scores2 = new HashMap<String, Double>();
-		//元記事のNamed Entityのリスト
-		ArrayList<String> ori_entities = entities.get(args[0]);
+		//元記事のNamed Entityの集合
+		HashSet<String> ori_set = new HashSet<String>(entities.get(args[0]));
+		System.out.println("ori_entities : " + ori_set);
+		
+		//履歴のファイルを全てori_entityへ
+		//if(history.size() !=0){
+			for (String history_file : history) {
+				HashSet<String> temp = new HashSet<String>(entities.get(history_file));
+				ori_set.addAll(temp); 
+			}
+		//}
+		ArrayList<String> ori_entities = new ArrayList<String>(ori_set);
+		System.out.println("ori_entity+temp : "+ori_entities);
 
 		//関連記事との観点の差を計算していく
 		for (int i = 1; i < args.length; i++) {
@@ -191,15 +202,15 @@ public class calculate_rel_div {
 			ArrayList<String> a_ent = entities.get(file_name);
 			//観点の差
 			double next = cal_div(a_ent, ori_entities, core_entities, file_name);
-			double rel = cal_rel_com(a_ent, ori_entities);
+			double rel = cal_rel_ev(a_ent, core_entities);
 			div_scores.put(file_name, next*rel);
 			//プレーン
 			div_scores2.put(file_name, next);
-			System.out.println("ss:"+file_name);
+			System.out.println("ss:"+file_name+" : "+rel+ "*"+ next);
 		}
 		//csvへ出力
 		positive_score.print_score(div_scores, args, "coverage");
-		positive_score.print_score(div_scores2, args, "coverage");
+		//positive_score.print_score(div_scores2, args, "coverage");
 		System.out.println("div_score 出力完了="+div_scores);
 
 		return div_scores;

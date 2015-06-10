@@ -1,0 +1,1127 @@
+Sentence #1 (26 tokens):
+BET Awards 2014 Draws 7.9 Million Viewers | Billboard
+Network-s second annual BET Experience at L.A. Live fan fest posts 10 percent attendee boost.
+[Text=BET CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=BET NamedEntityTag=O] [Text=Awards CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNS Lemma=award NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014<-TIMEX3>] [Text=Draws CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=VBZ Lemma=draw NamedEntityTag=O] [Text=7.9 CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=CD Lemma=7.9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7900000.0] [Text=Million CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Million NamedEntityTag=NUMBER NormalizedNamedEntityTag=7900000.0] [Text=Viewers CharacterOffsetBegin=34 CharacterOffsetEnd=41 PartOfSpeech=NNS Lemma=viewer NamedEntityTag=O] [Text=| CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=VBP Lemma=| NamedEntityTag=O] [Text=Billboard CharacterOffsetBegin=44 CharacterOffsetEnd=53 PartOfSpeech=NNP Lemma=Billboard NamedEntityTag=ORGANIZATION] [Text=Network CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NNP Lemma=Network NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=second CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=annual CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t2" type="SET" value="P1Y">annual<-TIMEX3>] [Text=BET CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=bet NamedEntityTag=O] [Text=Experience CharacterOffsetBegin=83 CharacterOffsetEnd=93 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=at CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=L.A. CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP Lemma=L.A. NamedEntityTag=O] [Text=Live CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NNP Lemma=Live NamedEntityTag=O] [Text=fan CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NN Lemma=fan NamedEntityTag=O] [Text=fest CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=JJS Lemma=fest NamedEntityTag=O] [Text=posts CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=10 CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=CD Lemma=10 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0] [Text=percent CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0] [Text=attendee CharacterOffsetBegin=133 CharacterOffsetEnd=141 PartOfSpeech=NN Lemma=attendee NamedEntityTag=O] [Text=boost CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN Lemma=boost NamedEntityTag=O] [Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (NNP BET) (NNS Awards))
+        (NP (CD 2014)))
+      (VP (VBZ Draws)
+        (NP (CD 7.9) (NNP Million) (NNS Viewers))))
+    (VP (VBP |)
+      (S
+        (NP
+          (NP
+            (NP (NNP Billboard) (NNP Network) (POS -s))
+            (JJ second) (JJ annual) (NN BET) (NN Experience))
+          (PP (IN at)
+            (NP (NNP L.A.) (NNP Live) (NN fan))))
+        (NP (JJS fest) (NNS posts))))
+    (NP (CD 10) (NN percent) (NN attendee) (NN boost))
+    (. .)))
+
+root(ROOT-0, bar-8)
+nn(Awards-2, BET-1)
+nsubj(Draws-4, Awards-2)
+dep(Awards-2, 2014-3)
+dep(bar-8, Draws-4)
+num(Viewers-7, 7.9-5)
+nn(Viewers-7, Million-6)
+dobj(Draws-4, Viewers-7)
+nn(Network-10, Billboard-9)
+poss(Experience-15, Network-10)
+amod(Experience-15, second-12)
+amod(Experience-15, annual-13)
+nn(Experience-15, BET-14)
+nsubj(posts-21, Experience-15)
+nn(fan-19, L.A.-17)
+nn(fan-19, Live-18)
+prep_at(Experience-15, fan-19)
+amod(posts-21, fest-20)
+xcomp(bar-8, posts-21)
+num(boost-25, 10-22)
+nn(boost-25, percent-23)
+nn(boost-25, attendee-24)
+nsubj(bar-8, boost-25)
+
+Sentence #2 (25 tokens):
+According to figures released by BET Networks, its annual BET Awards drew 7.9 million total viewers, up from 2013-s 7.6 million.
+[Text=According CharacterOffsetBegin=150 CharacterOffsetEnd=159 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=figures CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=NNS Lemma=figure NamedEntityTag=O] [Text=released CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=VBN Lemma=release NamedEntityTag=O] [Text=by CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=BET CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=NNP Lemma=BET NamedEntityTag=ORGANIZATION] [Text=Networks CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=NNP Lemma=Networks NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=its CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=annual CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t3" type="SET" value="P1Y">annual<-TIMEX3>] [Text=BET CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=NNP Lemma=BET NamedEntityTag=O] [Text=Awards CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NNS Lemma=award NamedEntityTag=O] [Text=drew CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=VBD Lemma=draw NamedEntityTag=O] [Text=7.9 CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CD Lemma=7.9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7900000.0] [Text=million CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=7900000.0] [Text=total CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=JJ Lemma=total NamedEntityTag=O] [Text=viewers CharacterOffsetBegin=242 CharacterOffsetEnd=249 PartOfSpeech=NNS Lemma=viewer NamedEntityTag=O] [Text=, CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=up CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=from CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=2013 CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=CD Lemma=2013 NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t4" type="DATE" value="2013">2013<-TIMEX3>] [Text=-s CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=7.6 CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=CD Lemma=7.6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7600000.0] [Text=million CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=7600000.0] [Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP
+          (NP (NNS figures))
+          (VP (VBN released)
+            (PP (IN by)
+              (NP (NNP BET) (NNP Networks)))))))
+    (, ,)
+    (NP (PRP$ its) (JJ annual) (NNP BET) (NNS Awards))
+    (VP (VBD drew)
+      (NP
+        (QP (CD 7.9) (CD million))
+        (JJ total) (NNS viewers))
+      (, ,)
+      (ADVP (RB up)
+        (PP (IN from)
+          (NP
+            (NP (CD 2013) (POS -s))
+            (QP (CD 7.6) (CD million))))))
+    (. .)))
+
+root(ROOT-0, drew-13)
+prepc_according_to(drew-13, to-2)
+pobj(drew-13, figures-3)
+vmod(figures-3, released-4)
+nn(Networks-7, BET-6)
+agent(released-4, Networks-7)
+poss(Awards-12, its-9)
+amod(Awards-12, annual-10)
+nn(Awards-12, BET-11)
+nsubj(drew-13, Awards-12)
+number(million-15, 7.9-14)
+num(viewers-17, million-15)
+amod(viewers-17, total-16)
+dobj(drew-13, viewers-17)
+advmod(drew-13, up-19)
+prep_from(up-19, 2013-21)
+possessive(2013-21, -s-22)
+number(million-24, 7.6-23)
+num(2013-21, million-24)
+
+Sentence #3 (38 tokens):
+Propelling viewership of BET Awards 14 with first-time host Chris Rock were performances and appearances by Pharrell Williams, Chris Brown, Nicki Minaj, John Legend, August Alsina and lifetime achievement award honoree Lionel Richie.
+[Text=Propelling CharacterOffsetBegin=279 CharacterOffsetEnd=289 PartOfSpeech=VBG Lemma=propel NamedEntityTag=O] [Text=viewership CharacterOffsetBegin=290 CharacterOffsetEnd=300 PartOfSpeech=NN Lemma=viewership NamedEntityTag=O] [Text=of CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=BET CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=NNP Lemma=BET NamedEntityTag=ORGANIZATION] [Text=Awards CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=NNS Lemma=award NamedEntityTag=O] [Text=14 CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=CD Lemma=14 NamedEntityTag=NUMBER NormalizedNamedEntityTag=14.0] [Text=with CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=first-time CharacterOffsetBegin=323 CharacterOffsetEnd=333 PartOfSpeech=JJ Lemma=first-time NamedEntityTag=O] [Text=host CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=NN Lemma=host NamedEntityTag=O] [Text=Chris CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Rock CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=NNP Lemma=Rock NamedEntityTag=PERSON] [Text=were CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=performances CharacterOffsetBegin=355 CharacterOffsetEnd=367 PartOfSpeech=NNS Lemma=performance NamedEntityTag=O] [Text=and CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=appearances CharacterOffsetBegin=372 CharacterOffsetEnd=383 PartOfSpeech=NNS Lemma=appearance NamedEntityTag=O] [Text=by CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Pharrell CharacterOffsetBegin=387 CharacterOffsetEnd=395 PartOfSpeech=NNP Lemma=Pharrell NamedEntityTag=PERSON] [Text=Williams CharacterOffsetBegin=396 CharacterOffsetEnd=404 PartOfSpeech=NNP Lemma=Williams NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Chris CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Brown CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=NNP Lemma=Brown NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Nicki CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NNP Lemma=Nicki NamedEntityTag=PERSON] [Text=Minaj CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NNP Lemma=Minaj NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=John CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Legend CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=NNP Lemma=Legend NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=August CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=NNP Lemma=August NamedEntityTag=PERSON Timex=<TIMEX3 tid="t5" type="DATE" value="XXXX-08">August<-TIMEX3>] [Text=Alsina CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=NNP Lemma=Alsina NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=lifetime CharacterOffsetBegin=463 CharacterOffsetEnd=471 PartOfSpeech=NN Lemma=lifetime NamedEntityTag=O] [Text=achievement CharacterOffsetBegin=472 CharacterOffsetEnd=483 PartOfSpeech=NN Lemma=achievement NamedEntityTag=O] [Text=award CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NN Lemma=award NamedEntityTag=O] [Text=honoree CharacterOffsetBegin=490 CharacterOffsetEnd=497 PartOfSpeech=NN Lemma=honoree NamedEntityTag=O] [Text=Lionel CharacterOffsetBegin=498 CharacterOffsetEnd=504 PartOfSpeech=NNP Lemma=Lionel NamedEntityTag=PERSON] [Text=Richie CharacterOffsetBegin=505 CharacterOffsetEnd=511 PartOfSpeech=NNP Lemma=Richie NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (VP (VBG Propelling)
+      (NP
+        (NP (NN viewership))
+        (PP (IN of)
+          (NP (NNP BET) (NNS Awards)
+            (NP (CD 14)))))
+      (PP (IN with)
+        (NP (JJ first-time) (NN host) (NNP Chris) (NNP Rock))))
+    (VP (VBD were)
+      (NP (NNS performances)
+        (CC and)
+        (NNS appearances))
+      (PP (IN by)
+        (NP
+          (NP (NNP Pharrell) (NNP Williams))
+          (, ,)
+          (NP (NNP Chris) (NNP Brown))
+          (, ,)
+          (NP (NNP Nicki) (NNP Minaj))
+          (, ,)
+          (NP (NNP John) (NNP Legend))
+          (, ,)
+          (NP (NNP August) (NNP Alsina))
+          (CC and)
+          (NP (NN lifetime) (NN achievement)))))
+    (NP (NN award) (NN honoree) (NNP Lionel) (NNP Richie))
+    (. .)))
+
+root(ROOT-0, Propelling-1)
+dobj(Propelling-1, viewership-2)
+nn(Awards-5, BET-4)
+prep_of(viewership-2, Awards-5)
+dep(Awards-5, 14-6)
+amod(Rock-11, first-time-8)
+nn(Rock-11, host-9)
+nn(Rock-11, Chris-10)
+prep_with(Propelling-1, Rock-11)
+cop(performances-13, were-12)
+aux(Propelling-1, performances-13)
+conj_and(performances-13, appearances-15)
+nn(Williams-18, Pharrell-17)
+prep_by(performances-13, Williams-18)
+nn(Brown-21, Chris-20)
+conj_and(Williams-18, Brown-21)
+nn(Minaj-24, Nicki-23)
+conj_and(Williams-18, Minaj-24)
+nn(Legend-27, John-26)
+conj_and(Williams-18, Legend-27)
+nn(Alsina-30, August-29)
+conj_and(Williams-18, Alsina-30)
+nn(achievement-33, lifetime-32)
+conj_and(Williams-18, achievement-33)
+nn(Richie-37, award-34)
+nn(Richie-37, honoree-35)
+nn(Richie-37, Lionel-36)
+nsubj(Propelling-1, Richie-37)
+
+Sentence #4 (33 tokens):
+BET-s second annual BET Experience at L.A. Live (June 27-29) presented by Coca-Cola attracted 112, 488 attendees, a 10 percent increase over last year-s inaugural effort.
+[Text=BET CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=NN Lemma=bet NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=second CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=annual CharacterOffsetBegin=527 CharacterOffsetEnd=533 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t6" type="SET" value="P1Y">annual<-TIMEX3>] [Text=BET CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=NN Lemma=bet NamedEntityTag=O] [Text=Experience CharacterOffsetBegin=538 CharacterOffsetEnd=548 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=at CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=L.A. CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=NNP Lemma=L.A. NamedEntityTag=LOCATION] [Text=Live CharacterOffsetBegin=557 CharacterOffsetEnd=561 PartOfSpeech=NNP Lemma=Live NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=June CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-06">June<-TIMEX3>] [Text=27-29 CharacterOffsetBegin=568 CharacterOffsetEnd=573 PartOfSpeech=CD Lemma=27-29 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06] [Text=-RRB- CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=presented CharacterOffsetBegin=575 CharacterOffsetEnd=584 PartOfSpeech=VBN Lemma=present NamedEntityTag=O] [Text=by CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Coca-Cola CharacterOffsetBegin=588 CharacterOffsetEnd=597 PartOfSpeech=NNP Lemma=Coca-Cola NamedEntityTag=ORGANIZATION] [Text=attracted CharacterOffsetBegin=598 CharacterOffsetEnd=607 PartOfSpeech=VBD Lemma=attract NamedEntityTag=O] [Text=112 CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=CD Lemma=112 NamedEntityTag=NUMBER NormalizedNamedEntityTag=112.0] [Text=, CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=488 CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=CD Lemma=488 NamedEntityTag=NUMBER NormalizedNamedEntityTag=488.0] [Text=attendees CharacterOffsetBegin=617 CharacterOffsetEnd=626 PartOfSpeech=NNS Lemma=attendee NamedEntityTag=O] [Text=, CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=10 CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=CD Lemma=10 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0] [Text=percent CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0] [Text=increase CharacterOffsetBegin=641 CharacterOffsetEnd=649 PartOfSpeech=NN Lemma=increase NamedEntityTag=O] [Text=over CharacterOffsetBegin=650 CharacterOffsetEnd=654 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=last CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t9" temporalFunction="true" tid="t8" type="DATE" valueFromFunction="tf0">last year<-TIMEX3>] [Text=year CharacterOffsetBegin=660 CharacterOffsetEnd=664 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t9" temporalFunction="true" tid="t8" type="DATE" valueFromFunction="tf0">last year<-TIMEX3>] [Text=-s CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=inaugural CharacterOffsetBegin=667 CharacterOffsetEnd=676 PartOfSpeech=JJ Lemma=inaugural NamedEntityTag=O] [Text=effort CharacterOffsetBegin=677 CharacterOffsetEnd=683 PartOfSpeech=NN Lemma=effort NamedEntityTag=O] [Text=. CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN BET) (POS -s))
+        (JJ second) (JJ annual) (NN BET) (NN Experience))
+      (PP (IN at)
+        (NP
+          (NP (NNP L.A.) (NNP Live))
+          (PRN (-LRB- -LRB-)
+            (NP-TMP (NNP June) (CD 27-29))
+            (-RRB- -RRB-))
+          (VP (VBN presented)
+            (PP (IN by)
+              (NP (NNP Coca-Cola)))))))
+    (VP (VBD attracted)
+      (NP
+        (NP (CD 112))
+        (, ,)
+        (NP (CD 488) (NNS attendees))
+        (, ,)
+        (NP
+          (NP (DT a) (CD 10) (NN percent) (NN increase))
+          (PP (IN over)
+            (NP
+              (NP (JJ last) (NN year) (POS -s))
+              (JJ inaugural) (NN effort))))))
+    (. .)))
+
+root(ROOT-0, attracted-17)
+poss(Experience-6, BET-1)
+amod(Experience-6, second-3)
+amod(Experience-6, annual-4)
+nn(Experience-6, BET-5)
+nsubj(attracted-17, Experience-6)
+nn(Live-9, L.A.-8)
+prep_at(Experience-6, Live-9)
+dep(Live-9, June-11)
+num(June-11, 27-29-12)
+vmod(Live-9, presented-14)
+agent(presented-14, Coca-Cola-16)
+dobj(attracted-17, 112-18)
+num(attendees-21, 488-20)
+appos(112-18, attendees-21)
+det(increase-26, a-23)
+num(increase-26, 10-24)
+nn(increase-26, percent-25)
+appos(112-18, increase-26)
+amod(year-29, last-28)
+poss(effort-32, year-29)
+amod(effort-32, inaugural-31)
+prep_over(increase-26, effort-32)
+
+Sentence #5 (17 tokens):
+Delivering on their promise to expand the fan fest-s free attractions, BET and partner-L.
+[Text=Delivering CharacterOffsetBegin=685 CharacterOffsetEnd=695 PartOfSpeech=VBG Lemma=deliver NamedEntityTag=O] [Text=on CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=their CharacterOffsetBegin=699 CharacterOffsetEnd=704 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=promise CharacterOffsetBegin=705 CharacterOffsetEnd=712 PartOfSpeech=NN Lemma=promise NamedEntityTag=O] [Text=to CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=expand CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=VB Lemma=expand NamedEntityTag=O] [Text=the CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fan CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=NN Lemma=fan NamedEntityTag=O] [Text=fest CharacterOffsetBegin=731 CharacterOffsetEnd=735 PartOfSpeech=JJS Lemma=fest NamedEntityTag=O] [Text=-s CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=free CharacterOffsetBegin=738 CharacterOffsetEnd=742 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=attractions CharacterOffsetBegin=743 CharacterOffsetEnd=754 PartOfSpeech=NNS Lemma=attraction NamedEntityTag=O] [Text=, CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=BET CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=NN Lemma=bet NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=partner-L CharacterOffsetBegin=764 CharacterOffsetEnd=773 PartOfSpeech=NN Lemma=partner-l NamedEntityTag=O] [Text=. CharacterOffsetBegin=773 CharacterOffsetEnd=774 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VBG Delivering)
+      (PP (IN on)
+        (NP
+          (NP (PRP$ their) (NN promise)
+            (S
+              (VP (TO to)
+                (VP (VB expand)
+                  (S
+                    (NP (DT the) (NN fan))
+                    (NP
+                      (NP (JJS fest))
+                      (POS -s)
+                      (ADJP (JJ free))
+                      (NNS attractions)))))))
+          (, ,)
+          (NP (NN BET)
+            (CC and)
+            (NN partner-L)))))
+    (. .)))
+
+root(ROOT-0, Delivering-1)
+poss(promise-4, their-3)
+prep_on(Delivering-1, promise-4)
+aux(expand-6, to-5)
+vmod(promise-4, expand-6)
+det(fan-8, the-7)
+nsubj(attractions-12, fan-8)
+poss(attractions-12, fest-9)
+possessive(attractions-12, -s-10)
+amod(attractions-12, free-11)
+xcomp(expand-6, attractions-12)
+appos(promise-4, BET-14)
+conj_and(BET-14, partner-L-16)
+
+Sentence #6 (17 tokens):
+A. Live developer and operator AEG Live treated attendees to an overwhelming menu of interactive events.
+[Text=A. CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=NN Lemma=a. NamedEntityTag=O] [Text=Live CharacterOffsetBegin=777 CharacterOffsetEnd=781 PartOfSpeech=NNP Lemma=Live NamedEntityTag=O] [Text=developer CharacterOffsetBegin=782 CharacterOffsetEnd=791 PartOfSpeech=NN Lemma=developer NamedEntityTag=O] [Text=and CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=operator CharacterOffsetBegin=796 CharacterOffsetEnd=804 PartOfSpeech=NN Lemma=operator NamedEntityTag=O] [Text=AEG CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=NNP Lemma=AEG NamedEntityTag=ORGANIZATION] [Text=Live CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=NNP Lemma=Live NamedEntityTag=O] [Text=treated CharacterOffsetBegin=814 CharacterOffsetEnd=821 PartOfSpeech=VBN Lemma=treat NamedEntityTag=O] [Text=attendees CharacterOffsetBegin=822 CharacterOffsetEnd=831 PartOfSpeech=NNS Lemma=attendee NamedEntityTag=O] [Text=to CharacterOffsetBegin=832 CharacterOffsetEnd=834 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=an CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=overwhelming CharacterOffsetBegin=838 CharacterOffsetEnd=850 PartOfSpeech=JJ Lemma=overwhelming NamedEntityTag=O] [Text=menu CharacterOffsetBegin=851 CharacterOffsetEnd=855 PartOfSpeech=NN Lemma=menu NamedEntityTag=O] [Text=of CharacterOffsetBegin=856 CharacterOffsetEnd=858 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=interactive CharacterOffsetBegin=859 CharacterOffsetEnd=870 PartOfSpeech=JJ Lemma=interactive NamedEntityTag=O] [Text=events CharacterOffsetBegin=871 CharacterOffsetEnd=877 PartOfSpeech=NNS Lemma=event NamedEntityTag=O] [Text=. CharacterOffsetBegin=877 CharacterOffsetEnd=878 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN A.) (NNP Live) (NN developer))
+      (CC and)
+      (NP (NN operator) (NNP AEG) (NNP Live)))
+    (VP (VBN treated)
+      (NP (NNS attendees))
+      (PP (TO to)
+        (NP
+          (NP (DT an) (JJ overwhelming) (NN menu))
+          (PP (IN of)
+            (NP (JJ interactive) (NNS events))))))
+    (. .)))
+
+root(ROOT-0, treated-8)
+nn(developer-3, A.-1)
+nn(developer-3, Live-2)
+nsubj(treated-8, developer-3)
+nn(Live-7, operator-5)
+nn(Live-7, AEG-6)
+conj_and(developer-3, Live-7)
+dobj(treated-8, attendees-9)
+det(menu-13, an-11)
+amod(menu-13, overwhelming-12)
+prep_to(treated-8, menu-13)
+amod(events-16, interactive-15)
+prep_of(menu-13, events-16)
+
+Sentence #7 (37 tokens):
+These ranged from such returning components as "106 & Park" live tapings presented by Target and the Sprite-sponsored, live-streamed celebrity basketball game (including Snoop Dogg, Chris Brown, Justin Bieber).
+[Text=These CharacterOffsetBegin=879 CharacterOffsetEnd=884 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=ranged CharacterOffsetBegin=885 CharacterOffsetEnd=891 PartOfSpeech=VBD Lemma=range NamedEntityTag=O] [Text=from CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=such CharacterOffsetBegin=897 CharacterOffsetEnd=901 PartOfSpeech=JJ Lemma=such NamedEntityTag=O] [Text=returning CharacterOffsetBegin=902 CharacterOffsetEnd=911 PartOfSpeech=VBG Lemma=return NamedEntityTag=O] [Text=components CharacterOffsetBegin=912 CharacterOffsetEnd=922 PartOfSpeech=NNS Lemma=component NamedEntityTag=O] [Text=as CharacterOffsetBegin=923 CharacterOffsetEnd=925 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=`` CharacterOffsetBegin=926 CharacterOffsetEnd=927 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=106 CharacterOffsetBegin=927 CharacterOffsetEnd=930 PartOfSpeech=CD Lemma=106 NamedEntityTag=NUMBER NormalizedNamedEntityTag=106.0] [Text=& CharacterOffsetBegin=931 CharacterOffsetEnd=932 PartOfSpeech=CC Lemma=& NamedEntityTag=O] [Text=Park CharacterOffsetBegin=933 CharacterOffsetEnd=937 PartOfSpeech=NNP Lemma=Park NamedEntityTag=O] [Text=-- CharacterOffsetBegin=937 CharacterOffsetEnd=938 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=live CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=VB Lemma=live NamedEntityTag=O] [Text=tapings CharacterOffsetBegin=944 CharacterOffsetEnd=951 PartOfSpeech=NNS Lemma=taping NamedEntityTag=O] [Text=presented CharacterOffsetBegin=952 CharacterOffsetEnd=961 PartOfSpeech=VBN Lemma=present NamedEntityTag=O] [Text=by CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Target CharacterOffsetBegin=965 CharacterOffsetEnd=971 PartOfSpeech=NN Lemma=target NamedEntityTag=O] [Text=and CharacterOffsetBegin=972 CharacterOffsetEnd=975 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Sprite-sponsored CharacterOffsetBegin=980 CharacterOffsetEnd=996 PartOfSpeech=JJ Lemma=sprite-sponsored NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=996 CharacterOffsetEnd=997 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=live-streamed CharacterOffsetBegin=998 CharacterOffsetEnd=1011 PartOfSpeech=JJ Lemma=live-streamed NamedEntityTag=O] [Text=celebrity CharacterOffsetBegin=1012 CharacterOffsetEnd=1021 PartOfSpeech=NN Lemma=celebrity NamedEntityTag=O] [Text=basketball CharacterOffsetBegin=1022 CharacterOffsetEnd=1032 PartOfSpeech=NN Lemma=basketball NamedEntityTag=O] [Text=game CharacterOffsetBegin=1033 CharacterOffsetEnd=1037 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1038 CharacterOffsetEnd=1039 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=including CharacterOffsetBegin=1039 CharacterOffsetEnd=1048 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=Snoop CharacterOffsetBegin=1049 CharacterOffsetEnd=1054 PartOfSpeech=NNP Lemma=Snoop NamedEntityTag=PERSON] [Text=Dogg CharacterOffsetBegin=1055 CharacterOffsetEnd=1059 PartOfSpeech=NNP Lemma=Dogg NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1059 CharacterOffsetEnd=1060 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Chris CharacterOffsetBegin=1061 CharacterOffsetEnd=1066 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Brown CharacterOffsetBegin=1067 CharacterOffsetEnd=1072 PartOfSpeech=NNP Lemma=Brown NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1072 CharacterOffsetEnd=1073 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Justin CharacterOffsetBegin=1074 CharacterOffsetEnd=1080 PartOfSpeech=NNP Lemma=Justin NamedEntityTag=PERSON] [Text=Bieber CharacterOffsetBegin=1081 CharacterOffsetEnd=1087 PartOfSpeech=NNP Lemma=Bieber NamedEntityTag=PERSON] [Text=-RRB- CharacterOffsetBegin=1087 CharacterOffsetEnd=1088 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=1088 CharacterOffsetEnd=1089 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBD ranged)
+      (PP (IN from)
+        (NP (JJ such) (VBG returning) (NNS components)))
+      (PP (IN as) (`` ``)
+        (NP
+          (NP (CD 106))
+          (CC &)
+          (NP (NNP Park)))
+        (-- --))
+      (VP (VB live)
+        (NP
+          (NP (NNS tapings))
+          (VP (VBN presented)
+            (PP (IN by)
+              (NP
+                (NP (NN Target))
+                (CC and)
+                (NP (DT the) (JJ Sprite-sponsored) (, ,) (JJ live-streamed) (NN celebrity) (NN basketball) (NN game))))))
+        (PRN (-LRB- -LRB-)
+          (PP (VBG including)
+            (NP
+              (NP (NNP Snoop) (NNP Dogg))
+              (, ,)
+              (NP
+                (NP (NNP Chris) (NNP Brown))
+                (, ,)
+                (NP (NNP Justin) (NNP Bieber)))))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, ranged-2)
+nsubj(ranged-2, These-1)
+amod(components-6, such-4)
+amod(components-6, returning-5)
+prep_from(ranged-2, components-6)
+prep_as(ranged-2, 106-9)
+conj_and(106-9, Park-11)
+dep(ranged-2, live-13)
+dobj(live-13, tapings-14)
+vmod(tapings-14, presented-15)
+agent(presented-15, Target-17)
+det(game-25, the-19)
+amod(game-25, Sprite-sponsored-20)
+amod(game-25, live-streamed-22)
+nn(game-25, celebrity-23)
+nn(game-25, basketball-24)
+conj_and(Target-17, game-25)
+dep(live-13, including-27)
+nn(Dogg-29, Snoop-28)
+pobj(including-27, Dogg-29)
+nn(Brown-32, Chris-31)
+appos(Dogg-29, Brown-32)
+nn(Bieber-35, Justin-34)
+appos(Brown-32, Bieber-35)
+
+Sentence #8 (32 tokens):
+New to the Experience fold: a gospel choir showcase hosted by Hezekiah Walker and SneakerCon, a traveling event for sneaker connoisseurs to buy, sell and trade popular collectibles.
+[Text=New CharacterOffsetBegin=1090 CharacterOffsetEnd=1093 PartOfSpeech=NNP Lemma=New NamedEntityTag=O] [Text=to CharacterOffsetBegin=1094 CharacterOffsetEnd=1096 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Experience CharacterOffsetBegin=1101 CharacterOffsetEnd=1111 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=fold CharacterOffsetBegin=1112 CharacterOffsetEnd=1116 PartOfSpeech=NN Lemma=fold NamedEntityTag=O] [Text=: CharacterOffsetBegin=1116 CharacterOffsetEnd=1117 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=a CharacterOffsetBegin=1118 CharacterOffsetEnd=1119 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=gospel CharacterOffsetBegin=1120 CharacterOffsetEnd=1126 PartOfSpeech=NN Lemma=gospel NamedEntityTag=O] [Text=choir CharacterOffsetBegin=1127 CharacterOffsetEnd=1132 PartOfSpeech=NN Lemma=choir NamedEntityTag=O] [Text=showcase CharacterOffsetBegin=1133 CharacterOffsetEnd=1141 PartOfSpeech=NN Lemma=showcase NamedEntityTag=O] [Text=hosted CharacterOffsetBegin=1142 CharacterOffsetEnd=1148 PartOfSpeech=VBN Lemma=host NamedEntityTag=O] [Text=by CharacterOffsetBegin=1149 CharacterOffsetEnd=1151 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Hezekiah CharacterOffsetBegin=1152 CharacterOffsetEnd=1160 PartOfSpeech=NNP Lemma=Hezekiah NamedEntityTag=PERSON] [Text=Walker CharacterOffsetBegin=1161 CharacterOffsetEnd=1167 PartOfSpeech=NNP Lemma=Walker NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1168 CharacterOffsetEnd=1171 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=SneakerCon CharacterOffsetBegin=1172 CharacterOffsetEnd=1182 PartOfSpeech=NNP Lemma=SneakerCon NamedEntityTag=O] [Text=, CharacterOffsetBegin=1182 CharacterOffsetEnd=1183 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=traveling CharacterOffsetBegin=1186 CharacterOffsetEnd=1195 PartOfSpeech=VBG Lemma=travel NamedEntityTag=O] [Text=event CharacterOffsetBegin=1196 CharacterOffsetEnd=1201 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=for CharacterOffsetBegin=1202 CharacterOffsetEnd=1205 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=sneaker CharacterOffsetBegin=1206 CharacterOffsetEnd=1213 PartOfSpeech=NN Lemma=sneaker NamedEntityTag=O] [Text=connoisseurs CharacterOffsetBegin=1214 CharacterOffsetEnd=1226 PartOfSpeech=NNS Lemma=connoisseur NamedEntityTag=O] [Text=to CharacterOffsetBegin=1227 CharacterOffsetEnd=1229 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=buy CharacterOffsetBegin=1230 CharacterOffsetEnd=1233 PartOfSpeech=VB Lemma=buy NamedEntityTag=O] [Text=, CharacterOffsetBegin=1233 CharacterOffsetEnd=1234 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=sell CharacterOffsetBegin=1235 CharacterOffsetEnd=1239 PartOfSpeech=VB Lemma=sell NamedEntityTag=O] [Text=and CharacterOffsetBegin=1240 CharacterOffsetEnd=1243 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=trade CharacterOffsetBegin=1244 CharacterOffsetEnd=1249 PartOfSpeech=VB Lemma=trade NamedEntityTag=O] [Text=popular CharacterOffsetBegin=1250 CharacterOffsetEnd=1257 PartOfSpeech=JJ Lemma=popular NamedEntityTag=O] [Text=collectibles CharacterOffsetBegin=1258 CharacterOffsetEnd=1270 PartOfSpeech=NNS Lemma=collectible NamedEntityTag=O] [Text=. CharacterOffsetBegin=1270 CharacterOffsetEnd=1271 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (NNP New))
+      (PP (TO to)
+        (NP (DT the) (NN Experience) (NN fold))))
+    (: :)
+    (NP
+      (NP (DT a) (NN gospel) (NN choir) (NN showcase))
+      (VP (VBN hosted)
+        (PP (IN by)
+          (NP
+            (NP (NNP Hezekiah) (NNP Walker)
+              (CC and)
+              (NNP SneakerCon))
+            (, ,)
+            (NP
+              (NP (DT a) (VBG traveling) (NN event))
+              (PP (IN for)
+                (NP (NN sneaker) (NNS connoisseurs))))))
+        (S
+          (VP (TO to)
+            (VP (VB buy) (, ,) (VB sell)
+              (CC and)
+              (VB trade)
+              (NP (JJ popular) (NNS collectibles)))))))
+    (. .)))
+
+root(ROOT-0, New-1)
+det(fold-5, the-3)
+nn(fold-5, Experience-4)
+prep_to(New-1, fold-5)
+det(showcase-10, a-7)
+nn(showcase-10, gospel-8)
+nn(showcase-10, choir-9)
+dep(New-1, showcase-10)
+vmod(showcase-10, hosted-11)
+nn(Walker-14, Hezekiah-13)
+agent(hosted-11, Walker-14)
+conj_and(Walker-14, SneakerCon-16)
+det(event-20, a-18)
+amod(event-20, traveling-19)
+appos(Walker-14, event-20)
+nn(connoisseurs-23, sneaker-22)
+prep_for(event-20, connoisseurs-23)
+aux(buy-25, to-24)
+xcomp(hosted-11, buy-25)
+conj_and(buy-25, sell-27)
+conj_and(buy-25, trade-29)
+amod(collectibles-31, popular-30)
+dobj(buy-25, collectibles-31)
+
+Sentence #9 (28 tokens):
+Staged outside last year, most of the fan fest events took place inside the neighboring Los Angeles Convention Center -- a welcome respite from the heat.
+[Text=Staged CharacterOffsetBegin=1273 CharacterOffsetEnd=1279 PartOfSpeech=VBN Lemma=stage NamedEntityTag=O] [Text=outside CharacterOffsetBegin=1280 CharacterOffsetEnd=1287 PartOfSpeech=IN Lemma=outside NamedEntityTag=O] [Text=last CharacterOffsetBegin=1288 CharacterOffsetEnd=1292 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t9" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf1">last year<-TIMEX3>] [Text=year CharacterOffsetBegin=1293 CharacterOffsetEnd=1297 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t9" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf1">last year<-TIMEX3>] [Text=, CharacterOffsetBegin=1297 CharacterOffsetEnd=1298 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=most CharacterOffsetBegin=1299 CharacterOffsetEnd=1303 PartOfSpeech=JJS Lemma=most NamedEntityTag=O] [Text=of CharacterOffsetBegin=1304 CharacterOffsetEnd=1306 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1307 CharacterOffsetEnd=1310 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fan CharacterOffsetBegin=1311 CharacterOffsetEnd=1314 PartOfSpeech=NN Lemma=fan NamedEntityTag=O] [Text=fest CharacterOffsetBegin=1315 CharacterOffsetEnd=1319 PartOfSpeech=JJS Lemma=fest NamedEntityTag=O] [Text=events CharacterOffsetBegin=1320 CharacterOffsetEnd=1326 PartOfSpeech=NNS Lemma=event NamedEntityTag=O] [Text=took CharacterOffsetBegin=1327 CharacterOffsetEnd=1331 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=1332 CharacterOffsetEnd=1337 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=inside CharacterOffsetBegin=1338 CharacterOffsetEnd=1344 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=the CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=neighboring CharacterOffsetBegin=1349 CharacterOffsetEnd=1360 PartOfSpeech=VBG Lemma=neighbor NamedEntityTag=O] [Text=Los CharacterOffsetBegin=1361 CharacterOffsetEnd=1364 PartOfSpeech=NNP Lemma=Los NamedEntityTag=ORGANIZATION] [Text=Angeles CharacterOffsetBegin=1365 CharacterOffsetEnd=1372 PartOfSpeech=NNP Lemma=Angeles NamedEntityTag=ORGANIZATION] [Text=Convention CharacterOffsetBegin=1373 CharacterOffsetEnd=1383 PartOfSpeech=NNP Lemma=Convention NamedEntityTag=ORGANIZATION] [Text=Center CharacterOffsetBegin=1384 CharacterOffsetEnd=1390 PartOfSpeech=NNP Lemma=Center NamedEntityTag=ORGANIZATION] [Text=-- CharacterOffsetBegin=1391 CharacterOffsetEnd=1393 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=a CharacterOffsetBegin=1394 CharacterOffsetEnd=1395 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=welcome CharacterOffsetBegin=1396 CharacterOffsetEnd=1403 PartOfSpeech=JJ Lemma=welcome NamedEntityTag=O] [Text=respite CharacterOffsetBegin=1404 CharacterOffsetEnd=1411 PartOfSpeech=NN Lemma=respite NamedEntityTag=O] [Text=from CharacterOffsetBegin=1412 CharacterOffsetEnd=1416 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=1417 CharacterOffsetEnd=1420 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heat CharacterOffsetBegin=1421 CharacterOffsetEnd=1425 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=. CharacterOffsetBegin=1425 CharacterOffsetEnd=1426 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (VP (VBN Staged)
+      (PP (IN outside)
+        (NP
+          (NP (JJ last) (NN year))
+          (, ,)
+          (NP
+            (NP
+              (NP (JJS most))
+              (PP (IN of)
+                (NP (DT the) (NN fan))))
+            (NP (JJS fest) (NNS events))))))
+    (VP (VBD took)
+      (NP
+        (NP (NN place))
+        (PP (IN inside)
+          (NP (DT the) (VBG neighboring) (NNP Los)))))
+    (NP
+      (NP (NNP Angeles) (NNP Convention) (NNP Center))
+      (: --)
+      (NP
+        (NP (DT a) (JJ welcome) (NN respite))
+        (PP (IN from)
+          (NP (DT the) (NN heat)))))
+    (. .)))
+
+root(ROOT-0, Staged-1)
+amod(year-4, last-3)
+prep_outside(Staged-1, year-4)
+appos(year-4, most-6)
+det(fan-9, the-8)
+prep_of(most-6, fan-9)
+amod(events-11, fest-10)
+dep(most-6, events-11)
+dep(Staged-1, took-12)
+dobj(took-12, place-13)
+det(Los-17, the-15)
+amod(Los-17, neighboring-16)
+prep_inside(place-13, Los-17)
+nn(Center-20, Angeles-18)
+nn(Center-20, Convention-19)
+nsubj(Staged-1, Center-20)
+det(respite-24, a-22)
+amod(respite-24, welcome-23)
+dep(Center-20, respite-24)
+det(heat-27, the-26)
+prep_from(respite-24, heat-27)
+
+Sentence #10 (16 tokens):
+Among the more popular attractions was the Music Matters new talent showcase sponsored by Nissan.
+[Text=Among CharacterOffsetBegin=1427 CharacterOffsetEnd=1432 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=the CharacterOffsetBegin=1433 CharacterOffsetEnd=1436 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=more CharacterOffsetBegin=1437 CharacterOffsetEnd=1441 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=popular CharacterOffsetBegin=1442 CharacterOffsetEnd=1449 PartOfSpeech=JJ Lemma=popular NamedEntityTag=O] [Text=attractions CharacterOffsetBegin=1450 CharacterOffsetEnd=1461 PartOfSpeech=NNS Lemma=attraction NamedEntityTag=O] [Text=was CharacterOffsetBegin=1462 CharacterOffsetEnd=1465 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1466 CharacterOffsetEnd=1469 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Music CharacterOffsetBegin=1470 CharacterOffsetEnd=1475 PartOfSpeech=NNP Lemma=Music NamedEntityTag=O] [Text=Matters CharacterOffsetBegin=1476 CharacterOffsetEnd=1483 PartOfSpeech=NNS Lemma=matter NamedEntityTag=O] [Text=new CharacterOffsetBegin=1484 CharacterOffsetEnd=1487 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=talent CharacterOffsetBegin=1488 CharacterOffsetEnd=1494 PartOfSpeech=NN Lemma=talent NamedEntityTag=O] [Text=showcase CharacterOffsetBegin=1495 CharacterOffsetEnd=1503 PartOfSpeech=NN Lemma=showcase NamedEntityTag=O] [Text=sponsored CharacterOffsetBegin=1504 CharacterOffsetEnd=1513 PartOfSpeech=VBN Lemma=sponsor NamedEntityTag=O] [Text=by CharacterOffsetBegin=1514 CharacterOffsetEnd=1516 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Nissan CharacterOffsetBegin=1517 CharacterOffsetEnd=1523 PartOfSpeech=NNP Lemma=Nissan NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1523 CharacterOffsetEnd=1524 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (PP (IN Among)
+      (NP (DT the)
+        (ADJP (RBR more) (JJ popular))
+        (NNS attractions)))
+    (VP (VBD was)
+      (NP (DT the) (NNP Music) (NNS Matters)))
+    (NP
+      (NP (JJ new) (NN talent) (NN showcase))
+      (VP (VBN sponsored)
+        (PP (IN by)
+          (NP (NNP Nissan)))))
+    (. .)))
+
+root(ROOT-0, Matters-9)
+det(attractions-5, the-2)
+advmod(popular-4, more-3)
+amod(attractions-5, popular-4)
+prep_among(Matters-9, attractions-5)
+cop(Matters-9, was-6)
+det(Matters-9, the-7)
+nn(Matters-9, Music-8)
+amod(showcase-12, new-10)
+nn(showcase-12, talent-11)
+nsubj(Matters-9, showcase-12)
+vmod(showcase-12, sponsored-13)
+agent(sponsored-13, Nissan-15)
+
+Sentence #11 (14 tokens):
+Featured artists included Mack Wilds, Sevyn Streeter, LeCrae and Elle Varner.
+[Text=Featured CharacterOffsetBegin=1525 CharacterOffsetEnd=1533 PartOfSpeech=VBN Lemma=feature NamedEntityTag=O] [Text=artists CharacterOffsetBegin=1534 CharacterOffsetEnd=1541 PartOfSpeech=NNS Lemma=artist NamedEntityTag=O] [Text=included CharacterOffsetBegin=1542 CharacterOffsetEnd=1550 PartOfSpeech=VBD Lemma=include NamedEntityTag=O] [Text=Mack CharacterOffsetBegin=1551 CharacterOffsetEnd=1555 PartOfSpeech=NNP Lemma=Mack NamedEntityTag=PERSON] [Text=Wilds CharacterOffsetBegin=1556 CharacterOffsetEnd=1561 PartOfSpeech=NNP Lemma=Wilds NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1561 CharacterOffsetEnd=1562 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Sevyn CharacterOffsetBegin=1563 CharacterOffsetEnd=1568 PartOfSpeech=NNP Lemma=Sevyn NamedEntityTag=PERSON] [Text=Streeter CharacterOffsetBegin=1569 CharacterOffsetEnd=1577 PartOfSpeech=NNP Lemma=Streeter NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1577 CharacterOffsetEnd=1578 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=LeCrae CharacterOffsetBegin=1579 CharacterOffsetEnd=1585 PartOfSpeech=NNP Lemma=LeCrae NamedEntityTag=O] [Text=and CharacterOffsetBegin=1586 CharacterOffsetEnd=1589 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Elle CharacterOffsetBegin=1590 CharacterOffsetEnd=1594 PartOfSpeech=NNP Lemma=Elle NamedEntityTag=PERSON] [Text=Varner CharacterOffsetBegin=1595 CharacterOffsetEnd=1601 PartOfSpeech=NNP Lemma=Varner NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1601 CharacterOffsetEnd=1602 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (VP (VBN Featured)
+      (NP (NNS artists)))
+    (VP (VBD included))
+    (NP
+      (NP (NNP Mack) (NNP Wilds))
+      (, ,)
+      (NP
+        (NP (NNP Sevyn) (NNP Streeter))
+        (, ,)
+        (NP (NNP LeCrae))
+        (CC and)
+        (NP (NNP Elle) (NNP Varner))))
+    (. .)))
+
+root(ROOT-0, Featured-1)
+dobj(Featured-1, artists-2)
+dep(Featured-1, included-3)
+nn(Wilds-5, Mack-4)
+nsubj(Featured-1, Wilds-5)
+nn(Streeter-8, Sevyn-7)
+appos(Wilds-5, Streeter-8)
+conj_and(Streeter-8, LeCrae-10)
+nn(Varner-13, Elle-12)
+conj_and(Streeter-8, Varner-13)
+
+Sentence #12 (10 tokens):
+In fact, music was a key Experience component.
+[Text=In CharacterOffsetBegin=1603 CharacterOffsetEnd=1605 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=fact CharacterOffsetBegin=1606 CharacterOffsetEnd=1610 PartOfSpeech=NN Lemma=fact NamedEntityTag=O] [Text=, CharacterOffsetBegin=1610 CharacterOffsetEnd=1611 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=music CharacterOffsetBegin=1612 CharacterOffsetEnd=1617 PartOfSpeech=NN Lemma=music NamedEntityTag=O] [Text=was CharacterOffsetBegin=1618 CharacterOffsetEnd=1621 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1622 CharacterOffsetEnd=1623 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=key CharacterOffsetBegin=1624 CharacterOffsetEnd=1627 PartOfSpeech=JJ Lemma=key NamedEntityTag=O] [Text=Experience CharacterOffsetBegin=1628 CharacterOffsetEnd=1638 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=component CharacterOffsetBegin=1639 CharacterOffsetEnd=1648 PartOfSpeech=NN Lemma=component NamedEntityTag=O] [Text=. CharacterOffsetBegin=1648 CharacterOffsetEnd=1649 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (NN music))
+    (VP (VBD was)
+      (NP (DT a) (JJ key) (NN Experience) (NN component)))
+    (. .)))
+
+root(ROOT-0, component-9)
+prep_in(component-9, fact-2)
+nsubj(component-9, music-4)
+cop(component-9, was-5)
+det(component-9, a-6)
+amod(component-9, key-7)
+nn(component-9, Experience-8)
+
+Sentence #13 (26 tokens):
+Television and radio personality Big Tigger hosted Acoustically Speaking, a series of performances and interviews with artists Stacy Barthe, Talib Kweli and others.
+[Text=Television CharacterOffsetBegin=1650 CharacterOffsetEnd=1660 PartOfSpeech=NN Lemma=television NamedEntityTag=O] [Text=and CharacterOffsetBegin=1661 CharacterOffsetEnd=1664 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=radio CharacterOffsetBegin=1665 CharacterOffsetEnd=1670 PartOfSpeech=NN Lemma=radio NamedEntityTag=O] [Text=personality CharacterOffsetBegin=1671 CharacterOffsetEnd=1682 PartOfSpeech=NN Lemma=personality NamedEntityTag=O] [Text=Big CharacterOffsetBegin=1683 CharacterOffsetEnd=1686 PartOfSpeech=JJ Lemma=big NamedEntityTag=PERSON] [Text=Tigger CharacterOffsetBegin=1687 CharacterOffsetEnd=1693 PartOfSpeech=NNP Lemma=Tigger NamedEntityTag=PERSON] [Text=hosted CharacterOffsetBegin=1694 CharacterOffsetEnd=1700 PartOfSpeech=VBD Lemma=host NamedEntityTag=O] [Text=Acoustically CharacterOffsetBegin=1701 CharacterOffsetEnd=1713 PartOfSpeech=RB Lemma=acoustically NamedEntityTag=O] [Text=Speaking CharacterOffsetBegin=1714 CharacterOffsetEnd=1722 PartOfSpeech=VBG Lemma=speak NamedEntityTag=O] [Text=, CharacterOffsetBegin=1722 CharacterOffsetEnd=1723 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1724 CharacterOffsetEnd=1725 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=series CharacterOffsetBegin=1726 CharacterOffsetEnd=1732 PartOfSpeech=NN Lemma=series NamedEntityTag=O] [Text=of CharacterOffsetBegin=1733 CharacterOffsetEnd=1735 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=performances CharacterOffsetBegin=1736 CharacterOffsetEnd=1748 PartOfSpeech=NNS Lemma=performance NamedEntityTag=O] [Text=and CharacterOffsetBegin=1749 CharacterOffsetEnd=1752 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=interviews CharacterOffsetBegin=1753 CharacterOffsetEnd=1763 PartOfSpeech=NNS Lemma=interview NamedEntityTag=O] [Text=with CharacterOffsetBegin=1764 CharacterOffsetEnd=1768 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=artists CharacterOffsetBegin=1769 CharacterOffsetEnd=1776 PartOfSpeech=NNS Lemma=artist NamedEntityTag=O] [Text=Stacy CharacterOffsetBegin=1777 CharacterOffsetEnd=1782 PartOfSpeech=NNP Lemma=Stacy NamedEntityTag=PERSON] [Text=Barthe CharacterOffsetBegin=1783 CharacterOffsetEnd=1789 PartOfSpeech=NNP Lemma=Barthe NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1789 CharacterOffsetEnd=1790 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Talib CharacterOffsetBegin=1791 CharacterOffsetEnd=1796 PartOfSpeech=NNP Lemma=Talib NamedEntityTag=PERSON] [Text=Kweli CharacterOffsetBegin=1797 CharacterOffsetEnd=1802 PartOfSpeech=NNP Lemma=Kweli NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1803 CharacterOffsetEnd=1806 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=others CharacterOffsetBegin=1807 CharacterOffsetEnd=1813 PartOfSpeech=NNS Lemma=other NamedEntityTag=O] [Text=. CharacterOffsetBegin=1813 CharacterOffsetEnd=1814 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Television)
+        (CC and)
+        (NN radio) (NN personality))
+      (NP (JJ Big) (NNP Tigger)))
+    (VP
+      (VP (VBD hosted)
+        (ADVP (RB Acoustically))
+        (S
+          (VP (VBG Speaking))))
+      (, ,)
+      (NP
+        (NP (DT a) (NN series))
+        (PP (IN of)
+          (NP
+            (NP (NNS performances)
+              (CC and)
+              (NNS interviews))
+            (PP (IN with)
+              (NP
+                (NP (NNS artists) (NNP Stacy) (NNP Barthe))
+                (, ,)
+                (NP (NNP Talib) (NNP Kweli))
+                (CC and)
+                (NP (NNS others))))))))
+    (. .)))
+
+root(ROOT-0, hosted-7)
+nn(personality-4, Television-1)
+conj_and(Television-1, radio-3)
+nsubj(hosted-7, personality-4)
+amod(Tigger-6, Big-5)
+dep(personality-4, Tigger-6)
+advmod(hosted-7, Acoustically-8)
+xcomp(hosted-7, Speaking-9)
+det(series-12, a-11)
+dobj(hosted-7, series-12)
+prep_of(series-12, performances-14)
+conj_and(performances-14, interviews-16)
+nn(Barthe-20, artists-18)
+nn(Barthe-20, Stacy-19)
+prep_with(performances-14, Barthe-20)
+nn(Kweli-23, Talib-22)
+conj_and(Barthe-20, Kweli-23)
+conj_and(Barthe-20, others-25)
+
+Sentence #14 (21 tokens):
+The Centric Certified stage welcomed newcomer Sebastian Mikael plus Jagged Edge, Eric Benet, Calvin Richardson and Liv Warfield.
+[Text=The CharacterOffsetBegin=1815 CharacterOffsetEnd=1818 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Centric CharacterOffsetBegin=1819 CharacterOffsetEnd=1826 PartOfSpeech=NNP Lemma=Centric NamedEntityTag=MISC] [Text=Certified CharacterOffsetBegin=1827 CharacterOffsetEnd=1836 PartOfSpeech=JJ Lemma=certified NamedEntityTag=MISC] [Text=stage CharacterOffsetBegin=1837 CharacterOffsetEnd=1842 PartOfSpeech=NN Lemma=stage NamedEntityTag=O] [Text=welcomed CharacterOffsetBegin=1843 CharacterOffsetEnd=1851 PartOfSpeech=VBD Lemma=welcome NamedEntityTag=O] [Text=newcomer CharacterOffsetBegin=1852 CharacterOffsetEnd=1860 PartOfSpeech=NN Lemma=newcomer NamedEntityTag=O] [Text=Sebastian CharacterOffsetBegin=1861 CharacterOffsetEnd=1870 PartOfSpeech=NNP Lemma=Sebastian NamedEntityTag=PERSON] [Text=Mikael CharacterOffsetBegin=1871 CharacterOffsetEnd=1877 PartOfSpeech=NNP Lemma=Mikael NamedEntityTag=PERSON] [Text=plus CharacterOffsetBegin=1878 CharacterOffsetEnd=1882 PartOfSpeech=CC Lemma=plus NamedEntityTag=O] [Text=Jagged CharacterOffsetBegin=1883 CharacterOffsetEnd=1889 PartOfSpeech=NNP Lemma=Jagged NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1890 CharacterOffsetEnd=1894 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=, CharacterOffsetBegin=1894 CharacterOffsetEnd=1895 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Eric CharacterOffsetBegin=1896 CharacterOffsetEnd=1900 PartOfSpeech=NNP Lemma=Eric NamedEntityTag=PERSON] [Text=Benet CharacterOffsetBegin=1901 CharacterOffsetEnd=1906 PartOfSpeech=NNP Lemma=Benet NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1906 CharacterOffsetEnd=1907 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Calvin CharacterOffsetBegin=1908 CharacterOffsetEnd=1914 PartOfSpeech=NNP Lemma=Calvin NamedEntityTag=PERSON] [Text=Richardson CharacterOffsetBegin=1915 CharacterOffsetEnd=1925 PartOfSpeech=NNP Lemma=Richardson NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1926 CharacterOffsetEnd=1929 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Liv CharacterOffsetBegin=1930 CharacterOffsetEnd=1933 PartOfSpeech=NNP Lemma=Liv NamedEntityTag=PERSON] [Text=Warfield CharacterOffsetBegin=1934 CharacterOffsetEnd=1942 PartOfSpeech=NNP Lemma=Warfield NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1942 CharacterOffsetEnd=1943 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Centric) (JJ Certified) (NN stage))
+    (VP (VBD welcomed)
+      (S
+        (NP (NN newcomer))
+        (NP
+          (NP (NNP Sebastian) (NNP Mikael)
+            (CC plus)
+            (NNP Jagged) (NNP Edge))
+          (, ,)
+          (NP (NNP Eric) (NNP Benet))
+          (, ,)
+          (NP (NNP Calvin) (NNP Richardson))
+          (CC and)
+          (NP (NNP Liv) (NNP Warfield)))))
+    (. .)))
+
+root(ROOT-0, welcomed-5)
+det(stage-4, The-1)
+nn(stage-4, Centric-2)
+amod(stage-4, Certified-3)
+nsubj(welcomed-5, stage-4)
+nsubj(Mikael-8, newcomer-6)
+nn(Mikael-8, Sebastian-7)
+xcomp(welcomed-5, Mikael-8)
+nn(Edge-11, Jagged-10)
+conj_plus(Mikael-8, Edge-11)
+nn(Benet-14, Eric-13)
+conj_plus(Mikael-8, Benet-14)
+nn(Richardson-17, Calvin-16)
+conj_plus(Mikael-8, Richardson-17)
+nn(Warfield-20, Liv-19)
+conj_and(Mikael-8, Warfield-20)
+
+Sentence #15 (20 tokens):
+And hot producer DJ Mustard hosted a kickoff BET Experience concert on Saturday featuring artists Nipsey Hussle and Tinashe.
+[Text=And CharacterOffsetBegin=1944 CharacterOffsetEnd=1947 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=hot CharacterOffsetBegin=1948 CharacterOffsetEnd=1951 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O] [Text=producer CharacterOffsetBegin=1952 CharacterOffsetEnd=1960 PartOfSpeech=NN Lemma=producer NamedEntityTag=O] [Text=DJ CharacterOffsetBegin=1961 CharacterOffsetEnd=1963 PartOfSpeech=NNP Lemma=DJ NamedEntityTag=ORGANIZATION] [Text=Mustard CharacterOffsetBegin=1964 CharacterOffsetEnd=1971 PartOfSpeech=NNP Lemma=Mustard NamedEntityTag=ORGANIZATION] [Text=hosted CharacterOffsetBegin=1972 CharacterOffsetEnd=1978 PartOfSpeech=VBD Lemma=host NamedEntityTag=O] [Text=a CharacterOffsetBegin=1979 CharacterOffsetEnd=1980 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=kickoff CharacterOffsetBegin=1981 CharacterOffsetEnd=1988 PartOfSpeech=NN Lemma=kickoff NamedEntityTag=O] [Text=BET CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=NNP Lemma=BET NamedEntityTag=O] [Text=Experience CharacterOffsetBegin=1993 CharacterOffsetEnd=2003 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=concert CharacterOffsetBegin=2004 CharacterOffsetEnd=2011 PartOfSpeech=NN Lemma=concert NamedEntityTag=O] [Text=on CharacterOffsetBegin=2012 CharacterOffsetEnd=2014 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=2015 CharacterOffsetEnd=2023 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t11" type="DATE" value="XXXX-WXX-6">Saturday<-TIMEX3>] [Text=featuring CharacterOffsetBegin=2024 CharacterOffsetEnd=2033 PartOfSpeech=VBG Lemma=feature NamedEntityTag=O] [Text=artists CharacterOffsetBegin=2034 CharacterOffsetEnd=2041 PartOfSpeech=NNS Lemma=artist NamedEntityTag=O] [Text=Nipsey CharacterOffsetBegin=2042 CharacterOffsetEnd=2048 PartOfSpeech=NNP Lemma=Nipsey NamedEntityTag=PERSON] [Text=Hussle CharacterOffsetBegin=2049 CharacterOffsetEnd=2055 PartOfSpeech=NNP Lemma=Hussle NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=2056 CharacterOffsetEnd=2059 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Tinashe CharacterOffsetBegin=2060 CharacterOffsetEnd=2067 PartOfSpeech=NNP Lemma=Tinashe NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=2067 CharacterOffsetEnd=2068 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC And)
+    (NP (JJ hot) (NN producer) (NNP DJ) (NNP Mustard))
+    (VP (VBD hosted)
+      (NP (DT a) (NN kickoff))
+      (PP
+        (NP (NNP BET) (NN Experience) (NN concert))
+        (IN on)
+        (NP (NNP Saturday)))
+      (S
+        (VP (VBG featuring)
+          (NP
+            (NP (NNS artists))
+            (NNP Nipsey) (NNP Hussle)
+            (CC and)
+            (NNP Tinashe)))))
+    (. .)))
+
+root(ROOT-0, hosted-6)
+cc(hosted-6, And-1)
+amod(Mustard-5, hot-2)
+nn(Mustard-5, producer-3)
+nn(Mustard-5, DJ-4)
+nsubj(hosted-6, Mustard-5)
+det(kickoff-8, a-7)
+dobj(hosted-6, kickoff-8)
+nn(concert-11, BET-9)
+nn(concert-11, Experience-10)
+dep(hosted-6, concert-11)
+prep_on(hosted-6, Saturday-13)
+xcomp(hosted-6, featuring-14)
+nn(Hussle-17, artists-15)
+nn(Hussle-17, Nipsey-16)
+dobj(featuring-14, Hussle-17)
+conj_and(Hussle-17, Tinashe-19)
+
+Sentence #16 (33 tokens):
+One of the more riveting (and should have been mandatory) offerings was Genius Talks, illuminating Q&A-s between tastemakers from TV, film, books, music and sports.
+[Text=One CharacterOffsetBegin=2070 CharacterOffsetEnd=2073 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=2074 CharacterOffsetEnd=2076 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2077 CharacterOffsetEnd=2080 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=more CharacterOffsetBegin=2081 CharacterOffsetEnd=2085 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=riveting CharacterOffsetBegin=2086 CharacterOffsetEnd=2094 PartOfSpeech=JJ Lemma=riveting NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=2095 CharacterOffsetEnd=2096 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=2096 CharacterOffsetEnd=2099 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=should CharacterOffsetBegin=2100 CharacterOffsetEnd=2106 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=have CharacterOffsetBegin=2107 CharacterOffsetEnd=2111 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2112 CharacterOffsetEnd=2116 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=mandatory CharacterOffsetBegin=2117 CharacterOffsetEnd=2126 PartOfSpeech=JJ Lemma=mandatory NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2126 CharacterOffsetEnd=2127 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=offerings CharacterOffsetBegin=2128 CharacterOffsetEnd=2137 PartOfSpeech=NNS Lemma=offering NamedEntityTag=O] [Text=was CharacterOffsetBegin=2138 CharacterOffsetEnd=2141 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=Genius CharacterOffsetBegin=2142 CharacterOffsetEnd=2148 PartOfSpeech=NN Lemma=genius NamedEntityTag=MISC] [Text=Talks CharacterOffsetBegin=2149 CharacterOffsetEnd=2154 PartOfSpeech=NNS Lemma=talk NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=2154 CharacterOffsetEnd=2155 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=illuminating CharacterOffsetBegin=2156 CharacterOffsetEnd=2168 PartOfSpeech=JJ Lemma=illuminating NamedEntityTag=O] [Text=Q&A CharacterOffsetBegin=2169 CharacterOffsetEnd=2172 PartOfSpeech=NNP Lemma=Q&A NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2172 CharacterOffsetEnd=2174 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=between CharacterOffsetBegin=2175 CharacterOffsetEnd=2182 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=tastemakers CharacterOffsetBegin=2183 CharacterOffsetEnd=2194 PartOfSpeech=NNS Lemma=tastemaker NamedEntityTag=O] [Text=from CharacterOffsetBegin=2195 CharacterOffsetEnd=2199 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=TV CharacterOffsetBegin=2200 CharacterOffsetEnd=2202 PartOfSpeech=NN Lemma=tv NamedEntityTag=O] [Text=, CharacterOffsetBegin=2202 CharacterOffsetEnd=2203 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=film CharacterOffsetBegin=2204 CharacterOffsetEnd=2208 PartOfSpeech=NN Lemma=film NamedEntityTag=O] [Text=, CharacterOffsetBegin=2208 CharacterOffsetEnd=2209 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=books CharacterOffsetBegin=2210 CharacterOffsetEnd=2215 PartOfSpeech=NNS Lemma=book NamedEntityTag=O] [Text=, CharacterOffsetBegin=2215 CharacterOffsetEnd=2216 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=music CharacterOffsetBegin=2217 CharacterOffsetEnd=2222 PartOfSpeech=NN Lemma=music NamedEntityTag=O] [Text=and CharacterOffsetBegin=2223 CharacterOffsetEnd=2226 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=sports CharacterOffsetBegin=2227 CharacterOffsetEnd=2233 PartOfSpeech=NNS Lemma=sport NamedEntityTag=O] [Text=. CharacterOffsetBegin=2233 CharacterOffsetEnd=2234 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP (DT the)
+          (ADJP (RBR more) (JJ riveting)
+            (PRN (-LRB- -LRB-)
+              (CC and)
+              (VP (MD should)
+                (VP (VB have)
+                  (VP (VBN been)
+                    (NP (JJ mandatory)))))
+              (-RRB- -RRB-)))
+          (NNS offerings))))
+    (VP (VBD was)
+      (NP
+        (NP (NN Genius) (NNS Talks))
+        (, ,)
+        (NP
+          (NP (JJ illuminating) (NNP Q&A) (POS -s))
+          (PP (IN between)
+            (NP
+              (NP (NNS tastemakers))
+              (PP (IN from)
+                (NP (NN TV))))))
+        (, ,)
+        (NP (NN film))
+        (, ,)
+        (NP (NNS books))
+        (, ,)
+        (NP (NN music))
+        (CC and)
+        (NP (NNS sports))))
+    (. .)))
+
+root(ROOT-0, Talks-16)
+nsubj(Talks-16, One-1)
+det(offerings-13, the-3)
+advmod(riveting-5, more-4)
+amod(offerings-13, riveting-5)
+cc(mandatory-11, and-7)
+aux(mandatory-11, should-8)
+aux(mandatory-11, have-9)
+cop(mandatory-11, been-10)
+dep(riveting-5, mandatory-11)
+prep_of(One-1, offerings-13)
+cop(Talks-16, was-14)
+nn(Talks-16, Genius-15)
+amod(Q&A-19, illuminating-18)
+conj_and(Talks-16, Q&A-19)
+prep_between(Q&A-19, tastemakers-22)
+prep_from(tastemakers-22, TV-24)
+conj_and(Talks-16, film-26)
+conj_and(Talks-16, books-28)
+conj_and(Talks-16, music-30)
+conj_and(Talks-16, sports-32)
+
+Sentence #17 (73 tokens):
+Hosted by rapper MC Lyte on Saturday and "Access Hollywood" anchor Shaun Robinson on Sunday, the match-ups -- presented by RushCard -- included: Bill Withers interviewed by actor Hill Harper, L.A. Clippers point guard Chris Paul and Snoop Dogg interviewed by ESPN-s Jemele Hill, "Think Like a Man Too" producer Will Packer interviewed by actor Boris Kodjoe and Mike Tyson interviewed by Common.
+[Text=Hosted CharacterOffsetBegin=2235 CharacterOffsetEnd=2241 PartOfSpeech=VBN Lemma=host NamedEntityTag=O] [Text=by CharacterOffsetBegin=2242 CharacterOffsetEnd=2244 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=rapper CharacterOffsetBegin=2245 CharacterOffsetEnd=2251 PartOfSpeech=NN Lemma=rapper NamedEntityTag=O] [Text=MC CharacterOffsetBegin=2252 CharacterOffsetEnd=2254 PartOfSpeech=NNP Lemma=MC NamedEntityTag=PERSON] [Text=Lyte CharacterOffsetBegin=2255 CharacterOffsetEnd=2259 PartOfSpeech=NNP Lemma=Lyte NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=2260 CharacterOffsetEnd=2262 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=2263 CharacterOffsetEnd=2271 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t11" type="DATE" value="XXXX-WXX-6">Saturday<-TIMEX3>] [Text=and CharacterOffsetBegin=2272 CharacterOffsetEnd=2275 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2276 CharacterOffsetEnd=2277 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Access CharacterOffsetBegin=2277 CharacterOffsetEnd=2283 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=Hollywood CharacterOffsetBegin=2284 CharacterOffsetEnd=2293 PartOfSpeech=NNP Lemma=Hollywood NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2293 CharacterOffsetEnd=2294 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=anchor CharacterOffsetBegin=2295 CharacterOffsetEnd=2301 PartOfSpeech=NN Lemma=anchor NamedEntityTag=O] [Text=Shaun CharacterOffsetBegin=2302 CharacterOffsetEnd=2307 PartOfSpeech=NNP Lemma=Shaun NamedEntityTag=PERSON] [Text=Robinson CharacterOffsetBegin=2308 CharacterOffsetEnd=2316 PartOfSpeech=NNP Lemma=Robinson NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=2317 CharacterOffsetEnd=2319 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Sunday CharacterOffsetBegin=2320 CharacterOffsetEnd=2326 PartOfSpeech=NNP Lemma=Sunday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-7 Timex=<TIMEX3 tid="t12" type="DATE" value="XXXX-WXX-7">Sunday<-TIMEX3>] [Text=, CharacterOffsetBegin=2326 CharacterOffsetEnd=2327 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=2328 CharacterOffsetEnd=2331 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=match-ups CharacterOffsetBegin=2332 CharacterOffsetEnd=2341 PartOfSpeech=NNS Lemma=match-up NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2342 CharacterOffsetEnd=2344 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=presented CharacterOffsetBegin=2345 CharacterOffsetEnd=2354 PartOfSpeech=VBN Lemma=present NamedEntityTag=O] [Text=by CharacterOffsetBegin=2355 CharacterOffsetEnd=2357 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=RushCard CharacterOffsetBegin=2358 CharacterOffsetEnd=2366 PartOfSpeech=NNP Lemma=RushCard NamedEntityTag=PERSON] [Text=-- CharacterOffsetBegin=2367 CharacterOffsetEnd=2369 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=included CharacterOffsetBegin=2370 CharacterOffsetEnd=2378 PartOfSpeech=VBD Lemma=include NamedEntityTag=O] [Text=: CharacterOffsetBegin=2378 CharacterOffsetEnd=2379 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Bill CharacterOffsetBegin=2380 CharacterOffsetEnd=2384 PartOfSpeech=NNP Lemma=Bill NamedEntityTag=PERSON] [Text=Withers CharacterOffsetBegin=2385 CharacterOffsetEnd=2392 PartOfSpeech=NNP Lemma=Withers NamedEntityTag=PERSON] [Text=interviewed CharacterOffsetBegin=2393 CharacterOffsetEnd=2404 PartOfSpeech=VBD Lemma=interview NamedEntityTag=O] [Text=by CharacterOffsetBegin=2405 CharacterOffsetEnd=2407 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=actor CharacterOffsetBegin=2408 CharacterOffsetEnd=2413 PartOfSpeech=NN Lemma=actor NamedEntityTag=O] [Text=Hill CharacterOffsetBegin=2414 CharacterOffsetEnd=2418 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=PERSON] [Text=Harper CharacterOffsetBegin=2419 CharacterOffsetEnd=2425 PartOfSpeech=NNP Lemma=Harper NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2425 CharacterOffsetEnd=2426 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=L.A. CharacterOffsetBegin=2427 CharacterOffsetEnd=2431 PartOfSpeech=NNP Lemma=L.A. NamedEntityTag=ORGANIZATION] [Text=Clippers CharacterOffsetBegin=2432 CharacterOffsetEnd=2440 PartOfSpeech=NNP Lemma=Clippers NamedEntityTag=ORGANIZATION] [Text=point CharacterOffsetBegin=2441 CharacterOffsetEnd=2446 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=guard CharacterOffsetBegin=2447 CharacterOffsetEnd=2452 PartOfSpeech=NN Lemma=guard NamedEntityTag=O] [Text=Chris CharacterOffsetBegin=2453 CharacterOffsetEnd=2458 PartOfSpeech=NNP Lemma=Chris NamedEntityTag=PERSON] [Text=Paul CharacterOffsetBegin=2459 CharacterOffsetEnd=2463 PartOfSpeech=NNP Lemma=Paul NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=2464 CharacterOffsetEnd=2467 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Snoop CharacterOffsetBegin=2468 CharacterOffsetEnd=2473 PartOfSpeech=NNP Lemma=Snoop NamedEntityTag=PERSON] [Text=Dogg CharacterOffsetBegin=2474 CharacterOffsetEnd=2478 PartOfSpeech=NNP Lemma=Dogg NamedEntityTag=PERSON] [Text=interviewed CharacterOffsetBegin=2479 CharacterOffsetEnd=2490 PartOfSpeech=VBD Lemma=interview NamedEntityTag=O] [Text=by CharacterOffsetBegin=2491 CharacterOffsetEnd=2493 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=ESPN CharacterOffsetBegin=2494 CharacterOffsetEnd=2498 PartOfSpeech=NNP Lemma=ESPN NamedEntityTag=ORGANIZATION] [Text=-s CharacterOffsetBegin=2498 CharacterOffsetEnd=2500 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Jemele CharacterOffsetBegin=2501 CharacterOffsetEnd=2507 PartOfSpeech=NNP Lemma=Jemele NamedEntityTag=PERSON] [Text=Hill CharacterOffsetBegin=2508 CharacterOffsetEnd=2512 PartOfSpeech=NNP Lemma=Hill NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2512 CharacterOffsetEnd=2513 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2514 CharacterOffsetEnd=2515 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Think CharacterOffsetBegin=2515 CharacterOffsetEnd=2520 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=Like CharacterOffsetBegin=2521 CharacterOffsetEnd=2525 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=a CharacterOffsetBegin=2526 CharacterOffsetEnd=2527 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Man CharacterOffsetBegin=2528 CharacterOffsetEnd=2531 PartOfSpeech=NNP Lemma=Man NamedEntityTag=O] [Text=Too CharacterOffsetBegin=2532 CharacterOffsetEnd=2535 PartOfSpeech=NNP Lemma=Too NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2535 CharacterOffsetEnd=2536 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] [Text=producer CharacterOffsetBegin=2537 CharacterOffsetEnd=2545 PartOfSpeech=NN Lemma=producer NamedEntityTag=O] [Text=Will CharacterOffsetBegin=2546 CharacterOffsetEnd=2550 PartOfSpeech=MD Lemma=will NamedEntityTag=PERSON] [Text=Packer CharacterOffsetBegin=2551 CharacterOffsetEnd=2557 PartOfSpeech=NNP Lemma=Packer NamedEntityTag=PERSON] [Text=interviewed CharacterOffsetBegin=2558 CharacterOffsetEnd=2569 PartOfSpeech=VBN Lemma=interview NamedEntityTag=O] [Text=by CharacterOffsetBegin=2570 CharacterOffsetEnd=2572 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=actor CharacterOffsetBegin=2573 CharacterOffsetEnd=2578 PartOfSpeech=NN Lemma=actor NamedEntityTag=O] [Text=Boris CharacterOffsetBegin=2579 CharacterOffsetEnd=2584 PartOfSpeech=NNP Lemma=Boris NamedEntityTag=PERSON] [Text=Kodjoe CharacterOffsetBegin=2585 CharacterOffsetEnd=2591 PartOfSpeech=NNP Lemma=Kodjoe NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=2592 CharacterOffsetEnd=2595 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Mike CharacterOffsetBegin=2596 CharacterOffsetEnd=2600 PartOfSpeech=NNP Lemma=Mike NamedEntityTag=PERSON] [Text=Tyson CharacterOffsetBegin=2601 CharacterOffsetEnd=2606 PartOfSpeech=NNP Lemma=Tyson NamedEntityTag=PERSON] [Text=interviewed CharacterOffsetBegin=2607 CharacterOffsetEnd=2618 PartOfSpeech=VBN Lemma=interview NamedEntityTag=O] [Text=by CharacterOffsetBegin=2619 CharacterOffsetEnd=2621 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Common CharacterOffsetBegin=2622 CharacterOffsetEnd=2628 PartOfSpeech=JJ Lemma=common NamedEntityTag=O] [Text=. CharacterOffsetBegin=2628 CharacterOffsetEnd=2629 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (S
+        (VP (VBN Hosted)
+          (PP (IN by)
+            (NP
+              (NP (NN rapper) (NNP MC) (NNP Lyte))
+              (PP (IN on)
+                (NP (NNP Saturday)))))))
+      (CC and)
+      (S
+        (NP (`` ``) (NN Access) (NNP Hollywood) (-- --))
+        (VP (NN anchor)
+          (S
+            (S
+              (NP
+                (NP (NNP Shaun) (NNP Robinson))
+                (PP (IN on)
+                  (NP (NNP Sunday))))
+              (, ,)
+              (NP
+                (NP (DT the) (NNS match-ups))
+                (PRN (: --)
+                  (VP (VBN presented)
+                    (PP (IN by)
+                      (NP (NNP RushCard))))
+                  (: --)))
+              (VP (VBD included)))
+            (: :)
+            (S
+              (NP (NNP Bill) (NNP Withers))
+              (VP (VBD interviewed)
+                (PP (IN by)
+                  (NP (NN actor)))))
+            (S
+              (NP (NNP Hill) (NNP Harper))
+              (PRN (, ,)
+                (S
+                  (NP (NNP L.A.) (NNP Clippers) (NN point) (NN guard) (NNP Chris) (NNP Paul)
+                    (CC and)
+                    (NNP Snoop) (NNP Dogg))
+                  (VP (VBD interviewed)
+                    (PP (IN by)
+                      (NP
+                        (NP (NNP ESPN) (POS -s))
+                        (NNP Jemele) (NNP Hill)))))
+                (, ,))
+              (`` ``)
+              (VP (VBP Think))
+              (PP (IN Like)
+                (NP (DT a) (NNP Man) (NNP Too) (-- --) (NN producer))))))))
+    (VP (MD Will))
+    (NP
+      (NP
+        (NP (NNP Packer))
+        (VP (VBN interviewed)
+          (PP (IN by)
+            (NP (NN actor) (NNP Boris) (NNP Kodjoe)))))
+      (CC and)
+      (NP
+        (NP (NNP Mike) (NNP Tyson))
+        (VP (VBN interviewed)
+          (PP (IN by)
+            (NP (JJ Common))))))
+    (. .)))
+
+root(ROOT-0, Will-60)
+dep(Will-60, Hosted-1)
+nn(Lyte-5, rapper-3)
+nn(Lyte-5, MC-4)
+prep_by(Hosted-1, Lyte-5)
+prep_on(Lyte-5, Saturday-7)
+nn(Hollywood-11, Access-10)
+nsubj(anchor-13, Hollywood-11)
+conj_and(Hosted-1, anchor-13)
+nn(Robinson-15, Shaun-14)
+nsubj(included-26, Robinson-15)
+prep_on(Robinson-15, Sunday-17)
+det(match-ups-20, the-19)
+nsubj(included-26, match-ups-20)
+dep(match-ups-20, presented-22)
+prep_by(presented-22, RushCard-24)
+dep(anchor-13, included-26)
+nn(Withers-29, Bill-28)
+nsubj(interviewed-30, Withers-29)
+parataxis(included-26, interviewed-30)
+prep_by(interviewed-30, actor-32)
+nn(Harper-34, Hill-33)
+nsubj(Think-53, Harper-34)
+nn(Paul-41, L.A.-36)
+nn(Paul-41, Clippers-37)
+nn(Paul-41, point-38)
+nn(Paul-41, guard-39)
+nn(Paul-41, Chris-40)
+nsubj(interviewed-45, Paul-41)
+nn(Dogg-44, Snoop-43)
+conj_and(Paul-41, Dogg-44)
+parataxis(Think-53, interviewed-45)
+poss(Hill-50, ESPN-47)
+nn(Hill-50, Jemele-49)
+prep_by(interviewed-45, Hill-50)
+parataxis(included-26, Think-53)
+det(producer-59, a-55)
+nn(producer-59, Man-56)
+nn(producer-59, Too-57)
+prep_like(Think-53, producer-59)
+nsubj(Will-60, Packer-61)
+vmod(Packer-61, interviewed-62)
+nn(Kodjoe-66, actor-64)
+nn(Kodjoe-66, Boris-65)
+agent(interviewed-62, Kodjoe-66)
+nn(Tyson-69, Mike-68)
+conj_and(Packer-61, Tyson-69)
+vmod(Tyson-69, interviewed-70)
+agent(interviewed-70, Common-72)
+
+Sentence #18 (55 tokens):
+Rounding out the fan fest were lifestyle and wellness seminars, a dance competition with MC Hammer as a judge, a BET Awards exhibit and youth educational program at the Grammy Museum and an indie film festival at the Regal Theatre that culminated with a showing of Prince-s "Purple Rain."
+[Text=Rounding CharacterOffsetBegin=2631 CharacterOffsetEnd=2639 PartOfSpeech=VBG Lemma=round NamedEntityTag=O] [Text=out CharacterOffsetBegin=2640 CharacterOffsetEnd=2643 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=the CharacterOffsetBegin=2644 CharacterOffsetEnd=2647 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fan CharacterOffsetBegin=2648 CharacterOffsetEnd=2651 PartOfSpeech=NN Lemma=fan NamedEntityTag=O] [Text=fest CharacterOffsetBegin=2652 CharacterOffsetEnd=2656 PartOfSpeech=JJS Lemma=fest NamedEntityTag=O] [Text=were CharacterOffsetBegin=2657 CharacterOffsetEnd=2661 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=lifestyle CharacterOffsetBegin=2662 CharacterOffsetEnd=2671 PartOfSpeech=NN Lemma=lifestyle NamedEntityTag=O] [Text=and CharacterOffsetBegin=2672 CharacterOffsetEnd=2675 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=wellness CharacterOffsetBegin=2676 CharacterOffsetEnd=2684 PartOfSpeech=NN Lemma=wellness NamedEntityTag=O] [Text=seminars CharacterOffsetBegin=2685 CharacterOffsetEnd=2693 PartOfSpeech=NNS Lemma=seminar NamedEntityTag=O] [Text=, CharacterOffsetBegin=2693 CharacterOffsetEnd=2694 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=2695 CharacterOffsetEnd=2696 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=dance CharacterOffsetBegin=2697 CharacterOffsetEnd=2702 PartOfSpeech=NN Lemma=dance NamedEntityTag=O] [Text=competition CharacterOffsetBegin=2703 CharacterOffsetEnd=2714 PartOfSpeech=NN Lemma=competition NamedEntityTag=O] [Text=with CharacterOffsetBegin=2715 CharacterOffsetEnd=2719 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=MC CharacterOffsetBegin=2720 CharacterOffsetEnd=2722 PartOfSpeech=NNP Lemma=MC NamedEntityTag=O] [Text=Hammer CharacterOffsetBegin=2723 CharacterOffsetEnd=2729 PartOfSpeech=NNP Lemma=Hammer NamedEntityTag=O] [Text=as CharacterOffsetBegin=2730 CharacterOffsetEnd=2732 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=2733 CharacterOffsetEnd=2734 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=judge CharacterOffsetBegin=2735 CharacterOffsetEnd=2740 PartOfSpeech=NN Lemma=judge NamedEntityTag=O] [Text=, CharacterOffsetBegin=2740 CharacterOffsetEnd=2741 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=2742 CharacterOffsetEnd=2743 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=BET CharacterOffsetBegin=2744 CharacterOffsetEnd=2747 PartOfSpeech=NNP Lemma=BET NamedEntityTag=O] [Text=Awards CharacterOffsetBegin=2748 CharacterOffsetEnd=2754 PartOfSpeech=NNS Lemma=award NamedEntityTag=O] [Text=exhibit CharacterOffsetBegin=2755 CharacterOffsetEnd=2762 PartOfSpeech=VBP Lemma=exhibit NamedEntityTag=O] [Text=and CharacterOffsetBegin=2763 CharacterOffsetEnd=2766 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=youth CharacterOffsetBegin=2767 CharacterOffsetEnd=2772 PartOfSpeech=NN Lemma=youth NamedEntityTag=O] [Text=educational CharacterOffsetBegin=2773 CharacterOffsetEnd=2784 PartOfSpeech=JJ Lemma=educational NamedEntityTag=O] [Text=program CharacterOffsetBegin=2785 CharacterOffsetEnd=2792 PartOfSpeech=NN Lemma=program NamedEntityTag=O] [Text=at CharacterOffsetBegin=2793 CharacterOffsetEnd=2795 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=2796 CharacterOffsetEnd=2799 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Grammy CharacterOffsetBegin=2800 CharacterOffsetEnd=2806 PartOfSpeech=NNP Lemma=Grammy NamedEntityTag=O] [Text=Museum CharacterOffsetBegin=2807 CharacterOffsetEnd=2813 PartOfSpeech=NNP Lemma=Museum NamedEntityTag=O] [Text=and CharacterOffsetBegin=2814 CharacterOffsetEnd=2817 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=an CharacterOffsetBegin=2818 CharacterOffsetEnd=2820 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=indie CharacterOffsetBegin=2821 CharacterOffsetEnd=2826 PartOfSpeech=JJ Lemma=indie NamedEntityTag=O] [Text=film CharacterOffsetBegin=2827 CharacterOffsetEnd=2831 PartOfSpeech=NN Lemma=film NamedEntityTag=O] [Text=festival CharacterOffsetBegin=2832 CharacterOffsetEnd=2840 PartOfSpeech=NN Lemma=festival NamedEntityTag=O] [Text=at CharacterOffsetBegin=2841 CharacterOffsetEnd=2843 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=2844 CharacterOffsetEnd=2847 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Regal CharacterOffsetBegin=2848 CharacterOffsetEnd=2853 PartOfSpeech=NNP Lemma=Regal NamedEntityTag=O] [Text=Theatre CharacterOffsetBegin=2854 CharacterOffsetEnd=2861 PartOfSpeech=NNP Lemma=Theatre NamedEntityTag=O] [Text=that CharacterOffsetBegin=2862 CharacterOffsetEnd=2866 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=culminated CharacterOffsetBegin=2867 CharacterOffsetEnd=2877 PartOfSpeech=VBD Lemma=culminate NamedEntityTag=O] [Text=with CharacterOffsetBegin=2878 CharacterOffsetEnd=2882 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=2883 CharacterOffsetEnd=2884 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=showing CharacterOffsetBegin=2885 CharacterOffsetEnd=2892 PartOfSpeech=NN Lemma=showing NamedEntityTag=O] [Text=of CharacterOffsetBegin=2893 CharacterOffsetEnd=2895 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Prince CharacterOffsetBegin=2896 CharacterOffsetEnd=2902 PartOfSpeech=NNP Lemma=Prince NamedEntityTag=PERSON] [Text=-s CharacterOffsetBegin=2902 CharacterOffsetEnd=2904 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2905 CharacterOffsetEnd=2906 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Purple CharacterOffsetBegin=2906 CharacterOffsetEnd=2912 PartOfSpeech=NNP Lemma=Purple NamedEntityTag=O] [Text=Rain CharacterOffsetBegin=2913 CharacterOffsetEnd=2917 PartOfSpeech=NN Lemma=rain NamedEntityTag=O] [Text=. CharacterOffsetBegin=2917 CharacterOffsetEnd=2918 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2918 CharacterOffsetEnd=2919 PartOfSpeech=-- Lemma=-- NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBG Rounding)
+        (PRT (RP out))
+        (NP
+          (NP (DT the) (NN fan))
+          (SBAR
+            (S
+              (NP (JJS fest))
+              (VP (VBD were)
+                (NP
+                  (NP (NN lifestyle)
+                    (CC and)
+                    (NN wellness) (NNS seminars))
+                  (, ,)
+                  (NP
+                    (NP (DT a) (NN dance) (NN competition))
+                    (PP (IN with)
+                      (NP
+                        (NP (NNP MC) (NNP Hammer))
+                        (PP (IN as)
+                          (NP (DT a) (NN judge)))))))))))))
+    (, ,)
+    (NP (DT a) (NNP BET) (NNS Awards))
+    (VP (VBP exhibit)
+      (NP (CC and)
+        (NP
+          (NP (NN youth) (JJ educational) (NN program))
+          (PP (IN at)
+            (NP
+              (NP (DT the) (NNP Grammy) (NNP Museum))
+              (CC and)
+              (NP (DT an) (JJ indie) (NN film) (NN festival))))))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NNP Regal) (NNP Theatre))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD culminated)
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (NN showing))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNP Prince) (POS -s))
+                        (`` ``)
+                        (NP (NNP Purple) (NN Rain))))))))))))
+    (. .) (-- --)))
+
+root(ROOT-0, exhibit-25)
+vmod(exhibit-25, Rounding-1)
+prt(Rounding-1, out-2)
+det(fan-4, the-3)
+dobj(Rounding-1, fan-4)
+nsubj(seminars-10, fest-5)
+cop(seminars-10, were-6)
+nn(seminars-10, lifestyle-7)
+conj_and(lifestyle-7, wellness-9)
+rcmod(fan-4, seminars-10)
+det(competition-14, a-12)
+nn(competition-14, dance-13)
+appos(seminars-10, competition-14)
+nn(Hammer-17, MC-16)
+prep_with(competition-14, Hammer-17)
+det(judge-20, a-19)
+prep_as(Hammer-17, judge-20)
+det(Awards-24, a-22)
+nn(Awards-24, BET-23)
+nsubj(exhibit-25, Awards-24)
+cc(program-29, and-26)
+nn(program-29, youth-27)
+amod(program-29, educational-28)
+dobj(exhibit-25, program-29)
+det(Museum-33, the-31)
+nn(Museum-33, Grammy-32)
+prep_at(program-29, Museum-33)
+det(festival-38, an-35)
+amod(festival-38, indie-36)
+nn(festival-38, film-37)
+conj_and(Museum-33, festival-38)
+det(Theatre-42, the-40)
+nn(Theatre-42, Regal-41)
+prep_at(exhibit-25, Theatre-42)
+nsubj(culminated-44, that-43)
+rcmod(Theatre-42, culminated-44)
+det(showing-47, a-46)
+prep_with(culminated-44, showing-47)
+prep_of(showing-47, Prince-49)
+possessive(Prince-49, -s-50)
+nn(Rain-53, Purple-52)
+dep(Prince-49, Rain-53)
+
+Sentence #19 (22 tokens):
+Anchoring each evening were concerts at L.A. Live-s Staples Center, complemented by late-night shows at sister venue Club Nokia.
+[Text=Anchoring CharacterOffsetBegin=2921 CharacterOffsetEnd=2930 PartOfSpeech=VBG Lemma=anchor NamedEntityTag=O] [Text=each CharacterOffsetBegin=2931 CharacterOffsetEnd=2935 PartOfSpeech=DT Lemma=each NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="each" tid="t13" type="SET" value="TEV">each evening<-TIMEX3>] [Text=evening CharacterOffsetBegin=2936 CharacterOffsetEnd=2943 PartOfSpeech=NN Lemma=evening NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="each" tid="t13" type="SET" value="TEV">each evening<-TIMEX3>] [Text=were CharacterOffsetBegin=2944 CharacterOffsetEnd=2948 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=concerts CharacterOffsetBegin=2949 CharacterOffsetEnd=2957 PartOfSpeech=NNS Lemma=concert NamedEntityTag=O] [Text=at CharacterOffsetBegin=2958 CharacterOffsetEnd=2960 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=L.A. CharacterOffsetBegin=2961 CharacterOffsetEnd=2965 PartOfSpeech=NNP Lemma=L.A. NamedEntityTag=O] [Text=Live CharacterOffsetBegin=2966 CharacterOffsetEnd=2970 PartOfSpeech=NNP Lemma=Live NamedEntityTag=O] [Text=-s CharacterOffsetBegin=2970 CharacterOffsetEnd=2972 PartOfSpeech=POS Lemma=-s NamedEntityTag=O] [Text=Staples CharacterOffsetBegin=2973 CharacterOffsetEnd=2980 PartOfSpeech=NNP Lemma=Staples NamedEntityTag=O] [Text=Center CharacterOffsetBegin=2981 CharacterOffsetEnd=2987 PartOfSpeech=NNP Lemma=Center NamedEntityTag=O] [Text=, CharacterOffsetBegin=2987 CharacterOffsetEnd=2988 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=complemented CharacterOffsetBegin=2989 CharacterOffsetEnd=3001 PartOfSpeech=VBN Lemma=complement NamedEntityTag=O] [Text=by CharacterOffsetBegin=3002 CharacterOffsetEnd=3004 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=late-night CharacterOffsetBegin=3005 CharacterOffsetEnd=3015 PartOfSpeech=JJ Lemma=late-night NamedEntityTag=O] [Text=shows CharacterOffsetBegin=3016 CharacterOffsetEnd=3021 PartOfSpeech=NNS Lemma=show NamedEntityTag=O] [Text=at CharacterOffsetBegin=3022 CharacterOffsetEnd=3024 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=sister CharacterOffsetBegin=3025 CharacterOffsetEnd=3031 PartOfSpeech=NN Lemma=sister NamedEntityTag=O] [Text=venue CharacterOffsetBegin=3032 CharacterOffsetEnd=3037 PartOfSpeech=NN Lemma=venue NamedEntityTag=O] [Text=Club CharacterOffsetBegin=3038 CharacterOffsetEnd=3042 PartOfSpeech=NNP Lemma=Club NamedEntityTag=O] [Text=Nokia CharacterOffsetBegin=3043 CharacterOffsetEnd=3048 PartOfSpeech=NNP Lemma=Nokia NamedEntityTag=O] [Text=. CharacterOffsetBegin=3048 CharacterOffsetEnd=3049 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBG Anchoring)
+        (NP (DT each) (NN evening))))
+    (VP (VBD were)
+      (NP
+        (NP (NNS concerts))
+        (PP (IN at)
+          (NP
+            (NP
+              (NP (NNP L.A.) (NNP Live) (POS -s))
+              (NNP Staples) (NNP Center))
+            (, ,)
+            (VP (VBN complemented)
+              (PP (IN by)
+                (NP (JJ late-night) (NNS shows)))
+              (PP (IN at)
+                (NP (NN sister) (NN venue) (NNP Club) (NNP Nokia))))))))
+    (. .)))
+
+root(ROOT-0, concerts-5)
+csubj(concerts-5, Anchoring-1)
+det(evening-3, each-2)
+tmod(Anchoring-1, evening-3)
+cop(concerts-5, were-4)
+nn(Live-8, L.A.-7)
+poss(Center-11, Live-8)
+nn(Center-11, Staples-10)
+prep_at(concerts-5, Center-11)
+vmod(Center-11, complemented-13)
+amod(shows-16, late-night-15)
+agent(complemented-13, shows-16)
+nn(Nokia-21, sister-18)
+nn(Nokia-21, venue-19)
+nn(Nokia-21, Club-20)
+prep_at(complemented-13, Nokia-21)
+
+Sentence #20 (63 tokens):
+The Billboard BoxScore attendance and gross dollars from each of the Staples shows are as follows: Maxwell and Jill Scott (June 27; attendance 12,167, gross $794,724); OutKast-A$AP Rocky-Rick Ross (June 28; 12,590, $830,324) and Mary J. Blige-Trey Songz-Jennifer Hudson (June 29; 11,918, $657,158).
+[Text=The CharacterOffsetBegin=3050 CharacterOffsetEnd=3053 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Billboard CharacterOffsetBegin=3054 CharacterOffsetEnd=3063 PartOfSpeech=NNP Lemma=Billboard NamedEntityTag=MISC] [Text=BoxScore CharacterOffsetBegin=3064 CharacterOffsetEnd=3072 PartOfSpeech=NNP Lemma=BoxScore NamedEntityTag=MISC] [Text=attendance CharacterOffsetBegin=3073 CharacterOffsetEnd=3083 PartOfSpeech=NN Lemma=attendance NamedEntityTag=O] [Text=and CharacterOffsetBegin=3084 CharacterOffsetEnd=3087 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=gross CharacterOffsetBegin=3088 CharacterOffsetEnd=3093 PartOfSpeech=JJ Lemma=gross NamedEntityTag=MONEY NormalizedNamedEntityTag=$144.0] [Text=dollars CharacterOffsetBegin=3094 CharacterOffsetEnd=3101 PartOfSpeech=NNS Lemma=dollar NamedEntityTag=MONEY NormalizedNamedEntityTag=$144.0] [Text=from CharacterOffsetBegin=3102 CharacterOffsetEnd=3106 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=each CharacterOffsetBegin=3107 CharacterOffsetEnd=3111 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=of CharacterOffsetBegin=3112 CharacterOffsetEnd=3114 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=3115 CharacterOffsetEnd=3118 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Staples CharacterOffsetBegin=3119 CharacterOffsetEnd=3126 PartOfSpeech=NNP Lemma=Staples NamedEntityTag=O] [Text=shows CharacterOffsetBegin=3127 CharacterOffsetEnd=3132 PartOfSpeech=NNS Lemma=show NamedEntityTag=O] [Text=are CharacterOffsetBegin=3133 CharacterOffsetEnd=3136 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=as CharacterOffsetBegin=3137 CharacterOffsetEnd=3139 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=follows CharacterOffsetBegin=3140 CharacterOffsetEnd=3147 PartOfSpeech=VBZ Lemma=follow NamedEntityTag=O] [Text=: CharacterOffsetBegin=3147 CharacterOffsetEnd=3148 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Maxwell CharacterOffsetBegin=3149 CharacterOffsetEnd=3156 PartOfSpeech=NNP Lemma=Maxwell NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=3157 CharacterOffsetEnd=3160 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Jill CharacterOffsetBegin=3161 CharacterOffsetEnd=3165 PartOfSpeech=NNP Lemma=Jill NamedEntityTag=PERSON] [Text=Scott CharacterOffsetBegin=3166 CharacterOffsetEnd=3171 PartOfSpeech=NNP Lemma=Scott NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3172 CharacterOffsetEnd=3173 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=June CharacterOffsetBegin=3173 CharacterOffsetEnd=3177 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-27 Timex=<TIMEX3 tid="t14" type="DATE" value="XXXX-06-27">June 27<-TIMEX3>] [Text=27 CharacterOffsetBegin=3178 CharacterOffsetEnd=3180 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-27 Timex=<TIMEX3 tid="t14" type="DATE" value="XXXX-06-27">June 27<-TIMEX3>] [Text=; CharacterOffsetBegin=3180 CharacterOffsetEnd=3181 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=attendance CharacterOffsetBegin=3182 CharacterOffsetEnd=3192 PartOfSpeech=NN Lemma=attendance NamedEntityTag=O] [Text=12,167 CharacterOffsetBegin=3193 CharacterOffsetEnd=3199 PartOfSpeech=CD Lemma=12,167 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12167.0] [Text=, CharacterOffsetBegin=3199 CharacterOffsetEnd=3200 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=gross CharacterOffsetBegin=3201 CharacterOffsetEnd=3206 PartOfSpeech=JJ Lemma=gross NamedEntityTag=NUMBER NormalizedNamedEntityTag=144.0] [Text=$ CharacterOffsetBegin=3207 CharacterOffsetEnd=3208 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$794724.0] [Text=794,724 CharacterOffsetBegin=3208 CharacterOffsetEnd=3215 PartOfSpeech=CD Lemma=794,724 NamedEntityTag=MONEY NormalizedNamedEntityTag=$794724.0] [Text=-RRB- CharacterOffsetBegin=3215 CharacterOffsetEnd=3216 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=; CharacterOffsetBegin=3216 CharacterOffsetEnd=3217 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=OutKast-A CharacterOffsetBegin=3218 CharacterOffsetEnd=3227 PartOfSpeech=NNP Lemma=OutKast-A NamedEntityTag=O] [Text=$ CharacterOffsetBegin=3227 CharacterOffsetEnd=3228 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.0] [Text=AP CharacterOffsetBegin=3228 CharacterOffsetEnd=3230 PartOfSpeech=NN Lemma=ap NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.0] [Text=Rocky-Rick CharacterOffsetBegin=3231 CharacterOffsetEnd=3241 PartOfSpeech=NNP Lemma=Rocky-Rick NamedEntityTag=O] [Text=Ross CharacterOffsetBegin=3242 CharacterOffsetEnd=3246 PartOfSpeech=NNP Lemma=Ross NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3247 CharacterOffsetEnd=3248 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=June CharacterOffsetBegin=3248 CharacterOffsetEnd=3252 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-28 Timex=<TIMEX3 tid="t15" type="DATE" value="XXXX-06-28">June 28<-TIMEX3>] [Text=28 CharacterOffsetBegin=3253 CharacterOffsetEnd=3255 PartOfSpeech=CD Lemma=28 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-28 Timex=<TIMEX3 tid="t15" type="DATE" value="XXXX-06-28">June 28<-TIMEX3>] [Text=; CharacterOffsetBegin=3255 CharacterOffsetEnd=3256 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=12,590 CharacterOffsetBegin=3257 CharacterOffsetEnd=3263 PartOfSpeech=CD Lemma=12,590 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12590.0] [Text=, CharacterOffsetBegin=3263 CharacterOffsetEnd=3264 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=$ CharacterOffsetBegin=3265 CharacterOffsetEnd=3266 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$830324.0] [Text=830,324 CharacterOffsetBegin=3266 CharacterOffsetEnd=3273 PartOfSpeech=CD Lemma=830,324 NamedEntityTag=MONEY NormalizedNamedEntityTag=$830324.0] [Text=-RRB- CharacterOffsetBegin=3273 CharacterOffsetEnd=3274 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=and CharacterOffsetBegin=3275 CharacterOffsetEnd=3278 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Mary CharacterOffsetBegin=3279 CharacterOffsetEnd=3283 PartOfSpeech=NNP Lemma=Mary NamedEntityTag=PERSON] [Text=J. CharacterOffsetBegin=3284 CharacterOffsetEnd=3286 PartOfSpeech=NNP Lemma=J. NamedEntityTag=PERSON] [Text=Blige-Trey CharacterOffsetBegin=3287 CharacterOffsetEnd=3297 PartOfSpeech=NNP Lemma=Blige-Trey NamedEntityTag=PERSON] [Text=Songz-Jennifer CharacterOffsetBegin=3298 CharacterOffsetEnd=3312 PartOfSpeech=NNP Lemma=Songz-Jennifer NamedEntityTag=PERSON] [Text=Hudson CharacterOffsetBegin=3313 CharacterOffsetEnd=3319 PartOfSpeech=NNP Lemma=Hudson NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=3320 CharacterOffsetEnd=3321 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=June CharacterOffsetBegin=3321 CharacterOffsetEnd=3325 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-29 Timex=<TIMEX3 tid="t16" type="DATE" value="XXXX-06-29">June 29<-TIMEX3>] [Text=29 CharacterOffsetBegin=3326 CharacterOffsetEnd=3328 PartOfSpeech=CD Lemma=29 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06-29 Timex=<TIMEX3 tid="t16" type="DATE" value="XXXX-06-29">June 29<-TIMEX3>] [Text=; CharacterOffsetBegin=3328 CharacterOffsetEnd=3329 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=11,918 CharacterOffsetBegin=3330 CharacterOffsetEnd=3336 PartOfSpeech=CD Lemma=11,918 NamedEntityTag=NUMBER NormalizedNamedEntityTag=11918.0] [Text=, CharacterOffsetBegin=3336 CharacterOffsetEnd=3337 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=$ CharacterOffsetBegin=3338 CharacterOffsetEnd=3339 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$657158.0] [Text=657,158 CharacterOffsetBegin=3339 CharacterOffsetEnd=3346 PartOfSpeech=CD Lemma=657,158 NamedEntityTag=MONEY NormalizedNamedEntityTag=$657158.0] [Text=-RRB- CharacterOffsetBegin=3346 CharacterOffsetEnd=3347 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=3347 CharacterOffsetEnd=3348 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NNP Billboard) (NNP BoxScore) (NN attendance))
+        (CC and)
+        (NP
+          (NP (JJ gross) (NNS dollars))
+          (PP (IN from)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP (DT the) (NNP Staples) (NNS shows)))))))
+      (VP (VBP are)
+        (NP
+          (SBAR (IN as)
+            (S
+              (VP (VBZ follows))))
+          (: :)
+          (NP
+            (NP (NNP Maxwell)
+              (CC and)
+              (NNP Jill) (NNP Scott))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP June) (CD 27))
+                (: ;)
+                (NP
+                  (NP (NN attendance) (CD 12,167))
+                  (, ,)
+                  (NP
+                    (NP (JJ gross))
+                    (NP ($ $) (CD 794,724)))))
+              (-RRB- -RRB-))))))
+    (: ;)
+    (S
+      (NP (NNP OutKast-A))
+      (NP
+        (NP
+          (NP ($ $) (NN AP))
+          (NP
+            (NP (NNP Rocky-Rick) (NNP Ross))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP June) (CD 28))
+                (: ;)
+                (NP
+                  (NP (CD 12,590))
+                  (, ,)
+                  (NP ($ $) (CD 830,324))))
+              (-RRB- -RRB-))))
+        (CC and)
+        (NP
+          (NP (NNP Mary) (NNP J.) (NNP Blige-Trey) (NNP Songz-Jennifer) (NNP Hudson))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP June) (CD 29))
+              (: ;)
+              (NP
+                (NP (CD 11,918))
+                (, ,)
+                (NP ($ $) (CD 657,158))))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+root(ROOT-0, Scott-21)
+det(attendance-4, The-1)
+nn(attendance-4, Billboard-2)
+nn(attendance-4, BoxScore-3)
+nsubj(Scott-21, attendance-4)
+amod(dollars-7, gross-6)
+conj_and(attendance-4, dollars-7)
+prep_from(dollars-7, each-9)
+det(shows-13, the-11)
+nn(shows-13, Staples-12)
+prep_of(each-9, shows-13)
+cop(Scott-21, are-14)
+mark(follows-16, as-15)
+dep(Scott-21, follows-16)
+nn(Scott-21, Maxwell-18)
+conj_and(Maxwell-18, Jill-20)
+dep(Scott-21, June-23)
+num(June-23, 27-24)
+dep(June-23, attendance-26)
+num(attendance-26, 12,167-27)
+appos(attendance-26, gross-29)
+dep(gross-29, dol-30)
+num(dol-30, 794,724-31)
+dep(AP-36, OutKast-A-34)
+dep(AP-36, dol-35)
+parataxis(Scott-21, AP-36)
+nn(Ross-38, Rocky-Rick-37)
+dep(AP-36, Ross-38)
+dep(Ross-38, June-40)
+num(June-40, 28-41)
+dep(June-40, 12,590-43)
+appos(12,590-43, dol-45)
+num(dol-45, 830,324-46)
+nn(Hudson-53, Mary-49)
+nn(Hudson-53, J.-50)
+nn(Hudson-53, Blige-Trey-51)
+nn(Hudson-53, Songz-Jennifer-52)
+conj_and(AP-36, Hudson-53)
+dep(Hudson-53, June-55)
+num(June-55, 29-56)
+dep(June-55, 11,918-58)
+appos(11,918-58, dol-60)
+num(dol-60, 657,158-61)
+
+Coreference set:
+ (2,15,[14,16]) -> (1,6,[5,7]), that is: "7.9 million" -> "7.9 Million"
+Coreference set:
+ (4,3,[3,4]) -> (1,12,[12,13]), that is: "second" -> "second"
+Coreference set:
+ (5,8,[7,9]) -> (1,19,[17,20]), that is: "the fan" -> "L.A. Live fan"
+ (9,9,[8,10]) -> (1,19,[17,20]), that is: "the fan" -> "L.A. Live fan"
+Coreference set:
+ (2,9,[9,10]) -> (2,7,[6,8]), that is: "its" -> "BET Networks"
+ (3,4,[4,5]) -> (2,7,[6,8]), that is: "BET" -> "BET Networks"
+ (4,1,[1,3]) -> (2,7,[6,8]), that is: "BET -s" -> "BET Networks"
+Coreference set:
+ (3,21,[20,22]) -> (7,32,[31,36]), that is: "Chris Brown" -> "Chris Brown , Justin Bieber"
+ (7,32,[31,33]) -> (7,32,[31,36]), that is: "Chris Brown" -> "Chris Brown , Justin Bieber"
+Coreference set:
+ (4,26,[23,33]) -> (4,18,[18,19]), that is: "a 10 percent increase over last year -s inaugural effort" -> "112"
+Coreference set:
+ (19,8,[7,10]) -> (4,9,[8,17]), that is: "L.A. Live -s" -> "L.A. Live -LRB- June 27-29 -RRB- presented by Coca-Cola"
+Coreference set:
+ (5,3,[3,4]) -> (4,21,[20,22]), that is: "their" -> "488 attendees"
+ (6,9,[9,10]) -> (4,21,[20,22]), that is: "attendees" -> "488 attendees"
+Coreference set:
+ (4,29,[28,31]) -> (9,4,[3,12]), that is: "last year -s" -> "last year , most of the fan fest events"
+ (9,4,[3,5]) -> (9,4,[3,12]), that is: "last year" -> "last year , most of the fan fest events"
+Coreference set:
+ (18,5,[5,6]) -> (5,9,[9,10]), that is: "fest" -> "fest"
+ (18,10,[7,21]) -> (5,9,[9,10]), that is: "lifestyle and wellness seminars , a dance competition with MC Hammer as a judge" -> "fest"
+ (18,10,[7,11]) -> (5,9,[9,10]), that is: "lifestyle and wellness seminars" -> "fest"
+Coreference set:
+ (15,15,[15,16]) -> (11,2,[2,3]), that is: "artists" -> "artists"
+Coreference set:
+ (17,7,[7,8]) -> (15,13,[13,14]), that is: "Saturday" -> "Saturday"
+Coreference set:
+ (16,1,[1,14]) -> (16,16,[15,17]), that is: "One of the more riveting -LRB- and should have been mandatory -RRB- offerings" -> "Genius Talks"

@@ -1,0 +1,1512 @@
+Sentence #1 (8 tokens):
+Diego Forlan joins Japanese club Cerezo Osaka.
+[Text=Diego CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=JJ Lemma=diego NamedEntityTag=PERSON] [Text=Forlan CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=joins CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=VBZ Lemma=join NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=club CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=Osaka CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Osaka NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (ADJP (JJ Diego))
+      (NNP Forlan))
+    (VP (VBZ joins)
+      (NP (JJ Japanese) (NN club) (NNP Cerezo) (NNP Osaka)))
+    (. .)))
+
+amod(Forlan-2, Diego-1)
+nsubj(joins-3, Forlan-2)
+root(ROOT-0, joins-3)
+amod(Osaka-7, Japanese-4)
+nn(Osaka-7, club-5)
+nn(Osaka-7, Cerezo-6)
+dobj(joins-3, Osaka-7)
+
+Sentence #2 (18 tokens):
+Diego Forlan, the Uruguayan striker, has joined Japanese club Cerezo Osaka on an 18-month contract.
+[Text=Diego CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=JJ Lemma=diego NamedEntityTag=PERSON] [Text=Forlan CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Uruguayan CharacterOffsetBegin=70 CharacterOffsetEnd=79 PartOfSpeech=JJ Lemma=uruguayan NamedEntityTag=MISC] [Text=striker CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN Lemma=striker NamedEntityTag=O] [Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=has CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=joined CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=VBN Lemma=join NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=club CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=Osaka CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNP Lemma=Osaka NamedEntityTag=ORGANIZATION] [Text=on CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=an CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=18-month CharacterOffsetBegin=133 CharacterOffsetEnd=141 PartOfSpeech=JJ Lemma=18-month NamedEntityTag=DURATION NormalizedNamedEntityTag=18.0 Timex=<TIMEX3 tid="t1" type="DURATION" value="P18M">18-month</TIMEX3>] [Text=contract CharacterOffsetBegin=142 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=contract NamedEntityTag=O] [Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (ADJP (JJ Diego))
+        (NNP Forlan))
+      (, ,)
+      (NP (DT the) (JJ Uruguayan) (NN striker))
+      (, ,))
+    (VP (VBZ has)
+      (VP (VBN joined)
+        (NP (JJ Japanese) (NN club) (NNP Cerezo) (NNP Osaka))
+        (PP (IN on)
+          (NP (DT an) (JJ 18-month) (NN contract)))))
+    (. .)))
+
+amod(Forlan-2, Diego-1)
+nsubj(joined-9, Forlan-2)
+det(striker-6, the-4)
+amod(striker-6, Uruguayan-5)
+appos(Forlan-2, striker-6)
+aux(joined-9, has-8)
+root(ROOT-0, joined-9)
+amod(Osaka-13, Japanese-10)
+nn(Osaka-13, club-11)
+nn(Osaka-13, Cerezo-12)
+dobj(joined-9, Osaka-13)
+det(contract-17, an-15)
+amod(contract-17, 18-month-16)
+prep_on(joined-9, contract-17)
+
+Sentence #3 (37 tokens):
+The former Independiente, Manchester United, Villarreal, Atletico Madrid and Inter Milan striker will leave Brazilian club Internacional and join his new club in time for the new season which starts on March 1.
+[Text=The CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=former CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=JJ Lemma=former NamedEntityTag=O] [Text=Independiente CharacterOffsetBegin=168 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Independiente NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Manchester CharacterOffsetBegin=183 CharacterOffsetEnd=193 PartOfSpeech=NNP Lemma=Manchester NamedEntityTag=ORGANIZATION] [Text=United CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=NNP Lemma=United NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Villarreal CharacterOffsetBegin=202 CharacterOffsetEnd=212 PartOfSpeech=NNP Lemma=Villarreal NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Atletico CharacterOffsetBegin=214 CharacterOffsetEnd=222 PartOfSpeech=NNP Lemma=Atletico NamedEntityTag=ORGANIZATION] [Text=Madrid CharacterOffsetBegin=223 CharacterOffsetEnd=229 PartOfSpeech=NNP Lemma=Madrid NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Inter CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=NNP Lemma=Inter NamedEntityTag=ORGANIZATION] [Text=Milan CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=NNP Lemma=Milan NamedEntityTag=ORGANIZATION] [Text=striker CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=NN Lemma=striker NamedEntityTag=O] [Text=will CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=leave CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=VB Lemma=leave NamedEntityTag=O] [Text=Brazilian CharacterOffsetBegin=265 CharacterOffsetEnd=274 PartOfSpeech=JJ Lemma=brazilian NamedEntityTag=MISC] [Text=club CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=Internacional CharacterOffsetBegin=280 CharacterOffsetEnd=293 PartOfSpeech=NNP Lemma=Internacional NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=join CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=VB Lemma=join NamedEntityTag=O] [Text=his CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=new CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=club CharacterOffsetBegin=311 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=in CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=time CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=for CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=new CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=season CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=which CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=starts CharacterOffsetBegin=349 CharacterOffsetEnd=355 PartOfSpeech=VBZ Lemma=start NamedEntityTag=O] [Text=on CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=March CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-01 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03-01">March 1</TIMEX3>] [Text=1 CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=CD Lemma=1 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-01 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03-01">March 1</TIMEX3>] [Text=. CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ former) (NNP Independiente))
+      (, ,)
+      (NP (NNP Manchester) (NNP United))
+      (, ,)
+      (NP (NNP Villarreal))
+      (, ,)
+      (NP (NNP Atletico) (NNP Madrid))
+      (CC and)
+      (NP (NNP Inter) (NNP Milan) (NN striker)))
+    (VP (MD will)
+      (VP
+        (VP (VB leave)
+          (NP (JJ Brazilian) (NN club))
+          (NP (NNP Internacional)))
+        (CC and)
+        (VP (VB join)
+          (NP (PRP$ his) (JJ new) (NN club))
+          (PP (IN in)
+            (NP (NN time)))
+          (PP (IN for)
+            (NP
+              (NP (DT the) (JJ new) (NN season))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ starts)
+                    (PP (IN on)
+                      (NP (NNP March) (CD 1)))))))))))
+    (. .)))
+
+det(Independiente-3, The-1)
+amod(Independiente-3, former-2)
+nsubj(leave-17, Independiente-3)
+nsubj(join-22, Independiente-3)
+nn(United-6, Manchester-5)
+conj_and(Independiente-3, United-6)
+nsubj(leave-17, United-6)
+conj_and(Independiente-3, Villarreal-8)
+nsubj(leave-17, Villarreal-8)
+nn(Madrid-11, Atletico-10)
+conj_and(Independiente-3, Madrid-11)
+nsubj(leave-17, Madrid-11)
+nn(striker-15, Inter-13)
+nn(striker-15, Milan-14)
+conj_and(Independiente-3, striker-15)
+nsubj(leave-17, striker-15)
+aux(leave-17, will-16)
+root(ROOT-0, leave-17)
+amod(club-19, Brazilian-18)
+iobj(leave-17, club-19)
+dobj(leave-17, Internacional-20)
+conj_and(leave-17, join-22)
+poss(club-25, his-23)
+amod(club-25, new-24)
+dobj(join-22, club-25)
+prep_in(join-22, time-27)
+det(season-31, the-29)
+amod(season-31, new-30)
+prep_for(join-22, season-31)
+nsubj(starts-33, season-31)
+rcmod(season-31, starts-33)
+prep_on(starts-33, March-35)
+num(March-35, 1-36)
+
+Sentence #4 (41 tokens):
+Forlan, 34, had been with the Porto Alegre club since 2012, but finances are tight at a club who have been forced to play their home games elsewhere while their stadium is rebuilt for the World Cup.
+[Text=Forlan CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=34 CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=CD Lemma=34 NamedEntityTag=NUMBER NormalizedNamedEntityTag=34.0] [Text=, CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=had CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=with CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Porto CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=NNP Lemma=Porto NamedEntityTag=ORGANIZATION] [Text=Alegre CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=NNP Lemma=Alegre NamedEntityTag=ORGANIZATION] [Text=club CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=since CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=2012 CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012 Timex=<TIMEX3 tid="t1" type="DATE" value="2012">2012</TIMEX3>] [Text=, CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=finances CharacterOffsetBegin=437 CharacterOffsetEnd=445 PartOfSpeech=NNS Lemma=finances NamedEntityTag=O] [Text=are CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=tight CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=JJ Lemma=tight NamedEntityTag=O] [Text=at CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=club CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=who CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=forced CharacterOffsetBegin=480 CharacterOffsetEnd=486 PartOfSpeech=VBN Lemma=force NamedEntityTag=O] [Text=to CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=their CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=home CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=games CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=elsewhere CharacterOffsetBegin=512 CharacterOffsetEnd=521 PartOfSpeech=RB Lemma=elsewhere NamedEntityTag=O] [Text=while CharacterOffsetBegin=522 CharacterOffsetEnd=527 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=their CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=stadium CharacterOffsetBegin=534 CharacterOffsetEnd=541 PartOfSpeech=NN Lemma=stadium NamedEntityTag=O] [Text=is CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=rebuilt CharacterOffsetBegin=545 CharacterOffsetEnd=552 PartOfSpeech=VBN Lemma=rebuild NamedEntityTag=O] [Text=for CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=561 CharacterOffsetEnd=566 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=567 CharacterOffsetEnd=570 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Forlan))
+        (, ,)
+        (NP (CD 34))
+        (, ,))
+      (VP (VBD had)
+        (VP (VBN been)
+          (PP (IN with)
+            (NP (DT the) (NNP Porto) (NNP Alegre) (NN club)))
+          (PP (IN since)
+            (NP (CD 2012))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNS finances))
+      (VP (VBP are)
+        (ADJP (JJ tight)
+          (PP (IN at)
+            (NP
+              (NP (DT a) (NN club))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP have)
+                    (VP (VBN been)
+                      (VP (VBN forced)
+                        (S
+                          (VP (TO to)
+                            (VP (VB play)
+                              (NP (PRP$ their) (NN home) (NNS games))
+                              (ADVP (RB elsewhere))
+                              (SBAR (IN while)
+                                (S
+                                  (NP (PRP$ their) (NN stadium))
+                                  (VP (VBZ is)
+                                    (VP (VBN rebuilt)
+                                      (PP (IN for)
+                                        (NP (DT the) (NNP World) (NNP Cup))))))))))))))))))))
+    (. .)))
+
+nsubj(been-6, Forlan-1)
+amod(Forlan-1, 34-3)
+aux(been-6, had-5)
+root(ROOT-0, been-6)
+det(club-11, the-8)
+nn(club-11, Porto-9)
+nn(club-11, Alegre-10)
+prep_with(been-6, club-11)
+prep_since(been-6, 2012-13)
+nsubj(tight-18, finances-16)
+cop(tight-18, are-17)
+conj_but(been-6, tight-18)
+det(club-21, a-20)
+prep_at(tight-18, club-21)
+nsubjpass(forced-25, club-21)
+xsubj(play-27, club-21)
+aux(forced-25, have-23)
+auxpass(forced-25, been-24)
+rcmod(club-21, forced-25)
+aux(play-27, to-26)
+xcomp(forced-25, play-27)
+poss(games-30, their-28)
+nn(games-30, home-29)
+dobj(play-27, games-30)
+advmod(play-27, elsewhere-31)
+mark(rebuilt-36, while-32)
+poss(stadium-34, their-33)
+nsubjpass(rebuilt-36, stadium-34)
+auxpass(rebuilt-36, is-35)
+advcl(play-27, rebuilt-36)
+det(Cup-40, the-38)
+nn(Cup-40, World-39)
+prep_for(rebuilt-36, Cup-40)
+
+Sentence #5 (32 tokens):
+He started well for Inter and was the top goalscorer in last season's Guacho championship; but the inexperienced side struggled in the Brazilian league and dismissed their coach Dunga.
+[Text=He CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=started CharacterOffsetBegin=575 CharacterOffsetEnd=582 PartOfSpeech=VBD Lemma=start NamedEntityTag=O] [Text=well CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=for CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Inter CharacterOffsetBegin=592 CharacterOffsetEnd=597 PartOfSpeech=NNP Lemma=Inter NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=was CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=goalscorer CharacterOffsetBegin=614 CharacterOffsetEnd=624 PartOfSpeech=NN Lemma=goalscorer NamedEntityTag=O] [Text=in CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=last CharacterOffsetBegin=628 CharacterOffsetEnd=632 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=season CharacterOffsetBegin=633 CharacterOffsetEnd=639 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text='s CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Guacho CharacterOffsetBegin=642 CharacterOffsetEnd=648 PartOfSpeech=NNP Lemma=Guacho NamedEntityTag=O] [Text=championship CharacterOffsetBegin=649 CharacterOffsetEnd=661 PartOfSpeech=NN Lemma=championship NamedEntityTag=O] [Text=; CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=but CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=inexperienced CharacterOffsetBegin=671 CharacterOffsetEnd=684 PartOfSpeech=JJ Lemma=inexperienced NamedEntityTag=O] [Text=side CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=NN Lemma=side NamedEntityTag=O] [Text=struggled CharacterOffsetBegin=690 CharacterOffsetEnd=699 PartOfSpeech=VBD Lemma=struggle NamedEntityTag=O] [Text=in CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Brazilian CharacterOffsetBegin=707 CharacterOffsetEnd=716 PartOfSpeech=JJ Lemma=brazilian NamedEntityTag=MISC] [Text=league CharacterOffsetBegin=717 CharacterOffsetEnd=723 PartOfSpeech=NN Lemma=league NamedEntityTag=O] [Text=and CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=dismissed CharacterOffsetBegin=728 CharacterOffsetEnd=737 PartOfSpeech=VBD Lemma=dismiss NamedEntityTag=O] [Text=their CharacterOffsetBegin=738 CharacterOffsetEnd=743 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=coach CharacterOffsetBegin=744 CharacterOffsetEnd=749 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Dunga CharacterOffsetBegin=750 CharacterOffsetEnd=755 PartOfSpeech=NNP Lemma=Dunga NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=755 CharacterOffsetEnd=756 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP
+        (VP (VBD started)
+          (ADVP (RB well))
+          (PP (IN for)
+            (NP (NNP Inter))))
+        (CC and)
+        (VP (VBD was)
+          (NP
+            (NP (DT the) (JJ top) (NN goalscorer))
+            (PP (IN in)
+              (NP
+                (NP (JJ last) (NN season) (POS 's))
+                (NNP Guacho) (NN championship)))))))
+    (: ;)
+    (CC but)
+    (S
+      (NP (DT the) (JJ inexperienced) (NN side))
+      (VP
+        (VP (VBD struggled)
+          (PP (IN in)
+            (NP (DT the) (JJ Brazilian) (NN league))))
+        (CC and)
+        (VP (VBD dismissed)
+          (NP (PRP$ their) (NN coach) (NNP Dunga)))))
+    (. .)))
+
+nsubj(started-2, He-1)
+root(ROOT-0, started-2)
+advmod(started-2, well-3)
+prep_for(started-2, Inter-5)
+cop(goalscorer-10, was-7)
+det(goalscorer-10, the-8)
+amod(goalscorer-10, top-9)
+conj_and(started-2, goalscorer-10)
+amod(season-13, last-12)
+poss(championship-16, season-13)
+nn(championship-16, Guacho-15)
+prep_in(goalscorer-10, championship-16)
+det(side-21, the-19)
+amod(side-21, inexperienced-20)
+nsubj(struggled-22, side-21)
+nsubj(dismissed-28, side-21)
+conj_but(started-2, struggled-22)
+det(league-26, the-24)
+amod(league-26, Brazilian-25)
+prep_in(struggled-22, league-26)
+conj_but(started-2, dismissed-28)
+conj_and(struggled-22, dismissed-28)
+poss(Dunga-31, their-29)
+nn(Dunga-31, coach-30)
+dobj(dismissed-28, Dunga-31)
+
+Sentence #6 (23 tokens):
+They also sold Forlan's Brazilian international strike partner Leandro Damiao to Santos for R$41 million (Dh63.4m).
+[Text=They CharacterOffsetBegin=757 CharacterOffsetEnd=761 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=also CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=sold CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=VBD Lemma=sell NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=778 CharacterOffsetEnd=780 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Brazilian CharacterOffsetBegin=781 CharacterOffsetEnd=790 PartOfSpeech=JJ Lemma=brazilian NamedEntityTag=MISC] [Text=international CharacterOffsetBegin=791 CharacterOffsetEnd=804 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=strike CharacterOffsetBegin=805 CharacterOffsetEnd=811 PartOfSpeech=NN Lemma=strike NamedEntityTag=O] [Text=partner CharacterOffsetBegin=812 CharacterOffsetEnd=819 PartOfSpeech=NN Lemma=partner NamedEntityTag=O] [Text=Leandro CharacterOffsetBegin=820 CharacterOffsetEnd=827 PartOfSpeech=NNP Lemma=Leandro NamedEntityTag=PERSON] [Text=Damiao CharacterOffsetBegin=828 CharacterOffsetEnd=834 PartOfSpeech=NNP Lemma=Damiao NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Santos CharacterOffsetBegin=838 CharacterOffsetEnd=844 PartOfSpeech=NNP Lemma=Santos NamedEntityTag=PERSON] [Text=for CharacterOffsetBegin=845 CharacterOffsetEnd=848 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=R$ CharacterOffsetBegin=849 CharacterOffsetEnd=851 PartOfSpeech=NNP Lemma=R$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$4.1E7] [Text=41 CharacterOffsetBegin=851 CharacterOffsetEnd=853 PartOfSpeech=CD Lemma=41 NamedEntityTag=MONEY NormalizedNamedEntityTag=$4.1E7] [Text=million CharacterOffsetBegin=854 CharacterOffsetEnd=861 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$4.1E7] [Text=-LRB- CharacterOffsetBegin=862 CharacterOffsetEnd=863 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Dh63 CharacterOffsetBegin=863 CharacterOffsetEnd=867 PartOfSpeech=NN Lemma=dh63 NamedEntityTag=O] [Text=.4 CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=NN Lemma=.4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.4] [Text=m CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=870 CharacterOffsetEnd=871 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB also))
+    (VP (VBD sold)
+      (NP
+        (NP
+          (NP
+            (NP (NNP Forlan) (POS 's))
+            (JJ Brazilian) (JJ international) (NN strike))
+          (NN partner) (NNP Leandro) (NNP Damiao))
+        (PP (TO to)
+          (NP (NNP Santos)))
+        (PP (IN for)
+          (NP (NNP R$)))
+        (ADJP
+          (ADJP
+            (QP (CD 41) (CD million)))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NN Dh63))
+              (NP (NN .4) (NN m)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+nsubj(sold-3, They-1)
+advmod(sold-3, also-2)
+root(ROOT-0, sold-3)
+poss(strike-8, Forlan-4)
+amod(strike-8, Brazilian-6)
+amod(strike-8, international-7)
+nn(Damiao-11, strike-8)
+nn(Damiao-11, partner-9)
+nn(Damiao-11, Leandro-10)
+dobj(sold-3, Damiao-11)
+prep_to(Damiao-11, Santos-13)
+prep_for(Damiao-11, R$-15)
+number(million-17, 41-16)
+amod(Damiao-11, million-17)
+dep(million-17, Dh63-19)
+nn(m-21, .4-20)
+dep(Dh63-19, m-21)
+
+Sentence #7 (42 tokens):
+It is a coup for Cerezo to sign the twice European golden boot winner who was also the joint top goalscorer in the last World Cup finals, where he won the Golden Ball for being the tournament's best player.
+[Text=It CharacterOffsetBegin=878 CharacterOffsetEnd=880 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=881 CharacterOffsetEnd=883 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=coup CharacterOffsetBegin=886 CharacterOffsetEnd=890 PartOfSpeech=NN Lemma=coup NamedEntityTag=O] [Text=for CharacterOffsetBegin=891 CharacterOffsetEnd=894 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=895 CharacterOffsetEnd=901 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=902 CharacterOffsetEnd=904 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sign CharacterOffsetBegin=905 CharacterOffsetEnd=909 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=the CharacterOffsetBegin=910 CharacterOffsetEnd=913 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=twice CharacterOffsetBegin=914 CharacterOffsetEnd=919 PartOfSpeech=JJ Lemma=twice NamedEntityTag=O] [Text=European CharacterOffsetBegin=920 CharacterOffsetEnd=928 PartOfSpeech=JJ Lemma=european NamedEntityTag=MISC] [Text=golden CharacterOffsetBegin=929 CharacterOffsetEnd=935 PartOfSpeech=JJ Lemma=golden NamedEntityTag=O] [Text=boot CharacterOffsetBegin=936 CharacterOffsetEnd=940 PartOfSpeech=NN Lemma=boot NamedEntityTag=O] [Text=winner CharacterOffsetBegin=941 CharacterOffsetEnd=947 PartOfSpeech=NN Lemma=winner NamedEntityTag=O] [Text=who CharacterOffsetBegin=948 CharacterOffsetEnd=951 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=was CharacterOffsetBegin=952 CharacterOffsetEnd=955 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=also CharacterOffsetBegin=956 CharacterOffsetEnd=960 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=the CharacterOffsetBegin=961 CharacterOffsetEnd=964 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=joint CharacterOffsetBegin=965 CharacterOffsetEnd=970 PartOfSpeech=JJ Lemma=joint NamedEntityTag=O] [Text=top CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=goalscorer CharacterOffsetBegin=975 CharacterOffsetEnd=985 PartOfSpeech=NN Lemma=goalscorer NamedEntityTag=O] [Text=in CharacterOffsetBegin=986 CharacterOffsetEnd=988 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=989 CharacterOffsetEnd=992 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=993 CharacterOffsetEnd=997 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=World CharacterOffsetBegin=998 CharacterOffsetEnd=1003 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=1004 CharacterOffsetEnd=1007 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=finals CharacterOffsetBegin=1008 CharacterOffsetEnd=1014 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=, CharacterOffsetBegin=1014 CharacterOffsetEnd=1015 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=where CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=he CharacterOffsetBegin=1022 CharacterOffsetEnd=1024 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=won CharacterOffsetBegin=1025 CharacterOffsetEnd=1028 PartOfSpeech=VBD Lemma=win NamedEntityTag=O] [Text=the CharacterOffsetBegin=1029 CharacterOffsetEnd=1032 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Golden CharacterOffsetBegin=1033 CharacterOffsetEnd=1039 PartOfSpeech=NNP Lemma=Golden NamedEntityTag=MISC] [Text=Ball CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=NNP Lemma=Ball NamedEntityTag=MISC] [Text=for CharacterOffsetBegin=1045 CharacterOffsetEnd=1048 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=being CharacterOffsetBegin=1049 CharacterOffsetEnd=1054 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1055 CharacterOffsetEnd=1058 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tournament CharacterOffsetBegin=1059 CharacterOffsetEnd=1069 PartOfSpeech=NN Lemma=tournament NamedEntityTag=O] [Text='s CharacterOffsetBegin=1069 CharacterOffsetEnd=1071 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=best CharacterOffsetBegin=1072 CharacterOffsetEnd=1076 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=player CharacterOffsetBegin=1077 CharacterOffsetEnd=1083 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=. CharacterOffsetBegin=1083 CharacterOffsetEnd=1084 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN coup))
+        (PP (IN for)
+          (NP (NNP Cerezo)))
+        (S
+          (VP (TO to)
+            (VP (VB sign)
+              (NP
+                (NP (DT the)
+                  (ADJP (JJ twice) (JJ European))
+                  (JJ golden) (NN boot) (NN winner))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBD was)
+                      (ADVP (RB also))
+                      (NP
+                        (NP (DT the) (JJ joint) (JJ top) (NN goalscorer))
+                        (PP (IN in)
+                          (NP (DT the) (JJ last) (NNP World) (NNP Cup) (NNS finals))))
+                      (, ,)
+                      (SBAR
+                        (WHADVP (WRB where))
+                        (S
+                          (NP (PRP he))
+                          (VP (VBD won)
+                            (NP (DT the) (NNP Golden) (NNP Ball))
+                            (PP (IN for)
+                              (S
+                                (VP (VBG being)
+                                  (NP
+                                    (NP (DT the) (NN tournament) (POS 's))
+                                    (JJS best) (NN player)))))))))))))))))
+    (. .)))
+
+nsubj(coup-4, It-1)
+cop(coup-4, is-2)
+det(coup-4, a-3)
+root(ROOT-0, coup-4)
+prep_for(coup-4, Cerezo-6)
+aux(sign-8, to-7)
+infmod(coup-4, sign-8)
+det(winner-14, the-9)
+amod(European-11, twice-10)
+amod(winner-14, European-11)
+amod(winner-14, golden-12)
+nn(winner-14, boot-13)
+dobj(sign-8, winner-14)
+nsubj(goalscorer-21, winner-14)
+cop(goalscorer-21, was-16)
+advmod(goalscorer-21, also-17)
+det(goalscorer-21, the-18)
+amod(goalscorer-21, joint-19)
+amod(goalscorer-21, top-20)
+rcmod(winner-14, goalscorer-21)
+det(finals-27, the-23)
+amod(finals-27, last-24)
+nn(finals-27, World-25)
+nn(finals-27, Cup-26)
+prep_in(goalscorer-21, finals-27)
+advmod(won-31, where-29)
+nsubj(won-31, he-30)
+advcl(goalscorer-21, won-31)
+det(Ball-34, the-32)
+nn(Ball-34, Golden-33)
+dobj(won-31, Ball-34)
+cop(player-41, being-36)
+det(tournament-38, the-37)
+poss(player-41, tournament-38)
+amod(player-41, best-40)
+prepc_for(won-31, player-41)
+
+Sentence #8 (29 tokens):
+Forlan won wide praise in Japan for his performance in a friendly there in August, scoring twice in a 4-2 win against the fellow World Cup finalists.
+[Text=Forlan CharacterOffsetBegin=1090 CharacterOffsetEnd=1096 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=won CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=VBD Lemma=win NamedEntityTag=O] [Text=wide CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=JJ Lemma=wide NamedEntityTag=O] [Text=praise CharacterOffsetBegin=1106 CharacterOffsetEnd=1112 PartOfSpeech=NN Lemma=praise NamedEntityTag=O] [Text=in CharacterOffsetBegin=1113 CharacterOffsetEnd=1115 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=1116 CharacterOffsetEnd=1121 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=for CharacterOffsetBegin=1122 CharacterOffsetEnd=1125 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=his CharacterOffsetBegin=1126 CharacterOffsetEnd=1129 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=performance CharacterOffsetBegin=1130 CharacterOffsetEnd=1141 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=in CharacterOffsetBegin=1142 CharacterOffsetEnd=1144 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1145 CharacterOffsetEnd=1146 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=friendly CharacterOffsetBegin=1147 CharacterOffsetEnd=1155 PartOfSpeech=JJ Lemma=friendly NamedEntityTag=O] [Text=there CharacterOffsetBegin=1156 CharacterOffsetEnd=1161 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=in CharacterOffsetBegin=1162 CharacterOffsetEnd=1164 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=August CharacterOffsetBegin=1165 CharacterOffsetEnd=1171 PartOfSpeech=NNP Lemma=August NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-08">August</TIMEX3>] [Text=, CharacterOffsetBegin=1171 CharacterOffsetEnd=1172 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=scoring CharacterOffsetBegin=1173 CharacterOffsetEnd=1180 PartOfSpeech=VBG Lemma=score NamedEntityTag=O] [Text=twice CharacterOffsetBegin=1181 CharacterOffsetEnd=1186 PartOfSpeech=RB Lemma=twice NamedEntityTag=O] [Text=in CharacterOffsetBegin=1187 CharacterOffsetEnd=1189 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1190 CharacterOffsetEnd=1191 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=4-2 CharacterOffsetBegin=1192 CharacterOffsetEnd=1195 PartOfSpeech=CD Lemma=4-2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0 - 2.0] [Text=win CharacterOffsetBegin=1196 CharacterOffsetEnd=1199 PartOfSpeech=VBP Lemma=win NamedEntityTag=O] [Text=against CharacterOffsetBegin=1200 CharacterOffsetEnd=1207 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=the CharacterOffsetBegin=1208 CharacterOffsetEnd=1211 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fellow CharacterOffsetBegin=1212 CharacterOffsetEnd=1218 PartOfSpeech=JJ Lemma=fellow NamedEntityTag=O] [Text=World CharacterOffsetBegin=1219 CharacterOffsetEnd=1224 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=1225 CharacterOffsetEnd=1228 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=finalists CharacterOffsetBegin=1229 CharacterOffsetEnd=1238 PartOfSpeech=NNS Lemma=finalist NamedEntityTag=O] [Text=. CharacterOffsetBegin=1238 CharacterOffsetEnd=1239 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Forlan))
+      (VP (VBD won)
+        (S
+          (NP
+            (NP (JJ wide) (NN praise))
+            (PP (IN in)
+              (NP
+                (NP (NNP Japan))
+                (PP (IN for)
+                  (NP
+                    (NP (PRP$ his) (NN performance))
+                    (PP (IN in)
+                      (NP (DT a) (JJ friendly))))))))
+          (NP (EX there)))
+        (PP (IN in)
+          (NP (NNP August)))))
+    (, ,)
+    (NP (VBG scoring))
+    (VP
+      (ADVP (RB twice)
+        (PP (IN in)
+          (NP (DT a) (CD 4-2))))
+      (VBP win)
+      (PP (IN against)
+        (NP (DT the) (JJ fellow) (NNP World) (NNP Cup) (NNS finalists))))
+    (. .)))
+
+nsubj(won-2, Forlan-1)
+ccomp(win-22, won-2)
+amod(praise-4, wide-3)
+nsubj(there-13, praise-4)
+prep_in(praise-4, Japan-6)
+poss(performance-9, his-8)
+prep_for(Japan-6, performance-9)
+det(friendly-12, a-11)
+prep_in(performance-9, friendly-12)
+xcomp(won-2, there-13)
+prep_in(won-2, August-15)
+nsubj(win-22, scoring-17)
+advmod(win-22, twice-18)
+det(4-2-21, a-20)
+prep_in(twice-18, 4-2-21)
+root(ROOT-0, win-22)
+det(finalists-28, the-24)
+amod(finalists-28, fellow-25)
+nn(finalists-28, World-26)
+nn(finalists-28, Cup-27)
+prep_against(win-22, finalists-28)
+
+Sentence #9 (13 tokens):
+His strike partner Luis Suarez was at the heart of both goals.
+[Text=His CharacterOffsetBegin=1240 CharacterOffsetEnd=1243 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=strike CharacterOffsetBegin=1244 CharacterOffsetEnd=1250 PartOfSpeech=NN Lemma=strike NamedEntityTag=O] [Text=partner CharacterOffsetBegin=1251 CharacterOffsetEnd=1258 PartOfSpeech=NN Lemma=partner NamedEntityTag=O] [Text=Luis CharacterOffsetBegin=1259 CharacterOffsetEnd=1263 PartOfSpeech=NNP Lemma=Luis NamedEntityTag=PERSON] [Text=Suarez CharacterOffsetBegin=1264 CharacterOffsetEnd=1270 PartOfSpeech=NNP Lemma=Suarez NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=1271 CharacterOffsetEnd=1274 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=at CharacterOffsetBegin=1275 CharacterOffsetEnd=1277 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1278 CharacterOffsetEnd=1281 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heart CharacterOffsetBegin=1282 CharacterOffsetEnd=1287 PartOfSpeech=NN Lemma=heart NamedEntityTag=O] [Text=of CharacterOffsetBegin=1288 CharacterOffsetEnd=1290 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=both CharacterOffsetBegin=1291 CharacterOffsetEnd=1295 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=goals CharacterOffsetBegin=1296 CharacterOffsetEnd=1301 PartOfSpeech=NNS Lemma=goal NamedEntityTag=O] [Text=. CharacterOffsetBegin=1301 CharacterOffsetEnd=1302 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN strike) (NN partner))
+      (NP (NNP Luis) (NNP Suarez)))
+    (VP (VBD was)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN heart))
+          (PP (IN of)
+            (NP (DT both) (NNS goals))))))
+    (. .)))
+
+poss(partner-3, His-1)
+nn(partner-3, strike-2)
+nsubj(was-6, partner-3)
+nn(Suarez-5, Luis-4)
+dep(partner-3, Suarez-5)
+root(ROOT-0, was-6)
+det(heart-9, the-8)
+prep_at(was-6, heart-9)
+det(goals-12, both-11)
+prep_of(heart-9, goals-12)
+
+Sentence #10 (36 tokens):
+Forlan was happy at Inter and living in Brazil ahead of the World Cup finals, but speculation began to mount about his departure in recent weeks, with offers from North America and Europe.
+[Text=Forlan CharacterOffsetBegin=1308 CharacterOffsetEnd=1314 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=happy CharacterOffsetBegin=1319 CharacterOffsetEnd=1324 PartOfSpeech=JJ Lemma=happy NamedEntityTag=O] [Text=at CharacterOffsetBegin=1325 CharacterOffsetEnd=1327 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Inter CharacterOffsetBegin=1328 CharacterOffsetEnd=1333 PartOfSpeech=NNP Lemma=Inter NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=1334 CharacterOffsetEnd=1337 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=living CharacterOffsetBegin=1338 CharacterOffsetEnd=1344 PartOfSpeech=VBG Lemma=live NamedEntityTag=O] [Text=in CharacterOffsetBegin=1345 CharacterOffsetEnd=1347 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=1348 CharacterOffsetEnd=1354 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=ahead CharacterOffsetBegin=1355 CharacterOffsetEnd=1360 PartOfSpeech=RB Lemma=ahead NamedEntityTag=O] [Text=of CharacterOffsetBegin=1361 CharacterOffsetEnd=1363 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1364 CharacterOffsetEnd=1367 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=1368 CharacterOffsetEnd=1373 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=finals CharacterOffsetBegin=1378 CharacterOffsetEnd=1384 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=, CharacterOffsetBegin=1384 CharacterOffsetEnd=1385 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1386 CharacterOffsetEnd=1389 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=speculation CharacterOffsetBegin=1390 CharacterOffsetEnd=1401 PartOfSpeech=NN Lemma=speculation NamedEntityTag=O] [Text=began CharacterOffsetBegin=1402 CharacterOffsetEnd=1407 PartOfSpeech=VBD Lemma=begin NamedEntityTag=O] [Text=to CharacterOffsetBegin=1408 CharacterOffsetEnd=1410 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=mount CharacterOffsetBegin=1411 CharacterOffsetEnd=1416 PartOfSpeech=VB Lemma=mount NamedEntityTag=O] [Text=about CharacterOffsetBegin=1417 CharacterOffsetEnd=1422 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=his CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=departure CharacterOffsetBegin=1427 CharacterOffsetEnd=1436 PartOfSpeech=NN Lemma=departure NamedEntityTag=O] [Text=in CharacterOffsetBegin=1437 CharacterOffsetEnd=1439 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=recent CharacterOffsetBegin=1440 CharacterOffsetEnd=1446 PartOfSpeech=JJ Lemma=recent NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="PXW">recent weeks</TIMEX3>] [Text=weeks CharacterOffsetBegin=1447 CharacterOffsetEnd=1452 PartOfSpeech=NNS Lemma=week NamedEntityTag=DURATION Timex=<TIMEX3 tid="t1" type="DURATION" value="PXW">recent weeks</TIMEX3>] [Text=, CharacterOffsetBegin=1452 CharacterOffsetEnd=1453 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=1454 CharacterOffsetEnd=1458 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=offers CharacterOffsetBegin=1459 CharacterOffsetEnd=1465 PartOfSpeech=NNS Lemma=offer NamedEntityTag=O] [Text=from CharacterOffsetBegin=1466 CharacterOffsetEnd=1470 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=North CharacterOffsetBegin=1471 CharacterOffsetEnd=1476 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION] [Text=America CharacterOffsetBegin=1477 CharacterOffsetEnd=1484 PartOfSpeech=NNP Lemma=America NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Europe CharacterOffsetBegin=1489 CharacterOffsetEnd=1495 PartOfSpeech=NNP Lemma=Europe NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1495 CharacterOffsetEnd=1496 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Forlan))
+      (VP (VBD was)
+        (ADJP
+          (ADJP (JJ happy)
+            (PP (IN at)
+              (NP (NNP Inter))))
+          (CC and)
+          (VP (VBG living)
+            (PP (IN in)
+              (NP
+                (NP (NNP Brazil))
+                (PP (RB ahead) (IN of)
+                  (NP (DT the) (NNP World) (NNP Cup) (NNS finals)))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NN speculation))
+      (VP (VBD began)
+        (S
+          (VP (TO to)
+            (VP (VB mount)
+              (PP (IN about)
+                (NP
+                  (NP (PRP$ his) (NN departure))
+                  (PP (IN in)
+                    (NP (JJ recent) (NNS weeks)))))
+              (, ,)
+              (PP (IN with)
+                (NP
+                  (NP (NNS offers))
+                  (PP (IN from)
+                    (NP (NNP North) (NNP America)
+                      (CC and)
+                      (NNP Europe))))))))))
+    (. .)))
+
+nsubj(happy-3, Forlan-1)
+nsubj(living-7, Forlan-1)
+cop(happy-3, was-2)
+root(ROOT-0, happy-3)
+prep_at(happy-3, Inter-5)
+conj_and(happy-3, living-7)
+prep_in(living-7, Brazil-9)
+det(finals-15, the-12)
+nn(finals-15, World-13)
+nn(finals-15, Cup-14)
+prep_ahead_of(Brazil-9, finals-15)
+nsubj(began-19, speculation-18)
+xsubj(mount-21, speculation-18)
+conj_but(happy-3, began-19)
+aux(mount-21, to-20)
+xcomp(began-19, mount-21)
+poss(departure-24, his-23)
+prep_about(mount-21, departure-24)
+amod(weeks-27, recent-26)
+prep_in(departure-24, weeks-27)
+prep_with(mount-21, offers-30)
+nn(America-33, North-32)
+prep_from(offers-30, America-33)
+prep_from(offers-30, Europe-35)
+conj_and(America-33, Europe-35)
+
+Sentence #11 (18 tokens):
+Brazilian side Botafogo were understood to be keen to sign him to spearhead their Copa Libertadores campaign.
+[Text=Brazilian CharacterOffsetBegin=1497 CharacterOffsetEnd=1506 PartOfSpeech=JJ Lemma=brazilian NamedEntityTag=MISC] [Text=side CharacterOffsetBegin=1507 CharacterOffsetEnd=1511 PartOfSpeech=NN Lemma=side NamedEntityTag=O] [Text=Botafogo CharacterOffsetBegin=1512 CharacterOffsetEnd=1520 PartOfSpeech=NNP Lemma=Botafogo NamedEntityTag=ORGANIZATION] [Text=were CharacterOffsetBegin=1521 CharacterOffsetEnd=1525 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=understood CharacterOffsetBegin=1526 CharacterOffsetEnd=1536 PartOfSpeech=VBN Lemma=understand NamedEntityTag=O] [Text=to CharacterOffsetBegin=1537 CharacterOffsetEnd=1539 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1540 CharacterOffsetEnd=1542 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=keen CharacterOffsetBegin=1543 CharacterOffsetEnd=1547 PartOfSpeech=JJ Lemma=keen NamedEntityTag=O] [Text=to CharacterOffsetBegin=1548 CharacterOffsetEnd=1550 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sign CharacterOffsetBegin=1551 CharacterOffsetEnd=1555 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=him CharacterOffsetBegin=1556 CharacterOffsetEnd=1559 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=to CharacterOffsetBegin=1560 CharacterOffsetEnd=1562 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=spearhead CharacterOffsetBegin=1563 CharacterOffsetEnd=1572 PartOfSpeech=NN Lemma=spearhead NamedEntityTag=O] [Text=their CharacterOffsetBegin=1573 CharacterOffsetEnd=1578 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=Copa CharacterOffsetBegin=1579 CharacterOffsetEnd=1583 PartOfSpeech=NNP Lemma=Copa NamedEntityTag=MISC] [Text=Libertadores CharacterOffsetBegin=1584 CharacterOffsetEnd=1596 PartOfSpeech=NNP Lemma=Libertadores NamedEntityTag=MISC] [Text=campaign CharacterOffsetBegin=1597 CharacterOffsetEnd=1605 PartOfSpeech=NN Lemma=campaign NamedEntityTag=O] [Text=. CharacterOffsetBegin=1605 CharacterOffsetEnd=1606 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Brazilian) (NN side) (NNP Botafogo))
+    (VP (VBD were)
+      (VP (VBN understood)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ keen)
+                (S
+                  (VP (TO to)
+                    (VP (VB sign)
+                      (NP (PRP him))
+                      (PP (TO to)
+                        (NP
+                          (NP (NN spearhead))
+                          (NP (PRP$ their) (NNP Copa) (NNP Libertadores) (NN campaign)))))))))))))
+    (. .)))
+
+amod(Botafogo-3, Brazilian-1)
+nn(Botafogo-3, side-2)
+nsubjpass(understood-5, Botafogo-3)
+xsubj(keen-8, Botafogo-3)
+auxpass(understood-5, were-4)
+root(ROOT-0, understood-5)
+aux(keen-8, to-6)
+cop(keen-8, be-7)
+xcomp(understood-5, keen-8)
+aux(sign-10, to-9)
+xcomp(keen-8, sign-10)
+dobj(sign-10, him-11)
+prep_to(sign-10, spearhead-13)
+poss(campaign-17, their-14)
+nn(campaign-17, Copa-15)
+nn(campaign-17, Libertadores-16)
+dep(spearhead-13, campaign-17)
+
+Sentence #12 (21 tokens):
+Their player manager Clarence Seedorf left them for coach AC Milan last week, freeing up space in their budget.
+[Text=Their CharacterOffsetBegin=1607 CharacterOffsetEnd=1612 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=player CharacterOffsetBegin=1613 CharacterOffsetEnd=1619 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=manager CharacterOffsetBegin=1620 CharacterOffsetEnd=1627 PartOfSpeech=NN Lemma=manager NamedEntityTag=O] [Text=Clarence CharacterOffsetBegin=1628 CharacterOffsetEnd=1636 PartOfSpeech=NNP Lemma=Clarence NamedEntityTag=PERSON] [Text=Seedorf CharacterOffsetBegin=1637 CharacterOffsetEnd=1644 PartOfSpeech=NNP Lemma=Seedorf NamedEntityTag=PERSON] [Text=left CharacterOffsetBegin=1645 CharacterOffsetEnd=1649 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O] [Text=them CharacterOffsetBegin=1650 CharacterOffsetEnd=1654 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=for CharacterOffsetBegin=1655 CharacterOffsetEnd=1658 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=coach CharacterOffsetBegin=1659 CharacterOffsetEnd=1664 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=AC CharacterOffsetBegin=1665 CharacterOffsetEnd=1667 PartOfSpeech=NN Lemma=ac NamedEntityTag=ORGANIZATION] [Text=Milan CharacterOffsetBegin=1668 CharacterOffsetEnd=1673 PartOfSpeech=NNP Lemma=Milan NamedEntityTag=ORGANIZATION] [Text=last CharacterOffsetBegin=1674 CharacterOffsetEnd=1678 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last week</TIMEX3>] [Text=week CharacterOffsetBegin=1679 CharacterOffsetEnd=1683 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last week</TIMEX3>] [Text=, CharacterOffsetBegin=1683 CharacterOffsetEnd=1684 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=freeing CharacterOffsetBegin=1685 CharacterOffsetEnd=1692 PartOfSpeech=VBG Lemma=free NamedEntityTag=O] [Text=up CharacterOffsetBegin=1693 CharacterOffsetEnd=1695 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=space CharacterOffsetBegin=1696 CharacterOffsetEnd=1701 PartOfSpeech=NN Lemma=space NamedEntityTag=O] [Text=in CharacterOffsetBegin=1702 CharacterOffsetEnd=1704 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=their CharacterOffsetBegin=1705 CharacterOffsetEnd=1710 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=budget CharacterOffsetBegin=1711 CharacterOffsetEnd=1717 PartOfSpeech=NN Lemma=budget NamedEntityTag=O] [Text=. CharacterOffsetBegin=1717 CharacterOffsetEnd=1718 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Their) (NN player) (NN manager))
+      (NP (NNP Clarence) (NNP Seedorf)))
+    (VP (VBD left)
+      (NP (PRP them))
+      (PP (IN for)
+        (NP (NN coach) (NN AC) (NNP Milan)))
+      (NP-TMP (JJ last) (NN week))
+      (, ,)
+      (S
+        (VP (VBG freeing)
+          (PRT (RP up))
+          (NP
+            (NP (NN space))
+            (PP (IN in)
+              (NP (PRP$ their) (NN budget)))))))
+    (. .)))
+
+poss(manager-3, Their-1)
+nn(manager-3, player-2)
+nsubj(left-6, manager-3)
+nn(Seedorf-5, Clarence-4)
+dep(manager-3, Seedorf-5)
+root(ROOT-0, left-6)
+dobj(left-6, them-7)
+nn(Milan-11, coach-9)
+nn(Milan-11, AC-10)
+prep_for(left-6, Milan-11)
+amod(week-13, last-12)
+tmod(left-6, week-13)
+partmod(left-6, freeing-15)
+prt(freeing-15, up-16)
+dobj(freeing-15, space-17)
+poss(budget-20, their-19)
+prep_in(space-17, budget-20)
+
+Sentence #13 (43 tokens):
+But much as Forlan would like to play in the Libertadores, his club were understood to be reluctant to sell him to a domestic rival - just as Forlan did not want to leave Inter and play for a domestic rival.
+[Text=But CharacterOffsetBegin=1719 CharacterOffsetEnd=1722 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=much CharacterOffsetBegin=1723 CharacterOffsetEnd=1727 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=as CharacterOffsetBegin=1728 CharacterOffsetEnd=1730 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=1731 CharacterOffsetEnd=1737 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=would CharacterOffsetBegin=1738 CharacterOffsetEnd=1743 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=like CharacterOffsetBegin=1744 CharacterOffsetEnd=1748 PartOfSpeech=VB Lemma=like NamedEntityTag=O] [Text=to CharacterOffsetBegin=1749 CharacterOffsetEnd=1751 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=1752 CharacterOffsetEnd=1756 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=in CharacterOffsetBegin=1757 CharacterOffsetEnd=1759 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1760 CharacterOffsetEnd=1763 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Libertadores CharacterOffsetBegin=1764 CharacterOffsetEnd=1776 PartOfSpeech=NNPS Lemma=Libertadores NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1776 CharacterOffsetEnd=1777 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=his CharacterOffsetBegin=1778 CharacterOffsetEnd=1781 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=club CharacterOffsetBegin=1782 CharacterOffsetEnd=1786 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=were CharacterOffsetBegin=1787 CharacterOffsetEnd=1791 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=understood CharacterOffsetBegin=1792 CharacterOffsetEnd=1802 PartOfSpeech=VBN Lemma=understand NamedEntityTag=O] [Text=to CharacterOffsetBegin=1803 CharacterOffsetEnd=1805 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1806 CharacterOffsetEnd=1808 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=reluctant CharacterOffsetBegin=1809 CharacterOffsetEnd=1818 PartOfSpeech=JJ Lemma=reluctant NamedEntityTag=O] [Text=to CharacterOffsetBegin=1819 CharacterOffsetEnd=1821 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sell CharacterOffsetBegin=1822 CharacterOffsetEnd=1826 PartOfSpeech=VB Lemma=sell NamedEntityTag=O] [Text=him CharacterOffsetBegin=1827 CharacterOffsetEnd=1830 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=to CharacterOffsetBegin=1831 CharacterOffsetEnd=1833 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=1834 CharacterOffsetEnd=1835 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=domestic CharacterOffsetBegin=1836 CharacterOffsetEnd=1844 PartOfSpeech=JJ Lemma=domestic NamedEntityTag=O] [Text=rival CharacterOffsetBegin=1845 CharacterOffsetEnd=1850 PartOfSpeech=NN Lemma=rival NamedEntityTag=O] [Text=- CharacterOffsetBegin=1851 CharacterOffsetEnd=1852 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=just CharacterOffsetBegin=1853 CharacterOffsetEnd=1857 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=as CharacterOffsetBegin=1858 CharacterOffsetEnd=1860 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=1861 CharacterOffsetEnd=1867 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=did CharacterOffsetBegin=1868 CharacterOffsetEnd=1871 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=1872 CharacterOffsetEnd=1875 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=want CharacterOffsetBegin=1876 CharacterOffsetEnd=1880 PartOfSpeech=VB Lemma=want NamedEntityTag=O] [Text=to CharacterOffsetBegin=1881 CharacterOffsetEnd=1883 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=leave CharacterOffsetBegin=1884 CharacterOffsetEnd=1889 PartOfSpeech=VB Lemma=leave NamedEntityTag=O] [Text=Inter CharacterOffsetBegin=1890 CharacterOffsetEnd=1895 PartOfSpeech=NNP Lemma=Inter NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=1896 CharacterOffsetEnd=1899 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=play CharacterOffsetBegin=1900 CharacterOffsetEnd=1904 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=for CharacterOffsetBegin=1905 CharacterOffsetEnd=1908 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=1909 CharacterOffsetEnd=1910 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=domestic CharacterOffsetBegin=1911 CharacterOffsetEnd=1919 PartOfSpeech=JJ Lemma=domestic NamedEntityTag=O] [Text=rival CharacterOffsetBegin=1920 CharacterOffsetEnd=1925 PartOfSpeech=NN Lemma=rival NamedEntityTag=O] [Text=. CharacterOffsetBegin=1925 CharacterOffsetEnd=1926 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (ADVP (RB much)
+      (SBAR (IN as)
+        (S
+          (NP (NNP Forlan))
+          (VP (MD would)
+            (VP (VB like)
+              (S
+                (VP (TO to)
+                  (VP (VB play)
+                    (PP (IN in)
+                      (NP (DT the) (NNPS Libertadores)))))))))))
+    (, ,)
+    (NP (PRP$ his) (NN club))
+    (VP (VBD were)
+      (VP (VBN understood)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ reluctant)
+                (S
+                  (VP (TO to)
+                    (VP (VB sell)
+                      (NP (PRP him))
+                      (PP (TO to)
+                        (NP (DT a) (JJ domestic) (NN rival)))))))
+              (: -)
+              (SBAR (RB just) (IN as)
+                (S
+                  (NP (NNP Forlan))
+                  (VP (VBD did) (RB not)
+                    (VP (VB want)
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (VP (VB leave)
+                              (NP (NNP Inter)))
+                            (CC and)
+                            (VP (VB play)
+                              (PP (IN for)
+                                (NP (DT a) (JJ domestic) (NN rival))))))))))))))))
+    (. .)))
+
+cc(understood-16, But-1)
+advmod(understood-16, much-2)
+mark(like-6, as-3)
+nsubj(like-6, Forlan-4)
+xsubj(play-8, Forlan-4)
+aux(like-6, would-5)
+ccomp(much-2, like-6)
+aux(play-8, to-7)
+xcomp(like-6, play-8)
+det(Libertadores-11, the-10)
+prep_in(play-8, Libertadores-11)
+poss(club-14, his-13)
+nsubjpass(understood-16, club-14)
+xsubj(reluctant-19, club-14)
+auxpass(understood-16, were-15)
+root(ROOT-0, understood-16)
+aux(reluctant-19, to-17)
+cop(reluctant-19, be-18)
+xcomp(understood-16, reluctant-19)
+aux(sell-21, to-20)
+xcomp(reluctant-19, sell-21)
+dobj(sell-21, him-22)
+det(rival-26, a-24)
+amod(rival-26, domestic-25)
+prep_to(sell-21, rival-26)
+advmod(want-33, just-28)
+mark(want-33, as-29)
+nsubj(want-33, Forlan-30)
+xsubj(leave-35, Forlan-30)
+aux(want-33, did-31)
+neg(want-33, not-32)
+advcl(reluctant-19, want-33)
+parataxis(reluctant-19, want-33)
+aux(leave-35, to-34)
+xcomp(want-33, leave-35)
+dobj(leave-35, Inter-36)
+xcomp(want-33, play-38)
+conj_and(leave-35, play-38)
+det(rival-42, a-40)
+amod(rival-42, domestic-41)
+prep_for(play-38, rival-42)
+
+Sentence #14 (48 tokens):
+"I was happy at Inter and had a great relationship with everyone, but the one offer which stood out for me was from Japan," Forlan said as he signed the forms to complete the negotiations at his home in Porto Alegre on Tuesday.
+[Text=`` CharacterOffsetBegin=1932 CharacterOffsetEnd=1933 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1933 CharacterOffsetEnd=1934 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1935 CharacterOffsetEnd=1938 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=happy CharacterOffsetBegin=1939 CharacterOffsetEnd=1944 PartOfSpeech=JJ Lemma=happy NamedEntityTag=O] [Text=at CharacterOffsetBegin=1945 CharacterOffsetEnd=1947 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Inter CharacterOffsetBegin=1948 CharacterOffsetEnd=1953 PartOfSpeech=NNP Lemma=Inter NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=1954 CharacterOffsetEnd=1957 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=had CharacterOffsetBegin=1958 CharacterOffsetEnd=1961 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1962 CharacterOffsetEnd=1963 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=great CharacterOffsetBegin=1964 CharacterOffsetEnd=1969 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=relationship CharacterOffsetBegin=1970 CharacterOffsetEnd=1982 PartOfSpeech=NN Lemma=relationship NamedEntityTag=O] [Text=with CharacterOffsetBegin=1983 CharacterOffsetEnd=1987 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=everyone CharacterOffsetBegin=1988 CharacterOffsetEnd=1996 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O] [Text=, CharacterOffsetBegin=1996 CharacterOffsetEnd=1997 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1998 CharacterOffsetEnd=2001 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=2002 CharacterOffsetEnd=2005 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=one CharacterOffsetBegin=2006 CharacterOffsetEnd=2009 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=offer CharacterOffsetBegin=2010 CharacterOffsetEnd=2015 PartOfSpeech=NN Lemma=offer NamedEntityTag=O] [Text=which CharacterOffsetBegin=2016 CharacterOffsetEnd=2021 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=stood CharacterOffsetBegin=2022 CharacterOffsetEnd=2027 PartOfSpeech=VBD Lemma=stand NamedEntityTag=O] [Text=out CharacterOffsetBegin=2028 CharacterOffsetEnd=2031 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=for CharacterOffsetBegin=2032 CharacterOffsetEnd=2035 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=me CharacterOffsetBegin=2036 CharacterOffsetEnd=2038 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=2039 CharacterOffsetEnd=2042 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=from CharacterOffsetBegin=2043 CharacterOffsetEnd=2047 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2048 CharacterOffsetEnd=2053 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2053 CharacterOffsetEnd=2054 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2054 CharacterOffsetEnd=2055 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=2056 CharacterOffsetEnd=2062 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2063 CharacterOffsetEnd=2067 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=as CharacterOffsetBegin=2068 CharacterOffsetEnd=2070 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=he CharacterOffsetBegin=2071 CharacterOffsetEnd=2073 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=signed CharacterOffsetBegin=2074 CharacterOffsetEnd=2080 PartOfSpeech=VBD Lemma=sign NamedEntityTag=O] [Text=the CharacterOffsetBegin=2081 CharacterOffsetEnd=2084 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=forms CharacterOffsetBegin=2085 CharacterOffsetEnd=2090 PartOfSpeech=NNS Lemma=form NamedEntityTag=O] [Text=to CharacterOffsetBegin=2091 CharacterOffsetEnd=2093 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=complete CharacterOffsetBegin=2094 CharacterOffsetEnd=2102 PartOfSpeech=VB Lemma=complete NamedEntityTag=O] [Text=the CharacterOffsetBegin=2103 CharacterOffsetEnd=2106 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=negotiations CharacterOffsetBegin=2107 CharacterOffsetEnd=2119 PartOfSpeech=NNS Lemma=negotiation NamedEntityTag=O] [Text=at CharacterOffsetBegin=2120 CharacterOffsetEnd=2122 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=his CharacterOffsetBegin=2123 CharacterOffsetEnd=2126 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=home CharacterOffsetBegin=2127 CharacterOffsetEnd=2131 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=in CharacterOffsetBegin=2132 CharacterOffsetEnd=2134 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Porto CharacterOffsetBegin=2135 CharacterOffsetEnd=2140 PartOfSpeech=NNP Lemma=Porto NamedEntityTag=ORGANIZATION] [Text=Alegre CharacterOffsetBegin=2141 CharacterOffsetEnd=2147 PartOfSpeech=NNP Lemma=Alegre NamedEntityTag=ORGANIZATION] [Text=on CharacterOffsetBegin=2148 CharacterOffsetEnd=2150 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2151 CharacterOffsetEnd=2158 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday</TIMEX3>] [Text=. CharacterOffsetBegin=2158 CharacterOffsetEnd=2159 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP I))
+        (VP
+          (VP (VBD was)
+            (ADJP (JJ happy))
+            (PP (IN at)
+              (NP (NNP Inter))))
+          (CC and)
+          (VP (VBD had)
+            (NP
+              (NP (DT a) (JJ great) (NN relationship))
+              (PP (IN with)
+                (NP (NN everyone)))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP
+          (NP (DT the) (CD one) (NN offer))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD stood)
+                (PRT (RP out))
+                (PP (IN for)
+                  (NP (PRP me)))))))
+        (VP (VBD was)
+          (PP (IN from)
+            (NP (NNP Japan))))))
+    (, ,) ('' '')
+    (NP (NNP Forlan))
+    (VP (VBD said)
+      (SBAR (IN as)
+        (S
+          (NP (PRP he))
+          (VP (VBD signed)
+            (NP (DT the) (NNS forms))
+            (S
+              (VP (TO to)
+                (VP (VB complete)
+                  (NP (DT the) (NNS negotiations))
+                  (PP (IN at)
+                    (NP
+                      (NP (PRP$ his) (NN home))
+                      (PP (IN in)
+                        (NP
+                          (NP (NNP Porto) (NNP Alegre))
+                          (PP (IN on)
+                            (NP (NNP Tuesday))))))))))))))
+    (. .)))
+
+nsubj(happy-4, I-2)
+nsubj(had-8, I-2)
+cop(happy-4, was-3)
+ccomp(said-30, happy-4)
+prep_at(happy-4, Inter-6)
+conj_and(happy-4, had-8)
+ccomp(said-30, had-8)
+det(relationship-11, a-9)
+amod(relationship-11, great-10)
+dobj(had-8, relationship-11)
+prep_with(relationship-11, everyone-13)
+det(offer-18, the-16)
+num(offer-18, one-17)
+nsubj(stood-20, offer-18)
+nsubj(was-24, offer-18)
+rcmod(offer-18, stood-20)
+prt(stood-20, out-21)
+prep_for(stood-20, me-23)
+conj_but(happy-4, was-24)
+ccomp(said-30, was-24)
+prep_from(was-24, Japan-26)
+nsubj(said-30, Forlan-29)
+root(ROOT-0, said-30)
+mark(signed-33, as-31)
+nsubj(signed-33, he-32)
+xsubj(complete-37, he-32)
+advcl(said-30, signed-33)
+det(forms-35, the-34)
+dobj(signed-33, forms-35)
+aux(complete-37, to-36)
+xcomp(signed-33, complete-37)
+det(negotiations-39, the-38)
+dobj(complete-37, negotiations-39)
+poss(home-42, his-41)
+prep_at(complete-37, home-42)
+nn(Alegre-45, Porto-44)
+prep_in(home-42, Alegre-45)
+prep_on(Alegre-45, Tuesday-47)
+
+Sentence #15 (33 tokens):
+"I've played in Japan three or four times and always enjoyed the atmosphere in the stadiums, what culture I've seen and the people have always been very friendly.
+[Text=`` CharacterOffsetBegin=2160 CharacterOffsetEnd=2161 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=2161 CharacterOffsetEnd=2162 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='ve CharacterOffsetBegin=2162 CharacterOffsetEnd=2165 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=played CharacterOffsetBegin=2166 CharacterOffsetEnd=2172 PartOfSpeech=VBN Lemma=play NamedEntityTag=O] [Text=in CharacterOffsetBegin=2173 CharacterOffsetEnd=2175 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Japan CharacterOffsetBegin=2176 CharacterOffsetEnd=2181 PartOfSpeech=NNP Lemma=Japan NamedEntityTag=LOCATION] [Text=three CharacterOffsetBegin=2182 CharacterOffsetEnd=2187 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=or CharacterOffsetBegin=2188 CharacterOffsetEnd=2190 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=four CharacterOffsetBegin=2191 CharacterOffsetEnd=2195 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=times CharacterOffsetBegin=2196 CharacterOffsetEnd=2201 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=and CharacterOffsetBegin=2202 CharacterOffsetEnd=2205 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=always CharacterOffsetBegin=2206 CharacterOffsetEnd=2212 PartOfSpeech=RB Lemma=always NamedEntityTag=O] [Text=enjoyed CharacterOffsetBegin=2213 CharacterOffsetEnd=2220 PartOfSpeech=VBD Lemma=enjoy NamedEntityTag=O] [Text=the CharacterOffsetBegin=2221 CharacterOffsetEnd=2224 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=atmosphere CharacterOffsetBegin=2225 CharacterOffsetEnd=2235 PartOfSpeech=NN Lemma=atmosphere NamedEntityTag=O] [Text=in CharacterOffsetBegin=2236 CharacterOffsetEnd=2238 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=2239 CharacterOffsetEnd=2242 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=stadiums CharacterOffsetBegin=2243 CharacterOffsetEnd=2251 PartOfSpeech=NNS Lemma=stadium NamedEntityTag=O] [Text=, CharacterOffsetBegin=2251 CharacterOffsetEnd=2252 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=what CharacterOffsetBegin=2253 CharacterOffsetEnd=2257 PartOfSpeech=WDT Lemma=what NamedEntityTag=O] [Text=culture CharacterOffsetBegin=2258 CharacterOffsetEnd=2265 PartOfSpeech=NN Lemma=culture NamedEntityTag=O] [Text=I CharacterOffsetBegin=2266 CharacterOffsetEnd=2267 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='ve CharacterOffsetBegin=2267 CharacterOffsetEnd=2270 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=2271 CharacterOffsetEnd=2275 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=and CharacterOffsetBegin=2276 CharacterOffsetEnd=2279 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=2280 CharacterOffsetEnd=2283 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=people CharacterOffsetBegin=2284 CharacterOffsetEnd=2290 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=have CharacterOffsetBegin=2291 CharacterOffsetEnd=2295 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=always CharacterOffsetBegin=2296 CharacterOffsetEnd=2302 PartOfSpeech=RB Lemma=always NamedEntityTag=O] [Text=been CharacterOffsetBegin=2303 CharacterOffsetEnd=2307 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=2308 CharacterOffsetEnd=2312 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=friendly CharacterOffsetBegin=2313 CharacterOffsetEnd=2321 PartOfSpeech=JJ Lemma=friendly NamedEntityTag=O] [Text=. CharacterOffsetBegin=2321 CharacterOffsetEnd=2322 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP
+        (VP (VBP 've)
+          (VP (VBN played)
+            (PP (IN in)
+              (NP
+                (NP (NNP Japan) (CD three))
+                (CC or)
+                (NP (CD four) (NNS times))))))
+        (CC and)
+        (VP
+          (ADVP (RB always))
+          (VBD enjoyed)
+          (NP
+            (NP (DT the) (NN atmosphere))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NNS stadiums))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT what) (NN culture))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBP 've)
+                      (VP (VBN seen)))))))))))
+    (CC and)
+    (S
+      (NP (DT the) (NNS people))
+      (VP (VBP have)
+        (ADVP (RB always))
+        (VP (VBN been)
+          (ADJP (RB very) (JJ friendly)))))
+    (. .)))
+
+nsubj(played-4, I-2)
+nsubj(enjoyed-13, I-2)
+aux(played-4, 've-3)
+root(ROOT-0, played-4)
+prep_in(played-4, Japan-6)
+num(Japan-6, three-7)
+num(times-10, four-9)
+prep_in(played-4, times-10)
+conj_or(Japan-6, times-10)
+advmod(enjoyed-13, always-12)
+conj_and(played-4, enjoyed-13)
+det(atmosphere-15, the-14)
+dobj(enjoyed-13, atmosphere-15)
+det(stadiums-18, the-17)
+prep_in(atmosphere-15, stadiums-18)
+det(culture-21, stadiums-18)
+dobj(seen-24, culture-21)
+nsubj(seen-24, I-22)
+aux(seen-24, 've-23)
+rcmod(stadiums-18, seen-24)
+det(people-27, the-26)
+nsubj(friendly-32, people-27)
+aux(friendly-32, have-28)
+advmod(friendly-32, always-29)
+cop(friendly-32, been-30)
+advmod(friendly-32, very-31)
+conj_and(played-4, friendly-32)
+
+Sentence #16 (18 tokens):
+I'm really looking forward to joining Cerezo and doing my best for my new team."
+[Text=I CharacterOffsetBegin=2323 CharacterOffsetEnd=2324 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=2324 CharacterOffsetEnd=2326 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=really CharacterOffsetBegin=2327 CharacterOffsetEnd=2333 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=looking CharacterOffsetBegin=2334 CharacterOffsetEnd=2341 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=forward CharacterOffsetBegin=2342 CharacterOffsetEnd=2349 PartOfSpeech=RB Lemma=forward NamedEntityTag=O] [Text=to CharacterOffsetBegin=2350 CharacterOffsetEnd=2352 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=joining CharacterOffsetBegin=2353 CharacterOffsetEnd=2360 PartOfSpeech=VBG Lemma=join NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=2361 CharacterOffsetEnd=2367 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=2368 CharacterOffsetEnd=2371 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=doing CharacterOffsetBegin=2372 CharacterOffsetEnd=2377 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=my CharacterOffsetBegin=2378 CharacterOffsetEnd=2380 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=best CharacterOffsetBegin=2381 CharacterOffsetEnd=2385 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=for CharacterOffsetBegin=2386 CharacterOffsetEnd=2389 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=my CharacterOffsetBegin=2390 CharacterOffsetEnd=2392 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=new CharacterOffsetBegin=2393 CharacterOffsetEnd=2396 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=team CharacterOffsetBegin=2397 CharacterOffsetEnd=2401 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=. CharacterOffsetBegin=2401 CharacterOffsetEnd=2402 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=2402 CharacterOffsetEnd=2403 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 'm)
+      (ADVP (RB really))
+      (VP (VBG looking)
+        (ADVP (RB forward))
+        (PP (TO to)
+          (S
+            (VP
+              (VP (VBG joining)
+                (NP (NNP Cerezo)))
+              (CC and)
+              (VP (VBG doing)
+                (NP (PRP$ my) (JJS best))
+                (PP (IN for)
+                  (NP (PRP$ my) (JJ new) (NN team)))))))))
+    (. .) ('' '')))
+
+nsubj(looking-4, I-1)
+aux(looking-4, 'm-2)
+advmod(looking-4, really-3)
+root(ROOT-0, looking-4)
+advmod(looking-4, forward-5)
+prepc_to(looking-4, joining-7)
+dobj(joining-7, Cerezo-8)
+prepc_to(looking-4, doing-10)
+conj_and(joining-7, doing-10)
+poss(best-12, my-11)
+dobj(doing-10, best-12)
+poss(team-16, my-14)
+amod(team-16, new-15)
+prep_for(doing-10, team-16)
+
+Sentence #17 (23 tokens):
+Forlan has no fears about the J League hampering his chances of being in the Uruguay squad for the World Cup finals.
+[Text=Forlan CharacterOffsetBegin=2409 CharacterOffsetEnd=2415 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=2416 CharacterOffsetEnd=2419 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=no CharacterOffsetBegin=2420 CharacterOffsetEnd=2422 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=fears CharacterOffsetBegin=2423 CharacterOffsetEnd=2428 PartOfSpeech=NNS Lemma=fear NamedEntityTag=O] [Text=about CharacterOffsetBegin=2429 CharacterOffsetEnd=2434 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=the CharacterOffsetBegin=2435 CharacterOffsetEnd=2438 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=J CharacterOffsetBegin=2439 CharacterOffsetEnd=2440 PartOfSpeech=NNP Lemma=J NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=2441 CharacterOffsetEnd=2447 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=hampering CharacterOffsetBegin=2448 CharacterOffsetEnd=2457 PartOfSpeech=VBG Lemma=hamper NamedEntityTag=O] [Text=his CharacterOffsetBegin=2458 CharacterOffsetEnd=2461 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=chances CharacterOffsetBegin=2462 CharacterOffsetEnd=2469 PartOfSpeech=NNS Lemma=chance NamedEntityTag=O] [Text=of CharacterOffsetBegin=2470 CharacterOffsetEnd=2472 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=being CharacterOffsetBegin=2473 CharacterOffsetEnd=2478 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=2479 CharacterOffsetEnd=2481 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=2482 CharacterOffsetEnd=2485 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Uruguay CharacterOffsetBegin=2486 CharacterOffsetEnd=2493 PartOfSpeech=NNP Lemma=Uruguay NamedEntityTag=LOCATION] [Text=squad CharacterOffsetBegin=2494 CharacterOffsetEnd=2499 PartOfSpeech=NN Lemma=squad NamedEntityTag=O] [Text=for CharacterOffsetBegin=2500 CharacterOffsetEnd=2503 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2504 CharacterOffsetEnd=2507 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=2508 CharacterOffsetEnd=2513 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=2514 CharacterOffsetEnd=2517 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=finals CharacterOffsetBegin=2518 CharacterOffsetEnd=2524 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=. CharacterOffsetBegin=2524 CharacterOffsetEnd=2525 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Forlan))
+    (VP (VBZ has)
+      (NP
+        (NP (DT no) (NNS fears))
+        (PP (IN about)
+          (NP
+            (NP (DT the) (NNP J) (NNP League))
+            (VP (VBG hampering)
+              (NP
+                (NP (PRP$ his) (NNS chances))
+                (PP (IN of)
+                  (S
+                    (VP (VBG being)
+                      (PP (IN in)
+                        (NP (DT the) (NNP Uruguay) (NN squad)))
+                      (PP (IN for)
+                        (NP (DT the) (NNP World) (NNP Cup) (NNS finals))))))))))))
+    (. .)))
+
+nsubj(has-2, Forlan-1)
+root(ROOT-0, has-2)
+det(fears-4, no-3)
+dobj(has-2, fears-4)
+det(League-8, the-6)
+nn(League-8, J-7)
+prep_about(fears-4, League-8)
+partmod(League-8, hampering-9)
+poss(chances-11, his-10)
+dobj(hampering-9, chances-11)
+prepc_of(chances-11, being-13)
+det(squad-17, the-15)
+nn(squad-17, Uruguay-16)
+prep_in(being-13, squad-17)
+det(finals-22, the-19)
+nn(finals-22, World-20)
+nn(finals-22, Cup-21)
+prep_for(being-13, finals-22)
+
+Sentence #18 (31 tokens):
+"It's not the Premier League or La Liga, but the standard of football is high, improving and the league is very competitive," Forlan said.
+[Text=`` CharacterOffsetBegin=2531 CharacterOffsetEnd=2532 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=2532 CharacterOffsetEnd=2534 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=2534 CharacterOffsetEnd=2536 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2537 CharacterOffsetEnd=2540 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=the CharacterOffsetBegin=2541 CharacterOffsetEnd=2544 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Premier CharacterOffsetBegin=2545 CharacterOffsetEnd=2552 PartOfSpeech=NNP Lemma=Premier NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=2553 CharacterOffsetEnd=2559 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=or CharacterOffsetBegin=2560 CharacterOffsetEnd=2562 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=La CharacterOffsetBegin=2563 CharacterOffsetEnd=2565 PartOfSpeech=NNP Lemma=La NamedEntityTag=O] [Text=Liga CharacterOffsetBegin=2566 CharacterOffsetEnd=2570 PartOfSpeech=NNP Lemma=Liga NamedEntityTag=O] [Text=, CharacterOffsetBegin=2570 CharacterOffsetEnd=2571 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=2572 CharacterOffsetEnd=2575 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=2576 CharacterOffsetEnd=2579 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=standard CharacterOffsetBegin=2580 CharacterOffsetEnd=2588 PartOfSpeech=NN Lemma=standard NamedEntityTag=O] [Text=of CharacterOffsetBegin=2589 CharacterOffsetEnd=2591 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=football CharacterOffsetBegin=2592 CharacterOffsetEnd=2600 PartOfSpeech=NN Lemma=football NamedEntityTag=O] [Text=is CharacterOffsetBegin=2601 CharacterOffsetEnd=2603 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=high CharacterOffsetBegin=2604 CharacterOffsetEnd=2608 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=, CharacterOffsetBegin=2608 CharacterOffsetEnd=2609 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=improving CharacterOffsetBegin=2610 CharacterOffsetEnd=2619 PartOfSpeech=VBG Lemma=improve NamedEntityTag=O] [Text=and CharacterOffsetBegin=2620 CharacterOffsetEnd=2623 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=2624 CharacterOffsetEnd=2627 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=league CharacterOffsetBegin=2628 CharacterOffsetEnd=2634 PartOfSpeech=NN Lemma=league NamedEntityTag=O] [Text=is CharacterOffsetBegin=2635 CharacterOffsetEnd=2637 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=2638 CharacterOffsetEnd=2642 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=competitive CharacterOffsetBegin=2643 CharacterOffsetEnd=2654 PartOfSpeech=JJ Lemma=competitive NamedEntityTag=O] [Text=, CharacterOffsetBegin=2654 CharacterOffsetEnd=2655 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2655 CharacterOffsetEnd=2656 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=2657 CharacterOffsetEnd=2663 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2664 CharacterOffsetEnd=2668 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2668 CharacterOffsetEnd=2669 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP It))
+        (VP (VBZ 's) (RB not)
+          (NP
+            (NP (DT the) (NNP Premier) (NNP League))
+            (CC or)
+            (NP (NNP La) (NNP Liga)))))
+      (, ,)
+      (CC but)
+      (S
+        (NP
+          (NP (DT the) (NN standard))
+          (PP (IN of)
+            (NP (NN football))))
+        (VP (VBZ is)
+          (ADJP (JJ high))))
+      (, ,)
+      (S
+        (NP
+          (NP (VBG improving))
+          (CC and)
+          (NP (DT the) (NN league)))
+        (VP (VBZ is)
+          (ADJP (RB very) (JJ competitive)))))
+    (, ,) ('' '')
+    (NP (NNP Forlan))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(League-7, It-2)
+cop(League-7, 's-3)
+neg(League-7, not-4)
+det(League-7, the-5)
+nn(League-7, Premier-6)
+ccomp(said-30, League-7)
+nn(Liga-10, La-9)
+conj_or(League-7, Liga-10)
+ccomp(said-30, Liga-10)
+det(standard-14, the-13)
+nsubj(high-18, standard-14)
+prep_of(standard-14, football-16)
+cop(high-18, is-17)
+conj_but(League-7, high-18)
+ccomp(said-30, high-18)
+nsubj(competitive-26, improving-20)
+det(league-23, the-22)
+conj_and(improving-20, league-23)
+nsubj(competitive-26, league-23)
+cop(competitive-26, is-24)
+advmod(competitive-26, very-25)
+conj_but(League-7, competitive-26)
+ccomp(said-30, competitive-26)
+nsubj(said-30, Forlan-29)
+root(ROOT-0, said-30)
+
+Sentence #19 (18 tokens):
+"I saw Cerezo draw with Manchester United pre-season and they were praised for playing so well.
+[Text=`` CharacterOffsetBegin=2670 CharacterOffsetEnd=2671 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=2671 CharacterOffsetEnd=2672 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=saw CharacterOffsetBegin=2673 CharacterOffsetEnd=2676 PartOfSpeech=VBD Lemma=see NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=2677 CharacterOffsetEnd=2683 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=O] [Text=draw CharacterOffsetBegin=2684 CharacterOffsetEnd=2688 PartOfSpeech=VB Lemma=draw NamedEntityTag=O] [Text=with CharacterOffsetBegin=2689 CharacterOffsetEnd=2693 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Manchester CharacterOffsetBegin=2694 CharacterOffsetEnd=2704 PartOfSpeech=NNP Lemma=Manchester NamedEntityTag=ORGANIZATION] [Text=United CharacterOffsetBegin=2705 CharacterOffsetEnd=2711 PartOfSpeech=NNP Lemma=United NamedEntityTag=ORGANIZATION] [Text=pre-season CharacterOffsetBegin=2712 CharacterOffsetEnd=2722 PartOfSpeech=JJ Lemma=pre-season NamedEntityTag=O] [Text=and CharacterOffsetBegin=2723 CharacterOffsetEnd=2726 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=they CharacterOffsetBegin=2727 CharacterOffsetEnd=2731 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=were CharacterOffsetBegin=2732 CharacterOffsetEnd=2736 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=praised CharacterOffsetBegin=2737 CharacterOffsetEnd=2744 PartOfSpeech=VBN Lemma=praise NamedEntityTag=O] [Text=for CharacterOffsetBegin=2745 CharacterOffsetEnd=2748 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=playing CharacterOffsetBegin=2749 CharacterOffsetEnd=2756 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=so CharacterOffsetBegin=2757 CharacterOffsetEnd=2759 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=well CharacterOffsetBegin=2760 CharacterOffsetEnd=2764 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=. CharacterOffsetBegin=2764 CharacterOffsetEnd=2765 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBD saw)
+        (S
+          (NP (NNP Cerezo))
+          (VP (VB draw)
+            (PP (IN with)
+              (NP
+                (NP (NNP Manchester) (NNP United))
+                (ADJP (JJ pre-season))))))))
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBD were)
+        (VP (VBN praised)
+          (PP (IN for)
+            (S
+              (VP (VBG playing)
+                (ADVP (RB so) (RB well))))))))
+    (. .)))
+
+nsubj(saw-3, I-2)
+root(ROOT-0, saw-3)
+nsubj(draw-5, Cerezo-4)
+ccomp(saw-3, draw-5)
+nn(United-8, Manchester-7)
+prep_with(draw-5, United-8)
+amod(United-8, pre-season-9)
+nsubjpass(praised-13, they-11)
+auxpass(praised-13, were-12)
+conj_and(saw-3, praised-13)
+prepc_for(praised-13, playing-15)
+advmod(well-17, so-16)
+advmod(playing-15, well-17)
+
+Sentence #20 (17 tokens):
+I'm also in really good condition and want to play for as long as possible.
+[Text=I CharacterOffsetBegin=2766 CharacterOffsetEnd=2767 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=2767 CharacterOffsetEnd=2769 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=also CharacterOffsetBegin=2770 CharacterOffsetEnd=2774 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=in CharacterOffsetBegin=2775 CharacterOffsetEnd=2777 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=really CharacterOffsetBegin=2778 CharacterOffsetEnd=2784 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=good CharacterOffsetBegin=2785 CharacterOffsetEnd=2789 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=condition CharacterOffsetBegin=2790 CharacterOffsetEnd=2799 PartOfSpeech=NN Lemma=condition NamedEntityTag=O] [Text=and CharacterOffsetBegin=2800 CharacterOffsetEnd=2803 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=want CharacterOffsetBegin=2804 CharacterOffsetEnd=2808 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=to CharacterOffsetBegin=2809 CharacterOffsetEnd=2811 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=2812 CharacterOffsetEnd=2816 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=for CharacterOffsetBegin=2817 CharacterOffsetEnd=2820 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=as CharacterOffsetBegin=2821 CharacterOffsetEnd=2823 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=long CharacterOffsetBegin=2824 CharacterOffsetEnd=2828 PartOfSpeech=JJ Lemma=long NamedEntityTag=O] [Text=as CharacterOffsetBegin=2829 CharacterOffsetEnd=2831 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=possible CharacterOffsetBegin=2832 CharacterOffsetEnd=2840 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O] [Text=. CharacterOffsetBegin=2840 CharacterOffsetEnd=2841 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP 'm)
+        (ADVP (RB also))
+        (PP (IN in)
+          (NP
+            (ADJP (RB really) (JJ good))
+            (NN condition))))
+      (CC and)
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (PP (IN for)
+                (ADVP (RB as) (JJ long)
+                  (PP (IN as)
+                    (ADJP (JJ possible))))))))))
+    (. .)))
+
+nsubj('m-2, I-1)
+nsubj(want-9, I-1)
+xsubj(play-11, I-1)
+root(ROOT-0, 'm-2)
+advmod('m-2, also-3)
+advmod(good-6, really-5)
+amod(condition-7, good-6)
+prep_in('m-2, condition-7)
+conj_and('m-2, want-9)
+aux(play-11, to-10)
+xcomp(want-9, play-11)
+advmod(long-14, as-13)
+prepc_for(play-11, long-14)
+prep_as(long-14, possible-16)
+
+Sentence #21 (15 tokens):
+Cerezo are a well established club with huge support in from a big city.
+[Text=Cerezo CharacterOffsetBegin=2842 CharacterOffsetEnd=2848 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=are CharacterOffsetBegin=2849 CharacterOffsetEnd=2852 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2853 CharacterOffsetEnd=2854 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=well CharacterOffsetBegin=2855 CharacterOffsetEnd=2859 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=established CharacterOffsetBegin=2860 CharacterOffsetEnd=2871 PartOfSpeech=VBN Lemma=establish NamedEntityTag=O] [Text=club CharacterOffsetBegin=2872 CharacterOffsetEnd=2876 PartOfSpeech=NN Lemma=club NamedEntityTag=O] [Text=with CharacterOffsetBegin=2877 CharacterOffsetEnd=2881 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=huge CharacterOffsetBegin=2882 CharacterOffsetEnd=2886 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O] [Text=support CharacterOffsetBegin=2887 CharacterOffsetEnd=2894 PartOfSpeech=NN Lemma=support NamedEntityTag=O] [Text=in CharacterOffsetBegin=2895 CharacterOffsetEnd=2897 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=from CharacterOffsetBegin=2898 CharacterOffsetEnd=2902 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=2903 CharacterOffsetEnd=2904 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=big CharacterOffsetBegin=2905 CharacterOffsetEnd=2908 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=city CharacterOffsetBegin=2909 CharacterOffsetEnd=2913 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=. CharacterOffsetBegin=2913 CharacterOffsetEnd=2914 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Cerezo))
+    (VP (VBP are)
+      (VP
+        (NP (DT a)
+          (ADJP (RB well) (VBN established))
+          (NN club))
+        (PP (IN with)
+          (NP (JJ huge) (NN support)))
+        (PP (IN in)
+          (PP (IN from)
+            (NP (DT a) (JJ big) (NN city))))))
+    (. .)))
+
+nsubj(club-6, Cerezo-1)
+aux(club-6, are-2)
+det(club-6, a-3)
+advmod(established-5, well-4)
+amod(club-6, established-5)
+root(ROOT-0, club-6)
+amod(support-9, huge-8)
+prep_with(club-6, support-9)
+prep(club-6, in-10)
+pcomp(in-10, from-11)
+det(city-14, a-12)
+amod(city-14, big-13)
+pobj(from-11, city-14)
+
+Sentence #22 (9 tokens):
+I'm really excited about the move."
+[Text=I CharacterOffsetBegin=2915 CharacterOffsetEnd=2916 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=2916 CharacterOffsetEnd=2918 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=really CharacterOffsetBegin=2919 CharacterOffsetEnd=2925 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=excited CharacterOffsetBegin=2926 CharacterOffsetEnd=2933 PartOfSpeech=VBN Lemma=excite NamedEntityTag=O] [Text=about CharacterOffsetBegin=2934 CharacterOffsetEnd=2939 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=the CharacterOffsetBegin=2940 CharacterOffsetEnd=2943 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=move CharacterOffsetBegin=2944 CharacterOffsetEnd=2948 PartOfSpeech=NN Lemma=move NamedEntityTag=O] [Text=. CharacterOffsetBegin=2948 CharacterOffsetEnd=2949 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=2949 CharacterOffsetEnd=2950 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 'm)
+      (ADVP (RB really))
+      (VP (VBN excited)
+        (PP (IN about)
+          (NP (DT the) (NN move)))))
+    (. .) ('' '')))
+
+nsubjpass(excited-4, I-1)
+auxpass(excited-4, 'm-2)
+advmod(excited-4, really-3)
+root(ROOT-0, excited-4)
+det(move-7, the-6)
+prep_about(excited-4, move-7)
+
+Sentence #23 (26 tokens):
+Cerezo, who count Shinji Kagawa among their former players, finished fourth in the 2013 J League, four points behind champions Sanfrecce Hiroshima.
+[Text=Cerezo CharacterOffsetBegin=2956 CharacterOffsetEnd=2962 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2962 CharacterOffsetEnd=2963 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=2964 CharacterOffsetEnd=2967 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=count CharacterOffsetBegin=2968 CharacterOffsetEnd=2973 PartOfSpeech=VBP Lemma=count NamedEntityTag=O] [Text=Shinji CharacterOffsetBegin=2974 CharacterOffsetEnd=2980 PartOfSpeech=NNP Lemma=Shinji NamedEntityTag=PERSON] [Text=Kagawa CharacterOffsetBegin=2981 CharacterOffsetEnd=2987 PartOfSpeech=NNP Lemma=Kagawa NamedEntityTag=PERSON] [Text=among CharacterOffsetBegin=2988 CharacterOffsetEnd=2993 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=their CharacterOffsetBegin=2994 CharacterOffsetEnd=2999 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=former CharacterOffsetBegin=3000 CharacterOffsetEnd=3006 PartOfSpeech=JJ Lemma=former NamedEntityTag=O] [Text=players CharacterOffsetBegin=3007 CharacterOffsetEnd=3014 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=, CharacterOffsetBegin=3014 CharacterOffsetEnd=3015 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=finished CharacterOffsetBegin=3016 CharacterOffsetEnd=3024 PartOfSpeech=VBD Lemma=finish NamedEntityTag=O] [Text=fourth CharacterOffsetBegin=3025 CharacterOffsetEnd=3031 PartOfSpeech=JJ Lemma=fourth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=4.0] [Text=in CharacterOffsetBegin=3032 CharacterOffsetEnd=3034 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3035 CharacterOffsetEnd=3038 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2013 CharacterOffsetBegin=3039 CharacterOffsetEnd=3043 PartOfSpeech=CD Lemma=2013 NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t1" type="DATE" value="2013">2013</TIMEX3>] [Text=J CharacterOffsetBegin=3044 CharacterOffsetEnd=3045 PartOfSpeech=NNP Lemma=J NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=3046 CharacterOffsetEnd=3052 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=3052 CharacterOffsetEnd=3053 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=four CharacterOffsetBegin=3054 CharacterOffsetEnd=3058 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=points CharacterOffsetBegin=3059 CharacterOffsetEnd=3065 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=behind CharacterOffsetBegin=3066 CharacterOffsetEnd=3072 PartOfSpeech=IN Lemma=behind NamedEntityTag=O] [Text=champions CharacterOffsetBegin=3073 CharacterOffsetEnd=3082 PartOfSpeech=NNS Lemma=champion NamedEntityTag=O] [Text=Sanfrecce CharacterOffsetBegin=3083 CharacterOffsetEnd=3092 PartOfSpeech=NNP Lemma=Sanfrecce NamedEntityTag=ORGANIZATION] [Text=Hiroshima CharacterOffsetBegin=3093 CharacterOffsetEnd=3102 PartOfSpeech=NNP Lemma=Hiroshima NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=3102 CharacterOffsetEnd=3103 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Cerezo))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP count)
+            (NP
+              (NP (NNP Shinji) (NNP Kagawa))
+              (PP (IN among)
+                (NP (PRP$ their) (JJ former) (NNS players)))))))
+      (, ,))
+    (VP (VBD finished)
+      (ADJP (JJ fourth))
+      (PP (IN in)
+        (NP (DT the) (CD 2013) (NNP J) (NNP League)))
+      (, ,)
+      (PP
+        (NP (CD four) (NNS points))
+        (IN behind)
+        (NP
+          (NP (NNS champions))
+          (NP (NNP Sanfrecce) (NNP Hiroshima)))))
+    (. .)))
+
+nsubj(count-4, Cerezo-1)
+nsubj(finished-12, Cerezo-1)
+rcmod(Cerezo-1, count-4)
+nn(Kagawa-6, Shinji-5)
+dobj(count-4, Kagawa-6)
+poss(players-10, their-8)
+amod(players-10, former-9)
+prep_among(Kagawa-6, players-10)
+root(ROOT-0, finished-12)
+acomp(finished-12, fourth-13)
+det(League-18, the-15)
+num(League-18, 2013-16)
+nn(League-18, J-17)
+prep_in(finished-12, League-18)
+num(points-21, four-20)
+npadvmod(finished-12, points-21)
+prep_behind(finished-12, champions-23)
+nn(Hiroshima-25, Sanfrecce-24)
+dep(champions-23, Hiroshima-25)
+
+Sentence #24 (37 tokens):
+Just nine points separated the top eight clubs, with Cerezo one of four teams to qualify for the 2014 AFC Champions League alongside UAE sides Al Ain, Al Ahli, Al Jazira and Baniyas.
+[Text=Just CharacterOffsetBegin=3104 CharacterOffsetEnd=3108 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=nine CharacterOffsetBegin=3109 CharacterOffsetEnd=3113 PartOfSpeech=CD Lemma=nine NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0] [Text=points CharacterOffsetBegin=3114 CharacterOffsetEnd=3120 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=separated CharacterOffsetBegin=3121 CharacterOffsetEnd=3130 PartOfSpeech=VBD Lemma=separate NamedEntityTag=O] [Text=the CharacterOffsetBegin=3131 CharacterOffsetEnd=3134 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=3135 CharacterOffsetEnd=3138 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=eight CharacterOffsetBegin=3139 CharacterOffsetEnd=3144 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=clubs CharacterOffsetBegin=3145 CharacterOffsetEnd=3150 PartOfSpeech=NNS Lemma=club NamedEntityTag=O] [Text=, CharacterOffsetBegin=3150 CharacterOffsetEnd=3151 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=3152 CharacterOffsetEnd=3156 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Cerezo CharacterOffsetBegin=3157 CharacterOffsetEnd=3163 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text=one CharacterOffsetBegin=3164 CharacterOffsetEnd=3167 PartOfSpeech=CD Lemma=one NamedEntityTag=TIME NormalizedNamedEntityTag=T03:59 Timex=<TIMEX3 tid="t1" type="TIME" value="T03:59">one of four</TIMEX3>] [Text=of CharacterOffsetBegin=3168 CharacterOffsetEnd=3170 PartOfSpeech=IN Lemma=of NamedEntityTag=TIME NormalizedNamedEntityTag=T03:59 Timex=<TIMEX3 tid="t1" type="TIME" value="T03:59">one of four</TIMEX3>] [Text=four CharacterOffsetBegin=3171 CharacterOffsetEnd=3175 PartOfSpeech=CD Lemma=four NamedEntityTag=TIME NormalizedNamedEntityTag=T03:59 Timex=<TIMEX3 tid="t1" type="TIME" value="T03:59">one of four</TIMEX3>] [Text=teams CharacterOffsetBegin=3176 CharacterOffsetEnd=3181 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=to CharacterOffsetBegin=3182 CharacterOffsetEnd=3184 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=qualify CharacterOffsetBegin=3185 CharacterOffsetEnd=3192 PartOfSpeech=VB Lemma=qualify NamedEntityTag=O] [Text=for CharacterOffsetBegin=3193 CharacterOffsetEnd=3196 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=3197 CharacterOffsetEnd=3200 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=3201 CharacterOffsetEnd=3205 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t2" type="DATE" value="2014">2014</TIMEX3>] [Text=AFC CharacterOffsetBegin=3206 CharacterOffsetEnd=3209 PartOfSpeech=NNP Lemma=AFC NamedEntityTag=MISC] [Text=Champions CharacterOffsetBegin=3210 CharacterOffsetEnd=3219 PartOfSpeech=NNPS Lemma=Champions NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=3220 CharacterOffsetEnd=3226 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=alongside CharacterOffsetBegin=3227 CharacterOffsetEnd=3236 PartOfSpeech=IN Lemma=alongside NamedEntityTag=O] [Text=UAE CharacterOffsetBegin=3237 CharacterOffsetEnd=3240 PartOfSpeech=NNP Lemma=UAE NamedEntityTag=O] [Text=sides CharacterOffsetBegin=3241 CharacterOffsetEnd=3246 PartOfSpeech=NNS Lemma=side NamedEntityTag=O] [Text=Al CharacterOffsetBegin=3247 CharacterOffsetEnd=3249 PartOfSpeech=NNP Lemma=Al NamedEntityTag=PERSON] [Text=Ain CharacterOffsetBegin=3250 CharacterOffsetEnd=3253 PartOfSpeech=NNP Lemma=Ain NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=3253 CharacterOffsetEnd=3254 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Al CharacterOffsetBegin=3255 CharacterOffsetEnd=3257 PartOfSpeech=NNP Lemma=Al NamedEntityTag=PERSON] [Text=Ahli CharacterOffsetBegin=3258 CharacterOffsetEnd=3262 PartOfSpeech=NNP Lemma=Ahli NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=3262 CharacterOffsetEnd=3263 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Al CharacterOffsetBegin=3264 CharacterOffsetEnd=3266 PartOfSpeech=NNP Lemma=Al NamedEntityTag=PERSON] [Text=Jazira CharacterOffsetBegin=3267 CharacterOffsetEnd=3273 PartOfSpeech=NNP Lemma=Jazira NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=3274 CharacterOffsetEnd=3277 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Baniyas CharacterOffsetBegin=3278 CharacterOffsetEnd=3285 PartOfSpeech=NNP Lemma=Baniyas NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=3285 CharacterOffsetEnd=3286 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (RB Just) (CD nine) (NNS points))
+    (VP (VBD separated)
+      (NP (DT the) (JJ top) (CD eight) (NNS clubs))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (NNP Cerezo) (CD one))
+          (PP (IN of)
+            (NP (CD four) (NNS teams)))))
+      (S
+        (VP (TO to)
+          (VP (VB qualify)
+            (PP (IN for)
+              (NP
+                (NP (DT the) (CD 2014) (NNP AFC) (NNPS Champions))
+                (NNP League)
+                (PP (IN alongside)
+                  (NP (NNP UAE) (NNS sides)))))
+            (NP
+              (NP (NNP Al) (NNP Ain))
+              (, ,)
+              (NP (NNP Al) (NNP Ahli))
+              (, ,)
+              (NP (NNP Al) (NNP Jazira))
+              (CC and)
+              (NP (NNP Baniyas)))))))
+    (. .)))
+
+advmod(points-3, Just-1)
+num(points-3, nine-2)
+nsubj(separated-4, points-3)
+xsubj(qualify-17, points-3)
+root(ROOT-0, separated-4)
+det(clubs-8, the-5)
+amod(clubs-8, top-6)
+num(clubs-8, eight-7)
+dobj(separated-4, clubs-8)
+prep_with(separated-4, Cerezo-11)
+num(Cerezo-11, one-12)
+num(teams-15, four-14)
+prep_of(Cerezo-11, teams-15)
+aux(qualify-17, to-16)
+xcomp(separated-4, qualify-17)
+det(Champions-22, the-19)
+num(Champions-22, 2014-20)
+nn(Champions-22, AFC-21)
+nn(League-23, Champions-22)
+prep_for(qualify-17, League-23)
+nn(sides-26, UAE-25)
+prep_alongside(League-23, sides-26)
+nn(Ain-28, Al-27)
+dobj(qualify-17, Ain-28)
+nn(Ahli-31, Al-30)
+dobj(qualify-17, Ahli-31)
+conj_and(Ain-28, Ahli-31)
+nn(Jazira-34, Al-33)
+dobj(qualify-17, Jazira-34)
+conj_and(Ain-28, Jazira-34)
+dobj(qualify-17, Baniyas-36)
+conj_and(Ain-28, Baniyas-36)
+
+Sentence #25 (14 tokens):
+The winner of this will play in the 2014 Fifa Club World Cup.
+[Text=The CharacterOffsetBegin=3287 CharacterOffsetEnd=3290 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=winner CharacterOffsetBegin=3291 CharacterOffsetEnd=3297 PartOfSpeech=NN Lemma=winner NamedEntityTag=O] [Text=of CharacterOffsetBegin=3298 CharacterOffsetEnd=3300 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=3301 CharacterOffsetEnd=3305 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=will CharacterOffsetBegin=3306 CharacterOffsetEnd=3310 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=play CharacterOffsetBegin=3311 CharacterOffsetEnd=3315 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=in CharacterOffsetBegin=3316 CharacterOffsetEnd=3318 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3319 CharacterOffsetEnd=3322 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=3323 CharacterOffsetEnd=3327 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014</TIMEX3>] [Text=Fifa CharacterOffsetBegin=3328 CharacterOffsetEnd=3332 PartOfSpeech=NNP Lemma=Fifa NamedEntityTag=ORGANIZATION] [Text=Club CharacterOffsetBegin=3333 CharacterOffsetEnd=3337 PartOfSpeech=NNP Lemma=Club NamedEntityTag=O] [Text=World CharacterOffsetBegin=3338 CharacterOffsetEnd=3343 PartOfSpeech=NNP Lemma=World NamedEntityTag=O] [Text=Cup CharacterOffsetBegin=3344 CharacterOffsetEnd=3347 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=O] [Text=. CharacterOffsetBegin=3347 CharacterOffsetEnd=3348 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN winner))
+      (PP (IN of)
+        (NP (DT this))))
+    (VP (MD will)
+      (VP (VB play)
+        (PP (IN in)
+          (NP (DT the) (CD 2014) (NNP Fifa) (NNP Club) (NNP World) (NNP Cup)))))
+    (. .)))
+
+det(winner-2, The-1)
+nsubj(play-6, winner-2)
+prep_of(winner-2, this-4)
+aux(play-6, will-5)
+root(ROOT-0, play-6)
+det(Cup-13, the-8)
+num(Cup-13, 2014-9)
+nn(Cup-13, Fifa-10)
+nn(Cup-13, Club-11)
+nn(Cup-13, World-12)
+prep_in(play-6, Cup-13)
+
+Sentence #26 (39 tokens):
+Forlan will be the highest profile player in the 20-year-old J League, whose new season starts on March 1, but breaks from May 17 to July 19 to help players prepare for the World Cup finals.
+[Text=Forlan CharacterOffsetBegin=3354 CharacterOffsetEnd=3360 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=will CharacterOffsetBegin=3361 CharacterOffsetEnd=3365 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=3366 CharacterOffsetEnd=3368 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=3369 CharacterOffsetEnd=3372 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=highest CharacterOffsetBegin=3373 CharacterOffsetEnd=3380 PartOfSpeech=JJS Lemma=highest NamedEntityTag=O] [Text=profile CharacterOffsetBegin=3381 CharacterOffsetEnd=3388 PartOfSpeech=NN Lemma=profile NamedEntityTag=O] [Text=player CharacterOffsetBegin=3389 CharacterOffsetEnd=3395 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=in CharacterOffsetBegin=3396 CharacterOffsetEnd=3398 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=3399 CharacterOffsetEnd=3402 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=20-year-old CharacterOffsetBegin=3403 CharacterOffsetEnd=3414 PartOfSpeech=JJ Lemma=20-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=20.0 Timex=<TIMEX3 tid="t1" type="DURATION" value="P20Y">20-year-old</TIMEX3>] [Text=J CharacterOffsetBegin=3415 CharacterOffsetEnd=3416 PartOfSpeech=NNP Lemma=J NamedEntityTag=MISC] [Text=League CharacterOffsetBegin=3417 CharacterOffsetEnd=3423 PartOfSpeech=NNP Lemma=League NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=3423 CharacterOffsetEnd=3424 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=whose CharacterOffsetBegin=3425 CharacterOffsetEnd=3430 PartOfSpeech=WP$ Lemma=whose NamedEntityTag=O] [Text=new CharacterOffsetBegin=3431 CharacterOffsetEnd=3434 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=season CharacterOffsetBegin=3435 CharacterOffsetEnd=3441 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=starts CharacterOffsetBegin=3442 CharacterOffsetEnd=3448 PartOfSpeech=VBZ Lemma=start NamedEntityTag=O] [Text=on CharacterOffsetBegin=3449 CharacterOffsetEnd=3451 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=March CharacterOffsetBegin=3452 CharacterOffsetEnd=3457 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-01 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-03-01">March 1</TIMEX3>] [Text=1 CharacterOffsetBegin=3458 CharacterOffsetEnd=3459 PartOfSpeech=CD Lemma=1 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-01 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-03-01">March 1</TIMEX3>] [Text=, CharacterOffsetBegin=3459 CharacterOffsetEnd=3460 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=3461 CharacterOffsetEnd=3464 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=breaks CharacterOffsetBegin=3465 CharacterOffsetEnd=3471 PartOfSpeech=NNS Lemma=break NamedEntityTag=O] [Text=from CharacterOffsetBegin=3472 CharacterOffsetEnd=3476 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=May CharacterOffsetBegin=3477 CharacterOffsetEnd=3480 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-17 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-17">May 17</TIMEX3>] [Text=17 CharacterOffsetBegin=3481 CharacterOffsetEnd=3483 PartOfSpeech=CD Lemma=17 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-17 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-17">May 17</TIMEX3>] [Text=to CharacterOffsetBegin=3484 CharacterOffsetEnd=3486 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=July CharacterOffsetBegin=3487 CharacterOffsetEnd=3491 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-19 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-07-19">July 19</TIMEX3>] [Text=19 CharacterOffsetBegin=3492 CharacterOffsetEnd=3494 PartOfSpeech=CD Lemma=19 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-19 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-07-19">July 19</TIMEX3>] [Text=to CharacterOffsetBegin=3495 CharacterOffsetEnd=3497 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=help CharacterOffsetBegin=3498 CharacterOffsetEnd=3502 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=players CharacterOffsetBegin=3503 CharacterOffsetEnd=3510 PartOfSpeech=NNS Lemma=player NamedEntityTag=O] [Text=prepare CharacterOffsetBegin=3511 CharacterOffsetEnd=3518 PartOfSpeech=VB Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=3519 CharacterOffsetEnd=3522 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=3523 CharacterOffsetEnd=3526 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=3527 CharacterOffsetEnd=3532 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=3533 CharacterOffsetEnd=3536 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=finals CharacterOffsetBegin=3537 CharacterOffsetEnd=3543 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=. CharacterOffsetBegin=3543 CharacterOffsetEnd=3544 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Forlan))
+      (VP (MD will)
+        (VP (VB be)
+          (NP
+            (NP (DT the) (JJS highest) (NN profile) (NN player))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (JJ 20-year-old) (NNP J) (NNP League))
+                (, ,)
+                (SBAR
+                  (WHNP (WP$ whose) (JJ new) (NN season))
+                  (S
+                    (VP (VBZ starts)
+                      (PP (IN on)
+                        (NP (NNP March) (CD 1))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (NNS breaks))
+        (PP (IN from)
+          (NP
+            (NP (NNP May) (CD 17))
+            (PP (TO to)
+              (NP (NNP July) (CD 19))))))
+      (VP (TO to)
+        (VP (VB help)
+          (S
+            (NP (NNS players))
+            (VP (VB prepare)
+              (PP (IN for)
+                (NP (DT the) (NNP World) (NNP Cup) (NNS finals))))))))
+    (. .)))
+
+nsubj(player-7, Forlan-1)
+aux(player-7, will-2)
+cop(player-7, be-3)
+det(player-7, the-4)
+amod(player-7, highest-5)
+nn(player-7, profile-6)
+root(ROOT-0, player-7)
+det(League-12, the-9)
+amod(League-12, 20-year-old-10)
+nn(League-12, J-11)
+prep_in(player-7, League-12)
+poss(season-16, League-12)
+amod(season-16, new-15)
+nsubj(starts-17, season-16)
+rcmod(League-12, starts-17)
+prep_on(starts-17, March-19)
+num(March-19, 1-20)
+nsubj(help-31, breaks-23)
+prep_from(breaks-23, May-25)
+num(May-25, 17-26)
+prep_to(May-25, July-28)
+num(July-28, 19-29)
+aux(help-31, to-30)
+conj_but(player-7, help-31)
+nsubj(prepare-33, players-32)
+ccomp(help-31, prepare-33)
+det(finals-38, the-35)
+nn(finals-38, World-36)
+nn(finals-38, Cup-37)
+prep_for(prepare-33, finals-38)
+
+Sentence #27 (18 tokens):
+Cerezo's Japanese internationals Yoichiro Kakitani and Hotaru Yamaguchi will appreciate the break - as will Forlan.
+[Text=Cerezo CharacterOffsetBegin=3545 CharacterOffsetEnd=3551 PartOfSpeech=NNP Lemma=Cerezo NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=3551 CharacterOffsetEnd=3553 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=3554 CharacterOffsetEnd=3562 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=internationals CharacterOffsetBegin=3563 CharacterOffsetEnd=3577 PartOfSpeech=NNS Lemma=international NamedEntityTag=O] [Text=Yoichiro CharacterOffsetBegin=3578 CharacterOffsetEnd=3586 PartOfSpeech=NNP Lemma=Yoichiro NamedEntityTag=PERSON] [Text=Kakitani CharacterOffsetBegin=3587 CharacterOffsetEnd=3595 PartOfSpeech=NNP Lemma=Kakitani NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=3596 CharacterOffsetEnd=3599 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Hotaru CharacterOffsetBegin=3600 CharacterOffsetEnd=3606 PartOfSpeech=NNP Lemma=Hotaru NamedEntityTag=PERSON] [Text=Yamaguchi CharacterOffsetBegin=3607 CharacterOffsetEnd=3616 PartOfSpeech=NNP Lemma=Yamaguchi NamedEntityTag=PERSON] [Text=will CharacterOffsetBegin=3617 CharacterOffsetEnd=3621 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=appreciate CharacterOffsetBegin=3622 CharacterOffsetEnd=3632 PartOfSpeech=VB Lemma=appreciate NamedEntityTag=O] [Text=the CharacterOffsetBegin=3633 CharacterOffsetEnd=3636 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=break CharacterOffsetBegin=3637 CharacterOffsetEnd=3642 PartOfSpeech=NN Lemma=break NamedEntityTag=O] [Text=- CharacterOffsetBegin=3643 CharacterOffsetEnd=3644 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=as CharacterOffsetBegin=3645 CharacterOffsetEnd=3647 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=will CharacterOffsetBegin=3648 CharacterOffsetEnd=3652 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=Forlan CharacterOffsetBegin=3653 CharacterOffsetEnd=3659 PartOfSpeech=NNP Lemma=Forlan NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=3659 CharacterOffsetEnd=3660 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (NNP Cerezo) (POS 's))
+          (JJ Japanese) (NNS internationals))
+        (NP (NNP Yoichiro) (NNP Kakitani)))
+      (CC and)
+      (NP (NNP Hotaru) (NNP Yamaguchi)))
+    (VP (MD will)
+      (VP (VB appreciate)
+        (NP (DT the) (NN break))
+        (: -)
+        (SBAR (RB as)
+          (SINV
+            (VP (MD will))
+            (NP (NNP Forlan))))))
+    (. .)))
+
+poss(internationals-4, Cerezo-1)
+amod(internationals-4, Japanese-3)
+nsubj(appreciate-11, internationals-4)
+nn(Kakitani-6, Yoichiro-5)
+dep(internationals-4, Kakitani-6)
+nn(Yamaguchi-9, Hotaru-8)
+conj_and(internationals-4, Yamaguchi-9)
+nsubj(appreciate-11, Yamaguchi-9)
+aux(appreciate-11, will-10)
+root(ROOT-0, appreciate-11)
+det(break-13, the-12)
+dobj(appreciate-11, break-13)
+advmod(will-16, as-15)
+parataxis(appreciate-11, will-16)
+nsubj(will-16, Forlan-17)
+
+Coreference set:
+	(1,2,[1,3)) -> (2,2,[1,8)), that is: "Diego Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(2,2,[1,3)) -> (2,2,[1,8)), that is: "Diego Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(2,6,[4,7)) -> (2,2,[1,8)), that is: "the Uruguayan striker" -> "Diego Forlan , the Uruguayan striker ,"
+	(4,1,[1,5)) -> (2,2,[1,8)), that is: "Forlan , 34 ," -> "Diego Forlan , the Uruguayan striker ,"
+	(4,1,[1,2)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(5,1,[1,2)) -> (2,2,[1,8)), that is: "He" -> "Diego Forlan , the Uruguayan striker ,"
+	(6,4,[4,6)) -> (2,2,[1,8)), that is: "Forlan 's" -> "Diego Forlan , the Uruguayan striker ,"
+	(8,1,[1,2)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(8,8,[8,9)) -> (2,2,[1,8)), that is: "his" -> "Diego Forlan , the Uruguayan striker ,"
+	(9,1,[1,2)) -> (2,2,[1,8)), that is: "His" -> "Diego Forlan , the Uruguayan striker ,"
+	(10,1,[1,2)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(10,23,[23,24)) -> (2,2,[1,8)), that is: "his" -> "Diego Forlan , the Uruguayan striker ,"
+	(11,11,[11,12)) -> (2,2,[1,8)), that is: "him" -> "Diego Forlan , the Uruguayan striker ,"
+	(13,4,[4,5)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(13,13,[13,14)) -> (2,2,[1,8)), that is: "his" -> "Diego Forlan , the Uruguayan striker ,"
+	(13,22,[22,23)) -> (2,2,[1,8)), that is: "him" -> "Diego Forlan , the Uruguayan striker ,"
+	(13,30,[30,31)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(14,2,[2,3)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(14,23,[23,24)) -> (2,2,[1,8)), that is: "me" -> "Diego Forlan , the Uruguayan striker ,"
+	(14,29,[29,30)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(14,32,[32,33)) -> (2,2,[1,8)), that is: "he" -> "Diego Forlan , the Uruguayan striker ,"
+	(14,41,[41,42)) -> (2,2,[1,8)), that is: "his" -> "Diego Forlan , the Uruguayan striker ,"
+	(15,2,[2,3)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(15,22,[22,23)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(16,1,[1,2)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(16,11,[11,12)) -> (2,2,[1,8)), that is: "my" -> "Diego Forlan , the Uruguayan striker ,"
+	(16,14,[14,15)) -> (2,2,[1,8)), that is: "my" -> "Diego Forlan , the Uruguayan striker ,"
+	(17,1,[1,2)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(17,10,[10,11)) -> (2,2,[1,8)), that is: "his" -> "Diego Forlan , the Uruguayan striker ,"
+	(18,29,[29,30)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(19,2,[2,3)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(20,1,[1,2)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(22,1,[1,2)) -> (2,2,[1,8)), that is: "I" -> "Diego Forlan , the Uruguayan striker ,"
+	(26,1,[1,2)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+	(26,7,[4,21)) -> (2,2,[1,8)), that is: "the highest profile player in the 20-year-old J League , whose new season starts on March 1" -> "Diego Forlan , the Uruguayan striker ,"
+	(27,17,[17,18)) -> (2,2,[1,8)), that is: "Forlan" -> "Diego Forlan , the Uruguayan striker ,"
+Coreference set:
+	(2,13,[10,14)) -> (1,7,[4,8)), that is: "Japanese club Cerezo Osaka" -> "Japanese club Cerezo Osaka"
+Coreference set:
+	(26,12,[9,13)) -> (26,12,[9,21)), that is: "the 20-year-old J League" -> "the 20-year-old J League , whose new season starts on March 1"
+Coreference set:
+	(3,3,[1,4)) -> (3,3,[1,16)), that is: "The former Independiente" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+	(3,3,[3,4)) -> (3,3,[1,16)), that is: "Independiente" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+	(5,5,[5,6)) -> (3,3,[1,16)), that is: "Inter" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+	(10,5,[5,6)) -> (3,3,[1,16)), that is: "Inter" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+	(13,36,[36,37)) -> (3,3,[1,16)), that is: "Inter" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+	(14,6,[6,7)) -> (3,3,[1,16)), that is: "Inter" -> "The former Independiente , Manchester United , Villarreal , Atletico Madrid and Inter Milan striker"
+Coreference set:
+	(3,15,[13,16)) -> (3,8,[8,9)), that is: "Inter Milan striker" -> "Villarreal"
+	(3,23,[23,24)) -> (3,8,[8,9)), that is: "his" -> "Villarreal"
+Coreference set:
+	(3,14,[13,15)) -> (12,11,[9,12)), that is: "Inter Milan" -> "coach AC Milan"
+Coreference set:
+	(26,19,[19,21)) -> (3,35,[35,37)), that is: "March 1" -> "March 1"
+Coreference set:
+	(13,14,[13,15)) -> (3,25,[23,26)), that is: "his club" -> "his new club"
+Coreference set:
+	(4,33,[33,34)) -> (4,28,[28,29)), that is: "their" -> "their"
+	(5,29,[29,30)) -> (4,28,[28,29)), that is: "their" -> "their"
+	(6,1,[1,2)) -> (4,28,[28,29)), that is: "They" -> "their"
+Coreference set:
+	(7,26,[25,27)) -> (4,40,[38,41)), that is: "World Cup" -> "the World Cup"
+	(8,27,[26,28)) -> (4,40,[38,41)), that is: "World Cup" -> "the World Cup"
+	(10,14,[13,15)) -> (4,40,[38,41)), that is: "World Cup" -> "the World Cup"
+	(17,21,[20,22)) -> (4,40,[38,41)), that is: "World Cup" -> "the World Cup"
+	(26,37,[36,38)) -> (4,40,[38,41)), that is: "World Cup" -> "the World Cup"
+Coreference set:
+	(7,6,[6,7)) -> (23,1,[1,12)), that is: "Cerezo" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+	(16,8,[8,9)) -> (23,1,[1,12)), that is: "Cerezo" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+	(19,4,[4,5)) -> (23,1,[1,12)), that is: "Cerezo" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+	(21,1,[1,2)) -> (23,1,[1,12)), that is: "Cerezo" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+	(23,1,[1,2)) -> (23,1,[1,12)), that is: "Cerezo" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+	(27,1,[1,3)) -> (23,1,[1,12)), that is: "Cerezo 's" -> "Cerezo , who count Shinji Kagawa among their former players ,"
+Coreference set:
+	(25,2,[1,5)) -> (7,14,[9,42)), that is: "The winner of this" -> "the twice European golden boot winner who was also the joint top goalscorer in the last World Cup finals , where he won the Golden Ball for being the tournament 's best player"
+Coreference set:
+	(7,30,[30,31)) -> (7,21,[18,28)), that is: "he" -> "the joint top goalscorer in the last World Cup finals"
+Coreference set:
+	(10,15,[12,16)) -> (7,27,[23,28)), that is: "the World Cup finals" -> "the last World Cup finals"
+	(17,22,[19,23)) -> (7,27,[23,28)), that is: "the World Cup finals" -> "the last World Cup finals"
+	(26,38,[35,39)) -> (7,27,[23,28)), that is: "the World Cup finals" -> "the last World Cup finals"
+Coreference set:
+	(14,26,[26,27)) -> (8,6,[6,13)), that is: "Japan" -> "Japan for his performance in a friendly"
+Coreference set:
+	(11,14,[14,15)) -> (8,28,[24,29)), that is: "their" -> "the fellow World Cup finalists"
+	(12,1,[1,2)) -> (8,28,[24,29)), that is: "Their" -> "the fellow World Cup finalists"
+	(12,7,[7,8)) -> (8,28,[24,29)), that is: "them" -> "the fellow World Cup finalists"
+	(12,19,[19,20)) -> (8,28,[24,29)), that is: "their" -> "the fellow World Cup finalists"
+Coreference set:
+	(13,11,[10,12)) -> (11,16,[15,17)), that is: "the Libertadores" -> "Copa Libertadores"
+	(13,11,[11,12)) -> (11,16,[15,17)), that is: "Libertadores" -> "Copa Libertadores"
+Coreference set:
+	(13,42,[40,43)) -> (13,26,[24,27)), that is: "a domestic rival" -> "a domestic rival"
+Coreference set:
+	(15,18,[17,19)) -> (15,18,[17,25)), that is: "the stadiums" -> "the stadiums , what culture I 've seen"
+Coreference set:
+	(23,20,[20,21)) -> (15,9,[9,10)), that is: "four" -> "four"
+Coreference set:
+	(18,2,[2,3)) -> (17,8,[6,23)), that is: "It" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(18,7,[5,11)) -> (17,8,[6,23)), that is: "the Premier League or La Liga" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(18,7,[5,8)) -> (17,8,[6,23)), that is: "the Premier League" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(18,7,[6,8)) -> (17,8,[6,23)), that is: "Premier League" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(18,23,[22,24)) -> (17,8,[6,23)), that is: "the league" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(23,18,[17,19)) -> (17,8,[6,23)), that is: "J League" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+	(26,12,[11,13)) -> (17,8,[6,23)), that is: "J League" -> "the J League hampering his chances of being in the Uruguay squad for the World Cup finals"
+Coreference set:
+	(19,11,[11,12)) -> (18,20,[20,21)), that is: "they" -> "improving"
+Coreference set:
+	(24,28,[27,29)) -> (24,28,[27,37)), that is: "Al Ain" -> "Al Ain , Al Ahli , Al Jazira and Baniyas"
+	(24,31,[30,32)) -> (24,28,[27,37)), that is: "Al Ahli" -> "Al Ain , Al Ahli , Al Jazira and Baniyas"
+	(24,34,[33,35)) -> (24,28,[27,37)), that is: "Al Jazira" -> "Al Ain , Al Ahli , Al Jazira and Baniyas"
+Coreference set:
+	(25,9,[9,10)) -> (24,20,[20,21)), that is: "2014" -> "2014"
+Coreference set:
+	(26,32,[32,33)) -> (23,10,[8,11)), that is: "players" -> "their former players"

@@ -27,7 +27,7 @@ public class TopicModel {
 
 		InstanceList instances = new InstanceList (new SerialPipes(pipeList));
 
-		Reader fileReader = new InputStreamReader(new FileInputStream(new File("/Users/admin/Documents/workspace/a_measure.clean/ibmcsvs/"+file)), "UTF-8");
+		Reader fileReader = new InputStreamReader(new FileInputStream(new File(connecter_stan.EntityTreeCsvFolder+file)), "UTF-8");
 		instances.addThruPipe(new CsvIterator (fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
 				3, 2, 1)); // data, label, name fields
 		System.out.println("inst::"+instances);
@@ -59,9 +59,9 @@ public class TopicModel {
 		int i = 0;
 		try{
 			//Calendar now = Calendar.getInstance();
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/topic_"+entity+".csv", true);  //���P
+			FileWriter fw = new FileWriter(connecter_stan.TopicCsvFolder+"topic_"+entity+".csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-			FileWriter topic_fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/"+entity+"_topic_words.csv", true);  //���P
+			FileWriter topic_fw = new FileWriter(connecter_stan.TopicCsvFolder+entity+"_topic_words.csv", true);  //���P
 			PrintWriter topic_pw = new PrintWriter(new BufferedWriter(topic_fw));
 
 			while(i < size){//渡したツリーの数を全て読むまで

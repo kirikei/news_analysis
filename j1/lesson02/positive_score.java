@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
@@ -16,7 +17,7 @@ import j1.lesson02.organize_entity.*;
 
 public class positive_score {
 	private static double entity_weight = 0.8;
-	
+
 	//センテンス毎にentityのツリーを取り出す＋entityの感情語スコアを取り出す
 	public static Map<String,Double> positive(String file1, ArrayList<String> entities){
 
@@ -35,7 +36,7 @@ public class positive_score {
 			ArrayList<String> focus_verb = verbs.get(sentense_num);
 			//System.out.println("verb:"+focus_verb);
 			ArrayList<String> focus_tree = tree_change.tree_c_m(treekun,focus_verb);//System.out.println("tree:"+focus_tree);
-			Map<String,Double> focus_score = wordscores.get(sentense_num);//System.out.println("score:"+focus_score);
+			Map<String,Double> focus_score = wordscores.get(sentense_num);//System.out.println("score:"+wordscores);
 			ArrayList<String> senti_words = new ArrayList<String>();
 
 			//センテンス中に感情語が含まれるなら
@@ -57,8 +58,8 @@ public class positive_score {
 					String s_word = senti_words.get(i);   //部分木中の感情語
 					//System.out.println("s_word::"+s_word+" senti_words::"+senti_words);
 					int ii = 0;int ent_num = -1;
-					int index = organize_entity.check_in_list(focus_tree,s_word); //部分木中の感情語のインデックス
-					//System.out.println("focus::"+focus_tree+",index::"+index);
+					int index = organize_entity.check_in_list(focus_tree, s_word); //部分木中の感情語のインデックス
+					//System.out.println("focus::"+focus_tree+",s_word::"+s_word);
 					String start_node = focus_tree.get(index);  //感情語から開始
 
 					//感情語とentityの位置関係を検索
@@ -206,74 +207,74 @@ public class positive_score {
 
 		double w = entity_weight;
 		//while(w < 0.91){
-			double wori = 1-w;
-			double sup = 0;
-			double osups = 0;
-			double asups = 0;
-			Set<String> keys = a_score.keySet();
-			Iterator<String> it = keys.iterator();
+		double wori = 1-w;
+		double sup = 0;
+		double osups = 0;
+		double asups = 0;
+		Set<String> keys = a_score.keySet();
+		Iterator<String> it = keys.iterator();
 
-			//関連記事のpolarityの計算において
-			while(it.hasNext()){
-				String S = it.next();//System.out.println("S::"+ S);
-				double a_sup = a_score.get(S);
+		//関連記事のpolarityの計算において
+		while(it.hasNext()){
+			String S = it.next();//System.out.println("S::"+ S);
+			double a_sup = a_score.get(S);
 
-				//元記事と共通するentityならば
-				if(ori_score.containsKey(S)){
-					double o_sup = ori_score.get(S);
-					if(cores.contains(S)){//core entityかどうか？
-						asups = asups + wori*calculate_detail.zettai(a_sup-o_sup);	//System.out.println("kara/wc::"+ sup);
-					}else{
-						asups = asups + w*calculate_detail.zettai(a_sup-o_sup);	//System.out.println("kara/w::"+ sup);
-					}
-				}
-				else{
-					if(cores.contains(S)){
-						asups = asups + calculate_detail.zettai(wori*a_sup);	//System.out.println("kara/wc::"+ sup);
-					}else{
-						asups = asups + calculate_detail.zettai(w*a_sup);	//System.out.println("kara/w::"+ sup);
-					}
+			//元記事と共通するentityならば
+			if(ori_score.containsKey(S)){
+				double o_sup = ori_score.get(S);
+				if(cores.contains(S)){//core entityかどうか？
+					asups = asups + wori*calculate_detail.zettai(a_sup-o_sup);	//System.out.println("kara/wc::"+ sup);
+				}else{
+					asups = asups + w*calculate_detail.zettai(a_sup-o_sup);	//System.out.println("kara/w::"+ sup);
 				}
 			}
-
-			Set<String> o_keys = ori_score.keySet();	
-			Iterator<String> o_it = o_keys.iterator();
-
-			//元記事のpolarityの計算において
-			while(o_it.hasNext()){
-				String So = o_it.next();//System.out.println("S::"+ So);
-				double o_sup2 = ori_score.get(So);
-
-				//比較記事と共通するentityならば
-				if(a_score.containsKey(So) == false){
-					if(cores.contains(So)){//core entityに含まれるならば
-						osups = osups + calculate_detail.zettai(wori*o_sup2);	//System.out.println("kara/wc::"+ sup);
-					}else{
-						osups = osups + calculate_detail.zettai(w*o_sup2);	//System.out.println("kara/w::"+ sup);
-					}
+			else{
+				if(cores.contains(S)){
+					asups = asups + calculate_detail.zettai(wori*a_sup);	//System.out.println("kara/wc::"+ sup);
+				}else{
+					asups = asups + calculate_detail.zettai(w*a_sup);	//System.out.println("kara/w::"+ sup);
 				}
 			}
+		}
 
-			sup = asups+osups;
+		Set<String> o_keys = ori_score.keySet();	
+		Iterator<String> o_it = o_keys.iterator();
 
-			System.out.println("w="+w+"での"+a_file+"のpolarityは"+ sup + "です。");
-//			try {
-//				//出力先の決定
-//				FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/rel_experiment/pol_"+connecter_stan.event+"_result.csv", true);  //���P
-//				PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-//				pw.print(calculate_detail.zettai(sup));
-//				pw.print(",");
-//
-//				pw.close();
-//
-//				//終了メッセージを出力
-//				System.out.println("出力が完了しました。");
-//
-//			} catch (IOException ex) {
-//				//例外時処理
-//				ex.printStackTrace();
-//			}
-			//w +=0.1;}
+		//元記事のpolarityの計算において
+		while(o_it.hasNext()){
+			String So = o_it.next();//System.out.println("S::"+ So);
+			double o_sup2 = ori_score.get(So);
+
+			//比較記事と共通するentityならば
+			if(a_score.containsKey(So) == false){
+				if(cores.contains(So)){//core entityに含まれるならば
+					osups = osups + calculate_detail.zettai(wori*o_sup2);	//System.out.println("kara/wc::"+ sup);
+				}else{
+					osups = osups + calculate_detail.zettai(w*o_sup2);	//System.out.println("kara/w::"+ sup);
+				}
+			}
+		}
+
+		sup = asups+osups;
+
+		System.out.println("w="+w+"での"+a_file+"のpolarityは"+ sup + "です。");
+		//			try {
+		//				//出力先の決定
+		//				FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/rel_experiment/pol_"+connecter_stan.event+"_result.csv", true);  //���P
+		//				PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
+		//				pw.print(calculate_detail.zettai(sup));
+		//				pw.print(",");
+		//
+		//				pw.close();
+		//
+		//				//終了メッセージを出力
+		//				System.out.println("出力が完了しました。");
+		//
+		//			} catch (IOException ex) {
+		//				//例外時処理
+		//				ex.printStackTrace();
+		//			}
+		//w +=0.1;}
 		return sup;
 
 	}
@@ -284,55 +285,84 @@ public class positive_score {
 
 
 
-	public static Map<String,Double> start_positive(String[] args, Map<String, ArrayList<String>> entity_list, ArrayList<String> core_entities){
+	public static Map<String,Double> start_positive(String[] args, Map<String, ArrayList<String>> entity_list, ArrayList<String> core_entities, ArrayList<String> history){
 		//polarityの計算を全てのファイルに
 		double score = 0;
 		Map<String, Double> scores = new HashMap<String, Double>();
-		String most_file = null;//最も値の大きなファイル
+		//String most_file = null;//最も値の大きなファイル
 		//System.out.println(entity_list);
 		//元記事のentityの極性
 		ArrayList<String> ori_entities = entity_list.get(args[0]);
 		Map<String,Double> ori_score = positive("re_"+args[0], ori_entities);
+		System.out.println("ori_score : "+ori_score);
+		HashSet<String> ori_set = new HashSet<String>(ori_entities);
 		
+		//historyとの合成
+		for (String history_file : history) {
+			//historyのentityを全てori_entityへ（重複を除く）
+			HashSet<String> temp = new HashSet<String>(entity_list.get(history_file));
+			ori_set.addAll(temp); 
+			//history内のoriginal_articleを省く
+			if(history_file.equals(args[0]) == false){
+				Map<String,Double> hist_score = positive("re_"+history_file, entity_list.get(history_file));
+				//mapのためのfor_each entityが一緒なら足す、無ければ挿入
+				for (Map.Entry<String, Double> e : hist_score.entrySet()) {
+					String key = e.getKey();
+					double value = e.getValue();
+					if(ori_score.containsKey(e.getKey())){
+						ori_score.put(key, ori_score.get(key) + value);
+					}else{
+						ori_score.put(key, value);
+					}
+				}
+			}
+		}
+		
+		//historyのentityも共通化
+		ori_entities.addAll(ori_set);
+		System.out.println("ori_score_re_rank : "+ori_score);
+		
+		//元記事を除く
 		int q =1;
 
 		//関連記事毎に見ていく
 		while(q < args.length){
-			ArrayList<String> entities = entity_list.get(args[q]);
-			//args[q]と元記事間の擁護度の差を計算
-			
-			double next =cal_pos(ori_score,"re_"+args[q], entities, core_entities);
-			double moto_rel = calculate_rel_div.cal_rel_com(entities, ori_entities);
-			double polarity_score = next * moto_rel;
-			scores.put(args[q], polarity_score);
-			if(next > score){//最も値の大きいファイルの抽出
-				score = next;
-				most_file = args[q];
+			//履歴に含まれないなら
+			if(history.contains(args[q]) == false){
+				ArrayList<String> entities = entity_list.get(args[q]);
+				//args[q]と元記事間の擁護度の差を計算
+
+				double next =cal_pos(ori_score,"re_"+args[q], entities, core_entities);
+				double moto_rel = calculate_rel_div.cal_rel_com(entities, ori_entities);
+				double polarity_score = next * moto_rel;
+				scores.put(args[q], polarity_score);
+			}else{
+				//履歴に含まれる時 0 を代入
+				scores.put(args[q], 0.0);
 			}
 			q++;
-			
-			
+
 		}
-		//print_score(scores, args, "polarity");
+		print_score(scores, args, "polarity");
 		//import_newsDB.entry_measure(scores,"polarities");
 		return scores;
 	}
-	
+
 	//各尺度のスコアを出力する関数 scores:スコア, args : 入力ファイル, attribute : 尺度の属性（ファイルの名前）
 	public static void print_score(Map<String, Double> scores, String[] args, String attribute){
 		try {
 			//出力
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/"+connecter_stan.Name_of_Dir+"/"+ attribute+"_"+connecter_stan.event+"_result.csv", true);  //���P
+			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/news_analysis_history/"+connecter_stan.Name_of_Dir+"/"+ attribute+"_"+connecter_stan.event+"_result.csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-				pw.println("["+args[0]+"]");
+			pw.println("["+args[0]+"]");
 			for (int j = 1; j < args.length; j++) {			
 				pw.print(args[j]+",");
 				pw.println(scores.get(args[j]));
-				
+
 			}
 			pw.close();	
 			System.out.println("print_score::出力完了しました。");
-			
+
 		} catch (IOException ex) {
 			//例外時処理
 			ex.printStackTrace();

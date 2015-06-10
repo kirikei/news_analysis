@@ -1,0 +1,573 @@
+Sentence #1 (14 tokens):
+To be fair, Saturday's round was much better than Friday's.
+[Text=To CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=fair CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=JJ Lemma=fair NamedEntityTag=O] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-6">Saturday</TIMEX3>] [Text='s CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=round CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=round NamedEntityTag=O] [Text=was CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=much CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=better CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=than CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=Friday CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-5">Friday</TIMEX3>] [Text='s CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB be)
+          (ADJP (JJ fair)))))
+    (, ,)
+    (NP
+      (NP (NNP Saturday) (POS 's))
+      (NN round))
+    (VP (VBD was)
+      (ADJP
+        (ADJP (RB much) (JJR better))
+        (PP (IN than)
+          (NP (NNP Friday) (POS 's)))))
+    (. .)))
+
+root(ROOT-0, better-10)
+aux(fair-3, To-1)
+cop(fair-3, be-2)
+advcl(better-10, fair-3)
+poss(round-7, Saturday-5)
+nsubj(better-10, round-7)
+cop(better-10, was-8)
+advmod(better-10, much-9)
+prep_than(better-10, Friday-12)
+possessive(Friday-12, 's-13)
+
+Sentence #2 (15 tokens):
+Still, Woods made two costly mistakes that prevented his score from being better.
+[Text=Still CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=, CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=made CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=two CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=costly CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=JJ Lemma=costly NamedEntityTag=O] [Text=mistakes CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=NNS Lemma=mistake NamedEntityTag=O] [Text=that CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=prevented CharacterOffsetBegin=103 CharacterOffsetEnd=112 PartOfSpeech=VBD Lemma=prevent NamedEntityTag=O] [Text=his CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=score CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=score NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0] [Text=from CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=being CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=better CharacterOffsetBegin=134 CharacterOffsetEnd=140 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=. CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Still))
+    (, ,)
+    (NP (NNP Woods))
+    (VP (VBD made)
+      (NP
+        (NP (CD two) (JJ costly) (NNS mistakes))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD prevented)
+              (NP (PRP$ his) (NN score))
+              (PP (IN from)
+                (S
+                  (VP (VBG being)
+                    (ADJP (JJR better))))))))))
+    (. .)))
+
+root(ROOT-0, made-4)
+advmod(made-4, Still-1)
+nsubj(made-4, Woods-3)
+num(mistakes-7, two-5)
+amod(mistakes-7, costly-6)
+dobj(made-4, mistakes-7)
+nsubj(prevented-9, that-8)
+rcmod(mistakes-7, prevented-9)
+poss(score-11, his-10)
+dobj(prevented-9, score-11)
+cop(better-14, being-13)
+prepc_from(prevented-9, better-14)
+
+Sentence #3 (13 tokens):
+On the par-4 second hole Woods' drive found a pot bunker.
+[Text=On CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=par-4 CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=NN Lemma=par-4 NamedEntityTag=O] [Text=second CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=hole CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NN Lemma=hole NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=' CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=POS Lemma=' NamedEntityTag=O] [Text=drive CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=NN Lemma=drive NamedEntityTag=O] [Text=found CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=VBD Lemma=find NamedEntityTag=O] [Text=a CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pot CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=NN Lemma=pot NamedEntityTag=O] [Text=bunker CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=bunker NamedEntityTag=O] [Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (DT the) (NN par-4) (JJ second) (NN hole)))
+    (NP
+      (NP (NNP Woods) (POS '))
+      (NN drive))
+    (VP (VBD found)
+      (NP (DT a) (NN pot) (NN bunker)))
+    (. .)))
+
+root(ROOT-0, found-9)
+det(hole-5, the-2)
+nn(hole-5, par-4-3)
+amod(hole-5, second-4)
+prep_on(found-9, hole-5)
+poss(drive-8, Woods-6)
+nsubj(found-9, drive-8)
+det(bunker-12, a-10)
+nn(bunker-12, pot-11)
+dobj(found-9, bunker-12)
+
+Sentence #4 (20 tokens):
+He blasted out into the fairway, then a wedge shot spun back off the front of the green.
+[Text=He CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=blasted CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VBD Lemma=blast NamedEntityTag=O] [Text=out CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=into CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fairway CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=fairway NamedEntityTag=O] [Text=, CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=then CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=RB Lemma=then NamedEntityTag=O] [Text=a CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=wedge CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN Lemma=wedge NamedEntityTag=O] [Text=shot CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NN Lemma=shot NamedEntityTag=O] [Text=spun CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=VBD Lemma=spin NamedEntityTag=O] [Text=back CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=off CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=IN Lemma=off NamedEntityTag=O] [Text=the CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=front CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=NN Lemma=front NamedEntityTag=O] [Text=of CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=green CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=JJ Lemma=green NamedEntityTag=O] [Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD blasted)
+        (PRT (RP out))
+        (PP (IN into)
+          (NP (DT the) (NN fairway)))))
+    (, ,) (RB then)
+    (S
+      (NP (DT a) (NN wedge) (NN shot))
+      (VP (VBD spun)
+        (ADVP (RB back))
+        (PP (IN off)
+          (NP
+            (NP (DT the) (NN front))
+            (PP (IN of)
+              (NP (DT the) (JJ green)))))))
+    (. .)))
+
+root(ROOT-0, blasted-2)
+nsubj(blasted-2, He-1)
+prt(blasted-2, out-3)
+det(fairway-6, the-5)
+prep_into(blasted-2, fairway-6)
+advmod(spun-12, then-8)
+det(shot-11, a-9)
+nn(shot-11, wedge-10)
+nsubj(spun-12, shot-11)
+parataxis(blasted-2, spun-12)
+advmod(spun-12, back-13)
+det(front-16, the-15)
+prep_off(spun-12, front-16)
+det(green-19, the-18)
+prep_of(front-16, green-19)
+
+Sentence #5 (17 tokens):
+He used putter to get to 4 feet but missed the putt and made double bogey.
+[Text=He CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=used CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VBD Lemma=use NamedEntityTag=O] [Text=putter CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=NN Lemma=putter NamedEntityTag=O] [Text=to CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=4 CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=CD Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=feet CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=NNS Lemma=foot NamedEntityTag=O] [Text=but CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=missed CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=VBD Lemma=miss NamedEntityTag=O] [Text=the CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=putt CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=NN Lemma=putt NamedEntityTag=O] [Text=and CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=made CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=double CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=JJ Lemma=double NamedEntityTag=O] [Text=bogey CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=bogey NamedEntityTag=O] [Text=. CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD used)
+        (NP (NN putter))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (TO to)
+                (NP (CD 4) (NNS feet)))))))
+      (CC but)
+      (VP (VBD missed)
+        (NP (DT the) (NN putt)))
+      (CC and)
+      (VP (VBD made)
+        (NP (JJ double) (NN bogey))))
+    (. .)))
+
+root(ROOT-0, used-2)
+nsubj(used-2, He-1)
+dobj(used-2, putter-3)
+aux(get-5, to-4)
+vmod(used-2, get-5)
+num(feet-8, 4-7)
+prep_to(get-5, feet-8)
+conj_but(used-2, missed-10)
+det(putt-12, the-11)
+dobj(missed-10, putt-12)
+conj_and(used-2, made-14)
+amod(bogey-16, double-15)
+dobj(made-14, bogey-16)
+
+Sentence #6 (13 tokens):
+In three days, Woods is 4 over par on the second.
+[Text=In CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=three CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=CD Lemma=three NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 tid="t3" type="DURATION" value="P3D">three days</TIMEX3>] [Text=days CharacterOffsetBegin=374 CharacterOffsetEnd=378 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 tid="t3" type="DURATION" value="P3D">three days</TIMEX3>] [Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=4 CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=CD Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=over CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=par CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=par NamedEntityTag=O] [Text=on CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=second CharacterOffsetBegin=407 CharacterOffsetEnd=413 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=. CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD three) (NNS days)))
+    (, ,)
+    (NP (NNP Woods))
+    (VP (VBZ is)
+      (NP
+        (NP (CD 4))
+        (PP (IN over)
+          (NP
+            (NP (NN par))
+            (PP (IN on)
+              (NP (DT the) (JJ second)))))))
+    (. .)))
+
+root(ROOT-0, 4-7)
+num(days-3, three-2)
+prep_in(4-7, days-3)
+nsubj(4-7, Woods-5)
+cop(4-7, is-6)
+prep_over(4-7, par-9)
+det(second-12, the-11)
+prep_on(par-9, second-12)
+
+Sentence #7 (16 tokens):
+At the par-4 seventh hole Woods blew his drive right into a nasty gorse bush.
+[Text=At CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=par-4 CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=NN Lemma=par-4 NamedEntityTag=O] [Text=seventh CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=JJ Lemma=seventh NamedEntityTag=ORDINAL NormalizedNamedEntityTag=7.0] [Text=hole CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=NN Lemma=hole NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=blew CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=VBD Lemma=blow NamedEntityTag=O] [Text=his CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=drive CharacterOffsetBegin=457 CharacterOffsetEnd=462 PartOfSpeech=NN Lemma=drive NamedEntityTag=O] [Text=right CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=RB Lemma=right NamedEntityTag=O] [Text=into CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=a CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=nasty CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=JJ Lemma=nasty NamedEntityTag=O] [Text=gorse CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=NN Lemma=gorse NamedEntityTag=O] [Text=bush CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=NN Lemma=bush NamedEntityTag=O] [Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (NN par-4) (JJ seventh) (NN hole)))
+    (NP (NNP Woods))
+    (VP (VBD blew)
+      (NP (PRP$ his) (NN drive))
+      (ADVP (RB right)
+        (PP (IN into)
+          (NP (DT a) (JJ nasty) (NN gorse) (NN bush)))))
+    (. .)))
+
+root(ROOT-0, blew-7)
+det(hole-5, the-2)
+nn(hole-5, par-4-3)
+amod(hole-5, seventh-4)
+prep_at(blew-7, hole-5)
+nsubj(blew-7, Woods-6)
+poss(drive-9, his-8)
+dobj(blew-7, drive-9)
+advmod(blew-7, right-10)
+det(bush-15, a-12)
+amod(bush-15, nasty-13)
+nn(bush-15, gorse-14)
+prep_into(right-10, bush-15)
+
+Sentence #8 (26 tokens):
+They couldn't find his ball, so he trotted back to the tee to hit another shot, but this time it sailed left.
+[Text=They CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=could CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=n't CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=find CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=VB Lemma=find NamedEntityTag=O] [Text=his CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=ball CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=NN Lemma=ball NamedEntityTag=O] [Text=, CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=he CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=trotted CharacterOffsetBegin=529 CharacterOffsetEnd=536 PartOfSpeech=VBD Lemma=trot NamedEntityTag=O] [Text=back CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=to CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tee CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=NN Lemma=tee NamedEntityTag=O] [Text=to CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hit CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=VB Lemma=hit NamedEntityTag=O] [Text=another CharacterOffsetBegin=560 CharacterOffsetEnd=567 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=shot CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=NN Lemma=shot NamedEntityTag=O] [Text=, CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=this CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=time CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=it CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=sailed CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=VBD Lemma=sail NamedEntityTag=O] [Text=left CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=VBN Lemma=leave NamedEntityTag=O] [Text=. CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP They))
+        (VP (MD could) (RB n't)
+          (VP (VB find)
+            (NP (PRP$ his) (NN ball)))))
+      (, ,) (RB so)
+      (S
+        (NP (PRP he))
+        (VP (VBD trotted)
+          (ADVP (RB back))
+          (PP (TO to)
+            (NP (DT the) (NN tee)))
+          (S
+            (VP (TO to)
+              (VP (VB hit)
+                (NP (DT another) (NN shot))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP-TMP (DT this) (NN time))
+      (NP (PRP it))
+      (VP (VBD sailed)
+        (VP (VBN left))))
+    (. .)))
+
+root(ROOT-0, find-4)
+nsubj(find-4, They-1)
+aux(find-4, could-2)
+neg(find-4, n't-3)
+poss(ball-6, his-5)
+dobj(find-4, ball-6)
+advmod(find-4, so-8)
+nsubj(trotted-10, he-9)
+parataxis(find-4, trotted-10)
+advmod(trotted-10, back-11)
+det(tee-14, the-13)
+prep_to(trotted-10, tee-14)
+aux(hit-16, to-15)
+xcomp(trotted-10, hit-16)
+det(shot-18, another-17)
+dobj(hit-16, shot-18)
+det(time-22, this-21)
+tmod(sailed-24, time-22)
+nsubj(sailed-24, it-23)
+conj_but(find-4, sailed-24)
+dep(sailed-24, left-25)
+
+Sentence #9 (22 tokens):
+He hacked short of the green, hit the next onto the green and two-putted from 40 feet for triple bogey.
+[Text=He CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=hacked CharacterOffsetBegin=607 CharacterOffsetEnd=613 PartOfSpeech=VBD Lemma=hack NamedEntityTag=O] [Text=short CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=JJ Lemma=short NamedEntityTag=O] [Text=of CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=green CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=JJ Lemma=green NamedEntityTag=O] [Text=, CharacterOffsetBegin=632 CharacterOffsetEnd=633 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=hit CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=VBD Lemma=hit NamedEntityTag=O] [Text=the CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=next CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=onto CharacterOffsetBegin=647 CharacterOffsetEnd=651 PartOfSpeech=IN Lemma=onto NamedEntityTag=O] [Text=the CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=green CharacterOffsetBegin=656 CharacterOffsetEnd=661 PartOfSpeech=JJ Lemma=green NamedEntityTag=O] [Text=and CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=two-putted CharacterOffsetBegin=666 CharacterOffsetEnd=676 PartOfSpeech=JJ Lemma=two-putted NamedEntityTag=O] [Text=from CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=40 CharacterOffsetBegin=682 CharacterOffsetEnd=684 PartOfSpeech=CD Lemma=40 NamedEntityTag=NUMBER NormalizedNamedEntityTag=40.0] [Text=feet CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=NNS Lemma=foot NamedEntityTag=O] [Text=for CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=triple CharacterOffsetBegin=694 CharacterOffsetEnd=700 PartOfSpeech=JJ Lemma=triple NamedEntityTag=O] [Text=bogey CharacterOffsetBegin=701 CharacterOffsetEnd=706 PartOfSpeech=NN Lemma=bogey NamedEntityTag=O] [Text=. CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD hacked)
+      (SBAR
+        (S
+          (NP
+            (NP (JJ short))
+            (PP (IN of)
+              (NP (DT the) (JJ green))))
+          (, ,)
+          (VP (VBD hit)
+            (NP (DT the) (JJ next))
+            (PP (IN onto)
+              (NP (DT the)
+                (ADJP (JJ green)
+                  (CC and)
+                  (JJ two-putted))))
+            (PP (IN from)
+              (NP
+                (NP (CD 40) (NNS feet))
+                (PP (IN for)
+                  (NP (JJ triple) (NN bogey)))))))))
+    (. .)))
+
+root(ROOT-0, hacked-2)
+nsubj(hacked-2, He-1)
+nsubj(hit-8, short-3)
+det(green-6, the-5)
+prep_of(short-3, green-6)
+ccomp(hacked-2, hit-8)
+det(next-10, the-9)
+dobj(hit-8, next-10)
+det(green-13, the-12)
+prep_onto(hit-8, green-13)
+conj_and(green-13, two-putted-15)
+num(feet-18, 40-17)
+prep_from(hit-8, feet-18)
+amod(bogey-21, triple-20)
+prep_for(feet-18, bogey-21)
+
+Sentence #10 (21 tokens):
+Thankfully for Woods, his five birdies on a day where he was out of contention kept the score respectable.
+[Text=Thankfully CharacterOffsetBegin=709 CharacterOffsetEnd=719 PartOfSpeech=RB Lemma=thankfully NamedEntityTag=O] [Text=for CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Woods CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=his CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=five CharacterOffsetBegin=735 CharacterOffsetEnd=739 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=birdies CharacterOffsetBegin=740 CharacterOffsetEnd=747 PartOfSpeech=NNS Lemma=birdie NamedEntityTag=O] [Text=on CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t4" type="DURATION" value="P1D">a day</TIMEX3>] [Text=day CharacterOffsetBegin=753 CharacterOffsetEnd=756 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t4" type="DURATION" value="P1D">a day</TIMEX3>] [Text=where CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=he CharacterOffsetBegin=763 CharacterOffsetEnd=765 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=out CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=contention CharacterOffsetBegin=777 CharacterOffsetEnd=787 PartOfSpeech=NN Lemma=contention NamedEntityTag=O] [Text=kept CharacterOffsetBegin=788 CharacterOffsetEnd=792 PartOfSpeech=VBD Lemma=keep NamedEntityTag=O] [Text=the CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=score CharacterOffsetBegin=797 CharacterOffsetEnd=802 PartOfSpeech=NN Lemma=score NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0] [Text=respectable CharacterOffsetBegin=803 CharacterOffsetEnd=814 PartOfSpeech=JJ Lemma=respectable NamedEntityTag=O] [Text=. CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Thankfully))
+      (IN for)
+      (NP (NNP Woods)))
+    (, ,)
+    (NP
+      (NP (PRP$ his) (CD five) (NNS birdies))
+      (PP (IN on)
+        (NP
+          (NP (DT a) (NN day))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (PRP he))
+              (VP (VBD was)
+                (ADVP (IN out))
+                (PP (IN of)
+                  (NP (NN contention)))))))))
+    (VP (VBD kept)
+      (S
+        (NP (DT the) (NN score))
+        (ADJP (JJ respectable))))
+    (. .)))
+
+root(ROOT-0, kept-17)
+advmod(kept-17, Thankfully-1)
+prep_for(kept-17, Woods-3)
+poss(birdies-7, his-5)
+num(birdies-7, five-6)
+nsubj(kept-17, birdies-7)
+det(day-10, a-9)
+prep_on(birdies-7, day-10)
+advmod(was-13, where-11)
+nsubj(was-13, he-12)
+rcmod(day-10, was-13)
+prep_out_of(was-13, contention-16)
+det(score-19, the-18)
+nsubj(respectable-20, score-19)
+xcomp(kept-17, respectable-20)
+
+Sentence #11 (22 tokens):
+"I'm starting to get the flow of the round, the flow of playing again," he said.
+[Text=`` CharacterOffsetBegin=817 CharacterOffsetEnd=818 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=818 CharacterOffsetEnd=819 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='m CharacterOffsetBegin=819 CharacterOffsetEnd=821 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=starting CharacterOffsetBegin=822 CharacterOffsetEnd=830 PartOfSpeech=VBG Lemma=start NamedEntityTag=O] [Text=to CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=834 CharacterOffsetEnd=837 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=838 CharacterOffsetEnd=841 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=flow CharacterOffsetBegin=842 CharacterOffsetEnd=846 PartOfSpeech=NN Lemma=flow NamedEntityTag=O] [Text=of CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=round CharacterOffsetBegin=854 CharacterOffsetEnd=859 PartOfSpeech=NN Lemma=round NamedEntityTag=O] [Text=, CharacterOffsetBegin=859 CharacterOffsetEnd=860 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=flow CharacterOffsetBegin=865 CharacterOffsetEnd=869 PartOfSpeech=NN Lemma=flow NamedEntityTag=O] [Text=of CharacterOffsetBegin=870 CharacterOffsetEnd=872 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=playing CharacterOffsetBegin=873 CharacterOffsetEnd=880 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=again CharacterOffsetBegin=881 CharacterOffsetEnd=886 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=, CharacterOffsetBegin=886 CharacterOffsetEnd=887 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=887 CharacterOffsetEnd=888 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=he CharacterOffsetBegin=889 CharacterOffsetEnd=891 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=896 CharacterOffsetEnd=897 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP 'm)
+        (VP (VBG starting)
+          (S
+            (VP (TO to)
+              (VP (VB get)
+                (NP
+                  (NP (DT the) (NN flow))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN round))
+                      (, ,)
+                      (NP
+                        (NP (DT the) (NN flow))
+                        (PP (IN of)
+                          (S
+                            (VP (VBG playing)
+                              (ADVP (RB again)))))))))))))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-21)
+nsubj(starting-4, I-2)
+aux(starting-4, 'm-3)
+ccomp(said-21, starting-4)
+aux(get-6, to-5)
+xcomp(starting-4, get-6)
+det(flow-8, the-7)
+dobj(get-6, flow-8)
+det(round-11, the-10)
+prep_of(flow-8, round-11)
+det(flow-14, the-13)
+appos(round-11, flow-14)
+prepc_of(flow-14, playing-16)
+advmod(playing-16, again-17)
+nsubj(said-21, he-20)
+
+Sentence #12 (11 tokens):
+"But still I've just made too many mistakes.
+[Text=`` CharacterOffsetBegin=898 CharacterOffsetEnd=899 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=But CharacterOffsetBegin=899 CharacterOffsetEnd=902 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=still CharacterOffsetBegin=903 CharacterOffsetEnd=908 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=I CharacterOffsetBegin=909 CharacterOffsetEnd=910 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text='ve CharacterOffsetBegin=910 CharacterOffsetEnd=913 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=just CharacterOffsetBegin=914 CharacterOffsetEnd=918 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=made CharacterOffsetBegin=919 CharacterOffsetEnd=923 PartOfSpeech=VBN Lemma=make NamedEntityTag=O] [Text=too CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=RB Lemma=too NamedEntityTag=O] [Text=many CharacterOffsetBegin=928 CharacterOffsetEnd=932 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=mistakes CharacterOffsetBegin=933 CharacterOffsetEnd=941 PartOfSpeech=NNS Lemma=mistake NamedEntityTag=O] [Text=. CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (CC But)
+    (ADVP (RB still))
+    (NP (PRP I))
+    (VP (VBP 've)
+      (ADVP (RB just))
+      (VP (VBN made)
+        (NP
+          (ADJP (RB too) (JJ many))
+          (NNS mistakes))))
+    (. .)))
+
+root(ROOT-0, made-7)
+cc(made-7, But-2)
+advmod(made-7, still-3)
+nsubj(made-7, I-4)
+aux(made-7, 've-5)
+advmod(made-7, just-6)
+advmod(many-9, too-8)
+amod(mistakes-10, many-9)
+dobj(made-7, mistakes-10)
+
+Sentence #13 (23 tokens):
+You can't run up high scores like that and expect to contend, especially when the conditions are this benign."
+[Text=You CharacterOffsetBegin=943 CharacterOffsetEnd=946 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=ca CharacterOffsetBegin=947 CharacterOffsetEnd=949 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=n't CharacterOffsetBegin=949 CharacterOffsetEnd=952 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=run CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=VB Lemma=run NamedEntityTag=O] [Text=up CharacterOffsetBegin=957 CharacterOffsetEnd=959 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=high CharacterOffsetBegin=960 CharacterOffsetEnd=964 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=scores CharacterOffsetBegin=965 CharacterOffsetEnd=971 PartOfSpeech=NNS Lemma=score NamedEntityTag=O] [Text=like CharacterOffsetBegin=972 CharacterOffsetEnd=976 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=that CharacterOffsetBegin=977 CharacterOffsetEnd=981 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=and CharacterOffsetBegin=982 CharacterOffsetEnd=985 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=expect CharacterOffsetBegin=986 CharacterOffsetEnd=992 PartOfSpeech=VBP Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=993 CharacterOffsetEnd=995 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=contend CharacterOffsetBegin=996 CharacterOffsetEnd=1003 PartOfSpeech=VB Lemma=contend NamedEntityTag=O] [Text=, CharacterOffsetBegin=1003 CharacterOffsetEnd=1004 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=especially CharacterOffsetBegin=1005 CharacterOffsetEnd=1015 PartOfSpeech=RB Lemma=especially NamedEntityTag=O] [Text=when CharacterOffsetBegin=1016 CharacterOffsetEnd=1020 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=the CharacterOffsetBegin=1021 CharacterOffsetEnd=1024 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=conditions CharacterOffsetBegin=1025 CharacterOffsetEnd=1035 PartOfSpeech=NNS Lemma=condition NamedEntityTag=O] [Text=are CharacterOffsetBegin=1036 CharacterOffsetEnd=1039 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=this CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=benign CharacterOffsetBegin=1045 CharacterOffsetEnd=1051 PartOfSpeech=JJ Lemma=benign NamedEntityTag=O] [Text=. CharacterOffsetBegin=1051 CharacterOffsetEnd=1052 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=1052 CharacterOffsetEnd=1053 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (MD ca) (RB n't)
+        (VP (VB run)
+          (PRT (RB up))
+          (NP
+            (NP (JJ high) (NNS scores))
+            (PP (IN like)
+              (NP (DT that))))))
+      (CC and)
+      (VP (VBP expect)
+        (S
+          (VP (TO to)
+            (VP (VB contend) (, ,)
+              (ADVP (RB especially))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (DT the) (NNS conditions))
+                  (VP (VBP are)
+                    (ADJP (DT this) (JJ benign))))))))))
+    (. .) ('' '')))
+
+root(ROOT-0, run-4)
+nsubj(run-4, You-1)
+aux(run-4, ca-2)
+neg(run-4, n't-3)
+prt(run-4, up-5)
+amod(scores-7, high-6)
+dobj(run-4, scores-7)
+prep_like(scores-7, that-9)
+conj_and(run-4, expect-11)
+aux(contend-13, to-12)
+xcomp(expect-11, contend-13)
+advmod(contend-13, especially-15)
+advmod(benign-21, when-16)
+det(conditions-18, the-17)
+nsubj(benign-21, conditions-18)
+cop(benign-21, are-19)
+det(benign-21, this-20)
+advcl(contend-13, benign-21)
+
+Sentence #14 (21 tokens):
+Woods is 3 over par for the championship and tied for 58th place, 19 shots behind leader Rory McIlroy.
+[Text=Woods CharacterOffsetBegin=1055 CharacterOffsetEnd=1060 PartOfSpeech=NNP Lemma=Woods NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1061 CharacterOffsetEnd=1063 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=3 CharacterOffsetBegin=1064 CharacterOffsetEnd=1065 PartOfSpeech=CD Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=over CharacterOffsetBegin=1066 CharacterOffsetEnd=1070 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=par CharacterOffsetBegin=1071 CharacterOffsetEnd=1074 PartOfSpeech=NN Lemma=par NamedEntityTag=O] [Text=for CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1079 CharacterOffsetEnd=1082 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=championship CharacterOffsetBegin=1083 CharacterOffsetEnd=1095 PartOfSpeech=NN Lemma=championship NamedEntityTag=O] [Text=and CharacterOffsetBegin=1096 CharacterOffsetEnd=1099 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=tied CharacterOffsetBegin=1100 CharacterOffsetEnd=1104 PartOfSpeech=VBN Lemma=tie NamedEntityTag=O] [Text=for CharacterOffsetBegin=1105 CharacterOffsetEnd=1108 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=58th CharacterOffsetBegin=1109 CharacterOffsetEnd=1113 PartOfSpeech=JJ Lemma=58th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=58.0] [Text=place CharacterOffsetBegin=1114 CharacterOffsetEnd=1119 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=, CharacterOffsetBegin=1119 CharacterOffsetEnd=1120 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=19 CharacterOffsetBegin=1121 CharacterOffsetEnd=1123 PartOfSpeech=CD Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0] [Text=shots CharacterOffsetBegin=1124 CharacterOffsetEnd=1129 PartOfSpeech=NNS Lemma=shot NamedEntityTag=O] [Text=behind CharacterOffsetBegin=1130 CharacterOffsetEnd=1136 PartOfSpeech=IN Lemma=behind NamedEntityTag=O] [Text=leader CharacterOffsetBegin=1137 CharacterOffsetEnd=1143 PartOfSpeech=NN Lemma=leader NamedEntityTag=O] [Text=Rory CharacterOffsetBegin=1144 CharacterOffsetEnd=1148 PartOfSpeech=NNP Lemma=Rory NamedEntityTag=PERSON] [Text=McIlroy CharacterOffsetBegin=1149 CharacterOffsetEnd=1156 PartOfSpeech=NNP Lemma=McIlroy NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=1156 CharacterOffsetEnd=1157 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Woods))
+    (VP (VBZ is)
+      (VP
+        (VP
+          (NP (CD 3))
+          (PP (IN over)
+            (NP
+              (NP (NN par))
+              (PP (IN for)
+                (NP (DT the) (NN championship))))))
+        (CC and)
+        (VP (VBN tied)
+          (PP (IN for)
+            (NP
+              (NP (JJ 58th) (NN place))
+              (, ,)
+              (NP
+                (NP (CD 19) (NNS shots))
+                (PP (IN behind)
+                  (NP (NN leader) (NNP Rory) (NNP McIlroy)))))))))
+    (. .)))
+
+root(ROOT-0, 3-3)
+nsubjpass(3-3, Woods-1)
+auxpass(3-3, is-2)
+prep_over(3-3, par-5)
+det(championship-8, the-7)
+prep_for(par-5, championship-8)
+conj_and(3-3, tied-10)
+amod(place-13, 58th-12)
+prep_for(tied-10, place-13)
+num(shots-16, 19-15)
+appos(place-13, shots-16)
+nn(McIlroy-20, leader-18)
+nn(McIlroy-20, Rory-19)
+prep_behind(shots-16, McIlroy-20)
+
+Sentence #15 (6 tokens):
+- Jay Coffin, Golf Channel
+[Text=- CharacterOffsetBegin=1159 CharacterOffsetEnd=1160 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Jay CharacterOffsetBegin=1161 CharacterOffsetEnd=1164 PartOfSpeech=NNP Lemma=Jay NamedEntityTag=PERSON] [Text=Coffin CharacterOffsetBegin=1165 CharacterOffsetEnd=1171 PartOfSpeech=NNP Lemma=Coffin NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1171 CharacterOffsetEnd=1172 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Golf CharacterOffsetBegin=1173 CharacterOffsetEnd=1177 PartOfSpeech=NNP Lemma=Golf NamedEntityTag=O] [Text=Channel CharacterOffsetBegin=1178 CharacterOffsetEnd=1185 PartOfSpeech=NNP Lemma=Channel NamedEntityTag=O] 
+(ROOT
+  (PRN (: -)
+    (NP
+      (NP (NNP Jay) (NNP Coffin))
+      (, ,)
+      (NP (NNP Golf) (NNP Channel)))))
+
+root(ROOT-0, Coffin-3)
+nn(Coffin-3, Jay-2)
+nn(Channel-6, Golf-5)
+appos(Coffin-3, Channel-6)
+
+Coreference set:
+	(11,11,[10,12]) -> (1,7,[5,8]), that is: "the round" -> "Saturday 's round"
+	(11,14,[13,18]) -> (1,7,[5,8]), that is: "the flow of playing again" -> "Saturday 's round"
+Coreference set:
+	(2,3,[3,4]) -> (3,6,[6,8]), that is: "Woods" -> "Woods '"
+	(2,10,[10,11]) -> (3,6,[6,8]), that is: "his" -> "Woods '"
+	(4,1,[1,2]) -> (3,6,[6,8]), that is: "He" -> "Woods '"
+	(5,1,[1,2]) -> (3,6,[6,8]), that is: "He" -> "Woods '"
+	(6,5,[5,6]) -> (3,6,[6,8]), that is: "Woods" -> "Woods '"
+	(7,6,[6,7]) -> (3,6,[6,8]), that is: "Woods" -> "Woods '"
+	(7,8,[8,9]) -> (3,6,[6,8]), that is: "his" -> "Woods '"
+	(8,5,[5,6]) -> (3,6,[6,8]), that is: "his" -> "Woods '"
+	(8,9,[9,10]) -> (3,6,[6,8]), that is: "he" -> "Woods '"
+	(9,1,[1,2]) -> (3,6,[6,8]), that is: "He" -> "Woods '"
+	(10,3,[3,4]) -> (3,6,[6,8]), that is: "Woods" -> "Woods '"
+	(10,5,[5,6]) -> (3,6,[6,8]), that is: "his" -> "Woods '"
+	(10,12,[12,13]) -> (3,6,[6,8]), that is: "he" -> "Woods '"
+	(11,2,[2,3]) -> (3,6,[6,8]), that is: "I" -> "Woods '"
+	(11,20,[20,21]) -> (3,6,[6,8]), that is: "he" -> "Woods '"
+	(12,4,[4,5]) -> (3,6,[6,8]), that is: "I" -> "Woods '"
+	(14,1,[1,2]) -> (3,6,[6,8]), that is: "Woods" -> "Woods '"
+Coreference set:
+	(10,19,[18,20]) -> (2,11,[10,12]), that is: "the score" -> "his score"
+Coreference set:
+	(3,4,[4,5]) -> (6,12,[11,13]), that is: "second" -> "the second"
+Coreference set:
+	(7,9,[8,10]) -> (3,8,[6,9]), that is: "his drive" -> "Woods ' drive"
+Coreference set:
+	(9,6,[5,7]) -> (4,19,[18,20]), that is: "the green" -> "the green"
+Coreference set:
+	(8,23,[23,24]) -> (8,22,[21,23]), that is: "it" -> "this time"
+Coreference set:
+	(13,9,[9,10]) -> (13,1,[1,2]), that is: "that" -> "You"

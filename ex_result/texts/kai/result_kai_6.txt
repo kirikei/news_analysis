@@ -1,0 +1,1110 @@
+Sentence #1 (8 tokens):
+Shares Slide on Worries Over Chinese Economy.
+[Text=Shares CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Shares NamedEntityTag=O] [Text=Slide CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Slide NamedEntityTag=O] [Text=on CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Worries CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=Worries NamedEntityTag=O] [Text=Over CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=Chinese CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=Chinese NamedEntityTag=O] [Text=Economy CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Economy NamedEntityTag=O] [Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Shares) (NNP Slide))
+    (PP
+      (PP (IN on)
+        (NP (NNP Worries)))
+      (IN Over)
+      (NP (NNP Chinese) (NNP Economy)))
+    (. .)))
+
+nn(Slide-2, Shares-1)
+root(ROOT-0, Slide-2)
+prep_on(Over-5, Worries-4)
+dep(Slide-2, Over-5)
+nn(Economy-7, Chinese-6)
+pobj(Over-5, Economy-7)
+
+Sentence #2 (23 tokens):
+Stocks fell broadly on Thursday after a report from China added to growing signs that the world's second-largest economy is slowing.
+[Text=Stocks CharacterOffsetBegin=51 CharacterOffsetEnd=57 PartOfSpeech=NNS Lemma=stock NamedEntityTag=O] [Text=fell CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=broadly CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=RB Lemma=broadly NamedEntityTag=O] [Text=on CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Thursday CharacterOffsetBegin=74 CharacterOffsetEnd=82 PartOfSpeech=NNP Lemma=Thursday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-4 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-4">Thursday</TIMEX3>] [Text=after CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=report CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=from CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=China CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=added CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=to CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=growing CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=VBG Lemma=grow NamedEntityTag=O] [Text=signs CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NNS Lemma=sign NamedEntityTag=O] [Text=that CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text='s CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=second-largest CharacterOffsetBegin=149 CharacterOffsetEnd=163 PartOfSpeech=JJ Lemma=second-largest NamedEntityTag=O] [Text=economy CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=NN Lemma=economy NamedEntityTag=O] [Text=is CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=slowing CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=VBG Lemma=slow NamedEntityTag=O] [Text=. CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS Stocks))
+    (VP (VBD fell)
+      (ADVP (RB broadly)
+        (PP (IN on)
+          (NP-TMP (NNP Thursday))))
+      (SBAR (IN after)
+        (S
+          (NP
+            (NP (DT a) (NN report))
+            (PP (IN from)
+              (NP (NNP China))))
+          (VP (VBD added)
+            (PP (TO to)
+              (NP (VBG growing) (NNS signs)))
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (NN world) (POS 's))
+                  (JJ second-largest) (NN economy))
+                (VP (VBZ is)
+                  (VP (VBG slowing)))))))))
+    (. .)))
+
+nsubj(fell-2, Stocks-1)
+root(ROOT-0, fell-2)
+advmod(fell-2, broadly-3)
+prep_on(broadly-3, Thursday-5)
+mark(added-11, after-6)
+det(report-8, a-7)
+nsubj(added-11, report-8)
+prep_from(report-8, China-10)
+advcl(fell-2, added-11)
+amod(signs-14, growing-13)
+prep_to(added-11, signs-14)
+mark(slowing-22, that-15)
+det(world-17, the-16)
+poss(economy-20, world-17)
+amod(economy-20, second-largest-19)
+nsubj(slowing-22, economy-20)
+aux(slowing-22, is-21)
+ccomp(added-11, slowing-22)
+
+Sentence #3 (12 tokens):
+The selling spared few companies, even those reporting solid earnings.
+[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=selling CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=NN Lemma=selling NamedEntityTag=O] [Text=spared CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=VBN Lemma=spare NamedEntityTag=O] [Text=few CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=companies CharacterOffsetBegin=207 CharacterOffsetEnd=216 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=, CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=even CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=those CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=reporting CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=VBG Lemma=report NamedEntityTag=O] [Text=solid CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=JJ Lemma=solid NamedEntityTag=O] [Text=earnings CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=NNS Lemma=earnings NamedEntityTag=O] [Text=. CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN selling))
+    (VP (VBN spared)
+      (NP (JJ few) (NNS companies))
+      (, ,)
+      (PP (RB even)
+        (S
+          (NP (DT those))
+          (VP (VBG reporting)
+            (NP (JJ solid) (NNS earnings))))))
+    (. .)))
+
+det(selling-2, The-1)
+nsubj(spared-3, selling-2)
+root(ROOT-0, spared-3)
+amod(companies-5, few-4)
+dobj(spared-3, companies-5)
+prep(spared-3, even-7)
+nsubj(reporting-9, those-8)
+pcomp(even-7, reporting-9)
+amod(earnings-11, solid-10)
+dobj(reporting-9, earnings-11)
+
+Sentence #4 (23 tokens):
+"It's pretty ugly," said Randy Frederick, a managing director of active trading and derivatives at Charles Schwab.
+[Text=`` CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text='s CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=pretty CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O] [Text=ugly CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=JJ Lemma=ugly NamedEntityTag=O] [Text=, CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Randy CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NNP Lemma=Randy NamedEntityTag=PERSON] [Text=Frederick CharacterOffsetBegin=291 CharacterOffsetEnd=300 PartOfSpeech=NNP Lemma=Frederick NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=managing CharacterOffsetBegin=304 CharacterOffsetEnd=312 PartOfSpeech=VBG Lemma=manage NamedEntityTag=O] [Text=director CharacterOffsetBegin=313 CharacterOffsetEnd=321 PartOfSpeech=NN Lemma=director NamedEntityTag=O] [Text=of CharacterOffsetBegin=322 CharacterOffsetEnd=324 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=active CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=JJ Lemma=active NamedEntityTag=O] [Text=trading CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=NN Lemma=trading NamedEntityTag=O] [Text=and CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=derivatives CharacterOffsetBegin=344 CharacterOffsetEnd=355 PartOfSpeech=NNS Lemma=derivative NamedEntityTag=O] [Text=at CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Charles CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=NNP Lemma=Charles NamedEntityTag=PERSON] [Text=Schwab CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NNP Lemma=Schwab NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (ADJP (RB pretty) (JJ ugly))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP Randy) (NNP Frederick))
+      (, ,)
+      (NP
+        (NP (DT a) (VBG managing) (NN director))
+        (PP (IN of)
+          (NP (JJ active) (NN trading)
+            (CC and)
+            (NNS derivatives)))
+        (PP (IN at)
+          (NP (NNP Charles) (NNP Schwab)))))
+    (. .)))
+
+nsubj(ugly-5, It-2)
+cop(ugly-5, 's-3)
+advmod(ugly-5, pretty-4)
+ccomp(said-8, ugly-5)
+root(ROOT-0, said-8)
+nn(Frederick-10, Randy-9)
+nsubj(said-8, Frederick-10)
+det(director-14, a-12)
+amod(director-14, managing-13)
+appos(Frederick-10, director-14)
+amod(trading-17, active-16)
+prep_of(director-14, trading-17)
+prep_of(director-14, derivatives-19)
+conj_and(trading-17, derivatives-19)
+nn(Schwab-22, Charles-21)
+prep_at(director-14, Schwab-22)
+
+Sentence #5 (12 tokens):
+"People are looking for any excuse to take profits."
+[Text=`` CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=People CharacterOffsetBegin=376 CharacterOffsetEnd=382 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=are CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=looking CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=VBG Lemma=look NamedEntityTag=O] [Text=for CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=any CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=excuse CharacterOffsetBegin=403 CharacterOffsetEnd=409 PartOfSpeech=NN Lemma=excuse NamedEntityTag=O] [Text=to CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=take CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=profits CharacterOffsetBegin=418 CharacterOffsetEnd=425 PartOfSpeech=NNS Lemma=profit NamedEntityTag=O] [Text=. CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text='' CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech='' Lemma='' NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (NNS People))
+    (VP (VBP are)
+      (VP (VBG looking)
+        (PP (IN for)
+          (NP (DT any) (NN excuse)))
+        (S
+          (VP (TO to)
+            (VP (VB take)
+              (NP (NNS profits)))))))
+    (. .) ('' '')))
+
+nsubj(looking-4, People-2)
+xsubj(take-9, People-2)
+aux(looking-4, are-3)
+root(ROOT-0, looking-4)
+det(excuse-7, any-6)
+prep_for(looking-4, excuse-7)
+aux(take-9, to-8)
+xcomp(looking-4, take-9)
+dobj(take-9, profits-10)
+
+Sentence #6 (15 tokens):
+In the Standard & Poor's 500-stock index, nine of 10 companies dropped.
+[Text=In CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Standard CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=NNP Lemma=Standard NamedEntityTag=ORGANIZATION] [Text=& CharacterOffsetBegin=449 CharacterOffsetEnd=450 PartOfSpeech=CC Lemma=& NamedEntityTag=ORGANIZATION] [Text=Poor CharacterOffsetBegin=451 CharacterOffsetEnd=455 PartOfSpeech=NNP Lemma=Poor NamedEntityTag=ORGANIZATION] [Text='s CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=POS Lemma='s NamedEntityTag=ORGANIZATION] [Text=500-stock CharacterOffsetBegin=458 CharacterOffsetEnd=467 PartOfSpeech=JJ Lemma=500-stock NamedEntityTag=O] [Text=index CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=NN Lemma=index NamedEntityTag=O] [Text=, CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=nine CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=CD Lemma=nine NamedEntityTag=TIME NormalizedNamedEntityTag=T09:51 Timex=<TIMEX3 tid="t1" type="TIME" value="T09:51">nine of 10</TIMEX3>] [Text=of CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=IN Lemma=of NamedEntityTag=TIME NormalizedNamedEntityTag=T09:51 Timex=<TIMEX3 tid="t1" type="TIME" value="T09:51">nine of 10</TIMEX3>] [Text=10 CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=CD Lemma=10 NamedEntityTag=TIME NormalizedNamedEntityTag=T09:51 Timex=<TIMEX3 tid="t1" type="TIME" value="T09:51">nine of 10</TIMEX3>] [Text=companies CharacterOffsetBegin=486 CharacterOffsetEnd=495 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=dropped CharacterOffsetBegin=496 CharacterOffsetEnd=503 PartOfSpeech=VBD Lemma=drop NamedEntityTag=O] [Text=. CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the)
+          (NP (NNP Standard)
+            (CC &)
+            (NNP Poor))
+          (POS 's))
+        (JJ 500-stock) (NN index)))
+    (, ,)
+    (NP
+      (NP (CD nine))
+      (PP (IN of)
+        (NP (CD 10) (NNS companies))))
+    (VP (VBD dropped))
+    (. .)))
+
+det(Standard-3, the-2)
+poss(index-8, Standard-3)
+conj_and(Standard-3, Poor-5)
+poss(index-8, Poor-5)
+amod(index-8, 500-stock-7)
+prep_in(dropped-14, index-8)
+nsubj(dropped-14, nine-10)
+num(companies-13, 10-12)
+prep_of(nine-10, companies-13)
+root(ROOT-0, dropped-14)
+
+Sentence #7 (32 tokens):
+Stocks fell from the start of trading after an HSBC survey of Chinese manufacturing fell to the lowest point since July and suggested that the country's factory sector was shrinking.
+[Text=Stocks CharacterOffsetBegin=505 CharacterOffsetEnd=511 PartOfSpeech=NNS Lemma=stock NamedEntityTag=O] [Text=fell CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=from CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=start CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=of CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=trading CharacterOffsetBegin=535 CharacterOffsetEnd=542 PartOfSpeech=NN Lemma=trading NamedEntityTag=O] [Text=after CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=an CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=HSBC CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=NN Lemma=hsbc NamedEntityTag=ORGANIZATION] [Text=survey CharacterOffsetBegin=557 CharacterOffsetEnd=563 PartOfSpeech=NN Lemma=survey NamedEntityTag=O] [Text=of CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Chinese CharacterOffsetBegin=567 CharacterOffsetEnd=574 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC] [Text=manufacturing CharacterOffsetBegin=575 CharacterOffsetEnd=588 PartOfSpeech=NN Lemma=manufacturing NamedEntityTag=O] [Text=fell CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=to CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lowest CharacterOffsetBegin=601 CharacterOffsetEnd=607 PartOfSpeech=JJS Lemma=lowest NamedEntityTag=O] [Text=point CharacterOffsetBegin=608 CharacterOffsetEnd=613 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=since CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=July CharacterOffsetBegin=620 CharacterOffsetEnd=624 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-07">July</TIMEX3>] [Text=and CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=suggested CharacterOffsetBegin=629 CharacterOffsetEnd=638 PartOfSpeech=VBD Lemma=suggest NamedEntityTag=O] [Text=that CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=country CharacterOffsetBegin=648 CharacterOffsetEnd=655 PartOfSpeech=NN Lemma=country NamedEntityTag=O] [Text='s CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=factory CharacterOffsetBegin=658 CharacterOffsetEnd=665 PartOfSpeech=NN Lemma=factory NamedEntityTag=O] [Text=sector CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=NN Lemma=sector NamedEntityTag=O] [Text=was CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=shrinking CharacterOffsetBegin=677 CharacterOffsetEnd=686 PartOfSpeech=VBG Lemma=shrink NamedEntityTag=O] [Text=. CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS Stocks))
+    (VP (VBD fell)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NN start))
+          (PP (IN of)
+            (NP (NN trading)))))
+      (SBAR (IN after)
+        (S
+          (NP
+            (NP (DT an) (NN HSBC) (NN survey))
+            (PP (IN of)
+              (NP (JJ Chinese) (NN manufacturing))))
+          (VP
+            (VP (VBD fell)
+              (PP (TO to)
+                (NP (DT the) (JJS lowest) (NN point)))
+              (PP (IN since)
+                (NP (NNP July))))
+            (CC and)
+            (VP (VBD suggested)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (NN country) (POS 's))
+                    (NN factory) (NN sector))
+                  (VP (VBD was)
+                    (VP (VBG shrinking))))))))))
+    (. .)))
+
+nsubj(fell-2, Stocks-1)
+root(ROOT-0, fell-2)
+det(start-5, the-4)
+prep_from(fell-2, start-5)
+prep_of(start-5, trading-7)
+mark(fell-15, after-8)
+det(survey-11, an-9)
+nn(survey-11, HSBC-10)
+nsubj(fell-15, survey-11)
+nsubj(suggested-23, survey-11)
+amod(manufacturing-14, Chinese-13)
+prep_of(survey-11, manufacturing-14)
+advcl(fell-2, fell-15)
+det(point-19, the-17)
+amod(point-19, lowest-18)
+prep_to(fell-15, point-19)
+prep_since(fell-15, July-21)
+advcl(fell-2, suggested-23)
+conj_and(fell-15, suggested-23)
+mark(shrinking-31, that-24)
+det(country-26, the-25)
+poss(sector-29, country-26)
+nn(sector-29, factory-28)
+nsubj(shrinking-31, sector-29)
+aux(shrinking-31, was-30)
+ccomp(suggested-23, shrinking-31)
+
+Sentence #8 (13 tokens):
+This week, China reported its slowest annual economic growth since 1999.
+[Text=This CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">This week</TIMEX3>] [Text=week CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">This week</TIMEX3>] [Text=, CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=China CharacterOffsetBegin=699 CharacterOffsetEnd=704 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=reported CharacterOffsetBegin=705 CharacterOffsetEnd=713 PartOfSpeech=VBD Lemma=report NamedEntityTag=O] [Text=its CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=slowest CharacterOffsetBegin=718 CharacterOffsetEnd=725 PartOfSpeech=JJS Lemma=slowest NamedEntityTag=O] [Text=annual CharacterOffsetBegin=726 CharacterOffsetEnd=732 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t2" type="SET" value="P1Y">annual</TIMEX3>] [Text=economic CharacterOffsetBegin=733 CharacterOffsetEnd=741 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=growth CharacterOffsetBegin=742 CharacterOffsetEnd=748 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=since CharacterOffsetBegin=749 CharacterOffsetEnd=754 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=1999 CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=CD Lemma=1999 NamedEntityTag=DATE NormalizedNamedEntityTag=1999 Timex=<TIMEX3 tid="t3" type="DATE" value="1999">1999</TIMEX3>] [Text=. CharacterOffsetBegin=759 CharacterOffsetEnd=760 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (DT This) (NN week))
+    (, ,)
+    (NP (NNP China))
+    (VP (VBD reported)
+      (NP
+        (NP (PRP$ its) (JJS slowest) (JJ annual) (JJ economic) (NN growth))
+        (PP (IN since)
+          (NP (CD 1999)))))
+    (. .)))
+
+det(week-2, This-1)
+tmod(reported-5, week-2)
+nsubj(reported-5, China-4)
+root(ROOT-0, reported-5)
+poss(growth-10, its-6)
+amod(growth-10, slowest-7)
+amod(growth-10, annual-8)
+amod(growth-10, economic-9)
+dobj(reported-5, growth-10)
+prep_since(growth-10, 1999-12)
+
+Sentence #9 (21 tokens):
+The Dow Jones industrial average was down as much as 232 points before trimming its loss late in the day.
+[Text=The CharacterOffsetBegin=766 CharacterOffsetEnd=769 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Dow CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=NNP Lemma=Dow NamedEntityTag=MISC] [Text=Jones CharacterOffsetBegin=774 CharacterOffsetEnd=779 PartOfSpeech=NNP Lemma=Jones NamedEntityTag=MISC] [Text=industrial CharacterOffsetBegin=780 CharacterOffsetEnd=790 PartOfSpeech=JJ Lemma=industrial NamedEntityTag=O] [Text=average CharacterOffsetBegin=791 CharacterOffsetEnd=798 PartOfSpeech=NN Lemma=average NamedEntityTag=O] [Text=was CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=down CharacterOffsetBegin=803 CharacterOffsetEnd=807 PartOfSpeech=RB Lemma=down NamedEntityTag=O] [Text=as CharacterOffsetBegin=808 CharacterOffsetEnd=810 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=much CharacterOffsetBegin=811 CharacterOffsetEnd=815 PartOfSpeech=JJ Lemma=much NamedEntityTag=O] [Text=as CharacterOffsetBegin=816 CharacterOffsetEnd=818 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=232 CharacterOffsetBegin=819 CharacterOffsetEnd=822 PartOfSpeech=CD Lemma=232 NamedEntityTag=NUMBER NormalizedNamedEntityTag=<=232.0] [Text=points CharacterOffsetBegin=823 CharacterOffsetEnd=829 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=before CharacterOffsetBegin=830 CharacterOffsetEnd=836 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=trimming CharacterOffsetBegin=837 CharacterOffsetEnd=845 PartOfSpeech=VBG Lemma=trim NamedEntityTag=O] [Text=its CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=loss CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=NN Lemma=loss NamedEntityTag=O] [Text=late CharacterOffsetBegin=855 CharacterOffsetEnd=859 PartOfSpeech=RB Lemma=late NamedEntityTag=O] [Text=in CharacterOffsetBegin=860 CharacterOffsetEnd=862 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=863 CharacterOffsetEnd=866 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the day</TIMEX3>] [Text=day CharacterOffsetBegin=867 CharacterOffsetEnd=870 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the day</TIMEX3>] [Text=. CharacterOffsetBegin=870 CharacterOffsetEnd=871 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Dow) (NNP Jones) (JJ industrial) (NN average))
+    (VP (VBD was)
+      (ADVP (RB down)
+        (NP
+          (QP (RB as) (JJ much) (IN as) (CD 232))
+          (NNS points)))
+      (PP (IN before)
+        (S
+          (VP (VBG trimming)
+            (NP (PRP$ its) (NN loss))
+            (ADVP (RB late))
+            (PP (IN in)
+              (NP (DT the) (NN day)))))))
+    (. .)))
+
+det(average-5, The-1)
+nn(average-5, Dow-2)
+nn(average-5, Jones-3)
+amod(average-5, industrial-4)
+nsubj(was-6, average-5)
+root(ROOT-0, was-6)
+advmod(was-6, down-7)
+quantmod(232-11, as-8)
+quantmod(232-11, much-9)
+quantmod(232-11, as-10)
+num(points-12, 232-11)
+pobj(down-7, points-12)
+prepc_before(was-6, trimming-14)
+poss(loss-16, its-15)
+dobj(trimming-14, loss-16)
+advmod(trimming-14, late-17)
+det(day-20, the-19)
+prep_in(trimming-14, day-20)
+
+Sentence #10 (13 tokens):
+It closed down 175.99 points, or 1.1 percent, at 16,197.35.
+[Text=It CharacterOffsetBegin=872 CharacterOffsetEnd=874 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=closed CharacterOffsetBegin=875 CharacterOffsetEnd=881 PartOfSpeech=VBD Lemma=close NamedEntityTag=O] [Text=down CharacterOffsetBegin=882 CharacterOffsetEnd=886 PartOfSpeech=RB Lemma=down NamedEntityTag=O] [Text=175.99 CharacterOffsetBegin=887 CharacterOffsetEnd=893 PartOfSpeech=CD Lemma=175.99 NamedEntityTag=NUMBER NormalizedNamedEntityTag=175.99] [Text=points CharacterOffsetBegin=894 CharacterOffsetEnd=900 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=, CharacterOffsetBegin=900 CharacterOffsetEnd=901 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=902 CharacterOffsetEnd=904 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=1.1 CharacterOffsetBegin=905 CharacterOffsetEnd=908 PartOfSpeech=CD Lemma=1.1 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.1] [Text=percent CharacterOffsetBegin=909 CharacterOffsetEnd=916 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.1] [Text=, CharacterOffsetBegin=916 CharacterOffsetEnd=917 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=at CharacterOffsetBegin=918 CharacterOffsetEnd=920 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=16,197.35 CharacterOffsetBegin=921 CharacterOffsetEnd=930 PartOfSpeech=CD Lemma=16,197.35 NamedEntityTag=NUMBER NormalizedNamedEntityTag=16197.35] [Text=. CharacterOffsetBegin=930 CharacterOffsetEnd=931 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD closed)
+      (ADVP (RB down)
+        (NP
+          (NP (CD 175.99) (NNS points))
+          (, ,)
+          (CC or)
+          (NP (CD 1.1) (NN percent))
+          (, ,)))
+      (PP (IN at)
+        (NP (CD 16,197.35))))
+    (. .)))
+
+nsubj(closed-2, It-1)
+root(ROOT-0, closed-2)
+advmod(closed-2, down-3)
+num(points-5, 175.99-4)
+pobj(down-3, points-5)
+num(percent-9, 1.1-8)
+pobj(down-3, percent-9)
+conj_or(points-5, percent-9)
+prep_at(closed-2, 16,197.35-12)
+
+Sentence #11 (31 tokens):
+The S.&P. 500 lost 16.40 points, or 0.9 percent, to 1,828.46, and the Nasdaq composite declined 24.13 points, or 0.6 percent, to 4,218.87.
+[Text=The CharacterOffsetBegin=932 CharacterOffsetEnd=935 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=S. CharacterOffsetBegin=936 CharacterOffsetEnd=938 PartOfSpeech=NNP Lemma=S. NamedEntityTag=O] [Text=& CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=CC Lemma=& NamedEntityTag=O] [Text=P. CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=NNP Lemma=P. NamedEntityTag=O] [Text=500 CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=CD Lemma=500 NamedEntityTag=NUMBER NormalizedNamedEntityTag=500.0] [Text=lost CharacterOffsetBegin=946 CharacterOffsetEnd=950 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O] [Text=16.40 CharacterOffsetBegin=951 CharacterOffsetEnd=956 PartOfSpeech=CD Lemma=16.40 NamedEntityTag=NUMBER NormalizedNamedEntityTag=16.4] [Text=points CharacterOffsetBegin=957 CharacterOffsetEnd=963 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=, CharacterOffsetBegin=963 CharacterOffsetEnd=964 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=965 CharacterOffsetEnd=967 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=0.9 CharacterOffsetBegin=968 CharacterOffsetEnd=971 PartOfSpeech=CD Lemma=0.9 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.9] [Text=percent CharacterOffsetBegin=972 CharacterOffsetEnd=979 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.9] [Text=, CharacterOffsetBegin=979 CharacterOffsetEnd=980 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=981 CharacterOffsetEnd=983 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=1,828.46 CharacterOffsetBegin=984 CharacterOffsetEnd=992 PartOfSpeech=CD Lemma=1,828.46 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1828.46] [Text=, CharacterOffsetBegin=992 CharacterOffsetEnd=993 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=994 CharacterOffsetEnd=997 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=998 CharacterOffsetEnd=1001 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Nasdaq CharacterOffsetBegin=1002 CharacterOffsetEnd=1008 PartOfSpeech=NNP Lemma=Nasdaq NamedEntityTag=MISC] [Text=composite CharacterOffsetBegin=1009 CharacterOffsetEnd=1018 PartOfSpeech=NN Lemma=composite NamedEntityTag=O] [Text=declined CharacterOffsetBegin=1019 CharacterOffsetEnd=1027 PartOfSpeech=VBD Lemma=decline NamedEntityTag=O] [Text=24.13 CharacterOffsetBegin=1028 CharacterOffsetEnd=1033 PartOfSpeech=CD Lemma=24.13 NamedEntityTag=NUMBER NormalizedNamedEntityTag=24.13] [Text=points CharacterOffsetBegin=1034 CharacterOffsetEnd=1040 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=, CharacterOffsetBegin=1040 CharacterOffsetEnd=1041 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=1042 CharacterOffsetEnd=1044 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=0.6 CharacterOffsetBegin=1045 CharacterOffsetEnd=1048 PartOfSpeech=CD Lemma=0.6 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.6] [Text=percent CharacterOffsetBegin=1049 CharacterOffsetEnd=1056 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%0.6] [Text=, CharacterOffsetBegin=1056 CharacterOffsetEnd=1057 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=1058 CharacterOffsetEnd=1060 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=4,218.87 CharacterOffsetBegin=1061 CharacterOffsetEnd=1069 PartOfSpeech=CD Lemma=4,218.87 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4218.87] [Text=. CharacterOffsetBegin=1069 CharacterOffsetEnd=1070 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The)
+        (NP (NNP S.))
+        (CC &)
+        (NP (NNP P.) (CD 500)))
+      (VP (VBD lost)
+        (NP
+          (NP (CD 16.40) (NNS points))
+          (, ,)
+          (CC or)
+          (NP (CD 0.9) (NN percent))
+          (, ,))
+        (PP (TO to)
+          (NP (CD 1,828.46)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NNP Nasdaq) (NN composite))
+      (VP (VBD declined)
+        (NP
+          (NP (CD 24.13) (NNS points))
+          (, ,)
+          (CC or)
+          (NP (CD 0.6) (NN percent))
+          (, ,))
+        (PP (TO to)
+          (NP (CD 4,218.87)))))
+    (. .)))
+
+dep(S.-2, The-1)
+nsubj(lost-6, S.-2)
+conj_and(S.-2, P.-4)
+nsubj(lost-6, P.-4)
+num(P.-4, 500-5)
+root(ROOT-0, lost-6)
+num(points-8, 16.40-7)
+dobj(lost-6, points-8)
+num(percent-12, 0.9-11)
+dobj(lost-6, percent-12)
+conj_or(points-8, percent-12)
+prep_to(lost-6, 1,828.46-15)
+det(composite-20, the-18)
+nn(composite-20, Nasdaq-19)
+nsubj(declined-21, composite-20)
+conj_and(lost-6, declined-21)
+num(points-23, 24.13-22)
+dobj(declined-21, points-23)
+num(percent-27, 0.6-26)
+dobj(declined-21, percent-27)
+conj_or(points-23, percent-27)
+prep_to(declined-21, 4,218.87-30)
+
+Sentence #12 (26 tokens):
+Fearful investors poured money into government debt securities, pushing the yield on the 10-year Treasury note down to 2.78 percent from 2.86 percent Wednesday.
+[Text=Fearful CharacterOffsetBegin=1076 CharacterOffsetEnd=1083 PartOfSpeech=JJ Lemma=fearful NamedEntityTag=O] [Text=investors CharacterOffsetBegin=1084 CharacterOffsetEnd=1093 PartOfSpeech=NNS Lemma=investor NamedEntityTag=O] [Text=poured CharacterOffsetBegin=1094 CharacterOffsetEnd=1100 PartOfSpeech=VBD Lemma=pour NamedEntityTag=O] [Text=money CharacterOffsetBegin=1101 CharacterOffsetEnd=1106 PartOfSpeech=NN Lemma=money NamedEntityTag=O] [Text=into CharacterOffsetBegin=1107 CharacterOffsetEnd=1111 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=government CharacterOffsetBegin=1112 CharacterOffsetEnd=1122 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=debt CharacterOffsetBegin=1123 CharacterOffsetEnd=1127 PartOfSpeech=NN Lemma=debt NamedEntityTag=O] [Text=securities CharacterOffsetBegin=1128 CharacterOffsetEnd=1138 PartOfSpeech=NNS Lemma=security NamedEntityTag=O] [Text=, CharacterOffsetBegin=1138 CharacterOffsetEnd=1139 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=pushing CharacterOffsetBegin=1140 CharacterOffsetEnd=1147 PartOfSpeech=VBG Lemma=push NamedEntityTag=O] [Text=the CharacterOffsetBegin=1148 CharacterOffsetEnd=1151 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=yield CharacterOffsetBegin=1152 CharacterOffsetEnd=1157 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=on CharacterOffsetBegin=1158 CharacterOffsetEnd=1160 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1161 CharacterOffsetEnd=1164 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=10-year CharacterOffsetBegin=1165 CharacterOffsetEnd=1172 PartOfSpeech=JJ Lemma=10-year NamedEntityTag=DURATION NormalizedNamedEntityTag=10.0 Timex=<TIMEX3 tid="t1" type="DURATION" value="P10Y">10-year</TIMEX3>] [Text=Treasury CharacterOffsetBegin=1173 CharacterOffsetEnd=1181 PartOfSpeech=NNP Lemma=Treasury NamedEntityTag=ORGANIZATION] [Text=note CharacterOffsetBegin=1182 CharacterOffsetEnd=1186 PartOfSpeech=NN Lemma=note NamedEntityTag=O] [Text=down CharacterOffsetBegin=1187 CharacterOffsetEnd=1191 PartOfSpeech=IN Lemma=down NamedEntityTag=O] [Text=to CharacterOffsetBegin=1192 CharacterOffsetEnd=1194 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=2.78 CharacterOffsetBegin=1195 CharacterOffsetEnd=1199 PartOfSpeech=CD Lemma=2.78 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.78] [Text=percent CharacterOffsetBegin=1200 CharacterOffsetEnd=1207 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.78] [Text=from CharacterOffsetBegin=1208 CharacterOffsetEnd=1212 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=2.86 CharacterOffsetBegin=1213 CharacterOffsetEnd=1217 PartOfSpeech=CD Lemma=2.86 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.86] [Text=percent CharacterOffsetBegin=1218 CharacterOffsetEnd=1225 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%2.86] [Text=Wednesday CharacterOffsetBegin=1226 CharacterOffsetEnd=1235 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-3">Wednesday</TIMEX3>] [Text=. CharacterOffsetBegin=1235 CharacterOffsetEnd=1236 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Fearful) (NNS investors))
+    (VP (VBD poured)
+      (NP (NN money))
+      (PP (IN into)
+        (NP (NN government) (NN debt) (NNS securities)))
+      (, ,)
+      (S
+        (VP (VBG pushing)
+          (NP (DT the) (NN yield))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (JJ 10-year) (NNP Treasury) (NN note))
+              (ADVP (IN down)
+                (NP
+                  (QP (TO to) (CD 2.78))
+                  (NN percent))
+                (PP (IN from)
+                  (NP (CD 2.86) (NN percent))
+                  (NP-TMP (NNP Wednesday)))))))))
+    (. .)))
+
+amod(investors-2, Fearful-1)
+nsubj(poured-3, investors-2)
+root(ROOT-0, poured-3)
+dobj(poured-3, money-4)
+nn(securities-8, government-6)
+nn(securities-8, debt-7)
+prep_into(poured-3, securities-8)
+partmod(poured-3, pushing-10)
+det(yield-12, the-11)
+dobj(pushing-10, yield-12)
+det(note-17, the-14)
+amod(note-17, 10-year-15)
+nn(note-17, Treasury-16)
+prep_on(pushing-10, note-17)
+advmod(note-17, down-18)
+dep(2.78-20, to-19)
+num(percent-21, 2.78-20)
+pobj(down-18, percent-21)
+num(percent-24, 2.86-23)
+prep_from(down-18, percent-24)
+tmod(down-18, Wednesday-25)
+
+Sentence #13 (7 tokens):
+Its price rose 24/32 to 94 24/32.
+[Text=Its CharacterOffsetBegin=1237 CharacterOffsetEnd=1240 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=price CharacterOffsetBegin=1241 CharacterOffsetEnd=1246 PartOfSpeech=NN Lemma=price NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1247 CharacterOffsetEnd=1251 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=24\/32 CharacterOffsetBegin=1252 CharacterOffsetEnd=1257 PartOfSpeech=CD Lemma=24\/32 NamedEntityTag=NUMBER] [Text=to CharacterOffsetBegin=1258 CharacterOffsetEnd=1260 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=94?24\/32 CharacterOffsetBegin=1261 CharacterOffsetEnd=1269 PartOfSpeech=CD Lemma=94?24\/32 NamedEntityTag=NUMBER] [Text=. CharacterOffsetBegin=1269 CharacterOffsetEnd=1270 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ Its) (NN price))
+    (VP (VBD rose)
+      (NP
+        (QP (CD 24\/32) (TO to) (CD 94?24\/32))))
+    (. .)))
+
+poss(price-2, Its-1)
+nsubj(rose-3, price-2)
+root(ROOT-0, rose-3)
+number(94?24\/32-6, 24\/32-4)
+dep(94?24\/32-6, to-5)
+dobj(rose-3, 94?24\/32-6)
+
+Sentence #14 (8 tokens):
+That was the lowest since Nov. 29.
+[Text=That CharacterOffsetBegin=1271 CharacterOffsetEnd=1275 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=was CharacterOffsetBegin=1276 CharacterOffsetEnd=1279 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1280 CharacterOffsetEnd=1283 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lowest CharacterOffsetBegin=1284 CharacterOffsetEnd=1290 PartOfSpeech=JJS Lemma=lowest NamedEntityTag=O] [Text=since CharacterOffsetBegin=1291 CharacterOffsetEnd=1296 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=Nov. CharacterOffsetBegin=1297 CharacterOffsetEnd=1301 PartOfSpeech=NNP Lemma=Nov. NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-11-29 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-11-29">Nov. 29</TIMEX3>] [Text=29 CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=CD Lemma=29 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-11-29 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-11-29">Nov. 29</TIMEX3>] [Text=. CharacterOffsetBegin=1304 CharacterOffsetEnd=1305 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (JJS lowest))
+        (PP (IN since)
+          (NP (NNP Nov.) (CD 29)))))
+    (. .)))
+
+nsubj(lowest-4, That-1)
+cop(lowest-4, was-2)
+det(lowest-4, the-3)
+root(ROOT-0, lowest-4)
+prep_since(lowest-4, Nov.-6)
+num(Nov.-6, 29-7)
+
+Sentence #15 (18 tokens):
+The price of gold rose $23.70, or 1.9 percent, to $1,262.30 an ounce.
+[Text=The CharacterOffsetBegin=1306 CharacterOffsetEnd=1309 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=price CharacterOffsetBegin=1310 CharacterOffsetEnd=1315 PartOfSpeech=NN Lemma=price NamedEntityTag=O] [Text=of CharacterOffsetBegin=1316 CharacterOffsetEnd=1318 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=gold CharacterOffsetBegin=1319 CharacterOffsetEnd=1323 PartOfSpeech=NN Lemma=gold NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1324 CharacterOffsetEnd=1328 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1329 CharacterOffsetEnd=1330 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$23.7] [Text=23.70 CharacterOffsetBegin=1330 CharacterOffsetEnd=1335 PartOfSpeech=CD Lemma=23.70 NamedEntityTag=MONEY NormalizedNamedEntityTag=$23.7] [Text=, CharacterOffsetBegin=1335 CharacterOffsetEnd=1336 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=1337 CharacterOffsetEnd=1339 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=1.9 CharacterOffsetBegin=1340 CharacterOffsetEnd=1343 PartOfSpeech=CD Lemma=1.9 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.9] [Text=percent CharacterOffsetBegin=1344 CharacterOffsetEnd=1351 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.9] [Text=, CharacterOffsetBegin=1351 CharacterOffsetEnd=1352 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=1353 CharacterOffsetEnd=1355 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1356 CharacterOffsetEnd=1357 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1262.3] [Text=1,262.30 CharacterOffsetBegin=1357 CharacterOffsetEnd=1365 PartOfSpeech=CD Lemma=1,262.30 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1262.3] [Text=an CharacterOffsetBegin=1366 CharacterOffsetEnd=1368 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=ounce CharacterOffsetBegin=1369 CharacterOffsetEnd=1374 PartOfSpeech=NN Lemma=ounce NamedEntityTag=O] [Text=. CharacterOffsetBegin=1374 CharacterOffsetEnd=1375 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN price))
+      (PP (IN of)
+        (NP (NN gold))))
+    (VP (VBD rose)
+      (NP
+        (NP ($ $) (CD 23.70))
+        (, ,)
+        (CC or)
+        (NP (CD 1.9) (NN percent))
+        (, ,))
+      (PP (TO to)
+        (NP
+          (NP ($ $) (CD 1,262.30))
+          (NP (DT an) (NN ounce)))))
+    (. .)))
+
+det(price-2, The-1)
+nsubj(rose-5, price-2)
+prep_of(price-2, gold-4)
+root(ROOT-0, rose-5)
+dobj(rose-5, $-6)
+num($-6, 23.70-7)
+num(percent-11, 1.9-10)
+dobj(rose-5, percent-11)
+conj_or($-6, percent-11)
+prep_to(rose-5, $-14)
+num($-14, 1,262.30-15)
+det(ounce-17, an-16)
+dep($-14, ounce-17)
+
+Sentence #16 (19 tokens):
+Several companies fell after reporting their latest quarterly results, including KeyCorp, Johnson Controls and Jacobs Engineering.
+[Text=Several CharacterOffsetBegin=1381 CharacterOffsetEnd=1388 PartOfSpeech=JJ Lemma=several NamedEntityTag=O] [Text=companies CharacterOffsetBegin=1389 CharacterOffsetEnd=1398 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=fell CharacterOffsetBegin=1399 CharacterOffsetEnd=1403 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=after CharacterOffsetBegin=1404 CharacterOffsetEnd=1409 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=reporting CharacterOffsetBegin=1410 CharacterOffsetEnd=1419 PartOfSpeech=VBG Lemma=report NamedEntityTag=O] [Text=their CharacterOffsetBegin=1420 CharacterOffsetEnd=1425 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=latest CharacterOffsetBegin=1426 CharacterOffsetEnd=1432 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=quarterly CharacterOffsetBegin=1433 CharacterOffsetEnd=1442 PartOfSpeech=JJ Lemma=quarterly NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P3M" quant="EVERY" tid="t1" type="SET" value="P3M">quarterly</TIMEX3>] [Text=results CharacterOffsetBegin=1443 CharacterOffsetEnd=1450 PartOfSpeech=NNS Lemma=result NamedEntityTag=O] [Text=, CharacterOffsetBegin=1450 CharacterOffsetEnd=1451 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=1452 CharacterOffsetEnd=1461 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=KeyCorp CharacterOffsetBegin=1462 CharacterOffsetEnd=1469 PartOfSpeech=NNP Lemma=KeyCorp NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1469 CharacterOffsetEnd=1470 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Johnson CharacterOffsetBegin=1471 CharacterOffsetEnd=1478 PartOfSpeech=NNP Lemma=Johnson NamedEntityTag=PERSON] [Text=Controls CharacterOffsetBegin=1479 CharacterOffsetEnd=1487 PartOfSpeech=NNP Lemma=Controls NamedEntityTag=O] [Text=and CharacterOffsetBegin=1488 CharacterOffsetEnd=1491 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Jacobs CharacterOffsetBegin=1492 CharacterOffsetEnd=1498 PartOfSpeech=NNP Lemma=Jacobs NamedEntityTag=PERSON] [Text=Engineering CharacterOffsetBegin=1499 CharacterOffsetEnd=1510 PartOfSpeech=NNP Lemma=Engineering NamedEntityTag=O] [Text=. CharacterOffsetBegin=1510 CharacterOffsetEnd=1511 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Several) (NNS companies))
+    (VP (VBD fell)
+      (PP (IN after)
+        (S
+          (VP (VBG reporting)
+            (NP (PRP$ their) (JJS latest) (JJ quarterly) (NNS results)))))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP (NNP KeyCorp))
+          (, ,)
+          (NP (NNP Johnson) (NNP Controls))
+          (CC and)
+          (NP (NNP Jacobs) (NNP Engineering)))))
+    (. .)))
+
+amod(companies-2, Several-1)
+nsubj(fell-3, companies-2)
+root(ROOT-0, fell-3)
+prepc_after(fell-3, reporting-5)
+poss(results-9, their-6)
+amod(results-9, latest-7)
+amod(results-9, quarterly-8)
+dobj(reporting-5, results-9)
+prep_including(fell-3, KeyCorp-12)
+nn(Controls-15, Johnson-14)
+prep_including(fell-3, Controls-15)
+conj_and(KeyCorp-12, Controls-15)
+nn(Engineering-18, Jacobs-17)
+prep_including(fell-3, Engineering-18)
+conj_and(KeyCorp-12, Engineering-18)
+
+Sentence #17 (26 tokens):
+All three either met or exceeded analyst expectations for earnings, but were each down at least 3 percent as investors sold the broad market.
+[Text=All CharacterOffsetBegin=1512 CharacterOffsetEnd=1515 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=three CharacterOffsetBegin=1516 CharacterOffsetEnd=1521 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=either CharacterOffsetBegin=1522 CharacterOffsetEnd=1528 PartOfSpeech=CC Lemma=either NamedEntityTag=O] [Text=met CharacterOffsetBegin=1529 CharacterOffsetEnd=1532 PartOfSpeech=VBD Lemma=meet NamedEntityTag=O] [Text=or CharacterOffsetBegin=1533 CharacterOffsetEnd=1535 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=exceeded CharacterOffsetBegin=1536 CharacterOffsetEnd=1544 PartOfSpeech=VBD Lemma=exceed NamedEntityTag=O] [Text=analyst CharacterOffsetBegin=1545 CharacterOffsetEnd=1552 PartOfSpeech=NN Lemma=analyst NamedEntityTag=O] [Text=expectations CharacterOffsetBegin=1553 CharacterOffsetEnd=1565 PartOfSpeech=NNS Lemma=expectation NamedEntityTag=O] [Text=for CharacterOffsetBegin=1566 CharacterOffsetEnd=1569 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=earnings CharacterOffsetBegin=1570 CharacterOffsetEnd=1578 PartOfSpeech=NNS Lemma=earnings NamedEntityTag=O] [Text=, CharacterOffsetBegin=1578 CharacterOffsetEnd=1579 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1580 CharacterOffsetEnd=1583 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=were CharacterOffsetBegin=1584 CharacterOffsetEnd=1588 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=each CharacterOffsetBegin=1589 CharacterOffsetEnd=1593 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=down CharacterOffsetBegin=1594 CharacterOffsetEnd=1598 PartOfSpeech=RB Lemma=down NamedEntityTag=O] [Text=at CharacterOffsetBegin=1599 CharacterOffsetEnd=1601 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=least CharacterOffsetBegin=1602 CharacterOffsetEnd=1607 PartOfSpeech=JJS Lemma=least NamedEntityTag=O] [Text=3 CharacterOffsetBegin=1608 CharacterOffsetEnd=1609 PartOfSpeech=CD Lemma=3 NamedEntityTag=PERCENT NormalizedNamedEntityTag=>=%3.0] [Text=percent CharacterOffsetBegin=1610 CharacterOffsetEnd=1617 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=>=%3.0] [Text=as CharacterOffsetBegin=1618 CharacterOffsetEnd=1620 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=investors CharacterOffsetBegin=1621 CharacterOffsetEnd=1630 PartOfSpeech=NNS Lemma=investor NamedEntityTag=O] [Text=sold CharacterOffsetBegin=1631 CharacterOffsetEnd=1635 PartOfSpeech=VBD Lemma=sell NamedEntityTag=O] [Text=the CharacterOffsetBegin=1636 CharacterOffsetEnd=1639 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=broad CharacterOffsetBegin=1640 CharacterOffsetEnd=1645 PartOfSpeech=JJ Lemma=broad NamedEntityTag=O] [Text=market CharacterOffsetBegin=1646 CharacterOffsetEnd=1652 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=. CharacterOffsetBegin=1652 CharacterOffsetEnd=1653 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT All) (CD three))
+    (ADVP (CC either))
+    (VP
+      (VP (VBD met)
+        (CC or)
+        (VBD exceeded)
+        (NP (NN analyst) (NNS expectations))
+        (PP (IN for)
+          (NP (NNS earnings))))
+      (, ,)
+      (CC but)
+      (VP (VBD were)
+        (NP (DT each))
+        (NP
+          (SBAR
+            (S
+              (VP
+                (ADVP (RB down)
+                  (NP
+                    (QP
+                      (XS (IN at) (JJS least))
+                      (CD 3))
+                    (NN percent))
+                  (PP (IN as)
+                    (NP (NNS investors))))
+                (VBD sold)
+                (NP (DT the) (JJ broad) (NN market))))))))
+    (. .)))
+
+det(three-2, All-1)
+nsubj(met-4, three-2)
+nsubj(exceeded-6, three-2)
+advmod(met-4, either-3)
+root(ROOT-0, met-4)
+conj_or(met-4, exceeded-6)
+nn(expectations-8, analyst-7)
+dobj(met-4, expectations-8)
+prep_for(met-4, earnings-10)
+cop(each-14, were-13)
+conj_but(met-4, each-14)
+advmod(sold-22, down-15)
+quantmod(3-18, at-16)
+mwe(at-16, least-17)
+pobj(at-16, least-17)
+num(percent-19, 3-18)
+pobj(down-15, percent-19)
+prep_as(down-15, investors-21)
+attr(each-14, sold-22)
+det(market-25, the-23)
+amod(market-25, broad-24)
+dobj(sold-22, market-25)
+
+Sentence #18 (48 tokens):
+So far this reporting season, about a fifth of the companies in the S.&P. 500 have reported fourth-quarter earnings, with about 65 percent of them beating analyst estimates - a solid performance, said Christine Short, associate director at S&P Capital IQ.
+[Text=So CharacterOffsetBegin=1659 CharacterOffsetEnd=1661 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=1662 CharacterOffsetEnd=1665 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=this CharacterOffsetBegin=1666 CharacterOffsetEnd=1670 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=reporting CharacterOffsetBegin=1671 CharacterOffsetEnd=1680 PartOfSpeech=VBG Lemma=report NamedEntityTag=O] [Text=season CharacterOffsetBegin=1681 CharacterOffsetEnd=1687 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=1687 CharacterOffsetEnd=1688 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=about CharacterOffsetBegin=1689 CharacterOffsetEnd=1694 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=a CharacterOffsetBegin=1695 CharacterOffsetEnd=1696 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=fifth CharacterOffsetBegin=1697 CharacterOffsetEnd=1702 PartOfSpeech=NN Lemma=fifth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=5.0] [Text=of CharacterOffsetBegin=1703 CharacterOffsetEnd=1705 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1706 CharacterOffsetEnd=1709 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=companies CharacterOffsetBegin=1710 CharacterOffsetEnd=1719 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=in CharacterOffsetBegin=1720 CharacterOffsetEnd=1722 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1723 CharacterOffsetEnd=1726 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=S. CharacterOffsetBegin=1727 CharacterOffsetEnd=1729 PartOfSpeech=NNP Lemma=S. NamedEntityTag=ORGANIZATION] [Text=& CharacterOffsetBegin=1729 CharacterOffsetEnd=1730 PartOfSpeech=CC Lemma=& NamedEntityTag=ORGANIZATION] [Text=P. CharacterOffsetBegin=1730 CharacterOffsetEnd=1732 PartOfSpeech=NNP Lemma=P. NamedEntityTag=ORGANIZATION] [Text=500 CharacterOffsetBegin=1733 CharacterOffsetEnd=1736 PartOfSpeech=CD Lemma=500 NamedEntityTag=NUMBER NormalizedNamedEntityTag=500.0] [Text=have CharacterOffsetBegin=1737 CharacterOffsetEnd=1741 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=reported CharacterOffsetBegin=1742 CharacterOffsetEnd=1750 PartOfSpeech=VBN Lemma=report NamedEntityTag=O] [Text=fourth-quarter CharacterOffsetBegin=1751 CharacterOffsetEnd=1765 PartOfSpeech=JJ Lemma=fourth-quarter NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-Q4 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-Q4">fourth-quarter</TIMEX3>] [Text=earnings CharacterOffsetBegin=1766 CharacterOffsetEnd=1774 PartOfSpeech=NNS Lemma=earnings NamedEntityTag=O] [Text=, CharacterOffsetBegin=1774 CharacterOffsetEnd=1775 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=1776 CharacterOffsetEnd=1780 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=about CharacterOffsetBegin=1781 CharacterOffsetEnd=1786 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=65 CharacterOffsetBegin=1787 CharacterOffsetEnd=1789 PartOfSpeech=CD Lemma=65 NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%65.0] [Text=percent CharacterOffsetBegin=1790 CharacterOffsetEnd=1797 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%65.0] [Text=of CharacterOffsetBegin=1798 CharacterOffsetEnd=1800 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=them CharacterOffsetBegin=1801 CharacterOffsetEnd=1805 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=beating CharacterOffsetBegin=1806 CharacterOffsetEnd=1813 PartOfSpeech=VBG Lemma=beat NamedEntityTag=O] [Text=analyst CharacterOffsetBegin=1814 CharacterOffsetEnd=1821 PartOfSpeech=NN Lemma=analyst NamedEntityTag=O] [Text=estimates CharacterOffsetBegin=1822 CharacterOffsetEnd=1831 PartOfSpeech=NNS Lemma=estimate NamedEntityTag=O] [Text=- CharacterOffsetBegin=1832 CharacterOffsetEnd=1833 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=a CharacterOffsetBegin=1834 CharacterOffsetEnd=1835 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=solid CharacterOffsetBegin=1836 CharacterOffsetEnd=1841 PartOfSpeech=JJ Lemma=solid NamedEntityTag=O] [Text=performance CharacterOffsetBegin=1842 CharacterOffsetEnd=1853 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=, CharacterOffsetBegin=1853 CharacterOffsetEnd=1854 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=said CharacterOffsetBegin=1855 CharacterOffsetEnd=1859 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Christine CharacterOffsetBegin=1860 CharacterOffsetEnd=1869 PartOfSpeech=NNP Lemma=Christine NamedEntityTag=PERSON] [Text=Short CharacterOffsetBegin=1870 CharacterOffsetEnd=1875 PartOfSpeech=NNP Lemma=Short NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1875 CharacterOffsetEnd=1876 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=associate CharacterOffsetBegin=1877 CharacterOffsetEnd=1886 PartOfSpeech=JJ Lemma=associate NamedEntityTag=O] [Text=director CharacterOffsetBegin=1887 CharacterOffsetEnd=1895 PartOfSpeech=NN Lemma=director NamedEntityTag=O] [Text=at CharacterOffsetBegin=1896 CharacterOffsetEnd=1898 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=S&P CharacterOffsetBegin=1899 CharacterOffsetEnd=1902 PartOfSpeech=NNP Lemma=S&P NamedEntityTag=ORGANIZATION] [Text=Capital CharacterOffsetBegin=1903 CharacterOffsetEnd=1910 PartOfSpeech=NNP Lemma=Capital NamedEntityTag=ORGANIZATION] [Text=IQ CharacterOffsetBegin=1911 CharacterOffsetEnd=1913 PartOfSpeech=NNP Lemma=IQ NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1913 CharacterOffsetEnd=1914 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB So) (RB far))
+    (NP
+      (NP (DT this) (VBG reporting) (NN season))
+      (, ,)
+      (PP (IN about)
+        (NP
+          (NP
+            (NP (DT a) (NN fifth))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS companies))
+                (PP (IN in)
+                  (NP (DT the) (NNP S.))))))
+          (CC &)
+          (NP
+            (NP (NNP P.) (CD 500))
+            (SBAR
+              (S
+                (VP (VBP have)
+                  (VP (VBN reported)
+                    (NP (JJ fourth-quarter) (NNS earnings))
+                    (, ,)
+                    (PP (IN with) (IN about)
+                      (NP
+                        (NP (CD 65) (NN percent))
+                        (PP (IN of)
+                          (S
+                            (NP (PRP them))
+                            (VP (VBG beating)
+                              (NP
+                                (NP (NN analyst) (NNS estimates))
+                                (: -)
+                                (NP (DT a) (JJ solid) (NN performance)))))))))))))))
+      (, ,))
+    (VP (VBD said)
+      (NP
+        (NP (NNP Christine) (NNP Short))
+        (, ,)
+        (NP
+          (NP (JJ associate) (NN director))
+          (PP (IN at)
+            (NP (NNP S&P) (NNP Capital) (NNP IQ))))))
+    (. .)))
+
+advmod(far-2, So-1)
+advmod(said-38, far-2)
+det(season-5, this-3)
+amod(season-5, reporting-4)
+nsubj(said-38, season-5)
+det(fifth-9, a-8)
+prep_about(season-5, fifth-9)
+det(companies-12, the-11)
+prep_of(fifth-9, companies-12)
+det(S.-15, the-14)
+prep_in(companies-12, S.-15)
+prep_about(season-5, P.-17)
+conj_and(fifth-9, P.-17)
+num(P.-17, 500-18)
+aux(reported-20, have-19)
+rcmod(P.-17, reported-20)
+amod(earnings-22, fourth-quarter-21)
+dobj(reported-20, earnings-22)
+dep(reported-20, with-24)
+num(percent-27, 65-26)
+prep_about(reported-20, percent-27)
+nsubj(beating-30, them-29)
+prepc_of(percent-27, beating-30)
+nn(estimates-32, analyst-31)
+dobj(beating-30, estimates-32)
+det(performance-36, a-34)
+amod(performance-36, solid-35)
+dep(estimates-32, performance-36)
+root(ROOT-0, said-38)
+nn(Short-40, Christine-39)
+dobj(said-38, Short-40)
+amod(director-43, associate-42)
+appos(Short-40, director-43)
+nn(IQ-47, S&P-45)
+nn(IQ-47, Capital-46)
+prep_at(director-43, IQ-47)
+
+Sentence #19 (10 tokens):
+That is near the historical average, she said.
+[Text=That CharacterOffsetBegin=1915 CharacterOffsetEnd=1919 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=1920 CharacterOffsetEnd=1922 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=near CharacterOffsetBegin=1923 CharacterOffsetEnd=1927 PartOfSpeech=IN Lemma=near NamedEntityTag=O] [Text=the CharacterOffsetBegin=1928 CharacterOffsetEnd=1931 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=historical CharacterOffsetBegin=1932 CharacterOffsetEnd=1942 PartOfSpeech=JJ Lemma=historical NamedEntityTag=O] [Text=average CharacterOffsetBegin=1943 CharacterOffsetEnd=1950 PartOfSpeech=NN Lemma=average NamedEntityTag=O] [Text=, CharacterOffsetBegin=1950 CharacterOffsetEnd=1951 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=she CharacterOffsetBegin=1952 CharacterOffsetEnd=1955 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=said CharacterOffsetBegin=1956 CharacterOffsetEnd=1960 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1960 CharacterOffsetEnd=1961 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBZ is)
+        (PP (IN near)
+          (NP (DT the) (JJ historical) (NN average)))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(is-2, That-1)
+ccomp(said-9, is-2)
+det(average-6, the-4)
+amod(average-6, historical-5)
+prep_near(is-2, average-6)
+nsubj(said-9, she-8)
+root(ROOT-0, said-9)
+
+Sentence #20 (20 tokens):
+But investors seem more focused on the global economy, and on projections from companies for the coming year.
+[Text=But CharacterOffsetBegin=1967 CharacterOffsetEnd=1970 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=investors CharacterOffsetBegin=1971 CharacterOffsetEnd=1980 PartOfSpeech=NNS Lemma=investor NamedEntityTag=O] [Text=seem CharacterOffsetBegin=1981 CharacterOffsetEnd=1985 PartOfSpeech=VBP Lemma=seem NamedEntityTag=O] [Text=more CharacterOffsetBegin=1986 CharacterOffsetEnd=1990 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=focused CharacterOffsetBegin=1991 CharacterOffsetEnd=1998 PartOfSpeech=VBN Lemma=focus NamedEntityTag=O] [Text=on CharacterOffsetBegin=1999 CharacterOffsetEnd=2001 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2002 CharacterOffsetEnd=2005 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=global CharacterOffsetBegin=2006 CharacterOffsetEnd=2012 PartOfSpeech=JJ Lemma=global NamedEntityTag=O] [Text=economy CharacterOffsetBegin=2013 CharacterOffsetEnd=2020 PartOfSpeech=NN Lemma=economy NamedEntityTag=O] [Text=, CharacterOffsetBegin=2020 CharacterOffsetEnd=2021 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2022 CharacterOffsetEnd=2025 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=on CharacterOffsetBegin=2026 CharacterOffsetEnd=2028 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=projections CharacterOffsetBegin=2029 CharacterOffsetEnd=2040 PartOfSpeech=NNS Lemma=projection NamedEntityTag=O] [Text=from CharacterOffsetBegin=2041 CharacterOffsetEnd=2045 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=companies CharacterOffsetBegin=2046 CharacterOffsetEnd=2055 PartOfSpeech=NNS Lemma=company NamedEntityTag=O] [Text=for CharacterOffsetBegin=2056 CharacterOffsetEnd=2059 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2060 CharacterOffsetEnd=2063 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=NEXT_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="NEXT_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the coming year</TIMEX3>] [Text=coming CharacterOffsetBegin=2064 CharacterOffsetEnd=2070 PartOfSpeech=JJ Lemma=coming NamedEntityTag=DATE NormalizedNamedEntityTag=NEXT_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="NEXT_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the coming year</TIMEX3>] [Text=year CharacterOffsetBegin=2071 CharacterOffsetEnd=2075 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=NEXT_IMMEDIATE P1Y Timex=<TIMEX3 alt_value="NEXT_IMMEDIATE P1Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the coming year</TIMEX3>] [Text=. CharacterOffsetBegin=2075 CharacterOffsetEnd=2076 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (NNS investors))
+    (VP (VBP seem)
+      (S
+        (ADJP (RBR more) (VBN focused)
+          (PP
+            (PP (IN on)
+              (NP (DT the) (JJ global) (NN economy)))
+            (, ,)
+            (CC and)
+            (PP (IN on)
+              (NP
+                (NP (NNS projections))
+                (PP (IN from)
+                  (NP
+                    (NP (NNS companies))
+                    (PP (IN for)
+                      (NP (DT the) (JJ coming) (NN year)))))))))))
+    (. .)))
+
+cc(seem-3, But-1)
+nsubj(seem-3, investors-2)
+root(ROOT-0, seem-3)
+advmod(focused-5, more-4)
+dep(seem-3, focused-5)
+det(economy-9, the-7)
+amod(economy-9, global-8)
+prep_on(focused-5, economy-9)
+prep_on(focused-5, projections-13)
+conj_and(economy-9, projections-13)
+prep_from(projections-13, companies-15)
+det(year-19, the-17)
+amod(year-19, coming-18)
+prep_for(companies-15, year-19)
+
+Sentence #21 (31 tokens):
+"The guidance has been very guarded and analysts are not lifting their numbers for 2014," said David Bianco, head United States stock strategist at Deutsche Bank.
+[Text=`` CharacterOffsetBegin=2082 CharacterOffsetEnd=2083 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=2083 CharacterOffsetEnd=2086 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=guidance CharacterOffsetBegin=2087 CharacterOffsetEnd=2095 PartOfSpeech=NN Lemma=guidance NamedEntityTag=O] [Text=has CharacterOffsetBegin=2096 CharacterOffsetEnd=2099 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2100 CharacterOffsetEnd=2104 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=2105 CharacterOffsetEnd=2109 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=guarded CharacterOffsetBegin=2110 CharacterOffsetEnd=2117 PartOfSpeech=VBN Lemma=guard NamedEntityTag=O] [Text=and CharacterOffsetBegin=2118 CharacterOffsetEnd=2121 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=analysts CharacterOffsetBegin=2122 CharacterOffsetEnd=2130 PartOfSpeech=NNS Lemma=analyst NamedEntityTag=O] [Text=are CharacterOffsetBegin=2131 CharacterOffsetEnd=2134 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2135 CharacterOffsetEnd=2138 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=lifting CharacterOffsetBegin=2139 CharacterOffsetEnd=2146 PartOfSpeech=VBG Lemma=lift NamedEntityTag=O] [Text=their CharacterOffsetBegin=2147 CharacterOffsetEnd=2152 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=numbers CharacterOffsetBegin=2153 CharacterOffsetEnd=2160 PartOfSpeech=NNS Lemma=number NamedEntityTag=O] [Text=for CharacterOffsetBegin=2161 CharacterOffsetEnd=2164 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=2165 CharacterOffsetEnd=2169 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014</TIMEX3>] [Text=, CharacterOffsetBegin=2169 CharacterOffsetEnd=2170 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2170 CharacterOffsetEnd=2171 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=2172 CharacterOffsetEnd=2176 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=David CharacterOffsetBegin=2177 CharacterOffsetEnd=2182 PartOfSpeech=NNP Lemma=David NamedEntityTag=PERSON] [Text=Bianco CharacterOffsetBegin=2183 CharacterOffsetEnd=2189 PartOfSpeech=NNP Lemma=Bianco NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2189 CharacterOffsetEnd=2190 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=head CharacterOffsetBegin=2191 CharacterOffsetEnd=2195 PartOfSpeech=NN Lemma=head NamedEntityTag=O] [Text=United CharacterOffsetBegin=2196 CharacterOffsetEnd=2202 PartOfSpeech=NNP Lemma=United NamedEntityTag=LOCATION] [Text=States CharacterOffsetBegin=2203 CharacterOffsetEnd=2209 PartOfSpeech=NNP Lemma=States NamedEntityTag=LOCATION] [Text=stock CharacterOffsetBegin=2210 CharacterOffsetEnd=2215 PartOfSpeech=NN Lemma=stock NamedEntityTag=O] [Text=strategist CharacterOffsetBegin=2216 CharacterOffsetEnd=2226 PartOfSpeech=NN Lemma=strategist NamedEntityTag=O] [Text=at CharacterOffsetBegin=2227 CharacterOffsetEnd=2229 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Deutsche CharacterOffsetBegin=2230 CharacterOffsetEnd=2238 PartOfSpeech=NNP Lemma=Deutsche NamedEntityTag=ORGANIZATION] [Text=Bank CharacterOffsetBegin=2239 CharacterOffsetEnd=2243 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=2243 CharacterOffsetEnd=2244 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (S
+        (NP (DT The) (NN guidance))
+        (VP (VBZ has)
+          (VP (VBN been)
+            (ADJP (RB very) (VBN guarded)))))
+      (CC and)
+      (S
+        (NP (NNS analysts))
+        (VP (VBP are) (RB not)
+          (VP (VBG lifting)
+            (NP (PRP$ their) (NNS numbers))
+            (PP (IN for)
+              (NP (CD 2014)))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP David) (NNP Bianco))
+      (, ,)
+      (NP
+        (NP (NN head))
+        (NP
+          (NP (NNP United) (NNP States) (NN stock) (NN strategist))
+          (PP (IN at)
+            (NP (NNP Deutsche) (NNP Bank))))))
+    (. .)))
+
+det(guidance-3, The-2)
+nsubjpass(guarded-7, guidance-3)
+aux(guarded-7, has-4)
+auxpass(guarded-7, been-5)
+advmod(guarded-7, very-6)
+ccomp(said-19, guarded-7)
+nsubj(lifting-12, analysts-9)
+aux(lifting-12, are-10)
+neg(lifting-12, not-11)
+conj_and(guarded-7, lifting-12)
+ccomp(said-19, lifting-12)
+poss(numbers-14, their-13)
+dobj(lifting-12, numbers-14)
+prep_for(lifting-12, 2014-16)
+root(ROOT-0, said-19)
+nn(Bianco-21, David-20)
+nsubj(said-19, Bianco-21)
+appos(Bianco-21, head-23)
+nn(strategist-27, United-24)
+nn(strategist-27, States-25)
+nn(strategist-27, stock-26)
+dep(head-23, strategist-27)
+nn(Bank-30, Deutsche-29)
+prep_at(strategist-27, Bank-30)
+
+Sentence #22 (24 tokens):
+United Continental fell 75 cents, or 1.5 percent, to $48.43 after its prediction for revenue growth this quarter disappointed investors.
+[Text=United CharacterOffsetBegin=2245 CharacterOffsetEnd=2251 PartOfSpeech=NNP Lemma=United NamedEntityTag=ORGANIZATION] [Text=Continental CharacterOffsetBegin=2252 CharacterOffsetEnd=2263 PartOfSpeech=NNP Lemma=Continental NamedEntityTag=ORGANIZATION] [Text=fell CharacterOffsetBegin=2264 CharacterOffsetEnd=2268 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=75 CharacterOffsetBegin=2269 CharacterOffsetEnd=2271 PartOfSpeech=CD Lemma=75 NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.75] [Text=cents CharacterOffsetBegin=2272 CharacterOffsetEnd=2277 PartOfSpeech=NNS Lemma=cent NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.75] [Text=, CharacterOffsetBegin=2277 CharacterOffsetEnd=2278 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2279 CharacterOffsetEnd=2281 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=1.5 CharacterOffsetBegin=2282 CharacterOffsetEnd=2285 PartOfSpeech=CD Lemma=1.5 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.5] [Text=percent CharacterOffsetBegin=2286 CharacterOffsetEnd=2293 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.5] [Text=, CharacterOffsetBegin=2293 CharacterOffsetEnd=2294 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=2295 CharacterOffsetEnd=2297 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2298 CharacterOffsetEnd=2299 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$48.43] [Text=48.43 CharacterOffsetBegin=2299 CharacterOffsetEnd=2304 PartOfSpeech=CD Lemma=48.43 NamedEntityTag=MONEY NormalizedNamedEntityTag=$48.43] [Text=after CharacterOffsetBegin=2305 CharacterOffsetEnd=2310 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=its CharacterOffsetBegin=2311 CharacterOffsetEnd=2314 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=prediction CharacterOffsetBegin=2315 CharacterOffsetEnd=2325 PartOfSpeech=NN Lemma=prediction NamedEntityTag=O] [Text=for CharacterOffsetBegin=2326 CharacterOffsetEnd=2329 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=2330 CharacterOffsetEnd=2337 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=growth CharacterOffsetBegin=2338 CharacterOffsetEnd=2344 PartOfSpeech=NN Lemma=growth NamedEntityTag=O] [Text=this CharacterOffsetBegin=2345 CharacterOffsetEnd=2349 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P3M Timex=<TIMEX3 alt_value="THIS P3M" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this quarter</TIMEX3>] [Text=quarter CharacterOffsetBegin=2350 CharacterOffsetEnd=2357 PartOfSpeech=NN Lemma=quarter NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P3M Timex=<TIMEX3 alt_value="THIS P3M" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this quarter</TIMEX3>] [Text=disappointed CharacterOffsetBegin=2358 CharacterOffsetEnd=2370 PartOfSpeech=JJ Lemma=disappointed NamedEntityTag=O] [Text=investors CharacterOffsetBegin=2371 CharacterOffsetEnd=2380 PartOfSpeech=NNS Lemma=investor NamedEntityTag=O] [Text=. CharacterOffsetBegin=2380 CharacterOffsetEnd=2381 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP United) (NNP Continental))
+    (VP (VBD fell)
+      (NP
+        (NP (CD 75) (NNS cents))
+        (, ,)
+        (CC or)
+        (NP (CD 1.5) (NN percent))
+        (, ,))
+      (PP (TO to)
+        (NP ($ $) (CD 48.43)))
+      (PP (IN after)
+        (NP (PRP$ its) (NN prediction)))
+      (PP (IN for)
+        (NP (NN revenue) (NN growth))
+        (NP
+          (ADJP
+            (NP (DT this) (NN quarter))
+            (JJ disappointed))
+          (NNS investors))))
+    (. .)))
+
+nn(Continental-2, United-1)
+nsubj(fell-3, Continental-2)
+root(ROOT-0, fell-3)
+num(cents-5, 75-4)
+dobj(fell-3, cents-5)
+num(percent-9, 1.5-8)
+dobj(fell-3, percent-9)
+conj_or(cents-5, percent-9)
+prep_to(fell-3, $-12)
+num($-12, 48.43-13)
+poss(prediction-16, its-15)
+prep_after(fell-3, prediction-16)
+nn(growth-19, revenue-18)
+prep_for(fell-3, growth-19)
+det(quarter-21, this-20)
+npadvmod(disappointed-22, quarter-21)
+amod(investors-23, disappointed-22)
+dep(fell-3, investors-23)
+
+Sentence #23 (12 tokens):
+The pullback comes after a stellar run for stocks last year.
+[Text=The CharacterOffsetBegin=2387 CharacterOffsetEnd=2390 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=pullback CharacterOffsetBegin=2391 CharacterOffsetEnd=2399 PartOfSpeech=NN Lemma=pullback NamedEntityTag=O] [Text=comes CharacterOffsetBegin=2400 CharacterOffsetEnd=2405 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=after CharacterOffsetBegin=2406 CharacterOffsetEnd=2411 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=a CharacterOffsetBegin=2412 CharacterOffsetEnd=2413 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=stellar CharacterOffsetBegin=2414 CharacterOffsetEnd=2421 PartOfSpeech=JJ Lemma=stellar NamedEntityTag=O] [Text=run CharacterOffsetBegin=2422 CharacterOffsetEnd=2425 PartOfSpeech=NN Lemma=run NamedEntityTag=O] [Text=for CharacterOffsetBegin=2426 CharacterOffsetEnd=2429 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=stocks CharacterOffsetBegin=2430 CharacterOffsetEnd=2436 PartOfSpeech=NNS Lemma=stock NamedEntityTag=O] [Text=last CharacterOffsetBegin=2437 CharacterOffsetEnd=2441 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last year</TIMEX3>] [Text=year CharacterOffsetBegin=2442 CharacterOffsetEnd=2446 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last year</TIMEX3>] [Text=. CharacterOffsetBegin=2446 CharacterOffsetEnd=2447 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN pullback))
+    (VP (VBZ comes)
+      (PP (IN after)
+        (NP
+          (NP (DT a) (JJ stellar) (NN run))
+          (PP (IN for)
+            (NP (NNS stocks)))))
+      (NP-TMP (JJ last) (NN year)))
+    (. .)))
+
+det(pullback-2, The-1)
+nsubj(comes-3, pullback-2)
+root(ROOT-0, comes-3)
+det(run-7, a-5)
+amod(run-7, stellar-6)
+prep_after(comes-3, run-7)
+prep_for(run-7, stocks-9)
+amod(year-11, last-10)
+tmod(comes-3, year-11)
+
+Sentence #24 (16 tokens):
+The Dow rose nearly 27 percent and the S.&P., nearly 30 percent.
+[Text=The CharacterOffsetBegin=2448 CharacterOffsetEnd=2451 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Dow CharacterOffsetBegin=2452 CharacterOffsetEnd=2455 PartOfSpeech=NNP Lemma=Dow NamedEntityTag=MISC] [Text=rose CharacterOffsetBegin=2456 CharacterOffsetEnd=2460 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=nearly CharacterOffsetBegin=2461 CharacterOffsetEnd=2467 PartOfSpeech=RB Lemma=nearly NamedEntityTag=O] [Text=27 CharacterOffsetBegin=2468 CharacterOffsetEnd=2470 PartOfSpeech=CD Lemma=27 NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%27.0] [Text=percent CharacterOffsetBegin=2471 CharacterOffsetEnd=2478 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%27.0] [Text=and CharacterOffsetBegin=2479 CharacterOffsetEnd=2482 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=2483 CharacterOffsetEnd=2486 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=S. CharacterOffsetBegin=2487 CharacterOffsetEnd=2489 PartOfSpeech=NNP Lemma=S. NamedEntityTag=MISC] [Text=& CharacterOffsetBegin=2489 CharacterOffsetEnd=2490 PartOfSpeech=CC Lemma=& NamedEntityTag=MISC] [Text=P. CharacterOffsetBegin=2490 CharacterOffsetEnd=2492 PartOfSpeech=NNP Lemma=P. NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=2492 CharacterOffsetEnd=2493 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=nearly CharacterOffsetBegin=2494 CharacterOffsetEnd=2500 PartOfSpeech=RB Lemma=nearly NamedEntityTag=O] [Text=30 CharacterOffsetBegin=2501 CharacterOffsetEnd=2503 PartOfSpeech=CD Lemma=30 NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%30.0] [Text=percent CharacterOffsetBegin=2504 CharacterOffsetEnd=2511 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%30.0] [Text=. CharacterOffsetBegin=2511 CharacterOffsetEnd=2512 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Dow))
+    (VP (VBD rose)
+      (NP
+        (NP
+          (QP (RB nearly) (CD 27))
+          (NN percent))
+        (CC and)
+        (NP
+          (NP (DT the) (NNP S.))
+          (CC &)
+          (NP (NNP P.) (, ,)
+            (ADJP
+              (QP (RB nearly) (CD 30)))
+            (NN percent)))))
+    (. .)))
+
+det(Dow-2, The-1)
+nsubj(rose-3, Dow-2)
+root(ROOT-0, rose-3)
+quantmod(27-5, nearly-4)
+num(percent-6, 27-5)
+dobj(rose-3, percent-6)
+det(S.-9, the-8)
+dobj(rose-3, S.-9)
+conj_and(percent-6, S.-9)
+nn(percent-15, P.-11)
+quantmod(30-14, nearly-13)
+num(percent-15, 30-14)
+conj_and(percent-6, percent-15)
+conj_and(S.-9, percent-15)
+
+Sentence #25 (24 tokens):
+"The market at these levels is a bit skittish," said James Dunigan, chief investment strategist at PNC Wealth Management.
+[Text=`` CharacterOffsetBegin=2518 CharacterOffsetEnd=2519 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=2519 CharacterOffsetEnd=2522 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=market CharacterOffsetBegin=2523 CharacterOffsetEnd=2529 PartOfSpeech=NN Lemma=market NamedEntityTag=O] [Text=at CharacterOffsetBegin=2530 CharacterOffsetEnd=2532 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=these CharacterOffsetBegin=2533 CharacterOffsetEnd=2538 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=levels CharacterOffsetBegin=2539 CharacterOffsetEnd=2545 PartOfSpeech=NNS Lemma=level NamedEntityTag=O] [Text=is CharacterOffsetBegin=2546 CharacterOffsetEnd=2548 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2549 CharacterOffsetEnd=2550 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=bit CharacterOffsetBegin=2551 CharacterOffsetEnd=2554 PartOfSpeech=NN Lemma=bit NamedEntityTag=O] [Text=skittish CharacterOffsetBegin=2555 CharacterOffsetEnd=2563 PartOfSpeech=JJ Lemma=skittish NamedEntityTag=O] [Text=, CharacterOffsetBegin=2563 CharacterOffsetEnd=2564 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text='' CharacterOffsetBegin=2564 CharacterOffsetEnd=2565 PartOfSpeech='' Lemma='' NamedEntityTag=O] [Text=said CharacterOffsetBegin=2566 CharacterOffsetEnd=2570 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=James CharacterOffsetBegin=2571 CharacterOffsetEnd=2576 PartOfSpeech=NNP Lemma=James NamedEntityTag=PERSON] [Text=Dunigan CharacterOffsetBegin=2577 CharacterOffsetEnd=2584 PartOfSpeech=NNP Lemma=Dunigan NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2584 CharacterOffsetEnd=2585 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=chief CharacterOffsetBegin=2586 CharacterOffsetEnd=2591 PartOfSpeech=JJ Lemma=chief NamedEntityTag=O] [Text=investment CharacterOffsetBegin=2592 CharacterOffsetEnd=2602 PartOfSpeech=NN Lemma=investment NamedEntityTag=O] [Text=strategist CharacterOffsetBegin=2603 CharacterOffsetEnd=2613 PartOfSpeech=NN Lemma=strategist NamedEntityTag=O] [Text=at CharacterOffsetBegin=2614 CharacterOffsetEnd=2616 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=PNC CharacterOffsetBegin=2617 CharacterOffsetEnd=2620 PartOfSpeech=NNP Lemma=PNC NamedEntityTag=ORGANIZATION] [Text=Wealth CharacterOffsetBegin=2621 CharacterOffsetEnd=2627 PartOfSpeech=NNP Lemma=Wealth NamedEntityTag=ORGANIZATION] [Text=Management CharacterOffsetBegin=2628 CharacterOffsetEnd=2638 PartOfSpeech=NNP Lemma=Management NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=2638 CharacterOffsetEnd=2639 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP
+        (NP (DT The) (NN market))
+        (PP (IN at)
+          (NP (DT these) (NNS levels))))
+      (VP (VBZ is)
+        (ADJP
+          (NP (DT a) (NN bit))
+          (JJ skittish))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP
+      (NP (NNP James) (NNP Dunigan))
+      (, ,)
+      (NP
+        (NP (JJ chief) (NN investment) (NN strategist))
+        (PP (IN at)
+          (NP (NNP PNC) (NNP Wealth) (NNP Management)))))
+    (. .)))
+
+det(market-3, The-2)
+nsubj(skittish-10, market-3)
+det(levels-6, these-5)
+prep_at(market-3, levels-6)
+cop(skittish-10, is-7)
+det(bit-9, a-8)
+npadvmod(skittish-10, bit-9)
+ccomp(said-13, skittish-10)
+root(ROOT-0, said-13)
+nn(Dunigan-15, James-14)
+nsubj(said-13, Dunigan-15)
+amod(strategist-19, chief-17)
+nn(strategist-19, investment-18)
+appos(Dunigan-15, strategist-19)
+nn(Management-23, PNC-21)
+nn(Management-23, Wealth-22)
+prep_at(strategist-19, Management-23)
+
+Sentence #26 (28 tokens):
+American Eagle Outfitters shares dropped $1.12, or 7.8 percent, to $13.19 after the company's chief executive, Robert Hanson, departed unexpectedly.
+[Text=American CharacterOffsetBegin=2646 CharacterOffsetEnd=2654 PartOfSpeech=JJ Lemma=american NamedEntityTag=ORGANIZATION] [Text=Eagle CharacterOffsetBegin=2655 CharacterOffsetEnd=2660 PartOfSpeech=NNP Lemma=Eagle NamedEntityTag=ORGANIZATION] [Text=Outfitters CharacterOffsetBegin=2661 CharacterOffsetEnd=2671 PartOfSpeech=NNP Lemma=Outfitters NamedEntityTag=ORGANIZATION] [Text=shares CharacterOffsetBegin=2672 CharacterOffsetEnd=2678 PartOfSpeech=NNS Lemma=share NamedEntityTag=O] [Text=dropped CharacterOffsetBegin=2679 CharacterOffsetEnd=2686 PartOfSpeech=VBD Lemma=drop NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2687 CharacterOffsetEnd=2688 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.12] [Text=1.12 CharacterOffsetBegin=2688 CharacterOffsetEnd=2692 PartOfSpeech=CD Lemma=1.12 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.12] [Text=, CharacterOffsetBegin=2692 CharacterOffsetEnd=2693 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2694 CharacterOffsetEnd=2696 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=7.8 CharacterOffsetBegin=2697 CharacterOffsetEnd=2700 PartOfSpeech=CD Lemma=7.8 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%7.8] [Text=percent CharacterOffsetBegin=2701 CharacterOffsetEnd=2708 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%7.8] [Text=, CharacterOffsetBegin=2708 CharacterOffsetEnd=2709 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=2710 CharacterOffsetEnd=2712 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2713 CharacterOffsetEnd=2714 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$13.19] [Text=13.19 CharacterOffsetBegin=2714 CharacterOffsetEnd=2719 PartOfSpeech=CD Lemma=13.19 NamedEntityTag=MONEY NormalizedNamedEntityTag=$13.19] [Text=after CharacterOffsetBegin=2720 CharacterOffsetEnd=2725 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=the CharacterOffsetBegin=2726 CharacterOffsetEnd=2729 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=company CharacterOffsetBegin=2730 CharacterOffsetEnd=2737 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text='s CharacterOffsetBegin=2737 CharacterOffsetEnd=2739 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=chief CharacterOffsetBegin=2740 CharacterOffsetEnd=2745 PartOfSpeech=JJ Lemma=chief NamedEntityTag=O] [Text=executive CharacterOffsetBegin=2746 CharacterOffsetEnd=2755 PartOfSpeech=NN Lemma=executive NamedEntityTag=O] [Text=, CharacterOffsetBegin=2755 CharacterOffsetEnd=2756 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Robert CharacterOffsetBegin=2757 CharacterOffsetEnd=2763 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON] [Text=Hanson CharacterOffsetBegin=2764 CharacterOffsetEnd=2770 PartOfSpeech=NNP Lemma=Hanson NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2770 CharacterOffsetEnd=2771 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=departed CharacterOffsetBegin=2772 CharacterOffsetEnd=2780 PartOfSpeech=VBD Lemma=depart NamedEntityTag=O] [Text=unexpectedly CharacterOffsetBegin=2781 CharacterOffsetEnd=2793 PartOfSpeech=RB Lemma=unexpectedly NamedEntityTag=O] [Text=. CharacterOffsetBegin=2793 CharacterOffsetEnd=2794 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ American) (NNP Eagle) (NNP Outfitters) (NNS shares))
+    (VP (VBD dropped)
+      (NP
+        (NP ($ $) (CD 1.12))
+        (, ,)
+        (CC or)
+        (NP (CD 7.8) (NN percent))
+        (, ,))
+      (PP (TO to)
+        (NP ($ $) (CD 13.19)))
+      (SBAR (IN after)
+        (S
+          (NP
+            (NP
+              (NP (DT the) (NN company) (POS 's))
+              (JJ chief) (NN executive))
+            (, ,)
+            (NP (NNP Robert) (NNP Hanson))
+            (, ,))
+          (VP (VBD departed)
+            (ADVP (RB unexpectedly))))))
+    (. .)))
+
+amod(shares-4, American-1)
+nn(shares-4, Eagle-2)
+nn(shares-4, Outfitters-3)
+nsubj(dropped-5, shares-4)
+root(ROOT-0, dropped-5)
+dobj(dropped-5, $-6)
+num($-6, 1.12-7)
+num(percent-11, 7.8-10)
+dobj(dropped-5, percent-11)
+conj_or($-6, percent-11)
+prep_to(dropped-5, $-14)
+num($-14, 13.19-15)
+mark(departed-26, after-16)
+det(company-18, the-17)
+poss(executive-21, company-18)
+amod(executive-21, chief-20)
+nsubj(departed-26, executive-21)
+nn(Hanson-24, Robert-23)
+appos(executive-21, Hanson-24)
+advcl(dropped-5, departed-26)
+advmod(departed-26, unexpectedly-27)
+
+Sentence #27 (11 tokens):
+The retailer had reported disappointing sales over the holiday season.
+[Text=The CharacterOffsetBegin=2795 CharacterOffsetEnd=2798 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=retailer CharacterOffsetBegin=2799 CharacterOffsetEnd=2807 PartOfSpeech=NN Lemma=retailer NamedEntityTag=O] [Text=had CharacterOffsetBegin=2808 CharacterOffsetEnd=2811 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=reported CharacterOffsetBegin=2812 CharacterOffsetEnd=2820 PartOfSpeech=VBN Lemma=report NamedEntityTag=O] [Text=disappointing CharacterOffsetBegin=2821 CharacterOffsetEnd=2834 PartOfSpeech=JJ Lemma=disappointing NamedEntityTag=O] [Text=sales CharacterOffsetBegin=2835 CharacterOffsetEnd=2840 PartOfSpeech=NNS Lemma=sale NamedEntityTag=O] [Text=over CharacterOffsetBegin=2841 CharacterOffsetEnd=2845 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=2846 CharacterOffsetEnd=2849 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=holiday CharacterOffsetBegin=2850 CharacterOffsetEnd=2857 PartOfSpeech=NN Lemma=holiday NamedEntityTag=O] [Text=season CharacterOffsetBegin=2858 CharacterOffsetEnd=2864 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=2864 CharacterOffsetEnd=2865 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN retailer))
+    (VP (VBD had)
+      (VP (VBN reported)
+        (NP (JJ disappointing) (NNS sales))
+        (PP (IN over)
+          (NP (DT the) (NN holiday) (NN season)))))
+    (. .)))
+
+det(retailer-2, The-1)
+nsubj(reported-4, retailer-2)
+aux(reported-4, had-3)
+root(ROOT-0, reported-4)
+amod(sales-6, disappointing-5)
+dobj(reported-4, sales-6)
+det(season-10, the-8)
+nn(season-10, holiday-9)
+prep_over(reported-4, season-10)
+
+Coreference set:
+	(8,4,[4,5)) -> (2,10,[10,11)), that is: "China" -> "China"
+Coreference set:
+	(7,1,[1,2)) -> (2,1,[1,2)), that is: "Stocks" -> "Stocks"
+	(23,9,[9,10)) -> (2,1,[1,2)), that is: "stocks" -> "Stocks"
+Coreference set:
+	(4,2,[2,3)) -> (3,2,[1,3)), that is: "It" -> "The selling"
+Coreference set:
+	(17,10,[10,11)) -> (3,11,[10,12)), that is: "earnings" -> "solid earnings"
+Coreference set:
+	(4,10,[9,11)) -> (4,10,[9,23)), that is: "Randy Frederick" -> "Randy Frederick , a managing director of active trading and derivatives at Charles Schwab"
+	(4,14,[12,23)) -> (4,10,[9,23)), that is: "a managing director of active trading and derivatives at Charles Schwab" -> "Randy Frederick , a managing director of active trading and derivatives at Charles Schwab"
+Coreference set:
+	(8,6,[6,7)) -> (8,2,[1,3)), that is: "its" -> "This week"
+Coreference set:
+	(9,15,[15,16)) -> (9,5,[1,6)), that is: "its" -> "The Dow Jones industrial average"
+	(10,1,[1,2)) -> (9,5,[1,6)), that is: "It" -> "The Dow Jones industrial average"
+Coreference set:
+	(10,5,[4,6)) -> (10,5,[4,11)), that is: "175.99 points" -> "175.99 points , or 1.1 percent ,"
+Coreference set:
+	(18,15,[14,16)) -> (11,2,[1,6)), that is: "the S." -> "The S. & P. 500"
+	(18,15,[15,18)) -> (11,2,[1,6)), that is: "S. & P." -> "The S. & P. 500"
+	(24,9,[8,10)) -> (11,2,[1,6)), that is: "the S." -> "The S. & P. 500"
+	(24,9,[9,12)) -> (11,2,[1,6)), that is: "S. & P." -> "The S. & P. 500"
+Coreference set:
+	(18,18,[18,19)) -> (11,5,[5,6)), that is: "500" -> "500"
+Coreference set:
+	(11,23,[22,24)) -> (11,23,[22,29)), that is: "24.13 points" -> "24.13 points , or 0.6 percent ,"
+Coreference set:
+	(11,8,[7,9)) -> (11,8,[7,14)), that is: "16.40 points" -> "16.40 points , or 0.9 percent ,"
+Coreference set:
+	(17,21,[21,22)) -> (12,2,[1,3)), that is: "investors" -> "Fearful investors"
+	(20,2,[2,3)) -> (12,2,[1,3)), that is: "investors" -> "Fearful investors"
+Coreference set:
+	(13,1,[1,2)) -> (12,12,[11,13)), that is: "Its" -> "the yield"
+Coreference set:
+	(13,2,[1,3)) -> (14,4,[3,8)), that is: "Its price" -> "the lowest since Nov. 29"
+	(14,1,[1,2)) -> (14,4,[3,8)), that is: "That" -> "the lowest since Nov. 29"
+Coreference set:
+	(16,12,[12,13)) -> (16,12,[12,19)), that is: "KeyCorp" -> "KeyCorp , Johnson Controls and Jacobs Engineering"
+Coreference set:
+	(16,6,[6,7)) -> (16,2,[1,3)), that is: "their" -> "Several companies"
+Coreference set:
+	(19,8,[8,9)) -> (17,14,[14,15)), that is: "she" -> "each"
+Coreference set:
+	(18,29,[29,30)) -> (18,12,[11,16)), that is: "them" -> "the companies in the S."
+Coreference set:
+	(18,40,[39,41)) -> (18,40,[39,48)), that is: "Christine Short" -> "Christine Short , associate director at S&P Capital IQ"
+Coreference set:
+	(18,5,[3,6)) -> (18,5,[3,38)), that is: "this reporting season" -> "this reporting season , about a fifth of the companies in the S. & P. 500 have reported fourth-quarter earnings , with about 65 percent of them beating analyst estimates - a solid performance ,"
+	(19,1,[1,2)) -> (18,5,[3,38)), that is: "That" -> "this reporting season , about a fifth of the companies in the S. & P. 500 have reported fourth-quarter earnings , with about 65 percent of them beating analyst estimates - a solid performance ,"
+Coreference set:
+	(21,13,[13,14)) -> (21,9,[9,10)), that is: "their" -> "analysts"
+Coreference set:
+	(21,21,[20,22)) -> (21,21,[20,31)), that is: "David Bianco" -> "David Bianco , head United States stock strategist at Deutsche Bank"
+Coreference set:
+	(22,15,[15,16)) -> (22,2,[1,3)), that is: "its" -> "United Continental"
+Coreference set:
+	(25,15,[14,16)) -> (25,15,[14,24)), that is: "James Dunigan" -> "James Dunigan , chief investment strategist at PNC Wealth Management"
+Coreference set:
+	(26,21,[17,26)) -> (26,24,[23,25)), that is: "the company 's chief executive , Robert Hanson ," -> "Robert Hanson"
+	(26,21,[17,22)) -> (26,24,[23,25)), that is: "the company 's chief executive" -> "Robert Hanson"
