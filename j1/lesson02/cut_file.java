@@ -77,8 +77,9 @@ public class cut_file {
 				while((str = br.readLine()) != null){
 					str = str.replace("|-", "bar-");
 					str = str.replace("$-", "dol-");
-					str = str.replace("/", "-");
-					str = str.replace("'", "-");//SQLに対応するため
+					str = str.replace("/", "_");
+					str = str.replace("'", "_");//SQLに対応するため
+					str = str.replace("\t", " ");//タブによるバグを防ぐ
 					rows.add(str);
 				}
 				br.close();
@@ -101,7 +102,7 @@ public class cut_file {
 	}
 	//replace_escapeを全てに適用
 	public static void all_replace_esc(String[] files){
-		replace_escape(files[0]);
+		replace_escape("re_"+files[0]);
 		int i = 1;
 		while(i < files.length){
 			replace_escape("re_"+files[i]);

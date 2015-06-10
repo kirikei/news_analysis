@@ -18,8 +18,8 @@ public class positive_score {
 	private static double entity_weight = 0.8;
 	
 	//センテンス毎にentityのツリーを取り出す＋entityの感情語スコアを取り出す
-	public static Map<String,Double> positive(String file1, ArrayList<String> entities){
-
+	public static Map<String,Double> positive(String file, ArrayList<String> entities){
+		String file1 = "re_"+ file;
 		//System.out.println("aaa");
 		Map<Integer, ArrayList<String>> trees = organize_entity.get_tree(file1);//センテンス毎のツリー
 		//System.out.println("trees::"+trees);
@@ -195,6 +195,7 @@ public class positive_score {
 		}
 
 		System.out.println("entity_score:"+ entity_score);
+		import_newsDB.import_positive_score(file, entity_score);
 		return entity_score;
 
 
@@ -292,7 +293,7 @@ public class positive_score {
 		//System.out.println(entity_list);
 		//元記事のentityの極性
 		ArrayList<String> ori_entities = entity_list.get(args[0]);
-		Map<String,Double> ori_score = positive("re_"+args[0], ori_entities);
+		Map<String,Double> ori_score = positive(args[0], ori_entities);
 		
 		int q =1;
 
@@ -301,7 +302,7 @@ public class positive_score {
 			ArrayList<String> entities = entity_list.get(args[q]);
 			//args[q]と元記事間の擁護度の差を計算
 			
-			double next =cal_pos(ori_score,"re_"+args[q], entities, core_entities);
+			double next =cal_pos(ori_score,args[q], entities, core_entities);
 			double moto_rel = calculate_rel_div.cal_rel_com(entities, ori_entities);
 			double polarity_score = next * moto_rel;
 			scores.put(args[q], polarity_score);
@@ -314,7 +315,7 @@ public class positive_score {
 			
 		}
 		//print_score(scores, args, "polarity");
-		//import_newsDB.entry_measure(scores,"polarities");
+		import_newsDB.entry_measure(scores,"Polarities");
 		return scores;
 	}
 	
@@ -322,7 +323,7 @@ public class positive_score {
 	public static void print_score(Map<String, Double> scores, String[] args, String attribute){
 		try {
 			//出力
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/"+connecter_stan.Name_of_Dir+"/"+ attribute+"_"+connecter_stan.event+"_result.csv", true);  //���P
+			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/news_analysis/result.csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
 				pw.println("["+args[0]+"]");
 			for (int j = 1; j < args.length; j++) {			

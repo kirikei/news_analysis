@@ -66,7 +66,9 @@ public class organize_entity {
 				sub_tree = find_dep(through_checker,root_v,word_tree);
 				//System.out.println("sub_tree::" + sub_tree);
 
+				//(governor, dependency)から単語の列へ変換
 				subtrees.put(p, make_sentense(sub_tree));
+				
 				ArrayList<String> dummy = new ArrayList<String>();
 				sub_tree = dummy;
 
@@ -80,39 +82,38 @@ public class organize_entity {
 		}
 
 		//System.out.println(subtrees);
-
+		
+		//出力するサブツリー
 		Map<Integer,String[]> result_subtree = new HashMap<Integer, String[]>();//�ڍדx�̌v�Z�ŗp���镔����
 
 		if(subtrees.size() > 0){
 
 
 			try {
-				//�o�͐���쐬����
-				FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmcsvs/"+ nomal_entity + ".csv", true);  //���P
+				//ファイルへ書き出し
+				FileWriter fw = new FileWriter(connecter_stan.EntityTreeCsvFolder+ nomal_entity + ".csv", true);  //���P
 				PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-				//FileWriter fw_lda = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmtxt/"+nomal_entity+".txt",true);
-				//PrintWriter pw_lda = new PrintWriter(new BufferedWriter(fw_lda));
 
 				int key = 0;int num_rs =0;
 				ArrayList<String> sentense = new ArrayList<String>();
 				ArrayList<Integer> itemIdList = new ArrayList<Integer>(subtrees.keySet());
-				
-				
+						
 				while(key < p){//���e���w�肷��
 					if(itemIdList.indexOf(key) != -1){
+						//１センテンス毎に取り出し
 						sentense = subtrees.get(key);
 						int sent_num = 0;
-						//pw.print(number+",");
+						pw.print(number+",");
 						String[] sent_rs = new String[sentense.size()];
 						while(sent_num < sentense.size()){
 							String str = sentense.get(sent_num);
-							//pw.print(str);
-							//pw.print(" ");
+							pw.print(str);
+							pw.print(" ");
 							//pw_lda.print(str+" ");
 							sent_rs[sent_num] = str;
 							sent_num++;
 						}
-						//pw.println();
+						pw.println();
 						//pw_lda.println();
 						result_subtree.put(num_rs,sent_rs);
 						num_rs++;
@@ -143,14 +144,14 @@ public class organize_entity {
 
 
 
-	private static ArrayList<String> make_sentense(ArrayList<String> list){//�����؂��Z���e���X�ɒ����֐�
+	private static ArrayList<String> make_sentense(ArrayList<String> list){//(governor, dependency)の形から単語の列へ変換
 		int list_num = 0;
 		ArrayList<String> list_a =new ArrayList<String>();
 		ArrayList<String> result_list =new ArrayList<String>();
 		while(list_num < list.size()){
 			String ff = tree_change.first_facter(list.get(list_num));
 			String sf = tree_change.second_facter((list.get(list_num)));
-
+			//もし重なるものが無ければリストへ格納
 			if(list_a.indexOf(ff) == -1){
 				list_a.add(ff);
 			}
@@ -167,8 +168,6 @@ public class organize_entity {
 			if(index != -1){
 				String word = result[list_num].substring(0,index);
 				result[list_num] = word;}
-
-
 			list_num++;
 
 		}

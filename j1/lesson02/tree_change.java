@@ -99,9 +99,9 @@ public class tree_change {
 	        	String fr = first_facter(t_facters[n]);
 	        	String sr = second_facter(t_facters[n]);
 	        	if(organize_entity.check_in_list(verbs,sr) != -1){
-	        	t_facters[n] = t_facters[n].replaceAll(sr,"tmp");
+	        	t_facters[n] = t_facters[n].replaceAll(sr,"__tmp__");
 	        	t_facters[n] = t_facters[n].replaceAll(fr,sr);
-	        	t_facters[n] = t_facters[n].replaceAll("tmp",fr);
+	        	t_facters[n] = t_facters[n].replaceAll("__tmp__",fr);
 	        	t_facters[n] = t_facters[n].replaceAll(br_type(t_facters[n]),"rcmod'");
 	        	}
 	        	break;	
@@ -110,9 +110,9 @@ public class tree_change {
 	        	String fc = first_facter(t_facters[n]);
 	        	String sc = second_facter(t_facters[n]);
 	        	if(organize_entity.check_in_list(verbs,sc) != -1){
-	        	t_facters[n] = t_facters[n].replaceAll(sc,"tmp");
+	        	t_facters[n] = t_facters[n].replaceAll(sc,"__tmp__");
 	        	t_facters[n] = t_facters[n].replaceAll(fc,sc);
-	        	t_facters[n] = t_facters[n].replaceAll("tmp",fc);
+	        	t_facters[n] = t_facters[n].replaceAll("__tmp__",fc);
 	        	t_facters[n] = t_facters[n].replaceAll(br_type(t_facters[n]),"cop'");
 	        	}
 	        	break;

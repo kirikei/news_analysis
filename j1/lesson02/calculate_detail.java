@@ -158,6 +158,8 @@ public class calculate_detail {
 						at_s.put(ss, new_at);
 					}
 
+				}else{//重みより小さければ
+					at_s.put(ss, 0.0);//トピックssは0
 				}
 				ss++;
 
@@ -346,9 +348,9 @@ public class calculate_detail {
 
 					String topic_file_name = named_entity + ".csv";
 					//System.out.println("name:"+topic_file_name);
-					//Map<Integer,String[]> topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
-					Map<Integer,String[]> topic_words = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/"+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
-					Map<Integer,String[]> topic_scores = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/topic_"+named_entity+".csv"); //各行のトピック確率
+					Map<Integer,String[]> topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
+					//Map<Integer,String[]> topic_words = get_csv1(connecter_stan.TopicCsvFolder+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
+					Map<Integer,String[]> topic_scores = get_csv1(connecter_stan.TopicCsvFolder+"topic_"+named_entity+".csv"); //各行のトピック確率
 					//print_map(topic_words);
 					//print_map(topic_scores);
 					Set<String> file_names2 = file_topics.keySet();//ファイル毎のサブツリー
@@ -385,11 +387,16 @@ public class calculate_detail {
 
 					}
 					//System.out.println(at_scores);
-
+					
+			
+					
 					Set<String> file_keys = at_scores.keySet();
 					Iterator<String> it_file_at = file_keys.iterator();
 					Map<Integer, Double> ori_score_each = at_scores.get(origin);//元記事のat_score
 
+					//元記事のat_scoreをデータベースへ
+					import_newsDB.import_topic_score(origin, ori_score_each);
+					
 					//file毎に詳細の差を出す
 					while(it_file_at.hasNext()){
 
@@ -397,6 +404,10 @@ public class calculate_detail {
 						if(file_S.equals(origin) == false){//元記事でなければ
 							//System.out.print(file_S);
 							Map<Integer, Double> at_score_each = at_scores.get(file_S);
+							
+							//トピックのスコア（at）をデータベースへ
+							import_newsDB.import_topic_score(file_S, at_score_each);
+							
 							//System.out.println(" +++ "+at_score_each);
 							double detail_each = cal_det(at_score_each, ori_score_each);//file_Sの詳細の差を計算
 							//entityで場合分け
@@ -416,7 +427,7 @@ public class calculate_detail {
 			}
 
 			//データベースに格納
-			//import_newsDB.entry_measure(detailedness, "detaileds");	
+			import_newsDB.entry_measure(detailedness, "Details");	
 			System.out.println("詳細度:"+detailedness);
 			//positive_score.print_score(detailedness, args, "detailedness");
 			String most_file = null;

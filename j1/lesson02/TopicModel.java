@@ -12,7 +12,8 @@ import java.io.*;
 
 
 public class TopicModel {
-
+	private static String StopFolder = "/Users/admin/Documents/java_set/a.clean/";
+	
 	public static Map<Integer,String[]> topic_modeling(String file, String entity,int size) throws Exception {
 
 		// Begin by importing documents from text to feature sequences
@@ -22,12 +23,12 @@ public class TopicModel {
 		// Pipes: lowercase, tokenize, remove stopwords, map to features
 		pipeList.add( new CharSequenceLowercase() );
 		pipeList.add( new CharSequence2TokenSequence(Pattern.compile("\\p{L}[\\p{L}\\p{P}]+\\p{L}")) );
-		pipeList.add( new TokenSequenceRemoveStopwords(new File("/Users/admin/Documents/java_set/a.clean/en+.txt"), "UTF-8", false, false, false) );
+		pipeList.add( new TokenSequenceRemoveStopwords(new File(StopFolder+"en+.txt"), "UTF-8", false, false, false) );
 		pipeList.add( new TokenSequence2FeatureSequence() );
 
 		InstanceList instances = new InstanceList (new SerialPipes(pipeList));
 
-		Reader fileReader = new InputStreamReader(new FileInputStream(new File("/Users/admin/Documents/workspace/a_measure.clean/ibmcsvs/"+file)), "UTF-8");
+		Reader fileReader = new InputStreamReader(new FileInputStream(new File(connecter_stan.EntityTreeCsvFolder+file)), "UTF-8");
 		instances.addThruPipe(new CsvIterator (fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
 				3, 2, 1)); // data, label, name fields
 		System.out.println("inst::"+instances);
@@ -45,7 +46,7 @@ public class TopicModel {
 
 		// Run the model for 50 iterations and stop (this is for testing only, 
 		//  for real applications, use 1000 to 2000 iterations)
-		model.setNumIterations(2000);
+		model.setNumIterations(1000);
 		model.estimate();
 
 
@@ -59,9 +60,9 @@ public class TopicModel {
 		int i = 0;
 		try{
 			//Calendar now = Calendar.getInstance();
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/topic_"+entity+".csv", true);  //���P
+			FileWriter fw = new FileWriter(connecter_stan.TopicCsvFolder+"topic_"+entity+".csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-			FileWriter topic_fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/"+entity+"_topic_words.csv", true);  //���P
+			FileWriter topic_fw = new FileWriter(connecter_stan.TopicCsvFolder+entity+"_topic_words.csv", true);  //���P
 			PrintWriter topic_pw = new PrintWriter(new BufferedWriter(topic_fw));
 
 			while(i < size){//渡したツリーの数を全て読むまで
@@ -87,7 +88,7 @@ public class TopicModel {
 
 
 				//�I�����b�Z�[�W����ʂɏo�͂���
-				System.out.println("�o�͂��������܂����B");
+				System.out.println("出力完了＠Mallet");
 
 
 
@@ -174,8 +175,8 @@ public class TopicModel {
 
 
 	public static void add_stoplist(String entity){
-		File en_txt = new File("/Users/admin/Documents/java_set/a.clean/en.txt");
-		File add_txt = new File("/Users/admin/Documents/java_set/a.clean/en+.txt");
+		File en_txt = new File(StopFolder+"en.txt");
+		File add_txt = new File(StopFolder+"en+.txt");
 
 		try {
 			PrintWriter pw = new PrintWriter(new FileWriter(add_txt));

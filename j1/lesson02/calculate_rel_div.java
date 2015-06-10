@@ -25,7 +25,7 @@ public class calculate_rel_div {
 		double com_data = cal_rel_com(a_entities, ori_ents);
 
 		try {
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/"+ connecter_stan.Name_of_Dir+"/rel_"+connecter_stan.event+"_result.csv", true);  //���P
+			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/rel_result.csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
 			pw.print(file+",");
 			while(al <0.91){
@@ -114,23 +114,10 @@ public class calculate_rel_div {
 		double be = Cov_weight;
 		double wc = 1;
 		double w = 1;
-		//プレーン
-		//double relevance = 1.0;
-		//イベント関連度
-		//double relevance = cal_rel_ev(a_entities, cores);
-		//元記事関連度
-		double relevance = cal_rel_com(a_entities, ori_entities);
 
-		//System.out.println("evv"+relevance+"  moto"+event_rel );
-//		try {
-//			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/rel_experiment/cov_"+connecter_stan.event+"_result.csv", true);  //���P
-//			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-//			
-//			pw.print(file_name+",");
-			
-			//重みを変更しながら計算
-			//while(be < 0.91){
-			
+		//元記事関連度
+		//double relevance = cal_rel_com(a_entities, ori_entities);
+
 				//関連記事のエンティティを全て読む
 				while(i < a_entities.size()){
 					String a_fact = a_entities.get(i);
@@ -148,40 +135,18 @@ public class calculate_rel_div {
 				int p = 0;
 				double ev_data = 0;
 
-				//イベント発散度の計算<=なし
-//				while(p < a_entities.size()){
-//					if(cores.contains((a_entities).get(p)) == false){
-//						ev_data += wc;
-//					}
-//					p++;
-//				}
-
 				result = art_data;//発散度を計算
 				System.out.println("be="+ be + "発散度：" + result);
-
-
-//				pw.print(result);
-//				pw.print(",");
-//
-//
-//				//be+=0.1;}
-//			pw.println();
-//			pw.close();
-//
-//		} catch (IOException ex) {
-//			ex.printStackTrace();
-//			return 0;
-//		}
 
 		return result;
 	}
 
-	public static Map<String, Double> start_div(String[] args, ArrayList<String> core_entities, Map<String,ArrayList<String>> entities){
+	public static Map<String, Double> start_div(String[] args, Map<String, Double> ev_relevance, Map<String,ArrayList<String>> entities, ArrayList<String> core_entities){
 
 		String most_file = null;//最大の記事
 		//出力データ
 		Map<String, Double> div_scores = new HashMap<String, Double>();
-		Map<String, Double> div_scores2 = new HashMap<String, Double>();
+//		Map<String, Double> div_scores2 = new HashMap<String, Double>();
 		//元記事のNamed Entityのリスト
 		ArrayList<String> ori_entities = entities.get(args[0]);
 
@@ -191,15 +156,17 @@ public class calculate_rel_div {
 			ArrayList<String> a_ent = entities.get(file_name);
 			//観点の差
 			double next = cal_div(a_ent, ori_entities, core_entities, file_name);
-			double rel = cal_rel_com(a_ent, ori_entities);
+			//イベント関連度を掛ける
+			double rel = ev_relevance.get(file_name);
 			div_scores.put(file_name, next*rel);
 			//プレーン
-			div_scores2.put(file_name, next);
+			//div_scores2.put(file_name, next);
 			System.out.println("ss:"+file_name);
 		}
 		//csvへ出力
 		positive_score.print_score(div_scores, args, "coverage");
-		positive_score.print_score(div_scores2, args, "coverage");
+		import_newsDB.entry_measure(div_scores, "Coverages");
+		//positive_score.print_score(div_scores2, args, "coverage");
 		System.out.println("div_score 出力完了="+div_scores);
 
 		return div_scores;
@@ -207,7 +174,8 @@ public class calculate_rel_div {
 	}
 
 
-	public static void start_rel(String[] args, ArrayList<String> core_entities, Map<String,ArrayList<String>> entities){
+	//正規化したイベント関連度をデータベースへ＋出力
+	public static Map<String, Double> start_rel(String[] args, ArrayList<String> core_entities, Map<String,ArrayList<String>> entities){
 
 		
 		Map<String, Double> rel_scores = new HashMap<String, Double>();
@@ -216,15 +184,15 @@ public class calculate_rel_div {
 
 		for (int i = 1; i < args.length; i++) {
 			String file_name = args[i];
-			double next = cal_rel(entities.get(file_name), ori_entities,core_entities, file_name);
+			double next = cal_rel_ev(entities.get(file_name),core_entities);
 			rel_scores.put(file_name, next);
 			System.out.println("ss:"+file_name);
 
 		}
 
-		//positive_score.print_score(rel_scores, args, "relevance");
+		import_newsDB.entry_measure(rel_scores,"eventRelevance");
 		System.out.println("出力完了");
-
+		return rel_scores;
 
 	}
 	public static void main(String[] args){
