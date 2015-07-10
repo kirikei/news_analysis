@@ -1,0 +1,357 @@
+Sentence #1 (10 tokens):
+NYTimes.com no longer supports Internet Explorer 8 or earlier.
+[Text=NYTimes.com CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=NYTimes.com NamedEntityTag=O] [Text=no CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=RB Lemma=no NamedEntityTag=O] [Text=longer CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=RB Lemma=longer NamedEntityTag=O] [Text=supports CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=VBZ Lemma=support NamedEntityTag=O] [Text=Internet CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=NN Lemma=internet NamedEntityTag=O] [Text=Explorer CharacterOffsetBegin=40 CharacterOffsetEnd=48 PartOfSpeech=NNP Lemma=Explorer NamedEntityTag=O] [Text=8 CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=CD Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=or CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=earlier CharacterOffsetBegin=54 CharacterOffsetEnd=61 PartOfSpeech=JJR Lemma=earlier NamedEntityTag=O] [Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP NYTimes.com))
+    (ADVP (RB no) (RB longer))
+    (VP (VBZ supports)
+      (NP (NN Internet))
+      (NP-TMP
+        (NP (NNP Explorer) (CD 8))
+        (CC or)
+        (NP (JJR earlier))))
+    (. .)))
+
+root(ROOT-0, supports-4)
+nsubj(supports-4, NYTimes.com-1)
+neg(longer-3, no-2)
+advmod(supports-4, longer-3)
+dobj(supports-4, Internet-5)
+tmod(supports-4, Explorer-6)
+num(Explorer-6, 8-7)
+conj_or(Explorer-6, earlier-9)
+
+Sentence #2 (5 tokens):
+Please upgrade your browser.
+[Text=Please CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=VB Lemma=please NamedEntityTag=O] [Text=upgrade CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=VB Lemma=upgrade NamedEntityTag=O] [Text=your CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=browser CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=NN Lemma=browser NamedEntityTag=O] [Text=. CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB upgrade)
+      (NP (PRP$ your) (NN browser)))
+    (. .)))
+
+root(ROOT-0, upgrade-2)
+discourse(upgrade-2, Please-1)
+poss(browser-4, your-3)
+dobj(upgrade-2, browser-4)
+
+Sentence #3 (34 tokens):
+LEARN MORE »
+Sections
+Home
+Search
+Advertisement
+Search
+By REUTERS
+Syria’s antiquities chief said Tuesday that the historic city of Palmyra had been unharmed since Islamic State extremists seized it last week.
+[Text=LEARN CharacterOffsetBegin=92 CharacterOffsetEnd=97 PartOfSpeech=VB Lemma=learn NamedEntityTag=O] [Text=MORE CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=__ CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Sections CharacterOffsetBegin=105 CharacterOffsetEnd=113 PartOfSpeech=NNP Lemma=Sections NamedEntityTag=O] [Text=Home CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=NNP Lemma=Home NamedEntityTag=O] [Text=Search CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VB Lemma=search NamedEntityTag=O] [Text=Advertisement CharacterOffsetBegin=126 CharacterOffsetEnd=139 PartOfSpeech=NNP Lemma=Advertisement NamedEntityTag=O] [Text=Search CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=VB Lemma=search NamedEntityTag=O] [Text=By CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=REUTERS CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=NNP Lemma=REUTERS NamedEntityTag=O] [Text=Syria CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNP Lemma=Syria NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=antiquities CharacterOffsetBegin=166 CharacterOffsetEnd=177 PartOfSpeech=NNS Lemma=antiquity NamedEntityTag=O] [Text=chief CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NN Lemma=chief NamedEntityTag=O] [Text=said CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=that CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=historic CharacterOffsetBegin=206 CharacterOffsetEnd=214 PartOfSpeech=JJ Lemma=historic NamedEntityTag=O] [Text=city CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=of CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Palmyra CharacterOffsetBegin=223 CharacterOffsetEnd=230 PartOfSpeech=NNP Lemma=Palmyra NamedEntityTag=LOCATION] [Text=had CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=unharmed CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=JJ Lemma=unharmed NamedEntityTag=O] [Text=since CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=Islamic CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=JJ Lemma=islamic NamedEntityTag=ORGANIZATION] [Text=State CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NN Lemma=state NamedEntityTag=ORGANIZATION] [Text=extremists CharacterOffsetBegin=269 CharacterOffsetEnd=279 PartOfSpeech=NNS Lemma=extremist NamedEntityTag=O] [Text=seized CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=VBD Lemma=seize NamedEntityTag=O] [Text=it CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=last CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t3" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">last week<_TIMEX3>] [Text=week CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W OFFSET P-1W Timex=<TIMEX3 alt_value="THIS P1W OFFSET P-1W" anchorTimeID="t3" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">last week<_TIMEX3>] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB LEARN)
+      (NP
+        (NP (JJR MORE))
+        (__ __)
+        (SBAR
+          (S
+            (NP (NNP Sections) (NNP Home))
+            (VP (VB Search)
+              (S
+                (NP (NNP Advertisement))
+                (VP (VB Search)
+                  (SBAR
+                    (S
+                      (PP (IN By)
+                        (NP
+                          (NP (NNP REUTERS) (NNP Syria) (POS _s))
+                          (NNS antiquities)))
+                      (NP (NN chief))
+                      (VP (VBD said)
+                        (NP-TMP (NNP Tuesday))
+                        (SBAR (IN that)
+                          (S
+                            (NP
+                              (NP (DT the) (JJ historic) (NN city))
+                              (PP (IN of)
+                                (NP (NNP Palmyra))))
+                            (VP (VBD had)
+                              (VP (VBN been)
+                                (ADJP (JJ unharmed))
+                                (SBAR (IN since)
+                                  (S
+                                    (NP (JJ Islamic) (NN State) (NNS extremists))
+                                    (VP (VBD seized)
+                                      (NP (PRP it))
+                                      (NP-TMP (JJ last) (NN week)))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, LEARN-1)
+dobj(LEARN-1, MORE-2)
+nn(Home-5, Sections-4)
+nsubj(Search-6, Home-5)
+rcmod(MORE-2, Search-6)
+nsubj(Search-8, Advertisement-7)
+ccomp(Search-6, Search-8)
+nn(Syria-11, REUTERS-10)
+poss(antiquities-13, Syria-11)
+prep_by(said-15, antiquities-13)
+nsubj(said-15, chief-14)
+ccomp(Search-8, said-15)
+tmod(said-15, Tuesday-16)
+mark(unharmed-25, that-17)
+det(city-20, the-18)
+amod(city-20, historic-19)
+nsubj(unharmed-25, city-20)
+prep_of(city-20, Palmyra-22)
+aux(unharmed-25, had-23)
+cop(unharmed-25, been-24)
+ccomp(said-15, unharmed-25)
+mark(seized-30, since-26)
+amod(extremists-29, Islamic-27)
+nn(extremists-29, State-28)
+nsubj(seized-30, extremists-29)
+advcl(unharmed-25, seized-30)
+dobj(seized-30, it-31)
+amod(week-33, last-32)
+tmod(seized-30, week-33)
+
+Sentence #4 (55 tokens):
+The antiquities official, Maamoun Abdulkarim, said that there was “no damage so far,” but that he was still afraid the group would blow up Palmyra’s 2,000-year-old ruins, which include tombs, a citadel and the Temple of Bel, and which the militants may view as idolatrous.
+[Text=The CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=antiquities CharacterOffsetBegin=305 CharacterOffsetEnd=316 PartOfSpeech=NNS Lemma=antiquity NamedEntityTag=O] [Text=official CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=NN Lemma=official NamedEntityTag=O] [Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Maamoun CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=NNP Lemma=Maamoun NamedEntityTag=PERSON] [Text=Abdulkarim CharacterOffsetBegin=335 CharacterOffsetEnd=345 PartOfSpeech=NNP Lemma=Abdulkarim NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=said CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=that CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=there CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=was CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=`` CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=no CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=damage CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=NN Lemma=damage NamedEntityTag=O] [Text=so CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=, CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=but CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=that CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=396 CharacterOffsetEnd=398 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=still CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=afraid CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=JJ Lemma=afraid NamedEntityTag=O] [Text=the CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=group CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=NN Lemma=group NamedEntityTag=O] [Text=would CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=blow CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=VB Lemma=blow NamedEntityTag=O] [Text=up CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=Palmyra CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=NNP Lemma=Palmyra NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=2,000-year-old CharacterOffsetBegin=450 CharacterOffsetEnd=464 PartOfSpeech=JJ Lemma=2,000-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=PT0S Timex=<TIMEX3 tid="t4" type="DURATION" value="PT0S">000-year-old<_TIMEX3>] [Text=ruins CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NNS Lemma=ruin NamedEntityTag=O] [Text=, CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=include CharacterOffsetBegin=478 CharacterOffsetEnd=485 PartOfSpeech=VBP Lemma=include NamedEntityTag=O] [Text=tombs CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=NNS Lemma=tomb NamedEntityTag=O] [Text=, CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=citadel CharacterOffsetBegin=495 CharacterOffsetEnd=502 PartOfSpeech=NN Lemma=citadel NamedEntityTag=O] [Text=and CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=507 CharacterOffsetEnd=510 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Temple CharacterOffsetBegin=511 CharacterOffsetEnd=517 PartOfSpeech=NNP Lemma=Temple NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=Bel CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=NNP Lemma=Bel NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=which CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=the CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=militants CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=NNS Lemma=militant NamedEntityTag=O] [Text=may CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=view CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=VB Lemma=view NamedEntityTag=O] [Text=as CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=idolatrous CharacterOffsetBegin=562 CharacterOffsetEnd=572 PartOfSpeech=JJ Lemma=idolatrous NamedEntityTag=O] [Text=. CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS antiquities) (NN official))
+      (, ,)
+      (NP (NNP Maamoun) (NNP Abdulkarim))
+      (, ,))
+    (VP (VBD said)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (EX there))
+            (VP (VBD was) (`` ``)
+              (NP
+                (NP (DT no) (NN damage))
+                (ADVP (RB so) (RB far))))))
+        (, ,) (__ __)
+        (CC but)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD was)
+              (ADVP (RB still))
+              (ADJP (JJ afraid))
+              (SBAR
+                (SBAR
+                  (S
+                    (NP (DT the) (NN group))
+                    (VP (MD would)
+                      (VP (VB blow)
+                        (PRT (RP up))
+                        (NP
+                          (NP
+                            (NP (NNP Palmyra) (POS _s))
+                            (JJ 2,000-year-old) (NNS ruins))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (VP (VBP include)
+                                (NP
+                                  (NP (NNS tombs))
+                                  (, ,)
+                                  (NP (DT a) (NN citadel))
+                                  (CC and)
+                                  (NP
+                                    (NP (DT the) (NNP Temple))
+                                    (PP (IN of)
+                                      (NP (NNP Bel)))))))))))))
+                (, ,)
+                (CC and)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (DT the) (NNS militants))
+                    (VP (MD may)
+                      (VP (VB view)
+                        (PP (IN as)
+                          (ADJP (JJ idolatrous)))))))))))))
+    (. .)))
+
+root(ROOT-0, said-8)
+det(official-3, The-1)
+nn(official-3, antiquities-2)
+nsubj(said-8, official-3)
+nn(Abdulkarim-6, Maamoun-5)
+appos(official-3, Abdulkarim-6)
+mark(was-11, that-9)
+expl(was-11, there-10)
+ccomp(said-8, was-11)
+neg(damage-14, no-13)
+nsubj(was-11, damage-14)
+advmod(far-16, so-15)
+advmod(damage-14, far-16)
+mark(afraid-24, that-20)
+nsubj(afraid-24, he-21)
+cop(afraid-24, was-22)
+advmod(afraid-24, still-23)
+conj_but(was-11, afraid-24)
+det(group-26, the-25)
+nsubj(blow-28, group-26)
+aux(blow-28, would-27)
+dep(afraid-24, blow-28)
+prt(blow-28, up-29)
+poss(ruins-33, Palmyra-30)
+amod(ruins-33, 2,000-year-old-32)
+dobj(blow-28, ruins-33)
+nsubj(include-36, which-35)
+rcmod(ruins-33, include-36)
+dobj(include-36, tombs-37)
+det(citadel-40, a-39)
+conj_and(tombs-37, citadel-40)
+det(Temple-43, the-42)
+conj_and(tombs-37, Temple-43)
+prep_of(Temple-43, Bel-45)
+dobj(view-52, which-48)
+det(militants-50, the-49)
+nsubj(view-52, militants-50)
+aux(view-52, may-51)
+conj_and(blow-28, view-52)
+prep_as(view-52, idolatrous-54)
+
+Sentence #5 (16 tokens):
+He cited contacts in the central city, which is a Unesco World Heritage site.
+[Text=He CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=cited CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=VBD Lemma=cite NamedEntityTag=O] [Text=contacts CharacterOffsetBegin=583 CharacterOffsetEnd=591 PartOfSpeech=NNS Lemma=contact NamedEntityTag=O] [Text=in CharacterOffsetBegin=592 CharacterOffsetEnd=594 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=central CharacterOffsetBegin=599 CharacterOffsetEnd=606 PartOfSpeech=JJ Lemma=central NamedEntityTag=O] [Text=city CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=, CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=is CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Unesco CharacterOffsetBegin=624 CharacterOffsetEnd=630 PartOfSpeech=NNP Lemma=Unesco NamedEntityTag=ORGANIZATION] [Text=World CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=NNP Lemma=World NamedEntityTag=ORGANIZATION] [Text=Heritage CharacterOffsetBegin=637 CharacterOffsetEnd=645 PartOfSpeech=NNP Lemma=Heritage NamedEntityTag=ORGANIZATION] [Text=site CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=NN Lemma=site NamedEntityTag=O] [Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD cited)
+      (NP (NNS contacts))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (JJ central) (NN city))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (NP (DT a) (NNP Unesco) (NNP World) (NNP Heritage) (NN site))))))))
+    (. .)))
+
+root(ROOT-0, cited-2)
+nsubj(cited-2, He-1)
+dobj(cited-2, contacts-3)
+det(city-7, the-5)
+amod(city-7, central-6)
+prep_in(cited-2, city-7)
+nsubj(site-15, which-9)
+cop(site-15, is-10)
+det(site-15, a-11)
+nn(site-15, Unesco-12)
+nn(site-15, World-13)
+nn(site-15, Heritage-14)
+rcmod(city-7, site-15)
+
+Sentence #6 (38 tokens):
+A version of this brief appears in print on May 27, 2015, on page A9 of the New York edition with the headline: Syria: Palmyra Ruins Unharmed Since ISIS Takeover, Official Says.
+[Text=A CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=version CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=NN Lemma=version NamedEntityTag=O] [Text=of CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=665 CharacterOffsetEnd=669 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=brief CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=NN Lemma=brief NamedEntityTag=O] [Text=appears CharacterOffsetBegin=676 CharacterOffsetEnd=683 PartOfSpeech=VBZ Lemma=appear NamedEntityTag=O] [Text=in CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=print CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=NN Lemma=print NamedEntityTag=O] [Text=on CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=May CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27, 2015<_TIMEX3>] [Text=27 CharacterOffsetBegin=700 CharacterOffsetEnd=702 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27, 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=702 CharacterOffsetEnd=703 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27, 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27, 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=on CharacterOffsetBegin=710 CharacterOffsetEnd=712 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=page CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=page NamedEntityTag=O] [Text=A9 CharacterOffsetBegin=718 CharacterOffsetEnd=720 PartOfSpeech=NN Lemma=a9 NamedEntityTag=O] [Text=of CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=New CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=NNP Lemma=New NamedEntityTag=LOCATION] [Text=York CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=NNP Lemma=York NamedEntityTag=LOCATION] [Text=edition CharacterOffsetBegin=737 CharacterOffsetEnd=744 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=with CharacterOffsetBegin=745 CharacterOffsetEnd=749 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=headline CharacterOffsetBegin=754 CharacterOffsetEnd=762 PartOfSpeech=NN Lemma=headline NamedEntityTag=O] [Text=: CharacterOffsetBegin=762 CharacterOffsetEnd=763 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Syria CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=NNP Lemma=Syria NamedEntityTag=LOCATION] [Text=: CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Palmyra CharacterOffsetBegin=771 CharacterOffsetEnd=778 PartOfSpeech=NNP Lemma=Palmyra NamedEntityTag=LOCATION] [Text=Ruins CharacterOffsetBegin=779 CharacterOffsetEnd=784 PartOfSpeech=NNP Lemma=Ruins NamedEntityTag=O] [Text=Unharmed CharacterOffsetBegin=785 CharacterOffsetEnd=793 PartOfSpeech=NNP Lemma=Unharmed NamedEntityTag=O] [Text=Since CharacterOffsetBegin=794 CharacterOffsetEnd=799 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=ISIS CharacterOffsetBegin=800 CharacterOffsetEnd=804 PartOfSpeech=NNP Lemma=ISIS NamedEntityTag=ORGANIZATION] [Text=Takeover CharacterOffsetBegin=805 CharacterOffsetEnd=813 PartOfSpeech=NN Lemma=takeover NamedEntityTag=O] [Text=, CharacterOffsetBegin=813 CharacterOffsetEnd=814 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Official CharacterOffsetBegin=815 CharacterOffsetEnd=823 PartOfSpeech=NNP Lemma=Official NamedEntityTag=O] [Text=Says CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=828 CharacterOffsetEnd=829 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN version))
+      (PP (IN of)
+        (NP (DT this) (NN brief))))
+    (VP (VBZ appears)
+      (PP (IN in)
+        (NP
+          (NP (NN print))
+          (PP (IN on)
+            (NP (NNP May) (CD 27) (, ,) (CD 2015) (, ,)))))
+      (PP (IN on)
+        (NP
+          (NP (NN page) (NN A9))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNP New) (NNP York) (NN edition))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (NN headline))
+                  (: :)
+                  (NP
+                    (NP (NNP Syria))
+                    (: :)
+                    (NP
+                      (NP (NNP Palmyra) (NNP Ruins) (NNP Unharmed))
+                      (SBAR
+                        (S
+                          (PP (IN Since)
+                            (NP (NNP ISIS) (NN Takeover)))
+                          (, ,)
+                          (NP (NNP Official))
+                          (VP (VBZ Says)))))))))))))
+    (. .)))
+
+root(ROOT-0, appears-6)
+det(version-2, A-1)
+nsubj(appears-6, version-2)
+det(brief-5, this-4)
+prep_of(version-2, brief-5)
+prep_in(appears-6, print-8)
+prep_on(print-8, May-10)
+num(May-10, 27-11)
+num(May-10, 2015-13)
+nn(A9-17, page-16)
+prep_on(appears-6, A9-17)
+det(edition-22, the-19)
+nn(edition-22, New-20)
+nn(edition-22, York-21)
+prep_of(A9-17, edition-22)
+det(headline-25, the-24)
+prep_with(edition-22, headline-25)
+dep(headline-25, Syria-27)
+nn(Unharmed-31, Palmyra-29)
+nn(Unharmed-31, Ruins-30)
+dep(Syria-27, Unharmed-31)
+nn(Takeover-34, ISIS-33)
+prep_since(Says-37, Takeover-34)
+nsubj(Says-37, Official-36)
+rcmod(Unharmed-31, Says-37)
+
+Sentence #7 (10 tokens):
+Order Reprints | Today_s Paper | Subscribe
+Loading...
+[Text=Order CharacterOffsetBegin=830 CharacterOffsetEnd=835 PartOfSpeech=NNP Lemma=Order NamedEntityTag=O] [Text=Reprints CharacterOffsetBegin=836 CharacterOffsetEnd=844 PartOfSpeech=VBZ Lemma=reprint NamedEntityTag=O] [Text=| CharacterOffsetBegin=845 CharacterOffsetEnd=846 PartOfSpeech=CD Lemma=| NamedEntityTag=NUMBER] [Text=Today CharacterOffsetBegin=847 CharacterOffsetEnd=852 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">Today<_TIMEX3>] [Text=_s CharacterOffsetBegin=852 CharacterOffsetEnd=854 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Paper CharacterOffsetBegin=855 CharacterOffsetEnd=860 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=| CharacterOffsetBegin=861 CharacterOffsetEnd=862 PartOfSpeech=CD Lemma=| NamedEntityTag=NUMBER] [Text=Subscribe CharacterOffsetBegin=863 CharacterOffsetEnd=872 PartOfSpeech=NNP Lemma=Subscribe NamedEntityTag=O] [Text=Loading CharacterOffsetBegin=873 CharacterOffsetEnd=880 PartOfSpeech=NNP Lemma=Loading NamedEntityTag=O] [Text=... CharacterOffsetBegin=880 CharacterOffsetEnd=883 PartOfSpeech=: Lemma=... NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Order))
+    (VP (VBZ Reprints)
+      (NP
+        (NP
+          (NP (CD |) (NN Today) (POS _s))
+          (NN Paper))
+        (NP (CD |) (NNP Subscribe) (NNP Loading))))
+    (: ...)))
+
+root(ROOT-0, Reprints-2)
+nsubj(Reprints-2, Order-1)
+num(Today-4, bar-3)
+poss(Paper-6, Today-4)
+dobj(Reprints-2, Paper-6)
+num(Loading-9, bar-7)
+nn(Loading-9, Subscribe-8)
+dep(Paper-6, Loading-9)
+
+Coreference set:
+ (3,22,[22,23]) -> (4,30,[30,32]), that is: "Palmyra" -> "Palmyra _s"
+ (6,29,[29,30]) -> (4,30,[30,32]), that is: "Palmyra" -> "Palmyra _s"
+Coreference set:
+ (3,31,[31,32]) -> (3,20,[18,23]), that is: "it" -> "the historic city of Palmyra"
+Coreference set:
+ (4,3,[1,4]) -> (4,6,[5,7]), that is: "The antiquities official" -> "Maamoun Abdulkarim"
+ (4,21,[21,22]) -> (4,6,[5,7]), that is: "he" -> "Maamoun Abdulkarim"
+ (5,1,[1,2]) -> (4,6,[5,7]), that is: "He" -> "Maamoun Abdulkarim"
+ (6,36,[36,37]) -> (4,6,[5,7]), that is: "Official" -> "Maamoun Abdulkarim"
+Coreference set:
+ (7,7,[7,8]) -> (7,3,[3,4]), that is: "|" -> "|"

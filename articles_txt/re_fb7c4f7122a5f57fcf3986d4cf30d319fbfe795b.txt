@@ -1,0 +1,540 @@
+Sentence #1 (30 tokens):
+Johnny Depp
+ AP Images
+The actor could serve up to 10 years in prison or pay a maximum fine of $340,000, according to the Sydney Morning Herald.
+[Text=Johnny CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Johnny NamedEntityTag=PERSON] [Text=Depp CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Depp NamedEntityTag=PERSON] [Text=AP CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=AP NamedEntityTag=O] [Text=Images CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=The CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=actor CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NN Lemma=actor NamedEntityTag=O] [Text=could CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=serve CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=VB Lemma=serve NamedEntityTag=O] [Text=up CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=RP Lemma=up NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=to CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=TO Lemma=to NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=10 CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=CD Lemma=10 NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=years CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=in CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=prison CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=NN Lemma=prison NamedEntityTag=O] [Text=or CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=pay CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=VB Lemma=pay NamedEntityTag=O] [Text=a CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=maximum CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=maximum NamedEntityTag=O] [Text=fine CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=fine NamedEntityTag=O] [Text=of CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=$ CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$340000.0] [Text=340,000 CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=CD Lemma=340,000 NamedEntityTag=MONEY NormalizedNamedEntityTag=$340000.0] [Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=105 CharacterOffsetEnd=114 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Sydney CharacterOffsetBegin=122 CharacterOffsetEnd=128 PartOfSpeech=NNP Lemma=Sydney NamedEntityTag=LOCATION] [Text=Morning CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=TMO Timex=<TIMEX3 tid="t2" type="TIME" value="TMO">Morning<_TIMEX3>] [Text=Herald CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=Herald NamedEntityTag=O] [Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Johnny) (NNP Depp) (NNP AP) (NNPS Images))
+      (NP (DT The) (NN actor)))
+    (VP (MD could)
+      (VP
+        (VP (VB serve)
+          (PRT (RP up))
+          (PP (TO to)
+            (NP
+              (NP (CD 10) (NNS years))
+              (PP (IN in)
+                (NP (NN prison))))))
+        (CC or)
+        (VP (VB pay)
+          (NP
+            (NP (DT a) (NN maximum) (NN fine))
+            (PP (IN of)
+              (NP ($ $) (CD 340,000))))
+          (, ,)
+          (PP (VBG according)
+            (PP (TO to)
+              (NP (DT the) (NNP Sydney) (NN Morning) (NNP Herald)))))))
+    (. .)))
+
+root(ROOT-0, serve-8)
+nn(Images-4, Johnny-1)
+nn(Images-4, Depp-2)
+nn(Images-4, AP-3)
+nsubj(serve-8, Images-4)
+det(actor-6, The-5)
+dep(Images-4, actor-6)
+aux(serve-8, could-7)
+prt(serve-8, up-9)
+num(years-12, 10-11)
+prep_to(serve-8, years-12)
+prep_in(years-12, prison-14)
+conj_or(serve-8, pay-16)
+det(fine-19, a-17)
+nn(fine-19, maximum-18)
+dobj(pay-16, fine-19)
+prep_of(fine-19, dol-21)
+num(dol-21, 340,000-22)
+prepc_according_to(pay-16, to-25)
+det(Herald-29, the-26)
+nn(Herald-29, Sydney-27)
+nn(Herald-29, Morning-28)
+pobj(pay-16, Herald-29)
+
+Sentence #2 (45 tokens):
+by THR Staff
+5_26_2015 5:08pm PDT
+Johnny Depp could face up to 10 years in an Australian prison after allegedly bringing his two dogs, Pistol and Boo, into the country without the proper clearance, according to the Sydney Morning Herald .
+[Text=by CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=THR CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=NN Lemma=thr NamedEntityTag=O] [Text=Staff CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NN Lemma=staff NamedEntityTag=O] [Text=5_26_2015 CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=CD Lemma=5_26_2015 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T17:08-0800 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T17:08-0800">5_26_2015 5:08pm PDT<_TIMEX3>] [Text=5:08 CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=CD Lemma=5:08 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T17:08-0800 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T17:08-0800">5_26_2015 5:08pm PDT<_TIMEX3>] [Text=pm CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=pm NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T17:08-0800 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T17:08-0800">5_26_2015 5:08pm PDT<_TIMEX3>] [Text=PDT CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=NNP Lemma=PDT NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T17:08-0800 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T17:08-0800">5_26_2015 5:08pm PDT<_TIMEX3>] [Text=Johnny CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP Lemma=Johnny NamedEntityTag=PERSON] [Text=Depp CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NNP Lemma=Depp NamedEntityTag=PERSON] [Text=could CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=face CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB Lemma=face NamedEntityTag=O] [Text=up CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=RP Lemma=up NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t4" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO Lemma=to NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t4" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=10 CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=CD Lemma=10 NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t4" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=years CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P10Y Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t4" type="DURATION" value="P10Y">up to 10 years<_TIMEX3>] [Text=in CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=an CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Australian CharacterOffsetBegin=223 CharacterOffsetEnd=233 PartOfSpeech=JJ Lemma=australian NamedEntityTag=MISC] [Text=prison CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN Lemma=prison NamedEntityTag=O] [Text=after CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=allegedly CharacterOffsetBegin=247 CharacterOffsetEnd=256 PartOfSpeech=RB Lemma=allegedly NamedEntityTag=O] [Text=bringing CharacterOffsetBegin=257 CharacterOffsetEnd=265 PartOfSpeech=VBG Lemma=bring NamedEntityTag=O] [Text=his CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=two CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=dogs CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=NNS Lemma=dog NamedEntityTag=O] [Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Pistol CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=NN Lemma=pistol NamedEntityTag=O] [Text=and CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Boo CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=NN Lemma=boo NamedEntityTag=O] [Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=into CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=country CharacterOffsetBegin=305 CharacterOffsetEnd=312 PartOfSpeech=NN Lemma=country NamedEntityTag=O] [Text=without CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=proper CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=JJ Lemma=proper NamedEntityTag=O] [Text=clearance CharacterOffsetBegin=332 CharacterOffsetEnd=341 PartOfSpeech=NN Lemma=clearance NamedEntityTag=O] [Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Sydney CharacterOffsetBegin=360 CharacterOffsetEnd=366 PartOfSpeech=NNP Lemma=Sydney NamedEntityTag=LOCATION] [Text=Morning CharacterOffsetBegin=367 CharacterOffsetEnd=374 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=TMO Timex=<TIMEX3 tid="t5" type="TIME" value="TMO">Morning<_TIMEX3>] [Text=Herald CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NNP Lemma=Herald NamedEntityTag=O] [Text=. CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN by)
+      (NP (NN THR) (NN Staff)))
+    (NP
+      (NP (CD 5_26_2015) (CD 5:08) (NN pm))
+      (NP (NNP PDT) (NNP Johnny) (NNP Depp)))
+    (VP (MD could)
+      (VP (VB face)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP
+            (NP (CD 10) (NNS years))
+            (PP (IN in)
+              (NP (DT an) (JJ Australian) (NN prison)))))
+        (PP (IN after)
+          (S
+            (ADVP (RB allegedly))
+            (VP (VBG bringing)
+              (NP
+                (NP (PRP$ his) (CD two) (NNS dogs))
+                (, ,)
+                (NP (NN Pistol)
+                  (CC and)
+                  (NN Boo))
+                (, ,))
+              (PP (IN into)
+                (NP (DT the) (NN country)))
+              (PP (IN without)
+                (NP (DT the) (JJ proper) (NN clearance)))
+              (, ,)
+              (PP (VBG according)
+                (PP (TO to)
+                  (NP (DT the) (NNP Sydney) (NN Morning) (NNP Herald)))))))))
+    (. .)))
+
+root(ROOT-0, face-11)
+nn(Staff-3, THR-2)
+prep_by(face-11, Staff-3)
+num(pm-6, 5_26_2015-4)
+num(pm-6, 5:08-5)
+nsubj(face-11, pm-6)
+nn(Depp-9, PDT-7)
+nn(Depp-9, Johnny-8)
+dep(pm-6, Depp-9)
+aux(face-11, could-10)
+prt(face-11, up-12)
+num(years-15, 10-14)
+prep_to(face-11, years-15)
+det(prison-19, an-17)
+amod(prison-19, Australian-18)
+prep_in(years-15, prison-19)
+advmod(bringing-22, allegedly-21)
+prepc_after(face-11, bringing-22)
+poss(dogs-25, his-23)
+num(dogs-25, two-24)
+dobj(bringing-22, dogs-25)
+appos(dogs-25, Pistol-27)
+conj_and(Pistol-27, Boo-29)
+det(country-33, the-32)
+prep_into(bringing-22, country-33)
+det(clearance-37, the-35)
+amod(clearance-37, proper-36)
+prep_without(bringing-22, clearance-37)
+prepc_according_to(bringing-22, to-40)
+det(Herald-44, the-41)
+nn(Herald-44, Sydney-42)
+nn(Herald-44, Morning-43)
+pobj(bringing-22, Herald-44)
+
+Sentence #3 (61 tokens):
+According to the report, the case was discussed at a recent Senate committee hearing, during which it was clarified that the actor could face prison time or a maximum $340,000 fine for smuggling his canine companions on his private jet and not putting them in quarantine for 10 days upon arrival, as required by Australian law.
+[Text=According CharacterOffsetBegin=384 CharacterOffsetEnd=393 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=report CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=case CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=NN Lemma=case NamedEntityTag=O] [Text=was CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=discussed CharacterOffsetBegin=422 CharacterOffsetEnd=431 PartOfSpeech=VBN Lemma=discuss NamedEntityTag=O] [Text=at CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=recent CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O] [Text=Senate CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=NNP Lemma=Senate NamedEntityTag=ORGANIZATION] [Text=committee CharacterOffsetBegin=451 CharacterOffsetEnd=460 PartOfSpeech=NN Lemma=committee NamedEntityTag=O] [Text=hearing CharacterOffsetBegin=461 CharacterOffsetEnd=468 PartOfSpeech=NN Lemma=hearing NamedEntityTag=O] [Text=, CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=during CharacterOffsetBegin=470 CharacterOffsetEnd=476 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=which CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=it CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=clarified CharacterOffsetBegin=490 CharacterOffsetEnd=499 PartOfSpeech=VBN Lemma=clarify NamedEntityTag=O] [Text=that CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=actor CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=NN Lemma=actor NamedEntityTag=O] [Text=could CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=face CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=VB Lemma=face NamedEntityTag=O] [Text=prison CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=NN Lemma=prison NamedEntityTag=O] [Text=time CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=or CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=a CharacterOffsetBegin=541 CharacterOffsetEnd=542 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=maximum CharacterOffsetBegin=543 CharacterOffsetEnd=550 PartOfSpeech=JJ Lemma=maximum NamedEntityTag=O] [Text=$ CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$340000.0] [Text=340,000 CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=CD Lemma=340,000 NamedEntityTag=MONEY NormalizedNamedEntityTag=$340000.0] [Text=fine CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NN Lemma=fine NamedEntityTag=O] [Text=for CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=smuggling CharacterOffsetBegin=569 CharacterOffsetEnd=578 PartOfSpeech=NN Lemma=smuggling NamedEntityTag=O] [Text=his CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=canine CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=JJ Lemma=canine NamedEntityTag=O] [Text=companions CharacterOffsetBegin=590 CharacterOffsetEnd=600 PartOfSpeech=NNS Lemma=companion NamedEntityTag=O] [Text=on CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=his CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=private CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=JJ Lemma=private NamedEntityTag=O] [Text=jet CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=NN Lemma=jet NamedEntityTag=O] [Text=and CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=not CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=putting CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=VBG Lemma=put NamedEntityTag=O] [Text=them CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=in CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=quarantine CharacterOffsetBegin=644 CharacterOffsetEnd=654 PartOfSpeech=NN Lemma=quarantine NamedEntityTag=O] [Text=for CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=10 CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=CD Lemma=10 NamedEntityTag=DURATION NormalizedNamedEntityTag=P10D Timex=<TIMEX3 tid="t6" type="DURATION" value="P10D">10 days<_TIMEX3>] [Text=days CharacterOffsetBegin=662 CharacterOffsetEnd=666 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P10D Timex=<TIMEX3 tid="t6" type="DURATION" value="P10D">10 days<_TIMEX3>] [Text=upon CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=IN Lemma=upon NamedEntityTag=O] [Text=arrival CharacterOffsetBegin=672 CharacterOffsetEnd=679 PartOfSpeech=NN Lemma=arrival NamedEntityTag=O] [Text=, CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=required CharacterOffsetBegin=684 CharacterOffsetEnd=692 PartOfSpeech=VBN Lemma=require NamedEntityTag=O] [Text=by CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Australian CharacterOffsetBegin=696 CharacterOffsetEnd=706 PartOfSpeech=JJ Lemma=australian NamedEntityTag=MISC] [Text=law CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=NN Lemma=law NamedEntityTag=O] [Text=. CharacterOffsetBegin=710 CharacterOffsetEnd=711 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (DT the) (NN report))))
+    (, ,)
+    (NP (DT the) (NN case))
+    (VP (VBD was)
+      (VP (VBN discussed)
+        (PP (IN at)
+          (NP
+            (NP (DT a) (JJ recent) (NNP Senate) (NN committee) (NN hearing))
+            (, ,)
+            (SBAR
+              (WHPP (IN during)
+                (WHNP (WDT which)))
+              (S
+                (NP (PRP it))
+                (VP (VBD was)
+                  (VP
+                    (VP (VBN clarified)
+                      (SBAR (IN that)
+                        (S
+                          (NP (DT the) (NN actor))
+                          (VP (MD could)
+                            (VP (VB face)
+                              (NP
+                                (NP (NN prison) (NN time))
+                                (CC or)
+                                (NP
+                                  (NP (DT a) (JJ maximum)
+                                    (ADJP
+                                      (QP ($ $) (CD 340,000)))
+                                    (NN fine))
+                                  (PP (IN for)
+                                    (NP (NN smuggling)))))
+                              (PP
+                                (NP (PRP$ his) (JJ canine) (NNS companions))
+                                (IN on)
+                                (NP (PRP$ his) (JJ private) (NN jet))))))))
+                    (CC and)
+                    (VP (RB not)
+                      (S
+                        (VP (VBG putting)
+                          (NP (PRP them))
+                          (PP (IN in)
+                            (NP
+                              (NP (NN quarantine))
+                              (PP (IN for)
+                                (NP (CD 10) (NNS days)))))
+                          (PP (IN upon)
+                            (NP (NN arrival)))))
+                      (, ,)
+                      (SBAR (IN as)
+                        (S
+                          (VP (VBN required)
+                            (PP (IN by)
+                              (NP (JJ Australian) (NN law)))))))))))))))
+    (. .)))
+
+root(ROOT-0, discussed-9)
+prepc_according_to(discussed-9, to-2)
+det(report-4, the-3)
+pobj(discussed-9, report-4)
+det(case-7, the-6)
+nsubjpass(discussed-9, case-7)
+auxpass(discussed-9, was-8)
+det(hearing-15, a-11)
+amod(hearing-15, recent-12)
+nn(hearing-15, Senate-13)
+nn(hearing-15, committee-14)
+prep_at(discussed-9, hearing-15)
+prep_during(clarified-21, which-18)
+nsubjpass(clarified-21, it-19)
+auxpass(clarified-21, was-20)
+rcmod(hearing-15, clarified-21)
+mark(face-26, that-22)
+det(actor-24, the-23)
+nsubj(face-26, actor-24)
+aux(face-26, could-25)
+ccomp(clarified-21, face-26)
+nn(time-28, prison-27)
+dobj(face-26, time-28)
+det(fine-34, a-30)
+amod(fine-34, maximum-31)
+amod(fine-34, dol-32)
+number(dol-32, 340,000-33)
+conj_or(time-28, fine-34)
+prep_for(fine-34, smuggling-36)
+poss(companions-39, his-37)
+amod(companions-39, canine-38)
+npadvmod(face-26, companions-39)
+poss(jet-43, his-41)
+amod(jet-43, private-42)
+prep_on(face-26, jet-43)
+conj_and(clarified-21, not-45)
+xcomp(not-45, putting-46)
+dobj(putting-46, them-47)
+prep_in(putting-46, quarantine-49)
+num(days-52, 10-51)
+prep_for(quarantine-49, days-52)
+prep_upon(putting-46, arrival-54)
+mark(required-57, as-56)
+advcl(not-45, required-57)
+amod(law-60, Australian-59)
+prep_by(required-57, law-60)
+
+Sentence #4 (23 tokens):
+His pilot could likewise face two years in prison for failing to acknowledge the presence of the two dogs aboard the aircraft.
+[Text=His CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=pilot CharacterOffsetBegin=716 CharacterOffsetEnd=721 PartOfSpeech=NN Lemma=pilot NamedEntityTag=O] [Text=could CharacterOffsetBegin=722 CharacterOffsetEnd=727 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=likewise CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=RB Lemma=likewise NamedEntityTag=O] [Text=face CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=VB Lemma=face NamedEntityTag=O] [Text=two CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=CD Lemma=two NamedEntityTag=DURATION NormalizedNamedEntityTag=P2Y Timex=<TIMEX3 tid="t7" type="DURATION" value="P2Y">two years<_TIMEX3>] [Text=years CharacterOffsetBegin=746 CharacterOffsetEnd=751 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P2Y Timex=<TIMEX3 tid="t7" type="DURATION" value="P2Y">two years<_TIMEX3>] [Text=in CharacterOffsetBegin=752 CharacterOffsetEnd=754 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=prison CharacterOffsetBegin=755 CharacterOffsetEnd=761 PartOfSpeech=NN Lemma=prison NamedEntityTag=O] [Text=for CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=failing CharacterOffsetBegin=766 CharacterOffsetEnd=773 PartOfSpeech=VBG Lemma=fail NamedEntityTag=O] [Text=to CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=acknowledge CharacterOffsetBegin=777 CharacterOffsetEnd=788 PartOfSpeech=VB Lemma=acknowledge NamedEntityTag=O] [Text=the CharacterOffsetBegin=789 CharacterOffsetEnd=792 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=presence CharacterOffsetBegin=793 CharacterOffsetEnd=801 PartOfSpeech=NN Lemma=presence NamedEntityTag=O] [Text=of CharacterOffsetBegin=802 CharacterOffsetEnd=804 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=two CharacterOffsetBegin=809 CharacterOffsetEnd=812 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=dogs CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=NNS Lemma=dog NamedEntityTag=O] [Text=aboard CharacterOffsetBegin=818 CharacterOffsetEnd=824 PartOfSpeech=IN Lemma=aboard NamedEntityTag=O] [Text=the CharacterOffsetBegin=825 CharacterOffsetEnd=828 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=aircraft CharacterOffsetBegin=829 CharacterOffsetEnd=837 PartOfSpeech=NN Lemma=aircraft NamedEntityTag=O] [Text=. CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ His) (NN pilot))
+    (VP (MD could)
+      (ADVP (RB likewise))
+      (VP (VB face)
+        (NP
+          (NP (CD two) (NNS years))
+          (PP (IN in)
+            (NP (NN prison))))
+        (PP (IN for)
+          (S
+            (VP (VBG failing)
+              (S
+                (VP (TO to)
+                  (VP (VB acknowledge)
+                    (NP
+                      (NP (DT the) (NN presence))
+                      (PP (IN of)
+                        (NP (DT the) (CD two) (NNS dogs))))
+                    (PP (IN aboard)
+                      (NP (DT the) (NN aircraft)))))))))))
+    (. .)))
+
+root(ROOT-0, face-5)
+poss(pilot-2, His-1)
+nsubj(face-5, pilot-2)
+aux(face-5, could-3)
+advmod(face-5, likewise-4)
+num(years-7, two-6)
+dobj(face-5, years-7)
+prep_in(years-7, prison-9)
+prepc_for(face-5, failing-11)
+aux(acknowledge-13, to-12)
+xcomp(failing-11, acknowledge-13)
+det(presence-15, the-14)
+dobj(acknowledge-13, presence-15)
+det(dogs-19, the-17)
+num(dogs-19, two-18)
+prep_of(presence-15, dogs-19)
+det(aircraft-22, the-21)
+prep_aboard(acknowledge-13, aircraft-22)
+
+Sentence #5 (57 tokens):
+The Sydney Morning Herald reports that Agriculture Minister Barnaby Joyce threatened to put down Depp_s Yorkshire terriers upon discovering they were illegally brought into the country on April 21, when the actor returned to Australia to continue filming the latest installment of the Pirates of the Caribbean franchise, Dead Men Tell No Tales.
+[Text=The CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Sydney CharacterOffsetBegin=843 CharacterOffsetEnd=849 PartOfSpeech=NNP Lemma=Sydney NamedEntityTag=ORGANIZATION] [Text=Morning CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=morning NamedEntityTag=ORGANIZATION Timex=<TIMEX3 tid="t8" type="TIME" value="TMO">Morning<_TIMEX3>] [Text=Herald CharacterOffsetBegin=858 CharacterOffsetEnd=864 PartOfSpeech=NNP Lemma=Herald NamedEntityTag=ORGANIZATION] [Text=reports CharacterOffsetBegin=865 CharacterOffsetEnd=872 PartOfSpeech=VBZ Lemma=report NamedEntityTag=O] [Text=that CharacterOffsetBegin=873 CharacterOffsetEnd=877 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Agriculture CharacterOffsetBegin=878 CharacterOffsetEnd=889 PartOfSpeech=NNP Lemma=Agriculture NamedEntityTag=O] [Text=Minister CharacterOffsetBegin=890 CharacterOffsetEnd=898 PartOfSpeech=NNP Lemma=Minister NamedEntityTag=O] [Text=Barnaby CharacterOffsetBegin=899 CharacterOffsetEnd=906 PartOfSpeech=NNP Lemma=Barnaby NamedEntityTag=PERSON] [Text=Joyce CharacterOffsetBegin=907 CharacterOffsetEnd=912 PartOfSpeech=NNP Lemma=Joyce NamedEntityTag=PERSON] [Text=threatened CharacterOffsetBegin=913 CharacterOffsetEnd=923 PartOfSpeech=VBD Lemma=threaten NamedEntityTag=O] [Text=to CharacterOffsetBegin=924 CharacterOffsetEnd=926 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=put CharacterOffsetBegin=927 CharacterOffsetEnd=930 PartOfSpeech=VB Lemma=put NamedEntityTag=O] [Text=down CharacterOffsetBegin=931 CharacterOffsetEnd=935 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=Depp CharacterOffsetBegin=936 CharacterOffsetEnd=940 PartOfSpeech=NNP Lemma=Depp NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=940 CharacterOffsetEnd=942 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Yorkshire CharacterOffsetBegin=943 CharacterOffsetEnd=952 PartOfSpeech=NNP Lemma=Yorkshire NamedEntityTag=ORGANIZATION] [Text=terriers CharacterOffsetBegin=953 CharacterOffsetEnd=961 PartOfSpeech=NNS Lemma=terrier NamedEntityTag=O] [Text=upon CharacterOffsetBegin=962 CharacterOffsetEnd=966 PartOfSpeech=IN Lemma=upon NamedEntityTag=O] [Text=discovering CharacterOffsetBegin=967 CharacterOffsetEnd=978 PartOfSpeech=VBG Lemma=discover NamedEntityTag=O] [Text=they CharacterOffsetBegin=979 CharacterOffsetEnd=983 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=were CharacterOffsetBegin=984 CharacterOffsetEnd=988 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=illegally CharacterOffsetBegin=989 CharacterOffsetEnd=998 PartOfSpeech=RB Lemma=illegally NamedEntityTag=O] [Text=brought CharacterOffsetBegin=999 CharacterOffsetEnd=1006 PartOfSpeech=VBN Lemma=bring NamedEntityTag=O] [Text=into CharacterOffsetBegin=1007 CharacterOffsetEnd=1011 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=1012 CharacterOffsetEnd=1015 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=country CharacterOffsetBegin=1016 CharacterOffsetEnd=1023 PartOfSpeech=NN Lemma=country NamedEntityTag=O] [Text=on CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=April CharacterOffsetBegin=1027 CharacterOffsetEnd=1032 PartOfSpeech=NNP Lemma=April NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-21 Timex=<TIMEX3 tid="t9" type="DATE" value="XXXX-04-21">April 21<_TIMEX3>] [Text=21 CharacterOffsetBegin=1033 CharacterOffsetEnd=1035 PartOfSpeech=CD Lemma=21 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-21 Timex=<TIMEX3 tid="t9" type="DATE" value="XXXX-04-21">April 21<_TIMEX3>] [Text=, CharacterOffsetBegin=1035 CharacterOffsetEnd=1036 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=when CharacterOffsetBegin=1037 CharacterOffsetEnd=1041 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=the CharacterOffsetBegin=1042 CharacterOffsetEnd=1045 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=actor CharacterOffsetBegin=1046 CharacterOffsetEnd=1051 PartOfSpeech=NN Lemma=actor NamedEntityTag=O] [Text=returned CharacterOffsetBegin=1052 CharacterOffsetEnd=1060 PartOfSpeech=VBD Lemma=return NamedEntityTag=O] [Text=to CharacterOffsetBegin=1061 CharacterOffsetEnd=1063 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Australia CharacterOffsetBegin=1064 CharacterOffsetEnd=1073 PartOfSpeech=NNP Lemma=Australia NamedEntityTag=LOCATION] [Text=to CharacterOffsetBegin=1074 CharacterOffsetEnd=1076 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=continue CharacterOffsetBegin=1077 CharacterOffsetEnd=1085 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=filming CharacterOffsetBegin=1086 CharacterOffsetEnd=1093 PartOfSpeech=VBG Lemma=film NamedEntityTag=O] [Text=the CharacterOffsetBegin=1094 CharacterOffsetEnd=1097 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=latest CharacterOffsetBegin=1098 CharacterOffsetEnd=1104 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=installment CharacterOffsetBegin=1105 CharacterOffsetEnd=1116 PartOfSpeech=NN Lemma=installment NamedEntityTag=O] [Text=of CharacterOffsetBegin=1117 CharacterOffsetEnd=1119 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Pirates CharacterOffsetBegin=1124 CharacterOffsetEnd=1131 PartOfSpeech=NNPS Lemma=Pirates NamedEntityTag=O] [Text=of CharacterOffsetBegin=1132 CharacterOffsetEnd=1134 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1135 CharacterOffsetEnd=1138 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Caribbean CharacterOffsetBegin=1139 CharacterOffsetEnd=1148 PartOfSpeech=NNP Lemma=Caribbean NamedEntityTag=LOCATION] [Text=franchise CharacterOffsetBegin=1149 CharacterOffsetEnd=1158 PartOfSpeech=NN Lemma=franchise NamedEntityTag=O] [Text=, CharacterOffsetBegin=1158 CharacterOffsetEnd=1159 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Dead CharacterOffsetBegin=1160 CharacterOffsetEnd=1164 PartOfSpeech=JJ Lemma=dead NamedEntityTag=MISC] [Text=Men CharacterOffsetBegin=1165 CharacterOffsetEnd=1168 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=Tell CharacterOffsetBegin=1169 CharacterOffsetEnd=1173 PartOfSpeech=VB Lemma=tell NamedEntityTag=MISC] [Text=No CharacterOffsetBegin=1174 CharacterOffsetEnd=1176 PartOfSpeech=DT Lemma=no NamedEntityTag=MISC] [Text=Tales CharacterOffsetBegin=1177 CharacterOffsetEnd=1182 PartOfSpeech=NNS Lemma=tale NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=1182 CharacterOffsetEnd=1183 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Sydney) (NN Morning))
+      (SBAR
+        (S
+          (NP (NNP Herald))
+          (VP (VBZ reports)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Agriculture) (NNP Minister) (NNP Barnaby) (NNP Joyce))
+                (VP (VBD threatened)
+                  (S
+                    (VP (TO to)
+                      (VP (VB put)
+                        (PRT (RP down))
+                        (NP
+                          (NP (NNP Depp) (POS _s))
+                          (NNP Yorkshire) (NNS terriers))
+                        (PP (IN upon)
+                          (S
+                            (VP (VBG discovering)
+                              (SBAR
+                                (S
+                                  (NP (PRP they))
+                                  (VP (VBD were)
+                                    (ADVP (RB illegally))
+                                    (VP (VBN brought)
+                                      (PP (IN into)
+                                        (NP
+                                          (NP (DT the) (NN country))
+                                          (PP (IN on)
+                                            (NP (NNP April) (CD 21))))))))))))))))))))))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (DT the) (NN actor))
+        (VP (VBD returned)
+          (PP (TO to)
+            (NP (NNP Australia)))
+          (S
+            (VP (TO to)
+              (VP (VB continue)
+                (S
+                  (VP (VBG filming)
+                    (NP
+                      (NP (DT the) (JJS latest) (NN installment))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NNPS Pirates))
+                          (PP (IN of)
+                            (NP (DT the) (NNP Caribbean) (NN franchise))))))))))))))
+    (, ,)
+    (NP (JJ Dead) (NN Men))
+    (VP (VB Tell)
+      (NP (DT No) (NNS Tales)))
+    (. .)))
+
+root(ROOT-0, Tell-54)
+det(Morning-3, The-1)
+nn(Morning-3, Sydney-2)
+nsubj(Tell-54, Morning-3)
+nsubj(reports-5, Herald-4)
+rcmod(Morning-3, reports-5)
+mark(threatened-11, that-6)
+nn(Joyce-10, Agriculture-7)
+nn(Joyce-10, Minister-8)
+nn(Joyce-10, Barnaby-9)
+nsubj(threatened-11, Joyce-10)
+ccomp(reports-5, threatened-11)
+aux(put-13, to-12)
+xcomp(threatened-11, put-13)
+prt(put-13, down-14)
+poss(terriers-18, Depp-15)
+nn(terriers-18, Yorkshire-17)
+dobj(put-13, terriers-18)
+prepc_upon(put-13, discovering-20)
+nsubjpass(brought-24, they-21)
+auxpass(brought-24, were-22)
+advmod(brought-24, illegally-23)
+ccomp(discovering-20, brought-24)
+det(country-27, the-26)
+prep_into(brought-24, country-27)
+prep_on(country-27, April-29)
+num(April-29, 21-30)
+advmod(returned-35, when-32)
+det(actor-34, the-33)
+nsubj(returned-35, actor-34)
+advcl(Tell-54, returned-35)
+prep_to(returned-35, Australia-37)
+aux(continue-39, to-38)
+xcomp(returned-35, continue-39)
+xcomp(continue-39, filming-40)
+det(installment-43, the-41)
+amod(installment-43, latest-42)
+dobj(filming-40, installment-43)
+det(Pirates-46, the-45)
+prep_of(installment-43, Pirates-46)
+det(franchise-50, the-48)
+nn(franchise-50, Caribbean-49)
+prep_of(Pirates-46, franchise-50)
+amod(Men-53, Dead-52)
+nsubj(Tell-54, Men-53)
+neg(Tales-56, No-55)
+dobj(Tell-54, Tales-56)
+
+Sentence #6 (33 tokens):
+The two dogs were first discovered by authorities when photos of them at a grooming salon began circulating on social media, and they have since been safely evacuated to the U.S.
+[Text=The CharacterOffsetBegin=1185 CharacterOffsetEnd=1188 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=two CharacterOffsetBegin=1189 CharacterOffsetEnd=1192 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=dogs CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=NNS Lemma=dog NamedEntityTag=O] [Text=were CharacterOffsetBegin=1198 CharacterOffsetEnd=1202 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=first CharacterOffsetBegin=1203 CharacterOffsetEnd=1208 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=discovered CharacterOffsetBegin=1209 CharacterOffsetEnd=1219 PartOfSpeech=VBN Lemma=discover NamedEntityTag=O] [Text=by CharacterOffsetBegin=1220 CharacterOffsetEnd=1222 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=authorities CharacterOffsetBegin=1223 CharacterOffsetEnd=1234 PartOfSpeech=NNS Lemma=authority NamedEntityTag=O] [Text=when CharacterOffsetBegin=1235 CharacterOffsetEnd=1239 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=photos CharacterOffsetBegin=1240 CharacterOffsetEnd=1246 PartOfSpeech=NNS Lemma=photo NamedEntityTag=O] [Text=of CharacterOffsetBegin=1247 CharacterOffsetEnd=1249 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=them CharacterOffsetBegin=1250 CharacterOffsetEnd=1254 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=at CharacterOffsetBegin=1255 CharacterOffsetEnd=1257 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=1258 CharacterOffsetEnd=1259 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=grooming CharacterOffsetBegin=1260 CharacterOffsetEnd=1268 PartOfSpeech=VBG Lemma=groom NamedEntityTag=O] [Text=salon CharacterOffsetBegin=1269 CharacterOffsetEnd=1274 PartOfSpeech=NN Lemma=salon NamedEntityTag=O] [Text=began CharacterOffsetBegin=1275 CharacterOffsetEnd=1280 PartOfSpeech=VBD Lemma=begin NamedEntityTag=O] [Text=circulating CharacterOffsetBegin=1281 CharacterOffsetEnd=1292 PartOfSpeech=VBG Lemma=circulate NamedEntityTag=O] [Text=on CharacterOffsetBegin=1293 CharacterOffsetEnd=1295 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=social CharacterOffsetBegin=1296 CharacterOffsetEnd=1302 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=media CharacterOffsetBegin=1303 CharacterOffsetEnd=1308 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=, CharacterOffsetBegin=1308 CharacterOffsetEnd=1309 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1310 CharacterOffsetEnd=1313 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=they CharacterOffsetBegin=1314 CharacterOffsetEnd=1318 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=have CharacterOffsetBegin=1319 CharacterOffsetEnd=1323 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=since CharacterOffsetBegin=1324 CharacterOffsetEnd=1329 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=been CharacterOffsetBegin=1330 CharacterOffsetEnd=1334 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=safely CharacterOffsetBegin=1335 CharacterOffsetEnd=1341 PartOfSpeech=RB Lemma=safely NamedEntityTag=O] [Text=evacuated CharacterOffsetBegin=1342 CharacterOffsetEnd=1351 PartOfSpeech=VBN Lemma=evacuate NamedEntityTag=O] [Text=to CharacterOffsetBegin=1352 CharacterOffsetEnd=1354 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1355 CharacterOffsetEnd=1358 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=1359 CharacterOffsetEnd=1362 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1362 CharacterOffsetEnd=1363 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (CD two) (NNS dogs))
+      (VP (VBD were)
+        (ADVP (JJ first))
+        (VP (VBN discovered)
+          (PP (IN by)
+            (NP
+              (NP (NNS authorities))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP
+                    (NP (NNS photos))
+                    (PP (IN of)
+                      (NP
+                        (NP (PRP them))
+                        (PP (IN at)
+                          (NP (DT a) (VBG grooming) (NN salon))))))
+                  (VP (VBD began)
+                    (S
+                      (VP (VBG circulating)
+                        (PP (IN on)
+                          (NP (JJ social) (NNS media)))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP have)
+        (ADVP (IN since))
+        (VP (VBN been)
+          (VP
+            (ADVP (RB safely))
+            (VBN evacuated)
+            (PP (TO to)
+              (NP (DT the) (NNP U.S.)))))))
+    (. .)))
+
+root(ROOT-0, discovered-6)
+det(dogs-3, The-1)
+num(dogs-3, two-2)
+nsubjpass(discovered-6, dogs-3)
+auxpass(discovered-6, were-4)
+advmod(discovered-6, first-5)
+agent(discovered-6, authorities-8)
+advmod(began-17, when-9)
+nsubj(began-17, photos-10)
+prep_of(photos-10, them-12)
+det(salon-16, a-14)
+amod(salon-16, grooming-15)
+prep_at(them-12, salon-16)
+rcmod(authorities-8, began-17)
+xcomp(began-17, circulating-18)
+amod(media-21, social-20)
+prep_on(circulating-18, media-21)
+nsubjpass(evacuated-29, they-24)
+aux(evacuated-29, have-25)
+advmod(evacuated-29, since-26)
+auxpass(evacuated-29, been-27)
+advmod(evacuated-29, safely-28)
+conj_and(discovered-6, evacuated-29)
+det(U.S.-32, the-31)
+prep_to(evacuated-29, U.S.-32)
+
+Sentence #7 (14 tokens):
+The Agriculture Department is currently still investigating and no charges have been filed.
+[Text=The CharacterOffsetBegin=1364 CharacterOffsetEnd=1367 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Agriculture CharacterOffsetBegin=1368 CharacterOffsetEnd=1379 PartOfSpeech=NNP Lemma=Agriculture NamedEntityTag=ORGANIZATION] [Text=Department CharacterOffsetBegin=1380 CharacterOffsetEnd=1390 PartOfSpeech=NNP Lemma=Department NamedEntityTag=ORGANIZATION] [Text=is CharacterOffsetBegin=1391 CharacterOffsetEnd=1393 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=currently CharacterOffsetBegin=1394 CharacterOffsetEnd=1403 PartOfSpeech=RB Lemma=currently NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t10" type="DATE" value="PRESENT_REF">currently<_TIMEX3>] [Text=still CharacterOffsetBegin=1404 CharacterOffsetEnd=1409 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=investigating CharacterOffsetBegin=1410 CharacterOffsetEnd=1423 PartOfSpeech=VBG Lemma=investigate NamedEntityTag=O] [Text=and CharacterOffsetBegin=1424 CharacterOffsetEnd=1427 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=no CharacterOffsetBegin=1428 CharacterOffsetEnd=1430 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=charges CharacterOffsetBegin=1431 CharacterOffsetEnd=1438 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=have CharacterOffsetBegin=1439 CharacterOffsetEnd=1443 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1444 CharacterOffsetEnd=1448 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=filed CharacterOffsetBegin=1449 CharacterOffsetEnd=1454 PartOfSpeech=VBN Lemma=file NamedEntityTag=O] [Text=. CharacterOffsetBegin=1454 CharacterOffsetEnd=1455 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Agriculture) (NNP Department))
+      (VP (VBZ is)
+        (ADVP (RB currently))
+        (VP
+          (ADVP (RB still))
+          (VBG investigating))))
+    (CC and)
+    (S
+      (NP (DT no) (NNS charges))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN filed)))))
+    (. .)))
+
+root(ROOT-0, investigating-7)
+det(Department-3, The-1)
+nn(Department-3, Agriculture-2)
+nsubj(investigating-7, Department-3)
+aux(investigating-7, is-4)
+advmod(investigating-7, currently-5)
+advmod(investigating-7, still-6)
+neg(charges-10, no-9)
+nsubjpass(filed-13, charges-10)
+aux(filed-13, have-11)
+auxpass(filed-13, been-12)
+conj_and(investigating-7, filed-13)
+
+Sentence #8 (2 tokens):
+Must Reads
+[Text=Must CharacterOffsetBegin=1456 CharacterOffsetEnd=1460 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=Reads CharacterOffsetBegin=1461 CharacterOffsetEnd=1466 PartOfSpeech=NNS Lemma=read NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (VP (MD Must))
+    (NP (NNS Reads))))
+
+root(ROOT-0, Must-1)
+nsubj(Must-1, Reads-2)
+
+Coreference set:
+ (1,2,[1,3]) -> (2,9,[7,10]), that is: "Johnny Depp" -> "PDT Johnny Depp"
+ (5,15,[15,17]) -> (2,9,[7,10]), that is: "Depp _s" -> "PDT Johnny Depp"
+Coreference set:
+ (2,42,[42,43]) -> (1,27,[27,28]), that is: "Sydney" -> "Sydney"
+Coreference set:
+ (3,24,[23,25]) -> (1,6,[5,7]), that is: "the actor" -> "The actor"
+ (3,37,[37,38]) -> (1,6,[5,7]), that is: "his" -> "The actor"
+ (3,41,[41,42]) -> (1,6,[5,7]), that is: "his" -> "The actor"
+ (4,1,[1,2]) -> (1,6,[5,7]), that is: "His" -> "The actor"
+ (5,34,[33,35]) -> (1,6,[5,7]), that is: "the actor" -> "The actor"
+Coreference set:
+ (2,44,[41,45]) -> (1,29,[26,30]), that is: "the Sydney Morning Herald" -> "the Sydney Morning Herald"
+ (5,4,[2,5]) -> (1,29,[26,30]), that is: "Sydney Morning Herald" -> "the Sydney Morning Herald"
+Coreference set:
+ (4,18,[18,19]) -> (2,24,[24,25]), that is: "two" -> "two"
+ (6,2,[2,3]) -> (2,24,[24,25]), that is: "two" -> "two"
+Coreference set:
+ (2,23,[23,24]) -> (2,3,[2,4]), that is: "his" -> "THR Staff"
+Coreference set:
+ (2,27,[27,30]) -> (2,25,[23,26]), that is: "Pistol and Boo" -> "his two dogs"
+ (4,19,[17,20]) -> (2,25,[23,26]), that is: "the two dogs" -> "his two dogs"
+ (6,3,[1,4]) -> (2,25,[23,26]), that is: "The two dogs" -> "his two dogs"
+Coreference set:
+ (3,19,[19,20]) -> (3,4,[3,5]), that is: "it" -> "the report"
+Coreference set:
+ (3,47,[47,48]) -> (3,39,[37,40]), that is: "them" -> "his canine companions"
+Coreference set:
+ (5,21,[21,22]) -> (5,18,[15,19]), that is: "they" -> "Depp _s Yorkshire terriers"
+ (6,12,[12,17]) -> (5,18,[15,19]), that is: "them at a grooming salon" -> "Depp _s Yorkshire terriers"
+Coreference set:
+ (6,24,[24,25]) -> (6,8,[8,22]), that is: "they" -> "authorities when photos of them at a grooming salon began circulating on social media"

@@ -1,0 +1,950 @@
+Sentence #1 (14 tokens):
+Set Your Location (Enter City and State or Zip Code)
+Congratulations!
+[Text=Set CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=VB Lemma=set NamedEntityTag=O] [Text=Your CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=Location CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Location NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Enter CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VB Lemma=enter NamedEntityTag=O] [Text=City CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NNP Lemma=City NamedEntityTag=O] [Text=and CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=State CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=State NamedEntityTag=O] [Text=or CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=Zip CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Zip NamedEntityTag=O] [Text=Code CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Code NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=Congratulations CharacterOffsetBegin=53 CharacterOffsetEnd=68 PartOfSpeech=NNPS Lemma=Congratulations NamedEntityTag=O] [Text=! CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (SQ
+    (VP
+      (VP (VB Set)
+        (NP (PRP$ Your) (NNP Location)))
+      (PRN (-LRB- -LRB-)
+        (S
+          (VP (VB Enter)
+            (NP (NNP City)
+              (CC and)
+              (NNP State)
+              (CC or)
+              (NNP Zip) (NNP Code))))
+        (-RRB- -RRB-))
+      (NP (NNPS Congratulations)))
+    (. !)))
+
+root(ROOT-0, Set-1)
+poss(Location-3, Your-2)
+dobj(Set-1, Location-3)
+parataxis(Set-1, Enter-5)
+dobj(Enter-5, City-6)
+conj_and(City-6, State-8)
+nn(Code-11, Zip-10)
+conj_or(City-6, Code-11)
+dobj(Set-1, Congratulations-13)
+
+Sentence #2 (6 tokens):
+Your weather is set to .
+[Text=Your CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=weather CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=weather NamedEntityTag=O] [Text=is CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=set CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VBN Lemma=set NamedEntityTag=O] [Text=to CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ Your) (NN weather))
+    (VP (VBZ is)
+      (VP (VBN set)
+        (S
+          (VP (TO to)))))
+    (. .)))
+
+root(ROOT-0, set-4)
+poss(weather-2, Your-1)
+nsubjpass(set-4, weather-2)
+auxpass(set-4, is-3)
+xcomp(set-4, to-5)
+
+Sentence #3 (9 tokens):
+You can change the location at any time.
+[Text=You CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=change CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=location CharacterOffsetBegin=114 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=location NamedEntityTag=O] [Text=at CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=any CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=time CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=. CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB change)
+        (NP (DT the) (NN location))
+        (PP (IN at)
+          (NP (DT any) (NN time)))))
+    (. .)))
+
+root(ROOT-0, change-3)
+nsubj(change-3, You-1)
+aux(change-3, can-2)
+det(location-5, the-4)
+dobj(change-3, location-5)
+det(time-8, any-7)
+prep_at(change-3, time-8)
+
+Sentence #4 (9 tokens):
+AccuWeather.com Quick Look
+Don_t have an account?
+[Text=AccuWeather.com CharacterOffsetBegin=136 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=AccuWeather.com NamedEntityTag=O] [Text=Quick CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NNP Lemma=Quick NamedEntityTag=O] [Text=Look CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=VB Lemma=look NamedEntityTag=O] [Text=Do CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=an CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=account CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=NN Lemma=account NamedEntityTag=O] [Text=? CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP AccuWeather.com) (NNP Quick))
+    (VP (VB Look)
+      (SBAR
+        (S
+          (VP (VBP Do) (RB n_t)
+            (VP (VB have)
+              (NP (DT an) (NN account)))))))
+    (. ?)))
+
+root(ROOT-0, Look-3)
+nn(Quick-2, AccuWeather.com-1)
+nsubj(Look-3, Quick-2)
+aux(have-6, Do-4)
+neg(have-6, n_t-5)
+ccomp(Look-3, have-6)
+det(account-8, an-7)
+dobj(have-6, account-8)
+
+Sentence #5 (42 tokens):
+Favorite Schools
+comments
+Heat wave in India kills more than 1,100; temperatures near 122 degrees
+Intense heat has killed more than 1,100 people in India within days, causing roads to melt in New Delhi as temperatures neared 122 degrees.
+[Text=Favorite CharacterOffsetBegin=186 CharacterOffsetEnd=194 PartOfSpeech=NNP Lemma=Favorite NamedEntityTag=O] [Text=Schools CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=NNP Lemma=Schools NamedEntityTag=O] [Text=comments CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=Heat CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=NNP Lemma=Heat NamedEntityTag=O] [Text=wave CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=in CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=India CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=kills CharacterOffsetBegin=231 CharacterOffsetEnd=236 PartOfSpeech=VBZ Lemma=kill NamedEntityTag=O] [Text=more CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=1,100 CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=CD Lemma=1,100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>1100.0] [Text=; CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=temperatures CharacterOffsetBegin=254 CharacterOffsetEnd=266 PartOfSpeech=NNS Lemma=temperature NamedEntityTag=O] [Text=near CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=IN Lemma=near NamedEntityTag=O] [Text=122 CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=CD Lemma=122 NamedEntityTag=NUMBER NormalizedNamedEntityTag=122.0] [Text=degrees CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=NNS Lemma=degree NamedEntityTag=O] [Text=Intense CharacterOffsetBegin=284 CharacterOffsetEnd=291 PartOfSpeech=JJ Lemma=intense NamedEntityTag=O] [Text=heat CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=has CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=killed CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O] [Text=more CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=1,100 CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=CD Lemma=1,100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>1100.0] [Text=people CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=in CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=India CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NNP Lemma=India NamedEntityTag=LOCATION] [Text=within CharacterOffsetBegin=340 CharacterOffsetEnd=346 PartOfSpeech=IN Lemma=within NamedEntityTag=O] [Text=days CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t1" type="DURATION" value="PXD">days<_TIMEX3>] [Text=, CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=causing CharacterOffsetBegin=353 CharacterOffsetEnd=360 PartOfSpeech=VBG Lemma=cause NamedEntityTag=O] [Text=roads CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=NNS Lemma=road NamedEntityTag=O] [Text=to CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=melt CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=VB Lemma=melt NamedEntityTag=O] [Text=in CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=New CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=NNP Lemma=New NamedEntityTag=LOCATION] [Text=Delhi CharacterOffsetBegin=382 CharacterOffsetEnd=387 PartOfSpeech=NNP Lemma=Delhi NamedEntityTag=LOCATION] [Text=as CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=temperatures CharacterOffsetBegin=391 CharacterOffsetEnd=403 PartOfSpeech=NNS Lemma=temperature NamedEntityTag=O] [Text=neared CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=VBD Lemma=near NamedEntityTag=O] [Text=122 CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=CD Lemma=122 NamedEntityTag=NUMBER NormalizedNamedEntityTag=122.0] [Text=degrees CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=NNS Lemma=degree NamedEntityTag=O] [Text=. CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Favorite) (NNP Schools) (NNS comments) (NNP Heat) (NN wave))
+        (PP (IN in)
+          (NP (NNP India))))
+      (VP (VBZ kills)
+        (NP
+          (QP (JJR more) (IN than) (CD 1,100)))))
+    (: ;)
+    (S
+      (NP
+        (NP (NNS temperatures))
+        (PP (IN near)
+          (NP
+            (NP (CD 122) (NNS degrees))
+            (NP (JJ Intense) (NN heat)))))
+      (VP (VBZ has)
+        (VP (VBN killed)
+          (NP
+            (NP
+              (QP (JJR more) (IN than) (CD 1,100))
+              (NNS people))
+            (PP (IN in)
+              (NP (NNP India))))
+          (PP (IN within)
+            (NP (NNS days)))
+          (, ,)
+          (S
+            (VP (VBG causing)
+              (NP (NNS roads))
+              (S
+                (VP (TO to)
+                  (VP (VB melt)
+                    (PP (IN in)
+                      (NP (NNP New) (NNP Delhi)))
+                    (SBAR (IN as)
+                      (S
+                        (NP (NNS temperatures))
+                        (VP (VBD neared)
+                          (NP (CD 122) (NNS degrees)))))))))))))
+    (. .)))
+
+root(ROOT-0, kills-8)
+nn(wave-5, Favorite-1)
+nn(wave-5, Schools-2)
+nn(wave-5, comments-3)
+nn(wave-5, Heat-4)
+nsubj(kills-8, wave-5)
+prep_in(wave-5, India-7)
+mwe(than-10, more-9)
+quantmod(1,100-11, than-10)
+dobj(kills-8, 1,100-11)
+nsubj(killed-20, temperatures-13)
+num(degrees-16, 122-15)
+prep_near(temperatures-13, degrees-16)
+amod(heat-18, Intense-17)
+dep(degrees-16, heat-18)
+aux(killed-20, has-19)
+parataxis(kills-8, killed-20)
+mwe(than-22, more-21)
+quantmod(1,100-23, than-22)
+num(people-24, 1,100-23)
+dobj(killed-20, people-24)
+prep_in(people-24, India-26)
+prep_within(killed-20, days-28)
+vmod(killed-20, causing-30)
+dobj(causing-30, roads-31)
+aux(melt-33, to-32)
+vmod(causing-30, melt-33)
+nn(Delhi-36, New-35)
+prep_in(melt-33, Delhi-36)
+mark(neared-39, as-37)
+nsubj(neared-39, temperatures-38)
+advcl(melt-33, neared-39)
+num(degrees-41, 122-40)
+dobj(neared-39, degrees-41)
+
+Sentence #6 (17 tokens):
+CNN reports the southeastern state of Andhra Pradesh has seen 852 deaths in the heat wave.
+[Text=CNN CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=NNP Lemma=CNN NamedEntityTag=ORGANIZATION] [Text=reports CharacterOffsetBegin=428 CharacterOffsetEnd=435 PartOfSpeech=VBZ Lemma=report NamedEntityTag=O] [Text=the CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=southeastern CharacterOffsetBegin=440 CharacterOffsetEnd=452 PartOfSpeech=JJ Lemma=southeastern NamedEntityTag=O] [Text=state CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=of CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Andhra CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=NNP Lemma=Andhra NamedEntityTag=LOCATION] [Text=Pradesh CharacterOffsetBegin=469 CharacterOffsetEnd=476 PartOfSpeech=NNP Lemma=Pradesh NamedEntityTag=LOCATION] [Text=has CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=852 CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=CD Lemma=852 NamedEntityTag=NUMBER NormalizedNamedEntityTag=852.0] [Text=deaths CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=NNS Lemma=death NamedEntityTag=O] [Text=in CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heat CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=wave CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP CNN))
+    (VP (VBZ reports)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (JJ southeastern) (NN state))
+            (PP (IN of)
+              (NP (NNP Andhra) (NNP Pradesh))))
+          (VP (VBZ has)
+            (VP (VBN seen)
+              (NP
+                (NP (CD 852) (NNS deaths))
+                (PP (IN in)
+                  (NP (DT the) (NN heat) (NN wave)))))))))
+    (. .)))
+
+root(ROOT-0, reports-2)
+nsubj(reports-2, CNN-1)
+det(state-5, the-3)
+amod(state-5, southeastern-4)
+nsubj(seen-10, state-5)
+nn(Pradesh-8, Andhra-7)
+prep_of(state-5, Pradesh-8)
+aux(seen-10, has-9)
+ccomp(reports-2, seen-10)
+num(deaths-12, 852-11)
+dobj(seen-10, deaths-12)
+det(wave-16, the-14)
+nn(wave-16, heat-15)
+prep_in(deaths-12, wave-16)
+
+Sentence #7 (17 tokens):
+In the neighboring state of Telangana, another 266 people have died from the extreme temperatures.
+[Text=In CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=neighboring CharacterOffsetBegin=522 CharacterOffsetEnd=533 PartOfSpeech=JJ Lemma=neighboring NamedEntityTag=O] [Text=state CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=of CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Telangana CharacterOffsetBegin=543 CharacterOffsetEnd=552 PartOfSpeech=NNP Lemma=Telangana NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=another CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=266 CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=CD Lemma=266 NamedEntityTag=NUMBER NormalizedNamedEntityTag=266.0] [Text=people CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=have CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=died CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=VBN Lemma=die NamedEntityTag=O] [Text=from CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=extreme CharacterOffsetBegin=592 CharacterOffsetEnd=599 PartOfSpeech=JJ Lemma=extreme NamedEntityTag=O] [Text=temperatures CharacterOffsetBegin=600 CharacterOffsetEnd=612 PartOfSpeech=NNS Lemma=temperature NamedEntityTag=O] [Text=. CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the) (JJ neighboring) (NN state))
+        (PP (IN of)
+          (NP (NNP Telangana)))))
+    (, ,)
+    (NP (DT another) (CD 266) (NNS people))
+    (VP (VBP have)
+      (VP (VBN died)
+        (PP (IN from)
+          (NP (DT the) (JJ extreme) (NNS temperatures)))))
+    (. .)))
+
+root(ROOT-0, died-12)
+det(state-4, the-2)
+amod(state-4, neighboring-3)
+prep_in(died-12, state-4)
+prep_of(state-4, Telangana-6)
+det(people-10, another-8)
+num(people-10, 266-9)
+nsubj(died-12, people-10)
+aux(died-12, have-11)
+det(temperatures-16, the-14)
+amod(temperatures-16, extreme-15)
+prep_from(died-12, temperatures-16)
+
+Sentence #8 (13 tokens):
+Hospitals are on alert to treat victims of heatstroke, AFP says.
+[Text=Hospitals CharacterOffsetBegin=614 CharacterOffsetEnd=623 PartOfSpeech=NNS Lemma=hospital NamedEntityTag=O] [Text=are CharacterOffsetBegin=624 CharacterOffsetEnd=627 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=on CharacterOffsetBegin=628 CharacterOffsetEnd=630 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=alert CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=JJ Lemma=alert NamedEntityTag=O] [Text=to CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=treat CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=VB Lemma=treat NamedEntityTag=O] [Text=victims CharacterOffsetBegin=646 CharacterOffsetEnd=653 PartOfSpeech=NNS Lemma=victim NamedEntityTag=O] [Text=of CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=heatstroke CharacterOffsetBegin=657 CharacterOffsetEnd=667 PartOfSpeech=NN Lemma=heatstroke NamedEntityTag=O] [Text=, CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=AFP CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=NN Lemma=afp NamedEntityTag=O] [Text=says CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=677 CharacterOffsetEnd=678 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNS Hospitals))
+      (VP (VBP are)
+        (ADVP (IN on))
+        (ADJP (JJ alert)
+          (S
+            (VP (TO to)
+              (VP (VB treat)
+                (NP
+                  (NP (NNS victims))
+                  (PP (IN of)
+                    (NP (NN heatstroke))))))))))
+    (, ,)
+    (NP (NN AFP))
+    (VP (VBZ says))
+    (. .)))
+
+root(ROOT-0, says-12)
+nsubj(alert-4, Hospitals-1)
+cop(alert-4, are-2)
+advmod(alert-4, on-3)
+ccomp(says-12, alert-4)
+aux(treat-6, to-5)
+xcomp(alert-4, treat-6)
+dobj(treat-6, victims-7)
+prep_of(victims-7, heatstroke-9)
+nsubj(says-12, AFP-11)
+
+Sentence #9 (19 tokens):
+Authorities advised people to stay indoors, as they are unsure when to the searing conditions will end.
+[Text=Authorities CharacterOffsetBegin=679 CharacterOffsetEnd=690 PartOfSpeech=NNP Lemma=Authorities NamedEntityTag=O] [Text=advised CharacterOffsetBegin=691 CharacterOffsetEnd=698 PartOfSpeech=VBD Lemma=advise NamedEntityTag=O] [Text=people CharacterOffsetBegin=699 CharacterOffsetEnd=705 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=to CharacterOffsetBegin=706 CharacterOffsetEnd=708 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stay CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=VB Lemma=stay NamedEntityTag=O] [Text=indoors CharacterOffsetBegin=714 CharacterOffsetEnd=721 PartOfSpeech=RB Lemma=indoors NamedEntityTag=O] [Text=, CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=they CharacterOffsetBegin=726 CharacterOffsetEnd=730 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=are CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=unsure CharacterOffsetBegin=735 CharacterOffsetEnd=741 PartOfSpeech=JJ Lemma=unsure NamedEntityTag=O] [Text=when CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=to CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=searing CharacterOffsetBegin=754 CharacterOffsetEnd=761 PartOfSpeech=JJ Lemma=searing NamedEntityTag=O] [Text=conditions CharacterOffsetBegin=762 CharacterOffsetEnd=772 PartOfSpeech=NNS Lemma=condition NamedEntityTag=O] [Text=will CharacterOffsetBegin=773 CharacterOffsetEnd=777 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=end CharacterOffsetBegin=778 CharacterOffsetEnd=781 PartOfSpeech=VB Lemma=end NamedEntityTag=O] [Text=. CharacterOffsetBegin=781 CharacterOffsetEnd=782 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Authorities))
+    (VP (VBD advised)
+      (NP (NNS people))
+      (S
+        (VP (TO to)
+          (VP (VB stay)
+            (ADVP (RB indoors)))))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (JJ unsure)
+              (SBAR
+                (WHADVP (WRB when)
+                  (PP (TO to)
+                    (NP (DT the) (JJ searing) (NNS conditions))))
+                (S
+                  (VP (MD will)
+                    (VP (VB end))))))))))
+    (. .)))
+
+root(ROOT-0, advised-2)
+nsubj(advised-2, Authorities-1)
+dobj(advised-2, people-3)
+aux(stay-5, to-4)
+xcomp(advised-2, stay-5)
+advmod(stay-5, indoors-6)
+mark(unsure-11, as-8)
+nsubj(unsure-11, they-9)
+cop(unsure-11, are-10)
+advcl(advised-2, unsure-11)
+advmod(end-18, when-12)
+det(conditions-16, the-14)
+amod(conditions-16, searing-15)
+prep_to(when-12, conditions-16)
+aux(end-18, will-17)
+ccomp(unsure-11, end-18)
+
+Sentence #10 (40 tokens):
+P. Tulsi Rani, special commissioner for disaster management in Andhra Pradesh, says the state government has released public service announcements urging people not to go outside without a hat and to drink water, among other measures.
+[Text=P. CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=NNP Lemma=P. NamedEntityTag=PERSON] [Text=Tulsi CharacterOffsetBegin=786 CharacterOffsetEnd=791 PartOfSpeech=NNP Lemma=Tulsi NamedEntityTag=PERSON] [Text=Rani CharacterOffsetBegin=792 CharacterOffsetEnd=796 PartOfSpeech=NNP Lemma=Rani NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=special CharacterOffsetBegin=798 CharacterOffsetEnd=805 PartOfSpeech=JJ Lemma=special NamedEntityTag=O] [Text=commissioner CharacterOffsetBegin=806 CharacterOffsetEnd=818 PartOfSpeech=NN Lemma=commissioner NamedEntityTag=O] [Text=for CharacterOffsetBegin=819 CharacterOffsetEnd=822 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=disaster CharacterOffsetBegin=823 CharacterOffsetEnd=831 PartOfSpeech=NN Lemma=disaster NamedEntityTag=O] [Text=management CharacterOffsetBegin=832 CharacterOffsetEnd=842 PartOfSpeech=NN Lemma=management NamedEntityTag=O] [Text=in CharacterOffsetBegin=843 CharacterOffsetEnd=845 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Andhra CharacterOffsetBegin=846 CharacterOffsetEnd=852 PartOfSpeech=NNP Lemma=Andhra NamedEntityTag=LOCATION] [Text=Pradesh CharacterOffsetBegin=853 CharacterOffsetEnd=860 PartOfSpeech=NNP Lemma=Pradesh NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=860 CharacterOffsetEnd=861 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=says CharacterOffsetBegin=862 CharacterOffsetEnd=866 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=867 CharacterOffsetEnd=870 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=state CharacterOffsetBegin=871 CharacterOffsetEnd=876 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=government CharacterOffsetBegin=877 CharacterOffsetEnd=887 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=has CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=released CharacterOffsetBegin=892 CharacterOffsetEnd=900 PartOfSpeech=VBN Lemma=release NamedEntityTag=O] [Text=public CharacterOffsetBegin=901 CharacterOffsetEnd=907 PartOfSpeech=JJ Lemma=public NamedEntityTag=O] [Text=service CharacterOffsetBegin=908 CharacterOffsetEnd=915 PartOfSpeech=NN Lemma=service NamedEntityTag=O] [Text=announcements CharacterOffsetBegin=916 CharacterOffsetEnd=929 PartOfSpeech=NNS Lemma=announcement NamedEntityTag=O] [Text=urging CharacterOffsetBegin=930 CharacterOffsetEnd=936 PartOfSpeech=VBG Lemma=urge NamedEntityTag=O] [Text=people CharacterOffsetBegin=937 CharacterOffsetEnd=943 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=not CharacterOffsetBegin=944 CharacterOffsetEnd=947 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=to CharacterOffsetBegin=948 CharacterOffsetEnd=950 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=go CharacterOffsetBegin=951 CharacterOffsetEnd=953 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=outside CharacterOffsetBegin=954 CharacterOffsetEnd=961 PartOfSpeech=RB Lemma=outside NamedEntityTag=O] [Text=without CharacterOffsetBegin=962 CharacterOffsetEnd=969 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=a CharacterOffsetBegin=970 CharacterOffsetEnd=971 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=hat CharacterOffsetBegin=972 CharacterOffsetEnd=975 PartOfSpeech=NN Lemma=hat NamedEntityTag=O] [Text=and CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=to CharacterOffsetBegin=980 CharacterOffsetEnd=982 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=drink CharacterOffsetBegin=983 CharacterOffsetEnd=988 PartOfSpeech=VB Lemma=drink NamedEntityTag=O] [Text=water CharacterOffsetBegin=989 CharacterOffsetEnd=994 PartOfSpeech=NN Lemma=water NamedEntityTag=O] [Text=, CharacterOffsetBegin=994 CharacterOffsetEnd=995 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=among CharacterOffsetBegin=996 CharacterOffsetEnd=1001 PartOfSpeech=IN Lemma=among NamedEntityTag=O] [Text=other CharacterOffsetBegin=1002 CharacterOffsetEnd=1007 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=measures CharacterOffsetBegin=1008 CharacterOffsetEnd=1016 PartOfSpeech=NNS Lemma=measure NamedEntityTag=O] [Text=. CharacterOffsetBegin=1016 CharacterOffsetEnd=1017 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP P.) (NNP Tulsi) (NNP Rani))
+      (, ,)
+      (NP
+        (NP (JJ special) (NN commissioner))
+        (PP (IN for)
+          (NP
+            (NP (NN disaster) (NN management))
+            (PP (IN in)
+              (NP (NNP Andhra) (NNP Pradesh))))))
+      (, ,))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT the) (NN state) (NN government))
+          (VP (VBZ has)
+            (VP (VBN released)
+              (NP (JJ public) (NN service) (NNS announcements))
+              (S
+                (VP (VBG urging)
+                  (NP (NNS people))
+                  (S (RB not)
+                    (VP
+                      (VP (TO to)
+                        (VP (VB go)
+                          (ADVP (RB outside))
+                          (PP (IN without)
+                            (NP (DT a) (NN hat)))))
+                      (CC and)
+                      (VP (TO to)
+                        (VP (VB drink)
+                          (NP (NN water))))))))
+              (, ,)
+              (PP (IN among)
+                (NP (JJ other) (NNS measures))))))))
+    (. .)))
+
+root(ROOT-0, says-14)
+nn(Rani-3, P.-1)
+nn(Rani-3, Tulsi-2)
+nsubj(says-14, Rani-3)
+amod(commissioner-6, special-5)
+appos(Rani-3, commissioner-6)
+nn(management-9, disaster-8)
+prep_for(commissioner-6, management-9)
+nn(Pradesh-12, Andhra-11)
+prep_in(management-9, Pradesh-12)
+det(government-17, the-15)
+nn(government-17, state-16)
+nsubj(released-19, government-17)
+aux(released-19, has-18)
+ccomp(says-14, released-19)
+amod(announcements-22, public-20)
+nn(announcements-22, service-21)
+dobj(released-19, announcements-22)
+xcomp(released-19, urging-23)
+dobj(urging-23, people-24)
+neg(go-27, not-25)
+aux(go-27, to-26)
+dep(urging-23, go-27)
+advmod(go-27, outside-28)
+det(hat-31, a-30)
+prep_without(go-27, hat-31)
+aux(drink-34, to-33)
+conj_and(go-27, drink-34)
+dobj(drink-34, water-35)
+amod(measures-39, other-38)
+prep_among(released-19, measures-39)
+
+Sentence #11 (23 tokens):
+The heat is expected to continue for at least two more days before letting up, the meteorological department warns on Tuesday.
+[Text=The CharacterOffsetBegin=1018 CharacterOffsetEnd=1021 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heat CharacterOffsetBegin=1022 CharacterOffsetEnd=1026 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=is CharacterOffsetBegin=1027 CharacterOffsetEnd=1029 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=1030 CharacterOffsetEnd=1038 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=1039 CharacterOffsetEnd=1041 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=continue CharacterOffsetBegin=1042 CharacterOffsetEnd=1050 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=for CharacterOffsetBegin=1051 CharacterOffsetEnd=1054 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=at CharacterOffsetBegin=1055 CharacterOffsetEnd=1057 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=least CharacterOffsetBegin=1058 CharacterOffsetEnd=1063 PartOfSpeech=JJS Lemma=least NamedEntityTag=O] [Text=two CharacterOffsetBegin=1064 CharacterOffsetEnd=1067 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=>=2.0] [Text=more CharacterOffsetBegin=1068 CharacterOffsetEnd=1072 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=days CharacterOffsetBegin=1073 CharacterOffsetEnd=1077 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t2" type="DURATION" value="PXD">days<_TIMEX3>] [Text=before CharacterOffsetBegin=1078 CharacterOffsetEnd=1084 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=letting CharacterOffsetBegin=1085 CharacterOffsetEnd=1092 PartOfSpeech=VBG Lemma=let NamedEntityTag=O] [Text=up CharacterOffsetBegin=1093 CharacterOffsetEnd=1095 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=, CharacterOffsetBegin=1095 CharacterOffsetEnd=1096 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=meteorological CharacterOffsetBegin=1101 CharacterOffsetEnd=1115 PartOfSpeech=JJ Lemma=meteorological NamedEntityTag=O] [Text=department CharacterOffsetBegin=1116 CharacterOffsetEnd=1126 PartOfSpeech=NN Lemma=department NamedEntityTag=O] [Text=warns CharacterOffsetBegin=1127 CharacterOffsetEnd=1132 PartOfSpeech=VBZ Lemma=warn NamedEntityTag=O] [Text=on CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=1136 CharacterOffsetEnd=1143 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=. CharacterOffsetBegin=1143 CharacterOffsetEnd=1144 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN heat))
+      (VP (VBZ is)
+        (VP (VBN expected)
+          (S
+            (VP (TO to)
+              (VP (VB continue)
+                (PP (IN for)
+                  (NP
+                    (QP (IN at) (JJS least) (CD two) (JJR more))
+                    (NNS days)))
+                (PP (IN before)
+                  (S
+                    (VP (VBG letting)
+                      (PRT (RP up)))))))))))
+    (, ,)
+    (NP (DT the) (JJ meteorological) (NN department))
+    (VP (VBZ warns)
+      (PP (IN on)
+        (NP (NNP Tuesday))))
+    (. .)))
+
+root(ROOT-0, warns-20)
+det(heat-2, The-1)
+nsubjpass(expected-4, heat-2)
+auxpass(expected-4, is-3)
+ccomp(warns-20, expected-4)
+aux(continue-6, to-5)
+xcomp(expected-4, continue-6)
+quantmod(two-10, at-8)
+mwe(at-8, least-9)
+num(days-12, two-10)
+quantmod(two-10, more-11)
+prep_for(continue-6, days-12)
+prepc_before(continue-6, letting-14)
+prt(letting-14, up-15)
+det(department-19, the-17)
+amod(department-19, meteorological-18)
+nsubj(warns-20, department-19)
+prep_on(warns-20, Tuesday-22)
+
+Sentence #12 (14 tokens):
+However, the agency tells CNN that another hot spell could likely follow.
+[Text=However CharacterOffsetBegin=1145 CharacterOffsetEnd=1152 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=1152 CharacterOffsetEnd=1153 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1154 CharacterOffsetEnd=1157 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=agency CharacterOffsetBegin=1158 CharacterOffsetEnd=1164 PartOfSpeech=NN Lemma=agency NamedEntityTag=O] [Text=tells CharacterOffsetBegin=1165 CharacterOffsetEnd=1170 PartOfSpeech=VBZ Lemma=tell NamedEntityTag=O] [Text=CNN CharacterOffsetBegin=1171 CharacterOffsetEnd=1174 PartOfSpeech=NNP Lemma=CNN NamedEntityTag=ORGANIZATION] [Text=that CharacterOffsetBegin=1175 CharacterOffsetEnd=1179 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=another CharacterOffsetBegin=1180 CharacterOffsetEnd=1187 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=hot CharacterOffsetBegin=1188 CharacterOffsetEnd=1191 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O] [Text=spell CharacterOffsetBegin=1192 CharacterOffsetEnd=1197 PartOfSpeech=NN Lemma=spell NamedEntityTag=O] [Text=could CharacterOffsetBegin=1198 CharacterOffsetEnd=1203 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=likely CharacterOffsetBegin=1204 CharacterOffsetEnd=1210 PartOfSpeech=RB Lemma=likely NamedEntityTag=O] [Text=follow CharacterOffsetBegin=1211 CharacterOffsetEnd=1217 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=. CharacterOffsetBegin=1217 CharacterOffsetEnd=1218 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT the) (NN agency))
+    (VP (VBZ tells)
+      (NP (NNP CNN))
+      (SBAR (IN that)
+        (S
+          (NP (DT another) (JJ hot) (NN spell))
+          (VP (MD could)
+            (ADVP (RB likely))
+            (VP (VB follow))))))
+    (. .)))
+
+root(ROOT-0, tells-5)
+advmod(tells-5, However-1)
+det(agency-4, the-3)
+nsubj(tells-5, agency-4)
+dobj(tells-5, CNN-6)
+mark(follow-13, that-7)
+det(spell-10, another-8)
+amod(spell-10, hot-9)
+nsubj(follow-13, spell-10)
+aux(follow-13, could-11)
+advmod(follow-13, likely-12)
+ccomp(tells-5, follow-13)
+
+Sentence #13 (23 tokens):
+Alfred Innes, who lives in Telangana_s capital of Hyderabad, says citizens have received little aid throughout the heat wave.
+[Text=Alfred CharacterOffsetBegin=1219 CharacterOffsetEnd=1225 PartOfSpeech=NNP Lemma=Alfred NamedEntityTag=PERSON] [Text=Innes CharacterOffsetBegin=1226 CharacterOffsetEnd=1231 PartOfSpeech=NNP Lemma=Innes NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1231 CharacterOffsetEnd=1232 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=1233 CharacterOffsetEnd=1236 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=lives CharacterOffsetBegin=1237 CharacterOffsetEnd=1242 PartOfSpeech=VBZ Lemma=live NamedEntityTag=O] [Text=in CharacterOffsetBegin=1243 CharacterOffsetEnd=1245 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Telangana CharacterOffsetBegin=1246 CharacterOffsetEnd=1255 PartOfSpeech=NNP Lemma=Telangana NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=1255 CharacterOffsetEnd=1257 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=capital CharacterOffsetBegin=1258 CharacterOffsetEnd=1265 PartOfSpeech=NN Lemma=capital NamedEntityTag=O] [Text=of CharacterOffsetBegin=1266 CharacterOffsetEnd=1268 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Hyderabad CharacterOffsetBegin=1269 CharacterOffsetEnd=1278 PartOfSpeech=NNP Lemma=Hyderabad NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1278 CharacterOffsetEnd=1279 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=says CharacterOffsetBegin=1280 CharacterOffsetEnd=1284 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=citizens CharacterOffsetBegin=1285 CharacterOffsetEnd=1293 PartOfSpeech=NNS Lemma=citizen NamedEntityTag=O] [Text=have CharacterOffsetBegin=1294 CharacterOffsetEnd=1298 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=received CharacterOffsetBegin=1299 CharacterOffsetEnd=1307 PartOfSpeech=VBN Lemma=receive NamedEntityTag=O] [Text=little CharacterOffsetBegin=1308 CharacterOffsetEnd=1314 PartOfSpeech=JJ Lemma=little NamedEntityTag=O] [Text=aid CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=NN Lemma=aid NamedEntityTag=O] [Text=throughout CharacterOffsetBegin=1319 CharacterOffsetEnd=1329 PartOfSpeech=IN Lemma=throughout NamedEntityTag=O] [Text=the CharacterOffsetBegin=1330 CharacterOffsetEnd=1333 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heat CharacterOffsetBegin=1334 CharacterOffsetEnd=1338 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=wave CharacterOffsetBegin=1339 CharacterOffsetEnd=1343 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=. CharacterOffsetBegin=1343 CharacterOffsetEnd=1344 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Alfred) (NNP Innes))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ lives)
+            (PP (IN in)
+              (NP
+                (NP
+                  (NP (NNP Telangana) (POS _s))
+                  (NN capital))
+                (PP (IN of)
+                  (NP (NNP Hyderabad))))))))
+      (, ,))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (NNS citizens))
+          (VP (VBP have)
+            (VP (VBN received)
+              (NP (JJ little) (NN aid))
+              (PP (IN throughout)
+                (NP (DT the) (NN heat) (NN wave))))))))
+    (. .)))
+
+root(ROOT-0, says-13)
+nn(Innes-2, Alfred-1)
+nsubj(says-13, Innes-2)
+nsubj(lives-5, who-4)
+rcmod(Innes-2, lives-5)
+poss(capital-9, Telangana-7)
+prep_in(lives-5, capital-9)
+prep_of(capital-9, Hyderabad-11)
+nsubj(received-16, citizens-14)
+aux(received-16, have-15)
+ccomp(says-13, received-16)
+amod(aid-18, little-17)
+dobj(received-16, aid-18)
+det(wave-22, the-20)
+nn(wave-22, heat-21)
+prep_throughout(received-16, wave-22)
+
+Sentence #14 (24 tokens):
+"I have personally witnessed the death of a three-year-old very close to where I stay and that was because of severe heat.
+[Text=`` CharacterOffsetBegin=1345 CharacterOffsetEnd=1346 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1346 CharacterOffsetEnd=1347 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=1348 CharacterOffsetEnd=1352 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=personally CharacterOffsetBegin=1353 CharacterOffsetEnd=1363 PartOfSpeech=RB Lemma=personally NamedEntityTag=O] [Text=witnessed CharacterOffsetBegin=1364 CharacterOffsetEnd=1373 PartOfSpeech=VBN Lemma=witness NamedEntityTag=O] [Text=the CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=death CharacterOffsetBegin=1378 CharacterOffsetEnd=1383 PartOfSpeech=NN Lemma=death NamedEntityTag=O] [Text=of CharacterOffsetBegin=1384 CharacterOffsetEnd=1386 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1387 CharacterOffsetEnd=1388 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=three-year-old CharacterOffsetBegin=1389 CharacterOffsetEnd=1403 PartOfSpeech=JJ Lemma=three-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P3Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P3Y">three-year-old<_TIMEX3>] [Text=very CharacterOffsetBegin=1404 CharacterOffsetEnd=1408 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=close CharacterOffsetBegin=1409 CharacterOffsetEnd=1414 PartOfSpeech=RB Lemma=close NamedEntityTag=O] [Text=to CharacterOffsetBegin=1415 CharacterOffsetEnd=1417 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=where CharacterOffsetBegin=1418 CharacterOffsetEnd=1423 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=I CharacterOffsetBegin=1424 CharacterOffsetEnd=1425 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=stay CharacterOffsetBegin=1426 CharacterOffsetEnd=1430 PartOfSpeech=VBP Lemma=stay NamedEntityTag=O] [Text=and CharacterOffsetBegin=1431 CharacterOffsetEnd=1434 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=that CharacterOffsetBegin=1435 CharacterOffsetEnd=1439 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=was CharacterOffsetBegin=1440 CharacterOffsetEnd=1443 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=because CharacterOffsetBegin=1444 CharacterOffsetEnd=1451 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=of CharacterOffsetBegin=1452 CharacterOffsetEnd=1454 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=severe CharacterOffsetBegin=1455 CharacterOffsetEnd=1461 PartOfSpeech=JJ Lemma=severe NamedEntityTag=O] [Text=heat CharacterOffsetBegin=1462 CharacterOffsetEnd=1466 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=. CharacterOffsetBegin=1466 CharacterOffsetEnd=1467 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (ADVP (RB personally))
+        (VP (VBN witnessed)
+          (S
+            (NP
+              (NP (DT the) (NN death))
+              (PP (IN of)
+                (NP (DT a) (JJ three-year-old)))))
+          (ADVP (RB very) (RB close)
+            (PP (TO to)
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP (PRP I))
+                  (VP (VBP stay)))))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBD was)
+        (PP (IN because)
+          (PP (IN of)
+            (NP (JJ severe) (NN heat))))))
+    (. .)))
+
+root(ROOT-0, witnessed-5)
+nsubj(witnessed-5, I-2)
+aux(witnessed-5, have-3)
+advmod(witnessed-5, personally-4)
+det(death-7, the-6)
+xcomp(witnessed-5, death-7)
+det(three-year-old-10, a-9)
+prep_of(death-7, three-year-old-10)
+advmod(witnessed-5, very-11)
+advmod(stay-16, where-14)
+nsubj(stay-16, I-15)
+prepc_close_to(witnessed-5, stay-16)
+nsubj(was-19, that-18)
+conj_and(witnessed-5, was-19)
+prepc_because_of(was-19, of-21)
+amod(heat-23, severe-22)
+pobj(was-19, heat-23)
+
+Sentence #15 (10 tokens):
+It_s very sad," he tells BBC .
+[Text=It CharacterOffsetBegin=1468 CharacterOffsetEnd=1470 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1470 CharacterOffsetEnd=1472 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=1473 CharacterOffsetEnd=1477 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=sad CharacterOffsetBegin=1478 CharacterOffsetEnd=1481 PartOfSpeech=JJ Lemma=sad NamedEntityTag=O] [Text=, CharacterOffsetBegin=1481 CharacterOffsetEnd=1482 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1482 CharacterOffsetEnd=1483 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=he CharacterOffsetBegin=1484 CharacterOffsetEnd=1486 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=tells CharacterOffsetBegin=1487 CharacterOffsetEnd=1492 PartOfSpeech=VBZ Lemma=tell NamedEntityTag=O] [Text=BBC CharacterOffsetBegin=1493 CharacterOffsetEnd=1496 PartOfSpeech=NNP Lemma=BBC NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1497 CharacterOffsetEnd=1498 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ _s)
+        (ADJP (RB very) (JJ sad))))
+    (, ,) (__ __)
+    (NP (PRP he))
+    (VP (VBZ tells)
+      (NP (NNP BBC)))
+    (. .)))
+
+root(ROOT-0, tells-8)
+nsubj(sad-4, It-1)
+cop(sad-4, _s-2)
+advmod(sad-4, very-3)
+ccomp(tells-8, sad-4)
+nsubj(tells-8, he-7)
+dobj(tells-8, BBC-9)
+
+Sentence #16 (18 tokens):
+"The government isn_t doing much, but as individuals we are trying our best."
+[Text=`` CharacterOffsetBegin=1499 CharacterOffsetEnd=1500 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=1500 CharacterOffsetEnd=1503 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=government CharacterOffsetBegin=1504 CharacterOffsetEnd=1514 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=is CharacterOffsetBegin=1515 CharacterOffsetEnd=1517 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1517 CharacterOffsetEnd=1520 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=doing CharacterOffsetBegin=1521 CharacterOffsetEnd=1526 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=much CharacterOffsetBegin=1527 CharacterOffsetEnd=1531 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=, CharacterOffsetBegin=1531 CharacterOffsetEnd=1532 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1533 CharacterOffsetEnd=1536 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=as CharacterOffsetBegin=1537 CharacterOffsetEnd=1539 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=individuals CharacterOffsetBegin=1540 CharacterOffsetEnd=1551 PartOfSpeech=NNS Lemma=individual NamedEntityTag=O] [Text=we CharacterOffsetBegin=1552 CharacterOffsetEnd=1554 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=1555 CharacterOffsetEnd=1558 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=trying CharacterOffsetBegin=1559 CharacterOffsetEnd=1565 PartOfSpeech=VBG Lemma=try NamedEntityTag=O] [Text=our CharacterOffsetBegin=1566 CharacterOffsetEnd=1569 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=best CharacterOffsetBegin=1570 CharacterOffsetEnd=1574 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=. CharacterOffsetBegin=1574 CharacterOffsetEnd=1575 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1575 CharacterOffsetEnd=1576 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (DT The) (NN government))
+      (VP (VBZ is) (RB n_t)
+        (VP (VBG doing)
+          (ADVP (RB much)))))
+    (, ,)
+    (CC but)
+    (S
+      (PP (IN as)
+        (NP (NNS individuals)))
+      (NP (PRP we))
+      (VP (VBP are)
+        (VP (VBG trying)
+          (NP (PRP$ our) (JJS best)))))
+    (. .) (__ __)))
+
+root(ROOT-0, doing-6)
+det(government-3, The-2)
+nsubj(doing-6, government-3)
+aux(doing-6, is-4)
+neg(doing-6, n_t-5)
+advmod(doing-6, much-7)
+prep_as(trying-14, individuals-11)
+nsubj(trying-14, we-12)
+aux(trying-14, are-13)
+conj_but(doing-6, trying-14)
+poss(best-16, our-15)
+dobj(trying-14, best-16)
+
+Sentence #17 (24 tokens):
+Street vendor P. Gangamma tells AFP that the heat was making "her head pound," but she had to stay outside.
+[Text=Street CharacterOffsetBegin=1577 CharacterOffsetEnd=1583 PartOfSpeech=NNP Lemma=Street NamedEntityTag=O] [Text=vendor CharacterOffsetBegin=1584 CharacterOffsetEnd=1590 PartOfSpeech=NN Lemma=vendor NamedEntityTag=O] [Text=P. CharacterOffsetBegin=1591 CharacterOffsetEnd=1593 PartOfSpeech=NNP Lemma=P. NamedEntityTag=PERSON] [Text=Gangamma CharacterOffsetBegin=1594 CharacterOffsetEnd=1602 PartOfSpeech=NNP Lemma=Gangamma NamedEntityTag=PERSON] [Text=tells CharacterOffsetBegin=1603 CharacterOffsetEnd=1608 PartOfSpeech=VBZ Lemma=tell NamedEntityTag=O] [Text=AFP CharacterOffsetBegin=1609 CharacterOffsetEnd=1612 PartOfSpeech=NNP Lemma=AFP NamedEntityTag=O] [Text=that CharacterOffsetBegin=1613 CharacterOffsetEnd=1617 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=1618 CharacterOffsetEnd=1621 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=heat CharacterOffsetBegin=1622 CharacterOffsetEnd=1626 PartOfSpeech=NN Lemma=heat NamedEntityTag=O] [Text=was CharacterOffsetBegin=1627 CharacterOffsetEnd=1630 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=making CharacterOffsetBegin=1631 CharacterOffsetEnd=1637 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1638 CharacterOffsetEnd=1639 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=her CharacterOffsetBegin=1639 CharacterOffsetEnd=1642 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=head CharacterOffsetBegin=1643 CharacterOffsetEnd=1647 PartOfSpeech=NN Lemma=head NamedEntityTag=O] [Text=pound CharacterOffsetBegin=1648 CharacterOffsetEnd=1653 PartOfSpeech=NN Lemma=pound NamedEntityTag=O] [Text=, CharacterOffsetBegin=1653 CharacterOffsetEnd=1654 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1654 CharacterOffsetEnd=1655 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=but CharacterOffsetBegin=1656 CharacterOffsetEnd=1659 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=she CharacterOffsetBegin=1660 CharacterOffsetEnd=1663 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=had CharacterOffsetBegin=1664 CharacterOffsetEnd=1667 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=1668 CharacterOffsetEnd=1670 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stay CharacterOffsetBegin=1671 CharacterOffsetEnd=1675 PartOfSpeech=VB Lemma=stay NamedEntityTag=O] [Text=outside CharacterOffsetBegin=1676 CharacterOffsetEnd=1683 PartOfSpeech=JJ Lemma=outside NamedEntityTag=O] [Text=. CharacterOffsetBegin=1683 CharacterOffsetEnd=1684 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Street) (NN vendor) (NNP P.) (NNP Gangamma))
+      (VP (VBZ tells)
+        (NP (NNP AFP))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN heat))
+            (VP (VBD was)
+              (VP (VBG making) (`` ``)
+                (NP (PRP$ her) (NN head) (NN pound))))))))
+    (, ,) (__ __)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (VBD had)
+        (S
+          (VP (TO to)
+            (VP (VB stay)
+              (ADVP (JJ outside)))))))
+    (. .)))
+
+root(ROOT-0, tells-5)
+nn(Gangamma-4, Street-1)
+nn(Gangamma-4, vendor-2)
+nn(Gangamma-4, P.-3)
+nsubj(tells-5, Gangamma-4)
+dobj(tells-5, AFP-6)
+mark(making-11, that-7)
+det(heat-9, the-8)
+nsubj(making-11, heat-9)
+aux(making-11, was-10)
+ccomp(tells-5, making-11)
+poss(pound-15, her-13)
+nn(pound-15, head-14)
+dobj(making-11, pound-15)
+nsubj(had-20, she-19)
+conj_but(tells-5, had-20)
+aux(stay-22, to-21)
+xcomp(had-20, stay-22)
+advmod(stay-22, outside-23)
+
+Sentence #18 (11 tokens):
+The 65-year-old Hyderabad resident sells cigarettes at a high-traffic intersection.
+[Text=The CharacterOffsetBegin=1685 CharacterOffsetEnd=1688 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=65-year-old CharacterOffsetBegin=1689 CharacterOffsetEnd=1700 PartOfSpeech=JJ Lemma=65-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P65Y Timex=<TIMEX3 tid="t5" type="DURATION" value="P65Y">65-year-old<_TIMEX3>] [Text=Hyderabad CharacterOffsetBegin=1701 CharacterOffsetEnd=1710 PartOfSpeech=NNP Lemma=Hyderabad NamedEntityTag=LOCATION] [Text=resident CharacterOffsetBegin=1711 CharacterOffsetEnd=1719 PartOfSpeech=NN Lemma=resident NamedEntityTag=O] [Text=sells CharacterOffsetBegin=1720 CharacterOffsetEnd=1725 PartOfSpeech=VBZ Lemma=sell NamedEntityTag=O] [Text=cigarettes CharacterOffsetBegin=1726 CharacterOffsetEnd=1736 PartOfSpeech=NNS Lemma=cigarette NamedEntityTag=O] [Text=at CharacterOffsetBegin=1737 CharacterOffsetEnd=1739 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=1740 CharacterOffsetEnd=1741 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=high-traffic CharacterOffsetBegin=1742 CharacterOffsetEnd=1754 PartOfSpeech=JJ Lemma=high-traffic NamedEntityTag=O] [Text=intersection CharacterOffsetBegin=1755 CharacterOffsetEnd=1767 PartOfSpeech=NN Lemma=intersection NamedEntityTag=O] [Text=. CharacterOffsetBegin=1767 CharacterOffsetEnd=1768 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ 65-year-old) (NNP Hyderabad) (NN resident))
+    (VP (VBZ sells)
+      (NP (NNS cigarettes))
+      (PP (IN at)
+        (NP (DT a) (JJ high-traffic) (NN intersection))))
+    (. .)))
+
+root(ROOT-0, sells-5)
+det(resident-4, The-1)
+amod(resident-4, 65-year-old-2)
+nn(resident-4, Hyderabad-3)
+nsubj(sells-5, resident-4)
+dobj(sells-5, cigarettes-6)
+det(intersection-10, a-8)
+amod(intersection-10, high-traffic-9)
+prep_at(sells-5, intersection-10)
+
+Sentence #19 (17 tokens):
+"For the past three days hot wind has been coming in," she says.
+[Text=`` CharacterOffsetBegin=1769 CharacterOffsetEnd=1770 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=For CharacterOffsetBegin=1770 CharacterOffsetEnd=1773 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1774 CharacterOffsetEnd=1777 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 beginPoint="t6" endPoint="t0" tid="t7" type="DURATION" value="P3D">the past three days<_TIMEX3>] [Text=past CharacterOffsetBegin=1778 CharacterOffsetEnd=1782 PartOfSpeech=JJ Lemma=past NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 beginPoint="t6" endPoint="t0" tid="t7" type="DURATION" value="P3D">the past three days<_TIMEX3>] [Text=three CharacterOffsetBegin=1783 CharacterOffsetEnd=1788 PartOfSpeech=CD Lemma=three NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 beginPoint="t6" endPoint="t0" tid="t7" type="DURATION" value="P3D">the past three days<_TIMEX3>] [Text=days CharacterOffsetBegin=1789 CharacterOffsetEnd=1793 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 beginPoint="t6" endPoint="t0" tid="t7" type="DURATION" value="P3D">the past three days<_TIMEX3>] [Text=hot CharacterOffsetBegin=1794 CharacterOffsetEnd=1797 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O] [Text=wind CharacterOffsetBegin=1798 CharacterOffsetEnd=1802 PartOfSpeech=NN Lemma=wind NamedEntityTag=O] [Text=has CharacterOffsetBegin=1803 CharacterOffsetEnd=1806 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1807 CharacterOffsetEnd=1811 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=coming CharacterOffsetBegin=1812 CharacterOffsetEnd=1818 PartOfSpeech=VBG Lemma=come NamedEntityTag=O] [Text=in CharacterOffsetBegin=1819 CharacterOffsetEnd=1821 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=, CharacterOffsetBegin=1821 CharacterOffsetEnd=1822 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1822 CharacterOffsetEnd=1823 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=she CharacterOffsetBegin=1824 CharacterOffsetEnd=1827 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=says CharacterOffsetBegin=1828 CharacterOffsetEnd=1832 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1832 CharacterOffsetEnd=1833 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (PP (IN For)
+        (NP (DT the) (JJ past) (CD three) (NNS days)))
+      (NP (JJ hot) (NN wind))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBG coming)
+            (PP (IN in))))))
+    (, ,) (__ __)
+    (NP (PRP she))
+    (VP (VBZ says))
+    (. .)))
+
+root(ROOT-0, says-16)
+det(days-6, the-3)
+amod(days-6, past-4)
+num(days-6, three-5)
+prep_for(coming-11, days-6)
+amod(wind-8, hot-7)
+nsubj(coming-11, wind-8)
+aux(coming-11, has-9)
+aux(coming-11, been-10)
+ccomp(says-16, coming-11)
+prep(coming-11, in-12)
+nsubj(says-16, she-15)
+
+Sentence #20 (27 tokens):
+"I am a diabetes patient, but I have no husband and no sons, so I have to stay here and keep shop."
+[Text=`` CharacterOffsetBegin=1834 CharacterOffsetEnd=1835 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1835 CharacterOffsetEnd=1836 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=am CharacterOffsetBegin=1837 CharacterOffsetEnd=1839 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1840 CharacterOffsetEnd=1841 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=diabetes CharacterOffsetBegin=1842 CharacterOffsetEnd=1850 PartOfSpeech=NN Lemma=diabetes NamedEntityTag=O] [Text=patient CharacterOffsetBegin=1851 CharacterOffsetEnd=1858 PartOfSpeech=NN Lemma=patient NamedEntityTag=O] [Text=, CharacterOffsetBegin=1858 CharacterOffsetEnd=1859 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1860 CharacterOffsetEnd=1863 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=I CharacterOffsetBegin=1864 CharacterOffsetEnd=1865 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=1866 CharacterOffsetEnd=1870 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=no CharacterOffsetBegin=1871 CharacterOffsetEnd=1873 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=husband CharacterOffsetBegin=1874 CharacterOffsetEnd=1881 PartOfSpeech=NN Lemma=husband NamedEntityTag=O] [Text=and CharacterOffsetBegin=1882 CharacterOffsetEnd=1885 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=no CharacterOffsetBegin=1886 CharacterOffsetEnd=1888 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=sons CharacterOffsetBegin=1889 CharacterOffsetEnd=1893 PartOfSpeech=NNS Lemma=son NamedEntityTag=O] [Text=, CharacterOffsetBegin=1893 CharacterOffsetEnd=1894 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=1895 CharacterOffsetEnd=1897 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=I CharacterOffsetBegin=1898 CharacterOffsetEnd=1899 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=1900 CharacterOffsetEnd=1904 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=1905 CharacterOffsetEnd=1907 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stay CharacterOffsetBegin=1908 CharacterOffsetEnd=1912 PartOfSpeech=VB Lemma=stay NamedEntityTag=O] [Text=here CharacterOffsetBegin=1913 CharacterOffsetEnd=1917 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=and CharacterOffsetBegin=1918 CharacterOffsetEnd=1921 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=keep CharacterOffsetBegin=1922 CharacterOffsetEnd=1926 PartOfSpeech=VB Lemma=keep NamedEntityTag=O] [Text=shop CharacterOffsetBegin=1927 CharacterOffsetEnd=1931 PartOfSpeech=NN Lemma=shop NamedEntityTag=O] [Text=. CharacterOffsetBegin=1931 CharacterOffsetEnd=1932 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1932 CharacterOffsetEnd=1933 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (NP (DT a) (NN diabetes) (NN patient))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (NP
+          (NP (DT no) (NN husband))
+          (CC and)
+          (NP (DT no) (NNS sons)))
+        (, ,)
+        (SBAR (IN so)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB stay)
+                      (ADVP (RB here)))
+                    (CC and)
+                    (VP (VB keep)
+                      (NP (NN shop)))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, patient-6)
+nsubj(patient-6, I-2)
+cop(patient-6, am-3)
+det(patient-6, a-4)
+nn(patient-6, diabetes-5)
+nsubj(have-10, I-9)
+conj_but(patient-6, have-10)
+neg(husband-12, no-11)
+dobj(have-10, husband-12)
+neg(sons-15, no-14)
+conj_and(husband-12, sons-15)
+mark(have-19, so-17)
+nsubj(have-19, I-18)
+advcl(have-10, have-19)
+aux(stay-21, to-20)
+xcomp(have-19, stay-21)
+advmod(stay-21, here-22)
+conj_and(stay-21, keep-24)
+dobj(keep-24, shop-25)
+
+Sentence #21 (13 tokens):
+© 2015 Syracuse Media Group All rights reserved ( About Us ).
+[Text=© CharacterOffsetBegin=1934 CharacterOffsetEnd=1935 PartOfSpeech=RB Lemma=© NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=1936 CharacterOffsetEnd=1940 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t8" type="DATE" value="2015">2015<_TIMEX3>] [Text=Syracuse CharacterOffsetBegin=1941 CharacterOffsetEnd=1949 PartOfSpeech=NNP Lemma=Syracuse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=1950 CharacterOffsetEnd=1955 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=Group CharacterOffsetBegin=1956 CharacterOffsetEnd=1961 PartOfSpeech=NNP Lemma=Group NamedEntityTag=ORGANIZATION] [Text=All CharacterOffsetBegin=1962 CharacterOffsetEnd=1965 PartOfSpeech=NNP Lemma=All NamedEntityTag=O] [Text=rights CharacterOffsetBegin=1966 CharacterOffsetEnd=1972 PartOfSpeech=NNS Lemma=rights NamedEntityTag=O] [Text=reserved CharacterOffsetBegin=1973 CharacterOffsetEnd=1981 PartOfSpeech=VBN Lemma=reserve NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1982 CharacterOffsetEnd=1983 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=About CharacterOffsetBegin=1984 CharacterOffsetEnd=1989 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Us CharacterOffsetBegin=1990 CharacterOffsetEnd=1992 PartOfSpeech=NNP Lemma=Us NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1993 CharacterOffsetEnd=1994 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=1994 CharacterOffsetEnd=1995 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (ADVP (RB ©))
+    (NP
+      (NP (CD 2015) (NNP Syracuse) (NNP Media) (NNP Group) (NNP All) (NNS rights))
+      (VP (VBN reserved)
+        (PRN (-LRB- -LRB-)
+          (PP (IN About)
+            (NP (NNP Us)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, rights-7)
+dep(rights-7, ©-1)
+num(rights-7, 2015-2)
+nn(rights-7, Syracuse-3)
+nn(rights-7, Media-4)
+nn(rights-7, Group-5)
+nn(rights-7, All-6)
+vmod(rights-7, reserved-8)
+dep(reserved-8, About-10)
+pobj(About-10, Us-11)
+
+Sentence #22 (44 tokens):
+The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Syracuse Media Group
+Community Rules apply to all content you upload or otherwise submit to this site.
+[Text=The CharacterOffsetBegin=1996 CharacterOffsetEnd=1999 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=material CharacterOffsetBegin=2000 CharacterOffsetEnd=2008 PartOfSpeech=NN Lemma=material NamedEntityTag=O] [Text=on CharacterOffsetBegin=2009 CharacterOffsetEnd=2011 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=this CharacterOffsetBegin=2012 CharacterOffsetEnd=2016 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=site CharacterOffsetBegin=2017 CharacterOffsetEnd=2021 PartOfSpeech=NN Lemma=site NamedEntityTag=O] [Text=may CharacterOffsetBegin=2022 CharacterOffsetEnd=2025 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=not CharacterOffsetBegin=2026 CharacterOffsetEnd=2029 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=be CharacterOffsetBegin=2030 CharacterOffsetEnd=2032 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=reproduced CharacterOffsetBegin=2033 CharacterOffsetEnd=2043 PartOfSpeech=VBN Lemma=reproduce NamedEntityTag=O] [Text=, CharacterOffsetBegin=2043 CharacterOffsetEnd=2044 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=distributed CharacterOffsetBegin=2045 CharacterOffsetEnd=2056 PartOfSpeech=VBN Lemma=distribute NamedEntityTag=O] [Text=, CharacterOffsetBegin=2056 CharacterOffsetEnd=2057 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=transmitted CharacterOffsetBegin=2058 CharacterOffsetEnd=2069 PartOfSpeech=VBN Lemma=transmit NamedEntityTag=O] [Text=, CharacterOffsetBegin=2069 CharacterOffsetEnd=2070 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=cached CharacterOffsetBegin=2071 CharacterOffsetEnd=2077 PartOfSpeech=VBN Lemma=cache NamedEntityTag=O] [Text=or CharacterOffsetBegin=2078 CharacterOffsetEnd=2080 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=otherwise CharacterOffsetBegin=2081 CharacterOffsetEnd=2090 PartOfSpeech=RB Lemma=otherwise NamedEntityTag=O] [Text=used CharacterOffsetBegin=2091 CharacterOffsetEnd=2095 PartOfSpeech=VBN Lemma=use NamedEntityTag=O] [Text=, CharacterOffsetBegin=2095 CharacterOffsetEnd=2096 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=except CharacterOffsetBegin=2097 CharacterOffsetEnd=2103 PartOfSpeech=IN Lemma=except NamedEntityTag=O] [Text=with CharacterOffsetBegin=2104 CharacterOffsetEnd=2108 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2109 CharacterOffsetEnd=2112 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=prior CharacterOffsetBegin=2113 CharacterOffsetEnd=2118 PartOfSpeech=JJ Lemma=prior NamedEntityTag=O] [Text=written CharacterOffsetBegin=2119 CharacterOffsetEnd=2126 PartOfSpeech=JJ Lemma=written NamedEntityTag=O] [Text=permission CharacterOffsetBegin=2127 CharacterOffsetEnd=2137 PartOfSpeech=NN Lemma=permission NamedEntityTag=O] [Text=of CharacterOffsetBegin=2138 CharacterOffsetEnd=2140 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Syracuse CharacterOffsetBegin=2141 CharacterOffsetEnd=2149 PartOfSpeech=NNP Lemma=Syracuse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=2150 CharacterOffsetEnd=2155 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=Group CharacterOffsetBegin=2156 CharacterOffsetEnd=2161 PartOfSpeech=NNP Lemma=Group NamedEntityTag=ORGANIZATION] [Text=Community CharacterOffsetBegin=2162 CharacterOffsetEnd=2171 PartOfSpeech=NNP Lemma=Community NamedEntityTag=ORGANIZATION] [Text=Rules CharacterOffsetBegin=2172 CharacterOffsetEnd=2177 PartOfSpeech=NNP Lemma=Rules NamedEntityTag=ORGANIZATION] [Text=apply CharacterOffsetBegin=2178 CharacterOffsetEnd=2183 PartOfSpeech=VB Lemma=apply NamedEntityTag=O] [Text=to CharacterOffsetBegin=2184 CharacterOffsetEnd=2186 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=all CharacterOffsetBegin=2187 CharacterOffsetEnd=2190 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=content CharacterOffsetBegin=2191 CharacterOffsetEnd=2198 PartOfSpeech=NN Lemma=content NamedEntityTag=O] [Text=you CharacterOffsetBegin=2199 CharacterOffsetEnd=2202 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=upload CharacterOffsetBegin=2203 CharacterOffsetEnd=2209 PartOfSpeech=VBP Lemma=upload NamedEntityTag=O] [Text=or CharacterOffsetBegin=2210 CharacterOffsetEnd=2212 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=otherwise CharacterOffsetBegin=2213 CharacterOffsetEnd=2222 PartOfSpeech=RB Lemma=otherwise NamedEntityTag=O] [Text=submit CharacterOffsetBegin=2223 CharacterOffsetEnd=2229 PartOfSpeech=VB Lemma=submit NamedEntityTag=O] [Text=to CharacterOffsetBegin=2230 CharacterOffsetEnd=2232 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=this CharacterOffsetBegin=2233 CharacterOffsetEnd=2237 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=site CharacterOffsetBegin=2238 CharacterOffsetEnd=2242 PartOfSpeech=NN Lemma=site NamedEntityTag=O] [Text=. CharacterOffsetBegin=2242 CharacterOffsetEnd=2243 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN material))
+      (PP (IN on)
+        (NP (DT this) (NN site))))
+    (VP (MD may) (RB not)
+      (VP
+        (VP (VB be)
+          (VP
+            (VP (VBN reproduced))
+            (, ,)
+            (VP (VBN distributed))
+            (, ,)
+            (VP (VBN transmitted))
+            (, ,)
+            (VP (VBN cached))
+            (CC or)
+            (VP
+              (ADVP (RB otherwise))
+              (VBN used) (, ,)
+              (SBAR (IN except)
+                (S
+                  (SBAR (IN with)
+                    (S
+                      (NP
+                        (NP (DT the) (JJ prior) (JJ written) (NN permission))
+                        (PP (IN of)
+                          (NP (NNP Syracuse) (NNP Media) (NNP Group) (NNP Community) (NNP Rules))))
+                      (VP (VB apply)
+                        (PP (TO to)
+                          (NP (DT all) (NN content))))))
+                  (NP (PRP you))
+                  (VP (VBP upload)))))))
+        (CC or)
+        (ADVP (RB otherwise))
+        (VP (VB submit)
+          (PP (TO to)
+            (NP (DT this) (NN site))))))
+    (. .)))
+
+root(ROOT-0, reproduced-9)
+det(material-2, The-1)
+nsubjpass(reproduced-9, material-2)
+det(site-5, this-4)
+prep_on(material-2, site-5)
+aux(reproduced-9, may-6)
+neg(reproduced-9, not-7)
+auxpass(reproduced-9, be-8)
+conj_or(reproduced-9, distributed-11)
+conj_or(reproduced-9, transmitted-13)
+conj_or(reproduced-9, cached-15)
+advmod(used-18, otherwise-17)
+conj_or(reproduced-9, used-18)
+mark(upload-37, except-20)
+mark(apply-32, with-21)
+det(permission-25, the-22)
+amod(permission-25, prior-23)
+amod(permission-25, written-24)
+nsubj(apply-32, permission-25)
+nn(Rules-31, Syracuse-27)
+nn(Rules-31, Media-28)
+nn(Rules-31, Group-29)
+nn(Rules-31, Community-30)
+prep_of(permission-25, Rules-31)
+advcl(upload-37, apply-32)
+det(content-35, all-34)
+prep_to(apply-32, content-35)
+nsubj(upload-37, you-36)
+advcl(used-18, upload-37)
+advmod(submit-40, otherwise-39)
+conj_or(reproduced-9, submit-40)
+det(site-43, this-42)
+prep_to(submit-40, site-43)
+
+Sentence #23 (4 tokens):
+Contact interactivity management.
+[Text=Contact CharacterOffsetBegin=2244 CharacterOffsetEnd=2251 PartOfSpeech=NN Lemma=contact NamedEntityTag=O] [Text=interactivity CharacterOffsetBegin=2252 CharacterOffsetEnd=2265 PartOfSpeech=NN Lemma=interactivity NamedEntityTag=O] [Text=management CharacterOffsetBegin=2266 CharacterOffsetEnd=2276 PartOfSpeech=NN Lemma=management NamedEntityTag=O] [Text=. CharacterOffsetBegin=2276 CharacterOffsetEnd=2277 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Contact))
+    (NP (NN interactivity) (NN management))
+    (. .)))
+
+root(ROOT-0, Contact-1)
+nn(management-3, interactivity-2)
+dep(Contact-1, management-3)
+
+Coreference set:
+ (3,5,[4,6]) -> (1,3,[2,4]), that is: "the location" -> "Your Location"
+Coreference set:
+ (5,26,[26,27]) -> (5,7,[7,8]), that is: "India" -> "India"
+Coreference set:
+ (5,40,[40,41]) -> (5,15,[15,16]), that is: "122" -> "122"
+Coreference set:
+ (6,16,[14,17]) -> (5,5,[1,8]), that is: "the heat wave" -> "Favorite Schools comments Heat wave in India"
+ (13,22,[20,23]) -> (5,5,[1,8]), that is: "the heat wave" -> "Favorite Schools comments Heat wave in India"
+Coreference set:
+ (5,23,[23,24]) -> (5,11,[9,12]), that is: "1,100" -> "more than 1,100"
+Coreference set:
+ (5,38,[38,39]) -> (5,13,[13,19]), that is: "temperatures" -> "temperatures near 122 degrees Intense heat"
+Coreference set:
+ (5,41,[40,42]) -> (5,16,[15,19]), that is: "122 degrees" -> "122 degrees Intense heat"
+Coreference set:
+ (12,6,[6,7]) -> (6,1,[1,2]), that is: "CNN" -> "CNN"
+Coreference set:
+ (10,12,[11,13]) -> (6,8,[7,9]), that is: "Andhra Pradesh" -> "Andhra Pradesh"
+Coreference set:
+ (7,6,[6,7]) -> (13,7,[7,9]), that is: "Telangana" -> "Telangana _s"
+Coreference set:
+ (9,3,[3,4]) -> (7,10,[8,11]), that is: "people" -> "another 266 people"
+ (9,9,[9,10]) -> (7,10,[8,11]), that is: "they" -> "another 266 people"
+ (10,24,[24,25]) -> (7,10,[8,11]), that is: "people" -> "another 266 people"
+Coreference set:
+ (16,3,[2,4]) -> (10,17,[15,18]), that is: "The government" -> "the state government"
+Coreference set:
+ (17,9,[8,10]) -> (11,2,[1,3]), that is: "the heat" -> "The heat"
+Coreference set:
+ (14,2,[2,3]) -> (13,2,[1,3]), that is: "I" -> "Alfred Innes"
+ (14,15,[15,16]) -> (13,2,[1,3]), that is: "I" -> "Alfred Innes"
+ (15,7,[7,8]) -> (13,2,[1,3]), that is: "he" -> "Alfred Innes"
+Coreference set:
+ (18,3,[3,4]) -> (13,11,[11,12]), that is: "Hyderabad" -> "Hyderabad"
+Coreference set:
+ (16,12,[12,13]) -> (13,14,[14,15]), that is: "we" -> "citizens"
+ (16,15,[15,16]) -> (13,14,[14,15]), that is: "our" -> "citizens"
+Coreference set:
+ (14,18,[18,19]) -> (14,7,[6,11]), that is: "that" -> "the death of a three-year-old"
+ (15,1,[1,2]) -> (14,7,[6,11]), that is: "It" -> "the death of a three-year-old"
+Coreference set:
+ (17,19,[19,20]) -> (17,13,[13,14]), that is: "she" -> "her"
+Coreference set:
+ (19,15,[15,16]) -> (20,6,[4,7]), that is: "she" -> "a diabetes patient"
+ (20,2,[2,3]) -> (20,6,[4,7]), that is: "I" -> "a diabetes patient"
+ (20,9,[9,10]) -> (20,6,[4,7]), that is: "I" -> "a diabetes patient"
+ (20,18,[18,19]) -> (20,6,[4,7]), that is: "I" -> "a diabetes patient"
+Coreference set:
+ (21,11,[11,12]) -> (20,12,[11,16]), that is: "Us" -> "no husband and no sons"
+Coreference set:
+ (22,43,[42,44]) -> (22,5,[4,6]), that is: "this site" -> "this site"

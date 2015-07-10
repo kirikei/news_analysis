@@ -1,0 +1,324 @@
+Sentence #1 (6 tokens):
+Aim higher, reach further.
+[Text=Aim CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Aim NamedEntityTag=O] [Text=higher CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=reach CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=further CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=RB Lemma=further NamedEntityTag=O] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP
+      (NP (NNP Aim))
+      (JJR higher))
+    (, ,)
+    (VP (VB reach)
+      (ADVP (RB further)))
+    (. .)))
+
+root(ROOT-0, reach-4)
+dep(higher-2, Aim-1)
+advmod(reach-4, higher-2)
+advmod(reach-4, further-5)
+
+Sentence #2 (11 tokens):
+Get the Wall Street Journal $12 for 12 weeks.
+[Text=Get CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Wall CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O] [Text=Street CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Street NamedEntityTag=O] [Text=Journal CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Journal NamedEntityTag=O] [Text=$ CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=12 CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=CD Lemma=12 NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=for CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=12 CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=CD Lemma=12 NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=weeks CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNS Lemma=week NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Get)
+      (NP (DT the) (NNP Wall) (NNP Street) (NNP Journal))
+      (NP
+        (NP ($ $) (CD 12))
+        (PP (IN for)
+          (NP (CD 12) (NNS weeks)))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+det(Journal-5, the-2)
+nn(Journal-5, Wall-3)
+nn(Journal-5, Street-4)
+iobj(Get-1, Journal-5)
+dobj(Get-1, dol-6)
+num(dol-6, 12-7)
+num(weeks-10, 12-9)
+prep_for(dol-6, weeks-10)
+
+Sentence #3 (58 tokens):
+Subscribe Now
+Crude-oil futures are marginally higher in early Asian trade Wednesday
+By
+Updated May 26, 2015 10:20 p.m. ET
+0216 GMT [Dow Jones] Crude-oil futures are marginally higher in early Asian trade Wednesday, attempting a rebound after sharp overnight losses of nearly 3% on the back of a strong U.S. dollar.
+[Text=Subscribe CharacterOffsetBegin=73 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=subscribe NamedEntityTag=O] [Text=Now CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=Crude-oil CharacterOffsetBegin=87 CharacterOffsetEnd=96 PartOfSpeech=NN Lemma=crude-oil NamedEntityTag=O] [Text=futures CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=NNS Lemma=future NamedEntityTag=O] [Text=are CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=marginally CharacterOffsetBegin=109 CharacterOffsetEnd=119 PartOfSpeech=RB Lemma=marginally NamedEntityTag=O] [Text=higher CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=in CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=early CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=Asian CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=JJ Lemma=asian NamedEntityTag=MISC] [Text=trade CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN Lemma=trade NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=148 CharacterOffsetEnd=157 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=By CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Updated CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=JJ Lemma=updated NamedEntityTag=O] [Text=May CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=26 CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=2015 CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=10:20 CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=CD Lemma=10:20 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=p.m. CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=NN Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T22:20 Timex=<TIMEX3 tid="t4" type="TIME" value="2015-05-26T22:20">May 26, 2015 10:20 p.m.<_TIMEX3>] [Text=ET CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=NNP Lemma=ET NamedEntityTag=O] [Text=0216 CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=CD Lemma=0216 NamedEntityTag=DATE NormalizedNamedEntityTag=0216 Timex=<TIMEX3 tid="t5" type="DATE" value="0216">0216<_TIMEX3>] [Text=GMT CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=NNP Lemma=GMT NamedEntityTag=MISC] [Text=-LSB- CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=-LRB- Lemma=-lsb- NamedEntityTag=O] [Text=Dow CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=NNP Lemma=Dow NamedEntityTag=MISC] [Text=Jones CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=NNP Lemma=Jones NamedEntityTag=MISC] [Text=-RSB- CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=-RRB- Lemma=-rsb- NamedEntityTag=O] [Text=Crude-oil CharacterOffsetBegin=217 CharacterOffsetEnd=226 PartOfSpeech=NN Lemma=crude-oil NamedEntityTag=O] [Text=futures CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=NNS Lemma=future NamedEntityTag=O] [Text=are CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=marginally CharacterOffsetBegin=239 CharacterOffsetEnd=249 PartOfSpeech=RB Lemma=marginally NamedEntityTag=O] [Text=higher CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=in CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=early CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=Asian CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=JJ Lemma=asian NamedEntityTag=MISC] [Text=trade CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=trade NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=278 CharacterOffsetEnd=287 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=attempting CharacterOffsetBegin=289 CharacterOffsetEnd=299 PartOfSpeech=VBG Lemma=attempt NamedEntityTag=O] [Text=a CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=rebound CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=NN Lemma=rebound NamedEntityTag=O] [Text=after CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=sharp CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=JJ Lemma=sharp NamedEntityTag=O] [Text=overnight CharacterOffsetBegin=322 CharacterOffsetEnd=331 PartOfSpeech=JJ Lemma=overnight NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t6" type="TIME" value="TNI">overnight<_TIMEX3>] [Text=losses CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=NNS Lemma=loss NamedEntityTag=O] [Text=of CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=nearly CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=RB Lemma=nearly NamedEntityTag=O] [Text=3 CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=CD Lemma=3 NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%3.0] [Text=% CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=~%3.0] [Text=on CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=back CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=back NamedEntityTag=O] [Text=of CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=strong CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=JJ Lemma=strong NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=dollar CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=. CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (NP (NN Subscribe))
+      (RB Now)
+      (S
+        (NP (NN Crude-oil) (NNS futures))
+        (VP (VBP are)
+          (ADJP
+            (ADJP (RB marginally) (JJR higher))
+            (PP (IN in)
+              (NP (JJ early) (JJ Asian) (NN trade))))
+          (NP-TMP (NNP Wednesday)))
+        (PP (IN By)
+          (NP
+            (ADJP (JJ Updated)
+              (NP-TMP (NNP May) (CD 26) (, ,) (CD 2015)))
+            (NP
+              (NP (CD 10:20) (NN p.m.))
+              (NP (NNP ET) (CD 0216)))))))
+    (NP
+      (NP (NNP GMT) (-LRB- -LSB-) (NNP Dow) (NNP Jones))
+      (PP (-RRB- -RSB-)
+        (NP (NN Crude-oil) (NNS futures))))
+    (VP (VBP are)
+      (ADJP (RB marginally) (JJR higher))
+      (PP (IN in)
+        (NP (JJ early) (JJ Asian) (NN trade)))
+      (NP-TMP (NNP Wednesday))
+      (, ,)
+      (S
+        (VP (VBG attempting)
+          (NP (DT a) (NN rebound))
+          (PP (IN after)
+            (NP
+              (NP (JJ sharp) (JJ overnight) (NNS losses))
+              (PP (IN of)
+                (NP
+                  (NP
+                    (QP (RB nearly) (CD 3))
+                    (NN %))
+                  (PP (IN on)
+                    (NP
+                      (NP (DT the) (NN back))
+                      (PP (IN of)
+                        (NP (DT a) (JJ strong) (NNP U.S.) (NN dollar))))))))))))
+    (. .)))
+
+root(ROOT-0, higher-32)
+dep(higher-7, Subscribe-1)
+advmod(higher-7, Now-2)
+nn(futures-4, Crude-oil-3)
+nsubj(higher-7, futures-4)
+cop(higher-7, are-5)
+advmod(higher-7, marginally-6)
+advcl(higher-32, higher-7)
+amod(trade-11, early-9)
+amod(trade-11, Asian-10)
+prep_in(higher-7, trade-11)
+tmod(higher-7, Wednesday-12)
+amod(p.m.-20, Updated-14)
+tmod(Updated-14, May-15)
+num(May-15, 26-16)
+num(May-15, 2015-18)
+num(p.m.-20, 10:20-19)
+prep_by(higher-7, p.m.-20)
+dep(p.m.-20, ET-21)
+num(ET-21, 0216-22)
+nn(Jones-26, GMT-23)
+punct(Jones-26, -LSB--24)
+nn(Jones-26, Dow-25)
+nsubj(higher-32, Jones-26)
+punct(futures-29, -RSB--27)
+nn(futures-29, Crude-oil-28)
+prep(Jones-26, futures-29)
+cop(higher-32, are-30)
+advmod(higher-32, marginally-31)
+amod(trade-36, early-34)
+amod(trade-36, Asian-35)
+prep_in(higher-32, trade-36)
+tmod(higher-32, Wednesday-37)
+vmod(higher-32, attempting-39)
+det(rebound-41, a-40)
+dobj(attempting-39, rebound-41)
+amod(losses-45, sharp-43)
+amod(losses-45, overnight-44)
+prep_after(attempting-39, losses-45)
+quantmod(3-48, nearly-47)
+num(%-49, 3-48)
+prep_of(losses-45, %-49)
+det(back-52, the-51)
+prep_on(%-49, back-52)
+det(dollar-57, a-54)
+amod(dollar-57, strong-55)
+nn(dollar-57, U.S.-56)
+prep_of(back-52, dollar-57)
+
+Sentence #4 (40 tokens):
+In the last trading session, Brent crude probed the lowest level since April 22 as the U.S. dollar index climbed to the highest level in a month on stronger than expected U.S. economic data, Citi Futures says.
+[Text=In CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=trading CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=NN Lemma=trading NamedEntityTag=O] [Text=session CharacterOffsetBegin=409 CharacterOffsetEnd=416 PartOfSpeech=NN Lemma=session NamedEntityTag=O] [Text=, CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Brent CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=NNP Lemma=Brent NamedEntityTag=ORGANIZATION] [Text=crude CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=NN Lemma=crude NamedEntityTag=O] [Text=probed CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=VBD Lemma=probe NamedEntityTag=O] [Text=the CharacterOffsetBegin=437 CharacterOffsetEnd=440 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lowest CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=JJS Lemma=lowest NamedEntityTag=O] [Text=level CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=NN Lemma=level NamedEntityTag=O] [Text=since CharacterOffsetBegin=454 CharacterOffsetEnd=459 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=April CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=NNP Lemma=April NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-22 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-04-22">April 22<_TIMEX3>] [Text=22 CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=CD Lemma=22 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-22 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-04-22">April 22<_TIMEX3>] [Text=as CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=dollar CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=index CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=NN Lemma=index NamedEntityTag=O] [Text=climbed CharacterOffsetBegin=494 CharacterOffsetEnd=501 PartOfSpeech=VBD Lemma=climb NamedEntityTag=O] [Text=to CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=highest CharacterOffsetBegin=509 CharacterOffsetEnd=516 PartOfSpeech=JJS Lemma=highest NamedEntityTag=O] [Text=level CharacterOffsetBegin=517 CharacterOffsetEnd=522 PartOfSpeech=NN Lemma=level NamedEntityTag=O] [Text=in CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t8" type="DURATION" value="P1M">a month<_TIMEX3>] [Text=month CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=NN Lemma=month NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t8" type="DURATION" value="P1M">a month<_TIMEX3>] [Text=on CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=stronger CharacterOffsetBegin=537 CharacterOffsetEnd=545 PartOfSpeech=JJR Lemma=stronger NamedEntityTag=O] [Text=than CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=expected CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=economic CharacterOffsetBegin=565 CharacterOffsetEnd=573 PartOfSpeech=JJ Lemma=economic NamedEntityTag=O] [Text=data CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=, CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Citi CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=NNP Lemma=Citi NamedEntityTag=O] [Text=Futures CharacterOffsetBegin=585 CharacterOffsetEnd=592 PartOfSpeech=NNP Lemma=Futures NamedEntityTag=O] [Text=says CharacterOffsetBegin=593 CharacterOffsetEnd=597 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ last) (NN trading) (NN session)))
+    (PRN (, ,)
+      (S
+        (NP (NNP Brent) (NN crude))
+        (VP (VBD probed)
+          (NP (DT the) (JJS lowest) (NN level))
+          (PP (IN since)
+            (NP (NNP April) (CD 22)))
+          (SBAR (IN as)
+            (S
+              (NP (DT the) (NNP U.S.) (NN dollar) (NN index))
+              (VP (VBD climbed)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (JJS highest) (NN level))
+                    (PP (IN in)
+                      (NP (DT a) (NN month)))))
+                (PP (IN on)
+                  (NP
+                    (ADJP (JJR stronger)
+                      (PP (IN than)
+                        (NP (VBN expected) (NNP U.S.))))
+                    (JJ economic) (NNS data))))))))
+      (, ,))
+    (NP (NNP Citi) (NNP Futures))
+    (VP (VBZ says))
+    (. .)))
+
+root(ROOT-0, says-39)
+det(session-5, the-2)
+amod(session-5, last-3)
+nn(session-5, trading-4)
+prep_in(says-39, session-5)
+nn(crude-8, Brent-7)
+nsubj(probed-9, crude-8)
+parataxis(says-39, probed-9)
+det(level-12, the-10)
+amod(level-12, lowest-11)
+dobj(probed-9, level-12)
+prep_since(probed-9, April-14)
+num(April-14, 22-15)
+mark(climbed-21, as-16)
+det(index-20, the-17)
+nn(index-20, U.S.-18)
+nn(index-20, dollar-19)
+nsubj(climbed-21, index-20)
+advcl(probed-9, climbed-21)
+det(level-25, the-23)
+amod(level-25, highest-24)
+prep_to(climbed-21, level-25)
+det(month-28, a-27)
+prep_in(level-25, month-28)
+amod(data-35, stronger-30)
+amod(U.S.-33, expected-32)
+prep_than(stronger-30, U.S.-33)
+amod(data-35, economic-34)
+prep_on(climbed-21, data-35)
+nn(Futures-38, Citi-37)
+nsubj(says-39, Futures-38)
+
+Sentence #5 (30 tokens):
+“At least for the time being, the strength in the U.S. dollar has called attention away from declining U.S. petroleum inventories,” analyst Tim Evans says.
+[Text=`` CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=At CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=least CharacterOffsetBegin=603 CharacterOffsetEnd=608 PartOfSpeech=JJS Lemma=least NamedEntityTag=O] [Text=for CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=time CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=being CharacterOffsetBegin=622 CharacterOffsetEnd=627 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strength CharacterOffsetBegin=633 CharacterOffsetEnd=641 PartOfSpeech=NN Lemma=strength NamedEntityTag=O] [Text=in CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=dollar CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=has CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=called CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=VBN Lemma=call NamedEntityTag=O] [Text=attention CharacterOffsetBegin=672 CharacterOffsetEnd=681 PartOfSpeech=NN Lemma=attention NamedEntityTag=O] [Text=away CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=RB Lemma=away NamedEntityTag=O] [Text=from CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=declining CharacterOffsetBegin=692 CharacterOffsetEnd=701 PartOfSpeech=VBG Lemma=decline NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=petroleum CharacterOffsetBegin=707 CharacterOffsetEnd=716 PartOfSpeech=NN Lemma=petroleum NamedEntityTag=O] [Text=inventories CharacterOffsetBegin=717 CharacterOffsetEnd=728 PartOfSpeech=NNS Lemma=inventory NamedEntityTag=O] [Text=, CharacterOffsetBegin=728 CharacterOffsetEnd=729 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=analyst CharacterOffsetBegin=731 CharacterOffsetEnd=738 PartOfSpeech=NN Lemma=analyst NamedEntityTag=O] [Text=Tim CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=NNP Lemma=Tim NamedEntityTag=PERSON] [Text=Evans CharacterOffsetBegin=743 CharacterOffsetEnd=748 PartOfSpeech=NNP Lemma=Evans NamedEntityTag=PERSON] [Text=says CharacterOffsetBegin=749 CharacterOffsetEnd=753 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (PP
+        (ADVP (IN At) (JJS least))
+        (IN for)
+        (NP (DT the) (NN time) (VBG being)))
+      (, ,)
+      (NP
+        (NP (DT the) (NN strength))
+        (PP (IN in)
+          (NP (DT the) (NNP U.S.) (NN dollar))))
+      (VP (VBZ has)
+        (VP (VBN called)
+          (NP (NN attention))
+          (ADVP (RB away))
+          (PP (IN from)
+            (S
+              (VP (VBG declining)
+                (NP (NNP U.S.) (NN petroleum) (NNS inventories))))))))
+    (, ,) (__ __)
+    (NP (NN analyst) (NNP Tim) (NNP Evans))
+    (VP (VBZ says))
+    (. .)))
+
+root(ROOT-0, says-29)
+advmod(called-16, At-2)
+pobj(At-2, least-3)
+det(time-6, the-5)
+prep_for(called-16, time-6)
+amod(time-6, being-7)
+det(strength-10, the-9)
+nsubj(called-16, strength-10)
+det(dollar-14, the-12)
+nn(dollar-14, U.S.-13)
+prep_in(strength-10, dollar-14)
+aux(called-16, has-15)
+ccomp(says-29, called-16)
+dobj(called-16, attention-17)
+prepc_away_from(called-16, declining-20)
+nn(inventories-23, U.S.-21)
+nn(inventories-23, petroleum-22)
+dobj(declining-20, inventories-23)
+nn(Evans-28, analyst-26)
+nn(Evans-28, Tim-27)
+nsubj(says-29, Evans-28)
+
+Sentence #6 (24 tokens):
+Nymex WTI crude is up 31 cents at $58.34_bbl, Brent crude is up...
+Popular on WSJ
+Popular on WSJ
+[Text=Nymex CharacterOffsetBegin=755 CharacterOffsetEnd=760 PartOfSpeech=NNP Lemma=Nymex NamedEntityTag=ORGANIZATION] [Text=WTI CharacterOffsetBegin=761 CharacterOffsetEnd=764 PartOfSpeech=NNP Lemma=WTI NamedEntityTag=ORGANIZATION] [Text=crude CharacterOffsetBegin=765 CharacterOffsetEnd=770 PartOfSpeech=NN Lemma=crude NamedEntityTag=O] [Text=is CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=up CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=31 CharacterOffsetBegin=777 CharacterOffsetEnd=779 PartOfSpeech=CD Lemma=31 NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.31] [Text=cents CharacterOffsetBegin=780 CharacterOffsetEnd=785 PartOfSpeech=NNS Lemma=cent NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.31] [Text=at CharacterOffsetBegin=786 CharacterOffsetEnd=788 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=789 CharacterOffsetEnd=790 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$58.34] [Text=58.34 CharacterOffsetBegin=790 CharacterOffsetEnd=795 PartOfSpeech=CD Lemma=58.34 NamedEntityTag=MONEY NormalizedNamedEntityTag=$58.34] [Text=_ CharacterOffsetBegin=795 CharacterOffsetEnd=796 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=bbl CharacterOffsetBegin=796 CharacterOffsetEnd=799 PartOfSpeech=NN Lemma=bbl NamedEntityTag=O] [Text=, CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Brent CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=NNP Lemma=Brent NamedEntityTag=ORGANIZATION] [Text=crude CharacterOffsetBegin=807 CharacterOffsetEnd=812 PartOfSpeech=NN Lemma=crude NamedEntityTag=O] [Text=is CharacterOffsetBegin=813 CharacterOffsetEnd=815 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=up CharacterOffsetBegin=816 CharacterOffsetEnd=818 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=... CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=833 CharacterOffsetEnd=836 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=837 CharacterOffsetEnd=844 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=845 CharacterOffsetEnd=847 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Nymex) (NNP WTI) (NN crude))
+    (VP (VBZ is)
+      (ADVP (RB up)
+        (NP (CD 31) (NNS cents)))
+      (PP (IN at)
+        (NP
+          (NP
+            (NP ($ $) (CD 58.34))
+            (PRN (: _)
+              (S
+                (NP (NN bbl))
+                (, ,)
+                (NP (NNP Brent) (NN crude))
+                (VP (VBZ is)
+                  (ADVP (RB up))))))
+          (: ...)
+          (NP
+            (NP (NNP Popular))
+            (PP (IN on)
+              (NP
+                (NP (NNP WSJ) (NNP Popular))
+                (PP (IN on)
+                  (NP (NNP WSJ)))))))))))
+
+root(ROOT-0, is-4)
+nn(crude-3, Nymex-1)
+nn(crude-3, WTI-2)
+nsubj(is-4, crude-3)
+advmod(is-4, up-5)
+num(cents-7, 31-6)
+pobj(up-5, cents-7)
+prep_at(is-4, dol-9)
+num(dol-9, 58.34-10)
+punct(is-16, _-11)
+nsubj(is-16, bbl-12)
+nn(crude-15, Brent-14)
+nsubj(is-16, crude-15)
+dep(dol-9, is-16)
+advmod(is-16, up-17)
+dep(dol-9, Popular-19)
+nn(Popular-22, WSJ-21)
+prep_on(Popular-19, Popular-22)
+prep_on(Popular-22, WSJ-24)
+
+Coreference set:
+ (6,24,[24,25]) -> (2,5,[2,6]), that is: "WSJ" -> "the Wall Street Journal"
+Coreference set:
+ (3,29,[28,30]) -> (3,4,[3,5]), that is: "Crude-oil futures" -> "Crude-oil futures"
+Coreference set:
+ (3,37,[37,38]) -> (3,12,[12,13]), that is: "Wednesday" -> "Wednesday"
+Coreference set:
+ (5,14,[12,15]) -> (3,57,[54,58]), that is: "the U.S. dollar" -> "a strong U.S. dollar"
+Coreference set:
+ (6,14,[14,15]) -> (4,7,[7,8]), that is: "Brent" -> "Brent"
+Coreference set:
+ (6,15,[14,16]) -> (4,8,[7,9]), that is: "Brent crude" -> "Brent crude"

@@ -207,6 +207,7 @@ public class word_hit {
 	//感情語のスコアを取り出す	
 	public static Map<Integer, Map<String, Double>> POS_score_get(String text_file1){
 		Map<Integer,Map<String,Double>> sentense_wordscores = new HashMap<Integer,Map<String,Double>>();//�e�Z���e���X���Ƃ�wordscore
+
 		try{
 			File file = new File(connecter_stan.ArticleFolder + text_file1);
 
@@ -215,15 +216,29 @@ public class word_hit {
 				String str1;
 				String[] strs1;
 				int sent_num = 0;
+				boolean frag = false; //sentenceを拾ったらtrueになる
 
 				while((str1 = br.readLine()) != null){
+
 					Map<String,String> POSs = new HashMap<String,String>();//品詞とその品詞の種類を格納
 					Map<String,Double> wordscores = new HashMap<String,Double>();	//品詞とそのスコアを格納
-
-					if (str1.matches(".*" + "Text=" + ".*")){
-						strs1 = str1.split("] ");
-						int i=0;	
+					if(str1.matches("Sentence" + " #.*")){
+						String str_text = "";
 						sent_num++;
+
+						while(str1.matches("\\(ROOT") == false && str1.matches("\\(X" + ".*") == false){
+							str1 = br.readLine();
+							//System.out.println("str1 : "+str1+" " + str1.matches("\\(X" + ".*"));
+							if (str1.matches(".*" + "Text=" + ".*")){
+								str_text = str_text+str1;
+								//System.out.println("str_text"+str_text);
+							}
+							//System.out.println("str1 : "+str1+" " + str1.matches("\\(ROOT"));
+						}
+						//System.out.println("str_text"+str_text);
+						strs1 = str_text.split("] ");
+						int i=0;
+
 						while(i < strs1.length){
 							String regex = "(\\[Text=)(.*?)( C.*?)(PartOfSpeech=)(.*?)( .*?)(NamedEntityTag=)(.*)";
 							Pattern p = Pattern.compile(regex);
@@ -253,25 +268,23 @@ public class word_hit {
 
 						}
 
+						if(POSs.size() > 0){//一つでも感情語があれば
 
+							for(String key : POSs.keySet()){
+								String data = POSs.get(key);
 
-					}
-					if(POSs.size() > 0){
+								//System.out.println(key);
+								//SentiWordNetDemoCode sentiwordnet = new SentiWordNetDemoCode("SentiWordNet_3.0.0_20130122.txt");
+								double word_score = connecter_stan.sentiwordnet.extract(key, data);
+								if(word_score != 0){
+									//System.out.println(key + " #" + data +" " + word_score+" sent "+sent_num);
+									wordscores.put(key, word_score);
+								}
 
-						for(String key : POSs.keySet()){
-							String data = POSs.get(key);
-
-							//System.out.println(key);
-							//SentiWordNetDemoCode sentiwordnet = new SentiWordNetDemoCode("SentiWordNet_3.0.0_20130122.txt");
-							double word_score = connecter_stan.sentiwordnet.extract(key, data);
-							if(word_score != 0){
-								//System.out.println(key + " #" + data +" " + word_score);
-								wordscores.put(key, word_score);
-							}
-
-						}//System.out.println(wordscores);
-						sentense_wordscores.put(sent_num, wordscores);
-					}
+							}//System.out.println(wordscores);
+							sentense_wordscores.put(sent_num, wordscores);
+						}
+						}
 				}
 				System.out.println(sentense_wordscores);
 				return sentense_wordscores;
@@ -281,11 +294,96 @@ public class word_hit {
 			}
 		}catch(FileNotFoundException e){
 			System.out.println(e);
+			return sentense_wordscores;
 		}catch(IOException e){
 			System.out.println(e);
+			return sentense_wordscores;
 		}
 		return sentense_wordscores;
 	}
+	
+	
+//	public static Map<Integer, Map<String, Double>> POS_score_get(String text_file1){
+//		Map<Integer,Map<String,Double>> sentense_wordscores = new HashMap<Integer,Map<String,Double>>();//�e�Z���e���X���Ƃ�wordscore
+//		try{
+//			File file = new File(connecter_stan.ArticleFolder + text_file1);
+//
+//			if (cut_file.checkBeforeReadfile(file)){
+//				BufferedReader br = new BufferedReader(new FileReader(file));
+//				String str1;
+//				String[] strs1;
+//				int sent_num = 0;
+//
+//				while((str1 = br.readLine()) != null){
+//					Map<String,String> POSs = new HashMap<String,String>();//品詞とその品詞の種類を格納
+//					Map<String,Double> wordscores = new HashMap<String,Double>();	//品詞とそのスコアを格納
+//
+//					if (str1.matches(".*" + "Text=" + ".*")){
+//						strs1 = str1.split("] ");
+//						int i=0;	
+//						sent_num++;
+//						while(i < strs1.length){
+//							String regex = "(\\[Text=)(.*?)( C.*?)(PartOfSpeech=)(.*?)( .*?)(NamedEntityTag=)(.*)";
+//							Pattern p = Pattern.compile(regex);
+//							//System.out.println("aaa");
+//							Matcher m2 = p.matcher(strs1[i]);
+//							//
+//							//SentiWordNetで得られる値を見つける
+//							if(m2.find()){// ;
+//								if((m2.group(8)).equals("O")){//NamedEntityの場合
+//									String text = m2.group(2);
+//									String pos = m2.group(5);
+//									if(pos.startsWith("V")){//動詞の場合
+//										POSs.put(text,"v");
+//									}
+//									else if(pos.startsWith("J")){//形容詞の場合
+//										POSs.put(text, "a");
+//									}
+//									else if(pos.startsWith("N")){//名詞の場合
+//										POSs.put(text, "n");
+//									}
+//
+//
+//								}
+//
+//							}
+//							i++;
+//
+//						}
+//
+//
+//
+//					}
+//					if(POSs.size() > 0){
+//
+//						for(String key : POSs.keySet()){
+//							String data = POSs.get(key);
+//
+//							//System.out.println(key);
+//							//SentiWordNetDemoCode sentiwordnet = new SentiWordNetDemoCode("SentiWordNet_3.0.0_20130122.txt");
+//							double word_score = connecter_stan.sentiwordnet.extract(key, data);
+//							if(word_score != 0){
+//								//System.out.println(key + " #" + data +" " + word_score);
+//								wordscores.put(key, word_score);
+//							}
+//
+//						}//System.out.println(wordscores);
+//						sentense_wordscores.put(sent_num, wordscores);
+//					}
+//				}
+//				System.out.println(sentense_wordscores);
+//				return sentense_wordscores;
+//
+//			}else{
+//				System.out.println("ファイルが見つからないか開けません");
+//			}
+//		}catch(FileNotFoundException e){
+//			System.out.println(e);
+//		}catch(IOException e){
+//			System.out.println(e);
+//		}
+//		return sentense_wordscores;
+//	}
 
 	//リストの重複を取り除く
 	public static ArrayList<String> list_overlap_remove(ArrayList<String> list){

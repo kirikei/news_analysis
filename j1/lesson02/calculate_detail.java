@@ -63,18 +63,19 @@ public class calculate_detail {
 
 			while(shiki < file_name.length){
 				Map<Integer, String[]> orgs = organize_entity.get_subsentense("re_"+file_name[shiki], csv_ent, shiki);
+				//System.out.println("orgs:"+orgs);
 				result_sent.put(file_name[shiki],orgs);
 				//entity.txtが製作されている
 
 				shiki++;
 			}
-			//			System.out.println("@@@@@@" +csv_ent);
-			//			System.out.println("make  "+result_sent);
+						//System.out.println("@@@@@@" +csv_ent);
+						//System.out.println("make  "+result_sent);
 			ent_file_subtree.put(csv_ent,result_sent);
-			//			System.out.println("****" +ent_file_subtree);
+						//System.out.println("****" +ent_file_subtree);
 			p++;
 		}
-		//System.out.println("****" +ent_file_subtree);
+		System.out.println("out of while" +ent_file_subtree);
 		return ent_file_subtree;
 
 
@@ -159,7 +160,9 @@ public class calculate_detail {
 					}
 
 				}else{//重みより小さければ
-					at_s.put(ss, 0.0);//トピックssは0
+					if(at_s.containsKey(ss) == false){//まだ入力されていないならば####if文を入れなければssのスコアがリセットされる
+						at_s.put(ss, 0.0);
+					}
 				}
 				ss++;
 
@@ -282,9 +285,10 @@ public class calculate_detail {
 		
 
 		//<Named Entity, <file名, <行数, subtree>>>
+		//System.out.println("kaisi");
 		Map<String, Map<String,Map<Integer,String[]>>> topic_data = make_t_e(args,all_entities);
 
-		//System.out.println("aaaaaaaaa"+topic_data);
+		System.out.println("aaaaaaaaa"+topic_data);
 		double topic_weight = Topic_Weight;
 		//while(topic_weight < 0.91){
 				
@@ -395,7 +399,7 @@ public class calculate_detail {
 					Map<Integer, Double> ori_score_each = at_scores.get(origin);//元記事のat_score
 
 					//元記事のat_scoreをデータベースへ
-					import_newsDB.import_topic_score(origin, ori_score_each);
+					import_newsDB.import_topic_score(origin, ori_score_each, named_entity);
 					
 					//file毎に詳細の差を出す
 					while(it_file_at.hasNext()){
@@ -406,7 +410,7 @@ public class calculate_detail {
 							Map<Integer, Double> at_score_each = at_scores.get(file_S);
 							
 							//トピックのスコア（at）をデータベースへ
-							import_newsDB.import_topic_score(file_S, at_score_each);
+							import_newsDB.import_topic_score(file_S, at_score_each, named_entity);
 							
 							//System.out.println(" +++ "+at_score_each);
 							double detail_each = cal_det(at_score_each, ori_score_each);//file_Sの詳細の差を計算
@@ -427,7 +431,7 @@ public class calculate_detail {
 			}
 
 			//データベースに格納
-			import_newsDB.entry_measure(detailedness, "Details");	
+			import_newsDB.entry_measure(detailedness, "details");
 			System.out.println("詳細度:"+detailedness);
 			//positive_score.print_score(detailedness, args, "detailedness");
 			String most_file = null;

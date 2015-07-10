@@ -1,0 +1,227 @@
+Sentence #1 (6 tokens):
+Aim higher, reach further.
+[Text=Aim CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Aim NamedEntityTag=O] [Text=higher CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=reach CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=further CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=RB Lemma=further NamedEntityTag=O] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP
+      (NP (NNP Aim))
+      (JJR higher))
+    (, ,)
+    (VP (VB reach)
+      (ADVP (RB further)))
+    (. .)))
+
+root(ROOT-0, reach-4)
+dep(higher-2, Aim-1)
+advmod(reach-4, higher-2)
+advmod(reach-4, further-5)
+
+Sentence #2 (11 tokens):
+Get the Wall Street Journal $12 for 12 weeks.
+[Text=Get CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Wall CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O] [Text=Street CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Street NamedEntityTag=O] [Text=Journal CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Journal NamedEntityTag=O] [Text=$ CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=12 CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=CD Lemma=12 NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=for CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=12 CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=CD Lemma=12 NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=weeks CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNS Lemma=week NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Get)
+      (NP (DT the) (NNP Wall) (NNP Street) (NNP Journal))
+      (NP
+        (NP ($ $) (CD 12))
+        (PP (IN for)
+          (NP (CD 12) (NNS weeks)))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+det(Journal-5, the-2)
+nn(Journal-5, Wall-3)
+nn(Journal-5, Street-4)
+iobj(Get-1, Journal-5)
+dobj(Get-1, dol-6)
+num(dol-6, 12-7)
+num(weeks-10, 12-9)
+prep_for(dol-6, weeks-10)
+
+Sentence #3 (74 tokens):
+Subscribe Now
+Rangers Beat Lightning to Stay Alive in Eastern Conference Finals
+Blueshirts avoid playoff elimination by winning in Tampa
+By
+May 26, 2015 11:53 p.m. ET
+TAMPA, Fla.—Confronted once again with the task of avoiding elimination from the Stanley Cup playoffs, the Rangers happily accepted the challenge Tuesday night and pounced on the Tampa Bay Lightning, chasing goaltender Ben Bishop en route to a 7-3 victory.
+[Text=Subscribe CharacterOffsetBegin=73 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=subscribe NamedEntityTag=ORGANIZATION] [Text=Now CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=RB Lemma=now NamedEntityTag=ORGANIZATION Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=Rangers CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NNPS Lemma=Rangers NamedEntityTag=ORGANIZATION] [Text=Beat CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NN Lemma=beat NamedEntityTag=ORGANIZATION] [Text=Lightning CharacterOffsetBegin=100 CharacterOffsetEnd=109 PartOfSpeech=NN Lemma=lightning NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Stay CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=NNP Lemma=Stay NamedEntityTag=O] [Text=Alive CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=NNP Lemma=Alive NamedEntityTag=O] [Text=in CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Eastern CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=NNP Lemma=Eastern NamedEntityTag=ORGANIZATION] [Text=Conference CharacterOffsetBegin=135 CharacterOffsetEnd=145 PartOfSpeech=NNP Lemma=Conference NamedEntityTag=ORGANIZATION] [Text=Finals CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NNP Lemma=Finals NamedEntityTag=ORGANIZATION] [Text=Blueshirts CharacterOffsetBegin=153 CharacterOffsetEnd=163 PartOfSpeech=NNPS Lemma=Blueshirts NamedEntityTag=ORGANIZATION] [Text=avoid CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=VB Lemma=avoid NamedEntityTag=O] [Text=playoff CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=NN Lemma=playoff NamedEntityTag=O] [Text=elimination CharacterOffsetBegin=178 CharacterOffsetEnd=189 PartOfSpeech=NN Lemma=elimination NamedEntityTag=O] [Text=by CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=winning CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=VBG Lemma=win NamedEntityTag=O] [Text=in CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Tampa CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NNP Lemma=Tampa NamedEntityTag=LOCATION] [Text=By CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=May CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=26 CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=2015 CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=11:53 CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=CD Lemma=11:53 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=p.m. CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=NN Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T23:53 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T23:53">May 26, 2015 11:53 p.m.<_TIMEX3>] [Text=ET CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=NNP Lemma=ET NamedEntityTag=O] [Text=TAMPA CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=NNP Lemma=TAMPA NamedEntityTag=O] [Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Fla. CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NNP Lemma=Fla. NamedEntityTag=LOCATION] [Text=-- CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=Confronted CharacterOffsetBegin=252 CharacterOffsetEnd=262 PartOfSpeech=VBN Lemma=confront NamedEntityTag=O] [Text=once CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t4" type="DATE" value="PAST_REF">once<_TIMEX3>] [Text=again CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=with CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=task CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=task NamedEntityTag=O] [Text=of CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=avoiding CharacterOffsetBegin=291 CharacterOffsetEnd=299 PartOfSpeech=VBG Lemma=avoid NamedEntityTag=O] [Text=elimination CharacterOffsetBegin=300 CharacterOffsetEnd=311 PartOfSpeech=NN Lemma=elimination NamedEntityTag=O] [Text=from CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Stanley CharacterOffsetBegin=321 CharacterOffsetEnd=328 PartOfSpeech=NNP Lemma=Stanley NamedEntityTag=MISC] [Text=Cup CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=MISC] [Text=playoffs CharacterOffsetBegin=333 CharacterOffsetEnd=341 PartOfSpeech=NNS Lemma=playoff NamedEntityTag=O] [Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Rangers CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NNPS Lemma=Rangers NamedEntityTag=ORGANIZATION] [Text=happily CharacterOffsetBegin=355 CharacterOffsetEnd=362 PartOfSpeech=RB Lemma=happily NamedEntityTag=O] [Text=accepted CharacterOffsetBegin=363 CharacterOffsetEnd=371 PartOfSpeech=VBD Lemma=accept NamedEntityTag=O] [Text=the CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=challenge CharacterOffsetBegin=376 CharacterOffsetEnd=385 PartOfSpeech=NN Lemma=challenge NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t5" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=night CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t5" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=and CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=pounced CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=VBN Lemma=pounce NamedEntityTag=O] [Text=on CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Tampa CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NNP Lemma=Tampa NamedEntityTag=ORGANIZATION] [Text=Bay CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=NNP Lemma=Bay NamedEntityTag=ORGANIZATION] [Text=Lightning CharacterOffsetBegin=429 CharacterOffsetEnd=438 PartOfSpeech=NNP Lemma=Lightning NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=438 CharacterOffsetEnd=439 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=chasing CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=VBG Lemma=chase NamedEntityTag=O] [Text=goaltender CharacterOffsetBegin=448 CharacterOffsetEnd=458 PartOfSpeech=NN Lemma=goaltender NamedEntityTag=O] [Text=Ben CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=NNP Lemma=Ben NamedEntityTag=PERSON] [Text=Bishop CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=NNP Lemma=Bishop NamedEntityTag=PERSON] [Text=en CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=IN Lemma=en NamedEntityTag=O] [Text=route CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=NN Lemma=route NamedEntityTag=O] [Text=to CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=7-3 CharacterOffsetBegin=484 CharacterOffsetEnd=487 PartOfSpeech=CD Lemma=7-3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0 - 3.0] [Text=victory CharacterOffsetBegin=488 CharacterOffsetEnd=495 PartOfSpeech=NN Lemma=victory NamedEntityTag=O] [Text=. CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (NN Subscribe))
+      (RRC
+        (ADVP (RB Now))
+        (NP
+          (NP (NNPS Rangers))
+          (NP
+            (NP (NN Beat) (NN Lightning))
+            (PP (TO to)
+              (NP
+                (NP (NNP Stay) (NNP Alive))
+                (PP (IN in)
+                  (NP (NNP Eastern) (NNP Conference) (NNP Finals) (NNPS Blueshirts)))))))))
+    (S
+      (S
+        (VP (VB avoid)
+          (NP (NN playoff) (NN elimination))
+          (PP (IN by)
+            (S
+              (VP (VBG winning)
+                (PP (IN in)
+                  (NP
+                    (NP
+                      (NAC (NNP Tampa)
+                        (PP (IN By)
+                          (NP
+                            (NP (NNP May) (CD 26) (, ,) (CD 2015))
+                            (NP-TMP (CD 11:53) (NN p.m.)))))
+                      (NNP ET) (NNP TAMPA))
+                    (, ,)
+                    (NP (NNP Fla.)))))))))
+      (: --)
+      (S
+        (VP (VBN Confronted)
+          (ADVP (RB once) (RB again))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN task))
+              (PP (IN of)
+                (S
+                  (VP (VBG avoiding)
+                    (NP (NN elimination))
+                    (PP (IN from)
+                      (NP (DT the) (NNP Stanley) (NNP Cup) (NNS playoffs)))))))))))
+    (, ,)
+    (S
+      (NP (DT the) (NNPS Rangers))
+      (VP
+        (VP
+          (ADVP (RB happily))
+          (VBD accepted)
+          (NP (DT the) (NN challenge))
+          (NP-TMP (NNP Tuesday) (NN night)))
+        (CC and)
+        (VP (VBN pounced)
+          (PP (IN on)
+            (NP (DT the) (NNP Tampa) (NNP Bay) (NNP Lightning))))))
+    (, ,)
+    (VP (VBG chasing)
+      (NP (NN goaltender) (NNP Ben) (NNP Bishop))
+      (ADVP (IN en) (NN route)))
+    (PP (TO to)
+      (NP (DT a) (CD 7-3) (NN victory)))
+    (. .)))
+
+root(ROOT-0, Subscribe-1)
+advmod(Rangers-3, Now-2)
+rcmod(Subscribe-1, Rangers-3)
+nn(Lightning-5, Beat-4)
+dep(Rangers-3, Lightning-5)
+nn(Alive-8, Stay-7)
+prep_to(Lightning-5, Alive-8)
+nn(Blueshirts-13, Eastern-10)
+nn(Blueshirts-13, Conference-11)
+nn(Blueshirts-13, Finals-12)
+prep_in(Alive-8, Blueshirts-13)
+dep(Subscribe-1, avoid-14)
+nn(elimination-16, playoff-15)
+dobj(avoid-14, elimination-16)
+prepc_by(avoid-14, winning-18)
+dep(TAMPA-29, Tampa-20)
+prep_by(Tampa-20, May-22)
+num(May-22, 26-23)
+num(May-22, 2015-25)
+num(p.m.-27, 11:53-26)
+tmod(May-22, p.m.-27)
+nn(TAMPA-29, ET-28)
+prep_in(winning-18, TAMPA-29)
+appos(TAMPA-29, Fla.-31)
+parataxis(avoid-14, Confronted-33)
+advmod(again-35, once-34)
+advmod(Confronted-33, again-35)
+det(task-38, the-37)
+prep_with(Confronted-33, task-38)
+prepc_of(task-38, avoiding-40)
+dobj(avoiding-40, elimination-41)
+det(playoffs-46, the-43)
+nn(playoffs-46, Stanley-44)
+nn(playoffs-46, Cup-45)
+prep_from(avoiding-40, playoffs-46)
+det(Rangers-49, the-48)
+nsubj(accepted-51, Rangers-49)
+advmod(accepted-51, happily-50)
+dep(Subscribe-1, accepted-51)
+det(challenge-53, the-52)
+dobj(accepted-51, challenge-53)
+nn(night-55, Tuesday-54)
+tmod(accepted-51, night-55)
+conj_and(accepted-51, pounced-57)
+det(Lightning-62, the-59)
+nn(Lightning-62, Tampa-60)
+nn(Lightning-62, Bay-61)
+prep_on(pounced-57, Lightning-62)
+vmod(Subscribe-1, chasing-64)
+nn(Bishop-67, goaltender-65)
+nn(Bishop-67, Ben-66)
+dobj(chasing-64, Bishop-67)
+advmod(chasing-64, en-68)
+dep(en-68, route-69)
+det(victory-73, a-71)
+num(victory-73, 7-3-72)
+prep_to(Subscribe-1, victory-73)
+
+Sentence #4 (21 tokens):
+Top-line center Derick Brassard scored three goals and added two assists to enable the...
+Popular on WSJ
+Popular on WSJ
+[Text=Top-line CharacterOffsetBegin=497 CharacterOffsetEnd=505 PartOfSpeech=JJ Lemma=top-line NamedEntityTag=O] [Text=center CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=NN Lemma=center NamedEntityTag=O] [Text=Derick CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NNP Lemma=Derick NamedEntityTag=PERSON] [Text=Brassard CharacterOffsetBegin=520 CharacterOffsetEnd=528 PartOfSpeech=NNP Lemma=Brassard NamedEntityTag=PERSON] [Text=scored CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=VBD Lemma=score NamedEntityTag=O] [Text=three CharacterOffsetBegin=536 CharacterOffsetEnd=541 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=goals CharacterOffsetBegin=542 CharacterOffsetEnd=547 PartOfSpeech=NNS Lemma=goal NamedEntityTag=O] [Text=and CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=added CharacterOffsetBegin=552 CharacterOffsetEnd=557 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=two CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=assists CharacterOffsetBegin=562 CharacterOffsetEnd=569 PartOfSpeech=VBZ Lemma=assist NamedEntityTag=O] [Text=to CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=enable CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=VB Lemma=enable NamedEntityTag=O] [Text=the CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=... CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=587 CharacterOffsetEnd=594 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=602 CharacterOffsetEnd=609 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Top-line) (NN center) (NNP Derick) (NNP Brassard))
+    (VP
+      (VP (VBD scored)
+        (NP (CD three) (NNS goals)))
+      (CC and)
+      (VP (VBD added)
+        (SBAR
+          (S
+            (NP (CD two))
+            (VP (VBZ assists)
+              (S
+                (VP (TO to)
+                  (VP (VB enable)
+                    (NP
+                      (NP (DT the))
+                      (: ...)
+                      (NP
+                        (NP (NNP Popular))
+                        (PP (IN on)
+                          (NP
+                            (NP (NNP WSJ) (NNP Popular))
+                            (PP (IN on)
+                              (NP (NNP WSJ)))))))))))))))))
+
+root(ROOT-0, scored-5)
+amod(Brassard-4, Top-line-1)
+nn(Brassard-4, center-2)
+nn(Brassard-4, Derick-3)
+nsubj(scored-5, Brassard-4)
+num(goals-7, three-6)
+dobj(scored-5, goals-7)
+conj_and(scored-5, added-9)
+nsubj(assists-11, two-10)
+ccomp(added-9, assists-11)
+aux(enable-13, to-12)
+xcomp(assists-11, enable-13)
+dobj(enable-13, the-14)
+dep(the-14, Popular-16)
+nn(Popular-19, WSJ-18)
+prep_on(Popular-16, Popular-19)
+prep_on(Popular-19, WSJ-21)
+
+Coreference set:
+ (4,21,[21,22]) -> (2,5,[2,6]), that is: "WSJ" -> "the Wall Street Journal"
+Coreference set:
+ (3,3,[3,14]) -> (3,49,[48,50]), that is: "Rangers Beat Lightning to Stay Alive in Eastern Conference Finals Blueshirts" -> "the Rangers"

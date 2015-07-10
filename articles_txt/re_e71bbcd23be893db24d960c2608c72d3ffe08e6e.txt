@@ -1,0 +1,843 @@
+Sentence #1 (6 tokens):
+Newsletter may include personalized content.
+[Text=Newsletter CharacterOffsetBegin=0 CharacterOffsetEnd=10 PartOfSpeech=NN Lemma=newsletter NamedEntityTag=O] [Text=may CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=include CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=VB Lemma=include NamedEntityTag=O] [Text=personalized CharacterOffsetBegin=23 CharacterOffsetEnd=35 PartOfSpeech=JJ Lemma=personalized NamedEntityTag=O] [Text=content CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=NN Lemma=content NamedEntityTag=O] [Text=. CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Newsletter))
+    (VP (MD may)
+      (VP (VB include)
+        (NP (JJ personalized) (NN content))))
+    (. .)))
+
+root(ROOT-0, include-3)
+nsubj(include-3, Newsletter-1)
+aux(include-3, may-2)
+amod(content-5, personalized-4)
+dobj(include-3, content-5)
+
+Sentence #2 (3 tokens):
+Learn more .
+[Text=Learn CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=VB Lemma=learn NamedEntityTag=O] [Text=more CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Learn)
+      (ADVP (RBR more)))
+    (. .)))
+
+root(ROOT-0, Learn-1)
+advmod(Learn-1, more-2)
+
+Sentence #3 (54 tokens):
+2015-05-26 13:39:22
+2015-05-26 12:33:33
+38 minutes ago
+BEVERLY HILLS, CA - JULY 27:  Dancer Bristol Palin speaks onstage at the _Dancing with the Stars: All-Stars_ panel during the Disney_ABC Television Group portion of the 2012 Summer TCA Tour on July 27, 2012 in Beverly Hills, California.
+[Text=2015-05-26 CharacterOffsetBegin=58 CharacterOffsetEnd=68 PartOfSpeech=JJ Lemma=2015-05-26 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T13:39:22 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T13:39:22">2015-05-26 13:39:22<_TIMEX3>] [Text=13:39:22 CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=CD Lemma=13:39:22 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T13:39:22 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T13:39:22">2015-05-26 13:39:22<_TIMEX3>] [Text=2015-05-26 CharacterOffsetBegin=78 CharacterOffsetEnd=88 PartOfSpeech=CD Lemma=2015-05-26 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T13:39:22 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-26T12:33:33">2015-05-26 12:33:33<_TIMEX3>] [Text=12:33:33 CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=CD Lemma=12:33:33 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T13:39:22 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-26T12:33:33">2015-05-26 12:33:33<_TIMEX3>] [Text=38 CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=CD Lemma=38 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET PT-38M Timex=<TIMEX3 alt_value="OFFSET PT-38M" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">38 minutes ago<_TIMEX3>] [Text=minutes CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=NNS Lemma=minute NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET PT-38M Timex=<TIMEX3 alt_value="OFFSET PT-38M" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">38 minutes ago<_TIMEX3>] [Text=ago CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=IN Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET PT-38M Timex=<TIMEX3 alt_value="OFFSET PT-38M" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">38 minutes ago<_TIMEX3>] [Text=BEVERLY CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=NNP Lemma=BEVERLY NamedEntityTag=O] [Text=HILLS CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=NNS Lemma=hill NamedEntityTag=O] [Text=, CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CA CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=NNP Lemma=CA NamedEntityTag=LOCATION] [Text=- CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=JULY CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN Lemma=july NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-27 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-07-27">JULY 27<_TIMEX3>] [Text=27 CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-07-27 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-07-27">JULY 27<_TIMEX3>] [Text=: CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Dancer CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Dancer NamedEntityTag=O] [Text=Bristol CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=NNP Lemma=Bristol NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=speaks CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=VBZ Lemma=speak NamedEntityTag=O] [Text=onstage CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=RB Lemma=onstage NamedEntityTag=O] [Text=at CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=` CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=Dancing CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=VBG Lemma=dance NamedEntityTag=O] [Text=with CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Stars CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NNP Lemma=Stars NamedEntityTag=O] [Text=: CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=All-Stars CharacterOffsetBegin=211 CharacterOffsetEnd=220 PartOfSpeech=NNS Lemma=all-star NamedEntityTag=O] [Text=_ CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=panel CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=NN Lemma=panel NamedEntityTag=O] [Text=during CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Disney_ABC CharacterOffsetBegin=239 CharacterOffsetEnd=249 PartOfSpeech=NNP Lemma=Disney_ABC NamedEntityTag=ORGANIZATION] [Text=Television CharacterOffsetBegin=250 CharacterOffsetEnd=260 PartOfSpeech=NNP Lemma=Television NamedEntityTag=ORGANIZATION] [Text=Group CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NNP Lemma=Group NamedEntityTag=ORGANIZATION] [Text=portion CharacterOffsetBegin=267 CharacterOffsetEnd=274 PartOfSpeech=NN Lemma=portion NamedEntityTag=O] [Text=of CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=2012-SU Timex=<TIMEX3 tid="t5" type="DATE" value="2012-SU">the 2012 Summer<_TIMEX3>] [Text=2012 CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012-SU Timex=<TIMEX3 tid="t5" type="DATE" value="2012-SU">the 2012 Summer<_TIMEX3>] [Text=Summer CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NN Lemma=summer NamedEntityTag=DATE NormalizedNamedEntityTag=2012-SU Timex=<TIMEX3 tid="t5" type="DATE" value="2012-SU">the 2012 Summer<_TIMEX3>] [Text=TCA CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=NNP Lemma=TCA NamedEntityTag=MISC] [Text=Tour CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NNP Lemma=Tour NamedEntityTag=MISC] [Text=on CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=July CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2012-07-27 Timex=<TIMEX3 tid="t6" type="DATE" value="2012-07-27">July 27, 2012<_TIMEX3>] [Text=27 CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2012-07-27 Timex=<TIMEX3 tid="t6" type="DATE" value="2012-07-27">July 27, 2012<_TIMEX3>] [Text=, CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2012-07-27 Timex=<TIMEX3 tid="t6" type="DATE" value="2012-07-27">July 27, 2012<_TIMEX3>] [Text=2012 CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012-07-27 Timex=<TIMEX3 tid="t6" type="DATE" value="2012-07-27">July 27, 2012<_TIMEX3>] [Text=in CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Beverly CharacterOffsetBegin=323 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Beverly NamedEntityTag=LOCATION] [Text=Hills CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=NNP Lemma=Hills NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=336 CharacterOffsetEnd=337 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=California CharacterOffsetBegin=338 CharacterOffsetEnd=348 PartOfSpeech=NNP Lemma=California NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (JJ 2015-05-26) (CD 13:39:22))
+      (ADJP
+        (ADJP
+          (QP (CD 2015-05-26) (CD 12:33:33)))
+        (NP (CD 38) (NNS minutes)))
+      (ADVP (IN ago))
+      (NP
+        (NP (NNP BEVERLY) (NNS HILLS))
+        (, ,)
+        (NP (NNP CA))))
+    (: -)
+    (NP
+      (NP (NN JULY) (CD 27))
+      (: :)
+      (NP
+        (NP (NNP Dancer) (NNP Bristol) (NNP Palin))
+        (SBAR
+          (S
+            (VP (VBZ speaks)
+              (ADVP (RB onstage))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (`` `) (VBG Dancing))
+                  (PP (IN with)
+                    (NP (DT the) (NNP Stars)))))))))
+      (: :)
+      (NP
+        (NP
+          (NP (NNS All-Stars) (POS _))
+          (NN panel))
+        (PP (IN during)
+          (NP
+            (NP (DT the) (NNP Disney_ABC) (NNP Television) (NNP Group) (NN portion))
+            (PP (IN of)
+              (NP (DT the) (CD 2012) (NN Summer) (NNP TCA) (NNP Tour)))))
+        (PP (IN on)
+          (NP
+            (NP (NNP July) (CD 27) (, ,) (CD 2012))
+            (PP (IN in)
+              (NP
+                (NP (NNP Beverly) (NNP Hills))
+                (, ,)
+                (NP (NNP California))))))))
+    (. .)))
+
+root(ROOT-0, 13:39:22-2)
+amod(13:39:22-2, 2015-05-26-1)
+number(12:33:33-4, 2015-05-26-3)
+amod(13:39:22-2, 12:33:33-4)
+num(minutes-6, 38-5)
+dep(12:33:33-4, minutes-6)
+advmod(13:39:22-2, ago-7)
+nn(HILLS-9, BEVERLY-8)
+dep(13:39:22-2, HILLS-9)
+appos(HILLS-9, CA-11)
+dep(13:39:22-2, JULY-13)
+num(JULY-13, 27-14)
+nn(Palin-18, Dancer-16)
+nn(Palin-18, Bristol-17)
+dep(JULY-13, Palin-18)
+rcmod(Palin-18, speaks-19)
+advmod(speaks-19, onstage-20)
+prep_at(speaks-19, the-22)
+amod(the-22, Dancing-24)
+det(Stars-27, the-26)
+prep_with(the-22, Stars-27)
+poss(panel-31, All-Stars-29)
+dep(JULY-13, panel-31)
+det(portion-37, the-33)
+nn(portion-37, Disney_ABC-34)
+nn(portion-37, Television-35)
+nn(portion-37, Group-36)
+prep_during(panel-31, portion-37)
+det(Tour-43, the-39)
+num(Tour-43, 2012-40)
+nn(Tour-43, Summer-41)
+nn(Tour-43, TCA-42)
+prep_of(portion-37, Tour-43)
+prep_on(panel-31, July-45)
+num(July-45, 27-46)
+num(July-45, 2012-48)
+nn(Hills-51, Beverly-50)
+prep_in(July-45, Hills-51)
+appos(Hills-51, California-53)
+
+Sentence #4 (61 tokens):
+(Photo by Frederick M. Brown_Getty Images) | Frederick M. Brown via Getty Images
+One week after former Alaska Gov. Sarah Palin (R) announced that her daughter, Bristol, would no longer marry Medal of Honor recipient Dakota Meyer, the daughter of the 2008 vice presidential candidate is breaking her silence on the canceled nuptials.
+[Text=-LRB- CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=352 CharacterOffsetEnd=357 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=by CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Frederick CharacterOffsetBegin=361 CharacterOffsetEnd=370 PartOfSpeech=NNP Lemma=Frederick NamedEntityTag=PERSON] [Text=M. CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=NNP Lemma=M. NamedEntityTag=PERSON] [Text=Brown_Getty CharacterOffsetBegin=374 CharacterOffsetEnd=385 PartOfSpeech=NNP Lemma=Brown_Getty NamedEntityTag=PERSON] [Text=Images CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=392 CharacterOffsetEnd=393 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=| CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=CD Lemma=| NamedEntityTag=NUMBER] [Text=Frederick CharacterOffsetBegin=396 CharacterOffsetEnd=405 PartOfSpeech=NNP Lemma=Frederick NamedEntityTag=PERSON] [Text=M. CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=NNP Lemma=M. NamedEntityTag=PERSON] [Text=Brown CharacterOffsetBegin=409 CharacterOffsetEnd=414 PartOfSpeech=NNP Lemma=Brown NamedEntityTag=PERSON] [Text=via CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=IN Lemma=via NamedEntityTag=O] [Text=Getty CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NNP Lemma=Getty NamedEntityTag=MISC] [Text=Images CharacterOffsetBegin=425 CharacterOffsetEnd=431 PartOfSpeech=NNP Lemma=Images NamedEntityTag=MISC] [Text=One CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CD Lemma=one NamedEntityTag=DURATION NormalizedNamedEntityTag=P1W Timex=<TIMEX3 tid="t7" type="DURATION" value="P1W">One week<_TIMEX3>] [Text=week CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=NN Lemma=week NamedEntityTag=DURATION NormalizedNamedEntityTag=P1W Timex=<TIMEX3 tid="t7" type="DURATION" value="P1W">One week<_TIMEX3>] [Text=after CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=former CharacterOffsetBegin=447 CharacterOffsetEnd=453 PartOfSpeech=JJ Lemma=former NamedEntityTag=O] [Text=Alaska CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=NNP Lemma=Alaska NamedEntityTag=LOCATION] [Text=Gov. CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=NNP Lemma=Gov. NamedEntityTag=O] [Text=Sarah CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=NNP Lemma=Sarah NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=478 CharacterOffsetEnd=479 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=R CharacterOffsetBegin=479 CharacterOffsetEnd=480 PartOfSpeech=NNP Lemma=R NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=announced CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=that CharacterOffsetBegin=492 CharacterOffsetEnd=496 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=her CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=daughter CharacterOffsetBegin=501 CharacterOffsetEnd=509 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O] [Text=, CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Bristol CharacterOffsetBegin=511 CharacterOffsetEnd=518 PartOfSpeech=NNP Lemma=Bristol NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=would CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=no CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=RB Lemma=no NamedEntityTag=O] [Text=longer CharacterOffsetBegin=529 CharacterOffsetEnd=535 PartOfSpeech=RB Lemma=longer NamedEntityTag=O] [Text=marry CharacterOffsetBegin=536 CharacterOffsetEnd=541 PartOfSpeech=VB Lemma=marry NamedEntityTag=O] [Text=Medal CharacterOffsetBegin=542 CharacterOffsetEnd=547 PartOfSpeech=NN Lemma=medal NamedEntityTag=O] [Text=of CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Honor CharacterOffsetBegin=551 CharacterOffsetEnd=556 PartOfSpeech=NN Lemma=honor NamedEntityTag=O] [Text=recipient CharacterOffsetBegin=557 CharacterOffsetEnd=566 PartOfSpeech=JJ Lemma=recipient NamedEntityTag=O] [Text=Dakota CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NNP Lemma=Dakota NamedEntityTag=PERSON] [Text=Meyer CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NNP Lemma=Meyer NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=daughter CharacterOffsetBegin=585 CharacterOffsetEnd=593 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O] [Text=of CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2008 CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=CD Lemma=2008 NamedEntityTag=DATE NormalizedNamedEntityTag=2008 Timex=<TIMEX3 tid="t8" type="DATE" value="2008">2008<_TIMEX3>] [Text=vice CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=NN Lemma=vice NamedEntityTag=O] [Text=presidential CharacterOffsetBegin=611 CharacterOffsetEnd=623 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=candidate CharacterOffsetBegin=624 CharacterOffsetEnd=633 PartOfSpeech=NN Lemma=candidate NamedEntityTag=O] [Text=is CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=breaking CharacterOffsetBegin=637 CharacterOffsetEnd=645 PartOfSpeech=VBG Lemma=break NamedEntityTag=O] [Text=her CharacterOffsetBegin=646 CharacterOffsetEnd=649 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=silence CharacterOffsetBegin=650 CharacterOffsetEnd=657 PartOfSpeech=NN Lemma=silence NamedEntityTag=O] [Text=on CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=canceled CharacterOffsetBegin=665 CharacterOffsetEnd=673 PartOfSpeech=VBN Lemma=cancel NamedEntityTag=O] [Text=nuptials CharacterOffsetBegin=674 CharacterOffsetEnd=682 PartOfSpeech=NNS Lemma=nuptials NamedEntityTag=O] [Text=. CharacterOffsetBegin=682 CharacterOffsetEnd=683 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (NNP Photo))
+          (PP (IN by)
+            (NP (NNP Frederick) (NNP M.) (NNP Brown_Getty) (NNPS Images))))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP
+            (NP (CD |) (NNP Frederick) (NNP M.) (NNP Brown))
+            (PP (IN via)
+              (NP
+                (NP (NNP Getty) (NNP Images))
+                (NP-TMP (CD One) (NN week))
+                (PP (IN after)
+                  (NP (JJ former) (NNP Alaska) (NNP Gov.) (NNP Sarah) (NNP Palin))))))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP R))
+            (-RRB- -RRB-)))
+        (VP (VBD announced)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (PRP$ her) (NN daughter))
+                (, ,)
+                (NP (NNP Bristol))
+                (, ,))
+              (VP (MD would)
+                (ADVP (RB no) (RB longer))
+                (VP (VB marry)
+                  (S
+                    (NP
+                      (NP (NN Medal))
+                      (PP (IN of)
+                        (NP (NN Honor))))
+                    (NP (JJ recipient) (NNP Dakota) (NNP Meyer))))))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN daughter))
+      (PP (IN of)
+        (NP (DT the)
+          (ADJP
+            (NP (CD 2008) (NN vice))
+            (JJ presidential))
+          (NN candidate))))
+    (VP (VBZ is)
+      (VP (VBG breaking)
+        (NP (PRP$ her) (NN silence))
+        (PP (IN on)
+          (NP (DT the) (VBN canceled) (NNS nuptials)))))
+    (. .)))
+
+root(ROOT-0, breaking-54)
+dep(announced-27, Photo-2)
+nn(Images-7, Frederick-4)
+nn(Images-7, M.-5)
+nn(Images-7, Brown_Getty-6)
+prep_by(Photo-2, Images-7)
+num(Brown-12, bar-9)
+nn(Brown-12, Frederick-10)
+nn(Brown-12, M.-11)
+nsubj(announced-27, Brown-12)
+nn(Images-15, Getty-14)
+prep_via(Brown-12, Images-15)
+num(week-17, One-16)
+tmod(Images-15, week-17)
+amod(Palin-23, former-19)
+nn(Palin-23, Alaska-20)
+nn(Palin-23, Gov.-21)
+nn(Palin-23, Sarah-22)
+prep_after(Images-15, Palin-23)
+appos(Brown-12, R-25)
+advcl(breaking-54, announced-27)
+mark(marry-37, that-28)
+poss(daughter-30, her-29)
+nsubj(marry-37, daughter-30)
+appos(daughter-30, Bristol-32)
+aux(marry-37, would-34)
+neg(longer-36, no-35)
+advmod(marry-37, longer-36)
+ccomp(announced-27, marry-37)
+nsubj(Meyer-43, Medal-38)
+prep_of(Medal-38, Honor-40)
+amod(Meyer-43, recipient-41)
+nn(Meyer-43, Dakota-42)
+xcomp(marry-37, Meyer-43)
+det(daughter-46, the-45)
+nsubj(breaking-54, daughter-46)
+det(candidate-52, the-48)
+num(vice-50, 2008-49)
+npadvmod(presidential-51, vice-50)
+amod(candidate-52, presidential-51)
+prep_of(daughter-46, candidate-52)
+aux(breaking-54, is-53)
+poss(silence-56, her-55)
+dobj(breaking-54, silence-56)
+det(nuptials-60, the-58)
+amod(nuptials-60, canceled-59)
+prep_on(breaking-54, nuptials-60)
+
+Sentence #5 (32 tokens):
+"I guess you have seen by now that the wedding -- that was supposed to happen last weekend --was called off," Bristol Palin wrote on her blog .
+[Text=`` CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=guess CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=VBP Lemma=guess NamedEntityTag=O] [Text=you CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=by CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=now CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t9" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=that CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=719 CharacterOffsetEnd=722 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wedding CharacterOffsetBegin=723 CharacterOffsetEnd=730 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O] [Text=-- CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=that CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=was CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=supposed CharacterOffsetBegin=743 CharacterOffsetEnd=751 PartOfSpeech=VBN Lemma=suppose NamedEntityTag=O] [Text=to CharacterOffsetBegin=752 CharacterOffsetEnd=754 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=happen CharacterOffsetBegin=755 CharacterOffsetEnd=761 PartOfSpeech=VB Lemma=happen NamedEntityTag=O] [Text=last CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE OFFSET P-1W Timex=<TIMEX3 alt_value="XXXX-WE OFFSET P-1W" anchorTimeID="t11" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf1">last weekend<_TIMEX3>] [Text=weekend CharacterOffsetBegin=767 CharacterOffsetEnd=774 PartOfSpeech=NN Lemma=weekend NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE OFFSET P-1W Timex=<TIMEX3 alt_value="XXXX-WE OFFSET P-1W" anchorTimeID="t11" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf1">last weekend<_TIMEX3>] [Text=-- CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=was CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=called CharacterOffsetBegin=781 CharacterOffsetEnd=787 PartOfSpeech=VBN Lemma=call NamedEntityTag=O] [Text=off CharacterOffsetBegin=788 CharacterOffsetEnd=791 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=, CharacterOffsetBegin=791 CharacterOffsetEnd=792 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=792 CharacterOffsetEnd=793 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Bristol CharacterOffsetBegin=794 CharacterOffsetEnd=801 PartOfSpeech=NNP Lemma=Bristol NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=wrote CharacterOffsetBegin=808 CharacterOffsetEnd=813 PartOfSpeech=VBD Lemma=write NamedEntityTag=O] [Text=on CharacterOffsetBegin=814 CharacterOffsetEnd=816 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=her CharacterOffsetBegin=817 CharacterOffsetEnd=820 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=blog CharacterOffsetBegin=821 CharacterOffsetEnd=825 PartOfSpeech=NN Lemma=blog NamedEntityTag=O] [Text=. CharacterOffsetBegin=826 CharacterOffsetEnd=827 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP guess)
+        (S
+          (NP (PRP you))
+          (VP (VB have)
+            (VP (VBN seen)
+              (PP (IN by)
+                (NP (RB now)))
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (NN wedding))
+                    (PRN (: --)
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VBD was)
+                            (VP (VBN supposed)
+                              (S
+                                (VP (TO to)
+                                  (VP (VB happen)
+                                    (NP (JJ last) (NN weekend)))))))))
+                      (: --)))
+                  (VP (VBD was)
+                    (VP (VBN called)
+                      (PRT (RP off)))))))))))
+    (, ,) (__ __)
+    (NP (NNP Bristol) (NNP Palin))
+    (VP (VBD wrote)
+      (PP (IN on)
+        (NP (PRP$ her) (NN blog))))
+    (. .)))
+
+root(ROOT-0, wrote-28)
+nsubj(guess-3, I-2)
+ccomp(wrote-28, guess-3)
+nsubj(seen-6, you-4)
+aux(seen-6, have-5)
+ccomp(guess-3, seen-6)
+prep(seen-6, by-7)
+pobj(by-7, now-8)
+mark(called-22, that-9)
+det(wedding-11, the-10)
+nsubjpass(called-22, wedding-11)
+nsubjpass(supposed-15, that-13)
+auxpass(supposed-15, was-14)
+dep(wedding-11, supposed-15)
+aux(happen-17, to-16)
+xcomp(supposed-15, happen-17)
+amod(weekend-19, last-18)
+dobj(happen-17, weekend-19)
+auxpass(called-22, was-21)
+ccomp(seen-6, called-22)
+prt(called-22, off-23)
+nn(Palin-27, Bristol-26)
+nsubj(wrote-28, Palin-27)
+poss(blog-31, her-30)
+prep_on(wrote-28, blog-31)
+
+Sentence #6 (35 tokens):
+"I_m sure you’ve seen this has been all over the media, but this is a painful time for family and friends and I would just really appreciate your prayers."
+[Text=`` CharacterOffsetBegin=828 CharacterOffsetEnd=829 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=_m CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=sure CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=you CharacterOffsetBegin=838 CharacterOffsetEnd=841 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=841 CharacterOffsetEnd=844 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=845 CharacterOffsetEnd=849 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=this CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=has CharacterOffsetBegin=855 CharacterOffsetEnd=858 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=all CharacterOffsetBegin=864 CharacterOffsetEnd=867 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=over CharacterOffsetBegin=868 CharacterOffsetEnd=872 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=873 CharacterOffsetEnd=876 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=, CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=884 CharacterOffsetEnd=887 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=this CharacterOffsetBegin=888 CharacterOffsetEnd=892 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=is CharacterOffsetBegin=893 CharacterOffsetEnd=895 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=896 CharacterOffsetEnd=897 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=painful CharacterOffsetBegin=898 CharacterOffsetEnd=905 PartOfSpeech=JJ Lemma=painful NamedEntityTag=O] [Text=time CharacterOffsetBegin=906 CharacterOffsetEnd=910 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=for CharacterOffsetBegin=911 CharacterOffsetEnd=914 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=family CharacterOffsetBegin=915 CharacterOffsetEnd=921 PartOfSpeech=NN Lemma=family NamedEntityTag=O] [Text=and CharacterOffsetBegin=922 CharacterOffsetEnd=925 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=friends CharacterOffsetBegin=926 CharacterOffsetEnd=933 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O] [Text=and CharacterOffsetBegin=934 CharacterOffsetEnd=937 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=938 CharacterOffsetEnd=939 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=would CharacterOffsetBegin=940 CharacterOffsetEnd=945 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=just CharacterOffsetBegin=946 CharacterOffsetEnd=950 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=really CharacterOffsetBegin=951 CharacterOffsetEnd=957 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=appreciate CharacterOffsetBegin=958 CharacterOffsetEnd=968 PartOfSpeech=VB Lemma=appreciate NamedEntityTag=O] [Text=your CharacterOffsetBegin=969 CharacterOffsetEnd=973 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=prayers CharacterOffsetBegin=974 CharacterOffsetEnd=981 PartOfSpeech=NNS Lemma=prayer NamedEntityTag=O] [Text=. CharacterOffsetBegin=981 CharacterOffsetEnd=982 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=982 CharacterOffsetEnd=983 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP I))
+        (VP (VBP _m)
+          (ADJP (JJ sure)
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP (VBP _ve)
+                  (VP (VBN seen)
+                    (SBAR
+                      (S
+                        (NP (DT this))
+                        (VP (VBZ has)
+                          (VP (VBN been)
+                            (NP
+                              (NP (DT all))
+                              (PP (IN over)
+                                (NP (DT the) (NNS media)))))))))))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (DT this))
+        (VP (VBZ is)
+          (NP
+            (NP (DT a) (JJ painful) (NN time))
+            (PP (IN for)
+              (NP (NN family)
+                (CC and)
+                (NNS friends)))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (MD would)
+        (ADVP (RB just))
+        (VP
+          (ADVP (RB really))
+          (VB appreciate)
+          (NP (PRP$ your) (NNS prayers)))))
+    (. .) (__ __)))
+
+root(ROOT-0, sure-4)
+nsubj(sure-4, I-2)
+cop(sure-4, _m-3)
+nsubj(seen-7, you-5)
+aux(seen-7, _ve-6)
+ccomp(sure-4, seen-7)
+nsubj(all-11, this-8)
+aux(all-11, has-9)
+cop(all-11, been-10)
+ccomp(seen-7, all-11)
+det(media-14, the-13)
+prep_over(all-11, media-14)
+nsubj(time-21, this-17)
+cop(time-21, is-18)
+det(time-21, a-19)
+amod(time-21, painful-20)
+conj_but(sure-4, time-21)
+prep_for(time-21, family-23)
+conj_and(family-23, friends-25)
+nsubj(appreciate-31, I-27)
+aux(appreciate-31, would-28)
+advmod(appreciate-31, just-29)
+advmod(appreciate-31, really-30)
+conj_and(sure-4, appreciate-31)
+poss(prayers-33, your-32)
+dobj(appreciate-31, prayers-33)
+
+Sentence #7 (36 tokens):
+She continued: "I know God’s plan is greater than anything else, and Tripp and I are in Alaska beginning to rebuild our lives under much different circumstances than we anticipated."
+[Text=She CharacterOffsetBegin=984 CharacterOffsetEnd=987 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=continued CharacterOffsetBegin=988 CharacterOffsetEnd=997 PartOfSpeech=VBD Lemma=continue NamedEntityTag=O] [Text=: CharacterOffsetBegin=997 CharacterOffsetEnd=998 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=`` CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1000 CharacterOffsetEnd=1001 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=know CharacterOffsetBegin=1002 CharacterOffsetEnd=1006 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=God CharacterOffsetBegin=1007 CharacterOffsetEnd=1010 PartOfSpeech=NNP Lemma=God NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1010 CharacterOffsetEnd=1012 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=plan CharacterOffsetBegin=1013 CharacterOffsetEnd=1017 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=is CharacterOffsetBegin=1018 CharacterOffsetEnd=1020 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=greater CharacterOffsetBegin=1021 CharacterOffsetEnd=1028 PartOfSpeech=JJR Lemma=greater NamedEntityTag=O] [Text=than CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=anything CharacterOffsetBegin=1034 CharacterOffsetEnd=1042 PartOfSpeech=NN Lemma=anything NamedEntityTag=O] [Text=else CharacterOffsetBegin=1043 CharacterOffsetEnd=1047 PartOfSpeech=RB Lemma=else NamedEntityTag=O] [Text=, CharacterOffsetBegin=1047 CharacterOffsetEnd=1048 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1049 CharacterOffsetEnd=1052 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Tripp CharacterOffsetBegin=1053 CharacterOffsetEnd=1058 PartOfSpeech=NNP Lemma=Tripp NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1059 CharacterOffsetEnd=1062 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=1063 CharacterOffsetEnd=1064 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=are CharacterOffsetBegin=1065 CharacterOffsetEnd=1068 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=1069 CharacterOffsetEnd=1071 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Alaska CharacterOffsetBegin=1072 CharacterOffsetEnd=1078 PartOfSpeech=NNP Lemma=Alaska NamedEntityTag=LOCATION] [Text=beginning CharacterOffsetBegin=1079 CharacterOffsetEnd=1088 PartOfSpeech=VBG Lemma=begin NamedEntityTag=O] [Text=to CharacterOffsetBegin=1089 CharacterOffsetEnd=1091 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=rebuild CharacterOffsetBegin=1092 CharacterOffsetEnd=1099 PartOfSpeech=VB Lemma=rebuild NamedEntityTag=O] [Text=our CharacterOffsetBegin=1100 CharacterOffsetEnd=1103 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=lives CharacterOffsetBegin=1104 CharacterOffsetEnd=1109 PartOfSpeech=NNS Lemma=life NamedEntityTag=O] [Text=under CharacterOffsetBegin=1110 CharacterOffsetEnd=1115 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=much CharacterOffsetBegin=1116 CharacterOffsetEnd=1120 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=different CharacterOffsetBegin=1121 CharacterOffsetEnd=1130 PartOfSpeech=JJ Lemma=different NamedEntityTag=O] [Text=circumstances CharacterOffsetBegin=1131 CharacterOffsetEnd=1144 PartOfSpeech=NNS Lemma=circumstance NamedEntityTag=O] [Text=than CharacterOffsetBegin=1145 CharacterOffsetEnd=1149 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=we CharacterOffsetBegin=1150 CharacterOffsetEnd=1152 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=anticipated CharacterOffsetBegin=1153 CharacterOffsetEnd=1164 PartOfSpeech=VBD Lemma=anticipate NamedEntityTag=O] [Text=. CharacterOffsetBegin=1164 CharacterOffsetEnd=1165 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1165 CharacterOffsetEnd=1166 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (VBD continued) (: :) (`` ``)
+        (S
+          (NP (PRP I))
+          (VP (VBP know)
+            (SBAR
+              (S
+                (NP
+                  (NP (NNP God) (POS _s))
+                  (NN plan))
+                (VP (VBZ is)
+                  (ADJP
+                    (ADJP (JJR greater))
+                    (PP (IN than)
+                      (NP (NN anything) (RB else)))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Tripp)
+        (CC and)
+        (PRP I))
+      (VP (VBP are)
+        (PP (IN in)
+          (NP (NNP Alaska)))
+        (S
+          (VP (VBG beginning)
+            (S
+              (VP (TO to)
+                (VP (VB rebuild)
+                  (NP (PRP$ our) (NNS lives))
+                  (PP (IN under)
+                    (NP
+                      (ADJP (RB much) (JJ different))
+                      (NNS circumstances))))))))
+        (SBAR (IN than)
+          (S
+            (NP (PRP we))
+            (VP (VBD anticipated))))))
+    (. .) (__ __)))
+
+root(ROOT-0, continued-2)
+nsubj(continued-2, She-1)
+nsubj(know-6, I-5)
+ccomp(continued-2, know-6)
+poss(plan-9, God-7)
+nsubj(greater-11, plan-9)
+cop(greater-11, is-10)
+ccomp(know-6, greater-11)
+prep_than(greater-11, anything-13)
+advmod(anything-13, else-14)
+nsubj(are-20, Tripp-17)
+conj_and(Tripp-17, I-19)
+conj_and(continued-2, are-20)
+prep_in(are-20, Alaska-22)
+xcomp(are-20, beginning-23)
+aux(rebuild-25, to-24)
+xcomp(beginning-23, rebuild-25)
+poss(lives-27, our-26)
+dobj(rebuild-25, lives-27)
+advmod(different-30, much-29)
+amod(circumstances-31, different-30)
+prep_under(rebuild-25, circumstances-31)
+mark(anticipated-34, than-32)
+nsubj(anticipated-34, we-33)
+advcl(are-20, anticipated-34)
+
+Sentence #8 (18 tokens):
+Palin and Meyer announced their engagement in March, and were to be married on May 23.
+[Text=Palin CharacterOffsetBegin=1167 CharacterOffsetEnd=1172 PartOfSpeech=NN Lemma=palin NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1173 CharacterOffsetEnd=1176 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Meyer CharacterOffsetBegin=1177 CharacterOffsetEnd=1182 PartOfSpeech=NNP Lemma=Meyer NamedEntityTag=PERSON] [Text=announced CharacterOffsetBegin=1183 CharacterOffsetEnd=1192 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=their CharacterOffsetBegin=1193 CharacterOffsetEnd=1198 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=engagement CharacterOffsetBegin=1199 CharacterOffsetEnd=1209 PartOfSpeech=NN Lemma=engagement NamedEntityTag=O] [Text=in CharacterOffsetBegin=1210 CharacterOffsetEnd=1212 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=March CharacterOffsetBegin=1213 CharacterOffsetEnd=1218 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t12" type="DATE" value="XXXX-03">March<_TIMEX3>] [Text=, CharacterOffsetBegin=1218 CharacterOffsetEnd=1219 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1220 CharacterOffsetEnd=1223 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=were CharacterOffsetBegin=1224 CharacterOffsetEnd=1228 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=to CharacterOffsetBegin=1229 CharacterOffsetEnd=1231 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1232 CharacterOffsetEnd=1234 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=married CharacterOffsetBegin=1235 CharacterOffsetEnd=1242 PartOfSpeech=VBN Lemma=marry NamedEntityTag=O] [Text=on CharacterOffsetBegin=1243 CharacterOffsetEnd=1245 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=May CharacterOffsetBegin=1246 CharacterOffsetEnd=1249 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-23 Timex=<TIMEX3 tid="t13" type="DATE" value="XXXX-05-23">May 23<_TIMEX3>] [Text=23 CharacterOffsetBegin=1250 CharacterOffsetEnd=1252 PartOfSpeech=CD Lemma=23 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-23 Timex=<TIMEX3 tid="t13" type="DATE" value="XXXX-05-23">May 23<_TIMEX3>] [Text=. CharacterOffsetBegin=1252 CharacterOffsetEnd=1253 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Palin))
+      (CC and)
+      (NP (NNP Meyer)))
+    (VP (VBD announced)
+      (NP (PRP$ their) (NN engagement))
+      (PP (IN in)
+        (NP (NNP March))))
+    (, ,)
+    (CC and)
+    (VP (VBD were)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN married)
+              (PP (IN on)
+                (NP (NNP May) (CD 23))))))))
+    (. .)))
+
+root(ROOT-0, announced-4)
+nsubj(announced-4, Palin-1)
+conj_and(Palin-1, Meyer-3)
+poss(engagement-6, their-5)
+dobj(announced-4, engagement-6)
+prep_in(announced-4, March-8)
+conj_and(announced-4, were-11)
+aux(married-14, to-12)
+auxpass(married-14, be-13)
+xcomp(were-11, married-14)
+prep_on(married-14, May-16)
+num(May-16, 23-17)
+
+Sentence #9 (29 tokens):
+After the couple called their wedding off, Sarah Palin said friends and family still planned to gather in Kentucky to " celebrate life, in general ."
+[Text=After CharacterOffsetBegin=1254 CharacterOffsetEnd=1259 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=the CharacterOffsetBegin=1260 CharacterOffsetEnd=1263 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=couple CharacterOffsetBegin=1264 CharacterOffsetEnd=1270 PartOfSpeech=NN Lemma=couple NamedEntityTag=O] [Text=called CharacterOffsetBegin=1271 CharacterOffsetEnd=1277 PartOfSpeech=VBD Lemma=call NamedEntityTag=O] [Text=their CharacterOffsetBegin=1278 CharacterOffsetEnd=1283 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=wedding CharacterOffsetBegin=1284 CharacterOffsetEnd=1291 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O] [Text=off CharacterOffsetBegin=1292 CharacterOffsetEnd=1295 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=, CharacterOffsetBegin=1295 CharacterOffsetEnd=1296 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Sarah CharacterOffsetBegin=1297 CharacterOffsetEnd=1302 PartOfSpeech=NNP Lemma=Sarah NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=1303 CharacterOffsetEnd=1308 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1309 CharacterOffsetEnd=1313 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=friends CharacterOffsetBegin=1314 CharacterOffsetEnd=1321 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O] [Text=and CharacterOffsetBegin=1322 CharacterOffsetEnd=1325 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=family CharacterOffsetBegin=1326 CharacterOffsetEnd=1332 PartOfSpeech=NN Lemma=family NamedEntityTag=O] [Text=still CharacterOffsetBegin=1333 CharacterOffsetEnd=1338 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=planned CharacterOffsetBegin=1339 CharacterOffsetEnd=1346 PartOfSpeech=VBN Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=1347 CharacterOffsetEnd=1349 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=gather CharacterOffsetBegin=1350 CharacterOffsetEnd=1356 PartOfSpeech=VB Lemma=gather NamedEntityTag=O] [Text=in CharacterOffsetBegin=1357 CharacterOffsetEnd=1359 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Kentucky CharacterOffsetBegin=1360 CharacterOffsetEnd=1368 PartOfSpeech=NNP Lemma=Kentucky NamedEntityTag=LOCATION] [Text=to CharacterOffsetBegin=1369 CharacterOffsetEnd=1371 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1372 CharacterOffsetEnd=1373 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=celebrate CharacterOffsetBegin=1374 CharacterOffsetEnd=1383 PartOfSpeech=VB Lemma=celebrate NamedEntityTag=O] [Text=life CharacterOffsetBegin=1384 CharacterOffsetEnd=1388 PartOfSpeech=NN Lemma=life NamedEntityTag=O] [Text=, CharacterOffsetBegin=1388 CharacterOffsetEnd=1389 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in CharacterOffsetBegin=1390 CharacterOffsetEnd=1392 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=general CharacterOffsetBegin=1393 CharacterOffsetEnd=1400 PartOfSpeech=JJ Lemma=general NamedEntityTag=O] [Text=. CharacterOffsetBegin=1401 CharacterOffsetEnd=1402 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1402 CharacterOffsetEnd=1403 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN After)
+      (S
+        (NP (DT the) (NN couple))
+        (VP (VBD called)
+          (NP (PRP$ their) (NN wedding))
+          (PRT (RP off)))))
+    (, ,)
+    (NP (NNP Sarah) (NNP Palin))
+    (VP (VBD said)
+      (NP
+        (NP (NNS friends)
+          (CC and)
+          (NN family))
+        (VP
+          (ADVP (RB still))
+          (VBN planned)
+          (S
+            (VP (TO to)
+              (VP (VB gather)
+                (PP (IN in)
+                  (NP (NNP Kentucky)))
+                (S
+                  (VP (TO to) (__ __)
+                    (VP (VB celebrate)
+                      (NP (NN life))
+                      (, ,)
+                      (PP (IN in)
+                        (ADJP (JJ general))))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, said-11)
+mark(called-4, After-1)
+det(couple-3, the-2)
+nsubj(called-4, couple-3)
+advcl(said-11, called-4)
+poss(wedding-6, their-5)
+dobj(called-4, wedding-6)
+prt(called-4, off-7)
+nn(Palin-10, Sarah-9)
+nsubj(said-11, Palin-10)
+dobj(said-11, friends-12)
+conj_and(friends-12, family-14)
+advmod(planned-16, still-15)
+vmod(friends-12, planned-16)
+aux(gather-18, to-17)
+xcomp(planned-16, gather-18)
+prep_in(gather-18, Kentucky-20)
+aux(celebrate-23, to-21)
+xcomp(gather-18, celebrate-23)
+dobj(celebrate-23, life-24)
+prep_in(celebrate-23, general-27)
+
+Sentence #10 (58 tokens):
+Bristol Palin, however, spent the day with friends in Alaska, and shared photos of her weekend on Instagram:
+A photo posted by Bristol Palin (@bsmp2) on
+May 23, 2015 at 5:16pm PDT
+of
+More:
+Conversations
+Options
+Politics
+Get top stories and blog posts emailed to me each day.
+[Text=Bristol CharacterOffsetBegin=1404 CharacterOffsetEnd=1411 PartOfSpeech=NNP Lemma=Bristol NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=1412 CharacterOffsetEnd=1417 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1417 CharacterOffsetEnd=1418 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=however CharacterOffsetBegin=1419 CharacterOffsetEnd=1426 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=1426 CharacterOffsetEnd=1427 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=spent CharacterOffsetBegin=1428 CharacterOffsetEnd=1433 PartOfSpeech=VBD Lemma=spend NamedEntityTag=O] [Text=the CharacterOffsetBegin=1434 CharacterOffsetEnd=1437 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t14" type="DATE" valueFromFunction="tf2">the day<_TIMEX3>] [Text=day CharacterOffsetBegin=1438 CharacterOffsetEnd=1441 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t14" type="DATE" valueFromFunction="tf2">the day<_TIMEX3>] [Text=with CharacterOffsetBegin=1442 CharacterOffsetEnd=1446 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=friends CharacterOffsetBegin=1447 CharacterOffsetEnd=1454 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O] [Text=in CharacterOffsetBegin=1455 CharacterOffsetEnd=1457 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Alaska CharacterOffsetBegin=1458 CharacterOffsetEnd=1464 PartOfSpeech=NNP Lemma=Alaska NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1464 CharacterOffsetEnd=1465 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1466 CharacterOffsetEnd=1469 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=shared CharacterOffsetBegin=1470 CharacterOffsetEnd=1476 PartOfSpeech=VBD Lemma=share NamedEntityTag=O] [Text=photos CharacterOffsetBegin=1477 CharacterOffsetEnd=1483 PartOfSpeech=NNS Lemma=photo NamedEntityTag=O] [Text=of CharacterOffsetBegin=1484 CharacterOffsetEnd=1486 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=her CharacterOffsetBegin=1487 CharacterOffsetEnd=1490 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=weekend CharacterOffsetBegin=1491 CharacterOffsetEnd=1498 PartOfSpeech=NN Lemma=weekend NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WE Timex=<TIMEX3 tid="t15" type="DATE" value="XXXX-WE">weekend<_TIMEX3>] [Text=on CharacterOffsetBegin=1499 CharacterOffsetEnd=1501 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Instagram CharacterOffsetBegin=1502 CharacterOffsetEnd=1511 PartOfSpeech=NNP Lemma=Instagram NamedEntityTag=O] [Text=: CharacterOffsetBegin=1511 CharacterOffsetEnd=1512 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=A CharacterOffsetBegin=1513 CharacterOffsetEnd=1514 PartOfSpeech=NNP Lemma=A NamedEntityTag=O] [Text=photo CharacterOffsetBegin=1515 CharacterOffsetEnd=1520 PartOfSpeech=NN Lemma=photo NamedEntityTag=O] [Text=posted CharacterOffsetBegin=1521 CharacterOffsetEnd=1527 PartOfSpeech=VBN Lemma=post NamedEntityTag=O] [Text=by CharacterOffsetBegin=1528 CharacterOffsetEnd=1530 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Bristol CharacterOffsetBegin=1531 CharacterOffsetEnd=1538 PartOfSpeech=NNP Lemma=Bristol NamedEntityTag=PERSON] [Text=Palin CharacterOffsetBegin=1539 CharacterOffsetEnd=1544 PartOfSpeech=NNP Lemma=Palin NamedEntityTag=PERSON] [Text=-LRB- CharacterOffsetBegin=1545 CharacterOffsetEnd=1546 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=@bsmp2 CharacterOffsetBegin=1546 CharacterOffsetEnd=1552 PartOfSpeech=NN Lemma=@bsmp2 NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1552 CharacterOffsetEnd=1553 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=on CharacterOffsetBegin=1554 CharacterOffsetEnd=1556 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=May CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=23 CharacterOffsetBegin=1561 CharacterOffsetEnd=1563 PartOfSpeech=CD Lemma=23 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=, CharacterOffsetBegin=1563 CharacterOffsetEnd=1564 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=2015 CharacterOffsetBegin=1565 CharacterOffsetEnd=1569 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=at CharacterOffsetBegin=1570 CharacterOffsetEnd=1572 PartOfSpeech=IN Lemma=at NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=5:16 CharacterOffsetBegin=1573 CharacterOffsetEnd=1577 PartOfSpeech=CD Lemma=5:16 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=pm CharacterOffsetBegin=1577 CharacterOffsetEnd=1579 PartOfSpeech=NN Lemma=pm NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=PDT CharacterOffsetBegin=1580 CharacterOffsetEnd=1583 PartOfSpeech=NNP Lemma=PDT NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-23T17:16-0800 Timex=<TIMEX3 tid="t16" type="TIME" value="2015-05-23T17:16-0800">May 23, 2015 at 5:16pm PDT<_TIMEX3>] [Text=of CharacterOffsetBegin=1584 CharacterOffsetEnd=1586 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=More CharacterOffsetBegin=1587 CharacterOffsetEnd=1591 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=: CharacterOffsetBegin=1591 CharacterOffsetEnd=1592 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Conversations CharacterOffsetBegin=1593 CharacterOffsetEnd=1606 PartOfSpeech=NNS Lemma=conversation NamedEntityTag=O] [Text=Options CharacterOffsetBegin=1607 CharacterOffsetEnd=1614 PartOfSpeech=NNPS Lemma=Options NamedEntityTag=O] [Text=Politics CharacterOffsetBegin=1615 CharacterOffsetEnd=1623 PartOfSpeech=NNP Lemma=Politics NamedEntityTag=O] [Text=Get CharacterOffsetBegin=1624 CharacterOffsetEnd=1627 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=top CharacterOffsetBegin=1628 CharacterOffsetEnd=1631 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=stories CharacterOffsetBegin=1632 CharacterOffsetEnd=1639 PartOfSpeech=NNS Lemma=story NamedEntityTag=O] [Text=and CharacterOffsetBegin=1640 CharacterOffsetEnd=1643 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=blog CharacterOffsetBegin=1644 CharacterOffsetEnd=1648 PartOfSpeech=NN Lemma=blog NamedEntityTag=O] [Text=posts CharacterOffsetBegin=1649 CharacterOffsetEnd=1654 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=emailed CharacterOffsetBegin=1655 CharacterOffsetEnd=1662 PartOfSpeech=VBD Lemma=email NamedEntityTag=O] [Text=to CharacterOffsetBegin=1663 CharacterOffsetEnd=1665 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=me CharacterOffsetBegin=1666 CharacterOffsetEnd=1668 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=each CharacterOffsetBegin=1669 CharacterOffsetEnd=1673 PartOfSpeech=DT Lemma=each NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="each" tid="t17" type="SET" value="P1D">each day<_TIMEX3>] [Text=day CharacterOffsetBegin=1674 CharacterOffsetEnd=1677 PartOfSpeech=NN Lemma=day NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="each" tid="t17" type="SET" value="P1D">each day<_TIMEX3>] [Text=. CharacterOffsetBegin=1677 CharacterOffsetEnd=1678 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Bristol) (NNP Palin))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (VP
+      (VP (VBD spent)
+        (NP (DT the) (NN day))
+        (PP (IN with)
+          (NP
+            (NP (NNS friends))
+            (PP (IN in)
+              (NP (NNP Alaska))))))
+      (, ,)
+      (CC and)
+      (VP (VBD shared)
+        (NP
+          (NP (NNS photos))
+          (PP (IN of)
+            (NP
+              (NP (PRP$ her) (NN weekend))
+              (PP (IN on)
+                (NP (NNP Instagram))))))
+        (: :)
+        (S
+          (NP (NNP A) (NN photo))
+          (VP (VBN posted)
+            (PP (IN by)
+              (NP
+                (NP (NNP Bristol) (NNP Palin))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN @bsmp2))
+                  (-RRB- -RRB-))))
+            (PP (IN on)
+              (NP (NNP May) (CD 23) (, ,) (CD 2015)))
+            (PP (IN at)
+              (NP
+                (NP (CD 5:16) (NN pm) (NNP PDT))
+                (PP (IN of))
+                (NP (RBR More)))))))
+      (: :)
+      (NP
+        (NP (NNS Conversations))
+        (SBAR
+          (S
+            (NP (NNPS Options) (NNP Politics))
+            (VP (VB Get)
+              (SBAR
+                (S
+                  (NP (JJ top) (NNS stories)
+                    (CC and)
+                    (NN blog) (NNS posts))
+                  (VP (VBD emailed)
+                    (PP (TO to)
+                      (NP (PRP me)))
+                    (NP-TMP (DT each) (NN day))))))))))
+    (. .)))
+
+root(ROOT-0, spent-6)
+nn(Palin-2, Bristol-1)
+nsubj(spent-6, Palin-2)
+advmod(spent-6, however-4)
+det(day-8, the-7)
+tmod(spent-6, day-8)
+prep_with(spent-6, friends-10)
+prep_in(friends-10, Alaska-12)
+conj_and(spent-6, shared-15)
+dobj(shared-15, photos-16)
+poss(weekend-19, her-18)
+prep_of(photos-16, weekend-19)
+prep_on(weekend-19, Instagram-21)
+nn(photo-24, A-23)
+nsubj(posted-25, photo-24)
+parataxis(shared-15, posted-25)
+nn(Palin-28, Bristol-27)
+prep_by(posted-25, Palin-28)
+appos(Palin-28, @bsmp2-30)
+prep_on(posted-25, May-33)
+num(May-33, 23-34)
+num(May-33, 2015-36)
+num(PDT-40, 5:16-38)
+nn(PDT-40, pm-39)
+prep_at(posted-25, PDT-40)
+prep(PDT-40, of-41)
+dep(PDT-40, More-42)
+conj_and(spent-6, Conversations-44)
+nn(Politics-46, Options-45)
+nsubj(Get-47, Politics-46)
+rcmod(Conversations-44, Get-47)
+amod(stories-49, top-48)
+nsubj(emailed-53, stories-49)
+nn(posts-52, blog-51)
+conj_and(stories-49, posts-52)
+ccomp(Get-47, emailed-53)
+prep_to(emailed-53, me-55)
+det(day-57, each-56)
+tmod(emailed-53, day-57)
+
+Sentence #11 (1 tokens):
+.
+[Text=. CharacterOffsetBegin=1678 CharacterOffsetEnd=1679 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP (. .)))
+
+
+Sentence #12 (30 tokens):
+Facebook
+HuffPost
+Politics
+Twitter
+HuffPost
+Follow
+Politics
+Follow
+Part of HPMG News
+Use this form to alert a HuffPost editor about a factual or typographical error in this story.
+[Text=Facebook CharacterOffsetBegin=1680 CharacterOffsetEnd=1688 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=HuffPost CharacterOffsetBegin=1689 CharacterOffsetEnd=1697 PartOfSpeech=NNP Lemma=HuffPost NamedEntityTag=ORGANIZATION] [Text=Politics CharacterOffsetBegin=1698 CharacterOffsetEnd=1706 PartOfSpeech=NNP Lemma=Politics NamedEntityTag=ORGANIZATION] [Text=Twitter CharacterOffsetBegin=1707 CharacterOffsetEnd=1714 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=ORGANIZATION] [Text=HuffPost CharacterOffsetBegin=1715 CharacterOffsetEnd=1723 PartOfSpeech=NNP Lemma=HuffPost NamedEntityTag=O] [Text=Follow CharacterOffsetBegin=1724 CharacterOffsetEnd=1730 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=Politics CharacterOffsetBegin=1731 CharacterOffsetEnd=1739 PartOfSpeech=NNS Lemma=politics NamedEntityTag=O] [Text=Follow CharacterOffsetBegin=1740 CharacterOffsetEnd=1746 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=Part CharacterOffsetBegin=1747 CharacterOffsetEnd=1751 PartOfSpeech=NN Lemma=part NamedEntityTag=O] [Text=of CharacterOffsetBegin=1752 CharacterOffsetEnd=1754 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=HPMG CharacterOffsetBegin=1755 CharacterOffsetEnd=1759 PartOfSpeech=NNP Lemma=HPMG NamedEntityTag=O] [Text=News CharacterOffsetBegin=1760 CharacterOffsetEnd=1764 PartOfSpeech=NNP Lemma=News NamedEntityTag=O] [Text=Use CharacterOffsetBegin=1765 CharacterOffsetEnd=1768 PartOfSpeech=NNP Lemma=Use NamedEntityTag=O] [Text=this CharacterOffsetBegin=1769 CharacterOffsetEnd=1773 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=form CharacterOffsetBegin=1774 CharacterOffsetEnd=1778 PartOfSpeech=NN Lemma=form NamedEntityTag=O] [Text=to CharacterOffsetBegin=1779 CharacterOffsetEnd=1781 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=alert CharacterOffsetBegin=1782 CharacterOffsetEnd=1787 PartOfSpeech=VB Lemma=alert NamedEntityTag=O] [Text=a CharacterOffsetBegin=1788 CharacterOffsetEnd=1789 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=HuffPost CharacterOffsetBegin=1790 CharacterOffsetEnd=1798 PartOfSpeech=NNP Lemma=HuffPost NamedEntityTag=O] [Text=editor CharacterOffsetBegin=1799 CharacterOffsetEnd=1805 PartOfSpeech=NN Lemma=editor NamedEntityTag=O] [Text=about CharacterOffsetBegin=1806 CharacterOffsetEnd=1811 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=a CharacterOffsetBegin=1812 CharacterOffsetEnd=1813 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=factual CharacterOffsetBegin=1814 CharacterOffsetEnd=1821 PartOfSpeech=JJ Lemma=factual NamedEntityTag=O] [Text=or CharacterOffsetBegin=1822 CharacterOffsetEnd=1824 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=typographical CharacterOffsetBegin=1825 CharacterOffsetEnd=1838 PartOfSpeech=JJ Lemma=typographical NamedEntityTag=O] [Text=error CharacterOffsetBegin=1839 CharacterOffsetEnd=1844 PartOfSpeech=NN Lemma=error NamedEntityTag=O] [Text=in CharacterOffsetBegin=1845 CharacterOffsetEnd=1847 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=this CharacterOffsetBegin=1848 CharacterOffsetEnd=1852 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=story CharacterOffsetBegin=1853 CharacterOffsetEnd=1858 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=. CharacterOffsetBegin=1858 CharacterOffsetEnd=1859 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Facebook) (NNP HuffPost) (NNP Politics) (NNP Twitter) (NNP HuffPost))
+    (VP (VB Follow)
+      (S
+        (NP (NNS Politics))
+        (VP (VB Follow)
+          (S
+            (NP
+              (NP (NN Part))
+              (PP (IN of)
+                (NP (NNP HPMG) (NNP News) (NNP Use))))
+            (NP (DT this) (NN form)
+              (S
+                (VP (TO to)
+                  (VP (VB alert)
+                    (NP (DT a) (NNP HuffPost) (NN editor))
+                    (PP (IN about)
+                      (NP
+                        (NP (DT a) (JJ factual)
+                          (CC or)
+                          (JJ typographical) (NN error))
+                        (PP (IN in)
+                          (NP (DT this) (NN story)))))))))))))
+    (. .)))
+
+root(ROOT-0, Follow-6)
+nn(HuffPost-5, Facebook-1)
+nn(HuffPost-5, HuffPost-2)
+nn(HuffPost-5, Politics-3)
+nn(HuffPost-5, Twitter-4)
+nsubj(Follow-6, HuffPost-5)
+nsubj(Follow-8, Politics-7)
+ccomp(Follow-6, Follow-8)
+nsubj(form-15, Part-9)
+nn(Use-13, HPMG-11)
+nn(Use-13, News-12)
+prep_of(Part-9, Use-13)
+det(form-15, this-14)
+xcomp(Follow-8, form-15)
+aux(alert-17, to-16)
+vmod(form-15, alert-17)
+det(editor-20, a-18)
+nn(editor-20, HuffPost-19)
+dobj(alert-17, editor-20)
+det(error-26, a-22)
+amod(error-26, factual-23)
+conj_or(factual-23, typographical-25)
+prep_about(alert-17, error-26)
+det(story-29, this-28)
+prep_in(error-26, story-29)
+
+Sentence #13 (36 tokens):
+Notify message
+Describe the error here (1,000 character limit)
+* Type the words below so we know you are not a cyborg
+Sign me up for The Morning Email
+Thanks for your report!
+[Text=Notify CharacterOffsetBegin=1860 CharacterOffsetEnd=1866 PartOfSpeech=VB Lemma=notify NamedEntityTag=O] [Text=message CharacterOffsetBegin=1867 CharacterOffsetEnd=1874 PartOfSpeech=NN Lemma=message NamedEntityTag=O] [Text=Describe CharacterOffsetBegin=1875 CharacterOffsetEnd=1883 PartOfSpeech=VB Lemma=describe NamedEntityTag=O] [Text=the CharacterOffsetBegin=1884 CharacterOffsetEnd=1887 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=error CharacterOffsetBegin=1888 CharacterOffsetEnd=1893 PartOfSpeech=NN Lemma=error NamedEntityTag=O] [Text=here CharacterOffsetBegin=1894 CharacterOffsetEnd=1898 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1899 CharacterOffsetEnd=1900 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=1,000 CharacterOffsetBegin=1900 CharacterOffsetEnd=1905 PartOfSpeech=CD Lemma=1,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1000.0] [Text=character CharacterOffsetBegin=1906 CharacterOffsetEnd=1915 PartOfSpeech=NN Lemma=character NamedEntityTag=O] [Text=limit CharacterOffsetBegin=1916 CharacterOffsetEnd=1921 PartOfSpeech=NN Lemma=limit NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1921 CharacterOffsetEnd=1922 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=1923 CharacterOffsetEnd=1924 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=Type CharacterOffsetBegin=1925 CharacterOffsetEnd=1929 PartOfSpeech=NN Lemma=type NamedEntityTag=O] [Text=the CharacterOffsetBegin=1930 CharacterOffsetEnd=1933 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=words CharacterOffsetBegin=1934 CharacterOffsetEnd=1939 PartOfSpeech=NNS Lemma=word NamedEntityTag=O] [Text=below CharacterOffsetBegin=1940 CharacterOffsetEnd=1945 PartOfSpeech=IN Lemma=below NamedEntityTag=O] [Text=so CharacterOffsetBegin=1946 CharacterOffsetEnd=1948 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=we CharacterOffsetBegin=1949 CharacterOffsetEnd=1951 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=know CharacterOffsetBegin=1952 CharacterOffsetEnd=1956 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=you CharacterOffsetBegin=1957 CharacterOffsetEnd=1960 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=1961 CharacterOffsetEnd=1964 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=1965 CharacterOffsetEnd=1968 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=1969 CharacterOffsetEnd=1970 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=cyborg CharacterOffsetBegin=1971 CharacterOffsetEnd=1977 PartOfSpeech=NN Lemma=cyborg NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=1978 CharacterOffsetEnd=1982 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=me CharacterOffsetBegin=1983 CharacterOffsetEnd=1985 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=up CharacterOffsetBegin=1986 CharacterOffsetEnd=1988 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=for CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=The CharacterOffsetBegin=1993 CharacterOffsetEnd=1996 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Morning CharacterOffsetBegin=1997 CharacterOffsetEnd=2004 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=TMO Timex=<TIMEX3 tid="t18" type="TIME" value="TMO">Morning<_TIMEX3>] [Text=Email CharacterOffsetBegin=2005 CharacterOffsetEnd=2010 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=Thanks CharacterOffsetBegin=2011 CharacterOffsetEnd=2017 PartOfSpeech=NNS Lemma=thanks NamedEntityTag=O] [Text=for CharacterOffsetBegin=2018 CharacterOffsetEnd=2021 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=your CharacterOffsetBegin=2022 CharacterOffsetEnd=2026 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=report CharacterOffsetBegin=2027 CharacterOffsetEnd=2033 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=! CharacterOffsetBegin=2033 CharacterOffsetEnd=2034 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Notify)
+      (NP (NN message))
+      (VP (VB Describe)
+        (NP (DT the) (NN error))
+        (ADVP
+          (ADVP (RB here))
+          (PRN (-LRB- -LRB-)
+            (NP (CD 1,000) (NN character) (NN limit))
+            (-RRB- -RRB-))
+          (SBAR
+            (X
+              (X (SYM *))
+              (NP (NN Type)))
+            (S
+              (NP
+                (NP (DT the) (NNS words))
+                (PP (IN below)
+                  (SBAR (RB so)
+                    (S
+                      (NP (PRP we))
+                      (VP (VBP know)
+                        (SBAR
+                          (S
+                            (NP (PRP you))
+                            (VP (VBP are) (RB not)
+                              (NP (DT a) (NN cyborg))))))))))
+              (VP (VB Sign)
+                (NP (PRP me))
+                (PRT (RP up))
+                (SBAR (IN for)
+                  (S
+                    (NP (DT The) (NN Morning))
+                    (VP (VB Email)
+                      (NP (NNS Thanks))
+                      (PP (IN for)
+                        (NP (PRP$ your) (NN report))))))))))))
+    (. !)))
+
+root(ROOT-0, Notify-1)
+dobj(Notify-1, message-2)
+dep(Notify-1, Describe-3)
+det(error-5, the-4)
+dobj(Describe-3, error-5)
+advmod(Describe-3, here-6)
+num(limit-10, 1,000-8)
+nn(limit-10, character-9)
+dep(here-6, limit-10)
+dep(Type-13, *-12)
+dep(Sign-25, Type-13)
+det(words-15, the-14)
+nsubj(Sign-25, words-15)
+advmod(know-19, so-17)
+nsubj(know-19, we-18)
+prepc_below(words-15, know-19)
+nsubj(cyborg-24, you-20)
+cop(cyborg-24, are-21)
+neg(cyborg-24, not-22)
+det(cyborg-24, a-23)
+ccomp(know-19, cyborg-24)
+dep(here-6, Sign-25)
+dobj(Sign-25, me-26)
+prt(Sign-25, up-27)
+mark(Email-31, for-28)
+det(Morning-30, The-29)
+nsubj(Email-31, Morning-30)
+advcl(Sign-25, Email-31)
+dobj(Email-31, Thanks-32)
+poss(report-35, your-34)
+prep_for(Email-31, report-35)
+
+Coreference set:
+ (3,53,[53,54]) -> (3,11,[11,12]), that is: "California" -> "CA"
+Coreference set:
+ (3,9,[8,10]) -> (3,51,[50,54]), that is: "BEVERLY HILLS" -> "Beverly Hills , California"
+ (3,51,[50,52]) -> (3,51,[50,54]), that is: "Beverly Hills" -> "Beverly Hills , California"
+Coreference set:
+ (4,55,[55,56]) -> (4,6,[4,7]), that is: "her" -> "Frederick M. Brown_Getty"
+Coreference set:
+ (7,22,[22,23]) -> (4,20,[20,21]), that is: "Alaska" -> "Alaska"
+ (10,12,[12,13]) -> (4,20,[20,21]), that is: "Alaska" -> "Alaska"
+Coreference set:
+ (8,3,[3,4]) -> (4,43,[42,44]), that is: "Meyer" -> "Dakota Meyer"
+Coreference set:
+ (4,29,[29,30]) -> (4,23,[19,24]), that is: "her" -> "former Alaska Gov. Sarah Palin"
+ (5,2,[2,3]) -> (4,23,[19,24]), that is: "I" -> "former Alaska Gov. Sarah Palin"
+ (5,27,[26,28]) -> (4,23,[19,24]), that is: "Bristol Palin" -> "former Alaska Gov. Sarah Palin"
+ (5,30,[30,31]) -> (4,23,[19,24]), that is: "her" -> "former Alaska Gov. Sarah Palin"
+ (6,2,[2,3]) -> (4,23,[19,24]), that is: "I" -> "former Alaska Gov. Sarah Palin"
+ (6,27,[27,28]) -> (4,23,[19,24]), that is: "I" -> "former Alaska Gov. Sarah Palin"
+ (7,1,[1,2]) -> (4,23,[19,24]), that is: "She" -> "former Alaska Gov. Sarah Palin"
+ (7,5,[5,6]) -> (4,23,[19,24]), that is: "I" -> "former Alaska Gov. Sarah Palin"
+ (7,19,[19,20]) -> (4,23,[19,24]), that is: "I" -> "former Alaska Gov. Sarah Palin"
+ (8,1,[1,4]) -> (4,23,[19,24]), that is: "Palin and Meyer" -> "former Alaska Gov. Sarah Palin"
+ (9,10,[9,11]) -> (4,23,[19,24]), that is: "Sarah Palin" -> "former Alaska Gov. Sarah Palin"
+ (10,2,[1,3]) -> (4,23,[19,24]), that is: "Bristol Palin" -> "former Alaska Gov. Sarah Palin"
+ (10,18,[18,19]) -> (4,23,[19,24]), that is: "her" -> "former Alaska Gov. Sarah Palin"
+ (10,28,[27,32]) -> (4,23,[19,24]), that is: "Bristol Palin -LRB- @bsmp2 -RRB-" -> "former Alaska Gov. Sarah Palin"
+Coreference set:
+ (6,5,[5,6]) -> (5,4,[4,5]), that is: "you" -> "you"
+ (6,32,[32,33]) -> (5,4,[4,5]), that is: "your" -> "you"
+ (7,26,[26,27]) -> (5,4,[4,5]), that is: "our" -> "you"
+ (7,33,[33,34]) -> (5,4,[4,5]), that is: "we" -> "you"
+Coreference set:
+ (9,6,[5,7]) -> (5,11,[10,21]), that is: "their wedding" -> "the wedding -- that was supposed to happen last weekend --"
+Coreference set:
+ (6,8,[8,9]) -> (6,21,[19,26]), that is: "this" -> "a painful time for family and friends"
+ (6,17,[17,18]) -> (6,21,[19,26]), that is: "this" -> "a painful time for family and friends"
+Coreference set:
+ (10,55,[55,56]) -> (7,7,[7,9]), that is: "me" -> "God _s"
+ (13,26,[26,27]) -> (7,7,[7,9]), that is: "me" -> "God _s"
+Coreference set:
+ (8,5,[5,6]) -> (7,17,[17,20]), that is: "their" -> "Tripp and I"
+ (9,5,[5,6]) -> (7,17,[17,20]), that is: "their" -> "Tripp and I"
+Coreference set:
+ (8,16,[16,18]) -> (10,33,[33,37]), that is: "May 23" -> "May 23 , 2015"
+Coreference set:
+ (12,7,[7,8]) -> (10,46,[45,47]), that is: "Politics" -> "Options Politics"
+Coreference set:
+ (13,5,[4,6]) -> (12,26,[22,30]), that is: "the error" -> "a factual or typographical error in this story"

@@ -1,0 +1,243 @@
+Sentence #1 (31 tokens):
+John Rollins: Rollins readies for home game at Byron Nelson
+John Rollins makes his way back to Irving, Texas, for this week_s AT&T Byron Nelson Championship.
+[Text=John CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Rollins CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Rollins NamedEntityTag=PERSON] [Text=: CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Rollins CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Rollins NamedEntityTag=PERSON] [Text=readies CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=VBZ Lemma=ready NamedEntityTag=O] [Text=for CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=home CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=game CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=at CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Byron CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NNP Lemma=Byron NamedEntityTag=PERSON] [Text=Nelson CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=NNP Lemma=Nelson NamedEntityTag=PERSON] [Text=John CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Rollins CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=NNP Lemma=Rollins NamedEntityTag=PERSON] [Text=makes CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=VBZ Lemma=make NamedEntityTag=O] [Text=his CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=way CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=back CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=to CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Irving CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Texas CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NNP Lemma=Texas NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=for CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=this CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this week<_TIMEX3>] [Text=week CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">this week<_TIMEX3>] [Text=_s CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=AT&T CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=NNP Lemma=AT&T NamedEntityTag=ORGANIZATION] [Text=Byron CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NNP Lemma=Byron NamedEntityTag=O] [Text=Nelson CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=Nelson NamedEntityTag=O] [Text=Championship CharacterOffsetBegin=144 CharacterOffsetEnd=156 PartOfSpeech=NNP Lemma=Championship NamedEntityTag=O] [Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP John) (NNP Rollins))
+    (: :)
+    (S
+      (NP (NNP Rollins))
+      (VP (VBZ readies)
+        (SBAR (IN for)
+          (S
+            (NP
+              (NP (NN home) (NN game))
+              (PP (IN at)
+                (NP (NNP Byron) (NNP Nelson) (NNP John) (NNP Rollins))))
+            (VP (VBZ makes)
+              (NP (PRP$ his) (NN way))
+              (ADVP (RB back)
+                (PP (TO to)
+                  (NP (NNP Irving) (, ,) (NNP Texas) (, ,))))
+              (PP (IN for)
+                (NP
+                  (NP (DT this) (NN week) (POS _s))
+                  (NNP AT&T) (NNP Byron) (NNP Nelson) (NNP Championship))))))))
+    (. .)))
+
+root(ROOT-0, Rollins-2)
+nn(Rollins-2, John-1)
+nsubj(readies-5, Rollins-4)
+dep(Rollins-2, readies-5)
+mark(makes-14, for-6)
+nn(game-8, home-7)
+nsubj(makes-14, game-8)
+nn(Rollins-13, Byron-10)
+nn(Rollins-13, Nelson-11)
+nn(Rollins-13, John-12)
+prep_at(game-8, Rollins-13)
+advcl(readies-5, makes-14)
+poss(way-16, his-15)
+dobj(makes-14, way-16)
+advmod(makes-14, back-17)
+nn(Texas-21, Irving-19)
+prep_to(back-17, Texas-21)
+det(week-25, this-24)
+poss(Championship-30, week-25)
+nn(Championship-30, AT&T-27)
+nn(Championship-30, Byron-28)
+nn(Championship-30, Nelson-29)
+prep_for(makes-14, Championship-30)
+
+Sentence #2 (27 tokens):
+The Texas resident is very familiar with the area and will be making his 14th consecutive start at the event, thanks to a sponsor exemption.
+[Text=The CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Texas CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNP Lemma=Texas NamedEntityTag=LOCATION] [Text=resident CharacterOffsetBegin=168 CharacterOffsetEnd=176 PartOfSpeech=NN Lemma=resident NamedEntityTag=O] [Text=is CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=familiar CharacterOffsetBegin=185 CharacterOffsetEnd=193 PartOfSpeech=JJ Lemma=familiar NamedEntityTag=O] [Text=with CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=area CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=NN Lemma=area NamedEntityTag=O] [Text=and CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=will CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=making CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=his CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=14th CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=JJ Lemma=14th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=14.0] [Text=consecutive CharacterOffsetBegin=236 CharacterOffsetEnd=247 PartOfSpeech=JJ Lemma=consecutive NamedEntityTag=O] [Text=start CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=at CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=, CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=thanks CharacterOffsetBegin=268 CharacterOffsetEnd=274 PartOfSpeech=NNS Lemma=thanks NamedEntityTag=O] [Text=to CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=sponsor CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=sponsor NamedEntityTag=O] [Text=exemption CharacterOffsetBegin=288 CharacterOffsetEnd=297 PartOfSpeech=NN Lemma=exemption NamedEntityTag=O] [Text=. CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Texas) (NN resident))
+    (VP
+      (VP (VBZ is)
+        (ADJP (RB very) (JJ familiar))
+        (PP (IN with)
+          (NP (DT the) (NN area))))
+      (CC and)
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBG making)
+            (NP (PRP$ his) (JJ 14th) (JJ consecutive) (NN start))
+            (PP (IN at)
+              (NP (DT the) (NN event)))
+            (, ,)
+            (ADVP (NNS thanks)
+              (PP (TO to)
+                (NP (DT a) (NN sponsor) (NN exemption))))))))
+    (. .)))
+
+root(ROOT-0, familiar-6)
+det(resident-3, The-1)
+nn(resident-3, Texas-2)
+nsubj(familiar-6, resident-3)
+cop(familiar-6, is-4)
+advmod(familiar-6, very-5)
+det(area-9, the-8)
+prep_with(familiar-6, area-9)
+aux(making-13, will-11)
+aux(making-13, be-12)
+conj_and(familiar-6, making-13)
+poss(start-17, his-14)
+amod(start-17, 14th-15)
+amod(start-17, consecutive-16)
+dobj(making-13, start-17)
+det(event-20, the-19)
+prep_at(making-13, event-20)
+det(exemption-26, a-24)
+nn(exemption-26, sponsor-25)
+prep_thanks_to(making-13, exemption-26)
+
+Sentence #3 (25 tokens):
+He_s finished top 30 in seven of those previous 13, but we_ve seen an out-of-form Rollins over the past two seasons.
+[Text=He CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=finished CharacterOffsetBegin=304 CharacterOffsetEnd=312 PartOfSpeech=VBN Lemma=finish NamedEntityTag=O] [Text=top CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=30 CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=CD Lemma=30 NamedEntityTag=NUMBER NormalizedNamedEntityTag=30.0] [Text=in CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=seven CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0] [Text=of CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=those CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=previous CharacterOffsetBegin=338 CharacterOffsetEnd=346 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O] [Text=13 CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=CD Lemma=13 NamedEntityTag=NUMBER NormalizedNamedEntityTag=13.0] [Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=we CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=an CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=out-of-form CharacterOffsetBegin=369 CharacterOffsetEnd=380 PartOfSpeech=JJ Lemma=out-of-form NamedEntityTag=O] [Text=Rollins CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=NNP Lemma=Rollins NamedEntityTag=PERSON] [Text=over CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">the past<_TIMEX3>] [Text=past CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">the past<_TIMEX3>] [Text=two CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=seasons CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=NNS Lemma=season NamedEntityTag=O] [Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ _s)
+        (VP (VBN finished)
+          (NP
+            (NP (JJ top) (CD 30))
+            (PP (IN in)
+              (NP (CD seven)))
+            (PP (IN of)
+              (NP (DT those) (JJ previous) (CD 13)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (VBP _ve)
+        (VP (VBN seen)
+          (NP (DT an) (JJ out-of-form) (NNP Rollins))
+          (PP (IN over)
+            (NP (DT the) (JJ past) (CD two) (NNS seasons))))))
+    (. .)))
+
+root(ROOT-0, finished-3)
+nsubjpass(finished-3, He-1)
+auxpass(finished-3, _s-2)
+amod(30-5, top-4)
+dobj(finished-3, 30-5)
+prep_in(30-5, seven-7)
+det(13-11, those-9)
+amod(13-11, previous-10)
+prep_of(30-5, 13-11)
+nsubj(seen-16, we-14)
+aux(seen-16, _ve-15)
+conj_but(finished-3, seen-16)
+det(Rollins-19, an-17)
+amod(Rollins-19, out-of-form-18)
+dobj(seen-16, Rollins-19)
+det(seasons-24, the-21)
+amod(seasons-24, past-22)
+num(seasons-24, two-23)
+prep_over(seen-16, seasons-24)
+
+Sentence #4 (23 tokens):
+The VCU alum is just 3-for-8 this season and has just three top 25s to his name over his last 36 starts.
+[Text=The CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=VCU CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=NNP Lemma=VCU NamedEntityTag=ORGANIZATION] [Text=alum CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=NN Lemma=alum NamedEntityTag=O] [Text=is CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=just CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=3-for-8 CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=JJ Lemma=3-for-8 NamedEntityTag=O] [Text=this CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=season CharacterOffsetBegin=450 CharacterOffsetEnd=456 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=and CharacterOffsetBegin=457 CharacterOffsetEnd=460 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=has CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=just CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=three CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=top CharacterOffsetBegin=476 CharacterOffsetEnd=479 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=25s CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=NNS Lemma=25 NamedEntityTag=O] [Text=to CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=his CharacterOffsetBegin=487 CharacterOffsetEnd=490 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=name CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=NN Lemma=name NamedEntityTag=O] [Text=over CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=his CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=last CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=36 CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=CD Lemma=36 NamedEntityTag=NUMBER NormalizedNamedEntityTag=36.0] [Text=starts CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NNS Lemma=start NamedEntityTag=O] [Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP VCU) (NN alum))
+    (VP
+      (VP (VBZ is)
+        (ADJP (RB just) (JJ 3-for-8))
+        (NP-TMP (DT this) (NN season)))
+      (CC and)
+      (VP (VBZ has)
+        (NP
+          (NP
+            (QP (RB just) (CD three))
+            (JJ top) (NNS 25s))
+          (PP (TO to)
+            (NP
+              (NP (PRP$ his) (NN name))
+              (PP (IN over)
+                (NP (PRP$ his) (JJ last) (CD 36) (NNS starts))))))))
+    (. .)))
+
+root(ROOT-0, 3-for-8-6)
+det(alum-3, The-1)
+nn(alum-3, VCU-2)
+nsubj(3-for-8-6, alum-3)
+cop(3-for-8-6, is-4)
+advmod(3-for-8-6, just-5)
+det(season-8, this-7)
+tmod(3-for-8-6, season-8)
+conj_and(3-for-8-6, has-10)
+quantmod(three-12, just-11)
+num(25s-14, three-12)
+amod(25s-14, top-13)
+dobj(has-10, 25s-14)
+poss(name-17, his-16)
+prep_to(25s-14, name-17)
+poss(starts-22, his-19)
+amod(starts-22, last-20)
+num(starts-22, 36-21)
+prep_over(name-17, starts-22)
+
+Sentence #5 (2 tokens):
+May.
+[Text=May CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05">May<_TIMEX3>] [Text=. CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP May))
+    (. .)))
+
+root(ROOT-0, May-1)
+
+Sentence #6 (14 tokens):
+26 - 10:44 pm et
+To see more GOL news items click here...
+[Text=26 CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=CD Lemma=26 NamedEntityTag=NUMBER NormalizedNamedEntityTag=26.0] [Text=- CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=10:44 CharacterOffsetBegin=531 CharacterOffsetEnd=536 PartOfSpeech=CD Lemma=10:44 NamedEntityTag=TIME NormalizedNamedEntityTag=T22:44 Timex=<TIMEX3 tid="t4" type="TIME" value="T22:44">10:44 pm<_TIMEX3>] [Text=pm CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=NN Lemma=pm NamedEntityTag=TIME NormalizedNamedEntityTag=T22:44 Timex=<TIMEX3 tid="t4" type="TIME" value="T22:44">10:44 pm<_TIMEX3>] [Text=et CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=FW Lemma=et NamedEntityTag=O] [Text=To CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=more CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=GOL CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=NN Lemma=gol NamedEntityTag=O] [Text=news CharacterOffsetBegin=559 CharacterOffsetEnd=563 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=items CharacterOffsetBegin=564 CharacterOffsetEnd=569 PartOfSpeech=NNS Lemma=item NamedEntityTag=O] [Text=click CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=VBP Lemma=click NamedEntityTag=O] [Text=here CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=... CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=: Lemma=... NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (CD 26))
+      (: -)
+      (NP
+        (NP (CD 10:44) (NN pm))
+        (SBAR
+          (S
+            (NP (FW et))
+            (VP (TO To)
+              (VP (VB see)
+                (SBAR
+                  (S
+                    (NP (JJR more) (NN GOL) (NN news) (NNS items))
+                    (VP (VBP click)
+                      (ADVP (RB here)))))))))))
+    (: ...)))
+
+root(ROOT-0, 26-1)
+num(pm-4, 10:44-3)
+dep(26-1, pm-4)
+nsubj(see-7, et-5)
+aux(see-7, To-6)
+rcmod(pm-4, see-7)
+amod(items-11, more-8)
+nn(items-11, GOL-9)
+nn(items-11, news-10)
+nsubj(click-12, items-11)
+ccomp(see-7, click-12)
+advmod(click-12, here-13)
+
+Coreference set:
+ (1,4,[4,5]) -> (1,13,[10,14]), that is: "Rollins" -> "Byron Nelson John Rollins"
+ (1,15,[15,16]) -> (1,13,[10,14]), that is: "his" -> "Byron Nelson John Rollins"
+Coreference set:
+ (2,2,[2,3]) -> (1,21,[21,22]), that is: "Texas" -> "Texas"
+Coreference set:
+ (2,14,[14,15]) -> (2,3,[1,4]), that is: "his" -> "The Texas resident"
+ (3,1,[1,2]) -> (2,3,[1,4]), that is: "He" -> "The Texas resident"
+Coreference set:
+ (4,16,[16,17]) -> (4,3,[1,4]), that is: "his" -> "The VCU alum"
+ (4,19,[19,20]) -> (4,3,[1,4]), that is: "his" -> "The VCU alum"

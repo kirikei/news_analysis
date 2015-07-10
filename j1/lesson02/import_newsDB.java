@@ -19,7 +19,10 @@ import java.util.Set;
 
 public class import_newsDB {
 	private static int Max_file = 10000;
-	private static String Database_path = "jdbc:sqlite:/Users/admin/Documents/workspace/a_measure.clean/relevant_news.db";
+	public static String Database_path = 
+			//"jdbc:sqlite:/Users/admin/Documents/workspace/server_news_analysis/relevant_news.db";
+			"jdbc:postgresql://localhost:5432/server_news_development";
+	public static String UserName = "admin";
 	//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
 
 	//トップニュースを取り出す(pid = NULL)
@@ -27,10 +30,11 @@ public class import_newsDB {
 	public static String[] import_top_news(String database_name){
 		String[] news_tids = new String[Max_file];
 		try {
-			Class.forName("org.sqlite.JDBC");
-			Connection conn = DriverManager.getConnection(Database_path); 
+			Class.forName("org.postgresql.Driver");
+			Connection conn = DriverManager.getConnection(Database_path,UserName, ""); 
+			System.out.println("import_top_news: "+"connected");
 			Statement st = conn.createStatement();
-			ResultSet rs = st.executeQuery("select * from " + database_name + " where pid is NULL");
+			ResultSet rs = st.executeQuery("select * from " + database_name + " where pid is NULL and analyzed_at is NULL");
 			int i = 0;
 			while(rs.next()) {
 				news_tids[i] = rs.getString(1) + ".txt";//aid.txt
@@ -77,8 +81,8 @@ public class import_newsDB {
 		//.txtを外す
 		String pid = pid_txt.split("\\.")[0];
 		try {
-			Class.forName("org.sqlite.JDBC");
-			Connection conn = DriverManager.getConnection(Database_path); 
+			Class.forName("org.postgresql.Driver");
+			Connection conn = DriverManager.getConnection(Database_path,UserName, ""); 
 			Statement st = conn.createStatement();
 			ResultSet rs = 
 					st.executeQuery("select * from " + database + " where pid = '"+ pid +"'");
@@ -122,7 +126,7 @@ public class import_newsDB {
 
 
 
-
+	//尺度の値を挿入する
 	public static void entry_measure(Map<String,Double> scores, String kind){ //種類
 		//	Map<String,Double> scores = new HashMap<String,Double>();
 		//			String kind = "diversity";
@@ -130,10 +134,10 @@ public class import_newsDB {
 		//			scores.put("air3.txt", 0.034);
 
 		try {
-			Class.forName("org.sqlite.JDBC");
+			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
 					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
-					Database_path); 
+					Database_path,UserName, ""); 
 			Statement st = conn.createStatement();
 			Set<String> keys = scores.keySet();
 			Iterator<String> it = keys.iterator();
@@ -159,13 +163,12 @@ public class import_newsDB {
 
 				//System.out.println(sql+"aa");
 				st.executeUpdate(sql);
-				System.out.println("exe_sql");
-				System.out.println(sql);
 				rs.close();
 
 			}
 			st.close();
 			conn.close(); 
+			System.out.println("middle_scoreへ "+kind+" の導入完了");
 
 		} catch (ClassNotFoundException e) {
 			System.out.println(""+ e);
@@ -177,13 +180,14 @@ public class import_newsDB {
 
 	}
 
+	//各記事のEntityを挿入する
 	public static void import_entities(String[] articles, Map<String, ArrayList<String>> entities){
 
 		try {
-			Class.forName("org.sqlite.JDBC");
+			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
 					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
-					Database_path); 
+					Database_path,UserName, ""); 
 			Statement st = conn.createStatement();
 
 			for (int i = 0; i < articles.length; i++) {
@@ -192,21 +196,21 @@ public class import_newsDB {
 				String aid = file_ids[0];
 
 				//aidが存在するかをチェック
-				String check_sql = "select * from newsEntities where aid = '"+aid + "'";
+				String check_sql = "select * from middle_scores where aid = '"+aid + "'";
 				ResultSet rs = st.executeQuery(check_sql);
 				System.out.println("check_sql:");
 				String sql = null;
 				//aidがあれば更新、無ければ挿入
 				if(rs.next()){
 					//'qutation'を忘れない！
-					sql = "update newsEntities set entities = '"+entities.get(articles[i])+"' where aid = '"+aid+"'";
+					sql = "update middle_scores set entity = '"+entities.get(articles[i])+"' where aid = '"+aid+"'";
 				}else{
-					sql = "insert into newsEntities(aid, entities) values('"+ aid + "','" + entities.get(articles[i]) + "')";
+					sql = "insert into middle_scores(aid, entity) values('"+ aid + "','" + entities.get(articles[i]) + "')";
 				}
 
-				System.out.println(sql+"aa");
+				//System.out.println(sql+"aa");
 				st.executeUpdate(sql);
-				System.out.println("exe_sql");
+				//System.out.println("exe_sql");
 				System.out.println(sql);
 				rs.close();
 
@@ -227,10 +231,10 @@ public class import_newsDB {
 	public static void import_core_entities(String top_article, ArrayList<String> core_entities){
 
 		try {
-			Class.forName("org.sqlite.JDBC");
+			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
 					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
-					Database_path); 
+					Database_path,UserName,""); 
 			Statement st = conn.createStatement();
 
 			//aidの取り出し
@@ -238,21 +242,21 @@ public class import_newsDB {
 			String aid = file_ids[0];
 
 			//aidが存在するかをチェック
-			String check_sql = "select * from coreEntities where aid = '"+aid+"'";
+			String check_sql = "select * from middle_scores where aid = '"+aid+"'";
 			ResultSet rs = st.executeQuery(check_sql);
-			System.out.println("check_sql:");
+			//System.out.println("check_sql:");
 			String sql = null;
 			//aidがあれば更新、無ければ挿入
 			if(rs.next()){
-				sql = "update coreEntities set core_entities = '"+core_entities+"' where aid = '"+aid+"'";
+				sql = "update middle_scores set core = '"+core_entities+"' where aid = '"+aid+"'";
 			}else{
-				sql = "insert into coreEntities(aid, core_entities) values('"+ aid + "','" + core_entities + "')";
+				sql = "insert into middle_scores(aid, core) values('"+ aid + "','" + core_entities + "')";
 			}
 
-			System.out.println(sql+"aa");
+			//System.out.println(sql+"aa");
 			st.executeUpdate(sql);
-			System.out.println("exe_sql");
-			System.out.println(sql);
+			//System.out.println("exe_sql");
+			//System.out.println(sql);
 			rs.close();
 
 
@@ -272,10 +276,10 @@ public class import_newsDB {
 	public static void import_positive_score(String article, Map<String, Double> positive_score){
 
 		try {
-			Class.forName("org.sqlite.JDBC");
+			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
 					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
-					Database_path); 
+					Database_path,UserName, ""); 
 			Statement st = conn.createStatement();
 
 			//aidの取り出し
@@ -283,21 +287,18 @@ public class import_newsDB {
 			String aid = file_ids[0];
 
 			//aidが存在するかをチェック
-			String check_sql = "select * from positivescore where aid = '"+aid+"'";
+			String check_sql = "select * from middle_scores where aid = '"+aid+"'";
 			ResultSet rs = st.executeQuery(check_sql);
-			System.out.println("check_sql:");
+			//System.out.println("check_sql:");
 			String sql = null;
 			//aidがあれば更新、無ければ挿入
 			if(rs.next()){
-				sql = "update positivescore set p_score = '"+positive_score+"' where aid = '"+aid+"'";
+				sql = "update middle_scores set polarity = '"+positive_score+"' where aid = '"+aid+"'";
 			}else{
-				sql = "insert into positivescore(aid, p_score) values('"+ aid + "','" + positive_score + "')";
+				sql = "insert into middle_scores(aid, polarity) values('"+ aid + "','" + positive_score + "')";
 			}
 
-			System.out.println(sql+"aa");
 			st.executeUpdate(sql);
-			System.out.println("exe_sql");
-			System.out.println(sql);
 			rs.close();
 
 
@@ -313,13 +314,13 @@ public class import_newsDB {
 
 
 	}
-	public static void import_topic_score(String article, Map<Integer, Double> topic_score){
+	public static void import_topic_score(String article, Map<Integer, Double> topic_score, String named_entity){
 
 		try {
-			Class.forName("org.sqlite.JDBC");
+			Class.forName("org.postgresql.Driver");
 			Connection conn = DriverManager.getConnection(
 					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
-					Database_path); 
+					Database_path,UserName, ""); 
 			Statement st = conn.createStatement();
 
 			//aidの取り出し
@@ -327,25 +328,53 @@ public class import_newsDB {
 			String aid = file_ids[0];
 
 			//aidが存在するかをチェック
-			String check_sql = "select * from topicscore where aid = '"+aid+"'";
+			String check_sql = "select * from topic_scores where aid = '"+aid+"' and entity = '"+named_entity+"'";
 			ResultSet rs = st.executeQuery(check_sql);
-			System.out.println("check_sql:");
+			//System.out.println("check_sql:");
 			String sql = null;
 			//aidがあれば更新、無ければ挿入
 			if(rs.next()){
-				sql = "update topicscore set t_score = '"+topic_score+"' where aid = '"+aid+"'";
+				sql = "update topic_scores set topic = '"+topic_score+"' where aid = '"+aid+"'and entity = '"+named_entity+"'";
 			}else{
-				sql = "insert into topicscore(aid, t_score) values('"+ aid + "','" + topic_score + "')";
+				sql = "insert into topic_scores(aid,entity,topic) values('"+ aid + "','"+named_entity +"','" +topic_score + "')";
 			}
 
-			System.out.println(sql+"aa");
+
 			st.executeUpdate(sql);
-			System.out.println("exe_sql");
-			System.out.println(sql);
 			rs.close();
-
-
 			st.close();
+			conn.close(); 
+
+		} catch (ClassNotFoundException e) {
+			System.out.println(""+ e);
+
+		} catch (SQLException e) { 
+			System.out.println(""+ e);
+		}
+	}
+
+	public static void update_analyzed_at(String[] articles, String time){
+
+		try {
+			Class.forName("org.postgresql.Driver");
+			Connection conn = DriverManager.getConnection(
+					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
+					Database_path,UserName, ""); 
+
+
+			for (int i = 0; i < articles.length; i++) {
+				Statement st = conn.createStatement();
+
+				//aidの取り出し
+				String[] file_ids = articles[i].split("\\.");
+				String aid = file_ids[0];
+
+				//aidがあれば更新、無ければ挿入
+				String sql = "update newsarticles set analyzed_at = '"+time+"' where aid = '"+aid+"' or pid = '"+aid+"'";
+
+				st.executeUpdate(sql);
+				st.close();
+			}
 			conn.close(); 
 
 		} catch (ClassNotFoundException e) {
@@ -356,6 +385,59 @@ public class import_newsDB {
 		}
 	}
 	
+	public static void entry_rel(Map<String,Double> scores){ //種類
+
+		try {
+			Class.forName("org.postgresql.Driver");
+			Connection conn = DriverManager.getConnection(
+					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
+					Database_path,UserName, ""); 
+			Statement st = conn.createStatement();
+			Set<String> keys = scores.keySet();
+			Iterator<String> it = keys.iterator();
+			System.out.println(scores);
+			while(it.hasNext()){
+				//aidの取り出し
+				String file_name = it.next();
+				System.out.println(file_name);
+				String[] file_ids = file_name.split("\\.");
+				String aid = file_ids[0];
+
+				//aidが存在するかをチェック
+				String check_sql = "select * from middle_scores where aid = '"+aid+"'";
+				ResultSet rs = st.executeQuery(check_sql);
+				//System.out.println("check_sql:");
+				String sql = null;
+				//aidがあれば更新、無ければ挿入
+				if(rs.next()){
+					sql = "update middle_scores set relevance = "+scores.get(file_name)+" where aid = '"+aid+"'";
+				}else{
+					sql = "insert into middle_scores(aid, relevance) values('"+ aid + "','" + scores.get(file_name) + "')";
+				}
+
+				//System.out.println(sql+"aa");
+				st.executeUpdate(sql);
+				rs.close();
+
+			}
+			st.close();
+			conn.close(); 
+			System.out.println("middle_scoreへ relevance の導入完了");
+
+		} catch (ClassNotFoundException e) {
+			System.out.println(""+ e);
+
+		} catch (SQLException e) { 
+			System.out.println(""+ e);
+		}
+
+
+	}
+
+
+
+
+
 	//
 
 	//データベースでtextで格納された配列をリストへ変換

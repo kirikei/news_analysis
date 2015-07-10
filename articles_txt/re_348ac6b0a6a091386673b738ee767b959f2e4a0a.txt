@@ -1,0 +1,372 @@
+Sentence #1 (27 tokens):
+The Associated Press
+With Washington state overhauling its medical marijuana law, Seattle Mayor Ed Murray says the city is planning to shutter dozens of dispensaries.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Associated CharacterOffsetBegin=4 CharacterOffsetEnd=14 PartOfSpeech=NNP Lemma=Associated NamedEntityTag=O] [Text=Press CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Press NamedEntityTag=O] [Text=With CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Washington CharacterOffsetBegin=26 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=Washington NamedEntityTag=LOCATION] [Text=state CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=overhauling CharacterOffsetBegin=43 CharacterOffsetEnd=54 PartOfSpeech=VBG Lemma=overhaul NamedEntityTag=O] [Text=its CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=medical CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=JJ Lemma=medical NamedEntityTag=O] [Text=marijuana CharacterOffsetBegin=67 CharacterOffsetEnd=76 PartOfSpeech=NN Lemma=marijuana NamedEntityTag=O] [Text=law CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=NN Lemma=law NamedEntityTag=O] [Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Seattle CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=NNP Lemma=Seattle NamedEntityTag=LOCATION] [Text=Mayor CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Mayor NamedEntityTag=O] [Text=Ed CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=NNP Lemma=Ed NamedEntityTag=PERSON] [Text=Murray CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NNP Lemma=Murray NamedEntityTag=PERSON] [Text=says CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=city CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=is CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=planning CharacterOffsetBegin=123 CharacterOffsetEnd=131 PartOfSpeech=VBG Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=shutter CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=VB Lemma=shutter NamedEntityTag=O] [Text=dozens CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=NNS Lemma=dozen NamedEntityTag=O] [Text=of CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=dispensaries CharacterOffsetBegin=153 CharacterOffsetEnd=165 PartOfSpeech=NNS Lemma=dispensary NamedEntityTag=O] [Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP
+      (NP (DT The) (NNP Associated) (NNP Press))
+      (IN With)
+      (NP
+        (NP (NNP Washington) (NN state))
+        (VP (VBG overhauling)
+          (NP (PRP$ its) (JJ medical) (NN marijuana) (NN law)))))
+    (, ,)
+    (NP (NNP Seattle) (NNP Mayor) (NNP Ed) (NNP Murray))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT the) (NN city))
+          (VP (VBZ is)
+            (VP (VBG planning)
+              (S
+                (VP (TO to)
+                  (VP (VB shutter)
+                    (NP
+                      (NP (NNS dozens))
+                      (PP (IN of)
+                        (NP (NNS dispensaries))))))))))))
+    (. .)))
+
+root(ROOT-0, says-17)
+det(Press-3, The-1)
+nn(Press-3, Associated-2)
+dep(says-17, Press-3)
+nn(state-6, Washington-5)
+prep_with(says-17, state-6)
+vmod(state-6, overhauling-7)
+poss(law-11, its-8)
+amod(law-11, medical-9)
+nn(law-11, marijuana-10)
+dobj(overhauling-7, law-11)
+nn(Murray-16, Seattle-13)
+nn(Murray-16, Mayor-14)
+nn(Murray-16, Ed-15)
+nsubj(says-17, Murray-16)
+det(city-19, the-18)
+nsubj(planning-21, city-19)
+aux(planning-21, is-20)
+ccomp(says-17, planning-21)
+aux(shutter-23, to-22)
+xcomp(planning-21, shutter-23)
+dobj(shutter-23, dozens-24)
+prep_of(dozens-24, dispensaries-26)
+
+Sentence #2 (27 tokens):
+Murray on Tuesday announced plans to require a new special business license for marijuana establishments, akin to those required for taxi operators and pawn shops.
+[Text=Murray CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=NNP Lemma=Murray NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=announced CharacterOffsetBegin=185 CharacterOffsetEnd=194 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=plans CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=NNS Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=require CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VB Lemma=require NamedEntityTag=O] [Text=a CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=special CharacterOffsetBegin=218 CharacterOffsetEnd=225 PartOfSpeech=JJ Lemma=special NamedEntityTag=O] [Text=business CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=license CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=NN Lemma=license NamedEntityTag=O] [Text=for CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=marijuana CharacterOffsetBegin=247 CharacterOffsetEnd=256 PartOfSpeech=NN Lemma=marijuana NamedEntityTag=O] [Text=establishments CharacterOffsetBegin=257 CharacterOffsetEnd=271 PartOfSpeech=NNS Lemma=establishment NamedEntityTag=O] [Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=akin CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=JJ Lemma=akin NamedEntityTag=O] [Text=to CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=those CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=required CharacterOffsetBegin=287 CharacterOffsetEnd=295 PartOfSpeech=VBN Lemma=require NamedEntityTag=O] [Text=for CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=taxi CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NN Lemma=taxi NamedEntityTag=O] [Text=operators CharacterOffsetBegin=305 CharacterOffsetEnd=314 PartOfSpeech=NNS Lemma=operator NamedEntityTag=O] [Text=and CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=pawn CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NN Lemma=pawn NamedEntityTag=O] [Text=shops CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NNS Lemma=shop NamedEntityTag=O] [Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Murray))
+      (PP (IN on)
+        (NP (NNP Tuesday))))
+    (VP (VBD announced)
+      (S
+        (NP (NNS plans))
+        (VP (TO to)
+          (VP (VB require)
+            (NP
+              (NP (DT a) (JJ new) (JJ special) (NN business) (NN license))
+              (PP (IN for)
+                (NP (NN marijuana) (NNS establishments)))))))
+      (, ,)
+      (ADJP (JJ akin)
+        (PP (TO to)
+          (NP
+            (NP (DT those))
+            (VP (VBN required)
+              (PP (IN for)
+                (NP (NN taxi) (NNS operators)
+                  (CC and)
+                  (NN pawn) (NNS shops))))))))
+    (. .)))
+
+root(ROOT-0, announced-4)
+nsubj(announced-4, Murray-1)
+prep_on(Murray-1, Tuesday-3)
+nsubj(require-7, plans-5)
+aux(require-7, to-6)
+xcomp(announced-4, require-7)
+det(license-12, a-8)
+amod(license-12, new-9)
+amod(license-12, special-10)
+nn(license-12, business-11)
+dobj(require-7, license-12)
+nn(establishments-15, marijuana-14)
+prep_for(license-12, establishments-15)
+acomp(announced-4, akin-17)
+prep_to(akin-17, those-19)
+vmod(those-19, required-20)
+nn(operators-23, taxi-22)
+prep_for(required-20, operators-23)
+nn(shops-26, pawn-25)
+conj_and(operators-23, shops-26)
+
+Sentence #3 (18 tokens):
+Under the mayor_s plan the businesses will be required to obtain the licenses by July 2016.
+[Text=Under CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=the CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mayor CharacterOffsetBegin=341 CharacterOffsetEnd=346 PartOfSpeech=NN Lemma=mayor NamedEntityTag=O] [Text=_s CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=plan CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=358 CharacterOffsetEnd=368 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=will CharacterOffsetBegin=369 CharacterOffsetEnd=373 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=required CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=VBN Lemma=require NamedEntityTag=O] [Text=to CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=obtain CharacterOffsetBegin=389 CharacterOffsetEnd=395 PartOfSpeech=VB Lemma=obtain NamedEntityTag=O] [Text=the CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=licenses CharacterOffsetBegin=400 CharacterOffsetEnd=408 PartOfSpeech=NNS Lemma=licens NamedEntityTag=O] [Text=by CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=July CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=NNP Lemma=July NamedEntityTag=DATE NormalizedNamedEntityTag=2016-07 Timex=<TIMEX3 tid="t2" type="DATE" value="2016-07">July 2016<_TIMEX3>] [Text=2016 CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=CD Lemma=2016 NamedEntityTag=DATE NormalizedNamedEntityTag=2016-07 Timex=<TIMEX3 tid="t2" type="DATE" value="2016-07">July 2016<_TIMEX3>] [Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Under)
+      (NP
+        (NP (DT the) (NN mayor) (POS _s))
+        (NN plan)))
+    (NP (DT the) (NNS businesses))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN required)
+          (S
+            (VP (TO to)
+              (VP (VB obtain)
+                (NP (DT the) (NNS licenses))
+                (PP (IN by)
+                  (NP (NNP July) (CD 2016)))))))))
+    (. .)))
+
+root(ROOT-0, required-10)
+det(mayor-3, the-2)
+poss(plan-5, mayor-3)
+prep_under(required-10, plan-5)
+det(businesses-7, the-6)
+nsubjpass(required-10, businesses-7)
+aux(required-10, will-8)
+auxpass(required-10, be-9)
+aux(obtain-12, to-11)
+xcomp(required-10, obtain-12)
+det(licenses-14, the-13)
+dobj(obtain-12, licenses-14)
+prep_by(obtain-12, July-16)
+num(July-16, 2016-17)
+
+Sentence #4 (32 tokens):
+But just as the state_s new medical marijuana law gives priority in licensing to dispensaries that were in operation before Jan. 1, 2013, so does Murray_s proposal.
+[Text=But CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=just CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=as CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=state CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=_s CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=new CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=medical CharacterOffsetBegin=451 CharacterOffsetEnd=458 PartOfSpeech=JJ Lemma=medical NamedEntityTag=O] [Text=marijuana CharacterOffsetBegin=459 CharacterOffsetEnd=468 PartOfSpeech=NN Lemma=marijuana NamedEntityTag=O] [Text=law CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=NN Lemma=law NamedEntityTag=O] [Text=gives CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=VBZ Lemma=give NamedEntityTag=O] [Text=priority CharacterOffsetBegin=479 CharacterOffsetEnd=487 PartOfSpeech=NN Lemma=priority NamedEntityTag=O] [Text=in CharacterOffsetBegin=488 CharacterOffsetEnd=490 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=licensing CharacterOffsetBegin=491 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=licensing NamedEntityTag=O] [Text=to CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=dispensaries CharacterOffsetBegin=504 CharacterOffsetEnd=516 PartOfSpeech=NNS Lemma=dispensary NamedEntityTag=O] [Text=that CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=were CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=operation CharacterOffsetBegin=530 CharacterOffsetEnd=539 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=before CharacterOffsetBegin=540 CharacterOffsetEnd=546 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=Jan. CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=NNP Lemma=Jan. NamedEntityTag=DATE NormalizedNamedEntityTag=2013-01-01 Timex=<TIMEX3 tid="t3" type="DATE" value="2013-01-01">Jan. 1, 2013<_TIMEX3>] [Text=1 CharacterOffsetBegin=552 CharacterOffsetEnd=553 PartOfSpeech=CD Lemma=1 NamedEntityTag=DATE NormalizedNamedEntityTag=2013-01-01 Timex=<TIMEX3 tid="t3" type="DATE" value="2013-01-01">Jan. 1, 2013<_TIMEX3>] [Text=, CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2013-01-01 Timex=<TIMEX3 tid="t3" type="DATE" value="2013-01-01">Jan. 1, 2013<_TIMEX3>] [Text=2013 CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=CD Lemma=2013 NamedEntityTag=DATE NormalizedNamedEntityTag=2013-01-01 Timex=<TIMEX3 tid="t3" type="DATE" value="2013-01-01">Jan. 1, 2013<_TIMEX3>] [Text=, CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=does CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=Murray CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=NNP Lemma=Murray NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=proposal CharacterOffsetBegin=578 CharacterOffsetEnd=586 PartOfSpeech=NN Lemma=proposal NamedEntityTag=O] [Text=. CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (SBAR (RB just) (IN as)
+      (S
+        (NP
+          (NP (DT the) (NN state) (POS _s))
+          (JJ new) (JJ medical) (NN marijuana) (NN law))
+        (VP (VBZ gives)
+          (NP
+            (NP (NN priority))
+            (PP (IN in)
+              (NP (NN licensing))))
+          (PP (TO to)
+            (NP
+              (NP (NNS dispensaries))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBD were)
+                    (PP (IN in)
+                      (NP (NN operation)))
+                    (PP (IN before)
+                      (NP (NNP Jan.) (CD 1) (, ,) (CD 2013)))))))))))
+    (, ,) (RB so)
+    (VP (VBZ does)
+      (NP
+        (NP (NNP Murray) (POS _s))
+        (NN proposal)))
+    (. .)))
+
+root(ROOT-0, does-28)
+cc(does-28, But-1)
+advmod(gives-11, just-2)
+mark(gives-11, as-3)
+det(state-5, the-4)
+poss(law-10, state-5)
+amod(law-10, new-7)
+amod(law-10, medical-8)
+nn(law-10, marijuana-9)
+nsubj(gives-11, law-10)
+advcl(does-28, gives-11)
+dobj(gives-11, priority-12)
+prep_in(priority-12, licensing-14)
+prep_to(gives-11, dispensaries-16)
+nsubj(were-18, that-17)
+rcmod(dispensaries-16, were-18)
+prep_in(were-18, operation-20)
+prep_before(were-18, Jan.-22)
+num(Jan.-22, 1-23)
+num(Jan.-22, 2013-25)
+advmod(does-28, so-27)
+poss(proposal-31, Murray-29)
+dobj(does-28, proposal-31)
+
+Sentence #5 (31 tokens):
+Seattle officials say that by their tally, 54 of the city_s 99 medical marijuana storefronts opened after that date or have been operating without a city business license.
+[Text=Seattle CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=NNP Lemma=Seattle NamedEntityTag=LOCATION] [Text=officials CharacterOffsetBegin=596 CharacterOffsetEnd=605 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=say CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=VBP Lemma=say NamedEntityTag=O] [Text=that CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=by CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=their CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=tally CharacterOffsetBegin=624 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=tally NamedEntityTag=O] [Text=, CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=54 CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=CD Lemma=54 NamedEntityTag=NUMBER NormalizedNamedEntityTag=54.0] [Text=of CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=city CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=_s CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=99 CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=CD Lemma=99 NamedEntityTag=NUMBER NormalizedNamedEntityTag=99.0] [Text=medical CharacterOffsetBegin=651 CharacterOffsetEnd=658 PartOfSpeech=JJ Lemma=medical NamedEntityTag=O] [Text=marijuana CharacterOffsetBegin=659 CharacterOffsetEnd=668 PartOfSpeech=NN Lemma=marijuana NamedEntityTag=O] [Text=storefronts CharacterOffsetBegin=669 CharacterOffsetEnd=680 PartOfSpeech=NNS Lemma=storefront NamedEntityTag=O] [Text=opened CharacterOffsetBegin=681 CharacterOffsetEnd=687 PartOfSpeech=VBD Lemma=open NamedEntityTag=O] [Text=after CharacterOffsetBegin=688 CharacterOffsetEnd=693 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=that CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=date CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=NN Lemma=date NamedEntityTag=O] [Text=or CharacterOffsetBegin=704 CharacterOffsetEnd=706 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=have CharacterOffsetBegin=707 CharacterOffsetEnd=711 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=712 CharacterOffsetEnd=716 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=operating CharacterOffsetBegin=717 CharacterOffsetEnd=726 PartOfSpeech=VBG Lemma=operate NamedEntityTag=O] [Text=without CharacterOffsetBegin=727 CharacterOffsetEnd=734 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=a CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=city CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=business CharacterOffsetBegin=742 CharacterOffsetEnd=750 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=license CharacterOffsetBegin=751 CharacterOffsetEnd=758 PartOfSpeech=NN Lemma=license NamedEntityTag=O] [Text=. CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Seattle) (NNS officials))
+    (VP (VBP say)
+      (SBAR (IN that)
+        (S
+          (PP (IN by)
+            (NP (PRP$ their) (NN tally)))
+          (, ,)
+          (NP
+            (NP (CD 54))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN city) (POS _s))
+                (CD 99) (JJ medical) (NN marijuana) (NNS storefronts))))
+          (VP
+            (VP (VBD opened)
+              (PP (IN after)
+                (NP (DT that) (NN date))))
+            (CC or)
+            (VP (VBP have)
+              (VP (VBN been)
+                (VP (VBG operating)
+                  (PP (IN without)
+                    (NP (DT a) (NN city) (NN business) (NN license))))))))))
+    (. .)))
+
+root(ROOT-0, say-3)
+nn(officials-2, Seattle-1)
+nsubj(say-3, officials-2)
+mark(opened-18, that-4)
+poss(tally-7, their-6)
+prep_by(opened-18, tally-7)
+nsubj(opened-18, 54-9)
+det(city-12, the-11)
+poss(storefronts-17, city-12)
+num(storefronts-17, 99-14)
+amod(storefronts-17, medical-15)
+nn(storefronts-17, marijuana-16)
+prep_of(54-9, storefronts-17)
+ccomp(say-3, opened-18)
+det(date-21, that-20)
+prep_after(opened-18, date-21)
+aux(operating-25, have-23)
+aux(operating-25, been-24)
+conj_or(opened-18, operating-25)
+det(license-30, a-27)
+nn(license-30, city-28)
+nn(license-30, business-29)
+prep_without(operating-25, license-30)
+
+Sentence #6 (19 tokens):
+Murray_s office says those businesses won_t be getting the special license and need to shut down.
+[Text=Murray CharacterOffsetBegin=760 CharacterOffsetEnd=766 PartOfSpeech=NNP Lemma=Murray NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=office CharacterOffsetBegin=769 CharacterOffsetEnd=775 PartOfSpeech=NN Lemma=office NamedEntityTag=O] [Text=says CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=those CharacterOffsetBegin=781 CharacterOffsetEnd=786 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=businesses CharacterOffsetBegin=787 CharacterOffsetEnd=797 PartOfSpeech=NNS Lemma=business NamedEntityTag=O] [Text=wo CharacterOffsetBegin=798 CharacterOffsetEnd=800 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=be CharacterOffsetBegin=804 CharacterOffsetEnd=806 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=getting CharacterOffsetBegin=807 CharacterOffsetEnd=814 PartOfSpeech=VBG Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=special CharacterOffsetBegin=819 CharacterOffsetEnd=826 PartOfSpeech=JJ Lemma=special NamedEntityTag=O] [Text=license CharacterOffsetBegin=827 CharacterOffsetEnd=834 PartOfSpeech=NN Lemma=license NamedEntityTag=O] [Text=and CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=need CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=VB Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=shut CharacterOffsetBegin=847 CharacterOffsetEnd=851 PartOfSpeech=VB Lemma=shut NamedEntityTag=O] [Text=down CharacterOffsetBegin=852 CharacterOffsetEnd=856 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=. CharacterOffsetBegin=856 CharacterOffsetEnd=857 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Murray) (POS _s))
+      (NN office))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT those) (NNS businesses))
+          (VP (MD wo) (RB n_t)
+            (VP
+              (VP (VB be)
+                (VP (VBG getting)
+                  (NP (DT the) (JJ special) (NN license))))
+              (CC and)
+              (VP (VB need)
+                (S
+                  (VP (TO to)
+                    (VP (VB shut)
+                      (PRT (RP down)))))))))))
+    (. .)))
+
+root(ROOT-0, says-4)
+poss(office-3, Murray-1)
+nsubj(says-4, office-3)
+det(businesses-6, those-5)
+nsubj(getting-10, businesses-6)
+aux(getting-10, wo-7)
+neg(getting-10, n_t-8)
+aux(getting-10, be-9)
+ccomp(says-4, getting-10)
+det(license-13, the-11)
+amod(license-13, special-12)
+dobj(getting-10, license-13)
+conj_and(getting-10, need-15)
+aux(shut-17, to-16)
+xcomp(need-15, shut-17)
+prt(shut-17, down-18)
+
+Sentence #7 (22 tokens):
+The rest will be allowed to remain open long enough to see if they wind up being permitted by the state.
+[Text=The CharacterOffsetBegin=858 CharacterOffsetEnd=861 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=rest CharacterOffsetBegin=862 CharacterOffsetEnd=866 PartOfSpeech=NN Lemma=rest NamedEntityTag=O] [Text=will CharacterOffsetBegin=867 CharacterOffsetEnd=871 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=872 CharacterOffsetEnd=874 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=allowed CharacterOffsetBegin=875 CharacterOffsetEnd=882 PartOfSpeech=VBN Lemma=allow NamedEntityTag=O] [Text=to CharacterOffsetBegin=883 CharacterOffsetEnd=885 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=remain CharacterOffsetBegin=886 CharacterOffsetEnd=892 PartOfSpeech=VB Lemma=remain NamedEntityTag=O] [Text=open CharacterOffsetBegin=893 CharacterOffsetEnd=897 PartOfSpeech=JJ Lemma=open NamedEntityTag=O] [Text=long CharacterOffsetBegin=898 CharacterOffsetEnd=902 PartOfSpeech=RB Lemma=long NamedEntityTag=O] [Text=enough CharacterOffsetBegin=903 CharacterOffsetEnd=909 PartOfSpeech=RB Lemma=enough NamedEntityTag=O] [Text=to CharacterOffsetBegin=910 CharacterOffsetEnd=912 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=913 CharacterOffsetEnd=916 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=if CharacterOffsetBegin=917 CharacterOffsetEnd=919 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=they CharacterOffsetBegin=920 CharacterOffsetEnd=924 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=wind CharacterOffsetBegin=925 CharacterOffsetEnd=929 PartOfSpeech=VBP Lemma=wind NamedEntityTag=O] [Text=up CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=being CharacterOffsetBegin=933 CharacterOffsetEnd=938 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=permitted CharacterOffsetBegin=939 CharacterOffsetEnd=948 PartOfSpeech=VBN Lemma=permit NamedEntityTag=O] [Text=by CharacterOffsetBegin=949 CharacterOffsetEnd=951 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=952 CharacterOffsetEnd=955 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=state CharacterOffsetBegin=956 CharacterOffsetEnd=961 PartOfSpeech=NN Lemma=state NamedEntityTag=O] [Text=. CharacterOffsetBegin=961 CharacterOffsetEnd=962 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN rest))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN allowed)
+          (S
+            (VP (TO to)
+              (VP (VB remain)
+                (ADJP (JJ open))
+                (ADVP (RB long) (RB enough))
+                (S
+                  (VP (TO to)
+                    (VP (VB see)
+                      (SBAR (IN if)
+                        (S
+                          (NP (PRP they))
+                          (VP (VBP wind)
+                            (PRT (RP up))
+                            (S
+                              (VP (VBG being)
+                                (VP (VBN permitted)
+                                  (PP (IN by)
+                                    (NP (DT the) (NN state))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, allowed-5)
+det(rest-2, The-1)
+nsubjpass(allowed-5, rest-2)
+aux(allowed-5, will-3)
+auxpass(allowed-5, be-4)
+aux(open-8, to-6)
+cop(open-8, remain-7)
+xcomp(allowed-5, open-8)
+advmod(enough-10, long-9)
+advmod(open-8, enough-10)
+aux(see-12, to-11)
+xcomp(open-8, see-12)
+mark(wind-15, if-13)
+nsubj(wind-15, they-14)
+advcl(see-12, wind-15)
+prt(wind-15, up-16)
+auxpass(permitted-18, being-17)
+xcomp(wind-15, permitted-18)
+det(state-21, the-20)
+agent(permitted-18, state-21)
+
+Sentence #8 (2 tokens):
+Related content
+[Text=Related CharacterOffsetBegin=963 CharacterOffsetEnd=970 PartOfSpeech=JJ Lemma=related NamedEntityTag=O] [Text=content CharacterOffsetBegin=971 CharacterOffsetEnd=978 PartOfSpeech=NN Lemma=content NamedEntityTag=O] 
+(ROOT
+  (NP (JJ Related) (NN content)))
+
+root(ROOT-0, content-2)
+amod(content-2, Related-1)
+
+Coreference set:
+ (5,1,[1,2]) -> (1,13,[13,14]), that is: "Seattle" -> "Seattle"
+Coreference set:
+ (1,8,[8,9]) -> (1,3,[1,4]), that is: "its" -> "The Associated Press"
+Coreference set:
+ (4,5,[4,7]) -> (1,6,[5,12]), that is: "the state _s" -> "Washington state overhauling its medical marijuana law"
+ (7,21,[20,22]) -> (1,6,[5,12]), that is: "the state" -> "Washington state overhauling its medical marijuana law"
+Coreference set:
+ (1,19,[18,20]) -> (5,12,[11,14]), that is: "the city" -> "the city _s"
+Coreference set:
+ (4,29,[29,31]) -> (2,1,[1,4]), that is: "Murray _s" -> "Murray on Tuesday"
+ (6,1,[1,3]) -> (2,1,[1,4]), that is: "Murray _s" -> "Murray on Tuesday"
+Coreference set:
+ (6,13,[11,14]) -> (2,12,[8,16]), that is: "the special license" -> "a new special business license for marijuana establishments"
+Coreference set:
+ (6,6,[5,7]) -> (3,7,[6,8]), that is: "those businesses" -> "the businesses"
+Coreference set:
+ (5,6,[6,7]) -> (5,2,[1,3]), that is: "their" -> "Seattle officials"
+ (7,14,[14,15]) -> (5,2,[1,3]), that is: "they" -> "Seattle officials"

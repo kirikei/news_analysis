@@ -1,0 +1,1141 @@
+Sentence #1 (24 tokens):
+Samsung Unveils Limited Edition of Galaxy S6 Edge
+Samsung Electronics has unveiled the "Iron Man" edition of its Galaxy S6 Edge.
+[Text=Samsung CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Unveils CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=Unveils NamedEntityTag=O] [Text=Limited CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=Limited NamedEntityTag=O] [Text=Edition CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Edition NamedEntityTag=O] [Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Galaxy CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Electronics CharacterOffsetBegin=58 CharacterOffsetEnd=69 PartOfSpeech=NNP Lemma=Electronics NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=unveiled CharacterOffsetBegin=74 CharacterOffsetEnd=82 PartOfSpeech=VBN Lemma=unveil NamedEntityTag=O] [Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=`` CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=`` Lemma=`` NamedEntityTag=MISC] [Text=Iron CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=NNP Lemma=Man NamedEntityTag=MISC] [Text=__ CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=edition CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=of CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Galaxy CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Samsung) (NNP Unveils) (NNP Limited) (NNP Edition))
+      (PP (IN of)
+        (NP (NNP Galaxy) (NN S6) (NNP Edge) (NNP Samsung) (NNP Electronics))))
+    (VP (VBZ has)
+      (VP (VBN unveiled)
+        (S
+          (NP
+            (NP (DT the) (`` ``) (NNP Iron) (NNP Man) (__ __) (NN edition))
+            (PP (IN of)
+              (NP (PRP$ its) (NNP Galaxy) (NN S6))))
+          (NP (NNP Edge)))))
+    (. .)))
+
+root(ROOT-0, unveiled-12)
+nn(Edition-4, Samsung-1)
+nn(Edition-4, Unveils-2)
+nn(Edition-4, Limited-3)
+nsubj(unveiled-12, Edition-4)
+nn(Electronics-10, Galaxy-6)
+nn(Electronics-10, S6-7)
+nn(Electronics-10, Edge-8)
+nn(Electronics-10, Samsung-9)
+prep_of(Edition-4, Electronics-10)
+aux(unveiled-12, has-11)
+det(edition-18, the-13)
+nn(edition-18, Iron-15)
+nn(edition-18, Man-16)
+nsubj(Edge-23, edition-18)
+poss(S6-22, its-20)
+nn(S6-22, Galaxy-21)
+prep_of(edition-18, S6-22)
+xcomp(unveiled-12, Edge-23)
+
+Sentence #2 (20 tokens):
+The electronics giant said Tuesday that only 1,000 units of the limited edition are available for preorder from Wednesday.
+[Text=The CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=electronics CharacterOffsetBegin=133 CharacterOffsetEnd=144 PartOfSpeech=NNS Lemma=electronics NamedEntityTag=O] [Text=giant CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=giant NamedEntityTag=O] [Text=said CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=that CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=only CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=1,000 CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=CD Lemma=1,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1000.0] [Text=units CharacterOffsetBegin=180 CharacterOffsetEnd=185 PartOfSpeech=NNS Lemma=unit NamedEntityTag=O] [Text=of CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=limited CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=JJ Lemma=limited NamedEntityTag=O] [Text=edition CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=are CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=available CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=for CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=preorder CharacterOffsetBegin=227 CharacterOffsetEnd=235 PartOfSpeech=NN Lemma=preorder NamedEntityTag=O] [Text=from CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=241 CharacterOffsetEnd=250 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=. CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNS electronics) (NN giant))
+    (VP (VBD said)
+      (NP-TMP (NNP Tuesday))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP
+              (QP (RB only) (CD 1,000))
+              (NNS units))
+            (PP (IN of)
+              (NP (DT the) (JJ limited) (NN edition))))
+          (VP (VBP are)
+            (ADJP (JJ available)
+              (PP (IN for)
+                (NP (NN preorder))))
+            (PP (IN from)
+              (NP (NNP Wednesday)))))))
+    (. .)))
+
+root(ROOT-0, said-4)
+det(giant-3, The-1)
+nn(giant-3, electronics-2)
+nsubj(said-4, giant-3)
+tmod(said-4, Tuesday-5)
+mark(available-15, that-6)
+quantmod(1,000-8, only-7)
+num(units-9, 1,000-8)
+nsubj(available-15, units-9)
+det(edition-13, the-11)
+amod(edition-13, limited-12)
+prep_of(units-9, edition-13)
+cop(available-15, are-14)
+ccomp(said-4, available-15)
+prep_for(available-15, preorder-17)
+prep_from(available-15, Wednesday-19)
+
+Sentence #3 (18 tokens):
+The back of the vibrant red and gold phone features the Iron Man mask and serial number.
+[Text=The CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=back CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=NN Lemma=back NamedEntityTag=O] [Text=of CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=vibrant CharacterOffsetBegin=268 CharacterOffsetEnd=275 PartOfSpeech=JJ Lemma=vibrant NamedEntityTag=O] [Text=red CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=NN Lemma=red NamedEntityTag=O] [Text=and CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=gold CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=NN Lemma=gold NamedEntityTag=O] [Text=phone CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NN Lemma=phone NamedEntityTag=O] [Text=features CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=VBZ Lemma=feature NamedEntityTag=O] [Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=mask CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=NN Lemma=mask NamedEntityTag=O] [Text=and CharacterOffsetBegin=322 CharacterOffsetEnd=325 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=serial CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=JJ Lemma=serial NamedEntityTag=O] [Text=number CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=. CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN back))
+      (PP (IN of)
+        (NP (DT the) (JJ vibrant) (NN red)
+          (CC and)
+          (NN gold) (NN phone))))
+    (VP (VBZ features)
+      (NP
+        (NP (DT the) (NN Iron) (NN Man) (NN mask))
+        (CC and)
+        (NP (JJ serial) (NN number))))
+    (. .)))
+
+root(ROOT-0, features-10)
+det(back-2, The-1)
+nsubj(features-10, back-2)
+det(red-6, the-4)
+amod(red-6, vibrant-5)
+prep_of(back-2, red-6)
+nn(phone-9, gold-8)
+conj_and(red-6, phone-9)
+det(mask-14, the-11)
+nn(mask-14, Iron-12)
+nn(mask-14, Man-13)
+dobj(features-10, mask-14)
+amod(number-17, serial-16)
+conj_and(mask-14, number-17)
+
+Sentence #4 (29 tokens):
+The 64-GB smartphone comes with a price tag of around W1.2 million and is available through all three mobile carriers (US$1=W1,107).
+[Text=The CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=64-GB CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=JJ Lemma=64-gb NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=351 CharacterOffsetEnd=361 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=comes CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=with CharacterOffsetBegin=368 CharacterOffsetEnd=372 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=price CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NN Lemma=price NamedEntityTag=O] [Text=tag CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NN Lemma=tag NamedEntityTag=O] [Text=of CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=around CharacterOffsetBegin=388 CharacterOffsetEnd=394 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=W1 CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=NN Lemma=w1 NamedEntityTag=O] [Text=.2 CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=.2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=200000.0] [Text=million CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=200000.0] [Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=is CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=available CharacterOffsetBegin=415 CharacterOffsetEnd=424 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=through CharacterOffsetBegin=425 CharacterOffsetEnd=432 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=all CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=three CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=mobile CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=carriers CharacterOffsetBegin=450 CharacterOffsetEnd=458 PartOfSpeech=NNS Lemma=carrier NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=US$ CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=$ Lemma=us$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0] [Text=1 CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=CD Lemma=1 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0] [Text== CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=JJ Lemma== NamedEntityTag=O] [Text=W1 CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=NN Lemma=w1 NamedEntityTag=O] [Text=,107 CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=CD Lemma=,107 NamedEntityTag=NUMBER NormalizedNamedEntityTag=107.0] [Text=-RRB- CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ 64-GB) (NN smartphone))
+    (VP
+      (VP (VBZ comes)
+        (PP (IN with)
+          (NP
+            (NP (DT a) (NN price) (NN tag))
+            (PP (IN of)
+              (PP (IN around)
+                (NP (NN W1) (NN .2) (CD million)))))))
+      (CC and)
+      (VP (VBZ is)
+        (ADJP (JJ available)
+          (PP (IN through)
+            (NP
+              (NP
+                (QP (DT all) (CD three))
+                (JJ mobile) (NNS carriers))
+              (PRN (-LRB- -LRB-)
+                (NP ($ US$) (CD 1))
+                (NP
+                  (NP (JJ =) (NN W1))
+                  (NP (CD ,107)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+root(ROOT-0, comes-4)
+det(smartphone-3, The-1)
+amod(smartphone-3, 64-GB-2)
+nsubj(comes-4, smartphone-3)
+det(tag-8, a-6)
+nn(tag-8, price-7)
+prep_with(comes-4, tag-8)
+prep(tag-8, of-9)
+pcomp(of-9, around-10)
+nn(.2-12, W1-11)
+pobj(around-10, .2-12)
+num(.2-12, million-13)
+cop(available-16, is-15)
+conj_and(comes-4, available-16)
+quantmod(three-19, all-18)
+num(carriers-21, three-19)
+amod(carriers-21, mobile-20)
+prep_through(available-16, carriers-21)
+dep(carriers-21, USdol-23)
+num(USdol-23, 1-24)
+amod(W1-26, =-25)
+dep(USdol-23, W1-26)
+dep(W1-26, ,107-27)
+
+Sentence #5 (61 tokens):
+englishnews@chosun.com _       May 27, 2015 09:55 KST
+
+
+The Iron Man themed Samsung Galaxy S6 Edge is awesome, but you can_t have one
+The Iron Man themed Samsung Galaxy S6 Edge is awesome, but you can_t have one
+SAMSUNG has unveiled an Iron Man Edition of its latest flagship smartphone, the Samsung Galaxy S6 Edge.
+[Text=englishnews@chosun.com CharacterOffsetBegin=474 CharacterOffsetEnd=496 PartOfSpeech=NNP Lemma=englishnews@chosun.com NamedEntityTag=O] [Text=_ CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=May CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=27 CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=, CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=2015 CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=09:55 CharacterOffsetBegin=518 CharacterOffsetEnd=523 PartOfSpeech=CD Lemma=09:55 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=KST CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=NNP Lemma=KST NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T09:55+0900 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T09:55+0900">May 27, 2015 09:55 KST<_TIMEX3>] [Text=The CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=NNP Lemma=The NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=NNP Lemma=Man NamedEntityTag=MISC] [Text=themed CharacterOffsetBegin=543 CharacterOffsetEnd=549 PartOfSpeech=VBD Lemma=theme NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=550 CharacterOffsetEnd=557 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Galaxy CharacterOffsetBegin=558 CharacterOffsetEnd=564 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=565 CharacterOffsetEnd=567 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=568 CharacterOffsetEnd=572 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=is CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=awesome CharacterOffsetBegin=576 CharacterOffsetEnd=583 PartOfSpeech=JJ Lemma=awesome NamedEntityTag=O] [Text=, CharacterOffsetBegin=583 CharacterOffsetEnd=584 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=you CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=ca CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=599 CharacterOffsetEnd=603 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=one CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=The CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=themed CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=VBD Lemma=theme NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Galaxy CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=is CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=awesome CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=JJ Lemma=awesome NamedEntityTag=O] [Text=, CharacterOffsetBegin=661 CharacterOffsetEnd=662 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=you CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=ca CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=677 CharacterOffsetEnd=681 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=one CharacterOffsetBegin=682 CharacterOffsetEnd=685 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=SAMSUNG CharacterOffsetBegin=686 CharacterOffsetEnd=693 PartOfSpeech=NNP Lemma=SAMSUNG NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=unveiled CharacterOffsetBegin=698 CharacterOffsetEnd=706 PartOfSpeech=VBN Lemma=unveil NamedEntityTag=O] [Text=an CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=Edition CharacterOffsetBegin=719 CharacterOffsetEnd=726 PartOfSpeech=NN Lemma=edition NamedEntityTag=MISC] [Text=of CharacterOffsetBegin=727 CharacterOffsetEnd=729 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=730 CharacterOffsetEnd=733 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=latest CharacterOffsetBegin=734 CharacterOffsetEnd=740 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=flagship CharacterOffsetBegin=741 CharacterOffsetEnd=749 PartOfSpeech=NN Lemma=flagship NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=750 CharacterOffsetEnd=760 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=, CharacterOffsetBegin=760 CharacterOffsetEnd=761 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=766 CharacterOffsetEnd=773 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Galaxy CharacterOffsetBegin=774 CharacterOffsetEnd=780 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=781 CharacterOffsetEnd=783 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=784 CharacterOffsetEnd=788 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=. CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP englishnews@chosun.com))
+    (: _)
+    (S
+      (S
+        (NP-TMP (NNP May) (CD 27))
+        (, ,)
+        (NP
+          (NP (CD 2015) (CD 09:55))
+          (NP (NNP KST) (NNP The) (NNP Iron) (NNP Man)))
+        (VP (VBD themed)
+          (SBAR
+            (S
+              (NP (NNP Samsung) (NNP Galaxy) (NN S6) (NNP Edge))
+              (VP (VBZ is)
+                (ADJP (JJ awesome)))))))
+      (, ,)
+      (CC but)
+      (S
+        (S
+          (NP (PRP you))
+          (VP (MD ca) (RB n_t)
+            (VP (VB have)
+              (NP
+                (NP (CD one))
+                (SBAR
+                  (S
+                    (NP (DT The) (NN Iron) (NN Man))
+                    (VP (VBD themed)
+                      (SBAR
+                        (S
+                          (NP (NNP Samsung) (NNP Galaxy) (NN S6) (NNP Edge))
+                          (VP (VBZ is)
+                            (ADJP (JJ awesome))))))))))))
+        (, ,)
+        (CC but)
+        (S
+          (NP (PRP you))
+          (VP (MD ca) (RB n_t)
+            (VP (VB have)
+              (NP
+                (NP (CD one))
+                (SBAR
+                  (S
+                    (NP (NNP SAMSUNG))
+                    (VP (VBZ has)
+                      (VP (VBN unveiled)
+                        (NP
+                          (NP
+                            (NP (DT an) (NN Iron) (NN Man) (NN Edition))
+                            (PP (IN of)
+                              (NP (PRP$ its) (JJS latest) (NN flagship) (NN smartphone))))
+                          (, ,)
+                          (NP
+                            (NP (DT the) (NNP Samsung) (NNP Galaxy) (NN S6))
+                            (NP (NNP Edge))))))))))))))
+    (. .)))
+
+root(ROOT-0, englishnews@chosun.com-1)
+punct(englishnews@chosun.com-1, _-2)
+tmod(themed-12, May-3)
+num(May-3, 27-4)
+num(09:55-7, 2015-6)
+nsubj(themed-12, 09:55-7)
+nn(Man-11, KST-8)
+nn(Man-11, The-9)
+nn(Man-11, Iron-10)
+dep(09:55-7, Man-11)
+dep(englishnews@chosun.com-1, themed-12)
+nn(Edge-16, Samsung-13)
+nn(Edge-16, Galaxy-14)
+nn(Edge-16, S6-15)
+nsubj(awesome-18, Edge-16)
+cop(awesome-18, is-17)
+ccomp(themed-12, awesome-18)
+nsubj(have-24, you-21)
+aux(have-24, ca-22)
+neg(have-24, n_t-23)
+conj_but(themed-12, have-24)
+dobj(have-24, one-25)
+det(Man-28, The-26)
+nn(Man-28, Iron-27)
+nsubj(themed-29, Man-28)
+rcmod(one-25, themed-29)
+nn(Edge-33, Samsung-30)
+nn(Edge-33, Galaxy-31)
+nn(Edge-33, S6-32)
+nsubj(awesome-35, Edge-33)
+cop(awesome-35, is-34)
+ccomp(themed-29, awesome-35)
+nsubj(have-41, you-38)
+aux(have-41, ca-39)
+neg(have-41, n_t-40)
+conj_but(have-24, have-41)
+dobj(have-41, one-42)
+nsubj(unveiled-45, SAMSUNG-43)
+aux(unveiled-45, has-44)
+rcmod(one-42, unveiled-45)
+det(Edition-49, an-46)
+nn(Edition-49, Iron-47)
+nn(Edition-49, Man-48)
+dobj(unveiled-45, Edition-49)
+poss(smartphone-54, its-51)
+amod(smartphone-54, latest-52)
+nn(smartphone-54, flagship-53)
+prep_of(Edition-49, smartphone-54)
+det(S6-59, the-56)
+nn(S6-59, Samsung-57)
+nn(S6-59, Galaxy-58)
+appos(Edition-49, S6-59)
+appos(S6-59, Edge-60)
+
+Sentence #6 (39 tokens):
+SAMSUNG
+Samsung has teamed up with Marvel Studios to promote the release of Avengers: Age of Ultron
+The South Korean company has teamed up with Marvel Studios to promote the release of Avengers: Age of Ultron.
+[Text=SAMSUNG CharacterOffsetBegin=790 CharacterOffsetEnd=797 PartOfSpeech=NNP Lemma=SAMSUNG NamedEntityTag=ORGANIZATION] [Text=Samsung CharacterOffsetBegin=798 CharacterOffsetEnd=805 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=806 CharacterOffsetEnd=809 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=teamed CharacterOffsetBegin=810 CharacterOffsetEnd=816 PartOfSpeech=VBN Lemma=team NamedEntityTag=O] [Text=up CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=with CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=825 CharacterOffsetEnd=831 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=ORGANIZATION] [Text=Studios CharacterOffsetBegin=832 CharacterOffsetEnd=839 PartOfSpeech=NNP Lemma=Studios NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=840 CharacterOffsetEnd=842 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=promote CharacterOffsetBegin=843 CharacterOffsetEnd=850 PartOfSpeech=VB Lemma=promote NamedEntityTag=O] [Text=the CharacterOffsetBegin=851 CharacterOffsetEnd=854 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=release CharacterOffsetBegin=855 CharacterOffsetEnd=862 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=of CharacterOffsetBegin=863 CharacterOffsetEnd=865 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Avengers CharacterOffsetBegin=866 CharacterOffsetEnd=874 PartOfSpeech=NNPS Lemma=Avengers NamedEntityTag=O] [Text=: CharacterOffsetBegin=874 CharacterOffsetEnd=875 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Age CharacterOffsetBegin=876 CharacterOffsetEnd=879 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=of CharacterOffsetBegin=880 CharacterOffsetEnd=882 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Ultron CharacterOffsetBegin=883 CharacterOffsetEnd=889 PartOfSpeech=NNP Lemma=Ultron NamedEntityTag=LOCATION] [Text=The CharacterOffsetBegin=890 CharacterOffsetEnd=893 PartOfSpeech=DT Lemma=the NamedEntityTag=LOCATION] [Text=South CharacterOffsetBegin=894 CharacterOffsetEnd=899 PartOfSpeech=JJ Lemma=south NamedEntityTag=LOCATION] [Text=Korean CharacterOffsetBegin=900 CharacterOffsetEnd=906 PartOfSpeech=JJ Lemma=korean NamedEntityTag=LOCATION] [Text=company CharacterOffsetBegin=907 CharacterOffsetEnd=914 PartOfSpeech=NN Lemma=company NamedEntityTag=O] [Text=has CharacterOffsetBegin=915 CharacterOffsetEnd=918 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=teamed CharacterOffsetBegin=919 CharacterOffsetEnd=925 PartOfSpeech=VBN Lemma=team NamedEntityTag=O] [Text=up CharacterOffsetBegin=926 CharacterOffsetEnd=928 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=with CharacterOffsetBegin=929 CharacterOffsetEnd=933 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=934 CharacterOffsetEnd=940 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=ORGANIZATION] [Text=Studios CharacterOffsetBegin=941 CharacterOffsetEnd=948 PartOfSpeech=NNP Lemma=Studios NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=949 CharacterOffsetEnd=951 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=promote CharacterOffsetBegin=952 CharacterOffsetEnd=959 PartOfSpeech=VB Lemma=promote NamedEntityTag=O] [Text=the CharacterOffsetBegin=960 CharacterOffsetEnd=963 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=release CharacterOffsetBegin=964 CharacterOffsetEnd=971 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=of CharacterOffsetBegin=972 CharacterOffsetEnd=974 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Avengers CharacterOffsetBegin=975 CharacterOffsetEnd=983 PartOfSpeech=NNPS Lemma=Avengers NamedEntityTag=O] [Text=: CharacterOffsetBegin=983 CharacterOffsetEnd=984 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Age CharacterOffsetBegin=985 CharacterOffsetEnd=988 PartOfSpeech=NNP Lemma=Age NamedEntityTag=O] [Text=of CharacterOffsetBegin=989 CharacterOffsetEnd=991 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Ultron CharacterOffsetBegin=992 CharacterOffsetEnd=998 PartOfSpeech=NNP Lemma=Ultron NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=998 CharacterOffsetEnd=999 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP SAMSUNG) (NNP Samsung))
+    (VP (VBZ has)
+      (VP (VBN teamed)
+        (PRT (RP up))
+        (PP (IN with)
+          (NP (NNP Marvel) (NNP Studios)))
+        (S
+          (VP (TO to)
+            (VP (VB promote)
+              (NP
+                (NP
+                  (NP (DT the) (NN release))
+                  (PP (IN of)
+                    (NP (NNPS Avengers))))
+                (: :)
+                (NP
+                  (NP
+                    (NP (NN Age))
+                    (PP (IN of)
+                      (NP (NNP Ultron)))
+                    (SBAR
+                      (S
+                        (NP (DT The)
+                          (ADJP (JJ South) (JJ Korean))
+                          (NN company))
+                        (VP (VBZ has)
+                          (VP (VBN teamed)
+                            (PRT (RP up))
+                            (PP (IN with)
+                              (NP (NNP Marvel) (NNP Studios)))
+                            (S
+                              (VP (TO to)
+                                (VP (VB promote)
+                                  (NP
+                                    (NP (DT the) (NN release))
+                                    (PP (IN of)
+                                      (NP (NNPS Avengers))))))))))))
+                  (: :)
+                  (NP
+                    (NP (NNP Age))
+                    (PP (IN of)
+                      (NP (NNP Ultron)))))))))))
+    (. .)))
+
+root(ROOT-0, teamed-4)
+nn(Samsung-2, SAMSUNG-1)
+nsubj(teamed-4, Samsung-2)
+aux(teamed-4, has-3)
+prt(teamed-4, up-5)
+nn(Studios-8, Marvel-7)
+prep_with(teamed-4, Studios-8)
+aux(promote-10, to-9)
+xcomp(teamed-4, promote-10)
+det(release-12, the-11)
+dobj(promote-10, release-12)
+prep_of(release-12, Avengers-14)
+dep(release-12, Age-16)
+prep_of(Age-16, Ultron-18)
+det(company-22, The-19)
+amod(Korean-21, South-20)
+amod(company-22, Korean-21)
+nsubj(teamed-24, company-22)
+aux(teamed-24, has-23)
+rcmod(Age-16, teamed-24)
+prt(teamed-24, up-25)
+nn(Studios-28, Marvel-27)
+prep_with(teamed-24, Studios-28)
+aux(promote-30, to-29)
+xcomp(teamed-24, promote-30)
+det(release-32, the-31)
+dobj(promote-30, release-32)
+prep_of(release-32, Avengers-34)
+dep(Age-16, Age-36)
+prep_of(Age-36, Ultron-38)
+
+Sentence #7 (43 tokens):
+We are excited to be able to offer our world-class Galaxy S6 edge smartphone designed especially for Iron Man fans
+Younghee Lee
+The result of this collaboration is a brilliant-red and gold Galaxy S6 Edge designed to match the Iron Man suit.
+[Text=We CharacterOffsetBegin=1000 CharacterOffsetEnd=1002 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=1003 CharacterOffsetEnd=1006 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=excited CharacterOffsetBegin=1007 CharacterOffsetEnd=1014 PartOfSpeech=VBN Lemma=excite NamedEntityTag=O] [Text=to CharacterOffsetBegin=1015 CharacterOffsetEnd=1017 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1018 CharacterOffsetEnd=1020 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=able CharacterOffsetBegin=1021 CharacterOffsetEnd=1025 PartOfSpeech=JJ Lemma=able NamedEntityTag=O] [Text=to CharacterOffsetBegin=1026 CharacterOffsetEnd=1028 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=offer CharacterOffsetBegin=1029 CharacterOffsetEnd=1034 PartOfSpeech=VB Lemma=offer NamedEntityTag=O] [Text=our CharacterOffsetBegin=1035 CharacterOffsetEnd=1038 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=world-class CharacterOffsetBegin=1039 CharacterOffsetEnd=1050 PartOfSpeech=JJ Lemma=world-class NamedEntityTag=O] [Text=Galaxy CharacterOffsetBegin=1051 CharacterOffsetEnd=1057 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=1058 CharacterOffsetEnd=1060 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=edge CharacterOffsetBegin=1061 CharacterOffsetEnd=1065 PartOfSpeech=NN Lemma=edge NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=1066 CharacterOffsetEnd=1076 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=designed CharacterOffsetBegin=1077 CharacterOffsetEnd=1085 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=especially CharacterOffsetBegin=1086 CharacterOffsetEnd=1096 PartOfSpeech=RB Lemma=especially NamedEntityTag=O] [Text=for CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=1106 CharacterOffsetEnd=1109 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=fans CharacterOffsetBegin=1110 CharacterOffsetEnd=1114 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=Younghee CharacterOffsetBegin=1115 CharacterOffsetEnd=1123 PartOfSpeech=NNP Lemma=Younghee NamedEntityTag=PERSON] [Text=Lee CharacterOffsetBegin=1124 CharacterOffsetEnd=1127 PartOfSpeech=NNP Lemma=Lee NamedEntityTag=PERSON] [Text=The CharacterOffsetBegin=1128 CharacterOffsetEnd=1131 PartOfSpeech=NNP Lemma=The NamedEntityTag=O] [Text=result CharacterOffsetBegin=1132 CharacterOffsetEnd=1138 PartOfSpeech=NN Lemma=result NamedEntityTag=O] [Text=of CharacterOffsetBegin=1139 CharacterOffsetEnd=1141 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=1142 CharacterOffsetEnd=1146 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=collaboration CharacterOffsetBegin=1147 CharacterOffsetEnd=1160 PartOfSpeech=NN Lemma=collaboration NamedEntityTag=O] [Text=is CharacterOffsetBegin=1161 CharacterOffsetEnd=1163 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1164 CharacterOffsetEnd=1165 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=brilliant-red CharacterOffsetBegin=1166 CharacterOffsetEnd=1179 PartOfSpeech=JJ Lemma=brilliant-red NamedEntityTag=O] [Text=and CharacterOffsetBegin=1180 CharacterOffsetEnd=1183 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=gold CharacterOffsetBegin=1184 CharacterOffsetEnd=1188 PartOfSpeech=JJ Lemma=gold NamedEntityTag=O] [Text=Galaxy CharacterOffsetBegin=1189 CharacterOffsetEnd=1195 PartOfSpeech=NN Lemma=galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=1196 CharacterOffsetEnd=1198 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1199 CharacterOffsetEnd=1203 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=designed CharacterOffsetBegin=1204 CharacterOffsetEnd=1212 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=to CharacterOffsetBegin=1213 CharacterOffsetEnd=1215 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=match CharacterOffsetBegin=1216 CharacterOffsetEnd=1221 PartOfSpeech=VB Lemma=match NamedEntityTag=O] [Text=the CharacterOffsetBegin=1222 CharacterOffsetEnd=1225 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=1226 CharacterOffsetEnd=1230 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=1231 CharacterOffsetEnd=1234 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=suit CharacterOffsetBegin=1235 CharacterOffsetEnd=1239 PartOfSpeech=NN Lemma=suit NamedEntityTag=O] [Text=. CharacterOffsetBegin=1239 CharacterOffsetEnd=1240 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (VP (VBN excited)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ able)
+                (S
+                  (VP (TO to)
+                    (VP (VB offer)
+                      (NP
+                        (NP (PRP$ our) (JJ world-class) (NNP Galaxy) (NN S6) (NN edge) (NN smartphone))
+                        (VP (VBN designed)
+                          (ADVP (RB especially))
+                          (PP (IN for)
+                            (NP (NN Iron) (NN Man) (NNS fans)))))))))
+              (SBAR
+                (S
+                  (NP
+                    (NP (NNP Younghee) (NNP Lee) (NNP The) (NN result))
+                    (PP (IN of)
+                      (NP (DT this) (NN collaboration))))
+                  (VP (VBZ is)
+                    (NP
+                      (NP (DT a) (JJ brilliant-red)
+                        (CC and)
+                        (JJ gold) (NN Galaxy) (NN S6))
+                      (NP
+                        (NP (NNP Edge))
+                        (VP (VBN designed)
+                          (S
+                            (VP (TO to)
+                              (VP (VB match)
+                                (NP (DT the) (NN Iron) (NN Man) (NN suit))))))))))))))))
+    (. .)))
+
+root(ROOT-0, excited-3)
+nsubjpass(excited-3, We-1)
+auxpass(excited-3, are-2)
+aux(able-6, to-4)
+cop(able-6, be-5)
+xcomp(excited-3, able-6)
+aux(offer-8, to-7)
+xcomp(able-6, offer-8)
+poss(smartphone-14, our-9)
+amod(smartphone-14, world-class-10)
+nn(smartphone-14, Galaxy-11)
+nn(smartphone-14, S6-12)
+nn(smartphone-14, edge-13)
+dobj(offer-8, smartphone-14)
+vmod(smartphone-14, designed-15)
+advmod(designed-15, especially-16)
+nn(fans-20, Iron-18)
+nn(fans-20, Man-19)
+prep_for(designed-15, fans-20)
+nn(result-24, Younghee-21)
+nn(result-24, Lee-22)
+nn(result-24, The-23)
+nsubj(brilliant-red-30, result-24)
+det(collaboration-27, this-26)
+prep_of(result-24, collaboration-27)
+cop(brilliant-red-30, is-28)
+det(brilliant-red-30, a-29)
+ccomp(able-6, brilliant-red-30)
+amod(S6-34, gold-32)
+nn(S6-34, Galaxy-33)
+conj_and(brilliant-red-30, S6-34)
+dep(brilliant-red-30, Edge-35)
+vmod(Edge-35, designed-36)
+aux(match-38, to-37)
+xcomp(designed-36, match-38)
+det(suit-42, the-39)
+nn(suit-42, Iron-40)
+nn(suit-42, Man-41)
+dobj(match-38, suit-42)
+
+Sentence #8 (35 tokens):
+Avengers: Age of Ultron is the eleventh film in Marvel Cinematic Universe and the direct sequel to The Avengers – which became the third highest-grossing film of all-time after its release in 2012.
+[Text=Avengers CharacterOffsetBegin=1241 CharacterOffsetEnd=1249 PartOfSpeech=NNPS Lemma=Avengers NamedEntityTag=O] [Text=: CharacterOffsetBegin=1249 CharacterOffsetEnd=1250 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Age CharacterOffsetBegin=1251 CharacterOffsetEnd=1254 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=of CharacterOffsetBegin=1255 CharacterOffsetEnd=1257 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Ultron CharacterOffsetBegin=1258 CharacterOffsetEnd=1264 PartOfSpeech=NNP Lemma=Ultron NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1265 CharacterOffsetEnd=1267 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1268 CharacterOffsetEnd=1271 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=eleventh CharacterOffsetBegin=1272 CharacterOffsetEnd=1280 PartOfSpeech=NN Lemma=eleventh NamedEntityTag=ORDINAL NormalizedNamedEntityTag=11.0] [Text=film CharacterOffsetBegin=1281 CharacterOffsetEnd=1285 PartOfSpeech=NN Lemma=film NamedEntityTag=O] [Text=in CharacterOffsetBegin=1286 CharacterOffsetEnd=1288 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=1289 CharacterOffsetEnd=1295 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=MISC] [Text=Cinematic CharacterOffsetBegin=1296 CharacterOffsetEnd=1305 PartOfSpeech=NNP Lemma=Cinematic NamedEntityTag=MISC] [Text=Universe CharacterOffsetBegin=1306 CharacterOffsetEnd=1314 PartOfSpeech=NNP Lemma=Universe NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=1319 CharacterOffsetEnd=1322 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=direct CharacterOffsetBegin=1323 CharacterOffsetEnd=1329 PartOfSpeech=JJ Lemma=direct NamedEntityTag=O] [Text=sequel CharacterOffsetBegin=1330 CharacterOffsetEnd=1336 PartOfSpeech=NN Lemma=sequel NamedEntityTag=O] [Text=to CharacterOffsetBegin=1337 CharacterOffsetEnd=1339 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=The CharacterOffsetBegin=1340 CharacterOffsetEnd=1343 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Avengers CharacterOffsetBegin=1344 CharacterOffsetEnd=1352 PartOfSpeech=NNPS Lemma=Avengers NamedEntityTag=ORGANIZATION] [Text=-- CharacterOffsetBegin=1353 CharacterOffsetEnd=1354 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=which CharacterOffsetBegin=1355 CharacterOffsetEnd=1360 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=became CharacterOffsetBegin=1361 CharacterOffsetEnd=1367 PartOfSpeech=VBD Lemma=become NamedEntityTag=O] [Text=the CharacterOffsetBegin=1368 CharacterOffsetEnd=1371 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=third CharacterOffsetBegin=1372 CharacterOffsetEnd=1377 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=highest-grossing CharacterOffsetBegin=1378 CharacterOffsetEnd=1394 PartOfSpeech=JJ Lemma=highest-grossing NamedEntityTag=O] [Text=film CharacterOffsetBegin=1395 CharacterOffsetEnd=1399 PartOfSpeech=NN Lemma=film NamedEntityTag=O] [Text=of CharacterOffsetBegin=1400 CharacterOffsetEnd=1402 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=all-time CharacterOffsetBegin=1403 CharacterOffsetEnd=1411 PartOfSpeech=JJ Lemma=all-time NamedEntityTag=O] [Text=after CharacterOffsetBegin=1412 CharacterOffsetEnd=1417 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=its CharacterOffsetBegin=1418 CharacterOffsetEnd=1421 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=release CharacterOffsetBegin=1422 CharacterOffsetEnd=1429 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=in CharacterOffsetBegin=1430 CharacterOffsetEnd=1432 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2012 CharacterOffsetBegin=1433 CharacterOffsetEnd=1437 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012 Timex=<TIMEX3 tid="t4" type="DATE" value="2012">2012<_TIMEX3>] [Text=. CharacterOffsetBegin=1437 CharacterOffsetEnd=1438 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNPS Avengers))
+    (: :)
+    (S
+      (NP
+        (NP (NN Age))
+        (PP (IN of)
+          (NP (NNP Ultron))))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (NN eleventh) (NN film))
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (NNP Marvel) (NNP Cinematic) (NNP Universe))
+                (CC and)
+                (NP
+                  (NP (DT the) (JJ direct) (NN sequel))
+                  (PP (TO to)
+                    (NP (DT The) (NNPS Avengers)))))
+              (: --)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBD became)
+                    (NP
+                      (NP (DT the) (JJ third) (JJ highest-grossing) (NN film))
+                      (PP (IN of)
+                        (NP (JJ all-time))))
+                    (PP (IN after)
+                      (NP
+                        (NP (PRP$ its) (NN release))
+                        (PP (IN in)
+                          (NP (CD 2012)))))))))))))
+    (. .)))
+
+root(ROOT-0, Avengers-1)
+nsubj(film-9, Age-3)
+prep_of(Age-3, Ultron-5)
+cop(film-9, is-6)
+det(film-9, the-7)
+nn(film-9, eleventh-8)
+dep(Avengers-1, film-9)
+nn(Universe-13, Marvel-11)
+nn(Universe-13, Cinematic-12)
+prep_in(film-9, Universe-13)
+det(sequel-17, the-15)
+amod(sequel-17, direct-16)
+conj_and(Universe-13, sequel-17)
+det(Avengers-20, The-19)
+prep_to(sequel-17, Avengers-20)
+nsubj(film-27, which-22)
+cop(film-27, became-23)
+det(film-27, the-24)
+amod(film-27, third-25)
+amod(film-27, highest-grossing-26)
+rcmod(Universe-13, film-27)
+prep_of(film-27, all-time-29)
+poss(release-32, its-31)
+prep_after(film-27, release-32)
+prep_in(release-32, 2012-34)
+
+Sentence #9 (21 tokens):
+Iron Man, played by Robert Downey Jr, is one of the main protagonists in the Marvel Cinematic Universe.
+[Text=Iron CharacterOffsetBegin=1439 CharacterOffsetEnd=1443 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=1444 CharacterOffsetEnd=1447 PartOfSpeech=NNP Lemma=Man NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=1447 CharacterOffsetEnd=1448 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=played CharacterOffsetBegin=1449 CharacterOffsetEnd=1455 PartOfSpeech=VBN Lemma=play NamedEntityTag=O] [Text=by CharacterOffsetBegin=1456 CharacterOffsetEnd=1458 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Robert CharacterOffsetBegin=1459 CharacterOffsetEnd=1465 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON] [Text=Downey CharacterOffsetBegin=1466 CharacterOffsetEnd=1472 PartOfSpeech=NNP Lemma=Downey NamedEntityTag=PERSON] [Text=Jr CharacterOffsetBegin=1473 CharacterOffsetEnd=1475 PartOfSpeech=NNP Lemma=Jr NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1475 CharacterOffsetEnd=1476 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=1477 CharacterOffsetEnd=1479 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=one CharacterOffsetBegin=1480 CharacterOffsetEnd=1483 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1484 CharacterOffsetEnd=1486 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1487 CharacterOffsetEnd=1490 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=main CharacterOffsetBegin=1491 CharacterOffsetEnd=1495 PartOfSpeech=JJ Lemma=main NamedEntityTag=O] [Text=protagonists CharacterOffsetBegin=1496 CharacterOffsetEnd=1508 PartOfSpeech=NNS Lemma=protagonist NamedEntityTag=O] [Text=in CharacterOffsetBegin=1509 CharacterOffsetEnd=1511 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1512 CharacterOffsetEnd=1515 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=1516 CharacterOffsetEnd=1522 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=O] [Text=Cinematic CharacterOffsetBegin=1523 CharacterOffsetEnd=1532 PartOfSpeech=NNP Lemma=Cinematic NamedEntityTag=O] [Text=Universe CharacterOffsetBegin=1533 CharacterOffsetEnd=1541 PartOfSpeech=NNP Lemma=Universe NamedEntityTag=O] [Text=. CharacterOffsetBegin=1541 CharacterOffsetEnd=1542 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Iron) (NNP Man))
+      (, ,)
+      (VP (VBN played)
+        (PP (IN by)
+          (NP (NNP Robert) (NNP Downey) (NNP Jr))))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ main) (NNS protagonists))
+            (PP (IN in)
+              (NP (DT the) (NNP Marvel) (NNP Cinematic) (NNP Universe)))))))
+    (. .)))
+
+root(ROOT-0, one-11)
+nn(Man-2, Iron-1)
+nsubj(one-11, Man-2)
+vmod(Man-2, played-4)
+nn(Jr-8, Robert-6)
+nn(Jr-8, Downey-7)
+agent(played-4, Jr-8)
+cop(one-11, is-10)
+det(protagonists-15, the-13)
+amod(protagonists-15, main-14)
+prep_of(one-11, protagonists-15)
+det(Universe-20, the-17)
+nn(Universe-20, Marvel-18)
+nn(Universe-20, Cinematic-19)
+prep_in(protagonists-15, Universe-20)
+
+Sentence #10 (18 tokens):
+Samsung has branded the back of the phone with a gold drawing of the Iron Man helmet.
+[Text=Samsung CharacterOffsetBegin=1543 CharacterOffsetEnd=1550 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1551 CharacterOffsetEnd=1554 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=branded CharacterOffsetBegin=1555 CharacterOffsetEnd=1562 PartOfSpeech=VBN Lemma=brand NamedEntityTag=O] [Text=the CharacterOffsetBegin=1563 CharacterOffsetEnd=1566 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=back CharacterOffsetBegin=1567 CharacterOffsetEnd=1571 PartOfSpeech=NN Lemma=back NamedEntityTag=O] [Text=of CharacterOffsetBegin=1572 CharacterOffsetEnd=1574 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1575 CharacterOffsetEnd=1578 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=phone CharacterOffsetBegin=1579 CharacterOffsetEnd=1584 PartOfSpeech=NN Lemma=phone NamedEntityTag=O] [Text=with CharacterOffsetBegin=1585 CharacterOffsetEnd=1589 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1590 CharacterOffsetEnd=1591 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=gold CharacterOffsetBegin=1592 CharacterOffsetEnd=1596 PartOfSpeech=NN Lemma=gold NamedEntityTag=O] [Text=drawing CharacterOffsetBegin=1597 CharacterOffsetEnd=1604 PartOfSpeech=NN Lemma=drawing NamedEntityTag=O] [Text=of CharacterOffsetBegin=1605 CharacterOffsetEnd=1607 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1608 CharacterOffsetEnd=1611 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=1612 CharacterOffsetEnd=1616 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=1617 CharacterOffsetEnd=1620 PartOfSpeech=NNP Lemma=Man NamedEntityTag=MISC] [Text=helmet CharacterOffsetBegin=1621 CharacterOffsetEnd=1627 PartOfSpeech=NNP Lemma=helmet NamedEntityTag=O] [Text=. CharacterOffsetBegin=1627 CharacterOffsetEnd=1628 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Samsung))
+    (VP (VBZ has)
+      (VP (VBN branded)
+        (NP
+          (NP (DT the) (NN back))
+          (PP (IN of)
+            (NP (DT the) (NN phone))))
+        (PP (IN with)
+          (NP
+            (NP (DT a) (NN gold) (NN drawing))
+            (PP (IN of)
+              (NP (DT the) (NNP Iron) (NNP Man) (NNP helmet)))))))
+    (. .)))
+
+root(ROOT-0, branded-3)
+nsubj(branded-3, Samsung-1)
+aux(branded-3, has-2)
+det(back-5, the-4)
+dobj(branded-3, back-5)
+det(phone-8, the-7)
+prep_of(back-5, phone-8)
+det(drawing-12, a-10)
+nn(drawing-12, gold-11)
+prep_with(branded-3, drawing-12)
+det(helmet-17, the-14)
+nn(helmet-17, Iron-15)
+nn(helmet-17, Man-16)
+prep_of(drawing-12, helmet-17)
+
+Sentence #11 (12 tokens):
+There is also a gold ring around the 16megapixel rear camera.
+[Text=There CharacterOffsetBegin=1629 CharacterOffsetEnd=1634 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=is CharacterOffsetBegin=1635 CharacterOffsetEnd=1637 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=also CharacterOffsetBegin=1638 CharacterOffsetEnd=1642 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=a CharacterOffsetBegin=1643 CharacterOffsetEnd=1644 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=gold CharacterOffsetBegin=1645 CharacterOffsetEnd=1649 PartOfSpeech=NN Lemma=gold NamedEntityTag=O] [Text=ring CharacterOffsetBegin=1650 CharacterOffsetEnd=1654 PartOfSpeech=NN Lemma=ring NamedEntityTag=O] [Text=around CharacterOffsetBegin=1655 CharacterOffsetEnd=1661 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=the CharacterOffsetBegin=1662 CharacterOffsetEnd=1665 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=16megapixel CharacterOffsetBegin=1666 CharacterOffsetEnd=1677 PartOfSpeech=JJ Lemma=16megapixel NamedEntityTag=O] [Text=rear CharacterOffsetBegin=1678 CharacterOffsetEnd=1682 PartOfSpeech=JJ Lemma=rear NamedEntityTag=O] [Text=camera CharacterOffsetBegin=1683 CharacterOffsetEnd=1689 PartOfSpeech=NN Lemma=camera NamedEntityTag=O] [Text=. CharacterOffsetBegin=1689 CharacterOffsetEnd=1690 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (NP
+        (NP (DT a) (NN gold) (NN ring))
+        (PP (IN around)
+          (NP (DT the) (JJ 16megapixel) (JJ rear) (NN camera)))))
+    (. .)))
+
+root(ROOT-0, is-2)
+expl(is-2, There-1)
+advmod(is-2, also-3)
+det(ring-6, a-4)
+nn(ring-6, gold-5)
+nsubj(is-2, ring-6)
+det(camera-11, the-8)
+amod(camera-11, 16megapixel-9)
+amod(camera-11, rear-10)
+prep_around(ring-6, camera-11)
+
+Sentence #12 (29 tokens):
+A limited edition wireless charging dock designed to look like the Arc Reactor designed by Tony Stark in the Marvel film series comes bundled with the flagship smartphone.
+[Text=A CharacterOffsetBegin=1691 CharacterOffsetEnd=1692 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=limited CharacterOffsetBegin=1693 CharacterOffsetEnd=1700 PartOfSpeech=JJ Lemma=limited NamedEntityTag=O] [Text=edition CharacterOffsetBegin=1701 CharacterOffsetEnd=1708 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=wireless CharacterOffsetBegin=1709 CharacterOffsetEnd=1717 PartOfSpeech=NN Lemma=wireless NamedEntityTag=O] [Text=charging CharacterOffsetBegin=1718 CharacterOffsetEnd=1726 PartOfSpeech=VBG Lemma=charge NamedEntityTag=O] [Text=dock CharacterOffsetBegin=1727 CharacterOffsetEnd=1731 PartOfSpeech=NN Lemma=dock NamedEntityTag=O] [Text=designed CharacterOffsetBegin=1732 CharacterOffsetEnd=1740 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=to CharacterOffsetBegin=1741 CharacterOffsetEnd=1743 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=look CharacterOffsetBegin=1744 CharacterOffsetEnd=1748 PartOfSpeech=VB Lemma=look NamedEntityTag=O] [Text=like CharacterOffsetBegin=1749 CharacterOffsetEnd=1753 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=the CharacterOffsetBegin=1754 CharacterOffsetEnd=1757 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Arc CharacterOffsetBegin=1758 CharacterOffsetEnd=1761 PartOfSpeech=NNP Lemma=Arc NamedEntityTag=O] [Text=Reactor CharacterOffsetBegin=1762 CharacterOffsetEnd=1769 PartOfSpeech=NNP Lemma=Reactor NamedEntityTag=O] [Text=designed CharacterOffsetBegin=1770 CharacterOffsetEnd=1778 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=by CharacterOffsetBegin=1779 CharacterOffsetEnd=1781 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Tony CharacterOffsetBegin=1782 CharacterOffsetEnd=1786 PartOfSpeech=NNP Lemma=Tony NamedEntityTag=PERSON] [Text=Stark CharacterOffsetBegin=1787 CharacterOffsetEnd=1792 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON] [Text=in CharacterOffsetBegin=1793 CharacterOffsetEnd=1795 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1796 CharacterOffsetEnd=1799 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=1800 CharacterOffsetEnd=1806 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=O] [Text=film CharacterOffsetBegin=1807 CharacterOffsetEnd=1811 PartOfSpeech=NN Lemma=film NamedEntityTag=O] [Text=series CharacterOffsetBegin=1812 CharacterOffsetEnd=1818 PartOfSpeech=NN Lemma=series NamedEntityTag=O] [Text=comes CharacterOffsetBegin=1819 CharacterOffsetEnd=1824 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O] [Text=bundled CharacterOffsetBegin=1825 CharacterOffsetEnd=1832 PartOfSpeech=VBN Lemma=bundle NamedEntityTag=O] [Text=with CharacterOffsetBegin=1833 CharacterOffsetEnd=1837 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1838 CharacterOffsetEnd=1841 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=flagship CharacterOffsetBegin=1842 CharacterOffsetEnd=1850 PartOfSpeech=NN Lemma=flagship NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=1851 CharacterOffsetEnd=1861 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=. CharacterOffsetBegin=1861 CharacterOffsetEnd=1862 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ limited) (NN edition) (NN wireless))
+      (VP (VBG charging)
+        (NP
+          (NP (NN dock))
+          (VP (VBN designed)
+            (S
+              (VP (TO to)
+                (VP (VB look)
+                  (PP (IN like)
+                    (NP
+                      (NP (DT the) (NNP Arc) (NNP Reactor))
+                      (VP (VBN designed)
+                        (PP (IN by)
+                          (NP
+                            (NP (NNP Tony) (NNP Stark))
+                            (PP (IN in)
+                              (NP (DT the) (NNP Marvel) (NN film) (NN series)))))))))))))))
+    (VP (VBZ comes)
+      (VP (VBN bundled)
+        (PP (IN with)
+          (NP (DT the) (NN flagship) (NN smartphone)))))
+    (. .)))
+
+root(ROOT-0, comes-23)
+det(wireless-4, A-1)
+amod(wireless-4, limited-2)
+nn(wireless-4, edition-3)
+nsubj(comes-23, wireless-4)
+vmod(wireless-4, charging-5)
+dobj(charging-5, dock-6)
+vmod(dock-6, designed-7)
+aux(look-9, to-8)
+xcomp(designed-7, look-9)
+det(Reactor-13, the-11)
+nn(Reactor-13, Arc-12)
+prep_like(look-9, Reactor-13)
+vmod(Reactor-13, designed-14)
+nn(Stark-17, Tony-16)
+agent(designed-14, Stark-17)
+det(series-22, the-19)
+nn(series-22, Marvel-20)
+nn(series-22, film-21)
+prep_in(Stark-17, series-22)
+dep(comes-23, bundled-24)
+det(smartphone-28, the-26)
+nn(smartphone-28, flagship-27)
+prep_with(bundled-24, smartphone-28)
+
+Sentence #13 (21 tokens):
+Unfortunately, British Marvel fanboys and girls are unlikely to get their hands on the custom Samsung Galaxy S6 Edge.
+[Text=Unfortunately CharacterOffsetBegin=1863 CharacterOffsetEnd=1876 PartOfSpeech=RB Lemma=unfortunately NamedEntityTag=O] [Text=, CharacterOffsetBegin=1876 CharacterOffsetEnd=1877 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=British CharacterOffsetBegin=1878 CharacterOffsetEnd=1885 PartOfSpeech=JJ Lemma=british NamedEntityTag=MISC] [Text=Marvel CharacterOffsetBegin=1886 CharacterOffsetEnd=1892 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=MISC] [Text=fanboys CharacterOffsetBegin=1893 CharacterOffsetEnd=1900 PartOfSpeech=NNS Lemma=fanboy NamedEntityTag=O] [Text=and CharacterOffsetBegin=1901 CharacterOffsetEnd=1904 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=girls CharacterOffsetBegin=1905 CharacterOffsetEnd=1910 PartOfSpeech=NNS Lemma=girl NamedEntityTag=O] [Text=are CharacterOffsetBegin=1911 CharacterOffsetEnd=1914 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=unlikely CharacterOffsetBegin=1915 CharacterOffsetEnd=1923 PartOfSpeech=JJ Lemma=unlikely NamedEntityTag=O] [Text=to CharacterOffsetBegin=1924 CharacterOffsetEnd=1926 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=1927 CharacterOffsetEnd=1930 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=their CharacterOffsetBegin=1931 CharacterOffsetEnd=1936 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=hands CharacterOffsetBegin=1937 CharacterOffsetEnd=1942 PartOfSpeech=NNS Lemma=hand NamedEntityTag=O] [Text=on CharacterOffsetBegin=1943 CharacterOffsetEnd=1945 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1946 CharacterOffsetEnd=1949 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=custom CharacterOffsetBegin=1950 CharacterOffsetEnd=1956 PartOfSpeech=NN Lemma=custom NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=1957 CharacterOffsetEnd=1964 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Galaxy CharacterOffsetBegin=1965 CharacterOffsetEnd=1971 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=1972 CharacterOffsetEnd=1974 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=1975 CharacterOffsetEnd=1979 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=. CharacterOffsetBegin=1979 CharacterOffsetEnd=1980 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Unfortunately))
+    (, ,)
+    (NP (JJ British) (NNP Marvel) (NNS fanboys)
+      (CC and)
+      (NNS girls))
+    (VP (VBP are)
+      (ADJP (JJ unlikely)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (PRP$ their) (NNS hands))
+              (PP (IN on)
+                (NP (DT the) (NN custom) (NNP Samsung) (NNP Galaxy) (NN S6) (NNP Edge))))))))
+    (. .)))
+
+root(ROOT-0, unlikely-9)
+advmod(unlikely-9, Unfortunately-1)
+amod(fanboys-5, British-3)
+nn(fanboys-5, Marvel-4)
+nsubj(unlikely-9, fanboys-5)
+conj_and(fanboys-5, girls-7)
+cop(unlikely-9, are-8)
+aux(get-11, to-10)
+xcomp(unlikely-9, get-11)
+poss(hands-13, their-12)
+dobj(get-11, hands-13)
+det(Edge-20, the-15)
+nn(Edge-20, custom-16)
+nn(Edge-20, Samsung-17)
+nn(Edge-20, Galaxy-18)
+nn(Edge-20, S6-19)
+prep_on(get-11, Edge-20)
+
+Sentence #14 (26 tokens):
+Samsung has revealed the 1,000 unit run will be available in Korea on May 27th 2015, and in China and Hong Kong by June.
+[Text=Samsung CharacterOffsetBegin=1981 CharacterOffsetEnd=1988 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1989 CharacterOffsetEnd=1992 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=revealed CharacterOffsetBegin=1993 CharacterOffsetEnd=2001 PartOfSpeech=VBN Lemma=reveal NamedEntityTag=O] [Text=the CharacterOffsetBegin=2002 CharacterOffsetEnd=2005 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=1,000 CharacterOffsetBegin=2006 CharacterOffsetEnd=2011 PartOfSpeech=CD Lemma=1,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1000.0] [Text=unit CharacterOffsetBegin=2012 CharacterOffsetEnd=2016 PartOfSpeech=NN Lemma=unit NamedEntityTag=O] [Text=run CharacterOffsetBegin=2017 CharacterOffsetEnd=2020 PartOfSpeech=NN Lemma=run NamedEntityTag=O] [Text=will CharacterOffsetBegin=2021 CharacterOffsetEnd=2025 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=2026 CharacterOffsetEnd=2028 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=available CharacterOffsetBegin=2029 CharacterOffsetEnd=2038 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=in CharacterOffsetBegin=2039 CharacterOffsetEnd=2041 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Korea CharacterOffsetBegin=2042 CharacterOffsetEnd=2047 PartOfSpeech=NNP Lemma=Korea NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=2048 CharacterOffsetEnd=2050 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=May CharacterOffsetBegin=2051 CharacterOffsetEnd=2054 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27th 2015<_TIMEX3>] [Text=27th CharacterOffsetBegin=2055 CharacterOffsetEnd=2059 PartOfSpeech=JJ Lemma=27th NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27th 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=2060 CharacterOffsetEnd=2064 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t5" type="DATE" value="2015-05-27">May 27th 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=2064 CharacterOffsetEnd=2065 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2066 CharacterOffsetEnd=2069 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=in CharacterOffsetBegin=2070 CharacterOffsetEnd=2072 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=China CharacterOffsetBegin=2073 CharacterOffsetEnd=2078 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=2079 CharacterOffsetEnd=2082 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Hong CharacterOffsetBegin=2083 CharacterOffsetEnd=2087 PartOfSpeech=NNP Lemma=Hong NamedEntityTag=LOCATION] [Text=Kong CharacterOffsetBegin=2088 CharacterOffsetEnd=2092 PartOfSpeech=NNP Lemma=Kong NamedEntityTag=LOCATION] [Text=by CharacterOffsetBegin=2093 CharacterOffsetEnd=2095 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=June CharacterOffsetBegin=2096 CharacterOffsetEnd=2100 PartOfSpeech=NNP Lemma=June NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-06 Timex=<TIMEX3 tid="t6" type="DATE" value="XXXX-06">June<_TIMEX3>] [Text=. CharacterOffsetBegin=2100 CharacterOffsetEnd=2101 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Samsung))
+    (VP (VBZ has)
+      (VP (VBN revealed)
+        (SBAR
+          (S
+            (NP (DT the) (CD 1,000) (NN unit) (NN run))
+            (VP (MD will)
+              (VP (VB be)
+                (ADJP (JJ available)
+                  (PP (IN in)
+                    (NP (NNP Korea))))
+                (PP
+                  (PP (IN on)
+                    (NP
+                      (NP (NNP May))
+                      (ADJP (JJ 27th)
+                        (NP-TMP (CD 2015)))))
+                  (, ,)
+                  (CC and)
+                  (PP (IN in)
+                    (NP (NNP China)
+                      (CC and)
+                      (NNP Hong) (NNP Kong))))
+                (PP (IN by)
+                  (NP (NNP June)))))))))
+    (. .)))
+
+root(ROOT-0, revealed-3)
+nsubj(revealed-3, Samsung-1)
+aux(revealed-3, has-2)
+det(run-7, the-4)
+num(run-7, 1,000-5)
+nn(run-7, unit-6)
+nsubj(available-10, run-7)
+aux(available-10, will-8)
+cop(available-10, be-9)
+ccomp(revealed-3, available-10)
+conj_and(available-10, available-10)
+prep_in(available-10, Korea-12)
+prep_on(available-10, May-14)
+amod(May-14, 27th-15)
+tmod(27th-15, 2015-16)
+nn(Kong-23, China-20)
+conj_and(China-20, Hong-22)
+prep_in(available-10, Kong-23)
+prep_by(available-10, June-25)
+
+Sentence #15 (5 tokens):
+But that_s it.
+[Text=But CharacterOffsetBegin=2102 CharacterOffsetEnd=2105 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=that CharacterOffsetBegin=2106 CharacterOffsetEnd=2110 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2110 CharacterOffsetEnd=2112 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=it CharacterOffsetBegin=2113 CharacterOffsetEnd=2115 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=2115 CharacterOffsetEnd=2116 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (DT that))
+    (VP (VBZ _s)
+      (NP (PRP it)))
+    (. .)))
+
+root(ROOT-0, it-4)
+cc(it-4, But-1)
+nsubj(it-4, that-2)
+cop(it-4, _s-3)
+
+Sentence #16 (10 tokens):
+No availability in Europe, or the United States.
+[Text=No CharacterOffsetBegin=2117 CharacterOffsetEnd=2119 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=availability CharacterOffsetBegin=2120 CharacterOffsetEnd=2132 PartOfSpeech=NN Lemma=availability NamedEntityTag=O] [Text=in CharacterOffsetBegin=2133 CharacterOffsetEnd=2135 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Europe CharacterOffsetBegin=2136 CharacterOffsetEnd=2142 PartOfSpeech=NNP Lemma=Europe NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2142 CharacterOffsetEnd=2143 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2144 CharacterOffsetEnd=2146 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=the CharacterOffsetBegin=2147 CharacterOffsetEnd=2150 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=United CharacterOffsetBegin=2151 CharacterOffsetEnd=2157 PartOfSpeech=NNP Lemma=United NamedEntityTag=LOCATION] [Text=States CharacterOffsetBegin=2158 CharacterOffsetEnd=2164 PartOfSpeech=NNPS Lemma=States NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2164 CharacterOffsetEnd=2165 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (DT No) (NN availability))
+    (PP (IN in)
+      (NP
+        (NP (NNP Europe))
+        (, ,)
+        (CC or)
+        (NP (DT the) (NNP United) (NNPS States))))
+    (. .)))
+
+root(ROOT-0, availability-2)
+neg(availability-2, No-1)
+prep_in(availability-2, Europe-4)
+det(States-9, the-7)
+nn(States-9, United-8)
+conj_or(Europe-4, States-9)
+
+Sentence #17 (43 tokens):
+Related articles
+Executive Vice President of Global Marketing for Samsung, Younghee Lee said: "We are excited to be able to offer our world-class Galaxy S6 edge smartphone designed especially for Iron Man fans through our continued collaboration with Marvel.
+[Text=Related CharacterOffsetBegin=2166 CharacterOffsetEnd=2173 PartOfSpeech=JJ Lemma=related NamedEntityTag=O] [Text=articles CharacterOffsetBegin=2174 CharacterOffsetEnd=2182 PartOfSpeech=NNS Lemma=article NamedEntityTag=O] [Text=Executive CharacterOffsetBegin=2183 CharacterOffsetEnd=2192 PartOfSpeech=NNP Lemma=Executive NamedEntityTag=O] [Text=Vice CharacterOffsetBegin=2193 CharacterOffsetEnd=2197 PartOfSpeech=NNP Lemma=Vice NamedEntityTag=O] [Text=President CharacterOffsetBegin=2198 CharacterOffsetEnd=2207 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=of CharacterOffsetBegin=2208 CharacterOffsetEnd=2210 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Global CharacterOffsetBegin=2211 CharacterOffsetEnd=2217 PartOfSpeech=NNP Lemma=Global NamedEntityTag=O] [Text=Marketing CharacterOffsetBegin=2218 CharacterOffsetEnd=2227 PartOfSpeech=NNP Lemma=Marketing NamedEntityTag=O] [Text=for CharacterOffsetBegin=2228 CharacterOffsetEnd=2231 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=2232 CharacterOffsetEnd=2239 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2239 CharacterOffsetEnd=2240 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Younghee CharacterOffsetBegin=2241 CharacterOffsetEnd=2249 PartOfSpeech=NNP Lemma=Younghee NamedEntityTag=PERSON] [Text=Lee CharacterOffsetBegin=2250 CharacterOffsetEnd=2253 PartOfSpeech=NNP Lemma=Lee NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2254 CharacterOffsetEnd=2258 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=: CharacterOffsetBegin=2258 CharacterOffsetEnd=2259 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2260 CharacterOffsetEnd=2261 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=2261 CharacterOffsetEnd=2263 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=2264 CharacterOffsetEnd=2267 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=excited CharacterOffsetBegin=2268 CharacterOffsetEnd=2275 PartOfSpeech=VBN Lemma=excite NamedEntityTag=O] [Text=to CharacterOffsetBegin=2276 CharacterOffsetEnd=2278 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=2279 CharacterOffsetEnd=2281 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=able CharacterOffsetBegin=2282 CharacterOffsetEnd=2286 PartOfSpeech=JJ Lemma=able NamedEntityTag=O] [Text=to CharacterOffsetBegin=2287 CharacterOffsetEnd=2289 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=offer CharacterOffsetBegin=2290 CharacterOffsetEnd=2295 PartOfSpeech=VB Lemma=offer NamedEntityTag=O] [Text=our CharacterOffsetBegin=2296 CharacterOffsetEnd=2299 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=world-class CharacterOffsetBegin=2300 CharacterOffsetEnd=2311 PartOfSpeech=JJ Lemma=world-class NamedEntityTag=O] [Text=Galaxy CharacterOffsetBegin=2312 CharacterOffsetEnd=2318 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=2319 CharacterOffsetEnd=2321 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=edge CharacterOffsetBegin=2322 CharacterOffsetEnd=2326 PartOfSpeech=NN Lemma=edge NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=2327 CharacterOffsetEnd=2337 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=designed CharacterOffsetBegin=2338 CharacterOffsetEnd=2346 PartOfSpeech=VBN Lemma=design NamedEntityTag=O] [Text=especially CharacterOffsetBegin=2347 CharacterOffsetEnd=2357 PartOfSpeech=RB Lemma=especially NamedEntityTag=O] [Text=for CharacterOffsetBegin=2358 CharacterOffsetEnd=2361 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=2362 CharacterOffsetEnd=2366 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=2367 CharacterOffsetEnd=2370 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=fans CharacterOffsetBegin=2371 CharacterOffsetEnd=2375 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=through CharacterOffsetBegin=2376 CharacterOffsetEnd=2383 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=our CharacterOffsetBegin=2384 CharacterOffsetEnd=2387 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=continued CharacterOffsetBegin=2388 CharacterOffsetEnd=2397 PartOfSpeech=JJ Lemma=continued NamedEntityTag=O] [Text=collaboration CharacterOffsetBegin=2398 CharacterOffsetEnd=2411 PartOfSpeech=NN Lemma=collaboration NamedEntityTag=O] [Text=with CharacterOffsetBegin=2412 CharacterOffsetEnd=2416 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=2417 CharacterOffsetEnd=2423 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=O] [Text=. CharacterOffsetBegin=2423 CharacterOffsetEnd=2424 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP
+        (NP (JJ Related) (NNS articles))
+        (NP
+          (NP (NNP Executive) (NNP Vice) (NNP President))
+          (PP (IN of)
+            (NP (NNP Global) (NNP Marketing))))
+        (PP (IN for)
+          (NP (NNP Samsung)))))
+    (, ,)
+    (NP (NNP Younghee) (NNP Lee))
+    (VP (VBD said) (: :) (`` ``)
+      (S
+        (NP (PRP We))
+        (VP (VBP are)
+          (VP (VBN excited)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (ADJP (JJ able)
+                    (S
+                      (VP (TO to)
+                        (VP (VB offer)
+                          (NP
+                            (NP (PRP$ our) (JJ world-class) (NNP Galaxy) (NN S6) (NN edge) (NN smartphone))
+                            (VP (VBN designed)
+                              (ADVP (RB especially))
+                              (PP (IN for)
+                                (NP (NN Iron) (NN Man) (NNS fans)))
+                              (PP (IN through)
+                                (NP
+                                  (NP (PRP$ our) (JJ continued) (NN collaboration))
+                                  (PP (IN with)
+                                    (NP (NNP Marvel))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-14)
+amod(articles-2, Related-1)
+ccomp(said-14, articles-2)
+nn(President-5, Executive-3)
+nn(President-5, Vice-4)
+dobj(articles-2, President-5)
+nn(Marketing-8, Global-7)
+prep_of(President-5, Marketing-8)
+prep_for(articles-2, Samsung-10)
+nn(Lee-13, Younghee-12)
+nsubj(said-14, Lee-13)
+nsubjpass(excited-19, We-17)
+auxpass(excited-19, are-18)
+ccomp(said-14, excited-19)
+aux(able-22, to-20)
+cop(able-22, be-21)
+xcomp(excited-19, able-22)
+aux(offer-24, to-23)
+xcomp(able-22, offer-24)
+poss(smartphone-30, our-25)
+amod(smartphone-30, world-class-26)
+nn(smartphone-30, Galaxy-27)
+nn(smartphone-30, S6-28)
+nn(smartphone-30, edge-29)
+dobj(offer-24, smartphone-30)
+vmod(smartphone-30, designed-31)
+advmod(designed-31, especially-32)
+nn(fans-36, Iron-34)
+nn(fans-36, Man-35)
+prep_for(designed-31, fans-36)
+poss(collaboration-40, our-38)
+amod(collaboration-40, continued-39)
+prep_through(designed-31, collaboration-40)
+prep_with(collaboration-40, Marvel-42)
+
+Sentence #18 (36 tokens):
+"The limited edition Iron Man Galaxy S6 edge embodies the power of the iconic Avenger with a dual-curved edge design and advanced features that will provide Marvel fans with the ultimate entertainment experience."
+[Text=`` CharacterOffsetBegin=2425 CharacterOffsetEnd=2426 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=2426 CharacterOffsetEnd=2429 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=limited CharacterOffsetBegin=2430 CharacterOffsetEnd=2437 PartOfSpeech=JJ Lemma=limited NamedEntityTag=O] [Text=edition CharacterOffsetBegin=2438 CharacterOffsetEnd=2445 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=Iron CharacterOffsetBegin=2446 CharacterOffsetEnd=2450 PartOfSpeech=NN Lemma=iron NamedEntityTag=MISC] [Text=Man CharacterOffsetBegin=2451 CharacterOffsetEnd=2454 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC] [Text=Galaxy CharacterOffsetBegin=2455 CharacterOffsetEnd=2461 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=MISC] [Text=S6 CharacterOffsetBegin=2462 CharacterOffsetEnd=2464 PartOfSpeech=NN Lemma=s6 NamedEntityTag=MISC] [Text=edge CharacterOffsetBegin=2465 CharacterOffsetEnd=2469 PartOfSpeech=NN Lemma=edge NamedEntityTag=O] [Text=embodies CharacterOffsetBegin=2470 CharacterOffsetEnd=2478 PartOfSpeech=VBZ Lemma=embody NamedEntityTag=O] [Text=the CharacterOffsetBegin=2479 CharacterOffsetEnd=2482 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=power CharacterOffsetBegin=2483 CharacterOffsetEnd=2488 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=of CharacterOffsetBegin=2489 CharacterOffsetEnd=2491 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2492 CharacterOffsetEnd=2495 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=iconic CharacterOffsetBegin=2496 CharacterOffsetEnd=2502 PartOfSpeech=JJ Lemma=iconic NamedEntityTag=O] [Text=Avenger CharacterOffsetBegin=2503 CharacterOffsetEnd=2510 PartOfSpeech=NN Lemma=avenger NamedEntityTag=O] [Text=with CharacterOffsetBegin=2511 CharacterOffsetEnd=2515 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=2516 CharacterOffsetEnd=2517 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=dual-curved CharacterOffsetBegin=2518 CharacterOffsetEnd=2529 PartOfSpeech=JJ Lemma=dual-curved NamedEntityTag=O] [Text=edge CharacterOffsetBegin=2530 CharacterOffsetEnd=2534 PartOfSpeech=NN Lemma=edge NamedEntityTag=O] [Text=design CharacterOffsetBegin=2535 CharacterOffsetEnd=2541 PartOfSpeech=NN Lemma=design NamedEntityTag=O] [Text=and CharacterOffsetBegin=2542 CharacterOffsetEnd=2545 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=advanced CharacterOffsetBegin=2546 CharacterOffsetEnd=2554 PartOfSpeech=VBD Lemma=advance NamedEntityTag=O] [Text=features CharacterOffsetBegin=2555 CharacterOffsetEnd=2563 PartOfSpeech=NNS Lemma=feature NamedEntityTag=O] [Text=that CharacterOffsetBegin=2564 CharacterOffsetEnd=2568 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=will CharacterOffsetBegin=2569 CharacterOffsetEnd=2573 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=provide CharacterOffsetBegin=2574 CharacterOffsetEnd=2581 PartOfSpeech=VB Lemma=provide NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=2582 CharacterOffsetEnd=2588 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=O] [Text=fans CharacterOffsetBegin=2589 CharacterOffsetEnd=2593 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=with CharacterOffsetBegin=2594 CharacterOffsetEnd=2598 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2599 CharacterOffsetEnd=2602 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ultimate CharacterOffsetBegin=2603 CharacterOffsetEnd=2611 PartOfSpeech=JJ Lemma=ultimate NamedEntityTag=O] [Text=entertainment CharacterOffsetBegin=2612 CharacterOffsetEnd=2625 PartOfSpeech=NN Lemma=entertainment NamedEntityTag=O] [Text=experience CharacterOffsetBegin=2626 CharacterOffsetEnd=2636 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=. CharacterOffsetBegin=2636 CharacterOffsetEnd=2637 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2637 CharacterOffsetEnd=2638 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (DT The) (JJ limited) (NN edition) (NN Iron) (NN Man))
+      (NP (NNP Galaxy) (NN S6) (NN edge)))
+    (VP
+      (VP (VBZ embodies)
+        (NP
+          (NP (DT the) (NN power))
+          (PP (IN of)
+            (NP (DT the) (JJ iconic) (NN Avenger))))
+        (PP (IN with)
+          (NP (DT a) (JJ dual-curved) (NN edge) (NN design))))
+      (CC and)
+      (VP (VBD advanced)
+        (NP
+          (NP (NNS features))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD will)
+                (VP (VB provide)
+                  (NP (NNP Marvel) (NNS fans))
+                  (PP (IN with)
+                    (NP (DT the) (JJ ultimate) (NN entertainment) (NN experience))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, embodies-10)
+det(Man-6, The-2)
+amod(Man-6, limited-3)
+nn(Man-6, edition-4)
+nn(Man-6, Iron-5)
+nsubj(embodies-10, Man-6)
+nn(edge-9, Galaxy-7)
+nn(edge-9, S6-8)
+dep(Man-6, edge-9)
+det(power-12, the-11)
+dobj(embodies-10, power-12)
+det(Avenger-16, the-14)
+amod(Avenger-16, iconic-15)
+prep_of(power-12, Avenger-16)
+det(design-21, a-18)
+amod(design-21, dual-curved-19)
+nn(design-21, edge-20)
+prep_with(embodies-10, design-21)
+conj_and(embodies-10, advanced-23)
+dobj(advanced-23, features-24)
+nsubj(provide-27, that-25)
+aux(provide-27, will-26)
+rcmod(features-24, provide-27)
+nn(fans-29, Marvel-28)
+dobj(provide-27, fans-29)
+det(experience-34, the-31)
+amod(experience-34, ultimate-32)
+nn(experience-34, entertainment-33)
+prep_with(provide-27, experience-34)
+
+Sentence #19 (17 tokens):
+Samsung released a Marvel Avengers theme for its Samsung Galaxy S6 and S6 Edge last month.
+[Text=Samsung CharacterOffsetBegin=2639 CharacterOffsetEnd=2646 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=released CharacterOffsetBegin=2647 CharacterOffsetEnd=2655 PartOfSpeech=VBD Lemma=release NamedEntityTag=O] [Text=a CharacterOffsetBegin=2656 CharacterOffsetEnd=2657 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Marvel CharacterOffsetBegin=2658 CharacterOffsetEnd=2664 PartOfSpeech=NNP Lemma=Marvel NamedEntityTag=ORGANIZATION] [Text=Avengers CharacterOffsetBegin=2665 CharacterOffsetEnd=2673 PartOfSpeech=NNPS Lemma=Avengers NamedEntityTag=ORGANIZATION] [Text=theme CharacterOffsetBegin=2674 CharacterOffsetEnd=2679 PartOfSpeech=NN Lemma=theme NamedEntityTag=O] [Text=for CharacterOffsetBegin=2680 CharacterOffsetEnd=2683 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=its CharacterOffsetBegin=2684 CharacterOffsetEnd=2687 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Samsung CharacterOffsetBegin=2688 CharacterOffsetEnd=2695 PartOfSpeech=NNP Lemma=Samsung NamedEntityTag=ORGANIZATION] [Text=Galaxy CharacterOffsetBegin=2696 CharacterOffsetEnd=2702 PartOfSpeech=NNP Lemma=Galaxy NamedEntityTag=ORGANIZATION] [Text=S6 CharacterOffsetBegin=2703 CharacterOffsetEnd=2705 PartOfSpeech=NN Lemma=s6 NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=2706 CharacterOffsetEnd=2709 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=S6 CharacterOffsetBegin=2710 CharacterOffsetEnd=2712 PartOfSpeech=NN Lemma=s6 NamedEntityTag=O] [Text=Edge CharacterOffsetBegin=2713 CharacterOffsetEnd=2717 PartOfSpeech=NNP Lemma=Edge NamedEntityTag=O] [Text=last CharacterOffsetBegin=2718 CharacterOffsetEnd=2722 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t8" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf0">last month<_TIMEX3>] [Text=month CharacterOffsetBegin=2723 CharacterOffsetEnd=2728 PartOfSpeech=NN Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1M OFFSET P-1M Timex=<TIMEX3 alt_value="THIS P1M OFFSET P-1M" anchorTimeID="t8" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf0">last month<_TIMEX3>] [Text=. CharacterOffsetBegin=2728 CharacterOffsetEnd=2729 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Samsung))
+    (VP (VBD released)
+      (NP (DT a) (NNP Marvel) (NNPS Avengers) (NN theme))
+      (PP (IN for)
+        (NP
+          (NP (PRP$ its) (NNP Samsung) (NNP Galaxy) (NN S6))
+          (CC and)
+          (NP (NN S6) (NNP Edge))))
+      (NP-TMP (JJ last) (NN month)))
+    (. .)))
+
+root(ROOT-0, released-2)
+nsubj(released-2, Samsung-1)
+det(theme-6, a-3)
+nn(theme-6, Marvel-4)
+nn(theme-6, Avengers-5)
+dobj(released-2, theme-6)
+poss(S6-11, its-8)
+nn(S6-11, Samsung-9)
+nn(S6-11, Galaxy-10)
+prep_for(released-2, S6-11)
+nn(Edge-14, S6-13)
+conj_and(S6-11, Edge-14)
+amod(month-16, last-15)
+tmod(released-2, month-16)
+
+Sentence #20 (17 tokens):
+The limited edition theme includes a choice of custom wallpapers, lock screens and app icons.
+[Text=The CharacterOffsetBegin=2730 CharacterOffsetEnd=2733 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=limited CharacterOffsetBegin=2734 CharacterOffsetEnd=2741 PartOfSpeech=JJ Lemma=limited NamedEntityTag=O] [Text=edition CharacterOffsetBegin=2742 CharacterOffsetEnd=2749 PartOfSpeech=NN Lemma=edition NamedEntityTag=O] [Text=theme CharacterOffsetBegin=2750 CharacterOffsetEnd=2755 PartOfSpeech=NN Lemma=theme NamedEntityTag=O] [Text=includes CharacterOffsetBegin=2756 CharacterOffsetEnd=2764 PartOfSpeech=VBZ Lemma=include NamedEntityTag=O] [Text=a CharacterOffsetBegin=2765 CharacterOffsetEnd=2766 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=choice CharacterOffsetBegin=2767 CharacterOffsetEnd=2773 PartOfSpeech=NN Lemma=choice NamedEntityTag=O] [Text=of CharacterOffsetBegin=2774 CharacterOffsetEnd=2776 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=custom CharacterOffsetBegin=2777 CharacterOffsetEnd=2783 PartOfSpeech=NN Lemma=custom NamedEntityTag=O] [Text=wallpapers CharacterOffsetBegin=2784 CharacterOffsetEnd=2794 PartOfSpeech=NNS Lemma=wallpaper NamedEntityTag=O] [Text=, CharacterOffsetBegin=2794 CharacterOffsetEnd=2795 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=lock CharacterOffsetBegin=2796 CharacterOffsetEnd=2800 PartOfSpeech=JJ Lemma=lock NamedEntityTag=O] [Text=screens CharacterOffsetBegin=2801 CharacterOffsetEnd=2808 PartOfSpeech=NNS Lemma=screen NamedEntityTag=O] [Text=and CharacterOffsetBegin=2809 CharacterOffsetEnd=2812 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=app CharacterOffsetBegin=2813 CharacterOffsetEnd=2816 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=icons CharacterOffsetBegin=2817 CharacterOffsetEnd=2822 PartOfSpeech=NNS Lemma=icon NamedEntityTag=O] [Text=. CharacterOffsetBegin=2822 CharacterOffsetEnd=2823 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ limited) (NN edition) (NN theme))
+    (VP (VBZ includes)
+      (NP
+        (NP (DT a) (NN choice))
+        (PP (IN of)
+          (NP
+            (NP (NN custom) (NNS wallpapers))
+            (, ,)
+            (NP (JJ lock) (NNS screens))
+            (CC and)
+            (NP (NN app) (NNS icons))))))
+    (. .)))
+
+root(ROOT-0, includes-5)
+det(theme-4, The-1)
+amod(theme-4, limited-2)
+nn(theme-4, edition-3)
+nsubj(includes-5, theme-4)
+det(choice-7, a-6)
+dobj(includes-5, choice-7)
+nn(wallpapers-10, custom-9)
+prep_of(choice-7, wallpapers-10)
+amod(screens-13, lock-12)
+conj_and(wallpapers-10, screens-13)
+nn(icons-16, app-15)
+conj_and(wallpapers-10, icons-16)
+
+Sentence #21 (29 tokens):
+Wednesday, 27th May 2015
+See today_s front and back pages, download the newspaper,                      order back issues and use the historic Daily Express                      newspaper archive.
+[Text=Wednesday CharacterOffsetBegin=2824 CharacterOffsetEnd=2833 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t9" type="DATE" value="2015-05-27">Wednesday, 27th May 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=2833 CharacterOffsetEnd=2834 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t9" type="DATE" value="2015-05-27">Wednesday, 27th May 2015<_TIMEX3>] [Text=27th CharacterOffsetBegin=2835 CharacterOffsetEnd=2839 PartOfSpeech=JJ Lemma=27th NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t9" type="DATE" value="2015-05-27">Wednesday, 27th May 2015<_TIMEX3>] [Text=May CharacterOffsetBegin=2840 CharacterOffsetEnd=2843 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t9" type="DATE" value="2015-05-27">Wednesday, 27th May 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=2844 CharacterOffsetEnd=2848 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t9" type="DATE" value="2015-05-27">Wednesday, 27th May 2015<_TIMEX3>] [Text=See CharacterOffsetBegin=2849 CharacterOffsetEnd=2852 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=today CharacterOffsetBegin=2853 CharacterOffsetEnd=2858 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf1">today<_TIMEX3>] [Text=_s CharacterOffsetBegin=2858 CharacterOffsetEnd=2860 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=front CharacterOffsetBegin=2861 CharacterOffsetEnd=2866 PartOfSpeech=NN Lemma=front NamedEntityTag=O] [Text=and CharacterOffsetBegin=2867 CharacterOffsetEnd=2870 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=back CharacterOffsetBegin=2871 CharacterOffsetEnd=2875 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=pages CharacterOffsetBegin=2876 CharacterOffsetEnd=2881 PartOfSpeech=NNS Lemma=page NamedEntityTag=O] [Text=, CharacterOffsetBegin=2881 CharacterOffsetEnd=2882 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=download CharacterOffsetBegin=2883 CharacterOffsetEnd=2891 PartOfSpeech=VB Lemma=download NamedEntityTag=O] [Text=the CharacterOffsetBegin=2892 CharacterOffsetEnd=2895 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=newspaper CharacterOffsetBegin=2896 CharacterOffsetEnd=2905 PartOfSpeech=NN Lemma=newspaper NamedEntityTag=O] [Text=, CharacterOffsetBegin=2905 CharacterOffsetEnd=2906 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=order CharacterOffsetBegin=2928 CharacterOffsetEnd=2933 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=back CharacterOffsetBegin=2934 CharacterOffsetEnd=2938 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=issues CharacterOffsetBegin=2939 CharacterOffsetEnd=2945 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O] [Text=and CharacterOffsetBegin=2946 CharacterOffsetEnd=2949 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=use CharacterOffsetBegin=2950 CharacterOffsetEnd=2953 PartOfSpeech=VB Lemma=use NamedEntityTag=O] [Text=the CharacterOffsetBegin=2954 CharacterOffsetEnd=2957 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=historic CharacterOffsetBegin=2958 CharacterOffsetEnd=2966 PartOfSpeech=JJ Lemma=historic NamedEntityTag=O] [Text=Daily CharacterOffsetBegin=2967 CharacterOffsetEnd=2972 PartOfSpeech=NNP Lemma=Daily NamedEntityTag=ORGANIZATION Timex=<TIMEX3 freq="P1X" periodicity="P1D" quant="EVERY" tid="t11" type="SET" value="P1D">Daily<_TIMEX3>] [Text=Express CharacterOffsetBegin=2973 CharacterOffsetEnd=2980 PartOfSpeech=NNP Lemma=Express NamedEntityTag=ORGANIZATION] [Text=newspaper CharacterOffsetBegin=3002 CharacterOffsetEnd=3011 PartOfSpeech=NN Lemma=newspaper NamedEntityTag=O] [Text=archive CharacterOffsetBegin=3012 CharacterOffsetEnd=3019 PartOfSpeech=NN Lemma=archive NamedEntityTag=O] [Text=. CharacterOffsetBegin=3019 CharacterOffsetEnd=3020 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (NNP Wednesday))
+    (, ,)
+    (NP
+      (NP (JJ 27th))
+      (NP-TMP (NNP May) (CD 2015)))
+    (VP
+      (VP (VB See)
+        (NP
+          (NP (NN today) (POS _s))
+          (UCP
+            (NP (NN front))
+            (CC and)
+            (ADVP (RB back)))
+          (NNS pages)))
+      (, ,)
+      (VP (VB download)
+        (NP
+          (NP (DT the) (NN newspaper))
+          (, ,)
+          (NP
+            (NP (NN order))
+            (RRC
+              (ADVP (RB back))
+              (NP (NNS issues))))))
+      (CC and)
+      (VP (VB use)
+        (NP (DT the) (JJ historic) (NNP Daily) (NNP Express) (NN newspaper) (NN archive))))
+    (. .)))
+
+root(ROOT-0, See-6)
+tmod(See-6, Wednesday-1)
+nsubj(See-6, 27th-3)
+tmod(27th-3, May-4)
+num(May-4, 2015-5)
+poss(pages-12, today-7)
+nn(pages-12, front-9)
+cc(front-9, and-10)
+advmod(front-9, back-11)
+dobj(See-6, pages-12)
+conj_and(See-6, download-14)
+det(newspaper-16, the-15)
+dobj(download-14, newspaper-16)
+appos(newspaper-16, order-18)
+advmod(issues-20, back-19)
+rcmod(order-18, issues-20)
+conj_and(See-6, use-22)
+det(archive-28, the-23)
+amod(archive-28, historic-24)
+nn(archive-28, Daily-25)
+nn(archive-28, Express-26)
+nn(archive-28, newspaper-27)
+dobj(use-22, archive-28)
+
+Coreference set:
+ (1,1,[1,2]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (5,13,[13,14]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (5,30,[30,31]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (5,43,[43,44]) -> (6,2,[1,3]), that is: "SAMSUNG" -> "SAMSUNG Samsung"
+ (5,51,[51,52]) -> (6,2,[1,3]), that is: "its" -> "SAMSUNG Samsung"
+ (5,57,[57,58]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (10,1,[1,2]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (13,17,[17,18]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (14,1,[1,2]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (15,2,[2,3]) -> (6,2,[1,3]), that is: "that" -> "SAMSUNG Samsung"
+ (15,4,[4,5]) -> (6,2,[1,3]), that is: "it" -> "SAMSUNG Samsung"
+ (17,10,[10,11]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (19,1,[1,2]) -> (6,2,[1,3]), that is: "Samsung" -> "SAMSUNG Samsung"
+ (19,8,[8,9]) -> (6,2,[1,3]), that is: "its" -> "SAMSUNG Samsung"
+Coreference set:
+ (1,16,[14,17]) -> (5,11,[8,12]), that is: "`` Iron Man" -> "KST The Iron Man"
+ (3,13,[12,14]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+ (5,28,[26,29]) -> (5,11,[8,12]), that is: "The Iron Man" -> "KST The Iron Man"
+ (7,19,[18,20]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+ (7,41,[40,42]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+ (9,2,[1,9]) -> (5,11,[8,12]), that is: "Iron Man , played by Robert Downey Jr" -> "KST The Iron Man"
+ (9,2,[1,3]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+ (10,16,[15,17]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+ (17,35,[34,36]) -> (5,11,[8,12]), that is: "Iron Man" -> "KST The Iron Man"
+Coreference set:
+ (1,20,[20,21]) -> (1,4,[1,11]), that is: "its" -> "Samsung Unveils Limited Edition of Galaxy S6 Edge Samsung Electronics"
+ (2,13,[11,14]) -> (1,4,[1,11]), that is: "the limited edition" -> "Samsung Unveils Limited Edition of Galaxy S6 Edge Samsung Electronics"
+Coreference set:
+ (1,23,[23,24]) -> (13,20,[15,21]), that is: "Edge" -> "the custom Samsung Galaxy S6 Edge"
+ (5,16,[13,17]) -> (13,20,[15,21]), that is: "Samsung Galaxy S6 Edge" -> "the custom Samsung Galaxy S6 Edge"
+ (5,33,[30,34]) -> (13,20,[15,21]), that is: "Samsung Galaxy S6 Edge" -> "the custom Samsung Galaxy S6 Edge"
+ (5,60,[60,61]) -> (13,20,[15,21]), that is: "Edge" -> "the custom Samsung Galaxy S6 Edge"
+ (18,9,[7,10]) -> (13,20,[15,21]), that is: "Galaxy S6 edge" -> "the custom Samsung Galaxy S6 Edge"
+ (19,14,[13,15]) -> (13,20,[15,21]), that is: "S6 Edge" -> "the custom Samsung Galaxy S6 Edge"
+Coreference set:
+ (14,5,[5,6]) -> (2,8,[8,9]), that is: "1,000" -> "1,000"
+Coreference set:
+ (21,1,[1,2]) -> (2,19,[19,20]), that is: "Wednesday" -> "Wednesday"
+Coreference set:
+ (10,5,[4,9]) -> (3,2,[1,10]), that is: "the back of the phone" -> "The back of the vibrant red and gold phone"
+Coreference set:
+ (10,8,[7,9]) -> (3,9,[4,10]), that is: "the phone" -> "the vibrant red and gold phone"
+Coreference set:
+ (5,59,[56,61]) -> (5,49,[46,55]), that is: "the Samsung Galaxy S6 Edge" -> "an Iron Man Edition of its latest flagship smartphone"
+ (19,11,[8,12]) -> (5,49,[46,55]), that is: "its Samsung Galaxy S6" -> "an Iron Man Edition of its latest flagship smartphone"
+ (19,11,[9,12]) -> (5,49,[46,55]), that is: "Samsung Galaxy S6" -> "an Iron Man Edition of its latest flagship smartphone"
+Coreference set:
+ (12,28,[26,29]) -> (5,54,[51,55]), that is: "the flagship smartphone" -> "its latest flagship smartphone"
+Coreference set:
+ (6,28,[27,29]) -> (6,8,[7,9]), that is: "Marvel Studios" -> "Marvel Studios"
+Coreference set:
+ (6,38,[38,39]) -> (6,18,[18,22]), that is: "Ultron" -> "Ultron The South Korean"
+ (8,5,[5,6]) -> (6,18,[18,22]), that is: "Ultron" -> "Ultron The South Korean"
+ (14,12,[12,13]) -> (6,18,[18,22]), that is: "Korea" -> "Ultron The South Korean"
+Coreference set:
+ (6,14,[14,15]) -> (8,20,[19,21]), that is: "Avengers" -> "The Avengers"
+ (6,34,[34,35]) -> (8,20,[19,21]), that is: "Avengers" -> "The Avengers"
+ (8,1,[1,36]) -> (8,20,[19,21]), that is: "Avengers : Age of Ultron is the eleventh film in Marvel Cinematic Universe and the direct sequel to The Avengers -- which became the third highest-grossing film of all-time after its release in 2012 ." -> "The Avengers"
+ (19,5,[4,6]) -> (8,20,[19,21]), that is: "Marvel Avengers" -> "The Avengers"
+Coreference set:
+ (8,3,[3,6]) -> (6,36,[36,39]), that is: "Age of Ultron" -> "Age of Ultron"
+ (8,9,[7,35]) -> (6,36,[36,39]), that is: "the eleventh film in Marvel Cinematic Universe and the direct sequel to The Avengers -- which became the third highest-grossing film of all-time after its release in 2012" -> "Age of Ultron"
+ (8,27,[24,30]) -> (6,36,[36,39]), that is: "the third highest-grossing film of all-time" -> "Age of Ultron"
+ (8,31,[31,32]) -> (6,36,[36,39]), that is: "its" -> "Age of Ultron"
+Coreference set:
+ (17,13,[12,14]) -> (7,22,[21,23]), that is: "Younghee Lee" -> "Younghee Lee"
+Coreference set:
+ (7,9,[9,10]) -> (7,1,[1,2]), that is: "our" -> "We"
+Coreference set:
+ (17,36,[34,37]) -> (7,20,[18,21]), that is: "Iron Man fans" -> "Iron Man fans"
+Coreference set:
+ (8,13,[11,14]) -> (9,20,[17,21]), that is: "Marvel Cinematic Universe" -> "the Marvel Cinematic Universe"
+Coreference set:
+ (17,42,[42,43]) -> (13,4,[3,5]), that is: "Marvel" -> "British Marvel"
+Coreference set:
+ (13,12,[12,13]) -> (13,5,[3,8]), that is: "their" -> "British Marvel fanboys and girls"
+Coreference set:
+ (21,3,[3,6]) -> (14,14,[14,17]), that is: "27th May 2015" -> "May 27th 2015"
+ (21,4,[4,6]) -> (14,14,[14,17]), that is: "May 2015" -> "May 27th 2015"
+Coreference set:
+ (17,25,[25,26]) -> (17,17,[17,18]), that is: "our" -> "We"
+ (17,38,[38,39]) -> (17,17,[17,18]), that is: "our" -> "We"
+Coreference set:
+ (21,18,[18,21]) -> (21,16,[15,17]), that is: "order back issues" -> "the newspaper"

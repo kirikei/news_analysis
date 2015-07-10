@@ -1,0 +1,255 @@
+Sentence #1 (19 tokens):
+When Twitter released its Periscope live video streaming app back in March, it was an iOS-only affair.
+[Text=When CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=released CharacterOffsetBegin=13 CharacterOffsetEnd=21 PartOfSpeech=VBD Lemma=release NamedEntityTag=O] [Text=its CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=26 CharacterOffsetEnd=35 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=O] [Text=live CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=VB Lemma=live NamedEntityTag=O] [Text=video CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=JJ Lemma=video NamedEntityTag=O] [Text=streaming CharacterOffsetBegin=47 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=streaming NamedEntityTag=O] [Text=app CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=back CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=in CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=March CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03">March<_TIMEX3>] [Text=, CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=an CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=iOS-only CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=JJ Lemma=ios-only NamedEntityTag=O] [Text=affair CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=affair NamedEntityTag=O] [Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Twitter))
+        (VP (VBD released)
+          (S
+            (NP (PRP$ its) (NNP Periscope))
+            (VP (VB live)
+              (NP (JJ video) (NN streaming) (NN app))
+              (ADVP (RB back))
+              (PP (IN in)
+                (NP (NNP March))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+      (NP (DT an) (JJ iOS-only) (NN affair)))
+    (. .)))
+
+root(ROOT-0, affair-18)
+advmod(released-3, When-1)
+nsubj(released-3, Twitter-2)
+advcl(affair-18, released-3)
+poss(Periscope-5, its-4)
+nsubj(live-6, Periscope-5)
+ccomp(released-3, live-6)
+amod(app-9, video-7)
+nn(app-9, streaming-8)
+dobj(live-6, app-9)
+advmod(live-6, back-10)
+prep_in(live-6, March-12)
+nsubj(affair-18, it-14)
+cop(affair-18, was-15)
+det(affair-18, an-16)
+amod(affair-18, iOS-only-17)
+
+Sentence #2 (11 tokens):
+Now you can use it on Android devices as well.
+[Text=Now CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=you CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=use CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=VB Lemma=use NamedEntityTag=O] [Text=it CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=on CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Android CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=NN Lemma=android NamedEntityTag=O] [Text=devices CharacterOffsetBegin=133 CharacterOffsetEnd=140 PartOfSpeech=NNS Lemma=device NamedEntityTag=O] [Text=as CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=well CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB use)
+        (NP (PRP it))
+        (PP (IN on)
+          (NP (NN Android) (NNS devices)))
+        (ADVP (RB as) (RB well))))
+    (. .)))
+
+root(ROOT-0, use-4)
+advmod(use-4, Now-1)
+nsubj(use-4, you-2)
+aux(use-4, can-3)
+dobj(use-4, it-5)
+nn(devices-8, Android-7)
+prep_on(use-4, devices-8)
+advmod(well-10, as-9)
+advmod(use-4, well-10)
+
+Sentence #3 (25 tokens):
+Only users running Android 4.4 or above can run the app, which includes a few additional features not available in the iOS version.
+[Text=Only CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=users CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=running CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=VBG Lemma=run NamedEntityTag=O] [Text=Android CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=NN Lemma=android NamedEntityTag=O] [Text=4.4 CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CD Lemma=4.4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.4] [Text=or CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=above CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=IN Lemma=above NamedEntityTag=O] [Text=can CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=run CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=VB Lemma=run NamedEntityTag=O] [Text=the CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=app CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=includes CharacterOffsetBegin=213 CharacterOffsetEnd=221 PartOfSpeech=VBZ Lemma=include NamedEntityTag=O] [Text=a CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=few CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=additional CharacterOffsetBegin=228 CharacterOffsetEnd=238 PartOfSpeech=JJ Lemma=additional NamedEntityTag=O] [Text=features CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NNS Lemma=feature NamedEntityTag=O] [Text=not CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=available CharacterOffsetBegin=252 CharacterOffsetEnd=261 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=in CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=iOS CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=version CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=NN Lemma=version NamedEntityTag=O] [Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (RB Only) (NNS users))
+      (VP (VBG running)
+        (UCP
+          (NP (NN Android) (CD 4.4))
+          (CC or)
+          (ADVP (IN above)))))
+    (VP (MD can)
+      (VP (VB run)
+        (NP
+          (NP (DT the) (NN app))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ includes)
+                (S
+                  (NP (DT a) (JJ few) (JJ additional) (NNS features))
+                  (ADJP (RB not) (JJ available)
+                    (PP (IN in)
+                      (NP (DT the) (NNP iOS) (NN version)))))))))))
+    (. .)))
+
+root(ROOT-0, run-9)
+advmod(users-2, Only-1)
+nsubj(run-9, users-2)
+vmod(users-2, running-3)
+dobj(running-3, Android-4)
+num(Android-4, 4.4-5)
+cc(Android-4, or-6)
+advmod(Android-4, above-7)
+aux(run-9, can-8)
+det(app-11, the-10)
+dobj(run-9, app-11)
+nsubj(includes-14, which-13)
+rcmod(app-11, includes-14)
+det(features-18, a-15)
+amod(features-18, few-16)
+amod(features-18, additional-17)
+nsubj(available-20, features-18)
+neg(available-20, not-19)
+xcomp(includes-14, available-20)
+det(version-24, the-22)
+nn(version-24, iOS-23)
+prep_in(available-20, version-24)
+
+Sentence #4 (22 tokens):
+You can customise push notifications more precisely and automatic replay being available without the original broadcaster having to upload a file.
+[Text=You CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=customise CharacterOffsetBegin=290 CharacterOffsetEnd=299 PartOfSpeech=VB Lemma=customise NamedEntityTag=O] [Text=push CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NN Lemma=push NamedEntityTag=O] [Text=notifications CharacterOffsetBegin=305 CharacterOffsetEnd=318 PartOfSpeech=NNS Lemma=notification NamedEntityTag=O] [Text=more CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=precisely CharacterOffsetBegin=324 CharacterOffsetEnd=333 PartOfSpeech=RB Lemma=precisely NamedEntityTag=O] [Text=and CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=automatic CharacterOffsetBegin=338 CharacterOffsetEnd=347 PartOfSpeech=JJ Lemma=automatic NamedEntityTag=O] [Text=replay CharacterOffsetBegin=348 CharacterOffsetEnd=354 PartOfSpeech=NN Lemma=replay NamedEntityTag=O] [Text=being CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=available CharacterOffsetBegin=361 CharacterOffsetEnd=370 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=without CharacterOffsetBegin=371 CharacterOffsetEnd=378 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=original CharacterOffsetBegin=383 CharacterOffsetEnd=391 PartOfSpeech=JJ Lemma=original NamedEntityTag=O] [Text=broadcaster CharacterOffsetBegin=392 CharacterOffsetEnd=403 PartOfSpeech=NN Lemma=broadcaster NamedEntityTag=O] [Text=having CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=upload CharacterOffsetBegin=414 CharacterOffsetEnd=420 PartOfSpeech=VB Lemma=upload NamedEntityTag=O] [Text=a CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=file CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=NN Lemma=file NamedEntityTag=O] [Text=. CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD can)
+        (VP (VB customise)
+          (NP (NN push) (NNS notifications))
+          (ADVP (RBR more))
+          (ADVP (RB precisely)))))
+    (CC and)
+    (S
+      (NP (JJ automatic) (NN replay))
+      (VP (VBG being)
+        (ADJP (JJ available))
+        (PP (IN without)
+          (S
+            (NP (DT the) (JJ original) (NN broadcaster))
+            (VP (VBG having)
+              (S
+                (VP (TO to)
+                  (VP (VB upload)
+                    (NP (DT a) (NN file))))))))))
+    (. .)))
+
+root(ROOT-0, customise-3)
+nsubj(customise-3, You-1)
+aux(customise-3, can-2)
+nn(notifications-5, push-4)
+dobj(customise-3, notifications-5)
+advmod(customise-3, more-6)
+advmod(customise-3, precisely-7)
+amod(replay-10, automatic-9)
+nsubj(available-12, replay-10)
+cop(available-12, being-11)
+conj_and(customise-3, available-12)
+det(broadcaster-16, the-14)
+amod(broadcaster-16, original-15)
+nsubj(having-17, broadcaster-16)
+prepc_without(available-12, having-17)
+aux(upload-19, to-18)
+xcomp(having-17, upload-19)
+det(file-21, a-20)
+dobj(upload-19, file-21)
+
+Sentence #5 (10 tokens):
+Have you subscribed to Gizmodo Australia_s email newsletter?
+[Text=Have CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=you CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=subscribed CharacterOffsetBegin=438 CharacterOffsetEnd=448 PartOfSpeech=VBN Lemma=subscribe NamedEntityTag=O] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Gizmodo CharacterOffsetBegin=452 CharacterOffsetEnd=459 PartOfSpeech=NNP Lemma=Gizmodo NamedEntityTag=ORGANIZATION] [Text=Australia CharacterOffsetBegin=460 CharacterOffsetEnd=469 PartOfSpeech=NNP Lemma=Australia NamedEntityTag=ORGANIZATION] [Text=_s CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=email CharacterOffsetBegin=472 CharacterOffsetEnd=477 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=newsletter CharacterOffsetBegin=478 CharacterOffsetEnd=488 PartOfSpeech=NN Lemma=newsletter NamedEntityTag=O] [Text=? CharacterOffsetBegin=488 CharacterOffsetEnd=489 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP (VBN subscribed)
+      (PP (TO to)
+        (NP
+          (NP (NNP Gizmodo) (NNP Australia) (POS _s))
+          (NN email) (NN newsletter))))
+    (. ?)))
+
+root(ROOT-0, subscribed-3)
+aux(subscribed-3, Have-1)
+nsubj(subscribed-3, you-2)
+nn(Australia-6, Gizmodo-5)
+poss(newsletter-9, Australia-6)
+nn(newsletter-9, email-8)
+prep_to(subscribed-3, newsletter-9)
+
+Sentence #6 (14 tokens):
+You can also follow us on Facebook , Twitter , Instagram and YouTube .
+[Text=You CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=also CharacterOffsetBegin=498 CharacterOffsetEnd=502 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=follow CharacterOffsetBegin=503 CharacterOffsetEnd=509 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=us CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=on CharacterOffsetBegin=513 CharacterOffsetEnd=515 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=516 CharacterOffsetEnd=524 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=527 CharacterOffsetEnd=534 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=, CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Instagram CharacterOffsetBegin=537 CharacterOffsetEnd=546 PartOfSpeech=NNP Lemma=Instagram NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=YouTube CharacterOffsetBegin=551 CharacterOffsetEnd=558 PartOfSpeech=NNP Lemma=YouTube NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB follow)
+        (NP (PRP us))
+        (PP (IN on)
+          (NP (NNP Facebook) (, ,) (NNP Twitter) (, ,) (NNP Instagram)
+            (CC and)
+            (NNP YouTube)))))
+    (. .)))
+
+root(ROOT-0, follow-4)
+nsubj(follow-4, You-1)
+aux(follow-4, can-2)
+advmod(follow-4, also-3)
+dobj(follow-4, us-5)
+prep_on(follow-4, Facebook-7)
+conj_and(Facebook-7, Twitter-9)
+conj_and(Facebook-7, Instagram-11)
+conj_and(Facebook-7, YouTube-13)
+
+Sentence #7 (18 tokens):
+You are starting a new discussion
+Report Issue Report site or community issues
+Product And Price Finder
+Go
+[Text=You CharacterOffsetBegin=561 CharacterOffsetEnd=564 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=starting CharacterOffsetBegin=569 CharacterOffsetEnd=577 PartOfSpeech=VBG Lemma=start NamedEntityTag=O] [Text=a CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=discussion CharacterOffsetBegin=584 CharacterOffsetEnd=594 PartOfSpeech=NN Lemma=discussion NamedEntityTag=O] [Text=Report CharacterOffsetBegin=595 CharacterOffsetEnd=601 PartOfSpeech=NNP Lemma=Report NamedEntityTag=MISC] [Text=Issue CharacterOffsetBegin=602 CharacterOffsetEnd=607 PartOfSpeech=NNP Lemma=Issue NamedEntityTag=MISC] [Text=Report CharacterOffsetBegin=608 CharacterOffsetEnd=614 PartOfSpeech=NNP Lemma=Report NamedEntityTag=MISC] [Text=site CharacterOffsetBegin=615 CharacterOffsetEnd=619 PartOfSpeech=NN Lemma=site NamedEntityTag=O] [Text=or CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=community CharacterOffsetBegin=623 CharacterOffsetEnd=632 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=issues CharacterOffsetBegin=633 CharacterOffsetEnd=639 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O] [Text=Product CharacterOffsetBegin=640 CharacterOffsetEnd=647 PartOfSpeech=NNP Lemma=Product NamedEntityTag=O] [Text=And CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Price CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=NNP Lemma=Price NamedEntityTag=O] [Text=Finder CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=NNP Lemma=Finder NamedEntityTag=O] [Text=Go CharacterOffsetBegin=665 CharacterOffsetEnd=667 PartOfSpeech=VB Lemma=go NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (VP (VBG starting)
+        (NP
+          (NP (DT a) (JJ new) (NN discussion) (NNP Report) (NNP Issue) (NNP Report) (NN site)
+            (CC or)
+            (NN community) (NNS issues))
+          (SBAR
+            (S
+              (NP (NNP Product)
+                (CC And)
+                (NNP Price) (NNP Finder))
+              (VP (VB Go)))))))))
+
+root(ROOT-0, starting-3)
+nsubj(starting-3, You-1)
+aux(starting-3, are-2)
+det(site-10, a-4)
+amod(site-10, new-5)
+nn(site-10, discussion-6)
+nn(site-10, Report-7)
+nn(site-10, Issue-8)
+nn(site-10, Report-9)
+dobj(starting-3, site-10)
+nn(issues-13, community-12)
+conj_or(site-10, issues-13)
+nn(Finder-17, Product-14)
+conj_and(Product-14, Price-16)
+nsubj(Go-18, Finder-17)
+rcmod(site-10, Go-18)
+
+Coreference set:
+ (1,4,[4,5]) -> (1,2,[2,3]), that is: "its" -> "Twitter"
+ (1,14,[14,15]) -> (1,2,[2,3]), that is: "it" -> "Twitter"
+ (1,18,[16,19]) -> (1,2,[2,3]), that is: "an iOS-only affair" -> "Twitter"
+ (2,5,[5,6]) -> (1,2,[2,3]), that is: "it" -> "Twitter"
+ (6,9,[9,10]) -> (1,2,[2,3]), that is: "Twitter" -> "Twitter"

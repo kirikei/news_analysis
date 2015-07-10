@@ -1,0 +1,114 @@
+Sentence #1 (5 tokens):
+Thank you for reading.
+[Text=Thank CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=VB Lemma=thank NamedEntityTag=O] [Text=you CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=for CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=reading CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=NN Lemma=reading NamedEntityTag=O] [Text=. CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Thank)
+      (NP (PRP you))
+      (PP (IN for)
+        (NP (NN reading))))
+    (. .)))
+
+root(ROOT-0, Thank-1)
+dobj(Thank-1, you-2)
+prep_for(Thank-1, reading-4)
+
+Sentence #2 (14 tokens):
+You have now reached your monthly limit without subscription for print or online.
+[Text=You CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=now CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=reached CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBN Lemma=reach NamedEntityTag=O] [Text=your CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=monthly CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=JJ Lemma=monthly NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1M" quant="EVERY" tid="t2" type="SET" value="P1M">monthly<_TIMEX3>] [Text=limit CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=NN Lemma=limit NamedEntityTag=O] [Text=without CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=subscription CharacterOffsetBegin=71 CharacterOffsetEnd=83 PartOfSpeech=NN Lemma=subscription NamedEntityTag=O] [Text=for CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=print CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN Lemma=print NamedEntityTag=O] [Text=or CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=online CharacterOffsetBegin=97 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=online NamedEntityTag=O] [Text=. CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (ADVP (RB now))
+      (VP (VBN reached)
+        (NP (PRP$ your) (JJ monthly) (NN limit))
+        (PP (IN without)
+          (NP
+            (NP (NN subscription))
+            (PP (IN for)
+              (NP (NN print)
+                (CC or)
+                (NN online)))))))
+    (. .)))
+
+root(ROOT-0, reached-4)
+nsubj(reached-4, You-1)
+aux(reached-4, have-2)
+advmod(reached-4, now-3)
+poss(limit-7, your-5)
+amod(limit-7, monthly-6)
+dobj(reached-4, limit-7)
+prep_without(reached-4, subscription-9)
+prep_for(subscription-9, print-11)
+conj_or(print-11, online-13)
+
+Sentence #3 (16 tokens):
+Print subscribers have FREE, immediate access to semissourian.com and only need to register online .
+[Text=Print CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=VB Lemma=print NamedEntityTag=O] [Text=subscribers CharacterOffsetBegin=111 CharacterOffsetEnd=122 PartOfSpeech=NNS Lemma=subscriber NamedEntityTag=O] [Text=have CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=FREE CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=NNP Lemma=FREE NamedEntityTag=O] [Text=, CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=immediate CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=JJ Lemma=immediate NamedEntityTag=O] [Text=access CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=to CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=semissourian.com CharacterOffsetBegin=154 CharacterOffsetEnd=170 PartOfSpeech=NNP Lemma=semissourian.com NamedEntityTag=O] [Text=and CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=only CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=need CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=register CharacterOffsetBegin=188 CharacterOffsetEnd=196 PartOfSpeech=VB Lemma=register NamedEntityTag=O] [Text=online CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NN Lemma=online NamedEntityTag=O] [Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VB Print)
+        (SBAR
+          (S
+            (NP (NNS subscribers))
+            (VP (VBP have)
+              (NP (NNP FREE)))))))
+    (, ,)
+    (NP
+      (NP (JJ immediate) (NN access))
+      (PP (TO to)
+        (NP (NNP semissourian.com)
+          (CC and)
+          (RB only))))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB register)
+            (PP (NN online))))))
+    (. .)))
+
+root(ROOT-0, need-12)
+ccomp(need-12, Print-1)
+nsubj(have-3, subscribers-2)
+ccomp(Print-1, have-3)
+dobj(have-3, FREE-4)
+amod(access-7, immediate-6)
+nsubj(need-12, access-7)
+prep_to(access-7, semissourian.com-9)
+cc(semissourian.com-9, and-10)
+advmod(semissourian.com-9, only-11)
+aux(register-14, to-13)
+xcomp(need-12, register-14)
+prep(register-14, online-15)
+
+Sentence #4 (13 tokens):
+Non print subscribers have limited monthly access with options to read more.
+[Text=Non CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=JJ Lemma=non NamedEntityTag=O] [Text=print CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=NN Lemma=print NamedEntityTag=O] [Text=subscribers CharacterOffsetBegin=216 CharacterOffsetEnd=227 PartOfSpeech=NNS Lemma=subscriber NamedEntityTag=O] [Text=have CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=limited CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=VBN Lemma=limit NamedEntityTag=O] [Text=monthly CharacterOffsetBegin=241 CharacterOffsetEnd=248 PartOfSpeech=JJ Lemma=monthly NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1M" quant="EVERY" tid="t3" type="SET" value="P1M">monthly<_TIMEX3>] [Text=access CharacterOffsetBegin=249 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=with CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=options CharacterOffsetBegin=261 CharacterOffsetEnd=268 PartOfSpeech=NNS Lemma=option NamedEntityTag=O] [Text=to CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=read CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=more CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=. CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Non) (NN print) (NNS subscribers))
+    (VP (VBP have)
+      (VP (VBN limited)
+        (NP (JJ monthly) (NN access))
+        (PP (IN with)
+          (NP (NNS options)))
+        (S
+          (VP (TO to)
+            (VP (VB read)
+              (NP (RBR more)))))))
+    (. .)))
+
+root(ROOT-0, limited-5)
+amod(subscribers-3, Non-1)
+nn(subscribers-3, print-2)
+nsubj(limited-5, subscribers-3)
+aux(limited-5, have-4)
+amod(access-7, monthly-6)
+dobj(limited-5, access-7)
+prep_with(limited-5, options-9)
+aux(read-11, to-10)
+vmod(limited-5, read-11)
+dobj(read-11, more-12)
+

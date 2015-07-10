@@ -1,0 +1,763 @@
+Sentence #1 (32 tokens):
+Singapore Airlines investigates rare power-loss incident
+Singapore Airlines is investigating how one of its Airbus A330-300s temporarily lost power in both Rolls-Royce engines in mid-flight, the carrier said on Wednesday.
+[Text=Singapore CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Singapore NamedEntityTag=ORGANIZATION] [Text=Airlines CharacterOffsetBegin=10 CharacterOffsetEnd=18 PartOfSpeech=NNPS Lemma=Airlines NamedEntityTag=ORGANIZATION] [Text=investigates CharacterOffsetBegin=19 CharacterOffsetEnd=31 PartOfSpeech=VBZ Lemma=investigate NamedEntityTag=O] [Text=rare CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=JJ Lemma=rare NamedEntityTag=O] [Text=power-loss CharacterOffsetBegin=37 CharacterOffsetEnd=47 PartOfSpeech=JJ Lemma=power-loss NamedEntityTag=O] [Text=incident CharacterOffsetBegin=48 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=incident NamedEntityTag=O] [Text=Singapore CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Singapore NamedEntityTag=ORGANIZATION] [Text=Airlines CharacterOffsetBegin=67 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=Airlines NamedEntityTag=ORGANIZATION] [Text=is CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=investigating CharacterOffsetBegin=79 CharacterOffsetEnd=92 PartOfSpeech=VBG Lemma=investigate NamedEntityTag=O] [Text=how CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=one CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Airbus CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=NNP Lemma=Airbus NamedEntityTag=MISC] [Text=A330-300s CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=NNS Lemma=a330-300 NamedEntityTag=MISC] [Text=temporarily CharacterOffsetBegin=125 CharacterOffsetEnd=136 PartOfSpeech=RB Lemma=temporarily NamedEntityTag=O] [Text=lost CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O] [Text=power CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=in CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=both CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=CC Lemma=both NamedEntityTag=O] [Text=Rolls-Royce CharacterOffsetBegin=156 CharacterOffsetEnd=167 PartOfSpeech=NNP Lemma=Rolls-Royce NamedEntityTag=ORGANIZATION] [Text=engines CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=in CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=mid-flight CharacterOffsetBegin=179 CharacterOffsetEnd=189 PartOfSpeech=NN Lemma=mid-flight NamedEntityTag=O] [Text=, CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=carrier CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=NN Lemma=carrier NamedEntityTag=O] [Text=said CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=on CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=211 CharacterOffsetEnd=220 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Singapore) (NNPS Airlines))
+      (VP (VBZ investigates)
+        (NP
+          (NP (JJ rare) (JJ power-loss) (NN incident))
+          (SBAR
+            (S
+              (NP (NNP Singapore) (NNP Airlines))
+              (VP (VBZ is)
+                (VP (VBG investigating)
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP
+                        (NP (CD one))
+                        (PP (IN of)
+                          (NP (PRP$ its) (NNP Airbus) (NNS A330-300s))))
+                      (ADVP (RB temporarily))
+                      (VP (VBD lost)
+                        (NP (NN power))
+                        (PP
+                          (PP (IN in)
+                            (CC both)
+                            (NP (NNP Rolls-Royce) (NNS engines)))
+                          (PP (IN in)
+                            (NP (NN mid-flight))))))))))))))
+    (, ,)
+    (NP (DT the) (NN carrier))
+    (VP (VBD said)
+      (PP (IN on)
+        (NP (NNP Wednesday))))
+    (. .)))
+
+root(ROOT-0, said-29)
+nn(Airlines-2, Singapore-1)
+nsubj(investigates-3, Airlines-2)
+ccomp(said-29, investigates-3)
+amod(incident-6, rare-4)
+amod(incident-6, power-loss-5)
+dobj(investigates-3, incident-6)
+nn(Airlines-8, Singapore-7)
+nsubj(investigating-10, Airlines-8)
+aux(investigating-10, is-9)
+rcmod(incident-6, investigating-10)
+advmod(lost-18, how-11)
+nsubj(lost-18, one-12)
+poss(A330-300s-16, its-14)
+nn(A330-300s-16, Airbus-15)
+prep_of(one-12, A330-300s-16)
+advmod(lost-18, temporarily-17)
+ccomp(investigating-10, lost-18)
+dobj(lost-18, power-19)
+prep(lost-18, in-20)
+dep(in-20, both-21)
+nn(engines-23, Rolls-Royce-22)
+conj(in-20, engines-23)
+prep_in(in-20, mid-flight-25)
+det(carrier-28, the-27)
+nsubj(said-29, carrier-28)
+prep_on(said-29, Wednesday-31)
+
+Sentence #2 (38 tokens):
+PHOTO: BLOOMBERG
+May 27, 2015 11:12 AM
+[SINGAPORE] Singapore Airlines is investigating how one of its Airbus A330-300s temporarily lost power in both Rolls-Royce engines in mid-flight, the carrier said on Wednesday.
+[Text=PHOTO CharacterOffsetBegin=222 CharacterOffsetEnd=227 PartOfSpeech=NN Lemma=photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=BLOOMBERG CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=BLOOMBERG NamedEntityTag=ORGANIZATION] [Text=May CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=27 CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=2015 CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=11:12 CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=CD Lemma=11:12 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=AM CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=NNP Lemma=AM NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T11:12 Timex=<TIMEX3 tid="t2" type="TIME" value="2015-05-27T11:12">May 27, 2015 11:12 AM<_TIMEX3>] [Text=-LSB- CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=-LRB- Lemma=-lsb- NamedEntityTag=O] [Text=SINGAPORE CharacterOffsetBegin=262 CharacterOffsetEnd=271 PartOfSpeech=NNP Lemma=SINGAPORE NamedEntityTag=LOCATION] [Text=-RSB- CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=-RRB- Lemma=-rsb- NamedEntityTag=O] [Text=Singapore CharacterOffsetBegin=273 CharacterOffsetEnd=282 PartOfSpeech=NNP Lemma=Singapore NamedEntityTag=ORGANIZATION] [Text=Airlines CharacterOffsetBegin=283 CharacterOffsetEnd=291 PartOfSpeech=NNPS Lemma=Airlines NamedEntityTag=ORGANIZATION] [Text=is CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=investigating CharacterOffsetBegin=295 CharacterOffsetEnd=308 PartOfSpeech=VBG Lemma=investigate NamedEntityTag=O] [Text=how CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=one CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=Airbus CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Airbus NamedEntityTag=MISC] [Text=A330-300s CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=NNS Lemma=a330-300 NamedEntityTag=MISC] [Text=temporarily CharacterOffsetBegin=341 CharacterOffsetEnd=352 PartOfSpeech=RB Lemma=temporarily NamedEntityTag=O] [Text=lost CharacterOffsetBegin=353 CharacterOffsetEnd=357 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O] [Text=power CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=in CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=both CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=CC Lemma=both NamedEntityTag=O] [Text=Rolls-Royce CharacterOffsetBegin=372 CharacterOffsetEnd=383 PartOfSpeech=NNP Lemma=Rolls-Royce NamedEntityTag=ORGANIZATION] [Text=engines CharacterOffsetBegin=384 CharacterOffsetEnd=391 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=in CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=mid-flight CharacterOffsetBegin=395 CharacterOffsetEnd=405 PartOfSpeech=NN Lemma=mid-flight NamedEntityTag=O] [Text=, CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=carrier CharacterOffsetBegin=411 CharacterOffsetEnd=418 PartOfSpeech=NN Lemma=carrier NamedEntityTag=O] [Text=said CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=on CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=427 CharacterOffsetEnd=436 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=. CharacterOffsetBegin=436 CharacterOffsetEnd=437 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN PHOTO))
+    (: :)
+    (NP
+      (NP (NNP BLOOMBERG) (NNP May) (CD 27) (, ,) (CD 2015))
+      (SBAR
+        (S
+          (NP
+            (NP (CD 11:12) (NNP AM) (-LRB- -LSB-) (NNP SINGAPORE))
+            (PP (-RRB- -RSB-)
+              (NP (NNP Singapore) (NNPS Airlines))))
+          (VP (VBZ is)
+            (VP (VBG investigating)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP (PRP$ its) (NNP Airbus) (NNS A330-300s))))
+                  (VP
+                    (ADVP (RB temporarily))
+                    (VBD lost)
+                    (NP (NN power))
+                    (SBAR (IN in)
+                      (S
+                        (NP (CC both)
+                          (NP
+                            (NP (NNP Rolls-Royce) (NNS engines))
+                            (PP (IN in)
+                              (NP (NN mid-flight))))
+                          (, ,)
+                          (NP (DT the) (NN carrier)))
+                        (VP (VBD said)
+                          (PP (IN on)
+                            (NP (NNP Wednesday))))))))))))))
+    (. .)))
+
+root(ROOT-0, PHOTO-1)
+nn(May-4, BLOOMBERG-3)
+dep(PHOTO-1, May-4)
+num(May-4, 27-5)
+num(May-4, 2015-7)
+num(SINGAPORE-11, 11:12-8)
+nn(SINGAPORE-11, AM-9)
+punct(SINGAPORE-11, -LSB--10)
+nsubj(investigating-16, SINGAPORE-11)
+punct(Airlines-14, -RSB--12)
+nn(Airlines-14, Singapore-13)
+prep(SINGAPORE-11, Airlines-14)
+aux(investigating-16, is-15)
+rcmod(May-4, investigating-16)
+advmod(lost-24, how-17)
+nsubj(lost-24, one-18)
+poss(A330-300s-22, its-20)
+nn(A330-300s-22, Airbus-21)
+prep_of(one-18, A330-300s-22)
+advmod(lost-24, temporarily-23)
+ccomp(investigating-16, lost-24)
+dobj(lost-24, power-25)
+mark(said-35, in-26)
+dep(engines-29, both-27)
+nn(engines-29, Rolls-Royce-28)
+nsubj(said-35, engines-29)
+prep_in(engines-29, mid-flight-31)
+det(carrier-34, the-33)
+dep(engines-29, carrier-34)
+advcl(lost-24, said-35)
+prep_on(said-35, Wednesday-37)
+
+Sentence #3 (25 tokens):
+The May 23 incident occurred when Flight SQ836 hit bad weather en route to Shanghai from Singapore with 194 passengers and crew on board.
+[Text=The CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=May CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-23 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-23">May 23<_TIMEX3>] [Text=23 CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=CD Lemma=23 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-23 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-23">May 23<_TIMEX3>] [Text=incident CharacterOffsetBegin=449 CharacterOffsetEnd=457 PartOfSpeech=NN Lemma=incident NamedEntityTag=O] [Text=occurred CharacterOffsetBegin=458 CharacterOffsetEnd=466 PartOfSpeech=VBD Lemma=occur NamedEntityTag=O] [Text=when CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Flight CharacterOffsetBegin=472 CharacterOffsetEnd=478 PartOfSpeech=NNP Lemma=Flight NamedEntityTag=O] [Text=SQ836 CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=NNP Lemma=SQ836 NamedEntityTag=O] [Text=hit CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=VBD Lemma=hit NamedEntityTag=O] [Text=bad CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=JJ Lemma=bad NamedEntityTag=O] [Text=weather CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=weather NamedEntityTag=O] [Text=en CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=IN Lemma=en NamedEntityTag=O] [Text=route CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=NN Lemma=route NamedEntityTag=O] [Text=to CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Shanghai CharacterOffsetBegin=513 CharacterOffsetEnd=521 PartOfSpeech=NNP Lemma=Shanghai NamedEntityTag=LOCATION] [Text=from CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Singapore CharacterOffsetBegin=527 CharacterOffsetEnd=536 PartOfSpeech=NNP Lemma=Singapore NamedEntityTag=LOCATION] [Text=with CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=194 CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=CD Lemma=194 NamedEntityTag=NUMBER NormalizedNamedEntityTag=194.0] [Text=passengers CharacterOffsetBegin=546 CharacterOffsetEnd=556 PartOfSpeech=NNS Lemma=passenger NamedEntityTag=O] [Text=and CharacterOffsetBegin=557 CharacterOffsetEnd=560 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=crew CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=NN Lemma=crew NamedEntityTag=O] [Text=on CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=board CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=NN Lemma=board NamedEntityTag=O] [Text=. CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP May) (CD 23) (NN incident))
+    (VP (VBD occurred)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Flight) (NNP SQ836))
+          (VP (VBD hit)
+            (NP (JJ bad) (NN weather))
+            (ADVP (IN en) (NN route)
+              (PP (TO to)
+                (NP (NNP Shanghai))))
+            (PP (IN from)
+              (NP (NNP Singapore)))
+            (PP (IN with)
+              (NP
+                (NP (CD 194) (NNS passengers))
+                (CC and)
+                (NP (NN crew))))
+            (PP (IN on)
+              (NP (NN board)))))))
+    (. .)))
+
+root(ROOT-0, occurred-5)
+det(incident-4, The-1)
+nn(incident-4, May-2)
+num(incident-4, 23-3)
+nsubj(occurred-5, incident-4)
+advmod(hit-9, when-6)
+nn(SQ836-8, Flight-7)
+nsubj(hit-9, SQ836-8)
+advcl(occurred-5, hit-9)
+amod(weather-11, bad-10)
+dobj(hit-9, weather-11)
+advmod(hit-9, en-12)
+dep(en-12, route-13)
+prep_to(en-12, Shanghai-15)
+prep_from(hit-9, Singapore-17)
+num(passengers-20, 194-19)
+prep_with(hit-9, passengers-20)
+conj_and(passengers-20, crew-22)
+prep_on(hit-9, board-24)
+
+Sentence #4 (30 tokens):
+"Both engines experienced a temporary loss of power and the pilots followed operational procedures to restore normal operation of the engines," SIA said in a statement.
+[Text=`` CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Both CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=engines CharacterOffsetBegin=582 CharacterOffsetEnd=589 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=experienced CharacterOffsetBegin=590 CharacterOffsetEnd=601 PartOfSpeech=VBD Lemma=experience NamedEntityTag=O] [Text=a CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=temporary CharacterOffsetBegin=604 CharacterOffsetEnd=613 PartOfSpeech=JJ Lemma=temporary NamedEntityTag=O] [Text=loss CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=NN Lemma=loss NamedEntityTag=O] [Text=of CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=power CharacterOffsetBegin=622 CharacterOffsetEnd=627 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=and CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=pilots CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=NNS Lemma=pilot NamedEntityTag=O] [Text=followed CharacterOffsetBegin=643 CharacterOffsetEnd=651 PartOfSpeech=VBD Lemma=follow NamedEntityTag=O] [Text=operational CharacterOffsetBegin=652 CharacterOffsetEnd=663 PartOfSpeech=JJ Lemma=operational NamedEntityTag=O] [Text=procedures CharacterOffsetBegin=664 CharacterOffsetEnd=674 PartOfSpeech=NNS Lemma=procedure NamedEntityTag=O] [Text=to CharacterOffsetBegin=675 CharacterOffsetEnd=677 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=restore CharacterOffsetBegin=678 CharacterOffsetEnd=685 PartOfSpeech=VB Lemma=restore NamedEntityTag=O] [Text=normal CharacterOffsetBegin=686 CharacterOffsetEnd=692 PartOfSpeech=JJ Lemma=normal NamedEntityTag=O] [Text=operation CharacterOffsetBegin=693 CharacterOffsetEnd=702 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=of CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=engines CharacterOffsetBegin=710 CharacterOffsetEnd=717 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=, CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=SIA CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=NNP Lemma=SIA NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=in CharacterOffsetBegin=729 CharacterOffsetEnd=731 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=732 CharacterOffsetEnd=733 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=statement CharacterOffsetBegin=734 CharacterOffsetEnd=743 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=. CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (DT Both) (NNS engines))
+        (VP (VBD experienced)
+          (NP
+            (NP (DT a) (JJ temporary) (NN loss))
+            (PP (IN of)
+              (NP (NN power))))))
+      (CC and)
+      (S
+        (NP (DT the) (NNS pilots))
+        (VP (VBD followed)
+          (NP (JJ operational) (NNS procedures))
+          (S
+            (VP (TO to)
+              (VP (VB restore)
+                (NP
+                  (NP (JJ normal) (NN operation))
+                  (PP (IN of)
+                    (NP (DT the) (NNS engines))))))))))
+    (, ,) (__ __)
+    (NP (NNP SIA))
+    (VP (VBD said)
+      (PP (IN in)
+        (NP (DT a) (NN statement))))
+    (. .)))
+
+root(ROOT-0, said-26)
+det(engines-3, Both-2)
+nsubj(experienced-4, engines-3)
+ccomp(said-26, experienced-4)
+det(loss-7, a-5)
+amod(loss-7, temporary-6)
+dobj(experienced-4, loss-7)
+prep_of(loss-7, power-9)
+det(pilots-12, the-11)
+nsubj(followed-13, pilots-12)
+conj_and(experienced-4, followed-13)
+amod(procedures-15, operational-14)
+dobj(followed-13, procedures-15)
+aux(restore-17, to-16)
+vmod(followed-13, restore-17)
+amod(operation-19, normal-18)
+dobj(restore-17, operation-19)
+det(engines-22, the-21)
+prep_of(operation-19, engines-22)
+nsubj(said-26, SIA-25)
+det(statement-29, a-28)
+prep_in(said-26, statement-29)
+
+Sentence #5 (22 tokens):
+The flight landed safety in Shanghai, where no immediate "anomalies" were found in the engine, it added.
+[Text=The CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=flight CharacterOffsetBegin=749 CharacterOffsetEnd=755 PartOfSpeech=NN Lemma=flight NamedEntityTag=O] [Text=landed CharacterOffsetBegin=756 CharacterOffsetEnd=762 PartOfSpeech=VBD Lemma=land NamedEntityTag=O] [Text=safety CharacterOffsetBegin=763 CharacterOffsetEnd=769 PartOfSpeech=NN Lemma=safety NamedEntityTag=O] [Text=in CharacterOffsetBegin=770 CharacterOffsetEnd=772 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Shanghai CharacterOffsetBegin=773 CharacterOffsetEnd=781 PartOfSpeech=NNP Lemma=Shanghai NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=781 CharacterOffsetEnd=782 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=where CharacterOffsetBegin=783 CharacterOffsetEnd=788 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=no CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=immediate CharacterOffsetBegin=792 CharacterOffsetEnd=801 PartOfSpeech=JJ Lemma=immediate NamedEntityTag=O] [Text=`` CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=anomalies CharacterOffsetBegin=803 CharacterOffsetEnd=812 PartOfSpeech=NNS Lemma=anomaly NamedEntityTag=O] [Text=__ CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=were CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=found CharacterOffsetBegin=819 CharacterOffsetEnd=824 PartOfSpeech=VBN Lemma=find NamedEntityTag=O] [Text=in CharacterOffsetBegin=825 CharacterOffsetEnd=827 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=828 CharacterOffsetEnd=831 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=engine CharacterOffsetBegin=832 CharacterOffsetEnd=838 PartOfSpeech=NN Lemma=engine NamedEntityTag=O] [Text=, CharacterOffsetBegin=838 CharacterOffsetEnd=839 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=840 CharacterOffsetEnd=842 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=added CharacterOffsetBegin=843 CharacterOffsetEnd=848 PartOfSpeech=VBD Lemma=add NamedEntityTag=O] [Text=. CharacterOffsetBegin=848 CharacterOffsetEnd=849 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN flight))
+      (VP (VBD landed)
+        (NP (NN safety))
+        (PP (IN in)
+          (NP (NNP Shanghai)))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT no) (JJ immediate) (`` ``) (NNS anomalies) (__ __))
+            (VP (VBD were)
+              (VP (VBN found)
+                (PP (IN in)
+                  (NP (DT the) (NN engine)))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD added))
+    (. .)))
+
+root(ROOT-0, added-21)
+det(flight-2, The-1)
+nsubj(landed-3, flight-2)
+ccomp(added-21, landed-3)
+dobj(landed-3, safety-4)
+prep_in(landed-3, Shanghai-6)
+advmod(found-15, where-8)
+neg(anomalies-12, no-9)
+amod(anomalies-12, immediate-10)
+nsubjpass(found-15, anomalies-12)
+auxpass(found-15, were-14)
+advcl(landed-3, found-15)
+det(engine-18, the-17)
+prep_in(found-15, engine-18)
+nsubj(added-21, it-20)
+
+Sentence #6 (38 tokens):
+Rolls-Royce said it is providing "support and technical assistance" to SIA, while Airbus said it is in contact with both the airline and the engine maker to determine the cause of the power loss.
+[Text=Rolls-Royce CharacterOffsetBegin=850 CharacterOffsetEnd=861 PartOfSpeech=NNP Lemma=Rolls-Royce NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=862 CharacterOffsetEnd=866 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=it CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=870 CharacterOffsetEnd=872 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=providing CharacterOffsetBegin=873 CharacterOffsetEnd=882 PartOfSpeech=VBG Lemma=provide NamedEntityTag=O] [Text=`` CharacterOffsetBegin=883 CharacterOffsetEnd=884 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=support CharacterOffsetBegin=884 CharacterOffsetEnd=891 PartOfSpeech=NN Lemma=support NamedEntityTag=O] [Text=and CharacterOffsetBegin=892 CharacterOffsetEnd=895 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=technical CharacterOffsetBegin=896 CharacterOffsetEnd=905 PartOfSpeech=JJ Lemma=technical NamedEntityTag=O] [Text=assistance CharacterOffsetBegin=906 CharacterOffsetEnd=916 PartOfSpeech=NN Lemma=assistance NamedEntityTag=O] [Text=__ CharacterOffsetBegin=916 CharacterOffsetEnd=917 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=to CharacterOffsetBegin=918 CharacterOffsetEnd=920 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=SIA CharacterOffsetBegin=921 CharacterOffsetEnd=924 PartOfSpeech=NNP Lemma=SIA NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=while CharacterOffsetBegin=926 CharacterOffsetEnd=931 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=Airbus CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NNP Lemma=Airbus NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=it CharacterOffsetBegin=944 CharacterOffsetEnd=946 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=947 CharacterOffsetEnd=949 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=950 CharacterOffsetEnd=952 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=contact CharacterOffsetBegin=953 CharacterOffsetEnd=960 PartOfSpeech=NN Lemma=contact NamedEntityTag=O] [Text=with CharacterOffsetBegin=961 CharacterOffsetEnd=965 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=both CharacterOffsetBegin=966 CharacterOffsetEnd=970 PartOfSpeech=CC Lemma=both NamedEntityTag=O] [Text=the CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=airline CharacterOffsetBegin=975 CharacterOffsetEnd=982 PartOfSpeech=NN Lemma=airline NamedEntityTag=O] [Text=and CharacterOffsetBegin=983 CharacterOffsetEnd=986 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=987 CharacterOffsetEnd=990 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=engine CharacterOffsetBegin=991 CharacterOffsetEnd=997 PartOfSpeech=NN Lemma=engine NamedEntityTag=O] [Text=maker CharacterOffsetBegin=998 CharacterOffsetEnd=1003 PartOfSpeech=NN Lemma=maker NamedEntityTag=O] [Text=to CharacterOffsetBegin=1004 CharacterOffsetEnd=1006 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=determine CharacterOffsetBegin=1007 CharacterOffsetEnd=1016 PartOfSpeech=VB Lemma=determine NamedEntityTag=O] [Text=the CharacterOffsetBegin=1017 CharacterOffsetEnd=1020 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=cause CharacterOffsetBegin=1021 CharacterOffsetEnd=1026 PartOfSpeech=NN Lemma=cause NamedEntityTag=O] [Text=of CharacterOffsetBegin=1027 CharacterOffsetEnd=1029 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1030 CharacterOffsetEnd=1033 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=power CharacterOffsetBegin=1034 CharacterOffsetEnd=1039 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=loss CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=NN Lemma=loss NamedEntityTag=O] [Text=. CharacterOffsetBegin=1044 CharacterOffsetEnd=1045 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Rolls-Royce))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (VP (VBG providing)
+              (NP (`` ``)
+                (NP (NN support)
+                  (CC and)
+                  (JJ technical) (NN assistance))
+                (__ __)
+                (PP (TO to)
+                  (NP (NNP SIA))))
+              (, ,)
+              (SBAR (IN while)
+                (S
+                  (NP (NNP Airbus))
+                  (VP (VBD said)
+                    (SBAR
+                      (S
+                        (NP (PRP it))
+                        (VP (VBZ is)
+                          (PP (IN in)
+                            (NP
+                              (NP (NN contact))
+                              (PP (IN with)
+                                (NP (CC both)
+                                  (NP (DT the) (NN airline))
+                                  (CC and)
+                                  (NP (DT the) (NN engine) (NN maker))))))
+                          (S
+                            (VP (TO to)
+                              (VP (VB determine)
+                                (NP
+                                  (NP (DT the) (NN cause))
+                                  (PP (IN of)
+                                    (NP (DT the) (NN power) (NN loss))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-2)
+nsubj(said-2, Rolls-Royce-1)
+nsubj(providing-5, it-3)
+aux(providing-5, is-4)
+ccomp(said-2, providing-5)
+nn(assistance-10, support-7)
+conj_and(support-7, technical-9)
+dobj(providing-5, assistance-10)
+prep_to(assistance-10, SIA-13)
+mark(said-17, while-15)
+nsubj(said-17, Airbus-16)
+advcl(providing-5, said-17)
+nsubj(is-19, it-18)
+ccomp(said-17, is-19)
+prep_in(is-19, contact-21)
+preconj(airline-25, both-23)
+det(airline-25, the-24)
+prep_with(contact-21, airline-25)
+det(maker-29, the-27)
+nn(maker-29, engine-28)
+conj_and(airline-25, maker-29)
+aux(determine-31, to-30)
+xcomp(is-19, determine-31)
+det(cause-33, the-32)
+dobj(determine-31, cause-33)
+det(loss-37, the-35)
+nn(loss-37, power-36)
+prep_of(cause-33, loss-37)
+
+Sentence #7 (23 tokens):
+Singapore_s Air Accident Investigation Bureau (SAAIB) did not immediately say if it would open an investigation into the incident.
+[Text=Singapore CharacterOffsetBegin=1046 CharacterOffsetEnd=1055 PartOfSpeech=NNP Lemma=Singapore NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=1055 CharacterOffsetEnd=1057 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Air CharacterOffsetBegin=1058 CharacterOffsetEnd=1061 PartOfSpeech=NNP Lemma=Air NamedEntityTag=ORGANIZATION] [Text=Accident CharacterOffsetBegin=1062 CharacterOffsetEnd=1070 PartOfSpeech=NNP Lemma=Accident NamedEntityTag=ORGANIZATION] [Text=Investigation CharacterOffsetBegin=1071 CharacterOffsetEnd=1084 PartOfSpeech=NNP Lemma=Investigation NamedEntityTag=ORGANIZATION] [Text=Bureau CharacterOffsetBegin=1085 CharacterOffsetEnd=1091 PartOfSpeech=NNP Lemma=Bureau NamedEntityTag=ORGANIZATION] [Text=-LRB- CharacterOffsetBegin=1092 CharacterOffsetEnd=1093 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=SAAIB CharacterOffsetBegin=1093 CharacterOffsetEnd=1098 PartOfSpeech=NNP Lemma=SAAIB NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1098 CharacterOffsetEnd=1099 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=did CharacterOffsetBegin=1100 CharacterOffsetEnd=1103 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=1104 CharacterOffsetEnd=1107 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=immediately CharacterOffsetBegin=1108 CharacterOffsetEnd=1119 PartOfSpeech=RB Lemma=immediately NamedEntityTag=O] [Text=say CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=VB Lemma=say NamedEntityTag=O] [Text=if CharacterOffsetBegin=1124 CharacterOffsetEnd=1126 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=it CharacterOffsetBegin=1127 CharacterOffsetEnd=1129 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=would CharacterOffsetBegin=1130 CharacterOffsetEnd=1135 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=open CharacterOffsetBegin=1136 CharacterOffsetEnd=1140 PartOfSpeech=VB Lemma=open NamedEntityTag=O] [Text=an CharacterOffsetBegin=1141 CharacterOffsetEnd=1143 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=investigation CharacterOffsetBegin=1144 CharacterOffsetEnd=1157 PartOfSpeech=NN Lemma=investigation NamedEntityTag=O] [Text=into CharacterOffsetBegin=1158 CharacterOffsetEnd=1162 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=1163 CharacterOffsetEnd=1166 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=incident CharacterOffsetBegin=1167 CharacterOffsetEnd=1175 PartOfSpeech=NN Lemma=incident NamedEntityTag=O] [Text=. CharacterOffsetBegin=1175 CharacterOffsetEnd=1176 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Singapore) (POS _s))
+      (NNP Air) (NNP Accident) (NNP Investigation) (NNP Bureau)
+      (PRN (-LRB- -LRB-)
+        (NP (NNP SAAIB))
+        (-RRB- -RRB-)))
+    (VP (VBD did) (RB not)
+      (ADVP (RB immediately))
+      (VP (VB say)
+        (SBAR (IN if)
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (VP (VB open)
+                (NP (DT an) (NN investigation))
+                (PP (IN into)
+                  (NP (DT the) (NN incident)))))))))
+    (. .)))
+
+root(ROOT-0, say-13)
+poss(Bureau-6, Singapore-1)
+nn(Bureau-6, Air-3)
+nn(Bureau-6, Accident-4)
+nn(Bureau-6, Investigation-5)
+nsubj(say-13, Bureau-6)
+appos(Bureau-6, SAAIB-8)
+aux(say-13, did-10)
+neg(say-13, not-11)
+advmod(say-13, immediately-12)
+mark(open-17, if-14)
+nsubj(open-17, it-15)
+aux(open-17, would-16)
+advcl(say-13, open-17)
+det(investigation-19, an-18)
+dobj(open-17, investigation-19)
+det(incident-22, the-21)
+prep_into(open-17, incident-22)
+
+Sentence #8 (24 tokens):
+Pilots told Reuters that losing power in both engines is an extremely rare event, but one that they are trained to handle.
+[Text=Pilots CharacterOffsetBegin=1177 CharacterOffsetEnd=1183 PartOfSpeech=NNS Lemma=pilot NamedEntityTag=O] [Text=told CharacterOffsetBegin=1184 CharacterOffsetEnd=1188 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O] [Text=Reuters CharacterOffsetBegin=1189 CharacterOffsetEnd=1196 PartOfSpeech=NNP Lemma=Reuters NamedEntityTag=ORGANIZATION] [Text=that CharacterOffsetBegin=1197 CharacterOffsetEnd=1201 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=losing CharacterOffsetBegin=1202 CharacterOffsetEnd=1208 PartOfSpeech=VBG Lemma=lose NamedEntityTag=O] [Text=power CharacterOffsetBegin=1209 CharacterOffsetEnd=1214 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=in CharacterOffsetBegin=1215 CharacterOffsetEnd=1217 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=both CharacterOffsetBegin=1218 CharacterOffsetEnd=1222 PartOfSpeech=CC Lemma=both NamedEntityTag=O] [Text=engines CharacterOffsetBegin=1223 CharacterOffsetEnd=1230 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=is CharacterOffsetBegin=1231 CharacterOffsetEnd=1233 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=an CharacterOffsetBegin=1234 CharacterOffsetEnd=1236 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=extremely CharacterOffsetBegin=1237 CharacterOffsetEnd=1246 PartOfSpeech=RB Lemma=extremely NamedEntityTag=O] [Text=rare CharacterOffsetBegin=1247 CharacterOffsetEnd=1251 PartOfSpeech=JJ Lemma=rare NamedEntityTag=O] [Text=event CharacterOffsetBegin=1252 CharacterOffsetEnd=1257 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=, CharacterOffsetBegin=1257 CharacterOffsetEnd=1258 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1259 CharacterOffsetEnd=1262 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=one CharacterOffsetBegin=1263 CharacterOffsetEnd=1266 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=that CharacterOffsetBegin=1267 CharacterOffsetEnd=1271 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=they CharacterOffsetBegin=1272 CharacterOffsetEnd=1276 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=are CharacterOffsetBegin=1277 CharacterOffsetEnd=1280 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=trained CharacterOffsetBegin=1281 CharacterOffsetEnd=1288 PartOfSpeech=VBN Lemma=train NamedEntityTag=O] [Text=to CharacterOffsetBegin=1289 CharacterOffsetEnd=1291 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=handle CharacterOffsetBegin=1292 CharacterOffsetEnd=1298 PartOfSpeech=VB Lemma=handle NamedEntityTag=O] [Text=. CharacterOffsetBegin=1298 CharacterOffsetEnd=1299 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS Pilots))
+    (VP (VBD told)
+      (NP (NNP Reuters))
+      (SBAR (IN that)
+        (S
+          (NP (VBG losing)
+            (NX
+              (NX
+                (NX (NN power))
+                (PP (IN in)))
+              (CC both)
+              (NX (NNS engines))))
+          (VP (VBZ is)
+            (NP
+              (NP (DT an)
+                (ADJP (RB extremely) (JJ rare))
+                (NN event))
+              (, ,)
+              (CC but)
+              (NP
+                (NP (CD one))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP they))
+                    (VP (VBP are)
+                      (VP (VBN trained)
+                        (S
+                          (VP (TO to)
+                            (VP (VB handle))))))))))))))
+    (. .)))
+
+root(ROOT-0, told-2)
+nsubj(told-2, Pilots-1)
+dobj(told-2, Reuters-3)
+mark(event-14, that-4)
+amod(power-6, losing-5)
+nsubj(event-14, power-6)
+prep(power-6, in-7)
+dep(power-6, both-8)
+conj(power-6, engines-9)
+cop(event-14, is-10)
+det(event-14, an-11)
+advmod(rare-13, extremely-12)
+amod(event-14, rare-13)
+ccomp(told-2, event-14)
+conj_but(event-14, one-17)
+mark(trained-21, that-18)
+nsubjpass(trained-21, they-19)
+auxpass(trained-21, are-20)
+dep(one-17, trained-21)
+aux(handle-23, to-22)
+xcomp(trained-21, handle-23)
+
+Sentence #9 (21 tokens):
+"We do occasionally lose power in one engine for various reasons, but you hardly ever lose both engines.
+[Text=`` CharacterOffsetBegin=1300 CharacterOffsetEnd=1301 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=1301 CharacterOffsetEnd=1303 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=do CharacterOffsetBegin=1304 CharacterOffsetEnd=1306 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=occasionally CharacterOffsetBegin=1307 CharacterOffsetEnd=1319 PartOfSpeech=RB Lemma=occasionally NamedEntityTag=O] [Text=lose CharacterOffsetBegin=1320 CharacterOffsetEnd=1324 PartOfSpeech=VB Lemma=lose NamedEntityTag=O] [Text=power CharacterOffsetBegin=1325 CharacterOffsetEnd=1330 PartOfSpeech=NN Lemma=power NamedEntityTag=O] [Text=in CharacterOffsetBegin=1331 CharacterOffsetEnd=1333 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=one CharacterOffsetBegin=1334 CharacterOffsetEnd=1337 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=engine CharacterOffsetBegin=1338 CharacterOffsetEnd=1344 PartOfSpeech=NN Lemma=engine NamedEntityTag=O] [Text=for CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=various CharacterOffsetBegin=1349 CharacterOffsetEnd=1356 PartOfSpeech=JJ Lemma=various NamedEntityTag=O] [Text=reasons CharacterOffsetBegin=1357 CharacterOffsetEnd=1364 PartOfSpeech=NNS Lemma=reason NamedEntityTag=O] [Text=, CharacterOffsetBegin=1364 CharacterOffsetEnd=1365 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1366 CharacterOffsetEnd=1369 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=you CharacterOffsetBegin=1370 CharacterOffsetEnd=1373 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=hardly CharacterOffsetBegin=1374 CharacterOffsetEnd=1380 PartOfSpeech=RB Lemma=hardly NamedEntityTag=O] [Text=ever CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=RB Lemma=ever NamedEntityTag=O] [Text=lose CharacterOffsetBegin=1386 CharacterOffsetEnd=1390 PartOfSpeech=VB Lemma=lose NamedEntityTag=O] [Text=both CharacterOffsetBegin=1391 CharacterOffsetEnd=1395 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=engines CharacterOffsetBegin=1396 CharacterOffsetEnd=1403 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=. CharacterOffsetBegin=1403 CharacterOffsetEnd=1404 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP We))
+      (VP (VBP do)
+        (ADVP (RB occasionally))
+        (VP (VB lose)
+          (NP (NN power))
+          (PP (IN in)
+            (NP
+              (NP (CD one) (NN engine))
+              (PP (IN for)
+                (NP (JJ various) (NNS reasons))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP you))
+      (ADVP (RB hardly))
+      (VP
+        (ADVP (RB ever))
+        (VB lose)
+        (NP (DT both) (NNS engines))))
+    (. .)))
+
+root(ROOT-0, lose-5)
+nsubj(lose-5, We-2)
+aux(lose-5, do-3)
+advmod(lose-5, occasionally-4)
+dobj(lose-5, power-6)
+num(engine-9, one-8)
+prep_in(lose-5, engine-9)
+amod(reasons-12, various-11)
+prep_for(engine-9, reasons-12)
+nsubj(lose-18, you-15)
+advmod(lose-18, hardly-16)
+advmod(lose-18, ever-17)
+conj_but(lose-5, lose-18)
+det(engines-20, both-19)
+dobj(lose-18, engines-20)
+
+Sentence #10 (18 tokens):
+If that happens, you follow the procedures in your check-list and try to restart the engines.
+[Text=If CharacterOffsetBegin=1405 CharacterOffsetEnd=1407 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=that CharacterOffsetBegin=1408 CharacterOffsetEnd=1412 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=happens CharacterOffsetBegin=1413 CharacterOffsetEnd=1420 PartOfSpeech=VBZ Lemma=happen NamedEntityTag=O] [Text=, CharacterOffsetBegin=1420 CharacterOffsetEnd=1421 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=1422 CharacterOffsetEnd=1425 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=follow CharacterOffsetBegin=1426 CharacterOffsetEnd=1432 PartOfSpeech=VBP Lemma=follow NamedEntityTag=O] [Text=the CharacterOffsetBegin=1433 CharacterOffsetEnd=1436 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=procedures CharacterOffsetBegin=1437 CharacterOffsetEnd=1447 PartOfSpeech=NNS Lemma=procedure NamedEntityTag=O] [Text=in CharacterOffsetBegin=1448 CharacterOffsetEnd=1450 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=your CharacterOffsetBegin=1451 CharacterOffsetEnd=1455 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=check-list CharacterOffsetBegin=1456 CharacterOffsetEnd=1466 PartOfSpeech=NN Lemma=check-list NamedEntityTag=O] [Text=and CharacterOffsetBegin=1467 CharacterOffsetEnd=1470 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=try CharacterOffsetBegin=1471 CharacterOffsetEnd=1474 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=1475 CharacterOffsetEnd=1477 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=restart CharacterOffsetBegin=1478 CharacterOffsetEnd=1485 PartOfSpeech=VB Lemma=restart NamedEntityTag=O] [Text=the CharacterOffsetBegin=1486 CharacterOffsetEnd=1489 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=engines CharacterOffsetBegin=1490 CharacterOffsetEnd=1497 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O] [Text=. CharacterOffsetBegin=1497 CharacterOffsetEnd=1498 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT that))
+        (VP (VBZ happens))))
+    (, ,)
+    (NP (PRP you))
+    (VP
+      (VP (VBP follow)
+        (NP (DT the) (NNS procedures))
+        (PP (IN in)
+          (NP (PRP$ your) (NN check-list))))
+      (CC and)
+      (VP (VB try)
+        (S
+          (VP (TO to)
+            (VP (VB restart)
+              (NP (DT the) (NNS engines)))))))
+    (. .)))
+
+root(ROOT-0, follow-6)
+mark(happens-3, If-1)
+nsubj(happens-3, that-2)
+advcl(follow-6, happens-3)
+nsubj(follow-6, you-5)
+det(procedures-8, the-7)
+dobj(follow-6, procedures-8)
+poss(check-list-11, your-10)
+prep_in(follow-6, check-list-11)
+conj_and(follow-6, try-13)
+aux(restart-15, to-14)
+xcomp(try-13, restart-15)
+det(engines-17, the-16)
+dobj(restart-15, engines-17)
+
+Sentence #11 (18 tokens):
+The pilots successfully did that here," said a senior captain in a Southeast Asian airline.
+[Text=The CharacterOffsetBegin=1499 CharacterOffsetEnd=1502 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=pilots CharacterOffsetBegin=1503 CharacterOffsetEnd=1509 PartOfSpeech=NNS Lemma=pilot NamedEntityTag=O] [Text=successfully CharacterOffsetBegin=1510 CharacterOffsetEnd=1522 PartOfSpeech=RB Lemma=successfully NamedEntityTag=O] [Text=did CharacterOffsetBegin=1523 CharacterOffsetEnd=1526 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=that CharacterOffsetBegin=1527 CharacterOffsetEnd=1531 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=here CharacterOffsetBegin=1532 CharacterOffsetEnd=1536 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=, CharacterOffsetBegin=1536 CharacterOffsetEnd=1537 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1537 CharacterOffsetEnd=1538 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=said CharacterOffsetBegin=1539 CharacterOffsetEnd=1543 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=a CharacterOffsetBegin=1544 CharacterOffsetEnd=1545 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=senior CharacterOffsetBegin=1546 CharacterOffsetEnd=1552 PartOfSpeech=JJ Lemma=senior NamedEntityTag=O] [Text=captain CharacterOffsetBegin=1553 CharacterOffsetEnd=1560 PartOfSpeech=NN Lemma=captain NamedEntityTag=O] [Text=in CharacterOffsetBegin=1561 CharacterOffsetEnd=1563 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1564 CharacterOffsetEnd=1565 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Southeast CharacterOffsetBegin=1566 CharacterOffsetEnd=1575 PartOfSpeech=JJ Lemma=southeast NamedEntityTag=MISC] [Text=Asian CharacterOffsetBegin=1576 CharacterOffsetEnd=1581 PartOfSpeech=JJ Lemma=asian NamedEntityTag=MISC] [Text=airline CharacterOffsetBegin=1582 CharacterOffsetEnd=1589 PartOfSpeech=NN Lemma=airline NamedEntityTag=O] [Text=. CharacterOffsetBegin=1589 CharacterOffsetEnd=1590 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (NP (DT The) (NNS pilots))
+      (ADVP (RB successfully))
+      (VP (VBD did)
+        (NP (DT that))
+        (ADVP (RB here))))
+    (, ,) (__ __)
+    (VP (VBD said))
+    (NP
+      (NP (DT a) (JJ senior) (NN captain))
+      (PP (IN in)
+        (NP (DT a)
+          (ADJP (JJ Southeast) (JJ Asian))
+          (NN airline))))
+    (. .)))
+
+root(ROOT-0, said-9)
+det(pilots-2, The-1)
+nsubj(did-4, pilots-2)
+advmod(did-4, successfully-3)
+ccomp(said-9, did-4)
+dobj(did-4, that-5)
+advmod(did-4, here-6)
+det(captain-12, a-10)
+amod(captain-12, senior-11)
+nsubj(said-9, captain-12)
+det(airline-17, a-14)
+amod(Asian-16, Southeast-15)
+amod(airline-17, Asian-16)
+prep_in(captain-12, airline-17)
+
+Sentence #12 (17 tokens):
+"If it was a very serious incident, they would have diverted to Hong Kong.
+[Text=`` CharacterOffsetBegin=1591 CharacterOffsetEnd=1592 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=If CharacterOffsetBegin=1592 CharacterOffsetEnd=1594 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=it CharacterOffsetBegin=1595 CharacterOffsetEnd=1597 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1598 CharacterOffsetEnd=1601 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1602 CharacterOffsetEnd=1603 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=very CharacterOffsetBegin=1604 CharacterOffsetEnd=1608 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=serious CharacterOffsetBegin=1609 CharacterOffsetEnd=1616 PartOfSpeech=JJ Lemma=serious NamedEntityTag=O] [Text=incident CharacterOffsetBegin=1617 CharacterOffsetEnd=1625 PartOfSpeech=NN Lemma=incident NamedEntityTag=O] [Text=, CharacterOffsetBegin=1625 CharacterOffsetEnd=1626 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=they CharacterOffsetBegin=1627 CharacterOffsetEnd=1631 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=would CharacterOffsetBegin=1632 CharacterOffsetEnd=1637 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=have CharacterOffsetBegin=1638 CharacterOffsetEnd=1642 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=diverted CharacterOffsetBegin=1643 CharacterOffsetEnd=1651 PartOfSpeech=VBN Lemma=divert NamedEntityTag=O] [Text=to CharacterOffsetBegin=1652 CharacterOffsetEnd=1654 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Hong CharacterOffsetBegin=1655 CharacterOffsetEnd=1659 PartOfSpeech=NNP Lemma=Hong NamedEntityTag=LOCATION] [Text=Kong CharacterOffsetBegin=1660 CharacterOffsetEnd=1664 PartOfSpeech=NNP Lemma=Kong NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1664 CharacterOffsetEnd=1665 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (SBAR (IN If)
+      (S
+        (NP (PRP it))
+        (VP (VBD was)
+          (NP (DT a)
+            (ADJP (RB very) (JJ serious))
+            (NN incident)))))
+    (, ,)
+    (NP (PRP they))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN diverted)
+          (PP (TO to)
+            (NP (NNP Hong) (NNP Kong))))))
+    (. .)))
+
+root(ROOT-0, diverted-13)
+mark(incident-8, If-2)
+nsubj(incident-8, it-3)
+cop(incident-8, was-4)
+det(incident-8, a-5)
+advmod(serious-7, very-6)
+amod(incident-8, serious-7)
+advcl(diverted-13, incident-8)
+nsubj(diverted-13, they-10)
+aux(diverted-13, would-11)
+aux(diverted-13, have-12)
+nn(Kong-16, Hong-15)
+prep_to(diverted-13, Kong-16)
+
+Sentence #13 (39 tokens):
+But the fact that they continued on to Shanghai indicates that this may not have been as serious," the pilot said, declining to be named as he was not authorised to speak to the media.
+[Text=But CharacterOffsetBegin=1666 CharacterOffsetEnd=1669 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=1670 CharacterOffsetEnd=1673 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fact CharacterOffsetBegin=1674 CharacterOffsetEnd=1678 PartOfSpeech=NN Lemma=fact NamedEntityTag=O] [Text=that CharacterOffsetBegin=1679 CharacterOffsetEnd=1683 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=they CharacterOffsetBegin=1684 CharacterOffsetEnd=1688 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=continued CharacterOffsetBegin=1689 CharacterOffsetEnd=1698 PartOfSpeech=VBD Lemma=continue NamedEntityTag=O] [Text=on CharacterOffsetBegin=1699 CharacterOffsetEnd=1701 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=to CharacterOffsetBegin=1702 CharacterOffsetEnd=1704 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Shanghai CharacterOffsetBegin=1705 CharacterOffsetEnd=1713 PartOfSpeech=NNP Lemma=Shanghai NamedEntityTag=LOCATION] [Text=indicates CharacterOffsetBegin=1714 CharacterOffsetEnd=1723 PartOfSpeech=VBZ Lemma=indicate NamedEntityTag=O] [Text=that CharacterOffsetBegin=1724 CharacterOffsetEnd=1728 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=this CharacterOffsetBegin=1729 CharacterOffsetEnd=1733 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS XXXX-05 Timex=<TIMEX3 alt_value="THIS XXXX-05" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">this may<_TIMEX3>] [Text=may CharacterOffsetBegin=1734 CharacterOffsetEnd=1737 PartOfSpeech=MD Lemma=may NamedEntityTag=DATE NormalizedNamedEntityTag=THIS XXXX-05 Timex=<TIMEX3 alt_value="THIS XXXX-05" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">this may<_TIMEX3>] [Text=not CharacterOffsetBegin=1738 CharacterOffsetEnd=1741 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=1742 CharacterOffsetEnd=1746 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1747 CharacterOffsetEnd=1751 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=as CharacterOffsetBegin=1752 CharacterOffsetEnd=1754 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=serious CharacterOffsetBegin=1755 CharacterOffsetEnd=1762 PartOfSpeech=JJ Lemma=serious NamedEntityTag=O] [Text=, CharacterOffsetBegin=1762 CharacterOffsetEnd=1763 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1763 CharacterOffsetEnd=1764 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=the CharacterOffsetBegin=1765 CharacterOffsetEnd=1768 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=pilot CharacterOffsetBegin=1769 CharacterOffsetEnd=1774 PartOfSpeech=NN Lemma=pilot NamedEntityTag=O] [Text=said CharacterOffsetBegin=1775 CharacterOffsetEnd=1779 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=1779 CharacterOffsetEnd=1780 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=declining CharacterOffsetBegin=1781 CharacterOffsetEnd=1790 PartOfSpeech=VBG Lemma=decline NamedEntityTag=O] [Text=to CharacterOffsetBegin=1791 CharacterOffsetEnd=1793 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1794 CharacterOffsetEnd=1796 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=named CharacterOffsetBegin=1797 CharacterOffsetEnd=1802 PartOfSpeech=VBN Lemma=name NamedEntityTag=O] [Text=as CharacterOffsetBegin=1803 CharacterOffsetEnd=1805 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=he CharacterOffsetBegin=1806 CharacterOffsetEnd=1808 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=1809 CharacterOffsetEnd=1812 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=1813 CharacterOffsetEnd=1816 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=authorised CharacterOffsetBegin=1817 CharacterOffsetEnd=1827 PartOfSpeech=VBN Lemma=authorise NamedEntityTag=O] [Text=to CharacterOffsetBegin=1828 CharacterOffsetEnd=1830 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=speak CharacterOffsetBegin=1831 CharacterOffsetEnd=1836 PartOfSpeech=VB Lemma=speak NamedEntityTag=O] [Text=to CharacterOffsetBegin=1837 CharacterOffsetEnd=1839 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1840 CharacterOffsetEnd=1843 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=1844 CharacterOffsetEnd=1849 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=. CharacterOffsetBegin=1849 CharacterOffsetEnd=1850 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (S
+      (NP
+        (NP (DT the) (NN fact))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBD continued)
+              (PP (IN on)
+                (PP (TO to)
+                  (NP (NNP Shanghai))))))))
+      (VP (VBZ indicates)
+        (SBAR (IN that)
+          (S
+            (NP (DT this))
+            (VP (MD may) (RB not)
+              (VP (VB have)
+                (VP (VBN been)
+                  (ADJP (RB as) (JJ serious)))))))))
+    (, ,) (__ __)
+    (NP (DT the) (NN pilot))
+    (VP (VBD said) (, ,)
+      (S
+        (VP (VBG declining)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (VP (VBN named)
+                  (SBAR (IN as)
+                    (S
+                      (NP (PRP he))
+                      (VP (VBD was) (RB not)
+                        (VP (VBN authorised)
+                          (S
+                            (VP (TO to)
+                              (VP (VB speak)
+                                (PP (TO to)
+                                  (NP (DT the) (NNS media)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-23)
+cc(said-23, But-1)
+det(fact-3, the-2)
+nsubj(indicates-10, fact-3)
+mark(continued-6, that-4)
+nsubj(continued-6, they-5)
+dep(fact-3, continued-6)
+prep(continued-6, on-7)
+pcomp(on-7, to-8)
+pobj(to-8, Shanghai-9)
+dep(said-23, indicates-10)
+mark(serious-18, that-11)
+nsubj(serious-18, this-12)
+aux(serious-18, may-13)
+neg(serious-18, not-14)
+aux(serious-18, have-15)
+cop(serious-18, been-16)
+advmod(serious-18, as-17)
+ccomp(indicates-10, serious-18)
+det(pilot-22, the-21)
+nsubj(said-23, pilot-22)
+xcomp(said-23, declining-25)
+aux(named-28, to-26)
+auxpass(named-28, be-27)
+xcomp(declining-25, named-28)
+mark(authorised-33, as-29)
+nsubjpass(authorised-33, he-30)
+auxpass(authorised-33, was-31)
+neg(authorised-33, not-32)
+advcl(named-28, authorised-33)
+aux(speak-35, to-34)
+xcomp(authorised-33, speak-35)
+det(media-38, the-37)
+prep_to(speak-35, media-38)
+
+Sentence #14 (2 tokens):
+REUTERS
+More
+[Text=REUTERS CharacterOffsetBegin=1851 CharacterOffsetEnd=1858 PartOfSpeech=NNP Lemma=REUTERS NamedEntityTag=O] [Text=More CharacterOffsetBegin=1859 CharacterOffsetEnd=1863 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP REUTERS))
+      (NP (RBR More)))))
+
+root(ROOT-0, REUTERS-1)
+dep(REUTERS-1, More-2)
+
+Coreference set:
+ (1,8,[7,9]) -> (1,2,[1,3]), that is: "Singapore Airlines" -> "Singapore Airlines"
+ (2,14,[13,15]) -> (1,2,[1,3]), that is: "Singapore Airlines" -> "Singapore Airlines"
+Coreference set:
+ (2,22,[21,23]) -> (1,16,[15,17]), that is: "Airbus A330-300s" -> "Airbus A330-300s"
+Coreference set:
+ (2,28,[28,29]) -> (1,22,[22,23]), that is: "Rolls-Royce" -> "Rolls-Royce"
+ (6,1,[1,2]) -> (1,22,[22,23]), that is: "Rolls-Royce" -> "Rolls-Royce"
+ (6,3,[3,4]) -> (1,22,[22,23]), that is: "it" -> "Rolls-Royce"
+Coreference set:
+ (2,34,[33,35]) -> (1,28,[27,29]), that is: "the carrier" -> "the carrier"
+Coreference set:
+ (2,37,[37,38]) -> (1,31,[31,32]), that is: "Wednesday" -> "Wednesday"
+Coreference set:
+ (3,17,[17,18]) -> (2,11,[8,15]), that is: "Singapore" -> "11:12 AM -LSB- SINGAPORE -RSB- Singapore Airlines"
+ (7,1,[1,3]) -> (2,11,[8,15]), that is: "Singapore _s" -> "11:12 AM -LSB- SINGAPORE -RSB- Singapore Airlines"
+Coreference set:
+ (5,6,[6,7]) -> (3,15,[15,16]), that is: "Shanghai" -> "Shanghai"
+ (13,9,[9,10]) -> (3,15,[15,16]), that is: "Shanghai" -> "Shanghai"
+Coreference set:
+ (7,22,[21,23]) -> (3,4,[1,5]), that is: "the incident" -> "The May 23 incident"
+Coreference set:
+ (6,13,[13,14]) -> (4,25,[25,26]), that is: "SIA" -> "SIA"
+Coreference set:
+ (4,22,[21,23]) -> (4,3,[2,4]), that is: "the engines" -> "Both engines"
+ (10,17,[16,18]) -> (4,3,[2,4]), that is: "the engines" -> "Both engines"
+Coreference set:
+ (6,37,[35,38]) -> (4,7,[5,10]), that is: "the power loss" -> "a temporary loss of power"
+Coreference set:
+ (8,1,[1,2]) -> (4,12,[11,13]), that is: "Pilots" -> "the pilots"
+ (8,19,[19,20]) -> (4,12,[11,13]), that is: "they" -> "the pilots"
+ (11,2,[1,3]) -> (4,12,[11,13]), that is: "The pilots" -> "the pilots"
+ (11,5,[5,6]) -> (4,12,[11,13]), that is: "that" -> "the pilots"
+ (12,10,[10,11]) -> (4,12,[11,13]), that is: "they" -> "the pilots"
+ (13,5,[5,6]) -> (4,12,[11,13]), that is: "they" -> "the pilots"
+Coreference set:
+ (10,8,[7,9]) -> (4,15,[14,16]), that is: "the procedures" -> "operational procedures"
+Coreference set:
+ (5,20,[20,21]) -> (5,2,[1,3]), that is: "it" -> "The flight"
+Coreference set:
+ (6,18,[18,19]) -> (6,16,[16,17]), that is: "it" -> "Airbus"
+Coreference set:
+ (7,15,[15,16]) -> (7,6,[1,10]), that is: "it" -> "Singapore _s Air Accident Investigation Bureau -LRB- SAAIB -RRB-"
+Coreference set:
+ (8,3,[3,4]) -> (14,1,[1,3]), that is: "Reuters" -> "REUTERS More"
+Coreference set:
+ (8,6,[5,10]) -> (8,14,[11,15]), that is: "losing power in both engines" -> "an extremely rare event"
+Coreference set:
+ (10,2,[2,3]) -> (9,2,[2,3]), that is: "that" -> "We"
+Coreference set:
+ (10,5,[5,6]) -> (9,15,[15,16]), that is: "you" -> "you"
+ (10,10,[10,11]) -> (9,15,[15,16]), that is: "your" -> "you"
+Coreference set:
+ (12,3,[3,4]) -> (11,17,[14,18]), that is: "it" -> "a Southeast Asian airline"
+ (12,8,[5,9]) -> (11,17,[14,18]), that is: "a very serious incident" -> "a Southeast Asian airline"
+Coreference set:
+ (13,30,[30,31]) -> (13,22,[21,23]), that is: "he" -> "the pilot"

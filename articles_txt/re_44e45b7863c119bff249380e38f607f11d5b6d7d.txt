@@ -1,0 +1,279 @@
+Sentence #1 (6 tokens):
+Aim higher, reach further.
+[Text=Aim CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Aim NamedEntityTag=O] [Text=higher CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJR Lemma=higher NamedEntityTag=O] [Text=, CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=reach CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=further CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=RB Lemma=further NamedEntityTag=O] [Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP
+      (NP (NNP Aim))
+      (JJR higher))
+    (, ,)
+    (VP (VB reach)
+      (ADVP (RB further)))
+    (. .)))
+
+root(ROOT-0, reach-4)
+dep(higher-2, Aim-1)
+advmod(reach-4, higher-2)
+advmod(reach-4, further-5)
+
+Sentence #2 (11 tokens):
+Get the Wall Street Journal $12 for 12 weeks.
+[Text=Get CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Wall CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O] [Text=Street CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Street NamedEntityTag=O] [Text=Journal CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Journal NamedEntityTag=O] [Text=$ CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=12 CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=CD Lemma=12 NamedEntityTag=MONEY NormalizedNamedEntityTag=$12.0] [Text=for CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=12 CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=CD Lemma=12 NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=weeks CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNS Lemma=week NamedEntityTag=DURATION NormalizedNamedEntityTag=P12W Timex=<TIMEX3 tid="t1" type="DURATION" value="P12W">12 weeks<_TIMEX3>] [Text=. CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Get)
+      (NP (DT the) (NNP Wall) (NNP Street) (NNP Journal))
+      (NP
+        (NP ($ $) (CD 12))
+        (PP (IN for)
+          (NP (CD 12) (NNS weeks)))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+det(Journal-5, the-2)
+nn(Journal-5, Wall-3)
+nn(Journal-5, Street-4)
+iobj(Get-1, Journal-5)
+dobj(Get-1, dol-6)
+num(dol-6, 12-7)
+num(weeks-10, 12-9)
+prep_for(dol-6, weeks-10)
+
+Sentence #3 (70 tokens):
+Subscribe Now
+Beijing’s Yuan Push Bears Fruit
+Yuan trumps yen and Hong Kong dollar to become region’s top currency for doing business with China
+By
+Updated May 27, 2015 12:09 a.m. ET
+The yuan is now the region’s leading currency for doing business with China, trumping the Japanese yen and the Hong Kong dollar as Beijing aggressively pushes its currency through international trade channels.
+[Text=Subscribe CharacterOffsetBegin=73 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=subscribe NamedEntityTag=O] [Text=Now CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=Beijing CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Yuan CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP Lemma=Yuan NamedEntityTag=O] [Text=Push CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NNP Lemma=Push NamedEntityTag=O] [Text=Bears CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=NNPS Lemma=Bears NamedEntityTag=O] [Text=Fruit CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NNP Lemma=Fruit NamedEntityTag=O] [Text=Yuan CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=NNP Lemma=Yuan NamedEntityTag=O] [Text=trumps CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=VBZ Lemma=trump NamedEntityTag=O] [Text=yen CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=yen NamedEntityTag=O] [Text=and CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Hong CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=Hong NamedEntityTag=LOCATION] [Text=Kong CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NNP Lemma=Kong NamedEntityTag=LOCATION] [Text=dollar CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=to CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=become CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=VB Lemma=become NamedEntityTag=O] [Text=region CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=region NamedEntityTag=O] [Text=_s CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=top CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=currency CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=currency NamedEntityTag=O] [Text=for CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=doing CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=business CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=with CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=China CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=By CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Updated CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=JJ Lemma=updated NamedEntityTag=O] [Text=May CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=27 CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=, CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=2015 CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=12:09 CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=CD Lemma=12:09 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=a.m. CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=a.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T00:09 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-27T00:09">May 27, 2015 12:09 a.m.<_TIMEX3>] [Text=ET CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=NNP Lemma=ET NamedEntityTag=O] [Text=The CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=yuan CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NN Lemma=yuan NamedEntityTag=O] [Text=is CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=now CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t4" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=region CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NN Lemma=region NamedEntityTag=O] [Text=_s CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=leading CharacterOffsetBegin=285 CharacterOffsetEnd=292 PartOfSpeech=JJ Lemma=leading NamedEntityTag=O] [Text=currency CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=NN Lemma=currency NamedEntityTag=O] [Text=for CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=doing CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=business CharacterOffsetBegin=312 CharacterOffsetEnd=320 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=with CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=China CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=trumping CharacterOffsetBegin=333 CharacterOffsetEnd=341 PartOfSpeech=VBG Lemma=trump NamedEntityTag=O] [Text=the CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Japanese CharacterOffsetBegin=346 CharacterOffsetEnd=354 PartOfSpeech=JJ Lemma=japanese NamedEntityTag=MISC] [Text=yen CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=NN Lemma=yen NamedEntityTag=O] [Text=and CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hong CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=NNP Lemma=Hong NamedEntityTag=LOCATION] [Text=Kong CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNP Lemma=Kong NamedEntityTag=LOCATION] [Text=dollar CharacterOffsetBegin=377 CharacterOffsetEnd=383 PartOfSpeech=NN Lemma=dollar NamedEntityTag=O] [Text=as CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Beijing CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=NNP Lemma=Beijing NamedEntityTag=LOCATION] [Text=aggressively CharacterOffsetBegin=395 CharacterOffsetEnd=407 PartOfSpeech=RB Lemma=aggressively NamedEntityTag=O] [Text=pushes CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=VBZ Lemma=push NamedEntityTag=O] [Text=its CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=currency CharacterOffsetBegin=419 CharacterOffsetEnd=427 PartOfSpeech=NN Lemma=currency NamedEntityTag=O] [Text=through CharacterOffsetBegin=428 CharacterOffsetEnd=435 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=international CharacterOffsetBegin=436 CharacterOffsetEnd=449 PartOfSpeech=JJ Lemma=international NamedEntityTag=O] [Text=trade CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=NN Lemma=trade NamedEntityTag=O] [Text=channels CharacterOffsetBegin=456 CharacterOffsetEnd=464 PartOfSpeech=NNS Lemma=channel NamedEntityTag=O] [Text=. CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Subscribe))
+      (SBAR
+        (S
+          (S
+            (ADVP (RB Now))
+            (NP
+              (NP (NNP Beijing) (POS _s))
+              (NNP Yuan) (NNP Push) (NNPS Bears) (NNP Fruit) (NNP Yuan))
+            (VP (VBZ trumps)
+              (NP (NN yen))))
+          (CC and)
+          (S
+            (NP (NNP Hong) (NNP Kong))
+            (ADJP (NN dollar)
+              (S
+                (VP (TO to)
+                  (VP (VB become)
+                    (NP
+                      (NP (NN region) (POS _s))
+                      (JJ top) (NN currency))
+                    (PP (IN for)
+                      (S
+                        (VP (VBG doing)
+                          (NP (NN business))
+                          (PP (IN with)
+                            (NP (NNP China)))))))))))
+          (PP (IN By)
+            (NP
+              (ADJP (JJ Updated)
+                (NP-TMP (NNP May) (CD 27) (, ,) (CD 2015)))
+              (NP
+                (NP (CD 12:09) (NN a.m.) (NNP ET))
+                (NP (DT The) (NN yuan))))))))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (NP
+        (NP
+          (NP (DT the) (NN region) (POS _s))
+          (JJ leading) (NN currency))
+        (PP (IN for)
+          (S
+            (VP
+              (VP (VBG doing)
+                (NP (NN business))
+                (PP (IN with)
+                  (NP (NNP China))))
+              (, ,)
+              (VP (VBG trumping)
+                (NP
+                  (NP (DT the) (JJ Japanese) (NN yen))
+                  (CC and)
+                  (NP (DT the) (NNP Hong) (NNP Kong) (NN dollar)))
+                (SBAR (IN as)
+                  (S
+                    (NP (NNP Beijing))
+                    (ADVP (RB aggressively))
+                    (VP (VBZ pushes)
+                      (NP (PRP$ its) (NN currency))
+                      (PP (IN through)
+                        (NP (JJ international) (NN trade) (NNS channels))))))))))))
+    (. .)))
+
+root(ROOT-0, currency-44)
+nsubj(currency-44, Subscribe-1)
+advmod(trumps-10, Now-2)
+poss(Yuan-9, Beijing-3)
+nn(Yuan-9, Yuan-5)
+nn(Yuan-9, Push-6)
+nn(Yuan-9, Bears-7)
+nn(Yuan-9, Fruit-8)
+nsubj(trumps-10, Yuan-9)
+rcmod(Subscribe-1, trumps-10)
+dobj(trumps-10, yen-11)
+nn(Kong-14, Hong-13)
+dep(dollar-15, Kong-14)
+conj_and(trumps-10, dollar-15)
+aux(currency-21, to-16)
+cop(currency-21, become-17)
+poss(currency-21, region-18)
+amod(currency-21, top-20)
+xcomp(dollar-15, currency-21)
+prepc_for(currency-21, doing-23)
+dobj(doing-23, business-24)
+prep_with(doing-23, China-26)
+amod(ET-35, Updated-28)
+tmod(Updated-28, May-29)
+num(May-29, 27-30)
+num(May-29, 2015-32)
+num(ET-35, 12:09-33)
+nn(ET-35, a.m.-34)
+prep_by(trumps-10, ET-35)
+det(yuan-37, The-36)
+dep(ET-35, yuan-37)
+cop(currency-44, is-38)
+advmod(currency-44, now-39)
+det(region-41, the-40)
+poss(currency-44, region-41)
+amod(currency-44, leading-43)
+prepc_for(currency-44, doing-46)
+dobj(doing-46, business-47)
+prep_with(doing-46, China-49)
+dep(doing-46, trumping-51)
+det(yen-54, the-52)
+amod(yen-54, Japanese-53)
+dobj(trumping-51, yen-54)
+det(dollar-59, the-56)
+nn(dollar-59, Hong-57)
+nn(dollar-59, Kong-58)
+conj_and(yen-54, dollar-59)
+mark(pushes-63, as-60)
+nsubj(pushes-63, Beijing-61)
+advmod(pushes-63, aggressively-62)
+advcl(trumping-51, pushes-63)
+poss(currency-65, its-64)
+dobj(pushes-63, currency-65)
+amod(channels-69, international-67)
+nn(channels-69, trade-68)
+prep_through(pushes-63, channels-69)
+
+Sentence #4 (36 tokens):
+The currency now accounts for 31% of payments exchanged with China, up from 7% just three years ago, according to latest data from payments provider Society for World Interbank Financial Telecommunication.
+[Text=The CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=currency CharacterOffsetBegin=470 CharacterOffsetEnd=478 PartOfSpeech=NN Lemma=currency NamedEntityTag=O] [Text=now CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t5" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=accounts CharacterOffsetBegin=483 CharacterOffsetEnd=491 PartOfSpeech=VBZ Lemma=account NamedEntityTag=O] [Text=for CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=31 CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=CD Lemma=31 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%31.0] [Text=% CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%31.0] [Text=of CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=payments CharacterOffsetBegin=503 CharacterOffsetEnd=511 PartOfSpeech=NNS Lemma=payment NamedEntityTag=O] [Text=exchanged CharacterOffsetBegin=512 CharacterOffsetEnd=521 PartOfSpeech=VBD Lemma=exchange NamedEntityTag=O] [Text=with CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=China CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=up CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=from CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=7 CharacterOffsetBegin=542 CharacterOffsetEnd=543 PartOfSpeech=CD Lemma=7 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%7.0] [Text=% CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%7.0] [Text=just CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=three CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=CD Lemma=three NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-3Y Timex=<TIMEX3 alt_value="OFFSET P-3Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">three years ago<_TIMEX3>] [Text=years CharacterOffsetBegin=556 CharacterOffsetEnd=561 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-3Y Timex=<TIMEX3 alt_value="OFFSET P-3Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">three years ago<_TIMEX3>] [Text=ago CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=RB Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-3Y Timex=<TIMEX3 alt_value="OFFSET P-3Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf0">three years ago<_TIMEX3>] [Text=, CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=567 CharacterOffsetEnd=576 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=latest CharacterOffsetBegin=580 CharacterOffsetEnd=586 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=data CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=from CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=payments CharacterOffsetBegin=597 CharacterOffsetEnd=605 PartOfSpeech=NNS Lemma=payment NamedEntityTag=O] [Text=provider CharacterOffsetBegin=606 CharacterOffsetEnd=614 PartOfSpeech=NN Lemma=provider NamedEntityTag=O] [Text=Society CharacterOffsetBegin=615 CharacterOffsetEnd=622 PartOfSpeech=NNP Lemma=Society NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=World CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NNP Lemma=World NamedEntityTag=ORGANIZATION] [Text=Interbank CharacterOffsetBegin=633 CharacterOffsetEnd=642 PartOfSpeech=NNP Lemma=Interbank NamedEntityTag=ORGANIZATION] [Text=Financial CharacterOffsetBegin=643 CharacterOffsetEnd=652 PartOfSpeech=NNP Lemma=Financial NamedEntityTag=ORGANIZATION] [Text=Telecommunication CharacterOffsetBegin=653 CharacterOffsetEnd=670 PartOfSpeech=NNP Lemma=Telecommunication NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN currency))
+    (ADVP (RB now))
+    (VP (VBZ accounts)
+      (SBAR (IN for)
+        (S
+          (NP
+            (NP (CD 31) (NN %))
+            (PP (IN of)
+              (NP (NNS payments))))
+          (VP (VBD exchanged)
+            (PP (IN with)
+              (NP (NNP China)))
+            (, ,)
+            (ADVP (RB up)
+              (PP (IN from)
+                (NP (CD 7) (NN %))
+                (ADVP
+                  (NP (RB just) (CD three) (NNS years))
+                  (RB ago))))
+            (, ,)
+            (PP (VBG according)
+              (PP (TO to)
+                (NP
+                  (NP (JJS latest) (NNS data))
+                  (PP (IN from)
+                    (NP
+                      (NP (NNS payments) (NN provider))
+                      (NNP Society)
+                      (PP (IN for)
+                        (NP (NNP World) (NNP Interbank) (NNP Financial) (NNP Telecommunication))))))))))))
+    (. .)))
+
+root(ROOT-0, accounts-4)
+det(currency-2, The-1)
+nsubj(accounts-4, currency-2)
+advmod(accounts-4, now-3)
+mark(exchanged-10, for-5)
+num(%-7, 31-6)
+nsubj(exchanged-10, %-7)
+prep_of(%-7, payments-9)
+advcl(accounts-4, exchanged-10)
+prep_with(exchanged-10, China-12)
+advmod(exchanged-10, up-14)
+num(%-17, 7-16)
+prep_from(up-14, %-17)
+advmod(years-20, just-18)
+num(years-20, three-19)
+npadvmod(ago-21, years-20)
+advmod(up-14, ago-21)
+prepc_according_to(exchanged-10, to-24)
+amod(data-26, latest-25)
+pobj(exchanged-10, data-26)
+nn(provider-29, payments-28)
+nn(Society-30, provider-29)
+prep_from(data-26, Society-30)
+nn(Telecommunication-35, World-32)
+nn(Telecommunication-35, Interbank-33)
+nn(Telecommunication-35, Financial-34)
+prep_for(Society-30, Telecommunication-35)
+
+Sentence #5 (9 tokens):
+As Asian...
+Popular on WSJ
+Popular on WSJ
+[Text=As CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Asian CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=NNP Lemma=Asian NamedEntityTag=MISC] [Text=... CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=684 CharacterOffsetEnd=691 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] [Text=Popular CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=on CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=WSJ CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=NNP Lemma=WSJ NamedEntityTag=O] 
+(ROOT
+  (PP (IN As)
+    (NP
+      (NP (NNP Asian))
+      (: ...)
+      (NP
+        (NP (NNP Popular))
+        (PP (IN on)
+          (NP
+            (NP (NNP WSJ) (NNP Popular))
+            (PP (IN on)
+              (NP (NNP WSJ)))))))))
+
+root(ROOT-0, As-1)
+pobj(As-1, Asian-2)
+dep(Asian-2, Popular-4)
+nn(Popular-7, WSJ-6)
+prep_on(Popular-4, Popular-7)
+prep_on(Popular-7, WSJ-9)
+
+Coreference set:
+ (5,9,[9,10]) -> (2,5,[2,6]), that is: "WSJ" -> "the Wall Street Journal"
+Coreference set:
+ (3,61,[61,62]) -> (3,3,[3,5]), that is: "Beijing" -> "Beijing _s"
+ (3,64,[64,65]) -> (3,3,[3,5]), that is: "its" -> "Beijing _s"
+Coreference set:
+ (3,58,[57,59]) -> (3,14,[13,15]), that is: "Hong Kong" -> "Hong Kong"
+Coreference set:
+ (3,49,[49,50]) -> (3,26,[26,27]), that is: "China" -> "China"
+ (4,12,[12,13]) -> (3,26,[26,27]), that is: "China" -> "China"
+Coreference set:
+ (3,1,[1,38]) -> (3,44,[40,70]), that is: "Subscribe Now Beijing _s Yuan Push Bears Fruit Yuan trumps yen and Hong Kong dollar to become region _s top currency for doing business with China By Updated May 27 , 2015 12:09 a.m. ET The yuan" -> "the region _s leading currency for doing business with China , trumping the Japanese yen and the Hong Kong dollar as Beijing aggressively pushes its currency through international trade channels"
+ (3,65,[64,66]) -> (3,44,[40,70]), that is: "its currency" -> "the region _s leading currency for doing business with China , trumping the Japanese yen and the Hong Kong dollar as Beijing aggressively pushes its currency through international trade channels"
+ (4,2,[1,3]) -> (3,44,[40,70]), that is: "The currency" -> "the region _s leading currency for doing business with China , trumping the Japanese yen and the Hong Kong dollar as Beijing aggressively pushes its currency through international trade channels"
+Coreference set:
+ (3,37,[36,38]) -> (3,9,[3,10]), that is: "The yuan" -> "Beijing _s Yuan Push Bears Fruit Yuan"
+Coreference set:
+ (3,18,[18,20]) -> (3,41,[40,43]), that is: "region _s" -> "the region _s"

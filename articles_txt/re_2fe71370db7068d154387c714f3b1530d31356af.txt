@@ -1,0 +1,1129 @@
+Sentence #1 (26 tokens):
+Photo Credit: IAF Facebook Page
+The Israeli Air Force struck four terrorist targets in the southern Gaza Strip during Wednesday’s early morning hours.
+[Text=Photo CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=Credit CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Credit NamedEntityTag=O] [Text=: CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=IAF CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=IAF NamedEntityTag=ORGANIZATION] [Text=Facebook CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=Page CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Page NamedEntityTag=ORGANIZATION] [Text=The CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=NNP Lemma=The NamedEntityTag=ORGANIZATION] [Text=Israeli CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=NNP Lemma=Israeli NamedEntityTag=ORGANIZATION] [Text=Air CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=NNP Lemma=Air NamedEntityTag=ORGANIZATION] [Text=Force CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=NNP Lemma=Force NamedEntityTag=ORGANIZATION] [Text=struck CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=VBD Lemma=strike NamedEntityTag=O] [Text=four CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=terrorist CharacterOffsetBegin=66 CharacterOffsetEnd=75 PartOfSpeech=JJ Lemma=terrorist NamedEntityTag=O] [Text=targets CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=NNS Lemma=target NamedEntityTag=O] [Text=in CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=southern CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=JJ Lemma=southern NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=Strip CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NNP Lemma=Strip NamedEntityTag=LOCATION] [Text=during CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-3TMO">Wednesday￢ﾀﾙsￂﾠearly morning<_TIMEX3>] [Text=_s CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=POS Lemma=_s NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-3TMO">Wednesday￢ﾀﾙsￂﾠearly morning<_TIMEX3>] [Text=early CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=JJ Lemma=early NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-3TMO">Wednesday￢ﾀﾙsￂﾠearly morning<_TIMEX3>] [Text=morning CharacterOffsetBegin=136 CharacterOffsetEnd=143 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-3TMO">Wednesday￢ﾀﾙsￂﾠearly morning<_TIMEX3>] [Text=hours CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=NNS Lemma=hour NamedEntityTag=DURATION NormalizedNamedEntityTag=PTXH Timex=<TIMEX3 tid="t2" type="DURATION" value="PTXH">hours<_TIMEX3>] [Text=. CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Photo) (NNP Credit))
+    (: :)
+    (S
+      (NP (NNP IAF) (NNP Facebook) (NNP Page) (NNP The) (NNP Israeli) (NNP Air) (NNP Force))
+      (VP (VBD struck)
+        (NP (CD four) (JJ terrorist) (NNS targets))
+        (PP (IN in)
+          (NP (DT the) (JJ southern) (NNP Gaza) (NNP Strip)))
+        (PP (IN during)
+          (NP
+            (NP (NNP Wednesday) (POS _s))
+            (JJ early) (NN morning) (NNS hours)))))
+    (. .)))
+
+root(ROOT-0, Credit-2)
+nn(Credit-2, Photo-1)
+nn(Force-10, IAF-4)
+nn(Force-10, Facebook-5)
+nn(Force-10, Page-6)
+nn(Force-10, The-7)
+nn(Force-10, Israeli-8)
+nn(Force-10, Air-9)
+nsubj(struck-11, Force-10)
+dep(Credit-2, struck-11)
+num(targets-14, four-12)
+amod(targets-14, terrorist-13)
+dobj(struck-11, targets-14)
+det(Strip-19, the-16)
+amod(Strip-19, southern-17)
+nn(Strip-19, Gaza-18)
+prep_in(struck-11, Strip-19)
+poss(hours-25, Wednesday-21)
+amod(hours-25, early-23)
+nn(hours-25, morning-24)
+prep_during(struck-11, hours-25)
+
+Sentence #2 (18 tokens):
+The strikes were in response to rockets fired from Gaza at Israel on Tuesday, May 26.
+[Text=The CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strikes CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=NNS Lemma=strike NamedEntityTag=O] [Text=were CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=in CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=response CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=NN Lemma=response NamedEntityTag=O] [Text=to CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=rockets CharacterOffsetBegin=183 CharacterOffsetEnd=190 PartOfSpeech=NNS Lemma=rocket NamedEntityTag=O] [Text=fired CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=VBN Lemma=fire NamedEntityTag=O] [Text=from CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=at CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-26 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-26">Tuesday, May 26<_TIMEX3>] [Text=, CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-26 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-26">Tuesday, May 26<_TIMEX3>] [Text=May CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-26 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-26">Tuesday, May 26<_TIMEX3>] [Text=26 CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-26 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-05-26">Tuesday, May 26<_TIMEX3>] [Text=. CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNS strikes))
+    (VP (VBD were)
+      (PP (IN in)
+        (NP (NN response)))
+      (PP (TO to)
+        (NP
+          (NP (NNS rockets))
+          (VP (VBN fired)
+            (PP (IN from)
+              (NP (NNP Gaza)))
+            (PP (IN at)
+              (NP
+                (NP (NNP Israel))
+                (PP (IN on)
+                  (NP (NNP Tuesday))))
+              (, ,)
+              (NP-TMP (NNP May) (CD 26)))))))
+    (. .)))
+
+root(ROOT-0, were-3)
+det(strikes-2, The-1)
+nsubj(were-3, strikes-2)
+prep_in(were-3, response-5)
+prep_to(were-3, rockets-7)
+vmod(rockets-7, fired-8)
+prep_from(fired-8, Gaza-10)
+prep_at(fired-8, Israel-12)
+prep_on(Israel-12, Tuesday-14)
+prep_at(fired-8, May-16)
+num(May-16, 26-17)
+
+Sentence #3 (17 tokens):
+There remains some uncertainty about how many rockets were fired from Gaza towards Israel on Tuesday.
+[Text=There CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=remains CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=VBZ Lemma=remain NamedEntityTag=O] [Text=some CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=uncertainty CharacterOffsetBegin=256 CharacterOffsetEnd=267 PartOfSpeech=NN Lemma=uncertainty NamedEntityTag=O] [Text=about CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=how CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=many CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=rockets CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NNS Lemma=rocket NamedEntityTag=O] [Text=were CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=fired CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=VBN Lemma=fire NamedEntityTag=O] [Text=from CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=towards CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=IN Lemma=towards NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=330 CharacterOffsetEnd=337 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=. CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ remains)
+      (NP
+        (NP (DT some) (NN uncertainty))
+        (PP (IN about)
+          (SBAR
+            (WHADJP (WRB how) (JJ many))
+            (S
+              (NP (NNS rockets))
+              (VP (VBD were)
+                (VP (VBN fired)
+                  (PP (IN from)
+                    (NP
+                      (NP (NNP Gaza))
+                      (PP (IN towards)
+                        (NP (NNP Israel)))))
+                  (PP (IN on)
+                    (NP (NNP Tuesday))))))))))
+    (. .)))
+
+root(ROOT-0, remains-2)
+expl(remains-2, There-1)
+det(uncertainty-4, some-3)
+nsubj(remains-2, uncertainty-4)
+advmod(many-7, how-6)
+dep(fired-10, many-7)
+nsubjpass(fired-10, rockets-8)
+auxpass(fired-10, were-9)
+prepc_about(uncertainty-4, fired-10)
+prep_from(fired-10, Gaza-12)
+prep_towards(Gaza-12, Israel-14)
+prep_on(fired-10, Tuesday-16)
+
+Sentence #4 (8 tokens):
+Initial reports claimed five rockets were fired.
+[Text=Initial CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=JJ Lemma=initial NamedEntityTag=O] [Text=reports CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=claimed CharacterOffsetBegin=355 CharacterOffsetEnd=362 PartOfSpeech=VBD Lemma=claim NamedEntityTag=O] [Text=five CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=rockets CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NNS Lemma=rocket NamedEntityTag=O] [Text=were CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=fired CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=VBN Lemma=fire NamedEntityTag=O] [Text=. CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Initial) (NNS reports))
+    (VP (VBD claimed)
+      (SBAR
+        (S
+          (NP (CD five) (NNS rockets))
+          (VP (VBD were)
+            (VP (VBN fired))))))
+    (. .)))
+
+root(ROOT-0, claimed-3)
+amod(reports-2, Initial-1)
+nsubj(claimed-3, reports-2)
+num(rockets-5, five-4)
+nsubjpass(fired-7, rockets-5)
+auxpass(fired-7, were-6)
+ccomp(claimed-3, fired-7)
+
+Sentence #5 (24 tokens):
+Hours later the IDF stated only one rocket was fired and it struck Gan Yavne, near the Israeli coastal town of Ashdod.
+[Text=Hours CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=NNS Lemma=hour NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET PT1H Timex=<TIMEX3 alt_value="OFFSET PT1H" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf0">Hours later<_TIMEX3>] [Text=later CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=RB Lemma=later NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET PT1H Timex=<TIMEX3 alt_value="OFFSET PT1H" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf0">Hours later<_TIMEX3>] [Text=the CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IDF CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=NN Lemma=idf NamedEntityTag=ORGANIZATION] [Text=stated CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=VBD Lemma=state NamedEntityTag=O] [Text=only CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=one CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=rocket CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=NN Lemma=rocket NamedEntityTag=O] [Text=was CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=fired CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=VBN Lemma=fire NamedEntityTag=O] [Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=it CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=struck CharacterOffsetBegin=448 CharacterOffsetEnd=454 PartOfSpeech=VBD Lemma=strike NamedEntityTag=O] [Text=Gan CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=NNP Lemma=Gan NamedEntityTag=PERSON] [Text=Yavne CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=NNP Lemma=Yavne NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=near CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=IN Lemma=near NamedEntityTag=O] [Text=the CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=475 CharacterOffsetEnd=482 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=MISC] [Text=coastal CharacterOffsetBegin=483 CharacterOffsetEnd=490 PartOfSpeech=JJ Lemma=coastal NamedEntityTag=O] [Text=town CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=NN Lemma=town NamedEntityTag=O] [Text=of CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Ashdod CharacterOffsetBegin=499 CharacterOffsetEnd=505 PartOfSpeech=NNP Lemma=Ashdod NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Hours))
+      (ADVP (RB later)
+        (NP (DT the) (NN IDF))))
+    (VP (VBD stated)
+      (SBAR
+        (S
+          (S
+            (NP (RB only) (CD one) (NN rocket))
+            (VP (VBD was)
+              (VP (VBN fired))))
+          (CC and)
+          (S
+            (NP (PRP it))
+            (VP (VBD struck)
+              (NP (NNP Gan) (NNP Yavne))
+              (, ,)
+              (PP (IN near)
+                (NP
+                  (NP (DT the) (JJ Israeli) (JJ coastal) (NN town))
+                  (PP (IN of)
+                    (NP (NNP Ashdod))))))))))
+    (. .)))
+
+root(ROOT-0, stated-5)
+nsubj(stated-5, Hours-1)
+advmod(Hours-1, later-2)
+det(IDF-4, the-3)
+pobj(later-2, IDF-4)
+advmod(rocket-8, only-6)
+num(rocket-8, one-7)
+nsubjpass(fired-10, rocket-8)
+auxpass(fired-10, was-9)
+dep(stated-5, fired-10)
+nsubj(struck-13, it-12)
+conj_and(fired-10, struck-13)
+nn(Yavne-15, Gan-14)
+dobj(struck-13, Yavne-15)
+det(town-21, the-18)
+amod(town-21, Israeli-19)
+amod(town-21, coastal-20)
+prep_near(struck-13, town-21)
+prep_of(town-21, Ashdod-23)
+
+Sentence #6 (12 tokens):
+Gan Yavne is approximately 23 miles northeast of the Gaza Strip.
+[Text=Gan CharacterOffsetBegin=507 CharacterOffsetEnd=510 PartOfSpeech=NNP Lemma=Gan NamedEntityTag=LOCATION] [Text=Yavne CharacterOffsetBegin=511 CharacterOffsetEnd=516 PartOfSpeech=NNP Lemma=Yavne NamedEntityTag=LOCATION] [Text=is CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=approximately CharacterOffsetBegin=520 CharacterOffsetEnd=533 PartOfSpeech=RB Lemma=approximately NamedEntityTag=O] [Text=23 CharacterOffsetBegin=534 CharacterOffsetEnd=536 PartOfSpeech=CD Lemma=23 NamedEntityTag=NUMBER NormalizedNamedEntityTag=~23.0] [Text=miles CharacterOffsetBegin=537 CharacterOffsetEnd=542 PartOfSpeech=NNS Lemma=mile NamedEntityTag=O] [Text=northeast CharacterOffsetBegin=543 CharacterOffsetEnd=552 PartOfSpeech=RB Lemma=northeast NamedEntityTag=O] [Text=of CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=Strip CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=NNP Lemma=Strip NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Gan) (NNP Yavne))
+    (VP (VBZ is)
+      (ADVP
+        (NP
+          (QP (RB approximately) (CD 23))
+          (NNS miles))
+        (RB northeast))
+      (PP (IN of)
+        (NP (DT the) (NNP Gaza) (NNP Strip))))
+    (. .)))
+
+root(ROOT-0, is-3)
+nn(Yavne-2, Gan-1)
+nsubj(is-3, Yavne-2)
+quantmod(23-5, approximately-4)
+num(miles-6, 23-5)
+npadvmod(northeast-7, miles-6)
+advmod(is-3, northeast-7)
+det(Strip-11, the-9)
+nn(Strip-11, Gaza-10)
+prep_of(is-3, Strip-11)
+
+Sentence #7 (35 tokens):
+The IDF foreign media spokesperson Lt. Col. Peter Lerner stated that the strikes against Gaza “are a direct response to Hamas and the aggression against Israeli civilians originating from the Gaza Strip.”
+[Text=The CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IDF CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=NN Lemma=idf NamedEntityTag=ORGANIZATION] [Text=foreign CharacterOffsetBegin=580 CharacterOffsetEnd=587 PartOfSpeech=JJ Lemma=foreign NamedEntityTag=O] [Text=media CharacterOffsetBegin=588 CharacterOffsetEnd=593 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=spokesperson CharacterOffsetBegin=594 CharacterOffsetEnd=606 PartOfSpeech=NN Lemma=spokesperson NamedEntityTag=O] [Text=Lt. CharacterOffsetBegin=607 CharacterOffsetEnd=610 PartOfSpeech=NNP Lemma=Lt. NamedEntityTag=O] [Text=Col. CharacterOffsetBegin=611 CharacterOffsetEnd=615 PartOfSpeech=NNP Lemma=Col. NamedEntityTag=O] [Text=Peter CharacterOffsetBegin=616 CharacterOffsetEnd=621 PartOfSpeech=NNP Lemma=Peter NamedEntityTag=PERSON] [Text=Lerner CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=NNP Lemma=Lerner NamedEntityTag=PERSON] [Text=stated CharacterOffsetBegin=629 CharacterOffsetEnd=635 PartOfSpeech=VBD Lemma=state NamedEntityTag=O] [Text=that CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=strikes CharacterOffsetBegin=645 CharacterOffsetEnd=652 PartOfSpeech=NNS Lemma=strike NamedEntityTag=O] [Text=against CharacterOffsetBegin=653 CharacterOffsetEnd=660 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=`` CharacterOffsetBegin=666 CharacterOffsetEnd=667 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=are CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=direct CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=JJ Lemma=direct NamedEntityTag=O] [Text=response CharacterOffsetBegin=680 CharacterOffsetEnd=688 PartOfSpeech=NN Lemma=response NamedEntityTag=O] [Text=to CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Hamas CharacterOffsetBegin=692 CharacterOffsetEnd=697 PartOfSpeech=NNP Lemma=Hamas NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=aggression CharacterOffsetBegin=706 CharacterOffsetEnd=716 PartOfSpeech=NN Lemma=aggression NamedEntityTag=O] [Text=against CharacterOffsetBegin=717 CharacterOffsetEnd=724 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=725 CharacterOffsetEnd=732 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=LOCATION] [Text=civilians CharacterOffsetBegin=733 CharacterOffsetEnd=742 PartOfSpeech=NNS Lemma=civilian NamedEntityTag=O] [Text=originating CharacterOffsetBegin=743 CharacterOffsetEnd=754 PartOfSpeech=VBG Lemma=originate NamedEntityTag=O] [Text=from CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=Strip CharacterOffsetBegin=769 CharacterOffsetEnd=774 PartOfSpeech=NNP Lemma=Strip NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=774 CharacterOffsetEnd=775 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=775 CharacterOffsetEnd=776 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN IDF) (JJ foreign) (NNS media) (NN spokesperson))
+      (NP (NNP Lt.) (NNP Col.) (NNP Peter) (NNP Lerner)))
+    (VP (VBD stated)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NNS strikes))
+            (PP (IN against)
+              (NP (NNP Gaza))))
+          (`` ``)
+          (VP (VBP are)
+            (NP
+              (NP
+                (NP (DT a) (JJ direct) (NN response))
+                (PP (TO to)
+                  (NP (NNP Hamas))))
+              (CC and)
+              (NP
+                (NP (DT the) (NN aggression))
+                (PP (IN against)
+                  (NP
+                    (NP (JJ Israeli) (NNS civilians))
+                    (VP (VBG originating)
+                      (PP (IN from)
+                        (NP (DT the) (NNP Gaza) (NNP Strip))))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, stated-10)
+det(spokesperson-5, The-1)
+nn(spokesperson-5, IDF-2)
+amod(spokesperson-5, foreign-3)
+nn(spokesperson-5, media-4)
+nsubj(stated-10, spokesperson-5)
+nn(Lerner-9, Lt.-6)
+nn(Lerner-9, Col.-7)
+nn(Lerner-9, Peter-8)
+dep(spokesperson-5, Lerner-9)
+mark(response-20, that-11)
+det(strikes-13, the-12)
+nsubj(response-20, strikes-13)
+prep_against(strikes-13, Gaza-15)
+cop(response-20, are-17)
+det(response-20, a-18)
+amod(response-20, direct-19)
+ccomp(stated-10, response-20)
+prep_to(response-20, Hamas-22)
+det(aggression-25, the-24)
+conj_and(response-20, aggression-25)
+amod(civilians-28, Israeli-27)
+prep_against(aggression-25, civilians-28)
+vmod(civilians-28, originating-29)
+det(Strip-33, the-31)
+nn(Strip-33, Gaza-32)
+prep_from(originating-29, Strip-33)
+
+Sentence #8 (27 tokens):
+Lerner said that Hamas uses the Gaza Strip as a “staging ground to attack Israel,” which Lerner called “unacceptable and intolerable.”
+[Text=Lerner CharacterOffsetBegin=777 CharacterOffsetEnd=783 PartOfSpeech=NNP Lemma=Lerner NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=784 CharacterOffsetEnd=788 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=that CharacterOffsetBegin=789 CharacterOffsetEnd=793 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Hamas CharacterOffsetBegin=794 CharacterOffsetEnd=799 PartOfSpeech=NNP Lemma=Hamas NamedEntityTag=ORGANIZATION] [Text=uses CharacterOffsetBegin=800 CharacterOffsetEnd=804 PartOfSpeech=VBZ Lemma=use NamedEntityTag=O] [Text=the CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=Strip CharacterOffsetBegin=814 CharacterOffsetEnd=819 PartOfSpeech=NNP Lemma=Strip NamedEntityTag=LOCATION] [Text=as CharacterOffsetBegin=820 CharacterOffsetEnd=822 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=`` CharacterOffsetBegin=825 CharacterOffsetEnd=826 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=staging CharacterOffsetBegin=826 CharacterOffsetEnd=833 PartOfSpeech=NN Lemma=staging NamedEntityTag=O] [Text=ground CharacterOffsetBegin=834 CharacterOffsetEnd=840 PartOfSpeech=NN Lemma=ground NamedEntityTag=O] [Text=to CharacterOffsetBegin=841 CharacterOffsetEnd=843 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=attack CharacterOffsetBegin=844 CharacterOffsetEnd=850 PartOfSpeech=NN Lemma=attack NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=851 CharacterOffsetEnd=857 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=which CharacterOffsetBegin=860 CharacterOffsetEnd=865 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=Lerner CharacterOffsetBegin=866 CharacterOffsetEnd=872 PartOfSpeech=NNP Lemma=Lerner NamedEntityTag=PERSON] [Text=called CharacterOffsetBegin=873 CharacterOffsetEnd=879 PartOfSpeech=VBD Lemma=call NamedEntityTag=O] [Text=`` CharacterOffsetBegin=880 CharacterOffsetEnd=881 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=unacceptable CharacterOffsetBegin=881 CharacterOffsetEnd=893 PartOfSpeech=JJ Lemma=unacceptable NamedEntityTag=O] [Text=and CharacterOffsetBegin=894 CharacterOffsetEnd=897 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=intolerable CharacterOffsetBegin=898 CharacterOffsetEnd=909 PartOfSpeech=JJ Lemma=intolerable NamedEntityTag=O] [Text=. CharacterOffsetBegin=909 CharacterOffsetEnd=910 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=910 CharacterOffsetEnd=911 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Lerner))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Hamas))
+          (VP (VBZ uses)
+            (NP
+              (NP (DT the) (NNP Gaza) (NNP Strip))
+              (PP (IN as)
+                (NP (DT a) (`` ``) (NN staging) (NN ground))))
+            (PP (TO to)
+              (NP
+                (NP (NN attack) (NNP Israel))
+                (, ,) (__ __)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (NNP Lerner))
+                    (VP (VBD called)
+                      (ADJP (`` ``) (JJ unacceptable)
+                        (CC and)
+                        (JJ intolerable)))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, said-2)
+nsubj(said-2, Lerner-1)
+mark(uses-5, that-3)
+nsubj(uses-5, Hamas-4)
+ccomp(said-2, uses-5)
+det(Strip-8, the-6)
+nn(Strip-8, Gaza-7)
+dobj(uses-5, Strip-8)
+det(ground-13, a-10)
+nn(ground-13, staging-12)
+prep_as(Strip-8, ground-13)
+nn(Israel-16, attack-15)
+prep_to(uses-5, Israel-16)
+dobj(called-21, which-19)
+nsubj(called-21, Lerner-20)
+rcmod(Israel-16, called-21)
+acomp(called-21, unacceptable-23)
+conj_and(unacceptable-23, intolerable-25)
+
+Sentence #9 (43 tokens):
+“Israelis can not be expected to live in the perpetual fear of rocket attacks, the IDF will continue to operate in order to seek out those that wish to undermine Israeli sovereignty with acts of terrorism,” Lerner admonished.
+[Text=`` CharacterOffsetBegin=912 CharacterOffsetEnd=913 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Israelis CharacterOffsetBegin=913 CharacterOffsetEnd=921 PartOfSpeech=NNPS Lemma=Israelis NamedEntityTag=MISC] [Text=can CharacterOffsetBegin=922 CharacterOffsetEnd=925 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=not CharacterOffsetBegin=926 CharacterOffsetEnd=929 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=be CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=933 CharacterOffsetEnd=941 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=942 CharacterOffsetEnd=944 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=live CharacterOffsetBegin=945 CharacterOffsetEnd=949 PartOfSpeech=VB Lemma=live NamedEntityTag=O] [Text=in CharacterOffsetBegin=950 CharacterOffsetEnd=952 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=perpetual CharacterOffsetBegin=957 CharacterOffsetEnd=966 PartOfSpeech=JJ Lemma=perpetual NamedEntityTag=O] [Text=fear CharacterOffsetBegin=967 CharacterOffsetEnd=971 PartOfSpeech=NN Lemma=fear NamedEntityTag=O] [Text=of CharacterOffsetBegin=972 CharacterOffsetEnd=974 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=rocket CharacterOffsetBegin=975 CharacterOffsetEnd=981 PartOfSpeech=NN Lemma=rocket NamedEntityTag=O] [Text=attacks CharacterOffsetBegin=982 CharacterOffsetEnd=989 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=, CharacterOffsetBegin=989 CharacterOffsetEnd=990 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=991 CharacterOffsetEnd=994 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IDF CharacterOffsetBegin=995 CharacterOffsetEnd=998 PartOfSpeech=NNP Lemma=IDF NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=999 CharacterOffsetEnd=1003 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=continue CharacterOffsetBegin=1004 CharacterOffsetEnd=1012 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=to CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=operate CharacterOffsetBegin=1016 CharacterOffsetEnd=1023 PartOfSpeech=VB Lemma=operate NamedEntityTag=O] [Text=in CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=order CharacterOffsetBegin=1027 CharacterOffsetEnd=1032 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=to CharacterOffsetBegin=1033 CharacterOffsetEnd=1035 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=seek CharacterOffsetBegin=1036 CharacterOffsetEnd=1040 PartOfSpeech=VB Lemma=seek NamedEntityTag=O] [Text=out CharacterOffsetBegin=1041 CharacterOffsetEnd=1044 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=those CharacterOffsetBegin=1045 CharacterOffsetEnd=1050 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=that CharacterOffsetBegin=1051 CharacterOffsetEnd=1055 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=wish CharacterOffsetBegin=1056 CharacterOffsetEnd=1060 PartOfSpeech=VBP Lemma=wish NamedEntityTag=O] [Text=to CharacterOffsetBegin=1061 CharacterOffsetEnd=1063 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=undermine CharacterOffsetBegin=1064 CharacterOffsetEnd=1073 PartOfSpeech=VB Lemma=undermine NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=1074 CharacterOffsetEnd=1081 PartOfSpeech=JJ Lemma=israeli NamedEntityTag=LOCATION] [Text=sovereignty CharacterOffsetBegin=1082 CharacterOffsetEnd=1093 PartOfSpeech=NN Lemma=sovereignty NamedEntityTag=O] [Text=with CharacterOffsetBegin=1094 CharacterOffsetEnd=1098 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=acts CharacterOffsetBegin=1099 CharacterOffsetEnd=1103 PartOfSpeech=NNS Lemma=act NamedEntityTag=O] [Text=of CharacterOffsetBegin=1104 CharacterOffsetEnd=1106 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=terrorism CharacterOffsetBegin=1107 CharacterOffsetEnd=1116 PartOfSpeech=NN Lemma=terrorism NamedEntityTag=O] [Text=, CharacterOffsetBegin=1116 CharacterOffsetEnd=1117 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1117 CharacterOffsetEnd=1118 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Lerner CharacterOffsetBegin=1119 CharacterOffsetEnd=1125 PartOfSpeech=NNP Lemma=Lerner NamedEntityTag=PERSON] [Text=admonished CharacterOffsetBegin=1126 CharacterOffsetEnd=1136 PartOfSpeech=VBD Lemma=admonish NamedEntityTag=O] [Text=. CharacterOffsetBegin=1136 CharacterOffsetEnd=1137 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (NNPS Israelis))
+        (VP (MD can) (RB not)
+          (VP (VB be)
+            (VP (VBN expected)
+              (S
+                (VP (TO to)
+                  (VP (VB live)
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (JJ perpetual) (NN fear))
+                        (PP (IN of)
+                          (NP (NN rocket) (NNS attacks))))))))))))
+      (, ,)
+      (NP (DT the) (NNP IDF))
+      (VP (MD will)
+        (VP (VB continue)
+          (S
+            (VP (TO to)
+              (VP (VB operate)
+                (SBAR (IN in) (NN order)
+                  (S
+                    (VP (TO to)
+                      (VP (VB seek)
+                        (PRT (RP out))
+                        (NP
+                          (NP (DT those))
+                          (SBAR
+                            (WHNP (WDT that))
+                            (S
+                              (VP (VBP wish)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB undermine)
+                                      (NP (JJ Israeli) (NN sovereignty))
+                                      (PP (IN with)
+                                        (NP
+                                          (NP (NNS acts))
+                                          (PP (IN of)
+                                            (NP (NN terrorism))))))))))))))))))))))
+    (, ,) (__ __)
+    (NP (NNP Lerner))
+    (VP (VBD admonished))
+    (. .)))
+
+root(ROOT-0, admonished-42)
+nsubjpass(expected-6, Israelis-2)
+aux(expected-6, can-3)
+neg(expected-6, not-4)
+auxpass(expected-6, be-5)
+ccomp(continue-20, expected-6)
+aux(live-8, to-7)
+xcomp(expected-6, live-8)
+det(fear-12, the-10)
+amod(fear-12, perpetual-11)
+prep_in(live-8, fear-12)
+nn(attacks-15, rocket-14)
+prep_of(fear-12, attacks-15)
+det(IDF-18, the-17)
+nsubj(continue-20, IDF-18)
+aux(continue-20, will-19)
+ccomp(admonished-42, continue-20)
+aux(operate-22, to-21)
+xcomp(continue-20, operate-22)
+mark(seek-26, in-23)
+dep(seek-26, order-24)
+aux(seek-26, to-25)
+advcl(operate-22, seek-26)
+prt(seek-26, out-27)
+dobj(seek-26, those-28)
+nsubj(wish-30, that-29)
+rcmod(those-28, wish-30)
+aux(undermine-32, to-31)
+xcomp(wish-30, undermine-32)
+amod(sovereignty-34, Israeli-33)
+dobj(undermine-32, sovereignty-34)
+prep_with(undermine-32, acts-36)
+prep_of(acts-36, terrorism-38)
+nsubj(admonished-42, Lerner-41)
+
+Sentence #10 (14 tokens):
+Some claimed that the terrorist organization Islamic Jihad fired the rocket on Tuesday.
+[Text=Some CharacterOffsetBegin=1138 CharacterOffsetEnd=1142 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=claimed CharacterOffsetBegin=1143 CharacterOffsetEnd=1150 PartOfSpeech=VBD Lemma=claim NamedEntityTag=O] [Text=that CharacterOffsetBegin=1151 CharacterOffsetEnd=1155 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=1156 CharacterOffsetEnd=1159 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=terrorist CharacterOffsetBegin=1160 CharacterOffsetEnd=1169 PartOfSpeech=JJ Lemma=terrorist NamedEntityTag=O] [Text=organization CharacterOffsetBegin=1170 CharacterOffsetEnd=1182 PartOfSpeech=NN Lemma=organization NamedEntityTag=O] [Text=Islamic CharacterOffsetBegin=1183 CharacterOffsetEnd=1190 PartOfSpeech=NNP Lemma=Islamic NamedEntityTag=MISC] [Text=Jihad CharacterOffsetBegin=1191 CharacterOffsetEnd=1196 PartOfSpeech=NNP Lemma=Jihad NamedEntityTag=MISC] [Text=fired CharacterOffsetBegin=1197 CharacterOffsetEnd=1202 PartOfSpeech=VBD Lemma=fire NamedEntityTag=O] [Text=the CharacterOffsetBegin=1203 CharacterOffsetEnd=1206 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=rocket CharacterOffsetBegin=1207 CharacterOffsetEnd=1213 PartOfSpeech=NN Lemma=rocket NamedEntityTag=O] [Text=on CharacterOffsetBegin=1214 CharacterOffsetEnd=1216 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=1217 CharacterOffsetEnd=1224 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=. CharacterOffsetBegin=1224 CharacterOffsetEnd=1225 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBD claimed)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ terrorist) (NN organization) (NNP Islamic) (NNP Jihad))
+          (VP (VBD fired)
+            (NP (DT the) (NN rocket))
+            (PP (IN on)
+              (NP (NNP Tuesday)))))))
+    (. .)))
+
+root(ROOT-0, claimed-2)
+nsubj(claimed-2, Some-1)
+mark(fired-9, that-3)
+det(Jihad-8, the-4)
+amod(Jihad-8, terrorist-5)
+nn(Jihad-8, organization-6)
+nn(Jihad-8, Islamic-7)
+nsubj(fired-9, Jihad-8)
+ccomp(claimed-2, fired-9)
+det(rocket-11, the-10)
+dobj(fired-9, rocket-11)
+prep_on(fired-9, Tuesday-13)
+
+Sentence #11 (24 tokens):
+However, Israel holds Hamas responsible, as the elected leadership of the Gaza Strip, for all violence emanating from that location.
+[Text=However CharacterOffsetBegin=1226 CharacterOffsetEnd=1233 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=1233 CharacterOffsetEnd=1234 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1235 CharacterOffsetEnd=1241 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=holds CharacterOffsetBegin=1242 CharacterOffsetEnd=1247 PartOfSpeech=VBZ Lemma=hold NamedEntityTag=O] [Text=Hamas CharacterOffsetBegin=1248 CharacterOffsetEnd=1253 PartOfSpeech=NNP Lemma=Hamas NamedEntityTag=ORGANIZATION] [Text=responsible CharacterOffsetBegin=1254 CharacterOffsetEnd=1265 PartOfSpeech=JJ Lemma=responsible NamedEntityTag=O] [Text=, CharacterOffsetBegin=1265 CharacterOffsetEnd=1266 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=1267 CharacterOffsetEnd=1269 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=1270 CharacterOffsetEnd=1273 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=elected CharacterOffsetBegin=1274 CharacterOffsetEnd=1281 PartOfSpeech=VBN Lemma=elect NamedEntityTag=O] [Text=leadership CharacterOffsetBegin=1282 CharacterOffsetEnd=1292 PartOfSpeech=NN Lemma=leadership NamedEntityTag=O] [Text=of CharacterOffsetBegin=1293 CharacterOffsetEnd=1295 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1296 CharacterOffsetEnd=1299 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=1300 CharacterOffsetEnd=1304 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=Strip CharacterOffsetBegin=1305 CharacterOffsetEnd=1310 PartOfSpeech=NNP Lemma=Strip NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1310 CharacterOffsetEnd=1311 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=for CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=all CharacterOffsetBegin=1316 CharacterOffsetEnd=1319 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=violence CharacterOffsetBegin=1320 CharacterOffsetEnd=1328 PartOfSpeech=NN Lemma=violence NamedEntityTag=O] [Text=emanating CharacterOffsetBegin=1329 CharacterOffsetEnd=1338 PartOfSpeech=VBG Lemma=emanate NamedEntityTag=O] [Text=from CharacterOffsetBegin=1339 CharacterOffsetEnd=1343 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=that CharacterOffsetBegin=1344 CharacterOffsetEnd=1348 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=location CharacterOffsetBegin=1349 CharacterOffsetEnd=1357 PartOfSpeech=NN Lemma=location NamedEntityTag=O] [Text=. CharacterOffsetBegin=1357 CharacterOffsetEnd=1358 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (NNP Israel))
+    (VP (VBZ holds)
+      (S
+        (NP (NNP Hamas))
+        (ADJP (JJ responsible)))
+      (, ,)
+      (PP (IN as)
+        (NP
+          (NP (DT the) (VBN elected) (NN leadership))
+          (PP (IN of)
+            (NP (DT the) (NNP Gaza) (NNP Strip)))
+          (, ,)
+          (PP (IN for)
+            (NP
+              (NP (DT all) (NN violence))
+              (VP (VBG emanating)
+                (PP (IN from)
+                  (NP (DT that) (NN location)))))))))
+    (. .)))
+
+root(ROOT-0, holds-4)
+advmod(holds-4, However-1)
+nsubj(holds-4, Israel-3)
+nsubj(responsible-6, Hamas-5)
+xcomp(holds-4, responsible-6)
+det(leadership-11, the-9)
+amod(leadership-11, elected-10)
+prep_as(holds-4, leadership-11)
+det(Strip-15, the-13)
+nn(Strip-15, Gaza-14)
+prep_of(leadership-11, Strip-15)
+det(violence-19, all-18)
+prep_for(leadership-11, violence-19)
+vmod(violence-19, emanating-20)
+det(location-23, that-22)
+prep_from(emanating-20, location-23)
+
+Sentence #12 (27 tokens):
+It was 67 years ago today, May 27, that the order was issued by Israel’s first president to establish the Israel Defense Forces.
+[Text=It CharacterOffsetBegin=1359 CharacterOffsetEnd=1361 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1362 CharacterOffsetEnd=1365 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=67 CharacterOffsetBegin=1366 CharacterOffsetEnd=1368 PartOfSpeech=CD Lemma=67 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=years CharacterOffsetBegin=1369 CharacterOffsetEnd=1374 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=ago CharacterOffsetBegin=1375 CharacterOffsetEnd=1378 PartOfSpeech=IN Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=today CharacterOffsetBegin=1379 CharacterOffsetEnd=1384 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=, CharacterOffsetBegin=1384 CharacterOffsetEnd=1385 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=May CharacterOffsetBegin=1386 CharacterOffsetEnd=1389 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=27 CharacterOffsetBegin=1390 CharacterOffsetEnd=1392 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27 Timex=<TIMEX3 alt_value="OFFSET P-67Y INTERSECT THIS P1D INTERSECT XXXX-05-27" anchorTimeID="t7" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">67 years ago today, May 27<_TIMEX3>] [Text=, CharacterOffsetBegin=1392 CharacterOffsetEnd=1393 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=that CharacterOffsetBegin=1394 CharacterOffsetEnd=1398 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=1399 CharacterOffsetEnd=1402 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=order CharacterOffsetBegin=1403 CharacterOffsetEnd=1408 PartOfSpeech=NN Lemma=order NamedEntityTag=O] [Text=was CharacterOffsetBegin=1409 CharacterOffsetEnd=1412 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=issued CharacterOffsetBegin=1413 CharacterOffsetEnd=1419 PartOfSpeech=VBN Lemma=issue NamedEntityTag=O] [Text=by CharacterOffsetBegin=1420 CharacterOffsetEnd=1422 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1423 CharacterOffsetEnd=1429 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=_s CharacterOffsetBegin=1429 CharacterOffsetEnd=1431 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=first CharacterOffsetBegin=1432 CharacterOffsetEnd=1437 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=president CharacterOffsetBegin=1438 CharacterOffsetEnd=1447 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=to CharacterOffsetBegin=1448 CharacterOffsetEnd=1450 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=establish CharacterOffsetBegin=1451 CharacterOffsetEnd=1460 PartOfSpeech=VB Lemma=establish NamedEntityTag=O] [Text=the CharacterOffsetBegin=1461 CharacterOffsetEnd=1464 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=1465 CharacterOffsetEnd=1471 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=ORGANIZATION] [Text=Defense CharacterOffsetBegin=1472 CharacterOffsetEnd=1479 PartOfSpeech=NNP Lemma=Defense NamedEntityTag=ORGANIZATION] [Text=Forces CharacterOffsetBegin=1480 CharacterOffsetEnd=1486 PartOfSpeech=NNP Lemma=Forces NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1486 CharacterOffsetEnd=1487 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADVP
+        (NP (CD 67) (NNS years))
+        (IN ago))
+      (NP
+        (NP (NN today))
+        (, ,)
+        (NP (NNP May) (CD 27))
+        (, ,)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN order))
+            (VP (VBD was)
+              (VP (VBN issued)
+                (PP (IN by)
+                  (NP
+                    (NP (NNP Israel) (POS _s))
+                    (JJ first) (NN president)))
+                (S
+                  (VP (TO to)
+                    (VP (VB establish)
+                      (NP (DT the) (NNP Israel) (NNP Defense) (NNP Forces)))))))))))
+    (. .)))
+
+root(ROOT-0, today-6)
+nsubj(today-6, It-1)
+cop(today-6, was-2)
+num(years-4, 67-3)
+npadvmod(ago-5, years-4)
+advmod(today-6, ago-5)
+appos(today-6, May-8)
+num(May-8, 27-9)
+mark(issued-15, that-11)
+det(order-13, the-12)
+nsubjpass(issued-15, order-13)
+auxpass(issued-15, was-14)
+dep(today-6, issued-15)
+poss(president-20, Israel-17)
+amod(president-20, first-19)
+agent(issued-15, president-20)
+aux(establish-22, to-21)
+xcomp(issued-15, establish-22)
+det(Forces-26, the-23)
+nn(Forces-26, Israel-24)
+nn(Forces-26, Defense-25)
+dobj(establish-22, Forces-26)
+
+Sentence #13 (18 tokens):
+Today the IDF continues to protect its citizens from all manner of efforts to harm its citizens.
+[Text=Today CharacterOffsetBegin=1488 CharacterOffsetEnd=1493 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t8" type="DATE" valueFromFunction="tf2">Today<_TIMEX3>] [Text=the CharacterOffsetBegin=1494 CharacterOffsetEnd=1497 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IDF CharacterOffsetBegin=1498 CharacterOffsetEnd=1501 PartOfSpeech=NN Lemma=idf NamedEntityTag=ORGANIZATION] [Text=continues CharacterOffsetBegin=1502 CharacterOffsetEnd=1511 PartOfSpeech=VBZ Lemma=continue NamedEntityTag=O] [Text=to CharacterOffsetBegin=1512 CharacterOffsetEnd=1514 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=protect CharacterOffsetBegin=1515 CharacterOffsetEnd=1522 PartOfSpeech=VB Lemma=protect NamedEntityTag=O] [Text=its CharacterOffsetBegin=1523 CharacterOffsetEnd=1526 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=citizens CharacterOffsetBegin=1527 CharacterOffsetEnd=1535 PartOfSpeech=NNS Lemma=citizen NamedEntityTag=O] [Text=from CharacterOffsetBegin=1536 CharacterOffsetEnd=1540 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=all CharacterOffsetBegin=1541 CharacterOffsetEnd=1544 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=manner CharacterOffsetBegin=1545 CharacterOffsetEnd=1551 PartOfSpeech=NN Lemma=manner NamedEntityTag=O] [Text=of CharacterOffsetBegin=1552 CharacterOffsetEnd=1554 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=efforts CharacterOffsetBegin=1555 CharacterOffsetEnd=1562 PartOfSpeech=NNS Lemma=effort NamedEntityTag=O] [Text=to CharacterOffsetBegin=1563 CharacterOffsetEnd=1565 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=harm CharacterOffsetBegin=1566 CharacterOffsetEnd=1570 PartOfSpeech=VB Lemma=harm NamedEntityTag=O] [Text=its CharacterOffsetBegin=1571 CharacterOffsetEnd=1574 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=citizens CharacterOffsetBegin=1575 CharacterOffsetEnd=1583 PartOfSpeech=NNS Lemma=citizen NamedEntityTag=O] [Text=. CharacterOffsetBegin=1583 CharacterOffsetEnd=1584 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (NN Today))
+    (NP (DT the) (NN IDF))
+    (VP (VBZ continues)
+      (S
+        (VP (TO to)
+          (VP (VB protect)
+            (NP (PRP$ its) (NNS citizens))
+            (PP (IN from)
+              (NP
+                (NP (DT all) (NN manner))
+                (PP (IN of)
+                  (NP (NNS efforts)))))
+            (S
+              (VP (TO to)
+                (VP (VB harm)
+                  (NP (PRP$ its) (NNS citizens)))))))))
+    (. .)))
+
+root(ROOT-0, continues-4)
+tmod(continues-4, Today-1)
+det(IDF-3, the-2)
+nsubj(continues-4, IDF-3)
+aux(protect-6, to-5)
+xcomp(continues-4, protect-6)
+poss(citizens-8, its-7)
+dobj(protect-6, citizens-8)
+det(manner-11, all-10)
+prep_from(protect-6, manner-11)
+prep_of(manner-11, efforts-13)
+aux(harm-15, to-14)
+vmod(protect-6, harm-15)
+poss(citizens-17, its-16)
+dobj(harm-15, citizens-17)
+
+Sentence #14 (17 tokens):
+As of publication time there were no reports of physical injuries from either set of rockets.
+[Text=As CharacterOffsetBegin=1585 CharacterOffsetEnd=1587 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=of CharacterOffsetBegin=1588 CharacterOffsetEnd=1590 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=publication CharacterOffsetBegin=1591 CharacterOffsetEnd=1602 PartOfSpeech=NN Lemma=publication NamedEntityTag=O] [Text=time CharacterOffsetBegin=1603 CharacterOffsetEnd=1607 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=there CharacterOffsetBegin=1608 CharacterOffsetEnd=1613 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=were CharacterOffsetBegin=1614 CharacterOffsetEnd=1618 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=no CharacterOffsetBegin=1619 CharacterOffsetEnd=1621 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=reports CharacterOffsetBegin=1622 CharacterOffsetEnd=1629 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=of CharacterOffsetBegin=1630 CharacterOffsetEnd=1632 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=physical CharacterOffsetBegin=1633 CharacterOffsetEnd=1641 PartOfSpeech=JJ Lemma=physical NamedEntityTag=O] [Text=injuries CharacterOffsetBegin=1642 CharacterOffsetEnd=1650 PartOfSpeech=NNS Lemma=injury NamedEntityTag=O] [Text=from CharacterOffsetBegin=1651 CharacterOffsetEnd=1655 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=either CharacterOffsetBegin=1656 CharacterOffsetEnd=1662 PartOfSpeech=CC Lemma=either NamedEntityTag=O] [Text=set CharacterOffsetBegin=1663 CharacterOffsetEnd=1666 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=of CharacterOffsetBegin=1667 CharacterOffsetEnd=1669 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=rockets CharacterOffsetBegin=1670 CharacterOffsetEnd=1677 PartOfSpeech=NNS Lemma=rocket NamedEntityTag=O] [Text=. CharacterOffsetBegin=1677 CharacterOffsetEnd=1678 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN of)
+        (NP (NN publication) (NN time))))
+    (NP (EX there))
+    (VP (VBD were)
+      (NP
+        (NP (DT no) (NNS reports))
+        (PP (IN of)
+          (NP (JJ physical) (NNS injuries))))
+      (PP (IN from)
+        (NP
+          (NP (CC either)
+            (NN set))
+          (PP (IN of)
+            (NP (NNS rockets))))))
+    (. .)))
+
+root(ROOT-0, were-6)
+prepc_as_of(were-6, of-2)
+nn(time-4, publication-3)
+pobj(were-6, time-4)
+expl(were-6, there-5)
+neg(reports-8, no-7)
+nsubj(were-6, reports-8)
+amod(injuries-11, physical-10)
+prep_of(reports-8, injuries-11)
+dep(set-14, either-13)
+prep_from(were-6, set-14)
+prep_of(set-14, rockets-16)
+
+Sentence #15 (16 tokens):
+About the Author: Lori Lowenthal Marcus is the US correspondent for The Jewish Press.
+[Text=About CharacterOffsetBegin=1679 CharacterOffsetEnd=1684 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=the CharacterOffsetBegin=1685 CharacterOffsetEnd=1688 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Author CharacterOffsetBegin=1689 CharacterOffsetEnd=1695 PartOfSpeech=NN Lemma=author NamedEntityTag=O] [Text=: CharacterOffsetBegin=1695 CharacterOffsetEnd=1696 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Lori CharacterOffsetBegin=1697 CharacterOffsetEnd=1701 PartOfSpeech=NNP Lemma=Lori NamedEntityTag=PERSON] [Text=Lowenthal CharacterOffsetBegin=1702 CharacterOffsetEnd=1711 PartOfSpeech=NNP Lemma=Lowenthal NamedEntityTag=PERSON] [Text=Marcus CharacterOffsetBegin=1712 CharacterOffsetEnd=1718 PartOfSpeech=NNP Lemma=Marcus NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1719 CharacterOffsetEnd=1721 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1722 CharacterOffsetEnd=1725 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=US CharacterOffsetBegin=1726 CharacterOffsetEnd=1728 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=correspondent CharacterOffsetBegin=1729 CharacterOffsetEnd=1742 PartOfSpeech=NN Lemma=correspondent NamedEntityTag=O] [Text=for CharacterOffsetBegin=1743 CharacterOffsetEnd=1746 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=The CharacterOffsetBegin=1747 CharacterOffsetEnd=1750 PartOfSpeech=DT Lemma=the NamedEntityTag=ORGANIZATION] [Text=Jewish CharacterOffsetBegin=1751 CharacterOffsetEnd=1757 PartOfSpeech=JJ Lemma=jewish NamedEntityTag=ORGANIZATION] [Text=Press CharacterOffsetBegin=1758 CharacterOffsetEnd=1763 PartOfSpeech=NNP Lemma=Press NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1763 CharacterOffsetEnd=1764 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN About)
+      (NP (DT the) (NN Author)))
+    (: :)
+    (NP (NNP Lori) (NNP Lowenthal) (NNP Marcus))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NNP US) (NN correspondent))
+        (PP (IN for)
+          (NP (DT The) (JJ Jewish) (NNP Press)))))
+    (. .)))
+
+root(ROOT-0, correspondent-11)
+det(Author-3, the-2)
+prep_about(correspondent-11, Author-3)
+nn(Marcus-7, Lori-5)
+nn(Marcus-7, Lowenthal-6)
+nsubj(correspondent-11, Marcus-7)
+cop(correspondent-11, is-8)
+det(correspondent-11, the-9)
+nn(correspondent-11, US-10)
+det(Press-15, The-13)
+amod(Press-15, Jewish-14)
+prep_for(correspondent-11, Press-15)
+
+Sentence #16 (20 tokens):
+She is a recovered lawyer who previously practiced First Amendment law and taught in Philadelphia-area graduate and law schools.
+[Text=She CharacterOffsetBegin=1766 CharacterOffsetEnd=1769 PartOfSpeech=PRP Lemma=she NamedEntityTag=O] [Text=is CharacterOffsetBegin=1770 CharacterOffsetEnd=1772 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1773 CharacterOffsetEnd=1774 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=recovered CharacterOffsetBegin=1775 CharacterOffsetEnd=1784 PartOfSpeech=VBN Lemma=recover NamedEntityTag=O] [Text=lawyer CharacterOffsetBegin=1785 CharacterOffsetEnd=1791 PartOfSpeech=NN Lemma=lawyer NamedEntityTag=O] [Text=who CharacterOffsetBegin=1792 CharacterOffsetEnd=1795 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=previously CharacterOffsetBegin=1796 CharacterOffsetEnd=1806 PartOfSpeech=RB Lemma=previously NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t9" type="DATE" value="PAST_REF">previously<_TIMEX3>] [Text=practiced CharacterOffsetBegin=1807 CharacterOffsetEnd=1816 PartOfSpeech=VBD Lemma=practice NamedEntityTag=O] [Text=First CharacterOffsetBegin=1817 CharacterOffsetEnd=1822 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=Amendment CharacterOffsetBegin=1823 CharacterOffsetEnd=1832 PartOfSpeech=NNP Lemma=Amendment NamedEntityTag=O] [Text=law CharacterOffsetBegin=1833 CharacterOffsetEnd=1836 PartOfSpeech=NN Lemma=law NamedEntityTag=O] [Text=and CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=taught CharacterOffsetBegin=1841 CharacterOffsetEnd=1847 PartOfSpeech=VBD Lemma=teach NamedEntityTag=O] [Text=in CharacterOffsetBegin=1848 CharacterOffsetEnd=1850 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Philadelphia-area CharacterOffsetBegin=1851 CharacterOffsetEnd=1868 PartOfSpeech=NN Lemma=philadelphia-area NamedEntityTag=MISC] [Text=graduate CharacterOffsetBegin=1869 CharacterOffsetEnd=1877 PartOfSpeech=NN Lemma=graduate NamedEntityTag=O] [Text=and CharacterOffsetBegin=1878 CharacterOffsetEnd=1881 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=law CharacterOffsetBegin=1882 CharacterOffsetEnd=1885 PartOfSpeech=NN Lemma=law NamedEntityTag=O] [Text=schools CharacterOffsetBegin=1886 CharacterOffsetEnd=1893 PartOfSpeech=NNS Lemma=school NamedEntityTag=O] [Text=. CharacterOffsetBegin=1893 CharacterOffsetEnd=1894 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (VBN recovered) (NN lawyer))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP
+              (VP
+                (ADVP (RB previously))
+                (VBD practiced)
+                (NP (NNP First) (NNP Amendment) (NN law)))
+              (CC and)
+              (VP (VBD taught)
+                (PP (IN in)
+                  (NP (NN Philadelphia-area) (NN graduate)
+                    (CC and)
+                    (NN law) (NNS schools)))))))))
+    (. .)))
+
+root(ROOT-0, lawyer-5)
+nsubj(lawyer-5, She-1)
+cop(lawyer-5, is-2)
+det(lawyer-5, a-3)
+amod(lawyer-5, recovered-4)
+nsubj(practiced-8, who-6)
+advmod(practiced-8, previously-7)
+rcmod(lawyer-5, practiced-8)
+nn(law-11, First-9)
+nn(law-11, Amendment-10)
+dobj(practiced-8, law-11)
+conj_and(practiced-8, taught-13)
+nn(graduate-16, Philadelphia-area-15)
+prep_in(taught-13, graduate-16)
+nn(schools-19, law-18)
+conj_and(graduate-16, schools-19)
+
+Sentence #17 (23 tokens):
+You can reach her by email: Lori@JewishPressOnline.com
+If you don_t see your comment after publishing it, refresh the page.
+[Text=You CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=1899 CharacterOffsetEnd=1902 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=reach CharacterOffsetBegin=1903 CharacterOffsetEnd=1908 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=her CharacterOffsetBegin=1909 CharacterOffsetEnd=1912 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=by CharacterOffsetBegin=1913 CharacterOffsetEnd=1915 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=email CharacterOffsetBegin=1916 CharacterOffsetEnd=1921 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=: CharacterOffsetBegin=1921 CharacterOffsetEnd=1922 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Lori@JewishPressOnline.com CharacterOffsetBegin=1923 CharacterOffsetEnd=1949 PartOfSpeech=NNP Lemma=Lori@JewishPressOnline.com NamedEntityTag=O] [Text=If CharacterOffsetBegin=1950 CharacterOffsetEnd=1952 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1953 CharacterOffsetEnd=1956 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=do CharacterOffsetBegin=1957 CharacterOffsetEnd=1959 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1959 CharacterOffsetEnd=1962 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=see CharacterOffsetBegin=1963 CharacterOffsetEnd=1966 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=your CharacterOffsetBegin=1967 CharacterOffsetEnd=1971 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=comment CharacterOffsetBegin=1972 CharacterOffsetEnd=1979 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=after CharacterOffsetBegin=1980 CharacterOffsetEnd=1985 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=publishing CharacterOffsetBegin=1986 CharacterOffsetEnd=1996 PartOfSpeech=VBG Lemma=publish NamedEntityTag=O] [Text=it CharacterOffsetBegin=1997 CharacterOffsetEnd=1999 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=, CharacterOffsetBegin=1999 CharacterOffsetEnd=2000 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=refresh CharacterOffsetBegin=2001 CharacterOffsetEnd=2008 PartOfSpeech=VB Lemma=refresh NamedEntityTag=O] [Text=the CharacterOffsetBegin=2009 CharacterOffsetEnd=2012 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=page CharacterOffsetBegin=2013 CharacterOffsetEnd=2017 PartOfSpeech=NN Lemma=page NamedEntityTag=O] [Text=. CharacterOffsetBegin=2017 CharacterOffsetEnd=2018 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD can)
+        (VP (VB reach)
+          (NP (PRP$ her))
+          (PP (IN by)
+            (NP (NN email))))))
+    (: :)
+    (S
+      (SBAR
+        (NP (NNP Lori@JewishPressOnline.com))
+        (IN If)
+        (S
+          (NP (PRP you))
+          (VP (VBP do) (RB n_t)
+            (VP (VB see)
+              (NP (PRP$ your) (NN comment))
+              (PP (IN after)
+                (S
+                  (VP (VBG publishing)
+                    (NP (PRP it)))))))))
+      (, ,)
+      (VP (VB refresh)
+        (NP (DT the) (NN page))))
+    (. .)))
+
+root(ROOT-0, reach-3)
+nsubj(reach-3, You-1)
+aux(reach-3, can-2)
+dobj(reach-3, her-4)
+prep_by(reach-3, email-6)
+dep(see-13, Lori@JewishPressOnline.com-8)
+mark(see-13, If-9)
+nsubj(see-13, you-10)
+aux(see-13, do-11)
+neg(see-13, n_t-12)
+advcl(refresh-20, see-13)
+poss(comment-15, your-14)
+dobj(see-13, comment-15)
+prepc_after(see-13, publishing-17)
+dobj(publishing-17, it-18)
+parataxis(reach-3, refresh-20)
+det(page-22, the-21)
+dobj(refresh-20, page-22)
+
+Sentence #18 (15 tokens):
+Our comments section is intended for meaningful responses and debates in a civilized manner.
+[Text=Our CharacterOffsetBegin=2019 CharacterOffsetEnd=2022 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=comments CharacterOffsetBegin=2023 CharacterOffsetEnd=2031 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=section CharacterOffsetBegin=2032 CharacterOffsetEnd=2039 PartOfSpeech=NN Lemma=section NamedEntityTag=O] [Text=is CharacterOffsetBegin=2040 CharacterOffsetEnd=2042 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=intended CharacterOffsetBegin=2043 CharacterOffsetEnd=2051 PartOfSpeech=VBN Lemma=intend NamedEntityTag=O] [Text=for CharacterOffsetBegin=2052 CharacterOffsetEnd=2055 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=meaningful CharacterOffsetBegin=2056 CharacterOffsetEnd=2066 PartOfSpeech=JJ Lemma=meaningful NamedEntityTag=O] [Text=responses CharacterOffsetBegin=2067 CharacterOffsetEnd=2076 PartOfSpeech=NNS Lemma=response NamedEntityTag=O] [Text=and CharacterOffsetBegin=2077 CharacterOffsetEnd=2080 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=debates CharacterOffsetBegin=2081 CharacterOffsetEnd=2088 PartOfSpeech=NNS Lemma=debate NamedEntityTag=O] [Text=in CharacterOffsetBegin=2089 CharacterOffsetEnd=2091 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=2092 CharacterOffsetEnd=2093 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=civilized CharacterOffsetBegin=2094 CharacterOffsetEnd=2103 PartOfSpeech=JJ Lemma=civilized NamedEntityTag=O] [Text=manner CharacterOffsetBegin=2104 CharacterOffsetEnd=2110 PartOfSpeech=NN Lemma=manner NamedEntityTag=O] [Text=. CharacterOffsetBegin=2110 CharacterOffsetEnd=2111 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS comments) (NN section))
+    (VP (VBZ is)
+      (VP (VBN intended)
+        (PP (IN for)
+          (NP (JJ meaningful) (NNS responses)
+            (CC and)
+            (NNS debates)))
+        (PP (IN in)
+          (NP (DT a) (JJ civilized) (NN manner)))))
+    (. .)))
+
+root(ROOT-0, intended-5)
+poss(section-3, Our-1)
+nn(section-3, comments-2)
+nsubjpass(intended-5, section-3)
+auxpass(intended-5, is-4)
+amod(responses-8, meaningful-7)
+prep_for(intended-5, responses-8)
+conj_and(responses-8, debates-10)
+det(manner-14, a-12)
+amod(manner-14, civilized-13)
+prep_in(intended-5, manner-14)
+
+Sentence #19 (22 tokens):
+We ask that you respect the fact that we are a religious Jewish website and avoid inappropriate language at all cost.
+[Text=We CharacterOffsetBegin=2112 CharacterOffsetEnd=2114 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=ask CharacterOffsetBegin=2115 CharacterOffsetEnd=2118 PartOfSpeech=VBP Lemma=ask NamedEntityTag=O] [Text=that CharacterOffsetBegin=2119 CharacterOffsetEnd=2123 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=you CharacterOffsetBegin=2124 CharacterOffsetEnd=2127 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=respect CharacterOffsetBegin=2128 CharacterOffsetEnd=2135 PartOfSpeech=VBP Lemma=respect NamedEntityTag=O] [Text=the CharacterOffsetBegin=2136 CharacterOffsetEnd=2139 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fact CharacterOffsetBegin=2140 CharacterOffsetEnd=2144 PartOfSpeech=NN Lemma=fact NamedEntityTag=O] [Text=that CharacterOffsetBegin=2145 CharacterOffsetEnd=2149 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=we CharacterOffsetBegin=2150 CharacterOffsetEnd=2152 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=2153 CharacterOffsetEnd=2156 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2157 CharacterOffsetEnd=2158 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=religious CharacterOffsetBegin=2159 CharacterOffsetEnd=2168 PartOfSpeech=JJ Lemma=religious NamedEntityTag=O] [Text=Jewish CharacterOffsetBegin=2169 CharacterOffsetEnd=2175 PartOfSpeech=JJ Lemma=jewish NamedEntityTag=MISC] [Text=website CharacterOffsetBegin=2176 CharacterOffsetEnd=2183 PartOfSpeech=NN Lemma=website NamedEntityTag=O] [Text=and CharacterOffsetBegin=2184 CharacterOffsetEnd=2187 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=avoid CharacterOffsetBegin=2188 CharacterOffsetEnd=2193 PartOfSpeech=VB Lemma=avoid NamedEntityTag=O] [Text=inappropriate CharacterOffsetBegin=2194 CharacterOffsetEnd=2207 PartOfSpeech=JJ Lemma=inappropriate NamedEntityTag=O] [Text=language CharacterOffsetBegin=2208 CharacterOffsetEnd=2216 PartOfSpeech=NN Lemma=language NamedEntityTag=O] [Text=at CharacterOffsetBegin=2217 CharacterOffsetEnd=2219 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=all CharacterOffsetBegin=2220 CharacterOffsetEnd=2223 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=cost CharacterOffsetBegin=2224 CharacterOffsetEnd=2228 PartOfSpeech=NN Lemma=cost NamedEntityTag=O] [Text=. CharacterOffsetBegin=2228 CharacterOffsetEnd=2229 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP ask)
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP
+            (VP (VBP respect)
+              (NP (DT the) (NN fact))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP we))
+                  (VP (VBP are)
+                    (NP (DT a) (JJ religious) (JJ Jewish) (NN website))))))
+            (CC and)
+            (VP (VB avoid)
+              (NP (JJ inappropriate) (NN language))
+              (PP (IN at)
+                (NP (DT all) (NN cost))))))))
+    (. .)))
+
+root(ROOT-0, ask-2)
+nsubj(ask-2, We-1)
+mark(respect-5, that-3)
+nsubj(respect-5, you-4)
+ccomp(ask-2, respect-5)
+det(fact-7, the-6)
+dobj(respect-5, fact-7)
+mark(website-14, that-8)
+nsubj(website-14, we-9)
+cop(website-14, are-10)
+det(website-14, a-11)
+amod(website-14, religious-12)
+amod(website-14, Jewish-13)
+ccomp(respect-5, website-14)
+conj_and(respect-5, avoid-16)
+amod(language-18, inappropriate-17)
+dobj(avoid-16, language-18)
+det(cost-21, all-20)
+prep_at(avoid-16, cost-21)
+
+Sentence #20 (34 tokens):
+If you promote any foreign religions, gods or messiahs, lies about Israel, anti-Semitism, or advocate violence (except against terrorists), your permission to comment may be revoked.
+[Text=If CharacterOffsetBegin=2230 CharacterOffsetEnd=2232 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=2233 CharacterOffsetEnd=2236 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=promote CharacterOffsetBegin=2237 CharacterOffsetEnd=2244 PartOfSpeech=VBP Lemma=promote NamedEntityTag=O] [Text=any CharacterOffsetBegin=2245 CharacterOffsetEnd=2248 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=foreign CharacterOffsetBegin=2249 CharacterOffsetEnd=2256 PartOfSpeech=JJ Lemma=foreign NamedEntityTag=O] [Text=religions CharacterOffsetBegin=2257 CharacterOffsetEnd=2266 PartOfSpeech=NNS Lemma=religion NamedEntityTag=O] [Text=, CharacterOffsetBegin=2266 CharacterOffsetEnd=2267 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=gods CharacterOffsetBegin=2268 CharacterOffsetEnd=2272 PartOfSpeech=NNS Lemma=god NamedEntityTag=O] [Text=or CharacterOffsetBegin=2273 CharacterOffsetEnd=2275 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=messiahs CharacterOffsetBegin=2276 CharacterOffsetEnd=2284 PartOfSpeech=NNS Lemma=messiah NamedEntityTag=O] [Text=, CharacterOffsetBegin=2284 CharacterOffsetEnd=2285 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=lies CharacterOffsetBegin=2286 CharacterOffsetEnd=2290 PartOfSpeech=VBZ Lemma=lie NamedEntityTag=O] [Text=about CharacterOffsetBegin=2291 CharacterOffsetEnd=2296 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Israel CharacterOffsetBegin=2297 CharacterOffsetEnd=2303 PartOfSpeech=NNP Lemma=Israel NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2303 CharacterOffsetEnd=2304 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=anti-Semitism CharacterOffsetBegin=2305 CharacterOffsetEnd=2318 PartOfSpeech=NNP Lemma=anti-Semitism NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=2318 CharacterOffsetEnd=2319 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2320 CharacterOffsetEnd=2322 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=advocate CharacterOffsetBegin=2323 CharacterOffsetEnd=2331 PartOfSpeech=NN Lemma=advocate NamedEntityTag=O] [Text=violence CharacterOffsetBegin=2332 CharacterOffsetEnd=2340 PartOfSpeech=NN Lemma=violence NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=2341 CharacterOffsetEnd=2342 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=except CharacterOffsetBegin=2342 CharacterOffsetEnd=2348 PartOfSpeech=IN Lemma=except NamedEntityTag=O] [Text=against CharacterOffsetBegin=2349 CharacterOffsetEnd=2356 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=terrorists CharacterOffsetBegin=2357 CharacterOffsetEnd=2367 PartOfSpeech=NNS Lemma=terrorist NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2367 CharacterOffsetEnd=2368 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=, CharacterOffsetBegin=2368 CharacterOffsetEnd=2369 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=your CharacterOffsetBegin=2370 CharacterOffsetEnd=2374 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=permission CharacterOffsetBegin=2375 CharacterOffsetEnd=2385 PartOfSpeech=NN Lemma=permission NamedEntityTag=O] [Text=to CharacterOffsetBegin=2386 CharacterOffsetEnd=2388 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=comment CharacterOffsetBegin=2389 CharacterOffsetEnd=2396 PartOfSpeech=VB Lemma=comment NamedEntityTag=O] [Text=may CharacterOffsetBegin=2397 CharacterOffsetEnd=2400 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=be CharacterOffsetBegin=2401 CharacterOffsetEnd=2403 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=revoked CharacterOffsetBegin=2404 CharacterOffsetEnd=2411 PartOfSpeech=VBN Lemma=revoke NamedEntityTag=O] [Text=. CharacterOffsetBegin=2411 CharacterOffsetEnd=2412 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP promote)
+          (SBAR
+            (S
+              (NP
+                (NP (DT any) (JJ foreign) (NNS religions))
+                (, ,)
+                (NP (NNS gods)
+                  (CC or)
+                  (NNS messiahs))
+                (, ,))
+              (VP (VBZ lies)
+                (PP (IN about)
+                  (NP
+                    (NP (NNP Israel))
+                    (, ,)
+                    (NP (NNP anti-Semitism))
+                    (, ,)
+                    (CC or)
+                    (NP (NN advocate) (NN violence))))
+                (PRN (-LRB- -LRB-)
+                  (PP (IN except)
+                    (PP (IN against)
+                      (NP (NNS terrorists))))
+                  (-RRB- -RRB-))))))))
+    (, ,)
+    (NP (PRP$ your) (NN permission)
+      (S
+        (VP (TO to)
+          (VP (VB comment)))))
+    (VP (MD may)
+      (VP (VB be)
+        (VP (VBN revoked))))
+    (. .)))
+
+root(ROOT-0, revoked-33)
+mark(promote-3, If-1)
+nsubj(promote-3, you-2)
+advcl(revoked-33, promote-3)
+det(religions-6, any-4)
+amod(religions-6, foreign-5)
+nsubj(lies-12, religions-6)
+appos(religions-6, gods-8)
+conj_or(gods-8, messiahs-10)
+ccomp(promote-3, lies-12)
+prep_about(lies-12, Israel-14)
+conj_or(Israel-14, anti-Semitism-16)
+nn(violence-20, advocate-19)
+conj_or(Israel-14, violence-20)
+dep(lies-12, except-22)
+pcomp(except-22, against-23)
+pobj(against-23, terrorists-24)
+poss(permission-28, your-27)
+nsubjpass(revoked-33, permission-28)
+aux(comment-30, to-29)
+vmod(permission-28, comment-30)
+aux(revoked-33, may-31)
+auxpass(revoked-33, be-32)
+
+Sentence #21 (9 tokens):
+You must log in to post a comment.
+[Text=You CharacterOffsetBegin=2413 CharacterOffsetEnd=2416 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=must CharacterOffsetBegin=2417 CharacterOffsetEnd=2421 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=log CharacterOffsetBegin=2422 CharacterOffsetEnd=2425 PartOfSpeech=VB Lemma=log NamedEntityTag=O] [Text=in CharacterOffsetBegin=2426 CharacterOffsetEnd=2428 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=to CharacterOffsetBegin=2429 CharacterOffsetEnd=2431 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=post CharacterOffsetBegin=2432 CharacterOffsetEnd=2436 PartOfSpeech=VB Lemma=post NamedEntityTag=O] [Text=a CharacterOffsetBegin=2437 CharacterOffsetEnd=2438 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=comment CharacterOffsetBegin=2439 CharacterOffsetEnd=2446 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=. CharacterOffsetBegin=2446 CharacterOffsetEnd=2447 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD must)
+      (VP (VB log)
+        (PP (IN in))
+        (S
+          (VP (TO to)
+            (VP (VB post)
+              (NP (DT a) (NN comment)))))))
+    (. .)))
+
+root(ROOT-0, log-3)
+nsubj(log-3, You-1)
+aux(log-3, must-2)
+prep(log-3, in-4)
+aux(post-6, to-5)
+xcomp(log-3, post-6)
+det(comment-8, a-7)
+dobj(post-6, comment-8)
+
+Sentence #22 (47 tokens):
+No Responses to “Israeli Air Force Strikes Back at Gaza for Rocket Attack”
+Current Top Story
+on May 27, 2015 12:30 AM
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+More Articles from Lori Lowenthal Marcus
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No portion of this website may be copied without the express written permission of JewishPress.com.
+[Text=No CharacterOffsetBegin=2448 CharacterOffsetEnd=2450 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=Responses CharacterOffsetBegin=2451 CharacterOffsetEnd=2460 PartOfSpeech=NNS Lemma=response NamedEntityTag=O] [Text=to CharacterOffsetBegin=2461 CharacterOffsetEnd=2463 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2464 CharacterOffsetEnd=2465 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Israeli CharacterOffsetBegin=2465 CharacterOffsetEnd=2472 PartOfSpeech=NNP Lemma=Israeli NamedEntityTag=MISC] [Text=Air CharacterOffsetBegin=2473 CharacterOffsetEnd=2476 PartOfSpeech=NNP Lemma=Air NamedEntityTag=O] [Text=Force CharacterOffsetBegin=2477 CharacterOffsetEnd=2482 PartOfSpeech=NNP Lemma=Force NamedEntityTag=O] [Text=Strikes CharacterOffsetBegin=2483 CharacterOffsetEnd=2490 PartOfSpeech=VBZ Lemma=strike NamedEntityTag=O] [Text=Back CharacterOffsetBegin=2491 CharacterOffsetEnd=2495 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=at CharacterOffsetBegin=2496 CharacterOffsetEnd=2498 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=Gaza CharacterOffsetBegin=2499 CharacterOffsetEnd=2503 PartOfSpeech=NNP Lemma=Gaza NamedEntityTag=LOCATION] [Text=for CharacterOffsetBegin=2504 CharacterOffsetEnd=2507 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Rocket CharacterOffsetBegin=2508 CharacterOffsetEnd=2514 PartOfSpeech=NNP Lemma=Rocket NamedEntityTag=O] [Text=Attack CharacterOffsetBegin=2515 CharacterOffsetEnd=2521 PartOfSpeech=NNP Lemma=Attack NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2521 CharacterOffsetEnd=2522 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Current CharacterOffsetBegin=2523 CharacterOffsetEnd=2530 PartOfSpeech=JJ Lemma=current NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t10" type="DATE" value="PRESENT_REF">Current<_TIMEX3>] [Text=Top CharacterOffsetBegin=2531 CharacterOffsetEnd=2534 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=Story CharacterOffsetBegin=2535 CharacterOffsetEnd=2540 PartOfSpeech=NNP Lemma=Story NamedEntityTag=O] [Text=on CharacterOffsetBegin=2541 CharacterOffsetEnd=2543 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=May CharacterOffsetBegin=2544 CharacterOffsetEnd=2547 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=27 CharacterOffsetBegin=2548 CharacterOffsetEnd=2550 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=, CharacterOffsetBegin=2550 CharacterOffsetEnd=2551 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=2015 CharacterOffsetBegin=2552 CharacterOffsetEnd=2556 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=12:30 CharacterOffsetBegin=2557 CharacterOffsetEnd=2562 PartOfSpeech=CD Lemma=12:30 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=AM CharacterOffsetBegin=2563 CharacterOffsetEnd=2565 PartOfSpeech=NNP Lemma=AM NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T00:30 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-27T00:30">May 27, 2015 12:30 AM<_TIMEX3>] [Text=More CharacterOffsetBegin=2596 CharacterOffsetEnd=2600 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=Articles CharacterOffsetBegin=2601 CharacterOffsetEnd=2609 PartOfSpeech=NNPS Lemma=Articles NamedEntityTag=O] [Text=from CharacterOffsetBegin=2610 CharacterOffsetEnd=2614 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=Lori CharacterOffsetBegin=2615 CharacterOffsetEnd=2619 PartOfSpeech=NNP Lemma=Lori NamedEntityTag=PERSON] [Text=Lowenthal CharacterOffsetBegin=2620 CharacterOffsetEnd=2629 PartOfSpeech=NNP Lemma=Lowenthal NamedEntityTag=PERSON] [Text=Marcus CharacterOffsetBegin=2630 CharacterOffsetEnd=2636 PartOfSpeech=NNP Lemma=Marcus NamedEntityTag=PERSON] [Text=No CharacterOffsetBegin=2653 CharacterOffsetEnd=2655 PartOfSpeech=NNP Lemma=No NamedEntityTag=O] [Text=portion CharacterOffsetBegin=2656 CharacterOffsetEnd=2663 PartOfSpeech=NN Lemma=portion NamedEntityTag=O] [Text=of CharacterOffsetBegin=2664 CharacterOffsetEnd=2666 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=2667 CharacterOffsetEnd=2671 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=website CharacterOffsetBegin=2672 CharacterOffsetEnd=2679 PartOfSpeech=NN Lemma=website NamedEntityTag=O] [Text=may CharacterOffsetBegin=2680 CharacterOffsetEnd=2683 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=be CharacterOffsetBegin=2684 CharacterOffsetEnd=2686 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=copied CharacterOffsetBegin=2687 CharacterOffsetEnd=2693 PartOfSpeech=VBN Lemma=copy NamedEntityTag=O] [Text=without CharacterOffsetBegin=2694 CharacterOffsetEnd=2701 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=2702 CharacterOffsetEnd=2705 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=express CharacterOffsetBegin=2706 CharacterOffsetEnd=2713 PartOfSpeech=VBP Lemma=express NamedEntityTag=O] [Text=written CharacterOffsetBegin=2714 CharacterOffsetEnd=2721 PartOfSpeech=JJ Lemma=written NamedEntityTag=O] [Text=permission CharacterOffsetBegin=2722 CharacterOffsetEnd=2732 PartOfSpeech=NN Lemma=permission NamedEntityTag=O] [Text=of CharacterOffsetBegin=2733 CharacterOffsetEnd=2735 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=JewishPress.com CharacterOffsetBegin=2736 CharacterOffsetEnd=2751 PartOfSpeech=NNP Lemma=JewishPress.com NamedEntityTag=O] [Text=. CharacterOffsetBegin=2751 CharacterOffsetEnd=2752 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT No) (NNS Responses))
+      (PP (TO to)
+        (NP (`` ``) (NNP Israeli) (NNP Air) (NNP Force))))
+    (VP (VBZ Strikes)
+      (ADVP (RB Back)
+        (PP (IN at)
+          (NP (NNP Gaza))))
+      (PP (IN for)
+        (NP
+          (NP (NNP Rocket) (NNP Attack))
+          (__ __)
+          (SBAR
+            (S
+              (NP
+                (NP (JJ Current) (JJ Top) (NNP Story))
+                (PP (IN on)
+                  (NP
+                    (NP
+                      (NP (NNP May) (CD 27) (, ,) (CD 2015))
+                      (NP (CD 12:30))
+                      (ADVP
+                        (NP (NNP AM))
+                        (RBR More)))
+                    (SBAR
+                      (S
+                        (NP
+                          (NP (NNPS Articles))
+                          (PP (IN from)
+                            (NP (NNP Lori) (NNP Lowenthal) (NNP Marcus) (NNP No) (NN portion)))
+                          (PP (IN of)
+                            (NP (DT this) (NN website))))
+                        (VP (MD may)
+                          (VP (VB be)
+                            (VP (VBN copied)
+                              (PP (IN without)
+                                (NP (DT the)))))))))))
+              (VP (VBP express)
+                (NP
+                  (NP (JJ written) (NN permission))
+                  (PP (IN of)
+                    (NP (NNP JewishPress.com))))))))))
+    (. .)))
+
+root(ROOT-0, Strikes-8)
+neg(Responses-2, No-1)
+nsubj(Strikes-8, Responses-2)
+nn(Force-7, Israeli-5)
+nn(Force-7, Air-6)
+prep_to(Responses-2, Force-7)
+advmod(Strikes-8, Back-9)
+prep_at(Back-9, Gaza-11)
+nn(Attack-14, Rocket-13)
+prep_for(Strikes-8, Attack-14)
+amod(Story-18, Current-16)
+amod(Story-18, Top-17)
+nsubj(express-42, Story-18)
+prep_on(Story-18, May-20)
+num(May-20, 27-21)
+num(May-20, 2015-23)
+dep(May-20, 12:30-24)
+dep(More-26, AM-25)
+advmod(May-20, More-26)
+nsubjpass(copied-39, Articles-27)
+nn(portion-33, Lori-29)
+nn(portion-33, Lowenthal-30)
+nn(portion-33, Marcus-31)
+nn(portion-33, No-32)
+prep_from(Articles-27, portion-33)
+det(website-36, this-35)
+prep_of(Articles-27, website-36)
+aux(copied-39, may-37)
+auxpass(copied-39, be-38)
+rcmod(May-20, copied-39)
+prep_without(copied-39, the-41)
+rcmod(Attack-14, express-42)
+amod(permission-44, written-43)
+dobj(express-42, permission-44)
+prep_of(permission-44, JewishPress.com-46)
+
+Sentence #23 (26 tokens):
+Printed from: http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_
+Send to Email Address
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+[Text=Printed CharacterOffsetBegin=2753 CharacterOffsetEnd=2760 PartOfSpeech=NNP Lemma=Printed NamedEntityTag=O] [Text=from CharacterOffsetBegin=2761 CharacterOffsetEnd=2765 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=: CharacterOffsetBegin=2765 CharacterOffsetEnd=2766 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_ CharacterOffsetBegin=2767 CharacterOffsetEnd=2881 PartOfSpeech=NN Lemma=http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_ NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27 Timex=<TIMEX3 tid="t12" type="DATE" value="2015-05-27">2015_05_27<_TIMEX3>] [Text=Send CharacterOffsetBegin=2882 CharacterOffsetEnd=2886 PartOfSpeech=VB Lemma=send NamedEntityTag=O] [Text=to CharacterOffsetBegin=2887 CharacterOffsetEnd=2889 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Email CharacterOffsetBegin=2890 CharacterOffsetEnd=2895 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=Address CharacterOffsetBegin=2896 CharacterOffsetEnd=2903 PartOfSpeech=NNP Lemma=Address NamedEntityTag=O] [Text=Email CharacterOffsetBegin=2904 CharacterOffsetEnd=2909 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=check CharacterOffsetBegin=2910 CharacterOffsetEnd=2915 PartOfSpeech=NN Lemma=check NamedEntityTag=O] [Text=failed CharacterOffsetBegin=2916 CharacterOffsetEnd=2922 PartOfSpeech=VBD Lemma=fail NamedEntityTag=O] [Text=, CharacterOffsetBegin=2922 CharacterOffsetEnd=2923 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=please CharacterOffsetBegin=2924 CharacterOffsetEnd=2930 PartOfSpeech=VB Lemma=please NamedEntityTag=O] [Text=try CharacterOffsetBegin=2931 CharacterOffsetEnd=2934 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=again CharacterOffsetBegin=2935 CharacterOffsetEnd=2940 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=Sorry CharacterOffsetBegin=2941 CharacterOffsetEnd=2946 PartOfSpeech=JJ Lemma=sorry NamedEntityTag=O] [Text=, CharacterOffsetBegin=2946 CharacterOffsetEnd=2947 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=your CharacterOffsetBegin=2948 CharacterOffsetEnd=2952 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=blog CharacterOffsetBegin=2953 CharacterOffsetEnd=2957 PartOfSpeech=NN Lemma=blog NamedEntityTag=O] [Text=can CharacterOffsetBegin=2958 CharacterOffsetEnd=2961 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=not CharacterOffsetBegin=2961 CharacterOffsetEnd=2964 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=share CharacterOffsetBegin=2965 CharacterOffsetEnd=2970 PartOfSpeech=VB Lemma=share NamedEntityTag=O] [Text=posts CharacterOffsetBegin=2971 CharacterOffsetEnd=2976 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=by CharacterOffsetBegin=2977 CharacterOffsetEnd=2979 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=email CharacterOffsetBegin=2980 CharacterOffsetEnd=2985 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=. CharacterOffsetBegin=2985 CharacterOffsetEnd=2986 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Printed))
+        (PP (IN from) (: :)
+          (NP (NN http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_)
+            (S
+              (VP (VB Send)
+                (S
+                  (VP (TO to)
+                    (VP (VB Email)
+                      (S
+                        (NP (NNP Address))
+                        (VP (VB Email)
+                          (NP (NN check))))))))))))
+      (VP
+        (VP (VBD failed))
+        (PRN (, ,)
+          (INTJ (VB please)))
+        (VP (VB try)
+          (ADJP
+            (ADVP (RB again))
+            (JJ Sorry)))))
+    (, ,)
+    (NP (PRP$ your) (NN blog))
+    (VP (MD can) (RB not)
+      (VP (VB share)
+        (NP (NNS posts))
+        (PP (IN by)
+          (NP (NN email)))))
+    (. .)))
+
+root(ROOT-0, share-22)
+nsubj(failed-11, Printed-1)
+prep_from(Printed-1, http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_-4)
+dep(http:__www.jewishpress.com_news_breaking-news_israeli-air-force-strikes-back-at-gaza-for-rocket-attack_2015_05_27_-4, Send-5)
+aux(Email-7, to-6)
+xcomp(Send-5, Email-7)
+nsubj(Email-9, Address-8)
+ccomp(Email-7, Email-9)
+dobj(Email-9, check-10)
+ccomp(share-22, failed-11)
+discourse(failed-11, please-13)
+dep(failed-11, try-14)
+advmod(Sorry-16, again-15)
+acomp(try-14, Sorry-16)
+poss(blog-19, your-18)
+nsubj(share-22, blog-19)
+aux(share-22, can-20)
+neg(share-22, not-21)
+dobj(share-22, posts-23)
+prep_by(share-22, email-25)
+
+Coreference set:
+ (22,7,[4,8]) -> (1,10,[4,11]), that is: "`` Israeli Air Force" -> "IAF Facebook Page The Israeli Air Force"
+Coreference set:
+ (2,10,[10,11]) -> (1,19,[16,20]), that is: "Gaza" -> "the southern Gaza Strip"
+ (6,11,[9,12]) -> (1,19,[16,20]), that is: "the Gaza Strip" -> "the southern Gaza Strip"
+ (7,15,[15,16]) -> (1,19,[16,20]), that is: "Gaza" -> "the southern Gaza Strip"
+ (7,33,[31,34]) -> (1,19,[16,20]), that is: "the Gaza Strip" -> "the southern Gaza Strip"
+ (8,8,[6,14]) -> (1,19,[16,20]), that is: "the Gaza Strip as a `` staging ground" -> "the southern Gaza Strip"
+ (11,15,[13,16]) -> (1,19,[16,20]), that is: "the Gaza Strip" -> "the southern Gaza Strip"
+ (11,15,[14,16]) -> (1,19,[16,20]), that is: "Gaza Strip" -> "the southern Gaza Strip"
+ (22,11,[11,12]) -> (1,19,[16,20]), that is: "Gaza" -> "the southern Gaza Strip"
+Coreference set:
+ (3,8,[8,9]) -> (2,7,[7,18]), that is: "rockets" -> "rockets fired from Gaza at Israel on Tuesday , May 26"
+ (14,16,[16,17]) -> (2,7,[7,18]), that is: "rockets" -> "rockets fired from Gaza at Israel on Tuesday , May 26"
+Coreference set:
+ (2,12,[12,15]) -> (8,16,[15,26]), that is: "Israel on Tuesday" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (3,14,[14,15]) -> (8,16,[15,26]), that is: "Israel" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (8,16,[15,17]) -> (8,16,[15,26]), that is: "attack Israel" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (8,16,[16,17]) -> (8,16,[15,26]), that is: "Israel" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (11,3,[3,4]) -> (8,16,[15,26]), that is: "Israel" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (12,17,[17,19]) -> (8,16,[15,26]), that is: "Israel _s" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+ (20,14,[14,15]) -> (8,16,[15,26]), that is: "Israel" -> "attack Israel , __ which Lerner called `` unacceptable and intolerable"
+Coreference set:
+ (3,16,[16,17]) -> (2,14,[14,15]), that is: "Tuesday" -> "Tuesday"
+ (10,13,[13,14]) -> (2,14,[14,15]), that is: "Tuesday" -> "Tuesday"
+Coreference set:
+ (6,2,[1,3]) -> (5,15,[14,16]), that is: "Gan Yavne" -> "Gan Yavne"
+Coreference set:
+ (9,18,[17,19]) -> (5,4,[3,5]), that is: "the IDF" -> "the IDF"
+ (13,3,[2,4]) -> (5,4,[3,5]), that is: "the IDF" -> "the IDF"
+ (13,7,[7,8]) -> (5,4,[3,5]), that is: "its" -> "the IDF"
+ (13,16,[16,17]) -> (5,4,[3,5]), that is: "its" -> "the IDF"
+Coreference set:
+ (5,12,[12,13]) -> (5,8,[6,9]), that is: "it" -> "only one rocket"
+ (10,11,[10,12]) -> (5,8,[6,9]), that is: "the rocket" -> "only one rocket"
+Coreference set:
+ (8,4,[4,5]) -> (7,22,[22,23]), that is: "Hamas" -> "Hamas"
+ (11,5,[5,6]) -> (7,22,[22,23]), that is: "Hamas" -> "Hamas"
+Coreference set:
+ (8,1,[1,2]) -> (7,9,[6,10]), that is: "Lerner" -> "Lt. Col. Peter Lerner"
+ (8,20,[20,21]) -> (7,9,[6,10]), that is: "Lerner" -> "Lt. Col. Peter Lerner"
+ (9,41,[41,42]) -> (7,9,[6,10]), that is: "Lerner" -> "Lt. Col. Peter Lerner"
+Coreference set:
+ (7,13,[12,16]) -> (7,20,[18,23]), that is: "the strikes against Gaza" -> "a direct response to Hamas"
+ (7,20,[18,34]) -> (7,20,[18,23]), that is: "a direct response to Hamas and the aggression against Israeli civilians originating from the Gaza Strip" -> "a direct response to Hamas"
+Coreference set:
+ (16,9,[9,10]) -> (12,19,[19,20]), that is: "First" -> "first"
+Coreference set:
+ (12,8,[8,10]) -> (22,20,[20,42]), that is: "May 27" -> "May 27 , 2015 12:30 AM More Articles from Lori Lowenthal Marcus No portion of this website may be copied without the"
+Coreference set:
+ (13,17,[16,18]) -> (13,8,[7,9]), that is: "its citizens" -> "its citizens"
+Coreference set:
+ (15,11,[9,16]) -> (15,7,[5,8]), that is: "the US correspondent for The Jewish Press" -> "Lori Lowenthal Marcus"
+ (22,31,[29,32]) -> (15,7,[5,8]), that is: "Lori Lowenthal Marcus" -> "Lori Lowenthal Marcus"
+Coreference set:
+ (17,4,[4,5]) -> (16,1,[1,2]), that is: "her" -> "She"
+Coreference set:
+ (17,18,[18,19]) -> (17,15,[14,16]), that is: "it" -> "your comment"
+Coreference set:
+ (19,1,[1,2]) -> (18,1,[1,2]), that is: "We" -> "Our"
+ (19,9,[9,10]) -> (18,1,[1,2]), that is: "we" -> "Our"
+Coreference set:
+ (22,36,[35,37]) -> (19,14,[11,15]), that is: "this website" -> "a religious Jewish website"

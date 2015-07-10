@@ -1,0 +1,1544 @@
+Sentence #1 (30 tokens):
+Kyrie Irving to play and start tonight for Cavs in Game 4
+Irving will be monitored as game progresses after he missed the previous two with left knee tendinitis.
+[Text=Kyrie CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Kyrie NamedEntityTag=PERSON] [Text=Irving CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=to CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=and CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=start CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VB Lemma=start NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">start tonight<_TIMEX3>] [Text=tonight CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=tonight NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" mod="EARLY" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">start tonight<_TIMEX3>] [Text=for CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNS Lemma=cav NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Game CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=NNP Lemma=Game NamedEntityTag=O] [Text=4 CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=CD Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=Irving CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=O] [Text=will CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=monitored CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=VBN Lemma=monitor NamedEntityTag=O] [Text=as CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=game CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=progresses CharacterOffsetBegin=95 CharacterOffsetEnd=105 PartOfSpeech=VBZ Lemma=progress NamedEntityTag=O] [Text=after CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=he CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=missed CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=VBD Lemma=miss NamedEntityTag=O] [Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=previous CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O] [Text=two CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=with CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=left CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=JJ Lemma=left NamedEntityTag=O] [Text=knee CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=NN Lemma=knee NamedEntityTag=O] [Text=tendinitis CharacterOffsetBegin=154 CharacterOffsetEnd=164 PartOfSpeech=NN Lemma=tendinitis NamedEntityTag=O] [Text=. CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kyrie) (NNP Irving))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (CC and)
+              (VB start)
+              (NP
+                (NP (NN tonight))
+                (PP (IN for)
+                  (NP (NNS Cavs))))
+              (PP (IN in)
+                (NP (NNP Game) (CD 4)))))))
+      (SBAR
+        (S
+          (NP (NNP Irving))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBN monitored)
+                (PP (IN as)
+                  (NP (NN game)))))))))
+    (VP (VBZ progresses)
+      (SBAR (IN after)
+        (S
+          (NP (PRP he))
+          (VP (VBD missed)
+            (NP (DT the) (JJ previous) (CD two))
+            (PP (IN with)
+              (NP (JJ left) (NN knee) (NN tendinitis)))))))
+    (. .)))
+
+root(ROOT-0, progresses-19)
+nn(Irving-2, Kyrie-1)
+nsubj(progresses-19, Irving-2)
+aux(play-4, to-3)
+vmod(Irving-2, play-4)
+conj_and(play-4, start-6)
+dobj(play-4, tonight-7)
+prep_for(tonight-7, Cavs-9)
+prep_in(play-4, Game-11)
+num(Game-11, 4-12)
+nsubjpass(monitored-16, Irving-13)
+aux(monitored-16, will-14)
+auxpass(monitored-16, be-15)
+rcmod(Irving-2, monitored-16)
+prep_as(monitored-16, game-18)
+mark(missed-22, after-20)
+nsubj(missed-22, he-21)
+advcl(progresses-19, missed-22)
+det(two-25, the-23)
+amod(two-25, previous-24)
+dobj(missed-22, two-25)
+amod(tendinitis-29, left-27)
+nn(tendinitis-29, knee-28)
+prep_with(missed-22, tendinitis-29)
+
+Sentence #2 (23 tokens):
+Comment
+CLEVELAND
+Cavaliers point guard Kyrie Irving will play tonight in Game 4 of the Eastern Conference finals against the Atlanta Hawks.
+[Text=Comment CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=CLEVELAND CharacterOffsetBegin=174 CharacterOffsetEnd=183 PartOfSpeech=NNP Lemma=CLEVELAND NamedEntityTag=ORGANIZATION] [Text=Cavaliers CharacterOffsetBegin=184 CharacterOffsetEnd=193 PartOfSpeech=NNPS Lemma=Cavaliers NamedEntityTag=ORGANIZATION] [Text=point CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=guard CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NN Lemma=guard NamedEntityTag=O] [Text=Kyrie CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NNP Lemma=Kyrie NamedEntityTag=PERSON] [Text=Irving CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=will CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=play CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=tonight CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NN Lemma=tonight NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">tonight<_TIMEX3>] [Text=in CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Game CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=NNP Lemma=Game NamedEntityTag=O] [Text=4 CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=CD Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=of CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Eastern CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=NNP Lemma=Eastern NamedEntityTag=O] [Text=Conference CharacterOffsetBegin=262 CharacterOffsetEnd=272 PartOfSpeech=NNP Lemma=Conference NamedEntityTag=O] [Text=finals CharacterOffsetBegin=273 CharacterOffsetEnd=279 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=against CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=the CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Atlanta CharacterOffsetBegin=292 CharacterOffsetEnd=299 PartOfSpeech=NNP Lemma=Atlanta NamedEntityTag=ORGANIZATION] [Text=Hawks CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Comment))
+    (NP (NNP CLEVELAND) (NNPS Cavaliers) (NN point) (NN guard) (NNP Kyrie) (NNP Irving))
+    (VP (MD will)
+      (VP (VB play)
+        (NP
+          (NP (NN tonight))
+          (PP (IN in)
+            (NP (NNP Game) (CD 4)))
+          (PP (IN of)
+            (NP (DT the) (NNP Eastern) (NNP Conference) (NNS finals))))
+        (PP (IN against)
+          (NP (DT the) (NNP Atlanta) (NNPS Hawks)))))
+    (. .)))
+
+root(ROOT-0, play-9)
+nsubj(play-9, Comment-1)
+nn(Irving-7, CLEVELAND-2)
+nn(Irving-7, Cavaliers-3)
+nn(Irving-7, point-4)
+nn(Irving-7, guard-5)
+nn(Irving-7, Kyrie-6)
+nsubj(play-9, Irving-7)
+aux(play-9, will-8)
+dobj(play-9, tonight-10)
+prep_in(tonight-10, Game-12)
+num(Game-12, 4-13)
+det(finals-18, the-15)
+nn(finals-18, Eastern-16)
+nn(finals-18, Conference-17)
+prep_of(tonight-10, finals-18)
+det(Hawks-22, the-20)
+nn(Hawks-22, Atlanta-21)
+prep_against(play-9, Hawks-22)
+
+Sentence #3 (20 tokens):
+Cleveland has an opportunity to sweep the Hawks and advance to its second NBA Finals appearance in franchise history.
+[Text=Cleveland CharacterOffsetBegin=307 CharacterOffsetEnd=316 PartOfSpeech=NNP Lemma=Cleveland NamedEntityTag=LOCATION] [Text=has CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=an CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=opportunity CharacterOffsetBegin=324 CharacterOffsetEnd=335 PartOfSpeech=NN Lemma=opportunity NamedEntityTag=O] [Text=to CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sweep CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=NN Lemma=sweep NamedEntityTag=O] [Text=the CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=advance CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=NN Lemma=advance NamedEntityTag=O] [Text=to CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=its CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=second CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=NBA CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NNP Lemma=NBA NamedEntityTag=O] [Text=Finals CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=NNPS Lemma=Finals NamedEntityTag=O] [Text=appearance CharacterOffsetBegin=392 CharacterOffsetEnd=402 PartOfSpeech=NN Lemma=appearance NamedEntityTag=O] [Text=in CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=franchise CharacterOffsetBegin=406 CharacterOffsetEnd=415 PartOfSpeech=NN Lemma=franchise NamedEntityTag=O] [Text=history CharacterOffsetBegin=416 CharacterOffsetEnd=423 PartOfSpeech=NN Lemma=history NamedEntityTag=O] [Text=. CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Cleveland))
+    (VP (VBZ has)
+      (NP (DT an) (NN opportunity))
+      (PP (TO to)
+        (NP
+          (NP
+            (NP (NN sweep))
+            (NP (DT the) (NNPS Hawks)))
+          (CC and)
+          (NP
+            (NP (NN advance))
+            (PP (TO to)
+              (NP
+                (NP (PRP$ its) (JJ second) (NNP NBA) (NNPS Finals) (NN appearance))
+                (PP (IN in)
+                  (NP (NN franchise) (NN history)))))))))
+    (. .)))
+
+root(ROOT-0, has-2)
+nsubj(has-2, Cleveland-1)
+det(opportunity-4, an-3)
+dobj(has-2, opportunity-4)
+prep_to(has-2, sweep-6)
+det(Hawks-8, the-7)
+dep(sweep-6, Hawks-8)
+conj_and(sweep-6, advance-10)
+poss(appearance-16, its-12)
+amod(appearance-16, second-13)
+nn(appearance-16, NBA-14)
+nn(appearance-16, Finals-15)
+prep_to(advance-10, appearance-16)
+nn(history-19, franchise-18)
+prep_in(appearance-16, history-19)
+
+Sentence #4 (12 tokens):
+Irving missed the last two games because of left knee tendinitis.
+[Text=Irving CharacterOffsetBegin=425 CharacterOffsetEnd=431 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=missed CharacterOffsetBegin=432 CharacterOffsetEnd=438 PartOfSpeech=VBD Lemma=miss NamedEntityTag=O] [Text=the CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=two CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=games CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=because CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=of CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=left CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=JJ Lemma=left NamedEntityTag=O] [Text=knee CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=NN Lemma=knee NamedEntityTag=O] [Text=tendinitis CharacterOffsetBegin=479 CharacterOffsetEnd=489 PartOfSpeech=NN Lemma=tendinitis NamedEntityTag=O] [Text=. CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBD missed)
+      (NP (DT the) (JJ last) (CD two) (NNS games))
+      (PP (IN because)
+        (PP (IN of)
+          (NP (JJ left) (NN knee) (NN tendinitis)))))
+    (. .)))
+
+root(ROOT-0, missed-2)
+nsubj(missed-2, Irving-1)
+det(games-6, the-3)
+amod(games-6, last-4)
+num(games-6, two-5)
+dobj(missed-2, games-6)
+prepc_because_of(missed-2, of-8)
+amod(tendinitis-11, left-9)
+nn(tendinitis-11, knee-10)
+pobj(missed-2, tendinitis-11)
+
+Sentence #5 (13 tokens):
+The Cavs had considered the three-time All-Star a game-time decision for tonight.
+[Text=The CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=NNPS Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=had CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=considered CharacterOffsetBegin=504 CharacterOffsetEnd=514 PartOfSpeech=VBN Lemma=consider NamedEntityTag=O] [Text=the CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=three-time CharacterOffsetBegin=519 CharacterOffsetEnd=529 PartOfSpeech=JJ Lemma=three-time NamedEntityTag=O] [Text=All-Star CharacterOffsetBegin=530 CharacterOffsetEnd=538 PartOfSpeech=NNP Lemma=All-Star NamedEntityTag=MISC] [Text=a CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=game-time CharacterOffsetBegin=541 CharacterOffsetEnd=550 PartOfSpeech=JJ Lemma=game-time NamedEntityTag=O] [Text=decision CharacterOffsetBegin=551 CharacterOffsetEnd=559 PartOfSpeech=NN Lemma=decision NamedEntityTag=O] [Text=for CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=tonight CharacterOffsetBegin=564 CharacterOffsetEnd=571 PartOfSpeech=NN Lemma=tonight NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">tonight<_TIMEX3>] [Text=. CharacterOffsetBegin=571 CharacterOffsetEnd=572 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Cavs))
+    (VP (VBD had)
+      (VP (VBN considered)
+        (S
+          (NP (DT the) (JJ three-time) (NNP All-Star))
+          (NP
+            (NP (DT a) (JJ game-time) (NN decision))
+            (PP (IN for)
+              (NP (NN tonight)))))))
+    (. .)))
+
+root(ROOT-0, considered-4)
+det(Cavs-2, The-1)
+nsubj(considered-4, Cavs-2)
+aux(considered-4, had-3)
+det(All-Star-7, the-5)
+amod(All-Star-7, three-time-6)
+nsubj(decision-10, All-Star-7)
+det(decision-10, a-8)
+amod(decision-10, game-time-9)
+xcomp(considered-4, decision-10)
+prep_for(decision-10, tonight-12)
+
+Sentence #6 (14 tokens):
+He went through pre-game warm-ups and was evaluated before being cleared to play.
+[Text=He CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=went CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=581 CharacterOffsetEnd=588 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=pre-game CharacterOffsetBegin=589 CharacterOffsetEnd=597 PartOfSpeech=JJ Lemma=pre-game NamedEntityTag=O] [Text=warm-ups CharacterOffsetBegin=598 CharacterOffsetEnd=606 PartOfSpeech=NNS Lemma=warm-up NamedEntityTag=O] [Text=and CharacterOffsetBegin=607 CharacterOffsetEnd=610 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=was CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=evaluated CharacterOffsetBegin=615 CharacterOffsetEnd=624 PartOfSpeech=VBN Lemma=evaluate NamedEntityTag=O] [Text=before CharacterOffsetBegin=625 CharacterOffsetEnd=631 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=being CharacterOffsetBegin=632 CharacterOffsetEnd=637 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=cleared CharacterOffsetBegin=638 CharacterOffsetEnd=645 PartOfSpeech=VBN Lemma=clear NamedEntityTag=O] [Text=to CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD went)
+        (PP (IN through)
+          (NP (JJ pre-game) (NNS warm-ups))))
+      (CC and)
+      (VP (VBD was)
+        (VP (VBN evaluated)
+          (PP (IN before)
+            (S
+              (VP (VBG being)
+                (VP (VBN cleared)
+                  (S
+                    (VP (TO to)
+                      (VP (VB play)))))))))))
+    (. .)))
+
+root(ROOT-0, went-2)
+nsubj(went-2, He-1)
+amod(warm-ups-5, pre-game-4)
+prep_through(went-2, warm-ups-5)
+auxpass(evaluated-8, was-7)
+conj_and(went-2, evaluated-8)
+auxpass(cleared-11, being-10)
+prepc_before(evaluated-8, cleared-11)
+aux(play-13, to-12)
+xcomp(cleared-11, play-13)
+
+Sentence #7 (19 tokens):
+The team will monitor him closely throughout the game, but he is not under a minutes restriction.
+[Text=The CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=team CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=will CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=monitor CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=VB Lemma=monitor NamedEntityTag=O] [Text=him CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=closely CharacterOffsetBegin=681 CharacterOffsetEnd=688 PartOfSpeech=RB Lemma=closely NamedEntityTag=O] [Text=throughout CharacterOffsetBegin=689 CharacterOffsetEnd=699 PartOfSpeech=IN Lemma=throughout NamedEntityTag=O] [Text=the CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=game CharacterOffsetBegin=704 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=, CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=he CharacterOffsetBegin=714 CharacterOffsetEnd=716 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=is CharacterOffsetBegin=717 CharacterOffsetEnd=719 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=under CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=a CharacterOffsetBegin=730 CharacterOffsetEnd=731 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1M Timex=<TIMEX3 tid="t2" type="DURATION" value="PT1M">a minutes<_TIMEX3>] [Text=minutes CharacterOffsetBegin=732 CharacterOffsetEnd=739 PartOfSpeech=NNS Lemma=minute NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1M Timex=<TIMEX3 tid="t2" type="DURATION" value="PT1M">a minutes<_TIMEX3>] [Text=restriction CharacterOffsetBegin=740 CharacterOffsetEnd=751 PartOfSpeech=NN Lemma=restriction NamedEntityTag=O] [Text=. CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN team))
+      (VP (MD will)
+        (VP (VB monitor)
+          (NP (PRP him))
+          (ADVP (RB closely))
+          (PP (IN throughout)
+            (NP (DT the) (NN game))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ is) (RB not)
+        (PP (IN under)
+          (NP (DT a) (NNS minutes) (NN restriction)))))
+    (. .)))
+
+root(ROOT-0, monitor-4)
+det(team-2, The-1)
+nsubj(monitor-4, team-2)
+aux(monitor-4, will-3)
+dobj(monitor-4, him-5)
+advmod(monitor-4, closely-6)
+det(game-9, the-8)
+prep_throughout(monitor-4, game-9)
+nsubj(is-13, he-12)
+conj_but(monitor-4, is-13)
+neg(is-13, not-14)
+det(restriction-18, a-16)
+nn(restriction-18, minutes-17)
+prep_under(is-13, restriction-18)
+
+Sentence #8 (14 tokens):
+Irving has been working out with Cavaliers player development coach Phil Handy extensively.
+[Text=Irving CharacterOffsetBegin=753 CharacterOffsetEnd=759 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=760 CharacterOffsetEnd=763 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=working CharacterOffsetBegin=769 CharacterOffsetEnd=776 PartOfSpeech=VBG Lemma=work NamedEntityTag=O] [Text=out CharacterOffsetBegin=777 CharacterOffsetEnd=780 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=with CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Cavaliers CharacterOffsetBegin=786 CharacterOffsetEnd=795 PartOfSpeech=NNPS Lemma=Cavaliers NamedEntityTag=ORGANIZATION] [Text=player CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=development CharacterOffsetBegin=803 CharacterOffsetEnd=814 PartOfSpeech=NN Lemma=development NamedEntityTag=O] [Text=coach CharacterOffsetBegin=815 CharacterOffsetEnd=820 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Phil CharacterOffsetBegin=821 CharacterOffsetEnd=825 PartOfSpeech=NNP Lemma=Phil NamedEntityTag=PERSON] [Text=Handy CharacterOffsetBegin=826 CharacterOffsetEnd=831 PartOfSpeech=NNP Lemma=Handy NamedEntityTag=PERSON] [Text=extensively CharacterOffsetBegin=832 CharacterOffsetEnd=843 PartOfSpeech=RB Lemma=extensively NamedEntityTag=O] [Text=. CharacterOffsetBegin=843 CharacterOffsetEnd=844 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG working)
+          (PRT (RP out))
+          (PP (IN with)
+            (NP (NNPS Cavaliers) (NN player))
+            (NP-TMP
+              (NP (NN development) (NN coach) (NNP Phil) (NNP Handy))
+              (ADVP (RB extensively)))))))
+    (. .)))
+
+root(ROOT-0, working-4)
+nsubj(working-4, Irving-1)
+aux(working-4, has-2)
+aux(working-4, been-3)
+prt(working-4, out-5)
+nn(player-8, Cavaliers-7)
+prep_with(working-4, player-8)
+nn(Handy-12, development-9)
+nn(Handy-12, coach-10)
+nn(Handy-12, Phil-11)
+tmod(working-4, Handy-12)
+advmod(Handy-12, extensively-13)
+
+Sentence #9 (17 tokens):
+He participated in shootaround more with his teammates this morning than he had in recent days.
+[Text=He CharacterOffsetBegin=845 CharacterOffsetEnd=847 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=participated CharacterOffsetBegin=848 CharacterOffsetEnd=860 PartOfSpeech=VBD Lemma=participate NamedEntityTag=O] [Text=in CharacterOffsetBegin=861 CharacterOffsetEnd=863 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=shootaround CharacterOffsetBegin=864 CharacterOffsetEnd=875 PartOfSpeech=NN Lemma=shootaround NamedEntityTag=O] [Text=more CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=with CharacterOffsetBegin=881 CharacterOffsetEnd=885 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=his CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=890 CharacterOffsetEnd=899 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=this CharacterOffsetBegin=900 CharacterOffsetEnd=904 PartOfSpeech=DT Lemma=this NamedEntityTag=TIME NormalizedNamedEntityTag=THIS MO Timex=<TIMEX3 alt_value="THIS MO" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">this morning<_TIMEX3>] [Text=morning CharacterOffsetBegin=905 CharacterOffsetEnd=912 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=THIS MO Timex=<TIMEX3 alt_value="THIS MO" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">this morning<_TIMEX3>] [Text=than CharacterOffsetBegin=913 CharacterOffsetEnd=917 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=he CharacterOffsetBegin=918 CharacterOffsetEnd=920 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=921 CharacterOffsetEnd=924 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=in CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=recent CharacterOffsetBegin=928 CharacterOffsetEnd=934 PartOfSpeech=JJ Lemma=recent NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t4" type="DURATION" value="PXD">recent days<_TIMEX3>] [Text=days CharacterOffsetBegin=935 CharacterOffsetEnd=939 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t4" type="DURATION" value="PXD">recent days<_TIMEX3>] [Text=. CharacterOffsetBegin=939 CharacterOffsetEnd=940 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD participated)
+      (PP (IN in)
+        (NP (NN shootaround)))
+      (PP (RBR more) (IN with)
+        (NP (PRP$ his) (NNS teammates)))
+      (NP-TMP (DT this) (NN morning))
+      (SBAR (IN than)
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (PP (IN in)
+              (NP (JJ recent) (NNS days)))))))
+    (. .)))
+
+root(ROOT-0, participated-2)
+nsubj(participated-2, He-1)
+prep_in(participated-2, shootaround-4)
+advmod(participated-2, more-5)
+poss(teammates-8, his-7)
+prep_with(participated-2, teammates-8)
+det(morning-10, this-9)
+tmod(participated-2, morning-10)
+mark(had-13, than-11)
+nsubj(had-13, he-12)
+advcl(participated-2, had-13)
+amod(days-16, recent-15)
+prep_in(had-13, days-16)
+
+Sentence #10 (5 tokens):
+“It was good.
+[Text=`` CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=942 CharacterOffsetEnd=944 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=945 CharacterOffsetEnd=948 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=good CharacterOffsetBegin=949 CharacterOffsetEnd=953 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=. CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ good)))
+    (. .)))
+
+root(ROOT-0, good-4)
+nsubj(good-4, It-2)
+cop(good-4, was-3)
+
+Sentence #11 (24 tokens):
+It was a lot of fun,” Cavs guard Iman Shumpert said of having Irving on the floor as the team prepared.
+[Text=It CharacterOffsetBegin=955 CharacterOffsetEnd=957 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=958 CharacterOffsetEnd=961 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=962 CharacterOffsetEnd=963 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=964 CharacterOffsetEnd=967 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=968 CharacterOffsetEnd=970 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=fun CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=NN Lemma=fun NamedEntityTag=O] [Text=, CharacterOffsetBegin=974 CharacterOffsetEnd=975 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=975 CharacterOffsetEnd=976 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=977 CharacterOffsetEnd=981 PartOfSpeech=NNPS Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=guard CharacterOffsetBegin=982 CharacterOffsetEnd=987 PartOfSpeech=NN Lemma=guard NamedEntityTag=O] [Text=Iman CharacterOffsetBegin=988 CharacterOffsetEnd=992 PartOfSpeech=NNP Lemma=Iman NamedEntityTag=PERSON] [Text=Shumpert CharacterOffsetBegin=993 CharacterOffsetEnd=1001 PartOfSpeech=NNP Lemma=Shumpert NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1002 CharacterOffsetEnd=1006 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=of CharacterOffsetBegin=1007 CharacterOffsetEnd=1009 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=having CharacterOffsetBegin=1010 CharacterOffsetEnd=1016 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=Irving CharacterOffsetBegin=1017 CharacterOffsetEnd=1023 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1027 CharacterOffsetEnd=1030 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=floor CharacterOffsetBegin=1031 CharacterOffsetEnd=1036 PartOfSpeech=NN Lemma=floor NamedEntityTag=O] [Text=as CharacterOffsetBegin=1037 CharacterOffsetEnd=1039 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=1040 CharacterOffsetEnd=1043 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=team CharacterOffsetBegin=1044 CharacterOffsetEnd=1048 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=prepared CharacterOffsetBegin=1049 CharacterOffsetEnd=1057 PartOfSpeech=VBN Lemma=prepare NamedEntityTag=O] [Text=. CharacterOffsetBegin=1057 CharacterOffsetEnd=1058 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN fun))))))
+    (, ,) (__ __)
+    (NP (NNPS Cavs) (NN guard) (NNP Iman) (NNP Shumpert))
+    (VP (VBD said)
+      (PP (IN of)
+        (S
+          (VP (VBG having)
+            (S
+              (NP
+                (NP (NNP Irving))
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (NN floor))
+                    (PP (IN as)
+                      (NP (DT the) (NN team))))))
+              (ADJP (VBN prepared)))))))
+    (. .)))
+
+root(ROOT-0, said-13)
+nsubj(lot-4, It-1)
+cop(lot-4, was-2)
+det(lot-4, a-3)
+ccomp(said-13, lot-4)
+prep_of(lot-4, fun-6)
+nn(Shumpert-12, Cavs-9)
+nn(Shumpert-12, guard-10)
+nn(Shumpert-12, Iman-11)
+nsubj(said-13, Shumpert-12)
+prepc_of(said-13, having-15)
+nsubj(prepared-23, Irving-16)
+det(floor-19, the-18)
+prep_on(Irving-16, floor-19)
+det(team-22, the-21)
+prep_as(floor-19, team-22)
+xcomp(having-15, prepared-23)
+
+Sentence #12 (21 tokens):
+“We’re just happy for him that he can move around without the grimacing with every step he takes.
+[Text=`` CharacterOffsetBegin=1059 CharacterOffsetEnd=1060 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=1060 CharacterOffsetEnd=1062 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_re CharacterOffsetBegin=1062 CharacterOffsetEnd=1065 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=just CharacterOffsetBegin=1066 CharacterOffsetEnd=1070 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=happy CharacterOffsetBegin=1071 CharacterOffsetEnd=1076 PartOfSpeech=JJ Lemma=happy NamedEntityTag=O] [Text=for CharacterOffsetBegin=1077 CharacterOffsetEnd=1080 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=him CharacterOffsetBegin=1081 CharacterOffsetEnd=1084 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=that CharacterOffsetBegin=1085 CharacterOffsetEnd=1089 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=1090 CharacterOffsetEnd=1092 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=can CharacterOffsetBegin=1093 CharacterOffsetEnd=1096 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=move CharacterOffsetBegin=1097 CharacterOffsetEnd=1101 PartOfSpeech=VB Lemma=move NamedEntityTag=O] [Text=around CharacterOffsetBegin=1102 CharacterOffsetEnd=1108 PartOfSpeech=RB Lemma=around NamedEntityTag=O] [Text=without CharacterOffsetBegin=1109 CharacterOffsetEnd=1116 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=1117 CharacterOffsetEnd=1120 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=grimacing CharacterOffsetBegin=1121 CharacterOffsetEnd=1130 PartOfSpeech=VBG Lemma=grimace NamedEntityTag=O] [Text=with CharacterOffsetBegin=1131 CharacterOffsetEnd=1135 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=every CharacterOffsetBegin=1136 CharacterOffsetEnd=1141 PartOfSpeech=DT Lemma=every NamedEntityTag=O] [Text=step CharacterOffsetBegin=1142 CharacterOffsetEnd=1146 PartOfSpeech=NN Lemma=step NamedEntityTag=O] [Text=he CharacterOffsetBegin=1147 CharacterOffsetEnd=1149 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=takes CharacterOffsetBegin=1150 CharacterOffsetEnd=1155 PartOfSpeech=VBZ Lemma=take NamedEntityTag=O] [Text=. CharacterOffsetBegin=1155 CharacterOffsetEnd=1156 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP We))
+      (VP (VBP _re)
+        (ADJP (RB just) (JJ happy)
+          (PP (IN for)
+            (NP (PRP him))))
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (MD can)
+              (VP (VB move)
+                (ADVP (RB around))
+                (PP (IN without)
+                  (NP
+                    (NP (DT the) (VBG grimacing))
+                    (PP (IN with)
+                      (NP (DT every) (NN step)))))))))))
+    (NP (PRP he))
+    (VP (VBZ takes))
+    (. .)))
+
+root(ROOT-0, takes-20)
+nsubj(happy-5, We-2)
+cop(happy-5, _re-3)
+advmod(happy-5, just-4)
+dep(takes-20, happy-5)
+prep_for(happy-5, him-7)
+mark(move-11, that-8)
+nsubj(move-11, he-9)
+aux(move-11, can-10)
+ccomp(happy-5, move-11)
+advmod(move-11, around-12)
+prep_without(move-11, the-14)
+amod(the-14, grimacing-15)
+det(step-18, every-17)
+prep_with(the-14, step-18)
+nsubj(takes-20, he-19)
+
+Sentence #13 (10 tokens):
+So we’ll see how he fares tonight.”
+[Text=So CharacterOffsetBegin=1157 CharacterOffsetEnd=1159 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=we CharacterOffsetBegin=1160 CharacterOffsetEnd=1162 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ll CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=MD Lemma=_ll NamedEntityTag=O] [Text=see CharacterOffsetBegin=1166 CharacterOffsetEnd=1169 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=how CharacterOffsetBegin=1170 CharacterOffsetEnd=1173 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=he CharacterOffsetBegin=1174 CharacterOffsetEnd=1176 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=fares CharacterOffsetBegin=1177 CharacterOffsetEnd=1182 PartOfSpeech=NNS Lemma=fare NamedEntityTag=O] [Text=tonight CharacterOffsetBegin=1183 CharacterOffsetEnd=1190 PartOfSpeech=RB Lemma=tonight NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">tonight<_TIMEX3>] [Text=. CharacterOffsetBegin=1190 CharacterOffsetEnd=1191 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1191 CharacterOffsetEnd=1192 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (IN So)
+    (NP (PRP we))
+    (VP (MD _ll)
+      (VP (VB see)
+        (SBAR
+          (WHADVP (WRB how))
+          (FRAG
+            (NP-TMP
+              (NP (PRP he) (NNS fares))
+              (NP (RB tonight)))))))
+    (. .) (__ __)))
+
+root(ROOT-0, see-4)
+dep(see-4, So-1)
+nsubj(see-4, we-2)
+aux(see-4, _ll-3)
+advmod(fares-7, how-5)
+dep(fares-7, he-6)
+dep(see-4, fares-7)
+dep(fares-7, tonight-8)
+
+Sentence #14 (11 tokens):
+Said LeBron James about Irving, “He looked OK.
+[Text=Said CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=NNP Lemma=Said NamedEntityTag=PERSON] [Text=LeBron CharacterOffsetBegin=1198 CharacterOffsetEnd=1204 PartOfSpeech=NNP Lemma=LeBron NamedEntityTag=PERSON] [Text=James CharacterOffsetBegin=1205 CharacterOffsetEnd=1210 PartOfSpeech=NNP Lemma=James NamedEntityTag=PERSON] [Text=about CharacterOffsetBegin=1211 CharacterOffsetEnd=1216 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Irving CharacterOffsetBegin=1217 CharacterOffsetEnd=1223 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1223 CharacterOffsetEnd=1224 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1225 CharacterOffsetEnd=1226 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=1226 CharacterOffsetEnd=1228 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=looked CharacterOffsetBegin=1229 CharacterOffsetEnd=1235 PartOfSpeech=VBD Lemma=look NamedEntityTag=O] [Text=OK CharacterOffsetBegin=1236 CharacterOffsetEnd=1238 PartOfSpeech=UH Lemma=ok NamedEntityTag=O] [Text=. CharacterOffsetBegin=1238 CharacterOffsetEnd=1239 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Said) (NNP LeBron) (NNP James))
+        (PP (IN about)
+          (NP (NNP Irving)))))
+    (, ,) (`` ``)
+    (NP (PRP He))
+    (VP (VBD looked)
+      (ADVP (UH OK)))
+    (. .)))
+
+root(ROOT-0, looked-9)
+nn(James-3, Said-1)
+nn(James-3, LeBron-2)
+ccomp(looked-9, James-3)
+prep_about(James-3, Irving-5)
+nsubj(looked-9, He-8)
+advmod(looked-9, OK-10)
+
+Sentence #15 (5 tokens):
+How great he feels?
+[Text=How CharacterOffsetBegin=1240 CharacterOffsetEnd=1243 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=great CharacterOffsetBegin=1244 CharacterOffsetEnd=1249 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=he CharacterOffsetBegin=1250 CharacterOffsetEnd=1252 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=feels CharacterOffsetBegin=1253 CharacterOffsetEnd=1258 PartOfSpeech=VBZ Lemma=feel NamedEntityTag=O] [Text=? CharacterOffsetBegin=1258 CharacterOffsetEnd=1259 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SBARQ
+    (WHADJP (WRB How)
+      (ADJP (JJ great)))
+    (SQ
+      (NP (PRP he))
+      (VP (VBZ feels)))
+    (. ?)))
+
+root(ROOT-0, feels-4)
+advmod(great-2, How-1)
+dep(feels-4, great-2)
+nsubj(feels-4, he-3)
+
+Sentence #16 (6 tokens):
+I’m not quite sure.
+[Text=I CharacterOffsetBegin=1260 CharacterOffsetEnd=1261 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=_m CharacterOffsetBegin=1261 CharacterOffsetEnd=1263 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=1264 CharacterOffsetEnd=1267 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=quite CharacterOffsetBegin=1268 CharacterOffsetEnd=1273 PartOfSpeech=RB Lemma=quite NamedEntityTag=O] [Text=sure CharacterOffsetBegin=1274 CharacterOffsetEnd=1278 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=. CharacterOffsetBegin=1278 CharacterOffsetEnd=1279 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP _m) (RB not)
+      (ADJP (RB quite) (JJ sure)))
+    (. .)))
+
+root(ROOT-0, sure-5)
+nsubj(sure-5, I-1)
+cop(sure-5, _m-2)
+neg(sure-5, not-3)
+advmod(sure-5, quite-4)
+
+Sentence #17 (7 tokens):
+Only he would know that.”
+[Text=Only CharacterOffsetBegin=1280 CharacterOffsetEnd=1284 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=he CharacterOffsetBegin=1285 CharacterOffsetEnd=1287 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=would CharacterOffsetBegin=1288 CharacterOffsetEnd=1293 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=know CharacterOffsetBegin=1294 CharacterOffsetEnd=1298 PartOfSpeech=VB Lemma=know NamedEntityTag=O] [Text=that CharacterOffsetBegin=1299 CharacterOffsetEnd=1303 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=. CharacterOffsetBegin=1303 CharacterOffsetEnd=1304 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1304 CharacterOffsetEnd=1305 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (RB Only)
+    (NP (PRP he))
+    (VP (MD would)
+      (VP (VB know)
+        (NP (DT that))))
+    (. .) (__ __)))
+
+root(ROOT-0, know-4)
+advmod(know-4, Only-1)
+nsubj(know-4, he-2)
+aux(know-4, would-3)
+dobj(know-4, that-5)
+
+Sentence #18 (9 tokens):
+James is battling his own aches and pains.
+[Text=James CharacterOffsetBegin=1306 CharacterOffsetEnd=1311 PartOfSpeech=NNP Lemma=James NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1312 CharacterOffsetEnd=1314 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=battling CharacterOffsetBegin=1315 CharacterOffsetEnd=1323 PartOfSpeech=VBG Lemma=battle NamedEntityTag=O] [Text=his CharacterOffsetBegin=1324 CharacterOffsetEnd=1327 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=own CharacterOffsetBegin=1328 CharacterOffsetEnd=1331 PartOfSpeech=JJ Lemma=own NamedEntityTag=O] [Text=aches CharacterOffsetBegin=1332 CharacterOffsetEnd=1337 PartOfSpeech=NNS Lemma=ache NamedEntityTag=O] [Text=and CharacterOffsetBegin=1338 CharacterOffsetEnd=1341 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=pains CharacterOffsetBegin=1342 CharacterOffsetEnd=1347 PartOfSpeech=NNS Lemma=pain NamedEntityTag=O] [Text=. CharacterOffsetBegin=1347 CharacterOffsetEnd=1348 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP James))
+    (VP (VBZ is)
+      (VP (VBG battling)
+        (NP (PRP$ his) (JJ own) (NNS aches)
+          (CC and)
+          (NNS pains))))
+    (. .)))
+
+root(ROOT-0, battling-3)
+nsubj(battling-3, James-1)
+aux(battling-3, is-2)
+poss(aches-6, his-4)
+amod(aches-6, own-5)
+dobj(battling-3, aches-6)
+conj_and(aches-6, pains-8)
+
+Sentence #19 (7 tokens):
+He said he will play tonight.
+[Text=He CharacterOffsetBegin=1349 CharacterOffsetEnd=1351 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=1352 CharacterOffsetEnd=1356 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=he CharacterOffsetBegin=1357 CharacterOffsetEnd=1359 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=will CharacterOffsetBegin=1360 CharacterOffsetEnd=1364 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=play CharacterOffsetBegin=1365 CharacterOffsetEnd=1369 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=tonight CharacterOffsetBegin=1370 CharacterOffsetEnd=1377 PartOfSpeech=NN Lemma=tonight NamedEntityTag=DATE NormalizedNamedEntityTag=THIS NI Timex=<TIMEX3 alt_value="THIS NI" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">tonight<_TIMEX3>] [Text=. CharacterOffsetBegin=1377 CharacterOffsetEnd=1378 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (MD will)
+            (VP (VB play)
+              (NP-TMP (NN tonight)))))))
+    (. .)))
+
+root(ROOT-0, said-2)
+nsubj(said-2, He-1)
+nsubj(play-5, he-3)
+aux(play-5, will-4)
+ccomp(said-2, play-5)
+tmod(play-5, tonight-6)
+
+Sentence #20 (6 tokens):
+“Do I feel great?
+[Text=`` CharacterOffsetBegin=1379 CharacterOffsetEnd=1380 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Do CharacterOffsetBegin=1380 CharacterOffsetEnd=1382 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=I CharacterOffsetBegin=1383 CharacterOffsetEnd=1384 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=feel CharacterOffsetBegin=1385 CharacterOffsetEnd=1389 PartOfSpeech=VB Lemma=feel NamedEntityTag=O] [Text=great CharacterOffsetBegin=1390 CharacterOffsetEnd=1395 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=? CharacterOffsetBegin=1395 CharacterOffsetEnd=1396 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SQ (`` ``) (VBP Do)
+    (NP (PRP I))
+    (VP (VB feel)
+      (ADJP (JJ great)))
+    (. ?)))
+
+root(ROOT-0, feel-4)
+aux(feel-4, Do-2)
+nsubj(feel-4, I-3)
+acomp(feel-4, great-5)
+
+Sentence #21 (6 tokens):
+No,” he said.
+[Text=No CharacterOffsetBegin=1397 CharacterOffsetEnd=1399 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=, CharacterOffsetBegin=1399 CharacterOffsetEnd=1400 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1400 CharacterOffsetEnd=1401 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=he CharacterOffsetBegin=1402 CharacterOffsetEnd=1404 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=1405 CharacterOffsetEnd=1409 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1409 CharacterOffsetEnd=1410 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT No))
+    (, ,) (__ __)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-5)
+nsubj(said-5, No-1)
+nsubj(said-5, he-4)
+
+Sentence #22 (19 tokens):
+“But I feel good enough to go out and make an impact hopefully for my teammates.”
+[Text=`` CharacterOffsetBegin=1411 CharacterOffsetEnd=1412 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=But CharacterOffsetBegin=1412 CharacterOffsetEnd=1415 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=I CharacterOffsetBegin=1416 CharacterOffsetEnd=1417 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=feel CharacterOffsetBegin=1418 CharacterOffsetEnd=1422 PartOfSpeech=VBP Lemma=feel NamedEntityTag=O] [Text=good CharacterOffsetBegin=1423 CharacterOffsetEnd=1427 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=enough CharacterOffsetBegin=1428 CharacterOffsetEnd=1434 PartOfSpeech=RB Lemma=enough NamedEntityTag=O] [Text=to CharacterOffsetBegin=1435 CharacterOffsetEnd=1437 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=go CharacterOffsetBegin=1438 CharacterOffsetEnd=1440 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=out CharacterOffsetBegin=1441 CharacterOffsetEnd=1444 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=and CharacterOffsetBegin=1445 CharacterOffsetEnd=1448 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=make CharacterOffsetBegin=1449 CharacterOffsetEnd=1453 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=an CharacterOffsetBegin=1454 CharacterOffsetEnd=1456 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=impact CharacterOffsetBegin=1457 CharacterOffsetEnd=1463 PartOfSpeech=NN Lemma=impact NamedEntityTag=O] [Text=hopefully CharacterOffsetBegin=1464 CharacterOffsetEnd=1473 PartOfSpeech=RB Lemma=hopefully NamedEntityTag=O] [Text=for CharacterOffsetBegin=1474 CharacterOffsetEnd=1477 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=my CharacterOffsetBegin=1478 CharacterOffsetEnd=1480 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=1481 CharacterOffsetEnd=1490 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=. CharacterOffsetBegin=1490 CharacterOffsetEnd=1491 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1491 CharacterOffsetEnd=1492 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (CC But)
+    (NP (PRP I))
+    (VP (VBP feel)
+      (ADJP (JJ good) (RB enough)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB go)
+                (PRT (RP out)))
+              (CC and)
+              (VP (VB make)
+                (NP (DT an) (NN impact))
+                (ADVP (RB hopefully))
+                (PP (IN for)
+                  (NP (PRP$ my) (NNS teammates)))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, feel-4)
+cc(feel-4, But-2)
+nsubj(feel-4, I-3)
+acomp(feel-4, good-5)
+advmod(good-5, enough-6)
+aux(go-8, to-7)
+xcomp(good-5, go-8)
+prt(go-8, out-9)
+conj_and(go-8, make-11)
+det(impact-13, an-12)
+dobj(make-11, impact-13)
+advmod(make-11, hopefully-14)
+poss(teammates-17, my-16)
+prep_for(make-11, teammates-17)
+
+Sentence #23 (22 tokens):
+Irving played in a career-high 75 games this regular season and earned third-team All-NBA status after averaging 21.7 points a game.
+[Text=Irving CharacterOffsetBegin=1493 CharacterOffsetEnd=1499 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=played CharacterOffsetBegin=1500 CharacterOffsetEnd=1506 PartOfSpeech=VBD Lemma=play NamedEntityTag=O] [Text=in CharacterOffsetBegin=1507 CharacterOffsetEnd=1509 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1510 CharacterOffsetEnd=1511 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=career-high CharacterOffsetBegin=1512 CharacterOffsetEnd=1523 PartOfSpeech=JJ Lemma=career-high NamedEntityTag=O] [Text=75 CharacterOffsetBegin=1524 CharacterOffsetEnd=1526 PartOfSpeech=CD Lemma=75 NamedEntityTag=NUMBER NormalizedNamedEntityTag=75.0] [Text=games CharacterOffsetBegin=1527 CharacterOffsetEnd=1532 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=this CharacterOffsetBegin=1533 CharacterOffsetEnd=1537 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=regular CharacterOffsetBegin=1538 CharacterOffsetEnd=1545 PartOfSpeech=JJ Lemma=regular NamedEntityTag=O] [Text=season CharacterOffsetBegin=1546 CharacterOffsetEnd=1552 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=and CharacterOffsetBegin=1553 CharacterOffsetEnd=1556 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=earned CharacterOffsetBegin=1557 CharacterOffsetEnd=1563 PartOfSpeech=VBD Lemma=earn NamedEntityTag=O] [Text=third-team CharacterOffsetBegin=1564 CharacterOffsetEnd=1574 PartOfSpeech=JJ Lemma=third-team NamedEntityTag=O] [Text=All-NBA CharacterOffsetBegin=1575 CharacterOffsetEnd=1582 PartOfSpeech=NNP Lemma=All-NBA NamedEntityTag=MISC] [Text=status CharacterOffsetBegin=1583 CharacterOffsetEnd=1589 PartOfSpeech=NN Lemma=status NamedEntityTag=O] [Text=after CharacterOffsetBegin=1590 CharacterOffsetEnd=1595 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=averaging CharacterOffsetBegin=1596 CharacterOffsetEnd=1605 PartOfSpeech=VBG Lemma=average NamedEntityTag=O] [Text=21.7 CharacterOffsetBegin=1606 CharacterOffsetEnd=1610 PartOfSpeech=CD Lemma=21.7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=21.7] [Text=points CharacterOffsetBegin=1611 CharacterOffsetEnd=1617 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=a CharacterOffsetBegin=1618 CharacterOffsetEnd=1619 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=game CharacterOffsetBegin=1620 CharacterOffsetEnd=1624 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=. CharacterOffsetBegin=1624 CharacterOffsetEnd=1625 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP
+      (VP (VBD played)
+        (PP (IN in)
+          (NP (DT a) (JJ career-high) (CD 75) (NNS games)))
+        (NP-TMP (DT this) (JJ regular) (NN season)))
+      (CC and)
+      (VP (VBD earned)
+        (NP (JJ third-team) (NNP All-NBA) (NN status))
+        (PP (IN after)
+          (S
+            (VP (VBG averaging)
+              (NP (CD 21.7) (NNS points))))))
+      (NP (DT a) (NN game)))
+    (. .)))
+
+root(ROOT-0, played-2)
+nsubj(played-2, Irving-1)
+det(games-7, a-4)
+amod(games-7, career-high-5)
+num(games-7, 75-6)
+prep_in(played-2, games-7)
+det(season-10, this-8)
+amod(season-10, regular-9)
+tmod(played-2, season-10)
+conj_and(played-2, earned-12)
+amod(status-15, third-team-13)
+nn(status-15, All-NBA-14)
+dobj(earned-12, status-15)
+prepc_after(earned-12, averaging-17)
+num(points-19, 21.7-18)
+dobj(averaging-17, points-19)
+det(game-21, a-20)
+dobj(played-2, game-21)
+
+Sentence #24 (18 tokens):
+The Cavs went 1-6 without him in the regular season but are 2-0 this postseason without him.
+[Text=The CharacterOffsetBegin=1626 CharacterOffsetEnd=1629 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=1630 CharacterOffsetEnd=1634 PartOfSpeech=NNP Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=went CharacterOffsetBegin=1635 CharacterOffsetEnd=1639 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=1-6 CharacterOffsetBegin=1640 CharacterOffsetEnd=1643 PartOfSpeech=CD Lemma=1-6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0 - 6.0] [Text=without CharacterOffsetBegin=1644 CharacterOffsetEnd=1651 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=him CharacterOffsetBegin=1652 CharacterOffsetEnd=1655 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=in CharacterOffsetBegin=1656 CharacterOffsetEnd=1658 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1659 CharacterOffsetEnd=1662 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=regular CharacterOffsetBegin=1663 CharacterOffsetEnd=1670 PartOfSpeech=JJ Lemma=regular NamedEntityTag=O] [Text=season CharacterOffsetBegin=1671 CharacterOffsetEnd=1677 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=but CharacterOffsetBegin=1678 CharacterOffsetEnd=1681 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=are CharacterOffsetBegin=1682 CharacterOffsetEnd=1685 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=2-0 CharacterOffsetBegin=1686 CharacterOffsetEnd=1689 PartOfSpeech=CD Lemma=2-0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0 - 0.0] [Text=this CharacterOffsetBegin=1690 CharacterOffsetEnd=1694 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=postseason CharacterOffsetBegin=1695 CharacterOffsetEnd=1705 PartOfSpeech=NN Lemma=postseason NamedEntityTag=O] [Text=without CharacterOffsetBegin=1706 CharacterOffsetEnd=1713 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=him CharacterOffsetBegin=1714 CharacterOffsetEnd=1717 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=. CharacterOffsetBegin=1717 CharacterOffsetEnd=1718 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Cavs))
+    (VP
+      (VP (VBD went)
+        (NP (CD 1-6))
+        (PP (IN without)
+          (NP (PRP him)))
+        (PP (IN in)
+          (NP (DT the) (JJ regular) (NN season))))
+      (CC but)
+      (VP (VBP are)
+        (NP
+          (NP (CD 2-0))
+          (NP
+            (NP (DT this) (NN postseason))
+            (PP (IN without)
+              (NP (PRP him)))))))
+    (. .)))
+
+root(ROOT-0, went-3)
+det(Cavs-2, The-1)
+nsubj(went-3, Cavs-2)
+dobj(went-3, 1-6-4)
+prep_without(went-3, him-6)
+det(season-10, the-8)
+amod(season-10, regular-9)
+prep_in(went-3, season-10)
+cop(2-0-13, are-12)
+conj_but(went-3, 2-0-13)
+det(postseason-15, this-14)
+dep(2-0-13, postseason-15)
+prep_without(postseason-15, him-17)
+
+Sentence #25 (35 tokens):
+Irving has not missed three straight games at any point this season, which was lengthened by him playing for Team USA and earning MVP of the FIBA World Cup in August and September.
+[Text=Irving CharacterOffsetBegin=1719 CharacterOffsetEnd=1725 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=1726 CharacterOffsetEnd=1729 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=not CharacterOffsetBegin=1730 CharacterOffsetEnd=1733 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=missed CharacterOffsetBegin=1734 CharacterOffsetEnd=1740 PartOfSpeech=VBN Lemma=miss NamedEntityTag=O] [Text=three CharacterOffsetBegin=1741 CharacterOffsetEnd=1746 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=straight CharacterOffsetBegin=1747 CharacterOffsetEnd=1755 PartOfSpeech=JJ Lemma=straight NamedEntityTag=O] [Text=games CharacterOffsetBegin=1756 CharacterOffsetEnd=1761 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=at CharacterOffsetBegin=1762 CharacterOffsetEnd=1764 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=any CharacterOffsetBegin=1765 CharacterOffsetEnd=1768 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=point CharacterOffsetBegin=1769 CharacterOffsetEnd=1774 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=this CharacterOffsetBegin=1775 CharacterOffsetEnd=1779 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=season CharacterOffsetBegin=1780 CharacterOffsetEnd=1786 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=1786 CharacterOffsetEnd=1787 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=1788 CharacterOffsetEnd=1793 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=was CharacterOffsetBegin=1794 CharacterOffsetEnd=1797 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=lengthened CharacterOffsetBegin=1798 CharacterOffsetEnd=1808 PartOfSpeech=VBN Lemma=lengthen NamedEntityTag=O] [Text=by CharacterOffsetBegin=1809 CharacterOffsetEnd=1811 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=him CharacterOffsetBegin=1812 CharacterOffsetEnd=1815 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=playing CharacterOffsetBegin=1816 CharacterOffsetEnd=1823 PartOfSpeech=VBG Lemma=play NamedEntityTag=O] [Text=for CharacterOffsetBegin=1824 CharacterOffsetEnd=1827 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Team CharacterOffsetBegin=1828 CharacterOffsetEnd=1832 PartOfSpeech=NNP Lemma=Team NamedEntityTag=LOCATION] [Text=USA CharacterOffsetBegin=1833 CharacterOffsetEnd=1836 PartOfSpeech=NNP Lemma=USA NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=earning CharacterOffsetBegin=1841 CharacterOffsetEnd=1848 PartOfSpeech=VBG Lemma=earn NamedEntityTag=O] [Text=MVP CharacterOffsetBegin=1849 CharacterOffsetEnd=1852 PartOfSpeech=NN Lemma=mvp NamedEntityTag=O] [Text=of CharacterOffsetBegin=1853 CharacterOffsetEnd=1855 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1856 CharacterOffsetEnd=1859 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIBA CharacterOffsetBegin=1860 CharacterOffsetEnd=1864 PartOfSpeech=NNP Lemma=FIBA NamedEntityTag=ORGANIZATION] [Text=World CharacterOffsetBegin=1865 CharacterOffsetEnd=1870 PartOfSpeech=NNP Lemma=World NamedEntityTag=O] [Text=Cup CharacterOffsetBegin=1871 CharacterOffsetEnd=1874 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=O] [Text=in CharacterOffsetBegin=1875 CharacterOffsetEnd=1877 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=August CharacterOffsetBegin=1878 CharacterOffsetEnd=1884 PartOfSpeech=NNP Lemma=August NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08 Timex=<TIMEX3 tid="t5" type="DATE" value="XXXX-08">August<_TIMEX3>] [Text=and CharacterOffsetBegin=1885 CharacterOffsetEnd=1888 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=September CharacterOffsetBegin=1889 CharacterOffsetEnd=1898 PartOfSpeech=NNP Lemma=September NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-09 Timex=<TIMEX3 tid="t6" type="DATE" value="XXXX-09">September<_TIMEX3>] [Text=. CharacterOffsetBegin=1898 CharacterOffsetEnd=1899 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBZ has) (RB not)
+      (VP (VBN missed)
+        (NP
+          (NP (CD three) (JJ straight) (NNS games))
+          (PP (IN at)
+            (NP (DT any) (NN point))))
+        (NP-TMP (DT this) (NN season))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBD was)
+              (VP (VBN lengthened)
+                (PP (IN by)
+                  (S
+                    (NP (PRP him))
+                    (VP
+                      (VP (VBG playing)
+                        (PP (IN for)
+                          (NP (NNP Team) (NNP USA))))
+                      (CC and)
+                      (VP (VBG earning)
+                        (NP
+                          (NP (NN MVP))
+                          (PP (IN of)
+                            (NP (DT the) (NNP FIBA) (NNP World) (NNP Cup))))
+                        (PP (IN in)
+                          (NP (NNP August)
+                            (CC and)
+                            (NNP September)))))))))))))
+    (. .)))
+
+root(ROOT-0, missed-4)
+nsubj(missed-4, Irving-1)
+aux(missed-4, has-2)
+neg(missed-4, not-3)
+num(games-7, three-5)
+amod(games-7, straight-6)
+dobj(missed-4, games-7)
+det(point-10, any-9)
+prep_at(games-7, point-10)
+det(season-12, this-11)
+tmod(missed-4, season-12)
+nsubjpass(lengthened-16, which-14)
+auxpass(lengthened-16, was-15)
+dep(missed-4, lengthened-16)
+nsubj(playing-19, him-18)
+agent(lengthened-16, playing-19)
+nn(USA-22, Team-21)
+prep_for(playing-19, USA-22)
+conj_and(playing-19, earning-24)
+dobj(earning-24, MVP-25)
+det(Cup-30, the-27)
+nn(Cup-30, FIBA-28)
+nn(Cup-30, World-29)
+prep_of(MVP-25, Cup-30)
+prep_in(earning-24, August-32)
+conj_and(August-32, September-34)
+
+Sentence #26 (19 tokens):
+Irving has battled a right foot sprain since Game 2 of the Cavs’ first-round series against Boston.
+[Text=Irving CharacterOffsetBegin=1900 CharacterOffsetEnd=1906 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=1907 CharacterOffsetEnd=1910 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=battled CharacterOffsetBegin=1911 CharacterOffsetEnd=1918 PartOfSpeech=VBN Lemma=battle NamedEntityTag=O] [Text=a CharacterOffsetBegin=1919 CharacterOffsetEnd=1920 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=right CharacterOffsetBegin=1921 CharacterOffsetEnd=1926 PartOfSpeech=JJ Lemma=right NamedEntityTag=O] [Text=foot CharacterOffsetBegin=1927 CharacterOffsetEnd=1931 PartOfSpeech=NN Lemma=foot NamedEntityTag=O] [Text=sprain CharacterOffsetBegin=1932 CharacterOffsetEnd=1938 PartOfSpeech=NN Lemma=sprain NamedEntityTag=O] [Text=since CharacterOffsetBegin=1939 CharacterOffsetEnd=1944 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=Game CharacterOffsetBegin=1945 CharacterOffsetEnd=1949 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=2 CharacterOffsetBegin=1950 CharacterOffsetEnd=1951 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=of CharacterOffsetBegin=1952 CharacterOffsetEnd=1954 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1955 CharacterOffsetEnd=1958 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=1959 CharacterOffsetEnd=1963 PartOfSpeech=NNPS Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=_ CharacterOffsetBegin=1963 CharacterOffsetEnd=1964 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=first-round CharacterOffsetBegin=1965 CharacterOffsetEnd=1976 PartOfSpeech=JJ Lemma=first-round NamedEntityTag=O] [Text=series CharacterOffsetBegin=1977 CharacterOffsetEnd=1983 PartOfSpeech=NN Lemma=series NamedEntityTag=O] [Text=against CharacterOffsetBegin=1984 CharacterOffsetEnd=1991 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Boston CharacterOffsetBegin=1992 CharacterOffsetEnd=1998 PartOfSpeech=NNP Lemma=Boston NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1998 CharacterOffsetEnd=1999 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBZ has)
+      (VP (VBN battled)
+        (NP (DT a) (JJ right) (NN foot) (NN sprain))
+        (PP (IN since)
+          (NP
+            (NP (NN Game) (CD 2))
+            (PP (IN of)
+              (NP
+                (NP
+                  (NP (DT the) (NNPS Cavs) (POS _))
+                  (JJ first-round) (NN series))
+                (PP (IN against)
+                  (NP (NNP Boston)))))))))
+    (. .)))
+
+root(ROOT-0, battled-3)
+nsubj(battled-3, Irving-1)
+aux(battled-3, has-2)
+det(sprain-7, a-4)
+amod(sprain-7, right-5)
+nn(sprain-7, foot-6)
+dobj(battled-3, sprain-7)
+prep_since(battled-3, Game-9)
+num(Game-9, 2-10)
+det(Cavs-13, the-12)
+poss(series-16, Cavs-13)
+amod(series-16, first-round-15)
+prep_of(Game-9, series-16)
+prep_against(series-16, Boston-18)
+
+Sentence #27 (12 tokens):
+In compensating for that injury, the left knee tendinitis developed.
+[Text=In CharacterOffsetBegin=2000 CharacterOffsetEnd=2002 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=compensating CharacterOffsetBegin=2003 CharacterOffsetEnd=2015 PartOfSpeech=VBG Lemma=compensate NamedEntityTag=O] [Text=for CharacterOffsetBegin=2016 CharacterOffsetEnd=2019 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=that CharacterOffsetBegin=2020 CharacterOffsetEnd=2024 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=injury CharacterOffsetBegin=2025 CharacterOffsetEnd=2031 PartOfSpeech=NN Lemma=injury NamedEntityTag=O] [Text=, CharacterOffsetBegin=2031 CharacterOffsetEnd=2032 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=2033 CharacterOffsetEnd=2036 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=left CharacterOffsetBegin=2037 CharacterOffsetEnd=2041 PartOfSpeech=JJ Lemma=left NamedEntityTag=O] [Text=knee CharacterOffsetBegin=2042 CharacterOffsetEnd=2046 PartOfSpeech=NN Lemma=knee NamedEntityTag=O] [Text=tendinitis CharacterOffsetBegin=2047 CharacterOffsetEnd=2057 PartOfSpeech=NN Lemma=tendinitis NamedEntityTag=O] [Text=developed CharacterOffsetBegin=2058 CharacterOffsetEnd=2067 PartOfSpeech=VBD Lemma=develop NamedEntityTag=O] [Text=. CharacterOffsetBegin=2067 CharacterOffsetEnd=2068 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (S
+        (VP (VBG compensating)
+          (PP (IN for)
+            (NP (DT that) (NN injury))))))
+    (, ,)
+    (NP (DT the) (JJ left) (NN knee) (NN tendinitis))
+    (VP (VBD developed))
+    (. .)))
+
+root(ROOT-0, developed-11)
+prepc_in(developed-11, compensating-2)
+det(injury-5, that-4)
+prep_for(compensating-2, injury-5)
+det(tendinitis-10, the-7)
+amod(tendinitis-10, left-8)
+nn(tendinitis-10, knee-9)
+nsubj(developed-11, tendinitis-10)
+
+Sentence #28 (15 tokens):
+Irving averaged 24.0 points on 44.6 percent shooting in his first six playoff games.
+[Text=Irving CharacterOffsetBegin=2069 CharacterOffsetEnd=2075 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=averaged CharacterOffsetBegin=2076 CharacterOffsetEnd=2084 PartOfSpeech=VBD Lemma=average NamedEntityTag=O] [Text=24.0 CharacterOffsetBegin=2085 CharacterOffsetEnd=2089 PartOfSpeech=CD Lemma=24.0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=24.0] [Text=points CharacterOffsetBegin=2090 CharacterOffsetEnd=2096 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=on CharacterOffsetBegin=2097 CharacterOffsetEnd=2099 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=44.6 CharacterOffsetBegin=2100 CharacterOffsetEnd=2104 PartOfSpeech=CD Lemma=44.6 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%44.6] [Text=percent CharacterOffsetBegin=2105 CharacterOffsetEnd=2112 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%44.6] [Text=shooting CharacterOffsetBegin=2113 CharacterOffsetEnd=2121 PartOfSpeech=NN Lemma=shooting NamedEntityTag=O] [Text=in CharacterOffsetBegin=2122 CharacterOffsetEnd=2124 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=2125 CharacterOffsetEnd=2128 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=first CharacterOffsetBegin=2129 CharacterOffsetEnd=2134 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=six CharacterOffsetBegin=2135 CharacterOffsetEnd=2138 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=playoff CharacterOffsetBegin=2139 CharacterOffsetEnd=2146 PartOfSpeech=NN Lemma=playoff NamedEntityTag=O] [Text=games CharacterOffsetBegin=2147 CharacterOffsetEnd=2152 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=. CharacterOffsetBegin=2152 CharacterOffsetEnd=2153 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBD averaged)
+      (NP (CD 24.0) (NNS points))
+      (PP (IN on)
+        (NP (CD 44.6) (NN percent) (NN shooting)))
+      (PP (IN in)
+        (NP (PRP$ his) (JJ first) (CD six) (NN playoff) (NNS games))))
+    (. .)))
+
+root(ROOT-0, averaged-2)
+nsubj(averaged-2, Irving-1)
+num(points-4, 24.0-3)
+dobj(averaged-2, points-4)
+num(shooting-8, 44.6-6)
+nn(shooting-8, percent-7)
+prep_on(averaged-2, shooting-8)
+poss(games-14, his-10)
+amod(games-14, first-11)
+num(games-14, six-12)
+nn(games-14, playoff-13)
+prep_in(averaged-2, games-14)
+
+Sentence #29 (14 tokens):
+In the last five, he averaged 12.8 points on 39.2 percent shooting.
+[Text=In CharacterOffsetBegin=2154 CharacterOffsetEnd=2156 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=2157 CharacterOffsetEnd=2160 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=last CharacterOffsetBegin=2161 CharacterOffsetEnd=2165 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=five CharacterOffsetBegin=2166 CharacterOffsetEnd=2170 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=, CharacterOffsetBegin=2170 CharacterOffsetEnd=2171 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=2172 CharacterOffsetEnd=2174 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=averaged CharacterOffsetBegin=2175 CharacterOffsetEnd=2183 PartOfSpeech=VBD Lemma=average NamedEntityTag=O] [Text=12.8 CharacterOffsetBegin=2184 CharacterOffsetEnd=2188 PartOfSpeech=CD Lemma=12.8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12.8] [Text=points CharacterOffsetBegin=2189 CharacterOffsetEnd=2195 PartOfSpeech=NNS Lemma=point NamedEntityTag=O] [Text=on CharacterOffsetBegin=2196 CharacterOffsetEnd=2198 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=39.2 CharacterOffsetBegin=2199 CharacterOffsetEnd=2203 PartOfSpeech=CD Lemma=39.2 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%39.2] [Text=percent CharacterOffsetBegin=2204 CharacterOffsetEnd=2211 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%39.2] [Text=shooting CharacterOffsetBegin=2212 CharacterOffsetEnd=2220 PartOfSpeech=NN Lemma=shooting NamedEntityTag=O] [Text=. CharacterOffsetBegin=2220 CharacterOffsetEnd=2221 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ last) (CD five)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD averaged)
+      (NP (CD 12.8) (NNS points))
+      (PP (IN on)
+        (NP (CD 39.2) (NN percent) (NN shooting))))
+    (. .)))
+
+root(ROOT-0, averaged-7)
+det(five-4, the-2)
+amod(five-4, last-3)
+prep_in(averaged-7, five-4)
+nsubj(averaged-7, he-6)
+num(points-9, 12.8-8)
+dobj(averaged-7, points-9)
+num(shooting-13, 39.2-11)
+nn(shooting-13, percent-12)
+prep_on(averaged-7, shooting-13)
+
+Sentence #30 (13 tokens):
+Irving had not missed a playoff game before Game 2 in Atlanta.
+[Text=Irving CharacterOffsetBegin=2222 CharacterOffsetEnd=2228 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=had CharacterOffsetBegin=2229 CharacterOffsetEnd=2232 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=not CharacterOffsetBegin=2233 CharacterOffsetEnd=2236 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=missed CharacterOffsetBegin=2237 CharacterOffsetEnd=2243 PartOfSpeech=VBN Lemma=miss NamedEntityTag=O] [Text=a CharacterOffsetBegin=2244 CharacterOffsetEnd=2245 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=playoff CharacterOffsetBegin=2246 CharacterOffsetEnd=2253 PartOfSpeech=NN Lemma=playoff NamedEntityTag=O] [Text=game CharacterOffsetBegin=2254 CharacterOffsetEnd=2258 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=before CharacterOffsetBegin=2259 CharacterOffsetEnd=2265 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=Game CharacterOffsetBegin=2266 CharacterOffsetEnd=2270 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=2 CharacterOffsetBegin=2271 CharacterOffsetEnd=2272 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=in CharacterOffsetBegin=2273 CharacterOffsetEnd=2275 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Atlanta CharacterOffsetBegin=2276 CharacterOffsetEnd=2283 PartOfSpeech=NNP Lemma=Atlanta NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2283 CharacterOffsetEnd=2284 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Irving))
+    (VP (VBD had) (RB not)
+      (VP (VBN missed)
+        (NP (DT a) (NN playoff) (NN game))
+        (PP (IN before)
+          (NP
+            (NP (NN Game) (CD 2))
+            (PP (IN in)
+              (NP (NNP Atlanta)))))))
+    (. .)))
+
+root(ROOT-0, missed-4)
+nsubj(missed-4, Irving-1)
+aux(missed-4, had-2)
+neg(missed-4, not-3)
+det(game-7, a-5)
+nn(game-7, playoff-6)
+dobj(missed-4, game-7)
+prep_before(missed-4, Game-9)
+num(Game-9, 2-10)
+prep_in(Game-9, Atlanta-12)
+
+Sentence #31 (30 tokens):
+But he had been laboring for a while on the knee, which caused the team to take him to see renowned orthopedic surgeon Dr. James Andrews on Friday.
+[Text=But CharacterOffsetBegin=2285 CharacterOffsetEnd=2288 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=he CharacterOffsetBegin=2289 CharacterOffsetEnd=2291 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=2292 CharacterOffsetEnd=2295 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2296 CharacterOffsetEnd=2300 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=laboring CharacterOffsetBegin=2301 CharacterOffsetEnd=2309 PartOfSpeech=VBG Lemma=labor NamedEntityTag=O] [Text=for CharacterOffsetBegin=2310 CharacterOffsetEnd=2313 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=2314 CharacterOffsetEnd=2315 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=while CharacterOffsetBegin=2316 CharacterOffsetEnd=2321 PartOfSpeech=NN Lemma=while NamedEntityTag=O] [Text=on CharacterOffsetBegin=2322 CharacterOffsetEnd=2324 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2325 CharacterOffsetEnd=2328 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=knee CharacterOffsetBegin=2329 CharacterOffsetEnd=2333 PartOfSpeech=NN Lemma=knee NamedEntityTag=O] [Text=, CharacterOffsetBegin=2333 CharacterOffsetEnd=2334 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=2335 CharacterOffsetEnd=2340 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=caused CharacterOffsetBegin=2341 CharacterOffsetEnd=2347 PartOfSpeech=VBD Lemma=cause NamedEntityTag=O] [Text=the CharacterOffsetBegin=2348 CharacterOffsetEnd=2351 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=team CharacterOffsetBegin=2352 CharacterOffsetEnd=2356 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=to CharacterOffsetBegin=2357 CharacterOffsetEnd=2359 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=take CharacterOffsetBegin=2360 CharacterOffsetEnd=2364 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=him CharacterOffsetBegin=2365 CharacterOffsetEnd=2368 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=to CharacterOffsetBegin=2369 CharacterOffsetEnd=2371 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=see CharacterOffsetBegin=2372 CharacterOffsetEnd=2375 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=renowned CharacterOffsetBegin=2376 CharacterOffsetEnd=2384 PartOfSpeech=JJ Lemma=renowned NamedEntityTag=O] [Text=orthopedic CharacterOffsetBegin=2385 CharacterOffsetEnd=2395 PartOfSpeech=JJ Lemma=orthopedic NamedEntityTag=O] [Text=surgeon CharacterOffsetBegin=2396 CharacterOffsetEnd=2403 PartOfSpeech=NN Lemma=surgeon NamedEntityTag=O] [Text=Dr. CharacterOffsetBegin=2404 CharacterOffsetEnd=2407 PartOfSpeech=NNP Lemma=Dr. NamedEntityTag=O] [Text=James CharacterOffsetBegin=2408 CharacterOffsetEnd=2413 PartOfSpeech=NNP Lemma=James NamedEntityTag=PERSON] [Text=Andrews CharacterOffsetBegin=2414 CharacterOffsetEnd=2421 PartOfSpeech=NNP Lemma=Andrews NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=2422 CharacterOffsetEnd=2424 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Friday CharacterOffsetBegin=2425 CharacterOffsetEnd=2431 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-WXX-5">Friday<_TIMEX3>] [Text=. CharacterOffsetBegin=2431 CharacterOffsetEnd=2432 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBD had)
+      (VP (VBN been)
+        (VP (VBG laboring)
+          (PP (IN for)
+            (NP
+              (NP (DT a) (NN while))
+              (PP (IN on)
+                (NP
+                  (NP (DT the) (NN knee))
+                  (, ,)
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBD caused)
+                        (NP (DT the) (NN team)
+                          (S
+                            (VP (TO to)
+                              (VP (VB take)
+                                (S
+                                  (NP (PRP him))
+                                  (VP (TO to)
+                                    (VP (VB see)
+                                      (NP
+                                        (NP (JJ renowned) (JJ orthopedic) (NN surgeon) (NNP Dr.) (NNP James) (NNP Andrews))
+                                        (PP (IN on)
+                                          (NP (NNP Friday)))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, laboring-5)
+cc(laboring-5, But-1)
+nsubj(laboring-5, he-2)
+aux(laboring-5, had-3)
+aux(laboring-5, been-4)
+det(while-8, a-7)
+prep_for(laboring-5, while-8)
+det(knee-11, the-10)
+prep_on(while-8, knee-11)
+nsubj(caused-14, which-13)
+rcmod(knee-11, caused-14)
+det(team-16, the-15)
+dobj(caused-14, team-16)
+aux(take-18, to-17)
+vmod(team-16, take-18)
+nsubj(see-21, him-19)
+aux(see-21, to-20)
+xcomp(take-18, see-21)
+amod(Andrews-27, renowned-22)
+amod(Andrews-27, orthopedic-23)
+nn(Andrews-27, surgeon-24)
+nn(Andrews-27, Dr.-25)
+nn(Andrews-27, James-26)
+dobj(see-21, Andrews-27)
+prep_on(Andrews-27, Friday-29)
+
+Sentence #32 (10 tokens):
+Irving’s diagnosis of tendinitis was confirmed by Andrews.
+[Text=Irving CharacterOffsetBegin=2433 CharacterOffsetEnd=2439 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2439 CharacterOffsetEnd=2441 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=diagnosis CharacterOffsetBegin=2442 CharacterOffsetEnd=2451 PartOfSpeech=NN Lemma=diagnosis NamedEntityTag=O] [Text=of CharacterOffsetBegin=2452 CharacterOffsetEnd=2454 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=tendinitis CharacterOffsetBegin=2455 CharacterOffsetEnd=2465 PartOfSpeech=NN Lemma=tendinitis NamedEntityTag=O] [Text=was CharacterOffsetBegin=2466 CharacterOffsetEnd=2469 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=confirmed CharacterOffsetBegin=2470 CharacterOffsetEnd=2479 PartOfSpeech=VBN Lemma=confirm NamedEntityTag=O] [Text=by CharacterOffsetBegin=2480 CharacterOffsetEnd=2482 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Andrews CharacterOffsetBegin=2483 CharacterOffsetEnd=2490 PartOfSpeech=NNP Lemma=Andrews NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=2490 CharacterOffsetEnd=2491 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Irving) (POS _s))
+        (NN diagnosis))
+      (PP (IN of)
+        (NP (NN tendinitis))))
+    (VP (VBD was)
+      (VP (VBN confirmed)
+        (PP (IN by)
+          (NP (NNP Andrews)))))
+    (. .)))
+
+root(ROOT-0, confirmed-7)
+poss(diagnosis-3, Irving-1)
+nsubjpass(confirmed-7, diagnosis-3)
+prep_of(diagnosis-3, tendinitis-5)
+auxpass(confirmed-7, was-6)
+agent(confirmed-7, Andrews-9)
+
+Sentence #33 (25 tokens):
+The Cavs have maintained that the status of their series with the Hawks would not affect their decision to play or not play Irving.
+[Text=The CharacterOffsetBegin=2492 CharacterOffsetEnd=2495 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=2496 CharacterOffsetEnd=2500 PartOfSpeech=NNPS Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=have CharacterOffsetBegin=2501 CharacterOffsetEnd=2505 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=maintained CharacterOffsetBegin=2506 CharacterOffsetEnd=2516 PartOfSpeech=VBN Lemma=maintain NamedEntityTag=O] [Text=that CharacterOffsetBegin=2517 CharacterOffsetEnd=2521 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=2522 CharacterOffsetEnd=2525 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=status CharacterOffsetBegin=2526 CharacterOffsetEnd=2532 PartOfSpeech=NN Lemma=status NamedEntityTag=O] [Text=of CharacterOffsetBegin=2533 CharacterOffsetEnd=2535 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=their CharacterOffsetBegin=2536 CharacterOffsetEnd=2541 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=series CharacterOffsetBegin=2542 CharacterOffsetEnd=2548 PartOfSpeech=NN Lemma=series NamedEntityTag=O] [Text=with CharacterOffsetBegin=2549 CharacterOffsetEnd=2553 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2554 CharacterOffsetEnd=2557 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Hawks CharacterOffsetBegin=2558 CharacterOffsetEnd=2563 PartOfSpeech=NNPS Lemma=Hawks NamedEntityTag=ORGANIZATION] [Text=would CharacterOffsetBegin=2564 CharacterOffsetEnd=2569 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=not CharacterOffsetBegin=2570 CharacterOffsetEnd=2573 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=affect CharacterOffsetBegin=2574 CharacterOffsetEnd=2580 PartOfSpeech=VB Lemma=affect NamedEntityTag=O] [Text=their CharacterOffsetBegin=2581 CharacterOffsetEnd=2586 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=decision CharacterOffsetBegin=2587 CharacterOffsetEnd=2595 PartOfSpeech=NN Lemma=decision NamedEntityTag=O] [Text=to CharacterOffsetBegin=2596 CharacterOffsetEnd=2598 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=2599 CharacterOffsetEnd=2603 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=or CharacterOffsetBegin=2604 CharacterOffsetEnd=2606 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=not CharacterOffsetBegin=2607 CharacterOffsetEnd=2610 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=play CharacterOffsetBegin=2611 CharacterOffsetEnd=2615 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=Irving CharacterOffsetBegin=2616 CharacterOffsetEnd=2622 PartOfSpeech=NNP Lemma=Irving NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=2622 CharacterOffsetEnd=2623 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNPS Cavs))
+    (VP (VBP have)
+      (VP (VBN maintained)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT the) (NN status))
+              (PP (IN of)
+                (NP
+                  (NP (PRP$ their) (NN series))
+                  (PP (IN with)
+                    (NP (DT the) (NNPS Hawks))))))
+            (VP (MD would) (RB not)
+              (VP (VB affect)
+                (NP (PRP$ their) (NN decision)
+                  (S
+                    (VP (TO to)
+                      (VP (VB play)
+                        (CC or)
+                        (RB not) (VB play)
+                        (NP (NNP Irving))))))))))))
+    (. .)))
+
+root(ROOT-0, maintained-4)
+det(Cavs-2, The-1)
+nsubj(maintained-4, Cavs-2)
+aux(maintained-4, have-3)
+mark(affect-16, that-5)
+det(status-7, the-6)
+nsubj(affect-16, status-7)
+poss(series-10, their-9)
+prep_of(status-7, series-10)
+det(Hawks-13, the-12)
+prep_with(series-10, Hawks-13)
+aux(affect-16, would-14)
+neg(affect-16, not-15)
+ccomp(maintained-4, affect-16)
+poss(decision-18, their-17)
+dobj(affect-16, decision-18)
+aux(play-20, to-19)
+vmod(decision-18, play-20)
+conj_or(play-20, not-22)
+dep(play-20, play-23)
+dobj(play-20, Irving-24)
+
+Sentence #34 (42 tokens):
+“We need Kyrie on the court, and we_re not really thinking about resting him as much as we_re thinking about him being healthy to play basketball,” Cavs head coach David Blatt said after practice Monday.
+[Text=`` CharacterOffsetBegin=2624 CharacterOffsetEnd=2625 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=2625 CharacterOffsetEnd=2627 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=need CharacterOffsetBegin=2628 CharacterOffsetEnd=2632 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=Kyrie CharacterOffsetBegin=2633 CharacterOffsetEnd=2638 PartOfSpeech=NNP Lemma=Kyrie NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=2639 CharacterOffsetEnd=2641 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2642 CharacterOffsetEnd=2645 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=court CharacterOffsetBegin=2646 CharacterOffsetEnd=2651 PartOfSpeech=NN Lemma=court NamedEntityTag=O] [Text=, CharacterOffsetBegin=2651 CharacterOffsetEnd=2652 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2653 CharacterOffsetEnd=2656 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=2657 CharacterOffsetEnd=2659 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_re CharacterOffsetBegin=2659 CharacterOffsetEnd=2662 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2663 CharacterOffsetEnd=2666 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=really CharacterOffsetBegin=2667 CharacterOffsetEnd=2673 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=thinking CharacterOffsetBegin=2674 CharacterOffsetEnd=2682 PartOfSpeech=VBG Lemma=think NamedEntityTag=O] [Text=about CharacterOffsetBegin=2683 CharacterOffsetEnd=2688 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=resting CharacterOffsetBegin=2689 CharacterOffsetEnd=2696 PartOfSpeech=VBG Lemma=rest NamedEntityTag=O] [Text=him CharacterOffsetBegin=2697 CharacterOffsetEnd=2700 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=as CharacterOffsetBegin=2701 CharacterOffsetEnd=2703 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=much CharacterOffsetBegin=2704 CharacterOffsetEnd=2708 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=as CharacterOffsetBegin=2709 CharacterOffsetEnd=2711 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=we CharacterOffsetBegin=2712 CharacterOffsetEnd=2714 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_re CharacterOffsetBegin=2714 CharacterOffsetEnd=2717 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=thinking CharacterOffsetBegin=2718 CharacterOffsetEnd=2726 PartOfSpeech=VBG Lemma=think NamedEntityTag=O] [Text=about CharacterOffsetBegin=2727 CharacterOffsetEnd=2732 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=him CharacterOffsetBegin=2733 CharacterOffsetEnd=2736 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=being CharacterOffsetBegin=2737 CharacterOffsetEnd=2742 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=healthy CharacterOffsetBegin=2743 CharacterOffsetEnd=2750 PartOfSpeech=JJ Lemma=healthy NamedEntityTag=O] [Text=to CharacterOffsetBegin=2751 CharacterOffsetEnd=2753 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=play CharacterOffsetBegin=2754 CharacterOffsetEnd=2758 PartOfSpeech=VB Lemma=play NamedEntityTag=O] [Text=basketball CharacterOffsetBegin=2759 CharacterOffsetEnd=2769 PartOfSpeech=NN Lemma=basketball NamedEntityTag=O] [Text=, CharacterOffsetBegin=2769 CharacterOffsetEnd=2770 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2770 CharacterOffsetEnd=2771 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Cavs CharacterOffsetBegin=2772 CharacterOffsetEnd=2776 PartOfSpeech=NNPS Lemma=Cavs NamedEntityTag=ORGANIZATION] [Text=head CharacterOffsetBegin=2777 CharacterOffsetEnd=2781 PartOfSpeech=VBP Lemma=head NamedEntityTag=O] [Text=coach CharacterOffsetBegin=2782 CharacterOffsetEnd=2787 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=David CharacterOffsetBegin=2788 CharacterOffsetEnd=2793 PartOfSpeech=NNP Lemma=David NamedEntityTag=PERSON] [Text=Blatt CharacterOffsetBegin=2794 CharacterOffsetEnd=2799 PartOfSpeech=NNP Lemma=Blatt NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2800 CharacterOffsetEnd=2804 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=after CharacterOffsetBegin=2805 CharacterOffsetEnd=2810 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=practice CharacterOffsetBegin=2811 CharacterOffsetEnd=2819 PartOfSpeech=NN Lemma=practice NamedEntityTag=O] [Text=Monday CharacterOffsetBegin=2820 CharacterOffsetEnd=2826 PartOfSpeech=NNP Lemma=Monday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-1 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-WXX-1">Monday<_TIMEX3>] [Text=. CharacterOffsetBegin=2826 CharacterOffsetEnd=2827 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP We))
+        (VP (VBP need)
+          (NP
+            (NP (NNP Kyrie))
+            (PP (IN on)
+              (NP (DT the) (NN court))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP we))
+        (VP (VBP _re) (RB not)
+          (ADVP (RB really))
+          (VP (VBG thinking)
+            (PP (IN about)
+              (S
+                (VP (VBG resting)
+                  (NP (PRP him))
+                  (ADVP
+                    (ADVP (RB as) (RB much))
+                    (SBAR (IN as)
+                      (S
+                        (NP (PRP we))
+                        (VP (VBP _re)
+                          (VP (VBG thinking)
+                            (PP (IN about)
+                              (S
+                                (NP (PRP him))
+                                (VP (VBG being)
+                                  (ADJP (JJ healthy)
+                                    (S
+                                      (VP (TO to)
+                                        (VP (VB play)
+                                          (NP (NN basketball)))))))))))))))))))))
+    (, ,) (__ __)
+    (NP (NNPS Cavs))
+    (VP (VBP head)
+      (SBAR
+        (S
+          (NP (NN coach) (NNP David) (NNP Blatt))
+          (VP (VBD said)
+            (PP (IN after)
+              (NP (NN practice)))
+            (NP-TMP (NNP Monday))))))
+    (. .)))
+
+root(ROOT-0, head-34)
+nsubj(need-3, We-2)
+ccomp(head-34, need-3)
+dobj(need-3, Kyrie-4)
+det(court-7, the-6)
+prep_on(Kyrie-4, court-7)
+nsubj(thinking-14, we-10)
+aux(thinking-14, _re-11)
+neg(thinking-14, not-12)
+advmod(thinking-14, really-13)
+conj_and(need-3, thinking-14)
+prepc_about(thinking-14, resting-16)
+dobj(resting-16, him-17)
+advmod(much-19, as-18)
+advmod(resting-16, much-19)
+mark(thinking-23, as-20)
+nsubj(thinking-23, we-21)
+aux(thinking-23, _re-22)
+ccomp(much-19, thinking-23)
+nsubj(healthy-27, him-25)
+cop(healthy-27, being-26)
+prepc_about(thinking-23, healthy-27)
+aux(play-29, to-28)
+xcomp(healthy-27, play-29)
+dobj(play-29, basketball-30)
+nsubj(head-34, Cavs-33)
+nn(Blatt-37, coach-35)
+nn(Blatt-37, David-36)
+nsubj(said-38, Blatt-37)
+ccomp(head-34, said-38)
+prep_after(said-38, practice-40)
+tmod(said-38, Monday-41)
+
+Sentence #35 (21 tokens):
+“We need him on the court, whether we_re up 1 0 or 2 1 or 3 0.
+[Text=`` CharacterOffsetBegin=2828 CharacterOffsetEnd=2829 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=2829 CharacterOffsetEnd=2831 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=need CharacterOffsetBegin=2832 CharacterOffsetEnd=2836 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=him CharacterOffsetBegin=2837 CharacterOffsetEnd=2840 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=on CharacterOffsetBegin=2841 CharacterOffsetEnd=2843 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=2844 CharacterOffsetEnd=2847 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=court CharacterOffsetBegin=2848 CharacterOffsetEnd=2853 PartOfSpeech=NN Lemma=court NamedEntityTag=O] [Text=, CharacterOffsetBegin=2853 CharacterOffsetEnd=2854 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=whether CharacterOffsetBegin=2855 CharacterOffsetEnd=2862 PartOfSpeech=IN Lemma=whether NamedEntityTag=O] [Text=we CharacterOffsetBegin=2863 CharacterOffsetEnd=2865 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_re CharacterOffsetBegin=2865 CharacterOffsetEnd=2868 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=up CharacterOffsetBegin=2869 CharacterOffsetEnd=2871 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=1 CharacterOffsetBegin=2872 CharacterOffsetEnd=2873 PartOfSpeech=CD Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=0 CharacterOffsetBegin=2874 CharacterOffsetEnd=2875 PartOfSpeech=CD Lemma=0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=or CharacterOffsetBegin=2876 CharacterOffsetEnd=2878 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=2 CharacterOffsetBegin=2879 CharacterOffsetEnd=2880 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=1 CharacterOffsetBegin=2881 CharacterOffsetEnd=2882 PartOfSpeech=CD Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=or CharacterOffsetBegin=2883 CharacterOffsetEnd=2885 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=3 CharacterOffsetBegin=2886 CharacterOffsetEnd=2887 PartOfSpeech=CD Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=0 CharacterOffsetBegin=2888 CharacterOffsetEnd=2889 PartOfSpeech=CD Lemma=0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=. CharacterOffsetBegin=2889 CharacterOffsetEnd=2890 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP We))
+    (VP (VBP need)
+      (NP (PRP him))
+      (PP (IN on)
+        (NP (DT the) (NN court)))
+      (, ,)
+      (SBAR (IN whether)
+        (S
+          (NP (PRP we))
+          (VP (VBP _re)
+            (PP (RP up)
+              (NP
+                (NP
+                  (QP (CD 1) (CD 0)))
+                (CC or)
+                (NP
+                  (QP (CD 2) (CD 1)
+                    (CC or)
+                    (CD 3) (CD 0)))))))))
+    (. .)))
+
+root(ROOT-0, need-3)
+nsubj(need-3, We-2)
+dobj(need-3, him-4)
+det(court-7, the-6)
+prep_on(need-3, court-7)
+mark(_re-11, whether-9)
+nsubj(_re-11, we-10)
+ccomp(need-3, _re-11)
+prep(_re-11, up-12)
+number(0-14, 1-13)
+dep(up-12, 0-14)
+num(1-17, 2-16)
+conj_or(0-14, 1-17)
+num(0-20, 3-19)
+conj_or(1-17, 0-20)
+
+Sentence #36 (13 tokens):
+That doesn_t really mean anything because this is the conference finals.
+[Text=That CharacterOffsetBegin=2891 CharacterOffsetEnd=2895 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=does CharacterOffsetBegin=2896 CharacterOffsetEnd=2900 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2900 CharacterOffsetEnd=2903 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=really CharacterOffsetBegin=2904 CharacterOffsetEnd=2910 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=mean CharacterOffsetBegin=2911 CharacterOffsetEnd=2915 PartOfSpeech=VB Lemma=mean NamedEntityTag=O] [Text=anything CharacterOffsetBegin=2916 CharacterOffsetEnd=2924 PartOfSpeech=NN Lemma=anything NamedEntityTag=O] [Text=because CharacterOffsetBegin=2925 CharacterOffsetEnd=2932 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=this CharacterOffsetBegin=2933 CharacterOffsetEnd=2937 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=is CharacterOffsetBegin=2938 CharacterOffsetEnd=2940 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2941 CharacterOffsetEnd=2944 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=conference CharacterOffsetBegin=2945 CharacterOffsetEnd=2955 PartOfSpeech=NN Lemma=conference NamedEntityTag=O] [Text=finals CharacterOffsetBegin=2956 CharacterOffsetEnd=2962 PartOfSpeech=NNS Lemma=final NamedEntityTag=O] [Text=. CharacterOffsetBegin=2962 CharacterOffsetEnd=2963 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ does) (RB n_t)
+      (ADVP (RB really))
+      (VP (VB mean)
+        (NP (NN anything))
+        (SBAR (IN because)
+          (S
+            (NP (DT this))
+            (VP (VBZ is)
+              (NP (DT the) (NN conference) (NNS finals)))))))
+    (. .)))
+
+root(ROOT-0, mean-5)
+nsubj(mean-5, That-1)
+aux(mean-5, does-2)
+neg(mean-5, n_t-3)
+advmod(mean-5, really-4)
+dobj(mean-5, anything-6)
+mark(finals-12, because-7)
+nsubj(finals-12, this-8)
+cop(finals-12, is-9)
+det(finals-12, the-10)
+nn(finals-12, conference-11)
+advcl(mean-5, finals-12)
+
+Sentence #37 (20 tokens):
+There_s not a lot of time, and there_s not a lot of room for error.”
+[Text=There CharacterOffsetBegin=2964 CharacterOffsetEnd=2969 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2969 CharacterOffsetEnd=2971 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2972 CharacterOffsetEnd=2975 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=2976 CharacterOffsetEnd=2977 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=2978 CharacterOffsetEnd=2981 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=2982 CharacterOffsetEnd=2984 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=time CharacterOffsetBegin=2985 CharacterOffsetEnd=2989 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=, CharacterOffsetBegin=2989 CharacterOffsetEnd=2990 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2991 CharacterOffsetEnd=2994 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=there CharacterOffsetBegin=2995 CharacterOffsetEnd=3000 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=_s CharacterOffsetBegin=3000 CharacterOffsetEnd=3002 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=3003 CharacterOffsetEnd=3006 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=a CharacterOffsetBegin=3007 CharacterOffsetEnd=3008 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=3009 CharacterOffsetEnd=3012 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=3013 CharacterOffsetEnd=3015 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=room CharacterOffsetBegin=3016 CharacterOffsetEnd=3020 PartOfSpeech=NN Lemma=room NamedEntityTag=O] [Text=for CharacterOffsetBegin=3021 CharacterOffsetEnd=3024 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=error CharacterOffsetBegin=3025 CharacterOffsetEnd=3030 PartOfSpeech=NN Lemma=error NamedEntityTag=O] [Text=. CharacterOffsetBegin=3030 CharacterOffsetEnd=3031 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3031 CharacterOffsetEnd=3032 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBZ _s) (RB not)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN time))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (EX there))
+      (VP (VBZ _s) (RB not)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP
+              (NP (NN room))
+              (PP (IN for)
+                (NP (NN error))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, _s-2)
+expl(_s-2, There-1)
+neg(_s-2, not-3)
+det(lot-5, a-4)
+nsubj(_s-2, lot-5)
+prep_of(lot-5, time-7)
+expl(_s-11, there-10)
+conj_and(_s-2, _s-11)
+neg(_s-11, not-12)
+det(lot-14, a-13)
+nsubj(_s-11, lot-14)
+prep_of(lot-14, room-16)
+prep_for(room-16, error-18)
+
+Sentence #38 (37 tokens):
+Page 2 of 2 - Reach Josh at josh.weir@cantonrep.com
+On Twitter: @jweirREP
+» Comment or view comments  
+ 
+Sign up for our newsletter and have the top headlines from your community delivered right to your inbox.
+[Text=Page CharacterOffsetBegin=3033 CharacterOffsetEnd=3037 PartOfSpeech=NNP Lemma=Page NamedEntityTag=O] [Text=2 CharacterOffsetBegin=3038 CharacterOffsetEnd=3039 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=of CharacterOffsetBegin=3040 CharacterOffsetEnd=3042 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=2 CharacterOffsetBegin=3043 CharacterOffsetEnd=3044 PartOfSpeech=LS Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=- CharacterOffsetBegin=3045 CharacterOffsetEnd=3046 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Reach CharacterOffsetBegin=3047 CharacterOffsetEnd=3052 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=Josh CharacterOffsetBegin=3053 CharacterOffsetEnd=3057 PartOfSpeech=NNP Lemma=Josh NamedEntityTag=PERSON] [Text=at CharacterOffsetBegin=3058 CharacterOffsetEnd=3060 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=josh.weir@cantonrep.com CharacterOffsetBegin=3061 CharacterOffsetEnd=3084 PartOfSpeech=NNP Lemma=josh.weir@cantonrep.com NamedEntityTag=O] [Text=On CharacterOffsetBegin=3085 CharacterOffsetEnd=3087 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=3088 CharacterOffsetEnd=3095 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=: CharacterOffsetBegin=3095 CharacterOffsetEnd=3096 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=@jweirREP CharacterOffsetBegin=3097 CharacterOffsetEnd=3106 PartOfSpeech=NN Lemma=@jweirrep NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3107 CharacterOffsetEnd=3108 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Comment CharacterOffsetBegin=3109 CharacterOffsetEnd=3116 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=or CharacterOffsetBegin=3117 CharacterOffsetEnd=3119 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=view CharacterOffsetBegin=3120 CharacterOffsetEnd=3124 PartOfSpeech=VB Lemma=view NamedEntityTag=O] [Text=comments CharacterOffsetBegin=3125 CharacterOffsetEnd=3133 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3138 CharacterOffsetEnd=3142 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=up CharacterOffsetBegin=3143 CharacterOffsetEnd=3145 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=for CharacterOffsetBegin=3146 CharacterOffsetEnd=3149 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=our CharacterOffsetBegin=3150 CharacterOffsetEnd=3153 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=newsletter CharacterOffsetBegin=3154 CharacterOffsetEnd=3164 PartOfSpeech=NN Lemma=newsletter NamedEntityTag=O] [Text=and CharacterOffsetBegin=3165 CharacterOffsetEnd=3168 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=3169 CharacterOffsetEnd=3173 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=the CharacterOffsetBegin=3174 CharacterOffsetEnd=3177 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=3178 CharacterOffsetEnd=3181 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=headlines CharacterOffsetBegin=3182 CharacterOffsetEnd=3191 PartOfSpeech=NNS Lemma=headline NamedEntityTag=O] [Text=from CharacterOffsetBegin=3192 CharacterOffsetEnd=3196 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=your CharacterOffsetBegin=3197 CharacterOffsetEnd=3201 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=community CharacterOffsetBegin=3202 CharacterOffsetEnd=3211 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=delivered CharacterOffsetBegin=3212 CharacterOffsetEnd=3221 PartOfSpeech=VBN Lemma=deliver NamedEntityTag=O] [Text=right CharacterOffsetBegin=3222 CharacterOffsetEnd=3227 PartOfSpeech=NN Lemma=right NamedEntityTag=O] [Text=to CharacterOffsetBegin=3228 CharacterOffsetEnd=3230 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=your CharacterOffsetBegin=3231 CharacterOffsetEnd=3235 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=inbox CharacterOffsetBegin=3236 CharacterOffsetEnd=3241 PartOfSpeech=NN Lemma=inbox NamedEntityTag=O] [Text=. CharacterOffsetBegin=3241 CharacterOffsetEnd=3242 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Page) (CD 2))
+      (PP (IN of)
+        (NP
+          (NP (LS 2))
+          (: -)
+          (S
+            (VP
+              (VP (VB Reach)
+                (NP (NNP Josh))
+                (PP (IN at)
+                  (NP
+                    (NP (NNP josh.weir@cantonrep.com) (IN On) (NNP Twitter))
+                    (: :)
+                    (NP (NN @jweirREP) (__ __) (NN Comment)))))
+              (CC or)
+              (VP (VB view)
+                (S
+                  (NP (NNS comments))
+                  (VP (VB Sign)
+                    (PRT (RP up))
+                    (PP (IN for)
+                      (NP (PRP$ our) (NN newsletter))))))
+              (CC and)
+              (VP (VBP have)
+                (NP
+                  (NP (DT the) (JJ top) (NNS headlines))
+                  (PP (IN from)
+                    (NP (PRP$ your) (NN community))))))))))
+    (VP (VBN delivered)
+      (NP (NN right))
+      (PP (TO to)
+        (NP (PRP$ your) (NN inbox))))
+    (. .)))
+
+root(ROOT-0, delivered-32)
+nsubj(delivered-32, Page-1)
+num(Page-1, 2-2)
+prep_of(Page-1, 2-4)
+dep(2-4, Reach-6)
+dobj(Reach-6, Josh-7)
+nn(Twitter-11, josh.weir@cantonrep.com-9)
+amod(Twitter-11, On-10)
+prep_at(Reach-6, Twitter-11)
+nn(Comment-15, @jweirREP-13)
+dep(Twitter-11, Comment-15)
+conj_or(Reach-6, view-17)
+nsubj(Sign-19, comments-18)
+ccomp(view-17, Sign-19)
+prt(Sign-19, up-20)
+poss(newsletter-23, our-22)
+prep_for(Sign-19, newsletter-23)
+conj_and(Reach-6, have-25)
+det(headlines-28, the-26)
+amod(headlines-28, top-27)
+dobj(have-25, headlines-28)
+poss(community-31, your-30)
+prep_from(headlines-28, community-31)
+dobj(delivered-32, right-33)
+poss(inbox-36, your-35)
+prep_to(delivered-32, inbox-36)
+
+Sentence #39 (10 tokens):
+Your privacy is important, read our privacy policy.
+[Text=Your CharacterOffsetBegin=3243 CharacterOffsetEnd=3247 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=privacy CharacterOffsetBegin=3248 CharacterOffsetEnd=3255 PartOfSpeech=NN Lemma=privacy NamedEntityTag=O] [Text=is CharacterOffsetBegin=3256 CharacterOffsetEnd=3258 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=important CharacterOffsetBegin=3259 CharacterOffsetEnd=3268 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=, CharacterOffsetBegin=3268 CharacterOffsetEnd=3269 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=read CharacterOffsetBegin=3270 CharacterOffsetEnd=3274 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=our CharacterOffsetBegin=3275 CharacterOffsetEnd=3278 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=privacy CharacterOffsetBegin=3279 CharacterOffsetEnd=3286 PartOfSpeech=NN Lemma=privacy NamedEntityTag=O] [Text=policy CharacterOffsetBegin=3287 CharacterOffsetEnd=3293 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=3293 CharacterOffsetEnd=3294 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP
+      (NP (PRP$ Your) (NN privacy))
+      (SBAR
+        (S
+          (VP (VBZ is)
+            (ADJP (JJ important))))))
+    (, ,)
+    (VP (VB read)
+      (NP (PRP$ our) (NN privacy) (NN policy)))
+    (. .)))
+
+root(ROOT-0, read-6)
+poss(privacy-2, Your-1)
+dep(read-6, privacy-2)
+cop(important-4, is-3)
+rcmod(privacy-2, important-4)
+poss(policy-9, our-7)
+nn(policy-9, privacy-8)
+dobj(read-6, policy-9)
+
+Sentence #40 (8 tokens):
+© Copyright 2006-2015 Gatehouse Media, Inc.
+[Text=© CharacterOffsetBegin=3295 CharacterOffsetEnd=3296 PartOfSpeech=NN Lemma=© NamedEntityTag=O] [Text=Copyright CharacterOffsetBegin=3297 CharacterOffsetEnd=3306 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O] [Text=2006-2015 CharacterOffsetBegin=3307 CharacterOffsetEnd=3316 PartOfSpeech=CD Lemma=2006-2015 NamedEntityTag=DURATION NormalizedNamedEntityTag=PT78888H Timex=<TIMEX3 beginPoint="t9" endPoint="t10" tid="t11" type="DURATION" value="PT78888H">2006-2015<_TIMEX3>] [Text=Gatehouse CharacterOffsetBegin=3317 CharacterOffsetEnd=3326 PartOfSpeech=NNP Lemma=Gatehouse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=3327 CharacterOffsetEnd=3332 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=3332 CharacterOffsetEnd=3333 PartOfSpeech=, Lemma=, NamedEntityTag=ORGANIZATION] [Text=Inc. CharacterOffsetBegin=3334 CharacterOffsetEnd=3337 PartOfSpeech=NNP Lemma=Inc. NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=3337 CharacterOffsetEnd=3338 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN ©) (NN Copyright))
+    (NP
+      (NP (CD 2006-2015) (NNP Gatehouse) (NNP Media))
+      (, ,)
+      (NP (NNP Inc.)))
+    (. .)))
+
+root(ROOT-0, Copyright-2)
+nn(Copyright-2, ©-1)
+num(Media-5, 2006-2015-3)
+nn(Media-5, Gatehouse-4)
+dep(Copyright-2, Media-5)
+appos(Media-5, Inc.-7)
+
+Sentence #41 (29 tokens):
+Some rights reserved    Privacy Policy  |  Terms of Service  |  Gatehouse Media Publications
+Original content available for non-commercial use under a Creative Commons license, except where noted.
+[Text=Some CharacterOffsetBegin=3339 CharacterOffsetEnd=3343 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=rights CharacterOffsetBegin=3344 CharacterOffsetEnd=3350 PartOfSpeech=NNS Lemma=rights NamedEntityTag=O] [Text=reserved CharacterOffsetBegin=3351 CharacterOffsetEnd=3359 PartOfSpeech=VBD Lemma=reserve NamedEntityTag=O] [Text=Privacy CharacterOffsetBegin=3363 CharacterOffsetEnd=3370 PartOfSpeech=NNP Lemma=Privacy NamedEntityTag=ORGANIZATION] [Text=Policy CharacterOffsetBegin=3371 CharacterOffsetEnd=3377 PartOfSpeech=NNP Lemma=Policy NamedEntityTag=ORGANIZATION] [Text=| CharacterOffsetBegin=3379 CharacterOffsetEnd=3380 PartOfSpeech=NNP Lemma=| NamedEntityTag=ORGANIZATION] [Text=Terms CharacterOffsetBegin=3382 CharacterOffsetEnd=3387 PartOfSpeech=NNS Lemma=term NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=3388 CharacterOffsetEnd=3390 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=Service CharacterOffsetBegin=3391 CharacterOffsetEnd=3398 PartOfSpeech=NNP Lemma=Service NamedEntityTag=ORGANIZATION] [Text=| CharacterOffsetBegin=3400 CharacterOffsetEnd=3401 PartOfSpeech=NNP Lemma=| NamedEntityTag=ORGANIZATION] [Text=Gatehouse CharacterOffsetBegin=3403 CharacterOffsetEnd=3412 PartOfSpeech=NNP Lemma=Gatehouse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=3413 CharacterOffsetEnd=3418 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=Publications CharacterOffsetBegin=3419 CharacterOffsetEnd=3431 PartOfSpeech=NNP Lemma=Publications NamedEntityTag=ORGANIZATION] [Text=Original CharacterOffsetBegin=3432 CharacterOffsetEnd=3440 PartOfSpeech=JJ Lemma=original NamedEntityTag=O] [Text=content CharacterOffsetBegin=3441 CharacterOffsetEnd=3448 PartOfSpeech=NN Lemma=content NamedEntityTag=O] [Text=available CharacterOffsetBegin=3449 CharacterOffsetEnd=3458 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=for CharacterOffsetBegin=3459 CharacterOffsetEnd=3462 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=non-commercial CharacterOffsetBegin=3463 CharacterOffsetEnd=3477 PartOfSpeech=JJ Lemma=non-commercial NamedEntityTag=O] [Text=use CharacterOffsetBegin=3478 CharacterOffsetEnd=3481 PartOfSpeech=NN Lemma=use NamedEntityTag=O] [Text=under CharacterOffsetBegin=3482 CharacterOffsetEnd=3487 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=a CharacterOffsetBegin=3488 CharacterOffsetEnd=3489 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Creative CharacterOffsetBegin=3490 CharacterOffsetEnd=3498 PartOfSpeech=JJ Lemma=creative NamedEntityTag=MISC] [Text=Commons CharacterOffsetBegin=3499 CharacterOffsetEnd=3506 PartOfSpeech=NNPS Lemma=Commons NamedEntityTag=MISC] [Text=license CharacterOffsetBegin=3507 CharacterOffsetEnd=3514 PartOfSpeech=NN Lemma=license NamedEntityTag=O] [Text=, CharacterOffsetBegin=3514 CharacterOffsetEnd=3515 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=except CharacterOffsetBegin=3516 CharacterOffsetEnd=3522 PartOfSpeech=IN Lemma=except NamedEntityTag=O] [Text=where CharacterOffsetBegin=3523 CharacterOffsetEnd=3528 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=noted CharacterOffsetBegin=3529 CharacterOffsetEnd=3534 PartOfSpeech=VBN Lemma=note NamedEntityTag=O] [Text=. CharacterOffsetBegin=3534 CharacterOffsetEnd=3535 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT Some) (NNS rights))
+    (VP (VBD reserved)
+      (NP
+        (NP (NNP Privacy) (NNP Policy) (NNP |) (NNS Terms))
+        (PP (IN of)
+          (NP (NNP Service) (NNP |) (NNP Gatehouse) (NNP Media) (NNP Publications) (JJ Original) (NN content)))
+        (ADJP (JJ available)
+          (PP (IN for)
+            (NP (JJ non-commercial) (NN use)))))
+      (PP (IN under)
+        (NP (DT a) (JJ Creative) (NNPS Commons) (NN license)))
+      (, ,)
+      (PP (IN except)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (VP (VBN noted))))))
+    (. .)))
+
+root(ROOT-0, reserved-3)
+det(rights-2, Some-1)
+nsubj(reserved-3, rights-2)
+nn(Terms-7, Privacy-4)
+nn(Terms-7, Policy-5)
+nn(Terms-7, bar-6)
+dobj(reserved-3, Terms-7)
+nn(content-15, Service-9)
+nn(content-15, bar-10)
+nn(content-15, Gatehouse-11)
+nn(content-15, Media-12)
+nn(content-15, Publications-13)
+amod(content-15, Original-14)
+prep_of(Terms-7, content-15)
+amod(Terms-7, available-16)
+amod(use-19, non-commercial-18)
+prep_for(available-16, use-19)
+det(license-24, a-21)
+amod(license-24, Creative-22)
+nn(license-24, Commons-23)
+prep_under(reserved-3, license-24)
+advmod(noted-28, where-27)
+prepc_except(reserved-3, noted-28)
+
+Sentence #42 (7 tokens):
+The Independent | Massillon, OH 44648
+[Text=The CharacterOffsetBegin=3536 CharacterOffsetEnd=3539 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Independent CharacterOffsetBegin=3540 CharacterOffsetEnd=3551 PartOfSpeech=NNP Lemma=Independent NamedEntityTag=O] [Text=| CharacterOffsetBegin=3552 CharacterOffsetEnd=3553 PartOfSpeech=NNP Lemma=| NamedEntityTag=O] [Text=Massillon CharacterOffsetBegin=3554 CharacterOffsetEnd=3563 PartOfSpeech=NNP Lemma=Massillon NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3563 CharacterOffsetEnd=3564 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=OH CharacterOffsetBegin=3565 CharacterOffsetEnd=3567 PartOfSpeech=NN Lemma=oh NamedEntityTag=O] [Text=44648 CharacterOffsetBegin=3568 CharacterOffsetEnd=3573 PartOfSpeech=CD Lemma=44648 NamedEntityTag=NUMBER NormalizedNamedEntityTag=44648.0] 
+(ROOT
+  (NP
+    (NP (DT The) (NNP Independent) (NNP |) (NNP Massillon))
+    (, ,)
+    (NP (NN OH) (CD 44648))))
+
+root(ROOT-0, Massillon-4)
+det(Massillon-4, The-1)
+nn(Massillon-4, Independent-2)
+nn(Massillon-4, bar-3)
+appos(Massillon-4, OH-6)
+num(OH-6, 44648-7)
+
+Coreference set:
+ (1,9,[9,10]) -> (26,13,[12,15]), that is: "Cavs" -> "the Cavs _"
+ (5,2,[1,3]) -> (26,13,[12,15]), that is: "The Cavs" -> "the Cavs _"
+ (11,9,[9,10]) -> (26,13,[12,15]), that is: "Cavs" -> "the Cavs _"
+ (24,2,[1,3]) -> (26,13,[12,15]), that is: "The Cavs" -> "the Cavs _"
+ (33,2,[1,3]) -> (26,13,[12,15]), that is: "The Cavs" -> "the Cavs _"
+ (34,33,[33,34]) -> (26,13,[12,15]), that is: "Cavs" -> "the Cavs _"
+Coreference set:
+ (2,13,[13,14]) -> (1,12,[12,13]), that is: "4" -> "4"
+Coreference set:
+ (13,8,[8,9]) -> (1,7,[7,10]), that is: "tonight" -> "tonight for Cavs"
+Coreference set:
+ (2,12,[12,14]) -> (1,11,[11,13]), that is: "Game 4" -> "Game 4"
+ (7,9,[8,10]) -> (1,11,[11,13]), that is: "the game" -> "Game 4"
+Coreference set:
+ (1,13,[13,14]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (4,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (8,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (14,5,[5,6]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (16,1,[1,2]) -> (2,7,[2,8]), that is: "I" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (23,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (25,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (26,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (28,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (30,1,[1,2]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (32,1,[1,3]) -> (2,7,[2,8]), that is: "Irving _s" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+ (33,24,[24,25]) -> (2,7,[2,8]), that is: "Irving" -> "CLEVELAND Cavaliers point guard Kyrie Irving"
+Coreference set:
+ (4,5,[5,6]) -> (1,25,[23,26]), that is: "two" -> "the previous two"
+Coreference set:
+ (8,7,[7,8]) -> (2,3,[2,4]), that is: "Cavaliers" -> "CLEVELAND Cavaliers"
+Coreference set:
+ (3,8,[7,9]) -> (2,22,[20,23]), that is: "the Hawks" -> "the Atlanta Hawks"
+ (3,8,[8,9]) -> (2,22,[20,23]), that is: "Hawks" -> "the Atlanta Hawks"
+ (33,13,[12,14]) -> (2,22,[20,23]), that is: "the Hawks" -> "the Atlanta Hawks"
+Coreference set:
+ (3,12,[12,13]) -> (3,1,[1,2]), that is: "its" -> "Cleveland"
+Coreference set:
+ (6,1,[1,2]) -> (5,7,[5,8]), that is: "He" -> "the three-time All-Star"
+ (7,5,[5,6]) -> (5,7,[5,8]), that is: "him" -> "the three-time All-Star"
+ (7,12,[12,13]) -> (5,7,[5,8]), that is: "he" -> "the three-time All-Star"
+Coreference set:
+ (11,22,[21,23]) -> (7,2,[1,3]), that is: "the team" -> "The team"
+Coreference set:
+ (9,1,[1,2]) -> (8,8,[7,9]), that is: "He" -> "Cavaliers player"
+ (9,7,[7,8]) -> (8,8,[7,9]), that is: "his" -> "Cavaliers player"
+ (9,12,[12,13]) -> (8,8,[7,9]), that is: "he" -> "Cavaliers player"
+Coreference set:
+ (12,2,[2,3]) -> (9,8,[7,9]), that is: "We" -> "his teammates"
+ (13,2,[2,3]) -> (9,8,[7,9]), that is: "we" -> "his teammates"
+ (22,17,[16,18]) -> (9,8,[7,9]), that is: "my teammates" -> "his teammates"
+Coreference set:
+ (10,2,[2,3]) -> (9,10,[9,11]), that is: "It" -> "this morning"
+ (11,1,[1,2]) -> (9,10,[9,11]), that is: "It" -> "this morning"
+ (11,4,[3,7]) -> (9,10,[9,11]), that is: "a lot of fun" -> "this morning"
+Coreference set:
+ (12,7,[7,8]) -> (11,16,[16,23]), that is: "him" -> "Irving on the floor as the team"
+ (12,9,[9,10]) -> (11,16,[16,23]), that is: "he" -> "Irving on the floor as the team"
+ (12,19,[19,20]) -> (11,16,[16,23]), that is: "he" -> "Irving on the floor as the team"
+ (13,6,[6,7]) -> (11,16,[16,23]), that is: "he" -> "Irving on the floor as the team"
+Coreference set:
+ (14,8,[8,9]) -> (14,3,[1,6]), that is: "He" -> "Said LeBron James about Irving"
+ (15,3,[3,4]) -> (14,3,[1,6]), that is: "he" -> "Said LeBron James about Irving"
+ (17,2,[2,3]) -> (14,3,[1,6]), that is: "he" -> "Said LeBron James about Irving"
+ (18,1,[1,2]) -> (14,3,[1,6]), that is: "James" -> "Said LeBron James about Irving"
+ (18,4,[4,5]) -> (14,3,[1,6]), that is: "his" -> "Said LeBron James about Irving"
+ (19,1,[1,2]) -> (14,3,[1,6]), that is: "He" -> "Said LeBron James about Irving"
+ (19,3,[3,4]) -> (14,3,[1,6]), that is: "he" -> "Said LeBron James about Irving"
+Coreference set:
+ (20,3,[3,4]) -> (21,1,[1,2]), that is: "I" -> "No"
+ (21,4,[4,5]) -> (21,1,[1,2]), that is: "he" -> "No"
+ (22,3,[3,4]) -> (21,1,[1,2]), that is: "I" -> "No"
+ (22,16,[16,17]) -> (21,1,[1,2]), that is: "my" -> "No"
+Coreference set:
+ (24,6,[6,7]) -> (23,14,[14,15]), that is: "him" -> "All-NBA"
+ (24,17,[17,18]) -> (23,14,[14,15]), that is: "him" -> "All-NBA"
+ (25,18,[18,19]) -> (23,14,[14,15]), that is: "him" -> "All-NBA"
+ (28,10,[10,11]) -> (23,14,[14,15]), that is: "his" -> "All-NBA"
+ (29,6,[6,7]) -> (23,14,[14,15]), that is: "he" -> "All-NBA"
+ (31,2,[2,3]) -> (23,14,[14,15]), that is: "he" -> "All-NBA"
+ (31,19,[19,20]) -> (23,14,[14,15]), that is: "him" -> "All-NBA"
+Coreference set:
+ (24,10,[8,11]) -> (23,10,[8,11]), that is: "the regular season" -> "this regular season"
+ (25,12,[11,13]) -> (23,10,[8,11]), that is: "this season" -> "this regular season"
+Coreference set:
+ (30,10,[10,11]) -> (26,10,[10,11]), that is: "2" -> "2"
+ (38,2,[2,3]) -> (26,10,[10,11]), that is: "2" -> "2"
+Coreference set:
+ (32,9,[9,10]) -> (31,27,[22,30]), that is: "Andrews" -> "renowned orthopedic surgeon Dr. James Andrews on Friday"
+Coreference set:
+ (33,17,[17,18]) -> (33,9,[9,10]), that is: "their" -> "their"
+ (34,2,[2,3]) -> (33,9,[9,10]), that is: "We" -> "their"
+ (34,10,[10,11]) -> (33,9,[9,10]), that is: "we" -> "their"
+ (34,21,[21,22]) -> (33,9,[9,10]), that is: "we" -> "their"
+ (35,2,[2,3]) -> (33,9,[9,10]), that is: "We" -> "their"
+ (35,10,[10,11]) -> (33,9,[9,10]), that is: "we" -> "their"
+ (36,1,[1,2]) -> (33,9,[9,10]), that is: "That" -> "their"
+Coreference set:
+ (34,17,[17,18]) -> (34,4,[4,8]), that is: "him" -> "Kyrie on the court"
+ (34,25,[25,26]) -> (34,4,[4,8]), that is: "him" -> "Kyrie on the court"
+ (35,4,[4,5]) -> (34,4,[4,8]), that is: "him" -> "Kyrie on the court"
+Coreference set:
+ (35,7,[6,8]) -> (34,7,[6,8]), that is: "the court" -> "the court"
+Coreference set:
+ (36,8,[8,9]) -> (36,12,[10,13]), that is: "this" -> "the conference finals"
+Coreference set:
+ (39,7,[7,8]) -> (38,22,[22,23]), that is: "our" -> "our"
+Coreference set:
+ (42,6,[6,8]) -> (42,4,[4,5]), that is: "OH 44648" -> "Massillon"

@@ -1,0 +1,1408 @@
+Sentence #1 (28 tokens):
+By U-T San Diego7:19 p.m.May 26, 2015
+⎙
+-
+San Diego Union Tribune president and chief operating officer Russ Newton stands in the U-T pressroom.
+[Text=By CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=U-T CharacterOffsetBegin=3 CharacterOffsetEnd=6 PartOfSpeech=JJ Lemma=u-t NamedEntityTag=O] [Text=San CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=San NamedEntityTag=O] [Text=Diego7 CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Diego7 NamedEntityTag=O] [Text=:19 CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=CD Lemma=:19 NamedEntityTag=NUMBER] [Text=p.m.May CharacterOffsetBegin=21 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=p.m.may NamedEntityTag=DATE NormalizedNamedEntityTag=2015] [Text=26 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015] [Text=, CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015] [Text=2015 CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t1" type="DATE" value="2015">2015<_TIMEX3>] [Text=⎙ CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=SYM Lemma=⎙ NamedEntityTag=O] [Text=- CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=San CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Union CharacterOffsetBegin=52 CharacterOffsetEnd=57 PartOfSpeech=NNP Lemma=Union NamedEntityTag=ORGANIZATION] [Text=Tribune CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=Tribune NamedEntityTag=ORGANIZATION] [Text=president CharacterOffsetBegin=66 CharacterOffsetEnd=75 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=chief CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=chief NamedEntityTag=O] [Text=operating CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=VBG Lemma=operate NamedEntityTag=O] [Text=officer CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=officer NamedEntityTag=O] [Text=Russ CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNP Lemma=Russ NamedEntityTag=PERSON] [Text=Newton CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NNP Lemma=Newton NamedEntityTag=PERSON] [Text=stands CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=VBZ Lemma=stand NamedEntityTag=O] [Text=in CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U-T CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NNP Lemma=U-T NamedEntityTag=O] [Text=pressroom CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=NN Lemma=pressroom NamedEntityTag=O] [Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN By)
+      (NP
+        (NP
+          (NP (JJ U-T) (NNP San) (NNP Diego7))
+          (SBAR
+            (S
+              (VP
+                (NP
+                  (NP
+                    (NP
+                      (NP (CD :19) (NN p.m.May))
+                      (NP (CD 26)))
+                    (, ,)
+                    (NP (CD 2015)))
+                  (X (SYM ⎙)))))))
+        (: -)
+        (NP
+          (NP (NNP San) (NNP Diego) (NNP Union))
+          (NP (NNP Tribune)
+            (NX
+              (NX (NN president))
+              (CC and)
+              (NX (NN chief) (VBG operating) (NN officer)))))))
+    (NP (NNP Russ) (NNP Newton))
+    (VP (VBZ stands)
+      (PP (IN in)
+        (NP (DT the) (NNP U-T) (NN pressroom))))
+    (. .)))
+
+root(ROOT-0, stands-23)
+amod(Diego7-4, U-T-2)
+nn(Diego7-4, San-3)
+prep_by(stands-23, Diego7-4)
+num(p.m.May-6, :19-5)
+rcmod(Diego7-4, p.m.May-6)
+dep(p.m.May-6, 26-7)
+amod(p.m.May-6, 2015-9)
+dep(p.m.May-6, ⎙-10)
+nn(Union-14, San-12)
+nn(Union-14, Diego-13)
+dep(Diego7-4, Union-14)
+dep(president-16, Tribune-15)
+dep(Union-14, president-16)
+nn(officer-20, chief-18)
+amod(officer-20, operating-19)
+conj_and(president-16, officer-20)
+nn(Newton-22, Russ-21)
+nsubj(stands-23, Newton-22)
+det(pressroom-27, the-25)
+nn(pressroom-27, U-T-26)
+prep_in(stands-23, pressroom-27)
+
+Sentence #2 (16 tokens):
+Share Photo
+✉
+
+
+Q: What is the most important part of your new job?
+[Text=Share CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=✉ CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=CD Lemma=✉ NamedEntityTag=NUMBER] [Text=Q CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=What CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=is CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=most CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=important CharacterOffsetBegin=183 CharacterOffsetEnd=192 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=part CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=NN Lemma=part NamedEntityTag=O] [Text=of CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=your CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=new CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=job CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=job NamedEntityTag=O] [Text=? CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Share) (NNP Photo) (CD ✉) (NNP Q))
+    (: :)
+    (S
+      (NP (WP What))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the)
+            (ADJP (RBS most) (JJ important))
+            (NN part))
+          (PP (IN of)
+            (NP (PRP$ your) (JJ new) (NN job))))))
+    (. ?)))
+
+root(ROOT-0, Q-4)
+nn(Q-4, Share-1)
+nn(Q-4, Photo-2)
+num(Q-4, ✉-3)
+nsubj(part-11, What-6)
+cop(part-11, is-7)
+det(part-11, the-8)
+advmod(important-10, most-9)
+amod(part-11, important-10)
+dep(Q-4, part-11)
+poss(job-15, your-13)
+amod(job-15, new-14)
+prep_of(part-11, job-15)
+
+Sentence #3 (20 tokens):
+A: Making sure we produce the best paper we can for our readers, online and in print.
+[Text=A CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Making CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=sure CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=we CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=produce CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=VBP Lemma=produce NamedEntityTag=O] [Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=best CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=paper CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=we CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=can CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=for CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=our CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=readers CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=NNS Lemma=reader NamedEntityTag=O] [Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=online CharacterOffsetBegin=280 CharacterOffsetEnd=286 PartOfSpeech=NN Lemma=online NamedEntityTag=O] [Text=and CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=in CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=print CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=NN Lemma=print NamedEntityTag=O] [Text=. CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (DT A))
+    (: :)
+    (S
+      (VP (VBG Making)
+        (ADJP (JJ sure)
+          (SBAR
+            (S
+              (NP (PRP we))
+              (VP (VBP produce)
+                (NP
+                  (NP (DT the) (JJS best) (NN paper))
+                  (SBAR
+                    (S
+                      (NP (PRP we))
+                      (VP (MD can)))))))))
+        (PP
+          (PP (IN for)
+            (NP
+              (NP (PRP$ our) (NNS readers))
+              (, ,)
+              (NP (NN online))))
+          (CC and)
+          (PP (IN in)
+            (NP (NN print))))))
+    (. .)))
+
+root(ROOT-0, A-1)
+dep(A-1, Making-3)
+conj_and(Making-3, Making-3)
+acomp(Making-3, sure-4)
+nsubj(produce-6, we-5)
+ccomp(sure-4, produce-6)
+det(paper-9, the-7)
+amod(paper-9, best-8)
+dobj(produce-6, paper-9)
+nsubj(can-11, we-10)
+rcmod(paper-9, can-11)
+poss(readers-14, our-13)
+prep_for(Making-3, readers-14)
+appos(readers-14, online-16)
+prep_in(Making-3, print-19)
+
+Sentence #4 (17 tokens):
+Figure out what our customers (readers and advertisers) want and give it to them.
+[Text=Figure CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=NN Lemma=figure NamedEntityTag=O] [Text=out CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=what CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=our CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=customers CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=NNS Lemma=customer NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=readers CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=NNS Lemma=reader NamedEntityTag=O] [Text=and CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=advertisers CharacterOffsetBegin=344 CharacterOffsetEnd=355 PartOfSpeech=NNS Lemma=advertiser NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=want CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=and CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=give CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=VBP Lemma=give NamedEntityTag=O] [Text=it CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=to CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=them CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Figure))
+    (PP (IN out)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP
+            (NP (PRP$ our) (NNS customers))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNS readers))
+                (CC and)
+                (NP (NNS advertisers)))
+              (-RRB- -RRB-)))
+          (VP (VBP want)
+            (CC and)
+            (VBP give)
+            (NP (PRP it))
+            (PP (TO to)
+              (NP (PRP them)))))))
+    (. .)))
+
+root(ROOT-0, Figure-1)
+dobj(want-11, what-3)
+poss(customers-5, our-4)
+nsubj(want-11, customers-5)
+dep(customers-5, readers-7)
+conj_and(readers-7, advertisers-9)
+prepc_out(Figure-1, want-11)
+conj_and(want-11, give-13)
+dobj(want-11, it-14)
+prep_to(want-11, them-16)
+
+Sentence #5 (17 tokens):
+To make sure we are a positive force for all of San Diego and surrounding cities.
+[Text=To CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=sure CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=we CharacterOffsetBegin=396 CharacterOffsetEnd=398 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=are CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=positive CharacterOffsetBegin=405 CharacterOffsetEnd=413 PartOfSpeech=JJ Lemma=positive NamedEntityTag=O] [Text=force CharacterOffsetBegin=414 CharacterOffsetEnd=419 PartOfSpeech=NN Lemma=force NamedEntityTag=O] [Text=for CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=all CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=San CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=surrounding CharacterOffsetBegin=445 CharacterOffsetEnd=456 PartOfSpeech=VBG Lemma=surround NamedEntityTag=O] [Text=cities CharacterOffsetBegin=457 CharacterOffsetEnd=463 PartOfSpeech=NNS Lemma=city NamedEntityTag=O] [Text=. CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB make)
+          (ADJP (JJ sure)))))
+    (NP (PRP we))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (JJ positive) (NN force))
+        (PP (IN for)
+          (NP
+            (NP (DT all))
+            (PP (IN of)
+              (NP
+                (NP (NNP San) (NNP Diego))
+                (CC and)
+                (NP (VBG surrounding) (NNS cities))))))))
+    (. .)))
+
+root(ROOT-0, force-8)
+aux(make-2, To-1)
+dep(force-8, make-2)
+acomp(make-2, sure-3)
+nsubj(force-8, we-4)
+cop(force-8, are-5)
+det(force-8, a-6)
+amod(force-8, positive-7)
+prep_for(force-8, all-10)
+nn(Diego-13, San-12)
+prep_of(all-10, Diego-13)
+amod(cities-16, surrounding-15)
+conj_and(Diego-13, cities-16)
+
+Sentence #6 (9 tokens):
+Q: What will be your first priority?
+[Text=Q CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=What CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=will CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=your CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=first CharacterOffsetBegin=486 CharacterOffsetEnd=491 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=priority CharacterOffsetBegin=492 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=priority NamedEntityTag=O] [Text=? CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (X
+    (NP (NNP Q))
+    (: :)
+    (FRAG
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (VP (MD will)
+            (VP (VB be)
+              (NP (PRP$ your) (JJ first) (NN priority)))))))
+    (. ?)))
+
+root(ROOT-0, Q-1)
+nsubj(priority-8, What-3)
+aux(priority-8, will-4)
+cop(priority-8, be-5)
+poss(priority-8, your-6)
+amod(priority-8, first-7)
+dep(Q-1, priority-8)
+
+Sentence #7 (11 tokens):
+A: Figuring out what is the most important priority.
+[Text=A CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Figuring CharacterOffsetBegin=505 CharacterOffsetEnd=513 PartOfSpeech=VBG Lemma=figure NamedEntityTag=O] [Text=out CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=what CharacterOffsetBegin=518 CharacterOffsetEnd=522 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=is CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=most CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=important CharacterOffsetBegin=535 CharacterOffsetEnd=544 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=priority CharacterOffsetBegin=545 CharacterOffsetEnd=553 PartOfSpeech=NN Lemma=priority NamedEntityTag=O] [Text=. CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (DT A))
+    (: :)
+    (S
+      (VP (VBG Figuring)
+        (PRT (RP out))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (VBZ is)
+              (NP (DT the)
+                (ADJP (RBS most) (JJ important))
+                (NN priority)))))))
+    (. .)))
+
+root(ROOT-0, A-1)
+dep(A-1, Figuring-3)
+prt(Figuring-3, out-4)
+nsubj(priority-10, what-5)
+cop(priority-10, is-6)
+det(priority-10, the-7)
+advmod(important-9, most-8)
+amod(priority-10, important-9)
+ccomp(Figuring-3, priority-10)
+
+Sentence #8 (16 tokens):
+The first few days on this job have felt like drinking from a fire hydrant!
+[Text=The CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t2" type="DURATION" value="PXD">The first few days<_TIMEX3>] [Text=first CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=JJ Lemma=first NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t2" type="DURATION" value="PXD">The first few days<_TIMEX3>] [Text=few CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=JJ Lemma=few NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t2" type="DURATION" value="PXD">The first few days<_TIMEX3>] [Text=days CharacterOffsetBegin=569 CharacterOffsetEnd=573 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t2" type="DURATION" value="PXD">The first few days<_TIMEX3>] [Text=on CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=this CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=job CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=NN Lemma=job NamedEntityTag=O] [Text=have CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=felt CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=VBN Lemma=feel NamedEntityTag=O] [Text=like CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=drinking CharacterOffsetBegin=601 CharacterOffsetEnd=609 PartOfSpeech=NN Lemma=drinking NamedEntityTag=O] [Text=from CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=a CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=fire CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=NN Lemma=fire NamedEntityTag=O] [Text=hydrant CharacterOffsetBegin=622 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=hydrant NamedEntityTag=O] [Text=! CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ first) (JJ few) (NNS days))
+      (PP (IN on)
+        (NP (DT this) (NN job))))
+    (VP (VBP have)
+      (VP (VBN felt)
+        (PP (IN like)
+          (NP (NN drinking)))
+        (PP (IN from)
+          (NP (DT a) (NN fire) (NN hydrant)))))
+    (. !)))
+
+root(ROOT-0, felt-9)
+det(days-4, The-1)
+amod(days-4, first-2)
+amod(days-4, few-3)
+nsubj(felt-9, days-4)
+det(job-7, this-6)
+prep_on(days-4, job-7)
+aux(felt-9, have-8)
+prep_like(felt-9, drinking-11)
+det(hydrant-15, a-13)
+nn(hydrant-15, fire-14)
+prep_from(felt-9, hydrant-15)
+
+Sentence #9 (27 tokens):
+I think communicating the changes (most of them good) that will happen as The San Diego Union-Tribune changes ownership is high on that list.
+[Text=I CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=think CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=communicating CharacterOffsetBegin=639 CharacterOffsetEnd=652 PartOfSpeech=VBG Lemma=communicate NamedEntityTag=O] [Text=the CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=changes CharacterOffsetBegin=657 CharacterOffsetEnd=664 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=most CharacterOffsetBegin=666 CharacterOffsetEnd=670 PartOfSpeech=JJS Lemma=most NamedEntityTag=O] [Text=of CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=them CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=good CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=that CharacterOffsetBegin=685 CharacterOffsetEnd=689 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=will CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=happen CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=VB Lemma=happen NamedEntityTag=O] [Text=as CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=The CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=San CharacterOffsetBegin=709 CharacterOffsetEnd=712 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=713 CharacterOffsetEnd=718 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Union-Tribune CharacterOffsetBegin=719 CharacterOffsetEnd=732 PartOfSpeech=NNP Lemma=Union-Tribune NamedEntityTag=ORGANIZATION] [Text=changes CharacterOffsetBegin=733 CharacterOffsetEnd=740 PartOfSpeech=VBZ Lemma=change NamedEntityTag=O] [Text=ownership CharacterOffsetBegin=741 CharacterOffsetEnd=750 PartOfSpeech=NN Lemma=ownership NamedEntityTag=O] [Text=is CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=high CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=on CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=that CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=list CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=. CharacterOffsetBegin=771 CharacterOffsetEnd=772 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (S
+        (VP (VBG communicating)
+          (NP (DT the) (NNS changes)
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP
+                  (NP (JJS most))
+                  (PP (IN of)
+                    (NP (PRP them))))
+                (ADJP (JJ good)))
+              (-RRB- -RRB-))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD will)
+                  (VP (VB happen)
+                    (SBAR (IN as)
+                      (S
+                        (NP (DT The) (NNP San) (NNP Diego) (NNP Union-Tribune))
+                        (VP (VBZ changes)
+                          (SBAR
+                            (S
+                              (NP (NN ownership))
+                              (VP (VBZ is)
+                                (ADJP (JJ high)
+                                  (PP (IN on)
+                                    (NP (DT that) (NN list))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+xcomp(think-2, communicating-3)
+det(changes-5, the-4)
+dobj(communicating-3, changes-5)
+dep(good-10, most-7)
+prep_of(most-7, them-9)
+dep(changes-5, good-10)
+nsubj(happen-14, that-12)
+aux(happen-14, will-13)
+ccomp(changes-5, happen-14)
+mark(changes-20, as-15)
+det(Union-Tribune-19, The-16)
+nn(Union-Tribune-19, San-17)
+nn(Union-Tribune-19, Diego-18)
+nsubj(changes-20, Union-Tribune-19)
+advcl(happen-14, changes-20)
+nsubj(high-23, ownership-21)
+cop(high-23, is-22)
+ccomp(changes-20, high-23)
+det(list-26, that-25)
+prep_on(high-23, list-26)
+
+Sentence #10 (20 tokens):
+We need all the employees pulling in the same direction, not worried about their jobs or their benefits.
+[Text=We CharacterOffsetBegin=773 CharacterOffsetEnd=775 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=need CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=all CharacterOffsetBegin=781 CharacterOffsetEnd=784 PartOfSpeech=PDT Lemma=all NamedEntityTag=O] [Text=the CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=employees CharacterOffsetBegin=789 CharacterOffsetEnd=798 PartOfSpeech=NNS Lemma=employee NamedEntityTag=O] [Text=pulling CharacterOffsetBegin=799 CharacterOffsetEnd=806 PartOfSpeech=VBG Lemma=pull NamedEntityTag=O] [Text=in CharacterOffsetBegin=807 CharacterOffsetEnd=809 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=810 CharacterOffsetEnd=813 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=same CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=JJ Lemma=same NamedEntityTag=O] [Text=direction CharacterOffsetBegin=819 CharacterOffsetEnd=828 PartOfSpeech=NN Lemma=direction NamedEntityTag=O] [Text=, CharacterOffsetBegin=828 CharacterOffsetEnd=829 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=not CharacterOffsetBegin=830 CharacterOffsetEnd=833 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=worried CharacterOffsetBegin=834 CharacterOffsetEnd=841 PartOfSpeech=VBN Lemma=worry NamedEntityTag=O] [Text=about CharacterOffsetBegin=842 CharacterOffsetEnd=847 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=their CharacterOffsetBegin=848 CharacterOffsetEnd=853 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=jobs CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=NNS Lemma=job NamedEntityTag=O] [Text=or CharacterOffsetBegin=859 CharacterOffsetEnd=861 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=their CharacterOffsetBegin=862 CharacterOffsetEnd=867 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=868 CharacterOffsetEnd=876 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=. CharacterOffsetBegin=876 CharacterOffsetEnd=877 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP need)
+      (NP
+        (NP (PDT all) (DT the) (NNS employees))
+        (VP (VBG pulling)
+          (PP (IN in)
+            (NP (DT the) (JJ same) (NN direction)))))
+      (, ,)
+      (ADJP (RB not) (VBN worried)
+        (PP (IN about)
+          (NP
+            (NP (PRP$ their) (NNS jobs))
+            (CC or)
+            (NP (PRP$ their) (NNS benefits))))))
+    (. .)))
+
+root(ROOT-0, need-2)
+nsubj(need-2, We-1)
+predet(employees-5, all-3)
+det(employees-5, the-4)
+dobj(need-2, employees-5)
+vmod(employees-5, pulling-6)
+det(direction-10, the-8)
+amod(direction-10, same-9)
+prep_in(pulling-6, direction-10)
+neg(worried-13, not-12)
+acomp(need-2, worried-13)
+poss(jobs-16, their-15)
+prep_about(worried-13, jobs-16)
+poss(benefits-19, their-18)
+conj_or(jobs-16, benefits-19)
+
+Sentence #11 (11 tokens):
+Q: You’ve done some integrating of newspapers before.
+[Text=Q CharacterOffsetBegin=878 CharacterOffsetEnd=879 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=You CharacterOffsetBegin=881 CharacterOffsetEnd=884 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=884 CharacterOffsetEnd=887 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=done CharacterOffsetBegin=888 CharacterOffsetEnd=892 PartOfSpeech=VBN Lemma=do NamedEntityTag=O] [Text=some CharacterOffsetBegin=893 CharacterOffsetEnd=897 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=integrating CharacterOffsetBegin=898 CharacterOffsetEnd=909 PartOfSpeech=VBG Lemma=integrate NamedEntityTag=O] [Text=of CharacterOffsetBegin=910 CharacterOffsetEnd=912 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=newspapers CharacterOffsetBegin=913 CharacterOffsetEnd=923 PartOfSpeech=NNS Lemma=newspaper NamedEntityTag=O] [Text=before CharacterOffsetBegin=924 CharacterOffsetEnd=930 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=. CharacterOffsetBegin=930 CharacterOffsetEnd=931 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP Q))
+    (: :)
+    (S
+      (NP (PRP You))
+      (VP (VBP _ve)
+        (VP (VBN done)
+          (NP
+            (NP (DT some))
+            (VP (VBG integrating)
+              (PP (IN of)
+                (NP (NNS newspapers)))
+              (PP (IN before)))))))
+    (. .)))
+
+root(ROOT-0, Q-1)
+nsubj(done-5, You-3)
+aux(done-5, _ve-4)
+dep(Q-1, done-5)
+dobj(done-5, some-6)
+vmod(some-6, integrating-7)
+prep_of(integrating-7, newspapers-9)
+prep(integrating-7, before-10)
+
+Sentence #12 (6 tokens):
+How does this one compare?
+[Text=How CharacterOffsetBegin=932 CharacterOffsetEnd=935 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=does CharacterOffsetBegin=936 CharacterOffsetEnd=940 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=this CharacterOffsetBegin=941 CharacterOffsetEnd=945 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=one CharacterOffsetBegin=946 CharacterOffsetEnd=949 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=compare CharacterOffsetBegin=950 CharacterOffsetEnd=957 PartOfSpeech=VB Lemma=compare NamedEntityTag=O] [Text=? CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBZ does)
+      (NP
+        (NP (DT this))
+        (NP (CD one)))
+      (VP (VB compare)))
+    (. ?)))
+
+root(ROOT-0, compare-5)
+advmod(compare-5, How-1)
+aux(compare-5, does-2)
+nsubj(compare-5, this-3)
+dep(this-3, one-4)
+
+Sentence #13 (24 tokens):
+A: The team in San Diego has been open, willing and amazingly helpful with the joining of SDUT to Tribune Publishing.
+[Text=A CharacterOffsetBegin=959 CharacterOffsetEnd=960 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=960 CharacterOffsetEnd=961 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=team CharacterOffsetBegin=966 CharacterOffsetEnd=970 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=in CharacterOffsetBegin=971 CharacterOffsetEnd=973 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=San CharacterOffsetBegin=974 CharacterOffsetEnd=977 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Diego CharacterOffsetBegin=978 CharacterOffsetEnd=983 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=LOCATION] [Text=has CharacterOffsetBegin=984 CharacterOffsetEnd=987 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=988 CharacterOffsetEnd=992 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=open CharacterOffsetBegin=993 CharacterOffsetEnd=997 PartOfSpeech=JJ Lemma=open NamedEntityTag=O] [Text=, CharacterOffsetBegin=997 CharacterOffsetEnd=998 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=willing CharacterOffsetBegin=999 CharacterOffsetEnd=1006 PartOfSpeech=JJ Lemma=willing NamedEntityTag=O] [Text=and CharacterOffsetBegin=1007 CharacterOffsetEnd=1010 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=amazingly CharacterOffsetBegin=1011 CharacterOffsetEnd=1020 PartOfSpeech=RB Lemma=amazingly NamedEntityTag=O] [Text=helpful CharacterOffsetBegin=1021 CharacterOffsetEnd=1028 PartOfSpeech=JJ Lemma=helpful NamedEntityTag=O] [Text=with CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1034 CharacterOffsetEnd=1037 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=joining CharacterOffsetBegin=1038 CharacterOffsetEnd=1045 PartOfSpeech=VBG Lemma=join NamedEntityTag=O] [Text=of CharacterOffsetBegin=1046 CharacterOffsetEnd=1048 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=SDUT CharacterOffsetBegin=1049 CharacterOffsetEnd=1053 PartOfSpeech=NNP Lemma=SDUT NamedEntityTag=O] [Text=to CharacterOffsetBegin=1054 CharacterOffsetEnd=1056 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Tribune CharacterOffsetBegin=1057 CharacterOffsetEnd=1064 PartOfSpeech=NNP Lemma=Tribune NamedEntityTag=ORGANIZATION] [Text=Publishing CharacterOffsetBegin=1065 CharacterOffsetEnd=1075 PartOfSpeech=NNP Lemma=Publishing NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1075 CharacterOffsetEnd=1076 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (ADJP (DT A)
+        (PRN (: :)
+          (NP
+            (NP (DT The) (NN team))
+            (PP (IN in)
+              (NP (NNP San))))))
+      (NNP Diego))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (ADJP
+          (ADJP
+            (ADJP (JJ open))
+            (, ,)
+            (ADJP (JJ willing))
+            (CC and)
+            (ADJP (RB amazingly) (JJ helpful)))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (VBG joining))
+              (PP (IN of)
+                (NP (NNP SDUT))))))
+        (PP (TO to)
+          (NP (NNP Tribune) (NNP Publishing)))))
+    (. .)))
+
+root(ROOT-0, open-10)
+amod(Diego-7, A-1)
+det(team-4, The-3)
+dep(A-1, team-4)
+prep_in(team-4, San-6)
+nsubj(open-10, Diego-7)
+aux(open-10, has-8)
+cop(open-10, been-9)
+conj_and(open-10, willing-12)
+advmod(helpful-15, amazingly-14)
+conj_and(open-10, helpful-15)
+prep_with(open-10, the-17)
+amod(the-17, joining-18)
+prep_of(the-17, SDUT-20)
+nn(Publishing-23, Tribune-22)
+prep_to(open-10, Publishing-23)
+
+Sentence #14 (36 tokens):
+There are some behind-the-scenes changes that will not impact the reader, but are a big deal to the employees who have to learn new systems and not miss a beat with their daily jobs.
+[Text=There CharacterOffsetBegin=1077 CharacterOffsetEnd=1082 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=are CharacterOffsetBegin=1083 CharacterOffsetEnd=1086 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=some CharacterOffsetBegin=1087 CharacterOffsetEnd=1091 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=behind-the-scenes CharacterOffsetBegin=1092 CharacterOffsetEnd=1109 PartOfSpeech=JJ Lemma=behind-the-scenes NamedEntityTag=O] [Text=changes CharacterOffsetBegin=1110 CharacterOffsetEnd=1117 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=that CharacterOffsetBegin=1118 CharacterOffsetEnd=1122 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=will CharacterOffsetBegin=1123 CharacterOffsetEnd=1127 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=not CharacterOffsetBegin=1128 CharacterOffsetEnd=1131 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=impact CharacterOffsetBegin=1132 CharacterOffsetEnd=1138 PartOfSpeech=VB Lemma=impact NamedEntityTag=O] [Text=the CharacterOffsetBegin=1139 CharacterOffsetEnd=1142 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=reader CharacterOffsetBegin=1143 CharacterOffsetEnd=1149 PartOfSpeech=NN Lemma=reader NamedEntityTag=O] [Text=, CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1151 CharacterOffsetEnd=1154 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=are CharacterOffsetBegin=1155 CharacterOffsetEnd=1158 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1159 CharacterOffsetEnd=1160 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=big CharacterOffsetBegin=1161 CharacterOffsetEnd=1164 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=deal CharacterOffsetBegin=1165 CharacterOffsetEnd=1169 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=to CharacterOffsetBegin=1170 CharacterOffsetEnd=1172 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1173 CharacterOffsetEnd=1176 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=employees CharacterOffsetBegin=1177 CharacterOffsetEnd=1186 PartOfSpeech=NNS Lemma=employee NamedEntityTag=O] [Text=who CharacterOffsetBegin=1187 CharacterOffsetEnd=1190 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=1191 CharacterOffsetEnd=1195 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=1196 CharacterOffsetEnd=1198 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=learn CharacterOffsetBegin=1199 CharacterOffsetEnd=1204 PartOfSpeech=VB Lemma=learn NamedEntityTag=O] [Text=new CharacterOffsetBegin=1205 CharacterOffsetEnd=1208 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=systems CharacterOffsetBegin=1209 CharacterOffsetEnd=1216 PartOfSpeech=NNS Lemma=system NamedEntityTag=O] [Text=and CharacterOffsetBegin=1217 CharacterOffsetEnd=1220 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=not CharacterOffsetBegin=1221 CharacterOffsetEnd=1224 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=miss CharacterOffsetBegin=1225 CharacterOffsetEnd=1229 PartOfSpeech=VB Lemma=miss NamedEntityTag=O] [Text=a CharacterOffsetBegin=1230 CharacterOffsetEnd=1231 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=beat CharacterOffsetBegin=1232 CharacterOffsetEnd=1236 PartOfSpeech=NN Lemma=beat NamedEntityTag=O] [Text=with CharacterOffsetBegin=1237 CharacterOffsetEnd=1241 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=their CharacterOffsetBegin=1242 CharacterOffsetEnd=1247 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=daily CharacterOffsetBegin=1248 CharacterOffsetEnd=1253 PartOfSpeech=JJ Lemma=daily NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1D" quant="EVERY" tid="t3" type="SET" value="P1D">daily<_TIMEX3>] [Text=jobs CharacterOffsetBegin=1254 CharacterOffsetEnd=1258 PartOfSpeech=NNS Lemma=job NamedEntityTag=O] [Text=. CharacterOffsetBegin=1258 CharacterOffsetEnd=1259 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (DT some) (JJ behind-the-scenes) (NNS changes))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP (MD will) (RB not)
+                (VP (VB impact)
+                  (NP (DT the) (NN reader))))
+              (, ,)
+              (CC but)
+              (VP (VBP are)
+                (NP
+                  (NP (DT a) (JJ big) (NN deal))
+                  (PP (TO to)
+                    (NP (DT the) (NNS employees))))))))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB learn)
+                      (NP (JJ new) (NNS systems)))
+                    (CC and)
+                    (RB not)
+                    (VP (VB miss)
+                      (NP (DT a) (NN beat))
+                      (PP (IN with)
+                        (NP (PRP$ their) (JJ daily) (NNS jobs))))))))))))
+    (. .)))
+
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+det(changes-5, some-3)
+amod(changes-5, behind-the-scenes-4)
+nsubj(are-2, changes-5)
+nsubj(impact-9, that-6)
+aux(impact-9, will-7)
+neg(impact-9, not-8)
+rcmod(changes-5, impact-9)
+det(reader-11, the-10)
+dobj(impact-9, reader-11)
+cop(deal-17, are-14)
+det(deal-17, a-15)
+amod(deal-17, big-16)
+conj_but(impact-9, deal-17)
+det(employees-20, the-19)
+prep_to(deal-17, employees-20)
+nsubj(have-22, who-21)
+rcmod(changes-5, have-22)
+aux(learn-24, to-23)
+xcomp(have-22, learn-24)
+amod(systems-26, new-25)
+dobj(learn-24, systems-26)
+neg(miss-29, not-28)
+conj_and(learn-24, miss-29)
+det(beat-31, a-30)
+dobj(miss-29, beat-31)
+poss(jobs-35, their-33)
+amod(jobs-35, daily-34)
+prep_with(miss-29, jobs-35)
+
+Sentence #15 (18 tokens):
+I have 100 percent confidence the readers of The San Diego Union-Tribune will see only positive changes.
+[Text=I CharacterOffsetBegin=1260 CharacterOffsetEnd=1261 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=1262 CharacterOffsetEnd=1266 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=100 CharacterOffsetBegin=1267 CharacterOffsetEnd=1270 PartOfSpeech=CD Lemma=100 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%100.0] [Text=percent CharacterOffsetBegin=1271 CharacterOffsetEnd=1278 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%100.0] [Text=confidence CharacterOffsetBegin=1279 CharacterOffsetEnd=1289 PartOfSpeech=NN Lemma=confidence NamedEntityTag=O] [Text=the CharacterOffsetBegin=1290 CharacterOffsetEnd=1293 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=readers CharacterOffsetBegin=1294 CharacterOffsetEnd=1301 PartOfSpeech=NNS Lemma=reader NamedEntityTag=O] [Text=of CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=The CharacterOffsetBegin=1305 CharacterOffsetEnd=1308 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=San CharacterOffsetBegin=1309 CharacterOffsetEnd=1312 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=1313 CharacterOffsetEnd=1318 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Union-Tribune CharacterOffsetBegin=1319 CharacterOffsetEnd=1332 PartOfSpeech=NNP Lemma=Union-Tribune NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=1333 CharacterOffsetEnd=1337 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=see CharacterOffsetBegin=1338 CharacterOffsetEnd=1341 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=only CharacterOffsetBegin=1342 CharacterOffsetEnd=1346 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=positive CharacterOffsetBegin=1347 CharacterOffsetEnd=1355 PartOfSpeech=JJ Lemma=positive NamedEntityTag=O] [Text=changes CharacterOffsetBegin=1356 CharacterOffsetEnd=1363 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=. CharacterOffsetBegin=1363 CharacterOffsetEnd=1364 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (CD 100) (NN percent) (NN confidence))
+        (SBAR
+          (S
+            (NP
+              (NP (DT the) (NNS readers))
+              (PP (IN of)
+                (NP (DT The) (NNP San) (NNP Diego) (NNP Union-Tribune))))
+            (VP (MD will)
+              (VP (VB see)
+                (NP (RB only) (JJ positive) (NNS changes))))))))
+    (. .)))
+
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+num(confidence-5, 100-3)
+nn(confidence-5, percent-4)
+dobj(have-2, confidence-5)
+det(readers-7, the-6)
+nsubj(see-14, readers-7)
+det(Union-Tribune-12, The-9)
+nn(Union-Tribune-12, San-10)
+nn(Union-Tribune-12, Diego-11)
+prep_of(readers-7, Union-Tribune-12)
+aux(see-14, will-13)
+rcmod(confidence-5, see-14)
+advmod(changes-17, only-15)
+amod(changes-17, positive-16)
+dobj(see-14, changes-17)
+
+Sentence #16 (12 tokens):
+Q: How did you decide on a career in newspapers?
+[Text=Q CharacterOffsetBegin=1365 CharacterOffsetEnd=1366 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=1366 CharacterOffsetEnd=1367 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=How CharacterOffsetBegin=1368 CharacterOffsetEnd=1371 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=did CharacterOffsetBegin=1372 CharacterOffsetEnd=1375 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=you CharacterOffsetBegin=1376 CharacterOffsetEnd=1379 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=decide CharacterOffsetBegin=1380 CharacterOffsetEnd=1386 PartOfSpeech=VB Lemma=decide NamedEntityTag=O] [Text=on CharacterOffsetBegin=1387 CharacterOffsetEnd=1389 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=1390 CharacterOffsetEnd=1391 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=career CharacterOffsetBegin=1392 CharacterOffsetEnd=1398 PartOfSpeech=NN Lemma=career NamedEntityTag=O] [Text=in CharacterOffsetBegin=1399 CharacterOffsetEnd=1401 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=newspapers CharacterOffsetBegin=1402 CharacterOffsetEnd=1412 PartOfSpeech=NNS Lemma=newspaper NamedEntityTag=O] [Text=? CharacterOffsetBegin=1412 CharacterOffsetEnd=1413 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (X
+    (NP (NNP Q))
+    (: :)
+    (FRAG
+      (SBAR
+        (WHADVP (WRB How))
+        (S
+          (VP (VBD did)
+            (S
+              (NP (PRP you))
+              (VP (VB decide)
+                (PP (IN on)
+                  (NP
+                    (NP (DT a) (NN career))
+                    (PP (IN in)
+                      (NP (NNS newspapers)))))))))))
+    (. ?)))
+
+root(ROOT-0, Q-1)
+advmod(did-4, How-3)
+dep(Q-1, did-4)
+nsubj(decide-6, you-5)
+ccomp(did-4, decide-6)
+det(career-9, a-8)
+prep_on(decide-6, career-9)
+prep_in(career-9, newspapers-11)
+
+Sentence #17 (31 tokens):
+A: I had a paper route in Madison, Wis., when I was 11 years old in 1971 and loved reading the paper before anyone else got it.
+[Text=A CharacterOffsetBegin=1414 CharacterOffsetEnd=1415 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=1415 CharacterOffsetEnd=1416 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=I CharacterOffsetBegin=1417 CharacterOffsetEnd=1418 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=had CharacterOffsetBegin=1419 CharacterOffsetEnd=1422 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1423 CharacterOffsetEnd=1424 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=paper CharacterOffsetBegin=1425 CharacterOffsetEnd=1430 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=route CharacterOffsetBegin=1431 CharacterOffsetEnd=1436 PartOfSpeech=NN Lemma=route NamedEntityTag=O] [Text=in CharacterOffsetBegin=1437 CharacterOffsetEnd=1439 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Madison CharacterOffsetBegin=1440 CharacterOffsetEnd=1447 PartOfSpeech=NNP Lemma=Madison NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1447 CharacterOffsetEnd=1448 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Wis. CharacterOffsetBegin=1449 CharacterOffsetEnd=1453 PartOfSpeech=NNP Lemma=Wis. NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1453 CharacterOffsetEnd=1454 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=when CharacterOffsetBegin=1455 CharacterOffsetEnd=1459 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=I CharacterOffsetBegin=1460 CharacterOffsetEnd=1461 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1462 CharacterOffsetEnd=1465 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=11 CharacterOffsetBegin=1466 CharacterOffsetEnd=1468 PartOfSpeech=CD Lemma=11 NamedEntityTag=DATE NormalizedNamedEntityTag=1971 INTERSECT P11Y Timex=<TIMEX3 alt_value="1971 INTERSECT P11Y" anchorTimeID="t5" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">11 years old in 1971<_TIMEX3>] [Text=years CharacterOffsetBegin=1469 CharacterOffsetEnd=1474 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=1971 INTERSECT P11Y Timex=<TIMEX3 alt_value="1971 INTERSECT P11Y" anchorTimeID="t5" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">11 years old in 1971<_TIMEX3>] [Text=old CharacterOffsetBegin=1475 CharacterOffsetEnd=1478 PartOfSpeech=JJ Lemma=old NamedEntityTag=DATE NormalizedNamedEntityTag=1971 INTERSECT P11Y Timex=<TIMEX3 alt_value="1971 INTERSECT P11Y" anchorTimeID="t5" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">11 years old in 1971<_TIMEX3>] [Text=in CharacterOffsetBegin=1479 CharacterOffsetEnd=1481 PartOfSpeech=IN Lemma=in NamedEntityTag=DATE NormalizedNamedEntityTag=1971 INTERSECT P11Y Timex=<TIMEX3 alt_value="1971 INTERSECT P11Y" anchorTimeID="t5" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">11 years old in 1971<_TIMEX3>] [Text=1971 CharacterOffsetBegin=1482 CharacterOffsetEnd=1486 PartOfSpeech=CD Lemma=1971 NamedEntityTag=DATE NormalizedNamedEntityTag=1971 INTERSECT P11Y Timex=<TIMEX3 alt_value="1971 INTERSECT P11Y" anchorTimeID="t5" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">11 years old in 1971<_TIMEX3>] [Text=and CharacterOffsetBegin=1487 CharacterOffsetEnd=1490 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=loved CharacterOffsetBegin=1491 CharacterOffsetEnd=1496 PartOfSpeech=VBD Lemma=love NamedEntityTag=O] [Text=reading CharacterOffsetBegin=1497 CharacterOffsetEnd=1504 PartOfSpeech=VBG Lemma=read NamedEntityTag=O] [Text=the CharacterOffsetBegin=1505 CharacterOffsetEnd=1508 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=paper CharacterOffsetBegin=1509 CharacterOffsetEnd=1514 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=before CharacterOffsetBegin=1515 CharacterOffsetEnd=1521 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=anyone CharacterOffsetBegin=1522 CharacterOffsetEnd=1528 PartOfSpeech=NN Lemma=anyone NamedEntityTag=O] [Text=else CharacterOffsetBegin=1529 CharacterOffsetEnd=1533 PartOfSpeech=JJ Lemma=else NamedEntityTag=O] [Text=got CharacterOffsetBegin=1534 CharacterOffsetEnd=1537 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=it CharacterOffsetBegin=1538 CharacterOffsetEnd=1540 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=1540 CharacterOffsetEnd=1541 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A)
+      (S
+        (S
+          (NP
+            (PRN (: :)
+              (NP (PRP I))))
+          (VP (VBD had)
+            (NP
+              (NP (DT a) (NN paper) (NN route))
+              (PP (IN in)
+                (NP (NNP Madison) (, ,) (NNP Wis.))))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP I))
+                (VP (VBD was)
+                  (ADJP
+                    (NP (CD 11) (NNS years))
+                    (JJ old)
+                    (PP (IN in)
+                      (NP (CD 1971)))))))))
+        (CC and)
+        (S
+          (NP (VBD loved))
+          (VP (VBG reading)
+            (S
+              (NP
+                (NP (DT the) (NN paper))
+                (PP (IN before)
+                  (NP (NN anyone))))
+              (ADJP (JJ else)))))))
+    (VP (VBD got)
+      (NP (PRP it)))
+    (. .)))
+
+root(ROOT-0, got-29)
+nsubj(got-29, A-1)
+nsubj(had-4, I-3)
+dep(A-1, had-4)
+det(route-7, a-5)
+nn(route-7, paper-6)
+dobj(had-4, route-7)
+nn(Wis.-11, Madison-9)
+prep_in(route-7, Wis.-11)
+advmod(old-18, when-13)
+nsubj(old-18, I-14)
+cop(old-18, was-15)
+num(years-17, 11-16)
+npadvmod(old-18, years-17)
+advcl(had-4, old-18)
+prep_in(old-18, 1971-20)
+nsubj(reading-23, loved-22)
+conj_and(had-4, reading-23)
+det(paper-25, the-24)
+nsubj(else-28, paper-25)
+prep_before(paper-25, anyone-27)
+xcomp(reading-23, else-28)
+dobj(got-29, it-30)
+
+Sentence #18 (15 tokens):
+I really liked how important the paper was to the people I delivered to.
+[Text=I CharacterOffsetBegin=1542 CharacterOffsetEnd=1543 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=really CharacterOffsetBegin=1544 CharacterOffsetEnd=1550 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=liked CharacterOffsetBegin=1551 CharacterOffsetEnd=1556 PartOfSpeech=VBD Lemma=like NamedEntityTag=O] [Text=how CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=important CharacterOffsetBegin=1561 CharacterOffsetEnd=1570 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=the CharacterOffsetBegin=1571 CharacterOffsetEnd=1574 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=paper CharacterOffsetBegin=1575 CharacterOffsetEnd=1580 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=was CharacterOffsetBegin=1581 CharacterOffsetEnd=1584 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=to CharacterOffsetBegin=1585 CharacterOffsetEnd=1587 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1588 CharacterOffsetEnd=1591 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=people CharacterOffsetBegin=1592 CharacterOffsetEnd=1598 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=I CharacterOffsetBegin=1599 CharacterOffsetEnd=1600 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=delivered CharacterOffsetBegin=1601 CharacterOffsetEnd=1610 PartOfSpeech=VBD Lemma=deliver NamedEntityTag=O] [Text=to CharacterOffsetBegin=1611 CharacterOffsetEnd=1613 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=. CharacterOffsetBegin=1613 CharacterOffsetEnd=1614 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBD liked)
+      (SBAR
+        (WHADJP (WRB how) (JJ important))
+        (S
+          (NP (DT the) (NN paper))
+          (VP (VBD was)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NNS people))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD delivered)
+                      (PP (TO to)))))))))))
+    (. .)))
+
+root(ROOT-0, liked-3)
+nsubj(liked-3, I-1)
+advmod(liked-3, really-2)
+advmod(important-5, how-4)
+dep(was-8, important-5)
+det(paper-7, the-6)
+nsubj(was-8, paper-7)
+ccomp(liked-3, was-8)
+det(people-11, the-10)
+prep_to(was-8, people-11)
+nsubj(delivered-13, I-12)
+rcmod(people-11, delivered-13)
+prep(delivered-13, to-14)
+
+Sentence #19 (14 tokens):
+Many times they would be waiting at their front door for the paper.
+[Text=Many CharacterOffsetBegin=1615 CharacterOffsetEnd=1619 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=times CharacterOffsetBegin=1620 CharacterOffsetEnd=1625 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=they CharacterOffsetBegin=1626 CharacterOffsetEnd=1630 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=would CharacterOffsetBegin=1631 CharacterOffsetEnd=1636 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=be CharacterOffsetBegin=1637 CharacterOffsetEnd=1639 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=waiting CharacterOffsetBegin=1640 CharacterOffsetEnd=1647 PartOfSpeech=VBG Lemma=wait NamedEntityTag=O] [Text=at CharacterOffsetBegin=1648 CharacterOffsetEnd=1650 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=their CharacterOffsetBegin=1651 CharacterOffsetEnd=1656 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=front CharacterOffsetBegin=1657 CharacterOffsetEnd=1662 PartOfSpeech=JJ Lemma=front NamedEntityTag=O] [Text=door CharacterOffsetBegin=1663 CharacterOffsetEnd=1667 PartOfSpeech=NN Lemma=door NamedEntityTag=O] [Text=for CharacterOffsetBegin=1668 CharacterOffsetEnd=1671 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1672 CharacterOffsetEnd=1675 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=paper CharacterOffsetBegin=1676 CharacterOffsetEnd=1681 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=. CharacterOffsetBegin=1681 CharacterOffsetEnd=1682 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (JJ Many) (NNS times))
+    (NP (PRP they))
+    (VP (MD would)
+      (VP (VB be)
+        (VP (VBG waiting)
+          (PP (IN at)
+            (NP
+              (NP (PRP$ their) (JJ front) (NN door))
+              (PP (IN for)
+                (NP (DT the) (NN paper))))))))
+    (. .)))
+
+root(ROOT-0, waiting-6)
+amod(times-2, Many-1)
+tmod(waiting-6, times-2)
+nsubj(waiting-6, they-3)
+aux(waiting-6, would-4)
+aux(waiting-6, be-5)
+poss(door-10, their-8)
+amod(door-10, front-9)
+prep_at(waiting-6, door-10)
+det(paper-13, the-12)
+prep_for(door-10, paper-13)
+
+Sentence #20 (12 tokens):
+That made a big impression on me at a young age.
+[Text=That CharacterOffsetBegin=1683 CharacterOffsetEnd=1687 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=made CharacterOffsetBegin=1688 CharacterOffsetEnd=1692 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=a CharacterOffsetBegin=1693 CharacterOffsetEnd=1694 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=big CharacterOffsetBegin=1695 CharacterOffsetEnd=1698 PartOfSpeech=JJ Lemma=big NamedEntityTag=O] [Text=impression CharacterOffsetBegin=1699 CharacterOffsetEnd=1709 PartOfSpeech=NN Lemma=impression NamedEntityTag=O] [Text=on CharacterOffsetBegin=1710 CharacterOffsetEnd=1712 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=me CharacterOffsetBegin=1713 CharacterOffsetEnd=1715 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=at CharacterOffsetBegin=1716 CharacterOffsetEnd=1718 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=1719 CharacterOffsetEnd=1720 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=young CharacterOffsetBegin=1721 CharacterOffsetEnd=1726 PartOfSpeech=JJ Lemma=young NamedEntityTag=O] [Text=age CharacterOffsetBegin=1727 CharacterOffsetEnd=1730 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=. CharacterOffsetBegin=1730 CharacterOffsetEnd=1731 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD made)
+      (NP (DT a) (JJ big) (NN impression))
+      (PP (IN on)
+        (NP (PRP me)))
+      (PP (IN at)
+        (NP (DT a) (JJ young) (NN age))))
+    (. .)))
+
+root(ROOT-0, made-2)
+nsubj(made-2, That-1)
+det(impression-5, a-3)
+amod(impression-5, big-4)
+dobj(made-2, impression-5)
+prep_on(made-2, me-7)
+det(age-11, a-9)
+amod(age-11, young-10)
+prep_at(made-2, age-11)
+
+Sentence #21 (20 tokens):
+After high school, I started at the local paper and fell in love with the business, again.
+[Text=After CharacterOffsetBegin=1732 CharacterOffsetEnd=1737 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=high CharacterOffsetBegin=1738 CharacterOffsetEnd=1742 PartOfSpeech=JJ Lemma=high NamedEntityTag=O] [Text=school CharacterOffsetBegin=1743 CharacterOffsetEnd=1749 PartOfSpeech=NN Lemma=school NamedEntityTag=O] [Text=, CharacterOffsetBegin=1749 CharacterOffsetEnd=1750 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=1751 CharacterOffsetEnd=1752 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=started CharacterOffsetBegin=1753 CharacterOffsetEnd=1760 PartOfSpeech=VBD Lemma=start NamedEntityTag=O] [Text=at CharacterOffsetBegin=1761 CharacterOffsetEnd=1763 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1764 CharacterOffsetEnd=1767 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=local CharacterOffsetBegin=1768 CharacterOffsetEnd=1773 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=paper CharacterOffsetBegin=1774 CharacterOffsetEnd=1779 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=and CharacterOffsetBegin=1780 CharacterOffsetEnd=1783 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=fell CharacterOffsetBegin=1784 CharacterOffsetEnd=1788 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=in CharacterOffsetBegin=1789 CharacterOffsetEnd=1791 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=love CharacterOffsetBegin=1792 CharacterOffsetEnd=1796 PartOfSpeech=NN Lemma=love NamedEntityTag=O] [Text=with CharacterOffsetBegin=1797 CharacterOffsetEnd=1801 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1802 CharacterOffsetEnd=1805 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=business CharacterOffsetBegin=1806 CharacterOffsetEnd=1814 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=, CharacterOffsetBegin=1814 CharacterOffsetEnd=1815 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=again CharacterOffsetBegin=1816 CharacterOffsetEnd=1821 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=. CharacterOffsetBegin=1821 CharacterOffsetEnd=1822 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (JJ high) (NN school)))
+    (, ,)
+    (NP (PRP I))
+    (VP
+      (VP (VBD started)
+        (PP (IN at)
+          (NP (DT the) (JJ local) (NN paper))))
+      (CC and)
+      (VP (VBD fell)
+        (PP (IN in)
+          (NP (NN love)))
+        (PP (IN with)
+          (NP (DT the) (NN business)))
+        (, ,)
+        (ADVP (RB again))))
+    (. .)))
+
+root(ROOT-0, started-6)
+amod(school-3, high-2)
+prep_after(started-6, school-3)
+nsubj(started-6, I-5)
+det(paper-10, the-8)
+amod(paper-10, local-9)
+prep_at(started-6, paper-10)
+conj_and(started-6, fell-12)
+prep_in(fell-12, love-14)
+det(business-17, the-16)
+prep_with(fell-12, business-17)
+advmod(fell-12, again-19)
+
+Sentence #22 (21 tokens):
+Eighteen jobs, five states and 44 years later, here I am, still doing a job I love.
+[Text=Eighteen CharacterOffsetBegin=1823 CharacterOffsetEnd=1831 PartOfSpeech=CD Lemma=eighteen NamedEntityTag=NUMBER NormalizedNamedEntityTag=18.0] [Text=jobs CharacterOffsetBegin=1832 CharacterOffsetEnd=1836 PartOfSpeech=NNS Lemma=job NamedEntityTag=O] [Text=, CharacterOffsetBegin=1836 CharacterOffsetEnd=1837 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=five CharacterOffsetBegin=1838 CharacterOffsetEnd=1842 PartOfSpeech=CD Lemma=five NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=states CharacterOffsetBegin=1843 CharacterOffsetEnd=1849 PartOfSpeech=NNS Lemma=state NamedEntityTag=O] [Text=and CharacterOffsetBegin=1850 CharacterOffsetEnd=1853 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=44 CharacterOffsetBegin=1854 CharacterOffsetEnd=1856 PartOfSpeech=CD Lemma=44 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P44Y Timex=<TIMEX3 alt_value="OFFSET P44Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">44 years later<_TIMEX3>] [Text=years CharacterOffsetBegin=1857 CharacterOffsetEnd=1862 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P44Y Timex=<TIMEX3 alt_value="OFFSET P44Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">44 years later<_TIMEX3>] [Text=later CharacterOffsetBegin=1863 CharacterOffsetEnd=1868 PartOfSpeech=RB Lemma=later NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P44Y Timex=<TIMEX3 alt_value="OFFSET P44Y" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf1">44 years later<_TIMEX3>] [Text=, CharacterOffsetBegin=1868 CharacterOffsetEnd=1869 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=here CharacterOffsetBegin=1870 CharacterOffsetEnd=1874 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=I CharacterOffsetBegin=1875 CharacterOffsetEnd=1876 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=am CharacterOffsetBegin=1877 CharacterOffsetEnd=1879 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=, CharacterOffsetBegin=1879 CharacterOffsetEnd=1880 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=still CharacterOffsetBegin=1881 CharacterOffsetEnd=1886 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=doing CharacterOffsetBegin=1887 CharacterOffsetEnd=1892 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=a CharacterOffsetBegin=1893 CharacterOffsetEnd=1894 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=job CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=NN Lemma=job NamedEntityTag=O] [Text=I CharacterOffsetBegin=1899 CharacterOffsetEnd=1900 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=love CharacterOffsetBegin=1901 CharacterOffsetEnd=1905 PartOfSpeech=VBP Lemma=love NamedEntityTag=O] [Text=. CharacterOffsetBegin=1905 CharacterOffsetEnd=1906 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (CD Eighteen) (NNS jobs))
+      (, ,)
+      (NP (CD five) (NNS states))
+      (CC and)
+      (NP (CD 44) (NNS years)))
+    (ADVP (RB later))
+    (PRN (, ,)
+      (S
+        (S
+          (ADVP (RB here))
+          (NP (PRP I))
+          (VP (VBP am)))
+        (, ,)
+        (ADVP (RB still))
+        (S
+          (VP (VBG doing)
+            (NP (DT a) (NN job))))))
+    (NP (PRP I))
+    (VP (VBP love))
+    (. .)))
+
+root(ROOT-0, love-20)
+num(jobs-2, Eighteen-1)
+nsubj(love-20, jobs-2)
+num(states-5, five-4)
+conj_and(jobs-2, states-5)
+num(years-8, 44-7)
+conj_and(jobs-2, years-8)
+advmod(love-20, later-9)
+advmod(am-13, here-11)
+nsubj(am-13, I-12)
+parataxis(love-20, am-13)
+advmod(doing-16, still-15)
+parataxis(am-13, doing-16)
+det(job-18, a-17)
+dobj(doing-16, job-18)
+nsubj(love-20, I-19)
+
+Sentence #23 (10 tokens):
+Q: What do you enjoy most about it?
+[Text=Q CharacterOffsetBegin=1907 CharacterOffsetEnd=1908 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=1908 CharacterOffsetEnd=1909 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=What CharacterOffsetBegin=1910 CharacterOffsetEnd=1914 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=do CharacterOffsetBegin=1915 CharacterOffsetEnd=1917 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=you CharacterOffsetBegin=1918 CharacterOffsetEnd=1921 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=enjoy CharacterOffsetBegin=1922 CharacterOffsetEnd=1927 PartOfSpeech=VB Lemma=enjoy NamedEntityTag=O] [Text=most CharacterOffsetBegin=1928 CharacterOffsetEnd=1932 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=about CharacterOffsetBegin=1933 CharacterOffsetEnd=1938 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=it CharacterOffsetBegin=1939 CharacterOffsetEnd=1941 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=? CharacterOffsetBegin=1941 CharacterOffsetEnd=1942 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (X
+    (NP (NNP Q))
+    (: :)
+    (FRAG
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (VP (VBP do)
+            (S
+              (NP (PRP you))
+              (VP (VB enjoy)
+                (ADVP (RBS most))
+                (PP (IN about)
+                  (NP (PRP it)))))))))
+    (. ?)))
+
+root(ROOT-0, Q-1)
+nsubj(do-4, What-3)
+dep(Q-1, do-4)
+nsubj(enjoy-6, you-5)
+ccomp(do-4, enjoy-6)
+advmod(enjoy-6, most-7)
+prep_about(enjoy-6, it-9)
+
+Sentence #24 (22 tokens):
+A: The thing I love is that no matter what happened today, we get to do it again tomorrow.
+[Text=A CharacterOffsetBegin=1943 CharacterOffsetEnd=1944 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=1944 CharacterOffsetEnd=1945 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=1946 CharacterOffsetEnd=1949 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=thing CharacterOffsetBegin=1950 CharacterOffsetEnd=1955 PartOfSpeech=NN Lemma=thing NamedEntityTag=O] [Text=I CharacterOffsetBegin=1956 CharacterOffsetEnd=1957 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=love CharacterOffsetBegin=1958 CharacterOffsetEnd=1962 PartOfSpeech=VBP Lemma=love NamedEntityTag=O] [Text=is CharacterOffsetBegin=1963 CharacterOffsetEnd=1965 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=that CharacterOffsetBegin=1966 CharacterOffsetEnd=1970 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=no CharacterOffsetBegin=1971 CharacterOffsetEnd=1973 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=matter CharacterOffsetBegin=1974 CharacterOffsetEnd=1980 PartOfSpeech=NN Lemma=matter NamedEntityTag=O] [Text=what CharacterOffsetBegin=1981 CharacterOffsetEnd=1985 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=happened CharacterOffsetBegin=1986 CharacterOffsetEnd=1994 PartOfSpeech=VBD Lemma=happen NamedEntityTag=O] [Text=today CharacterOffsetBegin=1995 CharacterOffsetEnd=2000 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf2">today<_TIMEX3>] [Text=, CharacterOffsetBegin=2000 CharacterOffsetEnd=2001 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=2002 CharacterOffsetEnd=2004 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=get CharacterOffsetBegin=2005 CharacterOffsetEnd=2008 PartOfSpeech=VBP Lemma=get NamedEntityTag=O] [Text=to CharacterOffsetBegin=2009 CharacterOffsetEnd=2011 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=2012 CharacterOffsetEnd=2014 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=it CharacterOffsetBegin=2015 CharacterOffsetEnd=2017 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=again CharacterOffsetBegin=2018 CharacterOffsetEnd=2023 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=tomorrow CharacterOffsetBegin=2024 CharacterOffsetEnd=2032 PartOfSpeech=NN Lemma=tomorrow NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P1D Timex=<TIMEX3 alt_value="OFFSET P1D" anchorTimeID="t0" temporalFunction="true" tid="t8" type="DATE" valueFromFunction="tf3">tomorrow<_TIMEX3>] [Text=. CharacterOffsetBegin=2032 CharacterOffsetEnd=2033 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A)
+      (PRN (: :)
+        (FRAG (DT The)))
+      (NN thing))
+    (PRN
+      (S
+        (NP (PRP I))
+        (VP (VBP love))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT no) (NN matter))
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (VP (VBD happened)
+                  (NP-TMP (NN today))))))
+          (, ,)
+          (NP (PRP we))
+          (VP (VBP get)
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (NP (PRP it))
+                  (ADVP (RB again))
+                  (NP-TMP (NN tomorrow)))))))))
+    (. .)))
+
+root(ROOT-0, is-7)
+det(thing-4, A-1)
+dep(thing-4, The-3)
+nsubj(is-7, thing-4)
+nsubj(love-6, I-5)
+parataxis(is-7, love-6)
+mark(get-16, that-8)
+neg(matter-10, no-9)
+nsubj(get-16, matter-10)
+nsubj(happened-12, what-11)
+rcmod(matter-10, happened-12)
+tmod(happened-12, today-13)
+nsubj(get-16, we-15)
+ccomp(is-7, get-16)
+aux(do-18, to-17)
+xcomp(get-16, do-18)
+dobj(do-18, it-19)
+advmod(do-18, again-20)
+tmod(do-18, tomorrow-21)
+
+Sentence #25 (3 tokens):
+Hopefully better!
+[Text=Hopefully CharacterOffsetBegin=2034 CharacterOffsetEnd=2043 PartOfSpeech=RB Lemma=hopefully NamedEntityTag=O] [Text=better CharacterOffsetBegin=2044 CharacterOffsetEnd=2050 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=! CharacterOffsetBegin=2050 CharacterOffsetEnd=2051 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (ADJP (RB Hopefully) (JJR better))
+    (. !)))
+
+root(ROOT-0, better-2)
+advmod(better-2, Hopefully-1)
+
+Sentence #26 (18 tokens):
+You didn’t ask, but the thing I dislike is having to do it again tomorrow!
+[Text=You CharacterOffsetBegin=2052 CharacterOffsetEnd=2055 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=did CharacterOffsetBegin=2056 CharacterOffsetEnd=2059 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2059 CharacterOffsetEnd=2062 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=ask CharacterOffsetBegin=2063 CharacterOffsetEnd=2066 PartOfSpeech=VB Lemma=ask NamedEntityTag=O] [Text=, CharacterOffsetBegin=2066 CharacterOffsetEnd=2067 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=2068 CharacterOffsetEnd=2071 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=2072 CharacterOffsetEnd=2075 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=thing CharacterOffsetBegin=2076 CharacterOffsetEnd=2081 PartOfSpeech=NN Lemma=thing NamedEntityTag=O] [Text=I CharacterOffsetBegin=2082 CharacterOffsetEnd=2083 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=dislike CharacterOffsetBegin=2084 CharacterOffsetEnd=2091 PartOfSpeech=VBP Lemma=dislike NamedEntityTag=O] [Text=is CharacterOffsetBegin=2092 CharacterOffsetEnd=2094 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=having CharacterOffsetBegin=2095 CharacterOffsetEnd=2101 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=2102 CharacterOffsetEnd=2104 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=2105 CharacterOffsetEnd=2107 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=it CharacterOffsetBegin=2108 CharacterOffsetEnd=2110 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=again CharacterOffsetBegin=2111 CharacterOffsetEnd=2116 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=tomorrow CharacterOffsetBegin=2117 CharacterOffsetEnd=2125 PartOfSpeech=NN Lemma=tomorrow NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P1D Timex=<TIMEX3 alt_value="OFFSET P1D" anchorTimeID="t0" temporalFunction="true" tid="t8" type="DATE" valueFromFunction="tf3">tomorrow<_TIMEX3>] [Text=! CharacterOffsetBegin=2125 CharacterOffsetEnd=2126 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (VBD did) (RB n_t)
+        (VP (VB ask))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (NN thing))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP dislike)))))
+      (VP (VBZ is)
+        (VP (VBG having)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (NP (PRP it))
+                (ADVP (RB again))
+                (NP-TMP (NN tomorrow))))))))
+    (. !)))
+
+root(ROOT-0, ask-4)
+nsubj(ask-4, You-1)
+aux(ask-4, did-2)
+neg(ask-4, n_t-3)
+det(thing-8, the-7)
+nsubj(having-12, thing-8)
+nsubj(dislike-10, I-9)
+rcmod(thing-8, dislike-10)
+aux(having-12, is-11)
+conj_but(ask-4, having-12)
+aux(do-14, to-13)
+xcomp(having-12, do-14)
+dobj(do-14, it-15)
+advmod(do-14, again-16)
+tmod(do-14, tomorrow-17)
+
+Sentence #27 (9 tokens):
+It is amazing when you think about it.
+[Text=It CharacterOffsetBegin=2127 CharacterOffsetEnd=2129 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=2130 CharacterOffsetEnd=2132 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=amazing CharacterOffsetBegin=2133 CharacterOffsetEnd=2140 PartOfSpeech=JJ Lemma=amazing NamedEntityTag=O] [Text=when CharacterOffsetBegin=2141 CharacterOffsetEnd=2145 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=you CharacterOffsetBegin=2146 CharacterOffsetEnd=2149 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=think CharacterOffsetBegin=2150 CharacterOffsetEnd=2155 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=about CharacterOffsetBegin=2156 CharacterOffsetEnd=2161 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=it CharacterOffsetBegin=2162 CharacterOffsetEnd=2164 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=2164 CharacterOffsetEnd=2165 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ amazing))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBP think)
+            (PP (IN about)
+              (NP (PRP it)))))))
+    (. .)))
+
+root(ROOT-0, amazing-3)
+nsubj(amazing-3, It-1)
+cop(amazing-3, is-2)
+advmod(think-6, when-4)
+nsubj(think-6, you-5)
+advcl(amazing-3, think-6)
+prep_about(think-6, it-8)
+
+Sentence #28 (28 tokens):
+We collect, edit and verify news from around the world every day, and get that product to customers’ doorsteps by 6 a.m. every day.
+[Text=We CharacterOffsetBegin=2166 CharacterOffsetEnd=2168 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=collect CharacterOffsetBegin=2169 CharacterOffsetEnd=2176 PartOfSpeech=VBP Lemma=collect NamedEntityTag=O] [Text=, CharacterOffsetBegin=2176 CharacterOffsetEnd=2177 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=edit CharacterOffsetBegin=2178 CharacterOffsetEnd=2182 PartOfSpeech=VB Lemma=edit NamedEntityTag=O] [Text=and CharacterOffsetBegin=2183 CharacterOffsetEnd=2186 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=verify CharacterOffsetBegin=2187 CharacterOffsetEnd=2193 PartOfSpeech=VB Lemma=verify NamedEntityTag=O] [Text=news CharacterOffsetBegin=2194 CharacterOffsetEnd=2198 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=from CharacterOffsetBegin=2199 CharacterOffsetEnd=2203 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=around CharacterOffsetBegin=2204 CharacterOffsetEnd=2210 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=the CharacterOffsetBegin=2211 CharacterOffsetEnd=2214 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=2215 CharacterOffsetEnd=2220 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=every CharacterOffsetBegin=2221 CharacterOffsetEnd=2226 PartOfSpeech=DT Lemma=every NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t9" type="SET" value="P1D">every day<_TIMEX3>] [Text=day CharacterOffsetBegin=2227 CharacterOffsetEnd=2230 PartOfSpeech=NN Lemma=day NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t9" type="SET" value="P1D">every day<_TIMEX3>] [Text=, CharacterOffsetBegin=2230 CharacterOffsetEnd=2231 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2232 CharacterOffsetEnd=2235 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=get CharacterOffsetBegin=2236 CharacterOffsetEnd=2239 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=that CharacterOffsetBegin=2240 CharacterOffsetEnd=2244 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=product CharacterOffsetBegin=2245 CharacterOffsetEnd=2252 PartOfSpeech=NN Lemma=product NamedEntityTag=O] [Text=to CharacterOffsetBegin=2253 CharacterOffsetEnd=2255 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=customers CharacterOffsetBegin=2256 CharacterOffsetEnd=2265 PartOfSpeech=NNS Lemma=customer NamedEntityTag=O] [Text=_ CharacterOffsetBegin=2265 CharacterOffsetEnd=2266 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=doorsteps CharacterOffsetBegin=2267 CharacterOffsetEnd=2276 PartOfSpeech=NNS Lemma=doorstep NamedEntityTag=O] [Text=by CharacterOffsetBegin=2277 CharacterOffsetEnd=2279 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=6 CharacterOffsetBegin=2280 CharacterOffsetEnd=2281 PartOfSpeech=CD Lemma=6 NamedEntityTag=TIME NormalizedNamedEntityTag=T06:00 Timex=<TIMEX3 tid="t10" type="TIME" value="T06:00">6 a.m.<_TIMEX3>] [Text=a.m. CharacterOffsetBegin=2282 CharacterOffsetEnd=2286 PartOfSpeech=RB Lemma=a.m. NamedEntityTag=TIME NormalizedNamedEntityTag=T06:00 Timex=<TIMEX3 tid="t10" type="TIME" value="T06:00">6 a.m.<_TIMEX3>] [Text=every CharacterOffsetBegin=2287 CharacterOffsetEnd=2292 PartOfSpeech=DT Lemma=every NamedEntityTag=TIME NormalizedNamedEntityTag=T06:00 Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t11" type="SET" value="P1D">every day<_TIMEX3>] [Text=day CharacterOffsetBegin=2293 CharacterOffsetEnd=2296 PartOfSpeech=NN Lemma=day NamedEntityTag=TIME NormalizedNamedEntityTag=T06:00 Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t11" type="SET" value="P1D">every day<_TIMEX3>] [Text=. CharacterOffsetBegin=2296 CharacterOffsetEnd=2297 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP collect)
+      (PRN (, ,)
+        (S
+          (VP
+            (VP (VB edit))
+            (CC and)
+            (VP (VB verify)
+              (NP (NN news))
+              (PP (IN from) (IN around)
+                (NP
+                  (NP (DT the) (NN world))
+                  (NP (DT every) (NN day)))))
+            (, ,)
+            (CC and)
+            (VP (VB get)
+              (NP (DT that) (NN product))
+              (PP (TO to)
+                (NP
+                  (NP (NNS customers) (POS _))
+                  (NNS doorsteps)))))))
+      (PP (IN by)
+        (NP (CD 6)))
+      (NP-TMP (RB a.m.) (DT every) (NN day)))
+    (. .)))
+
+root(ROOT-0, collect-2)
+nsubj(collect-2, We-1)
+parataxis(collect-2, edit-4)
+conj_and(edit-4, verify-6)
+dobj(verify-6, news-7)
+dep(verify-6, from-8)
+det(world-11, the-10)
+prep_around(verify-6, world-11)
+det(day-13, every-12)
+dep(world-11, day-13)
+conj_and(edit-4, get-16)
+det(product-18, that-17)
+dobj(get-16, product-18)
+poss(doorsteps-22, customers-20)
+prep_to(get-16, doorsteps-22)
+prep_by(collect-2, 6-24)
+advmod(day-27, a.m.-25)
+det(day-27, every-26)
+tmod(collect-2, day-27)
+
+Sentence #29 (8 tokens):
+(Well, almost every day.)
+[Text=-LRB- CharacterOffsetBegin=2298 CharacterOffsetEnd=2299 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Well CharacterOffsetBegin=2299 CharacterOffsetEnd=2303 PartOfSpeech=UH Lemma=well NamedEntityTag=O] [Text=, CharacterOffsetBegin=2303 CharacterOffsetEnd=2304 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=almost CharacterOffsetBegin=2305 CharacterOffsetEnd=2311 PartOfSpeech=RB Lemma=almost NamedEntityTag=O] [Text=every CharacterOffsetBegin=2312 CharacterOffsetEnd=2317 PartOfSpeech=DT Lemma=every NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t12" type="SET" value="P1D">every day<_TIMEX3>] [Text=day CharacterOffsetBegin=2318 CharacterOffsetEnd=2321 PartOfSpeech=NN Lemma=day NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t12" type="SET" value="P1D">every day<_TIMEX3>] [Text=. CharacterOffsetBegin=2321 CharacterOffsetEnd=2322 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2322 CharacterOffsetEnd=2323 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] 
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (FRAG
+      (INTJ (UH Well))
+      (, ,)
+      (NP (RB almost) (DT every) (NN day))
+      (. .))
+    (-RRB- -RRB-)))
+
+root(ROOT-0, day-6)
+discourse(day-6, Well-2)
+advmod(day-6, almost-4)
+det(day-6, every-5)
+
+Sentence #30 (8 tokens):
+Q: What’s your leadership style?
+[Text=Q CharacterOffsetBegin=2324 CharacterOffsetEnd=2325 PartOfSpeech=NNP Lemma=Q NamedEntityTag=O] [Text=: CharacterOffsetBegin=2325 CharacterOffsetEnd=2326 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=What CharacterOffsetBegin=2327 CharacterOffsetEnd=2331 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2331 CharacterOffsetEnd=2333 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=your CharacterOffsetBegin=2334 CharacterOffsetEnd=2338 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=leadership CharacterOffsetBegin=2339 CharacterOffsetEnd=2349 PartOfSpeech=NN Lemma=leadership NamedEntityTag=O] [Text=style CharacterOffsetBegin=2350 CharacterOffsetEnd=2355 PartOfSpeech=NN Lemma=style NamedEntityTag=O] [Text=? CharacterOffsetBegin=2355 CharacterOffsetEnd=2356 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (X
+    (NP (NNP Q))
+    (: :)
+    (FRAG
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (VP (VBZ _s)
+            (NP (PRP$ your) (NN leadership) (NN style))))))
+    (. ?)))
+
+root(ROOT-0, Q-1)
+nsubj(style-7, What-3)
+cop(style-7, _s-4)
+poss(style-7, your-5)
+nn(style-7, leadership-6)
+dep(Q-1, style-7)
+
+Sentence #31 (8 tokens):
+A: Open, honest and direct.
+[Text=A CharacterOffsetBegin=2357 CharacterOffsetEnd=2358 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=: CharacterOffsetBegin=2358 CharacterOffsetEnd=2359 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Open CharacterOffsetBegin=2360 CharacterOffsetEnd=2364 PartOfSpeech=VB Lemma=open NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=2364 CharacterOffsetEnd=2365 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=honest CharacterOffsetBegin=2366 CharacterOffsetEnd=2372 PartOfSpeech=JJ Lemma=honest NamedEntityTag=O] [Text=and CharacterOffsetBegin=2373 CharacterOffsetEnd=2376 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=direct CharacterOffsetBegin=2377 CharacterOffsetEnd=2383 PartOfSpeech=JJ Lemma=direct NamedEntityTag=O] [Text=. CharacterOffsetBegin=2383 CharacterOffsetEnd=2384 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (DT A))
+    (: :)
+    (NP
+      (NP (VB Open))
+      (, ,)
+      (NP (JJ honest))
+      (CC and)
+      (NP (JJ direct)))
+    (. .)))
+
+root(ROOT-0, A-1)
+dep(A-1, Open-3)
+conj_and(Open-3, honest-5)
+conj_and(Open-3, direct-7)
+
+Sentence #32 (19 tokens):
+Business isn’t all that hard, or complicated, though sometimes organizations can lose sight of that.
+[Text=Business CharacterOffsetBegin=2385 CharacterOffsetEnd=2393 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=is CharacterOffsetBegin=2394 CharacterOffsetEnd=2396 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2396 CharacterOffsetEnd=2399 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=all CharacterOffsetBegin=2400 CharacterOffsetEnd=2403 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=that CharacterOffsetBegin=2404 CharacterOffsetEnd=2408 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=hard CharacterOffsetBegin=2409 CharacterOffsetEnd=2413 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=, CharacterOffsetBegin=2413 CharacterOffsetEnd=2414 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=2415 CharacterOffsetEnd=2417 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=complicated CharacterOffsetBegin=2418 CharacterOffsetEnd=2429 PartOfSpeech=VBN Lemma=complicate NamedEntityTag=O] [Text=, CharacterOffsetBegin=2429 CharacterOffsetEnd=2430 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=though CharacterOffsetBegin=2431 CharacterOffsetEnd=2437 PartOfSpeech=IN Lemma=though NamedEntityTag=O] [Text=sometimes CharacterOffsetBegin=2438 CharacterOffsetEnd=2447 PartOfSpeech=RB Lemma=sometimes NamedEntityTag=O] [Text=organizations CharacterOffsetBegin=2448 CharacterOffsetEnd=2461 PartOfSpeech=NNS Lemma=organization NamedEntityTag=O] [Text=can CharacterOffsetBegin=2462 CharacterOffsetEnd=2465 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=lose CharacterOffsetBegin=2466 CharacterOffsetEnd=2470 PartOfSpeech=VB Lemma=lose NamedEntityTag=O] [Text=sight CharacterOffsetBegin=2471 CharacterOffsetEnd=2476 PartOfSpeech=NN Lemma=sight NamedEntityTag=O] [Text=of CharacterOffsetBegin=2477 CharacterOffsetEnd=2479 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=that CharacterOffsetBegin=2480 CharacterOffsetEnd=2484 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=. CharacterOffsetBegin=2484 CharacterOffsetEnd=2485 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Business))
+    (VP (VBZ is) (RB n_t)
+      (ADJP
+        (ADJP
+          (ADVP (DT all) (DT that))
+          (JJ hard))
+        (, ,)
+        (CC or)
+        (ADJP (VBN complicated)))
+      (, ,)
+      (SBAR (IN though)
+        (S
+          (ADVP (RB sometimes))
+          (NP (NNS organizations))
+          (VP (MD can)
+            (VP (VB lose)
+              (NP
+                (NP (NN sight))
+                (PP (IN of)
+                  (NP (DT that)))))))))
+    (. .)))
+
+root(ROOT-0, hard-6)
+nsubjpass(hard-6, Business-1)
+auxpass(hard-6, is-2)
+neg(hard-6, n_t-3)
+dep(that-5, all-4)
+advmod(hard-6, that-5)
+conj_or(hard-6, complicated-9)
+mark(lose-15, though-11)
+advmod(lose-15, sometimes-12)
+nsubj(lose-15, organizations-13)
+aux(lose-15, can-14)
+advcl(hard-6, lose-15)
+dobj(lose-15, sight-16)
+prep_of(sight-16, that-18)
+
+Sentence #33 (9 tokens):
+If it works, keep on doing it.
+[Text=If CharacterOffsetBegin=2486 CharacterOffsetEnd=2488 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=it CharacterOffsetBegin=2489 CharacterOffsetEnd=2491 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=works CharacterOffsetBegin=2492 CharacterOffsetEnd=2497 PartOfSpeech=VBZ Lemma=work NamedEntityTag=O] [Text=, CharacterOffsetBegin=2497 CharacterOffsetEnd=2498 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=keep CharacterOffsetBegin=2499 CharacterOffsetEnd=2503 PartOfSpeech=VB Lemma=keep NamedEntityTag=O] [Text=on CharacterOffsetBegin=2504 CharacterOffsetEnd=2506 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=doing CharacterOffsetBegin=2507 CharacterOffsetEnd=2512 PartOfSpeech=VBG Lemma=do NamedEntityTag=O] [Text=it CharacterOffsetBegin=2513 CharacterOffsetEnd=2515 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=2515 CharacterOffsetEnd=2516 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP it))
+        (VP (VBZ works))))
+    (, ,)
+    (VP (VB keep)
+      (PP (IN on)
+        (S
+          (VP (VBG doing)
+            (NP (PRP it))))))
+    (. .)))
+
+root(ROOT-0, keep-5)
+mark(works-3, If-1)
+nsubj(works-3, it-2)
+advcl(keep-5, works-3)
+prepc_on(keep-5, doing-7)
+dobj(doing-7, it-8)
+
+Sentence #34 (10 tokens):
+If it doesn’t work, try something else.
+[Text=If CharacterOffsetBegin=2517 CharacterOffsetEnd=2519 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=it CharacterOffsetBegin=2520 CharacterOffsetEnd=2522 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=does CharacterOffsetBegin=2523 CharacterOffsetEnd=2527 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2527 CharacterOffsetEnd=2530 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=work CharacterOffsetBegin=2531 CharacterOffsetEnd=2535 PartOfSpeech=VB Lemma=work NamedEntityTag=O] [Text=, CharacterOffsetBegin=2535 CharacterOffsetEnd=2536 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=try CharacterOffsetBegin=2537 CharacterOffsetEnd=2540 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=something CharacterOffsetBegin=2541 CharacterOffsetEnd=2550 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=else CharacterOffsetBegin=2551 CharacterOffsetEnd=2555 PartOfSpeech=RB Lemma=else NamedEntityTag=O] [Text=. CharacterOffsetBegin=2555 CharacterOffsetEnd=2556 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP it))
+        (VP (VBZ does) (RB n_t)
+          (VP (VB work)))))
+    (, ,)
+    (VP (VB try)
+      (S
+        (NP (NN something))
+        (ADJP (RB else))))
+    (. .)))
+
+root(ROOT-0, try-7)
+mark(work-5, If-1)
+nsubj(work-5, it-2)
+aux(work-5, does-3)
+neg(work-5, n_t-4)
+advcl(try-7, work-5)
+nsubj(else-9, something-8)
+xcomp(try-7, else-9)
+
+Sentence #35 (22 tokens):
+We need to make it easy to interact with our business, easy to read the paper, easy to advertise.
+[Text=We CharacterOffsetBegin=2557 CharacterOffsetEnd=2559 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=need CharacterOffsetBegin=2560 CharacterOffsetEnd=2564 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=2565 CharacterOffsetEnd=2567 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=2568 CharacterOffsetEnd=2572 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=it CharacterOffsetBegin=2573 CharacterOffsetEnd=2575 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=easy CharacterOffsetBegin=2576 CharacterOffsetEnd=2580 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O] [Text=to CharacterOffsetBegin=2581 CharacterOffsetEnd=2583 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=interact CharacterOffsetBegin=2584 CharacterOffsetEnd=2592 PartOfSpeech=VB Lemma=interact NamedEntityTag=O] [Text=with CharacterOffsetBegin=2593 CharacterOffsetEnd=2597 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=our CharacterOffsetBegin=2598 CharacterOffsetEnd=2601 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=business CharacterOffsetBegin=2602 CharacterOffsetEnd=2610 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=, CharacterOffsetBegin=2610 CharacterOffsetEnd=2611 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=easy CharacterOffsetBegin=2612 CharacterOffsetEnd=2616 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O] [Text=to CharacterOffsetBegin=2617 CharacterOffsetEnd=2619 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=read CharacterOffsetBegin=2620 CharacterOffsetEnd=2624 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=the CharacterOffsetBegin=2625 CharacterOffsetEnd=2628 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=paper CharacterOffsetBegin=2629 CharacterOffsetEnd=2634 PartOfSpeech=NN Lemma=paper NamedEntityTag=O] [Text=, CharacterOffsetBegin=2634 CharacterOffsetEnd=2635 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=easy CharacterOffsetBegin=2636 CharacterOffsetEnd=2640 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O] [Text=to CharacterOffsetBegin=2641 CharacterOffsetEnd=2643 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=advertise CharacterOffsetBegin=2644 CharacterOffsetEnd=2653 PartOfSpeech=VB Lemma=advertise NamedEntityTag=O] [Text=. CharacterOffsetBegin=2653 CharacterOffsetEnd=2654 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (S
+              (NP (PRP it))
+              (ADJP (JJ easy)
+                (S
+                  (VP (TO to)
+                    (VP (VB interact)
+                      (PP (IN with)
+                        (NP (PRP$ our) (NN business)))))))))))
+      (, ,)
+      (ADJP (JJ easy)
+        (S
+          (VP (TO to)
+            (VP (VB read)
+              (NP
+                (NP (DT the) (NN paper))
+                (, ,)
+                (ADJP (JJ easy)
+                  (S
+                    (VP (TO to)
+                      (VP (VB advertise)))))))))))
+    (. .)))
+
+root(ROOT-0, need-2)
+nsubj(need-2, We-1)
+aux(make-4, to-3)
+xcomp(need-2, make-4)
+nsubj(easy-6, it-5)
+xcomp(make-4, easy-6)
+aux(interact-8, to-7)
+xcomp(easy-6, interact-8)
+poss(business-11, our-10)
+prep_with(interact-8, business-11)
+acomp(need-2, easy-13)
+aux(read-15, to-14)
+xcomp(easy-13, read-15)
+det(paper-17, the-16)
+dobj(read-15, paper-17)
+amod(paper-17, easy-19)
+aux(advertise-21, to-20)
+xcomp(easy-19, advertise-21)
+
+Sentence #36 (18 tokens):
+The San Diego Union-Tribune
+Upgrade your browsing experience with a paid subscription to The San Diego Union-Tribune.
+[Text=The CharacterOffsetBegin=2677 CharacterOffsetEnd=2680 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=San CharacterOffsetBegin=2681 CharacterOffsetEnd=2684 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=2685 CharacterOffsetEnd=2690 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Union-Tribune CharacterOffsetBegin=2691 CharacterOffsetEnd=2704 PartOfSpeech=NNP Lemma=Union-Tribune NamedEntityTag=ORGANIZATION] [Text=Upgrade CharacterOffsetBegin=2705 CharacterOffsetEnd=2712 PartOfSpeech=VB Lemma=upgrade NamedEntityTag=O] [Text=your CharacterOffsetBegin=2713 CharacterOffsetEnd=2717 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=browsing CharacterOffsetBegin=2718 CharacterOffsetEnd=2726 PartOfSpeech=NN Lemma=browsing NamedEntityTag=O] [Text=experience CharacterOffsetBegin=2727 CharacterOffsetEnd=2737 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=with CharacterOffsetBegin=2738 CharacterOffsetEnd=2742 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=2743 CharacterOffsetEnd=2744 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=paid CharacterOffsetBegin=2745 CharacterOffsetEnd=2749 PartOfSpeech=VBN Lemma=pay NamedEntityTag=O] [Text=subscription CharacterOffsetBegin=2750 CharacterOffsetEnd=2762 PartOfSpeech=NN Lemma=subscription NamedEntityTag=O] [Text=to CharacterOffsetBegin=2763 CharacterOffsetEnd=2765 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=The CharacterOffsetBegin=2766 CharacterOffsetEnd=2769 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=San CharacterOffsetBegin=2770 CharacterOffsetEnd=2773 PartOfSpeech=NNP Lemma=San NamedEntityTag=ORGANIZATION] [Text=Diego CharacterOffsetBegin=2774 CharacterOffsetEnd=2779 PartOfSpeech=NNP Lemma=Diego NamedEntityTag=ORGANIZATION] [Text=Union-Tribune CharacterOffsetBegin=2780 CharacterOffsetEnd=2793 PartOfSpeech=NNP Lemma=Union-Tribune NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=2793 CharacterOffsetEnd=2794 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP San) (NNP Diego) (NNP Union-Tribune))
+    (VP (VB Upgrade)
+      (NP (PRP$ your) (NN browsing) (NN experience))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (VBN paid) (NN subscription))
+          (PP (TO to)
+            (NP (DT The) (NNP San) (NNP Diego) (NNP Union-Tribune))))))
+    (. .)))
+
+root(ROOT-0, Upgrade-5)
+det(Union-Tribune-4, The-1)
+nn(Union-Tribune-4, San-2)
+nn(Union-Tribune-4, Diego-3)
+nsubj(Upgrade-5, Union-Tribune-4)
+poss(experience-8, your-6)
+nn(experience-8, browsing-7)
+dobj(Upgrade-5, experience-8)
+det(subscription-12, a-10)
+amod(subscription-12, paid-11)
+prep_with(Upgrade-5, subscription-12)
+det(Union-Tribune-17, The-14)
+nn(Union-Tribune-17, San-15)
+nn(Union-Tribune-17, Diego-16)
+prep_to(subscription-12, Union-Tribune-17)
+
+Sentence #37 (4 tokens):
+QUICK JYLLION SEARCHES:
+[Text=QUICK CharacterOffsetBegin=2795 CharacterOffsetEnd=2800 PartOfSpeech=JJ Lemma=quick NamedEntityTag=O] [Text=JYLLION CharacterOffsetBegin=2801 CharacterOffsetEnd=2808 PartOfSpeech=JJ Lemma=jyllion NamedEntityTag=O] [Text=SEARCHES CharacterOffsetBegin=2809 CharacterOffsetEnd=2817 PartOfSpeech=NNS Lemma=search NamedEntityTag=O] [Text=: CharacterOffsetBegin=2817 CharacterOffsetEnd=2818 PartOfSpeech=: Lemma=: NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (JJ QUICK) (JJ JYLLION) (NNS SEARCHES))
+    (: :)))
+
+root(ROOT-0, SEARCHES-3)
+amod(SEARCHES-3, QUICK-1)
+amod(SEARCHES-3, JYLLION-2)
+
+Coreference set:
+ (13,23,[22,24]) -> (1,15,[12,16]), that is: "Tribune Publishing" -> "San Diego Union Tribune"
+Coreference set:
+ (1,14,[12,21]) -> (9,19,[16,20]), that is: "San Diego Union Tribune president and chief operating officer" -> "The San Diego Union-Tribune"
+ (13,20,[20,21]) -> (9,19,[16,20]), that is: "SDUT" -> "The San Diego Union-Tribune"
+ (15,12,[9,13]) -> (9,19,[16,20]), that is: "The San Diego Union-Tribune" -> "The San Diego Union-Tribune"
+ (36,4,[1,5]) -> (9,19,[16,20]), that is: "The San Diego Union-Tribune" -> "The San Diego Union-Tribune"
+ (36,17,[14,18]) -> (9,19,[16,20]), that is: "The San Diego Union-Tribune" -> "The San Diego Union-Tribune"
+Coreference set:
+ (6,1,[1,2]) -> (2,4,[1,17]), that is: "Q" -> "Share Photo ✉ Q : What is the most important part of your new job ?"
+ (11,1,[1,2]) -> (2,4,[1,17]), that is: "Q" -> "Share Photo ✉ Q : What is the most important part of your new job ?"
+ (16,1,[1,2]) -> (2,4,[1,17]), that is: "Q" -> "Share Photo ✉ Q : What is the most important part of your new job ?"
+ (23,1,[1,2]) -> (2,4,[1,17]), that is: "Q" -> "Share Photo ✉ Q : What is the most important part of your new job ?"
+ (30,1,[1,2]) -> (2,4,[1,17]), that is: "Q" -> "Share Photo ✉ Q : What is the most important part of your new job ?"
+Coreference set:
+ (2,6,[6,7]) -> (2,11,[8,16]), that is: "What" -> "the most important part of your new job"
+Coreference set:
+ (8,7,[6,8]) -> (2,15,[13,16]), that is: "this job" -> "your new job"
+Coreference set:
+ (4,14,[14,15]) -> (3,1,[1,2]), that is: "it" -> "A"
+ (7,1,[1,2]) -> (3,1,[1,2]), that is: "A" -> "A"
+Coreference set:
+ (3,10,[10,11]) -> (3,5,[5,6]), that is: "we" -> "we"
+ (3,13,[13,14]) -> (3,5,[5,6]), that is: "our" -> "we"
+ (4,4,[4,5]) -> (3,5,[5,6]), that is: "our" -> "we"
+ (5,4,[4,5]) -> (3,5,[5,6]), that is: "we" -> "we"
+Coreference set:
+ (4,7,[7,8]) -> (3,14,[13,15]), that is: "readers" -> "our readers"
+Coreference set:
+ (4,16,[16,17]) -> (4,5,[4,11]), that is: "them" -> "our customers -LRB- readers and advertisers -RRB-"
+ (28,20,[20,22]) -> (4,5,[4,11]), that is: "customers _" -> "our customers -LRB- readers and advertisers -RRB-"
+Coreference set:
+ (15,1,[1,2]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (17,14,[14,15]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (18,1,[1,2]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (18,12,[12,13]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (20,7,[7,8]) -> (9,1,[1,2]), that is: "me" -> "I"
+ (21,5,[5,6]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (22,12,[12,13]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (22,19,[19,20]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (24,5,[5,6]) -> (9,1,[1,2]), that is: "I" -> "I"
+ (26,9,[9,10]) -> (9,1,[1,2]), that is: "I" -> "I"
+Coreference set:
+ (10,15,[15,16]) -> (9,9,[9,10]), that is: "their" -> "them"
+ (10,18,[18,19]) -> (9,9,[9,10]), that is: "their" -> "them"
+Coreference set:
+ (16,11,[11,12]) -> (11,9,[9,10]), that is: "newspapers" -> "newspapers"
+Coreference set:
+ (14,33,[33,34]) -> (14,20,[19,21]), that is: "their" -> "the employees"
+Coreference set:
+ (16,5,[5,6]) -> (17,3,[2,4]), that is: "you" -> ": I"
+Coreference set:
+ (17,30,[30,31]) -> (17,1,[1,29]), that is: "it" -> "A : I had a paper route in Madison , Wis. , when I was 11 years old in 1971 and loved reading the paper before anyone else"
+Coreference set:
+ (18,7,[6,8]) -> (35,17,[16,22]), that is: "the paper" -> "the paper , easy to advertise"
+ (19,13,[12,14]) -> (35,17,[16,22]), that is: "the paper" -> "the paper , easy to advertise"
+ (35,17,[16,18]) -> (35,17,[16,22]), that is: "the paper" -> "the paper , easy to advertise"
+Coreference set:
+ (19,3,[3,4]) -> (18,11,[10,15]), that is: "they" -> "the people I delivered to"
+ (19,8,[8,9]) -> (18,11,[10,15]), that is: "their" -> "the people I delivered to"
+Coreference set:
+ (20,1,[1,2]) -> (19,2,[1,3]), that is: "That" -> "Many times"
+Coreference set:
+ (35,11,[10,12]) -> (21,17,[16,18]), that is: "our business" -> "the business"
+Coreference set:
+ (23,9,[9,10]) -> (22,1,[1,2]), that is: "it" -> "Eighteen"
+Coreference set:
+ (24,19,[19,20]) -> (24,10,[9,14]), that is: "it" -> "no matter what happened today"
+Coreference set:
+ (26,17,[17,18]) -> (24,21,[21,22]), that is: "tomorrow" -> "tomorrow"
+Coreference set:
+ (26,15,[15,16]) -> (26,8,[7,11]), that is: "it" -> "the thing I dislike"
+ (27,8,[8,9]) -> (26,8,[7,11]), that is: "it" -> "the thing I dislike"
+Coreference set:
+ (29,6,[4,7]) -> (28,27,[25,28]), that is: "almost every day" -> "a.m. every day"
+Coreference set:
+ (32,18,[18,19]) -> (32,13,[13,14]), that is: "that" -> "organizations"
+Coreference set:
+ (33,2,[2,3]) -> (32,16,[16,19]), that is: "it" -> "sight of that"
+ (33,8,[8,9]) -> (32,16,[16,19]), that is: "it" -> "sight of that"
+ (34,2,[2,3]) -> (32,16,[16,19]), that is: "it" -> "sight of that"
+ (35,5,[5,6]) -> (32,16,[16,19]), that is: "it" -> "sight of that"
+Coreference set:
+ (35,10,[10,11]) -> (35,1,[1,2]), that is: "our" -> "We"

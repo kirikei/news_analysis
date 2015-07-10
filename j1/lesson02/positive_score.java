@@ -61,6 +61,7 @@ public class positive_score {
 					//System.out.println("focus::"+focus_tree+",index::"+index);
 					String start_node = focus_tree.get(index);  //感情語から開始
 
+					int flag = 0; //２回連続で終点にたどり着いたら脱出する
 					//感情語とentityの位置関係を検索
 					while(true){
 						String f_facter = tree_change.first_facter(start_node);
@@ -168,12 +169,18 @@ public class positive_score {
 							break;
 						}
 						//どの場合にも引っかからなかった場合
-						String find_node = focus_tree.get(ii);
-						String s_f_facter = tree_change.second_facter(find_node);
+						String find_node = focus_tree.get(ii);//次のノードへ
+						String s_f_facter = tree_change.second_facter(find_node);//次のノードの子と同じならば
 						//System.out.println("sf--------->"+s_f_facter);
 						if(s_f_facter.equals(f_facter)){
 							//付け替える
 							start_node = find_node;//System.out.println("ccc");
+							flag = 0;
+						}else{
+							if(flag > focus_tree.size()){
+								break;
+							}
+							flag++;
 						}
 
 						ii++;
@@ -315,7 +322,7 @@ public class positive_score {
 			
 		}
 		//print_score(scores, args, "polarity");
-		import_newsDB.entry_measure(scores,"Polarities");
+		import_newsDB.entry_measure(scores,"polarities");
 		return scores;
 	}
 	
@@ -323,7 +330,7 @@ public class positive_score {
 	public static void print_score(Map<String, Double> scores, String[] args, String attribute){
 		try {
 			//出力
-			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/news_analysis/result.csv", true);  //���P
+			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/server_news_analysis/result.csv", true);  //���P
 			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
 				pw.println("["+args[0]+"]");
 			for (int j = 1; j < args.length; j++) {			

@@ -1,0 +1,798 @@
+Sentence #1 (24 tokens):
+May 26, 2015
+Hackers successfully accessed—stole—personal information, including tax return data, from over 100,000 U.S. taxpayers.
+[Text=May CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26 Timex=<TIMEX3 tid="t1" type="DATE" value="2015-05-26">May 26, 2015<_TIMEX3>] [Text=26 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26 Timex=<TIMEX3 tid="t1" type="DATE" value="2015-05-26">May 26, 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26 Timex=<TIMEX3 tid="t1" type="DATE" value="2015-05-26">May 26, 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26 Timex=<TIMEX3 tid="t1" type="DATE" value="2015-05-26">May 26, 2015<_TIMEX3>] [Text=Hackers CharacterOffsetBegin=13 CharacterOffsetEnd=20 PartOfSpeech=NNS Lemma=hacker NamedEntityTag=O] [Text=successfully CharacterOffsetBegin=21 CharacterOffsetEnd=33 PartOfSpeech=RB Lemma=successfully NamedEntityTag=O] [Text=accessed CharacterOffsetBegin=34 CharacterOffsetEnd=42 PartOfSpeech=VBN Lemma=access NamedEntityTag=O] [Text=-- CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=stole CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=VBD Lemma=steal NamedEntityTag=O] [Text=-- CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=personal CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=information CharacterOffsetBegin=58 CharacterOffsetEnd=69 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=, CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=71 CharacterOffsetEnd=80 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=tax CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=return CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=return NamedEntityTag=O] [Text=data CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=from CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=over CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=100,000 CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=CD Lemma=100,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>100000.0] [Text=U.S. CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=taxpayers CharacterOffsetBegin=121 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=taxpayer NamedEntityTag=O] [Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP May) (CD 26))
+    (, ,)
+    (NP
+      (NP
+        (NP
+          (NP (CD 2015) (NNS Hackers))
+          (VP
+            (ADVP (RB successfully))
+            (VBN accessed)))
+        (PRN (: --)
+          (VP (VBD stole))
+          (: --)))
+      (NP
+        (NP (JJ personal) (NN information))
+        (, ,)
+        (PP (VBG including)
+          (NP (NN tax) (NN return) (NNS data)))))
+    (, ,)
+    (PP (IN from)
+      (NP
+        (QP (IN over) (CD 100,000))
+        (NNP U.S.) (NNS taxpayers)))
+    (. .)))
+
+root(ROOT-0, May-1)
+num(May-1, 26-2)
+num(Hackers-5, 2015-4)
+appos(May-1, Hackers-5)
+advmod(accessed-7, successfully-6)
+vmod(Hackers-5, accessed-7)
+dep(Hackers-5, stole-9)
+amod(information-12, personal-11)
+dep(Hackers-5, information-12)
+nn(data-17, tax-15)
+nn(data-17, return-16)
+prep_including(information-12, data-17)
+quantmod(100,000-21, over-20)
+num(taxpayers-23, 100,000-21)
+nn(taxpayers-23, U.S.-22)
+prep_from(May-1, taxpayers-23)
+
+Sentence #2 (48 tokens):
+In a series of attacks that took place from February to mid-May, the hackers utilized the IRS_s "Get Transcript" system to access all of the personal information that would be on a tax return, from birthdays and social security numbers to addresses.
+[Text=In CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=series CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NN Lemma=series NamedEntityTag=O] [Text=of CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=attacks CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=that CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=took CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VBD Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=from CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=February CharacterOffsetBegin=176 CharacterOffsetEnd=184 PartOfSpeech=NNP Lemma=February NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-02 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-02">February<_TIMEX3>] [Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=mid-May CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=NNP Lemma=mid-May NamedEntityTag=O] [Text=, CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=hackers CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NNS Lemma=hacker NamedEntityTag=O] [Text=utilized CharacterOffsetBegin=209 CharacterOffsetEnd=217 PartOfSpeech=VBD Lemma=utilize NamedEntityTag=O] [Text=the CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=_s CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=`` CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Get CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=Transcript CharacterOffsetBegin=233 CharacterOffsetEnd=243 PartOfSpeech=NNP Lemma=Transcript NamedEntityTag=O] [Text=__ CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=system CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN Lemma=system NamedEntityTag=O] [Text=to CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=access CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=all CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=personal CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=information CharacterOffsetBegin=282 CharacterOffsetEnd=293 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=that CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=would CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=be CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=on CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tax CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=return CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=NN Lemma=return NamedEntityTag=O] [Text=, CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=from CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=birthdays CharacterOffsetBegin=330 CharacterOffsetEnd=339 PartOfSpeech=NNS Lemma=birthday NamedEntityTag=O] [Text=and CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=social CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=security CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=numbers CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=NNS Lemma=number NamedEntityTag=O] [Text=to CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=addresses CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=NNS Lemma=address NamedEntityTag=O] [Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT a) (NN series))
+        (PP (IN of)
+          (NP
+            (NP (NNS attacks))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD took)
+                  (NP (NN place))
+                  (PP (IN from)
+                    (NP (NNP February)))
+                  (PP (TO to)
+                    (NP (NNP mid-May))))))))))
+    (, ,)
+    (NP (DT the) (NNS hackers))
+    (VP (VBD utilized)
+      (NP
+        (NP
+          (NP (DT the) (NNP IRS) (POS _s))
+          (`` ``)
+          (S
+            (VP (VB Get)
+              (NP (NNP Transcript))))
+          (__ __) (NN system))
+        (PP (TO to)
+          (NP
+            (NP (NN access))
+            (PP
+              (ADVP (DT all))
+              (IN of)
+              (NP
+                (NP (DT the) (JJ personal) (NN information))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD would)
+                      (VP (VB be)
+                        (PP (IN on)
+                          (NP (DT a) (NN tax) (NN return)))
+                        (, ,)
+                        (PP (IN from)
+                          (NP
+                            (NP (NNS birthdays))
+                            (CC and)
+                            (NP (JJ social) (NN security) (NNS numbers))))
+                        (PP (TO to)
+                          (NP (NNS addresses)))))))))))))
+    (. .)))
+
+root(ROOT-0, utilized-16)
+det(series-3, a-2)
+prep_in(utilized-16, series-3)
+prep_of(series-3, attacks-5)
+nsubj(took-7, that-6)
+rcmod(attacks-5, took-7)
+dobj(took-7, place-8)
+prep_from(took-7, February-10)
+prep_to(took-7, mid-May-12)
+det(hackers-15, the-14)
+nsubj(utilized-16, hackers-15)
+det(IRS-18, the-17)
+poss(system-24, IRS-18)
+dep(system-24, Get-21)
+dobj(Get-21, Transcript-22)
+dobj(utilized-16, system-24)
+prep_to(system-24, access-26)
+advmod(access-26, all-27)
+det(information-31, the-29)
+amod(information-31, personal-30)
+prep_of(access-26, information-31)
+nsubj(be-34, that-32)
+aux(be-34, would-33)
+rcmod(information-31, be-34)
+det(return-38, a-36)
+nn(return-38, tax-37)
+prep_on(be-34, return-38)
+prep_from(be-34, birthdays-41)
+amod(numbers-45, social-43)
+nn(numbers-45, security-44)
+conj_and(birthdays-41, numbers-45)
+prep_to(be-34, addresses-47)
+
+Sentence #3 (21 tokens):
+The motivation behind the attack is, apparently, an extensive plot to claim fraudulent tax returns using stolen identities.
+[Text=The CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=motivation CharacterOffsetBegin=386 CharacterOffsetEnd=396 PartOfSpeech=NN Lemma=motivation NamedEntityTag=O] [Text=behind CharacterOffsetBegin=397 CharacterOffsetEnd=403 PartOfSpeech=IN Lemma=behind NamedEntityTag=O] [Text=the CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=attack CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NN Lemma=attack NamedEntityTag=O] [Text=is CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=apparently CharacterOffsetBegin=419 CharacterOffsetEnd=429 PartOfSpeech=RB Lemma=apparently NamedEntityTag=O] [Text=, CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=an CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=extensive CharacterOffsetBegin=434 CharacterOffsetEnd=443 PartOfSpeech=JJ Lemma=extensive NamedEntityTag=O] [Text=plot CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NN Lemma=plot NamedEntityTag=O] [Text=to CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=claim CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=NN Lemma=claim NamedEntityTag=O] [Text=fraudulent CharacterOffsetBegin=458 CharacterOffsetEnd=468 PartOfSpeech=JJ Lemma=fraudulent NamedEntityTag=O] [Text=tax CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=returns CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=NNS Lemma=return NamedEntityTag=O] [Text=using CharacterOffsetBegin=481 CharacterOffsetEnd=486 PartOfSpeech=VBG Lemma=use NamedEntityTag=O] [Text=stolen CharacterOffsetBegin=487 CharacterOffsetEnd=493 PartOfSpeech=VBN Lemma=steal NamedEntityTag=O] [Text=identities CharacterOffsetBegin=494 CharacterOffsetEnd=504 PartOfSpeech=NNS Lemma=identity NamedEntityTag=O] [Text=. CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN motivation))
+      (PP (IN behind)
+        (NP (DT the) (NN attack))))
+    (VP (VBZ is) (, ,)
+      (ADVP (RB apparently))
+      (, ,)
+      (NP
+        (NP (DT an) (JJ extensive) (NN plot))
+        (PP (TO to)
+          (NP (NN claim)))))
+    (NP
+      (NP (JJ fraudulent) (NN tax) (NNS returns))
+      (VP (VBG using)
+        (NP (VBN stolen) (NNS identities))))
+    (. .)))
+
+root(ROOT-0, plot-12)
+det(motivation-2, The-1)
+nsubj(plot-12, motivation-2)
+det(attack-5, the-4)
+prep_behind(motivation-2, attack-5)
+cop(plot-12, is-6)
+advmod(plot-12, apparently-8)
+det(plot-12, an-10)
+amod(plot-12, extensive-11)
+prep_to(plot-12, claim-14)
+amod(returns-17, fraudulent-15)
+nn(returns-17, tax-16)
+dep(plot-12, returns-17)
+vmod(returns-17, using-18)
+amod(identities-20, stolen-19)
+dobj(using-18, identities-20)
+
+Sentence #4 (23 tokens):
+According to the IRS, over $5.8 billion USD in fraudulent refunds were sent out in the year 2013, alone.
+[Text=According CharacterOffsetBegin=506 CharacterOffsetEnd=515 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=over CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=$ CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=>$5.8E9] [Text=5.8 CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=CD Lemma=5.8 NamedEntityTag=MONEY NormalizedNamedEntityTag=>$5.8E9] [Text=billion CharacterOffsetBegin=538 CharacterOffsetEnd=545 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=>$5.8E9] [Text=USD CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=NNP Lemma=USD NamedEntityTag=O] [Text=in CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=fraudulent CharacterOffsetBegin=553 CharacterOffsetEnd=563 PartOfSpeech=JJ Lemma=fraudulent NamedEntityTag=O] [Text=refunds CharacterOffsetBegin=564 CharacterOffsetEnd=571 PartOfSpeech=NNS Lemma=refund NamedEntityTag=O] [Text=were CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=sent CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=out CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=in CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t3" type="DATE" value="2013">the year 2013<_TIMEX3>] [Text=year CharacterOffsetBegin=593 CharacterOffsetEnd=597 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t3" type="DATE" value="2013">the year 2013<_TIMEX3>] [Text=2013 CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=CD Lemma=2013 NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t3" type="DATE" value="2013">the year 2013<_TIMEX3>] [Text=, CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=alone CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=RB Lemma=alone NamedEntityTag=O] [Text=. CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (DT the) (NNP IRS))))
+    (, ,)
+    (NP
+      (NP
+        (QP (IN over) ($ $) (CD 5.8) (CD billion))
+        (NNP USD))
+      (PP (IN in)
+        (NP (JJ fraudulent) (NNS refunds))))
+    (VP (VBD were)
+      (VP (VBN sent)
+        (PRT (RP out))
+        (PP (IN in)
+          (NP (DT the) (NN year) (CD 2013)))
+        (, ,)
+        (ADVP (RB alone))))
+    (. .)))
+
+root(ROOT-0, sent-15)
+prepc_according_to(sent-15, to-2)
+det(IRS-4, the-3)
+pobj(sent-15, IRS-4)
+quantmod(dol-7, over-6)
+num(USD-10, dol-7)
+number(dol-7, 5.8-8)
+number(dol-7, billion-9)
+nsubjpass(sent-15, USD-10)
+amod(refunds-13, fraudulent-12)
+prep_in(USD-10, refunds-13)
+auxpass(sent-15, were-14)
+prt(sent-15, out-16)
+det(year-19, the-18)
+prep_in(sent-15, year-19)
+num(year-19, 2013-20)
+advmod(sent-15, alone-22)
+
+Sentence #5 (19 tokens):
+According the IRS, the criminals create a fake tax return that is eligible for a sizeable refund.
+[Text=According CharacterOffsetBegin=611 CharacterOffsetEnd=620 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=the CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=criminals CharacterOffsetBegin=634 CharacterOffsetEnd=643 PartOfSpeech=NNS Lemma=criminal NamedEntityTag=O] [Text=create CharacterOffsetBegin=644 CharacterOffsetEnd=650 PartOfSpeech=VBP Lemma=create NamedEntityTag=O] [Text=a CharacterOffsetBegin=651 CharacterOffsetEnd=652 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=fake CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=JJ Lemma=fake NamedEntityTag=O] [Text=tax CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=return CharacterOffsetBegin=662 CharacterOffsetEnd=668 PartOfSpeech=NN Lemma=return NamedEntityTag=O] [Text=that CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=eligible CharacterOffsetBegin=677 CharacterOffsetEnd=685 PartOfSpeech=JJ Lemma=eligible NamedEntityTag=O] [Text=for CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=690 CharacterOffsetEnd=691 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=sizeable CharacterOffsetBegin=692 CharacterOffsetEnd=700 PartOfSpeech=JJ Lemma=sizeable NamedEntityTag=O] [Text=refund CharacterOffsetBegin=701 CharacterOffsetEnd=707 PartOfSpeech=NN Lemma=refund NamedEntityTag=O] [Text=. CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG According)
+      (NP (DT the) (NNP IRS)))
+    (, ,)
+    (NP (DT the) (NNS criminals))
+    (VP (VBP create)
+      (NP
+        (NP (DT a) (JJ fake) (NN tax) (NN return))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (ADJP (JJ eligible)
+                (PP (IN for)
+                  (NP (DT a) (JJ sizeable) (NN refund)))))))))
+    (. .)))
+
+root(ROOT-0, create-7)
+det(IRS-3, the-2)
+prep_according(create-7, IRS-3)
+det(criminals-6, the-5)
+nsubj(create-7, criminals-6)
+det(return-11, a-8)
+amod(return-11, fake-9)
+nn(return-11, tax-10)
+dobj(create-7, return-11)
+nsubj(eligible-14, that-12)
+cop(eligible-14, is-13)
+rcmod(return-11, eligible-14)
+det(refund-18, a-16)
+amod(refund-18, sizeable-17)
+prep_for(eligible-14, refund-18)
+
+Sentence #6 (40 tokens):
+They make sure to do this early in the tax season, before the actual taxpayer_s employers have had a chance to send the IRS legitimate wage documents, and before the genuine taxpayer has filed a return.
+[Text=They CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=make CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=VBP Lemma=make NamedEntityTag=O] [Text=sure CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=to CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=727 CharacterOffsetEnd=729 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=this CharacterOffsetBegin=730 CharacterOffsetEnd=734 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=early CharacterOffsetBegin=735 CharacterOffsetEnd=740 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=in CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tax CharacterOffsetBegin=748 CharacterOffsetEnd=751 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=season CharacterOffsetBegin=752 CharacterOffsetEnd=758 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=before CharacterOffsetBegin=760 CharacterOffsetEnd=766 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=the CharacterOffsetBegin=767 CharacterOffsetEnd=770 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=actual CharacterOffsetBegin=771 CharacterOffsetEnd=777 PartOfSpeech=JJ Lemma=actual NamedEntityTag=O] [Text=taxpayer CharacterOffsetBegin=778 CharacterOffsetEnd=786 PartOfSpeech=NN Lemma=taxpayer NamedEntityTag=O] [Text=_s CharacterOffsetBegin=786 CharacterOffsetEnd=788 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=employers CharacterOffsetBegin=789 CharacterOffsetEnd=798 PartOfSpeech=NNS Lemma=employer NamedEntityTag=O] [Text=have CharacterOffsetBegin=799 CharacterOffsetEnd=803 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=had CharacterOffsetBegin=804 CharacterOffsetEnd=807 PartOfSpeech=VBN Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=808 CharacterOffsetEnd=809 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=chance CharacterOffsetBegin=810 CharacterOffsetEnd=816 PartOfSpeech=NN Lemma=chance NamedEntityTag=O] [Text=to CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=send CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=VB Lemma=send NamedEntityTag=O] [Text=the CharacterOffsetBegin=825 CharacterOffsetEnd=828 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=829 CharacterOffsetEnd=832 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=legitimate CharacterOffsetBegin=833 CharacterOffsetEnd=843 PartOfSpeech=JJ Lemma=legitimate NamedEntityTag=O] [Text=wage CharacterOffsetBegin=844 CharacterOffsetEnd=848 PartOfSpeech=NN Lemma=wage NamedEntityTag=O] [Text=documents CharacterOffsetBegin=849 CharacterOffsetEnd=858 PartOfSpeech=NNS Lemma=document NamedEntityTag=O] [Text=, CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=860 CharacterOffsetEnd=863 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=before CharacterOffsetBegin=864 CharacterOffsetEnd=870 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=the CharacterOffsetBegin=871 CharacterOffsetEnd=874 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=genuine CharacterOffsetBegin=875 CharacterOffsetEnd=882 PartOfSpeech=JJ Lemma=genuine NamedEntityTag=O] [Text=taxpayer CharacterOffsetBegin=883 CharacterOffsetEnd=891 PartOfSpeech=NN Lemma=taxpayer NamedEntityTag=O] [Text=has CharacterOffsetBegin=892 CharacterOffsetEnd=895 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=filed CharacterOffsetBegin=896 CharacterOffsetEnd=901 PartOfSpeech=VBN Lemma=file NamedEntityTag=O] [Text=a CharacterOffsetBegin=902 CharacterOffsetEnd=903 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=return CharacterOffsetBegin=904 CharacterOffsetEnd=910 PartOfSpeech=NN Lemma=return NamedEntityTag=O] [Text=. CharacterOffsetBegin=910 CharacterOffsetEnd=911 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP make)
+      (ADJP (JJ sure)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (DT this) (JJ early))
+              (PP (IN in)
+                (NP (DT the) (NN tax) (NN season)))))))
+      (, ,)
+      (SBAR
+        (SBAR (IN before)
+          (S
+            (NP
+              (NP (DT the) (JJ actual) (NN taxpayer) (POS _s))
+              (NNS employers))
+            (VP (VBP have)
+              (VP (VBN had)
+                (NP (DT a) (NN chance))
+                (S
+                  (VP (TO to)
+                    (VP (VB send)
+                      (NP (DT the) (NNP IRS) (JJ legitimate) (NN wage) (NNS documents)))))))))
+        (, ,)
+        (CC and)
+        (SBAR (IN before)
+          (S
+            (NP (DT the) (JJ genuine) (NN taxpayer))
+            (VP (VBZ has)
+              (VP (VBN filed)
+                (NP (DT a) (NN return))))))))
+    (. .)))
+
+root(ROOT-0, make-2)
+nsubj(make-2, They-1)
+acomp(make-2, sure-3)
+aux(do-5, to-4)
+xcomp(sure-3, do-5)
+det(early-7, this-6)
+dobj(do-5, early-7)
+det(season-11, the-9)
+nn(season-11, tax-10)
+prep_in(do-5, season-11)
+mark(had-20, before-13)
+det(taxpayer-16, the-14)
+amod(taxpayer-16, actual-15)
+poss(employers-18, taxpayer-16)
+nsubj(had-20, employers-18)
+aux(had-20, have-19)
+advcl(make-2, had-20)
+det(chance-22, a-21)
+dobj(had-20, chance-22)
+aux(send-24, to-23)
+vmod(had-20, send-24)
+det(documents-29, the-25)
+nn(documents-29, IRS-26)
+amod(documents-29, legitimate-27)
+nn(documents-29, wage-28)
+dobj(send-24, documents-29)
+mark(filed-37, before-32)
+det(taxpayer-35, the-33)
+amod(taxpayer-35, genuine-34)
+nsubj(filed-37, taxpayer-35)
+aux(filed-37, has-36)
+conj_and(had-20, filed-37)
+det(return-39, a-38)
+dobj(filed-37, return-39)
+
+Sentence #7 (24 tokens):
+These tax refunds are often automatically sent directly to prepaid debit cards, allowing the criminal organizations to walk away with the money.
+[Text=These CharacterOffsetBegin=912 CharacterOffsetEnd=917 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=tax CharacterOffsetBegin=918 CharacterOffsetEnd=921 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=refunds CharacterOffsetBegin=922 CharacterOffsetEnd=929 PartOfSpeech=NNS Lemma=refund NamedEntityTag=O] [Text=are CharacterOffsetBegin=930 CharacterOffsetEnd=933 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=often CharacterOffsetBegin=934 CharacterOffsetEnd=939 PartOfSpeech=RB Lemma=often NamedEntityTag=O] [Text=automatically CharacterOffsetBegin=940 CharacterOffsetEnd=953 PartOfSpeech=RB Lemma=automatically NamedEntityTag=O] [Text=sent CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=directly CharacterOffsetBegin=959 CharacterOffsetEnd=967 PartOfSpeech=RB Lemma=directly NamedEntityTag=O] [Text=to CharacterOffsetBegin=968 CharacterOffsetEnd=970 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=prepaid CharacterOffsetBegin=971 CharacterOffsetEnd=978 PartOfSpeech=JJ Lemma=prepaid NamedEntityTag=O] [Text=debit CharacterOffsetBegin=979 CharacterOffsetEnd=984 PartOfSpeech=NN Lemma=debit NamedEntityTag=O] [Text=cards CharacterOffsetBegin=985 CharacterOffsetEnd=990 PartOfSpeech=NNS Lemma=card NamedEntityTag=O] [Text=, CharacterOffsetBegin=990 CharacterOffsetEnd=991 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=allowing CharacterOffsetBegin=992 CharacterOffsetEnd=1000 PartOfSpeech=VBG Lemma=allow NamedEntityTag=O] [Text=the CharacterOffsetBegin=1001 CharacterOffsetEnd=1004 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=criminal CharacterOffsetBegin=1005 CharacterOffsetEnd=1013 PartOfSpeech=JJ Lemma=criminal NamedEntityTag=O] [Text=organizations CharacterOffsetBegin=1014 CharacterOffsetEnd=1027 PartOfSpeech=NNS Lemma=organization NamedEntityTag=O] [Text=to CharacterOffsetBegin=1028 CharacterOffsetEnd=1030 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=walk CharacterOffsetBegin=1031 CharacterOffsetEnd=1035 PartOfSpeech=VB Lemma=walk NamedEntityTag=O] [Text=away CharacterOffsetBegin=1036 CharacterOffsetEnd=1040 PartOfSpeech=RB Lemma=away NamedEntityTag=O] [Text=with CharacterOffsetBegin=1041 CharacterOffsetEnd=1045 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=1046 CharacterOffsetEnd=1049 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=money CharacterOffsetBegin=1050 CharacterOffsetEnd=1055 PartOfSpeech=NN Lemma=money NamedEntityTag=O] [Text=. CharacterOffsetBegin=1055 CharacterOffsetEnd=1056 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT These) (NN tax) (NNS refunds))
+    (VP (VBP are)
+      (ADVP (RB often))
+      (VP
+        (ADVP (RB automatically))
+        (VBN sent)
+        (ADVP (RB directly))
+        (PP (TO to)
+          (NP (JJ prepaid) (NN debit) (NNS cards)))
+        (, ,)
+        (S
+          (VP (VBG allowing)
+            (NP (DT the) (JJ criminal) (NNS organizations))
+            (S
+              (VP (TO to)
+                (VP (VB walk)
+                  (ADVP (RB away))
+                  (PP (IN with)
+                    (NP (DT the) (NN money))))))))))
+    (. .)))
+
+root(ROOT-0, sent-7)
+det(refunds-3, These-1)
+nn(refunds-3, tax-2)
+nsubjpass(sent-7, refunds-3)
+auxpass(sent-7, are-4)
+advmod(sent-7, often-5)
+advmod(sent-7, automatically-6)
+advmod(sent-7, directly-8)
+amod(cards-12, prepaid-10)
+nn(cards-12, debit-11)
+prep_to(sent-7, cards-12)
+xcomp(sent-7, allowing-14)
+det(organizations-17, the-15)
+amod(organizations-17, criminal-16)
+dobj(allowing-14, organizations-17)
+aux(walk-19, to-18)
+xcomp(allowing-14, walk-19)
+advmod(walk-19, away-20)
+det(money-23, the-22)
+prep_with(walk-19, money-23)
+
+Sentence #8 (38 tokens):
+If you haven_t been able to apply for your tax records through the IRS website, it is because the IRS has shut down the online "Get Transcript" feature since they noticed the attacks.
+[Text=If CharacterOffsetBegin=1057 CharacterOffsetEnd=1059 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1060 CharacterOffsetEnd=1063 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=have CharacterOffsetBegin=1064 CharacterOffsetEnd=1068 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1068 CharacterOffsetEnd=1071 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=been CharacterOffsetBegin=1072 CharacterOffsetEnd=1076 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=able CharacterOffsetBegin=1077 CharacterOffsetEnd=1081 PartOfSpeech=JJ Lemma=able NamedEntityTag=O] [Text=to CharacterOffsetBegin=1082 CharacterOffsetEnd=1084 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=apply CharacterOffsetBegin=1085 CharacterOffsetEnd=1090 PartOfSpeech=VB Lemma=apply NamedEntityTag=O] [Text=for CharacterOffsetBegin=1091 CharacterOffsetEnd=1094 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=your CharacterOffsetBegin=1095 CharacterOffsetEnd=1099 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=tax CharacterOffsetBegin=1100 CharacterOffsetEnd=1103 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=records CharacterOffsetBegin=1104 CharacterOffsetEnd=1111 PartOfSpeech=NNS Lemma=record NamedEntityTag=O] [Text=through CharacterOffsetBegin=1112 CharacterOffsetEnd=1119 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=the CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1124 CharacterOffsetEnd=1127 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=website CharacterOffsetBegin=1128 CharacterOffsetEnd=1135 PartOfSpeech=NN Lemma=website NamedEntityTag=O] [Text=, CharacterOffsetBegin=1135 CharacterOffsetEnd=1136 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=1137 CharacterOffsetEnd=1139 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=1140 CharacterOffsetEnd=1142 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=because CharacterOffsetBegin=1143 CharacterOffsetEnd=1150 PartOfSpeech=IN Lemma=because NamedEntityTag=O] [Text=the CharacterOffsetBegin=1151 CharacterOffsetEnd=1154 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1155 CharacterOffsetEnd=1158 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1159 CharacterOffsetEnd=1162 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=shut CharacterOffsetBegin=1163 CharacterOffsetEnd=1167 PartOfSpeech=VBN Lemma=shut NamedEntityTag=O] [Text=down CharacterOffsetBegin=1168 CharacterOffsetEnd=1172 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=the CharacterOffsetBegin=1173 CharacterOffsetEnd=1176 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=online CharacterOffsetBegin=1177 CharacterOffsetEnd=1183 PartOfSpeech=NN Lemma=online NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Get CharacterOffsetBegin=1185 CharacterOffsetEnd=1188 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=Transcript CharacterOffsetBegin=1189 CharacterOffsetEnd=1199 PartOfSpeech=NNP Lemma=Transcript NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1199 CharacterOffsetEnd=1200 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=feature CharacterOffsetBegin=1201 CharacterOffsetEnd=1208 PartOfSpeech=NN Lemma=feature NamedEntityTag=O] [Text=since CharacterOffsetBegin=1209 CharacterOffsetEnd=1214 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=they CharacterOffsetBegin=1215 CharacterOffsetEnd=1219 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=noticed CharacterOffsetBegin=1220 CharacterOffsetEnd=1227 PartOfSpeech=VBD Lemma=notice NamedEntityTag=O] [Text=the CharacterOffsetBegin=1228 CharacterOffsetEnd=1231 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=attacks CharacterOffsetBegin=1232 CharacterOffsetEnd=1239 PartOfSpeech=NNS Lemma=attack NamedEntityTag=O] [Text=. CharacterOffsetBegin=1239 CharacterOffsetEnd=1240 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP have) (RB n_t)
+          (VP (VBN been)
+            (ADJP (JJ able)
+              (S
+                (VP (TO to)
+                  (VP (VB apply)
+                    (PP (IN for)
+                      (NP (PRP$ your) (NN tax) (NNS records)))
+                    (PP (IN through)
+                      (NP (DT the) (NNP IRS) (NN website)))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (SBAR (IN because)
+        (S
+          (NP (DT the) (NNP IRS))
+          (VP (VBZ has)
+            (VP (VBN shut)
+              (PRT (RP down))
+              (NP (DT the) (NN online)
+                (S (`` ``)
+                  (VP (VB Get)
+                    (NP (NNP Transcript) (__ __))
+                    (NP (NN feature)))))
+              (SBAR (IN since)
+                (S
+                  (NP (PRP they))
+                  (VP (VBD noticed)
+                    (NP (DT the) (NNS attacks))))))))))
+    (. .)))
+
+root(ROOT-0, is-19)
+mark(able-6, If-1)
+nsubj(able-6, you-2)
+aux(able-6, have-3)
+neg(able-6, n_t-4)
+cop(able-6, been-5)
+advcl(is-19, able-6)
+aux(apply-8, to-7)
+xcomp(able-6, apply-8)
+poss(records-12, your-10)
+nn(records-12, tax-11)
+prep_for(apply-8, records-12)
+det(website-16, the-14)
+nn(website-16, IRS-15)
+prep_through(apply-8, website-16)
+nsubj(is-19, it-18)
+mark(shut-24, because-20)
+det(IRS-22, the-21)
+nsubj(shut-24, IRS-22)
+aux(shut-24, has-23)
+advcl(is-19, shut-24)
+prt(shut-24, down-25)
+det(online-27, the-26)
+dobj(shut-24, online-27)
+dep(online-27, Get-29)
+iobj(Get-29, Transcript-30)
+dobj(Get-29, feature-32)
+mark(noticed-35, since-33)
+nsubj(noticed-35, they-34)
+advcl(shut-24, noticed-35)
+det(attacks-37, the-36)
+dobj(noticed-35, attacks-37)
+
+Sentence #9 (29 tokens):
+So, if you need copies of previous tax filings for something like a loan application, you will need to apply the old-fashioned way, by mail.
+[Text=So CharacterOffsetBegin=1241 CharacterOffsetEnd=1243 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=, CharacterOffsetBegin=1243 CharacterOffsetEnd=1244 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=if CharacterOffsetBegin=1245 CharacterOffsetEnd=1247 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1248 CharacterOffsetEnd=1251 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=need CharacterOffsetBegin=1252 CharacterOffsetEnd=1256 PartOfSpeech=VBP Lemma=need NamedEntityTag=O] [Text=copies CharacterOffsetBegin=1257 CharacterOffsetEnd=1263 PartOfSpeech=NNS Lemma=copy NamedEntityTag=O] [Text=of CharacterOffsetBegin=1264 CharacterOffsetEnd=1266 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=previous CharacterOffsetBegin=1267 CharacterOffsetEnd=1275 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O] [Text=tax CharacterOffsetBegin=1276 CharacterOffsetEnd=1279 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=filings CharacterOffsetBegin=1280 CharacterOffsetEnd=1287 PartOfSpeech=NNS Lemma=filings NamedEntityTag=O] [Text=for CharacterOffsetBegin=1288 CharacterOffsetEnd=1291 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=something CharacterOffsetBegin=1292 CharacterOffsetEnd=1301 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=like CharacterOffsetBegin=1302 CharacterOffsetEnd=1306 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=a CharacterOffsetBegin=1307 CharacterOffsetEnd=1308 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=loan CharacterOffsetBegin=1309 CharacterOffsetEnd=1313 PartOfSpeech=NN Lemma=loan NamedEntityTag=O] [Text=application CharacterOffsetBegin=1314 CharacterOffsetEnd=1325 PartOfSpeech=NN Lemma=application NamedEntityTag=O] [Text=, CharacterOffsetBegin=1325 CharacterOffsetEnd=1326 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=1327 CharacterOffsetEnd=1330 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=will CharacterOffsetBegin=1331 CharacterOffsetEnd=1335 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=need CharacterOffsetBegin=1336 CharacterOffsetEnd=1340 PartOfSpeech=VB Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=1341 CharacterOffsetEnd=1343 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=apply CharacterOffsetBegin=1344 CharacterOffsetEnd=1349 PartOfSpeech=VB Lemma=apply NamedEntityTag=O] [Text=the CharacterOffsetBegin=1350 CharacterOffsetEnd=1353 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=old-fashioned CharacterOffsetBegin=1354 CharacterOffsetEnd=1367 PartOfSpeech=JJ Lemma=old-fashioned NamedEntityTag=O] [Text=way CharacterOffsetBegin=1368 CharacterOffsetEnd=1371 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=, CharacterOffsetBegin=1371 CharacterOffsetEnd=1372 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=by CharacterOffsetBegin=1373 CharacterOffsetEnd=1375 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=mail CharacterOffsetBegin=1376 CharacterOffsetEnd=1380 PartOfSpeech=NN Lemma=mail NamedEntityTag=O] [Text=. CharacterOffsetBegin=1380 CharacterOffsetEnd=1381 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (RB So) (, ,)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP need)
+          (NP
+            (NP (NNS copies))
+            (PP (IN of)
+              (NP
+                (NP (JJ previous) (NN tax) (NNS filings))
+                (PP (IN for)
+                  (NP
+                    (NP (NN something))
+                    (PP (IN like)
+                      (NP (DT a) (NN loan) (NN application)))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB apply)
+              (NP (DT the) (JJ old-fashioned) (NN way))
+              (, ,)
+              (PP (IN by)
+                (NP (NN mail))))))))
+    (. .)))
+
+root(ROOT-0, need-20)
+advmod(need-20, So-1)
+mark(need-5, if-3)
+nsubj(need-5, you-4)
+advcl(need-20, need-5)
+dobj(need-5, copies-6)
+amod(filings-10, previous-8)
+nn(filings-10, tax-9)
+prep_of(copies-6, filings-10)
+prep_for(filings-10, something-12)
+det(application-16, a-14)
+nn(application-16, loan-15)
+prep_like(something-12, application-16)
+nsubj(need-20, you-18)
+aux(need-20, will-19)
+aux(apply-22, to-21)
+xcomp(need-20, apply-22)
+det(way-25, the-23)
+amod(way-25, old-fashioned-24)
+dobj(apply-22, way-25)
+prep_by(apply-22, mail-28)
+
+Sentence #10 (8 tokens):
+These aren_t your run-of-the-mill independent hackers.
+[Text=These CharacterOffsetBegin=1382 CharacterOffsetEnd=1387 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=are CharacterOffsetBegin=1388 CharacterOffsetEnd=1391 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1391 CharacterOffsetEnd=1394 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=your CharacterOffsetBegin=1395 CharacterOffsetEnd=1399 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=run-of-the-mill CharacterOffsetBegin=1400 CharacterOffsetEnd=1415 PartOfSpeech=JJ Lemma=run-of-the-mill NamedEntityTag=O] [Text=independent CharacterOffsetBegin=1416 CharacterOffsetEnd=1427 PartOfSpeech=JJ Lemma=independent NamedEntityTag=O] [Text=hackers CharacterOffsetBegin=1428 CharacterOffsetEnd=1435 PartOfSpeech=NNS Lemma=hacker NamedEntityTag=O] [Text=. CharacterOffsetBegin=1435 CharacterOffsetEnd=1436 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are) (RB n_t)
+      (NP (PRP$ your) (JJ run-of-the-mill) (JJ independent) (NNS hackers)))
+    (. .)))
+
+root(ROOT-0, hackers-7)
+nsubj(hackers-7, These-1)
+cop(hackers-7, are-2)
+neg(hackers-7, n_t-3)
+poss(hackers-7, your-4)
+amod(hackers-7, run-of-the-mill-5)
+amod(hackers-7, independent-6)
+
+Sentence #11 (17 tokens):
+According to IRS Commissioner John Koskinen,
+"We_re confident that these are not amateurs.
+[Text=According CharacterOffsetBegin=1437 CharacterOffsetEnd=1446 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=1447 CharacterOffsetEnd=1449 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1450 CharacterOffsetEnd=1453 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=Commissioner CharacterOffsetBegin=1454 CharacterOffsetEnd=1466 PartOfSpeech=NNP Lemma=Commissioner NamedEntityTag=O] [Text=John CharacterOffsetBegin=1467 CharacterOffsetEnd=1471 PartOfSpeech=NNP Lemma=John NamedEntityTag=PERSON] [Text=Koskinen CharacterOffsetBegin=1472 CharacterOffsetEnd=1480 PartOfSpeech=NNP Lemma=Koskinen NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1480 CharacterOffsetEnd=1481 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1482 CharacterOffsetEnd=1483 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=1483 CharacterOffsetEnd=1485 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_re CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=confident CharacterOffsetBegin=1489 CharacterOffsetEnd=1498 PartOfSpeech=JJ Lemma=confident NamedEntityTag=O] [Text=that CharacterOffsetBegin=1499 CharacterOffsetEnd=1503 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=these CharacterOffsetBegin=1504 CharacterOffsetEnd=1509 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=are CharacterOffsetBegin=1510 CharacterOffsetEnd=1513 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=1514 CharacterOffsetEnd=1517 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=amateurs CharacterOffsetBegin=1518 CharacterOffsetEnd=1526 PartOfSpeech=NNS Lemma=amateur NamedEntityTag=O] [Text=. CharacterOffsetBegin=1526 CharacterOffsetEnd=1527 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (NNP IRS) (NNP Commissioner) (NNP John) (NNP Koskinen))))
+    (, ,) (`` ``)
+    (NP (PRP We))
+    (VP (VBP _re)
+      (ADJP (JJ confident)
+        (SBAR (IN that)
+          (S
+            (NP (DT these))
+            (VP (VBP are) (RB not)
+              (NP (NNS amateurs)))))))
+    (. .)))
+
+root(ROOT-0, confident-11)
+prepc_according_to(confident-11, to-2)
+nn(Koskinen-6, IRS-3)
+nn(Koskinen-6, Commissioner-4)
+nn(Koskinen-6, John-5)
+pobj(confident-11, Koskinen-6)
+nsubj(confident-11, We-9)
+cop(confident-11, _re-10)
+mark(amateurs-16, that-12)
+nsubj(amateurs-16, these-13)
+cop(amateurs-16, are-14)
+neg(amateurs-16, not-15)
+ccomp(confident-11, amateurs-16)
+
+Sentence #12 (24 tokens):
+These, actually, are organized crime syndicates that no only we, but everybody in the financial industry are dealing with."
+[Text=These CharacterOffsetBegin=1528 CharacterOffsetEnd=1533 PartOfSpeech=DT Lemma=these NamedEntityTag=O] [Text=, CharacterOffsetBegin=1533 CharacterOffsetEnd=1534 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=actually CharacterOffsetBegin=1535 CharacterOffsetEnd=1543 PartOfSpeech=RB Lemma=actually NamedEntityTag=O] [Text=, CharacterOffsetBegin=1543 CharacterOffsetEnd=1544 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=are CharacterOffsetBegin=1545 CharacterOffsetEnd=1548 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=organized CharacterOffsetBegin=1549 CharacterOffsetEnd=1558 PartOfSpeech=VBN Lemma=organize NamedEntityTag=O] [Text=crime CharacterOffsetBegin=1559 CharacterOffsetEnd=1564 PartOfSpeech=NN Lemma=crime NamedEntityTag=O] [Text=syndicates CharacterOffsetBegin=1565 CharacterOffsetEnd=1575 PartOfSpeech=NNS Lemma=syndicate NamedEntityTag=O] [Text=that CharacterOffsetBegin=1576 CharacterOffsetEnd=1580 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=no CharacterOffsetBegin=1581 CharacterOffsetEnd=1583 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=only CharacterOffsetBegin=1584 CharacterOffsetEnd=1588 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=we CharacterOffsetBegin=1589 CharacterOffsetEnd=1591 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=, CharacterOffsetBegin=1591 CharacterOffsetEnd=1592 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1593 CharacterOffsetEnd=1596 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=everybody CharacterOffsetBegin=1597 CharacterOffsetEnd=1606 PartOfSpeech=NN Lemma=everybody NamedEntityTag=O] [Text=in CharacterOffsetBegin=1607 CharacterOffsetEnd=1609 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1610 CharacterOffsetEnd=1613 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=financial CharacterOffsetBegin=1614 CharacterOffsetEnd=1623 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O] [Text=industry CharacterOffsetBegin=1624 CharacterOffsetEnd=1632 PartOfSpeech=NN Lemma=industry NamedEntityTag=O] [Text=are CharacterOffsetBegin=1633 CharacterOffsetEnd=1636 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=dealing CharacterOffsetBegin=1637 CharacterOffsetEnd=1644 PartOfSpeech=VBG Lemma=deal NamedEntityTag=O] [Text=with CharacterOffsetBegin=1645 CharacterOffsetEnd=1649 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=. CharacterOffsetBegin=1649 CharacterOffsetEnd=1650 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1650 CharacterOffsetEnd=1651 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT These))
+      (, ,)
+      (ADVP (RB actually))
+      (, ,)
+      (VP (VBP are)
+        (VP (VBN organized)
+          (S
+            (NP (NN crime) (NNS syndicates)))
+          (SBAR (IN that)
+            (S
+              (NP (DT no) (RB only))
+              (NP (PRP we)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (NN everybody))
+        (PP (IN in)
+          (NP (DT the) (JJ financial) (NN industry))))
+      (VP (VBP are)
+        (VP (VBG dealing)
+          (PP (IN with)))))
+    (. .) (__ __)))
+
+root(ROOT-0, organized-6)
+nsubjpass(organized-6, These-1)
+advmod(organized-6, actually-3)
+auxpass(organized-6, are-5)
+nn(syndicates-8, crime-7)
+xcomp(organized-6, syndicates-8)
+mark(we-12, that-9)
+neg(only-11, no-10)
+dep(we-12, only-11)
+dep(organized-6, we-12)
+nsubj(dealing-21, everybody-15)
+det(industry-19, the-17)
+amod(industry-19, financial-18)
+prep_in(everybody-15, industry-19)
+aux(dealing-21, are-20)
+conj_but(organized-6, dealing-21)
+prep(dealing-21, with-22)
+
+Sentence #13 (18 tokens):
+It will be difficult for the IRS to try to sweep the security breach under the rug.
+[Text=It CharacterOffsetBegin=1652 CharacterOffsetEnd=1654 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=will CharacterOffsetBegin=1655 CharacterOffsetEnd=1659 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=1660 CharacterOffsetEnd=1662 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=difficult CharacterOffsetBegin=1663 CharacterOffsetEnd=1672 PartOfSpeech=JJ Lemma=difficult NamedEntityTag=O] [Text=for CharacterOffsetBegin=1673 CharacterOffsetEnd=1676 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1677 CharacterOffsetEnd=1680 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1681 CharacterOffsetEnd=1684 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=to CharacterOffsetBegin=1685 CharacterOffsetEnd=1687 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=try CharacterOffsetBegin=1688 CharacterOffsetEnd=1691 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=1692 CharacterOffsetEnd=1694 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sweep CharacterOffsetBegin=1695 CharacterOffsetEnd=1700 PartOfSpeech=NN Lemma=sweep NamedEntityTag=O] [Text=the CharacterOffsetBegin=1701 CharacterOffsetEnd=1704 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=security CharacterOffsetBegin=1705 CharacterOffsetEnd=1713 PartOfSpeech=NN Lemma=security NamedEntityTag=O] [Text=breach CharacterOffsetBegin=1714 CharacterOffsetEnd=1720 PartOfSpeech=NN Lemma=breach NamedEntityTag=O] [Text=under CharacterOffsetBegin=1721 CharacterOffsetEnd=1726 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=the CharacterOffsetBegin=1727 CharacterOffsetEnd=1730 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=rug CharacterOffsetBegin=1731 CharacterOffsetEnd=1734 PartOfSpeech=NN Lemma=rug NamedEntityTag=O] [Text=. CharacterOffsetBegin=1734 CharacterOffsetEnd=1735 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ difficult)
+          (PP (IN for)
+            (NP (DT the) (NNP IRS))))
+        (S
+          (VP (TO to)
+            (VP (VB try)
+              (PP (TO to)
+                (NP (NN sweep)))
+              (NP
+                (NP (DT the) (NN security) (NN breach))
+                (PP (IN under)
+                  (NP (DT the) (NN rug)))))))))
+    (. .)))
+
+root(ROOT-0, difficult-4)
+nsubj(difficult-4, It-1)
+aux(difficult-4, will-2)
+cop(difficult-4, be-3)
+det(IRS-7, the-6)
+prep_for(difficult-4, IRS-7)
+aux(try-9, to-8)
+xcomp(difficult-4, try-9)
+prep_to(try-9, sweep-11)
+det(breach-14, the-12)
+nn(breach-14, security-13)
+dobj(try-9, breach-14)
+det(rug-17, the-16)
+prep_under(breach-14, rug-17)
+
+Sentence #14 (22 tokens):
+U.S. Congress is needling the IRS for information, and the IRS has already launched a criminal investigation in the matter.
+[Text=U.S. CharacterOffsetBegin=1736 CharacterOffsetEnd=1740 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=ORGANIZATION] [Text=Congress CharacterOffsetBegin=1741 CharacterOffsetEnd=1749 PartOfSpeech=NNP Lemma=Congress NamedEntityTag=ORGANIZATION] [Text=is CharacterOffsetBegin=1750 CharacterOffsetEnd=1752 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=needling CharacterOffsetBegin=1753 CharacterOffsetEnd=1761 PartOfSpeech=VBG Lemma=needle NamedEntityTag=O] [Text=the CharacterOffsetBegin=1762 CharacterOffsetEnd=1765 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1766 CharacterOffsetEnd=1769 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=1770 CharacterOffsetEnd=1773 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=information CharacterOffsetBegin=1774 CharacterOffsetEnd=1785 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=, CharacterOffsetBegin=1785 CharacterOffsetEnd=1786 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1787 CharacterOffsetEnd=1790 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=1791 CharacterOffsetEnd=1794 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1795 CharacterOffsetEnd=1798 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1799 CharacterOffsetEnd=1802 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=already CharacterOffsetBegin=1803 CharacterOffsetEnd=1810 PartOfSpeech=RB Lemma=already NamedEntityTag=O] [Text=launched CharacterOffsetBegin=1811 CharacterOffsetEnd=1819 PartOfSpeech=VBN Lemma=launch NamedEntityTag=O] [Text=a CharacterOffsetBegin=1820 CharacterOffsetEnd=1821 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=criminal CharacterOffsetBegin=1822 CharacterOffsetEnd=1830 PartOfSpeech=JJ Lemma=criminal NamedEntityTag=O] [Text=investigation CharacterOffsetBegin=1831 CharacterOffsetEnd=1844 PartOfSpeech=NN Lemma=investigation NamedEntityTag=O] [Text=in CharacterOffsetBegin=1845 CharacterOffsetEnd=1847 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1848 CharacterOffsetEnd=1851 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=matter CharacterOffsetBegin=1852 CharacterOffsetEnd=1858 PartOfSpeech=NN Lemma=matter NamedEntityTag=O] [Text=. CharacterOffsetBegin=1858 CharacterOffsetEnd=1859 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP U.S.) (NNP Congress))
+      (VP (VBZ is)
+        (VP (VBG needling)
+          (NP
+            (NP (DT the) (NNP IRS))
+            (PP (IN for)
+              (NP (NN information)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NNP IRS))
+      (VP (VBZ has)
+        (ADVP (RB already))
+        (VP (VBN launched)
+          (NP
+            (NP (DT a) (JJ criminal) (NN investigation))
+            (PP (IN in)
+              (NP (DT the) (NN matter)))))))
+    (. .)))
+
+root(ROOT-0, needling-4)
+nn(Congress-2, U.S.-1)
+nsubj(needling-4, Congress-2)
+aux(needling-4, is-3)
+det(IRS-6, the-5)
+dobj(needling-4, IRS-6)
+prep_for(IRS-6, information-8)
+det(IRS-12, the-11)
+nsubj(launched-15, IRS-12)
+aux(launched-15, has-13)
+advmod(launched-15, already-14)
+conj_and(needling-4, launched-15)
+det(investigation-18, a-16)
+amod(investigation-18, criminal-17)
+dobj(launched-15, investigation-18)
+det(matter-21, the-20)
+prep_in(investigation-18, matter-21)
+
+Sentence #15 (26 tokens):
+If you are concerned whether your information was accessed, the IRS says it will be contacting taxpayers whose data was accessed during the breach.
+[Text=If CharacterOffsetBegin=1860 CharacterOffsetEnd=1862 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1863 CharacterOffsetEnd=1866 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=1867 CharacterOffsetEnd=1870 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=concerned CharacterOffsetBegin=1871 CharacterOffsetEnd=1880 PartOfSpeech=JJ Lemma=concerned NamedEntityTag=O] [Text=whether CharacterOffsetBegin=1881 CharacterOffsetEnd=1888 PartOfSpeech=IN Lemma=whether NamedEntityTag=O] [Text=your CharacterOffsetBegin=1889 CharacterOffsetEnd=1893 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=information CharacterOffsetBegin=1894 CharacterOffsetEnd=1905 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=was CharacterOffsetBegin=1906 CharacterOffsetEnd=1909 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=accessed CharacterOffsetBegin=1910 CharacterOffsetEnd=1918 PartOfSpeech=VBN Lemma=access NamedEntityTag=O] [Text=, CharacterOffsetBegin=1918 CharacterOffsetEnd=1919 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1920 CharacterOffsetEnd=1923 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=IRS CharacterOffsetBegin=1924 CharacterOffsetEnd=1927 PartOfSpeech=NNP Lemma=IRS NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=1928 CharacterOffsetEnd=1932 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=it CharacterOffsetBegin=1933 CharacterOffsetEnd=1935 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=will CharacterOffsetBegin=1936 CharacterOffsetEnd=1940 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=1941 CharacterOffsetEnd=1943 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=contacting CharacterOffsetBegin=1944 CharacterOffsetEnd=1954 PartOfSpeech=VBG Lemma=contact NamedEntityTag=O] [Text=taxpayers CharacterOffsetBegin=1955 CharacterOffsetEnd=1964 PartOfSpeech=NNS Lemma=taxpayer NamedEntityTag=O] [Text=whose CharacterOffsetBegin=1965 CharacterOffsetEnd=1970 PartOfSpeech=WP$ Lemma=whose NamedEntityTag=O] [Text=data CharacterOffsetBegin=1971 CharacterOffsetEnd=1975 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=was CharacterOffsetBegin=1976 CharacterOffsetEnd=1979 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=accessed CharacterOffsetBegin=1980 CharacterOffsetEnd=1988 PartOfSpeech=VBN Lemma=access NamedEntityTag=O] [Text=during CharacterOffsetBegin=1989 CharacterOffsetEnd=1995 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=1996 CharacterOffsetEnd=1999 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=breach CharacterOffsetBegin=2000 CharacterOffsetEnd=2006 PartOfSpeech=NN Lemma=breach NamedEntityTag=O] [Text=. CharacterOffsetBegin=2006 CharacterOffsetEnd=2007 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (ADJP (JJ concerned)
+            (SBAR (IN whether)
+              (S
+                (NP (PRP$ your) (NN information))
+                (VP (VBD was)
+                  (VP (VBN accessed)))))))))
+    (, ,)
+    (NP (DT the) (NNP IRS))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBG contacting)
+                (NP
+                  (NP (NNS taxpayers))
+                  (SBAR (WP$ whose)
+                    (S
+                      (NP (NNS data))
+                      (VP (VBD was)
+                        (VP (VBN accessed)
+                          (PP (IN during)
+                            (NP (DT the) (NN breach))))))))))))))
+    (. .)))
+
+root(ROOT-0, says-13)
+mark(concerned-4, If-1)
+nsubj(concerned-4, you-2)
+cop(concerned-4, are-3)
+advcl(says-13, concerned-4)
+mark(accessed-9, whether-5)
+poss(information-7, your-6)
+nsubjpass(accessed-9, information-7)
+auxpass(accessed-9, was-8)
+ccomp(concerned-4, accessed-9)
+det(IRS-12, the-11)
+nsubj(says-13, IRS-12)
+nsubj(contacting-17, it-14)
+aux(contacting-17, will-15)
+aux(contacting-17, be-16)
+ccomp(says-13, contacting-17)
+dobj(contacting-17, taxpayers-18)
+dep(accessed-22, whose-19)
+nsubjpass(accessed-22, data-20)
+auxpass(accessed-22, was-21)
+dep(taxpayers-18, accessed-22)
+det(breach-25, the-24)
+prep_during(accessed-22, breach-25)
+
+Sentence #16 (7 tokens):
+Source: AP
+Story Timeline
+Site Information
+[Text=Source CharacterOffsetBegin=2008 CharacterOffsetEnd=2014 PartOfSpeech=NN Lemma=source NamedEntityTag=O] [Text=: CharacterOffsetBegin=2014 CharacterOffsetEnd=2015 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=AP CharacterOffsetBegin=2016 CharacterOffsetEnd=2018 PartOfSpeech=NNP Lemma=AP NamedEntityTag=ORGANIZATION] [Text=Story CharacterOffsetBegin=2019 CharacterOffsetEnd=2024 PartOfSpeech=NNP Lemma=Story NamedEntityTag=O] [Text=Timeline CharacterOffsetBegin=2025 CharacterOffsetEnd=2033 PartOfSpeech=NNP Lemma=Timeline NamedEntityTag=O] [Text=Site CharacterOffsetBegin=2034 CharacterOffsetEnd=2038 PartOfSpeech=NN Lemma=site NamedEntityTag=O] [Text=Information CharacterOffsetBegin=2039 CharacterOffsetEnd=2050 PartOfSpeech=NN Lemma=information NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Source))
+    (: :)
+    (NP (NNP AP) (NNP Story) (NNP Timeline) (NN Site) (NN Information))))
+
+root(ROOT-0, Source-1)
+nn(Information-7, AP-3)
+nn(Information-7, Story-4)
+nn(Information-7, Timeline-5)
+nn(Information-7, Site-6)
+dep(Source-1, Information-7)
+
+Coreference set:
+ (2,15,[14,16]) -> (1,5,[4,18]), that is: "the hackers" -> "2015 Hackers successfully accessed -- stole -- personal information , including tax return data"
+Coreference set:
+ (15,20,[20,21]) -> (1,17,[15,18]), that is: "data" -> "tax return data"
+Coreference set:
+ (2,5,[5,13]) -> (8,37,[36,38]), that is: "attacks that took place from February to mid-May" -> "the attacks"
+Coreference set:
+ (4,4,[3,5]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+ (4,4,[4,5]) -> (2,18,[17,20]), that is: "IRS" -> "the IRS _s"
+ (5,3,[2,4]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+ (5,3,[3,4]) -> (2,18,[17,20]), that is: "IRS" -> "the IRS _s"
+ (6,26,[26,27]) -> (2,18,[17,20]), that is: "IRS" -> "the IRS _s"
+ (8,15,[15,16]) -> (2,18,[17,20]), that is: "IRS" -> "the IRS _s"
+ (8,22,[21,23]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+ (11,3,[3,4]) -> (2,18,[17,20]), that is: "IRS" -> "the IRS _s"
+ (13,7,[6,8]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+ (14,12,[11,13]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+ (15,12,[11,13]) -> (2,18,[17,20]), that is: "the IRS" -> "the IRS _s"
+Coreference set:
+ (2,22,[22,23]) -> (8,30,[30,32]), that is: "Transcript" -> "Transcript __"
+Coreference set:
+ (3,2,[1,6]) -> (3,12,[10,15]), that is: "The motivation behind the attack" -> "an extensive plot to claim"
+Coreference set:
+ (6,1,[1,2]) -> (5,6,[5,7]), that is: "They" -> "the criminals"
+Coreference set:
+ (8,34,[34,35]) -> (7,17,[15,18]), that is: "they" -> "the criminal organizations"
+Coreference set:
+ (8,18,[18,19]) -> (8,16,[14,17]), that is: "it" -> "the IRS website"
+Coreference set:
+ (10,1,[1,2]) -> (10,7,[4,8]), that is: "These" -> "your run-of-the-mill independent hackers"
+ (11,13,[13,14]) -> (10,7,[4,8]), that is: "these" -> "your run-of-the-mill independent hackers"
+ (11,16,[16,17]) -> (10,7,[4,8]), that is: "amateurs" -> "your run-of-the-mill independent hackers"
+ (12,1,[1,2]) -> (10,7,[4,8]), that is: "These" -> "your run-of-the-mill independent hackers"
+Coreference set:
+ (11,9,[9,10]) -> (10,4,[4,5]), that is: "We" -> "your"
+ (12,12,[12,13]) -> (10,4,[4,5]), that is: "we" -> "your"
+Coreference set:
+ (15,25,[24,26]) -> (13,14,[12,18]), that is: "the breach" -> "the security breach under the rug"
+Coreference set:
+ (15,14,[14,15]) -> (15,7,[6,8]), that is: "it" -> "your information"

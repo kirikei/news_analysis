@@ -1,0 +1,1476 @@
+Sentence #1 (9 tokens):
+Cancel
+Set
+Get the news
+Share This Story!
+[Text=Cancel CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=VB Lemma=cancel NamedEntityTag=O] [Text=Set CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=VB Lemma=set NamedEntityTag=O] [Text=Get CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=news CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=Share CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=This CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=Story CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=Story NamedEntityTag=O] [Text=! CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Cancel)
+      (VP (VB Set)
+        (S
+          (VP (VB Get)
+            (NP (DT the) (NN news) (NN Share))
+            (NP (DT This) (NNP Story))))))
+    (. !)))
+
+root(ROOT-0, Cancel-1)
+dep(Cancel-1, Set-2)
+ccomp(Set-2, Get-3)
+det(Share-6, the-4)
+nn(Share-6, news-5)
+iobj(Get-3, Share-6)
+det(Story-8, This-7)
+dobj(Get-3, Story-8)
+
+Sentence #2 (24 tokens):
+Let friends in your social network know what you are reading about
+Officials arrested in Zurich face extradition to U.S. on federal charges.
+[Text=Let CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=VB Lemma=let NamedEntityTag=O] [Text=friends CharacterOffsetBegin=46 CharacterOffsetEnd=53 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O] [Text=in CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=your CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=social CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=network CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=NN Lemma=network NamedEntityTag=O] [Text=know CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=what CharacterOffsetBegin=82 CharacterOffsetEnd=86 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=you CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=reading CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=VBG Lemma=read NamedEntityTag=O] [Text=about CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Officials CharacterOffsetBegin=109 CharacterOffsetEnd=118 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=arrested CharacterOffsetBegin=119 CharacterOffsetEnd=127 PartOfSpeech=VBN Lemma=arrest NamedEntityTag=O] [Text=in CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=face CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VBP Lemma=face NamedEntityTag=O] [Text=extradition CharacterOffsetBegin=143 CharacterOffsetEnd=154 PartOfSpeech=NN Lemma=extradition NamedEntityTag=O] [Text=to CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=federal CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=charges CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VB Let)
+        (SBAR
+          (S
+            (NP
+              (NP (NNS friends))
+              (PP (IN in)
+                (NP (PRP$ your) (JJ social) (NN network))))
+            (VP (VBP know)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP are)
+                    (VP (VBG reading)
+                      (PP (IN about)
+                        (NP
+                          (NP (NNS Officials))
+                          (VP (VBN arrested)
+                            (PP (IN in)
+                              (NP (NNP Zurich)))))))))))))))
+    (VP (VBP face)
+      (NP (NN extradition))
+      (PP (TO to)
+        (NP
+          (NP (NNP U.S.))
+          (PP (IN on)
+            (NP (JJ federal) (NNS charges))))))
+    (. .)))
+
+root(ROOT-0, face-17)
+csubj(face-17, Let-1)
+nsubj(know-7, friends-2)
+poss(network-6, your-4)
+amod(network-6, social-5)
+prep_in(friends-2, network-6)
+ccomp(Let-1, know-7)
+dobj(reading-11, what-8)
+nsubj(reading-11, you-9)
+aux(reading-11, are-10)
+ccomp(know-7, reading-11)
+prep_about(reading-11, Officials-13)
+vmod(Officials-13, arrested-14)
+prep_in(arrested-14, Zurich-16)
+dobj(face-17, extradition-18)
+prep_to(face-17, U.S.-20)
+amod(charges-23, federal-22)
+prep_on(U.S.-20, charges-23)
+
+Sentence #3 (22 tokens):
+Post to Facebook
+FIFA officials arrested on federal corruption charges Officials arrested in Zurich face extradition to U.S. on federal charges.
+[Text=Post CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=post NamedEntityTag=O] [Text=to CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=191 CharacterOffsetEnd=199 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=FIFA CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=officials CharacterOffsetBegin=205 CharacterOffsetEnd=214 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=arrested CharacterOffsetBegin=215 CharacterOffsetEnd=223 PartOfSpeech=VBN Lemma=arrest NamedEntityTag=O] [Text=on CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=federal CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=235 CharacterOffsetEnd=245 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=charges CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=Officials CharacterOffsetBegin=254 CharacterOffsetEnd=263 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=arrested CharacterOffsetBegin=264 CharacterOffsetEnd=272 PartOfSpeech=VBN Lemma=arrest NamedEntityTag=O] [Text=in CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=face CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=VBP Lemma=face NamedEntityTag=O] [Text=extradition CharacterOffsetBegin=288 CharacterOffsetEnd=299 PartOfSpeech=NN Lemma=extradition NamedEntityTag=O] [Text=to CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=federal CharacterOffsetBegin=311 CharacterOffsetEnd=318 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=charges CharacterOffsetBegin=319 CharacterOffsetEnd=326 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=. CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NN Post))
+      (PP (TO to)
+        (NP
+          (NP (NNP Facebook) (NNP FIFA) (NNS officials))
+          (VP (VBN arrested)
+            (PP (IN on)
+              (NP
+                (NP (JJ federal) (NN corruption) (NNS charges) (NNS Officials))
+                (VP (VBN arrested)
+                  (PP (IN in)
+                    (NP (NNP Zurich))))))))))
+    (VP (VBP face)
+      (NP (NN extradition))
+      (PP (TO to)
+        (NP
+          (NP (NNP U.S.))
+          (PP (IN on)
+            (NP (JJ federal) (NNS charges))))))
+    (. .)))
+
+root(ROOT-0, face-15)
+nsubj(face-15, Post-1)
+nn(officials-5, Facebook-3)
+nn(officials-5, FIFA-4)
+prep_to(Post-1, officials-5)
+vmod(officials-5, arrested-6)
+amod(Officials-11, federal-8)
+nn(Officials-11, corruption-9)
+nn(Officials-11, charges-10)
+prep_on(arrested-6, Officials-11)
+vmod(Officials-11, arrested-12)
+prep_in(arrested-12, Zurich-14)
+dobj(face-15, extradition-16)
+prep_to(face-15, U.S.-18)
+amod(charges-21, federal-20)
+prep_on(U.S.-18, charges-21)
+
+Sentence #4 (11 tokens):
+Check out this story on USATODAY.com: http:__usat.ly_1HvunRz
+CancelSend
+Sent!
+[Text=Check CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=VB Lemma=check NamedEntityTag=O] [Text=out CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=this CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=story CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=on CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=USATODAY.com CharacterOffsetBegin=352 CharacterOffsetEnd=364 PartOfSpeech=NNP Lemma=USATODAY.com NamedEntityTag=O] [Text=: CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=http:__usat.ly_1HvunRz CharacterOffsetBegin=366 CharacterOffsetEnd=388 PartOfSpeech=NN Lemma=http:__usat.ly_1hvunrz NamedEntityTag=O] [Text=CancelSend CharacterOffsetBegin=389 CharacterOffsetEnd=399 PartOfSpeech=NNP Lemma=CancelSend NamedEntityTag=O] [Text=Sent CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=NNP Lemma=Sent NamedEntityTag=O] [Text=! CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Check)
+      (PRT (RP out))
+      (NP
+        (NP
+          (NP (DT this) (NN story))
+          (PP (IN on)
+            (NP (NNP USATODAY.com))))
+        (: :)
+        (NP (NN http:__usat.ly_1HvunRz) (NNP CancelSend) (NNP Sent))))
+    (. !)))
+
+root(ROOT-0, Check-1)
+prt(Check-1, out-2)
+det(story-4, this-3)
+dobj(Check-1, story-4)
+prep_on(story-4, USATODAY.com-6)
+nn(Sent-10, http:__usat.ly_1HvunRz-8)
+nn(Sent-10, CancelSend-9)
+dep(story-4, Sent-10)
+
+Sentence #5 (12 tokens):
+A link has been sent to your friend_s email address.
+[Text=A CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=link CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=NN Lemma=link NamedEntityTag=O] [Text=has CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=sent CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=to CharacterOffsetBegin=427 CharacterOffsetEnd=429 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=your CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=friend CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=NN Lemma=friend NamedEntityTag=O] [Text=_s CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=email CharacterOffsetBegin=444 CharacterOffsetEnd=449 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=address CharacterOffsetBegin=450 CharacterOffsetEnd=457 PartOfSpeech=NN Lemma=address NamedEntityTag=O] [Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A) (NN link))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN sent)
+          (PP (TO to)
+            (NP
+              (NP (PRP$ your) (NN friend) (POS _s))
+              (NN email) (NN address))))))
+    (. .)))
+
+root(ROOT-0, sent-5)
+det(link-2, A-1)
+nsubjpass(sent-5, link-2)
+aux(sent-5, has-3)
+auxpass(sent-5, been-4)
+poss(friend-8, your-7)
+poss(address-11, friend-8)
+nn(address-11, email-10)
+prep_to(sent-5, address-11)
+
+Sentence #6 (2 tokens):
+Posted!
+[Text=Posted CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=VBN Lemma=post NamedEntityTag=O] [Text=! CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VBN Posted))
+    (. !)))
+
+root(ROOT-0, Posted-1)
+
+Sentence #7 (63 tokens):
+1
+Join the Nation_s Conversation
+To find out more about Facebook commenting please read the Conversation Guidelines and FAQs
+FIFA officials arrested on federal corruption charges
+AP 1:44 a.m. EDT May 27, 2015
+FILE - According to reports, the U.S. Justice Department plans to announce corruption charges against officials at FIFA, the world_s governing body of football.
+[Text=1 CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=LS Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=Join CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=VB Lemma=join NamedEntityTag=O] [Text=the CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Nation CharacterOffsetBegin=478 CharacterOffsetEnd=484 PartOfSpeech=NN Lemma=nation NamedEntityTag=O] [Text=_s CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Conversation CharacterOffsetBegin=487 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=conversation NamedEntityTag=O] [Text=To CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=find CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=VB Lemma=find NamedEntityTag=O] [Text=out CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=more CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=about CharacterOffsetBegin=517 CharacterOffsetEnd=522 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=523 CharacterOffsetEnd=531 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=commenting CharacterOffsetBegin=532 CharacterOffsetEnd=542 PartOfSpeech=VBG Lemma=comment NamedEntityTag=O] [Text=please CharacterOffsetBegin=543 CharacterOffsetEnd=549 PartOfSpeech=VB Lemma=please NamedEntityTag=O] [Text=read CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Conversation CharacterOffsetBegin=559 CharacterOffsetEnd=571 PartOfSpeech=NNP Lemma=Conversation NamedEntityTag=O] [Text=Guidelines CharacterOffsetBegin=572 CharacterOffsetEnd=582 PartOfSpeech=NNS Lemma=guideline NamedEntityTag=O] [Text=and CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=FAQs CharacterOffsetBegin=587 CharacterOffsetEnd=591 PartOfSpeech=NNS Lemma=faq NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=officials CharacterOffsetBegin=597 CharacterOffsetEnd=606 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=arrested CharacterOffsetBegin=607 CharacterOffsetEnd=615 PartOfSpeech=VBN Lemma=arrest NamedEntityTag=O] [Text=on CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=federal CharacterOffsetBegin=619 CharacterOffsetEnd=626 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=627 CharacterOffsetEnd=637 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=charges CharacterOffsetBegin=638 CharacterOffsetEnd=645 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=AP CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=NN Lemma=ap NamedEntityTag=O] [Text=1:44 CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=CD Lemma=1:44 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=a.m. CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=RB Lemma=a.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=EDT CharacterOffsetBegin=659 CharacterOffsetEnd=662 PartOfSpeech=NNP Lemma=EDT NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=May CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=27 CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=CD Lemma=27 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=669 CharacterOffsetEnd=670 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-27T01:44-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-27T01:44-0500">1:44 a.m. EDT May 27, 2015<_TIMEX3>] [Text=FILE CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=NN Lemma=file NamedEntityTag=O] [Text=- CharacterOffsetBegin=681 CharacterOffsetEnd=682 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=According CharacterOffsetBegin=683 CharacterOffsetEnd=692 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=reports CharacterOffsetBegin=696 CharacterOffsetEnd=703 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=, CharacterOffsetBegin=703 CharacterOffsetEnd=704 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=ORGANIZATION] [Text=Justice CharacterOffsetBegin=714 CharacterOffsetEnd=721 PartOfSpeech=NNP Lemma=Justice NamedEntityTag=ORGANIZATION] [Text=Department CharacterOffsetBegin=722 CharacterOffsetEnd=732 PartOfSpeech=NNP Lemma=Department NamedEntityTag=ORGANIZATION] [Text=plans CharacterOffsetBegin=733 CharacterOffsetEnd=738 PartOfSpeech=VBZ Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=announce CharacterOffsetBegin=742 CharacterOffsetEnd=750 PartOfSpeech=VB Lemma=announce NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=751 CharacterOffsetEnd=761 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=charges CharacterOffsetBegin=762 CharacterOffsetEnd=769 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=against CharacterOffsetBegin=770 CharacterOffsetEnd=777 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=officials CharacterOffsetBegin=778 CharacterOffsetEnd=787 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=at CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=795 CharacterOffsetEnd=796 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=797 CharacterOffsetEnd=800 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=_s CharacterOffsetBegin=806 CharacterOffsetEnd=808 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=governing CharacterOffsetBegin=809 CharacterOffsetEnd=818 PartOfSpeech=VBG Lemma=govern NamedEntityTag=O] [Text=body CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=NN Lemma=body NamedEntityTag=O] [Text=of CharacterOffsetBegin=824 CharacterOffsetEnd=826 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=football CharacterOffsetBegin=827 CharacterOffsetEnd=835 PartOfSpeech=NN Lemma=football NamedEntityTag=O] [Text=. CharacterOffsetBegin=835 CharacterOffsetEnd=836 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (LST (LS 1))
+    (VP (VB Join)
+      (NP
+        (NP (DT the) (NN Nation) (POS _s))
+        (NN Conversation)
+        (S
+          (VP (TO To)
+            (VP (VB find)
+              (PRT (RP out))
+              (NP
+                (NP
+                  (ADJP (JJR more)
+                    (PP (IN about)
+                      (NP
+                        (NP (NNP Facebook))
+                        (VP (VBG commenting)
+                          (S
+                            (VP (VB please)
+                              (VP (VB read)
+                                (S
+                                  (NP (DT the) (NNP Conversation) (NNS Guidelines)
+                                    (CC and)
+                                    (NNS FAQs))
+                                  (NP
+                                    (NP (NNP FIFA) (NNS officials))
+                                    (VP (VBN arrested)
+                                      (PP (IN on)
+                                        (NP
+                                          (NP (JJ federal) (NN corruption) (NNS charges))
+                                          (PP (NN AP)
+                                            (NP (CD 1:44) (RB a.m.) (NNP EDT)))))
+                                      (NP-TMP (NNP May) (CD 27) (, ,) (CD 2015))))))))))))
+                  (NN FILE))
+                (: -)
+                (S
+                  (PP (VBG According)
+                    (PP (TO to)
+                      (NP (NNS reports))))
+                  (, ,)
+                  (NP (DT the) (NNP U.S.) (NNP Justice) (NNP Department))
+                  (VP (VBZ plans)
+                    (S
+                      (VP (TO to)
+                        (VP (VB announce)
+                          (NP
+                            (NP (NN corruption) (NNS charges))
+                            (PP (IN against)
+                              (NP (NNS officials))))
+                          (PP (IN at)
+                            (NP
+                              (NP (NNP FIFA))
+                              (, ,)
+                              (NP
+                                (NP
+                                  (NP (DT the) (NN world) (POS _s))
+                                  (VBG governing) (NN body))
+                                (PP (IN of)
+                                  (NP (NN football)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, Join-2)
+dep(Join-2, 1-1)
+det(Nation-4, the-3)
+poss(Conversation-6, Nation-4)
+dobj(Join-2, Conversation-6)
+aux(find-8, To-7)
+vmod(Conversation-6, find-8)
+prt(find-8, out-9)
+amod(FILE-36, more-10)
+prep_about(more-10, Facebook-12)
+vmod(Facebook-12, commenting-13)
+ccomp(commenting-13, please-14)
+dep(please-14, read-15)
+det(Guidelines-18, the-16)
+nn(Guidelines-18, Conversation-17)
+nsubj(officials-22, Guidelines-18)
+conj_and(Guidelines-18, FAQs-20)
+nn(officials-22, FIFA-21)
+xcomp(read-15, officials-22)
+vmod(officials-22, arrested-23)
+amod(charges-27, federal-25)
+nn(charges-27, corruption-26)
+prep_on(arrested-23, charges-27)
+prep(charges-27, AP-28)
+num(EDT-31, 1:44-29)
+advmod(EDT-31, a.m.-30)
+dep(AP-28, EDT-31)
+tmod(arrested-23, May-32)
+num(May-32, 27-33)
+num(May-32, 2015-35)
+dobj(find-8, FILE-36)
+prepc_according_to(plans-46, to-39)
+pobj(plans-46, reports-40)
+det(Department-45, the-42)
+nn(Department-45, U.S.-43)
+nn(Department-45, Justice-44)
+nsubj(plans-46, Department-45)
+dep(FILE-36, plans-46)
+aux(announce-48, to-47)
+xcomp(plans-46, announce-48)
+nn(charges-50, corruption-49)
+dobj(announce-48, charges-50)
+prep_against(charges-50, officials-52)
+prep_at(announce-48, FIFA-54)
+det(world-57, the-56)
+poss(body-60, world-57)
+amod(body-60, governing-59)
+appos(FIFA-54, body-60)
+prep_of(body-60, football-62)
+
+Sentence #8 (33 tokens):
+ZURICH, SWITZERLAND - OCTOBER 20:  The FIFA logo is seen outside the FIFA headquarters prior to the FIFA Executive Committee Meeting on October 20, 2011 in Zurich, Switzerland.
+[Text=ZURICH CharacterOffsetBegin=837 CharacterOffsetEnd=843 PartOfSpeech=NNP Lemma=ZURICH NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=843 CharacterOffsetEnd=844 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=SWITZERLAND CharacterOffsetBegin=845 CharacterOffsetEnd=856 PartOfSpeech=NNP Lemma=SWITZERLAND NamedEntityTag=LOCATION] [Text=- CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=OCTOBER CharacterOffsetBegin=859 CharacterOffsetEnd=866 PartOfSpeech=NNP Lemma=OCTOBER NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-10-20 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-10-20">OCTOBER 20<_TIMEX3>] [Text=20 CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=CD Lemma=20 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-10-20 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-10-20">OCTOBER 20<_TIMEX3>] [Text=: CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=logo CharacterOffsetBegin=881 CharacterOffsetEnd=885 PartOfSpeech=NN Lemma=logo NamedEntityTag=O] [Text=is CharacterOffsetBegin=886 CharacterOffsetEnd=888 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=seen CharacterOffsetBegin=889 CharacterOffsetEnd=893 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=outside CharacterOffsetBegin=894 CharacterOffsetEnd=901 PartOfSpeech=IN Lemma=outside NamedEntityTag=O] [Text=the CharacterOffsetBegin=902 CharacterOffsetEnd=905 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=906 CharacterOffsetEnd=910 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=headquarters CharacterOffsetBegin=911 CharacterOffsetEnd=923 PartOfSpeech=NN Lemma=headquarters NamedEntityTag=O] [Text=prior CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=RB Lemma=prior NamedEntityTag=O] [Text=to CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=933 CharacterOffsetEnd=936 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=937 CharacterOffsetEnd=941 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=Executive CharacterOffsetBegin=942 CharacterOffsetEnd=951 PartOfSpeech=NNP Lemma=Executive NamedEntityTag=O] [Text=Committee CharacterOffsetBegin=952 CharacterOffsetEnd=961 PartOfSpeech=NNP Lemma=Committee NamedEntityTag=O] [Text=Meeting CharacterOffsetBegin=962 CharacterOffsetEnd=969 PartOfSpeech=VBG Lemma=meet NamedEntityTag=O] [Text=on CharacterOffsetBegin=970 CharacterOffsetEnd=972 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=October CharacterOffsetBegin=973 CharacterOffsetEnd=980 PartOfSpeech=NNP Lemma=October NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-20 Timex=<TIMEX3 tid="t3" type="DATE" value="2011-10-20">October 20, 2011<_TIMEX3>] [Text=20 CharacterOffsetBegin=981 CharacterOffsetEnd=983 PartOfSpeech=CD Lemma=20 NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-20 Timex=<TIMEX3 tid="t3" type="DATE" value="2011-10-20">October 20, 2011<_TIMEX3>] [Text=, CharacterOffsetBegin=983 CharacterOffsetEnd=984 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-20 Timex=<TIMEX3 tid="t3" type="DATE" value="2011-10-20">October 20, 2011<_TIMEX3>] [Text=2011 CharacterOffsetBegin=985 CharacterOffsetEnd=989 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011-10-20 Timex=<TIMEX3 tid="t3" type="DATE" value="2011-10-20">October 20, 2011<_TIMEX3>] [Text=in CharacterOffsetBegin=990 CharacterOffsetEnd=992 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=993 CharacterOffsetEnd=999 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Switzerland CharacterOffsetBegin=1001 CharacterOffsetEnd=1012 PartOfSpeech=NNP Lemma=Switzerland NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1012 CharacterOffsetEnd=1013 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP ZURICH))
+      (, ,)
+      (NP (NNP SWITZERLAND))
+      (: -)
+      (NP (NNP OCTOBER) (CD 20)))
+    (: :)
+    (S
+      (NP (DT The) (NNP FIFA) (NN logo))
+      (VP (VBZ is)
+        (VP (VBN seen)
+          (PP (IN outside)
+            (NP
+              (NP (DT the) (NNP FIFA) (NN headquarters))
+              (VP
+                (ADVP (RB prior)
+                  (PP (TO to)
+                    (NP (DT the) (NNP FIFA) (NNP Executive) (NNP Committee))))
+                (VBG Meeting)
+                (PP (IN on)
+                  (NP
+                    (NP (NNP October) (CD 20) (, ,) (CD 2011))
+                    (PP (IN in)
+                      (NP (NNP Zurich) (, ,) (NNP Switzerland)))))))))))
+    (. .)))
+
+root(ROOT-0, ZURICH-1)
+appos(ZURICH-1, SWITZERLAND-3)
+dep(ZURICH-1, OCTOBER-5)
+num(OCTOBER-5, 20-6)
+det(logo-10, The-8)
+nn(logo-10, FIFA-9)
+nsubjpass(seen-12, logo-10)
+auxpass(seen-12, is-11)
+dep(ZURICH-1, seen-12)
+det(headquarters-16, the-14)
+nn(headquarters-16, FIFA-15)
+prep_outside(seen-12, headquarters-16)
+det(Committee-22, the-19)
+nn(Committee-22, FIFA-20)
+nn(Committee-22, Executive-21)
+prep_prior_to(Meeting-23, Committee-22)
+vmod(headquarters-16, Meeting-23)
+prep_on(Meeting-23, October-25)
+num(October-25, 20-26)
+num(October-25, 2011-28)
+nn(Switzerland-32, Zurich-30)
+prep_in(October-25, Switzerland-32)
+
+Sentence #9 (37 tokens):
+During their third meeting of the year, held over two days, the FIFA Executive Committee will approve the match schedules for the FIFA Confederations Cup Brazil 2013 and the 2014 FIFA World Cup Brazil.
+[Text=During CharacterOffsetBegin=1014 CharacterOffsetEnd=1020 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=their CharacterOffsetBegin=1021 CharacterOffsetEnd=1026 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=third CharacterOffsetBegin=1027 CharacterOffsetEnd=1032 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=meeting CharacterOffsetBegin=1033 CharacterOffsetEnd=1040 PartOfSpeech=NN Lemma=meeting NamedEntityTag=O] [Text=of CharacterOffsetBegin=1041 CharacterOffsetEnd=1043 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1044 CharacterOffsetEnd=1047 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">the year<_TIMEX3>] [Text=year CharacterOffsetBegin=1048 CharacterOffsetEnd=1052 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">the year<_TIMEX3>] [Text=, CharacterOffsetBegin=1052 CharacterOffsetEnd=1053 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=held CharacterOffsetBegin=1054 CharacterOffsetEnd=1058 PartOfSpeech=VBN Lemma=hold NamedEntityTag=O] [Text=over CharacterOffsetBegin=1059 CharacterOffsetEnd=1063 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=two CharacterOffsetBegin=1064 CharacterOffsetEnd=1067 PartOfSpeech=CD Lemma=two NamedEntityTag=DURATION NormalizedNamedEntityTag=P2D Timex=<TIMEX3 tid="t5" type="DURATION" value="P2D">two days<_TIMEX3>] [Text=days CharacterOffsetBegin=1068 CharacterOffsetEnd=1072 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P2D Timex=<TIMEX3 tid="t5" type="DURATION" value="P2D">two days<_TIMEX3>] [Text=, CharacterOffsetBegin=1072 CharacterOffsetEnd=1073 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1074 CharacterOffsetEnd=1077 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=1078 CharacterOffsetEnd=1082 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=Executive CharacterOffsetBegin=1083 CharacterOffsetEnd=1092 PartOfSpeech=NNP Lemma=Executive NamedEntityTag=ORGANIZATION] [Text=Committee CharacterOffsetBegin=1093 CharacterOffsetEnd=1102 PartOfSpeech=NNP Lemma=Committee NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=1103 CharacterOffsetEnd=1107 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=approve CharacterOffsetBegin=1108 CharacterOffsetEnd=1115 PartOfSpeech=VB Lemma=approve NamedEntityTag=O] [Text=the CharacterOffsetBegin=1116 CharacterOffsetEnd=1119 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=match CharacterOffsetBegin=1120 CharacterOffsetEnd=1125 PartOfSpeech=NN Lemma=match NamedEntityTag=O] [Text=schedules CharacterOffsetBegin=1126 CharacterOffsetEnd=1135 PartOfSpeech=NNS Lemma=schedule NamedEntityTag=O] [Text=for CharacterOffsetBegin=1136 CharacterOffsetEnd=1139 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=1140 CharacterOffsetEnd=1143 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=1144 CharacterOffsetEnd=1148 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=Confederations CharacterOffsetBegin=1149 CharacterOffsetEnd=1163 PartOfSpeech=NNPS Lemma=Confederations NamedEntityTag=O] [Text=Cup CharacterOffsetBegin=1164 CharacterOffsetEnd=1167 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=1168 CharacterOffsetEnd=1174 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=2013 CharacterOffsetBegin=1175 CharacterOffsetEnd=1179 PartOfSpeech=CD Lemma=2013 NamedEntityTag=DATE NormalizedNamedEntityTag=2013 Timex=<TIMEX3 tid="t6" type="DATE" value="2013">2013<_TIMEX3>] [Text=and CharacterOffsetBegin=1180 CharacterOffsetEnd=1183 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=1184 CharacterOffsetEnd=1187 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=1188 CharacterOffsetEnd=1192 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t7" type="DATE" value="2014">2014<_TIMEX3>] [Text=FIFA CharacterOffsetBegin=1193 CharacterOffsetEnd=1197 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=World CharacterOffsetBegin=1198 CharacterOffsetEnd=1203 PartOfSpeech=NNP Lemma=World NamedEntityTag=O] [Text=Cup CharacterOffsetBegin=1204 CharacterOffsetEnd=1207 PartOfSpeech=NNP Lemma=Cup NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=1208 CharacterOffsetEnd=1214 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1214 CharacterOffsetEnd=1215 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN During)
+      (NP
+        (NP (PRP$ their) (JJ third) (NN meeting))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN year))
+            (, ,)
+            (VP (VBN held)
+              (PP (IN over)
+                (NP (CD two) (NNS days))))))))
+    (, ,)
+    (NP (DT the) (NNP FIFA) (NNP Executive) (NNP Committee))
+    (VP (MD will)
+      (VP (VB approve)
+        (NP
+          (NP
+            (NP
+              (NP (DT the) (NN match) (NNS schedules))
+              (PP (IN for)
+                (NP (DT the) (NNP FIFA) (NNPS Confederations) (NNP Cup) (NNP Brazil))))
+            (NP (CD 2013)))
+          (CC and)
+          (NP
+            (NP (DT the) (CD 2014))
+            (NP (NNP FIFA) (NNP World) (NNP Cup) (NNP Brazil))))))
+    (. .)))
+
+root(ROOT-0, approve-19)
+poss(meeting-4, their-2)
+amod(meeting-4, third-3)
+prep_during(approve-19, meeting-4)
+det(year-7, the-6)
+prep_of(meeting-4, year-7)
+vmod(year-7, held-9)
+num(days-12, two-11)
+prep_over(held-9, days-12)
+det(Committee-17, the-14)
+nn(Committee-17, FIFA-15)
+nn(Committee-17, Executive-16)
+nsubj(approve-19, Committee-17)
+aux(approve-19, will-18)
+det(schedules-22, the-20)
+nn(schedules-22, match-21)
+dobj(approve-19, schedules-22)
+det(Brazil-28, the-24)
+nn(Brazil-28, FIFA-25)
+nn(Brazil-28, Confederations-26)
+nn(Brazil-28, Cup-27)
+prep_for(schedules-22, Brazil-28)
+dep(schedules-22, 2013-29)
+det(2014-32, the-31)
+conj_and(schedules-22, 2014-32)
+nn(Brazil-36, FIFA-33)
+nn(Brazil-36, World-34)
+nn(Brazil-36, Cup-35)
+dep(2014-32, Brazil-36)
+
+Sentence #10 (45 tokens):
+(Photo: Harold Cunningham, Getty Images)
+ZURICH (AP) — The Swiss Federal Office of Justice says six soccer officials have been arrested and detained pending extradition at the request of U.S. authorities ahead of the FIFA congress in Zurich.
+[Text=-LRB- CharacterOffsetBegin=1216 CharacterOffsetEnd=1217 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=1217 CharacterOffsetEnd=1222 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=1222 CharacterOffsetEnd=1223 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Harold CharacterOffsetBegin=1224 CharacterOffsetEnd=1230 PartOfSpeech=NNP Lemma=Harold NamedEntityTag=PERSON] [Text=Cunningham CharacterOffsetBegin=1231 CharacterOffsetEnd=1241 PartOfSpeech=NNP Lemma=Cunningham NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1241 CharacterOffsetEnd=1242 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Getty CharacterOffsetBegin=1243 CharacterOffsetEnd=1248 PartOfSpeech=NNP Lemma=Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=1249 CharacterOffsetEnd=1255 PartOfSpeech=NNPS Lemma=Images NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1255 CharacterOffsetEnd=1256 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=ZURICH CharacterOffsetBegin=1257 CharacterOffsetEnd=1263 PartOfSpeech=NNP Lemma=ZURICH NamedEntityTag=LOCATION] [Text=-LRB- CharacterOffsetBegin=1264 CharacterOffsetEnd=1265 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=AP CharacterOffsetBegin=1265 CharacterOffsetEnd=1267 PartOfSpeech=NNP Lemma=AP NamedEntityTag=ORGANIZATION] [Text=-RRB- CharacterOffsetBegin=1267 CharacterOffsetEnd=1268 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1269 CharacterOffsetEnd=1270 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=The CharacterOffsetBegin=1271 CharacterOffsetEnd=1274 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Swiss CharacterOffsetBegin=1275 CharacterOffsetEnd=1280 PartOfSpeech=JJ Lemma=swiss NamedEntityTag=O] [Text=Federal CharacterOffsetBegin=1281 CharacterOffsetEnd=1288 PartOfSpeech=NNP Lemma=Federal NamedEntityTag=ORGANIZATION] [Text=Office CharacterOffsetBegin=1289 CharacterOffsetEnd=1295 PartOfSpeech=NNP Lemma=Office NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=1296 CharacterOffsetEnd=1298 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=Justice CharacterOffsetBegin=1299 CharacterOffsetEnd=1306 PartOfSpeech=NNP Lemma=Justice NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=1307 CharacterOffsetEnd=1311 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=six CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=soccer CharacterOffsetBegin=1316 CharacterOffsetEnd=1322 PartOfSpeech=NN Lemma=soccer NamedEntityTag=O] [Text=officials CharacterOffsetBegin=1323 CharacterOffsetEnd=1332 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=have CharacterOffsetBegin=1333 CharacterOffsetEnd=1337 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1338 CharacterOffsetEnd=1342 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=arrested CharacterOffsetBegin=1343 CharacterOffsetEnd=1351 PartOfSpeech=VBN Lemma=arrest NamedEntityTag=O] [Text=and CharacterOffsetBegin=1352 CharacterOffsetEnd=1355 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=detained CharacterOffsetBegin=1356 CharacterOffsetEnd=1364 PartOfSpeech=VBN Lemma=detain NamedEntityTag=O] [Text=pending CharacterOffsetBegin=1365 CharacterOffsetEnd=1372 PartOfSpeech=VBG Lemma=pend NamedEntityTag=O] [Text=extradition CharacterOffsetBegin=1373 CharacterOffsetEnd=1384 PartOfSpeech=NN Lemma=extradition NamedEntityTag=O] [Text=at CharacterOffsetBegin=1385 CharacterOffsetEnd=1387 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=1388 CharacterOffsetEnd=1391 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=request CharacterOffsetBegin=1392 CharacterOffsetEnd=1399 PartOfSpeech=NN Lemma=request NamedEntityTag=O] [Text=of CharacterOffsetBegin=1400 CharacterOffsetEnd=1402 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=1403 CharacterOffsetEnd=1407 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=authorities CharacterOffsetBegin=1408 CharacterOffsetEnd=1419 PartOfSpeech=NNS Lemma=authority NamedEntityTag=O] [Text=ahead CharacterOffsetBegin=1420 CharacterOffsetEnd=1425 PartOfSpeech=RB Lemma=ahead NamedEntityTag=O] [Text=of CharacterOffsetBegin=1426 CharacterOffsetEnd=1428 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1429 CharacterOffsetEnd=1432 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=1433 CharacterOffsetEnd=1437 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=congress CharacterOffsetBegin=1438 CharacterOffsetEnd=1446 PartOfSpeech=NN Lemma=congress NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=1447 CharacterOffsetEnd=1449 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=1450 CharacterOffsetEnd=1456 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1456 CharacterOffsetEnd=1457 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (NNP Photo))
+          (: :)
+          (NP (NNP Harold) (NNP Cunningham) (, ,) (NNP Getty) (NNPS Images)))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP
+            (NP (NNP ZURICH))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP AP))
+              (-RRB- -RRB-)))
+          (PRN (: --)
+            (NP
+              (NP (DT The) (JJ Swiss) (NNP Federal) (NNP Office))
+              (PP (IN of)
+                (NP (NNP Justice))))))
+        (VP (VBZ says)
+          (NP (CD six) (NN soccer) (NNS officials)))))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN arrested)
+          (CC and)
+          (VBN detained)
+          (NP
+            (NP (VBG pending) (NN extradition))
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN request))
+                (PP (IN of)
+                  (NP (NNP U.S.) (NNS authorities)))))
+            (PP (RB ahead) (IN of)
+              (NP (DT the) (NNP FIFA) (NN congress))))
+          (PP (IN in)
+            (NP (NNP Zurich))))))
+    (. .)))
+
+root(ROOT-0, arrested-27)
+dep(says-21, Photo-2)
+nn(Images-8, Harold-4)
+nn(Images-8, Cunningham-5)
+appos(Images-8, Getty-7)
+dep(Photo-2, Images-8)
+nsubj(says-21, ZURICH-10)
+appos(ZURICH-10, AP-12)
+det(Office-18, The-15)
+amod(Office-18, Swiss-16)
+nn(Office-18, Federal-17)
+dep(ZURICH-10, Office-18)
+prep_of(Office-18, Justice-20)
+csubjpass(arrested-27, says-21)
+num(officials-24, six-22)
+nn(officials-24, soccer-23)
+dobj(says-21, officials-24)
+aux(arrested-27, have-25)
+auxpass(arrested-27, been-26)
+conj_and(arrested-27, detained-29)
+amod(extradition-31, pending-30)
+dobj(arrested-27, extradition-31)
+det(request-34, the-33)
+prep_at(extradition-31, request-34)
+nn(authorities-37, U.S.-36)
+prep_of(request-34, authorities-37)
+det(congress-42, the-40)
+nn(congress-42, FIFA-41)
+prep_ahead_of(extradition-31, congress-42)
+prep_in(arrested-27, Zurich-44)
+
+Sentence #11 (24 tokens):
+In a statement Wednesday, the FOJ says U.S. authorities suspect the officials of having received of paid bribes totaling millions of dollars.
+[Text=In CharacterOffsetBegin=1458 CharacterOffsetEnd=1460 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=1461 CharacterOffsetEnd=1462 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=statement CharacterOffsetBegin=1463 CharacterOffsetEnd=1472 PartOfSpeech=NN Lemma=statement NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=1473 CharacterOffsetEnd=1482 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=, CharacterOffsetBegin=1482 CharacterOffsetEnd=1483 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1484 CharacterOffsetEnd=1487 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=FOJ CharacterOffsetBegin=1488 CharacterOffsetEnd=1491 PartOfSpeech=NNP Lemma=FOJ NamedEntityTag=ORGANIZATION] [Text=says CharacterOffsetBegin=1492 CharacterOffsetEnd=1496 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O] [Text=U.S. CharacterOffsetBegin=1497 CharacterOffsetEnd=1501 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=LOCATION] [Text=authorities CharacterOffsetBegin=1502 CharacterOffsetEnd=1513 PartOfSpeech=NNS Lemma=authority NamedEntityTag=O] [Text=suspect CharacterOffsetBegin=1514 CharacterOffsetEnd=1521 PartOfSpeech=VBP Lemma=suspect NamedEntityTag=O] [Text=the CharacterOffsetBegin=1522 CharacterOffsetEnd=1525 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=officials CharacterOffsetBegin=1526 CharacterOffsetEnd=1535 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=of CharacterOffsetBegin=1536 CharacterOffsetEnd=1538 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=having CharacterOffsetBegin=1539 CharacterOffsetEnd=1545 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=received CharacterOffsetBegin=1546 CharacterOffsetEnd=1554 PartOfSpeech=VBN Lemma=receive NamedEntityTag=O] [Text=of CharacterOffsetBegin=1555 CharacterOffsetEnd=1557 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=paid CharacterOffsetBegin=1558 CharacterOffsetEnd=1562 PartOfSpeech=VBN Lemma=pay NamedEntityTag=O] [Text=bribes CharacterOffsetBegin=1563 CharacterOffsetEnd=1569 PartOfSpeech=NNS Lemma=bribe NamedEntityTag=O] [Text=totaling CharacterOffsetBegin=1570 CharacterOffsetEnd=1578 PartOfSpeech=VBG Lemma=total NamedEntityTag=O] [Text=millions CharacterOffsetBegin=1579 CharacterOffsetEnd=1587 PartOfSpeech=NNS Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$1000000.0] [Text=of CharacterOffsetBegin=1588 CharacterOffsetEnd=1590 PartOfSpeech=IN Lemma=of NamedEntityTag=MONEY NormalizedNamedEntityTag=$1000000.0] [Text=dollars CharacterOffsetBegin=1591 CharacterOffsetEnd=1598 PartOfSpeech=NNS Lemma=dollar NamedEntityTag=MONEY NormalizedNamedEntityTag=$1000000.0] [Text=. CharacterOffsetBegin=1598 CharacterOffsetEnd=1599 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT a) (NN statement)))
+    (NP-TMP (NNP Wednesday))
+    (, ,)
+    (NP (DT the) (NNP FOJ))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (NNP U.S.) (NNS authorities))
+          (VP (VBP suspect)
+            (NP
+              (NP (DT the) (NNS officials))
+              (PP (IN of)
+                (S
+                  (VP (VBG having)
+                    (VP (VBN received)
+                      (PP (IN of)
+                        (NP
+                          (NP (VBN paid) (NNS bribes))
+                          (VP (VBG totaling)
+                            (NP
+                              (NP (NNS millions))
+                              (PP (IN of)
+                                (NP (NNS dollars))))))))))))))))
+    (. .)))
+
+root(ROOT-0, says-8)
+det(statement-3, a-2)
+prep_in(says-8, statement-3)
+tmod(says-8, Wednesday-4)
+det(FOJ-7, the-6)
+nsubj(says-8, FOJ-7)
+nn(authorities-10, U.S.-9)
+nsubj(suspect-11, authorities-10)
+ccomp(says-8, suspect-11)
+det(officials-13, the-12)
+dobj(suspect-11, officials-13)
+aux(received-16, having-15)
+prepc_of(officials-13, received-16)
+amod(bribes-19, paid-18)
+prep_of(received-16, bribes-19)
+vmod(bribes-19, totaling-20)
+dobj(totaling-20, millions-21)
+prep_of(millions-21, dollars-23)
+
+Sentence #12 (31 tokens):
+FIFA, soccer_s world governing body, is holding a presidential election in Zurich on Friday, when Sepp Blatter has been widely tipped to stay in the job.
+[Text=FIFA CharacterOffsetBegin=1600 CharacterOffsetEnd=1604 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1604 CharacterOffsetEnd=1605 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=soccer CharacterOffsetBegin=1606 CharacterOffsetEnd=1612 PartOfSpeech=NN Lemma=soccer NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1612 CharacterOffsetEnd=1614 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=world CharacterOffsetBegin=1615 CharacterOffsetEnd=1620 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=governing CharacterOffsetBegin=1621 CharacterOffsetEnd=1630 PartOfSpeech=VBG Lemma=govern NamedEntityTag=O] [Text=body CharacterOffsetBegin=1631 CharacterOffsetEnd=1635 PartOfSpeech=NN Lemma=body NamedEntityTag=O] [Text=, CharacterOffsetBegin=1635 CharacterOffsetEnd=1636 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=1637 CharacterOffsetEnd=1639 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=holding CharacterOffsetBegin=1640 CharacterOffsetEnd=1647 PartOfSpeech=VBG Lemma=hold NamedEntityTag=O] [Text=a CharacterOffsetBegin=1648 CharacterOffsetEnd=1649 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=presidential CharacterOffsetBegin=1650 CharacterOffsetEnd=1662 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=election CharacterOffsetBegin=1663 CharacterOffsetEnd=1671 PartOfSpeech=NN Lemma=election NamedEntityTag=O] [Text=in CharacterOffsetBegin=1672 CharacterOffsetEnd=1674 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=1675 CharacterOffsetEnd=1681 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=on CharacterOffsetBegin=1682 CharacterOffsetEnd=1684 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Friday CharacterOffsetBegin=1685 CharacterOffsetEnd=1691 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5 Timex=<TIMEX3 tid="t9" type="DATE" value="XXXX-WXX-5">Friday<_TIMEX3>] [Text=, CharacterOffsetBegin=1691 CharacterOffsetEnd=1692 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=when CharacterOffsetBegin=1693 CharacterOffsetEnd=1697 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Sepp CharacterOffsetBegin=1698 CharacterOffsetEnd=1702 PartOfSpeech=NNP Lemma=Sepp NamedEntityTag=PERSON] [Text=Blatter CharacterOffsetBegin=1703 CharacterOffsetEnd=1710 PartOfSpeech=NNP Lemma=Blatter NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=1711 CharacterOffsetEnd=1714 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1715 CharacterOffsetEnd=1719 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=widely CharacterOffsetBegin=1720 CharacterOffsetEnd=1726 PartOfSpeech=RB Lemma=widely NamedEntityTag=O] [Text=tipped CharacterOffsetBegin=1727 CharacterOffsetEnd=1733 PartOfSpeech=VBN Lemma=tip NamedEntityTag=O] [Text=to CharacterOffsetBegin=1734 CharacterOffsetEnd=1736 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=stay CharacterOffsetBegin=1737 CharacterOffsetEnd=1741 PartOfSpeech=VB Lemma=stay NamedEntityTag=O] [Text=in CharacterOffsetBegin=1742 CharacterOffsetEnd=1744 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1745 CharacterOffsetEnd=1748 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=job CharacterOffsetBegin=1749 CharacterOffsetEnd=1752 PartOfSpeech=NN Lemma=job NamedEntityTag=O] [Text=. CharacterOffsetBegin=1752 CharacterOffsetEnd=1753 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP FIFA))
+      (, ,)
+      (NP
+        (NP (NN soccer) (POS _s))
+        (NN world) (VBG governing) (NN body))
+      (, ,))
+    (VP (VBZ is)
+      (VP (VBG holding)
+        (NP
+          (NP (DT a) (JJ presidential) (NN election))
+          (PP (IN in)
+            (NP (NNP Zurich))))
+        (PP (IN on)
+          (NP (NNP Friday)))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (NNP Sepp) (NNP Blatter))
+            (VP (VBZ has)
+              (VP (VBN been)
+                (ADVP (RB widely))
+                (VP (VBN tipped)
+                  (S
+                    (VP (TO to)
+                      (VP (VB stay)
+                        (PP (IN in)
+                          (NP (DT the) (NN job)))))))))))))
+    (. .)))
+
+root(ROOT-0, holding-10)
+nsubj(holding-10, FIFA-1)
+poss(body-7, soccer-3)
+nn(body-7, world-5)
+amod(body-7, governing-6)
+appos(FIFA-1, body-7)
+aux(holding-10, is-9)
+det(election-13, a-11)
+amod(election-13, presidential-12)
+dobj(holding-10, election-13)
+prep_in(election-13, Zurich-15)
+prep_on(holding-10, Friday-17)
+advmod(tipped-25, when-19)
+nn(Blatter-21, Sepp-20)
+nsubjpass(tipped-25, Blatter-21)
+aux(tipped-25, has-22)
+auxpass(tipped-25, been-23)
+advmod(tipped-25, widely-24)
+advcl(holding-10, tipped-25)
+aux(stay-27, to-26)
+xcomp(tipped-25, stay-27)
+det(job-30, the-29)
+prep_in(stay-27, job-30)
+
+Sentence #13 (6 tokens):
+Copyright 2015 The Associated Press.
+[Text=Copyright CharacterOffsetBegin=1754 CharacterOffsetEnd=1763 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=1764 CharacterOffsetEnd=1768 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t10" type="DATE" value="2015">2015<_TIMEX3>] [Text=The CharacterOffsetBegin=1769 CharacterOffsetEnd=1772 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Associated CharacterOffsetBegin=1773 CharacterOffsetEnd=1783 PartOfSpeech=NNP Lemma=Associated NamedEntityTag=ORGANIZATION] [Text=Press CharacterOffsetBegin=1784 CharacterOffsetEnd=1789 PartOfSpeech=NNP Lemma=Press NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1789 CharacterOffsetEnd=1790 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Copyright) (CD 2015))
+    (NP (DT The) (NNP Associated) (NNP Press))
+    (. .)))
+
+root(ROOT-0, Copyright-1)
+num(Copyright-1, 2015-2)
+det(Press-5, The-3)
+nn(Press-5, Associated-4)
+dep(Copyright-1, Press-5)
+
+Sentence #14 (4 tokens):
+All rights reserved.
+[Text=All CharacterOffsetBegin=1791 CharacterOffsetEnd=1794 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=rights CharacterOffsetBegin=1795 CharacterOffsetEnd=1801 PartOfSpeech=NNS Lemma=rights NamedEntityTag=O] [Text=reserved CharacterOffsetBegin=1802 CharacterOffsetEnd=1810 PartOfSpeech=VBN Lemma=reserve NamedEntityTag=O] [Text=. CharacterOffsetBegin=1810 CharacterOffsetEnd=1811 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT All) (NNS rights))
+    (VP (VBN reserved))
+    (. .)))
+
+root(ROOT-0, reserved-3)
+det(rights-2, All-1)
+nsubj(reserved-3, rights-2)
+
+Sentence #15 (13 tokens):
+This material may not be published, broadcast, rewritten or redistributed.
+[Text=This CharacterOffsetBegin=1812 CharacterOffsetEnd=1816 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=material CharacterOffsetBegin=1817 CharacterOffsetEnd=1825 PartOfSpeech=NN Lemma=material NamedEntityTag=O] [Text=may CharacterOffsetBegin=1826 CharacterOffsetEnd=1829 PartOfSpeech=MD Lemma=may NamedEntityTag=O] [Text=not CharacterOffsetBegin=1830 CharacterOffsetEnd=1833 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=be CharacterOffsetBegin=1834 CharacterOffsetEnd=1836 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=published CharacterOffsetBegin=1837 CharacterOffsetEnd=1846 PartOfSpeech=VBN Lemma=publish NamedEntityTag=O] [Text=, CharacterOffsetBegin=1846 CharacterOffsetEnd=1847 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=broadcast CharacterOffsetBegin=1848 CharacterOffsetEnd=1857 PartOfSpeech=NN Lemma=broadcast NamedEntityTag=O] [Text=, CharacterOffsetBegin=1857 CharacterOffsetEnd=1858 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=rewritten CharacterOffsetBegin=1859 CharacterOffsetEnd=1868 PartOfSpeech=VBN Lemma=rewrite NamedEntityTag=O] [Text=or CharacterOffsetBegin=1869 CharacterOffsetEnd=1871 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=redistributed CharacterOffsetBegin=1872 CharacterOffsetEnd=1885 PartOfSpeech=VBN Lemma=redistribute NamedEntityTag=O] [Text=. CharacterOffsetBegin=1885 CharacterOffsetEnd=1886 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT This) (NN material))
+    (VP (MD may) (RB not)
+      (VP (VB be)
+        (VP (VBN published) (, ,)
+          (NP
+            (NP (NN broadcast))
+            (, ,)
+            (VP (VBN rewritten)
+              (CC or)
+              (VBN redistributed))))))
+    (. .)))
+
+root(ROOT-0, published-6)
+det(material-2, This-1)
+nsubjpass(published-6, material-2)
+aux(published-6, may-3)
+neg(published-6, not-4)
+auxpass(published-6, be-5)
+dobj(published-6, broadcast-8)
+vmod(broadcast-8, rewritten-10)
+conj_or(rewritten-10, redistributed-12)
+
+Sentence #16 (31 tokens):
+TOP VIDEOS
+01:09
+01:25
+00:52
+
+
+The United States Justice Department has indicted more than a dozenÂ top FIFA executives on charges of corruption, according to multiple reports Tuesday night.
+[Text=TOP CharacterOffsetBegin=1887 CharacterOffsetEnd=1890 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=VIDEOS CharacterOffsetBegin=1891 CharacterOffsetEnd=1897 PartOfSpeech=NNS Lemma=video NamedEntityTag=O] [Text=01:09 CharacterOffsetBegin=1898 CharacterOffsetEnd=1903 PartOfSpeech=CD Lemma=01:09 NamedEntityTag=TIME NormalizedNamedEntityTag=T01:09 Timex=<TIMEX3 tid="t11" type="TIME" value="T01:09">01:09<_TIMEX3>] [Text=01:25 CharacterOffsetBegin=1904 CharacterOffsetEnd=1909 PartOfSpeech=CD Lemma=01:25 NamedEntityTag=TIME NormalizedNamedEntityTag=T01:09 Timex=<TIMEX3 tid="t12" type="TIME" value="T01:25">01:25<_TIMEX3>] [Text=00:52 CharacterOffsetBegin=1910 CharacterOffsetEnd=1915 PartOfSpeech=CD Lemma=00:52 NamedEntityTag=TIME NormalizedNamedEntityTag=T01:09 Timex=<TIMEX3 tid="t13" type="TIME" value="T00:52">00:52<_TIMEX3>] [Text=The CharacterOffsetBegin=1918 CharacterOffsetEnd=1921 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=United CharacterOffsetBegin=1922 CharacterOffsetEnd=1928 PartOfSpeech=NNP Lemma=United NamedEntityTag=ORGANIZATION] [Text=States CharacterOffsetBegin=1929 CharacterOffsetEnd=1935 PartOfSpeech=NNPS Lemma=States NamedEntityTag=ORGANIZATION] [Text=Justice CharacterOffsetBegin=1936 CharacterOffsetEnd=1943 PartOfSpeech=NNP Lemma=Justice NamedEntityTag=ORGANIZATION] [Text=Department CharacterOffsetBegin=1944 CharacterOffsetEnd=1954 PartOfSpeech=NNP Lemma=Department NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=1955 CharacterOffsetEnd=1958 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=indicted CharacterOffsetBegin=1959 CharacterOffsetEnd=1967 PartOfSpeech=VBN Lemma=indict NamedEntityTag=O] [Text=more CharacterOffsetBegin=1968 CharacterOffsetEnd=1972 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=1973 CharacterOffsetEnd=1977 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=a CharacterOffsetBegin=1978 CharacterOffsetEnd=1979 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=dozenÂ CharacterOffsetBegin=1980 CharacterOffsetEnd=1986 PartOfSpeech=NN Lemma=dozenâ NamedEntityTag=O] [Text=top CharacterOffsetBegin=1987 CharacterOffsetEnd=1990 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=1991 CharacterOffsetEnd=1995 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=executives CharacterOffsetBegin=1996 CharacterOffsetEnd=2006 PartOfSpeech=NNS Lemma=executive NamedEntityTag=O] [Text=on CharacterOffsetBegin=2007 CharacterOffsetEnd=2009 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=charges CharacterOffsetBegin=2010 CharacterOffsetEnd=2017 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=of CharacterOffsetBegin=2018 CharacterOffsetEnd=2020 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=2021 CharacterOffsetEnd=2031 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=, CharacterOffsetBegin=2031 CharacterOffsetEnd=2032 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=2033 CharacterOffsetEnd=2042 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=2043 CharacterOffsetEnd=2045 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=multiple CharacterOffsetBegin=2046 CharacterOffsetEnd=2054 PartOfSpeech=JJ Lemma=multiple NamedEntityTag=O] [Text=reports CharacterOffsetBegin=2055 CharacterOffsetEnd=2062 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2063 CharacterOffsetEnd=2070 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t14" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=night CharacterOffsetBegin=2071 CharacterOffsetEnd=2076 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t14" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=. CharacterOffsetBegin=2076 CharacterOffsetEnd=2077 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (JJ TOP) (NNS VIDEOS))
+      (NP (CD 01:09))
+      (NP
+        (NP
+          (QP (CD 01:25) (CD 00:52)))
+        (NP (DT The) (NNP United) (NNPS States) (NNP Justice) (NNP Department))))
+    (VP (VBZ has)
+      (VP (VBN indicted)
+        (NP
+          (NP
+            (QP (JJR more) (IN than) (DT a))
+            (NN dozenÂ) (JJ top) (NNP FIFA) (NNS executives))
+          (PP (IN on)
+            (NP
+              (NP (NNS charges))
+              (PP (IN of)
+                (NP (NN corruption))))))
+        (, ,)
+        (PP (VBG according)
+          (PP (TO to)
+            (NP
+              (NP
+                (NP (JJ multiple) (NNS reports))
+                (NP-TMP (NNP Tuesday)))
+              (NP-TMP (NN night)))))))
+    (. .)))
+
+root(ROOT-0, indicted-12)
+amod(VIDEOS-2, TOP-1)
+nsubj(indicted-12, VIDEOS-2)
+dep(VIDEOS-2, 01:09-3)
+number(00:52-5, 01:25-4)
+dep(VIDEOS-2, 00:52-5)
+det(Department-10, The-6)
+nn(Department-10, United-7)
+nn(Department-10, States-8)
+nn(Department-10, Justice-9)
+dep(00:52-5, Department-10)
+aux(indicted-12, has-11)
+mwe(than-14, more-13)
+quantmod(a-15, than-14)
+num(executives-19, a-15)
+nn(executives-19, dozenÂ-16)
+amod(executives-19, top-17)
+nn(executives-19, FIFA-18)
+dobj(indicted-12, executives-19)
+prep_on(executives-19, charges-21)
+prep_of(charges-21, corruption-23)
+prepc_according_to(indicted-12, to-26)
+amod(reports-28, multiple-27)
+pobj(indicted-12, reports-28)
+tmod(reports-28, Tuesday-29)
+tmod(reports-28, night-30)
+
+Sentence #17 (46 tokens):
+The charges, aÂ result of an extensive investigation intoÂ soccer_s multi-billion-dollarÂ governing body, includeÂ wire fraud, racketeering and money laundering spanning the last two decades, according to the New York Times, which was the first to report the story .
+[Text=The CharacterOffsetBegin=2078 CharacterOffsetEnd=2081 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=charges CharacterOffsetBegin=2082 CharacterOffsetEnd=2089 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=, CharacterOffsetBegin=2089 CharacterOffsetEnd=2090 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=aÂ CharacterOffsetBegin=2091 CharacterOffsetEnd=2093 PartOfSpeech=NN Lemma=aâ NamedEntityTag=O] [Text=result CharacterOffsetBegin=2094 CharacterOffsetEnd=2100 PartOfSpeech=NN Lemma=result NamedEntityTag=O] [Text=of CharacterOffsetBegin=2101 CharacterOffsetEnd=2103 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=an CharacterOffsetBegin=2104 CharacterOffsetEnd=2106 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=extensive CharacterOffsetBegin=2107 CharacterOffsetEnd=2116 PartOfSpeech=JJ Lemma=extensive NamedEntityTag=O] [Text=investigation CharacterOffsetBegin=2117 CharacterOffsetEnd=2130 PartOfSpeech=NN Lemma=investigation NamedEntityTag=O] [Text=intoÂ CharacterOffsetBegin=2131 CharacterOffsetEnd=2136 PartOfSpeech=NN Lemma=intoâ NamedEntityTag=O] [Text=soccer CharacterOffsetBegin=2137 CharacterOffsetEnd=2143 PartOfSpeech=NN Lemma=soccer NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2143 CharacterOffsetEnd=2145 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=multi-billion-dollarÂ CharacterOffsetBegin=2146 CharacterOffsetEnd=2167 PartOfSpeech=JJ Lemma=multi-billion-dollarâ NamedEntityTag=O] [Text=governing CharacterOffsetBegin=2168 CharacterOffsetEnd=2177 PartOfSpeech=VBG Lemma=govern NamedEntityTag=O] [Text=body CharacterOffsetBegin=2178 CharacterOffsetEnd=2182 PartOfSpeech=NN Lemma=body NamedEntityTag=O] [Text=, CharacterOffsetBegin=2182 CharacterOffsetEnd=2183 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=includeÂ CharacterOffsetBegin=2184 CharacterOffsetEnd=2192 PartOfSpeech=NNP Lemma=includeÂ NamedEntityTag=O] [Text=wire CharacterOffsetBegin=2193 CharacterOffsetEnd=2197 PartOfSpeech=NN Lemma=wire NamedEntityTag=O] [Text=fraud CharacterOffsetBegin=2198 CharacterOffsetEnd=2203 PartOfSpeech=NN Lemma=fraud NamedEntityTag=O] [Text=, CharacterOffsetBegin=2203 CharacterOffsetEnd=2204 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=racketeering CharacterOffsetBegin=2205 CharacterOffsetEnd=2217 PartOfSpeech=NN Lemma=racketeering NamedEntityTag=O] [Text=and CharacterOffsetBegin=2218 CharacterOffsetEnd=2221 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=money CharacterOffsetBegin=2222 CharacterOffsetEnd=2227 PartOfSpeech=NN Lemma=money NamedEntityTag=O] [Text=laundering CharacterOffsetBegin=2228 CharacterOffsetEnd=2238 PartOfSpeech=NN Lemma=laundering NamedEntityTag=O] [Text=spanning CharacterOffsetBegin=2239 CharacterOffsetEnd=2247 PartOfSpeech=VBG Lemma=span NamedEntityTag=O] [Text=the CharacterOffsetBegin=2248 CharacterOffsetEnd=2251 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 beginPoint="t15" endPoint="t0" tid="t16" type="DURATION" value="P20Y">the last two decades<_TIMEX3>] [Text=last CharacterOffsetBegin=2252 CharacterOffsetEnd=2256 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 beginPoint="t15" endPoint="t0" tid="t16" type="DURATION" value="P20Y">the last two decades<_TIMEX3>] [Text=two CharacterOffsetBegin=2257 CharacterOffsetEnd=2260 PartOfSpeech=CD Lemma=two NamedEntityTag=DATE NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 beginPoint="t15" endPoint="t0" tid="t16" type="DURATION" value="P20Y">the last two decades<_TIMEX3>] [Text=decades CharacterOffsetBegin=2261 CharacterOffsetEnd=2268 PartOfSpeech=NNS Lemma=decade NamedEntityTag=DATE NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 beginPoint="t15" endPoint="t0" tid="t16" type="DURATION" value="P20Y">the last two decades<_TIMEX3>] [Text=, CharacterOffsetBegin=2268 CharacterOffsetEnd=2269 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=according CharacterOffsetBegin=2270 CharacterOffsetEnd=2279 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O] [Text=to CharacterOffsetBegin=2280 CharacterOffsetEnd=2282 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2283 CharacterOffsetEnd=2286 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=New CharacterOffsetBegin=2287 CharacterOffsetEnd=2290 PartOfSpeech=NNP Lemma=New NamedEntityTag=ORGANIZATION] [Text=York CharacterOffsetBegin=2291 CharacterOffsetEnd=2295 PartOfSpeech=NNP Lemma=York NamedEntityTag=ORGANIZATION] [Text=Times CharacterOffsetBegin=2296 CharacterOffsetEnd=2301 PartOfSpeech=NNP Lemma=Times NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2301 CharacterOffsetEnd=2302 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=2303 CharacterOffsetEnd=2308 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=was CharacterOffsetBegin=2309 CharacterOffsetEnd=2312 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2313 CharacterOffsetEnd=2316 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=2317 CharacterOffsetEnd=2322 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=to CharacterOffsetBegin=2323 CharacterOffsetEnd=2325 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=report CharacterOffsetBegin=2326 CharacterOffsetEnd=2332 PartOfSpeech=VB Lemma=report NamedEntityTag=O] [Text=the CharacterOffsetBegin=2333 CharacterOffsetEnd=2336 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=story CharacterOffsetBegin=2337 CharacterOffsetEnd=2342 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=. CharacterOffsetBegin=2343 CharacterOffsetEnd=2344 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (DT The) (NNS charges))
+    (, ,)
+    (NP
+      (NP (NN aÂ) (NN result))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (DT an) (JJ extensive) (NN investigation) (NN intoÂ) (NN soccer) (POS _s))
+            (JJ multi-billion-dollarÂ) (VBG governing) (NN body))
+          (, ,)
+          (NP (NNP includeÂ) (NN wire) (NN fraud))
+          (, ,)
+          (NP
+            (NP (NN racketeering)
+              (CC and)
+              (NN money) (NN laundering))
+            (VP (VBG spanning)
+              (NP (DT the) (JJ last) (CD two) (NNS decades))
+              (, ,)
+              (PP (VBG according)
+                (PP (TO to)
+                  (NP (DT the) (NNP New) (NNP York) (NNP Times))))))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD was)
+                (NP (DT the) (JJ first)
+                  (S
+                    (VP (TO to)
+                      (VP (VB report)
+                        (NP (DT the) (NN story))))))))))))
+    (. .)))
+
+root(ROOT-0, charges-2)
+det(charges-2, The-1)
+nn(result-5, aÂ-4)
+appos(charges-2, result-5)
+det(soccer-11, an-7)
+amod(soccer-11, extensive-8)
+nn(soccer-11, investigation-9)
+nn(soccer-11, intoÂ-10)
+poss(body-15, soccer-11)
+amod(body-15, multi-billion-dollarÂ-13)
+amod(body-15, governing-14)
+prep_of(result-5, body-15)
+nn(fraud-19, includeÂ-17)
+nn(fraud-19, wire-18)
+appos(body-15, fraud-19)
+nn(laundering-24, racketeering-21)
+conj_and(racketeering-21, money-23)
+appos(body-15, laundering-24)
+vmod(laundering-24, spanning-25)
+det(decades-29, the-26)
+amod(decades-29, last-27)
+num(decades-29, two-28)
+dobj(spanning-25, decades-29)
+prepc_according_to(spanning-25, to-32)
+det(Times-36, the-33)
+nn(Times-36, New-34)
+nn(Times-36, York-35)
+pobj(spanning-25, Times-36)
+nsubj(first-41, which-38)
+cop(first-41, was-39)
+det(first-41, the-40)
+rcmod(body-15, first-41)
+aux(report-43, to-42)
+dep(first-41, report-43)
+det(story-45, the-44)
+dobj(report-43, story-45)
+
+Sentence #18 (15 tokens):
+Â Law enforcement officials plan to announceÂ the charges as early as Wednesday morning.
+[Text=Â CharacterOffsetBegin=2344 CharacterOffsetEnd=2345 PartOfSpeech=NNP Lemma=Â NamedEntityTag=O] [Text=Law CharacterOffsetBegin=2346 CharacterOffsetEnd=2349 PartOfSpeech=NNP Lemma=Law NamedEntityTag=O] [Text=enforcement CharacterOffsetBegin=2350 CharacterOffsetEnd=2361 PartOfSpeech=NN Lemma=enforcement NamedEntityTag=O] [Text=officials CharacterOffsetBegin=2362 CharacterOffsetEnd=2371 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=plan CharacterOffsetBegin=2372 CharacterOffsetEnd=2376 PartOfSpeech=VBP Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=2377 CharacterOffsetEnd=2379 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=announceÂ CharacterOffsetBegin=2380 CharacterOffsetEnd=2389 PartOfSpeech=VB Lemma=announceâ NamedEntityTag=O] [Text=the CharacterOffsetBegin=2390 CharacterOffsetEnd=2393 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=charges CharacterOffsetBegin=2394 CharacterOffsetEnd=2401 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=as CharacterOffsetBegin=2402 CharacterOffsetEnd=2404 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=early CharacterOffsetBegin=2405 CharacterOffsetEnd=2410 PartOfSpeech=RB Lemma=early NamedEntityTag=O] [Text=as CharacterOffsetBegin=2411 CharacterOffsetEnd=2413 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=2414 CharacterOffsetEnd=2423 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t17" type="TIME" value="XXXX-WXX-3TMO">Wednesday morning<_TIMEX3>] [Text=morning CharacterOffsetBegin=2424 CharacterOffsetEnd=2431 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-3TMO Timex=<TIMEX3 tid="t17" type="TIME" value="XXXX-WXX-3TMO">Wednesday morning<_TIMEX3>] [Text=. CharacterOffsetBegin=2431 CharacterOffsetEnd=2432 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Â) (NNP Law) (NN enforcement) (NNS officials))
+    (VP (VBP plan)
+      (S
+        (VP (TO to)
+          (VP (VB announceÂ)
+            (NP (DT the) (NNS charges))
+            (ADVP
+              (ADVP (RB as) (RB early))
+              (PP (IN as)
+                (NP-TMP (NNP Wednesday))))
+            (NP-TMP (NN morning))))))
+    (. .)))
+
+root(ROOT-0, plan-5)
+nn(officials-4, Â-1)
+nn(officials-4, Law-2)
+nn(officials-4, enforcement-3)
+nsubj(plan-5, officials-4)
+aux(announceÂ-7, to-6)
+xcomp(plan-5, announceÂ-7)
+det(charges-9, the-8)
+dobj(announceÂ-7, charges-9)
+advmod(early-11, as-10)
+advmod(announceÂ-7, early-11)
+prep_as(early-11, Wednesday-13)
+tmod(announceÂ-7, morning-14)
+
+Sentence #19 (29 tokens):
+FIFA headquarters in Zurich, Switzerland (Getty Images)
+As many as 14 arrests are expected to be made in connection with the crimes, CNN reported .
+[Text=FIFA CharacterOffsetBegin=2433 CharacterOffsetEnd=2437 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=headquarters CharacterOffsetBegin=2438 CharacterOffsetEnd=2450 PartOfSpeech=NN Lemma=headquarters NamedEntityTag=O] [Text=in CharacterOffsetBegin=2451 CharacterOffsetEnd=2453 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Zurich CharacterOffsetBegin=2454 CharacterOffsetEnd=2460 PartOfSpeech=NNP Lemma=Zurich NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2460 CharacterOffsetEnd=2461 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Switzerland CharacterOffsetBegin=2462 CharacterOffsetEnd=2473 PartOfSpeech=NNP Lemma=Switzerland NamedEntityTag=LOCATION] [Text=-LRB- CharacterOffsetBegin=2474 CharacterOffsetEnd=2475 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=Getty CharacterOffsetBegin=2475 CharacterOffsetEnd=2480 PartOfSpeech=NNP Lemma=Getty NamedEntityTag=O] [Text=Images CharacterOffsetBegin=2481 CharacterOffsetEnd=2487 PartOfSpeech=NNS Lemma=image NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=2487 CharacterOffsetEnd=2488 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=As CharacterOffsetBegin=2489 CharacterOffsetEnd=2491 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=many CharacterOffsetBegin=2492 CharacterOffsetEnd=2496 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=as CharacterOffsetBegin=2497 CharacterOffsetEnd=2499 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=14 CharacterOffsetBegin=2500 CharacterOffsetEnd=2502 PartOfSpeech=CD Lemma=14 NamedEntityTag=NUMBER NormalizedNamedEntityTag=<=14.0] [Text=arrests CharacterOffsetBegin=2503 CharacterOffsetEnd=2510 PartOfSpeech=NNS Lemma=arrest NamedEntityTag=O] [Text=are CharacterOffsetBegin=2511 CharacterOffsetEnd=2514 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=2515 CharacterOffsetEnd=2523 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=2524 CharacterOffsetEnd=2526 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=2527 CharacterOffsetEnd=2529 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=made CharacterOffsetBegin=2530 CharacterOffsetEnd=2534 PartOfSpeech=VBN Lemma=make NamedEntityTag=O] [Text=in CharacterOffsetBegin=2535 CharacterOffsetEnd=2537 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=connection CharacterOffsetBegin=2538 CharacterOffsetEnd=2548 PartOfSpeech=NN Lemma=connection NamedEntityTag=O] [Text=with CharacterOffsetBegin=2549 CharacterOffsetEnd=2553 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=2554 CharacterOffsetEnd=2557 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=crimes CharacterOffsetBegin=2558 CharacterOffsetEnd=2564 PartOfSpeech=NNS Lemma=crime NamedEntityTag=O] [Text=, CharacterOffsetBegin=2564 CharacterOffsetEnd=2565 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CNN CharacterOffsetBegin=2566 CharacterOffsetEnd=2569 PartOfSpeech=NNP Lemma=CNN NamedEntityTag=ORGANIZATION] [Text=reported CharacterOffsetBegin=2570 CharacterOffsetEnd=2578 PartOfSpeech=VBD Lemma=report NamedEntityTag=O] [Text=. CharacterOffsetBegin=2579 CharacterOffsetEnd=2580 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP FIFA) (NN headquarters))
+        (PP (IN in)
+          (NP (NNP Zurich) (, ,) (NNP Switzerland))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Getty) (NNS Images))
+        (-RRB- -RRB-)))
+    (SBAR (IN As)
+      (S
+        (NP
+          (QP (JJ many) (IN as) (CD 14))
+          (NNS arrests))
+        (VP (VBP are)
+          (VP (VBN expected)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN made)
+                    (PP (IN in)
+                      (NP (NN connection)))
+                    (PP (IN with)
+                      (NP (DT the) (NNS crimes)))))))))))
+    (, ,)
+    (NP (NNP CNN))
+    (VP (VBD reported))
+    (. .)))
+
+root(ROOT-0, reported-28)
+nn(headquarters-2, FIFA-1)
+nsubj(reported-28, headquarters-2)
+nn(Switzerland-6, Zurich-4)
+prep_in(headquarters-2, Switzerland-6)
+nn(Images-9, Getty-8)
+appos(headquarters-2, Images-9)
+mark(expected-17, As-11)
+advmod(as-13, many-12)
+quantmod(14-14, as-13)
+num(arrests-15, 14-14)
+nsubjpass(expected-17, arrests-15)
+auxpass(expected-17, are-16)
+advcl(reported-28, expected-17)
+aux(made-20, to-18)
+auxpass(made-20, be-19)
+xcomp(expected-17, made-20)
+prep_in(made-20, connection-22)
+det(crimes-25, the-24)
+prep_with(made-20, crimes-25)
+nsubj(reported-28, CNN-27)
+
+Sentence #20 (17 tokens):
+The report said those people will be indicted Wednesday in federal court in Brooklyn, N.Y.
+[Text=The CharacterOffsetBegin=2581 CharacterOffsetEnd=2584 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=report CharacterOffsetBegin=2585 CharacterOffsetEnd=2591 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=said CharacterOffsetBegin=2592 CharacterOffsetEnd=2596 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=those CharacterOffsetBegin=2597 CharacterOffsetEnd=2602 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=people CharacterOffsetBegin=2603 CharacterOffsetEnd=2609 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=will CharacterOffsetBegin=2610 CharacterOffsetEnd=2614 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=2615 CharacterOffsetEnd=2617 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=indicted CharacterOffsetBegin=2618 CharacterOffsetEnd=2626 PartOfSpeech=VBN Lemma=indict NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=2627 CharacterOffsetEnd=2636 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t8" type="DATE" value="XXXX-WXX-3">Wednesday<_TIMEX3>] [Text=in CharacterOffsetBegin=2637 CharacterOffsetEnd=2639 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=federal CharacterOffsetBegin=2640 CharacterOffsetEnd=2647 PartOfSpeech=JJ Lemma=federal NamedEntityTag=O] [Text=court CharacterOffsetBegin=2648 CharacterOffsetEnd=2653 PartOfSpeech=NN Lemma=court NamedEntityTag=O] [Text=in CharacterOffsetBegin=2654 CharacterOffsetEnd=2656 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Brooklyn CharacterOffsetBegin=2657 CharacterOffsetEnd=2665 PartOfSpeech=NNP Lemma=Brooklyn NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2665 CharacterOffsetEnd=2666 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=N.Y. CharacterOffsetBegin=2667 CharacterOffsetEnd=2670 PartOfSpeech=NNP Lemma=N.Y. NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2670 CharacterOffsetEnd=2671 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN report))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT those) (NNS people))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBN indicted)
+                (NP-TMP (NNP Wednesday))
+                (PP (IN in)
+                  (NP
+                    (NP (JJ federal) (NN court))
+                    (PP (IN in)
+                      (NP (NNP Brooklyn) (, ,) (NNP N.Y.)))))))))))
+    (. .)))
+
+root(ROOT-0, said-3)
+det(report-2, The-1)
+nsubj(said-3, report-2)
+det(people-5, those-4)
+nsubjpass(indicted-8, people-5)
+aux(indicted-8, will-6)
+auxpass(indicted-8, be-7)
+ccomp(said-3, indicted-8)
+tmod(indicted-8, Wednesday-9)
+amod(court-12, federal-11)
+prep_in(indicted-8, court-12)
+nn(N.Y.-16, Brooklyn-14)
+prep_in(court-12, N.Y.-16)
+
+Sentence #21 (17 tokens):
+Some of the charges to those living abroad would result in extradition to the United States.
+[Text=Some CharacterOffsetBegin=2672 CharacterOffsetEnd=2676 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=of CharacterOffsetBegin=2677 CharacterOffsetEnd=2679 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2680 CharacterOffsetEnd=2683 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=charges CharacterOffsetBegin=2684 CharacterOffsetEnd=2691 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O] [Text=to CharacterOffsetBegin=2692 CharacterOffsetEnd=2694 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=those CharacterOffsetBegin=2695 CharacterOffsetEnd=2700 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=living CharacterOffsetBegin=2701 CharacterOffsetEnd=2707 PartOfSpeech=VBG Lemma=live NamedEntityTag=O] [Text=abroad CharacterOffsetBegin=2708 CharacterOffsetEnd=2714 PartOfSpeech=RB Lemma=abroad NamedEntityTag=O] [Text=would CharacterOffsetBegin=2715 CharacterOffsetEnd=2720 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=result CharacterOffsetBegin=2721 CharacterOffsetEnd=2727 PartOfSpeech=VB Lemma=result NamedEntityTag=O] [Text=in CharacterOffsetBegin=2728 CharacterOffsetEnd=2730 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=extradition CharacterOffsetBegin=2731 CharacterOffsetEnd=2742 PartOfSpeech=NN Lemma=extradition NamedEntityTag=O] [Text=to CharacterOffsetBegin=2743 CharacterOffsetEnd=2745 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2746 CharacterOffsetEnd=2749 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=United CharacterOffsetBegin=2750 CharacterOffsetEnd=2756 PartOfSpeech=NNP Lemma=United NamedEntityTag=LOCATION] [Text=States CharacterOffsetBegin=2757 CharacterOffsetEnd=2763 PartOfSpeech=NNPS Lemma=States NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=2763 CharacterOffsetEnd=2764 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT Some))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS charges))
+          (PP (TO to)
+            (NP
+              (NP (DT those))
+              (VP (VBG living)
+                (ADVP (RB abroad))))))))
+    (VP (MD would)
+      (VP (VB result)
+        (PP (IN in)
+          (NP (NN extradition)))
+        (PP (TO to)
+          (NP (DT the) (NNP United) (NNPS States)))))
+    (. .)))
+
+root(ROOT-0, result-10)
+nsubj(result-10, Some-1)
+det(charges-4, the-3)
+prep_of(Some-1, charges-4)
+prep_to(charges-4, those-6)
+vmod(those-6, living-7)
+advmod(living-7, abroad-8)
+aux(result-10, would-9)
+prep_in(result-10, extradition-12)
+det(States-16, the-14)
+nn(States-16, United-15)
+prep_to(result-10, States-16)
+
+Sentence #22 (26 tokens):
+FIFA, which reported a revenue of $5.7 billion from 2011 to 2014,Â has been the subjectÂ of corruption allegations for years.
+[Text=FIFA CharacterOffsetBegin=2765 CharacterOffsetEnd=2769 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2769 CharacterOffsetEnd=2770 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=2771 CharacterOffsetEnd=2776 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=reported CharacterOffsetBegin=2777 CharacterOffsetEnd=2785 PartOfSpeech=VBD Lemma=report NamedEntityTag=O] [Text=a CharacterOffsetBegin=2786 CharacterOffsetEnd=2787 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=2788 CharacterOffsetEnd=2795 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=of CharacterOffsetBegin=2796 CharacterOffsetEnd=2798 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=$ CharacterOffsetBegin=2799 CharacterOffsetEnd=2800 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.7E9] [Text=5.7 CharacterOffsetBegin=2800 CharacterOffsetEnd=2803 PartOfSpeech=CD Lemma=5.7 NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.7E9] [Text=billion CharacterOffsetBegin=2804 CharacterOffsetEnd=2811 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.7E9] [Text=from CharacterOffsetBegin=2812 CharacterOffsetEnd=2816 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=2011 CharacterOffsetBegin=2817 CharacterOffsetEnd=2821 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011_2014 Timex=<TIMEX3 tid="t18" type="DATE" value="2011">2011<_TIMEX3>] [Text=to CharacterOffsetBegin=2822 CharacterOffsetEnd=2824 PartOfSpeech=TO Lemma=to NamedEntityTag=DATE NormalizedNamedEntityTag=2011_2014] [Text=2014 CharacterOffsetBegin=2825 CharacterOffsetEnd=2829 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2011_2014 Timex=<TIMEX3 tid="t19" type="DATE" value="2014">2014<_TIMEX3>] [Text=, CharacterOffsetBegin=2829 CharacterOffsetEnd=2830 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Â CharacterOffsetBegin=2830 CharacterOffsetEnd=2831 PartOfSpeech=NNP Lemma=Â NamedEntityTag=O] [Text=has CharacterOffsetBegin=2832 CharacterOffsetEnd=2835 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=2836 CharacterOffsetEnd=2840 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2841 CharacterOffsetEnd=2844 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=subjectÂ CharacterOffsetBegin=2845 CharacterOffsetEnd=2853 PartOfSpeech=NN Lemma=subjectâ NamedEntityTag=O] [Text=of CharacterOffsetBegin=2854 CharacterOffsetEnd=2856 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=2857 CharacterOffsetEnd=2867 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=allegations CharacterOffsetBegin=2868 CharacterOffsetEnd=2879 PartOfSpeech=NNS Lemma=allegation NamedEntityTag=O] [Text=for CharacterOffsetBegin=2880 CharacterOffsetEnd=2883 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=years CharacterOffsetBegin=2884 CharacterOffsetEnd=2889 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t20" type="DURATION" value="PXY">years<_TIMEX3>] [Text=. CharacterOffsetBegin=2889 CharacterOffsetEnd=2890 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP FIFA))
+    (, ,)
+    (SBAR
+      (WHNP (WDT which))
+      (S
+        (VP (VBD reported)
+          (NP
+            (NP (DT a) (NN revenue))
+            (PP (IN of)
+              (NP
+                (QP ($ $) (CD 5.7) (CD billion)))))
+          (PP (IN from)
+            (NP (CD 2011) (TO to) (CD 2014))))))
+    (, ,)
+    (NP (NNP Â))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (NP
+          (NP (DT the) (NN subjectÂ))
+          (PP (IN of)
+            (NP (NN corruption) (NNS allegations))))
+        (PP (IN for)
+          (NP (NNS years)))))
+    (. .)))
+
+root(ROOT-0, subjectÂ-20)
+nsubj(subjectÂ-20, FIFA-1)
+nsubj(reported-4, which-3)
+advcl(subjectÂ-20, reported-4)
+det(revenue-6, a-5)
+dobj(reported-4, revenue-6)
+prep_of(revenue-6, dol-8)
+number(billion-10, 5.7-9)
+num(dol-8, billion-10)
+num(2014-14, 2011-12)
+dep(2014-14, to-13)
+prep_from(reported-4, 2014-14)
+nsubj(subjectÂ-20, Â-16)
+aux(subjectÂ-20, has-17)
+cop(subjectÂ-20, been-18)
+det(subjectÂ-20, the-19)
+nn(allegations-23, corruption-22)
+prep_of(subjectÂ-20, allegations-23)
+prep_for(subjectÂ-20, years-25)
+
+Sentence #23 (24 tokens):
+The latest corruption chargesÂ involve bids for World Cups in addition toÂ marketing and broadcast deals, the New York Times report said.
+[Text=The CharacterOffsetBegin=2891 CharacterOffsetEnd=2894 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=latest CharacterOffsetBegin=2895 CharacterOffsetEnd=2901 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=corruption CharacterOffsetBegin=2902 CharacterOffsetEnd=2912 PartOfSpeech=NN Lemma=corruption NamedEntityTag=O] [Text=chargesÂ CharacterOffsetBegin=2913 CharacterOffsetEnd=2921 PartOfSpeech=NN Lemma=chargesâ NamedEntityTag=O] [Text=involve CharacterOffsetBegin=2922 CharacterOffsetEnd=2929 PartOfSpeech=VBP Lemma=involve NamedEntityTag=O] [Text=bids CharacterOffsetBegin=2930 CharacterOffsetEnd=2934 PartOfSpeech=NNS Lemma=bid NamedEntityTag=O] [Text=for CharacterOffsetBegin=2935 CharacterOffsetEnd=2938 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=World CharacterOffsetBegin=2939 CharacterOffsetEnd=2944 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=Cups CharacterOffsetBegin=2945 CharacterOffsetEnd=2949 PartOfSpeech=NNP Lemma=Cups NamedEntityTag=MISC] [Text=in CharacterOffsetBegin=2950 CharacterOffsetEnd=2952 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=addition CharacterOffsetBegin=2953 CharacterOffsetEnd=2961 PartOfSpeech=NN Lemma=addition NamedEntityTag=O] [Text=toÂ CharacterOffsetBegin=2962 CharacterOffsetEnd=2965 PartOfSpeech=NN Lemma=toâ NamedEntityTag=O] [Text=marketing CharacterOffsetBegin=2966 CharacterOffsetEnd=2975 PartOfSpeech=NN Lemma=marketing NamedEntityTag=O] [Text=and CharacterOffsetBegin=2976 CharacterOffsetEnd=2979 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=broadcast CharacterOffsetBegin=2980 CharacterOffsetEnd=2989 PartOfSpeech=NN Lemma=broadcast NamedEntityTag=O] [Text=deals CharacterOffsetBegin=2990 CharacterOffsetEnd=2995 PartOfSpeech=NNS Lemma=deal NamedEntityTag=O] [Text=, CharacterOffsetBegin=2995 CharacterOffsetEnd=2996 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=2997 CharacterOffsetEnd=3000 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=New CharacterOffsetBegin=3001 CharacterOffsetEnd=3004 PartOfSpeech=NNP Lemma=New NamedEntityTag=ORGANIZATION] [Text=York CharacterOffsetBegin=3005 CharacterOffsetEnd=3009 PartOfSpeech=NNP Lemma=York NamedEntityTag=ORGANIZATION] [Text=Times CharacterOffsetBegin=3010 CharacterOffsetEnd=3015 PartOfSpeech=NNP Lemma=Times NamedEntityTag=ORGANIZATION] [Text=report CharacterOffsetBegin=3016 CharacterOffsetEnd=3022 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=said CharacterOffsetBegin=3023 CharacterOffsetEnd=3027 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=3027 CharacterOffsetEnd=3028 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJS latest) (NN corruption) (NN chargesÂ))
+      (VP (VBP involve)
+        (NP
+          (NP (NNS bids))
+          (PP (IN for)
+            (NP
+              (NP (NNP World) (NNP Cups))
+              (PP (IN in)
+                (NP (NN addition) (NN toÂ) (NN marketing)
+                  (CC and)
+                  (NN broadcast) (NNS deals))))))))
+    (, ,)
+    (NP (DT the) (NNP New) (NNP York) (NNP Times) (NN report))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-23)
+det(chargesÂ-4, The-1)
+amod(chargesÂ-4, latest-2)
+nn(chargesÂ-4, corruption-3)
+nsubj(involve-5, chargesÂ-4)
+ccomp(said-23, involve-5)
+dobj(involve-5, bids-6)
+nn(Cups-9, World-8)
+prep_for(bids-6, Cups-9)
+nn(marketing-13, addition-11)
+nn(marketing-13, toÂ-12)
+prep_in(Cups-9, marketing-13)
+nn(deals-16, broadcast-15)
+conj_and(marketing-13, deals-16)
+det(report-22, the-18)
+nn(report-22, New-19)
+nn(report-22, York-20)
+nn(report-22, Times-21)
+nsubj(said-23, report-22)
+
+Sentence #24 (20 tokens):
+Possibly as important,Â theyÂ come just three days before FIFA was scheduled to hold its presidential election.
+[Text=Possibly CharacterOffsetBegin=3029 CharacterOffsetEnd=3037 PartOfSpeech=RB Lemma=possibly NamedEntityTag=O] [Text=as CharacterOffsetBegin=3038 CharacterOffsetEnd=3040 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=important CharacterOffsetBegin=3041 CharacterOffsetEnd=3050 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=, CharacterOffsetBegin=3050 CharacterOffsetEnd=3051 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Â CharacterOffsetBegin=3051 CharacterOffsetEnd=3052 PartOfSpeech=NN Lemma=â NamedEntityTag=O] [Text=theyÂ CharacterOffsetBegin=3053 CharacterOffsetEnd=3058 PartOfSpeech=NN Lemma=theyâ NamedEntityTag=O] [Text=come CharacterOffsetBegin=3059 CharacterOffsetEnd=3063 PartOfSpeech=VB Lemma=come NamedEntityTag=O] [Text=just CharacterOffsetBegin=3064 CharacterOffsetEnd=3068 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=three CharacterOffsetBegin=3069 CharacterOffsetEnd=3074 PartOfSpeech=CD Lemma=three NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 tid="t21" type="DURATION" value="P3D">three days<_TIMEX3>] [Text=days CharacterOffsetBegin=3075 CharacterOffsetEnd=3079 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P3D Timex=<TIMEX3 tid="t21" type="DURATION" value="P3D">three days<_TIMEX3>] [Text=before CharacterOffsetBegin=3080 CharacterOffsetEnd=3086 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=3087 CharacterOffsetEnd=3091 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=was CharacterOffsetBegin=3092 CharacterOffsetEnd=3095 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=scheduled CharacterOffsetBegin=3096 CharacterOffsetEnd=3105 PartOfSpeech=VBN Lemma=schedule NamedEntityTag=O] [Text=to CharacterOffsetBegin=3106 CharacterOffsetEnd=3108 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hold CharacterOffsetBegin=3109 CharacterOffsetEnd=3113 PartOfSpeech=VB Lemma=hold NamedEntityTag=O] [Text=its CharacterOffsetBegin=3114 CharacterOffsetEnd=3117 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=presidential CharacterOffsetBegin=3118 CharacterOffsetEnd=3130 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=election CharacterOffsetBegin=3131 CharacterOffsetEnd=3139 PartOfSpeech=NN Lemma=election NamedEntityTag=O] [Text=. CharacterOffsetBegin=3139 CharacterOffsetEnd=3140 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Possibly))
+    (ADJP (RB as) (JJ important))
+    (, ,)
+    (NP
+      (NP (NN Â) (NN theyÂ))
+      (SBAR
+        (S
+          (VP (VB come)
+            (NP (RB just) (CD three) (NNS days))
+            (PP (IN before)
+              (NP (NNP FIFA)))))))
+    (VP (VBD was)
+      (VP (VBN scheduled)
+        (S
+          (VP (TO to)
+            (VP (VB hold)
+              (NP (PRP$ its) (JJ presidential) (NN election)))))))
+    (. .)))
+
+root(ROOT-0, scheduled-14)
+advmod(scheduled-14, Possibly-1)
+advmod(important-3, as-2)
+dep(scheduled-14, important-3)
+nn(theyÂ-6, Â-5)
+nsubjpass(scheduled-14, theyÂ-6)
+rcmod(theyÂ-6, come-7)
+advmod(days-10, just-8)
+num(days-10, three-9)
+tmod(come-7, days-10)
+prep_before(come-7, FIFA-12)
+auxpass(scheduled-14, was-13)
+aux(hold-16, to-15)
+xcomp(scheduled-14, hold-16)
+poss(election-19, its-17)
+amod(election-19, presidential-18)
+dobj(hold-16, election-19)
+
+Sentence #25 (23 tokens):
+Longtime presidentÂ Sepp Blatter, who officials said was not charged, was expected to be easily elected to his fifth term.
+[Text=Longtime CharacterOffsetBegin=3141 CharacterOffsetEnd=3149 PartOfSpeech=JJ Lemma=longtime NamedEntityTag=O] [Text=presidentÂ CharacterOffsetBegin=3150 CharacterOffsetEnd=3160 PartOfSpeech=NN Lemma=presidentâ NamedEntityTag=O] [Text=Sepp CharacterOffsetBegin=3161 CharacterOffsetEnd=3165 PartOfSpeech=NNP Lemma=Sepp NamedEntityTag=PERSON] [Text=Blatter CharacterOffsetBegin=3166 CharacterOffsetEnd=3173 PartOfSpeech=NNP Lemma=Blatter NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=3173 CharacterOffsetEnd=3174 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=3175 CharacterOffsetEnd=3178 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=officials CharacterOffsetBegin=3179 CharacterOffsetEnd=3188 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=said CharacterOffsetBegin=3189 CharacterOffsetEnd=3193 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=was CharacterOffsetBegin=3194 CharacterOffsetEnd=3197 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=3198 CharacterOffsetEnd=3201 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=charged CharacterOffsetBegin=3202 CharacterOffsetEnd=3209 PartOfSpeech=VBN Lemma=charge NamedEntityTag=O] [Text=, CharacterOffsetBegin=3209 CharacterOffsetEnd=3210 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=was CharacterOffsetBegin=3211 CharacterOffsetEnd=3214 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=3215 CharacterOffsetEnd=3223 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=to CharacterOffsetBegin=3224 CharacterOffsetEnd=3226 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=3227 CharacterOffsetEnd=3229 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=easily CharacterOffsetBegin=3230 CharacterOffsetEnd=3236 PartOfSpeech=RB Lemma=easily NamedEntityTag=O] [Text=elected CharacterOffsetBegin=3237 CharacterOffsetEnd=3244 PartOfSpeech=VBN Lemma=elect NamedEntityTag=O] [Text=to CharacterOffsetBegin=3245 CharacterOffsetEnd=3247 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=his CharacterOffsetBegin=3248 CharacterOffsetEnd=3251 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=fifth CharacterOffsetBegin=3252 CharacterOffsetEnd=3257 PartOfSpeech=JJ Lemma=fifth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=5.0] [Text=term CharacterOffsetBegin=3258 CharacterOffsetEnd=3262 PartOfSpeech=NN Lemma=term NamedEntityTag=O] [Text=. CharacterOffsetBegin=3262 CharacterOffsetEnd=3263 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (JJ Longtime) (NN presidentÂ) (NNP Sepp) (NNP Blatter))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (NNS officials))
+          (VP (VBD said)
+            (SBAR
+              (S
+                (VP (VBD was) (RB not)
+                  (VP (VBN charged))))))))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBN expected)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP
+                (ADVP (RB easily))
+                (VBN elected)
+                (PP (TO to)
+                  (NP (PRP$ his) (JJ fifth) (NN term)))))))))
+    (. .)))
+
+root(ROOT-0, expected-14)
+amod(Blatter-4, Longtime-1)
+nn(Blatter-4, presidentÂ-2)
+nn(Blatter-4, Sepp-3)
+nsubjpass(expected-14, Blatter-4)
+dobj(said-8, who-6)
+nsubj(said-8, officials-7)
+rcmod(Blatter-4, said-8)
+auxpass(charged-11, was-9)
+neg(charged-11, not-10)
+ccomp(said-8, charged-11)
+auxpass(expected-14, was-13)
+aux(elected-18, to-15)
+auxpass(elected-18, be-16)
+advmod(elected-18, easily-17)
+xcomp(expected-14, elected-18)
+poss(term-22, his-20)
+amod(term-22, fifth-21)
+prep_to(elected-18, term-22)
+
+Sentence #26 (30 tokens):
+But the scandal, the latest under Blatter_sÂ command,Â is likely to leave aÂ major smudge on his reputation and could potentially impact theÂ election.
+[Text=But CharacterOffsetBegin=3264 CharacterOffsetEnd=3267 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=the CharacterOffsetBegin=3268 CharacterOffsetEnd=3271 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=scandal CharacterOffsetBegin=3272 CharacterOffsetEnd=3279 PartOfSpeech=NN Lemma=scandal NamedEntityTag=O] [Text=, CharacterOffsetBegin=3279 CharacterOffsetEnd=3280 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=3281 CharacterOffsetEnd=3284 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=latest CharacterOffsetBegin=3285 CharacterOffsetEnd=3291 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=under CharacterOffsetBegin=3292 CharacterOffsetEnd=3297 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=Blatter CharacterOffsetBegin=3298 CharacterOffsetEnd=3305 PartOfSpeech=NNP Lemma=Blatter NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=3305 CharacterOffsetEnd=3307 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Â CharacterOffsetBegin=3307 CharacterOffsetEnd=3308 PartOfSpeech=NNP Lemma=Â NamedEntityTag=O] [Text=command CharacterOffsetBegin=3309 CharacterOffsetEnd=3316 PartOfSpeech=NN Lemma=command NamedEntityTag=O] [Text=, CharacterOffsetBegin=3316 CharacterOffsetEnd=3317 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Â CharacterOffsetBegin=3317 CharacterOffsetEnd=3318 PartOfSpeech=NN Lemma=â NamedEntityTag=O] [Text=is CharacterOffsetBegin=3319 CharacterOffsetEnd=3321 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=likely CharacterOffsetBegin=3322 CharacterOffsetEnd=3328 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O] [Text=to CharacterOffsetBegin=3329 CharacterOffsetEnd=3331 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=leave CharacterOffsetBegin=3332 CharacterOffsetEnd=3337 PartOfSpeech=VB Lemma=leave NamedEntityTag=O] [Text=aÂ CharacterOffsetBegin=3338 CharacterOffsetEnd=3340 PartOfSpeech=NNP Lemma=aÂ NamedEntityTag=O] [Text=major CharacterOffsetBegin=3341 CharacterOffsetEnd=3346 PartOfSpeech=JJ Lemma=major NamedEntityTag=O] [Text=smudge CharacterOffsetBegin=3347 CharacterOffsetEnd=3353 PartOfSpeech=NN Lemma=smudge NamedEntityTag=O] [Text=on CharacterOffsetBegin=3354 CharacterOffsetEnd=3356 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=his CharacterOffsetBegin=3357 CharacterOffsetEnd=3360 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=reputation CharacterOffsetBegin=3361 CharacterOffsetEnd=3371 PartOfSpeech=NN Lemma=reputation NamedEntityTag=O] [Text=and CharacterOffsetBegin=3372 CharacterOffsetEnd=3375 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=could CharacterOffsetBegin=3376 CharacterOffsetEnd=3381 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=potentially CharacterOffsetBegin=3382 CharacterOffsetEnd=3393 PartOfSpeech=RB Lemma=potentially NamedEntityTag=O] [Text=impact CharacterOffsetBegin=3394 CharacterOffsetEnd=3400 PartOfSpeech=VB Lemma=impact NamedEntityTag=O] [Text=theÂ CharacterOffsetBegin=3401 CharacterOffsetEnd=3405 PartOfSpeech=NN Lemma=theâ NamedEntityTag=O] [Text=election CharacterOffsetBegin=3406 CharacterOffsetEnd=3414 PartOfSpeech=NN Lemma=election NamedEntityTag=O] [Text=. CharacterOffsetBegin=3414 CharacterOffsetEnd=3415 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (NN scandal))
+      (, ,)
+      (NP (DT the)
+        (NP
+          (NP (JJS latest))
+          (PP (IN under)
+            (NP
+              (NP (NNP Blatter) (POS _s))
+              (NNP Â) (NN command))))
+        (, ,) (NN Â)))
+    (VP
+      (VP (VBZ is)
+        (ADJP (JJ likely)
+          (S
+            (VP (TO to)
+              (VP (VB leave)
+                (NP (NNP aÂ) (JJ major) (NN smudge))
+                (PP (IN on)
+                  (NP (PRP$ his) (NN reputation))))))))
+      (CC and)
+      (VP (MD could)
+        (ADVP (RB potentially))
+        (VP (VB impact)
+          (NP (NN theÂ) (NN election)))))
+    (. .)))
+
+root(ROOT-0, likely-15)
+det(scandal-3, the-2)
+nsubj(likely-15, scandal-3)
+det(Â-13, the-5)
+nn(Â-13, latest-6)
+poss(command-11, Blatter-8)
+nn(command-11, Â-10)
+prep_under(latest-6, command-11)
+appos(scandal-3, Â-13)
+cop(likely-15, is-14)
+aux(leave-17, to-16)
+xcomp(likely-15, leave-17)
+nn(smudge-20, aÂ-18)
+amod(smudge-20, major-19)
+dobj(leave-17, smudge-20)
+poss(reputation-23, his-22)
+prep_on(leave-17, reputation-23)
+aux(impact-27, could-25)
+advmod(impact-27, potentially-26)
+conj_and(likely-15, impact-27)
+nn(election-29, theÂ-28)
+dobj(impact-27, election-29)
+
+Sentence #27 (30 tokens):
+In December, an internal investigationÂ launched byÂ FIFA into allegations ofÂ corrupted bidding processes for the 2018 and 2022 World CupÂ found no evidence to support the claims.
+[Text=In CharacterOffsetBegin=3416 CharacterOffsetEnd=3418 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=December CharacterOffsetBegin=3419 CharacterOffsetEnd=3427 PartOfSpeech=NNP Lemma=December NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-12 Timex=<TIMEX3 tid="t22" type="DATE" value="XXXX-12">December<_TIMEX3>] [Text=, CharacterOffsetBegin=3427 CharacterOffsetEnd=3428 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=an CharacterOffsetBegin=3429 CharacterOffsetEnd=3431 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=internal CharacterOffsetBegin=3432 CharacterOffsetEnd=3440 PartOfSpeech=JJ Lemma=internal NamedEntityTag=O] [Text=investigationÂ CharacterOffsetBegin=3441 CharacterOffsetEnd=3455 PartOfSpeech=NN Lemma=investigationâ NamedEntityTag=O] [Text=launched CharacterOffsetBegin=3456 CharacterOffsetEnd=3464 PartOfSpeech=VBD Lemma=launch NamedEntityTag=O] [Text=byÂ CharacterOffsetBegin=3465 CharacterOffsetEnd=3468 PartOfSpeech=NNP Lemma=byÂ NamedEntityTag=O] [Text=FIFA CharacterOffsetBegin=3469 CharacterOffsetEnd=3473 PartOfSpeech=NNP Lemma=FIFA NamedEntityTag=ORGANIZATION] [Text=into CharacterOffsetBegin=3474 CharacterOffsetEnd=3478 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=allegations CharacterOffsetBegin=3479 CharacterOffsetEnd=3490 PartOfSpeech=NNS Lemma=allegation NamedEntityTag=O] [Text=ofÂ CharacterOffsetBegin=3491 CharacterOffsetEnd=3494 PartOfSpeech=NN Lemma=ofâ NamedEntityTag=O] [Text=corrupted CharacterOffsetBegin=3495 CharacterOffsetEnd=3504 PartOfSpeech=VBD Lemma=corrupt NamedEntityTag=O] [Text=bidding CharacterOffsetBegin=3505 CharacterOffsetEnd=3512 PartOfSpeech=NN Lemma=bidding NamedEntityTag=O] [Text=processes CharacterOffsetBegin=3513 CharacterOffsetEnd=3522 PartOfSpeech=NNS Lemma=process NamedEntityTag=O] [Text=for CharacterOffsetBegin=3523 CharacterOffsetEnd=3526 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=3527 CharacterOffsetEnd=3530 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2018 CharacterOffsetBegin=3531 CharacterOffsetEnd=3535 PartOfSpeech=CD Lemma=2018 NamedEntityTag=DATE NormalizedNamedEntityTag=2018 Timex=<TIMEX3 tid="t23" type="DATE" value="2018">2018<_TIMEX3>] [Text=and CharacterOffsetBegin=3536 CharacterOffsetEnd=3539 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=2022 CharacterOffsetBegin=3540 CharacterOffsetEnd=3544 PartOfSpeech=CD Lemma=2022 NamedEntityTag=DATE NormalizedNamedEntityTag=2022 Timex=<TIMEX3 tid="t24" type="DATE" value="2022">2022<_TIMEX3>] [Text=World CharacterOffsetBegin=3545 CharacterOffsetEnd=3550 PartOfSpeech=NN Lemma=world NamedEntityTag=MISC] [Text=CupÂ CharacterOffsetBegin=3551 CharacterOffsetEnd=3555 PartOfSpeech=NN Lemma=cupâ NamedEntityTag=MISC] [Text=found CharacterOffsetBegin=3556 CharacterOffsetEnd=3561 PartOfSpeech=VBD Lemma=find NamedEntityTag=O] [Text=no CharacterOffsetBegin=3562 CharacterOffsetEnd=3564 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=evidence CharacterOffsetBegin=3565 CharacterOffsetEnd=3573 PartOfSpeech=NN Lemma=evidence NamedEntityTag=O] [Text=to CharacterOffsetBegin=3574 CharacterOffsetEnd=3576 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=support CharacterOffsetBegin=3577 CharacterOffsetEnd=3584 PartOfSpeech=VB Lemma=support NamedEntityTag=O] [Text=the CharacterOffsetBegin=3585 CharacterOffsetEnd=3588 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=claims CharacterOffsetBegin=3589 CharacterOffsetEnd=3595 PartOfSpeech=NNS Lemma=claim NamedEntityTag=O] [Text=. CharacterOffsetBegin=3595 CharacterOffsetEnd=3596 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP December)))
+    (, ,)
+    (NP (DT an) (JJ internal) (NN investigationÂ))
+    (VP (VBD launched)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP byÂ) (NNP FIFA))
+            (PP (IN into)
+              (NP (NNS allegations) (NN ofÂ))))
+          (VP (VBD corrupted)
+            (NP (NN bidding) (NNS processes))
+            (SBAR (IN for)
+              (S
+                (NP (DT the) (CD 2018)
+                  (CC and)
+                  (CD 2022) (NN World) (NN CupÂ))
+                (VP (VBD found)
+                  (NP (DT no) (NN evidence)
+                    (S
+                      (VP (TO to)
+                        (VP (VB support)
+                          (NP (DT the) (NNS claims)))))))))))))
+    (. .)))
+
+root(ROOT-0, launched-7)
+prep_in(launched-7, December-2)
+det(investigationÂ-6, an-4)
+amod(investigationÂ-6, internal-5)
+nsubj(launched-7, investigationÂ-6)
+nn(FIFA-9, byÂ-8)
+nsubj(corrupted-13, FIFA-9)
+nn(ofÂ-12, allegations-11)
+prep_into(FIFA-9, ofÂ-12)
+ccomp(launched-7, corrupted-13)
+nn(processes-15, bidding-14)
+dobj(corrupted-13, processes-15)
+mark(found-23, for-16)
+det(2018-18, the-17)
+nsubj(found-23, 2018-18)
+num(CupÂ-22, 2022-20)
+nn(CupÂ-22, World-21)
+conj_and(2018-18, CupÂ-22)
+advcl(corrupted-13, found-23)
+neg(evidence-25, no-24)
+dobj(found-23, evidence-25)
+aux(support-27, to-26)
+vmod(evidence-25, support-27)
+det(claims-29, the-28)
+dobj(support-27, claims-29)
+
+Sentence #28 (11 tokens):
+The bids were awarded to Russia and Qatar, respectively.
+[Text=The CharacterOffsetBegin=3597 CharacterOffsetEnd=3600 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=bids CharacterOffsetBegin=3601 CharacterOffsetEnd=3605 PartOfSpeech=NNS Lemma=bid NamedEntityTag=O] [Text=were CharacterOffsetBegin=3606 CharacterOffsetEnd=3610 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=awarded CharacterOffsetBegin=3611 CharacterOffsetEnd=3618 PartOfSpeech=VBN Lemma=award NamedEntityTag=O] [Text=to CharacterOffsetBegin=3619 CharacterOffsetEnd=3621 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Russia CharacterOffsetBegin=3622 CharacterOffsetEnd=3628 PartOfSpeech=NNP Lemma=Russia NamedEntityTag=LOCATION] [Text=and CharacterOffsetBegin=3629 CharacterOffsetEnd=3632 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Qatar CharacterOffsetBegin=3633 CharacterOffsetEnd=3638 PartOfSpeech=NNP Lemma=Qatar NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3638 CharacterOffsetEnd=3639 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=respectively CharacterOffsetBegin=3640 CharacterOffsetEnd=3652 PartOfSpeech=RB Lemma=respectively NamedEntityTag=O] [Text=. CharacterOffsetBegin=3652 CharacterOffsetEnd=3653 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNS bids))
+    (VP (VBD were)
+      (VP (VBN awarded)
+        (PP (TO to)
+          (NP (NNP Russia)
+            (CC and)
+            (NNP Qatar)))
+        (, ,)
+        (ADVP (RB respectively))))
+    (. .)))
+
+root(ROOT-0, awarded-4)
+det(bids-2, The-1)
+nsubjpass(awarded-4, bids-2)
+auxpass(awarded-4, were-3)
+prep_to(awarded-4, Russia-6)
+conj_and(Russia-6, Qatar-8)
+advmod(awarded-4, respectively-10)
+
+Sentence #29 (23 tokens):
+A whistleblower who worked for the Qatar bid team allegedÂ several African officials were paid $1.5 million each to support Qatar.
+[Text=A CharacterOffsetBegin=3654 CharacterOffsetEnd=3655 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=whistleblower CharacterOffsetBegin=3656 CharacterOffsetEnd=3669 PartOfSpeech=NN Lemma=whistleblower NamedEntityTag=O] [Text=who CharacterOffsetBegin=3670 CharacterOffsetEnd=3673 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=worked CharacterOffsetBegin=3674 CharacterOffsetEnd=3680 PartOfSpeech=VBD Lemma=work NamedEntityTag=O] [Text=for CharacterOffsetBegin=3681 CharacterOffsetEnd=3684 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=3685 CharacterOffsetEnd=3688 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Qatar CharacterOffsetBegin=3689 CharacterOffsetEnd=3694 PartOfSpeech=NNP Lemma=Qatar NamedEntityTag=LOCATION] [Text=bid CharacterOffsetBegin=3695 CharacterOffsetEnd=3698 PartOfSpeech=NN Lemma=bid NamedEntityTag=O] [Text=team CharacterOffsetBegin=3699 CharacterOffsetEnd=3703 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=allegedÂ CharacterOffsetBegin=3704 CharacterOffsetEnd=3712 PartOfSpeech=NN Lemma=allegedâ NamedEntityTag=O] [Text=several CharacterOffsetBegin=3713 CharacterOffsetEnd=3720 PartOfSpeech=JJ Lemma=several NamedEntityTag=O] [Text=African CharacterOffsetBegin=3721 CharacterOffsetEnd=3728 PartOfSpeech=JJ Lemma=african NamedEntityTag=MISC] [Text=officials CharacterOffsetBegin=3729 CharacterOffsetEnd=3738 PartOfSpeech=NNS Lemma=official NamedEntityTag=O] [Text=were CharacterOffsetBegin=3739 CharacterOffsetEnd=3743 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=paid CharacterOffsetBegin=3744 CharacterOffsetEnd=3748 PartOfSpeech=VBN Lemma=pay NamedEntityTag=O] [Text=$ CharacterOffsetBegin=3749 CharacterOffsetEnd=3750 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1500000.0] [Text=1.5 CharacterOffsetBegin=3750 CharacterOffsetEnd=3753 PartOfSpeech=CD Lemma=1.5 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1500000.0] [Text=million CharacterOffsetBegin=3754 CharacterOffsetEnd=3761 PartOfSpeech=CD Lemma=million NamedEntityTag=MONEY NormalizedNamedEntityTag=$1500000.0] [Text=each CharacterOffsetBegin=3762 CharacterOffsetEnd=3766 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=to CharacterOffsetBegin=3767 CharacterOffsetEnd=3769 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=support CharacterOffsetBegin=3770 CharacterOffsetEnd=3777 PartOfSpeech=VB Lemma=support NamedEntityTag=O] [Text=Qatar CharacterOffsetBegin=3778 CharacterOffsetEnd=3783 PartOfSpeech=NNP Lemma=Qatar NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=3783 CharacterOffsetEnd=3784 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN whistleblower))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD worked)
+            (PP (IN for)
+              (NP
+                (NP (DT the) (NNP Qatar) (NN bid) (NN team) (NN allegedÂ))
+                (NP (JJ several) (JJ African) (NNS officials))))))))
+    (VP (VBD were)
+      (VP (VBN paid)
+        (NP
+          (NP
+            (QP ($ $) (CD 1.5) (CD million)))
+          (NP (DT each)))
+        (S
+          (VP (TO to)
+            (VP (VB support)
+              (NP (NNP Qatar)))))))
+    (. .)))
+
+root(ROOT-0, paid-15)
+det(whistleblower-2, A-1)
+nsubjpass(paid-15, whistleblower-2)
+nsubj(worked-4, who-3)
+rcmod(whistleblower-2, worked-4)
+det(allegedÂ-10, the-6)
+nn(allegedÂ-10, Qatar-7)
+nn(allegedÂ-10, bid-8)
+nn(allegedÂ-10, team-9)
+prep_for(worked-4, allegedÂ-10)
+amod(officials-13, several-11)
+amod(officials-13, African-12)
+dep(allegedÂ-10, officials-13)
+auxpass(paid-15, were-14)
+dobj(paid-15, dol-16)
+number(million-18, 1.5-17)
+num(dol-16, million-18)
+dep(dol-16, each-19)
+aux(support-21, to-20)
+vmod(paid-15, support-21)
+dobj(support-21, Qatar-22)
+
+Sentence #30 (31 tokens):
+That came after, in 2011, FIFAÂ issuedÂ a lifetime ban to Mohamed bin Hammam,Â a Qatari member of its top governing body, citing ethics violations.
+[Text=That CharacterOffsetBegin=3785 CharacterOffsetEnd=3789 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=came CharacterOffsetBegin=3790 CharacterOffsetEnd=3794 PartOfSpeech=VBD Lemma=come NamedEntityTag=O] [Text=after CharacterOffsetBegin=3795 CharacterOffsetEnd=3800 PartOfSpeech=RB Lemma=after NamedEntityTag=O] [Text=, CharacterOffsetBegin=3800 CharacterOffsetEnd=3801 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in CharacterOffsetBegin=3802 CharacterOffsetEnd=3804 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2011 CharacterOffsetBegin=3805 CharacterOffsetEnd=3809 PartOfSpeech=CD Lemma=2011 NamedEntityTag=DATE NormalizedNamedEntityTag=2011 Timex=<TIMEX3 tid="t25" type="DATE" value="2011">2011<_TIMEX3>] [Text=, CharacterOffsetBegin=3809 CharacterOffsetEnd=3810 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=FIFAÂ CharacterOffsetBegin=3811 CharacterOffsetEnd=3816 PartOfSpeech=NNP Lemma=FIFAÂ NamedEntityTag=O] [Text=issuedÂ CharacterOffsetBegin=3817 CharacterOffsetEnd=3824 PartOfSpeech=NNP Lemma=issuedÂ NamedEntityTag=O] [Text=a CharacterOffsetBegin=3825 CharacterOffsetEnd=3826 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lifetime CharacterOffsetBegin=3827 CharacterOffsetEnd=3835 PartOfSpeech=NN Lemma=lifetime NamedEntityTag=O] [Text=ban CharacterOffsetBegin=3836 CharacterOffsetEnd=3839 PartOfSpeech=NN Lemma=ban NamedEntityTag=O] [Text=to CharacterOffsetBegin=3840 CharacterOffsetEnd=3842 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Mohamed CharacterOffsetBegin=3843 CharacterOffsetEnd=3850 PartOfSpeech=NNP Lemma=Mohamed NamedEntityTag=PERSON] [Text=bin CharacterOffsetBegin=3851 CharacterOffsetEnd=3854 PartOfSpeech=NNP Lemma=bin NamedEntityTag=PERSON] [Text=Hammam CharacterOffsetBegin=3855 CharacterOffsetEnd=3861 PartOfSpeech=NNP Lemma=Hammam NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=3861 CharacterOffsetEnd=3862 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Â CharacterOffsetBegin=3862 CharacterOffsetEnd=3863 PartOfSpeech=NNP Lemma=Â NamedEntityTag=O] [Text=a CharacterOffsetBegin=3864 CharacterOffsetEnd=3865 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Qatari CharacterOffsetBegin=3866 CharacterOffsetEnd=3872 PartOfSpeech=NNP Lemma=Qatari NamedEntityTag=MISC] [Text=member CharacterOffsetBegin=3873 CharacterOffsetEnd=3879 PartOfSpeech=NN Lemma=member NamedEntityTag=O] [Text=of CharacterOffsetBegin=3880 CharacterOffsetEnd=3882 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=its CharacterOffsetBegin=3883 CharacterOffsetEnd=3886 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=top CharacterOffsetBegin=3887 CharacterOffsetEnd=3890 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=governing CharacterOffsetBegin=3891 CharacterOffsetEnd=3900 PartOfSpeech=VBG Lemma=govern NamedEntityTag=O] [Text=body CharacterOffsetBegin=3901 CharacterOffsetEnd=3905 PartOfSpeech=NN Lemma=body NamedEntityTag=O] [Text=, CharacterOffsetBegin=3905 CharacterOffsetEnd=3906 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=citing CharacterOffsetBegin=3907 CharacterOffsetEnd=3913 PartOfSpeech=VBG Lemma=cite NamedEntityTag=O] [Text=ethics CharacterOffsetBegin=3914 CharacterOffsetEnd=3920 PartOfSpeech=NNS Lemma=ethic NamedEntityTag=O] [Text=violations CharacterOffsetBegin=3921 CharacterOffsetEnd=3931 PartOfSpeech=NNS Lemma=violation NamedEntityTag=O] [Text=. CharacterOffsetBegin=3931 CharacterOffsetEnd=3932 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD came)
+      (ADVP (RB after))
+      (, ,)
+      (PP (IN in)
+        (NP (CD 2011)))
+      (, ,)
+      (S
+        (NP (NNP FIFAÂ) (NNP issuedÂ))
+        (NP
+          (NP (DT a) (NN lifetime) (NN ban))
+          (PP (TO to)
+            (NP
+              (NP (NNP Mohamed) (NNP bin) (NNP Hammam) (, ,) (NNP Â) (DT a) (NNP Qatari) (NN member))
+              (PP (IN of)
+                (NP
+                  (NP (PRP$ its) (JJ top) (VBG governing) (NN body))
+                  (, ,)
+                  (VP (VBG citing)
+                    (NP (NNS ethics) (NNS violations))))))))))
+    (. .)))
+
+root(ROOT-0, came-2)
+nsubj(came-2, That-1)
+advmod(came-2, after-3)
+prep_in(came-2, 2011-6)
+nn(issuedÂ-9, FIFAÂ-8)
+nsubj(ban-12, issuedÂ-9)
+det(ban-12, a-10)
+nn(ban-12, lifetime-11)
+xcomp(came-2, ban-12)
+nn(member-21, Mohamed-14)
+nn(member-21, bin-15)
+nn(member-21, Hammam-16)
+appos(member-21, Â-18)
+det(member-21, a-19)
+nn(member-21, Qatari-20)
+prep_to(ban-12, member-21)
+poss(body-26, its-23)
+amod(body-26, top-24)
+amod(body-26, governing-25)
+prep_of(member-21, body-26)
+vmod(body-26, citing-28)
+nn(violations-30, ethics-29)
+dobj(citing-28, violations-30)
+
+Sentence #31 (3 tokens):
+Purchase Soccer Tickets
+[Text=Purchase CharacterOffsetBegin=3933 CharacterOffsetEnd=3941 PartOfSpeech=NN Lemma=purchase NamedEntityTag=O] [Text=Soccer CharacterOffsetBegin=3942 CharacterOffsetEnd=3948 PartOfSpeech=NNP Lemma=Soccer NamedEntityTag=O] [Text=Tickets CharacterOffsetBegin=3949 CharacterOffsetEnd=3956 PartOfSpeech=NNPS Lemma=Tickets NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Purchase))
+    (NP (NNP Soccer) (NNPS Tickets))))
+
+root(ROOT-0, Purchase-1)
+nn(Tickets-3, Soccer-2)
+dep(Purchase-1, Tickets-3)
+
+Coreference set:
+ (3,14,[14,15]) -> (2,16,[16,17]), that is: "Zurich" -> "Zurich"
+ (8,1,[1,2]) -> (2,16,[16,17]), that is: "ZURICH" -> "Zurich"
+ (8,30,[30,31]) -> (2,16,[16,17]), that is: "Zurich" -> "Zurich"
+ (10,44,[44,45]) -> (2,16,[16,17]), that is: "Zurich" -> "Zurich"
+ (12,15,[15,16]) -> (2,16,[16,17]), that is: "Zurich" -> "Zurich"
+ (19,4,[4,5]) -> (2,16,[16,17]), that is: "Zurich" -> "Zurich"
+Coreference set:
+ (3,18,[18,22]) -> (2,20,[20,24]), that is: "U.S. on federal charges" -> "U.S. on federal charges"
+Coreference set:
+ (3,21,[20,22]) -> (2,23,[22,24]), that is: "federal charges" -> "federal charges"
+Coreference set:
+ (3,4,[3,5]) -> (10,42,[40,43]), that is: "Facebook FIFA" -> "the FIFA congress"
+ (7,21,[21,22]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (7,54,[54,63]) -> (10,42,[40,43]), that is: "FIFA , the world _s governing body of football" -> "the FIFA congress"
+ (7,54,[54,55]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (7,60,[56,63]) -> (10,42,[40,43]), that is: "the world _s governing body of football" -> "the FIFA congress"
+ (8,9,[9,10]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (8,15,[15,16]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (8,20,[20,21]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (9,25,[25,26]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (9,33,[33,34]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (12,1,[1,8]) -> (10,42,[40,43]), that is: "FIFA , soccer _s world governing body" -> "the FIFA congress"
+ (12,1,[1,2]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (12,7,[3,8]) -> (10,42,[40,43]), that is: "soccer _s world governing body" -> "the FIFA congress"
+ (16,18,[18,19]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (19,1,[1,2]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (22,1,[1,2]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (22,16,[16,17]) -> (10,42,[40,43]), that is: "Â" -> "the FIFA congress"
+ (22,20,[19,24]) -> (10,42,[40,43]), that is: "the subjectÂ of corruption allegations" -> "the FIFA congress"
+ (24,12,[12,13]) -> (10,42,[40,43]), that is: "FIFA" -> "the FIFA congress"
+ (30,18,[18,19]) -> (10,42,[40,43]), that is: "Â" -> "the FIFA congress"
+Coreference set:
+ (17,45,[44,46]) -> (4,4,[3,11]), that is: "the story" -> "this story on USATODAY.com : http:__usat.ly_1HvunRz CancelSend Sent"
+Coreference set:
+ (10,12,[12,13]) -> (7,12,[12,36]), that is: "AP" -> "Facebook commenting please read the Conversation Guidelines and FAQs FIFA officials arrested on federal corruption charges AP 1:44 a.m. EDT May 27 , 2015"
+Coreference set:
+ (7,52,[52,53]) -> (7,22,[21,36]), that is: "officials" -> "FIFA officials arrested on federal corruption charges AP 1:44 a.m. EDT May 27 , 2015"
+ (9,2,[2,3]) -> (7,22,[21,36]), that is: "their" -> "FIFA officials arrested on federal corruption charges AP 1:44 a.m. EDT May 27 , 2015"
+ (25,7,[7,8]) -> (7,22,[21,36]), that is: "officials" -> "FIFA officials arrested on federal corruption charges AP 1:44 a.m. EDT May 27 , 2015"
+Coreference set:
+ (16,21,[21,24]) -> (7,27,[25,32]), that is: "charges of corruption" -> "federal corruption charges AP 1:44 a.m. EDT"
+Coreference set:
+ (9,17,[14,18]) -> (8,22,[19,23]), that is: "the FIFA Executive Committee" -> "the FIFA Executive Committee"
+Coreference set:
+ (19,6,[4,7]) -> (8,32,[30,33]), that is: "Zurich , Switzerland" -> "Zurich , Switzerland"
+Coreference set:
+ (19,9,[8,10]) -> (10,8,[4,9]), that is: "Getty Images" -> "Harold Cunningham , Getty Images"
+Coreference set:
+ (11,10,[9,11]) -> (10,37,[36,38]), that is: "U.S. authorities" -> "U.S. authorities"
+Coreference set:
+ (18,13,[13,14]) -> (11,4,[4,5]), that is: "Wednesday" -> "Wednesday"
+ (20,9,[9,10]) -> (11,4,[4,5]), that is: "Wednesday" -> "Wednesday"
+Coreference set:
+ (12,21,[20,22]) -> (25,4,[1,12]), that is: "Sepp Blatter" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+ (25,4,[1,5]) -> (25,4,[1,12]), that is: "Longtime presidentÂ Sepp Blatter" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+ (25,4,[3,5]) -> (25,4,[1,12]), that is: "Sepp Blatter" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+ (25,20,[20,21]) -> (25,4,[1,12]), that is: "his" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+ (26,8,[8,10]) -> (25,4,[1,12]), that is: "Blatter _s" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+ (26,22,[22,23]) -> (25,4,[1,12]), that is: "his" -> "Longtime presidentÂ Sepp Blatter , who officials said was not charged"
+Coreference set:
+ (24,19,[17,20]) -> (12,13,[11,16]), that is: "its presidential election" -> "a presidential election in Zurich"
+Coreference set:
+ (23,21,[19,22]) -> (17,36,[34,37]), that is: "New York Times" -> "New York Times"
+Coreference set:
+ (17,2,[1,3]) -> (17,2,[1,47]), that is: "The charges" -> "The charges , aÂ result of an extensive investigation intoÂ soccer _s multi-billion-dollarÂ governing body , includeÂ wire fraud , racketeering and money laundering spanning the last two decades , according to the New York Times , which was the first to report the story ."
+ (18,9,[8,10]) -> (17,2,[1,47]), that is: "the charges" -> "The charges , aÂ result of an extensive investigation intoÂ soccer _s multi-billion-dollarÂ governing body , includeÂ wire fraud , racketeering and money laundering spanning the last two decades , according to the New York Times , which was the first to report the story ."
+Coreference set:
+ (23,6,[6,17]) -> (28,2,[1,3]), that is: "bids for World Cups in addition toÂ marketing and broadcast deals" -> "The bids"
+Coreference set:
+ (24,17,[17,18]) -> (24,6,[5,13]), that is: "its" -> "Â theyÂ come just three days before FIFA"
+Coreference set:
+ (26,3,[2,4]) -> (26,13,[5,14]), that is: "the scandal" -> "the latest under Blatter _s Â command , Â"
+Coreference set:
+ (29,7,[7,8]) -> (28,8,[8,9]), that is: "Qatar" -> "Qatar"
+ (29,22,[22,23]) -> (28,8,[8,9]), that is: "Qatar" -> "Qatar"
+Coreference set:
+ (30,1,[1,2]) -> (29,10,[6,14]), that is: "That" -> "the Qatar bid team allegedÂ several African officials"
+Coreference set:
+ (30,23,[23,24]) -> (30,9,[8,10]), that is: "its" -> "FIFAÂ issuedÂ"

@@ -1,0 +1,342 @@
+Sentence #1 (28 tokens):
+Now: 17.3° Max:
+Date
+Photo: Alex Ellinghausen
+Joe Hockey has stood by his view that the so-called _tampon tax_ is unfair.
+[Text=Now CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=: CharacterOffsetBegin=3 CharacterOffsetEnd=4 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=17.3 CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=CD Lemma=17.3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.3] [Text=° CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=CD Lemma=° NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.3] [Text=Max CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=NN Lemma=max NamedEntityTag=O] [Text=: CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Date CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Date NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Alex CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NNP Lemma=Alex NamedEntityTag=PERSON] [Text=Ellinghausen CharacterOffsetBegin=33 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Ellinghausen NamedEntityTag=PERSON] [Text=Joe CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=NNP Lemma=Joe NamedEntityTag=PERSON] [Text=Hockey CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=hockey NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=stood CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=VBN Lemma=stand NamedEntityTag=O] [Text=by CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=his CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=view CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=view NamedEntityTag=O] [Text=that CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=the CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=so-called CharacterOffsetBegin=88 CharacterOffsetEnd=97 PartOfSpeech=JJ Lemma=so-called NamedEntityTag=O] [Text=` CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=tampon CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=JJ Lemma=tampon NamedEntityTag=O] [Text=tax CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=NN Lemma=tax NamedEntityTag=O] [Text=_ CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=__ Lemma=_ NamedEntityTag=O] [Text=is CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=unfair CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=JJ Lemma=unfair NamedEntityTag=O] [Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP
+      (NP (RB Now))
+      (: :)
+      (NP
+        (NP
+          (QP (CD 17.3) (CD °)))
+        (NP (NN Max)))
+      (: :)
+      (NP (NNP Date) (NNP Photo)))
+    (: :)
+    (S
+      (NP (NNP Alex) (NNP Ellinghausen) (NNP Joe) (NN Hockey))
+      (VP (VBZ has)
+        (VP (VBN stood)
+          (PP (IN by)
+            (NP (PRP$ his) (NN view)))
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (JJ so-called) (`` `) (JJ tampon) (NN tax) (__ _))
+              (VP (VBZ is)
+                (ADJP (JJ unfair))))))))
+    (. .)))
+
+root(ROOT-0, Now-1)
+number(°-4, 17.3-3)
+dep(Now-1, °-4)
+dep(°-4, Max-5)
+nn(Photo-8, Date-7)
+dep(Now-1, Photo-8)
+nn(Hockey-13, Alex-10)
+nn(Hockey-13, Ellinghausen-11)
+nn(Hockey-13, Joe-12)
+nsubj(stood-15, Hockey-13)
+aux(stood-15, has-14)
+dep(Now-1, stood-15)
+poss(view-18, his-17)
+prep_by(stood-15, view-18)
+mark(unfair-27, that-19)
+det(tax-24, the-20)
+amod(tax-24, so-called-21)
+amod(tax-24, tampon-23)
+nsubj(unfair-27, tax-24)
+cop(unfair-27, is-26)
+ccomp(stood-15, unfair-27)
+
+Sentence #2 (30 tokens):
+Earlier this week, Mr Hockey said the GST should be removed from sanitary products, and yesterday evening announced he had asked his department to cost the change.
+[Text=Earlier CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=RBR Lemma=earlier NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">Earlier this week<_TIMEX3>] [Text=this CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">Earlier this week<_TIMEX3>] [Text=week CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1W Timex=<TIMEX3 alt_value="THIS P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">Earlier this week<_TIMEX3>] [Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Mr CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=PERSON] [Text=Hockey CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=hockey NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=GST CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=NN Lemma=gst NamedEntityTag=O] [Text=should CharacterOffsetBegin=164 CharacterOffsetEnd=170 PartOfSpeech=MD Lemma=should NamedEntityTag=O] [Text=be CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=removed CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=VBN Lemma=remove NamedEntityTag=O] [Text=from CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=sanitary CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=JJ Lemma=sanitary NamedEntityTag=O] [Text=products CharacterOffsetBegin=196 CharacterOffsetEnd=204 PartOfSpeech=NNS Lemma=product NamedEntityTag=O] [Text=, CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=yesterday CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN Lemma=yesterday NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D INTERSECT EV Timex=<TIMEX3 alt_value="OFFSET P-1D INTERSECT EV" anchorTimeID="t4" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">yesterday evening<_TIMEX3>] [Text=evening CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=NN Lemma=evening NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D INTERSECT EV Timex=<TIMEX3 alt_value="OFFSET P-1D INTERSECT EV" anchorTimeID="t4" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">yesterday evening<_TIMEX3>] [Text=announced CharacterOffsetBegin=228 CharacterOffsetEnd=237 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=he CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=had CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=asked CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=VBN Lemma=ask NamedEntityTag=O] [Text=his CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=department CharacterOffsetBegin=255 CharacterOffsetEnd=265 PartOfSpeech=NN Lemma=department NamedEntityTag=O] [Text=to CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=cost CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=VB Lemma=cost NamedEntityTag=O] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=change CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=NN Lemma=change NamedEntityTag=O] [Text=. CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP-TMP (RBR Earlier) (DT this) (NN week))
+      (, ,)
+      (NP (NNP Mr) (NN Hockey))
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (DT the) (NN GST))
+            (VP (MD should)
+              (VP (VB be)
+                (VP (VBN removed)
+                  (PP (IN from)
+                    (NP (JJ sanitary) (NNS products))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NN yesterday) (NN evening))
+      (VP (VBD announced)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD had)
+              (VP (VBN asked)
+                (NP (PRP$ his) (NN department)
+                  (S
+                    (VP (TO to)
+                      (VP (VB cost)
+                        (NP (DT the) (NN change))))))))))))
+    (. .)))
+
+root(ROOT-0, said-7)
+advmod(week-3, Earlier-1)
+det(week-3, this-2)
+tmod(said-7, week-3)
+nn(Hockey-6, Mr-5)
+nsubj(said-7, Hockey-6)
+det(GST-9, the-8)
+nsubjpass(removed-12, GST-9)
+aux(removed-12, should-10)
+auxpass(removed-12, be-11)
+ccomp(said-7, removed-12)
+amod(products-15, sanitary-14)
+prep_from(removed-12, products-15)
+nn(evening-19, yesterday-18)
+nsubj(announced-20, evening-19)
+conj_and(said-7, announced-20)
+nsubj(asked-23, he-21)
+aux(asked-23, had-22)
+ccomp(announced-20, asked-23)
+poss(department-25, his-24)
+dobj(asked-23, department-25)
+aux(cost-27, to-26)
+vmod(department-25, cost-27)
+det(change-29, the-28)
+dobj(cost-27, change-29)
+
+Sentence #3 (25 tokens):
+It seemed to me that Joe Hockey gave the Prime Minister a bit of a slap-down yesterday, and Joe_s standing by that.
+[Text=It CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=seemed CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=VBD Lemma=seem NamedEntityTag=O] [Text=to CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=me CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=that CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Joe CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=NNP Lemma=Joe NamedEntityTag=PERSON] [Text=Hockey CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=NN Lemma=hockey NamedEntityTag=PERSON] [Text=gave CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VBD Lemma=give NamedEntityTag=O] [Text=the CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Prime CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=NNP Lemma=Prime NamedEntityTag=O] [Text=Minister CharacterOffsetBegin=334 CharacterOffsetEnd=342 PartOfSpeech=NNP Lemma=Minister NamedEntityTag=O] [Text=a CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=bit CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=NN Lemma=bit NamedEntityTag=O] [Text=of CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=slap-down CharacterOffsetBegin=354 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=slap-down NamedEntityTag=O] [Text=yesterday CharacterOffsetBegin=364 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=yesterday NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D Timex=<TIMEX3 alt_value="OFFSET P-1D" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf2">yesterday<_TIMEX3>] [Text=, CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Joe CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=NNP Lemma=Joe NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=standing CharacterOffsetBegin=385 CharacterOffsetEnd=393 PartOfSpeech=NN Lemma=standing NamedEntityTag=O] [Text=by CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=that CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=. CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD seemed)
+      (PP (TO to)
+        (NP (PRP me)))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Joe) (NN Hockey))
+          (VP (VBD gave)
+            (NP (DT the) (NNP Prime) (NNP Minister))
+            (NP
+              (NP (DT a) (NN bit))
+              (PP (IN of)
+                (NP
+                  (NP
+                    (NP (DT a) (NN slap-down))
+                    (NP-TMP (NN yesterday)))
+                  (, ,)
+                  (CC and)
+                  (NP
+                    (NP
+                      (NP (NNP Joe) (POS _s))
+                      (NN standing))
+                    (PP (IN by)
+                      (NP (DT that)))))))))))
+    (. .)))
+
+root(ROOT-0, seemed-2)
+nsubj(seemed-2, It-1)
+prep_to(seemed-2, me-4)
+mark(gave-8, that-5)
+nn(Hockey-7, Joe-6)
+nsubj(gave-8, Hockey-7)
+ccomp(seemed-2, gave-8)
+det(Minister-11, the-9)
+nn(Minister-11, Prime-10)
+iobj(gave-8, Minister-11)
+det(bit-13, a-12)
+dobj(gave-8, bit-13)
+det(slap-down-16, a-15)
+prep_of(bit-13, slap-down-16)
+tmod(slap-down-16, yesterday-17)
+poss(standing-22, Joe-20)
+conj_and(slap-down-16, standing-22)
+prep_by(standing-22, that-24)
+
+Sentence #4 (31 tokens):
+Neil Mitchell, 3AW Mornings
+But Mr Abbott appeared cooler on the idea on Tuesday, saying it was "not something this government has a plan to do".
+[Text=Neil CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=NNP Lemma=Neil NamedEntityTag=PERSON] [Text=Mitchell CharacterOffsetBegin=409 CharacterOffsetEnd=417 PartOfSpeech=NNP Lemma=Mitchell NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=3AW CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=NNP Lemma=3AW NamedEntityTag=O] [Text=Mornings CharacterOffsetBegin=423 CharacterOffsetEnd=431 PartOfSpeech=NNP Lemma=Mornings NamedEntityTag=TIME NormalizedNamedEntityTag=TMO Timex=<TIMEX3 tid="t5" type="TIME" value="TMO">Mornings<_TIMEX3>] [Text=But CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=Mr CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=NNP Lemma=Mr NamedEntityTag=O] [Text=Abbott CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=NNP Lemma=Abbott NamedEntityTag=PERSON] [Text=appeared CharacterOffsetBegin=446 CharacterOffsetEnd=454 PartOfSpeech=VBD Lemma=appear NamedEntityTag=O] [Text=cooler CharacterOffsetBegin=455 CharacterOffsetEnd=461 PartOfSpeech=JJR Lemma=cooler NamedEntityTag=O] [Text=on CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=idea CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=NN Lemma=idea NamedEntityTag=O] [Text=on CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t6" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=, CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=saying CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=VBG Lemma=say NamedEntityTag=O] [Text=it CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=`` CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=not CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=something CharacterOffsetBegin=505 CharacterOffsetEnd=514 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=this CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=government CharacterOffsetBegin=520 CharacterOffsetEnd=530 PartOfSpeech=NN Lemma=government NamedEntityTag=O] [Text=has CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=plan CharacterOffsetBegin=537 CharacterOffsetEnd=541 PartOfSpeech=NN Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=do CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=VB Lemma=do NamedEntityTag=O] [Text=__ CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Neil) (NNP Mitchell))
+    (, ,)
+    (NP
+      (NP (NNP 3AW) (NNP Mornings))
+      (SBAR
+        (S
+          (S (CC But)
+            (NP (NNP Mr) (NNP Abbott))
+            (VP (VBD appeared)
+              (NP (JJR cooler))
+              (PP (IN on)
+                (NP (DT the) (NN idea)))
+              (PP (IN on)
+                (NP (NNP Tuesday)))))
+          (, ,)
+          (S
+            (S
+              (VP (VBG saying)
+                (SBAR
+                  (S
+                    (NP (PRP it))
+                    (VP (VBD was) (`` ``)
+                      (VP (RB not)
+                        (NP (NN something))))))))
+            (NP (DT this) (NN government))
+            (VP (VBZ has)
+              (NP (DT a) (NN plan)
+                (S
+                  (VP (TO to)
+                    (VP (VB do) (__ __))))))))))
+    (. .)))
+
+root(ROOT-0, Mitchell-2)
+nn(Mitchell-2, Neil-1)
+nn(Mornings-5, 3AW-4)
+appos(Mitchell-2, Mornings-5)
+cc(cooler-10, But-6)
+nn(Abbott-8, Mr-7)
+nsubj(cooler-10, Abbott-8)
+cop(cooler-10, appeared-9)
+rcmod(Mornings-5, cooler-10)
+det(idea-13, the-12)
+prep_on(cooler-10, idea-13)
+prep_on(cooler-10, Tuesday-15)
+dep(has-25, saying-17)
+nsubj(something-22, it-18)
+aux(something-22, was-19)
+neg(something-22, not-21)
+ccomp(saying-17, something-22)
+det(government-24, this-23)
+nsubj(has-25, government-24)
+parataxis(cooler-10, has-25)
+det(plan-27, a-26)
+dobj(has-25, plan-27)
+aux(do-29, to-28)
+vmod(plan-27, do-29)
+
+Sentence #5 (16 tokens):
+The treasurer, however, stood by his stance when talking to Neil Mitchell today.
+[Text=The CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=treasurer CharacterOffsetBegin=554 CharacterOffsetEnd=563 PartOfSpeech=NN Lemma=treasurer NamedEntityTag=O] [Text=, CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=however CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=stood CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=VBD Lemma=stand NamedEntityTag=O] [Text=by CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=his CharacterOffsetBegin=583 CharacterOffsetEnd=586 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=stance CharacterOffsetBegin=587 CharacterOffsetEnd=593 PartOfSpeech=NN Lemma=stance NamedEntityTag=O] [Text=when CharacterOffsetBegin=594 CharacterOffsetEnd=598 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=talking CharacterOffsetBegin=599 CharacterOffsetEnd=606 PartOfSpeech=VBG Lemma=talk NamedEntityTag=O] [Text=to CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Neil CharacterOffsetBegin=610 CharacterOffsetEnd=614 PartOfSpeech=NNP Lemma=Neil NamedEntityTag=PERSON] [Text=Mitchell CharacterOffsetBegin=615 CharacterOffsetEnd=623 PartOfSpeech=NNP Lemma=Mitchell NamedEntityTag=PERSON] [Text=today CharacterOffsetBegin=624 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf3">today<_TIMEX3>] [Text=. CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN treasurer))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (VP (VBD stood)
+      (PP (IN by)
+        (NP (PRP$ his) (NN stance)))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (VP (VBG talking)
+            (PP (TO to)
+              (NP (NNP Neil) (NNP Mitchell)))
+            (NP-TMP (NN today))))))
+    (. .)))
+
+root(ROOT-0, stood-6)
+det(treasurer-2, The-1)
+nsubj(stood-6, treasurer-2)
+advmod(stood-6, however-4)
+poss(stance-9, his-8)
+prep_by(stood-6, stance-9)
+advmod(talking-11, when-10)
+advcl(stood-6, talking-11)
+nn(Mitchell-14, Neil-13)
+prep_to(talking-11, Mitchell-14)
+tmod(talking-11, today-15)
+
+Sentence #6 (32 tokens):
+Also on the agenda in today_s interview:
+The pension
+How we_ll pay for the Medical Research Fund without the GP co-payment
+The _target on Joe Hockey_s back
+[Text=Also CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=on CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=agenda CharacterOffsetBegin=643 CharacterOffsetEnd=649 PartOfSpeech=NN Lemma=agenda NamedEntityTag=O] [Text=in CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=today CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf3">today<_TIMEX3>] [Text=_s CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=interview CharacterOffsetBegin=661 CharacterOffsetEnd=670 PartOfSpeech=NN Lemma=interview NamedEntityTag=O] [Text=: CharacterOffsetBegin=670 CharacterOffsetEnd=671 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=The CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=pension CharacterOffsetBegin=676 CharacterOffsetEnd=683 PartOfSpeech=NN Lemma=pension NamedEntityTag=O] [Text=How CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=we CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ll CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=MD Lemma=_ll NamedEntityTag=O] [Text=pay CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=VB Lemma=pay NamedEntityTag=O] [Text=for CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Medical CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=NNP Lemma=Medical NamedEntityTag=ORGANIZATION] [Text=Research CharacterOffsetBegin=714 CharacterOffsetEnd=722 PartOfSpeech=NNP Lemma=Research NamedEntityTag=ORGANIZATION] [Text=Fund CharacterOffsetBegin=723 CharacterOffsetEnd=727 PartOfSpeech=NNP Lemma=Fund NamedEntityTag=ORGANIZATION] [Text=without CharacterOffsetBegin=728 CharacterOffsetEnd=735 PartOfSpeech=IN Lemma=without NamedEntityTag=O] [Text=the CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=GP CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=NN Lemma=gp NamedEntityTag=O] [Text=co-payment CharacterOffsetBegin=743 CharacterOffsetEnd=753 PartOfSpeech=NN Lemma=co-payment NamedEntityTag=O] [Text=The CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=` CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=target CharacterOffsetBegin=759 CharacterOffsetEnd=765 PartOfSpeech=NN Lemma=target NamedEntityTag=O] [Text=on CharacterOffsetBegin=766 CharacterOffsetEnd=768 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Joe CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=NNP Lemma=Joe NamedEntityTag=PERSON] [Text=Hockey CharacterOffsetBegin=773 CharacterOffsetEnd=779 PartOfSpeech=NN Lemma=hockey NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=779 CharacterOffsetEnd=781 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=back CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=NN Lemma=back NamedEntityTag=O] 
+(ROOT
+  (PP
+    (ADVP (RB Also))
+    (IN on)
+    (NP
+      (NP
+        (NP (DT the) (NN agenda))
+        (PP (IN in)
+          (NP
+            (NP-TMP (NN today) (POS _s))
+            (NN interview))))
+      (: :)
+      (NP
+        (NP (DT The) (NN pension))
+        (SBAR
+          (WHADVP (WRB How))
+          (S
+            (NP (PRP we))
+            (VP (MD _ll)
+              (VP (VB pay)
+                (PP (IN for)
+                  (NP
+                    (NP (DT the) (NNP Medical) (NNP Research) (NNP Fund))
+                    (PP (IN without)
+                      (NP (DT the) (NN GP) (NN co-payment)))))
+                (NP
+                  (NP (DT The) (`` `) (NN target))
+                  (PP (IN on)
+                    (NP
+                      (NP (NNP Joe) (NN Hockey) (POS _s))
+                      (NN back))))))))))))
+
+root(ROOT-0, on-2)
+advmod(on-2, Also-1)
+det(agenda-4, the-3)
+pobj(on-2, agenda-4)
+tmod(interview-8, today-6)
+possessive(today-6, _s-7)
+prep_in(agenda-4, interview-8)
+det(pension-11, The-10)
+dep(agenda-4, pension-11)
+advmod(pay-15, How-12)
+nsubj(pay-15, we-13)
+aux(pay-15, _ll-14)
+dep(pension-11, pay-15)
+det(Fund-20, the-17)
+nn(Fund-20, Medical-18)
+nn(Fund-20, Research-19)
+prep_for(pay-15, Fund-20)
+det(co-payment-24, the-22)
+nn(co-payment-24, GP-23)
+prep_without(Fund-20, co-payment-24)
+det(target-27, The-25)
+dobj(pay-15, target-27)
+nn(Hockey-30, Joe-29)
+poss(back-32, Hockey-30)
+prep_on(target-27, back-32)
+
+Coreference set:
+ (1,17,[17,18]) -> (1,13,[10,14]), that is: "his" -> "Alex Ellinghausen Joe Hockey"
+ (3,7,[6,8]) -> (1,13,[10,14]), that is: "Joe Hockey" -> "Alex Ellinghausen Joe Hockey"
+ (3,20,[20,22]) -> (1,13,[10,14]), that is: "Joe _s" -> "Alex Ellinghausen Joe Hockey"
+ (6,30,[29,32]) -> (1,13,[10,14]), that is: "Joe Hockey _s" -> "Alex Ellinghausen Joe Hockey"
+Coreference set:
+ (2,21,[21,22]) -> (2,6,[5,7]), that is: "he" -> "Mr Hockey"
+ (2,24,[24,25]) -> (2,6,[5,7]), that is: "his" -> "Mr Hockey"
+Coreference set:
+ (3,1,[1,2]) -> (2,3,[1,4]), that is: "It" -> "Earlier this week"
+Coreference set:
+ (3,24,[24,25]) -> (3,4,[4,5]), that is: "that" -> "me"
+Coreference set:
+ (5,14,[13,15]) -> (4,2,[1,3]), that is: "Neil Mitchell" -> "Neil Mitchell"
+Coreference set:
+ (4,18,[18,19]) -> (4,10,[10,11]), that is: "it" -> "cooler"
+Coreference set:
+ (5,8,[8,9]) -> (5,2,[1,3]), that is: "his" -> "The treasurer"

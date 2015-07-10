@@ -1,0 +1,939 @@
+Sentence #1 (27 tokens):
+Ribbon-hanging precedes Relay for Life
+Purple ribbons fluttering from light posts around Sturgis are a reminder that it’s time for “Relay for Life.”
+[Text=Ribbon-hanging CharacterOffsetBegin=0 CharacterOffsetEnd=14 PartOfSpeech=NN Lemma=ribbon-hanging NamedEntityTag=O] [Text=precedes CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=VBZ Lemma=precede NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=Purple CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Purple NamedEntityTag=O] [Text=ribbons CharacterOffsetBegin=46 CharacterOffsetEnd=53 PartOfSpeech=NNS Lemma=ribbon NamedEntityTag=O] [Text=fluttering CharacterOffsetBegin=54 CharacterOffsetEnd=64 PartOfSpeech=VBG Lemma=flutter NamedEntityTag=O] [Text=from CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=light CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=JJ Lemma=light NamedEntityTag=O] [Text=posts CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=around CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=PERSON] [Text=are CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=reminder CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=reminder NamedEntityTag=O] [Text=that CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=time CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=for CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=`` CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Ribbon-hanging))
+    (VP (VBZ precedes)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Relay))
+            (PP (IN for)
+              (NP
+                (NP (NNP Life) (NNP Purple) (NNS ribbons))
+                (VP (VBG fluttering)
+                  (PP (IN from)
+                    (NP
+                      (NP (JJ light) (NNS posts))
+                      (PP (IN around)
+                        (NP (NNP Sturgis)))))))))
+          (VP (VBP are)
+            (NP
+              (NP (DT a) (NN reminder))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ _s)
+                    (NP
+                      (NP (NN time))
+                      (PP (IN for) (`` ``)
+                        (NP
+                          (NP (NNP Relay))
+                          (PP (IN for)
+                            (NP (NNP Life))))))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, precedes-2)
+nsubj(precedes-2, Ribbon-hanging-1)
+nsubj(reminder-16, Relay-3)
+nn(ribbons-7, Life-5)
+nn(ribbons-7, Purple-6)
+prep_for(Relay-3, ribbons-7)
+vmod(ribbons-7, fluttering-8)
+amod(posts-11, light-10)
+prep_from(fluttering-8, posts-11)
+prep_around(posts-11, Sturgis-13)
+cop(reminder-16, are-14)
+det(reminder-16, a-15)
+ccomp(precedes-2, reminder-16)
+mark(time-20, that-17)
+nsubj(time-20, it-18)
+cop(time-20, _s-19)
+dep(reminder-16, time-20)
+prep_for(time-20, Relay-23)
+prep_for(Relay-23, Life-25)
+
+Sentence #2 (24 tokens):
+Comment
+Sturgis
+Purple ribbons fluttering from light posts around Sturgis are a reminder that it’s time for “Relay for Life.”
+[Text=Comment CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=O] [Text=Purple CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=NNP Lemma=Purple NamedEntityTag=O] [Text=ribbons CharacterOffsetBegin=172 CharacterOffsetEnd=179 PartOfSpeech=NNS Lemma=ribbon NamedEntityTag=O] [Text=fluttering CharacterOffsetBegin=180 CharacterOffsetEnd=190 PartOfSpeech=VBG Lemma=flutter NamedEntityTag=O] [Text=from CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=light CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=JJ Lemma=light NamedEntityTag=O] [Text=posts CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=around CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=PERSON] [Text=are CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=reminder CharacterOffsetBegin=229 CharacterOffsetEnd=237 PartOfSpeech=NN Lemma=reminder NamedEntityTag=O] [Text=that CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=time CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=for CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=`` CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=. CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN Comment))
+        (NP (NNP Sturgis) (NNP Purple) (NNS ribbons)))
+      (VP (VBG fluttering)
+        (PP (IN from)
+          (NP
+            (NP (JJ light) (NNS posts))
+            (PP (IN around)
+              (NP (NNP Sturgis)))))))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (NN reminder))
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ _s)
+              (NP
+                (NP (NN time))
+                (PP (IN for) (`` ``)
+                  (NP
+                    (NP (NNP Relay))
+                    (PP (IN for)
+                      (NP (NNP Life)))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, reminder-13)
+nsubj(reminder-13, Comment-1)
+nn(ribbons-4, Sturgis-2)
+nn(ribbons-4, Purple-3)
+dep(Comment-1, ribbons-4)
+vmod(Comment-1, fluttering-5)
+amod(posts-8, light-7)
+prep_from(fluttering-5, posts-8)
+prep_around(posts-8, Sturgis-10)
+cop(reminder-13, are-11)
+det(reminder-13, a-12)
+mark(time-17, that-14)
+nsubj(time-17, it-15)
+cop(time-17, _s-16)
+dep(reminder-13, time-17)
+prep_for(time-17, Relay-20)
+prep_for(Relay-20, Life-22)
+
+Sentence #3 (19 tokens):
+The event begins at noon Friday at the Sturgis High School athletic complex and continues for 24 hours.
+[Text=The CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=begins CharacterOffsetBegin=285 CharacterOffsetEnd=291 PartOfSpeech=VBZ Lemma=begin NamedEntityTag=O] [Text=at CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=noon CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=NN Lemma=noon NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-5T12:00 Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-5T12:00">noon Friday<_TIMEX3>] [Text=Friday CharacterOffsetBegin=300 CharacterOffsetEnd=306 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5T12:00 Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-5T12:00">noon Friday<_TIMEX3>] [Text=at CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=ORGANIZATION] [Text=High CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=NNP Lemma=High NamedEntityTag=ORGANIZATION] [Text=School CharacterOffsetBegin=327 CharacterOffsetEnd=333 PartOfSpeech=NNP Lemma=School NamedEntityTag=ORGANIZATION] [Text=athletic CharacterOffsetBegin=334 CharacterOffsetEnd=342 PartOfSpeech=JJ Lemma=athletic NamedEntityTag=O] [Text=complex CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NN Lemma=complex NamedEntityTag=O] [Text=and CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=continues CharacterOffsetBegin=355 CharacterOffsetEnd=364 PartOfSpeech=VBZ Lemma=continue NamedEntityTag=O] [Text=for CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=24 CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=CD Lemma=24 NamedEntityTag=DURATION NormalizedNamedEntityTag=PT24H Timex=<TIMEX3 tid="t2" type="DURATION" value="PT24H">24 hours<_TIMEX3>] [Text=hours CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=NNS Lemma=hour NamedEntityTag=DURATION NormalizedNamedEntityTag=PT24H Timex=<TIMEX3 tid="t2" type="DURATION" value="PT24H">24 hours<_TIMEX3>] [Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN event))
+    (VP
+      (VP (VBZ begins)
+        (PP (IN at)
+          (NP
+            (NP (NN noon))
+            (NP-TMP (NNP Friday))
+            (PP (IN at)
+              (NP (DT the) (NNP Sturgis) (NNP High) (NNP School) (JJ athletic) (NN complex))))))
+      (CC and)
+      (VP (VBZ continues)
+        (PP (IN for)
+          (NP (CD 24) (NNS hours)))))
+    (. .)))
+
+root(ROOT-0, begins-3)
+det(event-2, The-1)
+nsubj(begins-3, event-2)
+prep_at(begins-3, noon-5)
+tmod(noon-5, Friday-6)
+det(complex-13, the-8)
+nn(complex-13, Sturgis-9)
+nn(complex-13, High-10)
+nn(complex-13, School-11)
+amod(complex-13, athletic-12)
+prep_at(noon-5, complex-13)
+conj_and(begins-3, continues-15)
+num(hours-18, 24-17)
+prep_for(continues-15, hours-18)
+
+Sentence #4 (14 tokens):
+Community members have been meeting, rounding up team members and gathering donations.
+[Text=Community CharacterOffsetBegin=379 CharacterOffsetEnd=388 PartOfSpeech=NNP Lemma=Community NamedEntityTag=O] [Text=members CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=have CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=VBG Lemma=meet NamedEntityTag=O] [Text=, CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=rounding CharacterOffsetBegin=416 CharacterOffsetEnd=424 PartOfSpeech=VBG Lemma=round NamedEntityTag=O] [Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=team CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=members CharacterOffsetBegin=433 CharacterOffsetEnd=440 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=gathering CharacterOffsetBegin=445 CharacterOffsetEnd=454 PartOfSpeech=VBG Lemma=gather NamedEntityTag=O] [Text=donations CharacterOffsetBegin=455 CharacterOffsetEnd=464 PartOfSpeech=NNS Lemma=donation NamedEntityTag=O] [Text=. CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Community) (NNS members))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP
+          (VP (VBG meeting))
+          (, ,)
+          (VP (VBG rounding)
+            (PRT (RP up))
+            (NP (NN team) (NNS members)))
+          (CC and)
+          (VP (VBG gathering)
+            (NP (NNS donations))))))
+    (. .)))
+
+root(ROOT-0, meeting-5)
+nn(members-2, Community-1)
+nsubj(meeting-5, members-2)
+aux(meeting-5, have-3)
+aux(meeting-5, been-4)
+conj_and(meeting-5, rounding-7)
+prt(rounding-7, up-8)
+nn(members-10, team-9)
+dobj(rounding-7, members-10)
+conj_and(meeting-5, gathering-12)
+dobj(gathering-12, donations-13)
+
+Sentence #5 (31 tokens):
+So far, Sturgis Relay for Life has 19 teams with 122 participants who have raised almost $15,500, said Holly Gushwa, local leader of Relay for Life.
+[Text=So CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=492 CharacterOffsetEnd=496 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=has CharacterOffsetBegin=497 CharacterOffsetEnd=500 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=19 CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=CD Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0] [Text=teams CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=with CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=122 CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=CD Lemma=122 NamedEntityTag=NUMBER NormalizedNamedEntityTag=122.0] [Text=participants CharacterOffsetBegin=519 CharacterOffsetEnd=531 PartOfSpeech=NNS Lemma=participant NamedEntityTag=O] [Text=who CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=raised CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O] [Text=almost CharacterOffsetBegin=548 CharacterOffsetEnd=554 PartOfSpeech=RB Lemma=almost NamedEntityTag=O] [Text=$ CharacterOffsetBegin=555 CharacterOffsetEnd=556 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=~$15500.0] [Text=15,500 CharacterOffsetBegin=556 CharacterOffsetEnd=562 PartOfSpeech=CD Lemma=15,500 NamedEntityTag=MONEY NormalizedNamedEntityTag=~$15500.0] [Text=, CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=said CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Holly CharacterOffsetBegin=569 CharacterOffsetEnd=574 PartOfSpeech=NNP Lemma=Holly NamedEntityTag=PERSON] [Text=Gushwa CharacterOffsetBegin=575 CharacterOffsetEnd=581 PartOfSpeech=NNP Lemma=Gushwa NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=local CharacterOffsetBegin=583 CharacterOffsetEnd=588 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=leader CharacterOffsetBegin=589 CharacterOffsetEnd=595 PartOfSpeech=NN Lemma=leader NamedEntityTag=O] [Text=of CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=. CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV
+    (S
+      (ADVP (RB So) (RB far))
+      (, ,)
+      (NP
+        (NP (NNP Sturgis) (NNP Relay))
+        (PP (IN for)
+          (NP (NNP Life))))
+      (VP (VBZ has)
+        (NP
+          (NP (CD 19) (NNS teams))
+          (PP (IN with)
+            (NP
+              (NP (CD 122) (NNS participants))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP have)
+                    (VP (VBN raised)
+                      (ADVP (RB almost)
+                        (NP ($ $) (CD 15,500))))))))))))
+    (, ,)
+    (VP (VBD said))
+    (NP
+      (NP (NNP Holly) (NNP Gushwa))
+      (, ,)
+      (NP
+        (NP (JJ local) (NN leader))
+        (PP (IN of)
+          (NP
+            (NP (NNP Relay))
+            (PP (IN for)
+              (NP (NNP Life)))))))
+    (. .)))
+
+root(ROOT-0, said-21)
+advmod(far-2, So-1)
+advmod(has-8, far-2)
+nn(Relay-5, Sturgis-4)
+nsubj(has-8, Relay-5)
+prep_for(Relay-5, Life-7)
+ccomp(said-21, has-8)
+num(teams-10, 19-9)
+dobj(has-8, teams-10)
+num(participants-13, 122-12)
+prep_with(teams-10, participants-13)
+nsubj(raised-16, who-14)
+aux(raised-16, have-15)
+rcmod(participants-13, raised-16)
+advmod(raised-16, almost-17)
+pobj(almost-17, dol-18)
+num(dol-18, 15,500-19)
+nn(Gushwa-23, Holly-22)
+nsubj(said-21, Gushwa-23)
+amod(leader-26, local-25)
+appos(Gushwa-23, leader-26)
+prep_of(leader-26, Relay-28)
+prep_for(Relay-28, Life-30)
+
+Sentence #6 (30 tokens):
+Although battling cancer is anything but fun, Relay for Life celebrates victories over cancer with food, games, activities and entertainment in a family-friendly, community environment.
+[Text=Although CharacterOffsetBegin=615 CharacterOffsetEnd=623 PartOfSpeech=IN Lemma=although NamedEntityTag=O] [Text=battling CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=VBG Lemma=battle NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=633 CharacterOffsetEnd=639 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=is CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=anything CharacterOffsetBegin=643 CharacterOffsetEnd=651 PartOfSpeech=NN Lemma=anything NamedEntityTag=O] [Text=but CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=fun CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=NN Lemma=fun NamedEntityTag=O] [Text=, CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=celebrates CharacterOffsetBegin=676 CharacterOffsetEnd=686 PartOfSpeech=VBZ Lemma=celebrate NamedEntityTag=O] [Text=victories CharacterOffsetBegin=687 CharacterOffsetEnd=696 PartOfSpeech=NNS Lemma=victory NamedEntityTag=O] [Text=over CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=702 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=with CharacterOffsetBegin=709 CharacterOffsetEnd=713 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=food CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=NN Lemma=food NamedEntityTag=O] [Text=, CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=games CharacterOffsetBegin=720 CharacterOffsetEnd=725 PartOfSpeech=NNS Lemma=game NamedEntityTag=O] [Text=, CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=activities CharacterOffsetBegin=727 CharacterOffsetEnd=737 PartOfSpeech=NNS Lemma=activity NamedEntityTag=O] [Text=and CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=entertainment CharacterOffsetBegin=742 CharacterOffsetEnd=755 PartOfSpeech=NN Lemma=entertainment NamedEntityTag=O] [Text=in CharacterOffsetBegin=756 CharacterOffsetEnd=758 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=759 CharacterOffsetEnd=760 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=family-friendly CharacterOffsetBegin=761 CharacterOffsetEnd=776 PartOfSpeech=JJ Lemma=family-friendly NamedEntityTag=O] [Text=, CharacterOffsetBegin=776 CharacterOffsetEnd=777 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=community CharacterOffsetBegin=778 CharacterOffsetEnd=787 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=environment CharacterOffsetBegin=788 CharacterOffsetEnd=799 PartOfSpeech=NN Lemma=environment NamedEntityTag=O] [Text=. CharacterOffsetBegin=799 CharacterOffsetEnd=800 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (VBG battling) (NN cancer))
+        (VP (VBZ is)
+          (NP
+            (NP (NN anything))
+            (PP (CC but)
+              (NP (NN fun)))))))
+    (, ,)
+    (NP
+      (NP (NNP Relay))
+      (PP (IN for)
+        (NP (NNP Life))))
+    (VP (VBZ celebrates)
+      (NP
+        (NP (NNS victories))
+        (PP (IN over)
+          (NP (NN cancer))))
+      (PP (IN with)
+        (NP
+          (NP (NN food))
+          (, ,)
+          (NP (NNS games))
+          (, ,)
+          (NP (NNS activities))
+          (CC and)
+          (NP
+            (NP (NN entertainment))
+            (PP (IN in)
+              (NP (DT a) (JJ family-friendly) (, ,) (NN community) (NN environment)))))))
+    (. .)))
+
+root(ROOT-0, celebrates-12)
+mark(anything-5, Although-1)
+amod(cancer-3, battling-2)
+nsubj(anything-5, cancer-3)
+cop(anything-5, is-4)
+advcl(celebrates-12, anything-5)
+prep(anything-5, but-6)
+pobj(but-6, fun-7)
+nsubj(celebrates-12, Relay-9)
+prep_for(Relay-9, Life-11)
+dobj(celebrates-12, victories-13)
+prep_over(victories-13, cancer-15)
+prep_with(celebrates-12, food-17)
+conj_and(food-17, games-19)
+conj_and(food-17, activities-21)
+conj_and(food-17, entertainment-23)
+det(environment-29, a-25)
+amod(environment-29, family-friendly-26)
+dep(environment-29, community-28)
+prep_in(entertainment-23, environment-29)
+
+Sentence #7 (18 tokens):
+Friday, activities include a dunk tank from 4-9 p.m. hosted by the city of Sturgis team.
+[Text=Friday CharacterOffsetBegin=801 CharacterOffsetEnd=807 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WXX-5">Friday<_TIMEX3>] [Text=, CharacterOffsetBegin=807 CharacterOffsetEnd=808 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=activities CharacterOffsetBegin=809 CharacterOffsetEnd=819 PartOfSpeech=NNS Lemma=activity NamedEntityTag=O] [Text=include CharacterOffsetBegin=820 CharacterOffsetEnd=827 PartOfSpeech=VBP Lemma=include NamedEntityTag=O] [Text=a CharacterOffsetBegin=828 CharacterOffsetEnd=829 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=dunk CharacterOffsetBegin=830 CharacterOffsetEnd=834 PartOfSpeech=NN Lemma=dunk NamedEntityTag=O] [Text=tank CharacterOffsetBegin=835 CharacterOffsetEnd=839 PartOfSpeech=NN Lemma=tank NamedEntityTag=O] [Text=from CharacterOffsetBegin=840 CharacterOffsetEnd=844 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=4-9 CharacterOffsetBegin=845 CharacterOffsetEnd=848 PartOfSpeech=CD Lemma=4-9 NamedEntityTag=TIME] [Text=p.m. CharacterOffsetBegin=849 CharacterOffsetEnd=853 PartOfSpeech=RB Lemma=p.m. NamedEntityTag=TIME] [Text=hosted CharacterOffsetBegin=854 CharacterOffsetEnd=860 PartOfSpeech=VBN Lemma=host NamedEntityTag=O] [Text=by CharacterOffsetBegin=861 CharacterOffsetEnd=863 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=864 CharacterOffsetEnd=867 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=city CharacterOffsetBegin=868 CharacterOffsetEnd=872 PartOfSpeech=NN Lemma=city NamedEntityTag=O] [Text=of CharacterOffsetBegin=873 CharacterOffsetEnd=875 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=876 CharacterOffsetEnd=883 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=LOCATION] [Text=team CharacterOffsetBegin=884 CharacterOffsetEnd=888 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=. CharacterOffsetBegin=888 CharacterOffsetEnd=889 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (NNP Friday))
+    (, ,)
+    (NP (NNS activities))
+    (VP (VBP include)
+      (NP (DT a) (NN dunk) (NN tank))
+      (PP (IN from)
+        (NP
+          (NP (CD 4-9) (RB p.m.))
+          (VP (VBN hosted)
+            (PP (IN by)
+              (NP
+                (NP (DT the) (NN city))
+                (PP (IN of)
+                  (NP (NNP Sturgis) (NN team)))))))))
+    (. .)))
+
+root(ROOT-0, include-4)
+tmod(include-4, Friday-1)
+nsubj(include-4, activities-3)
+det(tank-7, a-5)
+nn(tank-7, dunk-6)
+dobj(include-4, tank-7)
+prep_from(include-4, 4-9-9)
+advmod(4-9-9, p.m.-10)
+vmod(4-9-9, hosted-11)
+det(city-14, the-13)
+agent(hosted-11, city-14)
+nn(team-17, Sturgis-16)
+prep_of(city-14, team-17)
+
+Sentence #8 (27 tokens):
+The survivor lap, which begins at 6 p.m., celebrates personal victories over cancer, as other participants line the track to cheer on survivors.
+[Text=The CharacterOffsetBegin=894 CharacterOffsetEnd=897 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=survivor CharacterOffsetBegin=898 CharacterOffsetEnd=906 PartOfSpeech=NN Lemma=survivor NamedEntityTag=O] [Text=lap CharacterOffsetBegin=907 CharacterOffsetEnd=910 PartOfSpeech=NN Lemma=lap NamedEntityTag=O] [Text=, CharacterOffsetBegin=910 CharacterOffsetEnd=911 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=which CharacterOffsetBegin=912 CharacterOffsetEnd=917 PartOfSpeech=WDT Lemma=which NamedEntityTag=O] [Text=begins CharacterOffsetBegin=918 CharacterOffsetEnd=924 PartOfSpeech=VBZ Lemma=begin NamedEntityTag=O] [Text=at CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=6 CharacterOffsetBegin=928 CharacterOffsetEnd=929 PartOfSpeech=CD Lemma=6 NamedEntityTag=TIME NormalizedNamedEntityTag=T18:00 Timex=<TIMEX3 tid="t4" type="TIME" value="T18:00">6 p.m.<_TIMEX3>] [Text=p.m. CharacterOffsetBegin=930 CharacterOffsetEnd=934 PartOfSpeech=RB Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=T18:00 Timex=<TIMEX3 tid="t4" type="TIME" value="T18:00">6 p.m.<_TIMEX3>] [Text=, CharacterOffsetBegin=934 CharacterOffsetEnd=935 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=celebrates CharacterOffsetBegin=936 CharacterOffsetEnd=946 PartOfSpeech=VBZ Lemma=celebrate NamedEntityTag=O] [Text=personal CharacterOffsetBegin=947 CharacterOffsetEnd=955 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=victories CharacterOffsetBegin=956 CharacterOffsetEnd=965 PartOfSpeech=NNS Lemma=victory NamedEntityTag=O] [Text=over CharacterOffsetBegin=966 CharacterOffsetEnd=970 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=971 CharacterOffsetEnd=977 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=, CharacterOffsetBegin=977 CharacterOffsetEnd=978 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=as CharacterOffsetBegin=979 CharacterOffsetEnd=981 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=other CharacterOffsetBegin=982 CharacterOffsetEnd=987 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=participants CharacterOffsetBegin=988 CharacterOffsetEnd=1000 PartOfSpeech=NNS Lemma=participant NamedEntityTag=O] [Text=line CharacterOffsetBegin=1001 CharacterOffsetEnd=1005 PartOfSpeech=NN Lemma=line NamedEntityTag=O] [Text=the CharacterOffsetBegin=1006 CharacterOffsetEnd=1009 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=track CharacterOffsetBegin=1010 CharacterOffsetEnd=1015 PartOfSpeech=NN Lemma=track NamedEntityTag=O] [Text=to CharacterOffsetBegin=1016 CharacterOffsetEnd=1018 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=cheer CharacterOffsetBegin=1019 CharacterOffsetEnd=1024 PartOfSpeech=VB Lemma=cheer NamedEntityTag=O] [Text=on CharacterOffsetBegin=1025 CharacterOffsetEnd=1027 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=survivors CharacterOffsetBegin=1028 CharacterOffsetEnd=1037 PartOfSpeech=NNS Lemma=survivor NamedEntityTag=O] [Text=. CharacterOffsetBegin=1037 CharacterOffsetEnd=1038 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN survivor) (NN lap))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBZ begins)
+            (PP (IN at)
+              (NP (CD 6) (RB p.m.))))))
+      (, ,))
+    (VP (VBZ celebrates)
+      (NP (JJ personal) (NNS victories))
+      (PP (IN over)
+        (NP (NN cancer)))
+      (, ,)
+      (PP (IN as)
+        (NP (JJ other) (NNS participants) (NN line)))
+      (NP (DT the) (NN track)
+        (S
+          (VP (TO to)
+            (VP (VB cheer)
+              (PP (IN on)
+                (NP (NNS survivors))))))))
+    (. .)))
+
+root(ROOT-0, celebrates-11)
+det(lap-3, The-1)
+nn(lap-3, survivor-2)
+nsubj(celebrates-11, lap-3)
+nsubj(begins-6, which-5)
+rcmod(lap-3, begins-6)
+prep_at(begins-6, 6-8)
+advmod(6-8, p.m.-9)
+amod(victories-13, personal-12)
+dobj(celebrates-11, victories-13)
+prep_over(celebrates-11, cancer-15)
+amod(line-20, other-18)
+nn(line-20, participants-19)
+prep_as(celebrates-11, line-20)
+det(track-22, the-21)
+dobj(celebrates-11, track-22)
+aux(cheer-24, to-23)
+vmod(track-22, cheer-24)
+prep_on(cheer-24, survivors-26)
+
+Sentence #9 (9 tokens):
+Caregivers are included in the lap and honor.
+[Text=Caregivers CharacterOffsetBegin=1039 CharacterOffsetEnd=1049 PartOfSpeech=NNS Lemma=caregiver NamedEntityTag=O] [Text=are CharacterOffsetBegin=1050 CharacterOffsetEnd=1053 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=included CharacterOffsetBegin=1054 CharacterOffsetEnd=1062 PartOfSpeech=VBN Lemma=include NamedEntityTag=O] [Text=in CharacterOffsetBegin=1063 CharacterOffsetEnd=1065 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1066 CharacterOffsetEnd=1069 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lap CharacterOffsetBegin=1070 CharacterOffsetEnd=1073 PartOfSpeech=NN Lemma=lap NamedEntityTag=O] [Text=and CharacterOffsetBegin=1074 CharacterOffsetEnd=1077 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=honor CharacterOffsetBegin=1078 CharacterOffsetEnd=1083 PartOfSpeech=NN Lemma=honor NamedEntityTag=O] [Text=. CharacterOffsetBegin=1083 CharacterOffsetEnd=1084 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS Caregivers))
+    (VP (VBP are)
+      (VP (VBN included)
+        (PP (IN in)
+          (NP (DT the) (NN lap)
+            (CC and)
+            (NN honor)))))
+    (. .)))
+
+root(ROOT-0, included-3)
+nsubjpass(included-3, Caregivers-1)
+auxpass(included-3, are-2)
+det(lap-6, the-5)
+prep_in(included-3, lap-6)
+conj_and(lap-6, honor-8)
+
+Sentence #10 (20 tokens):
+Jim Moshier of Sturgis, a cancer survivor, is one of the featured speakers prior to the lap.
+[Text=Jim CharacterOffsetBegin=1085 CharacterOffsetEnd=1088 PartOfSpeech=NNP Lemma=Jim NamedEntityTag=PERSON] [Text=Moshier CharacterOffsetBegin=1089 CharacterOffsetEnd=1096 PartOfSpeech=NNP Lemma=Moshier NamedEntityTag=PERSON] [Text=of CharacterOffsetBegin=1097 CharacterOffsetEnd=1099 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=1100 CharacterOffsetEnd=1107 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1107 CharacterOffsetEnd=1108 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1109 CharacterOffsetEnd=1110 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=1111 CharacterOffsetEnd=1117 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=survivor CharacterOffsetBegin=1118 CharacterOffsetEnd=1126 PartOfSpeech=NN Lemma=survivor NamedEntityTag=O] [Text=, CharacterOffsetBegin=1126 CharacterOffsetEnd=1127 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=1128 CharacterOffsetEnd=1130 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=one CharacterOffsetBegin=1131 CharacterOffsetEnd=1134 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1135 CharacterOffsetEnd=1137 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=1138 CharacterOffsetEnd=1141 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=featured CharacterOffsetBegin=1142 CharacterOffsetEnd=1150 PartOfSpeech=VBN Lemma=feature NamedEntityTag=O] [Text=speakers CharacterOffsetBegin=1151 CharacterOffsetEnd=1159 PartOfSpeech=NNS Lemma=speaker NamedEntityTag=O] [Text=prior CharacterOffsetBegin=1160 CharacterOffsetEnd=1165 PartOfSpeech=RB Lemma=prior NamedEntityTag=O] [Text=to CharacterOffsetBegin=1166 CharacterOffsetEnd=1168 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1169 CharacterOffsetEnd=1172 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lap CharacterOffsetBegin=1173 CharacterOffsetEnd=1176 PartOfSpeech=NN Lemma=lap NamedEntityTag=O] [Text=. CharacterOffsetBegin=1176 CharacterOffsetEnd=1177 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Jim) (NNP Moshier))
+        (PP (IN of)
+          (NP (NNP Sturgis))))
+      (, ,)
+      (NP (DT a) (NN cancer) (NN survivor))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (VBN featured) (NNS speakers))
+            (ADVP (RB prior)
+              (PP (TO to)
+                (NP (DT the) (NN lap))))))))
+    (. .)))
+
+root(ROOT-0, one-11)
+nn(Moshier-2, Jim-1)
+nsubj(one-11, Moshier-2)
+prep_of(Moshier-2, Sturgis-4)
+det(survivor-8, a-6)
+nn(survivor-8, cancer-7)
+appos(Moshier-2, survivor-8)
+cop(one-11, is-10)
+det(speakers-15, the-13)
+amod(speakers-15, featured-14)
+prep_of(one-11, speakers-15)
+det(lap-19, the-18)
+prep_prior_to(speakers-15, lap-19)
+
+Sentence #11 (17 tokens):
+Moshier said he was amazed and “extremely honored,” to be asked to speak.
+[Text=Moshier CharacterOffsetBegin=1178 CharacterOffsetEnd=1185 PartOfSpeech=NNP Lemma=Moshier NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1186 CharacterOffsetEnd=1190 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=he CharacterOffsetBegin=1191 CharacterOffsetEnd=1193 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=was CharacterOffsetBegin=1194 CharacterOffsetEnd=1197 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=amazed CharacterOffsetBegin=1198 CharacterOffsetEnd=1204 PartOfSpeech=VBN Lemma=amaze NamedEntityTag=O] [Text=and CharacterOffsetBegin=1205 CharacterOffsetEnd=1208 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1209 CharacterOffsetEnd=1210 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=extremely CharacterOffsetBegin=1210 CharacterOffsetEnd=1219 PartOfSpeech=RB Lemma=extremely NamedEntityTag=O] [Text=honored CharacterOffsetBegin=1220 CharacterOffsetEnd=1227 PartOfSpeech=VBN Lemma=honor NamedEntityTag=O] [Text=, CharacterOffsetBegin=1227 CharacterOffsetEnd=1228 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1228 CharacterOffsetEnd=1229 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=to CharacterOffsetBegin=1230 CharacterOffsetEnd=1232 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1233 CharacterOffsetEnd=1235 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=asked CharacterOffsetBegin=1236 CharacterOffsetEnd=1241 PartOfSpeech=VBN Lemma=ask NamedEntityTag=O] [Text=to CharacterOffsetBegin=1242 CharacterOffsetEnd=1244 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=speak CharacterOffsetBegin=1245 CharacterOffsetEnd=1250 PartOfSpeech=VB Lemma=speak NamedEntityTag=O] [Text=. CharacterOffsetBegin=1250 CharacterOffsetEnd=1251 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Moshier))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP
+            (VP (VBD was)
+              (VP (VBN amazed)))
+            (CC and)
+            (`` ``)
+            (ADVP (RB extremely))
+            (VP (VBN honored)))))
+      (, ,) (__ __)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN asked)
+              (S
+                (VP (TO to)
+                  (VP (VB speak)))))))))
+    (. .)))
+
+root(ROOT-0, said-2)
+nsubj(said-2, Moshier-1)
+nsubjpass(amazed-5, he-3)
+auxpass(amazed-5, was-4)
+ccomp(said-2, amazed-5)
+cc(amazed-5, and-6)
+advmod(amazed-5, extremely-8)
+dep(amazed-5, honored-9)
+aux(asked-14, to-12)
+auxpass(asked-14, be-13)
+xcomp(said-2, asked-14)
+aux(speak-16, to-15)
+xcomp(asked-14, speak-16)
+
+Sentence #12 (14 tokens):
+Following the lap, a survivors’ dinner is hosted by Sturgis Hospital.
+[Text=Following CharacterOffsetBegin=1252 CharacterOffsetEnd=1261 PartOfSpeech=VBG Lemma=follow NamedEntityTag=O] [Text=the CharacterOffsetBegin=1262 CharacterOffsetEnd=1265 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=lap CharacterOffsetBegin=1266 CharacterOffsetEnd=1269 PartOfSpeech=NN Lemma=lap NamedEntityTag=O] [Text=, CharacterOffsetBegin=1269 CharacterOffsetEnd=1270 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1271 CharacterOffsetEnd=1272 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=survivors CharacterOffsetBegin=1273 CharacterOffsetEnd=1282 PartOfSpeech=NNS Lemma=survivor NamedEntityTag=O] [Text=_ CharacterOffsetBegin=1282 CharacterOffsetEnd=1283 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=dinner CharacterOffsetBegin=1284 CharacterOffsetEnd=1290 PartOfSpeech=NN Lemma=dinner NamedEntityTag=O] [Text=is CharacterOffsetBegin=1291 CharacterOffsetEnd=1293 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=hosted CharacterOffsetBegin=1294 CharacterOffsetEnd=1300 PartOfSpeech=VBN Lemma=host NamedEntityTag=O] [Text=by CharacterOffsetBegin=1301 CharacterOffsetEnd=1303 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Sturgis CharacterOffsetBegin=1304 CharacterOffsetEnd=1311 PartOfSpeech=NNP Lemma=Sturgis NamedEntityTag=ORGANIZATION] [Text=Hospital CharacterOffsetBegin=1312 CharacterOffsetEnd=1320 PartOfSpeech=NNP Lemma=Hospital NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=1320 CharacterOffsetEnd=1321 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (VBG Following)
+      (NP (DT the) (NN lap)))
+    (, ,)
+    (NP
+      (NP (DT a) (NNS survivors) (POS _))
+      (NN dinner))
+    (VP (VBZ is)
+      (VP (VBN hosted)
+        (PP (IN by)
+          (NP (NNP Sturgis) (NNP Hospital)))))
+    (. .)))
+
+root(ROOT-0, hosted-10)
+det(lap-3, the-2)
+prep_following(hosted-10, lap-3)
+det(survivors-6, a-5)
+poss(dinner-8, survivors-6)
+nsubjpass(hosted-10, dinner-8)
+auxpass(hosted-10, is-9)
+nn(Hospital-13, Sturgis-12)
+agent(hosted-10, Hospital-13)
+
+Sentence #13 (8 tokens):
+A luminaria ceremony takes place after dark.
+[Text=A CharacterOffsetBegin=1324 CharacterOffsetEnd=1325 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=luminaria CharacterOffsetBegin=1326 CharacterOffsetEnd=1335 PartOfSpeech=NN Lemma=luminarium NamedEntityTag=O] [Text=ceremony CharacterOffsetBegin=1336 CharacterOffsetEnd=1344 PartOfSpeech=NN Lemma=ceremony NamedEntityTag=O] [Text=takes CharacterOffsetBegin=1345 CharacterOffsetEnd=1350 PartOfSpeech=VBZ Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=1351 CharacterOffsetEnd=1356 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=after CharacterOffsetBegin=1357 CharacterOffsetEnd=1362 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=dark CharacterOffsetBegin=1363 CharacterOffsetEnd=1367 PartOfSpeech=JJ Lemma=dark NamedEntityTag=O] [Text=. CharacterOffsetBegin=1367 CharacterOffsetEnd=1368 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A) (NN luminaria) (NN ceremony))
+    (VP (VBZ takes)
+      (NP (NN place))
+      (PP (IN after)
+        (ADJP (JJ dark))))
+    (. .)))
+
+root(ROOT-0, takes-4)
+det(ceremony-3, A-1)
+nn(ceremony-3, luminaria-2)
+nsubj(takes-4, ceremony-3)
+dobj(takes-4, place-5)
+prep_after(takes-4, dark-7)
+
+Sentence #14 (19 tokens):
+Candles in personalized bags are placed around the track, glowing in honor of those affected by cancer.
+[Text=Candles CharacterOffsetBegin=1369 CharacterOffsetEnd=1376 PartOfSpeech=NNS Lemma=candle NamedEntityTag=O] [Text=in CharacterOffsetBegin=1377 CharacterOffsetEnd=1379 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=personalized CharacterOffsetBegin=1380 CharacterOffsetEnd=1392 PartOfSpeech=JJ Lemma=personalized NamedEntityTag=O] [Text=bags CharacterOffsetBegin=1393 CharacterOffsetEnd=1397 PartOfSpeech=NNS Lemma=bag NamedEntityTag=O] [Text=are CharacterOffsetBegin=1398 CharacterOffsetEnd=1401 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=placed CharacterOffsetBegin=1402 CharacterOffsetEnd=1408 PartOfSpeech=VBN Lemma=place NamedEntityTag=O] [Text=around CharacterOffsetBegin=1409 CharacterOffsetEnd=1415 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=the CharacterOffsetBegin=1416 CharacterOffsetEnd=1419 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=track CharacterOffsetBegin=1420 CharacterOffsetEnd=1425 PartOfSpeech=NN Lemma=track NamedEntityTag=O] [Text=, CharacterOffsetBegin=1425 CharacterOffsetEnd=1426 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=glowing CharacterOffsetBegin=1427 CharacterOffsetEnd=1434 PartOfSpeech=JJ Lemma=glowing NamedEntityTag=O] [Text=in CharacterOffsetBegin=1435 CharacterOffsetEnd=1437 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=honor CharacterOffsetBegin=1438 CharacterOffsetEnd=1443 PartOfSpeech=NN Lemma=honor NamedEntityTag=O] [Text=of CharacterOffsetBegin=1444 CharacterOffsetEnd=1446 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=those CharacterOffsetBegin=1447 CharacterOffsetEnd=1452 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=affected CharacterOffsetBegin=1453 CharacterOffsetEnd=1461 PartOfSpeech=VBN Lemma=affect NamedEntityTag=O] [Text=by CharacterOffsetBegin=1462 CharacterOffsetEnd=1464 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=1465 CharacterOffsetEnd=1471 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=1471 CharacterOffsetEnd=1472 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Candles))
+      (PP (IN in)
+        (NP (JJ personalized) (NNS bags))))
+    (VP (VBP are)
+      (VP (VBN placed)
+        (PP (IN around)
+          (NP
+            (NP (DT the) (NN track))
+            (, ,)
+            (NP
+              (NP (JJ glowing))
+              (PP (IN in)
+                (NP
+                  (NP (NN honor))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT those))
+                      (VP (VBN affected)
+                        (PP (IN by)
+                          (NP (NN cancer)))))))))))))
+    (. .)))
+
+root(ROOT-0, placed-6)
+nsubjpass(placed-6, Candles-1)
+amod(bags-4, personalized-3)
+prep_in(Candles-1, bags-4)
+auxpass(placed-6, are-5)
+det(track-9, the-8)
+prep_around(placed-6, track-9)
+appos(track-9, glowing-11)
+prep_in(glowing-11, honor-13)
+prep_of(honor-13, those-15)
+vmod(those-15, affected-16)
+agent(affected-16, cancer-18)
+
+Sentence #15 (18 tokens):
+Relay for Life teams often camp near the track on Friday night as members take turns walking.
+[Text=Relay CharacterOffsetBegin=1473 CharacterOffsetEnd=1478 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=1479 CharacterOffsetEnd=1482 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=1483 CharacterOffsetEnd=1487 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=teams CharacterOffsetBegin=1488 CharacterOffsetEnd=1493 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=often CharacterOffsetBegin=1494 CharacterOffsetEnd=1499 PartOfSpeech=RB Lemma=often NamedEntityTag=O] [Text=camp CharacterOffsetBegin=1500 CharacterOffsetEnd=1504 PartOfSpeech=NN Lemma=camp NamedEntityTag=O] [Text=near CharacterOffsetBegin=1505 CharacterOffsetEnd=1509 PartOfSpeech=IN Lemma=near NamedEntityTag=O] [Text=the CharacterOffsetBegin=1510 CharacterOffsetEnd=1513 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=track CharacterOffsetBegin=1514 CharacterOffsetEnd=1519 PartOfSpeech=NN Lemma=track NamedEntityTag=O] [Text=on CharacterOffsetBegin=1520 CharacterOffsetEnd=1522 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Friday CharacterOffsetBegin=1523 CharacterOffsetEnd=1529 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5TNI Timex=<TIMEX3 tid="t5" type="TIME" value="XXXX-WXX-5TNI">Friday night<_TIMEX3>] [Text=night CharacterOffsetBegin=1530 CharacterOffsetEnd=1535 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-5TNI Timex=<TIMEX3 tid="t5" type="TIME" value="XXXX-WXX-5TNI">Friday night<_TIMEX3>] [Text=as CharacterOffsetBegin=1536 CharacterOffsetEnd=1538 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=members CharacterOffsetBegin=1539 CharacterOffsetEnd=1546 PartOfSpeech=NNS Lemma=member NamedEntityTag=O] [Text=take CharacterOffsetBegin=1547 CharacterOffsetEnd=1551 PartOfSpeech=VBP Lemma=take NamedEntityTag=O] [Text=turns CharacterOffsetBegin=1552 CharacterOffsetEnd=1557 PartOfSpeech=NNS Lemma=turn NamedEntityTag=O] [Text=walking CharacterOffsetBegin=1558 CharacterOffsetEnd=1565 PartOfSpeech=VBG Lemma=walk NamedEntityTag=O] [Text=. CharacterOffsetBegin=1565 CharacterOffsetEnd=1566 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Relay))
+      (PP (IN for)
+        (NP (NNP Life) (NNS teams))))
+    (ADVP (RB often))
+    (NP
+      (NP (NN camp))
+      (PP (IN near)
+        (NP
+          (NP (DT the) (NN track))
+          (PP (IN on)
+            (NP
+              (NP (NNP Friday) (NN night))
+              (PP (IN as)
+                (NP (NNS members))))))))
+    (VP (VBP take)
+      (NP
+        (NP (NNS turns))
+        (VP (VBG walking))))
+    (. .)))
+
+root(ROOT-0, take-15)
+nsubj(take-15, Relay-1)
+nn(teams-4, Life-3)
+prep_for(Relay-1, teams-4)
+advmod(take-15, often-5)
+nsubj(take-15, camp-6)
+det(track-9, the-8)
+prep_near(camp-6, track-9)
+nn(night-12, Friday-11)
+prep_on(track-9, night-12)
+prep_as(night-12, members-14)
+dobj(take-15, turns-16)
+vmod(turns-16, walking-17)
+
+Sentence #16 (10 tokens):
+At midnight, a balloon launch will take place.
+[Text=At CharacterOffsetBegin=1567 CharacterOffsetEnd=1569 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=midnight CharacterOffsetBegin=1570 CharacterOffsetEnd=1578 PartOfSpeech=NN Lemma=midnight NamedEntityTag=TIME NormalizedNamedEntityTag=T00:00 Timex=<TIMEX3 tid="t6" type="TIME" value="T00:00">midnight<_TIMEX3>] [Text=, CharacterOffsetBegin=1578 CharacterOffsetEnd=1579 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=1580 CharacterOffsetEnd=1581 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=balloon CharacterOffsetBegin=1582 CharacterOffsetEnd=1589 PartOfSpeech=NN Lemma=balloon NamedEntityTag=O] [Text=launch CharacterOffsetBegin=1590 CharacterOffsetEnd=1596 PartOfSpeech=NN Lemma=launch NamedEntityTag=O] [Text=will CharacterOffsetBegin=1597 CharacterOffsetEnd=1601 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=take CharacterOffsetBegin=1602 CharacterOffsetEnd=1606 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=1607 CharacterOffsetEnd=1612 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=. CharacterOffsetBegin=1612 CharacterOffsetEnd=1613 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (NN midnight)))
+    (, ,)
+    (NP (DT a) (NN balloon) (NN launch))
+    (VP (MD will)
+      (VP (VB take)
+        (NP (NN place))))
+    (. .)))
+
+root(ROOT-0, take-8)
+prep_at(take-8, midnight-2)
+det(launch-6, a-4)
+nn(launch-6, balloon-5)
+nsubj(take-8, launch-6)
+aux(take-8, will-7)
+dobj(take-8, place-9)
+
+Sentence #17 (20 tokens):
+A pancake breakfast is offered 7-9 a.m. Saturday even for those who don’t choose to spend the night.
+[Text=A CharacterOffsetBegin=1614 CharacterOffsetEnd=1615 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pancake CharacterOffsetBegin=1616 CharacterOffsetEnd=1623 PartOfSpeech=NN Lemma=pancake NamedEntityTag=O] [Text=breakfast CharacterOffsetBegin=1624 CharacterOffsetEnd=1633 PartOfSpeech=NN Lemma=breakfast NamedEntityTag=O] [Text=is CharacterOffsetBegin=1634 CharacterOffsetEnd=1636 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=offered CharacterOffsetBegin=1637 CharacterOffsetEnd=1644 PartOfSpeech=VBN Lemma=offer NamedEntityTag=O] [Text=7-9 CharacterOffsetBegin=1645 CharacterOffsetEnd=1648 PartOfSpeech=CD Lemma=7-9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0 - 9.0] [Text=a.m. CharacterOffsetBegin=1649 CharacterOffsetEnd=1653 PartOfSpeech=RB Lemma=a.m. NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=1654 CharacterOffsetEnd=1662 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-WXX-6">Saturday<_TIMEX3>] [Text=even CharacterOffsetBegin=1663 CharacterOffsetEnd=1667 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=for CharacterOffsetBegin=1668 CharacterOffsetEnd=1671 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=those CharacterOffsetBegin=1672 CharacterOffsetEnd=1677 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=who CharacterOffsetBegin=1678 CharacterOffsetEnd=1681 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=do CharacterOffsetBegin=1682 CharacterOffsetEnd=1684 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1684 CharacterOffsetEnd=1687 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=choose CharacterOffsetBegin=1688 CharacterOffsetEnd=1694 PartOfSpeech=VB Lemma=choose NamedEntityTag=O] [Text=to CharacterOffsetBegin=1695 CharacterOffsetEnd=1697 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=spend CharacterOffsetBegin=1698 CharacterOffsetEnd=1703 PartOfSpeech=VB Lemma=spend NamedEntityTag=O] [Text=the CharacterOffsetBegin=1704 CharacterOffsetEnd=1707 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=night CharacterOffsetBegin=1708 CharacterOffsetEnd=1713 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t8" type="TIME" value="TNI">night<_TIMEX3>] [Text=. CharacterOffsetBegin=1713 CharacterOffsetEnd=1714 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A) (NN pancake) (NN breakfast))
+    (VP (VBZ is)
+      (ADJP (VBN offered)
+        (PRN
+          (NP-TMP (CD 7-9) (RB a.m.) (NNP Saturday))
+          (PP
+            (ADVP (RB even))
+            (IN for)
+            (NP (DT those))))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP do) (RB n_t)
+              (VP (VB choose)
+                (S
+                  (VP (TO to)
+                    (VP (VB spend)
+                      (NP-TMP (DT the) (NN night)))))))))))
+    (. .)))
+
+root(ROOT-0, offered-5)
+det(breakfast-3, A-1)
+nn(breakfast-3, pancake-2)
+nsubjpass(offered-5, breakfast-3)
+auxpass(offered-5, is-4)
+num(Saturday-8, 7-9-6)
+advmod(Saturday-8, a.m.-7)
+dep(offered-5, Saturday-8)
+advmod(Saturday-8, even-9)
+prep_for(Saturday-8, those-11)
+nsubj(choose-15, who-12)
+aux(choose-15, do-13)
+neg(choose-15, n_t-14)
+ccomp(offered-5, choose-15)
+aux(spend-17, to-16)
+xcomp(choose-15, spend-17)
+det(night-19, the-18)
+tmod(spend-17, night-19)
+
+Sentence #18 (7 tokens):
+An auction begins at 9 a.m..
+[Text=An CharacterOffsetBegin=1715 CharacterOffsetEnd=1717 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=auction CharacterOffsetBegin=1718 CharacterOffsetEnd=1725 PartOfSpeech=NN Lemma=auction NamedEntityTag=O] [Text=begins CharacterOffsetBegin=1726 CharacterOffsetEnd=1732 PartOfSpeech=VBZ Lemma=begin NamedEntityTag=O] [Text=at CharacterOffsetBegin=1733 CharacterOffsetEnd=1735 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=9 CharacterOffsetBegin=1736 CharacterOffsetEnd=1737 PartOfSpeech=CD Lemma=9 NamedEntityTag=TIME NormalizedNamedEntityTag=T09:00 Timex=<TIMEX3 tid="t9" type="TIME" value="T09:00">9 a.m.<_TIMEX3>] [Text=a.m. CharacterOffsetBegin=1738 CharacterOffsetEnd=1742 PartOfSpeech=NN Lemma=a.m. NamedEntityTag=TIME NormalizedNamedEntityTag=T09:00 Timex=<TIMEX3 tid="t9" type="TIME" value="T09:00">9 a.m.<_TIMEX3>] [Text=. CharacterOffsetBegin=1742 CharacterOffsetEnd=1743 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT An) (NN auction))
+    (VP (VBZ begins)
+      (PP (IN at)
+        (NP (CD 9) (NN a.m.))))
+    (. .)))
+
+root(ROOT-0, begins-3)
+det(auction-2, An-1)
+nsubj(begins-3, auction-2)
+num(a.m.-6, 9-5)
+prep_at(begins-3, a.m.-6)
+
+Sentence #19 (9 tokens):
+Proceeds will go to the American Cancer Society.
+[Text=Proceeds CharacterOffsetBegin=1744 CharacterOffsetEnd=1752 PartOfSpeech=NNS Lemma=proceeds NamedEntityTag=O] [Text=will CharacterOffsetBegin=1753 CharacterOffsetEnd=1757 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=go CharacterOffsetBegin=1758 CharacterOffsetEnd=1760 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1761 CharacterOffsetEnd=1763 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1764 CharacterOffsetEnd=1767 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=American CharacterOffsetBegin=1768 CharacterOffsetEnd=1776 PartOfSpeech=NNP Lemma=American NamedEntityTag=O] [Text=Cancer CharacterOffsetBegin=1777 CharacterOffsetEnd=1783 PartOfSpeech=NNP Lemma=Cancer NamedEntityTag=O] [Text=Society CharacterOffsetBegin=1784 CharacterOffsetEnd=1791 PartOfSpeech=NNP Lemma=Society NamedEntityTag=O] [Text=. CharacterOffsetBegin=1791 CharacterOffsetEnd=1792 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNS Proceeds))
+    (VP (MD will)
+      (VP (VB go)
+        (PP (TO to)
+          (NP (DT the) (NNP American) (NNP Cancer) (NNP Society)))))
+    (. .)))
+
+root(ROOT-0, go-3)
+nsubj(go-3, Proceeds-1)
+aux(go-3, will-2)
+det(Society-8, the-5)
+nn(Society-8, American-6)
+nn(Society-8, Cancer-7)
+prep_to(go-3, Society-8)
+
+Sentence #20 (15 tokens):
+Relay For Life is the world’s largest fundraising event to fight cancer.
+»
+[Text=Relay CharacterOffsetBegin=1793 CharacterOffsetEnd=1798 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=For CharacterOffsetBegin=1799 CharacterOffsetEnd=1802 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=1803 CharacterOffsetEnd=1807 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=is CharacterOffsetBegin=1808 CharacterOffsetEnd=1810 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1811 CharacterOffsetEnd=1814 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=1815 CharacterOffsetEnd=1820 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1820 CharacterOffsetEnd=1822 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=largest CharacterOffsetBegin=1823 CharacterOffsetEnd=1830 PartOfSpeech=JJS Lemma=largest NamedEntityTag=O] [Text=fundraising CharacterOffsetBegin=1831 CharacterOffsetEnd=1842 PartOfSpeech=VBG Lemma=fundraise NamedEntityTag=O] [Text=event CharacterOffsetBegin=1843 CharacterOffsetEnd=1848 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=to CharacterOffsetBegin=1849 CharacterOffsetEnd=1851 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=fight CharacterOffsetBegin=1852 CharacterOffsetEnd=1857 PartOfSpeech=VB Lemma=fight NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=1858 CharacterOffsetEnd=1864 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=1864 CharacterOffsetEnd=1865 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1866 CharacterOffsetEnd=1867 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Relay))
+    (PP (IN For)
+      (NP (NNP Life)))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (NN world) (POS _s))
+          (JJS largest))
+        (VP (VBG fundraising)
+          (NP (NN event))
+          (S
+            (VP (TO to)
+              (VP (VB fight)
+                (NP (NN cancer))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, world-6)
+nsubj(world-6, Relay-1)
+prep_for(world-6, Life-3)
+cop(world-6, is-4)
+det(world-6, the-5)
+possessive(world-6, _s-7)
+amod(world-6, largest-8)
+vmod(world-6, fundraising-9)
+dobj(fundraising-9, event-10)
+aux(fight-12, to-11)
+vmod(fundraising-9, fight-12)
+dobj(fight-12, cancer-13)
+
+Sentence #21 (23 tokens):
+Comment or view comments  
+ 
+Sign up for our newsletter and have the top headlines from your community delivered right to your inbox.
+[Text=Comment CharacterOffsetBegin=1868 CharacterOffsetEnd=1875 PartOfSpeech=NN Lemma=comment NamedEntityTag=O] [Text=or CharacterOffsetBegin=1876 CharacterOffsetEnd=1878 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=view CharacterOffsetBegin=1879 CharacterOffsetEnd=1883 PartOfSpeech=VB Lemma=view NamedEntityTag=O] [Text=comments CharacterOffsetBegin=1884 CharacterOffsetEnd=1892 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=1897 CharacterOffsetEnd=1901 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=up CharacterOffsetBegin=1902 CharacterOffsetEnd=1904 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=for CharacterOffsetBegin=1905 CharacterOffsetEnd=1908 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=our CharacterOffsetBegin=1909 CharacterOffsetEnd=1912 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=newsletter CharacterOffsetBegin=1913 CharacterOffsetEnd=1923 PartOfSpeech=NN Lemma=newsletter NamedEntityTag=O] [Text=and CharacterOffsetBegin=1924 CharacterOffsetEnd=1927 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=1928 CharacterOffsetEnd=1932 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=the CharacterOffsetBegin=1933 CharacterOffsetEnd=1936 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1937 CharacterOffsetEnd=1940 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=headlines CharacterOffsetBegin=1941 CharacterOffsetEnd=1950 PartOfSpeech=NNS Lemma=headline NamedEntityTag=O] [Text=from CharacterOffsetBegin=1951 CharacterOffsetEnd=1955 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=your CharacterOffsetBegin=1956 CharacterOffsetEnd=1960 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=community CharacterOffsetBegin=1961 CharacterOffsetEnd=1970 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=delivered CharacterOffsetBegin=1971 CharacterOffsetEnd=1980 PartOfSpeech=VBN Lemma=deliver NamedEntityTag=O] [Text=right CharacterOffsetBegin=1981 CharacterOffsetEnd=1986 PartOfSpeech=NN Lemma=right NamedEntityTag=O] [Text=to CharacterOffsetBegin=1987 CharacterOffsetEnd=1989 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=your CharacterOffsetBegin=1990 CharacterOffsetEnd=1994 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=inbox CharacterOffsetBegin=1995 CharacterOffsetEnd=2000 PartOfSpeech=NN Lemma=inbox NamedEntityTag=O] [Text=. CharacterOffsetBegin=2000 CharacterOffsetEnd=2001 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (NN Comment))
+      (CC or)
+      (S
+        (VP
+          (VP (VB view)
+            (S
+              (NP (NNS comments))
+              (VP (VB Sign)
+                (PRT (RP up))
+                (PP (IN for)
+                  (NP (PRP$ our) (NN newsletter))))))
+          (CC and)
+          (VP (VBP have)
+            (NP
+              (NP (DT the) (JJ top) (NNS headlines))
+              (PP (IN from)
+                (NP (PRP$ your) (NN community))))))))
+    (VP (VBN delivered)
+      (NP (NN right))
+      (PP (TO to)
+        (NP (PRP$ your) (NN inbox))))
+    (. .)))
+
+root(ROOT-0, Comment-1)
+conj_or(Comment-1, view-3)
+nsubj(Sign-5, comments-4)
+ccomp(view-3, Sign-5)
+prt(Sign-5, up-6)
+poss(newsletter-9, our-8)
+prep_for(Sign-5, newsletter-9)
+conj_and(view-3, have-11)
+det(headlines-14, the-12)
+amod(headlines-14, top-13)
+dobj(have-11, headlines-14)
+poss(community-17, your-16)
+prep_from(headlines-14, community-17)
+vmod(Comment-1, delivered-18)
+dobj(delivered-18, right-19)
+poss(inbox-22, your-21)
+prep_to(delivered-18, inbox-22)
+
+Sentence #22 (10 tokens):
+Your privacy is important, read our privacy policy.
+[Text=Your CharacterOffsetBegin=2002 CharacterOffsetEnd=2006 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=privacy CharacterOffsetBegin=2007 CharacterOffsetEnd=2014 PartOfSpeech=NN Lemma=privacy NamedEntityTag=O] [Text=is CharacterOffsetBegin=2015 CharacterOffsetEnd=2017 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=important CharacterOffsetBegin=2018 CharacterOffsetEnd=2027 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=, CharacterOffsetBegin=2027 CharacterOffsetEnd=2028 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=read CharacterOffsetBegin=2029 CharacterOffsetEnd=2033 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=our CharacterOffsetBegin=2034 CharacterOffsetEnd=2037 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=privacy CharacterOffsetBegin=2038 CharacterOffsetEnd=2045 PartOfSpeech=NN Lemma=privacy NamedEntityTag=O] [Text=policy CharacterOffsetBegin=2046 CharacterOffsetEnd=2052 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=2052 CharacterOffsetEnd=2053 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP
+      (NP (PRP$ Your) (NN privacy))
+      (SBAR
+        (S
+          (VP (VBZ is)
+            (ADJP (JJ important))))))
+    (, ,)
+    (VP (VB read)
+      (NP (PRP$ our) (NN privacy) (NN policy)))
+    (. .)))
+
+root(ROOT-0, read-6)
+poss(privacy-2, Your-1)
+dep(read-6, privacy-2)
+cop(important-4, is-3)
+rcmod(privacy-2, important-4)
+poss(policy-9, our-7)
+nn(policy-9, privacy-8)
+dobj(read-6, policy-9)
+
+Sentence #23 (8 tokens):
+© Copyright 2006-2015 Gatehouse Media, Inc.
+[Text=© CharacterOffsetBegin=2054 CharacterOffsetEnd=2055 PartOfSpeech=NN Lemma=© NamedEntityTag=O] [Text=Copyright CharacterOffsetBegin=2056 CharacterOffsetEnd=2065 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O] [Text=2006-2015 CharacterOffsetBegin=2066 CharacterOffsetEnd=2075 PartOfSpeech=CD Lemma=2006-2015 NamedEntityTag=DURATION NormalizedNamedEntityTag=PT78888H Timex=<TIMEX3 beginPoint="t10" endPoint="t11" tid="t12" type="DURATION" value="PT78888H">2006-2015<_TIMEX3>] [Text=Gatehouse CharacterOffsetBegin=2076 CharacterOffsetEnd=2085 PartOfSpeech=NNP Lemma=Gatehouse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=2086 CharacterOffsetEnd=2091 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2091 CharacterOffsetEnd=2092 PartOfSpeech=, Lemma=, NamedEntityTag=ORGANIZATION] [Text=Inc. CharacterOffsetBegin=2093 CharacterOffsetEnd=2096 PartOfSpeech=NNP Lemma=Inc. NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=2096 CharacterOffsetEnd=2097 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN ©) (NN Copyright))
+    (NP
+      (NP (CD 2006-2015) (NNP Gatehouse) (NNP Media))
+      (, ,)
+      (NP (NNP Inc.)))
+    (. .)))
+
+root(ROOT-0, Copyright-2)
+nn(Copyright-2, ©-1)
+num(Media-5, 2006-2015-3)
+nn(Media-5, Gatehouse-4)
+dep(Copyright-2, Media-5)
+appos(Media-5, Inc.-7)
+
+Sentence #24 (29 tokens):
+Some rights reserved    Privacy Policy  |  Terms of Service  |  Gatehouse Media Publications
+Original content available for non-commercial use under a Creative Commons license, except where noted.
+[Text=Some CharacterOffsetBegin=2098 CharacterOffsetEnd=2102 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=rights CharacterOffsetBegin=2103 CharacterOffsetEnd=2109 PartOfSpeech=NNS Lemma=rights NamedEntityTag=O] [Text=reserved CharacterOffsetBegin=2110 CharacterOffsetEnd=2118 PartOfSpeech=VBD Lemma=reserve NamedEntityTag=O] [Text=Privacy CharacterOffsetBegin=2122 CharacterOffsetEnd=2129 PartOfSpeech=NNP Lemma=Privacy NamedEntityTag=ORGANIZATION] [Text=Policy CharacterOffsetBegin=2130 CharacterOffsetEnd=2136 PartOfSpeech=NNP Lemma=Policy NamedEntityTag=ORGANIZATION] [Text=| CharacterOffsetBegin=2138 CharacterOffsetEnd=2139 PartOfSpeech=NNP Lemma=| NamedEntityTag=ORGANIZATION] [Text=Terms CharacterOffsetBegin=2141 CharacterOffsetEnd=2146 PartOfSpeech=NNS Lemma=term NamedEntityTag=ORGANIZATION] [Text=of CharacterOffsetBegin=2147 CharacterOffsetEnd=2149 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION] [Text=Service CharacterOffsetBegin=2150 CharacterOffsetEnd=2157 PartOfSpeech=NNP Lemma=Service NamedEntityTag=ORGANIZATION] [Text=| CharacterOffsetBegin=2159 CharacterOffsetEnd=2160 PartOfSpeech=NNP Lemma=| NamedEntityTag=ORGANIZATION] [Text=Gatehouse CharacterOffsetBegin=2162 CharacterOffsetEnd=2171 PartOfSpeech=NNP Lemma=Gatehouse NamedEntityTag=ORGANIZATION] [Text=Media CharacterOffsetBegin=2172 CharacterOffsetEnd=2177 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION] [Text=Publications CharacterOffsetBegin=2178 CharacterOffsetEnd=2190 PartOfSpeech=NNP Lemma=Publications NamedEntityTag=ORGANIZATION] [Text=Original CharacterOffsetBegin=2191 CharacterOffsetEnd=2199 PartOfSpeech=JJ Lemma=original NamedEntityTag=O] [Text=content CharacterOffsetBegin=2200 CharacterOffsetEnd=2207 PartOfSpeech=NN Lemma=content NamedEntityTag=O] [Text=available CharacterOffsetBegin=2208 CharacterOffsetEnd=2217 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=for CharacterOffsetBegin=2218 CharacterOffsetEnd=2221 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=non-commercial CharacterOffsetBegin=2222 CharacterOffsetEnd=2236 PartOfSpeech=JJ Lemma=non-commercial NamedEntityTag=O] [Text=use CharacterOffsetBegin=2237 CharacterOffsetEnd=2240 PartOfSpeech=NN Lemma=use NamedEntityTag=O] [Text=under CharacterOffsetBegin=2241 CharacterOffsetEnd=2246 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=a CharacterOffsetBegin=2247 CharacterOffsetEnd=2248 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Creative CharacterOffsetBegin=2249 CharacterOffsetEnd=2257 PartOfSpeech=JJ Lemma=creative NamedEntityTag=MISC] [Text=Commons CharacterOffsetBegin=2258 CharacterOffsetEnd=2265 PartOfSpeech=NNPS Lemma=Commons NamedEntityTag=MISC] [Text=license CharacterOffsetBegin=2266 CharacterOffsetEnd=2273 PartOfSpeech=NN Lemma=license NamedEntityTag=O] [Text=, CharacterOffsetBegin=2273 CharacterOffsetEnd=2274 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=except CharacterOffsetBegin=2275 CharacterOffsetEnd=2281 PartOfSpeech=IN Lemma=except NamedEntityTag=O] [Text=where CharacterOffsetBegin=2282 CharacterOffsetEnd=2287 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=noted CharacterOffsetBegin=2288 CharacterOffsetEnd=2293 PartOfSpeech=VBN Lemma=note NamedEntityTag=O] [Text=. CharacterOffsetBegin=2293 CharacterOffsetEnd=2294 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT Some) (NNS rights))
+    (VP (VBD reserved)
+      (NP
+        (NP (NNP Privacy) (NNP Policy) (NNP |) (NNS Terms))
+        (PP (IN of)
+          (NP (NNP Service) (NNP |) (NNP Gatehouse) (NNP Media) (NNP Publications) (JJ Original) (NN content)))
+        (ADJP (JJ available)
+          (PP (IN for)
+            (NP (JJ non-commercial) (NN use)))))
+      (PP (IN under)
+        (NP (DT a) (JJ Creative) (NNPS Commons) (NN license)))
+      (, ,)
+      (PP (IN except)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (VP (VBN noted))))))
+    (. .)))
+
+root(ROOT-0, reserved-3)
+det(rights-2, Some-1)
+nsubj(reserved-3, rights-2)
+nn(Terms-7, Privacy-4)
+nn(Terms-7, Policy-5)
+nn(Terms-7, bar-6)
+dobj(reserved-3, Terms-7)
+nn(content-15, Service-9)
+nn(content-15, bar-10)
+nn(content-15, Gatehouse-11)
+nn(content-15, Media-12)
+nn(content-15, Publications-13)
+amod(content-15, Original-14)
+prep_of(Terms-7, content-15)
+amod(Terms-7, available-16)
+amod(use-19, non-commercial-18)
+prep_for(available-16, use-19)
+det(license-24, a-21)
+amod(license-24, Creative-22)
+nn(license-24, Commons-23)
+prep_under(reserved-3, license-24)
+advmod(noted-28, where-27)
+prepc_except(reserved-3, noted-28)
+
+Coreference set:
+ (2,10,[10,11]) -> (1,13,[13,14]), that is: "Sturgis" -> "Sturgis"
+ (7,16,[16,17]) -> (1,13,[13,14]), that is: "Sturgis" -> "Sturgis"
+ (10,4,[4,5]) -> (1,13,[13,14]), that is: "Sturgis" -> "Sturgis"
+Coreference set:
+ (1,3,[3,14]) -> (5,5,[4,8]), that is: "Relay for Life Purple ribbons fluttering from light posts around Sturgis" -> "Sturgis Relay for Life"
+ (1,16,[15,26]) -> (5,5,[4,8]), that is: "a reminder that it _s time for `` Relay for Life" -> "Sturgis Relay for Life"
+ (1,18,[18,19]) -> (5,5,[4,8]), that is: "it" -> "Sturgis Relay for Life"
+ (1,20,[20,26]) -> (5,5,[4,8]), that is: "time for `` Relay for Life" -> "Sturgis Relay for Life"
+ (1,23,[23,26]) -> (5,5,[4,8]), that is: "Relay for Life" -> "Sturgis Relay for Life"
+ (2,13,[12,23]) -> (5,5,[4,8]), that is: "a reminder that it _s time for `` Relay for Life" -> "Sturgis Relay for Life"
+ (2,17,[17,23]) -> (5,5,[4,8]), that is: "time for `` Relay for Life" -> "Sturgis Relay for Life"
+ (2,20,[20,23]) -> (5,5,[4,8]), that is: "Relay for Life" -> "Sturgis Relay for Life"
+ (5,28,[28,31]) -> (5,5,[4,8]), that is: "Relay for Life" -> "Sturgis Relay for Life"
+ (6,9,[9,12]) -> (5,5,[4,8]), that is: "Relay for Life" -> "Sturgis Relay for Life"
+Coreference set:
+ (2,4,[2,5]) -> (1,7,[5,14]), that is: "Sturgis Purple ribbons" -> "Life Purple ribbons fluttering from light posts around Sturgis"
+Coreference set:
+ (2,8,[7,11]) -> (1,11,[10,14]), that is: "light posts around Sturgis" -> "light posts around Sturgis"
+Coreference set:
+ (2,22,[22,23]) -> (1,25,[25,26]), that is: "Life" -> "Life"
+ (5,7,[7,8]) -> (1,25,[25,26]), that is: "Life" -> "Life"
+ (5,30,[30,31]) -> (1,25,[25,26]), that is: "Life" -> "Life"
+ (6,11,[11,12]) -> (1,25,[25,26]), that is: "Life" -> "Life"
+ (20,3,[3,4]) -> (1,25,[25,26]), that is: "Life" -> "Life"
+Coreference set:
+ (2,15,[15,16]) -> (2,1,[1,11]), that is: "it" -> "Comment Sturgis Purple ribbons fluttering from light posts around Sturgis"
+Coreference set:
+ (7,1,[1,2]) -> (3,6,[6,7]), that is: "Friday" -> "Friday"
+Coreference set:
+ (15,14,[14,15]) -> (4,2,[1,3]), that is: "members" -> "Community members"
+Coreference set:
+ (7,3,[3,4]) -> (6,21,[21,22]), that is: "activities" -> "activities"
+Coreference set:
+ (14,9,[8,10]) -> (8,22,[21,27]), that is: "the track" -> "the track to cheer on survivors"
+ (14,11,[11,19]) -> (8,22,[21,27]), that is: "glowing in honor of those affected by cancer" -> "the track to cheer on survivors"
+Coreference set:
+ (10,19,[18,20]) -> (9,6,[5,9]), that is: "the lap" -> "the lap and honor"
+ (12,3,[2,4]) -> (9,6,[5,9]), that is: "the lap" -> "the lap and honor"
+Coreference set:
+ (10,8,[6,9]) -> (10,2,[1,5]), that is: "a cancer survivor" -> "Jim Moshier of Sturgis"
+ (11,1,[1,2]) -> (10,2,[1,5]), that is: "Moshier" -> "Jim Moshier of Sturgis"
+ (11,3,[3,4]) -> (10,2,[1,5]), that is: "he" -> "Jim Moshier of Sturgis"
+Coreference set:
+ (17,11,[11,12]) -> (14,15,[15,19]), that is: "those" -> "those affected by cancer"
+Coreference set:
+ (20,1,[1,2]) -> (15,1,[1,5]), that is: "Relay" -> "Relay for Life teams"
+ (20,6,[5,14]) -> (15,1,[1,5]), that is: "the world _s largest fundraising event to fight cancer" -> "Relay for Life teams"
+Coreference set:
+ (17,19,[18,20]) -> (15,12,[11,15]), that is: "the night" -> "Friday night as members"
+Coreference set:
+ (22,7,[7,8]) -> (21,8,[8,9]), that is: "our" -> "our"

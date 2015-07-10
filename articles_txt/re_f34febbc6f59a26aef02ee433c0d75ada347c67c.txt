@@ -1,0 +1,874 @@
+Sentence #1 (11 tokens):
+Sent to 1,564 people who get email alerts on TIVO.
+[Text=Sent CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=to CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=1,564 CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=CD Lemma=1,564 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1564.0] [Text=people CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=who CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=get CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBP Lemma=get NamedEntityTag=O] [Text=email CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=alerts CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=VBZ Lemma=alert NamedEntityTag=O] [Text=on CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=TIVO CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=NNP Lemma=TIVO NamedEntityTag=ORGANIZATION] [Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBN Sent)
+        (PP (TO to)
+          (NP
+            (NP (CD 1,564) (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP get)
+                  (NP (NN email)))))))))
+    (VP (VBZ alerts)
+      (PP (IN on)
+        (NP (NNP TIVO))))
+    (. .)))
+
+root(ROOT-0, alerts-8)
+csubj(alerts-8, Sent-1)
+num(people-4, 1,564-3)
+prep_to(Sent-1, people-4)
+nsubj(get-6, who-5)
+rcmod(people-4, get-6)
+dobj(get-6, email-7)
+prep_on(alerts-8, TIVO-10)
+
+Sentence #2 (25 tokens):
+Get email alerts on TIVO »
+To screen ETFs by asset class, performance, yield and more, check out the ETF Hub.
+[Text=Get CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=email CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=alerts CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VBZ Lemma=alert NamedEntityTag=O] [Text=on CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=TIVO CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=NNP Lemma=TIVO NamedEntityTag=ORGANIZATION] [Text=__ CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=To CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=screen CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=VB Lemma=screen NamedEntityTag=O] [Text=ETFs CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=NNS Lemma=etf NamedEntityTag=O] [Text=by CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=asset CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=asset NamedEntityTag=O] [Text=class CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=class NamedEntityTag=O] [Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=performance CharacterOffsetBegin=109 CharacterOffsetEnd=120 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=yield CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=and CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=more CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=check CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=VB Lemma=check NamedEntityTag=O] [Text=out CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=the CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Hub CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NN Lemma=hub NamedEntityTag=O] [Text=. CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP
+      (VP (VB Get)
+        (NP
+          (NP (NN email))
+          (SBAR
+            (S
+              (VP (VBZ alerts)
+                (PP (IN on)
+                  (NP (NNP TIVO)))))))
+        (__ __)
+        (S
+          (VP (TO To)
+            (VP (VB screen)
+              (NP (NNS ETFs))
+              (PP (IN by)
+                (NP
+                  (NP (NN asset) (NN class))
+                  (, ,)
+                  (NP (NN performance))
+                  (, ,)
+                  (NP (NN yield))
+                  (CC and)
+                  (NP (JJR more))))))))
+      (, ,)
+      (VP (VB check)
+        (PRT (RP out))
+        (NP (DT the) (NN ETF) (NN Hub))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+dobj(Get-1, email-2)
+rcmod(email-2, alerts-3)
+prep_on(alerts-3, TIVO-5)
+aux(screen-8, To-7)
+vmod(Get-1, screen-8)
+dobj(screen-8, ETFs-9)
+nn(class-12, asset-11)
+prep_by(screen-8, class-12)
+conj_and(class-12, performance-14)
+conj_and(class-12, yield-16)
+conj_and(class-12, more-18)
+dep(Get-1, check-20)
+prt(check-20, out-21)
+det(Hub-24, the-22)
+nn(Hub-24, ETF-23)
+dobj(check-20, Hub-24)
+
+Sentence #3 (44 tokens):
+ETF Hub
+TiVo +5.2% on FQ1 beat, strong guidance; acquisition announced
+Along with its FQ1 results, TIVO has announced it_s acquiring Cubiware , a Polish developer of low-cost set-top and portal server software for emerging markets pay-TV providers.
+[Text=ETF CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=ETF NamedEntityTag=O] [Text=Hub CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=NNP Lemma=Hub NamedEntityTag=O] [Text=TiVo CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=NNP Lemma=TiVo NamedEntityTag=O] [Text=+5.2 CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=CD Lemma=+5.2 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.2] [Text=% CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.2] [Text=on CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=FQ1 CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=fq1 NamedEntityTag=O] [Text=beat CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=NN Lemma=beat NamedEntityTag=O] [Text=, CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=strong CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=JJ Lemma=strong NamedEntityTag=O] [Text=guidance CharacterOffsetBegin=200 CharacterOffsetEnd=208 PartOfSpeech=NN Lemma=guidance NamedEntityTag=O] [Text=; CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=acquisition CharacterOffsetBegin=210 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=acquisition NamedEntityTag=O] [Text=announced CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=Along CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=IN Lemma=along NamedEntityTag=O] [Text=with CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=its CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=FQ1 CharacterOffsetBegin=247 CharacterOffsetEnd=250 PartOfSpeech=NN Lemma=fq1 NamedEntityTag=O] [Text=results CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=VBZ Lemma=result NamedEntityTag=O] [Text=, CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=TIVO CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NNP Lemma=TIVO NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=announced CharacterOffsetBegin=269 CharacterOffsetEnd=278 PartOfSpeech=VBN Lemma=announce NamedEntityTag=O] [Text=it CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=acquiring CharacterOffsetBegin=284 CharacterOffsetEnd=293 PartOfSpeech=VBG Lemma=acquire NamedEntityTag=O] [Text=Cubiware CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=NNP Lemma=Cubiware NamedEntityTag=O] [Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Polish CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=JJ Lemma=polish NamedEntityTag=MISC] [Text=developer CharacterOffsetBegin=314 CharacterOffsetEnd=323 PartOfSpeech=NN Lemma=developer NamedEntityTag=O] [Text=of CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=low-cost CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=JJ Lemma=low-cost NamedEntityTag=O] [Text=set-top CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=JJ Lemma=set-top NamedEntityTag=O] [Text=and CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=portal CharacterOffsetBegin=348 CharacterOffsetEnd=354 PartOfSpeech=JJ Lemma=portal NamedEntityTag=O] [Text=server CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NN Lemma=server NamedEntityTag=O] [Text=software CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=NN Lemma=software NamedEntityTag=O] [Text=for CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=emerging CharacterOffsetBegin=375 CharacterOffsetEnd=383 PartOfSpeech=VBG Lemma=emerge NamedEntityTag=O] [Text=markets CharacterOffsetBegin=384 CharacterOffsetEnd=391 PartOfSpeech=NNS Lemma=market NamedEntityTag=O] [Text=pay-TV CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=NN Lemma=pay-tv NamedEntityTag=O] [Text=providers CharacterOffsetBegin=399 CharacterOffsetEnd=408 PartOfSpeech=NNS Lemma=provider NamedEntityTag=O] [Text=. CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP ETF) (NNP Hub) (NNP TiVo))
+      (SBAR
+        (S
+          (NP
+            (NP (CD +5.2) (NN %))
+            (PP (IN on)
+              (NP
+                (NP (NN FQ1) (NN beat))
+                (, ,)
+                (NP
+                  (NP (JJ strong) (NN guidance))
+                  (: ;)
+                  (NP (NN acquisition))))))
+          (VP (VBD announced)))))
+    (ADVP (IN Along)
+      (PP (IN with)
+        (NP (PRP$ its) (NN FQ1))))
+    (VP (VBZ results)
+      (PRN (, ,)
+        (S
+          (NP (NNP TIVO))
+          (VP (VBZ has)
+            (VP (VBN announced)
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ _s)
+                    (VP (VBG acquiring)
+                      (NP
+                        (NP (NNP Cubiware))
+                        (, ,)
+                        (NP
+                          (NP (DT a) (JJ Polish) (NN developer))
+                          (PP (IN of)
+                            (NP (JJ low-cost) (JJ set-top))))
+                        (CC and)
+                        (NP (JJ portal) (NN server) (NN software)))
+                      (PP (IN for)
+                        (NP (VBG emerging) (NNS markets)))))))))))
+      (NP (NN pay-TV) (NNS providers)))
+    (. .)))
+
+root(ROOT-0, results-19)
+nn(TiVo-3, ETF-1)
+nn(TiVo-3, Hub-2)
+nsubj(results-19, TiVo-3)
+num(%-5, +5.2-4)
+nsubj(announced-14, %-5)
+nn(beat-8, FQ1-7)
+prep_on(%-5, beat-8)
+amod(guidance-11, strong-10)
+appos(beat-8, guidance-11)
+dep(guidance-11, acquisition-13)
+rcmod(TiVo-3, announced-14)
+poss(FQ1-18, its-17)
+prep_along_with(results-19, FQ1-18)
+nsubj(announced-23, TIVO-21)
+aux(announced-23, has-22)
+parataxis(results-19, announced-23)
+nsubj(acquiring-26, it-24)
+aux(acquiring-26, _s-25)
+ccomp(announced-23, acquiring-26)
+dobj(acquiring-26, Cubiware-27)
+det(developer-31, a-29)
+amod(developer-31, Polish-30)
+conj_and(Cubiware-27, developer-31)
+amod(set-top-34, low-cost-33)
+prep_of(developer-31, set-top-34)
+amod(software-38, portal-36)
+nn(software-38, server-37)
+conj_and(Cubiware-27, software-38)
+amod(markets-41, emerging-40)
+prep_for(acquiring-26, markets-41)
+nn(providers-43, pay-TV-42)
+dobj(results-19, providers-43)
+
+Sentence #4 (12 tokens):
+Terms are undisclosed; presumably, offshore cash is being used.
+[Text=Terms CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=NNS Lemma=term NamedEntityTag=O] [Text=are CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=undisclosed CharacterOffsetBegin=420 CharacterOffsetEnd=431 PartOfSpeech=JJ Lemma=undisclosed NamedEntityTag=O] [Text=; CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=presumably CharacterOffsetBegin=433 CharacterOffsetEnd=443 PartOfSpeech=RB Lemma=presumably NamedEntityTag=O] [Text=, CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=offshore CharacterOffsetBegin=445 CharacterOffsetEnd=453 PartOfSpeech=JJ Lemma=offshore NamedEntityTag=O] [Text=cash CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=NN Lemma=cash NamedEntityTag=O] [Text=is CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=being CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=VBG Lemma=be NamedEntityTag=O] [Text=used CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBN Lemma=use NamedEntityTag=O] [Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNS Terms))
+      (VP (VBP are)
+        (ADJP (JJ undisclosed))))
+    (: ;)
+    (S
+      (ADVP (RB presumably))
+      (, ,)
+      (NP (JJ offshore) (NN cash))
+      (VP (VBZ is)
+        (VP (VBG being)
+          (VP (VBN used)))))
+    (. .)))
+
+root(ROOT-0, undisclosed-3)
+nsubj(undisclosed-3, Terms-1)
+cop(undisclosed-3, are-2)
+advmod(used-11, presumably-5)
+amod(cash-8, offshore-7)
+nsubjpass(used-11, cash-8)
+aux(used-11, is-9)
+auxpass(used-11, being-10)
+parataxis(undisclosed-3, used-11)
+
+Sentence #5 (22 tokens):
+TiVo states Cubiware_s offerings will expand its presence in 25 countries, thereby helping it cross-sell its existing offerings overseas.
+[Text=TiVo CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=NNP Lemma=TiVo NamedEntityTag=ORGANIZATION] [Text=states CharacterOffsetBegin=479 CharacterOffsetEnd=485 PartOfSpeech=VBZ Lemma=state NamedEntityTag=O] [Text=Cubiware CharacterOffsetBegin=486 CharacterOffsetEnd=494 PartOfSpeech=NNP Lemma=Cubiware NamedEntityTag=O] [Text=_s CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=offerings CharacterOffsetBegin=497 CharacterOffsetEnd=506 PartOfSpeech=NNS Lemma=offering NamedEntityTag=O] [Text=will CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=expand CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=VB Lemma=expand NamedEntityTag=O] [Text=its CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=presence CharacterOffsetBegin=523 CharacterOffsetEnd=531 PartOfSpeech=NN Lemma=presence NamedEntityTag=O] [Text=in CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=25 CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=CD Lemma=25 NamedEntityTag=NUMBER NormalizedNamedEntityTag=25.0] [Text=countries CharacterOffsetBegin=538 CharacterOffsetEnd=547 PartOfSpeech=NNS Lemma=country NamedEntityTag=O] [Text=, CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=thereby CharacterOffsetBegin=549 CharacterOffsetEnd=556 PartOfSpeech=RB Lemma=thereby NamedEntityTag=O] [Text=helping CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=VBG Lemma=help NamedEntityTag=O] [Text=it CharacterOffsetBegin=565 CharacterOffsetEnd=567 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=cross-sell CharacterOffsetBegin=568 CharacterOffsetEnd=578 PartOfSpeech=VB Lemma=cross-sell NamedEntityTag=O] [Text=its CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=existing CharacterOffsetBegin=583 CharacterOffsetEnd=591 PartOfSpeech=JJ Lemma=existing NamedEntityTag=O] [Text=offerings CharacterOffsetBegin=592 CharacterOffsetEnd=601 PartOfSpeech=NNS Lemma=offering NamedEntityTag=O] [Text=overseas CharacterOffsetBegin=602 CharacterOffsetEnd=610 PartOfSpeech=RB Lemma=overseas NamedEntityTag=O] [Text=. CharacterOffsetBegin=610 CharacterOffsetEnd=611 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP TiVo))
+    (VP (VBZ states)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Cubiware) (POS _s))
+            (NNS offerings))
+          (VP (MD will)
+            (VP (VB expand)
+              (NP (PRP$ its) (NN presence))
+              (PP (IN in)
+                (NP (CD 25) (NNS countries)))
+              (, ,)
+              (S
+                (ADVP (RB thereby))
+                (VP (VBG helping)
+                  (S
+                    (NP (PRP it))
+                    (VP (VB cross-sell)
+                      (NP (PRP$ its) (JJ existing) (NNS offerings))
+                      (ADVP (RB overseas)))))))))))
+    (. .)))
+
+root(ROOT-0, states-2)
+nsubj(states-2, TiVo-1)
+poss(offerings-5, Cubiware-3)
+nsubj(expand-7, offerings-5)
+aux(expand-7, will-6)
+ccomp(states-2, expand-7)
+poss(presence-9, its-8)
+dobj(expand-7, presence-9)
+num(countries-12, 25-11)
+prep_in(expand-7, countries-12)
+advmod(helping-15, thereby-14)
+vmod(expand-7, helping-15)
+nsubj(cross-sell-17, it-16)
+ccomp(helping-15, cross-sell-17)
+poss(offerings-20, its-18)
+amod(offerings-20, existing-19)
+dobj(cross-sell-17, offerings-20)
+advmod(cross-sell-17, overseas-21)
+
+Sentence #6 (18 tokens):
+Altogether, Cubiware claims ~40M Latin American and EMEA customers possessing 12M pay-TV subs between them.
+[Text=Altogether CharacterOffsetBegin=612 CharacterOffsetEnd=622 PartOfSpeech=RB Lemma=altogether NamedEntityTag=O] [Text=, CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Cubiware CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=JJ Lemma=cubiware NamedEntityTag=PERSON] [Text=claims CharacterOffsetBegin=633 CharacterOffsetEnd=639 PartOfSpeech=NNS Lemma=claim NamedEntityTag=O] [Text=~ CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=VBP Lemma=~ NamedEntityTag=O] [Text=40M CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=NNP Lemma=40M NamedEntityTag=O] [Text=Latin CharacterOffsetBegin=645 CharacterOffsetEnd=650 PartOfSpeech=NNP Lemma=Latin NamedEntityTag=MISC] [Text=American CharacterOffsetBegin=651 CharacterOffsetEnd=659 PartOfSpeech=NNP Lemma=American NamedEntityTag=MISC] [Text=and CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=EMEA CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=NNP Lemma=EMEA NamedEntityTag=ORGANIZATION] [Text=customers CharacterOffsetBegin=669 CharacterOffsetEnd=678 PartOfSpeech=NNS Lemma=customer NamedEntityTag=O] [Text=possessing CharacterOffsetBegin=679 CharacterOffsetEnd=689 PartOfSpeech=VBG Lemma=possess NamedEntityTag=O] [Text=12M CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=NN Lemma=12m NamedEntityTag=O] [Text=pay-TV CharacterOffsetBegin=694 CharacterOffsetEnd=700 PartOfSpeech=NN Lemma=pay-tv NamedEntityTag=O] [Text=subs CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=NNS Lemma=sub NamedEntityTag=O] [Text=between CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=them CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=. CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Altogether))
+    (, ,)
+    (NP (JJ Cubiware) (NNS claims))
+    (VP (VBP ~)
+      (NP
+        (NP (NNP 40M) (NNP Latin) (NNP American)
+          (CC and)
+          (NNP EMEA) (NNS customers))
+        (VP (VBG possessing)
+          (NP
+            (NP (NN 12M) (NN pay-TV) (NNS subs))
+            (PP (IN between)
+              (NP (PRP them)))))))
+    (. .)))
+
+root(ROOT-0, ~-5)
+advmod(~-5, Altogether-1)
+amod(claims-4, Cubiware-3)
+nsubj(~-5, claims-4)
+nn(American-8, 40M-6)
+nn(American-8, Latin-7)
+dobj(~-5, American-8)
+nn(customers-11, EMEA-10)
+conj_and(American-8, customers-11)
+vmod(American-8, possessing-12)
+nn(subs-15, 12M-13)
+nn(subs-15, pay-TV-14)
+dobj(possessing-12, subs-15)
+prep_between(subs-15, them-17)
+
+Sentence #7 (14 tokens):
+The deal follows last year_s purchase of content discovery service provider Digitalsmiths .
+[Text=The CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=deal CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=NN Lemma=deal NamedEntityTag=O] [Text=follows CharacterOffsetBegin=729 CharacterOffsetEnd=736 PartOfSpeech=VBZ Lemma=follow NamedEntityTag=O] [Text=last CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last year<_TIMEX3>] [Text=year CharacterOffsetBegin=742 CharacterOffsetEnd=746 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y OFFSET P-1Y Timex=<TIMEX3 alt_value="THIS P1Y OFFSET P-1Y" anchorTimeID="t2" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">last year<_TIMEX3>] [Text=_s CharacterOffsetBegin=746 CharacterOffsetEnd=748 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=purchase CharacterOffsetBegin=749 CharacterOffsetEnd=757 PartOfSpeech=NN Lemma=purchase NamedEntityTag=O] [Text=of CharacterOffsetBegin=758 CharacterOffsetEnd=760 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=content CharacterOffsetBegin=761 CharacterOffsetEnd=768 PartOfSpeech=NN Lemma=content NamedEntityTag=O] [Text=discovery CharacterOffsetBegin=769 CharacterOffsetEnd=778 PartOfSpeech=NN Lemma=discovery NamedEntityTag=O] [Text=service CharacterOffsetBegin=779 CharacterOffsetEnd=786 PartOfSpeech=NN Lemma=service NamedEntityTag=O] [Text=provider CharacterOffsetBegin=787 CharacterOffsetEnd=795 PartOfSpeech=NN Lemma=provider NamedEntityTag=O] [Text=Digitalsmiths CharacterOffsetBegin=796 CharacterOffsetEnd=809 PartOfSpeech=NNS Lemma=digitalsmith NamedEntityTag=O] [Text=. CharacterOffsetBegin=810 CharacterOffsetEnd=811 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN deal))
+    (VP (VBZ follows)
+      (NP
+        (NP
+          (NP (JJ last) (NN year) (POS _s))
+          (NN purchase))
+        (PP (IN of)
+          (NP (NN content) (NN discovery) (NN service) (NN provider) (NNS Digitalsmiths)))))
+    (. .)))
+
+root(ROOT-0, follows-3)
+det(deal-2, The-1)
+nsubj(follows-3, deal-2)
+amod(year-5, last-4)
+poss(purchase-7, year-5)
+dobj(follows-3, purchase-7)
+nn(Digitalsmiths-13, content-9)
+nn(Digitalsmiths-13, discovery-10)
+nn(Digitalsmiths-13, service-11)
+nn(Digitalsmiths-13, provider-12)
+prep_of(purchase-7, Digitalsmiths-13)
+
+Sentence #8 (25 tokens):
+Helping shares rally: TiVo has guided for FQ2 service_tech revenue of $94M-$97M, above a $93.6M consensus.
+[Text=Helping CharacterOffsetBegin=812 CharacterOffsetEnd=819 PartOfSpeech=VBG Lemma=help NamedEntityTag=O] [Text=shares CharacterOffsetBegin=820 CharacterOffsetEnd=826 PartOfSpeech=NNS Lemma=share NamedEntityTag=O] [Text=rally CharacterOffsetBegin=827 CharacterOffsetEnd=832 PartOfSpeech=NN Lemma=rally NamedEntityTag=O] [Text=: CharacterOffsetBegin=832 CharacterOffsetEnd=833 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=TiVo CharacterOffsetBegin=834 CharacterOffsetEnd=838 PartOfSpeech=NNP Lemma=TiVo NamedEntityTag=ORGANIZATION] [Text=has CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=guided CharacterOffsetBegin=843 CharacterOffsetEnd=849 PartOfSpeech=VBN Lemma=guide NamedEntityTag=O] [Text=for CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=FQ2 CharacterOffsetBegin=854 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=fq2 NamedEntityTag=O] [Text=service_tech CharacterOffsetBegin=858 CharacterOffsetEnd=870 PartOfSpeech=NN Lemma=service_tech NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=871 CharacterOffsetEnd=878 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=of CharacterOffsetBegin=879 CharacterOffsetEnd=881 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=$ CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$9.4E7] [Text=94M CharacterOffsetBegin=883 CharacterOffsetEnd=886 PartOfSpeech=CD Lemma=94m NamedEntityTag=MONEY NormalizedNamedEntityTag=$9.4E7] [Text=- CharacterOffsetBegin=886 CharacterOffsetEnd=887 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=$ CharacterOffsetBegin=887 CharacterOffsetEnd=888 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$9.7E7] [Text=97M CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=CD Lemma=97m NamedEntityTag=MONEY NormalizedNamedEntityTag=$9.7E7] [Text=, CharacterOffsetBegin=891 CharacterOffsetEnd=892 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=above CharacterOffsetBegin=893 CharacterOffsetEnd=898 PartOfSpeech=IN Lemma=above NamedEntityTag=O] [Text=a CharacterOffsetBegin=899 CharacterOffsetEnd=900 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=$ CharacterOffsetBegin=901 CharacterOffsetEnd=902 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$93.6] [Text=93.6 CharacterOffsetBegin=902 CharacterOffsetEnd=906 PartOfSpeech=CD Lemma=93.6 NamedEntityTag=MONEY NormalizedNamedEntityTag=$93.6] [Text=M CharacterOffsetBegin=906 CharacterOffsetEnd=907 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=consensus CharacterOffsetBegin=908 CharacterOffsetEnd=917 PartOfSpeech=NN Lemma=consensus NamedEntityTag=O] [Text=. CharacterOffsetBegin=917 CharacterOffsetEnd=918 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBG Helping)
+        (NP (NNS shares) (NN rally))))
+    (: :)
+    (S
+      (NP (NNP TiVo))
+      (VP (VBZ has)
+        (VP (VBN guided)
+          (PP (IN for)
+            (NP
+              (NP (NN FQ2) (NN service_tech) (NN revenue))
+              (PP (IN of)
+                (NP
+                  (NP ($ $) (CD 94M))
+                  (: -)
+                  (NP ($ $) (CD 97M))
+                  (, ,)))))
+          (PP (IN above)
+            (NP (DT a)
+              (ADJP
+                (QP ($ $) (CD 93.6)))
+              (NN M) (NN consensus))))))
+    (. .)))
+
+root(ROOT-0, Helping-1)
+nn(rally-3, shares-2)
+dobj(Helping-1, rally-3)
+nsubj(guided-7, TiVo-5)
+aux(guided-7, has-6)
+parataxis(Helping-1, guided-7)
+nn(revenue-11, FQ2-9)
+nn(revenue-11, service_tech-10)
+prep_for(guided-7, revenue-11)
+prep_of(revenue-11, dol-13)
+num(dol-13, 94M-14)
+dep(dol-13, dol-16)
+num(dol-16, 97M-17)
+det(consensus-24, a-20)
+amod(consensus-24, dol-21)
+number(dol-21, 93.6-22)
+nn(consensus-24, M-23)
+prep_above(guided-7, consensus-24)
+
+Sentence #9 (11 tokens):
+Net income guidance is at $7M-$10M.
+[Text=Net CharacterOffsetBegin=919 CharacterOffsetEnd=922 PartOfSpeech=JJ Lemma=net NamedEntityTag=O] [Text=income CharacterOffsetBegin=923 CharacterOffsetEnd=929 PartOfSpeech=NN Lemma=income NamedEntityTag=O] [Text=guidance CharacterOffsetBegin=930 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=guidance NamedEntityTag=O] [Text=is CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=at CharacterOffsetBegin=942 CharacterOffsetEnd=944 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=945 CharacterOffsetEnd=946 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$7000000.0] [Text=7M CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=CD Lemma=7m NamedEntityTag=MONEY NormalizedNamedEntityTag=$7000000.0] [Text=- CharacterOffsetBegin=948 CharacterOffsetEnd=949 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=$ CharacterOffsetBegin=949 CharacterOffsetEnd=950 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E7] [Text=10M CharacterOffsetBegin=950 CharacterOffsetEnd=953 PartOfSpeech=CD Lemma=10m NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E7] [Text=. CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Net) (NN income) (NN guidance))
+    (VP (VBZ is)
+      (PP (IN at)
+        (NP
+          (NP ($ $) (CD 7M))
+          (: -)
+          (NP ($ $) (CD 10M)))))
+    (. .)))
+
+root(ROOT-0, is-4)
+amod(guidance-3, Net-1)
+nn(guidance-3, income-2)
+nsubj(is-4, guidance-3)
+prep_at(is-4, dol-6)
+num(dol-6, 7M-7)
+dep(dol-6, dol-9)
+num(dol-9, 10M-10)
+
+Sentence #10 (40 tokens):
+Subscriber data: FQ1 net subscriber adds totaled 285K, down from 332K a year ago and bringing the base to 5.76M. MSO subs rose by 285K to 4.81M; TiVo-owned subs were roughly flat at 944K.
+[Text=Subscriber CharacterOffsetBegin=955 CharacterOffsetEnd=965 PartOfSpeech=NN Lemma=subscriber NamedEntityTag=O] [Text=data CharacterOffsetBegin=966 CharacterOffsetEnd=970 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O] [Text=: CharacterOffsetBegin=970 CharacterOffsetEnd=971 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=FQ1 CharacterOffsetBegin=972 CharacterOffsetEnd=975 PartOfSpeech=NN Lemma=fq1 NamedEntityTag=O] [Text=net CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=JJ Lemma=net NamedEntityTag=O] [Text=subscriber CharacterOffsetBegin=980 CharacterOffsetEnd=990 PartOfSpeech=NN Lemma=subscriber NamedEntityTag=O] [Text=adds CharacterOffsetBegin=991 CharacterOffsetEnd=995 PartOfSpeech=VBZ Lemma=add NamedEntityTag=O] [Text=totaled CharacterOffsetBegin=996 CharacterOffsetEnd=1003 PartOfSpeech=VBN Lemma=total NamedEntityTag=O] [Text=285K CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=NN Lemma=285k NamedEntityTag=O] [Text=, CharacterOffsetBegin=1008 CharacterOffsetEnd=1009 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=down CharacterOffsetBegin=1010 CharacterOffsetEnd=1014 PartOfSpeech=RB Lemma=down NamedEntityTag=O] [Text=from CharacterOffsetBegin=1015 CharacterOffsetEnd=1019 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=332K CharacterOffsetBegin=1020 CharacterOffsetEnd=1024 PartOfSpeech=CD Lemma=332k NamedEntityTag=NUMBER NormalizedNamedEntityTag=332.0] [Text=a CharacterOffsetBegin=1025 CharacterOffsetEnd=1026 PartOfSpeech=DT Lemma=a NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1Y Timex=<TIMEX3 alt_value="OFFSET P-1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">a year ago<_TIMEX3>] [Text=year CharacterOffsetBegin=1027 CharacterOffsetEnd=1031 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1Y Timex=<TIMEX3 alt_value="OFFSET P-1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">a year ago<_TIMEX3>] [Text=ago CharacterOffsetBegin=1032 CharacterOffsetEnd=1035 PartOfSpeech=RB Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1Y Timex=<TIMEX3 alt_value="OFFSET P-1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf1">a year ago<_TIMEX3>] [Text=and CharacterOffsetBegin=1036 CharacterOffsetEnd=1039 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=bringing CharacterOffsetBegin=1040 CharacterOffsetEnd=1048 PartOfSpeech=VBG Lemma=bring NamedEntityTag=O] [Text=the CharacterOffsetBegin=1049 CharacterOffsetEnd=1052 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=base CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=NN Lemma=base NamedEntityTag=O] [Text=to CharacterOffsetBegin=1058 CharacterOffsetEnd=1060 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=5.76 CharacterOffsetBegin=1061 CharacterOffsetEnd=1065 PartOfSpeech=CD Lemma=5.76 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.76] [Text=M. CharacterOffsetBegin=1065 CharacterOffsetEnd=1067 PartOfSpeech=NN Lemma=m. NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.76] [Text=MSO CharacterOffsetBegin=1068 CharacterOffsetEnd=1071 PartOfSpeech=NNP Lemma=MSO NamedEntityTag=O] [Text=subs CharacterOffsetBegin=1072 CharacterOffsetEnd=1076 PartOfSpeech=NNS Lemma=sub NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1077 CharacterOffsetEnd=1081 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=by CharacterOffsetBegin=1082 CharacterOffsetEnd=1084 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=285K CharacterOffsetBegin=1085 CharacterOffsetEnd=1089 PartOfSpeech=CD Lemma=285k NamedEntityTag=NUMBER NormalizedNamedEntityTag=285.0] [Text=to CharacterOffsetBegin=1090 CharacterOffsetEnd=1092 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=4.81 CharacterOffsetBegin=1093 CharacterOffsetEnd=1097 PartOfSpeech=CD Lemma=4.81 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.81] [Text=M CharacterOffsetBegin=1097 CharacterOffsetEnd=1098 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=; CharacterOffsetBegin=1098 CharacterOffsetEnd=1099 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=TiVo-owned CharacterOffsetBegin=1100 CharacterOffsetEnd=1110 PartOfSpeech=JJ Lemma=tivo-owned NamedEntityTag=O] [Text=subs CharacterOffsetBegin=1111 CharacterOffsetEnd=1115 PartOfSpeech=NNS Lemma=sub NamedEntityTag=O] [Text=were CharacterOffsetBegin=1116 CharacterOffsetEnd=1120 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=roughly CharacterOffsetBegin=1121 CharacterOffsetEnd=1128 PartOfSpeech=RB Lemma=roughly NamedEntityTag=O] [Text=flat CharacterOffsetBegin=1129 CharacterOffsetEnd=1133 PartOfSpeech=JJ Lemma=flat NamedEntityTag=O] [Text=at CharacterOffsetBegin=1134 CharacterOffsetEnd=1136 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=944K CharacterOffsetBegin=1137 CharacterOffsetEnd=1141 PartOfSpeech=CD Lemma=944k NamedEntityTag=NUMBER NormalizedNamedEntityTag=944.0] [Text=. CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN Subscriber) (NNS data))
+        (: :)
+        (NP (NN FQ1) (JJ net) (NN subscriber)))
+      (VP (VBZ adds)
+        (S
+          (S
+            (VP (VBN totaled)
+              (NP (NN 285K))
+              (, ,)
+              (ADVP (RB down)
+                (PP (IN from)
+                  (NP (CD 332K))
+                  (NP-TMP (DT a) (NN year) (RB ago))))))
+          (CC and)
+          (S
+            (VP (VBG bringing)
+              (NP (DT the) (NN base))
+              (PP (TO to)
+                (NP (CD 5.76) (NN M.))))))
+        (SBAR
+          (S
+            (NP (NNP MSO) (NNS subs))
+            (VP (VBD rose)
+              (PP (IN by)
+                (NP
+                  (QP (CD 285K) (TO to) (CD 4.81))
+                  (NN M))))))))
+    (: ;)
+    (S
+      (NP (JJ TiVo-owned) (NNS subs))
+      (VP (VBD were)
+        (ADJP (RB roughly) (JJ flat))
+        (PP (IN at)
+          (NP (CD 944K)))))
+    (. .)))
+
+root(ROOT-0, adds-7)
+nn(data-2, Subscriber-1)
+nsubj(adds-7, data-2)
+nn(subscriber-6, FQ1-4)
+amod(subscriber-6, net-5)
+dep(data-2, subscriber-6)
+dep(adds-7, totaled-8)
+dobj(totaled-8, 285K-9)
+advmod(totaled-8, down-11)
+prep_from(down-11, 332K-13)
+det(year-15, a-14)
+tmod(down-11, year-15)
+advmod(year-15, ago-16)
+conj_and(totaled-8, bringing-18)
+det(base-20, the-19)
+dobj(bringing-18, base-20)
+num(M.-23, 5.76-22)
+prep_to(bringing-18, M.-23)
+nn(subs-25, MSO-24)
+nsubj(rose-26, subs-25)
+ccomp(adds-7, rose-26)
+number(4.81-30, 285K-28)
+dep(4.81-30, to-29)
+num(M-31, 4.81-30)
+prep_by(rose-26, M-31)
+amod(subs-34, TiVo-owned-33)
+nsubj(flat-37, subs-34)
+cop(flat-37, were-35)
+advmod(flat-37, roughly-36)
+parataxis(adds-7, flat-37)
+prep_at(flat-37, 944K-39)
+
+Sentence #11 (19 tokens):
+TiVo-owned ARPU fell to $7.43 from FQ4_s $7.68 and the year-ago period_s $7.81.
+[Text=TiVo-owned CharacterOffsetBegin=1143 CharacterOffsetEnd=1153 PartOfSpeech=JJ Lemma=tivo-owned NamedEntityTag=O] [Text=ARPU CharacterOffsetBegin=1154 CharacterOffsetEnd=1158 PartOfSpeech=NN Lemma=arpu NamedEntityTag=O] [Text=fell CharacterOffsetBegin=1159 CharacterOffsetEnd=1163 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O] [Text=to CharacterOffsetBegin=1164 CharacterOffsetEnd=1166 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1167 CharacterOffsetEnd=1168 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.43] [Text=7.43 CharacterOffsetBegin=1168 CharacterOffsetEnd=1172 PartOfSpeech=CD Lemma=7.43 NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.43] [Text=from CharacterOffsetBegin=1173 CharacterOffsetEnd=1177 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=FQ4 CharacterOffsetBegin=1178 CharacterOffsetEnd=1181 PartOfSpeech=NN Lemma=fq4 NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1181 CharacterOffsetEnd=1183 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.68] [Text=7.68 CharacterOffsetBegin=1185 CharacterOffsetEnd=1189 PartOfSpeech=CD Lemma=7.68 NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.68] [Text=and CharacterOffsetBegin=1190 CharacterOffsetEnd=1193 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=1194 CharacterOffsetEnd=1197 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=year-ago CharacterOffsetBegin=1198 CharacterOffsetEnd=1206 PartOfSpeech=JJ Lemma=year-ago NamedEntityTag=O] [Text=period CharacterOffsetBegin=1207 CharacterOffsetEnd=1213 PartOfSpeech=NN Lemma=period NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1213 CharacterOffsetEnd=1215 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1216 CharacterOffsetEnd=1217 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.81] [Text=7.81 CharacterOffsetBegin=1217 CharacterOffsetEnd=1221 PartOfSpeech=CD Lemma=7.81 NamedEntityTag=MONEY NormalizedNamedEntityTag=$7.81] [Text=. CharacterOffsetBegin=1221 CharacterOffsetEnd=1222 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ TiVo-owned) (NN ARPU))
+    (VP (VBD fell)
+      (PP (TO to)
+        (NP ($ $) (CD 7.43)))
+      (PP (IN from)
+        (NP
+          (NP
+            (NP (NN FQ4) (POS _s))
+            ($ $) (CD 7.68))
+          (CC and)
+          (NP
+            (NP (DT the) (JJ year-ago) (NN period) (POS _s))
+            ($ $) (CD 7.81)))))
+    (. .)))
+
+root(ROOT-0, fell-3)
+amod(ARPU-2, TiVo-owned-1)
+nsubj(fell-3, ARPU-2)
+prep_to(fell-3, dol-5)
+num(dol-5, 7.43-6)
+prep_from(fell-3, FQ4-8)
+possessive(FQ4-8, _s-9)
+dep(FQ4-8, dol-10)
+num(FQ4-8, 7.68-11)
+det(period-15, the-13)
+amod(period-15, year-ago-14)
+conj_and(FQ4-8, period-15)
+dep(period-15, dol-17)
+num(period-15, 7.81-18)
+
+Sentence #12 (47 tokens):
+Business performance: Service revenue +11% Y_Y to $39.8M; tech revenue (licensing) +5% to $52.6M; hardware revenue +6% to $22.3M. MSO service revenue rose 41% Y_Y, and Digitalsmiths revenue roughly doubled.
+[Text=Business CharacterOffsetBegin=1223 CharacterOffsetEnd=1231 PartOfSpeech=NN Lemma=business NamedEntityTag=O] [Text=performance CharacterOffsetBegin=1232 CharacterOffsetEnd=1243 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=: CharacterOffsetBegin=1243 CharacterOffsetEnd=1244 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Service CharacterOffsetBegin=1245 CharacterOffsetEnd=1252 PartOfSpeech=NNP Lemma=Service NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=1253 CharacterOffsetEnd=1260 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=+11 CharacterOffsetBegin=1261 CharacterOffsetEnd=1264 PartOfSpeech=CD Lemma=+11 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%11.0] [Text=% CharacterOffsetBegin=1264 CharacterOffsetEnd=1265 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%11.0] [Text=Y_Y CharacterOffsetBegin=1266 CharacterOffsetEnd=1269 PartOfSpeech=NN Lemma=y_y NamedEntityTag=O] [Text=to CharacterOffsetBegin=1270 CharacterOffsetEnd=1272 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1273 CharacterOffsetEnd=1274 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$39.8] [Text=39.8 CharacterOffsetBegin=1274 CharacterOffsetEnd=1278 PartOfSpeech=CD Lemma=39.8 NamedEntityTag=MONEY NormalizedNamedEntityTag=$39.8] [Text=M CharacterOffsetBegin=1278 CharacterOffsetEnd=1279 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=; CharacterOffsetBegin=1279 CharacterOffsetEnd=1280 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=tech CharacterOffsetBegin=1281 CharacterOffsetEnd=1285 PartOfSpeech=NN Lemma=tech NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=1286 CharacterOffsetEnd=1293 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1294 CharacterOffsetEnd=1295 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=licensing CharacterOffsetBegin=1295 CharacterOffsetEnd=1304 PartOfSpeech=NN Lemma=licensing NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1304 CharacterOffsetEnd=1305 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=+5 CharacterOffsetBegin=1306 CharacterOffsetEnd=1308 PartOfSpeech=CD Lemma=+5 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.0] [Text=% CharacterOffsetBegin=1308 CharacterOffsetEnd=1309 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.0] [Text=to CharacterOffsetBegin=1310 CharacterOffsetEnd=1312 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1313 CharacterOffsetEnd=1314 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.6] [Text=52.6 CharacterOffsetBegin=1314 CharacterOffsetEnd=1318 PartOfSpeech=CD Lemma=52.6 NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.6] [Text=M CharacterOffsetBegin=1318 CharacterOffsetEnd=1319 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=; CharacterOffsetBegin=1319 CharacterOffsetEnd=1320 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=hardware CharacterOffsetBegin=1321 CharacterOffsetEnd=1329 PartOfSpeech=NN Lemma=hardware NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=1330 CharacterOffsetEnd=1337 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=+6 CharacterOffsetBegin=1338 CharacterOffsetEnd=1340 PartOfSpeech=CD Lemma=+6 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%6.0] [Text=% CharacterOffsetBegin=1340 CharacterOffsetEnd=1341 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%6.0] [Text=to CharacterOffsetBegin=1342 CharacterOffsetEnd=1344 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1345 CharacterOffsetEnd=1346 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$22.3] [Text=22.3 CharacterOffsetBegin=1346 CharacterOffsetEnd=1350 PartOfSpeech=CD Lemma=22.3 NamedEntityTag=MONEY NormalizedNamedEntityTag=$22.3] [Text=M. CharacterOffsetBegin=1350 CharacterOffsetEnd=1352 PartOfSpeech=NN Lemma=m. NamedEntityTag=MONEY NormalizedNamedEntityTag=$22.3] [Text=MSO CharacterOffsetBegin=1353 CharacterOffsetEnd=1356 PartOfSpeech=NNP Lemma=MSO NamedEntityTag=O] [Text=service CharacterOffsetBegin=1357 CharacterOffsetEnd=1364 PartOfSpeech=NN Lemma=service NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=1365 CharacterOffsetEnd=1372 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1373 CharacterOffsetEnd=1377 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=41 CharacterOffsetBegin=1378 CharacterOffsetEnd=1380 PartOfSpeech=CD Lemma=41 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%41.0] [Text=% CharacterOffsetBegin=1380 CharacterOffsetEnd=1381 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%41.0] [Text=Y_Y CharacterOffsetBegin=1382 CharacterOffsetEnd=1385 PartOfSpeech=NN Lemma=y_y NamedEntityTag=O] [Text=, CharacterOffsetBegin=1385 CharacterOffsetEnd=1386 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1387 CharacterOffsetEnd=1390 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Digitalsmiths CharacterOffsetBegin=1391 CharacterOffsetEnd=1404 PartOfSpeech=NNP Lemma=Digitalsmiths NamedEntityTag=O] [Text=revenue CharacterOffsetBegin=1405 CharacterOffsetEnd=1412 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O] [Text=roughly CharacterOffsetBegin=1413 CharacterOffsetEnd=1420 PartOfSpeech=RB Lemma=roughly NamedEntityTag=O] [Text=doubled CharacterOffsetBegin=1421 CharacterOffsetEnd=1428 PartOfSpeech=VBD Lemma=double NamedEntityTag=O] [Text=. CharacterOffsetBegin=1428 CharacterOffsetEnd=1429 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NN Business) (NN performance))
+    (: :)
+    (S
+      (S
+        (NP
+          (NP (NNP Service) (NN revenue))
+          (NP (CD +11) (NN %))
+          (NP
+            (NP
+              (NP (NN Y_Y))
+              (PP (TO to)
+                (NP
+                  (QP ($ $) (CD 39.8) (NN M)))))
+            (: ;)
+            (NP
+              (NP
+                (NP (NN tech) (NN revenue))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN licensing))
+                  (-RRB- -RRB-)))
+              (NP
+                (NP (CD +5) (NN %))
+                (PP (TO to)
+                  (NP
+                    (QP ($ $) (CD 52.6) (NN M))))))
+            (: ;)
+            (NP
+              (NP (NN hardware) (NN revenue))
+              (NP
+                (NP (CD +6) (NN %))
+                (PP (TO to)
+                  (NP
+                    (QP ($ $) (CD 22.3) (NN M.))
+                    (NNP MSO)
+                    (NX (NN service) (NN revenue))))))))
+        (VP (VBD rose)
+          (NP (CD 41) (NN %))
+          (NP (NN Y_Y))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (NNP Digitalsmiths) (NN revenue))
+        (ADVP (RB roughly))
+        (VP (VBD doubled))))
+    (. .)))
+
+root(ROOT-0, performance-2)
+nn(performance-2, Business-1)
+nn(revenue-5, Service-4)
+nsubj(rose-37, revenue-5)
+num(%-7, +11-6)
+dep(revenue-5, %-7)
+dep(revenue-5, Y_Y-8)
+prep_to(Y_Y-8, dol-10)
+number(dol-10, 39.8-11)
+dep(dol-10, M-12)
+nn(revenue-15, tech-14)
+dep(Y_Y-8, revenue-15)
+appos(revenue-15, licensing-17)
+num(%-20, +5-19)
+dep(revenue-15, %-20)
+prep_to(%-20, dol-22)
+number(dol-22, 52.6-23)
+dep(dol-22, M-24)
+nn(revenue-27, hardware-26)
+dep(Y_Y-8, revenue-27)
+num(%-29, +6-28)
+dep(revenue-27, %-29)
+num(revenue-36, dol-31)
+number(dol-31, 22.3-32)
+dep(dol-31, M.-33)
+dep(revenue-36, MSO-34)
+nn(revenue-36, service-35)
+prep_to(%-29, revenue-36)
+dep(performance-2, rose-37)
+num(%-39, 41-38)
+iobj(rose-37, %-39)
+dobj(rose-37, Y_Y-40)
+nn(revenue-44, Digitalsmiths-43)
+nsubj(doubled-46, revenue-44)
+advmod(doubled-46, roughly-45)
+conj_and(rose-37, doubled-46)
+
+Sentence #13 (22 tokens):
+Financials: GAAP operating expenses rose by $1M Y_Y to $52.5M. $27.9M was spent on buybacks.
+[Text=Financials CharacterOffsetBegin=1430 CharacterOffsetEnd=1440 PartOfSpeech=NNP Lemma=Financials NamedEntityTag=O] [Text=: CharacterOffsetBegin=1440 CharacterOffsetEnd=1441 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=GAAP CharacterOffsetBegin=1442 CharacterOffsetEnd=1446 PartOfSpeech=NN Lemma=gaap NamedEntityTag=O] [Text=operating CharacterOffsetBegin=1447 CharacterOffsetEnd=1456 PartOfSpeech=NN Lemma=operating NamedEntityTag=O] [Text=expenses CharacterOffsetBegin=1457 CharacterOffsetEnd=1465 PartOfSpeech=NNS Lemma=expense NamedEntityTag=O] [Text=rose CharacterOffsetBegin=1466 CharacterOffsetEnd=1470 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O] [Text=by CharacterOffsetBegin=1471 CharacterOffsetEnd=1473 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1474 CharacterOffsetEnd=1475 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1000000.0] [Text=1M CharacterOffsetBegin=1475 CharacterOffsetEnd=1477 PartOfSpeech=CD Lemma=1m NamedEntityTag=MONEY NormalizedNamedEntityTag=$1000000.0] [Text=Y_Y CharacterOffsetBegin=1478 CharacterOffsetEnd=1481 PartOfSpeech=NN Lemma=y_y NamedEntityTag=O] [Text=to CharacterOffsetBegin=1482 CharacterOffsetEnd=1484 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1485 CharacterOffsetEnd=1486 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.5] [Text=52.5 CharacterOffsetBegin=1486 CharacterOffsetEnd=1490 PartOfSpeech=CD Lemma=52.5 NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.5] [Text=M. CharacterOffsetBegin=1490 CharacterOffsetEnd=1492 PartOfSpeech=NN Lemma=m. NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.5] [Text=$ CharacterOffsetBegin=1493 CharacterOffsetEnd=1494 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.5] [Text=27.9 CharacterOffsetBegin=1494 CharacterOffsetEnd=1498 PartOfSpeech=CD Lemma=27.9 NamedEntityTag=MONEY NormalizedNamedEntityTag=$52.5] [Text=M CharacterOffsetBegin=1498 CharacterOffsetEnd=1499 PartOfSpeech=NN Lemma=m NamedEntityTag=O] [Text=was CharacterOffsetBegin=1500 CharacterOffsetEnd=1503 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=spent CharacterOffsetBegin=1504 CharacterOffsetEnd=1509 PartOfSpeech=VBN Lemma=spend NamedEntityTag=O] [Text=on CharacterOffsetBegin=1510 CharacterOffsetEnd=1512 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=buybacks CharacterOffsetBegin=1513 CharacterOffsetEnd=1521 PartOfSpeech=NNS Lemma=buyback NamedEntityTag=O] [Text=. CharacterOffsetBegin=1521 CharacterOffsetEnd=1522 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP Financials))
+    (: :)
+    (S
+      (NP (NN GAAP) (NN operating) (NNS expenses))
+      (VP (VBD rose)
+        (PP (IN by)
+          (NP
+            (NP ($ $) (CD 1M))
+            (NP (NN Y_Y))))
+        (PP (TO to)
+          (NP
+            (QP ($ $) (CD 52.5) (NN M.))))
+        (NP
+          (NP ($ $) (CD 27.9))
+          (SBAR
+            (S
+              (NP (NN M))
+              (VP (VBD was)
+                (VP (VBN spent)
+                  (PP (IN on)
+                    (NP (NNS buybacks))))))))))
+    (. .)))
+
+root(ROOT-0, Financials-1)
+nn(expenses-5, GAAP-3)
+nn(expenses-5, operating-4)
+nsubj(rose-6, expenses-5)
+dep(Financials-1, rose-6)
+prep_by(rose-6, dol-8)
+num(dol-8, 1M-9)
+dep(dol-8, Y_Y-10)
+prep_to(rose-6, dol-12)
+number(dol-12, 52.5-13)
+dep(dol-12, M.-14)
+dobj(rose-6, dol-15)
+num(dol-15, 27.9-16)
+nsubjpass(spent-19, M-17)
+auxpass(spent-19, was-18)
+rcmod(dol-15, spent-19)
+prep_on(spent-19, buybacks-21)
+
+Sentence #14 (16 tokens):
+TiVo ended FQ1 with $686M in cash, and $354M in convertible debt.
+[Text=TiVo CharacterOffsetBegin=1523 CharacterOffsetEnd=1527 PartOfSpeech=NNP Lemma=TiVo NamedEntityTag=ORGANIZATION] [Text=ended CharacterOffsetBegin=1528 CharacterOffsetEnd=1533 PartOfSpeech=VBD Lemma=end NamedEntityTag=O] [Text=FQ1 CharacterOffsetBegin=1534 CharacterOffsetEnd=1537 PartOfSpeech=NN Lemma=fq1 NamedEntityTag=O] [Text=with CharacterOffsetBegin=1538 CharacterOffsetEnd=1542 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1543 CharacterOffsetEnd=1544 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$6.86E8] [Text=686M CharacterOffsetBegin=1544 CharacterOffsetEnd=1548 PartOfSpeech=CD Lemma=686m NamedEntityTag=MONEY NormalizedNamedEntityTag=$6.86E8] [Text=in CharacterOffsetBegin=1549 CharacterOffsetEnd=1551 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=cash CharacterOffsetBegin=1552 CharacterOffsetEnd=1556 PartOfSpeech=NN Lemma=cash NamedEntityTag=O] [Text=, CharacterOffsetBegin=1556 CharacterOffsetEnd=1557 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1558 CharacterOffsetEnd=1561 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1562 CharacterOffsetEnd=1563 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.54E8] [Text=354M CharacterOffsetBegin=1563 CharacterOffsetEnd=1567 PartOfSpeech=CD Lemma=354m NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.54E8] [Text=in CharacterOffsetBegin=1568 CharacterOffsetEnd=1570 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=convertible CharacterOffsetBegin=1571 CharacterOffsetEnd=1582 PartOfSpeech=JJ Lemma=convertible NamedEntityTag=O] [Text=debt CharacterOffsetBegin=1583 CharacterOffsetEnd=1587 PartOfSpeech=NN Lemma=debt NamedEntityTag=O] [Text=. CharacterOffsetBegin=1587 CharacterOffsetEnd=1588 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP TiVo))
+    (VP (VBD ended)
+      (NP (NN FQ1))
+      (PP (IN with)
+        (NP
+          (NP
+            (NP ($ $) (CD 686M))
+            (PP (IN in)
+              (NP (NN cash))))
+          (, ,)
+          (CC and)
+          (NP
+            (NP ($ $) (CD 354M))
+            (PP (IN in)
+              (NP (JJ convertible) (NN debt)))))))
+    (. .)))
+
+root(ROOT-0, ended-2)
+nsubj(ended-2, TiVo-1)
+dobj(ended-2, FQ1-3)
+prep_with(ended-2, dol-5)
+num(dol-5, 686M-6)
+prep_in(dol-5, cash-8)
+conj_and(dol-5, dol-11)
+num(dol-11, 354M-12)
+amod(debt-15, convertible-14)
+prep_in(dol-11, debt-15)
+
+Sentence #15 (102 tokens):
+Check out Seeking Alpha’s new Earnings Center »
+Share this  with a colleague
+From other sites
+Comments (0)
+All (0) Author_s Picks ()
+ 
+ETF Hub
+ETF Screener: Search and filter by asset class, strategy, theme, performance, yield, and much more
+ETF Performance: View ETF performance across key asset classes and investing themes
+ETF Investing Guide: Learn how to build and manage a well-diversified, low cost ETF portfolio
+ETF Selector: An explanation of how to select and use ETFs
+Next headline on your portfolio:
+x
+[Text=Check CharacterOffsetBegin=1589 CharacterOffsetEnd=1594 PartOfSpeech=VB Lemma=check NamedEntityTag=O] [Text=out CharacterOffsetBegin=1595 CharacterOffsetEnd=1598 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=Seeking CharacterOffsetBegin=1599 CharacterOffsetEnd=1606 PartOfSpeech=VBG Lemma=seek NamedEntityTag=O] [Text=Alpha CharacterOffsetBegin=1607 CharacterOffsetEnd=1612 PartOfSpeech=NN Lemma=alpha NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1612 CharacterOffsetEnd=1614 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=new CharacterOffsetBegin=1615 CharacterOffsetEnd=1618 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=Earnings CharacterOffsetBegin=1619 CharacterOffsetEnd=1627 PartOfSpeech=NNS Lemma=earnings NamedEntityTag=O] [Text=Center CharacterOffsetBegin=1628 CharacterOffsetEnd=1634 PartOfSpeech=NNP Lemma=Center NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1635 CharacterOffsetEnd=1636 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Share CharacterOffsetBegin=1637 CharacterOffsetEnd=1642 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=this CharacterOffsetBegin=1643 CharacterOffsetEnd=1647 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=with CharacterOffsetBegin=1649 CharacterOffsetEnd=1653 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1654 CharacterOffsetEnd=1655 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=colleague CharacterOffsetBegin=1656 CharacterOffsetEnd=1665 PartOfSpeech=NN Lemma=colleague NamedEntityTag=O] [Text=From CharacterOffsetBegin=1666 CharacterOffsetEnd=1670 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=other CharacterOffsetBegin=1671 CharacterOffsetEnd=1676 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=sites CharacterOffsetBegin=1677 CharacterOffsetEnd=1682 PartOfSpeech=NNS Lemma=site NamedEntityTag=O] [Text=Comments CharacterOffsetBegin=1683 CharacterOffsetEnd=1691 PartOfSpeech=NNS Lemma=comment NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1692 CharacterOffsetEnd=1693 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=0 CharacterOffsetBegin=1693 CharacterOffsetEnd=1694 PartOfSpeech=CD Lemma=0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0] [Text=-RRB- CharacterOffsetBegin=1694 CharacterOffsetEnd=1695 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=All CharacterOffsetBegin=1696 CharacterOffsetEnd=1699 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1700 CharacterOffsetEnd=1701 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=0 CharacterOffsetBegin=1701 CharacterOffsetEnd=1702 PartOfSpeech=CD Lemma=0 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0] [Text=-RRB- CharacterOffsetBegin=1702 CharacterOffsetEnd=1703 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=Author CharacterOffsetBegin=1704 CharacterOffsetEnd=1710 PartOfSpeech=NN Lemma=author NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1710 CharacterOffsetEnd=1712 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Picks CharacterOffsetBegin=1713 CharacterOffsetEnd=1718 PartOfSpeech=NNP Lemma=Picks NamedEntityTag=O] [Text=-LRB- CharacterOffsetBegin=1719 CharacterOffsetEnd=1720 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O] [Text=-RRB- CharacterOffsetBegin=1720 CharacterOffsetEnd=1721 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1724 CharacterOffsetEnd=1727 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Hub CharacterOffsetBegin=1728 CharacterOffsetEnd=1731 PartOfSpeech=NN Lemma=hub NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1732 CharacterOffsetEnd=1735 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Screener CharacterOffsetBegin=1736 CharacterOffsetEnd=1744 PartOfSpeech=NN Lemma=screener NamedEntityTag=O] [Text=: CharacterOffsetBegin=1744 CharacterOffsetEnd=1745 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Search CharacterOffsetBegin=1746 CharacterOffsetEnd=1752 PartOfSpeech=VB Lemma=search NamedEntityTag=O] [Text=and CharacterOffsetBegin=1753 CharacterOffsetEnd=1756 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=filter CharacterOffsetBegin=1757 CharacterOffsetEnd=1763 PartOfSpeech=NN Lemma=filter NamedEntityTag=O] [Text=by CharacterOffsetBegin=1764 CharacterOffsetEnd=1766 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=asset CharacterOffsetBegin=1767 CharacterOffsetEnd=1772 PartOfSpeech=NN Lemma=asset NamedEntityTag=O] [Text=class CharacterOffsetBegin=1773 CharacterOffsetEnd=1778 PartOfSpeech=NN Lemma=class NamedEntityTag=O] [Text=, CharacterOffsetBegin=1778 CharacterOffsetEnd=1779 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=strategy CharacterOffsetBegin=1780 CharacterOffsetEnd=1788 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O] [Text=, CharacterOffsetBegin=1788 CharacterOffsetEnd=1789 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=theme CharacterOffsetBegin=1790 CharacterOffsetEnd=1795 PartOfSpeech=NN Lemma=theme NamedEntityTag=O] [Text=, CharacterOffsetBegin=1795 CharacterOffsetEnd=1796 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=performance CharacterOffsetBegin=1797 CharacterOffsetEnd=1808 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=, CharacterOffsetBegin=1808 CharacterOffsetEnd=1809 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=yield CharacterOffsetBegin=1810 CharacterOffsetEnd=1815 PartOfSpeech=NN Lemma=yield NamedEntityTag=O] [Text=, CharacterOffsetBegin=1815 CharacterOffsetEnd=1816 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1817 CharacterOffsetEnd=1820 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=much CharacterOffsetBegin=1821 CharacterOffsetEnd=1825 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=more CharacterOffsetBegin=1826 CharacterOffsetEnd=1830 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1831 CharacterOffsetEnd=1834 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Performance CharacterOffsetBegin=1835 CharacterOffsetEnd=1846 PartOfSpeech=NNP Lemma=Performance NamedEntityTag=O] [Text=: CharacterOffsetBegin=1846 CharacterOffsetEnd=1847 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=View CharacterOffsetBegin=1848 CharacterOffsetEnd=1852 PartOfSpeech=NNP Lemma=View NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1853 CharacterOffsetEnd=1856 PartOfSpeech=NNP Lemma=ETF NamedEntityTag=O] [Text=performance CharacterOffsetBegin=1857 CharacterOffsetEnd=1868 PartOfSpeech=NN Lemma=performance NamedEntityTag=O] [Text=across CharacterOffsetBegin=1869 CharacterOffsetEnd=1875 PartOfSpeech=IN Lemma=across NamedEntityTag=O] [Text=key CharacterOffsetBegin=1876 CharacterOffsetEnd=1879 PartOfSpeech=JJ Lemma=key NamedEntityTag=O] [Text=asset CharacterOffsetBegin=1880 CharacterOffsetEnd=1885 PartOfSpeech=NN Lemma=asset NamedEntityTag=O] [Text=classes CharacterOffsetBegin=1886 CharacterOffsetEnd=1893 PartOfSpeech=NNS Lemma=class NamedEntityTag=O] [Text=and CharacterOffsetBegin=1894 CharacterOffsetEnd=1897 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=investing CharacterOffsetBegin=1898 CharacterOffsetEnd=1907 PartOfSpeech=VBG Lemma=invest NamedEntityTag=O] [Text=themes CharacterOffsetBegin=1908 CharacterOffsetEnd=1914 PartOfSpeech=NNS Lemma=theme NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1915 CharacterOffsetEnd=1918 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Investing CharacterOffsetBegin=1919 CharacterOffsetEnd=1928 PartOfSpeech=VBG Lemma=invest NamedEntityTag=O] [Text=Guide CharacterOffsetBegin=1929 CharacterOffsetEnd=1934 PartOfSpeech=NNP Lemma=Guide NamedEntityTag=O] [Text=: CharacterOffsetBegin=1934 CharacterOffsetEnd=1935 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Learn CharacterOffsetBegin=1936 CharacterOffsetEnd=1941 PartOfSpeech=VB Lemma=learn NamedEntityTag=O] [Text=how CharacterOffsetBegin=1942 CharacterOffsetEnd=1945 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=to CharacterOffsetBegin=1946 CharacterOffsetEnd=1948 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=build CharacterOffsetBegin=1949 CharacterOffsetEnd=1954 PartOfSpeech=VB Lemma=build NamedEntityTag=O] [Text=and CharacterOffsetBegin=1955 CharacterOffsetEnd=1958 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=manage CharacterOffsetBegin=1959 CharacterOffsetEnd=1965 PartOfSpeech=VB Lemma=manage NamedEntityTag=O] [Text=a CharacterOffsetBegin=1966 CharacterOffsetEnd=1967 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=well-diversified CharacterOffsetBegin=1968 CharacterOffsetEnd=1984 PartOfSpeech=JJ Lemma=well-diversified NamedEntityTag=O] [Text=, CharacterOffsetBegin=1984 CharacterOffsetEnd=1985 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=low CharacterOffsetBegin=1986 CharacterOffsetEnd=1989 PartOfSpeech=JJ Lemma=low NamedEntityTag=O] [Text=cost CharacterOffsetBegin=1990 CharacterOffsetEnd=1994 PartOfSpeech=NN Lemma=cost NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=1995 CharacterOffsetEnd=1998 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=portfolio CharacterOffsetBegin=1999 CharacterOffsetEnd=2008 PartOfSpeech=NN Lemma=portfolio NamedEntityTag=O] [Text=ETF CharacterOffsetBegin=2009 CharacterOffsetEnd=2012 PartOfSpeech=NN Lemma=etf NamedEntityTag=O] [Text=Selector CharacterOffsetBegin=2013 CharacterOffsetEnd=2021 PartOfSpeech=NN Lemma=selector NamedEntityTag=O] [Text=: CharacterOffsetBegin=2021 CharacterOffsetEnd=2022 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=An CharacterOffsetBegin=2023 CharacterOffsetEnd=2025 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=explanation CharacterOffsetBegin=2026 CharacterOffsetEnd=2037 PartOfSpeech=NN Lemma=explanation NamedEntityTag=O] [Text=of CharacterOffsetBegin=2038 CharacterOffsetEnd=2040 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=how CharacterOffsetBegin=2041 CharacterOffsetEnd=2044 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=to CharacterOffsetBegin=2045 CharacterOffsetEnd=2047 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=select CharacterOffsetBegin=2048 CharacterOffsetEnd=2054 PartOfSpeech=VB Lemma=select NamedEntityTag=O] [Text=and CharacterOffsetBegin=2055 CharacterOffsetEnd=2058 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=use CharacterOffsetBegin=2059 CharacterOffsetEnd=2062 PartOfSpeech=VB Lemma=use NamedEntityTag=O] [Text=ETFs CharacterOffsetBegin=2063 CharacterOffsetEnd=2067 PartOfSpeech=NNS Lemma=etf NamedEntityTag=O] [Text=Next CharacterOffsetBegin=2068 CharacterOffsetEnd=2072 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=headline CharacterOffsetBegin=2073 CharacterOffsetEnd=2081 PartOfSpeech=NN Lemma=headline NamedEntityTag=O] [Text=on CharacterOffsetBegin=2082 CharacterOffsetEnd=2084 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=your CharacterOffsetBegin=2085 CharacterOffsetEnd=2089 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=portfolio CharacterOffsetBegin=2090 CharacterOffsetEnd=2099 PartOfSpeech=NN Lemma=portfolio NamedEntityTag=O] [Text=: CharacterOffsetBegin=2099 CharacterOffsetEnd=2100 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=x CharacterOffsetBegin=2101 CharacterOffsetEnd=2102 PartOfSpeech=CC Lemma=x NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Check)
+      (PRT (RP out))
+      (S
+        (VP
+          (VP (VBG Seeking)
+            (NP
+              (NP
+                (NP (NN Alpha) (POS _s))
+                (ADJP (JJ new)
+                  (NP (NNS Earnings)))
+                (NNP Center) (__ __) (NN Share))
+              (NP
+                (NP (DT this))
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (NN colleague))
+                    (PP (IN From)
+                      (NP
+                        (NP (JJ other) (NNS sites) (NNS Comments))
+                        (PRN (-LRB- -LRB-)
+                          (NP (CD 0))
+                          (-RRB- -RRB-)))))))
+              (SBAR
+                (WHNP
+                  (NP (DT All))
+                  (PRN (-LRB- -LRB-)
+                    (NP-TMP (CD 0))
+                    (-RRB- -RRB-)))
+                (S
+                  (NP
+                    (NP (NN Author) (POS _s))
+                    (NNP Picks))
+                  (VP
+                    (NP
+                      (NP (-LRB- -LRB-) (-RRB- -RRB-) (NN ETF) (NN Hub) (NN ETF) (NN Screener))
+                      (: :)
+                      (VP (VB Search)))
+                    (PRN (CC and)
+                      (NP
+                        (NP
+                          (NP (NN filter))
+                          (PP (IN by)
+                            (NP (NN asset) (NN class))))
+                        (, ,)
+                        (NP
+                          (NP (NN strategy))
+                          (, ,)
+                          (NP (NN theme)))
+                        (, ,)
+                        (NP (NN performance))
+                        (, ,)
+                        (NP (NN yield))
+                        (, ,)
+                        (CC and)
+                        (NP
+                          (NP
+                            (NP
+                              (ADJP (RB much) (RBR more))
+                              (NN ETF))
+                            (NP (NNP Performance)))
+                          (: :)
+                          (NP
+                            (NP (NNP View) (NNP ETF) (NN performance))
+                            (PP (IN across)
+                              (NP (JJ key) (NN asset) (NNS classes))))))))))))
+          (CC and)
+          (VP (VBG investing)
+            (NP
+              (NP (NNS themes) (NN ETF))
+              (VP (VBG Investing)
+                (NP
+                  (NP (NNP Guide))
+                  (: :)
+                  (VP (VB Learn)
+                    (SBAR
+                      (WHADVP (WRB how))
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (VP (VB build))
+                            (CC and)
+                            (VP (VB manage)
+                              (NP
+                                (NP
+                                  (NP (DT a)
+                                    (ADJP (JJ well-diversified) (, ,) (JJ low))
+                                    (NN cost) (NN ETF))
+                                  (NP (NN portfolio) (NN ETF) (NN Selector)))
+                                (: :)
+                                (NP
+                                  (NP (DT An) (NN explanation))
+                                  (PP (IN of)
+                                    (SBAR
+                                      (WHADVP (WRB how))
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB select)
+                                            (CC and)
+                                            (VB use)
+                                            (NP (NNS ETFs))))))))))
+                            (NP (JJ Next) (NN headline))))))))
+                (PP (IN on)
+                  (NP (PRP$ your) (NN portfolio)))
+                (: :)
+                (S
+                  (NP (CC x)))))))))))
+
+root(ROOT-0, Check-1)
+prt(Check-1, out-2)
+ccomp(Check-1, Seeking-3)
+poss(Share-10, Alpha-4)
+amod(Share-10, new-6)
+dep(new-6, Earnings-7)
+nn(Share-10, Center-8)
+dobj(Seeking-3, Share-10)
+dep(Share-10, this-11)
+det(colleague-14, a-13)
+prep_with(this-11, colleague-14)
+amod(Comments-18, other-16)
+nn(Comments-18, sites-17)
+prep_from(colleague-14, Comments-18)
+appos(Comments-18, 0-20)
+dobj(Screener-34, All-22)
+dep(All-22, 0-24)
+poss(Picks-28, Author-26)
+nsubj(Screener-34, Picks-28)
+nn(Screener-34, ETF-31)
+nn(Screener-34, Hub-32)
+nn(Screener-34, ETF-33)
+rcmod(Share-10, Screener-34)
+dep(Screener-34, Search-36)
+dep(Screener-34, filter-38)
+nn(class-41, asset-40)
+prep_by(filter-38, class-41)
+conj_and(filter-38, strategy-43)
+appos(strategy-43, theme-45)
+conj_and(filter-38, performance-47)
+conj_and(filter-38, yield-49)
+advmod(more-53, much-52)
+amod(ETF-54, more-53)
+conj_and(filter-38, ETF-54)
+appos(ETF-54, Performance-55)
+nn(performance-59, View-57)
+nn(performance-59, ETF-58)
+dep(ETF-54, performance-59)
+amod(classes-63, key-61)
+nn(classes-63, asset-62)
+prep_across(performance-59, classes-63)
+conj_and(Seeking-3, investing-65)
+nn(ETF-67, themes-66)
+dobj(investing-65, ETF-67)
+vmod(ETF-67, Investing-68)
+dobj(Investing-68, Guide-69)
+dep(Guide-69, Learn-71)
+advmod(build-74, how-72)
+aux(build-74, to-73)
+ccomp(Learn-71, build-74)
+conj_and(build-74, manage-76)
+det(ETF-82, a-77)
+amod(low-80, well-diversified-78)
+amod(ETF-82, low-80)
+nn(ETF-82, cost-81)
+dobj(manage-76, ETF-82)
+nn(Selector-85, portfolio-83)
+nn(Selector-85, ETF-84)
+dep(ETF-82, Selector-85)
+det(explanation-88, An-87)
+dep(ETF-82, explanation-88)
+advmod(select-92, how-90)
+aux(select-92, to-91)
+prepc_of(explanation-88, select-92)
+conj_and(select-92, use-94)
+dobj(select-92, ETFs-95)
+amod(headline-97, Next-96)
+dobj(build-74, headline-97)
+poss(portfolio-100, your-99)
+prep_on(Investing-68, portfolio-100)
+parataxis(Investing-68, x-102)
+
+Coreference set:
+ (2,5,[5,6]) -> (1,10,[10,11]), that is: "TIVO" -> "TIVO"
+ (3,21,[21,22]) -> (1,10,[10,11]), that is: "TIVO" -> "TIVO"
+ (3,24,[24,25]) -> (1,10,[10,11]), that is: "it" -> "TIVO"
+ (5,1,[1,2]) -> (1,10,[10,11]), that is: "TiVo" -> "TIVO"
+ (5,8,[8,9]) -> (1,10,[10,11]), that is: "its" -> "TIVO"
+ (8,5,[5,6]) -> (1,10,[10,11]), that is: "TiVo" -> "TIVO"
+ (14,1,[1,2]) -> (1,10,[10,11]), that is: "TiVo" -> "TIVO"
+Coreference set:
+ (15,95,[95,96]) -> (2,9,[9,10]), that is: "ETFs" -> "ETFs"
+Coreference set:
+ (15,41,[40,42]) -> (2,12,[11,13]), that is: "asset class" -> "asset class"
+Coreference set:
+ (3,17,[17,18]) -> (3,3,[1,15]), that is: "its" -> "ETF Hub TiVo +5.2 % on FQ1 beat , strong guidance ; acquisition announced"
+Coreference set:
+ (6,17,[17,18]) -> (3,27,[27,39]), that is: "them" -> "Cubiware , a Polish developer of low-cost set-top and portal server software"
+Coreference set:
+ (3,27,[27,28]) -> (5,3,[3,5]), that is: "Cubiware" -> "Cubiware _s"
+ (6,3,[3,4]) -> (5,3,[3,5]), that is: "Cubiware" -> "Cubiware _s"
+Coreference set:
+ (5,16,[16,17]) -> (5,9,[8,10]), that is: "it" -> "its presence"
+ (5,18,[18,19]) -> (5,9,[8,10]), that is: "its" -> "its presence"
+Coreference set:
+ (12,2,[1,3]) -> (15,55,[55,56]), that is: "Business performance" -> "Performance"
+Coreference set:
+ (15,24,[24,25]) -> (15,20,[20,21]), that is: "0" -> "0"

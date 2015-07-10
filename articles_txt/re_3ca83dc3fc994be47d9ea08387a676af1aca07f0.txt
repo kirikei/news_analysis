@@ -1,0 +1,813 @@
+Sentence #1 (2 tokens):
+Mtn.
+[Text=Mtn CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Mtn NamedEntityTag=O] [Text=. CharacterOffsetBegin=3 CharacterOffsetEnd=4 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP Mtn))
+    (. .)))
+
+root(ROOT-0, Mtn-1)
+
+Sentence #2 (29 tokens):
+View: Prepare for 2017 Social Security Cuts
+As the Social Security retirement age increases, other cuts are taking place that could seriously impact your lifetime benefit.
+[Text=View CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=View NamedEntityTag=O] [Text=: CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Prepare CharacterOffsetBegin=11 CharacterOffsetEnd=18 PartOfSpeech=VB Lemma=prepare NamedEntityTag=O] [Text=for CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=2017 CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=CD Lemma=2017 NamedEntityTag=DATE NormalizedNamedEntityTag=2017 Timex=<TIMEX3 tid="t1" type="DATE" value="2017">2017<_TIMEX3>] [Text=Social CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=35 CharacterOffsetEnd=43 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=Cuts CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NNS Lemma=cut NamedEntityTag=O] [Text=As CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Social CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=72 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=age CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=increases CharacterOffsetBegin=87 CharacterOffsetEnd=96 PartOfSpeech=NNS Lemma=increase NamedEntityTag=O] [Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=other CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=JJ Lemma=other NamedEntityTag=O] [Text=cuts CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNS Lemma=cut NamedEntityTag=O] [Text=are CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=taking CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=that CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=could CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=seriously CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=RB Lemma=seriously NamedEntityTag=O] [Text=impact CharacterOffsetBegin=147 CharacterOffsetEnd=153 PartOfSpeech=VB Lemma=impact NamedEntityTag=O] [Text=your CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=lifetime CharacterOffsetBegin=159 CharacterOffsetEnd=167 PartOfSpeech=NN Lemma=lifetime NamedEntityTag=O] [Text=benefit CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=benefit NamedEntityTag=O] [Text=. CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (FRAG
+    (NP (NNP View))
+    (: :)
+    (S
+      (S
+        (VP (VB Prepare)
+          (PP (IN for)
+            (NP (CD 2017) (NNP Social) (NNP Security) (NNS Cuts)))
+          (PP (IN As)
+            (NP (DT the) (NNP Social) (NNP Security) (NN retirement) (NN age) (NNS increases)))))
+      (, ,)
+      (NP (JJ other) (NNS cuts))
+      (VP (VBP are)
+        (VP (VBG taking)
+          (NP
+            (NP (NN place))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD could)
+                  (ADVP (RB seriously))
+                  (VP (VB impact)
+                    (NP (PRP$ your) (NN lifetime) (NN benefit))))))))))
+    (. .)))
+
+root(ROOT-0, View-1)
+ccomp(taking-20, Prepare-3)
+num(Cuts-8, 2017-5)
+nn(Cuts-8, Social-6)
+nn(Cuts-8, Security-7)
+prep_for(Prepare-3, Cuts-8)
+det(increases-15, the-10)
+nn(increases-15, Social-11)
+nn(increases-15, Security-12)
+nn(increases-15, retirement-13)
+nn(increases-15, age-14)
+prep_as(Prepare-3, increases-15)
+amod(cuts-18, other-17)
+nsubj(taking-20, cuts-18)
+aux(taking-20, are-19)
+dep(View-1, taking-20)
+dobj(taking-20, place-21)
+nsubj(impact-25, that-22)
+aux(impact-25, could-23)
+advmod(impact-25, seriously-24)
+rcmod(place-21, impact-25)
+poss(benefit-28, your-26)
+nn(benefit-28, lifetime-27)
+dobj(impact-25, benefit-28)
+
+Sentence #3 (29 tokens):
+Share
+More than 30 years ago, a bi-partisan effort between Republican President Ronald Reagan and the Democrat-led Congress produced changes in Social Security to ensure its solvency.
+[Text=Share CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=More CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=JJR Lemma=more NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-30Y Timex=<TIMEX3 alt_value="OFFSET P-30Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">More than 30 years ago<_TIMEX3>] [Text=than CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=than NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-30Y Timex=<TIMEX3 alt_value="OFFSET P-30Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">More than 30 years ago<_TIMEX3>] [Text=30 CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=CD Lemma=30 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-30Y Timex=<TIMEX3 alt_value="OFFSET P-30Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">More than 30 years ago<_TIMEX3>] [Text=years CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-30Y Timex=<TIMEX3 alt_value="OFFSET P-30Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">More than 30 years ago<_TIMEX3>] [Text=ago CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=RB Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-30Y Timex=<TIMEX3 alt_value="OFFSET P-30Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">More than 30 years ago<_TIMEX3>] [Text=, CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=a CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=bi-partisan CharacterOffsetBegin=209 CharacterOffsetEnd=220 PartOfSpeech=JJ Lemma=bi-partisan NamedEntityTag=O] [Text=effort CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NN Lemma=effort NamedEntityTag=O] [Text=between CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=Republican CharacterOffsetBegin=236 CharacterOffsetEnd=246 PartOfSpeech=NNP Lemma=Republican NamedEntityTag=MISC] [Text=President CharacterOffsetBegin=247 CharacterOffsetEnd=256 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=Ronald CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Ronald NamedEntityTag=PERSON] [Text=Reagan CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=NNP Lemma=Reagan NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Democrat-led CharacterOffsetBegin=279 CharacterOffsetEnd=291 PartOfSpeech=JJ Lemma=democrat-led NamedEntityTag=MISC] [Text=Congress CharacterOffsetBegin=292 CharacterOffsetEnd=300 PartOfSpeech=NNP Lemma=Congress NamedEntityTag=ORGANIZATION] [Text=produced CharacterOffsetBegin=301 CharacterOffsetEnd=309 PartOfSpeech=VBD Lemma=produce NamedEntityTag=O] [Text=changes CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=in CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Social CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=NNP Lemma=Social NamedEntityTag=MISC] [Text=Security CharacterOffsetBegin=328 CharacterOffsetEnd=336 PartOfSpeech=NNP Lemma=Security NamedEntityTag=MISC] [Text=to CharacterOffsetBegin=337 CharacterOffsetEnd=339 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=ensure CharacterOffsetBegin=340 CharacterOffsetEnd=346 PartOfSpeech=VB Lemma=ensure NamedEntityTag=O] [Text=its CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=solvency CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=NN Lemma=solvency NamedEntityTag=O] [Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NN Share))
+      (ADVP
+        (NP
+          (QP (JJR More) (IN than) (CD 30))
+          (NNS years))
+        (RB ago)))
+    (, ,)
+    (NP
+      (NP (DT a) (JJ bi-partisan) (NN effort))
+      (PP (IN between)
+        (NP
+          (NP (NNP Republican) (NNP President) (NNP Ronald) (NNP Reagan))
+          (CC and)
+          (NP (DT the) (JJ Democrat-led) (NNP Congress)))))
+    (VP (VBD produced)
+      (NP (NNS changes))
+      (PP (IN in)
+        (NP (NNP Social) (NNP Security)))
+      (S
+        (VP (TO to)
+          (VP (VB ensure)
+            (NP (PRP$ its) (NN solvency))))))
+    (. .)))
+
+root(ROOT-0, produced-20)
+ccomp(produced-20, Share-1)
+mwe(than-3, More-2)
+quantmod(30-4, than-3)
+num(years-5, 30-4)
+npadvmod(ago-6, years-5)
+advmod(Share-1, ago-6)
+det(effort-10, a-8)
+amod(effort-10, bi-partisan-9)
+nsubj(produced-20, effort-10)
+nn(Reagan-15, Republican-12)
+nn(Reagan-15, President-13)
+nn(Reagan-15, Ronald-14)
+prep_between(effort-10, Reagan-15)
+det(Congress-19, the-17)
+amod(Congress-19, Democrat-led-18)
+conj_and(Reagan-15, Congress-19)
+dobj(produced-20, changes-21)
+nn(Security-24, Social-23)
+prep_in(produced-20, Security-24)
+aux(ensure-26, to-25)
+vmod(produced-20, ensure-26)
+poss(solvency-28, its-27)
+dobj(ensure-26, solvency-28)
+
+Sentence #4 (12 tokens):
+Those changes include increasing the retirement age from 65 to 67.
+[Text=Those CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=changes CharacterOffsetBegin=367 CharacterOffsetEnd=374 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=include CharacterOffsetBegin=375 CharacterOffsetEnd=382 PartOfSpeech=VBP Lemma=include NamedEntityTag=O] [Text=increasing CharacterOffsetBegin=383 CharacterOffsetEnd=393 PartOfSpeech=VBG Lemma=increase NamedEntityTag=O] [Text=the CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=398 CharacterOffsetEnd=408 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=age CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=from CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=65 CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=CD Lemma=65 NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0-67.0] [Text=to CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=TO Lemma=to NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0-67.0] [Text=67 CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=CD Lemma=67 NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0-67.0] [Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT Those) (NNS changes))
+    (VP (VBP include)
+      (S
+        (VP (VBG increasing)
+          (NP (DT the) (NN retirement) (NN age))
+          (PP (IN from)
+            (NP
+              (QP (CD 65) (TO to) (CD 67)))))))
+    (. .)))
+
+root(ROOT-0, include-3)
+det(changes-2, Those-1)
+nsubj(include-3, changes-2)
+xcomp(include-3, increasing-4)
+det(age-7, the-5)
+nn(age-7, retirement-6)
+dobj(increasing-4, age-7)
+number(67-11, 65-9)
+dep(67-11, to-10)
+prep_from(increasing-4, 67-11)
+
+Sentence #5 (19 tokens):
+It’s already at 66, with the next phase of incremental increases coming between 2017 and 2022.
+[Text=It CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=already CharacterOffsetBegin=433 CharacterOffsetEnd=440 PartOfSpeech=RB Lemma=already NamedEntityTag=O] [Text=at CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=66 CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=CD Lemma=66 NamedEntityTag=NUMBER NormalizedNamedEntityTag=66.0] [Text=, CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=with CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=next CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=phase CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=NN Lemma=phase NamedEntityTag=O] [Text=of CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=incremental CharacterOffsetBegin=471 CharacterOffsetEnd=482 PartOfSpeech=JJ Lemma=incremental NamedEntityTag=O] [Text=increases CharacterOffsetBegin=483 CharacterOffsetEnd=492 PartOfSpeech=NNS Lemma=increase NamedEntityTag=O] [Text=coming CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=VBG Lemma=come NamedEntityTag=O] [Text=between CharacterOffsetBegin=500 CharacterOffsetEnd=507 PartOfSpeech=IN Lemma=between NamedEntityTag=O] [Text=2017 CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=CD Lemma=2017 NamedEntityTag=DATE NormalizedNamedEntityTag=2017_2022 Timex=<TIMEX3 tid="t3" type="DATE" value="2017">2017<_TIMEX3>] [Text=and CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=CC Lemma=and NamedEntityTag=DATE NormalizedNamedEntityTag=2017_2022] [Text=2022 CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=CD Lemma=2022 NamedEntityTag=DATE NormalizedNamedEntityTag=2017_2022 Timex=<TIMEX3 tid="t4" type="DATE" value="2022">2022<_TIMEX3>] [Text=. CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ _s)
+      (ADVP (RB already))
+      (PP (IN at)
+        (NP (CD 66)))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (DT the) (JJ next) (NN phase))
+          (PP (IN of)
+            (NP
+              (NP (JJ incremental) (NNS increases))
+              (VP (VBG coming)
+                (PP (IN between)
+                  (NP (CD 2017)
+                    (CC and)
+                    (CD 2022)))))))))
+    (. .)))
+
+root(ROOT-0, _s-2)
+nsubj(_s-2, It-1)
+advmod(_s-2, already-3)
+prep_at(_s-2, 66-5)
+det(phase-10, the-8)
+amod(phase-10, next-9)
+prep_with(_s-2, phase-10)
+amod(increases-13, incremental-12)
+prep_of(phase-10, increases-13)
+vmod(increases-13, coming-14)
+prep_between(coming-14, 2017-16)
+conj_and(2017-16, 2022-18)
+
+Sentence #6 (19 tokens):
+What is little noticed is what’s happening to benefits for people who choose early retirement at 62.
+[Text=What CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=is CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=little CharacterOffsetBegin=531 CharacterOffsetEnd=537 PartOfSpeech=JJ Lemma=little NamedEntityTag=O] [Text=noticed CharacterOffsetBegin=538 CharacterOffsetEnd=545 PartOfSpeech=JJ Lemma=noticed NamedEntityTag=O] [Text=is CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=what CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=_s CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=happening CharacterOffsetBegin=556 CharacterOffsetEnd=565 PartOfSpeech=VBG Lemma=happen NamedEntityTag=O] [Text=to CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=569 CharacterOffsetEnd=577 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=for CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=people CharacterOffsetBegin=582 CharacterOffsetEnd=588 PartOfSpeech=NNS Lemma=people NamedEntityTag=O] [Text=who CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=choose CharacterOffsetBegin=593 CharacterOffsetEnd=599 PartOfSpeech=VBP Lemma=choose NamedEntityTag=O] [Text=early CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=606 CharacterOffsetEnd=616 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=at CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=62 CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=CD Lemma=62 NamedEntityTag=NUMBER NormalizedNamedEntityTag=62.0] [Text=. CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (VP (VBZ is)
+          (NP (JJ little))
+          (ADJP (JJ noticed)))))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP (VBZ _s)
+            (VP (VBG happening)
+              (PP (TO to)
+                (NP
+                  (NP (NNS benefits))
+                  (PP (IN for)
+                    (NP
+                      (NP (NNS people))
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP (VBP choose)
+                            (NP (JJ early) (NN retirement))
+                            (PP (IN at)
+                              (NP (CD 62)))))))))))))))
+    (. .)))
+
+root(ROOT-0, is-5)
+nsubj(noticed-4, What-1)
+cop(noticed-4, is-2)
+dep(noticed-4, little-3)
+csubj(is-5, noticed-4)
+nsubj(happening-8, what-6)
+aux(happening-8, _s-7)
+ccomp(is-5, happening-8)
+prep_to(happening-8, benefits-10)
+prep_for(benefits-10, people-12)
+nsubj(choose-14, who-13)
+rcmod(people-12, choose-14)
+amod(retirement-16, early-15)
+dobj(choose-14, retirement-16)
+prep_at(choose-14, 62-18)
+
+Sentence #7 (24 tokens):
+When the retirement age was 65, someone choosing to claim Social Security benefits at 62 suffered a 20 percent reduction in benefits.
+[Text=When CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=the CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=633 CharacterOffsetEnd=643 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=age CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=was CharacterOffsetBegin=648 CharacterOffsetEnd=651 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=65 CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=CD Lemma=65 NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0] [Text=, CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=someone CharacterOffsetBegin=656 CharacterOffsetEnd=663 PartOfSpeech=NN Lemma=someone NamedEntityTag=O] [Text=choosing CharacterOffsetBegin=664 CharacterOffsetEnd=672 PartOfSpeech=VBG Lemma=choose NamedEntityTag=O] [Text=to CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=claim CharacterOffsetBegin=676 CharacterOffsetEnd=681 PartOfSpeech=VB Lemma=claim NamedEntityTag=O] [Text=Social CharacterOffsetBegin=682 CharacterOffsetEnd=688 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=689 CharacterOffsetEnd=697 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=698 CharacterOffsetEnd=706 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=at CharacterOffsetBegin=707 CharacterOffsetEnd=709 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=62 CharacterOffsetBegin=710 CharacterOffsetEnd=712 PartOfSpeech=CD Lemma=62 NamedEntityTag=NUMBER NormalizedNamedEntityTag=62.0] [Text=suffered CharacterOffsetBegin=713 CharacterOffsetEnd=721 PartOfSpeech=VBD Lemma=suffer NamedEntityTag=O] [Text=a CharacterOffsetBegin=722 CharacterOffsetEnd=723 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=20 CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=CD Lemma=20 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%20.0] [Text=percent CharacterOffsetBegin=727 CharacterOffsetEnd=734 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%20.0] [Text=reduction CharacterOffsetBegin=735 CharacterOffsetEnd=744 PartOfSpeech=NN Lemma=reduction NamedEntityTag=O] [Text=in CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=748 CharacterOffsetEnd=756 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=. CharacterOffsetBegin=756 CharacterOffsetEnd=757 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN retirement) (NN age))
+        (VP (VBD was)
+          (NP (CD 65)))))
+    (, ,)
+    (NP
+      (NP (NN someone))
+      (VP (VBG choosing)
+        (S
+          (VP (TO to)
+            (VP (VB claim)
+              (NP (NNP Social) (NNP Security) (NNS benefits))
+              (PP (IN at)
+                (NP (CD 62))))))))
+    (VP (VBD suffered)
+      (NP
+        (NP (DT a) (CD 20) (NN percent) (NN reduction))
+        (PP (IN in)
+          (NP (NNS benefits)))))
+    (. .)))
+
+root(ROOT-0, suffered-17)
+advmod(65-6, When-1)
+det(age-4, the-2)
+nn(age-4, retirement-3)
+nsubj(65-6, age-4)
+cop(65-6, was-5)
+advcl(suffered-17, 65-6)
+nsubj(suffered-17, someone-8)
+vmod(someone-8, choosing-9)
+aux(claim-11, to-10)
+xcomp(choosing-9, claim-11)
+nn(benefits-14, Social-12)
+nn(benefits-14, Security-13)
+dobj(claim-11, benefits-14)
+prep_at(claim-11, 62-16)
+det(reduction-21, a-18)
+num(reduction-21, 20-19)
+nn(reduction-21, percent-20)
+dobj(suffered-17, reduction-21)
+prep_in(reduction-21, benefits-23)
+
+Sentence #8 (19 tokens):
+When the full retirement age reaches 67, the early retirement penalty will be a 30 percent reduction.
+[Text=When CharacterOffsetBegin=758 CharacterOffsetEnd=762 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=the CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=full CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=JJ Lemma=full NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=772 CharacterOffsetEnd=782 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=age CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=NN Lemma=age NamedEntityTag=O] [Text=reaches CharacterOffsetBegin=787 CharacterOffsetEnd=794 PartOfSpeech=VBZ Lemma=reach NamedEntityTag=O] [Text=67 CharacterOffsetBegin=795 CharacterOffsetEnd=797 PartOfSpeech=CD Lemma=67 NamedEntityTag=NUMBER NormalizedNamedEntityTag=67.0] [Text=, CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=early CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=809 CharacterOffsetEnd=819 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=penalty CharacterOffsetBegin=820 CharacterOffsetEnd=827 PartOfSpeech=NN Lemma=penalty NamedEntityTag=O] [Text=will CharacterOffsetBegin=828 CharacterOffsetEnd=832 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=833 CharacterOffsetEnd=835 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=836 CharacterOffsetEnd=837 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=30 CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=CD Lemma=30 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%30.0] [Text=percent CharacterOffsetBegin=841 CharacterOffsetEnd=848 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%30.0] [Text=reduction CharacterOffsetBegin=849 CharacterOffsetEnd=858 PartOfSpeech=NN Lemma=reduction NamedEntityTag=O] [Text=. CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (JJ full) (NN retirement) (NN age))
+        (VP (VBZ reaches)
+          (NP (CD 67)))))
+    (, ,)
+    (NP (DT the) (JJ early) (NN retirement) (NN penalty))
+    (VP (MD will)
+      (VP (VB be)
+        (NP (DT a) (CD 30) (NN percent) (NN reduction))))
+    (. .)))
+
+root(ROOT-0, reduction-18)
+advmod(reaches-6, When-1)
+det(age-5, the-2)
+amod(age-5, full-3)
+nn(age-5, retirement-4)
+nsubj(reaches-6, age-5)
+advcl(reduction-18, reaches-6)
+dobj(reaches-6, 67-7)
+det(penalty-12, the-9)
+amod(penalty-12, early-10)
+nn(penalty-12, retirement-11)
+nsubj(reduction-18, penalty-12)
+aux(reduction-18, will-13)
+cop(reduction-18, be-14)
+det(reduction-18, a-15)
+num(reduction-18, 30-16)
+nn(reduction-18, percent-17)
+
+Sentence #9 (21 tokens):
+The drop will be enough to push some recipients below the poverty level if they depend wholly upon Social Security.
+[Text=The CharacterOffsetBegin=860 CharacterOffsetEnd=863 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=drop CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=NN Lemma=drop NamedEntityTag=O] [Text=will CharacterOffsetBegin=869 CharacterOffsetEnd=873 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=874 CharacterOffsetEnd=876 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=enough CharacterOffsetBegin=877 CharacterOffsetEnd=883 PartOfSpeech=RB Lemma=enough NamedEntityTag=O] [Text=to CharacterOffsetBegin=884 CharacterOffsetEnd=886 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=push CharacterOffsetBegin=887 CharacterOffsetEnd=891 PartOfSpeech=VB Lemma=push NamedEntityTag=O] [Text=some CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=recipients CharacterOffsetBegin=897 CharacterOffsetEnd=907 PartOfSpeech=NNS Lemma=recipient NamedEntityTag=O] [Text=below CharacterOffsetBegin=908 CharacterOffsetEnd=913 PartOfSpeech=IN Lemma=below NamedEntityTag=O] [Text=the CharacterOffsetBegin=914 CharacterOffsetEnd=917 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=poverty CharacterOffsetBegin=918 CharacterOffsetEnd=925 PartOfSpeech=NN Lemma=poverty NamedEntityTag=O] [Text=level CharacterOffsetBegin=926 CharacterOffsetEnd=931 PartOfSpeech=NN Lemma=level NamedEntityTag=O] [Text=if CharacterOffsetBegin=932 CharacterOffsetEnd=934 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=they CharacterOffsetBegin=935 CharacterOffsetEnd=939 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=depend CharacterOffsetBegin=940 CharacterOffsetEnd=946 PartOfSpeech=VBP Lemma=depend NamedEntityTag=O] [Text=wholly CharacterOffsetBegin=947 CharacterOffsetEnd=953 PartOfSpeech=RB Lemma=wholly NamedEntityTag=O] [Text=upon CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=IN Lemma=upon NamedEntityTag=O] [Text=Social CharacterOffsetBegin=959 CharacterOffsetEnd=965 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=966 CharacterOffsetEnd=974 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=. CharacterOffsetBegin=974 CharacterOffsetEnd=975 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN drop))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (RB enough)
+          (S
+            (VP (TO to)
+              (VP (VB push)
+                (NP (DT some) (NNS recipients))
+                (PP (IN below)
+                  (NP (DT the) (NN poverty) (NN level)))))))
+        (SBAR (IN if)
+          (S
+            (NP (PRP they))
+            (VP (VBP depend)
+              (ADVP (RB wholly))
+              (PP (IN upon)
+                (NP (NNP Social) (NNP Security))))))))
+    (. .)))
+
+root(ROOT-0, enough-5)
+det(drop-2, The-1)
+nsubj(enough-5, drop-2)
+aux(enough-5, will-3)
+cop(enough-5, be-4)
+aux(push-7, to-6)
+xcomp(enough-5, push-7)
+det(recipients-9, some-8)
+dobj(push-7, recipients-9)
+det(level-13, the-11)
+nn(level-13, poverty-12)
+prep_below(push-7, level-13)
+mark(depend-16, if-14)
+nsubj(depend-16, they-15)
+advcl(enough-5, depend-16)
+advmod(depend-16, wholly-17)
+nn(Security-20, Social-19)
+prep_upon(depend-16, Security-20)
+
+Sentence #10 (24 tokens):
+A cornerstone of the 1983 agreement was the creation of a Social Security Trust Fund, to cover the retirement of Baby Boomers.
+[Text=A CharacterOffsetBegin=976 CharacterOffsetEnd=977 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=cornerstone CharacterOffsetBegin=978 CharacterOffsetEnd=989 PartOfSpeech=NN Lemma=cornerstone NamedEntityTag=O] [Text=of CharacterOffsetBegin=990 CharacterOffsetEnd=992 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=993 CharacterOffsetEnd=996 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=1983 CharacterOffsetBegin=997 CharacterOffsetEnd=1001 PartOfSpeech=CD Lemma=1983 NamedEntityTag=DATE NormalizedNamedEntityTag=1983 Timex=<TIMEX3 tid="t5" type="DATE" value="1983">1983<_TIMEX3>] [Text=agreement CharacterOffsetBegin=1002 CharacterOffsetEnd=1011 PartOfSpeech=NN Lemma=agreement NamedEntityTag=O] [Text=was CharacterOffsetBegin=1012 CharacterOffsetEnd=1015 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1016 CharacterOffsetEnd=1019 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=creation CharacterOffsetBegin=1020 CharacterOffsetEnd=1028 PartOfSpeech=NN Lemma=creation NamedEntityTag=O] [Text=of CharacterOffsetBegin=1029 CharacterOffsetEnd=1031 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1032 CharacterOffsetEnd=1033 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Social CharacterOffsetBegin=1034 CharacterOffsetEnd=1040 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=1041 CharacterOffsetEnd=1049 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=Trust CharacterOffsetBegin=1050 CharacterOffsetEnd=1055 PartOfSpeech=NNP Lemma=Trust NamedEntityTag=O] [Text=Fund CharacterOffsetBegin=1056 CharacterOffsetEnd=1060 PartOfSpeech=NNP Lemma=Fund NamedEntityTag=O] [Text=, CharacterOffsetBegin=1060 CharacterOffsetEnd=1061 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=to CharacterOffsetBegin=1062 CharacterOffsetEnd=1064 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=cover CharacterOffsetBegin=1065 CharacterOffsetEnd=1070 PartOfSpeech=VB Lemma=cover NamedEntityTag=O] [Text=the CharacterOffsetBegin=1071 CharacterOffsetEnd=1074 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=retirement CharacterOffsetBegin=1075 CharacterOffsetEnd=1085 PartOfSpeech=NN Lemma=retirement NamedEntityTag=O] [Text=of CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Baby CharacterOffsetBegin=1089 CharacterOffsetEnd=1093 PartOfSpeech=NNP Lemma=Baby NamedEntityTag=O] [Text=Boomers CharacterOffsetBegin=1094 CharacterOffsetEnd=1101 PartOfSpeech=NNP Lemma=Boomers NamedEntityTag=O] [Text=. CharacterOffsetBegin=1101 CharacterOffsetEnd=1102 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN cornerstone))
+      (PP (IN of)
+        (NP (DT the) (CD 1983) (NN agreement))))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN creation))
+        (PP (IN of)
+          (NP (DT a) (NNP Social) (NNP Security) (NNP Trust) (NNP Fund))))
+      (, ,)
+      (S
+        (VP (TO to)
+          (VP (VB cover)
+            (NP
+              (NP (DT the) (NN retirement))
+              (PP (IN of)
+                (NP (NNP Baby) (NNP Boomers))))))))
+    (. .)))
+
+root(ROOT-0, creation-9)
+det(cornerstone-2, A-1)
+nsubj(creation-9, cornerstone-2)
+det(agreement-6, the-4)
+num(agreement-6, 1983-5)
+prep_of(cornerstone-2, agreement-6)
+cop(creation-9, was-7)
+det(creation-9, the-8)
+det(Fund-15, a-11)
+nn(Fund-15, Social-12)
+nn(Fund-15, Security-13)
+nn(Fund-15, Trust-14)
+prep_of(creation-9, Fund-15)
+aux(cover-18, to-17)
+vmod(creation-9, cover-18)
+det(retirement-20, the-19)
+dobj(cover-18, retirement-20)
+nn(Boomers-23, Baby-22)
+prep_of(retirement-20, Boomers-23)
+
+Sentence #11 (19 tokens):
+The Trust Fund built-up over for more than two decades, but a monthly draw-down began in 2010.
+[Text=The CharacterOffsetBegin=1103 CharacterOffsetEnd=1106 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Trust CharacterOffsetBegin=1107 CharacterOffsetEnd=1112 PartOfSpeech=NNP Lemma=Trust NamedEntityTag=O] [Text=Fund CharacterOffsetBegin=1113 CharacterOffsetEnd=1117 PartOfSpeech=NNP Lemma=Fund NamedEntityTag=O] [Text=built-up CharacterOffsetBegin=1118 CharacterOffsetEnd=1126 PartOfSpeech=JJ Lemma=built-up NamedEntityTag=O] [Text=over CharacterOffsetBegin=1127 CharacterOffsetEnd=1131 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=for CharacterOffsetBegin=1132 CharacterOffsetEnd=1135 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=more CharacterOffsetBegin=1136 CharacterOffsetEnd=1140 PartOfSpeech=JJR Lemma=more NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 mod="MORE_THAN" tid="t6" type="DURATION" value="P20Y">more than two decades<_TIMEX3>] [Text=than CharacterOffsetBegin=1141 CharacterOffsetEnd=1145 PartOfSpeech=IN Lemma=than NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 mod="MORE_THAN" tid="t6" type="DURATION" value="P20Y">more than two decades<_TIMEX3>] [Text=two CharacterOffsetBegin=1146 CharacterOffsetEnd=1149 PartOfSpeech=CD Lemma=two NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 mod="MORE_THAN" tid="t6" type="DURATION" value="P20Y">more than two decades<_TIMEX3>] [Text=decades CharacterOffsetBegin=1150 CharacterOffsetEnd=1157 PartOfSpeech=NNS Lemma=decade NamedEntityTag=DURATION NormalizedNamedEntityTag=P20Y Timex=<TIMEX3 mod="MORE_THAN" tid="t6" type="DURATION" value="P20Y">more than two decades<_TIMEX3>] [Text=, CharacterOffsetBegin=1157 CharacterOffsetEnd=1158 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1159 CharacterOffsetEnd=1162 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=a CharacterOffsetBegin=1163 CharacterOffsetEnd=1164 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=monthly CharacterOffsetBegin=1165 CharacterOffsetEnd=1172 PartOfSpeech=JJ Lemma=monthly NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1M" quant="EVERY" tid="t7" type="SET" value="P1M">monthly<_TIMEX3>] [Text=draw-down CharacterOffsetBegin=1173 CharacterOffsetEnd=1182 PartOfSpeech=NN Lemma=draw-down NamedEntityTag=O] [Text=began CharacterOffsetBegin=1183 CharacterOffsetEnd=1188 PartOfSpeech=VBD Lemma=begin NamedEntityTag=O] [Text=in CharacterOffsetBegin=1189 CharacterOffsetEnd=1191 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2010 CharacterOffsetBegin=1192 CharacterOffsetEnd=1196 PartOfSpeech=CD Lemma=2010 NamedEntityTag=DATE NormalizedNamedEntityTag=2010 Timex=<TIMEX3 tid="t8" type="DATE" value="2010">2010<_TIMEX3>] [Text=. CharacterOffsetBegin=1196 CharacterOffsetEnd=1197 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Trust) (NNP Fund) (JJ built-up))
+      (PP (IN over)
+        (PP (IN for)
+          (NP
+            (NP
+              (QP (JJR more) (IN than) (CD two))
+              (NNS decades))
+            (, ,)
+            (PP (CC but)
+              (NP (DT a) (JJ monthly) (NN draw-down)))))))
+    (VP (VBD began)
+      (PP (IN in)
+        (NP (CD 2010))))
+    (. .)))
+
+root(ROOT-0, began-16)
+det(Fund-3, The-1)
+nn(Fund-3, Trust-2)
+nsubj(began-16, Fund-3)
+amod(Fund-3, built-up-4)
+prep(Fund-3, over-5)
+pcomp(over-5, for-6)
+mwe(than-8, more-7)
+quantmod(two-9, than-8)
+num(decades-10, two-9)
+pobj(for-6, decades-10)
+prep(decades-10, but-12)
+det(draw-down-15, a-13)
+amod(draw-down-15, monthly-14)
+pobj(but-12, draw-down-15)
+prep_in(began-16, 2010-18)
+
+Sentence #12 (27 tokens):
+The Pew Research Center cites Congressional Budget Office statistics in predicting that Social Security will deplete its storehouse of Trust Funds and Treasury Bonds in 2033.
+[Text=The CharacterOffsetBegin=1198 CharacterOffsetEnd=1201 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Pew CharacterOffsetBegin=1202 CharacterOffsetEnd=1205 PartOfSpeech=NNP Lemma=Pew NamedEntityTag=ORGANIZATION] [Text=Research CharacterOffsetBegin=1206 CharacterOffsetEnd=1214 PartOfSpeech=NNP Lemma=Research NamedEntityTag=ORGANIZATION] [Text=Center CharacterOffsetBegin=1215 CharacterOffsetEnd=1221 PartOfSpeech=NNP Lemma=Center NamedEntityTag=ORGANIZATION] [Text=cites CharacterOffsetBegin=1222 CharacterOffsetEnd=1227 PartOfSpeech=VBZ Lemma=cite NamedEntityTag=O] [Text=Congressional CharacterOffsetBegin=1228 CharacterOffsetEnd=1241 PartOfSpeech=NNP Lemma=Congressional NamedEntityTag=ORGANIZATION] [Text=Budget CharacterOffsetBegin=1242 CharacterOffsetEnd=1248 PartOfSpeech=NNP Lemma=Budget NamedEntityTag=ORGANIZATION] [Text=Office CharacterOffsetBegin=1249 CharacterOffsetEnd=1255 PartOfSpeech=NNP Lemma=Office NamedEntityTag=ORGANIZATION] [Text=statistics CharacterOffsetBegin=1256 CharacterOffsetEnd=1266 PartOfSpeech=NNS Lemma=statistics NamedEntityTag=O] [Text=in CharacterOffsetBegin=1267 CharacterOffsetEnd=1269 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=predicting CharacterOffsetBegin=1270 CharacterOffsetEnd=1280 PartOfSpeech=VBG Lemma=predict NamedEntityTag=O] [Text=that CharacterOffsetBegin=1281 CharacterOffsetEnd=1285 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Social CharacterOffsetBegin=1286 CharacterOffsetEnd=1292 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=1293 CharacterOffsetEnd=1301 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=will CharacterOffsetBegin=1302 CharacterOffsetEnd=1306 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=deplete CharacterOffsetBegin=1307 CharacterOffsetEnd=1314 PartOfSpeech=VB Lemma=deplete NamedEntityTag=O] [Text=its CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=storehouse CharacterOffsetBegin=1319 CharacterOffsetEnd=1329 PartOfSpeech=NN Lemma=storehouse NamedEntityTag=O] [Text=of CharacterOffsetBegin=1330 CharacterOffsetEnd=1332 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Trust CharacterOffsetBegin=1333 CharacterOffsetEnd=1338 PartOfSpeech=NNP Lemma=Trust NamedEntityTag=O] [Text=Funds CharacterOffsetBegin=1339 CharacterOffsetEnd=1344 PartOfSpeech=NNPS Lemma=Funds NamedEntityTag=O] [Text=and CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Treasury CharacterOffsetBegin=1349 CharacterOffsetEnd=1357 PartOfSpeech=NNP Lemma=Treasury NamedEntityTag=ORGANIZATION] [Text=Bonds CharacterOffsetBegin=1358 CharacterOffsetEnd=1363 PartOfSpeech=NNS Lemma=bond NamedEntityTag=ORGANIZATION] [Text=in CharacterOffsetBegin=1364 CharacterOffsetEnd=1366 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2033 CharacterOffsetBegin=1367 CharacterOffsetEnd=1371 PartOfSpeech=CD Lemma=2033 NamedEntityTag=DATE NormalizedNamedEntityTag=2033 Timex=<TIMEX3 tid="t9" type="DATE" value="2033">2033<_TIMEX3>] [Text=. CharacterOffsetBegin=1371 CharacterOffsetEnd=1372 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Pew) (NNP Research) (NNP Center))
+    (VP (VBZ cites)
+      (NP (NNP Congressional) (NNP Budget) (NNP Office) (NNS statistics))
+      (PP (IN in)
+        (S
+          (VP (VBG predicting)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Social) (NNP Security))
+                (VP (MD will)
+                  (VP (VB deplete)
+                    (NP
+                      (NP (PRP$ its) (NN storehouse))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNP Trust) (NNPS Funds)
+                            (CC and)
+                            (NNP Treasury) (NNS Bonds))
+                          (PP (IN in)
+                            (NP (CD 2033))))))))))))))
+    (. .)))
+
+root(ROOT-0, cites-5)
+det(Center-4, The-1)
+nn(Center-4, Pew-2)
+nn(Center-4, Research-3)
+nsubj(cites-5, Center-4)
+nn(statistics-9, Congressional-6)
+nn(statistics-9, Budget-7)
+nn(statistics-9, Office-8)
+dobj(cites-5, statistics-9)
+prepc_in(cites-5, predicting-11)
+mark(deplete-16, that-12)
+nn(Security-14, Social-13)
+nsubj(deplete-16, Security-14)
+aux(deplete-16, will-15)
+ccomp(predicting-11, deplete-16)
+poss(storehouse-18, its-17)
+dobj(deplete-16, storehouse-18)
+nn(Funds-21, Trust-20)
+prep_of(storehouse-18, Funds-21)
+nn(Bonds-24, Treasury-23)
+conj_and(Funds-21, Bonds-24)
+prep_in(Funds-21, 2033-26)
+
+Sentence #13 (21 tokens):
+After that, it’s expected that Social Security will bring in enough to cover 75 percent of promised benefits.
+[Text=After CharacterOffsetBegin=1373 CharacterOffsetEnd=1378 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=that CharacterOffsetBegin=1379 CharacterOffsetEnd=1383 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=, CharacterOffsetBegin=1383 CharacterOffsetEnd=1384 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=1385 CharacterOffsetEnd=1387 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1387 CharacterOffsetEnd=1389 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=expected CharacterOffsetBegin=1390 CharacterOffsetEnd=1398 PartOfSpeech=VBN Lemma=expect NamedEntityTag=O] [Text=that CharacterOffsetBegin=1399 CharacterOffsetEnd=1403 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=Social CharacterOffsetBegin=1404 CharacterOffsetEnd=1410 PartOfSpeech=NNP Lemma=Social NamedEntityTag=ORGANIZATION] [Text=Security CharacterOffsetBegin=1411 CharacterOffsetEnd=1419 PartOfSpeech=NNP Lemma=Security NamedEntityTag=ORGANIZATION] [Text=will CharacterOffsetBegin=1420 CharacterOffsetEnd=1424 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=bring CharacterOffsetBegin=1425 CharacterOffsetEnd=1430 PartOfSpeech=VB Lemma=bring NamedEntityTag=O] [Text=in CharacterOffsetBegin=1431 CharacterOffsetEnd=1433 PartOfSpeech=RP Lemma=in NamedEntityTag=O] [Text=enough CharacterOffsetBegin=1434 CharacterOffsetEnd=1440 PartOfSpeech=JJ Lemma=enough NamedEntityTag=O] [Text=to CharacterOffsetBegin=1441 CharacterOffsetEnd=1443 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=cover CharacterOffsetBegin=1444 CharacterOffsetEnd=1449 PartOfSpeech=VB Lemma=cover NamedEntityTag=O] [Text=75 CharacterOffsetBegin=1450 CharacterOffsetEnd=1452 PartOfSpeech=CD Lemma=75 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%75.0] [Text=percent CharacterOffsetBegin=1453 CharacterOffsetEnd=1460 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%75.0] [Text=of CharacterOffsetBegin=1461 CharacterOffsetEnd=1463 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=promised CharacterOffsetBegin=1464 CharacterOffsetEnd=1472 PartOfSpeech=VBN Lemma=promise NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=1473 CharacterOffsetEnd=1481 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=. CharacterOffsetBegin=1481 CharacterOffsetEnd=1482 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (DT that)))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ _s)
+      (VP (VBN expected)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Social) (NNP Security))
+            (VP (MD will)
+              (VP (VB bring)
+                (PRT (RP in))
+                (S
+                  (ADJP (JJ enough)
+                    (S
+                      (VP (TO to)
+                        (VP (VB cover)
+                          (NP
+                            (NP (CD 75) (NN percent))
+                            (PP (IN of)
+                              (NP (VBN promised) (NNS benefits)))))))))))))))
+    (. .)))
+
+root(ROOT-0, expected-6)
+prep_after(expected-6, that-2)
+nsubjpass(expected-6, it-4)
+auxpass(expected-6, _s-5)
+mark(bring-11, that-7)
+nn(Security-9, Social-8)
+nsubj(bring-11, Security-9)
+aux(bring-11, will-10)
+ccomp(expected-6, bring-11)
+prt(bring-11, in-12)
+dep(bring-11, enough-13)
+aux(cover-15, to-14)
+xcomp(enough-13, cover-15)
+num(percent-17, 75-16)
+dobj(cover-15, percent-17)
+amod(benefits-20, promised-19)
+prep_of(percent-17, benefits-20)
+
+Sentence #14 (11 tokens):
+If things don’t change, you can plan accordingly.
+[Text=If CharacterOffsetBegin=1483 CharacterOffsetEnd=1485 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=things CharacterOffsetBegin=1486 CharacterOffsetEnd=1492 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O] [Text=do CharacterOffsetBegin=1493 CharacterOffsetEnd=1495 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1495 CharacterOffsetEnd=1498 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=change CharacterOffsetBegin=1499 CharacterOffsetEnd=1505 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=, CharacterOffsetBegin=1505 CharacterOffsetEnd=1506 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=1507 CharacterOffsetEnd=1510 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=can CharacterOffsetBegin=1511 CharacterOffsetEnd=1514 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=plan CharacterOffsetBegin=1515 CharacterOffsetEnd=1519 PartOfSpeech=VB Lemma=plan NamedEntityTag=O] [Text=accordingly CharacterOffsetBegin=1520 CharacterOffsetEnd=1531 PartOfSpeech=RB Lemma=accordingly NamedEntityTag=O] [Text=. CharacterOffsetBegin=1531 CharacterOffsetEnd=1532 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNS things))
+        (VP (VBP do) (RB n_t)
+          (VP (VB change)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB plan)
+        (ADVP (RB accordingly))))
+    (. .)))
+
+root(ROOT-0, plan-9)
+mark(change-5, If-1)
+nsubj(change-5, things-2)
+aux(change-5, do-3)
+neg(change-5, n_t-4)
+advcl(plan-9, change-5)
+nsubj(plan-9, you-7)
+aux(plan-9, can-8)
+advmod(plan-9, accordingly-10)
+
+Sentence #15 (5 tokens):
+The wildcard is politics.
+[Text=The CharacterOffsetBegin=1533 CharacterOffsetEnd=1536 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wildcard CharacterOffsetBegin=1537 CharacterOffsetEnd=1545 PartOfSpeech=NN Lemma=wildcard NamedEntityTag=O] [Text=is CharacterOffsetBegin=1546 CharacterOffsetEnd=1548 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=politics CharacterOffsetBegin=1549 CharacterOffsetEnd=1557 PartOfSpeech=NNS Lemma=politics NamedEntityTag=O] [Text=. CharacterOffsetBegin=1557 CharacterOffsetEnd=1558 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN wildcard))
+    (VP (VBZ is)
+      (NP (NNS politics)))
+    (. .)))
+
+root(ROOT-0, politics-4)
+det(wildcard-2, The-1)
+nsubj(politics-4, wildcard-2)
+cop(politics-4, is-3)
+
+Sentence #16 (11 tokens):
+Several presidential candidates are proposing further changes to Social Security.
+[Text=Several CharacterOffsetBegin=1559 CharacterOffsetEnd=1566 PartOfSpeech=JJ Lemma=several NamedEntityTag=O] [Text=presidential CharacterOffsetBegin=1567 CharacterOffsetEnd=1579 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=candidates CharacterOffsetBegin=1580 CharacterOffsetEnd=1590 PartOfSpeech=NNS Lemma=candidate NamedEntityTag=O] [Text=are CharacterOffsetBegin=1591 CharacterOffsetEnd=1594 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=proposing CharacterOffsetBegin=1595 CharacterOffsetEnd=1604 PartOfSpeech=VBG Lemma=propose NamedEntityTag=O] [Text=further CharacterOffsetBegin=1605 CharacterOffsetEnd=1612 PartOfSpeech=JJ Lemma=further NamedEntityTag=O] [Text=changes CharacterOffsetBegin=1613 CharacterOffsetEnd=1620 PartOfSpeech=NNS Lemma=change NamedEntityTag=O] [Text=to CharacterOffsetBegin=1621 CharacterOffsetEnd=1623 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Social CharacterOffsetBegin=1624 CharacterOffsetEnd=1630 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=1631 CharacterOffsetEnd=1639 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=. CharacterOffsetBegin=1639 CharacterOffsetEnd=1640 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Several) (JJ presidential) (NNS candidates))
+    (VP (VBP are)
+      (VP (VBG proposing)
+        (NP (JJ further) (NNS changes))
+        (PP (TO to)
+          (NP (NNP Social) (NNP Security)))))
+    (. .)))
+
+root(ROOT-0, proposing-5)
+amod(candidates-3, Several-1)
+amod(candidates-3, presidential-2)
+nsubj(proposing-5, candidates-3)
+aux(proposing-5, are-4)
+amod(changes-7, further-6)
+dobj(proposing-5, changes-7)
+nn(Security-10, Social-9)
+prep_to(proposing-5, Security-10)
+
+Sentence #17 (36 tokens):
+But until Congress and some future president agree on how to revamp the system, the focus is on 2017—a further drop in benefits if you plan to take Social Security at 62.
+[Text=But CharacterOffsetBegin=1641 CharacterOffsetEnd=1644 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=until CharacterOffsetBegin=1645 CharacterOffsetEnd=1650 PartOfSpeech=IN Lemma=until NamedEntityTag=O] [Text=Congress CharacterOffsetBegin=1651 CharacterOffsetEnd=1659 PartOfSpeech=NNP Lemma=Congress NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=1660 CharacterOffsetEnd=1663 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=some CharacterOffsetBegin=1664 CharacterOffsetEnd=1668 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=future CharacterOffsetBegin=1669 CharacterOffsetEnd=1675 PartOfSpeech=JJ Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t10" type="DATE" value="FUTURE_REF">future<_TIMEX3>] [Text=president CharacterOffsetBegin=1676 CharacterOffsetEnd=1685 PartOfSpeech=NN Lemma=president NamedEntityTag=O] [Text=agree CharacterOffsetBegin=1686 CharacterOffsetEnd=1691 PartOfSpeech=VBP Lemma=agree NamedEntityTag=O] [Text=on CharacterOffsetBegin=1692 CharacterOffsetEnd=1694 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=how CharacterOffsetBegin=1695 CharacterOffsetEnd=1698 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=to CharacterOffsetBegin=1699 CharacterOffsetEnd=1701 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=revamp CharacterOffsetBegin=1702 CharacterOffsetEnd=1708 PartOfSpeech=VB Lemma=revamp NamedEntityTag=O] [Text=the CharacterOffsetBegin=1709 CharacterOffsetEnd=1712 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=system CharacterOffsetBegin=1713 CharacterOffsetEnd=1719 PartOfSpeech=NN Lemma=system NamedEntityTag=O] [Text=, CharacterOffsetBegin=1719 CharacterOffsetEnd=1720 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1721 CharacterOffsetEnd=1724 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=focus CharacterOffsetBegin=1725 CharacterOffsetEnd=1730 PartOfSpeech=NN Lemma=focus NamedEntityTag=O] [Text=is CharacterOffsetBegin=1731 CharacterOffsetEnd=1733 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=on CharacterOffsetBegin=1734 CharacterOffsetEnd=1736 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=2017 CharacterOffsetBegin=1737 CharacterOffsetEnd=1741 PartOfSpeech=CD Lemma=2017 NamedEntityTag=DATE NormalizedNamedEntityTag=2017 Timex=<TIMEX3 tid="t11" type="DATE" value="2017">2017<_TIMEX3>] [Text=-- CharacterOffsetBegin=1741 CharacterOffsetEnd=1742 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=a CharacterOffsetBegin=1742 CharacterOffsetEnd=1743 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=further CharacterOffsetBegin=1744 CharacterOffsetEnd=1751 PartOfSpeech=JJ Lemma=further NamedEntityTag=O] [Text=drop CharacterOffsetBegin=1752 CharacterOffsetEnd=1756 PartOfSpeech=NN Lemma=drop NamedEntityTag=O] [Text=in CharacterOffsetBegin=1757 CharacterOffsetEnd=1759 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=benefits CharacterOffsetBegin=1760 CharacterOffsetEnd=1768 PartOfSpeech=NNS Lemma=benefit NamedEntityTag=O] [Text=if CharacterOffsetBegin=1769 CharacterOffsetEnd=1771 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1772 CharacterOffsetEnd=1775 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=plan CharacterOffsetBegin=1776 CharacterOffsetEnd=1780 PartOfSpeech=VBP Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=1781 CharacterOffsetEnd=1783 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=take CharacterOffsetBegin=1784 CharacterOffsetEnd=1788 PartOfSpeech=VB Lemma=take NamedEntityTag=O] [Text=Social CharacterOffsetBegin=1789 CharacterOffsetEnd=1795 PartOfSpeech=NNP Lemma=Social NamedEntityTag=O] [Text=Security CharacterOffsetBegin=1796 CharacterOffsetEnd=1804 PartOfSpeech=NNP Lemma=Security NamedEntityTag=O] [Text=at CharacterOffsetBegin=1805 CharacterOffsetEnd=1807 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=62 CharacterOffsetBegin=1808 CharacterOffsetEnd=1810 PartOfSpeech=CD Lemma=62 NamedEntityTag=NUMBER NormalizedNamedEntityTag=62.0] [Text=. CharacterOffsetBegin=1810 CharacterOffsetEnd=1811 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC But)
+    (SBAR (IN until)
+      (S
+        (NP
+          (NP (NNP Congress))
+          (CC and)
+          (NP (DT some) (JJ future) (NN president)))
+        (VP (VBP agree)
+          (PP (IN on)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (VP (TO to)
+                  (VP (VB revamp)
+                    (NP (DT the) (NN system))))))))))
+    (, ,)
+    (NP (DT the) (NN focus))
+    (VP (VBZ is)
+      (PP (IN on)
+        (NP
+          (NP (CD 2017))
+          (: --)
+          (NP
+            (NP (DT a) (JJ further) (NN drop))
+            (PP (IN in)
+              (NP (NNS benefits))))))
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBP plan)
+            (S
+              (VP (TO to)
+                (VP (VB take)
+                  (NP
+                    (NP (NNP Social) (NNP Security))
+                    (PP (IN at)
+                      (NP (CD 62)))))))))))
+    (. .)))
+
+root(ROOT-0, is-18)
+cc(is-18, But-1)
+mark(agree-8, until-2)
+nsubj(agree-8, Congress-3)
+det(president-7, some-5)
+amod(president-7, future-6)
+conj_and(Congress-3, president-7)
+advcl(is-18, agree-8)
+advmod(revamp-12, how-10)
+aux(revamp-12, to-11)
+prepc_on(agree-8, revamp-12)
+det(system-14, the-13)
+dobj(revamp-12, system-14)
+det(focus-17, the-16)
+nsubj(is-18, focus-17)
+prep_on(is-18, 2017-20)
+det(drop-24, a-22)
+amod(drop-24, further-23)
+dep(2017-20, drop-24)
+prep_in(drop-24, benefits-26)
+mark(plan-29, if-27)
+nsubj(plan-29, you-28)
+advcl(is-18, plan-29)
+aux(take-31, to-30)
+xcomp(plan-29, take-31)
+nn(Security-33, Social-32)
+dobj(take-31, Security-33)
+prep_at(Security-33, 62-35)
+
+Sentence #18 (33 tokens):
+--Image credit: Shutterstock
+Also on Patch:
+Stay Connected
+Trending Patch
+Top News USA
+Maryland parents who let their kids walk home alone await ruling on third report of neglect.
+[Text=-- CharacterOffsetBegin=1812 CharacterOffsetEnd=1814 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=Image CharacterOffsetBegin=1814 CharacterOffsetEnd=1819 PartOfSpeech=NN Lemma=image NamedEntityTag=O] [Text=credit CharacterOffsetBegin=1820 CharacterOffsetEnd=1826 PartOfSpeech=NN Lemma=credit NamedEntityTag=O] [Text=: CharacterOffsetBegin=1826 CharacterOffsetEnd=1827 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Shutterstock CharacterOffsetBegin=1828 CharacterOffsetEnd=1840 PartOfSpeech=NNP Lemma=Shutterstock NamedEntityTag=O] [Text=Also CharacterOffsetBegin=1841 CharacterOffsetEnd=1845 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=on CharacterOffsetBegin=1846 CharacterOffsetEnd=1848 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Patch CharacterOffsetBegin=1849 CharacterOffsetEnd=1854 PartOfSpeech=NNP Lemma=Patch NamedEntityTag=O] [Text=: CharacterOffsetBegin=1854 CharacterOffsetEnd=1855 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Stay CharacterOffsetBegin=1856 CharacterOffsetEnd=1860 PartOfSpeech=NNP Lemma=Stay NamedEntityTag=O] [Text=Connected CharacterOffsetBegin=1861 CharacterOffsetEnd=1870 PartOfSpeech=NNP Lemma=Connected NamedEntityTag=O] [Text=Trending CharacterOffsetBegin=1871 CharacterOffsetEnd=1879 PartOfSpeech=VBG Lemma=trend NamedEntityTag=O] [Text=Patch CharacterOffsetBegin=1880 CharacterOffsetEnd=1885 PartOfSpeech=NNP Lemma=Patch NamedEntityTag=O] [Text=Top CharacterOffsetBegin=1886 CharacterOffsetEnd=1889 PartOfSpeech=NNP Lemma=Top NamedEntityTag=O] [Text=News CharacterOffsetBegin=1890 CharacterOffsetEnd=1894 PartOfSpeech=NNP Lemma=News NamedEntityTag=O] [Text=USA CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=NNP Lemma=USA NamedEntityTag=LOCATION] [Text=Maryland CharacterOffsetBegin=1899 CharacterOffsetEnd=1907 PartOfSpeech=NNP Lemma=Maryland NamedEntityTag=LOCATION] [Text=parents CharacterOffsetBegin=1908 CharacterOffsetEnd=1915 PartOfSpeech=NNS Lemma=parent NamedEntityTag=O] [Text=who CharacterOffsetBegin=1916 CharacterOffsetEnd=1919 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=let CharacterOffsetBegin=1920 CharacterOffsetEnd=1923 PartOfSpeech=VBP Lemma=let NamedEntityTag=O] [Text=their CharacterOffsetBegin=1924 CharacterOffsetEnd=1929 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=kids CharacterOffsetBegin=1930 CharacterOffsetEnd=1934 PartOfSpeech=NNS Lemma=kid NamedEntityTag=O] [Text=walk CharacterOffsetBegin=1935 CharacterOffsetEnd=1939 PartOfSpeech=VBP Lemma=walk NamedEntityTag=O] [Text=home CharacterOffsetBegin=1940 CharacterOffsetEnd=1944 PartOfSpeech=NN Lemma=home NamedEntityTag=O] [Text=alone CharacterOffsetBegin=1945 CharacterOffsetEnd=1950 PartOfSpeech=RB Lemma=alone NamedEntityTag=O] [Text=await CharacterOffsetBegin=1951 CharacterOffsetEnd=1956 PartOfSpeech=VBP Lemma=await NamedEntityTag=O] [Text=ruling CharacterOffsetBegin=1957 CharacterOffsetEnd=1963 PartOfSpeech=NN Lemma=ruling NamedEntityTag=O] [Text=on CharacterOffsetBegin=1964 CharacterOffsetEnd=1966 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=third CharacterOffsetBegin=1967 CharacterOffsetEnd=1972 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0] [Text=report CharacterOffsetBegin=1973 CharacterOffsetEnd=1979 PartOfSpeech=NN Lemma=report NamedEntityTag=O] [Text=of CharacterOffsetBegin=1980 CharacterOffsetEnd=1982 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=neglect CharacterOffsetBegin=1983 CharacterOffsetEnd=1990 PartOfSpeech=NN Lemma=neglect NamedEntityTag=O] [Text=. CharacterOffsetBegin=1990 CharacterOffsetEnd=1991 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (: --)
+    (NP
+      (NP (NN Image) (NN credit))
+      (: :)
+      (NP
+        (NP
+          (NP (NNP Shutterstock))
+          (PP
+            (ADVP (RB Also))
+            (IN on)
+            (NP (NNP Patch))))
+        (: :)
+        (NP
+          (NP (NNP Stay) (NNP Connected))
+          (SBAR
+            (S
+              (NP (VBG Trending) (NNP Patch) (NNP Top) (NNP News) (NNP USA) (NNP Maryland) (NNS parents)
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP let)
+                      (NP (PRP$ their) (NNS kids))))))
+              (VP (VBP walk)
+                (NP (NN home))
+                (ADVP (RB alone))))))))
+    (VP (VBP await)
+      (NP (NN ruling))
+      (PP (IN on)
+        (NP
+          (NP (JJ third) (NN report))
+          (PP (IN of)
+            (NP (NN neglect))))))
+    (. .)))
+
+root(ROOT-0, await-26)
+nn(credit-3, Image-2)
+nsubj(await-26, credit-3)
+dep(credit-3, Shutterstock-5)
+advmod(Shutterstock-5, Also-6)
+prep_on(Shutterstock-5, Patch-8)
+nn(Connected-11, Stay-10)
+dep(Shutterstock-5, Connected-11)
+amod(parents-18, Trending-12)
+nn(parents-18, Patch-13)
+nn(parents-18, Top-14)
+nn(parents-18, News-15)
+nn(parents-18, USA-16)
+nn(parents-18, Maryland-17)
+nsubj(walk-23, parents-18)
+nsubj(let-20, who-19)
+ccomp(parents-18, let-20)
+poss(kids-22, their-21)
+dobj(let-20, kids-22)
+rcmod(Connected-11, walk-23)
+dobj(walk-23, home-24)
+advmod(walk-23, alone-25)
+dobj(await-26, ruling-27)
+amod(report-30, third-29)
+prep_on(await-26, report-30)
+prep_of(report-30, neglect-32)
+
+Sentence #19 (9 tokens):
+Their attorney plans to sue police and CPS.
+[Text=Their CharacterOffsetBegin=1992 CharacterOffsetEnd=1997 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=attorney CharacterOffsetBegin=1998 CharacterOffsetEnd=2006 PartOfSpeech=NN Lemma=attorney NamedEntityTag=O] [Text=plans CharacterOffsetBegin=2007 CharacterOffsetEnd=2012 PartOfSpeech=VBZ Lemma=plan NamedEntityTag=O] [Text=to CharacterOffsetBegin=2013 CharacterOffsetEnd=2015 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=sue CharacterOffsetBegin=2016 CharacterOffsetEnd=2019 PartOfSpeech=VB Lemma=sue NamedEntityTag=O] [Text=police CharacterOffsetBegin=2020 CharacterOffsetEnd=2026 PartOfSpeech=NNS Lemma=police NamedEntityTag=O] [Text=and CharacterOffsetBegin=2027 CharacterOffsetEnd=2030 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=CPS CharacterOffsetBegin=2031 CharacterOffsetEnd=2034 PartOfSpeech=NNS Lemma=cp NamedEntityTag=O] [Text=. CharacterOffsetBegin=2034 CharacterOffsetEnd=2035 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ Their) (NN attorney))
+    (VP (VBZ plans)
+      (S
+        (VP (TO to)
+          (VP (VB sue)
+            (NP (NNS police)
+              (CC and)
+              (NNS CPS))))))
+    (. .)))
+
+root(ROOT-0, plans-3)
+poss(attorney-2, Their-1)
+nsubj(plans-3, attorney-2)
+aux(sue-5, to-4)
+xcomp(plans-3, sue-5)
+dobj(sue-5, police-6)
+conj_and(police-6, CPS-8)
+
+Sentence #20 (1 tokens):
+Topics
+[Text=Topics CharacterOffsetBegin=2036 CharacterOffsetEnd=2042 PartOfSpeech=NNS Lemma=topic NamedEntityTag=O] 
+(ROOT
+  (NP (NNS Topics)))
+
+root(ROOT-0, Topics-1)
+
+Coreference set:
+ (9,20,[19,21]) -> (3,24,[23,25]), that is: "Social Security" -> "Social Security"
+ (12,14,[13,15]) -> (3,24,[23,25]), that is: "Social Security" -> "Social Security"
+ (12,17,[17,18]) -> (3,24,[23,25]), that is: "its" -> "Social Security"
+ (13,9,[8,10]) -> (3,24,[23,25]), that is: "Social Security" -> "Social Security"
+ (16,10,[9,11]) -> (3,24,[23,25]), that is: "Social Security" -> "Social Security"
+Coreference set:
+ (3,27,[27,28]) -> (3,5,[2,6]), that is: "its" -> "More than 30 years"
+Coreference set:
+ (17,3,[3,4]) -> (3,19,[17,20]), that is: "Congress" -> "the Democrat-led Congress"
+Coreference set:
+ (3,21,[21,22]) -> (4,2,[1,3]), that is: "changes" -> "Those changes"
+Coreference set:
+ (8,7,[7,8]) -> (4,11,[9,12]), that is: "67" -> "65 to 67"
+Coreference set:
+ (4,7,[5,8]) -> (7,6,[6,7]), that is: "the retirement age" -> "65"
+ (5,1,[1,2]) -> (7,6,[6,7]), that is: "It" -> "65"
+ (7,4,[2,5]) -> (7,6,[6,7]), that is: "the retirement age" -> "65"
+Coreference set:
+ (7,16,[16,17]) -> (6,18,[18,19]), that is: "62" -> "62"
+ (17,35,[35,36]) -> (6,18,[18,19]), that is: "62" -> "62"
+Coreference set:
+ (7,23,[23,24]) -> (7,14,[12,15]), that is: "benefits" -> "Social Security benefits"
+ (17,26,[26,27]) -> (7,14,[12,15]), that is: "benefits" -> "Social Security benefits"
+Coreference set:
+ (8,18,[15,19]) -> (8,12,[9,13]), that is: "a 30 percent reduction" -> "the early retirement penalty"
+Coreference set:
+ (9,15,[15,16]) -> (9,9,[8,10]), that is: "they" -> "some recipients"
+Coreference set:
+ (10,2,[1,7]) -> (10,9,[8,16]), that is: "A cornerstone of the 1983 agreement" -> "the creation of a Social Security Trust Fund"
+Coreference set:
+ (13,2,[2,3]) -> (12,4,[1,5]), that is: "that" -> "The Pew Research Center"
+ (13,4,[4,5]) -> (12,4,[1,5]), that is: "it" -> "The Pew Research Center"
+Coreference set:
+ (18,21,[21,22]) -> (16,3,[1,4]), that is: "their" -> "Several presidential candidates"
+Coreference set:
+ (19,1,[1,2]) -> (18,18,[12,23]), that is: "Their" -> "Trending Patch Top News USA Maryland parents who let their kids"

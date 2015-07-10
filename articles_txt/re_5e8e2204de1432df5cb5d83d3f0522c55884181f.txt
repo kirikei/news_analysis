@@ -1,0 +1,1452 @@
+Sentence #1 (20 tokens):
+Local heroes honored during Henry County Relay for Life
+Henry County held its annual Relay for Life May 2.
+[Text=Local CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=heroes CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NNS Lemma=hero NamedEntityTag=O] [Text=honored CharacterOffsetBegin=13 CharacterOffsetEnd=20 PartOfSpeech=VBN Lemma=honor NamedEntityTag=O] [Text=during CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=Henry CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=Relay CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=Life CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Life NamedEntityTag=ORGANIZATION] [Text=Henry CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=held CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=VBD Lemma=hold NamedEntityTag=O] [Text=its CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=annual CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t1" type="SET" value="P1Y">annual<_TIMEX3>] [Text=Relay CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=May CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-02 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-05-02">May 2<_TIMEX3>] [Text=2 CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=CD Lemma=2 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-02 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-05-02">May 2<_TIMEX3>] [Text=. CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (JJ Local) (NNS heroes))
+      (ADJP (VBN honored)
+        (PP (IN during)
+          (NP
+            (NP (NNP Henry) (NNP County) (NNP Relay))
+            (PP (IN for)
+              (NP (NNP Life) (NNP Henry) (NNP County)))))))
+    (VP (VBD held)
+      (NP (PRP$ its) (JJ annual) (NNP Relay))
+      (PP (IN for)
+        (NP (NNP Life)))
+      (NP-TMP (NNP May) (CD 2)))
+    (. .)))
+
+root(ROOT-0, held-12)
+amod(heroes-2, Local-1)
+nsubj(held-12, heroes-2)
+amod(heroes-2, honored-3)
+nn(Relay-7, Henry-5)
+nn(Relay-7, County-6)
+prep_during(honored-3, Relay-7)
+nn(County-11, Life-9)
+nn(County-11, Henry-10)
+prep_for(Relay-7, County-11)
+poss(Relay-15, its-13)
+amod(Relay-15, annual-14)
+dobj(held-12, Relay-15)
+prep_for(held-12, Life-17)
+tmod(held-12, May-18)
+num(May-18, 2-19)
+
+Sentence #2 (9 tokens):
+More than 200 individuals participated in the event.
+[Text=More CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=200 CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CD Lemma=200 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>200.0] [Text=individuals CharacterOffsetBegin=121 CharacterOffsetEnd=132 PartOfSpeech=NNS Lemma=individual NamedEntityTag=O] [Text=participated CharacterOffsetBegin=133 CharacterOffsetEnd=145 PartOfSpeech=VBD Lemma=participate NamedEntityTag=O] [Text=in CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (QP (JJR More) (IN than) (CD 200))
+      (NNS individuals))
+    (VP (VBD participated)
+      (PP (IN in)
+        (NP (DT the) (NN event))))
+    (. .)))
+
+root(ROOT-0, participated-5)
+mwe(than-2, More-1)
+quantmod(200-3, than-2)
+num(individuals-4, 200-3)
+nsubj(participated-5, individuals-4)
+det(event-8, the-7)
+prep_in(participated-5, event-8)
+
+Sentence #3 (13 tokens):
+The relay kicked off with local cancer survivors leading the first lap.
+[Text=The CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=kicked CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=VBD Lemma=kick NamedEntityTag=O] [Text=off CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=with CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=local CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=JJ Lemma=local NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=survivors CharacterOffsetBegin=199 CharacterOffsetEnd=208 PartOfSpeech=NNS Lemma=survivor NamedEntityTag=O] [Text=leading CharacterOffsetBegin=209 CharacterOffsetEnd=216 PartOfSpeech=VBG Lemma=lead NamedEntityTag=O] [Text=the CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=lap CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=NN Lemma=lap NamedEntityTag=O] [Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN relay))
+    (VP (VBD kicked)
+      (PRT (RP off))
+      (PP (IN with)
+        (NP (JJ local) (NN cancer) (NNS survivors)))
+      (S
+        (VP (VBG leading)
+          (NP (DT the) (JJ first) (NN lap)))))
+    (. .)))
+
+root(ROOT-0, kicked-3)
+det(relay-2, The-1)
+nsubj(kicked-3, relay-2)
+prt(kicked-3, off-4)
+amod(survivors-8, local-6)
+nn(survivors-8, cancer-7)
+prep_with(kicked-3, survivors-8)
+xcomp(kicked-3, leading-9)
+det(lap-12, the-10)
+amod(lap-12, first-11)
+dobj(leading-9, lap-12)
+
+Sentence #4 (23 tokens):
+The Henry County Relay appreciates all of the relay participants for their hard work and dedication in helping find cure for cancer.
+[Text=The CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Henry CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=O] [Text=County CharacterOffsetBegin=242 CharacterOffsetEnd=248 PartOfSpeech=NNP Lemma=County NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=appreciates CharacterOffsetBegin=255 CharacterOffsetEnd=266 PartOfSpeech=VBZ Lemma=appreciate NamedEntityTag=O] [Text=all CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=participants CharacterOffsetBegin=284 CharacterOffsetEnd=296 PartOfSpeech=NNS Lemma=participant NamedEntityTag=O] [Text=for CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=their CharacterOffsetBegin=301 CharacterOffsetEnd=306 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=hard CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=work CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NN Lemma=work NamedEntityTag=O] [Text=and CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=dedication CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=NN Lemma=dedication NamedEntityTag=O] [Text=in CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=helping CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=VBG Lemma=help NamedEntityTag=O] [Text=find CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=VB Lemma=find NamedEntityTag=O] [Text=cure CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN Lemma=cure NamedEntityTag=O] [Text=for CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP Henry) (NNP County) (NNP Relay))
+    (VP (VBZ appreciates)
+      (NP
+        (NP (DT all))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN relay) (NNS participants))
+            (PP (IN for)
+              (NP (PRP$ their) (JJ hard) (NN work)
+                (CC and)
+                (NN dedication))))))
+      (PP (IN in)
+        (S
+          (VP (VBG helping)
+            (S
+              (VP (VB find)
+                (NP (NN cure))
+                (PP (IN for)
+                  (NP (NN cancer)))))))))
+    (. .)))
+
+root(ROOT-0, appreciates-5)
+det(Relay-4, The-1)
+nn(Relay-4, Henry-2)
+nn(Relay-4, County-3)
+nsubj(appreciates-5, Relay-4)
+dobj(appreciates-5, all-6)
+det(participants-10, the-8)
+nn(participants-10, relay-9)
+prep_of(all-6, participants-10)
+poss(work-14, their-12)
+amod(work-14, hard-13)
+prep_for(participants-10, work-14)
+conj_and(work-14, dedication-16)
+prepc_in(appreciates-5, helping-18)
+ccomp(helping-18, find-19)
+dobj(find-19, cure-20)
+prep_for(find-19, cancer-22)
+
+Sentence #5 (28 tokens):
+Posted: Tuesday, May 26, 2015 11:40 am
+Henry County participated in the world’s largest fundraising movement for the American Cancer Society May 2.
+[Text=Posted CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=VBN Lemma=post NamedEntityTag=O] [Text=: CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=373 CharacterOffsetEnd=380 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=, CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=, Lemma=, NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=May CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=26 CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=, CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=2015 CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=11:40 CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=CD Lemma=11:40 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=am CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=VBP Lemma=be NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t3" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=Henry CharacterOffsetBegin=404 CharacterOffsetEnd=409 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=PERSON] [Text=County CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=NNP Lemma=County NamedEntityTag=PERSON] [Text=participated CharacterOffsetBegin=417 CharacterOffsetEnd=429 PartOfSpeech=VBD Lemma=participate NamedEntityTag=O] [Text=in CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=_s CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=largest CharacterOffsetBegin=445 CharacterOffsetEnd=452 PartOfSpeech=JJS Lemma=largest NamedEntityTag=O] [Text=fundraising CharacterOffsetBegin=453 CharacterOffsetEnd=464 PartOfSpeech=VBG Lemma=fundraise NamedEntityTag=O] [Text=movement CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=NN Lemma=movement NamedEntityTag=O] [Text=for CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=American CharacterOffsetBegin=482 CharacterOffsetEnd=490 PartOfSpeech=NNP Lemma=American NamedEntityTag=O] [Text=Cancer CharacterOffsetBegin=491 CharacterOffsetEnd=497 PartOfSpeech=NNP Lemma=Cancer NamedEntityTag=O] [Text=Society CharacterOffsetBegin=498 CharacterOffsetEnd=505 PartOfSpeech=NNP Lemma=Society NamedEntityTag=O] [Text=May CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-02 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-05-02">May 2<_TIMEX3>] [Text=2 CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=CD Lemma=2 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-02 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-05-02">May 2<_TIMEX3>] [Text=. CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (VBN Posted))
+    (: :)
+    (S
+      (NP
+        (NP (NNP Tuesday) (, ,) (NNP May) (CD 26) (, ,) (CD 2015))
+        (NP (CD 11:40)))
+      (VP (VBP am)
+        (NP
+          (NP (NNP Henry) (NNP County))
+          (SBAR
+            (S
+              (VP (VBD participated)
+                (PP (IN in)
+                  (NP
+                    (NP
+                      (NP (DT the) (NN world) (POS _s))
+                      (JJS largest))
+                    (VP (VBG fundraising)
+                      (NP (NN movement))
+                      (PP (IN for)
+                        (NP (DT the) (NNP American) (NNP Cancer) (NNP Society)))
+                      (NP-TMP (NNP May) (CD 2)))))))))))
+    (. .)))
+
+root(ROOT-0, Posted-1)
+nn(May-5, Tuesday-3)
+nsubj(County-12, May-5)
+num(May-5, 26-6)
+num(May-5, 2015-8)
+dep(May-5, 11:40-9)
+cop(County-12, am-10)
+nn(County-12, Henry-11)
+dep(Posted-1, County-12)
+rcmod(County-12, participated-13)
+det(world-16, the-15)
+prep_in(participated-13, world-16)
+possessive(world-16, _s-17)
+amod(world-16, largest-18)
+vmod(world-16, fundraising-19)
+dobj(fundraising-19, movement-20)
+det(Society-25, the-22)
+nn(Society-25, American-23)
+nn(Society-25, Cancer-24)
+prep_for(fundraising-19, Society-25)
+tmod(fundraising-19, May-26)
+num(May-26, 2-27)
+
+Sentence #6 (11 tokens):
+The county held its annual Relay for Life in Headland.
+[Text=The CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=county CharacterOffsetBegin=517 CharacterOffsetEnd=523 PartOfSpeech=NN Lemma=county NamedEntityTag=O] [Text=held CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=VBD Lemma=hold NamedEntityTag=O] [Text=its CharacterOffsetBegin=529 CharacterOffsetEnd=532 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=annual CharacterOffsetBegin=533 CharacterOffsetEnd=539 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t5" type="SET" value="P1Y">annual<_TIMEX3>] [Text=Relay CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=in CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Headland CharacterOffsetBegin=558 CharacterOffsetEnd=566 PartOfSpeech=NNP Lemma=Headland NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN county))
+    (VP (VBD held)
+      (NP (PRP$ its) (JJ annual) (NNP Relay))
+      (PP (IN for)
+        (NP (NNP Life)))
+      (PP (IN in)
+        (NP (NNP Headland))))
+    (. .)))
+
+root(ROOT-0, held-3)
+det(county-2, The-1)
+nsubj(held-3, county-2)
+poss(Relay-6, its-4)
+amod(Relay-6, annual-5)
+dobj(held-3, Relay-6)
+prep_for(held-3, Life-8)
+prep_in(held-3, Headland-10)
+
+Sentence #7 (18 tokens):
+“The relay went great,” said Joy Brigham, community manager for Relay for Life.
+[Text=`` CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=573 CharacterOffsetEnd=578 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=went CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=great CharacterOffsetBegin=584 CharacterOffsetEnd=589 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=, CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=said CharacterOffsetBegin=592 CharacterOffsetEnd=596 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Joy CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=PERSON] [Text=Brigham CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=NNP Lemma=Brigham NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=community CharacterOffsetBegin=610 CharacterOffsetEnd=619 PartOfSpeech=NN Lemma=community NamedEntityTag=O] [Text=manager CharacterOffsetBegin=620 CharacterOffsetEnd=627 PartOfSpeech=NN Lemma=manager NamedEntityTag=O] [Text=for CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Relay CharacterOffsetBegin=632 CharacterOffsetEnd=637 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=O] [Text=for CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Life CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=NNP Lemma=Life NamedEntityTag=O] [Text=. CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (DT The) (NN relay))
+      (VP (VBD went)
+        (ADJP (JJ great))))
+    (, ,) (__ __)
+    (VP (VBD said))
+    (NP
+      (NP (NNP Joy) (NNP Brigham))
+      (, ,)
+      (NP
+        (NP (NN community) (NN manager))
+        (PP (IN for)
+          (NP
+            (NP (NNP Relay))
+            (PP (IN for)
+              (NP (NNP Life)))))))
+    (. .)))
+
+root(ROOT-0, said-8)
+det(relay-3, The-2)
+nsubj(went-4, relay-3)
+ccomp(said-8, went-4)
+acomp(went-4, great-5)
+nn(Brigham-10, Joy-9)
+nsubj(said-8, Brigham-10)
+nn(manager-13, community-12)
+appos(Brigham-10, manager-13)
+prep_for(manager-13, Relay-15)
+prep_for(Relay-15, Life-17)
+
+Sentence #8 (18 tokens):
+“The weather cooperated with us, and we had great entertainment provided throughout the event.”
+[Text=`` CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=The CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=weather CharacterOffsetBegin=653 CharacterOffsetEnd=660 PartOfSpeech=NN Lemma=weather NamedEntityTag=O] [Text=cooperated CharacterOffsetBegin=661 CharacterOffsetEnd=671 PartOfSpeech=VBD Lemma=cooperate NamedEntityTag=O] [Text=with CharacterOffsetBegin=672 CharacterOffsetEnd=676 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=us CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=, CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=681 CharacterOffsetEnd=684 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=had CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=great CharacterOffsetBegin=692 CharacterOffsetEnd=697 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=entertainment CharacterOffsetBegin=698 CharacterOffsetEnd=711 PartOfSpeech=NN Lemma=entertainment NamedEntityTag=O] [Text=provided CharacterOffsetBegin=712 CharacterOffsetEnd=720 PartOfSpeech=VBN Lemma=provide NamedEntityTag=O] [Text=throughout CharacterOffsetBegin=721 CharacterOffsetEnd=731 PartOfSpeech=IN Lemma=throughout NamedEntityTag=O] [Text=the CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=736 CharacterOffsetEnd=741 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=. CharacterOffsetBegin=741 CharacterOffsetEnd=742 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (DT The) (NN weather))
+      (VP (VBD cooperated)
+        (PP (IN with)
+          (NP (PRP us)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBD had)
+        (NP
+          (NP (JJ great) (NN entertainment))
+          (VP (VBN provided)
+            (PP (IN throughout)
+              (NP (DT the) (NN event)))))))
+    (. .) (__ __)))
+
+root(ROOT-0, cooperated-4)
+det(weather-3, The-2)
+nsubj(cooperated-4, weather-3)
+prep_with(cooperated-4, us-6)
+nsubj(had-10, we-9)
+conj_and(cooperated-4, had-10)
+amod(entertainment-12, great-11)
+dobj(had-10, entertainment-12)
+vmod(entertainment-12, provided-13)
+det(event-16, the-15)
+prep_throughout(provided-13, event-16)
+
+Sentence #9 (16 tokens):
+The goal for the 2015 Henry County Relay for Life was set at $40,000.
+[Text=The CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=goal CharacterOffsetBegin=748 CharacterOffsetEnd=752 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=for CharacterOffsetBegin=753 CharacterOffsetEnd=756 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=761 CharacterOffsetEnd=765 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t6" type="DATE" value="2015">2015<_TIMEX3>] [Text=Henry CharacterOffsetBegin=766 CharacterOffsetEnd=771 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=Relay CharacterOffsetBegin=779 CharacterOffsetEnd=784 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=Life CharacterOffsetBegin=789 CharacterOffsetEnd=793 PartOfSpeech=NNP Lemma=Life NamedEntityTag=ORGANIZATION] [Text=was CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=set CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=VBN Lemma=set NamedEntityTag=O] [Text=at CharacterOffsetBegin=802 CharacterOffsetEnd=804 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=$ CharacterOffsetBegin=805 CharacterOffsetEnd=806 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$40000.0] [Text=40,000 CharacterOffsetBegin=806 CharacterOffsetEnd=812 PartOfSpeech=CD Lemma=40,000 NamedEntityTag=MONEY NormalizedNamedEntityTag=$40000.0] [Text=. CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN goal))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (CD 2015) (NNP Henry) (NNP County) (NNP Relay))
+          (PP (IN for)
+            (NP (NNP Life))))))
+    (VP (VBD was)
+      (VP (VBN set)
+        (PP (IN at)
+          (NP ($ $) (CD 40,000)))))
+    (. .)))
+
+root(ROOT-0, set-12)
+det(goal-2, The-1)
+nsubjpass(set-12, goal-2)
+det(Relay-8, the-4)
+num(Relay-8, 2015-5)
+nn(Relay-8, Henry-6)
+nn(Relay-8, County-7)
+prep_for(goal-2, Relay-8)
+prep_for(Relay-8, Life-10)
+auxpass(set-12, was-11)
+prep_at(set-12, dol-14)
+num(dol-14, 40,000-15)
+
+Sentence #10 (21 tokens):
+“We were a little short on meeting our goal by the night of the relay,” Brigham said.
+[Text=`` CharacterOffsetBegin=814 CharacterOffsetEnd=815 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=815 CharacterOffsetEnd=817 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=were CharacterOffsetBegin=818 CharacterOffsetEnd=822 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=little CharacterOffsetBegin=825 CharacterOffsetEnd=831 PartOfSpeech=JJ Lemma=little NamedEntityTag=O] [Text=short CharacterOffsetBegin=832 CharacterOffsetEnd=837 PartOfSpeech=JJ Lemma=short NamedEntityTag=O] [Text=on CharacterOffsetBegin=838 CharacterOffsetEnd=840 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=meeting CharacterOffsetBegin=841 CharacterOffsetEnd=848 PartOfSpeech=VBG Lemma=meet NamedEntityTag=O] [Text=our CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=goal CharacterOffsetBegin=853 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=by CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=the CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=night CharacterOffsetBegin=865 CharacterOffsetEnd=870 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t7" type="TIME" value="TNI">night<_TIMEX3>] [Text=of CharacterOffsetBegin=871 CharacterOffsetEnd=873 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=874 CharacterOffsetEnd=877 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=878 CharacterOffsetEnd=883 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=, CharacterOffsetBegin=883 CharacterOffsetEnd=884 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Brigham CharacterOffsetBegin=886 CharacterOffsetEnd=893 PartOfSpeech=NNP Lemma=Brigham NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=894 CharacterOffsetEnd=898 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=898 CharacterOffsetEnd=899 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP We))
+      (VP (VBD were)
+        (ADJP
+          (NP (DT a) (JJ little))
+          (JJ short))
+        (PP (IN on)
+          (S
+            (VP (VBG meeting)
+              (NP (PRP$ our) (NN goal))
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (NN night))
+                  (PP (IN of)
+                    (NP (DT the) (NN relay))))))))))
+    (, ,) (__ __)
+    (NP (NNP Brigham))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-20)
+nsubj(short-6, We-2)
+cop(short-6, were-3)
+det(little-5, a-4)
+npadvmod(short-6, little-5)
+ccomp(said-20, short-6)
+prepc_on(short-6, meeting-8)
+poss(goal-10, our-9)
+dobj(meeting-8, goal-10)
+det(night-13, the-12)
+prep_by(meeting-8, night-13)
+det(relay-16, the-15)
+prep_of(night-13, relay-16)
+nsubj(said-20, Brigham-19)
+
+Sentence #11 (10 tokens):
+“So far, we have raised $37,000.
+[Text=`` CharacterOffsetBegin=900 CharacterOffsetEnd=901 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=So CharacterOffsetBegin=901 CharacterOffsetEnd=903 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=904 CharacterOffsetEnd=907 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=, CharacterOffsetBegin=907 CharacterOffsetEnd=908 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=we CharacterOffsetBegin=909 CharacterOffsetEnd=911 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=have CharacterOffsetBegin=912 CharacterOffsetEnd=916 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=raised CharacterOffsetBegin=917 CharacterOffsetEnd=923 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O] [Text=$ CharacterOffsetBegin=924 CharacterOffsetEnd=925 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$37000.0] [Text=37,000 CharacterOffsetBegin=925 CharacterOffsetEnd=931 PartOfSpeech=CD Lemma=37,000 NamedEntityTag=MONEY NormalizedNamedEntityTag=$37000.0] [Text=. CharacterOffsetBegin=931 CharacterOffsetEnd=932 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (ADVP (RB So) (RB far))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP have)
+      (VP (VBN raised)
+        (NP ($ $) (CD 37,000))))
+    (. .)))
+
+root(ROOT-0, raised-7)
+advmod(far-3, So-2)
+advmod(raised-7, far-3)
+nsubj(raised-7, we-5)
+aux(raised-7, have-6)
+dobj(raised-7, dol-8)
+num(dol-8, 37,000-9)
+
+Sentence #12 (26 tokens):
+However, fund-raising events are still taking place, and additional events will be scheduled in the near future to help us reach our goal.
+[Text=However CharacterOffsetBegin=933 CharacterOffsetEnd=940 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=940 CharacterOffsetEnd=941 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=fund-raising CharacterOffsetBegin=942 CharacterOffsetEnd=954 PartOfSpeech=JJ Lemma=fund-raising NamedEntityTag=O] [Text=events CharacterOffsetBegin=955 CharacterOffsetEnd=961 PartOfSpeech=NNS Lemma=event NamedEntityTag=O] [Text=are CharacterOffsetBegin=962 CharacterOffsetEnd=965 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=still CharacterOffsetBegin=966 CharacterOffsetEnd=971 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=taking CharacterOffsetBegin=972 CharacterOffsetEnd=978 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=place CharacterOffsetBegin=979 CharacterOffsetEnd=984 PartOfSpeech=NN Lemma=place NamedEntityTag=O] [Text=, CharacterOffsetBegin=984 CharacterOffsetEnd=985 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=986 CharacterOffsetEnd=989 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=additional CharacterOffsetBegin=990 CharacterOffsetEnd=1000 PartOfSpeech=JJ Lemma=additional NamedEntityTag=O] [Text=events CharacterOffsetBegin=1001 CharacterOffsetEnd=1007 PartOfSpeech=NNS Lemma=event NamedEntityTag=O] [Text=will CharacterOffsetBegin=1008 CharacterOffsetEnd=1012 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=be CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=scheduled CharacterOffsetBegin=1016 CharacterOffsetEnd=1025 PartOfSpeech=VBN Lemma=schedule NamedEntityTag=O] [Text=in CharacterOffsetBegin=1026 CharacterOffsetEnd=1028 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1029 CharacterOffsetEnd=1032 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t8" type="DATE" value="FUTURE_REF">the near future<_TIMEX3>] [Text=near CharacterOffsetBegin=1033 CharacterOffsetEnd=1037 PartOfSpeech=JJ Lemma=near NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t8" type="DATE" value="FUTURE_REF">the near future<_TIMEX3>] [Text=future CharacterOffsetBegin=1038 CharacterOffsetEnd=1044 PartOfSpeech=NN Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t8" type="DATE" value="FUTURE_REF">the near future<_TIMEX3>] [Text=to CharacterOffsetBegin=1045 CharacterOffsetEnd=1047 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=help CharacterOffsetBegin=1048 CharacterOffsetEnd=1052 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=us CharacterOffsetBegin=1053 CharacterOffsetEnd=1055 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=reach CharacterOffsetBegin=1056 CharacterOffsetEnd=1061 PartOfSpeech=VB Lemma=reach NamedEntityTag=O] [Text=our CharacterOffsetBegin=1062 CharacterOffsetEnd=1065 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=goal CharacterOffsetBegin=1066 CharacterOffsetEnd=1070 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=. CharacterOffsetBegin=1070 CharacterOffsetEnd=1071 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (S
+      (NP (JJ fund-raising) (NNS events))
+      (VP (VBP are)
+        (ADVP (RB still))
+        (VP (VBG taking)
+          (NP (NN place)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ additional) (NNS events))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBN scheduled)
+            (PP (IN in)
+              (NP (DT the) (JJ near) (NN future)))
+            (S
+              (VP (TO to)
+                (VP (VB help)
+                  (S
+                    (NP (PRP us))
+                    (VP (VB reach)
+                      (NP (PRP$ our) (NN goal)))))))))))
+    (. .)))
+
+root(ROOT-0, taking-7)
+advmod(taking-7, However-1)
+amod(events-4, fund-raising-3)
+nsubj(taking-7, events-4)
+aux(taking-7, are-5)
+advmod(taking-7, still-6)
+dobj(taking-7, place-8)
+amod(events-12, additional-11)
+nsubjpass(scheduled-15, events-12)
+aux(scheduled-15, will-13)
+auxpass(scheduled-15, be-14)
+conj_and(taking-7, scheduled-15)
+det(future-19, the-17)
+amod(future-19, near-18)
+prep_in(scheduled-15, future-19)
+aux(help-21, to-20)
+xcomp(scheduled-15, help-21)
+nsubj(reach-23, us-22)
+ccomp(help-21, reach-23)
+poss(goal-25, our-24)
+dobj(reach-23, goal-25)
+
+Sentence #13 (10 tokens):
+The cutoff date has been set for August 31.
+[Text=The CharacterOffsetBegin=1072 CharacterOffsetEnd=1075 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=cutoff CharacterOffsetBegin=1076 CharacterOffsetEnd=1082 PartOfSpeech=NN Lemma=cutoff NamedEntityTag=O] [Text=date CharacterOffsetBegin=1083 CharacterOffsetEnd=1087 PartOfSpeech=NN Lemma=date NamedEntityTag=O] [Text=has CharacterOffsetBegin=1088 CharacterOffsetEnd=1091 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=1092 CharacterOffsetEnd=1096 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=set CharacterOffsetBegin=1097 CharacterOffsetEnd=1100 PartOfSpeech=VBN Lemma=set NamedEntityTag=O] [Text=for CharacterOffsetBegin=1101 CharacterOffsetEnd=1104 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=August CharacterOffsetBegin=1105 CharacterOffsetEnd=1111 PartOfSpeech=NNP Lemma=August NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08-31 Timex=<TIMEX3 tid="t9" type="DATE" value="XXXX-08-31">August 31<_TIMEX3>] [Text=31 CharacterOffsetBegin=1112 CharacterOffsetEnd=1114 PartOfSpeech=CD Lemma=31 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-08-31 Timex=<TIMEX3 tid="t9" type="DATE" value="XXXX-08-31">August 31<_TIMEX3>] [Text=. CharacterOffsetBegin=1114 CharacterOffsetEnd=1115 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN cutoff) (NN date))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN set)
+          (PP (IN for)
+            (NP (NNP August) (CD 31))))))
+    (. .)))
+
+root(ROOT-0, set-6)
+det(date-3, The-1)
+nn(date-3, cutoff-2)
+nsubjpass(set-6, date-3)
+aux(set-6, has-4)
+auxpass(set-6, been-5)
+prep_for(set-6, August-8)
+num(August-8, 31-9)
+
+Sentence #14 (11 tokens):
+We feel we will meet our goal by cutoff.”
+[Text=We CharacterOffsetBegin=1116 CharacterOffsetEnd=1118 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=feel CharacterOffsetBegin=1119 CharacterOffsetEnd=1123 PartOfSpeech=VBP Lemma=feel NamedEntityTag=O] [Text=we CharacterOffsetBegin=1124 CharacterOffsetEnd=1126 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=will CharacterOffsetBegin=1127 CharacterOffsetEnd=1131 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=meet CharacterOffsetBegin=1132 CharacterOffsetEnd=1136 PartOfSpeech=VB Lemma=meet NamedEntityTag=O] [Text=our CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=goal CharacterOffsetBegin=1141 CharacterOffsetEnd=1145 PartOfSpeech=NN Lemma=goal NamedEntityTag=O] [Text=by CharacterOffsetBegin=1146 CharacterOffsetEnd=1148 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=cutoff CharacterOffsetBegin=1149 CharacterOffsetEnd=1155 PartOfSpeech=NN Lemma=cutoff NamedEntityTag=O] [Text=. CharacterOffsetBegin=1155 CharacterOffsetEnd=1156 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1156 CharacterOffsetEnd=1157 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP feel)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (MD will)
+            (VP (VB meet)
+              (NP (PRP$ our) (NN goal))
+              (PP (IN by)
+                (NP (NN cutoff))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, feel-2)
+nsubj(feel-2, We-1)
+nsubj(meet-5, we-3)
+aux(meet-5, will-4)
+ccomp(feel-2, meet-5)
+poss(goal-7, our-6)
+dobj(meet-5, goal-7)
+prep_by(meet-5, cutoff-9)
+
+Sentence #15 (10 tokens):
+Henry County had 19 teams participate in the relay.
+[Text=Henry CharacterOffsetBegin=1158 CharacterOffsetEnd=1163 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=PERSON] [Text=County CharacterOffsetBegin=1164 CharacterOffsetEnd=1170 PartOfSpeech=NNP Lemma=County NamedEntityTag=PERSON] [Text=had CharacterOffsetBegin=1171 CharacterOffsetEnd=1174 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=19 CharacterOffsetBegin=1175 CharacterOffsetEnd=1177 PartOfSpeech=CD Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0] [Text=teams CharacterOffsetBegin=1178 CharacterOffsetEnd=1183 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=participate CharacterOffsetBegin=1184 CharacterOffsetEnd=1195 PartOfSpeech=VBP Lemma=participate NamedEntityTag=O] [Text=in CharacterOffsetBegin=1196 CharacterOffsetEnd=1198 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1199 CharacterOffsetEnd=1202 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=1203 CharacterOffsetEnd=1208 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=. CharacterOffsetBegin=1208 CharacterOffsetEnd=1209 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Henry) (NNP County))
+    (VP (VBD had)
+      (NP
+        (NP (CD 19) (NNS teams))
+        (SBAR
+          (S
+            (VP (VBP participate)
+              (PP (IN in)
+                (NP (DT the) (NN relay))))))))
+    (. .)))
+
+root(ROOT-0, had-3)
+nn(County-2, Henry-1)
+nsubj(had-3, County-2)
+num(teams-5, 19-4)
+dobj(had-3, teams-5)
+rcmod(teams-5, participate-6)
+det(relay-9, the-8)
+prep_in(participate-6, relay-9)
+
+Sentence #16 (23 tokens):
+More than 200 individuals attended to honors those who have won the fight and those who gave their all during their fight.
+[Text=More CharacterOffsetBegin=1210 CharacterOffsetEnd=1214 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=than CharacterOffsetBegin=1215 CharacterOffsetEnd=1219 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=200 CharacterOffsetBegin=1220 CharacterOffsetEnd=1223 PartOfSpeech=CD Lemma=200 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>200.0] [Text=individuals CharacterOffsetBegin=1224 CharacterOffsetEnd=1235 PartOfSpeech=NNS Lemma=individual NamedEntityTag=O] [Text=attended CharacterOffsetBegin=1236 CharacterOffsetEnd=1244 PartOfSpeech=VBD Lemma=attend NamedEntityTag=O] [Text=to CharacterOffsetBegin=1245 CharacterOffsetEnd=1247 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=honors CharacterOffsetBegin=1248 CharacterOffsetEnd=1254 PartOfSpeech=NNS Lemma=honor NamedEntityTag=O] [Text=those CharacterOffsetBegin=1255 CharacterOffsetEnd=1260 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=who CharacterOffsetBegin=1261 CharacterOffsetEnd=1264 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=1265 CharacterOffsetEnd=1269 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=won CharacterOffsetBegin=1270 CharacterOffsetEnd=1273 PartOfSpeech=VBN Lemma=win NamedEntityTag=O] [Text=the CharacterOffsetBegin=1274 CharacterOffsetEnd=1277 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fight CharacterOffsetBegin=1278 CharacterOffsetEnd=1283 PartOfSpeech=NN Lemma=fight NamedEntityTag=O] [Text=and CharacterOffsetBegin=1284 CharacterOffsetEnd=1287 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=those CharacterOffsetBegin=1288 CharacterOffsetEnd=1293 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=who CharacterOffsetBegin=1294 CharacterOffsetEnd=1297 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=gave CharacterOffsetBegin=1298 CharacterOffsetEnd=1302 PartOfSpeech=VBD Lemma=give NamedEntityTag=O] [Text=their CharacterOffsetBegin=1303 CharacterOffsetEnd=1308 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=all CharacterOffsetBegin=1309 CharacterOffsetEnd=1312 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=during CharacterOffsetBegin=1313 CharacterOffsetEnd=1319 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=their CharacterOffsetBegin=1320 CharacterOffsetEnd=1325 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=fight CharacterOffsetBegin=1326 CharacterOffsetEnd=1331 PartOfSpeech=NN Lemma=fight NamedEntityTag=O] [Text=. CharacterOffsetBegin=1331 CharacterOffsetEnd=1332 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (QP (JJR More) (IN than) (CD 200))
+      (NNS individuals))
+    (VP (VBD attended)
+      (PP (TO to)
+        (NP (NNS honors)))
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP have)
+              (VP (VBN won)
+                (NP
+                  (NP (DT the) (NN fight))
+                  (CC and)
+                  (NP
+                    (NP (DT those))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBD gave)
+                          (NP (PRP$ their))
+                          (NP
+                            (NP (DT all))
+                            (PP (IN during)
+                              (NP (PRP$ their) (NN fight)))))))))))))))
+    (. .)))
+
+root(ROOT-0, attended-5)
+mwe(than-2, More-1)
+quantmod(200-3, than-2)
+num(individuals-4, 200-3)
+nsubj(attended-5, individuals-4)
+prep_to(attended-5, honors-7)
+dobj(attended-5, those-8)
+nsubj(won-11, who-9)
+aux(won-11, have-10)
+rcmod(those-8, won-11)
+det(fight-13, the-12)
+dobj(won-11, fight-13)
+conj_and(fight-13, those-15)
+nsubj(gave-17, who-16)
+rcmod(those-15, gave-17)
+dep(gave-17, their-18)
+dobj(gave-17, all-19)
+poss(fight-22, their-21)
+prep_during(all-19, fight-22)
+
+Sentence #17 (27 tokens):
+“All of our teams worked very hard in making sure this year’s event was a success, and it was,” Brigham said.
+[Text=`` CharacterOffsetBegin=1333 CharacterOffsetEnd=1334 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=All CharacterOffsetBegin=1334 CharacterOffsetEnd=1337 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=1338 CharacterOffsetEnd=1340 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=1341 CharacterOffsetEnd=1344 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=teams CharacterOffsetBegin=1345 CharacterOffsetEnd=1350 PartOfSpeech=NNS Lemma=team NamedEntityTag=O] [Text=worked CharacterOffsetBegin=1351 CharacterOffsetEnd=1357 PartOfSpeech=VBD Lemma=work NamedEntityTag=O] [Text=very CharacterOffsetBegin=1358 CharacterOffsetEnd=1362 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=hard CharacterOffsetBegin=1363 CharacterOffsetEnd=1367 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=in CharacterOffsetBegin=1368 CharacterOffsetEnd=1370 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=making CharacterOffsetBegin=1371 CharacterOffsetEnd=1377 PartOfSpeech=VBG Lemma=make NamedEntityTag=O] [Text=sure CharacterOffsetBegin=1378 CharacterOffsetEnd=1382 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O] [Text=this CharacterOffsetBegin=1383 CharacterOffsetEnd=1387 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=1388 CharacterOffsetEnd=1392 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=_s CharacterOffsetBegin=1392 CharacterOffsetEnd=1394 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=event CharacterOffsetBegin=1395 CharacterOffsetEnd=1400 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=was CharacterOffsetBegin=1401 CharacterOffsetEnd=1404 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1405 CharacterOffsetEnd=1406 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=success CharacterOffsetBegin=1407 CharacterOffsetEnd=1414 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=, CharacterOffsetBegin=1414 CharacterOffsetEnd=1415 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1416 CharacterOffsetEnd=1419 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=it CharacterOffsetBegin=1420 CharacterOffsetEnd=1422 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=, CharacterOffsetBegin=1426 CharacterOffsetEnd=1427 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1427 CharacterOffsetEnd=1428 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Brigham CharacterOffsetBegin=1429 CharacterOffsetEnd=1436 PartOfSpeech=NNP Lemma=Brigham NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=1437 CharacterOffsetEnd=1441 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1441 CharacterOffsetEnd=1442 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP
+          (NP (DT All))
+          (PP (IN of)
+            (NP (PRP$ our) (NNS teams))))
+        (VP (VBD worked)
+          (ADJP (RB very) (JJ hard))
+          (PP (IN in)
+            (S
+              (VP (VBG making)
+                (ADJP (JJ sure)
+                  (SBAR
+                    (S
+                      (NP
+                        (NP (DT this) (NN year) (POS _s))
+                        (NN event))
+                      (VP (VBD was)
+                        (NP (DT a) (NN success)))))))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBD was))))
+    (, ,) (__ __)
+    (NP (NNP Brigham))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-26)
+nsubj(worked-6, All-2)
+poss(teams-5, our-4)
+prep_of(All-2, teams-5)
+ccomp(said-26, worked-6)
+advmod(hard-8, very-7)
+acomp(worked-6, hard-8)
+prepc_in(worked-6, making-10)
+acomp(making-10, sure-11)
+det(year-13, this-12)
+poss(event-15, year-13)
+nsubj(success-18, event-15)
+cop(success-18, was-16)
+det(success-18, a-17)
+ccomp(sure-11, success-18)
+nsubj(was-22, it-21)
+conj_and(worked-6, was-22)
+nsubj(said-26, Brigham-25)
+
+Sentence #18 (17 tokens):
+“All funds raised during the event will go to help win the fight against cancer.
+[Text=`` CharacterOffsetBegin=1443 CharacterOffsetEnd=1444 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=All CharacterOffsetBegin=1444 CharacterOffsetEnd=1447 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=funds CharacterOffsetBegin=1448 CharacterOffsetEnd=1453 PartOfSpeech=NNS Lemma=fund NamedEntityTag=O] [Text=raised CharacterOffsetBegin=1454 CharacterOffsetEnd=1460 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O] [Text=during CharacterOffsetBegin=1461 CharacterOffsetEnd=1467 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=1468 CharacterOffsetEnd=1471 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=1472 CharacterOffsetEnd=1477 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=will CharacterOffsetBegin=1478 CharacterOffsetEnd=1482 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=go CharacterOffsetBegin=1483 CharacterOffsetEnd=1485 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1486 CharacterOffsetEnd=1488 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=help CharacterOffsetBegin=1489 CharacterOffsetEnd=1493 PartOfSpeech=VB Lemma=help NamedEntityTag=O] [Text=win CharacterOffsetBegin=1494 CharacterOffsetEnd=1497 PartOfSpeech=VB Lemma=win NamedEntityTag=O] [Text=the CharacterOffsetBegin=1498 CharacterOffsetEnd=1501 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fight CharacterOffsetBegin=1502 CharacterOffsetEnd=1507 PartOfSpeech=NN Lemma=fight NamedEntityTag=O] [Text=against CharacterOffsetBegin=1508 CharacterOffsetEnd=1515 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=1516 CharacterOffsetEnd=1522 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=1522 CharacterOffsetEnd=1523 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (DT All) (NNS funds))
+      (VP (VBN raised)
+        (PP (IN during)
+          (NP (DT the) (NN event)))))
+    (VP (MD will)
+      (VP (VB go)
+        (S
+          (VP (TO to)
+            (VP (VB help)
+              (VP (VB win)
+                (NP
+                  (NP (DT the) (NN fight))
+                  (PP (IN against)
+                    (NP (NN cancer))))))))))
+    (. .)))
+
+root(ROOT-0, go-9)
+det(funds-3, All-2)
+nsubj(go-9, funds-3)
+vmod(funds-3, raised-4)
+det(event-7, the-6)
+prep_during(raised-4, event-7)
+aux(go-9, will-8)
+aux(help-11, to-10)
+xcomp(go-9, help-11)
+xcomp(help-11, win-12)
+det(fight-14, the-13)
+dobj(win-12, fight-14)
+prep_against(fight-14, cancer-16)
+
+Sentence #19 (18 tokens):
+The best news we can share is we had around 90 individuals participate in our survivor dinner.
+[Text=The CharacterOffsetBegin=1524 CharacterOffsetEnd=1527 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=best CharacterOffsetBegin=1528 CharacterOffsetEnd=1532 PartOfSpeech=JJS Lemma=best NamedEntityTag=O] [Text=news CharacterOffsetBegin=1533 CharacterOffsetEnd=1537 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=we CharacterOffsetBegin=1538 CharacterOffsetEnd=1540 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=can CharacterOffsetBegin=1541 CharacterOffsetEnd=1544 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=share CharacterOffsetBegin=1545 CharacterOffsetEnd=1550 PartOfSpeech=VB Lemma=share NamedEntityTag=O] [Text=is CharacterOffsetBegin=1551 CharacterOffsetEnd=1553 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=we CharacterOffsetBegin=1554 CharacterOffsetEnd=1556 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=had CharacterOffsetBegin=1557 CharacterOffsetEnd=1560 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=around CharacterOffsetBegin=1561 CharacterOffsetEnd=1567 PartOfSpeech=IN Lemma=around NamedEntityTag=O] [Text=90 CharacterOffsetBegin=1568 CharacterOffsetEnd=1570 PartOfSpeech=CD Lemma=90 NamedEntityTag=NUMBER NormalizedNamedEntityTag=~90.0] [Text=individuals CharacterOffsetBegin=1571 CharacterOffsetEnd=1582 PartOfSpeech=NNS Lemma=individual NamedEntityTag=O] [Text=participate CharacterOffsetBegin=1583 CharacterOffsetEnd=1594 PartOfSpeech=VBP Lemma=participate NamedEntityTag=O] [Text=in CharacterOffsetBegin=1595 CharacterOffsetEnd=1597 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=our CharacterOffsetBegin=1598 CharacterOffsetEnd=1601 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=survivor CharacterOffsetBegin=1602 CharacterOffsetEnd=1610 PartOfSpeech=NN Lemma=survivor NamedEntityTag=O] [Text=dinner CharacterOffsetBegin=1611 CharacterOffsetEnd=1617 PartOfSpeech=NN Lemma=dinner NamedEntityTag=O] [Text=. CharacterOffsetBegin=1617 CharacterOffsetEnd=1618 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS best) (NN news))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (MD can)
+            (VP (VB share))))))
+    (VP (VBZ is)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBD had)
+            (VP
+              (ADVP (IN around)
+                (NP (CD 90) (NNS individuals)))
+              (VBP participate)
+              (PP (IN in)
+                (NP (PRP$ our) (NN survivor) (NN dinner))))))))
+    (. .)))
+
+root(ROOT-0, is-7)
+det(news-3, The-1)
+amod(news-3, best-2)
+nsubj(is-7, news-3)
+nsubj(share-6, we-4)
+aux(share-6, can-5)
+rcmod(news-3, share-6)
+nsubj(participate-13, we-8)
+aux(participate-13, had-9)
+advmod(participate-13, around-10)
+num(individuals-12, 90-11)
+pobj(around-10, individuals-12)
+ccomp(is-7, participate-13)
+poss(dinner-17, our-15)
+nn(dinner-17, survivor-16)
+prep_in(participate-13, dinner-17)
+
+Sentence #20 (14 tokens):
+That is amazing, and we thank each and every one of them.
+[Text=That CharacterOffsetBegin=1619 CharacterOffsetEnd=1623 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=1624 CharacterOffsetEnd=1626 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=amazing CharacterOffsetBegin=1627 CharacterOffsetEnd=1634 PartOfSpeech=JJ Lemma=amazing NamedEntityTag=O] [Text=, CharacterOffsetBegin=1634 CharacterOffsetEnd=1635 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1636 CharacterOffsetEnd=1639 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=1640 CharacterOffsetEnd=1642 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=thank CharacterOffsetBegin=1643 CharacterOffsetEnd=1648 PartOfSpeech=VBP Lemma=thank NamedEntityTag=O] [Text=each CharacterOffsetBegin=1649 CharacterOffsetEnd=1653 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=and CharacterOffsetBegin=1654 CharacterOffsetEnd=1657 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=every CharacterOffsetBegin=1658 CharacterOffsetEnd=1663 PartOfSpeech=DT Lemma=every NamedEntityTag=O] [Text=one CharacterOffsetBegin=1664 CharacterOffsetEnd=1667 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1668 CharacterOffsetEnd=1670 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=them CharacterOffsetBegin=1671 CharacterOffsetEnd=1675 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=. CharacterOffsetBegin=1675 CharacterOffsetEnd=1676 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBZ is)
+        (ADJP (JJ amazing))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBP thank)
+        (NP
+          (NP (DT each))
+          (CC and)
+          (NP
+            (NP (DT every) (CD one))
+            (PP (IN of)
+              (NP (PRP them)))))))
+    (. .)))
+
+root(ROOT-0, amazing-3)
+nsubj(amazing-3, That-1)
+cop(amazing-3, is-2)
+nsubj(thank-7, we-6)
+conj_and(amazing-3, thank-7)
+dobj(thank-7, each-8)
+det(one-11, every-10)
+conj_and(each-8, one-11)
+prep_of(one-11, them-13)
+
+Sentence #21 (8 tokens):
+That alone is something to cheer about.
+[Text=That CharacterOffsetBegin=1677 CharacterOffsetEnd=1681 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=alone CharacterOffsetBegin=1682 CharacterOffsetEnd=1687 PartOfSpeech=RB Lemma=alone NamedEntityTag=O] [Text=is CharacterOffsetBegin=1688 CharacterOffsetEnd=1690 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=something CharacterOffsetBegin=1691 CharacterOffsetEnd=1700 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=to CharacterOffsetBegin=1701 CharacterOffsetEnd=1703 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=cheer CharacterOffsetBegin=1704 CharacterOffsetEnd=1709 PartOfSpeech=VB Lemma=cheer NamedEntityTag=O] [Text=about CharacterOffsetBegin=1710 CharacterOffsetEnd=1715 PartOfSpeech=RB Lemma=about NamedEntityTag=O] [Text=. CharacterOffsetBegin=1715 CharacterOffsetEnd=1716 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (ADVP (RB alone))
+    (VP (VBZ is)
+      (NP (NN something)
+        (S
+          (VP (TO to)
+            (VP (VB cheer)
+              (ADVP (RB about)))))))
+    (. .)))
+
+root(ROOT-0, something-4)
+nsubj(something-4, That-1)
+advmod(something-4, alone-2)
+cop(something-4, is-3)
+aux(cheer-6, to-5)
+vmod(something-4, cheer-6)
+advmod(cheer-6, about-7)
+
+Sentence #22 (33 tokens):
+The dinner was a huge success, and we thank each and every one of our sponsors who helped make the dinner possible to honor those who have won the fight.”
+[Text=The CharacterOffsetBegin=1717 CharacterOffsetEnd=1720 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=dinner CharacterOffsetBegin=1721 CharacterOffsetEnd=1727 PartOfSpeech=NN Lemma=dinner NamedEntityTag=O] [Text=was CharacterOffsetBegin=1728 CharacterOffsetEnd=1731 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1732 CharacterOffsetEnd=1733 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=huge CharacterOffsetBegin=1734 CharacterOffsetEnd=1738 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O] [Text=success CharacterOffsetBegin=1739 CharacterOffsetEnd=1746 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=, CharacterOffsetBegin=1746 CharacterOffsetEnd=1747 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1748 CharacterOffsetEnd=1751 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=we CharacterOffsetBegin=1752 CharacterOffsetEnd=1754 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=thank CharacterOffsetBegin=1755 CharacterOffsetEnd=1760 PartOfSpeech=VBP Lemma=thank NamedEntityTag=O] [Text=each CharacterOffsetBegin=1761 CharacterOffsetEnd=1765 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=and CharacterOffsetBegin=1766 CharacterOffsetEnd=1769 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=every CharacterOffsetBegin=1770 CharacterOffsetEnd=1775 PartOfSpeech=DT Lemma=every NamedEntityTag=O] [Text=one CharacterOffsetBegin=1776 CharacterOffsetEnd=1779 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=1780 CharacterOffsetEnd=1782 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=1783 CharacterOffsetEnd=1786 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=sponsors CharacterOffsetBegin=1787 CharacterOffsetEnd=1795 PartOfSpeech=NNS Lemma=sponsor NamedEntityTag=O] [Text=who CharacterOffsetBegin=1796 CharacterOffsetEnd=1799 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=helped CharacterOffsetBegin=1800 CharacterOffsetEnd=1806 PartOfSpeech=VBD Lemma=help NamedEntityTag=O] [Text=make CharacterOffsetBegin=1807 CharacterOffsetEnd=1811 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=the CharacterOffsetBegin=1812 CharacterOffsetEnd=1815 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=dinner CharacterOffsetBegin=1816 CharacterOffsetEnd=1822 PartOfSpeech=NN Lemma=dinner NamedEntityTag=O] [Text=possible CharacterOffsetBegin=1823 CharacterOffsetEnd=1831 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O] [Text=to CharacterOffsetBegin=1832 CharacterOffsetEnd=1834 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=honor CharacterOffsetBegin=1835 CharacterOffsetEnd=1840 PartOfSpeech=VB Lemma=honor NamedEntityTag=O] [Text=those CharacterOffsetBegin=1841 CharacterOffsetEnd=1846 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=who CharacterOffsetBegin=1847 CharacterOffsetEnd=1850 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=1851 CharacterOffsetEnd=1855 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=won CharacterOffsetBegin=1856 CharacterOffsetEnd=1859 PartOfSpeech=VBN Lemma=win NamedEntityTag=O] [Text=the CharacterOffsetBegin=1860 CharacterOffsetEnd=1863 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fight CharacterOffsetBegin=1864 CharacterOffsetEnd=1869 PartOfSpeech=NN Lemma=fight NamedEntityTag=O] [Text=. CharacterOffsetBegin=1869 CharacterOffsetEnd=1870 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1870 CharacterOffsetEnd=1871 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN dinner))
+      (VP (VBD was)
+        (NP (DT a) (JJ huge) (NN success))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBP thank)
+        (NP
+          (NP (DT each))
+          (CC and)
+          (NP
+            (NP (DT every) (CD one))
+            (PP (IN of)
+              (NP (PRP$ our) (NNS sponsors)))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD helped)
+                  (VP (VB make)
+                    (S
+                      (NP (DT the) (NN dinner))
+                      (ADJP (JJ possible)
+                        (S
+                          (VP (TO to)
+                            (VP (VB honor)
+                              (NP
+                                (NP (DT those))
+                                (SBAR
+                                  (WHNP (WP who))
+                                  (S
+                                    (VP (VBP have)
+                                      (VP (VBN won)
+                                        (NP (DT the) (NN fight))))))))))))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, success-6)
+det(dinner-2, The-1)
+nsubj(success-6, dinner-2)
+cop(success-6, was-3)
+det(success-6, a-4)
+amod(success-6, huge-5)
+nsubj(thank-10, we-9)
+conj_and(success-6, thank-10)
+dobj(thank-10, each-11)
+det(one-14, every-13)
+conj_and(each-11, one-14)
+poss(sponsors-17, our-16)
+prep_of(one-14, sponsors-17)
+nsubj(helped-19, who-18)
+rcmod(one-14, helped-19)
+dep(helped-19, make-20)
+det(dinner-22, the-21)
+nsubj(possible-23, dinner-22)
+xcomp(make-20, possible-23)
+aux(honor-25, to-24)
+xcomp(possible-23, honor-25)
+dobj(honor-25, those-26)
+nsubj(won-29, who-27)
+aux(won-29, have-28)
+rcmod(those-26, won-29)
+det(fight-31, the-30)
+dobj(won-29, fight-31)
+
+Sentence #23 (23 tokens):
+The Henry County Relay for Life Committee thanks the following sponsors for their participation in either the relay or the survivor dinner.
+[Text=The CharacterOffsetBegin=1872 CharacterOffsetEnd=1875 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Henry CharacterOffsetBegin=1876 CharacterOffsetEnd=1881 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=1882 CharacterOffsetEnd=1888 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=Relay CharacterOffsetBegin=1889 CharacterOffsetEnd=1894 PartOfSpeech=NNP Lemma=Relay NamedEntityTag=ORGANIZATION] [Text=for CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION] [Text=Life CharacterOffsetBegin=1899 CharacterOffsetEnd=1903 PartOfSpeech=NNP Lemma=Life NamedEntityTag=ORGANIZATION] [Text=Committee CharacterOffsetBegin=1904 CharacterOffsetEnd=1913 PartOfSpeech=NNP Lemma=Committee NamedEntityTag=ORGANIZATION] [Text=thanks CharacterOffsetBegin=1914 CharacterOffsetEnd=1920 PartOfSpeech=NNS Lemma=thanks NamedEntityTag=O] [Text=the CharacterOffsetBegin=1921 CharacterOffsetEnd=1924 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=following CharacterOffsetBegin=1925 CharacterOffsetEnd=1934 PartOfSpeech=JJ Lemma=following NamedEntityTag=O] [Text=sponsors CharacterOffsetBegin=1935 CharacterOffsetEnd=1943 PartOfSpeech=NNS Lemma=sponsor NamedEntityTag=O] [Text=for CharacterOffsetBegin=1944 CharacterOffsetEnd=1947 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=their CharacterOffsetBegin=1948 CharacterOffsetEnd=1953 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=participation CharacterOffsetBegin=1954 CharacterOffsetEnd=1967 PartOfSpeech=NN Lemma=participation NamedEntityTag=O] [Text=in CharacterOffsetBegin=1968 CharacterOffsetEnd=1970 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=either CharacterOffsetBegin=1971 CharacterOffsetEnd=1977 PartOfSpeech=CC Lemma=either NamedEntityTag=O] [Text=the CharacterOffsetBegin=1978 CharacterOffsetEnd=1981 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=relay CharacterOffsetBegin=1982 CharacterOffsetEnd=1987 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=or CharacterOffsetBegin=1988 CharacterOffsetEnd=1990 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=the CharacterOffsetBegin=1991 CharacterOffsetEnd=1994 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=survivor CharacterOffsetBegin=1995 CharacterOffsetEnd=2003 PartOfSpeech=NN Lemma=survivor NamedEntityTag=O] [Text=dinner CharacterOffsetBegin=2004 CharacterOffsetEnd=2010 PartOfSpeech=NN Lemma=dinner NamedEntityTag=O] [Text=. CharacterOffsetBegin=2010 CharacterOffsetEnd=2011 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (DT The) (NNP Henry) (NNP County) (NNP Relay))
+      (PP (IN for)
+        (NP
+          (NP (NNP Life) (NNP Committee))
+          (NP (NNS thanks)))))
+    (NP
+      (NP (DT the) (JJ following) (NNS sponsors))
+      (PP (IN for)
+        (NP
+          (NP (PRP$ their) (NN participation))
+          (PP (IN in)
+            (NP (CC either)
+              (NP (DT the) (NN relay))
+              (CC or)
+              (NP (DT the) (NN survivor) (NN dinner)))))))
+    (. .)))
+
+root(ROOT-0, Relay-4)
+det(Relay-4, The-1)
+nn(Relay-4, Henry-2)
+nn(Relay-4, County-3)
+nn(Committee-7, Life-6)
+prep_for(Relay-4, Committee-7)
+dep(Committee-7, thanks-8)
+det(sponsors-11, the-9)
+amod(sponsors-11, following-10)
+dep(Relay-4, sponsors-11)
+poss(participation-14, their-13)
+prep_for(sponsors-11, participation-14)
+preconj(relay-18, either-16)
+det(relay-18, the-17)
+prep_in(participation-14, relay-18)
+det(dinner-22, the-20)
+nn(dinner-22, survivor-21)
+conj_or(relay-18, dinner-22)
+
+Sentence #24 (64 tokens):
+They are FatBacks, H&H Construction, H&M Food Equipment, Pea River Electric, HNB First, Abbeville Kiwanis, Dr. Jimmy King, Carter’s Trophy, Alabama Power Company, Herndon Oil, Great Southern Wood, Henry County Health and Rehabilitation, Southeast Alabama Gas District, Wells Fargo, Billy’s Paint and Body and Headland Family Medicine.
+[Text=They CharacterOffsetBegin=2012 CharacterOffsetEnd=2016 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=are CharacterOffsetBegin=2017 CharacterOffsetEnd=2020 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=FatBacks CharacterOffsetBegin=2021 CharacterOffsetEnd=2029 PartOfSpeech=NNP Lemma=FatBacks NamedEntityTag=O] [Text=, CharacterOffsetBegin=2029 CharacterOffsetEnd=2030 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=H&H CharacterOffsetBegin=2031 CharacterOffsetEnd=2034 PartOfSpeech=NNP Lemma=H&H NamedEntityTag=O] [Text=Construction CharacterOffsetBegin=2035 CharacterOffsetEnd=2047 PartOfSpeech=NNP Lemma=Construction NamedEntityTag=O] [Text=, CharacterOffsetBegin=2047 CharacterOffsetEnd=2048 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=H&M CharacterOffsetBegin=2049 CharacterOffsetEnd=2052 PartOfSpeech=NNP Lemma=H&M NamedEntityTag=ORGANIZATION] [Text=Food CharacterOffsetBegin=2053 CharacterOffsetEnd=2057 PartOfSpeech=NNP Lemma=Food NamedEntityTag=ORGANIZATION] [Text=Equipment CharacterOffsetBegin=2058 CharacterOffsetEnd=2067 PartOfSpeech=NNP Lemma=Equipment NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2067 CharacterOffsetEnd=2068 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Pea CharacterOffsetBegin=2069 CharacterOffsetEnd=2072 PartOfSpeech=NNP Lemma=Pea NamedEntityTag=ORGANIZATION] [Text=River CharacterOffsetBegin=2073 CharacterOffsetEnd=2078 PartOfSpeech=NNP Lemma=River NamedEntityTag=ORGANIZATION] [Text=Electric CharacterOffsetBegin=2079 CharacterOffsetEnd=2087 PartOfSpeech=NNP Lemma=Electric NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2087 CharacterOffsetEnd=2088 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=HNB CharacterOffsetBegin=2089 CharacterOffsetEnd=2092 PartOfSpeech=NNP Lemma=HNB NamedEntityTag=O] [Text=First CharacterOffsetBegin=2093 CharacterOffsetEnd=2098 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=, CharacterOffsetBegin=2098 CharacterOffsetEnd=2099 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Abbeville CharacterOffsetBegin=2100 CharacterOffsetEnd=2109 PartOfSpeech=NNP Lemma=Abbeville NamedEntityTag=ORGANIZATION] [Text=Kiwanis CharacterOffsetBegin=2110 CharacterOffsetEnd=2117 PartOfSpeech=NNP Lemma=Kiwanis NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2117 CharacterOffsetEnd=2118 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Dr. CharacterOffsetBegin=2119 CharacterOffsetEnd=2122 PartOfSpeech=NNP Lemma=Dr. NamedEntityTag=O] [Text=Jimmy CharacterOffsetBegin=2123 CharacterOffsetEnd=2128 PartOfSpeech=NNP Lemma=Jimmy NamedEntityTag=PERSON] [Text=King CharacterOffsetBegin=2129 CharacterOffsetEnd=2133 PartOfSpeech=NNP Lemma=King NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2133 CharacterOffsetEnd=2134 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Carter CharacterOffsetBegin=2135 CharacterOffsetEnd=2141 PartOfSpeech=NNP Lemma=Carter NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2141 CharacterOffsetEnd=2143 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Trophy CharacterOffsetBegin=2144 CharacterOffsetEnd=2150 PartOfSpeech=NN Lemma=trophy NamedEntityTag=O] [Text=, CharacterOffsetBegin=2150 CharacterOffsetEnd=2151 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Alabama CharacterOffsetBegin=2152 CharacterOffsetEnd=2159 PartOfSpeech=NNP Lemma=Alabama NamedEntityTag=ORGANIZATION] [Text=Power CharacterOffsetBegin=2160 CharacterOffsetEnd=2165 PartOfSpeech=NNP Lemma=Power NamedEntityTag=ORGANIZATION] [Text=Company CharacterOffsetBegin=2166 CharacterOffsetEnd=2173 PartOfSpeech=NNP Lemma=Company NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2173 CharacterOffsetEnd=2174 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Herndon CharacterOffsetBegin=2175 CharacterOffsetEnd=2182 PartOfSpeech=NNP Lemma=Herndon NamedEntityTag=ORGANIZATION] [Text=Oil CharacterOffsetBegin=2183 CharacterOffsetEnd=2186 PartOfSpeech=NNP Lemma=Oil NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2186 CharacterOffsetEnd=2187 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Great CharacterOffsetBegin=2188 CharacterOffsetEnd=2193 PartOfSpeech=NNP Lemma=Great NamedEntityTag=ORGANIZATION] [Text=Southern CharacterOffsetBegin=2194 CharacterOffsetEnd=2202 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=ORGANIZATION] [Text=Wood CharacterOffsetBegin=2203 CharacterOffsetEnd=2207 PartOfSpeech=NNP Lemma=Wood NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2207 CharacterOffsetEnd=2208 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Henry CharacterOffsetBegin=2209 CharacterOffsetEnd=2214 PartOfSpeech=NNP Lemma=Henry NamedEntityTag=ORGANIZATION] [Text=County CharacterOffsetBegin=2215 CharacterOffsetEnd=2221 PartOfSpeech=NNP Lemma=County NamedEntityTag=ORGANIZATION] [Text=Health CharacterOffsetBegin=2222 CharacterOffsetEnd=2228 PartOfSpeech=NNP Lemma=Health NamedEntityTag=ORGANIZATION] [Text=and CharacterOffsetBegin=2229 CharacterOffsetEnd=2232 PartOfSpeech=CC Lemma=and NamedEntityTag=ORGANIZATION] [Text=Rehabilitation CharacterOffsetBegin=2233 CharacterOffsetEnd=2247 PartOfSpeech=NNP Lemma=Rehabilitation NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2247 CharacterOffsetEnd=2248 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Southeast CharacterOffsetBegin=2249 CharacterOffsetEnd=2258 PartOfSpeech=NNP Lemma=Southeast NamedEntityTag=LOCATION] [Text=Alabama CharacterOffsetBegin=2259 CharacterOffsetEnd=2266 PartOfSpeech=NNP Lemma=Alabama NamedEntityTag=LOCATION] [Text=Gas CharacterOffsetBegin=2267 CharacterOffsetEnd=2270 PartOfSpeech=NNP Lemma=Gas NamedEntityTag=LOCATION] [Text=District CharacterOffsetBegin=2271 CharacterOffsetEnd=2279 PartOfSpeech=NNP Lemma=District NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=2279 CharacterOffsetEnd=2280 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Wells CharacterOffsetBegin=2281 CharacterOffsetEnd=2286 PartOfSpeech=NNP Lemma=Wells NamedEntityTag=PERSON] [Text=Fargo CharacterOffsetBegin=2287 CharacterOffsetEnd=2292 PartOfSpeech=NNP Lemma=Fargo NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2292 CharacterOffsetEnd=2293 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Billy CharacterOffsetBegin=2294 CharacterOffsetEnd=2299 PartOfSpeech=NNP Lemma=Billy NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2299 CharacterOffsetEnd=2301 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=Paint CharacterOffsetBegin=2302 CharacterOffsetEnd=2307 PartOfSpeech=NN Lemma=paint NamedEntityTag=O] [Text=and CharacterOffsetBegin=2308 CharacterOffsetEnd=2311 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Body CharacterOffsetBegin=2312 CharacterOffsetEnd=2316 PartOfSpeech=NN Lemma=body NamedEntityTag=O] [Text=and CharacterOffsetBegin=2317 CharacterOffsetEnd=2320 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Headland CharacterOffsetBegin=2321 CharacterOffsetEnd=2329 PartOfSpeech=NNP Lemma=Headland NamedEntityTag=O] [Text=Family CharacterOffsetBegin=2330 CharacterOffsetEnd=2336 PartOfSpeech=NNP Lemma=Family NamedEntityTag=O] [Text=Medicine CharacterOffsetBegin=2337 CharacterOffsetEnd=2345 PartOfSpeech=NNP Lemma=Medicine NamedEntityTag=O] [Text=. CharacterOffsetBegin=2345 CharacterOffsetEnd=2346 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP
+        (NP (NNP FatBacks))
+        (, ,)
+        (NP (NNP H&H) (NNP Construction))
+        (, ,)
+        (NP (NNP H&M) (NNP Food) (NNP Equipment))
+        (, ,)
+        (NP (NNP Pea) (NNP River) (NNP Electric))
+        (, ,)
+        (NP (NNP HNB) (NNP First))
+        (, ,)
+        (NP (NNP Abbeville) (NNP Kiwanis))
+        (, ,)
+        (NP (NNP Dr.) (NNP Jimmy) (NNP King))
+        (, ,)
+        (NP
+          (NP (NNP Carter) (POS _s))
+          (NN Trophy))
+        (, ,)
+        (NP (NNP Alabama) (NNP Power) (NNP Company))
+        (, ,)
+        (NP (NNP Herndon) (NNP Oil))
+        (, ,)
+        (NP (NNP Great) (NNP Southern) (NNP Wood))
+        (, ,)
+        (NP (NNP Henry) (NNP County) (NNP Health)
+          (CC and)
+          (NNP Rehabilitation))
+        (, ,)
+        (NP (NNP Southeast) (NNP Alabama) (NNP Gas) (NNP District))
+        (, ,)
+        (NP (NNP Wells) (NNP Fargo))
+        (, ,)
+        (NP
+          (NP (NNP Billy) (POS _s))
+          (NN Paint)
+          (CC and)
+          (NN Body))
+        (CC and)
+        (NP (NNP Headland) (NNP Family) (NNP Medicine))))
+    (. .)))
+
+root(ROOT-0, FatBacks-3)
+nsubj(FatBacks-3, They-1)
+cop(FatBacks-3, are-2)
+nn(Construction-6, H&H-5)
+conj_and(FatBacks-3, Construction-6)
+nn(Equipment-10, H&M-8)
+nn(Equipment-10, Food-9)
+conj_and(FatBacks-3, Equipment-10)
+nn(Electric-14, Pea-12)
+nn(Electric-14, River-13)
+conj_and(FatBacks-3, Electric-14)
+nn(First-17, HNB-16)
+conj_and(FatBacks-3, First-17)
+nn(Kiwanis-20, Abbeville-19)
+conj_and(FatBacks-3, Kiwanis-20)
+nn(King-24, Dr.-22)
+nn(King-24, Jimmy-23)
+conj_and(FatBacks-3, King-24)
+poss(Trophy-28, Carter-26)
+conj_and(FatBacks-3, Trophy-28)
+nn(Company-32, Alabama-30)
+nn(Company-32, Power-31)
+conj_and(FatBacks-3, Company-32)
+nn(Oil-35, Herndon-34)
+conj_and(FatBacks-3, Oil-35)
+nn(Wood-39, Great-37)
+nn(Wood-39, Southern-38)
+conj_and(FatBacks-3, Wood-39)
+nn(Health-43, Henry-41)
+nn(Health-43, County-42)
+conj_and(FatBacks-3, Health-43)
+conj_and(Health-43, Rehabilitation-45)
+nn(District-50, Southeast-47)
+nn(District-50, Alabama-48)
+nn(District-50, Gas-49)
+conj_and(FatBacks-3, District-50)
+nn(Fargo-53, Wells-52)
+conj_and(FatBacks-3, Fargo-53)
+poss(Paint-57, Billy-55)
+conj_and(FatBacks-3, Paint-57)
+conj_and(Paint-57, Body-59)
+nn(Medicine-63, Headland-61)
+nn(Medicine-63, Family-62)
+conj_and(FatBacks-3, Medicine-63)
+
+Sentence #25 (24 tokens):
+“We could not have pulled off this event, if it were not for all of our sponsors,” Brigham said.
+[Text=`` CharacterOffsetBegin=2347 CharacterOffsetEnd=2348 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=2348 CharacterOffsetEnd=2350 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=could CharacterOffsetBegin=2351 CharacterOffsetEnd=2356 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=not CharacterOffsetBegin=2357 CharacterOffsetEnd=2360 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=2361 CharacterOffsetEnd=2365 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=pulled CharacterOffsetBegin=2366 CharacterOffsetEnd=2372 PartOfSpeech=VBN Lemma=pull NamedEntityTag=O] [Text=off CharacterOffsetBegin=2373 CharacterOffsetEnd=2376 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=this CharacterOffsetBegin=2377 CharacterOffsetEnd=2381 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=event CharacterOffsetBegin=2382 CharacterOffsetEnd=2387 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=, CharacterOffsetBegin=2387 CharacterOffsetEnd=2388 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=if CharacterOffsetBegin=2389 CharacterOffsetEnd=2391 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=it CharacterOffsetBegin=2392 CharacterOffsetEnd=2394 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=were CharacterOffsetBegin=2395 CharacterOffsetEnd=2399 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=not CharacterOffsetBegin=2400 CharacterOffsetEnd=2403 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=for CharacterOffsetBegin=2404 CharacterOffsetEnd=2407 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=all CharacterOffsetBegin=2408 CharacterOffsetEnd=2411 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=2412 CharacterOffsetEnd=2414 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=our CharacterOffsetBegin=2415 CharacterOffsetEnd=2418 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=sponsors CharacterOffsetBegin=2419 CharacterOffsetEnd=2427 PartOfSpeech=NNS Lemma=sponsor NamedEntityTag=O] [Text=, CharacterOffsetBegin=2427 CharacterOffsetEnd=2428 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2428 CharacterOffsetEnd=2429 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Brigham CharacterOffsetBegin=2430 CharacterOffsetEnd=2437 PartOfSpeech=NNP Lemma=Brigham NamedEntityTag=ORGANIZATION] [Text=said CharacterOffsetBegin=2438 CharacterOffsetEnd=2442 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2442 CharacterOffsetEnd=2443 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP We))
+      (VP (MD could) (RB not)
+        (VP (VB have)
+          (VP (VBN pulled)
+            (PRT (RP off))
+            (NP (DT this) (NN event))
+            (, ,)
+            (SBAR (IN if)
+              (S
+                (NP (PRP it))
+                (VP (VBD were) (RB not)
+                  (PP (IN for)
+                    (NP
+                      (NP (DT all))
+                      (PP (IN of)
+                        (NP (PRP$ our) (NNS sponsors))))))))))))
+    (, ,) (__ __)
+    (NP (NNP Brigham))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-23)
+nsubj(pulled-6, We-2)
+aux(pulled-6, could-3)
+neg(pulled-6, not-4)
+aux(pulled-6, have-5)
+ccomp(said-23, pulled-6)
+prt(pulled-6, off-7)
+det(event-9, this-8)
+dobj(pulled-6, event-9)
+mark(were-13, if-11)
+nsubj(were-13, it-12)
+advcl(pulled-6, were-13)
+neg(were-13, not-14)
+prep_for(were-13, all-16)
+poss(sponsors-19, our-18)
+prep_of(all-16, sponsors-19)
+nsubj(said-23, Brigham-22)
+
+Sentence #26 (18 tokens):
+“Each of the sponsors went above and beyond in helping us with this year’s relay.
+[Text=`` CharacterOffsetBegin=2444 CharacterOffsetEnd=2445 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Each CharacterOffsetBegin=2445 CharacterOffsetEnd=2449 PartOfSpeech=DT Lemma=each NamedEntityTag=O] [Text=of CharacterOffsetBegin=2450 CharacterOffsetEnd=2452 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2453 CharacterOffsetEnd=2456 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sponsors CharacterOffsetBegin=2457 CharacterOffsetEnd=2465 PartOfSpeech=NNS Lemma=sponsor NamedEntityTag=O] [Text=went CharacterOffsetBegin=2466 CharacterOffsetEnd=2470 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=above CharacterOffsetBegin=2471 CharacterOffsetEnd=2476 PartOfSpeech=RB Lemma=above NamedEntityTag=O] [Text=and CharacterOffsetBegin=2477 CharacterOffsetEnd=2480 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=beyond CharacterOffsetBegin=2481 CharacterOffsetEnd=2487 PartOfSpeech=IN Lemma=beyond NamedEntityTag=O] [Text=in CharacterOffsetBegin=2488 CharacterOffsetEnd=2490 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=helping CharacterOffsetBegin=2491 CharacterOffsetEnd=2498 PartOfSpeech=VBG Lemma=help NamedEntityTag=O] [Text=us CharacterOffsetBegin=2499 CharacterOffsetEnd=2501 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=with CharacterOffsetBegin=2502 CharacterOffsetEnd=2506 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=this CharacterOffsetBegin=2507 CharacterOffsetEnd=2511 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=2512 CharacterOffsetEnd=2516 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=_s CharacterOffsetBegin=2516 CharacterOffsetEnd=2518 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=relay CharacterOffsetBegin=2519 CharacterOffsetEnd=2524 PartOfSpeech=NN Lemma=relay NamedEntityTag=O] [Text=. CharacterOffsetBegin=2524 CharacterOffsetEnd=2525 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (DT Each))
+      (PP (IN of)
+        (NP (DT the) (NNS sponsors))))
+    (VP
+      (VP (VBD went)
+        (ADVP (RB above)))
+      (CC and)
+      (VP
+        (ADVP (IN beyond)
+          (PP (IN in)
+            (S
+              (VP (VBG helping)
+                (NP (PRP us))
+                (PP (IN with)
+                  (NP
+                    (NP (DT this) (NN year) (POS _s))
+                    (NN relay)))))))))
+    (. .)))
+
+root(ROOT-0, went-6)
+nsubj(went-6, Each-2)
+det(sponsors-5, the-4)
+prep_of(Each-2, sponsors-5)
+advmod(went-6, above-7)
+conj_and(went-6, beyond-9)
+prepc_in(beyond-9, helping-11)
+dobj(helping-11, us-12)
+det(year-15, this-14)
+poss(relay-17, year-15)
+prep_with(helping-11, relay-17)
+
+Sentence #27 (16 tokens):
+This year’s theme was ‘Be a Hero, Fight Back against Cancer.’
+[Text=This CharacterOffsetBegin=2526 CharacterOffsetEnd=2530 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">This year<_TIMEX3>] [Text=year CharacterOffsetBegin=2531 CharacterOffsetEnd=2535 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t10" type="DATE" valueFromFunction="tf0">This year<_TIMEX3>] [Text=_s CharacterOffsetBegin=2535 CharacterOffsetEnd=2537 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=theme CharacterOffsetBegin=2538 CharacterOffsetEnd=2543 PartOfSpeech=NN Lemma=theme NamedEntityTag=O] [Text=was CharacterOffsetBegin=2544 CharacterOffsetEnd=2547 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=` CharacterOffsetBegin=2548 CharacterOffsetEnd=2549 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=Be CharacterOffsetBegin=2549 CharacterOffsetEnd=2551 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2552 CharacterOffsetEnd=2553 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Hero CharacterOffsetBegin=2554 CharacterOffsetEnd=2558 PartOfSpeech=NN Lemma=hero NamedEntityTag=MISC] [Text=, CharacterOffsetBegin=2558 CharacterOffsetEnd=2559 PartOfSpeech=, Lemma=, NamedEntityTag=MISC] [Text=Fight CharacterOffsetBegin=2560 CharacterOffsetEnd=2565 PartOfSpeech=NN Lemma=fight NamedEntityTag=MISC] [Text=Back CharacterOffsetBegin=2566 CharacterOffsetEnd=2570 PartOfSpeech=RB Lemma=back NamedEntityTag=MISC] [Text=against CharacterOffsetBegin=2571 CharacterOffsetEnd=2578 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=Cancer CharacterOffsetBegin=2579 CharacterOffsetEnd=2585 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=2585 CharacterOffsetEnd=2586 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=_ CharacterOffsetBegin=2586 CharacterOffsetEnd=2587 PartOfSpeech=__ Lemma=_ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN year) (POS _s))
+      (NN theme))
+    (VP (VBD was)
+      (S (`` `)
+        (VP (VB Be)
+          (NP
+            (NP (DT a) (NN Hero))
+            (, ,)
+            (NP
+              (NP (NN Fight))
+              (PP (RB Back) (IN against)
+                (NP (NN Cancer))))))))
+    (. .) (__ _)))
+
+root(ROOT-0, was-5)
+det(year-2, This-1)
+poss(theme-4, year-2)
+nsubj(was-5, theme-4)
+cop(Hero-9, Be-7)
+det(Hero-9, a-8)
+ccomp(was-5, Hero-9)
+appos(Hero-9, Fight-11)
+advmod(Fight-11, Back-12)
+prep_against(Fight-11, Cancer-14)
+
+Sentence #28 (19 tokens):
+We definitely had our share of soldiers who have either won their battle or are fighting their battle.
+[Text=We CharacterOffsetBegin=2588 CharacterOffsetEnd=2590 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=definitely CharacterOffsetBegin=2591 CharacterOffsetEnd=2601 PartOfSpeech=RB Lemma=definitely NamedEntityTag=O] [Text=had CharacterOffsetBegin=2602 CharacterOffsetEnd=2605 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=our CharacterOffsetBegin=2606 CharacterOffsetEnd=2609 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=share CharacterOffsetBegin=2610 CharacterOffsetEnd=2615 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=of CharacterOffsetBegin=2616 CharacterOffsetEnd=2618 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=soldiers CharacterOffsetBegin=2619 CharacterOffsetEnd=2627 PartOfSpeech=NNS Lemma=soldier NamedEntityTag=O] [Text=who CharacterOffsetBegin=2628 CharacterOffsetEnd=2631 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=have CharacterOffsetBegin=2632 CharacterOffsetEnd=2636 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=either CharacterOffsetBegin=2637 CharacterOffsetEnd=2643 PartOfSpeech=CC Lemma=either NamedEntityTag=O] [Text=won CharacterOffsetBegin=2644 CharacterOffsetEnd=2647 PartOfSpeech=VBD Lemma=win NamedEntityTag=O] [Text=their CharacterOffsetBegin=2648 CharacterOffsetEnd=2653 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=battle CharacterOffsetBegin=2654 CharacterOffsetEnd=2660 PartOfSpeech=NN Lemma=battle NamedEntityTag=O] [Text=or CharacterOffsetBegin=2661 CharacterOffsetEnd=2663 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=are CharacterOffsetBegin=2664 CharacterOffsetEnd=2667 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=fighting CharacterOffsetBegin=2668 CharacterOffsetEnd=2676 PartOfSpeech=VBG Lemma=fight NamedEntityTag=O] [Text=their CharacterOffsetBegin=2677 CharacterOffsetEnd=2682 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=battle CharacterOffsetBegin=2683 CharacterOffsetEnd=2689 PartOfSpeech=NN Lemma=battle NamedEntityTag=O] [Text=. CharacterOffsetBegin=2689 CharacterOffsetEnd=2690 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB definitely))
+    (VP
+      (VP (VBD had)
+        (NP
+          (NP (PRP$ our) (NN share))
+          (PP (IN of)
+            (NP
+              (NP (NNS soldiers))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP
+                    (VP (VBP have))
+                    (CC either)
+                    (VP (VBD won)
+                      (NP (PRP$ their) (NN battle))))))))))
+      (CC or)
+      (VP (VBP are)
+        (VP (VBG fighting)
+          (NP (PRP$ their) (NN battle)))))
+    (. .)))
+
+root(ROOT-0, had-3)
+nsubj(had-3, We-1)
+advmod(had-3, definitely-2)
+poss(share-5, our-4)
+dobj(had-3, share-5)
+prep_of(share-5, soldiers-7)
+nsubj(have-9, who-8)
+rcmod(soldiers-7, have-9)
+dep(have-9, either-10)
+conj(have-9, won-11)
+poss(battle-13, their-12)
+dobj(won-11, battle-13)
+aux(fighting-16, are-15)
+conj_or(had-3, fighting-16)
+poss(battle-18, their-17)
+dobj(fighting-16, battle-18)
+
+Sentence #29 (15 tokens):
+We also honored those who gave everything they had during their fight against cancer.
+[Text=We CharacterOffsetBegin=2691 CharacterOffsetEnd=2693 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=also CharacterOffsetBegin=2694 CharacterOffsetEnd=2698 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=honored CharacterOffsetBegin=2699 CharacterOffsetEnd=2706 PartOfSpeech=VBD Lemma=honor NamedEntityTag=O] [Text=those CharacterOffsetBegin=2707 CharacterOffsetEnd=2712 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=who CharacterOffsetBegin=2713 CharacterOffsetEnd=2716 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=gave CharacterOffsetBegin=2717 CharacterOffsetEnd=2721 PartOfSpeech=VBD Lemma=give NamedEntityTag=O] [Text=everything CharacterOffsetBegin=2722 CharacterOffsetEnd=2732 PartOfSpeech=NN Lemma=everything NamedEntityTag=O] [Text=they CharacterOffsetBegin=2733 CharacterOffsetEnd=2737 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=had CharacterOffsetBegin=2738 CharacterOffsetEnd=2741 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=during CharacterOffsetBegin=2742 CharacterOffsetEnd=2748 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=their CharacterOffsetBegin=2749 CharacterOffsetEnd=2754 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=fight CharacterOffsetBegin=2755 CharacterOffsetEnd=2760 PartOfSpeech=NN Lemma=fight NamedEntityTag=O] [Text=against CharacterOffsetBegin=2761 CharacterOffsetEnd=2768 PartOfSpeech=IN Lemma=against NamedEntityTag=O] [Text=cancer CharacterOffsetBegin=2769 CharacterOffsetEnd=2775 PartOfSpeech=NN Lemma=cancer NamedEntityTag=O] [Text=. CharacterOffsetBegin=2775 CharacterOffsetEnd=2776 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD honored)
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD gave)
+              (NP
+                (NP (NN everything))
+                (SBAR
+                  (S
+                    (NP (PRP they))
+                    (VP (VBD had)
+                      (PP (IN during)
+                        (NP
+                          (NP (PRP$ their) (NN fight))
+                          (PP (IN against)
+                            (NP (NN cancer))))))))))))))
+    (. .)))
+
+root(ROOT-0, honored-3)
+nsubj(honored-3, We-1)
+advmod(honored-3, also-2)
+dobj(honored-3, those-4)
+nsubj(gave-6, who-5)
+rcmod(those-4, gave-6)
+dobj(gave-6, everything-7)
+nsubj(had-9, they-8)
+rcmod(everything-7, had-9)
+poss(fight-12, their-11)
+prep_during(had-9, fight-12)
+prep_against(fight-12, cancer-14)
+
+Sentence #30 (9 tokens):
+That is why this event is so important.
+[Text=That CharacterOffsetBegin=2777 CharacterOffsetEnd=2781 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=is CharacterOffsetBegin=2782 CharacterOffsetEnd=2784 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=why CharacterOffsetBegin=2785 CharacterOffsetEnd=2788 PartOfSpeech=WRB Lemma=why NamedEntityTag=O] [Text=this CharacterOffsetBegin=2789 CharacterOffsetEnd=2793 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=event CharacterOffsetBegin=2794 CharacterOffsetEnd=2799 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=is CharacterOffsetBegin=2800 CharacterOffsetEnd=2802 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=so CharacterOffsetBegin=2803 CharacterOffsetEnd=2805 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=important CharacterOffsetBegin=2806 CharacterOffsetEnd=2815 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=. CharacterOffsetBegin=2815 CharacterOffsetEnd=2816 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (DT this) (NN event))
+          (VP (VBZ is)
+            (ADJP (RB so) (JJ important))))))
+    (. .)))
+
+root(ROOT-0, is-2)
+nsubj(is-2, That-1)
+advmod(important-8, why-3)
+det(event-5, this-4)
+nsubj(important-8, event-5)
+cop(important-8, is-6)
+advmod(important-8, so-7)
+advcl(is-2, important-8)
+
+Sentence #31 (19 tokens):
+We all want a cure, and every dime goes towards, hopefully, finding that cure.”
+[Text=We CharacterOffsetBegin=2817 CharacterOffsetEnd=2819 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=all CharacterOffsetBegin=2820 CharacterOffsetEnd=2823 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=want CharacterOffsetBegin=2824 CharacterOffsetEnd=2828 PartOfSpeech=VBP Lemma=want NamedEntityTag=O] [Text=a CharacterOffsetBegin=2829 CharacterOffsetEnd=2830 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=cure CharacterOffsetBegin=2831 CharacterOffsetEnd=2835 PartOfSpeech=NN Lemma=cure NamedEntityTag=O] [Text=, CharacterOffsetBegin=2835 CharacterOffsetEnd=2836 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2837 CharacterOffsetEnd=2840 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=every CharacterOffsetBegin=2841 CharacterOffsetEnd=2846 PartOfSpeech=DT Lemma=every NamedEntityTag=O] [Text=dime CharacterOffsetBegin=2847 CharacterOffsetEnd=2851 PartOfSpeech=NN Lemma=dime NamedEntityTag=O] [Text=goes CharacterOffsetBegin=2852 CharacterOffsetEnd=2856 PartOfSpeech=VBZ Lemma=go NamedEntityTag=O] [Text=towards CharacterOffsetBegin=2857 CharacterOffsetEnd=2864 PartOfSpeech=IN Lemma=towards NamedEntityTag=O] [Text=, CharacterOffsetBegin=2864 CharacterOffsetEnd=2865 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=hopefully CharacterOffsetBegin=2866 CharacterOffsetEnd=2875 PartOfSpeech=RB Lemma=hopefully NamedEntityTag=O] [Text=, CharacterOffsetBegin=2875 CharacterOffsetEnd=2876 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=finding CharacterOffsetBegin=2877 CharacterOffsetEnd=2884 PartOfSpeech=VBG Lemma=find NamedEntityTag=O] [Text=that CharacterOffsetBegin=2885 CharacterOffsetEnd=2889 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=cure CharacterOffsetBegin=2890 CharacterOffsetEnd=2894 PartOfSpeech=NN Lemma=cure NamedEntityTag=O] [Text=. CharacterOffsetBegin=2894 CharacterOffsetEnd=2895 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2895 CharacterOffsetEnd=2896 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (ADVP (DT all))
+      (VP (VBP want)
+        (NP (DT a) (NN cure))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT every) (NN dime))
+      (VP (VBZ goes)
+        (PP (IN towards))
+        (, ,)
+        (ADVP (RB hopefully))
+        (, ,)
+        (S
+          (VP (VBG finding)
+            (PP (IN that)
+              (NP (NN cure)))))))
+    (. .) (__ __)))
+
+root(ROOT-0, want-3)
+nsubj(want-3, We-1)
+advmod(want-3, all-2)
+det(cure-5, a-4)
+dobj(want-3, cure-5)
+det(dime-9, every-8)
+nsubj(goes-10, dime-9)
+conj_and(want-3, goes-10)
+prep(goes-10, towards-11)
+advmod(goes-10, hopefully-13)
+xcomp(goes-10, finding-15)
+prep_that(finding-15, cure-17)
+
+Sentence #32 (14 tokens):
+Posted in Dothan progress on Tuesday, May 26, 2015 11:40 am.
+[Text=Posted CharacterOffsetBegin=2899 CharacterOffsetEnd=2905 PartOfSpeech=VBN Lemma=post NamedEntityTag=O] [Text=in CharacterOffsetBegin=2906 CharacterOffsetEnd=2908 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Dothan CharacterOffsetBegin=2909 CharacterOffsetEnd=2915 PartOfSpeech=NNP Lemma=Dothan NamedEntityTag=LOCATION] [Text=progress CharacterOffsetBegin=2916 CharacterOffsetEnd=2924 PartOfSpeech=NN Lemma=progress NamedEntityTag=O] [Text=on CharacterOffsetBegin=2925 CharacterOffsetEnd=2927 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2928 CharacterOffsetEnd=2935 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=, CharacterOffsetBegin=2935 CharacterOffsetEnd=2936 PartOfSpeech=, Lemma=, NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=May CharacterOffsetBegin=2937 CharacterOffsetEnd=2940 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=26 CharacterOffsetBegin=2941 CharacterOffsetEnd=2943 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=, CharacterOffsetBegin=2943 CharacterOffsetEnd=2944 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=2015 CharacterOffsetBegin=2945 CharacterOffsetEnd=2949 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=11:40 CharacterOffsetBegin=2950 CharacterOffsetEnd=2955 PartOfSpeech=CD Lemma=11:40 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=am CharacterOffsetBegin=2956 CharacterOffsetEnd=2958 PartOfSpeech=VBP Lemma=be NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T11:40 Timex=<TIMEX3 tid="t11" type="TIME" value="2015-05-26T11:40">Tuesday, May 26, 2015 11:40 am<_TIMEX3>] [Text=. CharacterOffsetBegin=2958 CharacterOffsetEnd=2959 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBN Posted)
+        (PP (IN in)
+          (NP (NNP Dothan) (NN progress)))
+        (PP (IN on)
+          (NP
+            (NP (NNP Tuesday) (, ,) (NNP May) (CD 26) (, ,) (CD 2015))
+            (NP (CD 11:40))))))
+    (VP (VBP am))
+    (. .)))
+
+root(ROOT-0, am-13)
+csubj(am-13, Posted-1)
+nn(progress-4, Dothan-3)
+prep_in(Posted-1, progress-4)
+nn(May-8, Tuesday-6)
+prep_on(Posted-1, May-8)
+num(May-8, 26-9)
+num(May-8, 2015-11)
+dep(May-8, 11:40-12)
+
+Sentence #33 (31 tokens):
+Calvary Baptist Church, Dothan
+2765 State Highway 52, Hartford
+Dothan Civic Center, Dothan
+Dothan, AL 36303
+Photos
+Video
+Haven’t signed up for All Access yet?
+[Text=Calvary CharacterOffsetBegin=2960 CharacterOffsetEnd=2967 PartOfSpeech=NNP Lemma=Calvary NamedEntityTag=ORGANIZATION] [Text=Baptist CharacterOffsetBegin=2968 CharacterOffsetEnd=2975 PartOfSpeech=NNP Lemma=Baptist NamedEntityTag=ORGANIZATION] [Text=Church CharacterOffsetBegin=2976 CharacterOffsetEnd=2982 PartOfSpeech=NNP Lemma=Church NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=2982 CharacterOffsetEnd=2983 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Dothan CharacterOffsetBegin=2984 CharacterOffsetEnd=2990 PartOfSpeech=NNP Lemma=Dothan NamedEntityTag=LOCATION] [Text=2765 CharacterOffsetBegin=2991 CharacterOffsetEnd=2995 PartOfSpeech=CD Lemma=2765 NamedEntityTag=DATE NormalizedNamedEntityTag=2765 Timex=<TIMEX3 tid="t12" type="DATE" value="2765">2765<_TIMEX3>] [Text=State CharacterOffsetBegin=2996 CharacterOffsetEnd=3001 PartOfSpeech=NNP Lemma=State NamedEntityTag=O] [Text=Highway CharacterOffsetBegin=3002 CharacterOffsetEnd=3009 PartOfSpeech=NNP Lemma=Highway NamedEntityTag=O] [Text=52 CharacterOffsetBegin=3010 CharacterOffsetEnd=3012 PartOfSpeech=CD Lemma=52 NamedEntityTag=NUMBER NormalizedNamedEntityTag=52.0] [Text=, CharacterOffsetBegin=3012 CharacterOffsetEnd=3013 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Hartford CharacterOffsetBegin=3014 CharacterOffsetEnd=3022 PartOfSpeech=NNP Lemma=Hartford NamedEntityTag=ORGANIZATION] [Text=Dothan CharacterOffsetBegin=3023 CharacterOffsetEnd=3029 PartOfSpeech=NNP Lemma=Dothan NamedEntityTag=ORGANIZATION] [Text=Civic CharacterOffsetBegin=3030 CharacterOffsetEnd=3035 PartOfSpeech=NNP Lemma=Civic NamedEntityTag=ORGANIZATION] [Text=Center CharacterOffsetBegin=3036 CharacterOffsetEnd=3042 PartOfSpeech=NNP Lemma=Center NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=3042 CharacterOffsetEnd=3043 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Dothan CharacterOffsetBegin=3044 CharacterOffsetEnd=3050 PartOfSpeech=NNP Lemma=Dothan NamedEntityTag=LOCATION] [Text=Dothan CharacterOffsetBegin=3051 CharacterOffsetEnd=3057 PartOfSpeech=NNP Lemma=Dothan NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=3057 CharacterOffsetEnd=3058 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=AL CharacterOffsetBegin=3059 CharacterOffsetEnd=3061 PartOfSpeech=NNP Lemma=AL NamedEntityTag=O] [Text=36303 CharacterOffsetBegin=3062 CharacterOffsetEnd=3067 PartOfSpeech=CD Lemma=36303 NamedEntityTag=NUMBER NormalizedNamedEntityTag=36303.0] [Text=Photos CharacterOffsetBegin=3068 CharacterOffsetEnd=3074 PartOfSpeech=NNP Lemma=Photos NamedEntityTag=O] [Text=Video CharacterOffsetBegin=3075 CharacterOffsetEnd=3080 PartOfSpeech=NNP Lemma=Video NamedEntityTag=O] [Text=Have CharacterOffsetBegin=3081 CharacterOffsetEnd=3085 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=3085 CharacterOffsetEnd=3088 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=signed CharacterOffsetBegin=3089 CharacterOffsetEnd=3095 PartOfSpeech=VBN Lemma=sign NamedEntityTag=O] [Text=up CharacterOffsetBegin=3096 CharacterOffsetEnd=3098 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=for CharacterOffsetBegin=3099 CharacterOffsetEnd=3102 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=All CharacterOffsetBegin=3103 CharacterOffsetEnd=3106 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=Access CharacterOffsetBegin=3107 CharacterOffsetEnd=3113 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=yet CharacterOffsetBegin=3114 CharacterOffsetEnd=3117 PartOfSpeech=RB Lemma=yet NamedEntityTag=O] [Text=? CharacterOffsetBegin=3117 CharacterOffsetEnd=3118 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Calvary) (NNP Baptist) (NNP Church))
+      (, ,)
+      (NP
+        (NP (NNP Dothan) (CD 2765) (NNP State) (NNP Highway))
+        (NP
+          (NP (CD 52))
+          (, ,)
+          (NP (NNP Hartford) (NNP Dothan) (NNP Civic) (NNP Center))
+          (, ,)
+          (NP (NNP Dothan) (NNP Dothan))
+          (, ,)
+          (NP (NNP AL) (CD 36303) (NNP Photos) (NNP Video)))))
+    (VP (VBP Have) (RB n_t)
+      (VP (VBN signed)
+        (PRT (RP up))
+        (PP (IN for)
+          (NP (DT All) (NN Access)))
+        (ADVP (RB yet))))
+    (. ?)))
+
+root(ROOT-0, signed-25)
+nn(Church-3, Calvary-1)
+nn(Church-3, Baptist-2)
+nsubj(signed-25, Church-3)
+nn(Highway-8, Dothan-5)
+num(Highway-8, 2765-6)
+nn(Highway-8, State-7)
+appos(Church-3, Highway-8)
+dep(Highway-8, 52-9)
+nn(Center-14, Hartford-11)
+nn(Center-14, Dothan-12)
+nn(Center-14, Civic-13)
+appos(52-9, Center-14)
+nn(Dothan-17, Dothan-16)
+appos(52-9, Dothan-17)
+nn(Video-22, AL-19)
+num(Video-22, 36303-20)
+nn(Video-22, Photos-21)
+appos(52-9, Video-22)
+aux(signed-25, Have-23)
+neg(signed-25, n_t-24)
+prt(signed-25, up-26)
+det(Access-29, All-28)
+prep_for(signed-25, Access-29)
+advmod(signed-25, yet-30)
+
+Sentence #34 (15 tokens):
+Get started here…
+Screen Name or Email
+Need more information about All Access?
+[Text=Get CharacterOffsetBegin=3119 CharacterOffsetEnd=3122 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=started CharacterOffsetBegin=3123 CharacterOffsetEnd=3130 PartOfSpeech=VBN Lemma=start NamedEntityTag=O] [Text=here CharacterOffsetBegin=3131 CharacterOffsetEnd=3135 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=... CharacterOffsetBegin=3135 CharacterOffsetEnd=3136 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=Screen CharacterOffsetBegin=3137 CharacterOffsetEnd=3143 PartOfSpeech=NNP Lemma=Screen NamedEntityTag=O] [Text=Name CharacterOffsetBegin=3144 CharacterOffsetEnd=3148 PartOfSpeech=VB Lemma=name NamedEntityTag=O] [Text=or CharacterOffsetBegin=3149 CharacterOffsetEnd=3151 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=Email CharacterOffsetBegin=3152 CharacterOffsetEnd=3157 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=Need CharacterOffsetBegin=3158 CharacterOffsetEnd=3162 PartOfSpeech=VBD Lemma=need NamedEntityTag=O] [Text=more CharacterOffsetBegin=3163 CharacterOffsetEnd=3167 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=information CharacterOffsetBegin=3168 CharacterOffsetEnd=3179 PartOfSpeech=NN Lemma=information NamedEntityTag=O] [Text=about CharacterOffsetBegin=3180 CharacterOffsetEnd=3185 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=All CharacterOffsetBegin=3186 CharacterOffsetEnd=3189 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=Access CharacterOffsetBegin=3190 CharacterOffsetEnd=3196 PartOfSpeech=NN Lemma=access NamedEntityTag=O] [Text=? CharacterOffsetBegin=3196 CharacterOffsetEnd=3197 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VB Get)
+        (VP (VBN started)
+          (ADVP (RB here))
+          (: ...)
+          (S
+            (NP (NNP Screen))
+            (VP (VB Name)
+              (CC or)
+              (VB Email))))))
+    (VP (VBD Need)
+      (NP (JJR more) (NN information))
+      (PP (IN about)
+        (NP (DT All) (NN Access))))
+    (. ?)))
+
+root(ROOT-0, Need-9)
+auxpass(started-2, Get-1)
+csubj(Need-9, started-2)
+advmod(started-2, here-3)
+nsubj(Name-6, Screen-5)
+ccomp(started-2, Name-6)
+conj_or(Name-6, Email-8)
+amod(information-11, more-10)
+dobj(Need-9, information-11)
+det(Access-14, All-13)
+prep_about(Need-9, Access-14)
+
+Sentence #35 (7 tokens):
+Get all of the details here .
+[Text=Get CharacterOffsetBegin=3198 CharacterOffsetEnd=3201 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=all CharacterOffsetBegin=3202 CharacterOffsetEnd=3205 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=of CharacterOffsetBegin=3206 CharacterOffsetEnd=3208 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=3209 CharacterOffsetEnd=3212 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=details CharacterOffsetBegin=3213 CharacterOffsetEnd=3220 PartOfSpeech=NNS Lemma=detail NamedEntityTag=O] [Text=here CharacterOffsetBegin=3221 CharacterOffsetEnd=3225 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=. CharacterOffsetBegin=3226 CharacterOffsetEnd=3227 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Get)
+      (NP
+        (NP (DT all))
+        (PP (IN of)
+          (NP (DT the) (NNS details) (RB here)))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+dobj(Get-1, all-2)
+det(details-5, the-4)
+prep_of(all-2, details-5)
+advmod(details-5, here-6)
+
+Coreference set:
+ (1,7,[5,12]) -> (4,4,[1,5]), that is: "Henry County Relay for Life Henry County" -> "The Henry County Relay"
+ (1,15,[13,16]) -> (4,4,[1,5]), that is: "its annual Relay" -> "The Henry County Relay"
+ (1,13,[13,14]) -> (4,4,[1,5]), that is: "its" -> "The Henry County Relay"
+ (3,2,[1,3]) -> (4,4,[1,5]), that is: "The relay" -> "The Henry County Relay"
+ (6,6,[4,7]) -> (4,4,[1,5]), that is: "its annual Relay" -> "The Henry County Relay"
+ (7,3,[2,4]) -> (4,4,[1,5]), that is: "The relay" -> "The Henry County Relay"
+ (7,15,[15,18]) -> (4,4,[1,5]), that is: "Relay for Life" -> "The Henry County Relay"
+ (10,16,[15,17]) -> (4,4,[1,5]), that is: "the relay" -> "The Henry County Relay"
+ (15,9,[8,10]) -> (4,4,[1,5]), that is: "the relay" -> "The Henry County Relay"
+ (23,18,[17,19]) -> (4,4,[1,5]), that is: "the relay" -> "The Henry County Relay"
+Coreference set:
+ (6,8,[8,9]) -> (1,17,[17,18]), that is: "Life" -> "Life"
+ (7,17,[17,18]) -> (1,17,[17,18]), that is: "Life" -> "Life"
+Coreference set:
+ (5,26,[26,28]) -> (1,18,[18,20]), that is: "May 2" -> "May 2"
+Coreference set:
+ (16,3,[3,4]) -> (2,3,[3,4]), that is: "200" -> "200"
+Coreference set:
+ (8,16,[15,17]) -> (2,8,[7,9]), that is: "the event" -> "the event"
+ (18,7,[6,8]) -> (2,8,[7,9]), that is: "the event" -> "the event"
+ (25,9,[8,10]) -> (2,8,[7,9]), that is: "this event" -> "the event"
+ (25,12,[12,13]) -> (2,8,[7,9]), that is: "it" -> "the event"
+ (30,5,[4,6]) -> (2,8,[7,9]), that is: "this event" -> "the event"
+Coreference set:
+ (3,11,[11,12]) -> (24,17,[16,18]), that is: "first" -> "HNB First"
+ (24,17,[17,18]) -> (24,17,[16,18]), that is: "First" -> "HNB First"
+Coreference set:
+ (4,12,[12,13]) -> (3,8,[6,9]), that is: "their" -> "local cancer survivors"
+Coreference set:
+ (8,6,[6,7]) -> (5,1,[1,29]), that is: "us" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (8,9,[9,10]) -> (5,1,[1,29]), that is: "we" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (10,2,[2,3]) -> (5,1,[1,29]), that is: "We" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (10,9,[9,10]) -> (5,1,[1,29]), that is: "our" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (11,5,[5,6]) -> (5,1,[1,29]), that is: "we" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (12,22,[22,23]) -> (5,1,[1,29]), that is: "us" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (12,24,[24,25]) -> (5,1,[1,29]), that is: "our" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (14,1,[1,2]) -> (5,1,[1,29]), that is: "We" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (14,3,[3,4]) -> (5,1,[1,29]), that is: "we" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+ (14,6,[6,7]) -> (5,1,[1,29]), that is: "our" -> "Posted : Tuesday , May 26 , 2015 11:40 am Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2 ."
+Coreference set:
+ (32,8,[6,13]) -> (5,5,[3,10]), that is: "Tuesday , May 26 , 2015 11:40" -> "Tuesday , May 26 , 2015 11:40"
+Coreference set:
+ (32,12,[12,13]) -> (5,9,[9,10]), that is: "11:40" -> "11:40"
+Coreference set:
+ (6,2,[1,3]) -> (5,12,[11,28]), that is: "The county" -> "Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2"
+ (6,4,[4,5]) -> (5,12,[11,28]), that is: "its" -> "Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2"
+ (15,2,[1,3]) -> (5,12,[11,28]), that is: "Henry County" -> "Henry County participated in the world _s largest fundraising movement for the American Cancer Society May 2"
+Coreference set:
+ (32,6,[6,7]) -> (5,3,[3,4]), that is: "Tuesday" -> "Tuesday"
+Coreference set:
+ (10,19,[19,20]) -> (7,10,[9,11]), that is: "Brigham" -> "Joy Brigham"
+ (17,25,[25,26]) -> (7,10,[9,11]), that is: "Brigham" -> "Joy Brigham"
+ (25,22,[22,23]) -> (7,10,[9,11]), that is: "Brigham" -> "Joy Brigham"
+Coreference set:
+ (10,10,[9,11]) -> (9,2,[1,11]), that is: "our goal" -> "The goal for the 2015 Henry County Relay for Life"
+ (12,25,[24,26]) -> (9,2,[1,11]), that is: "our goal" -> "The goal for the 2015 Henry County Relay for Life"
+ (14,7,[6,8]) -> (9,2,[1,11]), that is: "our goal" -> "The goal for the 2015 Henry County Relay for Life"
+Coreference set:
+ (16,18,[18,19]) -> (16,4,[1,5]), that is: "their" -> "More than 200 individuals"
+ (16,21,[21,22]) -> (16,4,[1,5]), that is: "their" -> "More than 200 individuals"
+ (19,4,[4,5]) -> (16,4,[1,5]), that is: "we" -> "More than 200 individuals"
+ (19,8,[8,9]) -> (16,4,[1,5]), that is: "we" -> "More than 200 individuals"
+ (19,15,[15,16]) -> (16,4,[1,5]), that is: "our" -> "More than 200 individuals"
+ (20,6,[6,7]) -> (16,4,[1,5]), that is: "we" -> "More than 200 individuals"
+ (22,9,[9,10]) -> (16,4,[1,5]), that is: "we" -> "More than 200 individuals"
+ (23,13,[13,14]) -> (16,4,[1,5]), that is: "their" -> "More than 200 individuals"
+ (25,2,[2,3]) -> (16,4,[1,5]), that is: "We" -> "More than 200 individuals"
+ (26,12,[12,13]) -> (16,4,[1,5]), that is: "us" -> "More than 200 individuals"
+ (28,1,[1,2]) -> (16,4,[1,5]), that is: "We" -> "More than 200 individuals"
+ (28,4,[4,5]) -> (16,4,[1,5]), that is: "our" -> "More than 200 individuals"
+ (29,1,[1,2]) -> (16,4,[1,5]), that is: "We" -> "More than 200 individuals"
+ (30,1,[1,2]) -> (16,4,[1,5]), that is: "That" -> "More than 200 individuals"
+ (31,1,[1,2]) -> (16,4,[1,5]), that is: "We" -> "More than 200 individuals"
+Coreference set:
+ (22,26,[26,32]) -> (16,8,[8,23]), that is: "those who have won the fight" -> "those who have won the fight and those who gave their all during their fight"
+ (29,4,[4,15]) -> (16,8,[8,23]), that is: "those who gave everything they had during their fight against cancer" -> "those who have won the fight and those who gave their all during their fight"
+Coreference set:
+ (16,22,[21,23]) -> (16,13,[12,14]), that is: "their fight" -> "the fight"
+ (22,31,[30,32]) -> (16,13,[12,14]), that is: "the fight" -> "the fight"
+Coreference set:
+ (17,18,[17,19]) -> (17,15,[12,16]), that is: "a success" -> "this year _s event"
+ (17,21,[21,22]) -> (17,15,[12,16]), that is: "it" -> "this year _s event"
+Coreference set:
+ (26,15,[14,17]) -> (17,13,[12,15]), that is: "this year _s" -> "this year _s"
+ (27,2,[1,4]) -> (17,13,[12,15]), that is: "This year _s" -> "this year _s"
+Coreference set:
+ (18,14,[13,17]) -> (27,11,[11,15]), that is: "the fight against cancer" -> "Fight Back against Cancer"
+ (29,12,[11,15]) -> (27,11,[11,15]), that is: "their fight against cancer" -> "Fight Back against Cancer"
+Coreference set:
+ (20,1,[1,2]) -> (19,3,[1,7]), that is: "That" -> "The best news we can share"
+ (21,1,[1,2]) -> (19,3,[1,7]), that is: "That" -> "The best news we can share"
+Coreference set:
+ (23,22,[20,23]) -> (19,17,[15,18]), that is: "the survivor dinner" -> "our survivor dinner"
+Coreference set:
+ (22,2,[1,3]) -> (22,6,[4,7]), that is: "The dinner" -> "a huge success"
+ (22,22,[21,23]) -> (22,6,[4,7]), that is: "the dinner" -> "a huge success"
+Coreference set:
+ (24,1,[1,2]) -> (23,11,[9,23]), that is: "They" -> "the following sponsors for their participation in either the relay or the survivor dinner"
+ (24,3,[3,64]) -> (23,11,[9,23]), that is: "FatBacks , H&H Construction , H&M Food Equipment , Pea River Electric , HNB First , Abbeville Kiwanis , Dr. Jimmy King , Carter _s Trophy , Alabama Power Company , Herndon Oil , Great Southern Wood , Henry County Health and Rehabilitation , Southeast Alabama Gas District , Wells Fargo , Billy _s Paint and Body and Headland Family Medicine" -> "the following sponsors for their participation in either the relay or the survivor dinner"
+ (26,5,[4,6]) -> (23,11,[9,23]), that is: "the sponsors" -> "the following sponsors for their participation in either the relay or the survivor dinner"
+Coreference set:
+ (24,43,[41,46]) -> (24,10,[8,11]), that is: "Henry County Health and Rehabilitation" -> "H&M Food Equipment"
+ (24,57,[55,60]) -> (24,10,[8,11]), that is: "Billy _s Paint and Body" -> "H&M Food Equipment"
+Coreference set:
+ (28,12,[12,13]) -> (26,2,[2,6]), that is: "their" -> "Each of the sponsors"
+Coreference set:
+ (28,17,[17,18]) -> (28,7,[7,14]), that is: "their" -> "soldiers who have either won their battle"
+ (29,8,[8,9]) -> (28,7,[7,14]), that is: "they" -> "soldiers who have either won their battle"
+ (29,11,[11,12]) -> (28,7,[7,14]), that is: "their" -> "soldiers who have either won their battle"
+Coreference set:
+ (28,18,[17,19]) -> (28,13,[12,14]), that is: "their battle" -> "their battle"
+Coreference set:
+ (32,3,[3,4]) -> (33,17,[16,18]), that is: "Dothan" -> "Dothan Dothan"
+ (33,5,[5,6]) -> (33,17,[16,18]), that is: "Dothan" -> "Dothan Dothan"

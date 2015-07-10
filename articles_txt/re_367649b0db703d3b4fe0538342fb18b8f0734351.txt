@@ -1,0 +1,734 @@
+Sentence #1 (18 tokens):
+Popular live video-broadcasting app Periscope has been released as an Android app via the Google Play store.
+[Text=Popular CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Popular NamedEntityTag=O] [Text=live CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=VB Lemma=live NamedEntityTag=O] [Text=video-broadcasting CharacterOffsetBegin=13 CharacterOffsetEnd=31 PartOfSpeech=JJ Lemma=video-broadcasting NamedEntityTag=O] [Text=app CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=36 CharacterOffsetEnd=45 PartOfSpeech=NN Lemma=periscope NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=released CharacterOffsetBegin=55 CharacterOffsetEnd=63 PartOfSpeech=VBN Lemma=release NamedEntityTag=O] [Text=as CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=an CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Android CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NN Lemma=android NamedEntityTag=O] [Text=app CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=via CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=IN Lemma=via NamedEntityTag=O] [Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Google CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=NNP Lemma=Google NamedEntityTag=ORGANIZATION] [Text=Play CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP Lemma=Play NamedEntityTag=O] [Text=store CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=store NamedEntityTag=O] [Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Popular))
+    (VP (VB live)
+      (SBAR
+        (S
+          (NP (JJ video-broadcasting) (NN app) (NN Periscope))
+          (VP (VBZ has)
+            (VP (VBN been)
+              (VP (VBN released)
+                (PP (IN as)
+                  (NP
+                    (NP (DT an) (NN Android) (NN app))
+                    (PP (IN via)
+                      (NP (DT the) (NNP Google) (NNP Play) (NN store)))))))))))
+    (. .)))
+
+root(ROOT-0, live-2)
+nsubj(live-2, Popular-1)
+amod(Periscope-5, video-broadcasting-3)
+nn(Periscope-5, app-4)
+nsubjpass(released-8, Periscope-5)
+aux(released-8, has-6)
+auxpass(released-8, been-7)
+ccomp(live-2, released-8)
+det(app-12, an-10)
+nn(app-12, Android-11)
+prep_as(released-8, app-12)
+det(store-17, the-14)
+nn(store-17, Google-15)
+nn(store-17, Play-16)
+prep_via(app-12, store-17)
+
+Sentence #2 (15 tokens):
+A trio of Periscope engineers announced the release on a Medium post Tuesday morning.
+[Text=A CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=trio CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN Lemma=trio NamedEntityTag=O] [Text=of CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=119 CharacterOffsetEnd=128 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=O] [Text=engineers CharacterOffsetBegin=129 CharacterOffsetEnd=138 PartOfSpeech=NNS Lemma=engineer NamedEntityTag=O] [Text=announced CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=VBD Lemma=announce NamedEntityTag=O] [Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=release CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=on CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Medium CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=medium NamedEntityTag=O] [Text=post CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=NN Lemma=post NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-2TMO">Tuesday morning<_TIMEX3>] [Text=morning CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-2TMO Timex=<TIMEX3 tid="t1" type="TIME" value="XXXX-WXX-2TMO">Tuesday morning<_TIMEX3>] [Text=. CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN trio))
+      (PP (IN of)
+        (NP (NNP Periscope) (NNS engineers))))
+    (VP (VBD announced)
+      (NP (DT the) (NN release))
+      (PP (IN on)
+        (NP (DT a) (NN Medium) (NN post)))
+      (NP-TMP (NNP Tuesday) (NN morning)))
+    (. .)))
+
+root(ROOT-0, announced-6)
+det(trio-2, A-1)
+nsubj(announced-6, trio-2)
+nn(engineers-5, Periscope-4)
+prep_of(trio-2, engineers-5)
+det(release-8, the-7)
+dobj(announced-6, release-8)
+det(post-12, a-10)
+nn(post-12, Medium-11)
+prep_on(announced-6, post-12)
+nn(morning-14, Tuesday-13)
+tmod(announced-6, morning-14)
+
+Sentence #3 (36 tokens):
+Periscope, Twitter_s answer to fellow mobile broadcasting app Meerkat, allows users to record and broadcast live video streams from their phones, and share them with the internet via the social network.
+[Text=Periscope CharacterOffsetBegin=195 CharacterOffsetEnd=204 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=_s CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=answer CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=NN Lemma=answer NamedEntityTag=O] [Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=fellow CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=JJ Lemma=fellow NamedEntityTag=O] [Text=mobile CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=JJ Lemma=mobile NamedEntityTag=O] [Text=broadcasting CharacterOffsetBegin=240 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=broadcasting NamedEntityTag=O] [Text=app CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=Meerkat CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=NN Lemma=meerkat NamedEntityTag=O] [Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=allows CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=VBZ Lemma=allow NamedEntityTag=O] [Text=users CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=to CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=record CharacterOffsetBegin=282 CharacterOffsetEnd=288 PartOfSpeech=VB Lemma=record NamedEntityTag=O] [Text=and CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=broadcast CharacterOffsetBegin=293 CharacterOffsetEnd=302 PartOfSpeech=VB Lemma=broadcast NamedEntityTag=O] [Text=live CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=JJ Lemma=live NamedEntityTag=O] [Text=video CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN Lemma=video NamedEntityTag=O] [Text=streams CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=NNS Lemma=stream NamedEntityTag=O] [Text=from CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=their CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=phones CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NNS Lemma=phone NamedEntityTag=O] [Text=, CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=share CharacterOffsetBegin=345 CharacterOffsetEnd=350 PartOfSpeech=VBP Lemma=share NamedEntityTag=O] [Text=them CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=with CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=the CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=internet CharacterOffsetBegin=365 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=internet NamedEntityTag=O] [Text=via CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=IN Lemma=via NamedEntityTag=O] [Text=the CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=social CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=network CharacterOffsetBegin=389 CharacterOffsetEnd=396 PartOfSpeech=NN Lemma=network NamedEntityTag=O] [Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Periscope))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP Twitter) (POS _s))
+          (NN answer))
+        (PP (TO to)
+          (NP (JJ fellow) (JJ mobile) (NN broadcasting) (NN app) (NN Meerkat))))
+      (, ,))
+    (VP
+      (VP (VBZ allows)
+        (S
+          (NP (NNS users))
+          (VP (TO to)
+            (VP (VB record)
+              (CC and)
+              (VB broadcast)
+              (NP (JJ live) (NN video) (NNS streams))
+              (PP (IN from)
+                (NP (PRP$ their) (NNS phones)))))))
+      (, ,)
+      (CC and)
+      (VP (VBP share)
+        (NP (PRP them))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN internet))
+            (PP (IN via)
+              (NP (DT the) (JJ social) (NN network)))))))
+    (. .)))
+
+root(ROOT-0, allows-13)
+nsubj(allows-13, Periscope-1)
+poss(answer-5, Twitter-3)
+appos(Periscope-1, answer-5)
+amod(Meerkat-11, fellow-7)
+amod(Meerkat-11, mobile-8)
+nn(Meerkat-11, broadcasting-9)
+nn(Meerkat-11, app-10)
+prep_to(answer-5, Meerkat-11)
+nsubj(record-16, users-14)
+aux(record-16, to-15)
+xcomp(allows-13, record-16)
+conj_and(record-16, broadcast-18)
+amod(streams-21, live-19)
+nn(streams-21, video-20)
+dobj(record-16, streams-21)
+poss(phones-24, their-23)
+prep_from(record-16, phones-24)
+conj_and(allows-13, share-27)
+dobj(share-27, them-28)
+det(internet-31, the-30)
+prep_with(share-27, internet-31)
+det(network-35, the-33)
+amod(network-35, social-34)
+prep_via(internet-31, network-35)
+
+Sentence #4 (32 tokens):
+Sharing options include the ability to make broadcasts to everyong, or keep it private to all but select users - although that feature has had some snafus in the past.
+[Text=Sharing CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=VBG Lemma=share NamedEntityTag=O] [Text=options CharacterOffsetBegin=406 CharacterOffsetEnd=413 PartOfSpeech=NNS Lemma=option NamedEntityTag=O] [Text=include CharacterOffsetBegin=414 CharacterOffsetEnd=421 PartOfSpeech=VBP Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ability CharacterOffsetBegin=426 CharacterOffsetEnd=433 PartOfSpeech=NN Lemma=ability NamedEntityTag=O] [Text=to CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=437 CharacterOffsetEnd=441 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=broadcasts CharacterOffsetBegin=442 CharacterOffsetEnd=452 PartOfSpeech=NNS Lemma=broadcast NamedEntityTag=O] [Text=to CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=everyong CharacterOffsetBegin=456 CharacterOffsetEnd=464 PartOfSpeech=NN Lemma=everyong NamedEntityTag=O] [Text=, CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=keep CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=VB Lemma=keep NamedEntityTag=O] [Text=it CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=private CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=JJ Lemma=private NamedEntityTag=O] [Text=to CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=all CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=DT Lemma=all NamedEntityTag=O] [Text=but CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=select CharacterOffsetBegin=496 CharacterOffsetEnd=502 PartOfSpeech=JJ Lemma=select NamedEntityTag=O] [Text=users CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=- CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=although CharacterOffsetBegin=511 CharacterOffsetEnd=519 PartOfSpeech=IN Lemma=although NamedEntityTag=O] [Text=that CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=feature CharacterOffsetBegin=525 CharacterOffsetEnd=532 PartOfSpeech=NN Lemma=feature NamedEntityTag=O] [Text=has CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=had CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=VBN Lemma=have NamedEntityTag=O] [Text=some CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=DT Lemma=some NamedEntityTag=O] [Text=snafus CharacterOffsetBegin=546 CharacterOffsetEnd=552 PartOfSpeech=NNS Lemma=snafus NamedEntityTag=O] [Text=in CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">the past<_TIMEX3>] [Text=past CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">the past<_TIMEX3>] [Text=. CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBG Sharing)
+        (NP (NNS options))))
+    (VP (VBP include)
+      (S
+        (NP (DT the) (NN ability))
+        (VP (TO to)
+          (VP
+            (VP (VB make)
+              (NP (NNS broadcasts))
+              (PP (TO to)
+                (NP (NN everyong))))
+            (, ,)
+            (CC or)
+            (VP (VB keep)
+              (S
+                (NP (PRP it))
+                (ADJP (JJ private)
+                  (PP (TO to)
+                    (NP
+                      (ADJP
+                        (ADVP (DT all)
+                          (CC but))
+                        (JJ select))
+                      (NNS users)))))
+              (: -)
+              (SBAR (IN although)
+                (S
+                  (NP (DT that) (NN feature))
+                  (VP (VBZ has)
+                    (VP (VBN had)
+                      (NP
+                        (NP (DT some) (NNS snafus))
+                        (PP (IN in)
+                          (NP (DT the) (NN past)))))))))))))
+    (. .)))
+
+root(ROOT-0, include-3)
+csubj(include-3, Sharing-1)
+dobj(Sharing-1, options-2)
+det(ability-5, the-4)
+nsubj(make-7, ability-5)
+aux(make-7, to-6)
+xcomp(include-3, make-7)
+dobj(make-7, broadcasts-8)
+prep_to(make-7, everyong-10)
+conj_or(make-7, keep-13)
+nsubj(private-15, it-14)
+xcomp(keep-13, private-15)
+dep(but-18, all-17)
+advmod(select-19, but-18)
+amod(users-20, select-19)
+prep_to(private-15, users-20)
+mark(had-26, although-22)
+det(feature-24, that-23)
+nsubj(had-26, feature-24)
+aux(had-26, has-25)
+advcl(keep-13, had-26)
+det(snafus-28, some-27)
+dobj(had-26, snafus-28)
+det(past-31, the-30)
+prep_in(snafus-28, past-31)
+
+Sentence #5 (20 tokens):
+For the last two months, the app had only been available to iPhone users via the App Store.
+[Text=For CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P2M Timex=<TIMEX3 beginPoint="t3" endPoint="t0" tid="t4" type="DURATION" value="P2M">the last two months<_TIMEX3>] [Text=last CharacterOffsetBegin=574 CharacterOffsetEnd=578 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=P2M Timex=<TIMEX3 beginPoint="t3" endPoint="t0" tid="t4" type="DURATION" value="P2M">the last two months<_TIMEX3>] [Text=two CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=CD Lemma=two NamedEntityTag=DATE NormalizedNamedEntityTag=P2M Timex=<TIMEX3 beginPoint="t3" endPoint="t0" tid="t4" type="DURATION" value="P2M">the last two months<_TIMEX3>] [Text=months CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=NNS Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=P2M Timex=<TIMEX3 beginPoint="t3" endPoint="t0" tid="t4" type="DURATION" value="P2M">the last two months<_TIMEX3>] [Text=, CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=app CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=had CharacterOffsetBegin=599 CharacterOffsetEnd=602 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=only CharacterOffsetBegin=603 CharacterOffsetEnd=607 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=been CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=available CharacterOffsetBegin=613 CharacterOffsetEnd=622 PartOfSpeech=JJ Lemma=available NamedEntityTag=O] [Text=to CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=iPhone CharacterOffsetBegin=626 CharacterOffsetEnd=632 PartOfSpeech=NNP Lemma=iPhone NamedEntityTag=O] [Text=users CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=via CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=IN Lemma=via NamedEntityTag=O] [Text=the CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=App CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=NNP Lemma=App NamedEntityTag=O] [Text=Store CharacterOffsetBegin=651 CharacterOffsetEnd=656 PartOfSpeech=NNP Lemma=Store NamedEntityTag=O] [Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT the) (JJ last) (CD two) (NNS months)))
+    (, ,)
+    (NP (DT the) (NN app))
+    (VP (VBD had)
+      (ADVP (RB only))
+      (VP (VBN been)
+        (ADJP (JJ available)
+          (PP (TO to)
+            (NP
+              (NP (NNP iPhone) (NNS users))
+              (PP (IN via)
+                (NP (DT the) (NNP App) (NNP Store))))))))
+    (. .)))
+
+root(ROOT-0, available-12)
+det(months-5, the-2)
+amod(months-5, last-3)
+num(months-5, two-4)
+prep_for(available-12, months-5)
+det(app-8, the-7)
+nsubj(available-12, app-8)
+aux(available-12, had-9)
+advmod(available-12, only-10)
+cop(available-12, been-11)
+nn(users-15, iPhone-14)
+prep_to(available-12, users-15)
+det(Store-19, the-17)
+nn(Store-19, App-18)
+prep_via(users-15, Store-19)
+
+Sentence #6 (26 tokens):
+The development team credited that to a desire for a controlled release and a chance to develop unique features for the more open Android handsets.
+[Text=The CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=development CharacterOffsetBegin=662 CharacterOffsetEnd=673 PartOfSpeech=NN Lemma=development NamedEntityTag=O] [Text=team CharacterOffsetBegin=674 CharacterOffsetEnd=678 PartOfSpeech=NN Lemma=team NamedEntityTag=O] [Text=credited CharacterOffsetBegin=679 CharacterOffsetEnd=687 PartOfSpeech=VBD Lemma=credit NamedEntityTag=O] [Text=that CharacterOffsetBegin=688 CharacterOffsetEnd=692 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=to CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=a CharacterOffsetBegin=696 CharacterOffsetEnd=697 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=desire CharacterOffsetBegin=698 CharacterOffsetEnd=704 PartOfSpeech=NN Lemma=desire NamedEntityTag=O] [Text=for CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=709 CharacterOffsetEnd=710 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=controlled CharacterOffsetBegin=711 CharacterOffsetEnd=721 PartOfSpeech=JJ Lemma=controlled NamedEntityTag=O] [Text=release CharacterOffsetBegin=722 CharacterOffsetEnd=729 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=and CharacterOffsetBegin=730 CharacterOffsetEnd=733 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=a CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=chance CharacterOffsetBegin=736 CharacterOffsetEnd=742 PartOfSpeech=NN Lemma=chance NamedEntityTag=O] [Text=to CharacterOffsetBegin=743 CharacterOffsetEnd=745 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=develop CharacterOffsetBegin=746 CharacterOffsetEnd=753 PartOfSpeech=VB Lemma=develop NamedEntityTag=O] [Text=unique CharacterOffsetBegin=754 CharacterOffsetEnd=760 PartOfSpeech=JJ Lemma=unique NamedEntityTag=O] [Text=features CharacterOffsetBegin=761 CharacterOffsetEnd=769 PartOfSpeech=NNS Lemma=feature NamedEntityTag=O] [Text=for CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=more CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=open CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=JJ Lemma=open NamedEntityTag=O] [Text=Android CharacterOffsetBegin=788 CharacterOffsetEnd=795 PartOfSpeech=NN Lemma=android NamedEntityTag=O] [Text=handsets CharacterOffsetBegin=796 CharacterOffsetEnd=804 PartOfSpeech=NNS Lemma=handset NamedEntityTag=O] [Text=. CharacterOffsetBegin=804 CharacterOffsetEnd=805 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NN development) (NN team))
+    (VP (VBD credited)
+      (ADVP (IN that)
+        (PP (TO to)
+          (NP (DT a) (NN desire))))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ controlled) (NN release))
+          (CC and)
+          (NP (DT a) (NN chance))))
+      (S
+        (VP (TO to)
+          (VP (VB develop)
+            (NP (JJ unique) (NNS features))
+            (PP (IN for)
+              (NP (DT the) (JJR more) (JJ open) (NN Android) (NNS handsets)))))))
+    (. .)))
+
+root(ROOT-0, credited-4)
+det(team-3, The-1)
+nn(team-3, development-2)
+nsubj(credited-4, team-3)
+advmod(credited-4, that-5)
+det(desire-8, a-7)
+prep_to(that-5, desire-8)
+det(release-12, a-10)
+amod(release-12, controlled-11)
+prep_for(credited-4, release-12)
+det(chance-15, a-14)
+conj_and(release-12, chance-15)
+aux(develop-17, to-16)
+xcomp(credited-4, develop-17)
+amod(features-19, unique-18)
+dobj(develop-17, features-19)
+det(handsets-25, the-21)
+amod(handsets-25, more-22)
+amod(handsets-25, open-23)
+nn(handsets-25, Android-24)
+prep_for(develop-17, handsets-25)
+
+Sentence #7 (41 tokens):
+"As a small startup, our initial launch was limited to just iOS, but we’ve been working really hard to craft an experience that feels special on Android, yet still unmistakably Periscope," they wrote.
+[Text=`` CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=As CharacterOffsetBegin=807 CharacterOffsetEnd=809 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=810 CharacterOffsetEnd=811 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=small CharacterOffsetBegin=812 CharacterOffsetEnd=817 PartOfSpeech=JJ Lemma=small NamedEntityTag=O] [Text=startup CharacterOffsetBegin=818 CharacterOffsetEnd=825 PartOfSpeech=NN Lemma=startup NamedEntityTag=O] [Text=, CharacterOffsetBegin=825 CharacterOffsetEnd=826 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=our CharacterOffsetBegin=827 CharacterOffsetEnd=830 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=initial CharacterOffsetBegin=831 CharacterOffsetEnd=838 PartOfSpeech=JJ Lemma=initial NamedEntityTag=O] [Text=launch CharacterOffsetBegin=839 CharacterOffsetEnd=845 PartOfSpeech=NN Lemma=launch NamedEntityTag=O] [Text=was CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=limited CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=VBN Lemma=limit NamedEntityTag=O] [Text=to CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=just CharacterOffsetBegin=861 CharacterOffsetEnd=865 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=iOS CharacterOffsetBegin=866 CharacterOffsetEnd=869 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=, CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=871 CharacterOffsetEnd=874 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=we CharacterOffsetBegin=875 CharacterOffsetEnd=877 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=877 CharacterOffsetEnd=880 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=881 CharacterOffsetEnd=885 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=working CharacterOffsetBegin=886 CharacterOffsetEnd=893 PartOfSpeech=VBG Lemma=work NamedEntityTag=O] [Text=really CharacterOffsetBegin=894 CharacterOffsetEnd=900 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=hard CharacterOffsetBegin=901 CharacterOffsetEnd=905 PartOfSpeech=JJ Lemma=hard NamedEntityTag=O] [Text=to CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=craft CharacterOffsetBegin=909 CharacterOffsetEnd=914 PartOfSpeech=VB Lemma=craft NamedEntityTag=O] [Text=an CharacterOffsetBegin=915 CharacterOffsetEnd=917 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=experience CharacterOffsetBegin=918 CharacterOffsetEnd=928 PartOfSpeech=NN Lemma=experience NamedEntityTag=O] [Text=that CharacterOffsetBegin=929 CharacterOffsetEnd=933 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=feels CharacterOffsetBegin=934 CharacterOffsetEnd=939 PartOfSpeech=VBZ Lemma=feel NamedEntityTag=O] [Text=special CharacterOffsetBegin=940 CharacterOffsetEnd=947 PartOfSpeech=JJ Lemma=special NamedEntityTag=O] [Text=on CharacterOffsetBegin=948 CharacterOffsetEnd=950 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Android CharacterOffsetBegin=951 CharacterOffsetEnd=958 PartOfSpeech=NNP Lemma=Android NamedEntityTag=O] [Text=, CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=yet CharacterOffsetBegin=960 CharacterOffsetEnd=963 PartOfSpeech=RB Lemma=yet NamedEntityTag=O] [Text=still CharacterOffsetBegin=964 CharacterOffsetEnd=969 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=unmistakably CharacterOffsetBegin=970 CharacterOffsetEnd=982 PartOfSpeech=RB Lemma=unmistakably NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=983 CharacterOffsetEnd=992 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=992 CharacterOffsetEnd=993 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=993 CharacterOffsetEnd=994 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=they CharacterOffsetBegin=995 CharacterOffsetEnd=999 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=wrote CharacterOffsetBegin=1000 CharacterOffsetEnd=1005 PartOfSpeech=VBD Lemma=write NamedEntityTag=O] [Text=. CharacterOffsetBegin=1005 CharacterOffsetEnd=1006 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (PP (IN As)
+          (NP (DT a) (JJ small) (NN startup)))
+        (, ,)
+        (NP (PRP$ our) (JJ initial) (NN launch))
+        (VP (VBD was)
+          (VP (VBN limited)
+            (PP (TO to)
+              (NP-TMP (RB just) (NNP iOS))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP we))
+        (VP (VBP _ve)
+          (VP (VBN been)
+            (VP (VBG working)
+              (ADJP (RB really) (JJ hard))
+              (S
+                (VP (TO to)
+                  (VP (VB craft)
+                    (NP
+                      (NP
+                        (NP (DT an) (NN experience))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBZ feels)
+                              (NP
+                                (NP (JJ special))
+                                (PP (IN on)
+                                  (NP (NNP Android))))
+                              (, ,)
+                              (ADVP (RB yet))))))
+                      (PRN
+                        (ADVP (RB still))
+                        (NP
+                          (ADVP (RB unmistakably))
+                          (NNP Periscope))))))))))))
+    (, ,) (__ __)
+    (NP (PRP they))
+    (VP (VBD wrote))
+    (. .)))
+
+root(ROOT-0, wrote-40)
+det(startup-5, a-3)
+amod(startup-5, small-4)
+prep_as(limited-11, startup-5)
+poss(launch-9, our-7)
+amod(launch-9, initial-8)
+nsubjpass(limited-11, launch-9)
+auxpass(limited-11, was-10)
+ccomp(wrote-40, limited-11)
+advmod(iOS-14, just-13)
+prep_to(limited-11, iOS-14)
+nsubj(working-20, we-17)
+aux(working-20, _ve-18)
+aux(working-20, been-19)
+conj_but(limited-11, working-20)
+advmod(hard-22, really-21)
+acomp(working-20, hard-22)
+aux(craft-24, to-23)
+xcomp(working-20, craft-24)
+det(experience-26, an-25)
+dobj(craft-24, experience-26)
+nsubj(feels-28, that-27)
+rcmod(experience-26, feels-28)
+dobj(feels-28, special-29)
+prep_on(special-29, Android-31)
+advmod(feels-28, yet-33)
+dep(Periscope-36, still-34)
+advmod(Periscope-36, unmistakably-35)
+dep(experience-26, Periscope-36)
+nsubj(wrote-40, they-39)
+
+Sentence #8 (21 tokens):
+Along with a new user interface, Android will sport a pair of options that iOS users won_t have.
+[Text=Along CharacterOffsetBegin=1007 CharacterOffsetEnd=1012 PartOfSpeech=IN Lemma=along NamedEntityTag=O] [Text=with CharacterOffsetBegin=1013 CharacterOffsetEnd=1017 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=1018 CharacterOffsetEnd=1019 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=1020 CharacterOffsetEnd=1023 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=user CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=NN Lemma=user NamedEntityTag=O] [Text=interface CharacterOffsetBegin=1029 CharacterOffsetEnd=1038 PartOfSpeech=NN Lemma=interface NamedEntityTag=O] [Text=, CharacterOffsetBegin=1038 CharacterOffsetEnd=1039 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Android CharacterOffsetBegin=1040 CharacterOffsetEnd=1047 PartOfSpeech=NNP Lemma=Android NamedEntityTag=O] [Text=will CharacterOffsetBegin=1048 CharacterOffsetEnd=1052 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=sport CharacterOffsetBegin=1053 CharacterOffsetEnd=1058 PartOfSpeech=NN Lemma=sport NamedEntityTag=O] [Text=a CharacterOffsetBegin=1059 CharacterOffsetEnd=1060 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=pair CharacterOffsetBegin=1061 CharacterOffsetEnd=1065 PartOfSpeech=NN Lemma=pair NamedEntityTag=O] [Text=of CharacterOffsetBegin=1066 CharacterOffsetEnd=1068 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=options CharacterOffsetBegin=1069 CharacterOffsetEnd=1076 PartOfSpeech=NNS Lemma=option NamedEntityTag=O] [Text=that CharacterOffsetBegin=1077 CharacterOffsetEnd=1081 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=iOS CharacterOffsetBegin=1082 CharacterOffsetEnd=1085 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=users CharacterOffsetBegin=1086 CharacterOffsetEnd=1091 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=wo CharacterOffsetBegin=1092 CharacterOffsetEnd=1094 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1094 CharacterOffsetEnd=1097 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=have CharacterOffsetBegin=1098 CharacterOffsetEnd=1102 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=. CharacterOffsetBegin=1102 CharacterOffsetEnd=1103 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN Along)
+      (PP (IN with)
+        (NP (DT a) (JJ new) (NN user) (NN interface))))
+    (, ,)
+    (NP (NNP Android))
+    (VP (MD will)
+      (NP (NN sport))
+      (S
+        (NP
+          (NP (DT a) (NN pair))
+          (PP (IN of)
+            (NP
+              (NP (NNS options))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (NP (NNP iOS) (NNS users))
+                  (VP (MD wo) (RB n_t)
+                    (VP (VB have))))))))))
+    (. .)))
+
+root(ROOT-0, will-9)
+prepc_along_with(will-9, with-2)
+det(interface-6, a-3)
+amod(interface-6, new-4)
+nn(interface-6, user-5)
+pobj(will-9, interface-6)
+nsubj(will-9, Android-8)
+dobj(will-9, sport-10)
+det(pair-12, a-11)
+dep(will-9, pair-12)
+prep_of(pair-12, options-14)
+dobj(have-20, that-15)
+nn(users-17, iOS-16)
+nsubj(have-20, users-17)
+aux(have-20, wo-18)
+neg(have-20, n_t-19)
+rcmod(options-14, have-20)
+
+Sentence #9 (30 tokens):
+Android users get a more precise set of notification settings, including the ability to only be notified of a friend_s first Periscope broadcast and no further posts.
+[Text=Android CharacterOffsetBegin=1104 CharacterOffsetEnd=1111 PartOfSpeech=JJ Lemma=android NamedEntityTag=O] [Text=users CharacterOffsetBegin=1112 CharacterOffsetEnd=1117 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=get CharacterOffsetBegin=1118 CharacterOffsetEnd=1121 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=a CharacterOffsetBegin=1122 CharacterOffsetEnd=1123 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=more CharacterOffsetBegin=1124 CharacterOffsetEnd=1128 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=precise CharacterOffsetBegin=1129 CharacterOffsetEnd=1136 PartOfSpeech=JJ Lemma=precise NamedEntityTag=O] [Text=set CharacterOffsetBegin=1137 CharacterOffsetEnd=1140 PartOfSpeech=NN Lemma=set NamedEntityTag=O] [Text=of CharacterOffsetBegin=1141 CharacterOffsetEnd=1143 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=notification CharacterOffsetBegin=1144 CharacterOffsetEnd=1156 PartOfSpeech=NN Lemma=notification NamedEntityTag=O] [Text=settings CharacterOffsetBegin=1157 CharacterOffsetEnd=1165 PartOfSpeech=NNS Lemma=setting NamedEntityTag=O] [Text=, CharacterOffsetBegin=1165 CharacterOffsetEnd=1166 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=1167 CharacterOffsetEnd=1176 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=the CharacterOffsetBegin=1177 CharacterOffsetEnd=1180 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ability CharacterOffsetBegin=1181 CharacterOffsetEnd=1188 PartOfSpeech=NN Lemma=ability NamedEntityTag=O] [Text=to CharacterOffsetBegin=1189 CharacterOffsetEnd=1191 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=only CharacterOffsetBegin=1192 CharacterOffsetEnd=1196 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=be CharacterOffsetBegin=1197 CharacterOffsetEnd=1199 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=notified CharacterOffsetBegin=1200 CharacterOffsetEnd=1208 PartOfSpeech=VBN Lemma=notify NamedEntityTag=O] [Text=of CharacterOffsetBegin=1209 CharacterOffsetEnd=1211 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=1212 CharacterOffsetEnd=1213 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=friend CharacterOffsetBegin=1214 CharacterOffsetEnd=1220 PartOfSpeech=NN Lemma=friend NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1220 CharacterOffsetEnd=1222 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=first CharacterOffsetBegin=1223 CharacterOffsetEnd=1228 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=Periscope CharacterOffsetBegin=1229 CharacterOffsetEnd=1238 PartOfSpeech=NN Lemma=periscope NamedEntityTag=O] [Text=broadcast CharacterOffsetBegin=1239 CharacterOffsetEnd=1248 PartOfSpeech=NN Lemma=broadcast NamedEntityTag=O] [Text=and CharacterOffsetBegin=1249 CharacterOffsetEnd=1252 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=no CharacterOffsetBegin=1253 CharacterOffsetEnd=1255 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=further CharacterOffsetBegin=1256 CharacterOffsetEnd=1263 PartOfSpeech=JJ Lemma=further NamedEntityTag=O] [Text=posts CharacterOffsetBegin=1264 CharacterOffsetEnd=1269 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=. CharacterOffsetBegin=1269 CharacterOffsetEnd=1270 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Android) (NNS users))
+    (VP (VB get)
+      (NP
+        (NP (DT a)
+          (ADJP (RBR more) (JJ precise))
+          (NN set))
+        (PP (IN of)
+          (NP (NN notification) (NNS settings))))
+      (, ,)
+      (PP (VBG including)
+        (NP (DT the) (NN ability)
+          (S
+            (VP (TO to)
+              (ADVP (RB only))
+              (VP (VB be)
+                (VP (VBN notified)
+                  (PP (IN of)
+                    (NP
+                      (NP
+                        (NP (DT a) (NN friend) (POS _s))
+                        (JJ first) (NN Periscope) (NN broadcast))
+                      (CC and)
+                      (NP (DT no) (JJ further) (NNS posts)))))))))))
+    (. .)))
+
+root(ROOT-0, get-3)
+amod(users-2, Android-1)
+nsubj(get-3, users-2)
+det(set-7, a-4)
+advmod(precise-6, more-5)
+amod(set-7, precise-6)
+dobj(get-3, set-7)
+nn(settings-10, notification-9)
+prep_of(set-7, settings-10)
+det(ability-14, the-13)
+prep_including(get-3, ability-14)
+aux(notified-18, to-15)
+advmod(notified-18, only-16)
+auxpass(notified-18, be-17)
+vmod(ability-14, notified-18)
+det(friend-21, a-20)
+poss(broadcast-25, friend-21)
+amod(broadcast-25, first-23)
+nn(broadcast-25, Periscope-24)
+prep_of(notified-18, broadcast-25)
+neg(posts-29, no-27)
+amod(posts-29, further-28)
+conj_and(broadcast-25, posts-29)
+
+Sentence #10 (26 tokens):
+Android users will also be able to get "resume" notifications to continue viewing broadcasts that were interrupted by incoming calls or text messages.
+[Text=Android CharacterOffsetBegin=1271 CharacterOffsetEnd=1278 PartOfSpeech=JJ Lemma=android NamedEntityTag=O] [Text=users CharacterOffsetBegin=1279 CharacterOffsetEnd=1284 PartOfSpeech=NNS Lemma=user NamedEntityTag=O] [Text=will CharacterOffsetBegin=1285 CharacterOffsetEnd=1289 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=also CharacterOffsetBegin=1290 CharacterOffsetEnd=1294 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=be CharacterOffsetBegin=1295 CharacterOffsetEnd=1297 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=able CharacterOffsetBegin=1298 CharacterOffsetEnd=1302 PartOfSpeech=JJ Lemma=able NamedEntityTag=O] [Text=to CharacterOffsetBegin=1303 CharacterOffsetEnd=1305 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=1306 CharacterOffsetEnd=1309 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=`` CharacterOffsetBegin=1310 CharacterOffsetEnd=1311 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=resume CharacterOffsetBegin=1311 CharacterOffsetEnd=1317 PartOfSpeech=VB Lemma=resume NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1317 CharacterOffsetEnd=1318 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=notifications CharacterOffsetBegin=1319 CharacterOffsetEnd=1332 PartOfSpeech=NNS Lemma=notification NamedEntityTag=O] [Text=to CharacterOffsetBegin=1333 CharacterOffsetEnd=1335 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=continue CharacterOffsetBegin=1336 CharacterOffsetEnd=1344 PartOfSpeech=VB Lemma=continue NamedEntityTag=O] [Text=viewing CharacterOffsetBegin=1345 CharacterOffsetEnd=1352 PartOfSpeech=VBG Lemma=view NamedEntityTag=O] [Text=broadcasts CharacterOffsetBegin=1353 CharacterOffsetEnd=1363 PartOfSpeech=NNS Lemma=broadcast NamedEntityTag=O] [Text=that CharacterOffsetBegin=1364 CharacterOffsetEnd=1368 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=were CharacterOffsetBegin=1369 CharacterOffsetEnd=1373 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=interrupted CharacterOffsetBegin=1374 CharacterOffsetEnd=1385 PartOfSpeech=VBN Lemma=interrupt NamedEntityTag=O] [Text=by CharacterOffsetBegin=1386 CharacterOffsetEnd=1388 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=incoming CharacterOffsetBegin=1389 CharacterOffsetEnd=1397 PartOfSpeech=JJ Lemma=incoming NamedEntityTag=O] [Text=calls CharacterOffsetBegin=1398 CharacterOffsetEnd=1403 PartOfSpeech=NNS Lemma=call NamedEntityTag=O] [Text=or CharacterOffsetBegin=1404 CharacterOffsetEnd=1406 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=text CharacterOffsetBegin=1407 CharacterOffsetEnd=1411 PartOfSpeech=NN Lemma=text NamedEntityTag=O] [Text=messages CharacterOffsetBegin=1412 CharacterOffsetEnd=1420 PartOfSpeech=NNS Lemma=message NamedEntityTag=O] [Text=. CharacterOffsetBegin=1420 CharacterOffsetEnd=1421 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Android) (NNS users))
+    (VP (MD will)
+      (ADVP (RB also))
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB get)
+                (VP (`` ``) (VB resume) (__ __)
+                  (S
+                    (NP (NNS notifications))
+                    (VP (TO to)
+                      (VP (VB continue)
+                        (NP
+                          (NP (VBG viewing) (NNS broadcasts))
+                          (SBAR
+                            (WHNP (WDT that))
+                            (S
+                              (VP (VBD were)
+                                (VP (VBN interrupted)
+                                  (PP (IN by)
+                                    (NP (JJ incoming) (NNS calls)
+                                      (CC or)
+                                      (NN text) (NNS messages))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, able-6)
+amod(users-2, Android-1)
+nsubj(able-6, users-2)
+aux(able-6, will-3)
+advmod(able-6, also-4)
+cop(able-6, be-5)
+aux(resume-10, to-7)
+aux(resume-10, get-8)
+xcomp(able-6, resume-10)
+nsubj(continue-14, notifications-12)
+aux(continue-14, to-13)
+xcomp(resume-10, continue-14)
+amod(broadcasts-16, viewing-15)
+dobj(continue-14, broadcasts-16)
+nsubjpass(interrupted-19, that-17)
+auxpass(interrupted-19, were-18)
+rcmod(broadcasts-16, interrupted-19)
+amod(calls-22, incoming-21)
+agent(interrupted-19, calls-22)
+nn(messages-25, text-24)
+conj_or(calls-22, messages-25)
+
+Sentence #11 (30 tokens):
+Briefly a startup operation, Periscope was acquired by Twitter for a reported $100m in March and quickly relaunched later that month as a Twitter-branded app for iOS.
+[Text=Briefly CharacterOffsetBegin=1422 CharacterOffsetEnd=1429 PartOfSpeech=RB Lemma=briefly NamedEntityTag=O] [Text=a CharacterOffsetBegin=1430 CharacterOffsetEnd=1431 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=startup CharacterOffsetBegin=1432 CharacterOffsetEnd=1439 PartOfSpeech=NN Lemma=startup NamedEntityTag=O] [Text=operation CharacterOffsetBegin=1440 CharacterOffsetEnd=1449 PartOfSpeech=NN Lemma=operation NamedEntityTag=O] [Text=, CharacterOffsetBegin=1449 CharacterOffsetEnd=1450 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=1451 CharacterOffsetEnd=1460 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=1461 CharacterOffsetEnd=1464 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=acquired CharacterOffsetBegin=1465 CharacterOffsetEnd=1473 PartOfSpeech=VBN Lemma=acquire NamedEntityTag=O] [Text=by CharacterOffsetBegin=1474 CharacterOffsetEnd=1476 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=1477 CharacterOffsetEnd=1484 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=for CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=1489 CharacterOffsetEnd=1490 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=reported CharacterOffsetBegin=1491 CharacterOffsetEnd=1499 PartOfSpeech=VBN Lemma=report NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1500 CharacterOffsetEnd=1501 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E8] [Text=100m CharacterOffsetBegin=1501 CharacterOffsetEnd=1505 PartOfSpeech=CD Lemma=100m NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E8] [Text=in CharacterOffsetBegin=1506 CharacterOffsetEnd=1508 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=March CharacterOffsetBegin=1509 CharacterOffsetEnd=1514 PartOfSpeech=NNP Lemma=March NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t5" type="DATE" value="XXXX-03">March<_TIMEX3>] [Text=and CharacterOffsetBegin=1515 CharacterOffsetEnd=1518 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=quickly CharacterOffsetBegin=1519 CharacterOffsetEnd=1526 PartOfSpeech=RB Lemma=quickly NamedEntityTag=O] [Text=relaunched CharacterOffsetBegin=1527 CharacterOffsetEnd=1537 PartOfSpeech=VBN Lemma=relaunch NamedEntityTag=O] [Text=later CharacterOffsetBegin=1538 CharacterOffsetEnd=1543 PartOfSpeech=RB Lemma=later NamedEntityTag=O] [Text=that CharacterOffsetBegin=1544 CharacterOffsetEnd=1548 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=month CharacterOffsetBegin=1549 CharacterOffsetEnd=1554 PartOfSpeech=NN Lemma=month NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t6" type="DURATION" value="P1M">month<_TIMEX3>] [Text=as CharacterOffsetBegin=1555 CharacterOffsetEnd=1557 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=a CharacterOffsetBegin=1558 CharacterOffsetEnd=1559 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=Twitter-branded CharacterOffsetBegin=1560 CharacterOffsetEnd=1575 PartOfSpeech=JJ Lemma=twitter-branded NamedEntityTag=O] [Text=app CharacterOffsetBegin=1576 CharacterOffsetEnd=1579 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=for CharacterOffsetBegin=1580 CharacterOffsetEnd=1583 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=iOS CharacterOffsetBegin=1584 CharacterOffsetEnd=1587 PartOfSpeech=NNP Lemma=iOS NamedEntityTag=O] [Text=. CharacterOffsetBegin=1587 CharacterOffsetEnd=1588 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (ADVP (RB Briefly))
+      (NP (DT a) (NN startup) (NN operation)))
+    (, ,)
+    (NP (NNP Periscope))
+    (VP (VBD was)
+      (VP
+        (VP (VBN acquired)
+          (PP (IN by)
+            (NP (NNP Twitter)))
+          (PP (IN for)
+            (NP (DT a)
+              (ADJP (VBN reported)
+                (NP
+                  (NP ($ $) (CD 100m))
+                  (PP (IN in)
+                    (NP (NNP March))))))))
+        (CC and)
+        (ADVP (RB quickly))
+        (VP (VBN relaunched)
+          (ADVP (RB later) (IN that) (NN month))
+          (PP (IN as)
+            (NP
+              (NP (DT a) (JJ Twitter-branded) (NN app))
+              (PP (IN for)
+                (NP (NNP iOS))))))))
+    (. .)))
+
+root(ROOT-0, acquired-8)
+advmod(operation-4, Briefly-1)
+det(operation-4, a-2)
+nn(operation-4, startup-3)
+ccomp(acquired-8, operation-4)
+nsubjpass(acquired-8, Periscope-6)
+auxpass(acquired-8, was-7)
+agent(acquired-8, Twitter-10)
+det(reported-13, a-12)
+prep_for(acquired-8, reported-13)
+dep(reported-13, dol-14)
+num(dol-14, 100m-15)
+prep_in(dol-14, March-17)
+advmod(relaunched-20, quickly-19)
+conj_and(acquired-8, relaunched-20)
+advmod(that-22, later-21)
+advmod(relaunched-20, that-22)
+dep(that-22, month-23)
+det(app-27, a-25)
+amod(app-27, Twitter-branded-26)
+prep_as(relaunched-20, app-27)
+prep_for(app-27, iOS-29)
+
+Sentence #12 (16 tokens):
+Two months later, the Periscope app is now on the two largest smartphone platforms.
+[Text=Two CharacterOffsetBegin=1589 CharacterOffsetEnd=1592 PartOfSpeech=CD Lemma=two NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P2M Timex=<TIMEX3 alt_value="OFFSET P2M" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf0">Two months later<_TIMEX3>] [Text=months CharacterOffsetBegin=1593 CharacterOffsetEnd=1599 PartOfSpeech=NNS Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P2M Timex=<TIMEX3 alt_value="OFFSET P2M" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf0">Two months later<_TIMEX3>] [Text=later CharacterOffsetBegin=1600 CharacterOffsetEnd=1605 PartOfSpeech=RB Lemma=later NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P2M Timex=<TIMEX3 alt_value="OFFSET P2M" anchorTimeID="t0" temporalFunction="true" tid="t7" type="DATE" valueFromFunction="tf0">Two months later<_TIMEX3>] [Text=, CharacterOffsetBegin=1605 CharacterOffsetEnd=1606 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1607 CharacterOffsetEnd=1610 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=1611 CharacterOffsetEnd=1620 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=O] [Text=app CharacterOffsetBegin=1621 CharacterOffsetEnd=1624 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=is CharacterOffsetBegin=1625 CharacterOffsetEnd=1627 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=now CharacterOffsetBegin=1628 CharacterOffsetEnd=1631 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t8" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=on CharacterOffsetBegin=1632 CharacterOffsetEnd=1634 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1635 CharacterOffsetEnd=1638 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=two CharacterOffsetBegin=1639 CharacterOffsetEnd=1642 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=largest CharacterOffsetBegin=1643 CharacterOffsetEnd=1650 PartOfSpeech=JJS Lemma=largest NamedEntityTag=O] [Text=smartphone CharacterOffsetBegin=1651 CharacterOffsetEnd=1661 PartOfSpeech=NN Lemma=smartphone NamedEntityTag=O] [Text=platforms CharacterOffsetBegin=1662 CharacterOffsetEnd=1671 PartOfSpeech=NNS Lemma=platform NamedEntityTag=O] [Text=. CharacterOffsetBegin=1671 CharacterOffsetEnd=1672 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP-TMP (CD Two) (NNS months) (RB later))
+    (, ,)
+    (NP (DT the) (NNP Periscope) (NN app))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (PP (IN on)
+        (NP (DT the) (CD two) (JJS largest) (NN smartphone) (NNS platforms))))
+    (. .)))
+
+root(ROOT-0, is-8)
+num(months-2, Two-1)
+tmod(is-8, months-2)
+advmod(months-2, later-3)
+det(app-7, the-5)
+nn(app-7, Periscope-6)
+nsubj(is-8, app-7)
+advmod(is-8, now-9)
+det(platforms-15, the-11)
+num(platforms-15, two-12)
+amod(platforms-15, largest-13)
+nn(platforms-15, smartphone-14)
+prep_on(is-8, platforms-15)
+
+Sentence #13 (21 tokens):
+No word was given on when, or if, Periscope would be ported to Windows Phone or BlackBerry handsets.
+[Text=No CharacterOffsetBegin=1673 CharacterOffsetEnd=1675 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=word CharacterOffsetBegin=1676 CharacterOffsetEnd=1680 PartOfSpeech=NN Lemma=word NamedEntityTag=O] [Text=was CharacterOffsetBegin=1681 CharacterOffsetEnd=1684 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=given CharacterOffsetBegin=1685 CharacterOffsetEnd=1690 PartOfSpeech=VBN Lemma=give NamedEntityTag=O] [Text=on CharacterOffsetBegin=1691 CharacterOffsetEnd=1693 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=when CharacterOffsetBegin=1694 CharacterOffsetEnd=1698 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=, CharacterOffsetBegin=1698 CharacterOffsetEnd=1699 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=or CharacterOffsetBegin=1700 CharacterOffsetEnd=1702 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=if CharacterOffsetBegin=1703 CharacterOffsetEnd=1705 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=, CharacterOffsetBegin=1705 CharacterOffsetEnd=1706 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Periscope CharacterOffsetBegin=1707 CharacterOffsetEnd=1716 PartOfSpeech=NNP Lemma=Periscope NamedEntityTag=PERSON] [Text=would CharacterOffsetBegin=1717 CharacterOffsetEnd=1722 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=be CharacterOffsetBegin=1723 CharacterOffsetEnd=1725 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=ported CharacterOffsetBegin=1726 CharacterOffsetEnd=1732 PartOfSpeech=VBN Lemma=port NamedEntityTag=O] [Text=to CharacterOffsetBegin=1733 CharacterOffsetEnd=1735 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Windows CharacterOffsetBegin=1736 CharacterOffsetEnd=1743 PartOfSpeech=NNP Lemma=Windows NamedEntityTag=MISC] [Text=Phone CharacterOffsetBegin=1744 CharacterOffsetEnd=1749 PartOfSpeech=NNP Lemma=Phone NamedEntityTag=MISC] [Text=or CharacterOffsetBegin=1750 CharacterOffsetEnd=1752 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=BlackBerry CharacterOffsetBegin=1753 CharacterOffsetEnd=1763 PartOfSpeech=NNP Lemma=BlackBerry NamedEntityTag=O] [Text=handsets CharacterOffsetBegin=1764 CharacterOffsetEnd=1772 PartOfSpeech=NNS Lemma=handset NamedEntityTag=O] [Text=. CharacterOffsetBegin=1772 CharacterOffsetEnd=1773 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT No) (NN word))
+    (VP (VBD was)
+      (VP (VBN given)
+        (PP (IN on)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (PRN (, ,)
+                (CC or)
+                (ADVP (IN if))
+                (, ,))
+              (NP (NNP Periscope))
+              (VP (MD would)
+                (VP (VB be)
+                  (VP (VBN ported)
+                    (PP (TO to)
+                      (NP (NNP Windows) (NNP Phone)
+                        (CC or)
+                        (NNP BlackBerry) (NNS handsets)))))))))))
+    (. .)))
+
+root(ROOT-0, given-4)
+neg(word-2, No-1)
+nsubjpass(given-4, word-2)
+auxpass(given-4, was-3)
+advmod(ported-14, when-6)
+cc(if-9, or-8)
+dep(ported-14, if-9)
+nsubjpass(ported-14, Periscope-11)
+aux(ported-14, would-12)
+auxpass(ported-14, be-13)
+prepc_on(given-4, ported-14)
+nn(Phone-17, Windows-16)
+prep_to(ported-14, Phone-17)
+nn(handsets-20, BlackBerry-19)
+conj_or(Phone-17, handsets-20)
+
+Sentence #14 (12 tokens):
+Based on its progress so far don_t hold your breath.
+[Text=Based CharacterOffsetBegin=1774 CharacterOffsetEnd=1779 PartOfSpeech=VBN Lemma=base NamedEntityTag=O] [Text=on CharacterOffsetBegin=1780 CharacterOffsetEnd=1782 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=its CharacterOffsetBegin=1783 CharacterOffsetEnd=1786 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O] [Text=progress CharacterOffsetBegin=1787 CharacterOffsetEnd=1795 PartOfSpeech=NN Lemma=progress NamedEntityTag=O] [Text=so CharacterOffsetBegin=1796 CharacterOffsetEnd=1798 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=far CharacterOffsetBegin=1799 CharacterOffsetEnd=1802 PartOfSpeech=RB Lemma=far NamedEntityTag=O] [Text=do CharacterOffsetBegin=1803 CharacterOffsetEnd=1805 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=1805 CharacterOffsetEnd=1808 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=hold CharacterOffsetBegin=1809 CharacterOffsetEnd=1813 PartOfSpeech=VB Lemma=hold NamedEntityTag=O] [Text=your CharacterOffsetBegin=1814 CharacterOffsetEnd=1818 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=breath CharacterOffsetBegin=1819 CharacterOffsetEnd=1825 PartOfSpeech=NN Lemma=breath NamedEntityTag=O] [Text=. CharacterOffsetBegin=1825 CharacterOffsetEnd=1826 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBN Based)
+        (PP (IN on)
+          (NP (PRP$ its) (NN progress)))))
+    (ADVP (RB so) (RB far))
+    (VP (VBP do) (RB n_t)
+      (VP (VB hold)
+        (NP (PRP$ your) (NN breath))))
+    (. .)))
+
+root(ROOT-0, hold-9)
+csubj(hold-9, Based-1)
+poss(progress-4, its-3)
+prep_on(Based-1, progress-4)
+advmod(far-6, so-5)
+advmod(hold-9, far-6)
+aux(hold-9, do-7)
+neg(hold-9, n_t-8)
+poss(breath-11, your-10)
+dobj(hold-9, breath-11)
+
+Sentence #15 (15 tokens):
+®
+More from The Register
+Biting the hand that feeds IT © 1998–2015
+[Text=® CharacterOffsetBegin=1827 CharacterOffsetEnd=1828 PartOfSpeech=NN Lemma=® NamedEntityTag=O] [Text=More CharacterOffsetBegin=1829 CharacterOffsetEnd=1833 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=from CharacterOffsetBegin=1834 CharacterOffsetEnd=1838 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=The CharacterOffsetBegin=1839 CharacterOffsetEnd=1842 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Register CharacterOffsetBegin=1843 CharacterOffsetEnd=1851 PartOfSpeech=NNP Lemma=Register NamedEntityTag=O] [Text=Biting CharacterOffsetBegin=1852 CharacterOffsetEnd=1858 PartOfSpeech=VBG Lemma=bite NamedEntityTag=O] [Text=the CharacterOffsetBegin=1859 CharacterOffsetEnd=1862 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=hand CharacterOffsetBegin=1863 CharacterOffsetEnd=1867 PartOfSpeech=NN Lemma=hand NamedEntityTag=O] [Text=that CharacterOffsetBegin=1868 CharacterOffsetEnd=1872 PartOfSpeech=WDT Lemma=that NamedEntityTag=O] [Text=feeds CharacterOffsetBegin=1873 CharacterOffsetEnd=1878 PartOfSpeech=VBZ Lemma=feed NamedEntityTag=O] [Text=IT CharacterOffsetBegin=1879 CharacterOffsetEnd=1881 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=© CharacterOffsetBegin=1882 CharacterOffsetEnd=1883 PartOfSpeech=NN Lemma=© NamedEntityTag=O] [Text=1998 CharacterOffsetBegin=1884 CharacterOffsetEnd=1888 PartOfSpeech=CD Lemma=1998 NamedEntityTag=DATE NormalizedNamedEntityTag=1998 Timex=<TIMEX3 tid="t9" type="DATE" value="1998">1998<_TIMEX3>] [Text=-- CharacterOffsetBegin=1888 CharacterOffsetEnd=1889 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=1889 CharacterOffsetEnd=1893 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t10" type="DATE" value="2015">2015<_TIMEX3>] 
+(ROOT
+  (PP
+    (ADVP
+      (NP (NN ®))
+      (RBR More))
+    (IN from)
+    (NP
+      (NP (DT The) (NNP Register))
+      (VP (VBG Biting)
+        (NP
+          (NP (DT the) (NN hand))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ feeds)
+                (S
+                  (NP (PRP IT))
+                  (NP
+                    (NP (NN ©))
+                    (NP (CD 1998) (: --) (CD 2015))))))))))))
+
+root(ROOT-0, from-3)
+npadvmod(More-2, ®-1)
+advmod(from-3, More-2)
+det(Register-5, The-4)
+pobj(from-3, Register-5)
+vmod(Register-5, Biting-6)
+det(hand-8, the-7)
+dobj(Biting-6, hand-8)
+nsubj(feeds-10, that-9)
+rcmod(hand-8, feeds-10)
+nsubj(©-12, IT-11)
+xcomp(feeds-10, ©-12)
+num(2015-15, 1998-13)
+dep(©-12, 2015-15)
+
+Coreference set:
+ (5,8,[7,9]) -> (1,12,[10,18]), that is: "the app" -> "an Android app via the Google Play store"
+Coreference set:
+ (3,1,[1,2]) -> (7,36,[35,37]), that is: "Periscope" -> "unmistakably Periscope"
+ (7,36,[36,37]) -> (7,36,[35,37]), that is: "Periscope" -> "unmistakably Periscope"
+ (11,6,[6,7]) -> (7,36,[35,37]), that is: "Periscope" -> "unmistakably Periscope"
+ (13,11,[11,12]) -> (7,36,[35,37]), that is: "Periscope" -> "unmistakably Periscope"
+Coreference set:
+ (11,10,[10,11]) -> (3,3,[3,5]), that is: "Twitter" -> "Twitter _s"
+Coreference set:
+ (3,23,[23,24]) -> (3,14,[14,15]), that is: "their" -> "users"
+ (3,28,[28,29]) -> (3,14,[14,15]), that is: "them" -> "users"
+Coreference set:
+ (4,2,[2,3]) -> (8,14,[14,21]), that is: "options" -> "options that iOS users wo n_t have"
+Coreference set:
+ (4,14,[14,15]) -> (4,5,[4,6]), that is: "it" -> "the ability"
+Coreference set:
+ (7,39,[39,40]) -> (4,28,[27,32]), that is: "they" -> "some snafus in the past"
+Coreference set:
+ (12,2,[1,4]) -> (5,5,[2,6]), that is: "Two months later" -> "the last two months"
+Coreference set:
+ (7,7,[7,8]) -> (5,15,[14,20]), that is: "our" -> "iPhone users via the App Store"
+ (7,17,[17,18]) -> (5,15,[14,20]), that is: "we" -> "iPhone users via the App Store"
+Coreference set:
+ (11,29,[29,30]) -> (7,14,[13,15]), that is: "iOS" -> "just iOS"
+Coreference set:
+ (8,8,[8,9]) -> (7,31,[31,32]), that is: "Android" -> "Android"
+Coreference set:
+ (10,2,[1,3]) -> (9,2,[1,3]), that is: "Android users" -> "Android users"
+Coreference set:
+ (14,3,[3,4]) -> (13,2,[1,3]), that is: "its" -> "No word"
+Coreference set:
+ (15,11,[11,12]) -> (14,4,[3,5]), that is: "IT" -> "its progress"

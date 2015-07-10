@@ -1,0 +1,82 @@
+Sentence #1 (22 tokens):
+Sign in
+Tim Bradshaw in San Francisco
+Printed from: http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html
+Print a single copy of this article for personal use.
+[Text=Sign CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN Lemma=sign NamedEntityTag=O] [Text=in CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Tim CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Tim NamedEntityTag=PERSON] [Text=Bradshaw CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Bradshaw NamedEntityTag=PERSON] [Text=in CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=San CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=San NamedEntityTag=LOCATION] [Text=Francisco CharacterOffsetBegin=28 CharacterOffsetEnd=37 PartOfSpeech=NNP Lemma=Francisco NamedEntityTag=LOCATION] [Text=Printed CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Printed NamedEntityTag=O] [Text=from CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=: CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html CharacterOffsetBegin=52 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html NamedEntityTag=O] [Text=Print CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VB Lemma=print NamedEntityTag=O] [Text=a CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=single CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=JJ Lemma=single NamedEntityTag=O] [Text=copy CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=copy NamedEntityTag=O] [Text=of CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=this CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=article CharacterOffsetBegin=148 CharacterOffsetEnd=155 PartOfSpeech=NN Lemma=article NamedEntityTag=O] [Text=for CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=personal CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=use CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=use NamedEntityTag=O] [Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (NN Sign))
+      (PP (IN in)
+        (NP
+          (NP (NNP Tim) (NNP Bradshaw))
+          (PP (IN in)
+            (NP
+              (NP (NNP San) (NNP Francisco) (NNP Printed))
+              (PP (IN from)))))))
+    (: :)
+    (NP (NN http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html)
+      (S
+        (VP (VB Print)
+          (NP
+            (NP (DT a) (JJ single) (NN copy))
+            (PP (IN of)
+              (NP
+                (NP (DT this) (NN article))
+                (PP (IN for)
+                  (NP (JJ personal) (NN use)))))))))
+    (. .)))
+
+root(ROOT-0, Sign-1)
+nn(Bradshaw-4, Tim-3)
+prep_in(Sign-1, Bradshaw-4)
+nn(Printed-8, San-6)
+nn(Printed-8, Francisco-7)
+prep_in(Bradshaw-4, Printed-8)
+prep(Printed-8, from-9)
+dep(Sign-1, http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html-11)
+dep(http:__www.ft.com_cms_s_0_95179124-0403-11e5-8585-00144feabdc0.html-11, Print-12)
+det(copy-15, a-13)
+amod(copy-15, single-14)
+dobj(Print-12, copy-15)
+det(article-18, this-17)
+prep_of(copy-15, article-18)
+amod(use-21, personal-20)
+prep_for(article-18, use-21)
+
+Sentence #2 (13 tokens):
+Contact us if you wish to print more to distribute to others.
+[Text=Contact CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NN Lemma=contact NamedEntityTag=O] [Text=us CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=if CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=wish CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VBP Lemma=wish NamedEntityTag=O] [Text=to CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=print CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=VB Lemma=print NamedEntityTag=O] [Text=more CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=to CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=distribute CharacterOffsetBegin=214 CharacterOffsetEnd=224 PartOfSpeech=VB Lemma=distribute NamedEntityTag=O] [Text=to CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=others CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NNS Lemma=other NamedEntityTag=O] [Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Contact))
+    (SBAR
+      (NP (PRP us))
+      (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP wish)
+          (S
+            (VP (TO to)
+              (VP (VB print)
+                (NP (JJR more))
+                (S
+                  (VP (TO to)
+                    (VP (VB distribute)
+                      (PP (TO to)
+                        (NP (NNS others))))))))))))
+    (. .)))
+
+root(ROOT-0, wish-5)
+dep(wish-5, Contact-1)
+dep(wish-5, us-2)
+mark(wish-5, if-3)
+nsubj(wish-5, you-4)
+aux(print-7, to-6)
+xcomp(wish-5, print-7)
+dobj(print-7, more-8)
+aux(distribute-10, to-9)
+vmod(print-7, distribute-10)
+prep_to(distribute-10, others-12)
+

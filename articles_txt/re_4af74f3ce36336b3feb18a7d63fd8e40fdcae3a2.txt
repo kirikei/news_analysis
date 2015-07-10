@@ -1,0 +1,1772 @@
+Sentence #1 (4 tokens):
+Share This Story!
+[Text=Share CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=This CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=Story CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Story NamedEntityTag=O] [Text=! CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Share))
+    (NP (DT This) (NNP Story))
+    (. !)))
+
+root(ROOT-0, Share-1)
+det(Story-3, This-2)
+dep(Share-1, Story-3)
+
+Sentence #2 (23 tokens):
+Let friends in your social network know what you are reading about
+Verlander_s simulated game a success; rehab start next?
+[Text=Let CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=VB Lemma=let NamedEntityTag=O] [Text=friends CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O] [Text=in CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=your CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=social CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=JJ Lemma=social NamedEntityTag=O] [Text=network CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=NN Lemma=network NamedEntityTag=O] [Text=know CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=what CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=you CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=are CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=reading CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=VBG Lemma=read NamedEntityTag=O] [Text=about CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=85 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=simulated CharacterOffsetBegin=97 CharacterOffsetEnd=106 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=game CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=a CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=success CharacterOffsetBegin=114 CharacterOffsetEnd=121 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=; CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=start CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=next CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=IN Lemma=next NamedEntityTag=O] [Text=? CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (SQ
+    (VP (VB Let)
+      (SBAR
+        (S
+          (NP
+            (NP (NNS friends))
+            (PP (IN in)
+              (NP (PRP$ your) (JJ social) (NN network))))
+          (VP (VBP know)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP you))
+                (VP (VBP are)
+                  (VP (VBG reading)
+                    (PP (IN about)
+                      (NP
+                        (NP
+                          (NP
+                            (NP (NNP Verlander) (POS _s))
+                            (JJ simulated) (NN game))
+                          (NP (DT a) (NN success)))
+                        (: ;)
+                        (NP (NN rehab) (NN start))))
+                    (ADVP (IN next))))))))))
+    (. ?)))
+
+root(ROOT-0, Let-1)
+nsubj(know-7, friends-2)
+poss(network-6, your-4)
+amod(network-6, social-5)
+prep_in(friends-2, network-6)
+ccomp(Let-1, know-7)
+dobj(reading-11, what-8)
+nsubj(reading-11, you-9)
+aux(reading-11, are-10)
+ccomp(know-7, reading-11)
+poss(game-16, Verlander-13)
+amod(game-16, simulated-15)
+prep_about(reading-11, game-16)
+det(success-18, a-17)
+dep(game-16, success-18)
+nn(start-21, rehab-20)
+dep(game-16, start-21)
+advmod(reading-11, next-22)
+
+Sentence #3 (21 tokens):
+Verlander threw 70 pitches over 4 1_3 innings and allowed two hits and one walk while striking out teammates eight times.
+[Text=Verlander CharacterOffsetBegin=141 CharacterOffsetEnd=150 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=threw CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=VBD Lemma=throw NamedEntityTag=O] [Text=70 CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=CD Lemma=70 NamedEntityTag=NUMBER NormalizedNamedEntityTag=70.0] [Text=pitches CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=over CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=4 1_3 CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=CD Lemma=4 1_3 NamedEntityTag=NUMBER] [Text=innings CharacterOffsetBegin=179 CharacterOffsetEnd=186 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=and CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=allowed CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=VBD Lemma=allow NamedEntityTag=O] [Text=two CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=hits CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=and CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=one CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=walk CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=NN Lemma=walk NamedEntityTag=O] [Text=while CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=striking CharacterOffsetBegin=227 CharacterOffsetEnd=235 PartOfSpeech=VBG Lemma=strike NamedEntityTag=O] [Text=out CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=240 CharacterOffsetEnd=249 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=eight CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=times CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=. CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Verlander))
+    (VP
+      (VP (VBD threw)
+        (NP (CD 70) (NNS pitches))
+        (PP (IN over)
+          (NP (CD 4 1_3) (NNS innings))))
+      (CC and)
+      (VP (VBD allowed)
+        (SBAR
+          (S
+            (NP
+              (NP (CD two) (NNS hits))
+              (CC and)
+              (NP (CD one)))
+            (VP (NN walk)
+              (SBAR (IN while)
+                (S
+                  (VP (VBG striking)
+                    (PRT (RP out))
+                    (NP
+                      (NP (NNS teammates))
+                      (NP-TMP (CD eight) (NNS times)))))))))))
+    (. .)))
+
+root(ROOT-0, threw-2)
+nsubj(threw-2, Verlander-1)
+num(pitches-4, 70-3)
+dobj(threw-2, pitches-4)
+num(innings-7, 4 1_3-6)
+prep_over(threw-2, innings-7)
+conj_and(threw-2, allowed-9)
+num(hits-11, two-10)
+nsubj(walk-14, hits-11)
+conj_and(hits-11, one-13)
+ccomp(allowed-9, walk-14)
+mark(striking-16, while-15)
+advcl(walk-14, striking-16)
+prt(striking-16, out-17)
+dobj(striking-16, teammates-18)
+num(times-20, eight-19)
+tmod(teammates-18, times-20)
+
+Sentence #4 (14 tokens):
+Post to Facebook
+Verlander_s simulated game a success; rehab start next?
+[Text=Post CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=NN Lemma=post NamedEntityTag=O] [Text=to CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=271 CharacterOffsetEnd=279 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=Verlander CharacterOffsetBegin=280 CharacterOffsetEnd=289 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=ORGANIZATION] [Text=_s CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=simulated CharacterOffsetBegin=292 CharacterOffsetEnd=301 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=game CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=a CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=success CharacterOffsetBegin=309 CharacterOffsetEnd=316 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=; CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=start CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=next CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=IN Lemma=next NamedEntityTag=O] [Text=? CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (NN Post))
+        (PP (TO to)
+          (NP
+            (NP (NNP Facebook) (NNP Verlander) (POS _s))
+            (JJ simulated) (NN game))))
+      (NP (DT a) (NN success)))
+    (: ;)
+    (NP
+      (NP (NN rehab) (NN start))
+      (PP (IN next)))
+    (. ?)))
+
+root(ROOT-0, Post-1)
+nn(Verlander-4, Facebook-3)
+poss(game-7, Verlander-4)
+amod(game-7, simulated-6)
+prep_to(Post-1, game-7)
+det(success-9, a-8)
+dep(Post-1, success-9)
+nn(start-12, rehab-11)
+dep(Post-1, start-12)
+prep(start-12, next-13)
+
+Sentence #5 (21 tokens):
+Verlander threw 70 pitches over 4 1_3 innings and allowed two hits and one walk while striking out teammates eight times.
+[Text=Verlander CharacterOffsetBegin=336 CharacterOffsetEnd=345 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=threw CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=VBD Lemma=throw NamedEntityTag=O] [Text=70 CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=CD Lemma=70 NamedEntityTag=NUMBER NormalizedNamedEntityTag=70.0] [Text=pitches CharacterOffsetBegin=355 CharacterOffsetEnd=362 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=over CharacterOffsetBegin=363 CharacterOffsetEnd=367 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=4 1_3 CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=CD Lemma=4 1_3 NamedEntityTag=NUMBER] [Text=innings CharacterOffsetBegin=374 CharacterOffsetEnd=381 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=and CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=allowed CharacterOffsetBegin=386 CharacterOffsetEnd=393 PartOfSpeech=VBD Lemma=allow NamedEntityTag=O] [Text=two CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=hits CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=and CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=one CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=walk CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=NN Lemma=walk NamedEntityTag=O] [Text=while CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=striking CharacterOffsetBegin=422 CharacterOffsetEnd=430 PartOfSpeech=VBG Lemma=strike NamedEntityTag=O] [Text=out CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=435 CharacterOffsetEnd=444 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=eight CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=times CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=NNS Lemma=time NamedEntityTag=O] [Text=. CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Verlander))
+    (VP
+      (VP (VBD threw)
+        (NP (CD 70) (NNS pitches))
+        (PP (IN over)
+          (NP (CD 4 1_3) (NNS innings))))
+      (CC and)
+      (VP (VBD allowed)
+        (SBAR
+          (S
+            (NP
+              (NP (CD two) (NNS hits))
+              (CC and)
+              (NP (CD one)))
+            (VP (NN walk)
+              (SBAR (IN while)
+                (S
+                  (VP (VBG striking)
+                    (PRT (RP out))
+                    (NP
+                      (NP (NNS teammates))
+                      (NP-TMP (CD eight) (NNS times)))))))))))
+    (. .)))
+
+root(ROOT-0, threw-2)
+nsubj(threw-2, Verlander-1)
+num(pitches-4, 70-3)
+dobj(threw-2, pitches-4)
+num(innings-7, 4 1_3-6)
+prep_over(threw-2, innings-7)
+conj_and(threw-2, allowed-9)
+num(hits-11, two-10)
+nsubj(walk-14, hits-11)
+conj_and(hits-11, one-13)
+ccomp(allowed-9, walk-14)
+mark(striking-16, while-15)
+advcl(walk-14, striking-16)
+prt(striking-16, out-17)
+dobj(striking-16, teammates-18)
+num(times-20, eight-19)
+tmod(teammates-18, times-20)
+
+Sentence #6 (11 tokens):
+Check out this story on Freep.com: http:__on.freep.com_1HvedYn
+CancelSend
+Sent!
+[Text=Check CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=VB Lemma=check NamedEntityTag=O] [Text=out CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=this CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=story CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=on CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Freep.com CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=NNP Lemma=Freep.com NamedEntityTag=O] [Text=: CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=http:__on.freep.com_1HvedYn CharacterOffsetBegin=493 CharacterOffsetEnd=520 PartOfSpeech=NN Lemma=http:__on.freep.com_1hvedyn NamedEntityTag=O] [Text=CancelSend CharacterOffsetBegin=521 CharacterOffsetEnd=531 PartOfSpeech=NNP Lemma=CancelSend NamedEntityTag=O] [Text=Sent CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=NNP Lemma=Sent NamedEntityTag=O] [Text=! CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Check)
+      (PRT (RP out))
+      (NP
+        (NP
+          (NP (DT this) (NN story))
+          (PP (IN on)
+            (NP (NNP Freep.com))))
+        (: :)
+        (NP (NN http:__on.freep.com_1HvedYn) (NNP CancelSend) (NNP Sent))))
+    (. !)))
+
+root(ROOT-0, Check-1)
+prt(Check-1, out-2)
+det(story-4, this-3)
+dobj(Check-1, story-4)
+prep_on(story-4, Freep.com-6)
+nn(Sent-10, http:__on.freep.com_1HvedYn-8)
+nn(Sent-10, CancelSend-9)
+dep(story-4, Sent-10)
+
+Sentence #7 (12 tokens):
+A link has been sent to your friend_s email address.
+[Text=A CharacterOffsetBegin=538 CharacterOffsetEnd=539 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=link CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=NN Lemma=link NamedEntityTag=O] [Text=has CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=sent CharacterOffsetBegin=554 CharacterOffsetEnd=558 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=to CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=your CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=friend CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NN Lemma=friend NamedEntityTag=O] [Text=_s CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=email CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=address CharacterOffsetBegin=582 CharacterOffsetEnd=589 PartOfSpeech=NN Lemma=address NamedEntityTag=O] [Text=. CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT A) (NN link))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN sent)
+          (PP (TO to)
+            (NP
+              (NP (PRP$ your) (NN friend) (POS _s))
+              (NN email) (NN address))))))
+    (. .)))
+
+root(ROOT-0, sent-5)
+det(link-2, A-1)
+nsubjpass(sent-5, link-2)
+aux(sent-5, has-3)
+auxpass(sent-5, been-4)
+poss(friend-8, your-7)
+poss(address-11, friend-8)
+nn(address-11, email-10)
+prep_to(sent-5, address-11)
+
+Sentence #8 (2 tokens):
+Posted!
+[Text=Posted CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=VBN Lemma=post NamedEntityTag=O] [Text=! CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VBN Posted))
+    (. !)))
+
+root(ROOT-0, Posted-1)
+
+Sentence #9 (29 tokens):
+3
+Join the Conversation
+To find out more about Facebook commenting please read the Conversation Guidelines and FAQs
+Verlander_s simulated game a success; rehab start next?
+[Text=3 CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=LS Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=Join CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=VB Lemma=join NamedEntityTag=O] [Text=the CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Conversation CharacterOffsetBegin=610 CharacterOffsetEnd=622 PartOfSpeech=NN Lemma=conversation NamedEntityTag=O] [Text=To CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=find CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=VB Lemma=find NamedEntityTag=O] [Text=out CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=more CharacterOffsetBegin=635 CharacterOffsetEnd=639 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=about CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=646 CharacterOffsetEnd=654 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=commenting CharacterOffsetBegin=655 CharacterOffsetEnd=665 PartOfSpeech=VBG Lemma=comment NamedEntityTag=O] [Text=please CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=VB Lemma=please NamedEntityTag=O] [Text=read CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=the CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Conversation CharacterOffsetBegin=682 CharacterOffsetEnd=694 PartOfSpeech=NNP Lemma=Conversation NamedEntityTag=O] [Text=Guidelines CharacterOffsetBegin=695 CharacterOffsetEnd=705 PartOfSpeech=NNS Lemma=guideline NamedEntityTag=O] [Text=and CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=FAQs CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NNS Lemma=faq NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=715 CharacterOffsetEnd=724 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=simulated CharacterOffsetBegin=727 CharacterOffsetEnd=736 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=game CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=a CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=success CharacterOffsetBegin=744 CharacterOffsetEnd=751 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=; CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=: Lemma=; NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=753 CharacterOffsetEnd=758 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=start CharacterOffsetBegin=759 CharacterOffsetEnd=764 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=next CharacterOffsetBegin=765 CharacterOffsetEnd=769 PartOfSpeech=IN Lemma=next NamedEntityTag=O] [Text=? CharacterOffsetBegin=769 CharacterOffsetEnd=770 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (S
+    (LST (LS 3))
+    (VP (VB Join)
+      (NP (DT the) (NN Conversation)
+        (S
+          (VP (TO To)
+            (VP (VB find)
+              (PRT (RP out))
+              (PP (JJR more) (IN about)
+                (NP
+                  (NP (NNP Facebook))
+                  (VP (VBG commenting)
+                    (S
+                      (VP (VB please)
+                        (S
+                          (VP (VB read)
+                            (S
+                              (NP (DT the) (NNP Conversation) (NNS Guidelines)
+                                (CC and)
+                                (NNS FAQs))
+                              (NP
+                                (NP (NNP Verlander) (POS _s))
+                                (JJ simulated) (NN game))))
+                          (NP
+                            (NP (DT a) (NN success))
+                            (: ;)
+                            (NP (NN rehab) (NN start))))))
+                    (ADVP (IN next))))))))))
+    (. ?)))
+
+root(ROOT-0, Join-2)
+dep(Join-2, 3-1)
+det(Conversation-4, the-3)
+dobj(Join-2, Conversation-4)
+aux(find-6, To-5)
+vmod(Conversation-4, find-6)
+prt(find-6, out-7)
+dep(find-6, more-8)
+prep_about(find-6, Facebook-10)
+vmod(Facebook-10, commenting-11)
+ccomp(commenting-11, please-12)
+ccomp(please-12, read-13)
+det(Guidelines-16, the-14)
+nn(Guidelines-16, Conversation-15)
+nsubj(game-22, Guidelines-16)
+conj_and(Guidelines-16, FAQs-18)
+poss(game-22, Verlander-19)
+amod(game-22, simulated-21)
+xcomp(read-13, game-22)
+det(success-24, a-23)
+dep(read-13, success-24)
+nn(start-27, rehab-26)
+dep(success-24, start-27)
+advmod(commenting-11, next-28)
+
+Sentence #10 (35 tokens):
+By Anthony Fenech, Detroit Free Press 9:41 p.m. EDT May 26, 2015
+The Tigers pitcher believes he won_t feel anything abnormal after throwing pitches to hitters Tuesday in Oakland, Calif.
+[Text=By CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Anthony CharacterOffsetBegin=774 CharacterOffsetEnd=781 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=Fenech CharacterOffsetBegin=782 CharacterOffsetEnd=788 PartOfSpeech=NNP Lemma=Fenech NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Detroit CharacterOffsetBegin=790 CharacterOffsetEnd=797 PartOfSpeech=NNP Lemma=Detroit NamedEntityTag=ORGANIZATION] [Text=Free CharacterOffsetBegin=798 CharacterOffsetEnd=802 PartOfSpeech=NNP Lemma=Free NamedEntityTag=ORGANIZATION] [Text=Press CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=NNP Lemma=Press NamedEntityTag=ORGANIZATION] [Text=9:41 CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=CD Lemma=9:41 NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=p.m. CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=RB Lemma=p.m. NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=EDT CharacterOffsetBegin=819 CharacterOffsetEnd=822 PartOfSpeech=NNP Lemma=EDT NamedEntityTag=TIME NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=May CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=26 CharacterOffsetBegin=827 CharacterOffsetEnd=829 PartOfSpeech=CD Lemma=26 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=, CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=, Lemma=, NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=2015 CharacterOffsetBegin=831 CharacterOffsetEnd=835 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015-05-26T21:41-0500 Timex=<TIMEX3 tid="t1" type="TIME" value="2015-05-26T21:41-0500">9:41 p.m. EDT May 26, 2015<_TIMEX3>] [Text=The CharacterOffsetBegin=836 CharacterOffsetEnd=839 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=840 CharacterOffsetEnd=846 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=pitcher CharacterOffsetBegin=847 CharacterOffsetEnd=854 PartOfSpeech=NN Lemma=pitcher NamedEntityTag=O] [Text=believes CharacterOffsetBegin=855 CharacterOffsetEnd=863 PartOfSpeech=VBZ Lemma=believe NamedEntityTag=O] [Text=he CharacterOffsetBegin=864 CharacterOffsetEnd=866 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=wo CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=869 CharacterOffsetEnd=872 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=feel CharacterOffsetBegin=873 CharacterOffsetEnd=877 PartOfSpeech=VB Lemma=feel NamedEntityTag=O] [Text=anything CharacterOffsetBegin=878 CharacterOffsetEnd=886 PartOfSpeech=NN Lemma=anything NamedEntityTag=O] [Text=abnormal CharacterOffsetBegin=887 CharacterOffsetEnd=895 PartOfSpeech=JJ Lemma=abnormal NamedEntityTag=O] [Text=after CharacterOffsetBegin=896 CharacterOffsetEnd=901 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=throwing CharacterOffsetBegin=902 CharacterOffsetEnd=910 PartOfSpeech=VBG Lemma=throw NamedEntityTag=O] [Text=pitches CharacterOffsetBegin=911 CharacterOffsetEnd=918 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=to CharacterOffsetBegin=919 CharacterOffsetEnd=921 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=hitters CharacterOffsetBegin=922 CharacterOffsetEnd=929 PartOfSpeech=NNS Lemma=hitter NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=930 CharacterOffsetEnd=937 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=in CharacterOffsetBegin=938 CharacterOffsetEnd=940 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Oakland CharacterOffsetBegin=941 CharacterOffsetEnd=948 PartOfSpeech=NNP Lemma=Oakland NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=948 CharacterOffsetEnd=949 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Calif. CharacterOffsetBegin=950 CharacterOffsetEnd=955 PartOfSpeech=NNP Lemma=Calif. NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=955 CharacterOffsetEnd=956 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN By)
+      (NP
+        (NP (NNP Anthony) (NNP Fenech))
+        (, ,)
+        (NP
+          (NP
+            (NP (NNP Detroit) (NNP Free) (NNP Press))
+            (NP (CD 9:41) (RB p.m.) (NNP EDT)))
+          (NP-TMP (NNP May) (CD 26) (, ,) (CD 2015)))))
+    (NP (DT The) (NNP Tigers) (NN pitcher))
+    (VP (VBZ believes)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (MD wo) (RB n_t)
+            (VP (VB feel)
+              (S
+                (NP (NN anything))
+                (ADJP (JJ abnormal)
+                  (PP (IN after)
+                    (S
+                      (VP (VBG throwing)
+                        (NP (NNS pitches))
+                        (PP (TO to)
+                          (NP (NNS hitters)))
+                        (NP-TMP (NNP Tuesday))
+                        (PP (IN in)
+                          (NP (NNP Oakland) (, ,) (NNP Calif.)))))))))))))
+    (. .)))
+
+root(ROOT-0, believes-18)
+nn(Fenech-3, Anthony-2)
+prep_by(believes-18, Fenech-3)
+nn(Press-7, Detroit-5)
+nn(Press-7, Free-6)
+appos(Fenech-3, Press-7)
+num(EDT-10, 9:41-8)
+advmod(EDT-10, p.m.-9)
+dep(Press-7, EDT-10)
+tmod(Press-7, May-11)
+num(May-11, 26-12)
+num(May-11, 2015-14)
+det(pitcher-17, The-15)
+nn(pitcher-17, Tigers-16)
+nsubj(believes-18, pitcher-17)
+nsubj(feel-22, he-19)
+aux(feel-22, wo-20)
+neg(feel-22, n_t-21)
+ccomp(believes-18, feel-22)
+nsubj(abnormal-24, anything-23)
+xcomp(feel-22, abnormal-24)
+prepc_after(abnormal-24, throwing-26)
+dobj(throwing-26, pitches-27)
+prep_to(throwing-26, hitters-29)
+tmod(throwing-26, Tuesday-30)
+nn(Calif.-34, Oakland-32)
+prep_in(throwing-26, Calif.-34)
+
+Sentence #11 (12 tokens):
+Video by Anthony Fenech_DFP
+Tigers pitcher Justin Verlander
+OAKLAND, Calif.
+[Text=Video CharacterOffsetBegin=957 CharacterOffsetEnd=962 PartOfSpeech=NNP Lemma=Video NamedEntityTag=O] [Text=by CharacterOffsetBegin=963 CharacterOffsetEnd=965 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=Anthony CharacterOffsetBegin=966 CharacterOffsetEnd=973 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=Fenech_DFP CharacterOffsetBegin=974 CharacterOffsetEnd=984 PartOfSpeech=NNP Lemma=Fenech_DFP NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=985 CharacterOffsetEnd=991 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=pitcher CharacterOffsetBegin=992 CharacterOffsetEnd=999 PartOfSpeech=NN Lemma=pitcher NamedEntityTag=O] [Text=Justin CharacterOffsetBegin=1000 CharacterOffsetEnd=1006 PartOfSpeech=NNP Lemma=Justin NamedEntityTag=PERSON] [Text=Verlander CharacterOffsetBegin=1007 CharacterOffsetEnd=1016 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=OAKLAND CharacterOffsetBegin=1017 CharacterOffsetEnd=1024 PartOfSpeech=NNP Lemma=OAKLAND NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=1024 CharacterOffsetEnd=1025 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Calif. CharacterOffsetBegin=1026 CharacterOffsetEnd=1031 PartOfSpeech=NNP Lemma=Calif. NamedEntityTag=LOCATION] [Text=. CharacterOffsetBegin=1031 CharacterOffsetEnd=1032 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Video))
+    (PP (IN by)
+      (NP
+        (NP (NNP Anthony) (NNP Fenech_DFP) (NNP Tigers) (NN pitcher) (NNP Justin) (NNP Verlander) (NNP OAKLAND))
+        (, ,)
+        (NP (NNP Calif.))))
+    (. .)))
+
+root(ROOT-0, Video-1)
+nn(OAKLAND-9, Anthony-3)
+nn(OAKLAND-9, Fenech_DFP-4)
+nn(OAKLAND-9, Tigers-5)
+nn(OAKLAND-9, pitcher-6)
+nn(OAKLAND-9, Justin-7)
+nn(OAKLAND-9, Verlander-8)
+prep_by(Video-1, OAKLAND-9)
+appos(OAKLAND-9, Calif.-11)
+
+Sentence #12 (24 tokens):
+– It was simulated, from the national anthem to the wave to Justin Verlander trying to talk his way into another inning.
+[Text=-- CharacterOffsetBegin=1034 CharacterOffsetEnd=1035 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=It CharacterOffsetBegin=1036 CharacterOffsetEnd=1038 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1039 CharacterOffsetEnd=1042 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=simulated CharacterOffsetBegin=1043 CharacterOffsetEnd=1052 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=, CharacterOffsetBegin=1052 CharacterOffsetEnd=1053 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=from CharacterOffsetBegin=1054 CharacterOffsetEnd=1058 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=1059 CharacterOffsetEnd=1062 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=national CharacterOffsetBegin=1063 CharacterOffsetEnd=1071 PartOfSpeech=JJ Lemma=national NamedEntityTag=O] [Text=anthem CharacterOffsetBegin=1072 CharacterOffsetEnd=1078 PartOfSpeech=NN Lemma=anthem NamedEntityTag=O] [Text=to CharacterOffsetBegin=1079 CharacterOffsetEnd=1081 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=1082 CharacterOffsetEnd=1085 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wave CharacterOffsetBegin=1086 CharacterOffsetEnd=1090 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=to CharacterOffsetBegin=1091 CharacterOffsetEnd=1093 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=Justin CharacterOffsetBegin=1094 CharacterOffsetEnd=1100 PartOfSpeech=NNP Lemma=Justin NamedEntityTag=PERSON] [Text=Verlander CharacterOffsetBegin=1101 CharacterOffsetEnd=1110 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=trying CharacterOffsetBegin=1111 CharacterOffsetEnd=1117 PartOfSpeech=VBG Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=1118 CharacterOffsetEnd=1120 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=talk CharacterOffsetBegin=1121 CharacterOffsetEnd=1125 PartOfSpeech=VB Lemma=talk NamedEntityTag=O] [Text=his CharacterOffsetBegin=1126 CharacterOffsetEnd=1129 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=way CharacterOffsetBegin=1130 CharacterOffsetEnd=1133 PartOfSpeech=NN Lemma=way NamedEntityTag=O] [Text=into CharacterOffsetBegin=1134 CharacterOffsetEnd=1138 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=another CharacterOffsetBegin=1139 CharacterOffsetEnd=1146 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=inning CharacterOffsetBegin=1147 CharacterOffsetEnd=1153 PartOfSpeech=NN Lemma=inning NamedEntityTag=O] [Text=. CharacterOffsetBegin=1153 CharacterOffsetEnd=1154 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (: --)
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ simulated))
+      (, ,)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (JJ national) (NN anthem))
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN wave))
+              (PP (TO to)
+                (NP
+                  (NP (NNP Justin) (NNP Verlander))
+                  (VP (VBG trying)
+                    (S
+                      (VP (TO to)
+                        (VP (VB talk)
+                          (NP (PRP$ his) (NN way))
+                          (PP (IN into)
+                            (NP (DT another) (NN inning))))))))))))))
+    (. .)))
+
+root(ROOT-0, simulated-4)
+nsubj(simulated-4, It-2)
+cop(simulated-4, was-3)
+det(anthem-9, the-7)
+amod(anthem-9, national-8)
+prep_from(simulated-4, anthem-9)
+det(wave-12, the-11)
+prep_to(anthem-9, wave-12)
+nn(Verlander-15, Justin-14)
+prep_to(wave-12, Verlander-15)
+vmod(Verlander-15, trying-16)
+aux(talk-18, to-17)
+xcomp(trying-16, talk-18)
+poss(way-20, his-19)
+dobj(talk-18, way-20)
+det(inning-23, another-22)
+prep_into(talk-18, inning-23)
+
+Sentence #13 (27 tokens):
+And it was a success, Verlander_s first simulated game in over a month, and it could set up his first minor-league rehabilitation start.
+[Text=And CharacterOffsetBegin=1155 CharacterOffsetEnd=1158 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=it CharacterOffsetBegin=1159 CharacterOffsetEnd=1161 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1166 CharacterOffsetEnd=1167 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=success CharacterOffsetBegin=1168 CharacterOffsetEnd=1175 PartOfSpeech=NN Lemma=success NamedEntityTag=O] [Text=, CharacterOffsetBegin=1175 CharacterOffsetEnd=1176 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=1177 CharacterOffsetEnd=1186 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=1186 CharacterOffsetEnd=1188 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=first CharacterOffsetBegin=1189 CharacterOffsetEnd=1194 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=simulated CharacterOffsetBegin=1195 CharacterOffsetEnd=1204 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=game CharacterOffsetBegin=1205 CharacterOffsetEnd=1209 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=in CharacterOffsetBegin=1210 CharacterOffsetEnd=1212 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=over CharacterOffsetBegin=1213 CharacterOffsetEnd=1217 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=a CharacterOffsetBegin=1218 CharacterOffsetEnd=1219 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t3" type="DURATION" value="P1M">a month<_TIMEX3>] [Text=month CharacterOffsetBegin=1220 CharacterOffsetEnd=1225 PartOfSpeech=NN Lemma=month NamedEntityTag=DURATION NormalizedNamedEntityTag=P1M Timex=<TIMEX3 tid="t3" type="DURATION" value="P1M">a month<_TIMEX3>] [Text=, CharacterOffsetBegin=1225 CharacterOffsetEnd=1226 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=1227 CharacterOffsetEnd=1230 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=it CharacterOffsetBegin=1231 CharacterOffsetEnd=1233 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=could CharacterOffsetBegin=1234 CharacterOffsetEnd=1239 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=set CharacterOffsetBegin=1240 CharacterOffsetEnd=1243 PartOfSpeech=VB Lemma=set NamedEntityTag=O] [Text=up CharacterOffsetBegin=1244 CharacterOffsetEnd=1246 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=his CharacterOffsetBegin=1247 CharacterOffsetEnd=1250 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=first CharacterOffsetBegin=1251 CharacterOffsetEnd=1256 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=minor-league CharacterOffsetBegin=1257 CharacterOffsetEnd=1269 PartOfSpeech=JJ Lemma=minor-league NamedEntityTag=O] [Text=rehabilitation CharacterOffsetBegin=1270 CharacterOffsetEnd=1284 PartOfSpeech=NN Lemma=rehabilitation NamedEntityTag=O] [Text=start CharacterOffsetBegin=1285 CharacterOffsetEnd=1290 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=. CharacterOffsetBegin=1290 CharacterOffsetEnd=1291 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (CC And)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (NP
+          (NP (DT a) (NN success))
+          (, ,)
+          (NP
+            (NP (NNP Verlander) (POS _s))
+            (JJ first) (JJ simulated) (NN game)))
+        (PP (IN in)
+          (PP (IN over)
+            (NP (DT a) (NN month))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (MD could)
+        (VP (VB set)
+          (PRT (RP up))
+          (NP (PRP$ his) (JJ first) (JJ minor-league) (NN rehabilitation) (NN start)))))
+    (. .)))
+
+root(ROOT-0, success-5)
+nsubj(success-5, it-2)
+cop(success-5, was-3)
+det(success-5, a-4)
+poss(game-11, Verlander-7)
+amod(game-11, first-9)
+amod(game-11, simulated-10)
+appos(success-5, game-11)
+prep(success-5, in-12)
+pcomp(in-12, over-13)
+det(month-15, a-14)
+pobj(over-13, month-15)
+nsubj(set-20, it-18)
+aux(set-20, could-19)
+conj_and(success-5, set-20)
+prt(set-20, up-21)
+poss(start-26, his-22)
+amod(start-26, first-23)
+amod(start-26, minor-league-24)
+nn(start-26, rehabilitation-25)
+dobj(set-20, start-26)
+
+Sentence #14 (13 tokens):
+"It went really well," the Tigers_ right-hander said.
+[Text=`` CharacterOffsetBegin=1292 CharacterOffsetEnd=1293 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=1293 CharacterOffsetEnd=1295 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=went CharacterOffsetBegin=1296 CharacterOffsetEnd=1300 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=really CharacterOffsetBegin=1301 CharacterOffsetEnd=1307 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=well CharacterOffsetBegin=1308 CharacterOffsetEnd=1312 PartOfSpeech=RB Lemma=well NamedEntityTag=O] [Text=, CharacterOffsetBegin=1312 CharacterOffsetEnd=1313 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1313 CharacterOffsetEnd=1314 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=the CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=1319 CharacterOffsetEnd=1325 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=_ CharacterOffsetBegin=1325 CharacterOffsetEnd=1326 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=right-hander CharacterOffsetBegin=1327 CharacterOffsetEnd=1339 PartOfSpeech=NN Lemma=right-hander NamedEntityTag=O] [Text=said CharacterOffsetBegin=1340 CharacterOffsetEnd=1344 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1344 CharacterOffsetEnd=1345 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (VBD went)
+        (ADVP (RB really))
+        (ADVP (RB well))))
+    (, ,) (__ __)
+    (NP
+      (NP (DT the) (NNP Tigers) (POS _))
+      (NN right-hander))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-12)
+nsubj(went-3, It-2)
+ccomp(said-12, went-3)
+advmod(went-3, really-4)
+advmod(went-3, well-5)
+det(Tigers-9, the-8)
+poss(right-hander-11, Tigers-9)
+nsubj(said-12, right-hander-11)
+
+Sentence #15 (16 tokens):
+"Obviously first and foremost, the most important thing was I felt really good.
+[Text=`` CharacterOffsetBegin=1346 CharacterOffsetEnd=1347 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Obviously CharacterOffsetBegin=1347 CharacterOffsetEnd=1356 PartOfSpeech=RB Lemma=obviously NamedEntityTag=O] [Text=first CharacterOffsetBegin=1357 CharacterOffsetEnd=1362 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=and CharacterOffsetBegin=1363 CharacterOffsetEnd=1366 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=foremost CharacterOffsetBegin=1367 CharacterOffsetEnd=1375 PartOfSpeech=JJ Lemma=foremost NamedEntityTag=O] [Text=, CharacterOffsetBegin=1375 CharacterOffsetEnd=1376 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1377 CharacterOffsetEnd=1380 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=most CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=important CharacterOffsetBegin=1386 CharacterOffsetEnd=1395 PartOfSpeech=JJ Lemma=important NamedEntityTag=O] [Text=thing CharacterOffsetBegin=1396 CharacterOffsetEnd=1401 PartOfSpeech=NN Lemma=thing NamedEntityTag=O] [Text=was CharacterOffsetBegin=1402 CharacterOffsetEnd=1405 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=I CharacterOffsetBegin=1406 CharacterOffsetEnd=1407 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=felt CharacterOffsetBegin=1408 CharacterOffsetEnd=1412 PartOfSpeech=VBD Lemma=feel NamedEntityTag=O] [Text=really CharacterOffsetBegin=1413 CharacterOffsetEnd=1419 PartOfSpeech=RB Lemma=really NamedEntityTag=O] [Text=good CharacterOffsetBegin=1420 CharacterOffsetEnd=1424 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=. CharacterOffsetBegin=1424 CharacterOffsetEnd=1425 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (ADVP (RB Obviously))
+    (UCP
+      (ADJP (JJ first))
+      (CC and)
+      (NP (JJ foremost)))
+    (, ,)
+    (NP (DT the) (RBS most) (JJ important) (NN thing))
+    (VP (VBD was)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD felt)
+            (ADJP (RB really) (JJ good))))))
+    (. .)))
+
+root(ROOT-0, was-11)
+advmod(was-11, Obviously-2)
+dep(was-11, first-3)
+conj_and(first-3, foremost-5)
+det(thing-10, the-7)
+advmod(thing-10, most-8)
+amod(thing-10, important-9)
+nsubj(was-11, thing-10)
+nsubj(felt-13, I-12)
+ccomp(was-11, felt-13)
+advmod(good-15, really-14)
+acomp(felt-13, good-15)
+
+Sentence #16 (21 tokens):
+Stuff was good — it got better as it went along — so all-in-all, I was very pleased."
+[Text=Stuff CharacterOffsetBegin=1426 CharacterOffsetEnd=1431 PartOfSpeech=NN Lemma=stuff NamedEntityTag=O] [Text=was CharacterOffsetBegin=1432 CharacterOffsetEnd=1435 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=good CharacterOffsetBegin=1436 CharacterOffsetEnd=1440 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1441 CharacterOffsetEnd=1442 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=it CharacterOffsetBegin=1443 CharacterOffsetEnd=1445 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=got CharacterOffsetBegin=1446 CharacterOffsetEnd=1449 PartOfSpeech=VBD Lemma=get NamedEntityTag=O] [Text=better CharacterOffsetBegin=1450 CharacterOffsetEnd=1456 PartOfSpeech=JJR Lemma=better NamedEntityTag=O] [Text=as CharacterOffsetBegin=1457 CharacterOffsetEnd=1459 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=it CharacterOffsetBegin=1460 CharacterOffsetEnd=1462 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=went CharacterOffsetBegin=1463 CharacterOffsetEnd=1467 PartOfSpeech=VBD Lemma=go NamedEntityTag=O] [Text=along CharacterOffsetBegin=1468 CharacterOffsetEnd=1473 PartOfSpeech=RB Lemma=along NamedEntityTag=O] [Text=-- CharacterOffsetBegin=1474 CharacterOffsetEnd=1475 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=so CharacterOffsetBegin=1476 CharacterOffsetEnd=1478 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=all-in-all CharacterOffsetBegin=1479 CharacterOffsetEnd=1489 PartOfSpeech=RB Lemma=all-in-all NamedEntityTag=O] [Text=, CharacterOffsetBegin=1489 CharacterOffsetEnd=1490 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=1491 CharacterOffsetEnd=1492 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=was CharacterOffsetBegin=1493 CharacterOffsetEnd=1496 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=1497 CharacterOffsetEnd=1501 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=pleased CharacterOffsetBegin=1502 CharacterOffsetEnd=1509 PartOfSpeech=JJ Lemma=pleased NamedEntityTag=O] [Text=. CharacterOffsetBegin=1509 CharacterOffsetEnd=1510 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1510 CharacterOffsetEnd=1511 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NN Stuff))
+      (VP (VBD was)
+        (ADJP (JJ good))))
+    (PRN (: --)
+      (S
+        (NP (PRP it))
+        (VP (VBD got)
+          (ADJP (JJR better))
+          (SBAR (IN as)
+            (S
+              (NP (PRP it))
+              (VP (VBD went)
+                (ADVP (RB along)))))))
+      (: --))
+    (RB so)
+    (S
+      (ADVP (RB all-in-all))
+      (, ,)
+      (NP (PRP I))
+      (VP (VBD was)
+        (ADJP (RB very) (JJ pleased))))
+    (. .) (__ __)))
+
+root(ROOT-0, good-3)
+nsubj(good-3, Stuff-1)
+cop(good-3, was-2)
+nsubj(better-7, it-5)
+dep(better-7, got-6)
+dep(good-3, better-7)
+mark(went-10, as-8)
+nsubj(went-10, it-9)
+advcl(better-7, went-10)
+advmod(went-10, along-11)
+advmod(good-3, so-13)
+advmod(pleased-19, all-in-all-14)
+nsubj(pleased-19, I-16)
+cop(pleased-19, was-17)
+advmod(pleased-19, very-18)
+parataxis(good-3, pleased-19)
+
+Sentence #17 (8 tokens):
+Verlander threw 70 pitches over 4 1_3 innings.
+[Text=Verlander CharacterOffsetBegin=1512 CharacterOffsetEnd=1521 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=threw CharacterOffsetBegin=1522 CharacterOffsetEnd=1527 PartOfSpeech=VBD Lemma=throw NamedEntityTag=O] [Text=70 CharacterOffsetBegin=1528 CharacterOffsetEnd=1530 PartOfSpeech=CD Lemma=70 NamedEntityTag=NUMBER NormalizedNamedEntityTag=70.0] [Text=pitches CharacterOffsetBegin=1531 CharacterOffsetEnd=1538 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=over CharacterOffsetBegin=1539 CharacterOffsetEnd=1543 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=4 1_3 CharacterOffsetBegin=1544 CharacterOffsetEnd=1549 PartOfSpeech=CD Lemma=4 1_3 NamedEntityTag=NUMBER] [Text=innings CharacterOffsetBegin=1550 CharacterOffsetEnd=1557 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=. CharacterOffsetBegin=1557 CharacterOffsetEnd=1558 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Verlander))
+    (VP (VBD threw)
+      (NP (CD 70) (NNS pitches))
+      (PP (IN over)
+        (NP (CD 4 1_3) (NNS innings))))
+    (. .)))
+
+root(ROOT-0, threw-2)
+nsubj(threw-2, Verlander-1)
+num(pitches-4, 70-3)
+dobj(threw-2, pitches-4)
+num(innings-7, 4 1_3-6)
+prep_over(threw-2, innings-7)
+
+Sentence #18 (31 tokens):
+He faced Bryan Holaday, Tyler Collins, Hernan Perez and rookie Dixon Machado and his pitching line looked like this: Two hits, one walk, eight strikeouts.
+[Text=He CharacterOffsetBegin=1559 CharacterOffsetEnd=1561 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=faced CharacterOffsetBegin=1562 CharacterOffsetEnd=1567 PartOfSpeech=VBD Lemma=face NamedEntityTag=O] [Text=Bryan CharacterOffsetBegin=1568 CharacterOffsetEnd=1573 PartOfSpeech=NNP Lemma=Bryan NamedEntityTag=PERSON] [Text=Holaday CharacterOffsetBegin=1574 CharacterOffsetEnd=1581 PartOfSpeech=NNP Lemma=Holaday NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1581 CharacterOffsetEnd=1582 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Tyler CharacterOffsetBegin=1583 CharacterOffsetEnd=1588 PartOfSpeech=NNP Lemma=Tyler NamedEntityTag=PERSON] [Text=Collins CharacterOffsetBegin=1589 CharacterOffsetEnd=1596 PartOfSpeech=NNP Lemma=Collins NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1596 CharacterOffsetEnd=1597 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Hernan CharacterOffsetBegin=1598 CharacterOffsetEnd=1604 PartOfSpeech=NNP Lemma=Hernan NamedEntityTag=PERSON] [Text=Perez CharacterOffsetBegin=1605 CharacterOffsetEnd=1610 PartOfSpeech=NNP Lemma=Perez NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1611 CharacterOffsetEnd=1614 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=rookie CharacterOffsetBegin=1615 CharacterOffsetEnd=1621 PartOfSpeech=NN Lemma=rookie NamedEntityTag=O] [Text=Dixon CharacterOffsetBegin=1622 CharacterOffsetEnd=1627 PartOfSpeech=NNP Lemma=Dixon NamedEntityTag=PERSON] [Text=Machado CharacterOffsetBegin=1628 CharacterOffsetEnd=1635 PartOfSpeech=NNP Lemma=Machado NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1636 CharacterOffsetEnd=1639 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=his CharacterOffsetBegin=1640 CharacterOffsetEnd=1643 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=pitching CharacterOffsetBegin=1644 CharacterOffsetEnd=1652 PartOfSpeech=VBG Lemma=pitch NamedEntityTag=O] [Text=line CharacterOffsetBegin=1653 CharacterOffsetEnd=1657 PartOfSpeech=NN Lemma=line NamedEntityTag=O] [Text=looked CharacterOffsetBegin=1658 CharacterOffsetEnd=1664 PartOfSpeech=VBD Lemma=look NamedEntityTag=O] [Text=like CharacterOffsetBegin=1665 CharacterOffsetEnd=1669 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=this CharacterOffsetBegin=1670 CharacterOffsetEnd=1674 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=: CharacterOffsetBegin=1674 CharacterOffsetEnd=1675 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Two CharacterOffsetBegin=1676 CharacterOffsetEnd=1679 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=hits CharacterOffsetBegin=1680 CharacterOffsetEnd=1684 PartOfSpeech=NNS Lemma=hit NamedEntityTag=O] [Text=, CharacterOffsetBegin=1684 CharacterOffsetEnd=1685 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=one CharacterOffsetBegin=1686 CharacterOffsetEnd=1689 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=walk CharacterOffsetBegin=1690 CharacterOffsetEnd=1694 PartOfSpeech=NN Lemma=walk NamedEntityTag=O] [Text=, CharacterOffsetBegin=1694 CharacterOffsetEnd=1695 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=eight CharacterOffsetBegin=1696 CharacterOffsetEnd=1701 PartOfSpeech=CD Lemma=eight NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=strikeouts CharacterOffsetBegin=1702 CharacterOffsetEnd=1712 PartOfSpeech=NNS Lemma=strikeout NamedEntityTag=O] [Text=. CharacterOffsetBegin=1712 CharacterOffsetEnd=1713 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD faced)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (NNP Bryan) (NNP Holaday))
+              (, ,)
+              (NP (NNP Tyler) (NNP Collins))
+              (, ,)
+              (NP (NNP Hernan) (NNP Perez))
+              (CC and)
+              (NP (NN rookie) (NNP Dixon) (NNP Machado)))
+            (CC and)
+            (NP (PRP$ his) (VBG pitching) (NN line)))
+          (VP (VBD looked)
+            (PP (IN like)
+              (NP
+                (NP (DT this))
+                (: :)
+                (NP
+                  (NP (CD Two) (NNS hits))
+                  (, ,)
+                  (NP (CD one) (NN walk))
+                  (, ,)
+                  (NP (CD eight) (NNS strikeouts)))))))))
+    (. .)))
+
+root(ROOT-0, faced-2)
+nsubj(faced-2, He-1)
+nn(Holaday-4, Bryan-3)
+nsubj(looked-19, Holaday-4)
+nn(Collins-7, Tyler-6)
+conj_and(Holaday-4, Collins-7)
+nn(Perez-10, Hernan-9)
+conj_and(Holaday-4, Perez-10)
+nn(Machado-14, rookie-12)
+nn(Machado-14, Dixon-13)
+conj_and(Holaday-4, Machado-14)
+poss(line-18, his-16)
+amod(line-18, pitching-17)
+conj_and(Holaday-4, line-18)
+ccomp(faced-2, looked-19)
+prep_like(looked-19, this-21)
+num(hits-24, Two-23)
+dep(this-21, hits-24)
+num(walk-27, one-26)
+appos(hits-24, walk-27)
+num(strikeouts-30, eight-29)
+appos(hits-24, strikeouts-30)
+
+Sentence #19 (21 tokens):
+Manager Brad Ausmus said the finish on his fastball and the break on his breaking pitches is what stood out.
+[Text=Manager CharacterOffsetBegin=1714 CharacterOffsetEnd=1721 PartOfSpeech=NN Lemma=manager NamedEntityTag=O] [Text=Brad CharacterOffsetBegin=1722 CharacterOffsetEnd=1726 PartOfSpeech=NNP Lemma=Brad NamedEntityTag=PERSON] [Text=Ausmus CharacterOffsetBegin=1727 CharacterOffsetEnd=1733 PartOfSpeech=NNP Lemma=Ausmus NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1734 CharacterOffsetEnd=1738 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=1739 CharacterOffsetEnd=1742 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=finish CharacterOffsetBegin=1743 CharacterOffsetEnd=1749 PartOfSpeech=NN Lemma=finish NamedEntityTag=O] [Text=on CharacterOffsetBegin=1750 CharacterOffsetEnd=1752 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=his CharacterOffsetBegin=1753 CharacterOffsetEnd=1756 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=fastball CharacterOffsetBegin=1757 CharacterOffsetEnd=1765 PartOfSpeech=NN Lemma=fastball NamedEntityTag=O] [Text=and CharacterOffsetBegin=1766 CharacterOffsetEnd=1769 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=1770 CharacterOffsetEnd=1773 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=break CharacterOffsetBegin=1774 CharacterOffsetEnd=1779 PartOfSpeech=NN Lemma=break NamedEntityTag=O] [Text=on CharacterOffsetBegin=1780 CharacterOffsetEnd=1782 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=his CharacterOffsetBegin=1783 CharacterOffsetEnd=1786 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=breaking CharacterOffsetBegin=1787 CharacterOffsetEnd=1795 PartOfSpeech=VBG Lemma=break NamedEntityTag=O] [Text=pitches CharacterOffsetBegin=1796 CharacterOffsetEnd=1803 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=is CharacterOffsetBegin=1804 CharacterOffsetEnd=1806 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=what CharacterOffsetBegin=1807 CharacterOffsetEnd=1811 PartOfSpeech=WP Lemma=what NamedEntityTag=O] [Text=stood CharacterOffsetBegin=1812 CharacterOffsetEnd=1817 PartOfSpeech=VBD Lemma=stand NamedEntityTag=O] [Text=out CharacterOffsetBegin=1818 CharacterOffsetEnd=1821 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=. CharacterOffsetBegin=1821 CharacterOffsetEnd=1822 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NN Manager) (NNP Brad) (NNP Ausmus))
+      (VP (VBD said)
+        (NP (DT the) (NN finish))
+        (PP (IN on)
+          (NP (PRP$ his) (NN fastball)))))
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN break))
+        (PP (IN on)
+          (NP (PRP$ his) (VBG breaking) (NNS pitches))))
+      (VP (VBZ is)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (VBD stood)
+              (PRT (RP out)))))))
+    (. .)))
+
+root(ROOT-0, said-4)
+nn(Ausmus-3, Manager-1)
+nn(Ausmus-3, Brad-2)
+nsubj(said-4, Ausmus-3)
+det(finish-6, the-5)
+dobj(said-4, finish-6)
+poss(fastball-9, his-8)
+prep_on(said-4, fastball-9)
+det(break-12, the-11)
+nsubj(is-17, break-12)
+poss(pitches-16, his-14)
+amod(pitches-16, breaking-15)
+prep_on(break-12, pitches-16)
+conj_and(said-4, is-17)
+nsubj(stood-19, what-18)
+ccomp(is-17, stood-19)
+prt(stood-19, out-20)
+
+Sentence #20 (12 tokens):
+The true test will come with how he feels this morning.
+[Text=The CharacterOffsetBegin=1823 CharacterOffsetEnd=1826 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=true CharacterOffsetBegin=1827 CharacterOffsetEnd=1831 PartOfSpeech=JJ Lemma=true NamedEntityTag=O] [Text=test CharacterOffsetBegin=1832 CharacterOffsetEnd=1836 PartOfSpeech=NN Lemma=test NamedEntityTag=O] [Text=will CharacterOffsetBegin=1837 CharacterOffsetEnd=1841 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=come CharacterOffsetBegin=1842 CharacterOffsetEnd=1846 PartOfSpeech=VB Lemma=come NamedEntityTag=O] [Text=with CharacterOffsetBegin=1847 CharacterOffsetEnd=1851 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=how CharacterOffsetBegin=1852 CharacterOffsetEnd=1855 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=he CharacterOffsetBegin=1856 CharacterOffsetEnd=1858 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=feels CharacterOffsetBegin=1859 CharacterOffsetEnd=1864 PartOfSpeech=VBZ Lemma=feel NamedEntityTag=O] [Text=this CharacterOffsetBegin=1865 CharacterOffsetEnd=1869 PartOfSpeech=DT Lemma=this NamedEntityTag=TIME NormalizedNamedEntityTag=THIS MO Timex=<TIMEX3 alt_value="THIS MO" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">this morning<_TIMEX3>] [Text=morning CharacterOffsetBegin=1870 CharacterOffsetEnd=1877 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=THIS MO Timex=<TIMEX3 alt_value="THIS MO" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">this morning<_TIMEX3>] [Text=. CharacterOffsetBegin=1877 CharacterOffsetEnd=1878 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ true) (NN test))
+    (VP (MD will)
+      (VP (VB come)
+        (PP (IN with)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP he))
+              (VP (VBZ feels)
+                (NP-TMP (DT this) (NN morning))))))))
+    (. .)))
+
+root(ROOT-0, come-5)
+det(test-3, The-1)
+amod(test-3, true-2)
+nsubj(come-5, test-3)
+aux(come-5, will-4)
+advmod(feels-9, how-7)
+nsubj(feels-9, he-8)
+prepc_with(come-5, feels-9)
+det(morning-11, this-10)
+tmod(feels-9, morning-11)
+
+Sentence #21 (37 tokens):
+"I_m very optimistic I_m going to feel great tomorrow, just judging on going through the process before and how I felt throwing and how I responded to that," Verlander said.
+[Text=`` CharacterOffsetBegin=1879 CharacterOffsetEnd=1880 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=1880 CharacterOffsetEnd=1881 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=_m CharacterOffsetBegin=1881 CharacterOffsetEnd=1883 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=1884 CharacterOffsetEnd=1888 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=optimistic CharacterOffsetBegin=1889 CharacterOffsetEnd=1899 PartOfSpeech=JJ Lemma=optimistic NamedEntityTag=O] [Text=I CharacterOffsetBegin=1900 CharacterOffsetEnd=1901 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=_m CharacterOffsetBegin=1901 CharacterOffsetEnd=1903 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=going CharacterOffsetBegin=1904 CharacterOffsetEnd=1909 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=to CharacterOffsetBegin=1910 CharacterOffsetEnd=1912 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=feel CharacterOffsetBegin=1913 CharacterOffsetEnd=1917 PartOfSpeech=VB Lemma=feel NamedEntityTag=O] [Text=great CharacterOffsetBegin=1918 CharacterOffsetEnd=1923 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=tomorrow CharacterOffsetBegin=1924 CharacterOffsetEnd=1932 PartOfSpeech=NN Lemma=tomorrow NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P1D Timex=<TIMEX3 alt_value="OFFSET P1D" anchorTimeID="t0" temporalFunction="true" tid="t5" type="DATE" valueFromFunction="tf1">tomorrow<_TIMEX3>] [Text=, CharacterOffsetBegin=1932 CharacterOffsetEnd=1933 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=just CharacterOffsetBegin=1934 CharacterOffsetEnd=1938 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=judging CharacterOffsetBegin=1939 CharacterOffsetEnd=1946 PartOfSpeech=VBG Lemma=judge NamedEntityTag=O] [Text=on CharacterOffsetBegin=1947 CharacterOffsetEnd=1949 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=going CharacterOffsetBegin=1950 CharacterOffsetEnd=1955 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=through CharacterOffsetBegin=1956 CharacterOffsetEnd=1963 PartOfSpeech=IN Lemma=through NamedEntityTag=O] [Text=the CharacterOffsetBegin=1964 CharacterOffsetEnd=1967 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=process CharacterOffsetBegin=1968 CharacterOffsetEnd=1975 PartOfSpeech=NN Lemma=process NamedEntityTag=O] [Text=before CharacterOffsetBegin=1976 CharacterOffsetEnd=1982 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=and CharacterOffsetBegin=1983 CharacterOffsetEnd=1986 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=how CharacterOffsetBegin=1987 CharacterOffsetEnd=1990 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=I CharacterOffsetBegin=1991 CharacterOffsetEnd=1992 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=felt CharacterOffsetBegin=1993 CharacterOffsetEnd=1997 PartOfSpeech=VBD Lemma=feel NamedEntityTag=O] [Text=throwing CharacterOffsetBegin=1998 CharacterOffsetEnd=2006 PartOfSpeech=VBG Lemma=throw NamedEntityTag=O] [Text=and CharacterOffsetBegin=2007 CharacterOffsetEnd=2010 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=how CharacterOffsetBegin=2011 CharacterOffsetEnd=2014 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=I CharacterOffsetBegin=2015 CharacterOffsetEnd=2016 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=responded CharacterOffsetBegin=2017 CharacterOffsetEnd=2026 PartOfSpeech=VBD Lemma=respond NamedEntityTag=O] [Text=to CharacterOffsetBegin=2027 CharacterOffsetEnd=2029 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=that CharacterOffsetBegin=2030 CharacterOffsetEnd=2034 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=, CharacterOffsetBegin=2034 CharacterOffsetEnd=2035 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2035 CharacterOffsetEnd=2036 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=2037 CharacterOffsetEnd=2046 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2047 CharacterOffsetEnd=2051 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2051 CharacterOffsetEnd=2052 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP _m)
+        (ADJP (RB very) (JJ optimistic))
+        (SBAR
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBP _m)
+                (VP
+                  (VP (VBG going)
+                    (S
+                      (VP (TO to)
+                        (VP (VB feel)
+                          (NP-TMP (JJ great) (NN tomorrow))))))
+                  (, ,)
+                  (ADVP (RB just))
+                  (VP (VBG judging)
+                    (PP (IN on)
+                      (S
+                        (VP (VBG going)
+                          (PP (IN through)
+                            (ADVP
+                              (NP (DT the) (NN process))
+                              (IN before)))))))))))
+          (CC and)
+          (SBAR
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (PRP I))
+                (VP (VBD felt)
+                  (S
+                    (VP (VBG throwing))))))
+            (CC and)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (PRP I))
+                (VP (VBD responded)
+                  (PP (TO to)
+                    (NP (DT that))))))))))
+    (, ,) (__ __)
+    (NP (NNP Verlander))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-36)
+nsubj(optimistic-5, I-2)
+cop(optimistic-5, _m-3)
+advmod(optimistic-5, very-4)
+ccomp(said-36, optimistic-5)
+nsubj(going-8, I-6)
+aux(going-8, _m-7)
+dep(optimistic-5, going-8)
+aux(feel-10, to-9)
+xcomp(going-8, feel-10)
+amod(tomorrow-12, great-11)
+tmod(feel-10, tomorrow-12)
+advmod(judging-15, just-14)
+dep(going-8, judging-15)
+prepc_on(judging-15, going-17)
+prep(going-17, through-18)
+det(process-20, the-19)
+npadvmod(before-21, process-20)
+pcomp(through-18, before-21)
+advmod(felt-25, how-23)
+nsubj(felt-25, I-24)
+conj_and(going-8, felt-25)
+xcomp(felt-25, throwing-26)
+advmod(responded-30, how-28)
+nsubj(responded-30, I-29)
+conj_and(felt-25, responded-30)
+prep_to(responded-30, that-32)
+nsubj(said-36, Verlander-35)
+
+Sentence #22 (20 tokens):
+"Today is completely different than it was then so I don_t anticipate anything besides normal soreness."
+[Text=`` CharacterOffsetBegin=2053 CharacterOffsetEnd=2054 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Today CharacterOffsetBegin=2054 CharacterOffsetEnd=2059 PartOfSpeech=NN Lemma=today NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t6" type="DATE" valueFromFunction="tf2">Today<_TIMEX3>] [Text=is CharacterOffsetBegin=2060 CharacterOffsetEnd=2062 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=completely CharacterOffsetBegin=2063 CharacterOffsetEnd=2073 PartOfSpeech=RB Lemma=completely NamedEntityTag=O] [Text=different CharacterOffsetBegin=2074 CharacterOffsetEnd=2083 PartOfSpeech=JJ Lemma=different NamedEntityTag=O] [Text=than CharacterOffsetBegin=2084 CharacterOffsetEnd=2088 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=it CharacterOffsetBegin=2089 CharacterOffsetEnd=2091 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=2092 CharacterOffsetEnd=2095 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=then CharacterOffsetBegin=2096 CharacterOffsetEnd=2100 PartOfSpeech=RB Lemma=then NamedEntityTag=O] [Text=so CharacterOffsetBegin=2101 CharacterOffsetEnd=2103 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=I CharacterOffsetBegin=2104 CharacterOffsetEnd=2105 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=do CharacterOffsetBegin=2106 CharacterOffsetEnd=2108 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2108 CharacterOffsetEnd=2111 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=anticipate CharacterOffsetBegin=2112 CharacterOffsetEnd=2122 PartOfSpeech=VB Lemma=anticipate NamedEntityTag=O] [Text=anything CharacterOffsetBegin=2123 CharacterOffsetEnd=2131 PartOfSpeech=NN Lemma=anything NamedEntityTag=O] [Text=besides CharacterOffsetBegin=2132 CharacterOffsetEnd=2139 PartOfSpeech=IN Lemma=besides NamedEntityTag=O] [Text=normal CharacterOffsetBegin=2140 CharacterOffsetEnd=2146 PartOfSpeech=JJ Lemma=normal NamedEntityTag=O] [Text=soreness CharacterOffsetBegin=2147 CharacterOffsetEnd=2155 PartOfSpeech=NN Lemma=soreness NamedEntityTag=O] [Text=. CharacterOffsetBegin=2155 CharacterOffsetEnd=2156 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2156 CharacterOffsetEnd=2157 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP-TMP (NN Today))
+    (VP (VBZ is)
+      (ADJP (RB completely) (JJ different))
+      (SBAR (IN than)
+        (S
+          (NP (PRP it))
+          (VP (VBD was) (RB then)
+            (ADJP (RB so)
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (VP (VBP do) (RB n_t)
+                    (VP (VB anticipate)
+                      (NP
+                        (NP (NN anything))
+                        (PP (IN besides)
+                          (NP (JJ normal) (NN soreness)))))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, different-5)
+dep(different-5, Today-2)
+cop(different-5, is-3)
+advmod(different-5, completely-4)
+mark(so-10, than-6)
+nsubj(so-10, it-7)
+cop(so-10, was-8)
+advmod(so-10, then-9)
+advcl(different-5, so-10)
+nsubj(anticipate-14, I-11)
+aux(anticipate-14, do-12)
+neg(anticipate-14, n_t-13)
+ccomp(so-10, anticipate-14)
+dobj(anticipate-14, anything-15)
+amod(soreness-18, normal-17)
+prep_besides(anything-15, soreness-18)
+
+Sentence #23 (35 tokens):
+Verlander_s second simulated game of the season — his first, in Pittsburgh during the second week of the season, was cut short — garnered more fanfare inside the Tigers_ clubhouse.
+[Text=Verlander CharacterOffsetBegin=2158 CharacterOffsetEnd=2167 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2167 CharacterOffsetEnd=2169 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=second CharacterOffsetBegin=2170 CharacterOffsetEnd=2176 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=simulated CharacterOffsetBegin=2177 CharacterOffsetEnd=2186 PartOfSpeech=JJ Lemma=simulated NamedEntityTag=O] [Text=game CharacterOffsetBegin=2187 CharacterOffsetEnd=2191 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=of CharacterOffsetBegin=2192 CharacterOffsetEnd=2194 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2195 CharacterOffsetEnd=2198 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=season CharacterOffsetBegin=2199 CharacterOffsetEnd=2205 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2206 CharacterOffsetEnd=2207 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=his CharacterOffsetBegin=2208 CharacterOffsetEnd=2211 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=first CharacterOffsetBegin=2212 CharacterOffsetEnd=2217 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=, CharacterOffsetBegin=2217 CharacterOffsetEnd=2218 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=in CharacterOffsetBegin=2219 CharacterOffsetEnd=2221 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Pittsburgh CharacterOffsetBegin=2222 CharacterOffsetEnd=2232 PartOfSpeech=NNP Lemma=Pittsburgh NamedEntityTag=LOCATION] [Text=during CharacterOffsetBegin=2233 CharacterOffsetEnd=2239 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=the CharacterOffsetBegin=2240 CharacterOffsetEnd=2243 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1W-#2 Timex=<TIMEX3 alt_value="P1W-#2" tid="t7" type="DATE">the second week<_TIMEX3>] [Text=second CharacterOffsetBegin=2244 CharacterOffsetEnd=2250 PartOfSpeech=JJ Lemma=second NamedEntityTag=DATE NormalizedNamedEntityTag=P1W-#2 Timex=<TIMEX3 alt_value="P1W-#2" tid="t7" type="DATE">the second week<_TIMEX3>] [Text=week CharacterOffsetBegin=2251 CharacterOffsetEnd=2255 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=P1W-#2 Timex=<TIMEX3 alt_value="P1W-#2" tid="t7" type="DATE">the second week<_TIMEX3>] [Text=of CharacterOffsetBegin=2256 CharacterOffsetEnd=2258 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=2259 CharacterOffsetEnd=2262 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=season CharacterOffsetBegin=2263 CharacterOffsetEnd=2269 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=, CharacterOffsetBegin=2269 CharacterOffsetEnd=2270 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=was CharacterOffsetBegin=2271 CharacterOffsetEnd=2274 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=cut CharacterOffsetBegin=2275 CharacterOffsetEnd=2278 PartOfSpeech=VBN Lemma=cut NamedEntityTag=O] [Text=short CharacterOffsetBegin=2279 CharacterOffsetEnd=2284 PartOfSpeech=JJ Lemma=short NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2285 CharacterOffsetEnd=2286 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=garnered CharacterOffsetBegin=2287 CharacterOffsetEnd=2295 PartOfSpeech=VBD Lemma=garner NamedEntityTag=O] [Text=more CharacterOffsetBegin=2296 CharacterOffsetEnd=2300 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=fanfare CharacterOffsetBegin=2301 CharacterOffsetEnd=2308 PartOfSpeech=NN Lemma=fanfare NamedEntityTag=O] [Text=inside CharacterOffsetBegin=2309 CharacterOffsetEnd=2315 PartOfSpeech=IN Lemma=inside NamedEntityTag=O] [Text=the CharacterOffsetBegin=2316 CharacterOffsetEnd=2319 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=2320 CharacterOffsetEnd=2326 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=_ CharacterOffsetBegin=2326 CharacterOffsetEnd=2327 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=clubhouse CharacterOffsetBegin=2328 CharacterOffsetEnd=2337 PartOfSpeech=NN Lemma=clubhouse NamedEntityTag=O] [Text=. CharacterOffsetBegin=2337 CharacterOffsetEnd=2338 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Verlander) (POS _s))
+        (JJ second) (JJ simulated) (NN game))
+      (PP (IN of)
+        (NP (DT the) (NN season))))
+    (PRN (: --)
+      (S
+        (NP
+          (NP (PRP$ his) (JJ first))
+          (, ,)
+          (PP (IN in)
+            (NP
+              (NP (NNP Pittsburgh))
+              (PP (IN during)
+                (NP
+                  (NP (DT the) (JJ second) (NN week))
+                  (PP (IN of)
+                    (NP (DT the) (NN season)))))))
+          (, ,))
+        (VP (VBD was)
+          (VP (VBN cut)
+            (S
+              (ADJP (JJ short))))))
+      (: --))
+    (VP (VBD garnered)
+      (NP (JJR more) (NN fanfare))
+      (PP (IN inside)
+        (NP
+          (NP (DT the) (NNP Tigers) (POS _))
+          (NN clubhouse))))
+    (. .)))
+
+root(ROOT-0, garnered-27)
+poss(game-5, Verlander-1)
+amod(game-5, second-3)
+amod(game-5, simulated-4)
+nsubj(garnered-27, game-5)
+det(season-8, the-7)
+prep_of(game-5, season-8)
+poss(first-11, his-10)
+nsubjpass(cut-24, first-11)
+prep_in(first-11, Pittsburgh-14)
+det(week-18, the-16)
+amod(week-18, second-17)
+prep_during(Pittsburgh-14, week-18)
+det(season-21, the-20)
+prep_of(week-18, season-21)
+auxpass(cut-24, was-23)
+parataxis(garnered-27, cut-24)
+xcomp(cut-24, short-25)
+amod(fanfare-29, more-28)
+dobj(garnered-27, fanfare-29)
+det(Tigers-32, the-31)
+poss(clubhouse-34, Tigers-32)
+prep_inside(garnered-27, clubhouse-34)
+
+Sentence #24 (24 tokens):
+Many Tigers watched from the sidelines, including Tuesday night_s starter David Price, who was live-tweeting the event to the masses.
+[Text=Many CharacterOffsetBegin=2339 CharacterOffsetEnd=2343 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=2344 CharacterOffsetEnd=2350 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=O] [Text=watched CharacterOffsetBegin=2351 CharacterOffsetEnd=2358 PartOfSpeech=VBN Lemma=watch NamedEntityTag=O] [Text=from CharacterOffsetBegin=2359 CharacterOffsetEnd=2363 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=the CharacterOffsetBegin=2364 CharacterOffsetEnd=2367 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=sidelines CharacterOffsetBegin=2368 CharacterOffsetEnd=2377 PartOfSpeech=NNS Lemma=sideline NamedEntityTag=O] [Text=, CharacterOffsetBegin=2377 CharacterOffsetEnd=2378 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=2379 CharacterOffsetEnd=2388 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=2389 CharacterOffsetEnd=2396 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t8" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=night CharacterOffsetBegin=2397 CharacterOffsetEnd=2402 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-2TNI Timex=<TIMEX3 tid="t8" type="TIME" value="XXXX-WXX-2TNI">Tuesday night<_TIMEX3>] [Text=_s CharacterOffsetBegin=2402 CharacterOffsetEnd=2404 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=starter CharacterOffsetBegin=2405 CharacterOffsetEnd=2412 PartOfSpeech=JJ Lemma=starter NamedEntityTag=O] [Text=David CharacterOffsetBegin=2413 CharacterOffsetEnd=2418 PartOfSpeech=NNP Lemma=David NamedEntityTag=PERSON] [Text=Price CharacterOffsetBegin=2419 CharacterOffsetEnd=2424 PartOfSpeech=NNP Lemma=Price NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2424 CharacterOffsetEnd=2425 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=2426 CharacterOffsetEnd=2429 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=was CharacterOffsetBegin=2430 CharacterOffsetEnd=2433 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=live-tweeting CharacterOffsetBegin=2434 CharacterOffsetEnd=2447 PartOfSpeech=VBG Lemma=live-tweet NamedEntityTag=O] [Text=the CharacterOffsetBegin=2448 CharacterOffsetEnd=2451 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=event CharacterOffsetBegin=2452 CharacterOffsetEnd=2457 PartOfSpeech=NN Lemma=event NamedEntityTag=O] [Text=to CharacterOffsetBegin=2458 CharacterOffsetEnd=2460 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=the CharacterOffsetBegin=2461 CharacterOffsetEnd=2464 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=masses CharacterOffsetBegin=2465 CharacterOffsetEnd=2471 PartOfSpeech=NNS Lemma=mass NamedEntityTag=O] [Text=. CharacterOffsetBegin=2471 CharacterOffsetEnd=2472 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Many) (NNP Tigers))
+    (VP (VBN watched)
+      (PP (IN from)
+        (NP (DT the) (NNS sidelines)))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP
+            (NP (NNP Tuesday) (NN night) (POS _s))
+            (JJ starter) (NNP David) (NNP Price))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD was)
+                (VP (VBG live-tweeting)
+                  (NP (DT the) (NN event))
+                  (PP (TO to)
+                    (NP (DT the) (NNS masses))))))))))
+    (. .)))
+
+root(ROOT-0, watched-3)
+amod(Tigers-2, Many-1)
+nsubj(watched-3, Tigers-2)
+det(sidelines-6, the-5)
+prep_from(watched-3, sidelines-6)
+nn(night-10, Tuesday-9)
+poss(Price-14, night-10)
+amod(Price-14, starter-12)
+nn(Price-14, David-13)
+prep_including(watched-3, Price-14)
+nsubj(live-tweeting-18, who-16)
+aux(live-tweeting-18, was-17)
+rcmod(Price-14, live-tweeting-18)
+det(event-20, the-19)
+dobj(live-tweeting-18, event-20)
+det(masses-23, the-22)
+prep_to(live-tweeting-18, masses-23)
+
+Sentence #25 (34 tokens):
+Bullpen coach Mick Billmeyer was one of a few that attempted to start the wave and when Machado led off the second inning with a single, they pulled the ball from play.
+[Text=Bullpen CharacterOffsetBegin=2473 CharacterOffsetEnd=2480 PartOfSpeech=NNP Lemma=Bullpen NamedEntityTag=O] [Text=coach CharacterOffsetBegin=2481 CharacterOffsetEnd=2486 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Mick CharacterOffsetBegin=2487 CharacterOffsetEnd=2491 PartOfSpeech=NNP Lemma=Mick NamedEntityTag=PERSON] [Text=Billmeyer CharacterOffsetBegin=2492 CharacterOffsetEnd=2501 PartOfSpeech=NNP Lemma=Billmeyer NamedEntityTag=PERSON] [Text=was CharacterOffsetBegin=2502 CharacterOffsetEnd=2505 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=one CharacterOffsetBegin=2506 CharacterOffsetEnd=2509 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=of CharacterOffsetBegin=2510 CharacterOffsetEnd=2512 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=2513 CharacterOffsetEnd=2514 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=few CharacterOffsetBegin=2515 CharacterOffsetEnd=2518 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=that CharacterOffsetBegin=2519 CharacterOffsetEnd=2523 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=attempted CharacterOffsetBegin=2524 CharacterOffsetEnd=2533 PartOfSpeech=VBN Lemma=attempt NamedEntityTag=O] [Text=to CharacterOffsetBegin=2534 CharacterOffsetEnd=2536 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=start CharacterOffsetBegin=2537 CharacterOffsetEnd=2542 PartOfSpeech=VB Lemma=start NamedEntityTag=O] [Text=the CharacterOffsetBegin=2543 CharacterOffsetEnd=2546 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wave CharacterOffsetBegin=2547 CharacterOffsetEnd=2551 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=and CharacterOffsetBegin=2552 CharacterOffsetEnd=2555 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=when CharacterOffsetBegin=2556 CharacterOffsetEnd=2560 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=Machado CharacterOffsetBegin=2561 CharacterOffsetEnd=2568 PartOfSpeech=NNP Lemma=Machado NamedEntityTag=PERSON] [Text=led CharacterOffsetBegin=2569 CharacterOffsetEnd=2572 PartOfSpeech=VBD Lemma=lead NamedEntityTag=O] [Text=off CharacterOffsetBegin=2573 CharacterOffsetEnd=2576 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=the CharacterOffsetBegin=2577 CharacterOffsetEnd=2580 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=second CharacterOffsetBegin=2581 CharacterOffsetEnd=2587 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=inning CharacterOffsetBegin=2588 CharacterOffsetEnd=2594 PartOfSpeech=NN Lemma=inning NamedEntityTag=O] [Text=with CharacterOffsetBegin=2595 CharacterOffsetEnd=2599 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=2600 CharacterOffsetEnd=2601 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=single CharacterOffsetBegin=2602 CharacterOffsetEnd=2608 PartOfSpeech=JJ Lemma=single NamedEntityTag=O] [Text=, CharacterOffsetBegin=2608 CharacterOffsetEnd=2609 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=they CharacterOffsetBegin=2610 CharacterOffsetEnd=2614 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=pulled CharacterOffsetBegin=2615 CharacterOffsetEnd=2621 PartOfSpeech=VBD Lemma=pull NamedEntityTag=O] [Text=the CharacterOffsetBegin=2622 CharacterOffsetEnd=2625 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=ball CharacterOffsetBegin=2626 CharacterOffsetEnd=2630 PartOfSpeech=NN Lemma=ball NamedEntityTag=O] [Text=from CharacterOffsetBegin=2631 CharacterOffsetEnd=2635 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=play CharacterOffsetBegin=2636 CharacterOffsetEnd=2640 PartOfSpeech=NN Lemma=play NamedEntityTag=O] [Text=. CharacterOffsetBegin=2640 CharacterOffsetEnd=2641 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Bullpen) (NN coach) (NNP Mick) (NNP Billmeyer))
+      (VP (VBD was)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (DT a) (JJ few)))
+          (SBAR
+            (WHNP (IN that))
+            (S
+              (VP (VBN attempted)
+                (S
+                  (VP (TO to)
+                    (VP (VB start)
+                      (NP (DT the) (NN wave)))))))))))
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Machado))
+          (VP (VBD led)
+            (PRT (RP off))
+            (NP
+              (NP (DT the) (JJ second) (NN inning))
+              (PP (IN with)
+                (NP (DT a) (JJ single)))))))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBD pulled)
+        (NP (DT the) (NN ball))
+        (PP (IN from)
+          (NP (NN play)))))
+    (. .)))
+
+root(ROOT-0, one-6)
+nn(Billmeyer-4, Bullpen-1)
+nn(Billmeyer-4, coach-2)
+nn(Billmeyer-4, Mick-3)
+nsubj(one-6, Billmeyer-4)
+cop(one-6, was-5)
+det(few-9, a-8)
+prep_of(one-6, few-9)
+nsubj(attempted-11, that-10)
+rcmod(one-6, attempted-11)
+aux(start-13, to-12)
+xcomp(attempted-11, start-13)
+det(wave-15, the-14)
+dobj(start-13, wave-15)
+advmod(led-19, when-17)
+nsubj(led-19, Machado-18)
+advcl(pulled-29, led-19)
+prt(led-19, off-20)
+det(inning-23, the-21)
+amod(inning-23, second-22)
+dobj(led-19, inning-23)
+det(single-26, a-25)
+prep_with(inning-23, single-26)
+nsubj(pulled-29, they-28)
+conj_and(one-6, pulled-29)
+det(ball-31, the-30)
+dobj(pulled-29, ball-31)
+prep_from(pulled-29, play-33)
+
+Sentence #26 (12 tokens):
+"It was a lot of fun," Verlander said.
+[Text=`` CharacterOffsetBegin=2642 CharacterOffsetEnd=2643 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=2643 CharacterOffsetEnd=2645 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=2646 CharacterOffsetEnd=2649 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=2650 CharacterOffsetEnd=2651 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=2652 CharacterOffsetEnd=2655 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=2656 CharacterOffsetEnd=2658 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=fun CharacterOffsetBegin=2659 CharacterOffsetEnd=2662 PartOfSpeech=NN Lemma=fun NamedEntityTag=O] [Text=, CharacterOffsetBegin=2662 CharacterOffsetEnd=2663 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2663 CharacterOffsetEnd=2664 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=2665 CharacterOffsetEnd=2674 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2675 CharacterOffsetEnd=2679 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2679 CharacterOffsetEnd=2680 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN fun))))))
+    (, ,) (__ __)
+    (NP (NNP Verlander))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-11)
+nsubj(lot-5, It-2)
+cop(lot-5, was-3)
+det(lot-5, a-4)
+ccomp(said-11, lot-5)
+prep_of(lot-5, fun-7)
+nsubj(said-11, Verlander-10)
+
+Sentence #27 (11 tokens):
+"We treated it about as real as we can.
+[Text=`` CharacterOffsetBegin=2681 CharacterOffsetEnd=2682 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=We CharacterOffsetBegin=2682 CharacterOffsetEnd=2684 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=treated CharacterOffsetBegin=2685 CharacterOffsetEnd=2692 PartOfSpeech=VBD Lemma=treat NamedEntityTag=O] [Text=it CharacterOffsetBegin=2693 CharacterOffsetEnd=2695 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=about CharacterOffsetBegin=2696 CharacterOffsetEnd=2701 PartOfSpeech=IN Lemma=about NamedEntityTag=O] [Text=as CharacterOffsetBegin=2702 CharacterOffsetEnd=2704 PartOfSpeech=RB Lemma=as NamedEntityTag=O] [Text=real CharacterOffsetBegin=2705 CharacterOffsetEnd=2709 PartOfSpeech=JJ Lemma=real NamedEntityTag=O] [Text=as CharacterOffsetBegin=2710 CharacterOffsetEnd=2712 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=we CharacterOffsetBegin=2713 CharacterOffsetEnd=2715 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=can CharacterOffsetBegin=2716 CharacterOffsetEnd=2719 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=. CharacterOffsetBegin=2719 CharacterOffsetEnd=2720 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP We))
+    (VP (VBD treated)
+      (NP (PRP it))
+      (PP (IN about)
+        (ADJP (RB as) (JJ real)))
+      (SBAR (IN as)
+        (S
+          (NP (PRP we))
+          (VP (MD can)))))
+    (. .)))
+
+root(ROOT-0, treated-3)
+nsubj(treated-3, We-2)
+dobj(treated-3, it-4)
+advmod(real-7, as-6)
+prep_about(treated-3, real-7)
+mark(can-10, as-8)
+nsubj(can-10, we-9)
+advcl(treated-3, can-10)
+
+Sentence #28 (22 tokens):
+The guys in the stands who tried to get the wave going — the fans weren_t very receptive to it.
+[Text=The CharacterOffsetBegin=2721 CharacterOffsetEnd=2724 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=guys CharacterOffsetBegin=2725 CharacterOffsetEnd=2729 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O] [Text=in CharacterOffsetBegin=2730 CharacterOffsetEnd=2732 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=2733 CharacterOffsetEnd=2736 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=stands CharacterOffsetBegin=2737 CharacterOffsetEnd=2743 PartOfSpeech=NNS Lemma=stand NamedEntityTag=O] [Text=who CharacterOffsetBegin=2744 CharacterOffsetEnd=2747 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=tried CharacterOffsetBegin=2748 CharacterOffsetEnd=2753 PartOfSpeech=VBD Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=2754 CharacterOffsetEnd=2756 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=2757 CharacterOffsetEnd=2760 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=the CharacterOffsetBegin=2761 CharacterOffsetEnd=2764 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=wave CharacterOffsetBegin=2765 CharacterOffsetEnd=2769 PartOfSpeech=NN Lemma=wave NamedEntityTag=O] [Text=going CharacterOffsetBegin=2770 CharacterOffsetEnd=2775 PartOfSpeech=VBG Lemma=go NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2776 CharacterOffsetEnd=2777 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=the CharacterOffsetBegin=2778 CharacterOffsetEnd=2781 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=fans CharacterOffsetBegin=2782 CharacterOffsetEnd=2786 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O] [Text=were CharacterOffsetBegin=2787 CharacterOffsetEnd=2791 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2791 CharacterOffsetEnd=2794 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=very CharacterOffsetBegin=2795 CharacterOffsetEnd=2799 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=receptive CharacterOffsetBegin=2800 CharacterOffsetEnd=2809 PartOfSpeech=JJ Lemma=receptive NamedEntityTag=O] [Text=to CharacterOffsetBegin=2810 CharacterOffsetEnd=2812 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=it CharacterOffsetBegin=2813 CharacterOffsetEnd=2815 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=2815 CharacterOffsetEnd=2816 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP (DT The) (NNS guys))
+      (PP (IN in)
+        (NP (DT the) (NNS stands)))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD tried)
+            (S
+              (VP (TO to)
+                (VP (VB get)
+                  (NP
+                    (NP (DT the) (NN wave))
+                    (VP (VBG going))))))))))
+    (: --)
+    (S
+      (NP (DT the) (NNS fans))
+      (VP (VBD were) (RB n_t)
+        (ADJP (RB very) (JJ receptive)
+          (PP (TO to)
+            (NP (PRP it))))))
+    (. .)))
+
+root(ROOT-0, guys-2)
+det(guys-2, The-1)
+det(stands-5, the-4)
+prep_in(guys-2, stands-5)
+nsubj(tried-7, who-6)
+rcmod(guys-2, tried-7)
+aux(get-9, to-8)
+xcomp(tried-7, get-9)
+det(wave-11, the-10)
+dobj(get-9, wave-11)
+vmod(wave-11, going-12)
+det(fans-15, the-14)
+nsubj(receptive-19, fans-15)
+cop(receptive-19, were-16)
+neg(receptive-19, n_t-17)
+advmod(receptive-19, very-18)
+dep(guys-2, receptive-19)
+prep_to(receptive-19, it-21)
+
+Sentence #29 (5 tokens):
+"It was great.
+[Text=`` CharacterOffsetBegin=2817 CharacterOffsetEnd=2818 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=It CharacterOffsetBegin=2818 CharacterOffsetEnd=2820 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=2821 CharacterOffsetEnd=2824 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=great CharacterOffsetBegin=2825 CharacterOffsetEnd=2830 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=. CharacterOffsetBegin=2830 CharacterOffsetEnd=2831 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ great)))
+    (. .)))
+
+root(ROOT-0, great-4)
+nsubj(great-4, It-2)
+cop(great-4, was-3)
+
+Sentence #30 (17 tokens):
+Those guys cheering me, cheering Machado for the first hit, it was great."
+[Text=Those CharacterOffsetBegin=2832 CharacterOffsetEnd=2837 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=guys CharacterOffsetBegin=2838 CharacterOffsetEnd=2842 PartOfSpeech=NNS Lemma=guy NamedEntityTag=O] [Text=cheering CharacterOffsetBegin=2843 CharacterOffsetEnd=2851 PartOfSpeech=VBG Lemma=cheer NamedEntityTag=O] [Text=me CharacterOffsetBegin=2852 CharacterOffsetEnd=2854 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=, CharacterOffsetBegin=2854 CharacterOffsetEnd=2855 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=cheering CharacterOffsetBegin=2856 CharacterOffsetEnd=2864 PartOfSpeech=VBG Lemma=cheer NamedEntityTag=O] [Text=Machado CharacterOffsetBegin=2865 CharacterOffsetEnd=2872 PartOfSpeech=NNP Lemma=Machado NamedEntityTag=PERSON] [Text=for CharacterOffsetBegin=2873 CharacterOffsetEnd=2876 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=2877 CharacterOffsetEnd=2880 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=2881 CharacterOffsetEnd=2886 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=hit CharacterOffsetBegin=2887 CharacterOffsetEnd=2890 PartOfSpeech=NN Lemma=hit NamedEntityTag=O] [Text=, CharacterOffsetBegin=2890 CharacterOffsetEnd=2891 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=2892 CharacterOffsetEnd=2894 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=was CharacterOffsetBegin=2895 CharacterOffsetEnd=2898 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=great CharacterOffsetBegin=2899 CharacterOffsetEnd=2904 PartOfSpeech=JJ Lemma=great NamedEntityTag=O] [Text=. CharacterOffsetBegin=2904 CharacterOffsetEnd=2905 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2905 CharacterOffsetEnd=2906 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (DT Those) (NNS guys))
+      (VP
+        (VP (VBG cheering)
+          (NP (PRP me)))
+        (, ,)
+        (VP (VBG cheering)
+          (NP
+            (NP (NNP Machado))
+            (PP (IN for)
+              (NP (DT the) (JJ first) (NN hit)))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADJP (JJ great)))
+    (. .) (__ __)))
+
+root(ROOT-0, great-15)
+det(guys-2, Those-1)
+nsubj(cheering-3, guys-2)
+vmod(great-15, cheering-3)
+dobj(cheering-3, me-4)
+dep(cheering-3, cheering-6)
+dobj(cheering-6, Machado-7)
+det(hit-11, the-9)
+amod(hit-11, first-10)
+prep_for(Machado-7, hit-11)
+nsubj(great-15, it-13)
+cop(great-15, was-14)
+
+Sentence #31 (18 tokens):
+Verlander threw all his pitches and reported no hesitancy in throwing breaking balls, specifically his curveball.
+[Text=Verlander CharacterOffsetBegin=2907 CharacterOffsetEnd=2916 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=threw CharacterOffsetBegin=2917 CharacterOffsetEnd=2922 PartOfSpeech=VBD Lemma=throw NamedEntityTag=O] [Text=all CharacterOffsetBegin=2923 CharacterOffsetEnd=2926 PartOfSpeech=PDT Lemma=all NamedEntityTag=O] [Text=his CharacterOffsetBegin=2927 CharacterOffsetEnd=2930 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=pitches CharacterOffsetBegin=2931 CharacterOffsetEnd=2938 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=and CharacterOffsetBegin=2939 CharacterOffsetEnd=2942 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=reported CharacterOffsetBegin=2943 CharacterOffsetEnd=2951 PartOfSpeech=VBD Lemma=report NamedEntityTag=O] [Text=no CharacterOffsetBegin=2952 CharacterOffsetEnd=2954 PartOfSpeech=DT Lemma=no NamedEntityTag=O] [Text=hesitancy CharacterOffsetBegin=2955 CharacterOffsetEnd=2964 PartOfSpeech=NN Lemma=hesitancy NamedEntityTag=O] [Text=in CharacterOffsetBegin=2965 CharacterOffsetEnd=2967 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=throwing CharacterOffsetBegin=2968 CharacterOffsetEnd=2976 PartOfSpeech=VBG Lemma=throw NamedEntityTag=O] [Text=breaking CharacterOffsetBegin=2977 CharacterOffsetEnd=2985 PartOfSpeech=VBG Lemma=break NamedEntityTag=O] [Text=balls CharacterOffsetBegin=2986 CharacterOffsetEnd=2991 PartOfSpeech=NNS Lemma=ball NamedEntityTag=O] [Text=, CharacterOffsetBegin=2991 CharacterOffsetEnd=2992 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=specifically CharacterOffsetBegin=2993 CharacterOffsetEnd=3005 PartOfSpeech=RB Lemma=specifically NamedEntityTag=O] [Text=his CharacterOffsetBegin=3006 CharacterOffsetEnd=3009 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=curveball CharacterOffsetBegin=3010 CharacterOffsetEnd=3019 PartOfSpeech=NN Lemma=curveball NamedEntityTag=O] [Text=. CharacterOffsetBegin=3019 CharacterOffsetEnd=3020 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Verlander))
+    (VP
+      (VP (VBD threw)
+        (NP (PDT all) (PRP$ his) (NNS pitches)))
+      (CC and)
+      (VP (VBD reported)
+        (NP-TMP
+          (NP
+            (NP (DT no) (NN hesitancy))
+            (PP (IN in)
+              (S
+                (VP (VBG throwing)
+                  (S
+                    (VP (VBG breaking)
+                      (NP (NNS balls))))))))
+          (, ,)
+          (ADVP (RB specifically))
+          (NP (PRP$ his) (NN curveball)))))
+    (. .)))
+
+root(ROOT-0, threw-2)
+nsubj(threw-2, Verlander-1)
+predet(pitches-5, all-3)
+poss(pitches-5, his-4)
+dobj(threw-2, pitches-5)
+conj_and(threw-2, reported-7)
+neg(hesitancy-9, no-8)
+tmod(reported-7, hesitancy-9)
+prepc_in(hesitancy-9, throwing-11)
+vmod(throwing-11, breaking-12)
+dobj(breaking-12, balls-13)
+advmod(curveball-17, specifically-15)
+poss(curveball-17, his-16)
+appos(hesitancy-9, curveball-17)
+
+Sentence #32 (28 tokens):
+He mentioned a change in throwing his slider, tweaking the release point in his time off and called it more of a "true slider."
+[Text=He CharacterOffsetBegin=3021 CharacterOffsetEnd=3023 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=mentioned CharacterOffsetBegin=3024 CharacterOffsetEnd=3033 PartOfSpeech=VBD Lemma=mention NamedEntityTag=O] [Text=a CharacterOffsetBegin=3034 CharacterOffsetEnd=3035 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=change CharacterOffsetBegin=3036 CharacterOffsetEnd=3042 PartOfSpeech=NN Lemma=change NamedEntityTag=O] [Text=in CharacterOffsetBegin=3043 CharacterOffsetEnd=3045 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=throwing CharacterOffsetBegin=3046 CharacterOffsetEnd=3054 PartOfSpeech=VBG Lemma=throw NamedEntityTag=O] [Text=his CharacterOffsetBegin=3055 CharacterOffsetEnd=3058 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=slider CharacterOffsetBegin=3059 CharacterOffsetEnd=3065 PartOfSpeech=NN Lemma=slider NamedEntityTag=O] [Text=, CharacterOffsetBegin=3065 CharacterOffsetEnd=3066 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=tweaking CharacterOffsetBegin=3067 CharacterOffsetEnd=3075 PartOfSpeech=NN Lemma=tweaking NamedEntityTag=O] [Text=the CharacterOffsetBegin=3076 CharacterOffsetEnd=3079 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=release CharacterOffsetBegin=3080 CharacterOffsetEnd=3087 PartOfSpeech=NN Lemma=release NamedEntityTag=O] [Text=point CharacterOffsetBegin=3088 CharacterOffsetEnd=3093 PartOfSpeech=NN Lemma=point NamedEntityTag=O] [Text=in CharacterOffsetBegin=3094 CharacterOffsetEnd=3096 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=his CharacterOffsetBegin=3097 CharacterOffsetEnd=3100 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=time CharacterOffsetBegin=3101 CharacterOffsetEnd=3105 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=off CharacterOffsetBegin=3106 CharacterOffsetEnd=3109 PartOfSpeech=RP Lemma=off NamedEntityTag=O] [Text=and CharacterOffsetBegin=3110 CharacterOffsetEnd=3113 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=called CharacterOffsetBegin=3114 CharacterOffsetEnd=3120 PartOfSpeech=VBD Lemma=call NamedEntityTag=O] [Text=it CharacterOffsetBegin=3121 CharacterOffsetEnd=3123 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=more CharacterOffsetBegin=3124 CharacterOffsetEnd=3128 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=of CharacterOffsetBegin=3129 CharacterOffsetEnd=3131 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=3132 CharacterOffsetEnd=3133 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=`` CharacterOffsetBegin=3134 CharacterOffsetEnd=3135 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=true CharacterOffsetBegin=3135 CharacterOffsetEnd=3139 PartOfSpeech=JJ Lemma=true NamedEntityTag=O] [Text=slider CharacterOffsetBegin=3140 CharacterOffsetEnd=3146 PartOfSpeech=NN Lemma=slider NamedEntityTag=O] [Text=. CharacterOffsetBegin=3146 CharacterOffsetEnd=3147 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3147 CharacterOffsetEnd=3148 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD mentioned)
+        (NP (DT a) (NN change))
+        (PP (IN in)
+          (S
+            (VP (VBG throwing)
+              (NP (PRP$ his) (NN slider))))))
+      (, ,)
+      (VP (NN tweaking)
+        (NP (DT the) (NN release) (NN point))
+        (PP (IN in)
+          (NP (PRP$ his) (NN time)))
+        (PP (RP off)))
+      (CC and)
+      (VP (VBD called)
+        (S
+          (NP (PRP it))
+          (NP
+            (NP (JJR more))
+            (PP (IN of)
+              (NP (DT a) (`` ``) (JJ true) (NN slider)))))))
+    (. .) (__ __)))
+
+root(ROOT-0, mentioned-2)
+nsubj(mentioned-2, He-1)
+det(change-4, a-3)
+dobj(mentioned-2, change-4)
+prepc_in(mentioned-2, throwing-6)
+poss(slider-8, his-7)
+dobj(throwing-6, slider-8)
+conj_and(mentioned-2, tweaking-10)
+det(point-13, the-11)
+nn(point-13, release-12)
+dobj(tweaking-10, point-13)
+poss(time-16, his-15)
+prep_in(tweaking-10, time-16)
+prep(tweaking-10, off-17)
+conj_and(mentioned-2, called-19)
+nsubj(more-21, it-20)
+xcomp(called-19, more-21)
+det(slider-26, a-23)
+amod(slider-26, true-25)
+prep_of(more-21, slider-26)
+
+Sentence #33 (36 tokens):
+After four innings, Verlander tried to get another inning but Ausmus and Tigers pitching coach Jeff Jones settled on a few more pitches, and he finished the outing by striking out Perez swinging.
+[Text=After CharacterOffsetBegin=3149 CharacterOffsetEnd=3154 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=four CharacterOffsetBegin=3155 CharacterOffsetEnd=3159 PartOfSpeech=CD Lemma=four NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=innings CharacterOffsetBegin=3160 CharacterOffsetEnd=3167 PartOfSpeech=NNS Lemma=inning NamedEntityTag=O] [Text=, CharacterOffsetBegin=3167 CharacterOffsetEnd=3168 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=3169 CharacterOffsetEnd=3178 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=tried CharacterOffsetBegin=3179 CharacterOffsetEnd=3184 PartOfSpeech=VBD Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=3185 CharacterOffsetEnd=3187 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=get CharacterOffsetBegin=3188 CharacterOffsetEnd=3191 PartOfSpeech=VB Lemma=get NamedEntityTag=O] [Text=another CharacterOffsetBegin=3192 CharacterOffsetEnd=3199 PartOfSpeech=DT Lemma=another NamedEntityTag=O] [Text=inning CharacterOffsetBegin=3200 CharacterOffsetEnd=3206 PartOfSpeech=NN Lemma=inning NamedEntityTag=O] [Text=but CharacterOffsetBegin=3207 CharacterOffsetEnd=3210 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=Ausmus CharacterOffsetBegin=3211 CharacterOffsetEnd=3217 PartOfSpeech=NNP Lemma=Ausmus NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=3218 CharacterOffsetEnd=3221 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=3222 CharacterOffsetEnd=3228 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=pitching CharacterOffsetBegin=3229 CharacterOffsetEnd=3237 PartOfSpeech=VBG Lemma=pitch NamedEntityTag=O] [Text=coach CharacterOffsetBegin=3238 CharacterOffsetEnd=3243 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Jeff CharacterOffsetBegin=3244 CharacterOffsetEnd=3248 PartOfSpeech=NNP Lemma=Jeff NamedEntityTag=PERSON] [Text=Jones CharacterOffsetBegin=3249 CharacterOffsetEnd=3254 PartOfSpeech=NNP Lemma=Jones NamedEntityTag=PERSON] [Text=settled CharacterOffsetBegin=3255 CharacterOffsetEnd=3262 PartOfSpeech=VBD Lemma=settle NamedEntityTag=O] [Text=on CharacterOffsetBegin=3263 CharacterOffsetEnd=3265 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=a CharacterOffsetBegin=3266 CharacterOffsetEnd=3267 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=few CharacterOffsetBegin=3268 CharacterOffsetEnd=3271 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=more CharacterOffsetBegin=3272 CharacterOffsetEnd=3276 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=pitches CharacterOffsetBegin=3277 CharacterOffsetEnd=3284 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=, CharacterOffsetBegin=3284 CharacterOffsetEnd=3285 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=3286 CharacterOffsetEnd=3289 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=3290 CharacterOffsetEnd=3292 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=finished CharacterOffsetBegin=3293 CharacterOffsetEnd=3301 PartOfSpeech=VBD Lemma=finish NamedEntityTag=O] [Text=the CharacterOffsetBegin=3302 CharacterOffsetEnd=3305 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=outing CharacterOffsetBegin=3306 CharacterOffsetEnd=3312 PartOfSpeech=NN Lemma=outing NamedEntityTag=O] [Text=by CharacterOffsetBegin=3313 CharacterOffsetEnd=3315 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=striking CharacterOffsetBegin=3316 CharacterOffsetEnd=3324 PartOfSpeech=VBG Lemma=strike NamedEntityTag=O] [Text=out CharacterOffsetBegin=3325 CharacterOffsetEnd=3328 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=Perez CharacterOffsetBegin=3329 CharacterOffsetEnd=3334 PartOfSpeech=NNP Lemma=Perez NamedEntityTag=PERSON] [Text=swinging CharacterOffsetBegin=3335 CharacterOffsetEnd=3343 PartOfSpeech=VBG Lemma=swing NamedEntityTag=O] [Text=. CharacterOffsetBegin=3343 CharacterOffsetEnd=3344 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (CD four) (NNS innings)))
+    (, ,)
+    (S
+      (NP (NNP Verlander))
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP
+                (NP (DT another) (NN inning))
+                (PP (CC but)
+                  (NP (NNP Ausmus)
+                    (CC and)
+                    (NNP Tigers))))
+              (S
+                (VP (VBG pitching)
+                  (NP
+                    (NP (NN coach))
+                    (SBAR
+                      (S
+                        (NP (NNP Jeff) (NNP Jones))
+                        (VP (VBD settled)
+                          (PP (IN on)
+                            (NP (DT a)
+                              (ADJP (JJ few) (JJR more))
+                              (NNS pitches))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD finished)
+        (NP (DT the) (NN outing))
+        (PP (IN by)
+          (S
+            (VP (VBG striking)
+              (PRT (RP out))
+              (NP (NNP Perez) (VBG swinging)))))))
+    (. .)))
+
+root(ROOT-0, tried-6)
+num(innings-3, four-2)
+prep_after(tried-6, innings-3)
+nsubj(tried-6, Verlander-5)
+aux(get-8, to-7)
+xcomp(tried-6, get-8)
+det(inning-10, another-9)
+dobj(get-8, inning-10)
+prep(inning-10, but-11)
+pobj(but-11, Ausmus-12)
+conj_and(Ausmus-12, Tigers-14)
+xcomp(get-8, pitching-15)
+dobj(pitching-15, coach-16)
+nn(Jones-18, Jeff-17)
+nsubj(settled-19, Jones-18)
+rcmod(coach-16, settled-19)
+det(pitches-24, a-21)
+amod(pitches-24, few-22)
+dep(few-22, more-23)
+prep_on(settled-19, pitches-24)
+nsubj(finished-28, he-27)
+conj_and(tried-6, finished-28)
+det(outing-30, the-29)
+dobj(finished-28, outing-30)
+prepc_by(finished-28, striking-32)
+prt(striking-32, out-33)
+dobj(striking-32, Perez-34)
+amod(Perez-34, swinging-35)
+
+Sentence #34 (31 tokens):
+"I tried to lobby for one more inning so maybe I could lobby not to make a rehab start but they weren_t having it," Verlander said.
+[Text=`` CharacterOffsetBegin=3345 CharacterOffsetEnd=3346 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=3346 CharacterOffsetEnd=3347 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=tried CharacterOffsetBegin=3348 CharacterOffsetEnd=3353 PartOfSpeech=VBD Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=3354 CharacterOffsetEnd=3356 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=lobby CharacterOffsetBegin=3357 CharacterOffsetEnd=3362 PartOfSpeech=VB Lemma=lobby NamedEntityTag=O] [Text=for CharacterOffsetBegin=3363 CharacterOffsetEnd=3366 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=one CharacterOffsetBegin=3367 CharacterOffsetEnd=3370 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=more CharacterOffsetBegin=3371 CharacterOffsetEnd=3375 PartOfSpeech=JJR Lemma=more NamedEntityTag=O] [Text=inning CharacterOffsetBegin=3376 CharacterOffsetEnd=3382 PartOfSpeech=NN Lemma=inning NamedEntityTag=O] [Text=so CharacterOffsetBegin=3383 CharacterOffsetEnd=3385 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=maybe CharacterOffsetBegin=3386 CharacterOffsetEnd=3391 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O] [Text=I CharacterOffsetBegin=3392 CharacterOffsetEnd=3393 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=could CharacterOffsetBegin=3394 CharacterOffsetEnd=3399 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=lobby CharacterOffsetBegin=3400 CharacterOffsetEnd=3405 PartOfSpeech=VB Lemma=lobby NamedEntityTag=O] [Text=not CharacterOffsetBegin=3406 CharacterOffsetEnd=3409 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=to CharacterOffsetBegin=3410 CharacterOffsetEnd=3412 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=3413 CharacterOffsetEnd=3417 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=a CharacterOffsetBegin=3418 CharacterOffsetEnd=3419 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=3420 CharacterOffsetEnd=3425 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=start CharacterOffsetBegin=3426 CharacterOffsetEnd=3431 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=but CharacterOffsetBegin=3432 CharacterOffsetEnd=3435 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=they CharacterOffsetBegin=3436 CharacterOffsetEnd=3440 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=were CharacterOffsetBegin=3441 CharacterOffsetEnd=3445 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=3445 CharacterOffsetEnd=3448 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=having CharacterOffsetBegin=3449 CharacterOffsetEnd=3455 PartOfSpeech=VBG Lemma=have NamedEntityTag=O] [Text=it CharacterOffsetBegin=3456 CharacterOffsetEnd=3458 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=, CharacterOffsetBegin=3458 CharacterOffsetEnd=3459 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3459 CharacterOffsetEnd=3460 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Verlander CharacterOffsetBegin=3461 CharacterOffsetEnd=3470 PartOfSpeech=NNP Lemma=Verlander NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=3471 CharacterOffsetEnd=3475 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=3475 CharacterOffsetEnd=3476 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB lobby)
+              (PP (IN for)
+                (NP
+                  (NP (CD one) (JJR more) (NN inning))
+                  (SBAR (IN so)
+                    (S
+                      (S
+                        (ADVP (RB maybe))
+                        (NP (PRP I))
+                        (VP (MD could)
+                          (VP (VB lobby)
+                            (S (RB not)
+                              (VP (TO to)
+                                (VP (VB make)
+                                  (NP (DT a) (NN rehab) (NN start))))))))
+                      (CC but)
+                      (S
+                        (NP (PRP they))
+                        (VP (VBD were) (RB n_t)
+                          (VP (VBG having)
+                            (NP (PRP it))))))))))))))
+    (, ,) (__ __)
+    (NP (NNP Verlander))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-30)
+nsubj(tried-3, I-2)
+ccomp(said-30, tried-3)
+aux(lobby-5, to-4)
+xcomp(tried-3, lobby-5)
+num(inning-9, one-7)
+amod(inning-9, more-8)
+prep_for(lobby-5, inning-9)
+mark(lobby-14, so-10)
+advmod(lobby-14, maybe-11)
+nsubj(lobby-14, I-12)
+aux(lobby-14, could-13)
+dep(inning-9, lobby-14)
+neg(make-17, not-15)
+aux(make-17, to-16)
+xcomp(lobby-14, make-17)
+det(start-20, a-18)
+nn(start-20, rehab-19)
+dobj(make-17, start-20)
+nsubj(having-25, they-22)
+aux(having-25, were-23)
+neg(having-25, n_t-24)
+conj_but(lobby-14, having-25)
+dobj(having-25, it-26)
+nsubj(said-30, Verlander-29)
+
+Sentence #35 (34 tokens):
+He could throw 80-85 pitches in a potential rehab start, he guessed, and, "I would think if I can throw 95-100, I would be ready to go."
+[Text=He CharacterOffsetBegin=3477 CharacterOffsetEnd=3479 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=could CharacterOffsetBegin=3480 CharacterOffsetEnd=3485 PartOfSpeech=MD Lemma=could NamedEntityTag=O] [Text=throw CharacterOffsetBegin=3486 CharacterOffsetEnd=3491 PartOfSpeech=VB Lemma=throw NamedEntityTag=O] [Text=80-85 CharacterOffsetBegin=3492 CharacterOffsetEnd=3497 PartOfSpeech=CD Lemma=80-85 NamedEntityTag=NUMBER NormalizedNamedEntityTag=80.0 - 85.0] [Text=pitches CharacterOffsetBegin=3498 CharacterOffsetEnd=3505 PartOfSpeech=NNS Lemma=pitch NamedEntityTag=O] [Text=in CharacterOffsetBegin=3506 CharacterOffsetEnd=3508 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=a CharacterOffsetBegin=3509 CharacterOffsetEnd=3510 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=potential CharacterOffsetBegin=3511 CharacterOffsetEnd=3520 PartOfSpeech=JJ Lemma=potential NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=3521 CharacterOffsetEnd=3526 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=start CharacterOffsetBegin=3527 CharacterOffsetEnd=3532 PartOfSpeech=NN Lemma=start NamedEntityTag=O] [Text=, CharacterOffsetBegin=3532 CharacterOffsetEnd=3533 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=3534 CharacterOffsetEnd=3536 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=guessed CharacterOffsetBegin=3537 CharacterOffsetEnd=3544 PartOfSpeech=VBD Lemma=guess NamedEntityTag=O] [Text=, CharacterOffsetBegin=3544 CharacterOffsetEnd=3545 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=3546 CharacterOffsetEnd=3549 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=, CharacterOffsetBegin=3549 CharacterOffsetEnd=3550 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=`` CharacterOffsetBegin=3551 CharacterOffsetEnd=3552 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=3552 CharacterOffsetEnd=3553 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=would CharacterOffsetBegin=3554 CharacterOffsetEnd=3559 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=think CharacterOffsetBegin=3560 CharacterOffsetEnd=3565 PartOfSpeech=VB Lemma=think NamedEntityTag=O] [Text=if CharacterOffsetBegin=3566 CharacterOffsetEnd=3568 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=I CharacterOffsetBegin=3569 CharacterOffsetEnd=3570 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=can CharacterOffsetBegin=3571 CharacterOffsetEnd=3574 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=throw CharacterOffsetBegin=3575 CharacterOffsetEnd=3580 PartOfSpeech=VB Lemma=throw NamedEntityTag=O] [Text=95-100 CharacterOffsetBegin=3581 CharacterOffsetEnd=3587 PartOfSpeech=CD Lemma=95-100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=95.0 - 100.0] [Text=, CharacterOffsetBegin=3587 CharacterOffsetEnd=3588 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=I CharacterOffsetBegin=3589 CharacterOffsetEnd=3590 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=would CharacterOffsetBegin=3591 CharacterOffsetEnd=3596 PartOfSpeech=MD Lemma=would NamedEntityTag=O] [Text=be CharacterOffsetBegin=3597 CharacterOffsetEnd=3599 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=ready CharacterOffsetBegin=3600 CharacterOffsetEnd=3605 PartOfSpeech=JJ Lemma=ready NamedEntityTag=O] [Text=to CharacterOffsetBegin=3606 CharacterOffsetEnd=3608 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=go CharacterOffsetBegin=3609 CharacterOffsetEnd=3611 PartOfSpeech=VB Lemma=go NamedEntityTag=O] [Text=. CharacterOffsetBegin=3611 CharacterOffsetEnd=3612 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3612 CharacterOffsetEnd=3613 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP He))
+        (VP (MD could)
+          (VP (VB throw)
+            (NP
+              (NP (CD 80-85) (NNS pitches))
+              (PP (IN in)
+                (NP (DT a) (JJ potential) (NN rehab) (NN start)))))))
+      (, ,)
+      (NP (PRP he))
+      (VP (VBD guessed)))
+    (, ,)
+    (CC and)
+    (, ,) (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (MD would)
+        (VP (VB think)
+          (S
+            (SBAR (IN if)
+              (S
+                (NP (PRP I))
+                (VP (MD can)
+                  (VP (VB throw)
+                    (NP (CD 95-100))))))
+            (, ,)
+            (NP (PRP I))
+            (VP (MD would)
+              (VP (VB be)
+                (ADJP (JJ ready)
+                  (S
+                    (VP (TO to)
+                      (VP (VB go)))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, guessed-13)
+nsubj(throw-3, He-1)
+aux(throw-3, could-2)
+ccomp(guessed-13, throw-3)
+num(pitches-5, 80-85-4)
+dobj(throw-3, pitches-5)
+det(start-10, a-7)
+amod(start-10, potential-8)
+nn(start-10, rehab-9)
+prep_in(pitches-5, start-10)
+nsubj(guessed-13, he-12)
+cc(guessed-13, and-15)
+nsubj(think-20, I-18)
+aux(think-20, would-19)
+ccomp(guessed-13, think-20)
+mark(throw-24, if-21)
+nsubj(throw-24, I-22)
+aux(throw-24, can-23)
+advcl(ready-30, throw-24)
+dobj(throw-24, 95-100-25)
+nsubj(ready-30, I-27)
+aux(ready-30, would-28)
+cop(ready-30, be-29)
+ccomp(think-20, ready-30)
+aux(go-32, to-31)
+xcomp(ready-30, go-32)
+
+Sentence #36 (6 tokens):
+Contact Anthony Fenech: afenech@freepress.com .
+[Text=Contact CharacterOffsetBegin=3614 CharacterOffsetEnd=3621 PartOfSpeech=NN Lemma=contact NamedEntityTag=O] [Text=Anthony CharacterOffsetBegin=3622 CharacterOffsetEnd=3629 PartOfSpeech=NNP Lemma=Anthony NamedEntityTag=PERSON] [Text=Fenech CharacterOffsetBegin=3630 CharacterOffsetEnd=3636 PartOfSpeech=NNP Lemma=Fenech NamedEntityTag=PERSON] [Text=: CharacterOffsetBegin=3636 CharacterOffsetEnd=3637 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=afenech@freepress.com CharacterOffsetBegin=3638 CharacterOffsetEnd=3659 PartOfSpeech=NNP Lemma=afenech@freepress.com NamedEntityTag=O] [Text=. CharacterOffsetBegin=3660 CharacterOffsetEnd=3661 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NN Contact) (NNP Anthony) (NNP Fenech))
+    (: :)
+    (NP (NNP afenech@freepress.com))
+    (. .)))
+
+root(ROOT-0, Fenech-3)
+nn(Fenech-3, Contact-1)
+nn(Fenech-3, Anthony-2)
+dep(Fenech-3, afenech@freepress.com-5)
+
+Sentence #37 (6 tokens):
+Follow him on Twitter @anthonyfenech .
+[Text=Follow CharacterOffsetBegin=3662 CharacterOffsetEnd=3668 PartOfSpeech=VB Lemma=follow NamedEntityTag=O] [Text=him CharacterOffsetBegin=3669 CharacterOffsetEnd=3672 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=on CharacterOffsetBegin=3673 CharacterOffsetEnd=3675 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Twitter CharacterOffsetBegin=3676 CharacterOffsetEnd=3683 PartOfSpeech=NNP Lemma=Twitter NamedEntityTag=O] [Text=@anthonyfenech CharacterOffsetBegin=3684 CharacterOffsetEnd=3698 PartOfSpeech=NN Lemma=@anthonyfenech NamedEntityTag=O] [Text=. CharacterOffsetBegin=3699 CharacterOffsetEnd=3700 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Follow)
+      (NP (PRP him))
+      (PP (IN on)
+        (NP (NNP Twitter) (NN @anthonyfenech))))
+    (. .)))
+
+root(ROOT-0, Follow-1)
+dobj(Follow-1, him-2)
+nn(@anthonyfenech-5, Twitter-4)
+prep_on(Follow-1, @anthonyfenech-5)
+
+Sentence #38 (16 tokens):
+Join us for a live blog of the Tigers-A_s game Wednesday afternoon at freep.com_sports.
+[Text=Join CharacterOffsetBegin=3701 CharacterOffsetEnd=3705 PartOfSpeech=VB Lemma=join NamedEntityTag=O] [Text=us CharacterOffsetBegin=3706 CharacterOffsetEnd=3708 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=for CharacterOffsetBegin=3709 CharacterOffsetEnd=3712 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=3713 CharacterOffsetEnd=3714 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=live CharacterOffsetBegin=3715 CharacterOffsetEnd=3719 PartOfSpeech=JJ Lemma=live NamedEntityTag=O] [Text=blog CharacterOffsetBegin=3720 CharacterOffsetEnd=3724 PartOfSpeech=NN Lemma=blog NamedEntityTag=O] [Text=of CharacterOffsetBegin=3725 CharacterOffsetEnd=3727 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=3728 CharacterOffsetEnd=3731 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Tigers-A CharacterOffsetBegin=3732 CharacterOffsetEnd=3740 PartOfSpeech=NN Lemma=tigers-a NamedEntityTag=O] [Text=_s CharacterOffsetBegin=3740 CharacterOffsetEnd=3742 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=game CharacterOffsetBegin=3743 CharacterOffsetEnd=3747 PartOfSpeech=NN Lemma=game NamedEntityTag=O] [Text=Wednesday CharacterOffsetBegin=3748 CharacterOffsetEnd=3757 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3TAF Timex=<TIMEX3 tid="t9" type="TIME" value="XXXX-WXX-3TAF">Wednesday afternoon<_TIMEX3>] [Text=afternoon CharacterOffsetBegin=3758 CharacterOffsetEnd=3767 PartOfSpeech=NN Lemma=afternoon NamedEntityTag=TIME NormalizedNamedEntityTag=XXXX-WXX-3TAF Timex=<TIMEX3 tid="t9" type="TIME" value="XXXX-WXX-3TAF">Wednesday afternoon<_TIMEX3>] [Text=at CharacterOffsetBegin=3768 CharacterOffsetEnd=3770 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=freep.com_sports CharacterOffsetBegin=3771 CharacterOffsetEnd=3787 PartOfSpeech=NNS Lemma=freep.com_sports NamedEntityTag=O] [Text=. CharacterOffsetBegin=3787 CharacterOffsetEnd=3788 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB Join)
+      (NP (PRP us))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ live) (NN blog))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (DT the) (NN Tigers-A) (POS _s))
+                (NN game))
+              (NP-TMP (NNP Wednesday))))
+          (NP-TMP (NN afternoon))))
+      (PP (IN at)
+        (NP (NNS freep.com_sports))))
+    (. .)))
+
+root(ROOT-0, Join-1)
+dobj(Join-1, us-2)
+det(blog-6, a-4)
+amod(blog-6, live-5)
+prep_for(Join-1, blog-6)
+det(Tigers-A-9, the-8)
+poss(game-11, Tigers-A-9)
+prep_of(blog-6, game-11)
+tmod(game-11, Wednesday-12)
+tmod(blog-6, afternoon-13)
+prep_at(Join-1, freep.com_sports-15)
+
+Sentence #39 (13 tokens):
+Also check out our latest Tigers podcast at freep.com_tigerspodcast or on iTunes.
+[Text=Also CharacterOffsetBegin=3789 CharacterOffsetEnd=3793 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=check CharacterOffsetBegin=3794 CharacterOffsetEnd=3799 PartOfSpeech=VB Lemma=check NamedEntityTag=O] [Text=out CharacterOffsetBegin=3800 CharacterOffsetEnd=3803 PartOfSpeech=RP Lemma=out NamedEntityTag=O] [Text=our CharacterOffsetBegin=3804 CharacterOffsetEnd=3807 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=latest CharacterOffsetBegin=3808 CharacterOffsetEnd=3814 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=3815 CharacterOffsetEnd=3821 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=ORGANIZATION] [Text=podcast CharacterOffsetBegin=3822 CharacterOffsetEnd=3829 PartOfSpeech=NN Lemma=podcast NamedEntityTag=O] [Text=at CharacterOffsetBegin=3830 CharacterOffsetEnd=3832 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=freep.com_tigerspodcast CharacterOffsetBegin=3833 CharacterOffsetEnd=3856 PartOfSpeech=NN Lemma=freep.com_tigerspodcast NamedEntityTag=O] [Text=or CharacterOffsetBegin=3857 CharacterOffsetEnd=3859 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=on CharacterOffsetBegin=3860 CharacterOffsetEnd=3862 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=iTunes CharacterOffsetBegin=3863 CharacterOffsetEnd=3869 PartOfSpeech=NNP Lemma=iTunes NamedEntityTag=O] [Text=. CharacterOffsetBegin=3869 CharacterOffsetEnd=3870 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (VP (VB check)
+      (PRT (RP out))
+      (NP (PRP$ our) (JJS latest))
+      (PP
+        (PP
+          (NP (NNP Tigers) (NN podcast))
+          (IN at)
+          (NP (NN freep.com_tigerspodcast)))
+        (CC or)
+        (PP (IN on)
+          (NP (NNP iTunes)))))
+    (. .)))
+
+root(ROOT-0, check-2)
+advmod(check-2, Also-1)
+conj_or(check-2, check-2)
+prt(check-2, out-3)
+poss(latest-5, our-4)
+dobj(check-2, latest-5)
+nn(podcast-7, Tigers-6)
+prep_at(check-2, podcast-7)
+pobj(check-2, freep.com_tigerspodcast-9)
+prep_on(check-2, iTunes-12)
+
+Sentence #40 (12 tokens):
+And download our free Tigers Xtra app on Apple and Android !
+[Text=And CharacterOffsetBegin=3871 CharacterOffsetEnd=3874 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=download CharacterOffsetBegin=3875 CharacterOffsetEnd=3883 PartOfSpeech=VB Lemma=download NamedEntityTag=O] [Text=our CharacterOffsetBegin=3884 CharacterOffsetEnd=3887 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=free CharacterOffsetBegin=3888 CharacterOffsetEnd=3892 PartOfSpeech=JJ Lemma=free NamedEntityTag=O] [Text=Tigers CharacterOffsetBegin=3893 CharacterOffsetEnd=3899 PartOfSpeech=NNP Lemma=Tigers NamedEntityTag=O] [Text=Xtra CharacterOffsetBegin=3900 CharacterOffsetEnd=3904 PartOfSpeech=NNP Lemma=Xtra NamedEntityTag=O] [Text=app CharacterOffsetBegin=3905 CharacterOffsetEnd=3908 PartOfSpeech=NN Lemma=app NamedEntityTag=O] [Text=on CharacterOffsetBegin=3909 CharacterOffsetEnd=3911 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Apple CharacterOffsetBegin=3912 CharacterOffsetEnd=3917 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=and CharacterOffsetBegin=3918 CharacterOffsetEnd=3921 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Android CharacterOffsetBegin=3922 CharacterOffsetEnd=3929 PartOfSpeech=NNP Lemma=Android NamedEntityTag=O] [Text=! CharacterOffsetBegin=3930 CharacterOffsetEnd=3931 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (FRAG (CC And)
+    (VP (VB download)
+      (NP (PRP$ our) (JJ free) (NNP Tigers) (NNP Xtra) (NN app))
+      (PP (IN on)
+        (NP (NNP Apple)
+          (CC and)
+          (NNP Android))))
+    (. !)))
+
+root(ROOT-0, download-2)
+cc(download-2, And-1)
+poss(app-7, our-3)
+amod(app-7, free-4)
+nn(app-7, Tigers-5)
+nn(app-7, Xtra-6)
+dobj(download-2, app-7)
+prep_on(download-2, Apple-9)
+conj_and(Apple-9, Android-11)
+
+Sentence #41 (9 tokens):
+Read or Share this story: http:__on.freep.com_1HvedYn
+TOP VIDEOS
+[Text=Read CharacterOffsetBegin=3932 CharacterOffsetEnd=3936 PartOfSpeech=VB Lemma=read NamedEntityTag=O] [Text=or CharacterOffsetBegin=3937 CharacterOffsetEnd=3939 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=Share CharacterOffsetBegin=3940 CharacterOffsetEnd=3945 PartOfSpeech=VB Lemma=share NamedEntityTag=O] [Text=this CharacterOffsetBegin=3946 CharacterOffsetEnd=3950 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=story CharacterOffsetBegin=3951 CharacterOffsetEnd=3956 PartOfSpeech=NN Lemma=story NamedEntityTag=O] [Text=: CharacterOffsetBegin=3956 CharacterOffsetEnd=3957 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=http:__on.freep.com_1HvedYn CharacterOffsetBegin=3958 CharacterOffsetEnd=3985 PartOfSpeech=NN Lemma=http:__on.freep.com_1hvedyn NamedEntityTag=O] [Text=TOP CharacterOffsetBegin=3986 CharacterOffsetEnd=3989 PartOfSpeech=NN Lemma=top NamedEntityTag=O] [Text=VIDEOS CharacterOffsetBegin=3990 CharacterOffsetEnd=3996 PartOfSpeech=NNS Lemma=video NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP
+      (VP (VB Read))
+      (CC or)
+      (VP (VB Share)
+        (NP
+          (NP (DT this) (NN story))
+          (: :)
+          (NP (NN http:__on.freep.com_1HvedYn) (NN TOP) (NNS VIDEOS)))))))
+
+root(ROOT-0, Read-1)
+conj_or(Read-1, Share-3)
+det(story-5, this-4)
+dobj(Share-3, story-5)
+nn(VIDEOS-9, http:__on.freep.com_1HvedYn-7)
+nn(VIDEOS-9, TOP-8)
+dep(story-5, VIDEOS-9)
+
+Coreference set:
+ (2,13,[13,15]) -> (11,8,[7,9]), that is: "Verlander _s" -> "Justin Verlander"
+ (3,1,[1,2]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (5,1,[1,2]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (9,19,[19,21]) -> (11,8,[7,9]), that is: "Verlander _s" -> "Justin Verlander"
+ (13,7,[7,9]) -> (11,8,[7,9]), that is: "Verlander _s" -> "Justin Verlander"
+ (13,22,[22,23]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (17,1,[1,2]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (18,1,[1,2]) -> (11,8,[7,9]), that is: "He" -> "Justin Verlander"
+ (21,2,[2,3]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (21,6,[6,7]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (21,24,[24,25]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (21,29,[29,30]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (21,35,[35,36]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (22,11,[11,12]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (23,1,[1,3]) -> (11,8,[7,9]), that is: "Verlander _s" -> "Justin Verlander"
+ (23,10,[10,11]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (26,10,[10,11]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (30,4,[4,5]) -> (11,8,[7,9]), that is: "me" -> "Justin Verlander"
+ (31,1,[1,2]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (31,4,[4,5]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (31,16,[16,17]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (32,1,[1,2]) -> (11,8,[7,9]), that is: "He" -> "Justin Verlander"
+ (32,7,[7,8]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (32,15,[15,16]) -> (11,8,[7,9]), that is: "his" -> "Justin Verlander"
+ (33,5,[5,6]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (33,27,[27,28]) -> (11,8,[7,9]), that is: "he" -> "Justin Verlander"
+ (34,2,[2,3]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (34,12,[12,13]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (34,29,[29,30]) -> (11,8,[7,9]), that is: "Verlander" -> "Justin Verlander"
+ (35,1,[1,2]) -> (11,8,[7,9]), that is: "He" -> "Justin Verlander"
+ (35,12,[12,13]) -> (11,8,[7,9]), that is: "he" -> "Justin Verlander"
+ (35,18,[18,19]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (35,22,[22,23]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+ (35,27,[27,28]) -> (11,8,[7,9]), that is: "I" -> "Justin Verlander"
+Coreference set:
+ (2,18,[17,19]) -> (13,11,[7,12]), that is: "a success" -> "Verlander _s first simulated game"
+ (4,9,[8,10]) -> (13,11,[7,12]), that is: "a success" -> "Verlander _s first simulated game"
+ (13,5,[4,12]) -> (13,11,[7,12]), that is: "a success , Verlander _s first simulated game" -> "Verlander _s first simulated game"
+ (13,5,[4,6]) -> (13,11,[7,12]), that is: "a success" -> "Verlander _s first simulated game"
+Coreference set:
+ (2,21,[20,22]) -> (4,12,[11,14]), that is: "rehab start" -> "rehab start next"
+ (9,27,[26,28]) -> (4,12,[11,14]), that is: "rehab start" -> "rehab start next"
+Coreference set:
+ (5,3,[3,4]) -> (3,3,[3,4]), that is: "70" -> "70"
+ (17,3,[3,4]) -> (3,3,[3,4]), that is: "70" -> "70"
+Coreference set:
+ (5,6,[6,7]) -> (3,6,[6,7]), that is: "4 1_3" -> "4 1_3"
+ (17,6,[6,7]) -> (3,6,[6,7]), that is: "4 1_3" -> "4 1_3"
+Coreference set:
+ (5,10,[10,11]) -> (3,10,[10,11]), that is: "two" -> "two"
+ (18,23,[23,24]) -> (3,10,[10,11]), that is: "Two" -> "two"
+Coreference set:
+ (5,19,[19,20]) -> (3,19,[19,20]), that is: "eight" -> "eight"
+ (18,29,[29,30]) -> (3,19,[19,20]), that is: "eight" -> "eight"
+Coreference set:
+ (5,4,[3,5]) -> (3,4,[3,5]), that is: "70 pitches" -> "70 pitches"
+ (10,27,[27,28]) -> (3,4,[3,5]), that is: "pitches" -> "70 pitches"
+ (17,4,[3,5]) -> (3,4,[3,5]), that is: "70 pitches" -> "70 pitches"
+Coreference set:
+ (5,7,[6,8]) -> (3,7,[6,8]), that is: "4 1_3 innings" -> "4 1_3 innings"
+ (17,7,[6,8]) -> (3,7,[6,8]), that is: "4 1_3 innings" -> "4 1_3 innings"
+Coreference set:
+ (5,11,[10,14]) -> (3,11,[10,14]), that is: "two hits and one" -> "two hits and one"
+Coreference set:
+ (5,11,[10,12]) -> (3,11,[10,12]), that is: "two hits" -> "two hits"
+ (18,24,[23,25]) -> (3,11,[10,12]), that is: "Two hits" -> "two hits"
+ (18,30,[29,31]) -> (3,11,[10,12]), that is: "eight strikeouts" -> "two hits"
+Coreference set:
+ (5,18,[18,21]) -> (3,18,[18,21]), that is: "teammates eight times" -> "teammates eight times"
+Coreference set:
+ (5,20,[19,21]) -> (3,20,[19,21]), that is: "eight times" -> "eight times"
+Coreference set:
+ (9,22,[19,23]) -> (4,7,[3,8]), that is: "Verlander _s simulated game" -> "Facebook Verlander _s simulated game"
+Coreference set:
+ (10,19,[19,20]) -> (10,3,[2,4]), that is: "he" -> "Anthony Fenech"
+ (11,3,[3,4]) -> (10,3,[2,4]), that is: "Anthony" -> "Anthony Fenech"
+ (12,19,[19,20]) -> (10,3,[2,4]), that is: "his" -> "Anthony Fenech"
+Coreference set:
+ (10,16,[16,17]) -> (14,9,[8,11]), that is: "Tigers" -> "the Tigers _"
+ (11,5,[5,6]) -> (14,9,[8,11]), that is: "Tigers" -> "the Tigers _"
+ (23,32,[31,34]) -> (14,9,[8,11]), that is: "the Tigers _" -> "the Tigers _"
+ (33,14,[14,15]) -> (14,9,[8,11]), that is: "Tigers" -> "the Tigers _"
+ (39,6,[6,7]) -> (14,9,[8,11]), that is: "Tigers" -> "the Tigers _"
+Coreference set:
+ (10,32,[32,33]) -> (11,9,[3,12]), that is: "Oakland" -> "Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif."
+ (11,9,[3,10]) -> (11,9,[3,12]), that is: "Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND" -> "Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif."
+ (11,9,[9,10]) -> (11,9,[3,12]), that is: "OAKLAND" -> "Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif."
+Coreference set:
+ (11,11,[11,12]) -> (10,34,[32,35]), that is: "Calif." -> "Oakland , Calif."
+Coreference set:
+ (12,2,[2,3]) -> (11,1,[1,13]), that is: "It" -> "Video by Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif. ."
+ (13,2,[2,3]) -> (11,1,[1,13]), that is: "it" -> "Video by Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif. ."
+ (13,18,[18,19]) -> (11,1,[1,13]), that is: "it" -> "Video by Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif. ."
+ (14,2,[2,3]) -> (11,1,[1,13]), that is: "It" -> "Video by Anthony Fenech_DFP Tigers pitcher Justin Verlander OAKLAND , Calif. ."
+Coreference set:
+ (25,15,[14,16]) -> (12,12,[11,24]), that is: "the wave" -> "the wave to Justin Verlander trying to talk his way into another inning"
+Coreference set:
+ (13,9,[9,10]) -> (23,11,[10,12]), that is: "first" -> "his first"
+ (13,23,[23,24]) -> (23,11,[10,12]), that is: "first" -> "his first"
+ (15,3,[3,4]) -> (23,11,[10,12]), that is: "first" -> "his first"
+ (16,5,[5,6]) -> (23,11,[10,12]), that is: "it" -> "his first"
+ (16,9,[9,10]) -> (23,11,[10,12]), that is: "it" -> "his first"
+ (23,11,[11,12]) -> (23,11,[10,12]), that is: "first" -> "his first"
+ (30,10,[10,11]) -> (23,11,[10,12]), that is: "first" -> "his first"
+ (30,13,[13,14]) -> (23,11,[10,12]), that is: "it" -> "his first"
+Coreference set:
+ (15,12,[12,13]) -> (14,11,[8,12]), that is: "I" -> "the Tigers _ right-hander"
+ (16,16,[16,17]) -> (14,11,[8,12]), that is: "I" -> "the Tigers _ right-hander"
+Coreference set:
+ (18,16,[16,17]) -> (18,4,[3,5]), that is: "his" -> "Bryan Holaday"
+Coreference set:
+ (25,18,[18,19]) -> (18,14,[13,15]), that is: "Machado" -> "Dixon Machado"
+Coreference set:
+ (19,8,[8,9]) -> (19,3,[1,4]), that is: "his" -> "Manager Brad Ausmus"
+ (19,14,[14,15]) -> (19,3,[1,4]), that is: "his" -> "Manager Brad Ausmus"
+ (20,8,[8,9]) -> (19,3,[1,4]), that is: "he" -> "Manager Brad Ausmus"
+ (33,12,[12,13]) -> (19,3,[1,4]), that is: "Ausmus" -> "Manager Brad Ausmus"
+Coreference set:
+ (21,32,[32,33]) -> (21,20,[19,21]), that is: "that" -> "the process"
+Coreference set:
+ (25,22,[22,23]) -> (23,3,[3,4]), that is: "second" -> "second"
+Coreference set:
+ (23,21,[20,22]) -> (23,8,[7,9]), that is: "the season" -> "the season"
+Coreference set:
+ (25,28,[28,29]) -> (24,23,[22,24]), that is: "they" -> "the masses"
+ (27,2,[2,3]) -> (24,23,[22,24]), that is: "We" -> "the masses"
+ (27,9,[9,10]) -> (24,23,[22,24]), that is: "we" -> "the masses"
+Coreference set:
+ (26,2,[2,3]) -> (25,6,[6,16]), that is: "It" -> "one of a few that attempted to start the wave"
+ (26,5,[4,8]) -> (25,6,[6,16]), that is: "a lot of fun" -> "one of a few that attempted to start the wave"
+ (27,4,[4,5]) -> (25,6,[6,16]), that is: "it" -> "one of a few that attempted to start the wave"
+ (28,21,[21,22]) -> (25,6,[6,16]), that is: "it" -> "one of a few that attempted to start the wave"
+Coreference set:
+ (30,2,[1,3]) -> (28,2,[1,23]), that is: "Those guys" -> "The guys in the stands who tried to get the wave going -- the fans were n_t very receptive to it ."
+Coreference set:
+ (29,2,[2,3]) -> (28,11,[10,13]), that is: "It" -> "the wave going"
+Coreference set:
+ (32,20,[20,21]) -> (32,4,[3,5]), that is: "it" -> "a change"
+Coreference set:
+ (34,22,[22,23]) -> (33,12,[12,15]), that is: "they" -> "Ausmus and Tigers"
+Coreference set:
+ (34,26,[26,27]) -> (34,20,[18,21]), that is: "it" -> "a rehab start"
+Coreference set:
+ (37,2,[2,3]) -> (36,3,[1,7]), that is: "him" -> "Contact Anthony Fenech : afenech@freepress.com ."
+Coreference set:
+ (39,4,[4,5]) -> (38,2,[2,3]), that is: "our" -> "us"
+ (40,3,[3,4]) -> (38,2,[2,3]), that is: "our" -> "us"

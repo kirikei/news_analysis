@@ -1,0 +1,912 @@
+Sentence #1 (19 tokens):
+Merkel joins celebrities and billionaires on the annual Forbes list of the World’s 100 Most Powerful Women.
+[Text=Merkel CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Merkel NamedEntityTag=PERSON] [Text=joins CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=join NamedEntityTag=O] [Text=celebrities CharacterOffsetBegin=13 CharacterOffsetEnd=24 PartOfSpeech=NNS Lemma=celebrity NamedEntityTag=O] [Text=and CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=billionaires CharacterOffsetBegin=29 CharacterOffsetEnd=41 PartOfSpeech=NNS Lemma=billionaire NamedEntityTag=O] [Text=on CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=annual CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t1" type="SET" value="P1Y">annual<_TIMEX3>] [Text=Forbes CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=MISC] [Text=list CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=of CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=World CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=NNP Lemma=World NamedEntityTag=MISC] [Text=_s CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=POS Lemma=_s NamedEntityTag=MISC] [Text=100 CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=CD Lemma=100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=100.0] [Text=Most CharacterOffsetBegin=87 CharacterOffsetEnd=91 PartOfSpeech=JJS Lemma=most NamedEntityTag=MISC] [Text=Powerful CharacterOffsetBegin=92 CharacterOffsetEnd=100 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=MISC] [Text=Women CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NNS Lemma=woman NamedEntityTag=MISC] [Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Merkel))
+    (VP (VBZ joins)
+      (NP (NNS celebrities)
+        (CC and)
+        (NNS billionaires))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (JJ annual) (NNP Forbes) (NN list))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNP World) (POS _s))
+              (CD 100) (JJS Most) (JJ Powerful) (NNS Women))))))
+    (. .)))
+
+root(ROOT-0, joins-2)
+nsubj(joins-2, Merkel-1)
+dobj(joins-2, celebrities-3)
+conj_and(celebrities-3, billionaires-5)
+det(list-10, the-7)
+amod(list-10, annual-8)
+nn(list-10, Forbes-9)
+prep_on(joins-2, list-10)
+det(World-13, the-12)
+poss(Women-18, World-13)
+num(Women-18, 100-15)
+amod(Women-18, Most-16)
+amod(Women-18, Powerful-17)
+prep_of(list-10, Women-18)
+
+Sentence #2 (11 tokens):
+The German Chancellor joins celebrities and billionaires on the list.
+[Text=The CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=German CharacterOffsetBegin=112 CharacterOffsetEnd=118 PartOfSpeech=NNP Lemma=German NamedEntityTag=MISC] [Text=Chancellor CharacterOffsetBegin=119 CharacterOffsetEnd=129 PartOfSpeech=NNP Lemma=Chancellor NamedEntityTag=O] [Text=joins CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=VBZ Lemma=join NamedEntityTag=O] [Text=celebrities CharacterOffsetBegin=136 CharacterOffsetEnd=147 PartOfSpeech=NNS Lemma=celebrity NamedEntityTag=O] [Text=and CharacterOffsetBegin=148 CharacterOffsetEnd=151 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=billionaires CharacterOffsetBegin=152 CharacterOffsetEnd=164 PartOfSpeech=NNS Lemma=billionaire NamedEntityTag=O] [Text=on CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=list CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=. CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (NNP German) (NNP Chancellor))
+    (VP (VBZ joins)
+      (NP (NNS celebrities)
+        (CC and)
+        (NNS billionaires))
+      (PP (IN on)
+        (NP (DT the) (NN list))))
+    (. .)))
+
+root(ROOT-0, joins-4)
+det(Chancellor-3, The-1)
+nn(Chancellor-3, German-2)
+nsubj(joins-4, Chancellor-3)
+dobj(joins-4, celebrities-5)
+conj_and(celebrities-5, billionaires-7)
+det(list-10, the-9)
+prep_on(joins-4, list-10)
+
+Sentence #3 (46 tokens):
+German chancellor Angela Merkel remains Forbes’ most powerful woman in the world for the fifth year running – recognised for taking on massive global issues this year like Mediterranean migrants, Russian sanctions, Eurozone stability, anti-terror raids and the tragic Germanwings crash.
+[Text=German CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=JJ Lemma=german NamedEntityTag=MISC] [Text=chancellor CharacterOffsetBegin=185 CharacterOffsetEnd=195 PartOfSpeech=NN Lemma=chancellor NamedEntityTag=O] [Text=Angela CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=NNP Lemma=Angela NamedEntityTag=PERSON] [Text=Merkel CharacterOffsetBegin=203 CharacterOffsetEnd=209 PartOfSpeech=NNP Lemma=Merkel NamedEntityTag=PERSON] [Text=remains CharacterOffsetBegin=210 CharacterOffsetEnd=217 PartOfSpeech=VBZ Lemma=remain NamedEntityTag=O] [Text=Forbes CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=O] [Text=_ CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=__ Lemma=_ NamedEntityTag=O] [Text=most CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=powerful CharacterOffsetBegin=231 CharacterOffsetEnd=239 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=O] [Text=woman CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=NN Lemma=woman NamedEntityTag=O] [Text=in CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=world CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN Lemma=world NamedEntityTag=O] [Text=for CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=P1Y-#5 Timex=<TIMEX3 alt_value="P1Y-#5" tid="t2" type="DATE">the fifth year<_TIMEX3>] [Text=fifth CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=JJ Lemma=fifth NamedEntityTag=DATE NormalizedNamedEntityTag=P1Y-#5 Timex=<TIMEX3 alt_value="P1Y-#5" tid="t2" type="DATE">the fifth year<_TIMEX3>] [Text=year CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=P1Y-#5 Timex=<TIMEX3 alt_value="P1Y-#5" tid="t2" type="DATE">the fifth year<_TIMEX3>] [Text=running CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=VBG Lemma=run NamedEntityTag=O] [Text=-- CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=recognised CharacterOffsetBegin=288 CharacterOffsetEnd=298 PartOfSpeech=VBN Lemma=recognise NamedEntityTag=O] [Text=for CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=taking CharacterOffsetBegin=303 CharacterOffsetEnd=309 PartOfSpeech=VBG Lemma=take NamedEntityTag=O] [Text=on CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=RP Lemma=on NamedEntityTag=O] [Text=massive CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=JJ Lemma=massive NamedEntityTag=O] [Text=global CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=JJ Lemma=global NamedEntityTag=O] [Text=issues CharacterOffsetBegin=328 CharacterOffsetEnd=334 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O] [Text=this CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=like CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=IN Lemma=like NamedEntityTag=O] [Text=Mediterranean CharacterOffsetBegin=350 CharacterOffsetEnd=363 PartOfSpeech=JJ Lemma=mediterranean NamedEntityTag=MISC] [Text=migrants CharacterOffsetBegin=364 CharacterOffsetEnd=372 PartOfSpeech=NNS Lemma=migrant NamedEntityTag=O] [Text=, CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Russian CharacterOffsetBegin=374 CharacterOffsetEnd=381 PartOfSpeech=JJ Lemma=russian NamedEntityTag=MISC] [Text=sanctions CharacterOffsetBegin=382 CharacterOffsetEnd=391 PartOfSpeech=NNS Lemma=sanction NamedEntityTag=O] [Text=, CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Eurozone CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=NN Lemma=eurozone NamedEntityTag=O] [Text=stability CharacterOffsetBegin=402 CharacterOffsetEnd=411 PartOfSpeech=NN Lemma=stability NamedEntityTag=O] [Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=anti-terror CharacterOffsetBegin=413 CharacterOffsetEnd=424 PartOfSpeech=JJ Lemma=anti-terror NamedEntityTag=O] [Text=raids CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NNS Lemma=raid NamedEntityTag=O] [Text=and CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=the CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=tragic CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=JJ Lemma=tragic NamedEntityTag=O] [Text=Germanwings CharacterOffsetBegin=446 CharacterOffsetEnd=457 PartOfSpeech=NNP Lemma=Germanwings NamedEntityTag=MISC] [Text=crash CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=NN Lemma=crash NamedEntityTag=O] [Text=. CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ German) (NN chancellor) (NNP Angela) (NNP Merkel))
+    (VP (VBZ remains)
+      (NP
+        (NP (NNP Forbes))
+        (__ _)
+        (PP
+          (NP
+            (ADJP (RBS most) (JJ powerful))
+            (NN woman))
+          (IN in)
+          (NP (DT the) (NN world))))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (JJ fifth) (NN year))
+          (VP (VBG running))
+          (: --)
+          (ADJP (VBN recognised)
+            (PP (IN for)
+              (S
+                (VP (VBG taking)
+                  (PRT (RP on))
+                  (NP
+                    (NP (JJ massive) (JJ global) (NNS issues))
+                    (NP (DT this) (NN year)))
+                  (PP (IN like)
+                    (NP
+                      (NP (JJ Mediterranean) (NNS migrants))
+                      (, ,)
+                      (NP (JJ Russian) (NNS sanctions))
+                      (, ,)
+                      (NP (NN Eurozone) (NN stability))
+                      (, ,)
+                      (NP (JJ anti-terror) (NNS raids))
+                      (CC and)
+                      (NP (DT the) (JJ tragic) (NNP Germanwings) (NN crash)))))))))))
+    (. .)))
+
+root(ROOT-0, Forbes-6)
+amod(Merkel-4, German-1)
+nn(Merkel-4, chancellor-2)
+nn(Merkel-4, Angela-3)
+nsubj(Forbes-6, Merkel-4)
+cop(Forbes-6, remains-5)
+advmod(powerful-9, most-8)
+amod(woman-10, powerful-9)
+npadvmod(Forbes-6, woman-10)
+det(world-13, the-12)
+prep_in(Forbes-6, world-13)
+det(year-17, the-15)
+amod(year-17, fifth-16)
+prep_for(Forbes-6, year-17)
+vmod(year-17, running-18)
+amod(year-17, recognised-20)
+prepc_for(recognised-20, taking-22)
+prt(taking-22, on-23)
+amod(issues-26, massive-24)
+amod(issues-26, global-25)
+dobj(taking-22, issues-26)
+det(year-28, this-27)
+dep(issues-26, year-28)
+amod(migrants-31, Mediterranean-30)
+prep_like(taking-22, migrants-31)
+amod(sanctions-34, Russian-33)
+conj_and(migrants-31, sanctions-34)
+nn(stability-37, Eurozone-36)
+conj_and(migrants-31, stability-37)
+amod(raids-40, anti-terror-39)
+conj_and(migrants-31, raids-40)
+det(crash-45, the-42)
+amod(crash-45, tragic-43)
+nn(crash-45, Germanwings-44)
+conj_and(migrants-31, crash-45)
+
+Sentence #4 (22 tokens):
+Hillary Clinton came in second on the magazine’s annual list – rising from her spot at number six in 2014.
+[Text=Hillary CharacterOffsetBegin=465 CharacterOffsetEnd=472 PartOfSpeech=NNP Lemma=Hillary NamedEntityTag=PERSON] [Text=Clinton CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=NNP Lemma=Clinton NamedEntityTag=PERSON] [Text=came CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=VBD Lemma=come NamedEntityTag=O] [Text=in CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=second CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=on CharacterOffsetBegin=496 CharacterOffsetEnd=498 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=magazine CharacterOffsetBegin=503 CharacterOffsetEnd=511 PartOfSpeech=NN Lemma=magazine NamedEntityTag=O] [Text=_s CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=annual CharacterOffsetBegin=514 CharacterOffsetEnd=520 PartOfSpeech=JJ Lemma=annual NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1Y" quant="EVERY" tid="t4" type="SET" value="P1Y">annual<_TIMEX3>] [Text=list CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=-- CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=rising CharacterOffsetBegin=528 CharacterOffsetEnd=534 PartOfSpeech=VBG Lemma=rise NamedEntityTag=O] [Text=from CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=her CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O] [Text=spot CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=NN Lemma=spot NamedEntityTag=O] [Text=at CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=number CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=six CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=CD Lemma=six NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=in CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=2014 CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t5" type="DATE" value="2014">2014<_TIMEX3>] [Text=. CharacterOffsetBegin=570 CharacterOffsetEnd=571 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Hillary) (NNP Clinton))
+    (VP (VBD came)
+      (PP (IN in)
+        (NP
+          (NP (JJ second))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN magazine) (POS _s))
+              (JJ annual) (NN list)))))
+      (: --)
+      (S
+        (VP (VBG rising)
+          (PP (IN from)
+            (NP (PRP$ her) (NN spot)))
+          (PP (IN at)
+            (NP
+              (NP (NN number) (CD six))
+              (PP (IN in)
+                (NP (CD 2014))))))))
+    (. .)))
+
+root(ROOT-0, came-3)
+nn(Clinton-2, Hillary-1)
+nsubj(came-3, Clinton-2)
+prep_in(came-3, second-5)
+det(magazine-8, the-7)
+poss(list-11, magazine-8)
+amod(list-11, annual-10)
+prep_on(second-5, list-11)
+parataxis(came-3, rising-13)
+poss(spot-16, her-15)
+prep_from(rising-13, spot-16)
+prep_at(rising-13, number-18)
+num(number-18, six-19)
+prep_in(number-18, 2014-21)
+
+Sentence #5 (34 tokens):
+Forbes even recognised pop singer Taylor Swift with a debut entry, ranked 65 out of 100 and identified as the second most powerful woman in music, after undisputed queen Beyoncé Knowles.
+[Text=Forbes CharacterOffsetBegin=572 CharacterOffsetEnd=578 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=O] [Text=even CharacterOffsetBegin=579 CharacterOffsetEnd=583 PartOfSpeech=RB Lemma=even NamedEntityTag=O] [Text=recognised CharacterOffsetBegin=584 CharacterOffsetEnd=594 PartOfSpeech=VBD Lemma=recognise NamedEntityTag=O] [Text=pop CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=NN Lemma=pop NamedEntityTag=O] [Text=singer CharacterOffsetBegin=599 CharacterOffsetEnd=605 PartOfSpeech=NN Lemma=singer NamedEntityTag=O] [Text=Taylor CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=NNP Lemma=Taylor NamedEntityTag=PERSON] [Text=Swift CharacterOffsetBegin=613 CharacterOffsetEnd=618 PartOfSpeech=NNP Lemma=Swift NamedEntityTag=PERSON] [Text=with CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=a CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=debut CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=NN Lemma=debut NamedEntityTag=O] [Text=entry CharacterOffsetBegin=632 CharacterOffsetEnd=637 PartOfSpeech=NN Lemma=entry NamedEntityTag=O] [Text=, CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=ranked CharacterOffsetBegin=639 CharacterOffsetEnd=645 PartOfSpeech=VBD Lemma=rank NamedEntityTag=O] [Text=65 CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=CD Lemma=65 NamedEntityTag=NUMBER NormalizedNamedEntityTag=65.0] [Text=out CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=100 CharacterOffsetBegin=656 CharacterOffsetEnd=659 PartOfSpeech=CD Lemma=100 NamedEntityTag=NUMBER NormalizedNamedEntityTag=100.0] [Text=and CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=identified CharacterOffsetBegin=664 CharacterOffsetEnd=674 PartOfSpeech=VBN Lemma=identify NamedEntityTag=O] [Text=as CharacterOffsetBegin=675 CharacterOffsetEnd=677 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=second CharacterOffsetBegin=682 CharacterOffsetEnd=688 PartOfSpeech=JJ Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0] [Text=most CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=powerful CharacterOffsetBegin=694 CharacterOffsetEnd=702 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=O] [Text=woman CharacterOffsetBegin=703 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=woman NamedEntityTag=O] [Text=in CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=music CharacterOffsetBegin=712 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=music NamedEntityTag=O] [Text=, CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=after CharacterOffsetBegin=719 CharacterOffsetEnd=724 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=undisputed CharacterOffsetBegin=725 CharacterOffsetEnd=735 PartOfSpeech=JJ Lemma=undisputed NamedEntityTag=O] [Text=queen CharacterOffsetBegin=736 CharacterOffsetEnd=741 PartOfSpeech=NN Lemma=queen NamedEntityTag=O] [Text=Beyoncé CharacterOffsetBegin=742 CharacterOffsetEnd=749 PartOfSpeech=NNP Lemma=Beyoncé NamedEntityTag=PERSON] [Text=Knowles CharacterOffsetBegin=750 CharacterOffsetEnd=757 PartOfSpeech=NNP Lemma=Knowles NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=757 CharacterOffsetEnd=758 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Forbes))
+    (ADVP (RB even))
+    (VP
+      (VP (VBD recognised)
+        (NP
+          (NP (NN pop) (NN singer) (NNP Taylor) (NNP Swift))
+          (PP (IN with)
+            (NP (DT a) (NN debut) (NN entry)))))
+      (, ,)
+      (VP (VBD ranked)
+        (ADVP
+          (NP (CD 65))
+          (IN out))
+        (PP (IN of)
+          (NP (CD 100))))
+      (CC and)
+      (VP (VBN identified)
+        (PP (IN as)
+          (NP
+            (NP (DT the) (JJ second)
+              (ADJP (RBS most) (JJ powerful))
+              (NN woman))
+            (PP (IN in)
+              (NP (NN music)))))
+        (, ,)
+        (PP (IN after)
+          (NP (JJ undisputed) (NN queen) (NNP Beyoncé) (NNP Knowles)))))
+    (. .)))
+
+root(ROOT-0, recognised-3)
+nsubj(recognised-3, Forbes-1)
+advmod(recognised-3, even-2)
+nn(Swift-7, pop-4)
+nn(Swift-7, singer-5)
+nn(Swift-7, Taylor-6)
+dobj(recognised-3, Swift-7)
+det(entry-11, a-9)
+nn(entry-11, debut-10)
+prep_with(Swift-7, entry-11)
+conj_and(recognised-3, ranked-13)
+npadvmod(ranked-13, 65-14)
+prep_out_of(ranked-13, 100-17)
+conj_and(recognised-3, identified-19)
+det(woman-25, the-21)
+amod(woman-25, second-22)
+advmod(powerful-24, most-23)
+amod(woman-25, powerful-24)
+prep_as(identified-19, woman-25)
+prep_in(woman-25, music-27)
+amod(Knowles-33, undisputed-30)
+nn(Knowles-33, queen-31)
+nn(Knowles-33, Beyoncé-32)
+prep_after(identified-19, Knowles-33)
+
+Sentence #6 (49 tokens):
+There are 19 new entries to 2015’s list, including many firsts – Loretta Lynch, the first African-American woman to be US attorney general, Janet Yellen, the first female chair of the Federal Reserve, and Folorunsho Alakija, the first self-made African billionaire.
+[Text=There CharacterOffsetBegin=759 CharacterOffsetEnd=764 PartOfSpeech=EX Lemma=there NamedEntityTag=O] [Text=are CharacterOffsetBegin=765 CharacterOffsetEnd=768 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=19 CharacterOffsetBegin=769 CharacterOffsetEnd=771 PartOfSpeech=CD Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0] [Text=new CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=entries CharacterOffsetBegin=776 CharacterOffsetEnd=783 PartOfSpeech=NNS Lemma=entry NamedEntityTag=O] [Text=to CharacterOffsetBegin=784 CharacterOffsetEnd=786 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=2015 CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=CD Lemma=2015 NamedEntityTag=DATE NormalizedNamedEntityTag=2015 Timex=<TIMEX3 tid="t6" type="DATE" value="2015">2015<_TIMEX3>] [Text=_s CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=list CharacterOffsetBegin=794 CharacterOffsetEnd=798 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=, CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=including CharacterOffsetBegin=800 CharacterOffsetEnd=809 PartOfSpeech=VBG Lemma=include NamedEntityTag=O] [Text=many CharacterOffsetBegin=810 CharacterOffsetEnd=814 PartOfSpeech=JJ Lemma=many NamedEntityTag=O] [Text=firsts CharacterOffsetBegin=815 CharacterOffsetEnd=821 PartOfSpeech=NNS Lemma=first NamedEntityTag=O] [Text=-- CharacterOffsetBegin=822 CharacterOffsetEnd=823 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=Loretta CharacterOffsetBegin=824 CharacterOffsetEnd=831 PartOfSpeech=NNP Lemma=Loretta NamedEntityTag=PERSON] [Text=Lynch CharacterOffsetBegin=832 CharacterOffsetEnd=837 PartOfSpeech=NNP Lemma=Lynch NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=837 CharacterOffsetEnd=838 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=843 CharacterOffsetEnd=848 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=African-American CharacterOffsetBegin=849 CharacterOffsetEnd=865 PartOfSpeech=JJ Lemma=african-american NamedEntityTag=MISC] [Text=woman CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=NN Lemma=woman NamedEntityTag=O] [Text=to CharacterOffsetBegin=872 CharacterOffsetEnd=874 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=875 CharacterOffsetEnd=877 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=US CharacterOffsetBegin=878 CharacterOffsetEnd=880 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=attorney CharacterOffsetBegin=881 CharacterOffsetEnd=889 PartOfSpeech=NN Lemma=attorney NamedEntityTag=O] [Text=general CharacterOffsetBegin=890 CharacterOffsetEnd=897 PartOfSpeech=NN Lemma=general NamedEntityTag=O] [Text=, CharacterOffsetBegin=897 CharacterOffsetEnd=898 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Janet CharacterOffsetBegin=899 CharacterOffsetEnd=904 PartOfSpeech=NNP Lemma=Janet NamedEntityTag=PERSON] [Text=Yellen CharacterOffsetBegin=905 CharacterOffsetEnd=911 PartOfSpeech=NNP Lemma=Yellen NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=911 CharacterOffsetEnd=912 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=913 CharacterOffsetEnd=916 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=female CharacterOffsetBegin=923 CharacterOffsetEnd=929 PartOfSpeech=JJ Lemma=female NamedEntityTag=O] [Text=chair CharacterOffsetBegin=930 CharacterOffsetEnd=935 PartOfSpeech=NN Lemma=chair NamedEntityTag=O] [Text=of CharacterOffsetBegin=936 CharacterOffsetEnd=938 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=the CharacterOffsetBegin=939 CharacterOffsetEnd=942 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Federal CharacterOffsetBegin=943 CharacterOffsetEnd=950 PartOfSpeech=NNP Lemma=Federal NamedEntityTag=ORGANIZATION] [Text=Reserve CharacterOffsetBegin=951 CharacterOffsetEnd=958 PartOfSpeech=NNP Lemma=Reserve NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=960 CharacterOffsetEnd=963 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Folorunsho CharacterOffsetBegin=964 CharacterOffsetEnd=974 PartOfSpeech=NNP Lemma=Folorunsho NamedEntityTag=PERSON] [Text=Alakija CharacterOffsetBegin=975 CharacterOffsetEnd=982 PartOfSpeech=NNP Lemma=Alakija NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=982 CharacterOffsetEnd=983 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=984 CharacterOffsetEnd=987 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=988 CharacterOffsetEnd=993 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=self-made CharacterOffsetBegin=994 CharacterOffsetEnd=1003 PartOfSpeech=JJ Lemma=self-made NamedEntityTag=O] [Text=African CharacterOffsetBegin=1004 CharacterOffsetEnd=1011 PartOfSpeech=JJ Lemma=african NamedEntityTag=MISC] [Text=billionaire CharacterOffsetBegin=1012 CharacterOffsetEnd=1023 PartOfSpeech=NN Lemma=billionaire NamedEntityTag=O] [Text=. CharacterOffsetBegin=1023 CharacterOffsetEnd=1024 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (CD 19) (JJ new) (NNS entries))
+        (PP (TO to)
+          (NP
+            (NP (CD 2015) (POS _s))
+            (NN list)))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (JJ many) (NNS firsts))
+            (: --)
+            (NP
+              (NP (NNP Loretta) (NNP Lynch))
+              (, ,)
+              (NP
+                (NP (DT the) (JJ first) (JJ African-American) (NN woman))
+                (SBAR
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (NP
+                          (NP
+                            (NP (NNP US) (NN attorney) (NN general))
+                            (, ,)
+                            (NP (NNP Janet) (NNP Yellen)))
+                          (, ,)
+                          (NP
+                            (NP (DT the) (JJ first) (JJ female) (NN chair))
+                            (PP (IN of)
+                              (NP (DT the) (NNP Federal) (NNP Reserve))))
+                          (, ,)
+                          (CC and)
+                          (NP
+                            (NP (NNP Folorunsho) (NNP Alakija))
+                            (, ,)
+                            (NP (DT the) (JJ first) (JJ self-made) (JJ African) (NN billionaire))))))))))))))
+    (. .)))
+
+root(ROOT-0, are-2)
+expl(are-2, There-1)
+num(entries-5, 19-3)
+amod(entries-5, new-4)
+nsubj(are-2, entries-5)
+poss(list-9, 2015-7)
+prep_to(entries-5, list-9)
+amod(firsts-13, many-12)
+prep_including(entries-5, firsts-13)
+nn(Lynch-16, Loretta-15)
+dep(firsts-13, Lynch-16)
+det(woman-21, the-18)
+amod(woman-21, first-19)
+amod(woman-21, African-American-20)
+appos(Lynch-16, woman-21)
+aux(general-26, to-22)
+cop(general-26, be-23)
+nn(general-26, US-24)
+nn(general-26, attorney-25)
+vmod(woman-21, general-26)
+nn(Yellen-29, Janet-28)
+appos(general-26, Yellen-29)
+det(chair-34, the-31)
+amod(chair-34, first-32)
+amod(chair-34, female-33)
+conj_and(general-26, chair-34)
+det(Reserve-38, the-36)
+nn(Reserve-38, Federal-37)
+prep_of(chair-34, Reserve-38)
+nn(Alakija-42, Folorunsho-41)
+conj_and(general-26, Alakija-42)
+det(billionaire-48, the-44)
+amod(billionaire-48, first-45)
+amod(billionaire-48, self-made-46)
+amod(billionaire-48, African-47)
+appos(Alakija-42, billionaire-48)
+
+Sentence #7 (14 tokens):
+‘Tay Tay’ made a swift move into this year’s list.
+[Text=` CharacterOffsetBegin=1025 CharacterOffsetEnd=1026 PartOfSpeech=`` Lemma=` NamedEntityTag=O] [Text=Tay CharacterOffsetBegin=1026 CharacterOffsetEnd=1029 PartOfSpeech=NNP Lemma=Tay NamedEntityTag=O] [Text=Tay CharacterOffsetBegin=1030 CharacterOffsetEnd=1033 PartOfSpeech=NNP Lemma=Tay NamedEntityTag=O] [Text=_ CharacterOffsetBegin=1033 CharacterOffsetEnd=1034 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=made CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=a CharacterOffsetBegin=1040 CharacterOffsetEnd=1041 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=swift CharacterOffsetBegin=1042 CharacterOffsetEnd=1047 PartOfSpeech=JJ Lemma=swift NamedEntityTag=O] [Text=move CharacterOffsetBegin=1048 CharacterOffsetEnd=1052 PartOfSpeech=NN Lemma=move NamedEntityTag=O] [Text=into CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=this CharacterOffsetBegin=1058 CharacterOffsetEnd=1062 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=1063 CharacterOffsetEnd=1067 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=_s CharacterOffsetBegin=1067 CharacterOffsetEnd=1069 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=list CharacterOffsetBegin=1070 CharacterOffsetEnd=1074 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=. CharacterOffsetBegin=1074 CharacterOffsetEnd=1075 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (`` `) (NNP Tay))
+    (SBAR
+      (S
+        (NP (NNP Tay) (POS _))
+        (VP (VBD made)
+          (NP (DT a) (JJ swift) (NN move))
+          (PP (IN into)
+            (NP
+              (NP (DT this) (NN year) (POS _s))
+              (NN list))))))
+    (. .)))
+
+root(ROOT-0, Tay-2)
+nsubj(made-5, Tay-3)
+rcmod(Tay-2, made-5)
+det(move-8, a-6)
+amod(move-8, swift-7)
+dobj(made-5, move-8)
+det(year-11, this-10)
+poss(list-13, year-11)
+prep_into(made-5, list-13)
+
+Sentence #8 (18 tokens):
+Photo: Getty
+More female entrepreneurs and women working in technology made the list than ever before.
+[Text=Photo CharacterOffsetBegin=1076 CharacterOffsetEnd=1081 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=1081 CharacterOffsetEnd=1082 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Getty CharacterOffsetBegin=1083 CharacterOffsetEnd=1088 PartOfSpeech=NNP Lemma=Getty NamedEntityTag=O] [Text=More CharacterOffsetBegin=1089 CharacterOffsetEnd=1093 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=female CharacterOffsetBegin=1094 CharacterOffsetEnd=1100 PartOfSpeech=JJ Lemma=female NamedEntityTag=O] [Text=entrepreneurs CharacterOffsetBegin=1101 CharacterOffsetEnd=1114 PartOfSpeech=NNS Lemma=entrepreneur NamedEntityTag=O] [Text=and CharacterOffsetBegin=1115 CharacterOffsetEnd=1118 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=women CharacterOffsetBegin=1119 CharacterOffsetEnd=1124 PartOfSpeech=NNS Lemma=woman NamedEntityTag=O] [Text=working CharacterOffsetBegin=1125 CharacterOffsetEnd=1132 PartOfSpeech=VBG Lemma=work NamedEntityTag=O] [Text=in CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=technology CharacterOffsetBegin=1136 CharacterOffsetEnd=1146 PartOfSpeech=NN Lemma=technology NamedEntityTag=O] [Text=made CharacterOffsetBegin=1147 CharacterOffsetEnd=1151 PartOfSpeech=VBD Lemma=make NamedEntityTag=O] [Text=the CharacterOffsetBegin=1152 CharacterOffsetEnd=1155 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=list CharacterOffsetBegin=1156 CharacterOffsetEnd=1160 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=than CharacterOffsetBegin=1161 CharacterOffsetEnd=1165 PartOfSpeech=IN Lemma=than NamedEntityTag=O] [Text=ever CharacterOffsetBegin=1166 CharacterOffsetEnd=1170 PartOfSpeech=RB Lemma=ever NamedEntityTag=O] [Text=before CharacterOffsetBegin=1171 CharacterOffsetEnd=1177 PartOfSpeech=RB Lemma=before NamedEntityTag=O] [Text=. CharacterOffsetBegin=1177 CharacterOffsetEnd=1178 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Photo))
+    (: :)
+    (NP
+      (NP (NNP Getty))
+      (SBAR
+        (S
+          (NP
+            (NP
+              (ADJP (RBR More) (JJ female))
+              (NNS entrepreneurs)
+              (CC and)
+              (NNS women))
+            (VP (VBG working)
+              (PP (IN in)
+                (NP (NN technology)))))
+          (VP (VBD made)
+            (NP (DT the) (NN list))
+            (PP (IN than)
+              (ADVP (RB ever) (RB before)))))))
+    (. .)))
+
+root(ROOT-0, Photo-1)
+dep(Photo-1, Getty-3)
+advmod(female-5, More-4)
+amod(entrepreneurs-6, female-5)
+nsubj(made-12, entrepreneurs-6)
+conj_and(entrepreneurs-6, women-8)
+vmod(entrepreneurs-6, working-9)
+prep_in(working-9, technology-11)
+rcmod(Getty-3, made-12)
+det(list-14, the-13)
+dobj(made-12, list-14)
+prep(made-12, than-15)
+advmod(before-17, ever-16)
+pcomp(than-15, before-17)
+
+Sentence #9 (28 tokens):
+Forbes’ top ranking billionaire this year was Oprah Winfrey at number 12, who has a personal net worth of $3 billion, Forbes reported .
+[Text=Forbes CharacterOffsetBegin=1179 CharacterOffsetEnd=1185 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=PERSON] [Text=_ CharacterOffsetBegin=1185 CharacterOffsetEnd=1186 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=top CharacterOffsetBegin=1187 CharacterOffsetEnd=1190 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=ranking CharacterOffsetBegin=1191 CharacterOffsetEnd=1198 PartOfSpeech=JJ Lemma=ranking NamedEntityTag=O] [Text=billionaire CharacterOffsetBegin=1199 CharacterOffsetEnd=1210 PartOfSpeech=NN Lemma=billionaire NamedEntityTag=O] [Text=this CharacterOffsetBegin=1211 CharacterOffsetEnd=1215 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=1216 CharacterOffsetEnd=1220 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=was CharacterOffsetBegin=1221 CharacterOffsetEnd=1224 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=Oprah CharacterOffsetBegin=1225 CharacterOffsetEnd=1230 PartOfSpeech=NNP Lemma=Oprah NamedEntityTag=PERSON] [Text=Winfrey CharacterOffsetBegin=1231 CharacterOffsetEnd=1238 PartOfSpeech=NNP Lemma=Winfrey NamedEntityTag=PERSON] [Text=at CharacterOffsetBegin=1239 CharacterOffsetEnd=1241 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=number CharacterOffsetBegin=1242 CharacterOffsetEnd=1248 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=12 CharacterOffsetBegin=1249 CharacterOffsetEnd=1251 PartOfSpeech=CD Lemma=12 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12.0] [Text=, CharacterOffsetBegin=1251 CharacterOffsetEnd=1252 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=1253 CharacterOffsetEnd=1256 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=has CharacterOffsetBegin=1257 CharacterOffsetEnd=1260 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1261 CharacterOffsetEnd=1262 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=personal CharacterOffsetBegin=1263 CharacterOffsetEnd=1271 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O] [Text=net CharacterOffsetBegin=1272 CharacterOffsetEnd=1275 PartOfSpeech=JJ Lemma=net NamedEntityTag=O] [Text=worth CharacterOffsetBegin=1276 CharacterOffsetEnd=1281 PartOfSpeech=NN Lemma=worth NamedEntityTag=O] [Text=of CharacterOffsetBegin=1282 CharacterOffsetEnd=1284 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=$ CharacterOffsetBegin=1285 CharacterOffsetEnd=1286 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.0E9] [Text=3 CharacterOffsetBegin=1286 CharacterOffsetEnd=1287 PartOfSpeech=CD Lemma=3 NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.0E9] [Text=billion CharacterOffsetBegin=1288 CharacterOffsetEnd=1295 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$3.0E9] [Text=, CharacterOffsetBegin=1295 CharacterOffsetEnd=1296 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Forbes CharacterOffsetBegin=1297 CharacterOffsetEnd=1303 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=ORGANIZATION] [Text=reported CharacterOffsetBegin=1304 CharacterOffsetEnd=1312 PartOfSpeech=VBD Lemma=report NamedEntityTag=O] [Text=. CharacterOffsetBegin=1313 CharacterOffsetEnd=1314 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Forbes) (POS _))
+        (JJ top) (JJ ranking) (NN billionaire))
+      (NP-TMP (DT this) (NN year))
+      (VP (VBD was)
+        (NP
+          (NP (NNP Oprah) (NNP Winfrey))
+          (PP (IN at)
+            (NP
+              (NP (NN number) (CD 12))
+              (, ,)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBZ has)
+                    (NP
+                      (NP (DT a) (JJ personal) (JJ net) (NN worth))
+                      (PP (IN of)
+                        (NP
+                          (QP ($ $) (CD 3) (CD billion)))))))))))))
+    (, ,)
+    (NP (NNP Forbes))
+    (VP (VBD reported))
+    (. .)))
+
+root(ROOT-0, reported-27)
+poss(billionaire-5, Forbes-1)
+amod(billionaire-5, top-3)
+amod(billionaire-5, ranking-4)
+nsubj(Winfrey-10, billionaire-5)
+det(year-7, this-6)
+tmod(Winfrey-10, year-7)
+cop(Winfrey-10, was-8)
+nn(Winfrey-10, Oprah-9)
+ccomp(reported-27, Winfrey-10)
+prep_at(Winfrey-10, number-12)
+num(number-12, 12-13)
+nsubj(has-16, who-15)
+rcmod(number-12, has-16)
+det(worth-20, a-17)
+amod(worth-20, personal-18)
+amod(worth-20, net-19)
+dobj(has-16, worth-20)
+prep_of(worth-20, dol-22)
+number(billion-24, 3-23)
+num(dol-22, billion-24)
+nsubj(reported-27, Forbes-26)
+
+Sentence #10 (39 tokens):
+Ana Patricia Botin, the newly installed chair of Banco Santander, is the top woman in finance at number 18, while Anna Wintour, Conde Nast artistic director, rules the media sector at number 28.
+[Text=Ana CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=NNP Lemma=Ana NamedEntityTag=PERSON] [Text=Patricia CharacterOffsetBegin=1319 CharacterOffsetEnd=1327 PartOfSpeech=NNP Lemma=Patricia NamedEntityTag=PERSON] [Text=Botin CharacterOffsetBegin=1328 CharacterOffsetEnd=1333 PartOfSpeech=NNP Lemma=Botin NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1333 CharacterOffsetEnd=1334 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=the CharacterOffsetBegin=1335 CharacterOffsetEnd=1338 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=newly CharacterOffsetBegin=1339 CharacterOffsetEnd=1344 PartOfSpeech=RB Lemma=newly NamedEntityTag=O] [Text=installed CharacterOffsetBegin=1345 CharacterOffsetEnd=1354 PartOfSpeech=VBN Lemma=install NamedEntityTag=O] [Text=chair CharacterOffsetBegin=1355 CharacterOffsetEnd=1360 PartOfSpeech=NN Lemma=chair NamedEntityTag=O] [Text=of CharacterOffsetBegin=1361 CharacterOffsetEnd=1363 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Banco CharacterOffsetBegin=1364 CharacterOffsetEnd=1369 PartOfSpeech=NNP Lemma=Banco NamedEntityTag=ORGANIZATION] [Text=Santander CharacterOffsetBegin=1370 CharacterOffsetEnd=1379 PartOfSpeech=NNP Lemma=Santander NamedEntityTag=ORGANIZATION] [Text=, CharacterOffsetBegin=1379 CharacterOffsetEnd=1380 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=is CharacterOffsetBegin=1381 CharacterOffsetEnd=1383 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=1384 CharacterOffsetEnd=1387 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=top CharacterOffsetBegin=1388 CharacterOffsetEnd=1391 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=woman CharacterOffsetBegin=1392 CharacterOffsetEnd=1397 PartOfSpeech=NN Lemma=woman NamedEntityTag=O] [Text=in CharacterOffsetBegin=1398 CharacterOffsetEnd=1400 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=finance CharacterOffsetBegin=1401 CharacterOffsetEnd=1408 PartOfSpeech=NN Lemma=finance NamedEntityTag=O] [Text=at CharacterOffsetBegin=1409 CharacterOffsetEnd=1411 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=number CharacterOffsetBegin=1412 CharacterOffsetEnd=1418 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=18 CharacterOffsetBegin=1419 CharacterOffsetEnd=1421 PartOfSpeech=CD Lemma=18 NamedEntityTag=NUMBER NormalizedNamedEntityTag=18.0] [Text=, CharacterOffsetBegin=1421 CharacterOffsetEnd=1422 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=while CharacterOffsetBegin=1423 CharacterOffsetEnd=1428 PartOfSpeech=IN Lemma=while NamedEntityTag=O] [Text=Anna CharacterOffsetBegin=1429 CharacterOffsetEnd=1433 PartOfSpeech=NNP Lemma=Anna NamedEntityTag=PERSON] [Text=Wintour CharacterOffsetBegin=1434 CharacterOffsetEnd=1441 PartOfSpeech=NNP Lemma=Wintour NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1441 CharacterOffsetEnd=1442 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Conde CharacterOffsetBegin=1443 CharacterOffsetEnd=1448 PartOfSpeech=NNP Lemma=Conde NamedEntityTag=PERSON] [Text=Nast CharacterOffsetBegin=1449 CharacterOffsetEnd=1453 PartOfSpeech=NNP Lemma=Nast NamedEntityTag=PERSON] [Text=artistic CharacterOffsetBegin=1454 CharacterOffsetEnd=1462 PartOfSpeech=JJ Lemma=artistic NamedEntityTag=O] [Text=director CharacterOffsetBegin=1463 CharacterOffsetEnd=1471 PartOfSpeech=NN Lemma=director NamedEntityTag=O] [Text=, CharacterOffsetBegin=1471 CharacterOffsetEnd=1472 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=rules CharacterOffsetBegin=1473 CharacterOffsetEnd=1478 PartOfSpeech=NNS Lemma=rule NamedEntityTag=O] [Text=the CharacterOffsetBegin=1479 CharacterOffsetEnd=1482 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=media CharacterOffsetBegin=1483 CharacterOffsetEnd=1488 PartOfSpeech=NNS Lemma=media NamedEntityTag=O] [Text=sector CharacterOffsetBegin=1489 CharacterOffsetEnd=1495 PartOfSpeech=NN Lemma=sector NamedEntityTag=O] [Text=at CharacterOffsetBegin=1496 CharacterOffsetEnd=1498 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=number CharacterOffsetBegin=1499 CharacterOffsetEnd=1505 PartOfSpeech=NN Lemma=number NamedEntityTag=O] [Text=28 CharacterOffsetBegin=1506 CharacterOffsetEnd=1508 PartOfSpeech=CD Lemma=28 NamedEntityTag=NUMBER NormalizedNamedEntityTag=28.0] [Text=. CharacterOffsetBegin=1508 CharacterOffsetEnd=1509 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ana) (NNP Patricia) (NNP Botin))
+      (, ,)
+      (NP
+        (NP (DT the)
+          (ADJP (RB newly) (VBN installed))
+          (NN chair))
+        (PP (IN of)
+          (NP (NNP Banco) (NNP Santander))))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ top) (NN woman))
+        (PP (IN in)
+          (NP
+            (NP (NN finance))
+            (PP (IN at)
+              (NP (NN number) (CD 18))))))
+      (, ,)
+      (SBAR (IN while)
+        (FRAG
+          (NP
+            (NP (NNP Anna) (NNP Wintour))
+            (, ,)
+            (NP (NNP Conde) (NNP Nast) (JJ artistic) (NN director))
+            (, ,)
+            (NP
+              (NP (NNS rules))
+              (NP (DT the) (NNS media) (NN sector))))))
+      (PP (IN at)
+        (NP (NN number) (CD 28))))
+    (. .)))
+
+root(ROOT-0, woman-16)
+nn(Botin-3, Ana-1)
+nn(Botin-3, Patricia-2)
+nsubj(woman-16, Botin-3)
+det(chair-8, the-5)
+advmod(installed-7, newly-6)
+amod(chair-8, installed-7)
+appos(Botin-3, chair-8)
+nn(Santander-11, Banco-10)
+prep_of(chair-8, Santander-11)
+cop(woman-16, is-13)
+det(woman-16, the-14)
+amod(woman-16, top-15)
+prep_in(woman-16, finance-18)
+prep_at(finance-18, number-20)
+num(number-20, 18-21)
+mark(Wintour-25, while-23)
+nn(Wintour-25, Anna-24)
+advcl(woman-16, Wintour-25)
+nn(director-30, Conde-27)
+nn(director-30, Nast-28)
+amod(director-30, artistic-29)
+appos(Wintour-25, director-30)
+appos(Wintour-25, rules-32)
+det(sector-35, the-33)
+nn(sector-35, media-34)
+dep(rules-32, sector-35)
+prep_at(woman-16, number-37)
+num(number-37, 28-38)
+
+Sentence #11 (22 tokens):
+Notable dropouts include Aung San Suu Kyi and Lady Gaga, both of whom failed to make the cut this year.
+[Text=Notable CharacterOffsetBegin=1510 CharacterOffsetEnd=1517 PartOfSpeech=JJ Lemma=notable NamedEntityTag=O] [Text=dropouts CharacterOffsetBegin=1518 CharacterOffsetEnd=1526 PartOfSpeech=NNS Lemma=dropout NamedEntityTag=O] [Text=include CharacterOffsetBegin=1527 CharacterOffsetEnd=1534 PartOfSpeech=VBP Lemma=include NamedEntityTag=O] [Text=Aung CharacterOffsetBegin=1535 CharacterOffsetEnd=1539 PartOfSpeech=NNP Lemma=Aung NamedEntityTag=PERSON] [Text=San CharacterOffsetBegin=1540 CharacterOffsetEnd=1543 PartOfSpeech=NNP Lemma=San NamedEntityTag=PERSON] [Text=Suu CharacterOffsetBegin=1544 CharacterOffsetEnd=1547 PartOfSpeech=NNP Lemma=Suu NamedEntityTag=PERSON] [Text=Kyi CharacterOffsetBegin=1548 CharacterOffsetEnd=1551 PartOfSpeech=NNP Lemma=Kyi NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1552 CharacterOffsetEnd=1555 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Lady CharacterOffsetBegin=1556 CharacterOffsetEnd=1560 PartOfSpeech=NNP Lemma=Lady NamedEntityTag=PERSON] [Text=Gaga CharacterOffsetBegin=1561 CharacterOffsetEnd=1565 PartOfSpeech=NNP Lemma=Gaga NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1565 CharacterOffsetEnd=1566 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=both CharacterOffsetBegin=1567 CharacterOffsetEnd=1571 PartOfSpeech=DT Lemma=both NamedEntityTag=O] [Text=of CharacterOffsetBegin=1572 CharacterOffsetEnd=1574 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=whom CharacterOffsetBegin=1575 CharacterOffsetEnd=1579 PartOfSpeech=WP Lemma=whom NamedEntityTag=O] [Text=failed CharacterOffsetBegin=1580 CharacterOffsetEnd=1586 PartOfSpeech=VBD Lemma=fail NamedEntityTag=O] [Text=to CharacterOffsetBegin=1587 CharacterOffsetEnd=1589 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=make CharacterOffsetBegin=1590 CharacterOffsetEnd=1594 PartOfSpeech=VB Lemma=make NamedEntityTag=O] [Text=the CharacterOffsetBegin=1595 CharacterOffsetEnd=1598 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=cut CharacterOffsetBegin=1599 CharacterOffsetEnd=1602 PartOfSpeech=NN Lemma=cut NamedEntityTag=O] [Text=this CharacterOffsetBegin=1603 CharacterOffsetEnd=1607 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=year CharacterOffsetBegin=1608 CharacterOffsetEnd=1612 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this year<_TIMEX3>] [Text=. CharacterOffsetBegin=1612 CharacterOffsetEnd=1613 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (JJ Notable) (NNS dropouts))
+    (VP (VBP include)
+      (NP
+        (NP (NNP Aung) (NNP San) (NNP Suu) (NNP Kyi)
+          (CC and)
+          (NNP Lady) (NNP Gaga))
+        (, ,)
+        (SBAR
+          (WHNP (DT both)
+            (WHPP (IN of)
+              (WHNP (WP whom))))
+          (S
+            (VP (VBD failed)
+              (S
+                (VP (TO to)
+                  (VP (VB make)
+                    (NP (DT the) (NN cut))
+                    (NP-TMP (DT this) (NN year))))))))))
+    (. .)))
+
+root(ROOT-0, include-3)
+amod(dropouts-2, Notable-1)
+nsubj(include-3, dropouts-2)
+nn(Kyi-7, Aung-4)
+nn(Kyi-7, San-5)
+nn(Kyi-7, Suu-6)
+dobj(include-3, Kyi-7)
+nn(Gaga-10, Lady-9)
+conj_and(Kyi-7, Gaga-10)
+dep(of-13, both-12)
+nsubj(failed-15, of-13)
+pobj(of-13, whom-14)
+rcmod(Kyi-7, failed-15)
+aux(make-17, to-16)
+xcomp(failed-15, make-17)
+det(cut-19, the-18)
+dobj(make-17, cut-19)
+det(year-21, this-20)
+tmod(make-17, year-21)
+
+Sentence #12 (10 tokens):
+Below are Forbes’ top ten most powerful women.
+[Text=Below CharacterOffsetBegin=1614 CharacterOffsetEnd=1619 PartOfSpeech=NNP Lemma=Below NamedEntityTag=O] [Text=are CharacterOffsetBegin=1620 CharacterOffsetEnd=1623 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=Forbes CharacterOffsetBegin=1624 CharacterOffsetEnd=1630 PartOfSpeech=NNP Lemma=Forbes NamedEntityTag=PERSON] [Text=_ CharacterOffsetBegin=1630 CharacterOffsetEnd=1631 PartOfSpeech=POS Lemma=_ NamedEntityTag=O] [Text=top CharacterOffsetBegin=1632 CharacterOffsetEnd=1635 PartOfSpeech=JJ Lemma=top NamedEntityTag=O] [Text=ten CharacterOffsetBegin=1636 CharacterOffsetEnd=1639 PartOfSpeech=CD Lemma=ten NamedEntityTag=NUMBER NormalizedNamedEntityTag=10.0] [Text=most CharacterOffsetBegin=1640 CharacterOffsetEnd=1644 PartOfSpeech=RBS Lemma=most NamedEntityTag=O] [Text=powerful CharacterOffsetBegin=1645 CharacterOffsetEnd=1653 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=O] [Text=women CharacterOffsetBegin=1654 CharacterOffsetEnd=1659 PartOfSpeech=NNS Lemma=woman NamedEntityTag=O] [Text=. CharacterOffsetBegin=1659 CharacterOffsetEnd=1660 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Below))
+    (VP (VBP are)
+      (NP
+        (NP (NNP Forbes) (POS _))
+        (JJ top)
+        (ADJP
+          (NP
+            (QP (CD ten)))
+          (ADJP (RBS most) (JJ powerful)))
+        (NNS women)))
+    (. .)))
+
+root(ROOT-0, women-9)
+nsubj(women-9, Below-1)
+cop(women-9, are-2)
+poss(women-9, Forbes-3)
+amod(women-9, top-5)
+dep(powerful-8, ten-6)
+advmod(powerful-8, most-7)
+amod(women-9, powerful-8)
+
+Sentence #13 (6 tokens):
+See the full list  here .
+[Text=See CharacterOffsetBegin=1661 CharacterOffsetEnd=1664 PartOfSpeech=VB Lemma=see NamedEntityTag=O] [Text=the CharacterOffsetBegin=1665 CharacterOffsetEnd=1668 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=full CharacterOffsetBegin=1669 CharacterOffsetEnd=1673 PartOfSpeech=JJ Lemma=full NamedEntityTag=O] [Text=list CharacterOffsetBegin=1674 CharacterOffsetEnd=1678 PartOfSpeech=NN Lemma=list NamedEntityTag=O] [Text=here CharacterOffsetBegin=1680 CharacterOffsetEnd=1684 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=. CharacterOffsetBegin=1685 CharacterOffsetEnd=1686 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (VB See)
+      (NP (DT the) (JJ full) (NN list))
+      (ADVP (RB here)))
+    (. .)))
+
+root(ROOT-0, See-1)
+det(list-4, the-2)
+amod(list-4, full-3)
+dobj(See-1, list-4)
+advmod(See-1, here-5)
+
+Sentence #14 (2 tokens):
+1.
+[Text=1 CharacterOffsetBegin=1687 CharacterOffsetEnd=1688 PartOfSpeech=LS Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=. CharacterOffsetBegin=1688 CharacterOffsetEnd=1689 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (VP (LS 1))
+    (. .)))
+
+root(ROOT-0, 1-1)
+
+Sentence #15 (8 tokens):
+Angela Merkel, Chancellor of Germany
+2.
+[Text=Angela CharacterOffsetBegin=1690 CharacterOffsetEnd=1696 PartOfSpeech=NNP Lemma=Angela NamedEntityTag=PERSON] [Text=Merkel CharacterOffsetBegin=1697 CharacterOffsetEnd=1703 PartOfSpeech=NNP Lemma=Merkel NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1703 CharacterOffsetEnd=1704 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Chancellor CharacterOffsetBegin=1705 CharacterOffsetEnd=1715 PartOfSpeech=NNP Lemma=Chancellor NamedEntityTag=O] [Text=of CharacterOffsetBegin=1716 CharacterOffsetEnd=1718 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Germany CharacterOffsetBegin=1719 CharacterOffsetEnd=1726 PartOfSpeech=NNP Lemma=Germany NamedEntityTag=LOCATION] [Text=2 CharacterOffsetBegin=1727 CharacterOffsetEnd=1728 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=. CharacterOffsetBegin=1728 CharacterOffsetEnd=1729 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Angela) (NNP Merkel))
+    (, ,)
+    (NP
+      (NP (NNP Chancellor))
+      (PP (IN of)
+        (NP (NNP Germany) (CD 2))))
+    (. .)))
+
+root(ROOT-0, Merkel-2)
+nn(Merkel-2, Angela-1)
+appos(Merkel-2, Chancellor-4)
+prep_of(Chancellor-4, Germany-6)
+num(Germany-6, 2-7)
+
+Sentence #16 (8 tokens):
+Hillary Clinton, US Presidential candidate
+3.
+[Text=Hillary CharacterOffsetBegin=1730 CharacterOffsetEnd=1737 PartOfSpeech=NNP Lemma=Hillary NamedEntityTag=PERSON] [Text=Clinton CharacterOffsetBegin=1738 CharacterOffsetEnd=1745 PartOfSpeech=NNP Lemma=Clinton NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1745 CharacterOffsetEnd=1746 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=US CharacterOffsetBegin=1747 CharacterOffsetEnd=1749 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=Presidential CharacterOffsetBegin=1750 CharacterOffsetEnd=1762 PartOfSpeech=JJ Lemma=presidential NamedEntityTag=O] [Text=candidate CharacterOffsetBegin=1763 CharacterOffsetEnd=1772 PartOfSpeech=NN Lemma=candidate NamedEntityTag=O] [Text=3 CharacterOffsetBegin=1773 CharacterOffsetEnd=1774 PartOfSpeech=CD Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0] [Text=. CharacterOffsetBegin=1774 CharacterOffsetEnd=1775 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Hillary) (NNP Clinton))
+    (, ,)
+    (NP
+      (NP (NNP US) (JJ Presidential) (NN candidate))
+      (NP (CD 3)))
+    (. .)))
+
+root(ROOT-0, Clinton-2)
+nn(Clinton-2, Hillary-1)
+nn(candidate-6, US-4)
+amod(candidate-6, Presidential-5)
+appos(Clinton-2, candidate-6)
+dep(candidate-6, 3-7)
+
+Sentence #17 (12 tokens):
+Melinda Gates, Co-chairwoman, Bill and Melinda Gates Foundation
+4.
+[Text=Melinda CharacterOffsetBegin=1776 CharacterOffsetEnd=1783 PartOfSpeech=NNP Lemma=Melinda NamedEntityTag=PERSON] [Text=Gates CharacterOffsetBegin=1784 CharacterOffsetEnd=1789 PartOfSpeech=NNP Lemma=Gates NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1789 CharacterOffsetEnd=1790 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Co-chairwoman CharacterOffsetBegin=1791 CharacterOffsetEnd=1804 PartOfSpeech=NNP Lemma=Co-chairwoman NamedEntityTag=O] [Text=, CharacterOffsetBegin=1804 CharacterOffsetEnd=1805 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Bill CharacterOffsetBegin=1806 CharacterOffsetEnd=1810 PartOfSpeech=NNP Lemma=Bill NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=1811 CharacterOffsetEnd=1814 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Melinda CharacterOffsetBegin=1815 CharacterOffsetEnd=1822 PartOfSpeech=NNP Lemma=Melinda NamedEntityTag=ORGANIZATION] [Text=Gates CharacterOffsetBegin=1823 CharacterOffsetEnd=1828 PartOfSpeech=NNP Lemma=Gates NamedEntityTag=ORGANIZATION] [Text=Foundation CharacterOffsetBegin=1829 CharacterOffsetEnd=1839 PartOfSpeech=NNP Lemma=Foundation NamedEntityTag=ORGANIZATION] [Text=4 CharacterOffsetBegin=1840 CharacterOffsetEnd=1841 PartOfSpeech=CD Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0] [Text=. CharacterOffsetBegin=1841 CharacterOffsetEnd=1842 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Melinda) (NNP Gates) (, ,) (NNP Co-chairwoman) (, ,) (NNP Bill)
+      (CC and)
+      (NNP Melinda) (NNP Gates))
+    (NP (NNP Foundation) (CD 4))
+    (. .)))
+
+root(ROOT-0, Gates-9)
+nn(Gates-9, Melinda-1)
+nn(Gates-9, Gates-2)
+conj_and(Gates-2, Co-chairwoman-4)
+conj_and(Gates-2, Bill-6)
+conj_and(Gates-2, Melinda-8)
+dep(Gates-9, Foundation-10)
+num(Foundation-10, 4-11)
+
+Sentence #18 (11 tokens):
+Janet Yellen, Chairwoman, US Federal Reserve Bank
+5.
+[Text=Janet CharacterOffsetBegin=1843 CharacterOffsetEnd=1848 PartOfSpeech=NNP Lemma=Janet NamedEntityTag=PERSON] [Text=Yellen CharacterOffsetBegin=1849 CharacterOffsetEnd=1855 PartOfSpeech=NNP Lemma=Yellen NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1855 CharacterOffsetEnd=1856 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Chairwoman CharacterOffsetBegin=1857 CharacterOffsetEnd=1867 PartOfSpeech=NNP Lemma=Chairwoman NamedEntityTag=O] [Text=, CharacterOffsetBegin=1867 CharacterOffsetEnd=1868 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=US CharacterOffsetBegin=1869 CharacterOffsetEnd=1871 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=Federal CharacterOffsetBegin=1872 CharacterOffsetEnd=1879 PartOfSpeech=NNP Lemma=Federal NamedEntityTag=ORGANIZATION] [Text=Reserve CharacterOffsetBegin=1880 CharacterOffsetEnd=1887 PartOfSpeech=NNP Lemma=Reserve NamedEntityTag=ORGANIZATION] [Text=Bank CharacterOffsetBegin=1888 CharacterOffsetEnd=1892 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION] [Text=5 CharacterOffsetBegin=1893 CharacterOffsetEnd=1894 PartOfSpeech=LS Lemma=5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0] [Text=. CharacterOffsetBegin=1894 CharacterOffsetEnd=1895 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NAC (NNP Janet) (NNP Yellen) (, ,) (NNP Chairwoman) (, ,))
+      (NNP US) (NNP Federal) (NNP Reserve) (NNP Bank))
+    (VP (LS 5))
+    (. .)))
+
+root(ROOT-0, 5-10)
+dep(Bank-9, Janet-1)
+nn(Janet-1, Yellen-2)
+dep(Janet-1, Chairwoman-4)
+nn(Bank-9, US-6)
+nn(Bank-9, Federal-7)
+nn(Bank-9, Reserve-8)
+nsubj(5-10, Bank-9)
+
+Sentence #19 (9 tokens):
+Mary Barra, CEO, General Motors
+6.
+[Text=Mary CharacterOffsetBegin=1896 CharacterOffsetEnd=1900 PartOfSpeech=NNP Lemma=Mary NamedEntityTag=PERSON] [Text=Barra CharacterOffsetBegin=1901 CharacterOffsetEnd=1906 PartOfSpeech=NNP Lemma=Barra NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1906 CharacterOffsetEnd=1907 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CEO CharacterOffsetBegin=1908 CharacterOffsetEnd=1911 PartOfSpeech=NNP Lemma=CEO NamedEntityTag=O] [Text=, CharacterOffsetBegin=1911 CharacterOffsetEnd=1912 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=General CharacterOffsetBegin=1913 CharacterOffsetEnd=1920 PartOfSpeech=NNP Lemma=General NamedEntityTag=ORGANIZATION] [Text=Motors CharacterOffsetBegin=1921 CharacterOffsetEnd=1927 PartOfSpeech=NNPS Lemma=Motors NamedEntityTag=ORGANIZATION] [Text=6 CharacterOffsetBegin=1928 CharacterOffsetEnd=1929 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0] [Text=. CharacterOffsetBegin=1929 CharacterOffsetEnd=1930 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Mary) (NNP Barra))
+    (, ,)
+    (NP
+      (NP (NNP CEO) (, ,) (NNP General) (NNPS Motors))
+      (NP (CD 6)))
+    (. .)))
+
+root(ROOT-0, Barra-2)
+nn(Barra-2, Mary-1)
+nn(Motors-7, CEO-4)
+appos(Motors-7, General-6)
+appos(Barra-2, Motors-7)
+dep(Motors-7, 6-8)
+
+Sentence #20 (11 tokens):
+Christine Lagarde, Managing Director, International Monetary Fund
+7.
+[Text=Christine CharacterOffsetBegin=1931 CharacterOffsetEnd=1940 PartOfSpeech=NNP Lemma=Christine NamedEntityTag=PERSON] [Text=Lagarde CharacterOffsetBegin=1941 CharacterOffsetEnd=1948 PartOfSpeech=NNP Lemma=Lagarde NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=1948 CharacterOffsetEnd=1949 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Managing CharacterOffsetBegin=1950 CharacterOffsetEnd=1958 PartOfSpeech=VBG Lemma=manage NamedEntityTag=O] [Text=Director CharacterOffsetBegin=1959 CharacterOffsetEnd=1967 PartOfSpeech=NNP Lemma=Director NamedEntityTag=O] [Text=, CharacterOffsetBegin=1967 CharacterOffsetEnd=1968 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=International CharacterOffsetBegin=1969 CharacterOffsetEnd=1982 PartOfSpeech=NNP Lemma=International NamedEntityTag=ORGANIZATION] [Text=Monetary CharacterOffsetBegin=1983 CharacterOffsetEnd=1991 PartOfSpeech=NNP Lemma=Monetary NamedEntityTag=ORGANIZATION] [Text=Fund CharacterOffsetBegin=1992 CharacterOffsetEnd=1996 PartOfSpeech=NNP Lemma=Fund NamedEntityTag=ORGANIZATION] [Text=7 CharacterOffsetBegin=1997 CharacterOffsetEnd=1998 PartOfSpeech=CD Lemma=7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0] [Text=. CharacterOffsetBegin=1998 CharacterOffsetEnd=1999 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Christine) (NNP Lagarde) (, ,))
+    (VP (VBG Managing)
+      (NP
+        (NP (NNP Director))
+        (, ,)
+        (NP
+          (NP (NNP International) (NNP Monetary) (NNP Fund))
+          (NP (CD 7)))))
+    (. .)))
+
+root(ROOT-0, Lagarde-2)
+nn(Lagarde-2, Christine-1)
+vmod(Lagarde-2, Managing-4)
+dobj(Managing-4, Director-5)
+nn(Fund-9, International-7)
+nn(Fund-9, Monetary-8)
+appos(Director-5, Fund-9)
+dep(Fund-9, 7-10)
+
+Sentence #21 (8 tokens):
+Dilma Rousseff, President of Brazil
+8.
+[Text=Dilma CharacterOffsetBegin=2000 CharacterOffsetEnd=2005 PartOfSpeech=NNP Lemma=Dilma NamedEntityTag=PERSON] [Text=Rousseff CharacterOffsetBegin=2006 CharacterOffsetEnd=2014 PartOfSpeech=NNP Lemma=Rousseff NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2014 CharacterOffsetEnd=2015 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=President CharacterOffsetBegin=2016 CharacterOffsetEnd=2025 PartOfSpeech=NNP Lemma=President NamedEntityTag=O] [Text=of CharacterOffsetBegin=2026 CharacterOffsetEnd=2028 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Brazil CharacterOffsetBegin=2029 CharacterOffsetEnd=2035 PartOfSpeech=NNP Lemma=Brazil NamedEntityTag=LOCATION] [Text=8 CharacterOffsetBegin=2036 CharacterOffsetEnd=2037 PartOfSpeech=CD Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0] [Text=. CharacterOffsetBegin=2037 CharacterOffsetEnd=2038 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Dilma) (NNP Rousseff))
+    (, ,)
+    (NP
+      (NP (NNP President))
+      (PP (IN of)
+        (NP (NNP Brazil) (CD 8))))
+    (. .)))
+
+root(ROOT-0, Rousseff-2)
+nn(Rousseff-2, Dilma-1)
+appos(Rousseff-2, President-4)
+prep_of(President-4, Brazil-6)
+num(Brazil-6, 8-7)
+
+Sentence #22 (8 tokens):
+Sheryl Sandberg, CEO of Facebook
+9.
+[Text=Sheryl CharacterOffsetBegin=2039 CharacterOffsetEnd=2045 PartOfSpeech=NNP Lemma=Sheryl NamedEntityTag=PERSON] [Text=Sandberg CharacterOffsetBegin=2046 CharacterOffsetEnd=2054 PartOfSpeech=NNP Lemma=Sandberg NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2054 CharacterOffsetEnd=2055 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CEO CharacterOffsetBegin=2056 CharacterOffsetEnd=2059 PartOfSpeech=NNP Lemma=CEO NamedEntityTag=O] [Text=of CharacterOffsetBegin=2060 CharacterOffsetEnd=2062 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Facebook CharacterOffsetBegin=2063 CharacterOffsetEnd=2071 PartOfSpeech=NNP Lemma=Facebook NamedEntityTag=ORGANIZATION] [Text=9 CharacterOffsetBegin=2072 CharacterOffsetEnd=2073 PartOfSpeech=CD Lemma=9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0] [Text=. CharacterOffsetBegin=2073 CharacterOffsetEnd=2074 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Sheryl) (NNP Sandberg))
+    (, ,)
+    (NP
+      (NP (NNP CEO))
+      (PP (IN of)
+        (NP (NNP Facebook) (CD 9))))
+    (. .)))
+
+root(ROOT-0, Sandberg-2)
+nn(Sandberg-2, Sheryl-1)
+appos(Sandberg-2, CEO-4)
+prep_of(CEO-4, Facebook-6)
+num(Facebook-6, 9-7)
+
+Sentence #23 (8 tokens):
+Susan Wojcicki, CEO of Youtube
+10.
+[Text=Susan CharacterOffsetBegin=2075 CharacterOffsetEnd=2080 PartOfSpeech=NNP Lemma=Susan NamedEntityTag=PERSON] [Text=Wojcicki CharacterOffsetBegin=2081 CharacterOffsetEnd=2089 PartOfSpeech=NNP Lemma=Wojcicki NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2089 CharacterOffsetEnd=2090 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=CEO CharacterOffsetBegin=2091 CharacterOffsetEnd=2094 PartOfSpeech=NNP Lemma=CEO NamedEntityTag=O] [Text=of CharacterOffsetBegin=2095 CharacterOffsetEnd=2097 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Youtube CharacterOffsetBegin=2098 CharacterOffsetEnd=2105 PartOfSpeech=NNP Lemma=Youtube NamedEntityTag=ORGANIZATION] [Text=10 CharacterOffsetBegin=2106 CharacterOffsetEnd=2108 PartOfSpeech=CD Lemma=10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=10.0] [Text=. CharacterOffsetBegin=2108 CharacterOffsetEnd=2109 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP Susan) (NNP Wojcicki))
+    (, ,)
+    (NP
+      (NP (NNP CEO))
+      (PP (IN of)
+        (NP (NNP Youtube) (CD 10))))
+    (. .)))
+
+root(ROOT-0, Wojcicki-2)
+nn(Wojcicki-2, Susan-1)
+appos(Wojcicki-2, CEO-4)
+prep_of(CEO-4, Youtube-6)
+num(Youtube-6, 10-7)
+
+Sentence #24 (28 tokens):
+Michelle Obama, US First Lady
+Photo Galleries
+Receive the latest breaking news across sport, money, life and entertainment, delivered every weekday and Saturday.
+[Text=Michelle CharacterOffsetBegin=2110 CharacterOffsetEnd=2118 PartOfSpeech=NNP Lemma=Michelle NamedEntityTag=PERSON] [Text=Obama CharacterOffsetBegin=2119 CharacterOffsetEnd=2124 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2124 CharacterOffsetEnd=2125 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=US CharacterOffsetBegin=2126 CharacterOffsetEnd=2128 PartOfSpeech=NNP Lemma=US NamedEntityTag=LOCATION] [Text=First CharacterOffsetBegin=2129 CharacterOffsetEnd=2134 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=Lady CharacterOffsetBegin=2135 CharacterOffsetEnd=2139 PartOfSpeech=NNP Lemma=Lady NamedEntityTag=O] [Text=Photo CharacterOffsetBegin=2140 CharacterOffsetEnd=2145 PartOfSpeech=NNP Lemma=Photo NamedEntityTag=O] [Text=Galleries CharacterOffsetBegin=2146 CharacterOffsetEnd=2155 PartOfSpeech=NNPS Lemma=Galleries NamedEntityTag=O] [Text=Receive CharacterOffsetBegin=2156 CharacterOffsetEnd=2163 PartOfSpeech=VB Lemma=receive NamedEntityTag=O] [Text=the CharacterOffsetBegin=2164 CharacterOffsetEnd=2167 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=latest CharacterOffsetBegin=2168 CharacterOffsetEnd=2174 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O] [Text=breaking CharacterOffsetBegin=2175 CharacterOffsetEnd=2183 PartOfSpeech=NN Lemma=breaking NamedEntityTag=O] [Text=news CharacterOffsetBegin=2184 CharacterOffsetEnd=2188 PartOfSpeech=NN Lemma=news NamedEntityTag=O] [Text=across CharacterOffsetBegin=2189 CharacterOffsetEnd=2195 PartOfSpeech=IN Lemma=across NamedEntityTag=O] [Text=sport CharacterOffsetBegin=2196 CharacterOffsetEnd=2201 PartOfSpeech=NN Lemma=sport NamedEntityTag=O] [Text=, CharacterOffsetBegin=2201 CharacterOffsetEnd=2202 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=money CharacterOffsetBegin=2203 CharacterOffsetEnd=2208 PartOfSpeech=NN Lemma=money NamedEntityTag=O] [Text=, CharacterOffsetBegin=2208 CharacterOffsetEnd=2209 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=life CharacterOffsetBegin=2210 CharacterOffsetEnd=2214 PartOfSpeech=NN Lemma=life NamedEntityTag=O] [Text=and CharacterOffsetBegin=2215 CharacterOffsetEnd=2218 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=entertainment CharacterOffsetBegin=2219 CharacterOffsetEnd=2232 PartOfSpeech=NN Lemma=entertainment NamedEntityTag=O] [Text=, CharacterOffsetBegin=2232 CharacterOffsetEnd=2233 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=delivered CharacterOffsetBegin=2234 CharacterOffsetEnd=2243 PartOfSpeech=VBN Lemma=deliver NamedEntityTag=O] [Text=every CharacterOffsetBegin=2244 CharacterOffsetEnd=2249 PartOfSpeech=DT Lemma=every NamedEntityTag=O] [Text=weekday CharacterOffsetBegin=2250 CharacterOffsetEnd=2257 PartOfSpeech=NN Lemma=weekday NamedEntityTag=O] [Text=and CharacterOffsetBegin=2258 CharacterOffsetEnd=2261 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=Saturday CharacterOffsetBegin=2262 CharacterOffsetEnd=2270 PartOfSpeech=NNP Lemma=Saturday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-6 Timex=<TIMEX3 tid="t7" type="DATE" value="XXXX-WXX-6">Saturday<_TIMEX3>] [Text=. CharacterOffsetBegin=2270 CharacterOffsetEnd=2271 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Michelle) (NNP Obama))
+      (, ,)
+      (NP
+        (NP (NNP US) (NNP First) (NNP Lady))
+        (SBAR
+          (S
+            (NP (NNP Photo) (NNPS Galleries))
+            (VP (VB Receive)
+              (NP
+                (NP (DT the) (JJS latest) (NN breaking) (NN news))
+                (PP (IN across)
+                  (NP (NN sport) (, ,) (NN money) (, ,) (NN life)
+                    (CC and)
+                    (NN entertainment))))))))
+      (, ,))
+    (VP (VBN delivered)
+      (NP
+        (NP (DT every) (NN weekday))
+        (CC and)
+        (NP (NNP Saturday))))
+    (. .)))
+
+root(ROOT-0, delivered-23)
+nn(Obama-2, Michelle-1)
+nsubj(delivered-23, Obama-2)
+nn(Lady-6, US-4)
+nn(Lady-6, First-5)
+appos(Obama-2, Lady-6)
+nn(Galleries-8, Photo-7)
+nsubj(Receive-9, Galleries-8)
+rcmod(Lady-6, Receive-9)
+det(news-13, the-10)
+amod(news-13, latest-11)
+nn(news-13, breaking-12)
+dobj(Receive-9, news-13)
+prep_across(news-13, sport-15)
+conj_and(sport-15, money-17)
+conj_and(sport-15, life-19)
+conj_and(sport-15, entertainment-21)
+det(weekday-25, every-24)
+dobj(delivered-23, weekday-25)
+conj_and(weekday-25, Saturday-27)
+
+Sentence #25 (9 tokens):
+I have read and accept the terms & conditions
+[Text=I CharacterOffsetBegin=2272 CharacterOffsetEnd=2273 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=have CharacterOffsetBegin=2274 CharacterOffsetEnd=2278 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=read CharacterOffsetBegin=2279 CharacterOffsetEnd=2283 PartOfSpeech=VBN Lemma=read NamedEntityTag=O] [Text=and CharacterOffsetBegin=2284 CharacterOffsetEnd=2287 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=accept CharacterOffsetBegin=2288 CharacterOffsetEnd=2294 PartOfSpeech=VB Lemma=accept NamedEntityTag=O] [Text=the CharacterOffsetBegin=2295 CharacterOffsetEnd=2298 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=terms CharacterOffsetBegin=2299 CharacterOffsetEnd=2304 PartOfSpeech=NNS Lemma=term NamedEntityTag=O] [Text=& CharacterOffsetBegin=2305 CharacterOffsetEnd=2306 PartOfSpeech=CC Lemma=& NamedEntityTag=O] [Text=conditions CharacterOffsetBegin=2307 CharacterOffsetEnd=2317 PartOfSpeech=NNS Lemma=condition NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP
+        (VP (VBN read))
+        (CC and)
+        (VP (VB accept)
+          (NP
+            (NP (DT the) (NNS terms))
+            (CC &)
+            (NP (NNS conditions))))))))
+
+root(ROOT-0, read-3)
+nsubj(read-3, I-1)
+aux(read-3, have-2)
+conj_and(read-3, accept-5)
+det(terms-7, the-6)
+dobj(accept-5, terms-7)
+conj_and(terms-7, conditions-9)
+
+Coreference set:
+ (1,1,[1,2]) -> (3,4,[1,5]), that is: "Merkel" -> "German chancellor Angela Merkel"
+ (15,2,[1,3]) -> (3,4,[1,5]), that is: "Angela Merkel" -> "German chancellor Angela Merkel"
+Coreference set:
+ (5,1,[1,2]) -> (1,9,[9,10]), that is: "Forbes" -> "Forbes"
+ (9,26,[26,27]) -> (1,9,[9,10]), that is: "Forbes" -> "Forbes"
+Coreference set:
+ (5,17,[17,18]) -> (1,15,[15,16]), that is: "100" -> "100"
+Coreference set:
+ (2,5,[5,8]) -> (1,3,[3,6]), that is: "celebrities and billionaires" -> "celebrities and billionaires"
+Coreference set:
+ (2,10,[9,11]) -> (1,10,[7,19]), that is: "the list" -> "the annual Forbes list of the World _s 100 Most Powerful Women"
+ (8,14,[13,15]) -> (1,10,[7,19]), that is: "the list" -> "the annual Forbes list of the World _s 100 Most Powerful Women"
+Coreference set:
+ (3,13,[12,14]) -> (1,13,[12,15]), that is: "the world" -> "the World _s"
+Coreference set:
+ (9,1,[1,3]) -> (3,6,[6,14]), that is: "Forbes _" -> "Forbes _ most powerful woman in the world"
+ (12,3,[3,5]) -> (3,6,[6,14]), that is: "Forbes _" -> "Forbes _ most powerful woman in the world"
+Coreference set:
+ (3,28,[27,29]) -> (7,11,[10,13]), that is: "this year" -> "this year _s"
+ (9,7,[6,8]) -> (7,11,[10,13]), that is: "this year" -> "this year _s"
+ (11,21,[20,22]) -> (7,11,[10,13]), that is: "this year" -> "this year _s"
+Coreference set:
+ (4,2,[1,3]) -> (16,2,[1,9]), that is: "Hillary Clinton" -> "Hillary Clinton , US Presidential candidate 3 ."
+ (4,15,[15,16]) -> (16,2,[1,9]), that is: "her" -> "Hillary Clinton , US Presidential candidate 3 ."
+ (16,2,[1,3]) -> (16,2,[1,9]), that is: "Hillary Clinton" -> "Hillary Clinton , US Presidential candidate 3 ."
+Coreference set:
+ (5,22,[22,23]) -> (4,5,[5,12]), that is: "second" -> "second on the magazine _s annual list"
+Coreference set:
+ (6,21,[18,49]) -> (6,16,[15,17]), that is: "the first African-American woman to be US attorney general , Janet Yellen , the first female chair of the Federal Reserve , and Folorunsho Alakija , the first self-made African billionaire" -> "Loretta Lynch"
+Coreference set:
+ (6,32,[32,33]) -> (6,19,[19,20]), that is: "first" -> "first"
+ (6,45,[45,46]) -> (6,19,[19,20]), that is: "first" -> "first"
+ (24,5,[5,6]) -> (6,19,[19,20]), that is: "First" -> "first"
+Coreference set:
+ (16,4,[4,5]) -> (6,24,[24,25]), that is: "US" -> "US"
+ (18,6,[6,7]) -> (6,24,[24,25]), that is: "US" -> "US"
+ (24,4,[4,5]) -> (6,24,[24,25]), that is: "US" -> "US"
+ (25,1,[1,2]) -> (6,24,[24,25]), that is: "I" -> "US"
+Coreference set:
+ (18,2,[1,3]) -> (6,29,[28,30]), that is: "Janet Yellen" -> "Janet Yellen"
+Coreference set:
+ (10,16,[14,22]) -> (10,3,[1,4]), that is: "the top woman in finance at number 18" -> "Ana Patricia Botin"
+Coreference set:
+ (10,30,[27,31]) -> (20,5,[5,6]), that is: "Conde Nast artistic director" -> "Director"

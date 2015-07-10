@@ -31,7 +31,7 @@ public class TopicModel {
 		Reader fileReader = new InputStreamReader(new FileInputStream(new File(connecter_stan.EntityTreeCsvFolder+file)), "UTF-8");
 		instances.addThruPipe(new CsvIterator (fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
 				3, 2, 1)); // data, label, name fields
-		System.out.println("inst::"+instances);
+		//System.out.println("inst::"+instances);
 		// Create a model with 100 topics, alpha_t = 0.01, beta_w = 0.01
 		//  Note that the first parameter is passed as the sum over topics, while
 		//  the second is the parameter for a single dimension of the Dirichlet prior.
@@ -78,13 +78,13 @@ public class TopicModel {
 					out.format("%s ", dataAlphabet.lookupObject(tokens.getIndexAtPosition(position)), topics.getIndexAtPosition(position));
 
 				}
-				System.out.println(out);
+				//System.out.println(out);
 
 
 				// Estimate the topic distribution of the first instance, 
 				//  given the current Gibbs state.
 				double[] topicDistribution = model.getTopicProbabilities(i);
-				System.out.println(topicDistribution.length);
+				//System.out.println(topicDistribution.length);
 
 
 				//�I�����b�Z�[�W����ʂɏo�͂���
@@ -121,7 +121,7 @@ public class TopicModel {
 						topic_pw.println();
 					}
 
-					System.out.println(out);
+					//System.out.println(out);
 					// �e�g�s�b�N�ԍ���topic�P����i�[
 
 				}

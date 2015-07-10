@@ -190,7 +190,7 @@ public class calculate_rel_div {
 
 		}
 
-		import_newsDB.entry_measure(rel_scores,"eventRelevance");
+		import_newsDB.entry_rel(rel_scores);
 		System.out.println("出力完了");
 		return rel_scores;
 

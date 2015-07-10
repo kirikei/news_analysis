@@ -1,0 +1,1795 @@
+Sentence #1 (5 tokens):
+Thanks for contacting us.
+[Text=Thanks CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNS Lemma=thanks NamedEntityTag=O] [Text=for CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=contacting CharacterOffsetBegin=11 CharacterOffsetEnd=21 PartOfSpeech=VBG Lemma=contact NamedEntityTag=O] [Text=us CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (IN for)
+      (S
+        (VP (VBG contacting)
+          (NP (PRP us)))))
+    (. .)))
+
+root(ROOT-0, Thanks-1)
+prepc_for(Thanks-1, contacting-3)
+dobj(contacting-3, us-4)
+
+Sentence #2 (6 tokens):
+We_ve received your submission.
+[Text=We CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=received CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=VBN Lemma=receive NamedEntityTag=O] [Text=your CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=submission CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=submission NamedEntityTag=O] [Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP _ve)
+      (VP (VBN received)
+        (NP (PRP$ your) (NN submission))))
+    (. .)))
+
+root(ROOT-0, received-3)
+nsubj(received-3, We-1)
+aux(received-3, _ve-2)
+poss(submission-5, your-4)
+dobj(received-3, submission-5)
+
+Sentence #3 (23 tokens):
+BEREA, Ohio — Except for sporting a tighter haircut under his orange helmet, Johnny Manziel looked pretty much the same.
+[Text=BEREA CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NNP Lemma=BEREA NamedEntityTag=LOCATION] [Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Ohio CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=NNP Lemma=Ohio NamedEntityTag=LOCATION] [Text=-- CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=Except CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=IN Lemma=except NamedEntityTag=O] [Text=for CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=sporting CharacterOffsetBegin=83 CharacterOffsetEnd=91 PartOfSpeech=VBG Lemma=sport NamedEntityTag=O] [Text=a CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=tighter CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=JJR Lemma=tighter NamedEntityTag=O] [Text=haircut CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=NN Lemma=haircut NamedEntityTag=O] [Text=under CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=under NamedEntityTag=O] [Text=his CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=orange CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=JJ Lemma=orange NamedEntityTag=O] [Text=helmet CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NN Lemma=helmet NamedEntityTag=O] [Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Johnny CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Johnny NamedEntityTag=PERSON] [Text=Manziel CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=looked CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=VBD Lemma=look NamedEntityTag=O] [Text=pretty CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O] [Text=much CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=RB Lemma=much NamedEntityTag=O] [Text=the CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=same CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=JJ Lemma=same NamedEntityTag=O] [Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP (NNP BEREA) (, ,) (NNP Ohio))
+    (: --)
+    (S
+      (PP (IN Except)
+        (PP (IN for)
+          (S
+            (VP (VBG sporting)
+              (NP (DT a) (JJR tighter) (NN haircut))
+              (PP (IN under)
+                (NP (PRP$ his) (JJ orange) (NN helmet)))))))
+      (, ,)
+      (NP (NNP Johnny) (NNP Manziel))
+      (VP (VBD looked)
+        (ADVP
+          (ADVP (RB pretty) (RB much))
+          (NP (DT the) (JJ same)))))
+    (. .)))
+
+root(ROOT-0, Ohio-3)
+nn(Ohio-3, BEREA-1)
+prepc_except_for(looked-18, for-6)
+pcomp(looked-18, sporting-7)
+det(haircut-10, a-8)
+amod(haircut-10, tighter-9)
+dobj(sporting-7, haircut-10)
+poss(helmet-14, his-12)
+amod(helmet-14, orange-13)
+prep_under(sporting-7, helmet-14)
+nn(Manziel-17, Johnny-16)
+nsubj(looked-18, Manziel-17)
+dep(Ohio-3, looked-18)
+advmod(much-20, pretty-19)
+advmod(looked-18, much-20)
+det(same-22, the-21)
+dep(much-20, same-22)
+
+Sentence #4 (8 tokens):
+He scrambled from defenders and zipped passes.
+[Text=He CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=scrambled CharacterOffsetBegin=182 CharacterOffsetEnd=191 PartOfSpeech=VBD Lemma=scramble NamedEntityTag=O] [Text=from CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=defenders CharacterOffsetBegin=197 CharacterOffsetEnd=206 PartOfSpeech=NNS Lemma=defender NamedEntityTag=O] [Text=and CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=zipped CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=VBD Lemma=zip NamedEntityTag=O] [Text=passes CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NNS Lemma=pass NamedEntityTag=O] [Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD scrambled)
+        (PP (IN from)
+          (NP (NNS defenders))))
+      (CC and)
+      (VP (VBD zipped)
+        (NP (NNS passes))))
+    (. .)))
+
+root(ROOT-0, scrambled-2)
+nsubj(scrambled-2, He-1)
+prep_from(scrambled-2, defenders-4)
+conj_and(scrambled-2, zipped-6)
+dobj(zipped-6, passes-7)
+
+Sentence #5 (18 tokens):
+He talked to his coaches after plays, and joked around with Browns teammates during water breaks.
+[Text=He CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=talked CharacterOffsetBegin=229 CharacterOffsetEnd=235 PartOfSpeech=VBD Lemma=talk NamedEntityTag=O] [Text=to CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=his CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=coaches CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=NNS Lemma=coach NamedEntityTag=O] [Text=after CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=IN Lemma=after NamedEntityTag=O] [Text=plays CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=NNS Lemma=play NamedEntityTag=O] [Text=, CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=joked CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=VBD Lemma=joke NamedEntityTag=O] [Text=around CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=RP Lemma=around NamedEntityTag=O] [Text=with CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Browns CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=NNS Lemma=brown NamedEntityTag=ORGANIZATION] [Text=teammates CharacterOffsetBegin=293 CharacterOffsetEnd=302 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=during CharacterOffsetBegin=303 CharacterOffsetEnd=309 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=water CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=water NamedEntityTag=O] [Text=breaks CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=NNS Lemma=break NamedEntityTag=O] [Text=. CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD talked)
+        (PP (TO to)
+          (NP (PRP$ his) (NNS coaches)))
+        (PP (IN after)
+          (NP (NNS plays))))
+      (, ,)
+      (CC and)
+      (VP (VBD joked)
+        (PRT (RP around))
+        (PP (IN with)
+          (NP (NNS Browns) (NNS teammates)))
+        (PP (IN during)
+          (NP (NN water) (NNS breaks)))))
+    (. .)))
+
+root(ROOT-0, talked-2)
+nsubj(talked-2, He-1)
+poss(coaches-5, his-4)
+prep_to(talked-2, coaches-5)
+prep_after(talked-2, plays-7)
+conj_and(talked-2, joked-10)
+prt(joked-10, around-11)
+nn(teammates-14, Browns-13)
+prep_with(joked-10, teammates-14)
+nn(breaks-17, water-16)
+prep_during(joked-10, breaks-17)
+
+Sentence #6 (24 tokens):
+Manziel is back on the football field, where he built his Johnny Football reputation and where he must now prove he belongs.
+[Text=Manziel CharacterOffsetBegin=324 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=O] [Text=is CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=back CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=on CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=football CharacterOffsetBegin=347 CharacterOffsetEnd=355 PartOfSpeech=NN Lemma=football NamedEntityTag=O] [Text=field CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN Lemma=field NamedEntityTag=O] [Text=, CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=where CharacterOffsetBegin=363 CharacterOffsetEnd=368 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=he CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=built CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=VBD Lemma=build NamedEntityTag=O] [Text=his CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=Johnny CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=NNP Lemma=Johnny NamedEntityTag=PERSON] [Text=Football CharacterOffsetBegin=389 CharacterOffsetEnd=397 PartOfSpeech=NNP Lemma=Football NamedEntityTag=PERSON] [Text=reputation CharacterOffsetBegin=398 CharacterOffsetEnd=408 PartOfSpeech=NN Lemma=reputation NamedEntityTag=O] [Text=and CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=where CharacterOffsetBegin=413 CharacterOffsetEnd=418 PartOfSpeech=WRB Lemma=where NamedEntityTag=O] [Text=he CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=must CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=MD Lemma=must NamedEntityTag=O] [Text=now CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=prove CharacterOffsetBegin=431 CharacterOffsetEnd=436 PartOfSpeech=VB Lemma=prove NamedEntityTag=O] [Text=he CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=belongs CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=VBZ Lemma=belong NamedEntityTag=O] [Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Manziel))
+    (VP (VBZ is)
+      (ADVP (RB back))
+      (PP (IN on)
+        (NP (DT the) (NN football) (NN field)))
+      (, ,)
+      (SBAR
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP he))
+            (VP (VBD built)
+              (NP (PRP$ his) (NNP Johnny) (NNP Football) (NN reputation)))))
+        (CC and)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP he))
+            (VP (MD must)
+              (ADVP (RB now))
+              (VP (VB prove)
+                (SBAR
+                  (S
+                    (NP (PRP he))
+                    (VP (VBZ belongs))))))))))
+    (. .)))
+
+root(ROOT-0, is-2)
+nsubj(is-2, Manziel-1)
+advmod(is-2, back-3)
+det(field-7, the-5)
+nn(field-7, football-6)
+prep_on(is-2, field-7)
+advmod(built-11, where-9)
+nsubj(built-11, he-10)
+advcl(is-2, built-11)
+poss(reputation-15, his-12)
+nn(reputation-15, Johnny-13)
+nn(reputation-15, Football-14)
+dobj(built-11, reputation-15)
+advmod(prove-21, where-17)
+nsubj(prove-21, he-18)
+aux(prove-21, must-19)
+advmod(prove-21, now-20)
+conj_and(built-11, prove-21)
+nsubj(belongs-23, he-22)
+ccomp(prove-21, belongs-23)
+
+Sentence #7 (8 tokens):
+His comeback — day-to-day — is ongoing.
+[Text=His CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=comeback CharacterOffsetBegin=453 CharacterOffsetEnd=461 PartOfSpeech=NN Lemma=comeback NamedEntityTag=O] [Text=-- CharacterOffsetBegin=462 CharacterOffsetEnd=463 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=day-to-day CharacterOffsetBegin=464 CharacterOffsetEnd=474 PartOfSpeech=JJ Lemma=day-to-day NamedEntityTag=O] [Text=-- CharacterOffsetBegin=475 CharacterOffsetEnd=476 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=is CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=ongoing CharacterOffsetBegin=480 CharacterOffsetEnd=487 PartOfSpeech=JJ Lemma=ongoing NamedEntityTag=O] [Text=. CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN comeback))
+      (PRN (: --)
+        (ADVP (JJ day-to-day))
+        (: --)))
+    (VP (VBZ is)
+      (NP (JJ ongoing)))
+    (. .)))
+
+root(ROOT-0, ongoing-7)
+poss(comeback-2, His-1)
+nsubj(ongoing-7, comeback-2)
+dep(comeback-2, day-to-day-4)
+cop(ongoing-7, is-6)
+
+Sentence #8 (41 tokens):
+For the first time since a highly publicized, 10-week stay at a rehab facility in Pennsylvania this winter, Manziel practiced in front of journalists on Tuesday as the Browns moved into the next phase of their offseason program.
+[Text=For CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=the CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=first CharacterOffsetBegin=497 CharacterOffsetEnd=502 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=time CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=since CharacterOffsetBegin=508 CharacterOffsetEnd=513 PartOfSpeech=IN Lemma=since NamedEntityTag=O] [Text=a CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=highly CharacterOffsetBegin=516 CharacterOffsetEnd=522 PartOfSpeech=RB Lemma=highly NamedEntityTag=O] [Text=publicized CharacterOffsetBegin=523 CharacterOffsetEnd=533 PartOfSpeech=VBN Lemma=publicize NamedEntityTag=O] [Text=, CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=10-week CharacterOffsetBegin=535 CharacterOffsetEnd=542 PartOfSpeech=JJ Lemma=10-week NamedEntityTag=DURATION NormalizedNamedEntityTag=P10W Timex=<TIMEX3 tid="t2" type="DURATION" value="P10W">10-week<_TIMEX3>] [Text=stay CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NN Lemma=stay NamedEntityTag=O] [Text=at CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=a CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=rehab CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=NN Lemma=rehab NamedEntityTag=O] [Text=facility CharacterOffsetBegin=559 CharacterOffsetEnd=567 PartOfSpeech=NN Lemma=facility NamedEntityTag=O] [Text=in CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Pennsylvania CharacterOffsetBegin=571 CharacterOffsetEnd=583 PartOfSpeech=NNP Lemma=Pennsylvania NamedEntityTag=LOCATION] [Text=this CharacterOffsetBegin=584 CharacterOffsetEnd=588 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS WI Timex=<TIMEX3 alt_value="THIS WI" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this winter<_TIMEX3>] [Text=winter CharacterOffsetBegin=589 CharacterOffsetEnd=595 PartOfSpeech=NN Lemma=winter NamedEntityTag=DATE NormalizedNamedEntityTag=THIS WI Timex=<TIMEX3 alt_value="THIS WI" anchorTimeID="t0" temporalFunction="true" tid="t3" type="DATE" valueFromFunction="tf0">this winter<_TIMEX3>] [Text=, CharacterOffsetBegin=595 CharacterOffsetEnd=596 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=597 CharacterOffsetEnd=604 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=practiced CharacterOffsetBegin=605 CharacterOffsetEnd=614 PartOfSpeech=VBD Lemma=practice NamedEntityTag=O] [Text=in CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=front CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=NN Lemma=front NamedEntityTag=O] [Text=of CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=journalists CharacterOffsetBegin=627 CharacterOffsetEnd=638 PartOfSpeech=NNS Lemma=journalist NamedEntityTag=O] [Text=on CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Tuesday CharacterOffsetBegin=642 CharacterOffsetEnd=649 PartOfSpeech=NNP Lemma=Tuesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-2 Timex=<TIMEX3 tid="t4" type="DATE" value="XXXX-WXX-2">Tuesday<_TIMEX3>] [Text=as CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=the CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Browns CharacterOffsetBegin=657 CharacterOffsetEnd=663 PartOfSpeech=NNPS Lemma=Browns NamedEntityTag=ORGANIZATION] [Text=moved CharacterOffsetBegin=664 CharacterOffsetEnd=669 PartOfSpeech=VBD Lemma=move NamedEntityTag=O] [Text=into CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=the CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=next CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=JJ Lemma=next NamedEntityTag=O] [Text=phase CharacterOffsetBegin=684 CharacterOffsetEnd=689 PartOfSpeech=NN Lemma=phase NamedEntityTag=O] [Text=of CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=their CharacterOffsetBegin=693 CharacterOffsetEnd=698 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O] [Text=offseason CharacterOffsetBegin=699 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=offseason NamedEntityTag=O] [Text=program CharacterOffsetBegin=709 CharacterOffsetEnd=716 PartOfSpeech=NN Lemma=program NamedEntityTag=O] [Text=. CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (DT the) (JJ first) (NN time))
+        (PP (IN since)
+          (NP (DT a)
+            (ADJP (RB highly) (VBN publicized))
+            (, ,) (JJ 10-week) (NN stay)))
+        (PP (IN at)
+          (NP
+            (NP (DT a) (NN rehab) (NN facility))
+            (PP (IN in)
+              (NP (NNP Pennsylvania)))
+            (NP-TMP (DT this) (NN winter))))))
+    (, ,)
+    (NP (NNP Manziel))
+    (VP (VBD practiced)
+      (PP (IN in)
+        (NP
+          (NP (NN front))
+          (PP (IN of)
+            (NP
+              (NP (NNS journalists))
+              (PP (IN on)
+                (NP (NNP Tuesday)))))))
+      (SBAR (IN as)
+        (S
+          (NP (DT the) (NNPS Browns))
+          (VP (VBD moved)
+            (PP (IN into)
+              (NP
+                (NP (DT the) (JJ next) (NN phase))
+                (PP (IN of)
+                  (NP (PRP$ their) (NN offseason) (NN program)))))))))
+    (. .)))
+
+root(ROOT-0, practiced-22)
+det(time-4, the-2)
+amod(time-4, first-3)
+prep_for(practiced-22, time-4)
+det(stay-11, a-6)
+advmod(publicized-8, highly-7)
+amod(stay-11, publicized-8)
+amod(stay-11, 10-week-10)
+prep_since(time-4, stay-11)
+det(facility-15, a-13)
+nn(facility-15, rehab-14)
+prep_at(time-4, facility-15)
+prep_in(facility-15, Pennsylvania-17)
+det(winter-19, this-18)
+tmod(facility-15, winter-19)
+nsubj(practiced-22, Manziel-21)
+prep_in_front_of(practiced-22, journalists-26)
+prep_on(journalists-26, Tuesday-28)
+mark(moved-32, as-29)
+det(Browns-31, the-30)
+nsubj(moved-32, Browns-31)
+advcl(practiced-22, moved-32)
+det(phase-36, the-34)
+amod(phase-36, next-35)
+prep_into(moved-32, phase-36)
+poss(program-40, their-38)
+nn(program-40, offseason-39)
+prep_of(phase-36, program-40)
+
+Sentence #9 (27 tokens):
+The 22-year-old, who played poorly in two starts last season and then sought treatment for an unspecified issue, did not speak with reporters afterward.
+[Text=The CharacterOffsetBegin=718 CharacterOffsetEnd=721 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=22-year-old CharacterOffsetBegin=722 CharacterOffsetEnd=733 PartOfSpeech=JJ Lemma=22-year-old NamedEntityTag=DURATION NormalizedNamedEntityTag=P22Y Timex=<TIMEX3 tid="t5" type="DURATION" value="P22Y">22-year-old<_TIMEX3>] [Text=, CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=735 CharacterOffsetEnd=738 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=played CharacterOffsetBegin=739 CharacterOffsetEnd=745 PartOfSpeech=VBD Lemma=play NamedEntityTag=O] [Text=poorly CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=RB Lemma=poorly NamedEntityTag=O] [Text=in CharacterOffsetBegin=753 CharacterOffsetEnd=755 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=two CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0] [Text=starts CharacterOffsetBegin=760 CharacterOffsetEnd=766 PartOfSpeech=NNS Lemma=start NamedEntityTag=O] [Text=last CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=JJ Lemma=last NamedEntityTag=O] [Text=season CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=NN Lemma=season NamedEntityTag=O] [Text=and CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=then CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=RB Lemma=then NamedEntityTag=O] [Text=sought CharacterOffsetBegin=788 CharacterOffsetEnd=794 PartOfSpeech=VBD Lemma=seek NamedEntityTag=O] [Text=treatment CharacterOffsetBegin=795 CharacterOffsetEnd=804 PartOfSpeech=NN Lemma=treatment NamedEntityTag=O] [Text=for CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=an CharacterOffsetBegin=809 CharacterOffsetEnd=811 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=unspecified CharacterOffsetBegin=812 CharacterOffsetEnd=823 PartOfSpeech=JJ Lemma=unspecified NamedEntityTag=O] [Text=issue CharacterOffsetBegin=824 CharacterOffsetEnd=829 PartOfSpeech=NN Lemma=issue NamedEntityTag=O] [Text=, CharacterOffsetBegin=829 CharacterOffsetEnd=830 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=did CharacterOffsetBegin=831 CharacterOffsetEnd=834 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=speak CharacterOffsetBegin=839 CharacterOffsetEnd=844 PartOfSpeech=VB Lemma=speak NamedEntityTag=O] [Text=with CharacterOffsetBegin=845 CharacterOffsetEnd=849 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=reporters CharacterOffsetBegin=850 CharacterOffsetEnd=859 PartOfSpeech=NNS Lemma=reporter NamedEntityTag=O] [Text=afterward CharacterOffsetBegin=860 CharacterOffsetEnd=869 PartOfSpeech=RB Lemma=afterward NamedEntityTag=O] [Text=. CharacterOffsetBegin=869 CharacterOffsetEnd=870 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ 22-year-old))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP
+            (VP (VBD played)
+              (ADVP (RB poorly))
+              (PP (IN in)
+                (NP (CD two) (NNS starts)))
+              (NP-TMP (JJ last) (NN season)))
+            (CC and)
+            (VP
+              (ADVP (RB then))
+              (VBD sought)
+              (NP (NN treatment))
+              (PP (IN for)
+                (NP (DT an) (JJ unspecified) (NN issue)))))))
+      (, ,))
+    (VP (VBD did) (RB not)
+      (VP (VB speak)
+        (PP (IN with)
+          (NP (NNS reporters)))
+        (ADVP (RB afterward))))
+    (. .)))
+
+root(ROOT-0, speak-23)
+det(22-year-old-2, The-1)
+nsubj(speak-23, 22-year-old-2)
+nsubj(played-5, who-4)
+rcmod(22-year-old-2, played-5)
+advmod(played-5, poorly-6)
+num(starts-9, two-8)
+prep_in(played-5, starts-9)
+amod(season-11, last-10)
+tmod(played-5, season-11)
+advmod(sought-14, then-13)
+conj_and(played-5, sought-14)
+dobj(sought-14, treatment-15)
+det(issue-19, an-17)
+amod(issue-19, unspecified-18)
+prep_for(sought-14, issue-19)
+aux(speak-23, did-21)
+neg(speak-23, not-22)
+prep_with(speak-23, reporters-25)
+advmod(speak-23, afterward-26)
+
+Sentence #10 (12 tokens):
+However, several of his teammates gave glowing reports on Manziel.
+[Text=However CharacterOffsetBegin=871 CharacterOffsetEnd=878 PartOfSpeech=RB Lemma=however NamedEntityTag=O] [Text=, CharacterOffsetBegin=878 CharacterOffsetEnd=879 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=several CharacterOffsetBegin=880 CharacterOffsetEnd=887 PartOfSpeech=JJ Lemma=several NamedEntityTag=O] [Text=of CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=his CharacterOffsetBegin=891 CharacterOffsetEnd=894 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=895 CharacterOffsetEnd=904 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=gave CharacterOffsetBegin=905 CharacterOffsetEnd=909 PartOfSpeech=VBD Lemma=give NamedEntityTag=O] [Text=glowing CharacterOffsetBegin=910 CharacterOffsetEnd=917 PartOfSpeech=JJ Lemma=glowing NamedEntityTag=O] [Text=reports CharacterOffsetBegin=918 CharacterOffsetEnd=925 PartOfSpeech=NNS Lemma=report NamedEntityTag=O] [Text=on CharacterOffsetBegin=926 CharacterOffsetEnd=928 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=929 CharacterOffsetEnd=936 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=O] [Text=. CharacterOffsetBegin=936 CharacterOffsetEnd=937 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP (JJ several))
+      (PP (IN of)
+        (NP (PRP$ his) (NNS teammates))))
+    (VP (VBD gave)
+      (NP (JJ glowing) (NNS reports))
+      (PP (IN on)
+        (NP (NNP Manziel))))
+    (. .)))
+
+root(ROOT-0, gave-7)
+advmod(gave-7, However-1)
+nsubj(gave-7, several-3)
+poss(teammates-6, his-5)
+prep_of(several-3, teammates-6)
+amod(reports-9, glowing-8)
+dobj(gave-7, reports-9)
+prep_on(gave-7, Manziel-11)
+
+Sentence #11 (18 tokens):
+They’ve been impressed with his determination to change a party-boy image following a bad rookie year.
+[Text=They CharacterOffsetBegin=938 CharacterOffsetEnd=942 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=been CharacterOffsetBegin=946 CharacterOffsetEnd=950 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=impressed CharacterOffsetBegin=951 CharacterOffsetEnd=960 PartOfSpeech=VBN Lemma=impress NamedEntityTag=O] [Text=with CharacterOffsetBegin=961 CharacterOffsetEnd=965 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=his CharacterOffsetBegin=966 CharacterOffsetEnd=969 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=determination CharacterOffsetBegin=970 CharacterOffsetEnd=983 PartOfSpeech=NN Lemma=determination NamedEntityTag=O] [Text=to CharacterOffsetBegin=984 CharacterOffsetEnd=986 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=change CharacterOffsetBegin=987 CharacterOffsetEnd=993 PartOfSpeech=VB Lemma=change NamedEntityTag=O] [Text=a CharacterOffsetBegin=994 CharacterOffsetEnd=995 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=party-boy CharacterOffsetBegin=996 CharacterOffsetEnd=1005 PartOfSpeech=JJ Lemma=party-boy NamedEntityTag=O] [Text=image CharacterOffsetBegin=1006 CharacterOffsetEnd=1011 PartOfSpeech=NN Lemma=image NamedEntityTag=O] [Text=following CharacterOffsetBegin=1012 CharacterOffsetEnd=1021 PartOfSpeech=VBG Lemma=follow NamedEntityTag=O] [Text=a CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=bad CharacterOffsetBegin=1024 CharacterOffsetEnd=1027 PartOfSpeech=JJ Lemma=bad NamedEntityTag=O] [Text=rookie CharacterOffsetBegin=1028 CharacterOffsetEnd=1034 PartOfSpeech=NN Lemma=rookie NamedEntityTag=O] [Text=year CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P1Y Timex=<TIMEX3 tid="t6" type="DURATION" value="P1Y">year<_TIMEX3>] [Text=. CharacterOffsetBegin=1039 CharacterOffsetEnd=1040 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP _ve)
+      (VP (VBN been)
+        (VP (VBN impressed)
+          (PP (IN with)
+            (NP (PRP$ his) (NN determination)
+              (S
+                (VP (TO to)
+                  (VP (VB change)
+                    (NP
+                      (NP (DT a) (JJ party-boy) (NN image))
+                      (PP (VBG following)
+                        (NP (DT a) (JJ bad) (NN rookie) (NN year))))))))))))
+    (. .)))
+
+root(ROOT-0, impressed-4)
+nsubjpass(impressed-4, They-1)
+aux(impressed-4, _ve-2)
+auxpass(impressed-4, been-3)
+poss(determination-7, his-6)
+prep_with(impressed-4, determination-7)
+aux(change-9, to-8)
+vmod(determination-7, change-9)
+det(image-12, a-10)
+amod(image-12, party-boy-11)
+dobj(change-9, image-12)
+det(year-17, a-14)
+amod(year-17, bad-15)
+nn(year-17, rookie-16)
+prep_following(image-12, year-17)
+
+Sentence #12 (33 tokens):
+“He understands the mistakes that he’s made, so he’s taken the proper steps to try to keep himself out of trouble,” Browns safety Donte Whitner said.
+[Text=`` CharacterOffsetBegin=1041 CharacterOffsetEnd=1042 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=He CharacterOffsetBegin=1042 CharacterOffsetEnd=1044 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=understands CharacterOffsetBegin=1045 CharacterOffsetEnd=1056 PartOfSpeech=VBZ Lemma=understand NamedEntityTag=O] [Text=the CharacterOffsetBegin=1057 CharacterOffsetEnd=1060 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=mistakes CharacterOffsetBegin=1061 CharacterOffsetEnd=1069 PartOfSpeech=NNS Lemma=mistake NamedEntityTag=O] [Text=that CharacterOffsetBegin=1070 CharacterOffsetEnd=1074 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=1075 CharacterOffsetEnd=1077 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1077 CharacterOffsetEnd=1079 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=made CharacterOffsetBegin=1080 CharacterOffsetEnd=1084 PartOfSpeech=VBN Lemma=make NamedEntityTag=O] [Text=, CharacterOffsetBegin=1084 CharacterOffsetEnd=1085 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=so CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=IN Lemma=so NamedEntityTag=O] [Text=he CharacterOffsetBegin=1089 CharacterOffsetEnd=1091 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1091 CharacterOffsetEnd=1093 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=taken CharacterOffsetBegin=1094 CharacterOffsetEnd=1099 PartOfSpeech=VBN Lemma=take NamedEntityTag=O] [Text=the CharacterOffsetBegin=1100 CharacterOffsetEnd=1103 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=proper CharacterOffsetBegin=1104 CharacterOffsetEnd=1110 PartOfSpeech=JJ Lemma=proper NamedEntityTag=O] [Text=steps CharacterOffsetBegin=1111 CharacterOffsetEnd=1116 PartOfSpeech=NNS Lemma=step NamedEntityTag=O] [Text=to CharacterOffsetBegin=1117 CharacterOffsetEnd=1119 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=try CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=to CharacterOffsetBegin=1124 CharacterOffsetEnd=1126 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=keep CharacterOffsetBegin=1127 CharacterOffsetEnd=1131 PartOfSpeech=VB Lemma=keep NamedEntityTag=O] [Text=himself CharacterOffsetBegin=1132 CharacterOffsetEnd=1139 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O] [Text=out CharacterOffsetBegin=1140 CharacterOffsetEnd=1143 PartOfSpeech=IN Lemma=out NamedEntityTag=O] [Text=of CharacterOffsetBegin=1144 CharacterOffsetEnd=1146 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=trouble CharacterOffsetBegin=1147 CharacterOffsetEnd=1154 PartOfSpeech=NN Lemma=trouble NamedEntityTag=O] [Text=, CharacterOffsetBegin=1154 CharacterOffsetEnd=1155 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1155 CharacterOffsetEnd=1156 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Browns CharacterOffsetBegin=1157 CharacterOffsetEnd=1163 PartOfSpeech=NNPS Lemma=Browns NamedEntityTag=ORGANIZATION] [Text=safety CharacterOffsetBegin=1164 CharacterOffsetEnd=1170 PartOfSpeech=NN Lemma=safety NamedEntityTag=O] [Text=Donte CharacterOffsetBegin=1171 CharacterOffsetEnd=1176 PartOfSpeech=NNP Lemma=Donte NamedEntityTag=PERSON] [Text=Whitner CharacterOffsetBegin=1177 CharacterOffsetEnd=1184 PartOfSpeech=NNP Lemma=Whitner NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1185 CharacterOffsetEnd=1189 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1189 CharacterOffsetEnd=1190 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP (PRP He))
+        (VP (VBZ understands)
+          (NP (DT the) (NNS mistakes))
+          (SBAR (IN that)
+            (S
+              (NP (PRP he))
+              (VP (VBZ _s)
+                (VP (VBN made)))))))
+      (, ,) (IN so)
+      (S
+        (NP (PRP he))
+        (VP (VBZ _s)
+          (VP (VBN taken)
+            (NP (DT the) (JJ proper) (NNS steps))
+            (S
+              (VP (TO to)
+                (VP (VB try)
+                  (S
+                    (VP (TO to)
+                      (VP (VB keep)
+                        (NP (PRP himself))
+                        (ADVP (IN out)
+                          (PP (IN of)
+                            (NP (NN trouble))))))))))))))
+    (, ,) (__ __)
+    (NP (NNPS Browns) (NN safety) (NNP Donte) (NNP Whitner))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-32)
+nsubj(understands-3, He-2)
+ccomp(said-32, understands-3)
+det(mistakes-5, the-4)
+dobj(understands-3, mistakes-5)
+mark(made-9, that-6)
+nsubjpass(made-9, he-7)
+auxpass(made-9, _s-8)
+ccomp(understands-3, made-9)
+dep(understands-3, so-11)
+nsubjpass(taken-14, he-12)
+auxpass(taken-14, _s-13)
+parataxis(understands-3, taken-14)
+det(steps-17, the-15)
+amod(steps-17, proper-16)
+dobj(taken-14, steps-17)
+aux(try-19, to-18)
+vmod(taken-14, try-19)
+aux(keep-21, to-20)
+xcomp(try-19, keep-21)
+dobj(keep-21, himself-22)
+prep_out_of(keep-21, trouble-25)
+nn(Whitner-31, Browns-28)
+nn(Whitner-31, safety-29)
+nn(Whitner-31, Donte-30)
+nsubj(said-32, Whitner-31)
+
+Sentence #13 (9 tokens):
+“Now he understands how serious it is.
+[Text=`` CharacterOffsetBegin=1191 CharacterOffsetEnd=1192 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Now CharacterOffsetBegin=1192 CharacterOffsetEnd=1195 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t7" type="DATE" value="PRESENT_REF">Now<_TIMEX3>] [Text=he CharacterOffsetBegin=1196 CharacterOffsetEnd=1198 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=understands CharacterOffsetBegin=1199 CharacterOffsetEnd=1210 PartOfSpeech=VBZ Lemma=understand NamedEntityTag=O] [Text=how CharacterOffsetBegin=1211 CharacterOffsetEnd=1214 PartOfSpeech=WRB Lemma=how NamedEntityTag=O] [Text=serious CharacterOffsetBegin=1215 CharacterOffsetEnd=1222 PartOfSpeech=JJ Lemma=serious NamedEntityTag=O] [Text=it CharacterOffsetBegin=1223 CharacterOffsetEnd=1225 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=is CharacterOffsetBegin=1226 CharacterOffsetEnd=1228 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=. CharacterOffsetBegin=1228 CharacterOffsetEnd=1229 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (ADVP (RB Now))
+    (NP (PRP he))
+    (VP (VBZ understands)
+      (SBAR
+        (WHADJP (WRB how) (JJ serious))
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)))))
+    (. .)))
+
+root(ROOT-0, understands-4)
+advmod(understands-4, Now-2)
+nsubj(understands-4, he-3)
+advmod(serious-6, how-5)
+dep(is-8, serious-6)
+nsubj(is-8, it-7)
+ccomp(understands-4, is-8)
+
+Sentence #14 (7 tokens):
+He’ll be all right.”
+[Text=He CharacterOffsetBegin=1230 CharacterOffsetEnd=1232 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_ll CharacterOffsetBegin=1232 CharacterOffsetEnd=1235 PartOfSpeech=MD Lemma=_ll NamedEntityTag=O] [Text=be CharacterOffsetBegin=1236 CharacterOffsetEnd=1238 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=all CharacterOffsetBegin=1239 CharacterOffsetEnd=1242 PartOfSpeech=RB Lemma=all NamedEntityTag=O] [Text=right CharacterOffsetBegin=1243 CharacterOffsetEnd=1248 PartOfSpeech=RB Lemma=right NamedEntityTag=O] [Text=. CharacterOffsetBegin=1248 CharacterOffsetEnd=1249 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1249 CharacterOffsetEnd=1250 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD _ll)
+      (VP (VB be)
+        (ADVP (RB all) (RB right))))
+    (. .) (__ __)))
+
+root(ROOT-0, be-3)
+nsubj(be-3, He-1)
+aux(be-3, _ll-2)
+advmod(right-5, all-4)
+advmod(be-3, right-5)
+
+Sentence #15 (19 tokens):
+Manziel chats up wide receiver Taylor Gabriel during a break.Photo: AP
+The Browns can only hope so.
+[Text=Manziel CharacterOffsetBegin=1251 CharacterOffsetEnd=1258 PartOfSpeech=NN Lemma=manziel NamedEntityTag=O] [Text=chats CharacterOffsetBegin=1259 CharacterOffsetEnd=1264 PartOfSpeech=VBZ Lemma=chat NamedEntityTag=O] [Text=up CharacterOffsetBegin=1265 CharacterOffsetEnd=1267 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=wide CharacterOffsetBegin=1268 CharacterOffsetEnd=1272 PartOfSpeech=JJ Lemma=wide NamedEntityTag=O] [Text=receiver CharacterOffsetBegin=1273 CharacterOffsetEnd=1281 PartOfSpeech=NN Lemma=receiver NamedEntityTag=O] [Text=Taylor CharacterOffsetBegin=1282 CharacterOffsetEnd=1288 PartOfSpeech=NNP Lemma=Taylor NamedEntityTag=PERSON] [Text=Gabriel CharacterOffsetBegin=1289 CharacterOffsetEnd=1296 PartOfSpeech=NNP Lemma=Gabriel NamedEntityTag=PERSON] [Text=during CharacterOffsetBegin=1297 CharacterOffsetEnd=1303 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=a CharacterOffsetBegin=1304 CharacterOffsetEnd=1305 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=break.Photo CharacterOffsetBegin=1306 CharacterOffsetEnd=1317 PartOfSpeech=NN Lemma=break.photo NamedEntityTag=O] [Text=: CharacterOffsetBegin=1317 CharacterOffsetEnd=1318 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=AP CharacterOffsetBegin=1319 CharacterOffsetEnd=1321 PartOfSpeech=NN Lemma=ap NamedEntityTag=O] [Text=The CharacterOffsetBegin=1322 CharacterOffsetEnd=1325 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=Browns CharacterOffsetBegin=1326 CharacterOffsetEnd=1332 PartOfSpeech=NNPS Lemma=Browns NamedEntityTag=ORGANIZATION] [Text=can CharacterOffsetBegin=1333 CharacterOffsetEnd=1336 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=only CharacterOffsetBegin=1337 CharacterOffsetEnd=1341 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=hope CharacterOffsetBegin=1342 CharacterOffsetEnd=1346 PartOfSpeech=VB Lemma=hope NamedEntityTag=O] [Text=so CharacterOffsetBegin=1347 CharacterOffsetEnd=1349 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=. CharacterOffsetBegin=1349 CharacterOffsetEnd=1350 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NN Manziel))
+    (VP (VBZ chats)
+      (PRT (RP up))
+      (NP (JJ wide) (NN receiver) (NNP Taylor) (NNP Gabriel))
+      (PP (IN during)
+        (NP
+          (NP (DT a) (NN break.Photo))
+          (: :)
+          (NP
+            (NP (NN AP))
+            (SBAR
+              (S
+                (NP (DT The) (NNPS Browns))
+                (VP (MD can)
+                  (ADVP (RB only))
+                  (VP (VB hope)
+                    (ADVP (RB so))))))))))
+    (. .)))
+
+root(ROOT-0, chats-2)
+nsubj(chats-2, Manziel-1)
+prt(chats-2, up-3)
+amod(Gabriel-7, wide-4)
+nn(Gabriel-7, receiver-5)
+nn(Gabriel-7, Taylor-6)
+dobj(chats-2, Gabriel-7)
+det(break.Photo-10, a-9)
+prep_during(chats-2, break.Photo-10)
+dep(break.Photo-10, AP-12)
+det(Browns-14, The-13)
+nsubj(hope-17, Browns-14)
+aux(hope-17, can-15)
+advmod(hope-17, only-16)
+rcmod(AP-12, hope-17)
+advmod(hope-17, so-18)
+
+Sentence #16 (28 tokens):
+They invested a first-round draft pick on the former Heisman Trophy winner and have publicly stated they still believe he can develop into a top-tier NFL starter.
+[Text=They CharacterOffsetBegin=1351 CharacterOffsetEnd=1355 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=invested CharacterOffsetBegin=1356 CharacterOffsetEnd=1364 PartOfSpeech=VBD Lemma=invest NamedEntityTag=O] [Text=a CharacterOffsetBegin=1365 CharacterOffsetEnd=1366 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=first-round CharacterOffsetBegin=1367 CharacterOffsetEnd=1378 PartOfSpeech=JJ Lemma=first-round NamedEntityTag=O] [Text=draft CharacterOffsetBegin=1379 CharacterOffsetEnd=1384 PartOfSpeech=NN Lemma=draft NamedEntityTag=O] [Text=pick CharacterOffsetBegin=1385 CharacterOffsetEnd=1389 PartOfSpeech=NN Lemma=pick NamedEntityTag=O] [Text=on CharacterOffsetBegin=1390 CharacterOffsetEnd=1392 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=the CharacterOffsetBegin=1393 CharacterOffsetEnd=1396 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=former CharacterOffsetBegin=1397 CharacterOffsetEnd=1403 PartOfSpeech=JJ Lemma=former NamedEntityTag=O] [Text=Heisman CharacterOffsetBegin=1404 CharacterOffsetEnd=1411 PartOfSpeech=NNP Lemma=Heisman NamedEntityTag=MISC] [Text=Trophy CharacterOffsetBegin=1412 CharacterOffsetEnd=1418 PartOfSpeech=NN Lemma=trophy NamedEntityTag=MISC] [Text=winner CharacterOffsetBegin=1419 CharacterOffsetEnd=1425 PartOfSpeech=NN Lemma=winner NamedEntityTag=O] [Text=and CharacterOffsetBegin=1426 CharacterOffsetEnd=1429 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=1430 CharacterOffsetEnd=1434 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=publicly CharacterOffsetBegin=1435 CharacterOffsetEnd=1443 PartOfSpeech=RB Lemma=publicly NamedEntityTag=O] [Text=stated CharacterOffsetBegin=1444 CharacterOffsetEnd=1450 PartOfSpeech=VBN Lemma=state NamedEntityTag=O] [Text=they CharacterOffsetBegin=1451 CharacterOffsetEnd=1455 PartOfSpeech=PRP Lemma=they NamedEntityTag=O] [Text=still CharacterOffsetBegin=1456 CharacterOffsetEnd=1461 PartOfSpeech=RB Lemma=still NamedEntityTag=O] [Text=believe CharacterOffsetBegin=1462 CharacterOffsetEnd=1469 PartOfSpeech=VBP Lemma=believe NamedEntityTag=O] [Text=he CharacterOffsetBegin=1470 CharacterOffsetEnd=1472 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=can CharacterOffsetBegin=1473 CharacterOffsetEnd=1476 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=develop CharacterOffsetBegin=1477 CharacterOffsetEnd=1484 PartOfSpeech=VB Lemma=develop NamedEntityTag=O] [Text=into CharacterOffsetBegin=1485 CharacterOffsetEnd=1489 PartOfSpeech=IN Lemma=into NamedEntityTag=O] [Text=a CharacterOffsetBegin=1490 CharacterOffsetEnd=1491 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=top-tier CharacterOffsetBegin=1492 CharacterOffsetEnd=1500 PartOfSpeech=JJ Lemma=top-tier NamedEntityTag=O] [Text=NFL CharacterOffsetBegin=1501 CharacterOffsetEnd=1504 PartOfSpeech=NNP Lemma=NFL NamedEntityTag=ORGANIZATION] [Text=starter CharacterOffsetBegin=1505 CharacterOffsetEnd=1512 PartOfSpeech=JJ Lemma=starter NamedEntityTag=O] [Text=. CharacterOffsetBegin=1512 CharacterOffsetEnd=1513 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBD invested)
+        (NP (DT a) (JJ first-round) (NN draft) (NN pick))
+        (PP (IN on)
+          (NP (DT the) (JJ former) (NNP Heisman) (NN Trophy) (NN winner))))
+      (CC and)
+      (VP (VBP have)
+        (ADVP (RB publicly))
+        (VP (VBN stated)
+          (SBAR
+            (S
+              (NP (PRP they))
+              (ADVP (RB still))
+              (VP (VBP believe)
+                (SBAR
+                  (S
+                    (NP (PRP he))
+                    (VP (MD can)
+                      (VP (VB develop)
+                        (PP (IN into)
+                          (NP
+                            (NP (DT a) (JJ top-tier) (NNP NFL))
+                            (JJ starter)))))))))))))
+    (. .)))
+
+root(ROOT-0, invested-2)
+nsubj(invested-2, They-1)
+det(pick-6, a-3)
+amod(pick-6, first-round-4)
+nn(pick-6, draft-5)
+dobj(invested-2, pick-6)
+det(winner-12, the-8)
+amod(winner-12, former-9)
+nn(winner-12, Heisman-10)
+nn(winner-12, Trophy-11)
+prep_on(invested-2, winner-12)
+aux(stated-16, have-14)
+advmod(stated-16, publicly-15)
+conj_and(invested-2, stated-16)
+nsubj(believe-19, they-17)
+advmod(believe-19, still-18)
+ccomp(stated-16, believe-19)
+nsubj(develop-22, he-20)
+aux(develop-22, can-21)
+ccomp(believe-19, develop-22)
+det(NFL-26, a-24)
+amod(NFL-26, top-tier-25)
+prep_into(develop-22, NFL-26)
+amod(NFL-26, starter-27)
+
+Sentence #17 (17 tokens):
+Time will tell, but Manziel is at least showing early signs of an attitude change.
+[Text=Time CharacterOffsetBegin=1514 CharacterOffsetEnd=1518 PartOfSpeech=NNP Lemma=Time NamedEntityTag=O] [Text=will CharacterOffsetBegin=1519 CharacterOffsetEnd=1523 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=tell CharacterOffsetBegin=1524 CharacterOffsetEnd=1528 PartOfSpeech=VB Lemma=tell NamedEntityTag=O] [Text=, CharacterOffsetBegin=1528 CharacterOffsetEnd=1529 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=1530 CharacterOffsetEnd=1533 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=1534 CharacterOffsetEnd=1541 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=is CharacterOffsetBegin=1542 CharacterOffsetEnd=1544 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=at CharacterOffsetBegin=1545 CharacterOffsetEnd=1547 PartOfSpeech=IN Lemma=at NamedEntityTag=O] [Text=least CharacterOffsetBegin=1548 CharacterOffsetEnd=1553 PartOfSpeech=JJS Lemma=least NamedEntityTag=O] [Text=showing CharacterOffsetBegin=1554 CharacterOffsetEnd=1561 PartOfSpeech=VBG Lemma=show NamedEntityTag=O] [Text=early CharacterOffsetBegin=1562 CharacterOffsetEnd=1567 PartOfSpeech=JJ Lemma=early NamedEntityTag=O] [Text=signs CharacterOffsetBegin=1568 CharacterOffsetEnd=1573 PartOfSpeech=NNS Lemma=sign NamedEntityTag=O] [Text=of CharacterOffsetBegin=1574 CharacterOffsetEnd=1576 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=an CharacterOffsetBegin=1577 CharacterOffsetEnd=1579 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=attitude CharacterOffsetBegin=1580 CharacterOffsetEnd=1588 PartOfSpeech=NN Lemma=attitude NamedEntityTag=O] [Text=change CharacterOffsetBegin=1589 CharacterOffsetEnd=1595 PartOfSpeech=NN Lemma=change NamedEntityTag=O] [Text=. CharacterOffsetBegin=1595 CharacterOffsetEnd=1596 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Time))
+      (VP (MD will)
+        (VP (VB tell))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNP Manziel))
+      (VP (VBZ is)
+        (ADVP (IN at) (JJS least))
+        (VP (VBG showing)
+          (NP
+            (NP (JJ early) (NNS signs))
+            (PP (IN of)
+              (NP (DT an) (NN attitude) (NN change)))))))
+    (. .)))
+
+root(ROOT-0, tell-3)
+nsubj(tell-3, Time-1)
+aux(tell-3, will-2)
+nsubj(showing-10, Manziel-6)
+aux(showing-10, is-7)
+advmod(showing-10, at-8)
+pobj(at-8, least-9)
+conj_but(tell-3, showing-10)
+amod(signs-12, early-11)
+dobj(showing-10, signs-12)
+det(change-16, an-14)
+nn(change-16, attitude-15)
+prep_of(signs-12, change-16)
+
+Sentence #18 (20 tokens):
+Whitner said when he arrives or leaves Browns headquarters, Manziel’s car is usually in the parking lot.
+[Text=Whitner CharacterOffsetBegin=1597 CharacterOffsetEnd=1604 PartOfSpeech=NNP Lemma=Whitner NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=1605 CharacterOffsetEnd=1609 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=when CharacterOffsetBegin=1610 CharacterOffsetEnd=1614 PartOfSpeech=WRB Lemma=when NamedEntityTag=O] [Text=he CharacterOffsetBegin=1615 CharacterOffsetEnd=1617 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=arrives CharacterOffsetBegin=1618 CharacterOffsetEnd=1625 PartOfSpeech=VBZ Lemma=arrive NamedEntityTag=O] [Text=or CharacterOffsetBegin=1626 CharacterOffsetEnd=1628 PartOfSpeech=CC Lemma=or NamedEntityTag=O] [Text=leaves CharacterOffsetBegin=1629 CharacterOffsetEnd=1635 PartOfSpeech=VBZ Lemma=leave NamedEntityTag=O] [Text=Browns CharacterOffsetBegin=1636 CharacterOffsetEnd=1642 PartOfSpeech=NNP Lemma=Browns NamedEntityTag=ORGANIZATION] [Text=headquarters CharacterOffsetBegin=1643 CharacterOffsetEnd=1655 PartOfSpeech=NN Lemma=headquarters NamedEntityTag=O] [Text=, CharacterOffsetBegin=1655 CharacterOffsetEnd=1656 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=1657 CharacterOffsetEnd=1664 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=1664 CharacterOffsetEnd=1666 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=car CharacterOffsetBegin=1667 CharacterOffsetEnd=1670 PartOfSpeech=NN Lemma=car NamedEntityTag=O] [Text=is CharacterOffsetBegin=1671 CharacterOffsetEnd=1673 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=usually CharacterOffsetBegin=1674 CharacterOffsetEnd=1681 PartOfSpeech=RB Lemma=usually NamedEntityTag=O] [Text=in CharacterOffsetBegin=1682 CharacterOffsetEnd=1684 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1685 CharacterOffsetEnd=1688 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=parking CharacterOffsetBegin=1689 CharacterOffsetEnd=1696 PartOfSpeech=NN Lemma=parking NamedEntityTag=O] [Text=lot CharacterOffsetBegin=1697 CharacterOffsetEnd=1700 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=. CharacterOffsetBegin=1700 CharacterOffsetEnd=1701 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NNP Whitner))
+      (VP (VBD said)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBZ arrives)
+              (CC or)
+              (VBZ leaves)
+              (NP (NNP Browns) (NN headquarters)))))))
+    (, ,)
+    (NP
+      (NP (NNP Manziel) (POS _s))
+      (NN car))
+    (VP (VBZ is)
+      (ADVP (RB usually))
+      (PP (IN in)
+        (NP (DT the) (NN parking) (NN lot))))
+    (. .)))
+
+root(ROOT-0, is-14)
+nsubj(said-2, Whitner-1)
+ccomp(is-14, said-2)
+advmod(arrives-5, when-3)
+nsubj(arrives-5, he-4)
+advcl(said-2, arrives-5)
+conj_or(arrives-5, leaves-7)
+nn(headquarters-9, Browns-8)
+dobj(arrives-5, headquarters-9)
+poss(car-13, Manziel-11)
+nsubj(is-14, car-13)
+advmod(is-14, usually-15)
+det(lot-19, the-17)
+nn(lot-19, parking-18)
+prep_in(is-14, lot-19)
+
+Sentence #19 (32 tokens):
+“If you’re here in the morning, you see who has those first couple parking spots, you know who was here before everybody else,” he said.
+[Text=`` CharacterOffsetBegin=1702 CharacterOffsetEnd=1703 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=If CharacterOffsetBegin=1703 CharacterOffsetEnd=1705 PartOfSpeech=IN Lemma=if NamedEntityTag=O] [Text=you CharacterOffsetBegin=1706 CharacterOffsetEnd=1709 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=_re CharacterOffsetBegin=1709 CharacterOffsetEnd=1712 PartOfSpeech=VBP Lemma=be NamedEntityTag=O] [Text=here CharacterOffsetBegin=1713 CharacterOffsetEnd=1717 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=in CharacterOffsetBegin=1718 CharacterOffsetEnd=1720 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=the CharacterOffsetBegin=1721 CharacterOffsetEnd=1724 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=morning CharacterOffsetBegin=1725 CharacterOffsetEnd=1732 PartOfSpeech=NN Lemma=morning NamedEntityTag=TIME NormalizedNamedEntityTag=TMO Timex=<TIMEX3 tid="t8" type="TIME" value="TMO">morning<_TIMEX3>] [Text=, CharacterOffsetBegin=1732 CharacterOffsetEnd=1733 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=1734 CharacterOffsetEnd=1737 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=see CharacterOffsetBegin=1738 CharacterOffsetEnd=1741 PartOfSpeech=VBP Lemma=see NamedEntityTag=O] [Text=who CharacterOffsetBegin=1742 CharacterOffsetEnd=1745 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=has CharacterOffsetBegin=1746 CharacterOffsetEnd=1749 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=those CharacterOffsetBegin=1750 CharacterOffsetEnd=1755 PartOfSpeech=DT Lemma=those NamedEntityTag=O] [Text=first CharacterOffsetBegin=1756 CharacterOffsetEnd=1761 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0] [Text=couple CharacterOffsetBegin=1762 CharacterOffsetEnd=1768 PartOfSpeech=NN Lemma=couple NamedEntityTag=O] [Text=parking CharacterOffsetBegin=1769 CharacterOffsetEnd=1776 PartOfSpeech=NN Lemma=parking NamedEntityTag=O] [Text=spots CharacterOffsetBegin=1777 CharacterOffsetEnd=1782 PartOfSpeech=NNS Lemma=spot NamedEntityTag=O] [Text=, CharacterOffsetBegin=1782 CharacterOffsetEnd=1783 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=1784 CharacterOffsetEnd=1787 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=know CharacterOffsetBegin=1788 CharacterOffsetEnd=1792 PartOfSpeech=VBP Lemma=know NamedEntityTag=O] [Text=who CharacterOffsetBegin=1793 CharacterOffsetEnd=1796 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=was CharacterOffsetBegin=1797 CharacterOffsetEnd=1800 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=here CharacterOffsetBegin=1801 CharacterOffsetEnd=1805 PartOfSpeech=RB Lemma=here NamedEntityTag=O] [Text=before CharacterOffsetBegin=1806 CharacterOffsetEnd=1812 PartOfSpeech=IN Lemma=before NamedEntityTag=O] [Text=everybody CharacterOffsetBegin=1813 CharacterOffsetEnd=1822 PartOfSpeech=NN Lemma=everybody NamedEntityTag=O] [Text=else CharacterOffsetBegin=1823 CharacterOffsetEnd=1827 PartOfSpeech=RB Lemma=else NamedEntityTag=O] [Text=, CharacterOffsetBegin=1827 CharacterOffsetEnd=1828 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1828 CharacterOffsetEnd=1829 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=he CharacterOffsetBegin=1830 CharacterOffsetEnd=1832 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=said CharacterOffsetBegin=1833 CharacterOffsetEnd=1837 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=1837 CharacterOffsetEnd=1838 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (PRP you))
+          (VP (VBP _re)
+            (ADVP (RB here))
+            (PP (IN in)
+              (NP (DT the) (NN morning))))))
+      (, ,)
+      (NP (PRP you))
+      (VP (VBP see)
+        (SBAR
+          (S
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ has)
+                  (NP (DT those) (JJ first) (NN couple) (NN parking) (NNS spots)))))
+            (, ,)
+            (NP (PRP you))
+            (VP (VBP know)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD was)
+                    (ADVP (RB here))
+                    (PP (IN before)
+                      (NP (NN everybody) (RB else)))))))))))
+    (, ,) (__ __)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-31)
+mark(_re-4, If-2)
+nsubj(_re-4, you-3)
+advcl(see-11, _re-4)
+advmod(_re-4, here-5)
+det(morning-8, the-7)
+prep_in(_re-4, morning-8)
+nsubj(see-11, you-10)
+ccomp(said-31, see-11)
+nsubj(has-13, who-12)
+advcl(know-21, has-13)
+det(spots-18, those-14)
+amod(spots-18, first-15)
+nn(spots-18, couple-16)
+nn(spots-18, parking-17)
+dobj(has-13, spots-18)
+nsubj(know-21, you-20)
+ccomp(see-11, know-21)
+nsubj(was-23, who-22)
+ccomp(know-21, was-23)
+advmod(was-23, here-24)
+prep_before(was-23, everybody-26)
+advmod(everybody-26, else-27)
+nsubj(said-31, he-30)
+
+Sentence #20 (17 tokens):
+“So he’s taken the steps that it takes to be a good quarterback.”
+[Text=`` CharacterOffsetBegin=1839 CharacterOffsetEnd=1840 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=So CharacterOffsetBegin=1840 CharacterOffsetEnd=1842 PartOfSpeech=RB Lemma=so NamedEntityTag=O] [Text=he CharacterOffsetBegin=1843 CharacterOffsetEnd=1845 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=1845 CharacterOffsetEnd=1847 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=taken CharacterOffsetBegin=1848 CharacterOffsetEnd=1853 PartOfSpeech=VBN Lemma=take NamedEntityTag=O] [Text=the CharacterOffsetBegin=1854 CharacterOffsetEnd=1857 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=steps CharacterOffsetBegin=1858 CharacterOffsetEnd=1863 PartOfSpeech=NNS Lemma=step NamedEntityTag=O] [Text=that CharacterOffsetBegin=1864 CharacterOffsetEnd=1868 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=it CharacterOffsetBegin=1869 CharacterOffsetEnd=1871 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=takes CharacterOffsetBegin=1872 CharacterOffsetEnd=1877 PartOfSpeech=VBZ Lemma=take NamedEntityTag=O] [Text=to CharacterOffsetBegin=1878 CharacterOffsetEnd=1880 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=be CharacterOffsetBegin=1881 CharacterOffsetEnd=1883 PartOfSpeech=VB Lemma=be NamedEntityTag=O] [Text=a CharacterOffsetBegin=1884 CharacterOffsetEnd=1885 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=good CharacterOffsetBegin=1886 CharacterOffsetEnd=1890 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=quarterback CharacterOffsetBegin=1891 CharacterOffsetEnd=1902 PartOfSpeech=NN Lemma=quarterback NamedEntityTag=O] [Text=. CharacterOffsetBegin=1902 CharacterOffsetEnd=1903 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=1903 CharacterOffsetEnd=1904 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``) (RB So)
+    (NP (PRP he))
+    (VP (VBZ _s)
+      (VP (VBN taken)
+        (NP (DT the) (NNS steps))
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ takes)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP (DT a) (JJ good) (NN quarterback))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, taken-5)
+advmod(taken-5, So-2)
+nsubjpass(taken-5, he-3)
+auxpass(taken-5, _s-4)
+det(steps-7, the-6)
+dobj(taken-5, steps-7)
+mark(takes-10, that-8)
+nsubj(takes-10, it-9)
+ccomp(taken-5, takes-10)
+aux(quarterback-15, to-11)
+cop(quarterback-15, be-12)
+det(quarterback-15, a-13)
+amod(quarterback-15, good-14)
+xcomp(takes-10, quarterback-15)
+
+Sentence #21 (10 tokens):
+Manziel had a few nice moments during 11-on-11 drills.
+[Text=Manziel CharacterOffsetBegin=1905 CharacterOffsetEnd=1912 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=had CharacterOffsetBegin=1913 CharacterOffsetEnd=1916 PartOfSpeech=VBD Lemma=have NamedEntityTag=O] [Text=a CharacterOffsetBegin=1917 CharacterOffsetEnd=1918 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=few CharacterOffsetBegin=1919 CharacterOffsetEnd=1922 PartOfSpeech=JJ Lemma=few NamedEntityTag=O] [Text=nice CharacterOffsetBegin=1923 CharacterOffsetEnd=1927 PartOfSpeech=JJ Lemma=nice NamedEntityTag=O] [Text=moments CharacterOffsetBegin=1928 CharacterOffsetEnd=1935 PartOfSpeech=NNS Lemma=moment NamedEntityTag=O] [Text=during CharacterOffsetBegin=1936 CharacterOffsetEnd=1942 PartOfSpeech=IN Lemma=during NamedEntityTag=O] [Text=11-on-11 CharacterOffsetBegin=1943 CharacterOffsetEnd=1951 PartOfSpeech=NN Lemma=11-on-11 NamedEntityTag=O] [Text=drills CharacterOffsetBegin=1952 CharacterOffsetEnd=1958 PartOfSpeech=NNS Lemma=drill NamedEntityTag=O] [Text=. CharacterOffsetBegin=1958 CharacterOffsetEnd=1959 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP Manziel))
+    (VP (VBD had)
+      (NP
+        (NP (DT a) (JJ few) (JJ nice) (NNS moments))
+        (PP (IN during)
+          (NP (NN 11-on-11) (NNS drills)))))
+    (. .)))
+
+root(ROOT-0, had-2)
+nsubj(had-2, Manziel-1)
+det(moments-6, a-3)
+amod(moments-6, few-4)
+amod(moments-6, nice-5)
+dobj(had-2, moments-6)
+nn(drills-9, 11-on-11-8)
+prep_during(moments-6, drills-9)
+
+Sentence #22 (34 tokens):
+He threaded a strong pass over the middle to tight end Rob Housler on one play, and rolled right and slipped a side-armed pass for a completion to wide receiver Darius Jennings.
+[Text=He CharacterOffsetBegin=1960 CharacterOffsetEnd=1962 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=threaded CharacterOffsetBegin=1963 CharacterOffsetEnd=1971 PartOfSpeech=VBD Lemma=thread NamedEntityTag=O] [Text=a CharacterOffsetBegin=1972 CharacterOffsetEnd=1973 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=strong CharacterOffsetBegin=1974 CharacterOffsetEnd=1980 PartOfSpeech=JJ Lemma=strong NamedEntityTag=O] [Text=pass CharacterOffsetBegin=1981 CharacterOffsetEnd=1985 PartOfSpeech=NN Lemma=pass NamedEntityTag=O] [Text=over CharacterOffsetBegin=1986 CharacterOffsetEnd=1990 PartOfSpeech=IN Lemma=over NamedEntityTag=O] [Text=the CharacterOffsetBegin=1991 CharacterOffsetEnd=1994 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=middle CharacterOffsetBegin=1995 CharacterOffsetEnd=2001 PartOfSpeech=JJ Lemma=middle NamedEntityTag=O] [Text=to CharacterOffsetBegin=2002 CharacterOffsetEnd=2004 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=tight CharacterOffsetBegin=2005 CharacterOffsetEnd=2010 PartOfSpeech=JJ Lemma=tight NamedEntityTag=O] [Text=end CharacterOffsetBegin=2011 CharacterOffsetEnd=2014 PartOfSpeech=NN Lemma=end NamedEntityTag=O] [Text=Rob CharacterOffsetBegin=2015 CharacterOffsetEnd=2018 PartOfSpeech=NNP Lemma=Rob NamedEntityTag=PERSON] [Text=Housler CharacterOffsetBegin=2019 CharacterOffsetEnd=2026 PartOfSpeech=NNP Lemma=Housler NamedEntityTag=PERSON] [Text=on CharacterOffsetBegin=2027 CharacterOffsetEnd=2029 PartOfSpeech=IN Lemma=on NamedEntityTag=O] [Text=one CharacterOffsetBegin=2030 CharacterOffsetEnd=2033 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0] [Text=play CharacterOffsetBegin=2034 CharacterOffsetEnd=2038 PartOfSpeech=NN Lemma=play NamedEntityTag=O] [Text=, CharacterOffsetBegin=2038 CharacterOffsetEnd=2039 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2040 CharacterOffsetEnd=2043 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=rolled CharacterOffsetBegin=2044 CharacterOffsetEnd=2050 PartOfSpeech=VBD Lemma=roll NamedEntityTag=O] [Text=right CharacterOffsetBegin=2051 CharacterOffsetEnd=2056 PartOfSpeech=NN Lemma=right NamedEntityTag=O] [Text=and CharacterOffsetBegin=2057 CharacterOffsetEnd=2060 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=slipped CharacterOffsetBegin=2061 CharacterOffsetEnd=2068 PartOfSpeech=VBD Lemma=slip NamedEntityTag=O] [Text=a CharacterOffsetBegin=2069 CharacterOffsetEnd=2070 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=side-armed CharacterOffsetBegin=2071 CharacterOffsetEnd=2081 PartOfSpeech=JJ Lemma=side-armed NamedEntityTag=O] [Text=pass CharacterOffsetBegin=2082 CharacterOffsetEnd=2086 PartOfSpeech=NN Lemma=pass NamedEntityTag=O] [Text=for CharacterOffsetBegin=2087 CharacterOffsetEnd=2090 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=2091 CharacterOffsetEnd=2092 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=completion CharacterOffsetBegin=2093 CharacterOffsetEnd=2103 PartOfSpeech=NN Lemma=completion NamedEntityTag=O] [Text=to CharacterOffsetBegin=2104 CharacterOffsetEnd=2106 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=wide CharacterOffsetBegin=2107 CharacterOffsetEnd=2111 PartOfSpeech=JJ Lemma=wide NamedEntityTag=O] [Text=receiver CharacterOffsetBegin=2112 CharacterOffsetEnd=2120 PartOfSpeech=NN Lemma=receiver NamedEntityTag=O] [Text=Darius CharacterOffsetBegin=2121 CharacterOffsetEnd=2127 PartOfSpeech=NNP Lemma=Darius NamedEntityTag=PERSON] [Text=Jennings CharacterOffsetBegin=2128 CharacterOffsetEnd=2136 PartOfSpeech=NNP Lemma=Jennings NamedEntityTag=PERSON] [Text=. CharacterOffsetBegin=2136 CharacterOffsetEnd=2137 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD threaded)
+        (NP (DT a) (JJ strong) (NN pass))
+        (PP (IN over)
+          (NP (DT the)
+            (ADJP (JJ middle)
+              (PP (TO to)
+                (NP
+                  (NP (JJ tight) (NN end) (NNP Rob) (NNP Housler))
+                  (PP (IN on)
+                    (NP (CD one))))))
+            (NN play))))
+      (, ,)
+      (CC and)
+      (VP
+        (VP (VBD rolled)
+          (NP (NN right)))
+        (CC and)
+        (VP (VBD slipped)
+          (NP (DT a) (JJ side-armed) (NN pass))
+          (PP (IN for)
+            (NP (DT a) (NN completion)))
+          (PP (TO to)
+            (NP (JJ wide) (NN receiver) (NNP Darius) (NNP Jennings))))))
+    (. .)))
+
+root(ROOT-0, threaded-2)
+nsubj(threaded-2, He-1)
+det(pass-5, a-3)
+amod(pass-5, strong-4)
+dobj(threaded-2, pass-5)
+det(play-16, the-7)
+amod(play-16, middle-8)
+amod(Housler-13, tight-10)
+nn(Housler-13, end-11)
+nn(Housler-13, Rob-12)
+prep_to(middle-8, Housler-13)
+prep_on(Housler-13, one-15)
+prep_over(threaded-2, play-16)
+conj_and(threaded-2, rolled-19)
+dobj(rolled-19, right-20)
+conj_and(rolled-19, slipped-22)
+det(pass-25, a-23)
+amod(pass-25, side-armed-24)
+dobj(slipped-22, pass-25)
+det(completion-28, a-27)
+prep_for(slipped-22, completion-28)
+amod(Jennings-33, wide-30)
+nn(Jennings-33, receiver-31)
+nn(Jennings-33, Darius-32)
+prep_to(slipped-22, Jennings-33)
+
+Sentence #23 (30 tokens):
+Manziel, who will enter training camp as Josh McCown’s backup, also forced a short throw that was intercepted by K’Waun Williams and returned for a touchdown.
+[Text=Manziel CharacterOffsetBegin=2138 CharacterOffsetEnd=2145 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=, CharacterOffsetBegin=2145 CharacterOffsetEnd=2146 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=who CharacterOffsetBegin=2147 CharacterOffsetEnd=2150 PartOfSpeech=WP Lemma=who NamedEntityTag=O] [Text=will CharacterOffsetBegin=2151 CharacterOffsetEnd=2155 PartOfSpeech=MD Lemma=will NamedEntityTag=O] [Text=enter CharacterOffsetBegin=2156 CharacterOffsetEnd=2161 PartOfSpeech=VB Lemma=enter NamedEntityTag=O] [Text=training CharacterOffsetBegin=2162 CharacterOffsetEnd=2170 PartOfSpeech=NN Lemma=training NamedEntityTag=O] [Text=camp CharacterOffsetBegin=2171 CharacterOffsetEnd=2175 PartOfSpeech=NN Lemma=camp NamedEntityTag=O] [Text=as CharacterOffsetBegin=2176 CharacterOffsetEnd=2178 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Josh CharacterOffsetBegin=2179 CharacterOffsetEnd=2183 PartOfSpeech=NNP Lemma=Josh NamedEntityTag=PERSON] [Text=McCown CharacterOffsetBegin=2184 CharacterOffsetEnd=2190 PartOfSpeech=NNP Lemma=McCown NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2190 CharacterOffsetEnd=2192 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=backup CharacterOffsetBegin=2193 CharacterOffsetEnd=2199 PartOfSpeech=NN Lemma=backup NamedEntityTag=O] [Text=, CharacterOffsetBegin=2199 CharacterOffsetEnd=2200 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=also CharacterOffsetBegin=2201 CharacterOffsetEnd=2205 PartOfSpeech=RB Lemma=also NamedEntityTag=O] [Text=forced CharacterOffsetBegin=2206 CharacterOffsetEnd=2212 PartOfSpeech=VBD Lemma=force NamedEntityTag=O] [Text=a CharacterOffsetBegin=2213 CharacterOffsetEnd=2214 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=short CharacterOffsetBegin=2215 CharacterOffsetEnd=2220 PartOfSpeech=JJ Lemma=short NamedEntityTag=O] [Text=throw CharacterOffsetBegin=2221 CharacterOffsetEnd=2226 PartOfSpeech=VBP Lemma=throw NamedEntityTag=O] [Text=that CharacterOffsetBegin=2227 CharacterOffsetEnd=2231 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=was CharacterOffsetBegin=2232 CharacterOffsetEnd=2235 PartOfSpeech=VBD Lemma=be NamedEntityTag=O] [Text=intercepted CharacterOffsetBegin=2236 CharacterOffsetEnd=2247 PartOfSpeech=VBN Lemma=intercept NamedEntityTag=O] [Text=by CharacterOffsetBegin=2248 CharacterOffsetEnd=2250 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=K’Waun CharacterOffsetBegin=2251 CharacterOffsetEnd=2257 PartOfSpeech=NNP Lemma=K’Waun NamedEntityTag=PERSON] [Text=Williams CharacterOffsetBegin=2258 CharacterOffsetEnd=2266 PartOfSpeech=NNP Lemma=Williams NamedEntityTag=PERSON] [Text=and CharacterOffsetBegin=2267 CharacterOffsetEnd=2270 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=returned CharacterOffsetBegin=2271 CharacterOffsetEnd=2279 PartOfSpeech=VBD Lemma=return NamedEntityTag=O] [Text=for CharacterOffsetBegin=2280 CharacterOffsetEnd=2283 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=2284 CharacterOffsetEnd=2285 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=touchdown CharacterOffsetBegin=2286 CharacterOffsetEnd=2295 PartOfSpeech=NN Lemma=touchdown NamedEntityTag=O] [Text=. CharacterOffsetBegin=2295 CharacterOffsetEnd=2296 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Manziel))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (MD will)
+            (VP (VB enter)
+              (NP (NN training) (NN camp))
+              (PP (IN as)
+                (NP
+                  (NP (NNP Josh) (NNP McCown) (POS _s))
+                  (NN backup)))))))
+      (, ,))
+    (ADVP (RB also))
+    (VP
+      (VP (VBD forced)
+        (SBAR
+          (S
+            (NP (DT a) (JJ short))
+            (VP (VBP throw)
+              (SBAR
+                (S
+                  (NP (DT that))
+                  (VP (VBD was)
+                    (VP (VBN intercepted)
+                      (PP (IN by)
+                        (NP (NNP K’Waun) (NNP Williams)))))))))))
+      (CC and)
+      (VP (VBD returned)
+        (PP (IN for)
+          (NP (DT a) (NN touchdown)))))
+    (. .)))
+
+root(ROOT-0, forced-15)
+nsubj(forced-15, Manziel-1)
+nsubj(enter-5, who-3)
+aux(enter-5, will-4)
+rcmod(Manziel-1, enter-5)
+nn(camp-7, training-6)
+dobj(enter-5, camp-7)
+nn(McCown-10, Josh-9)
+poss(backup-12, McCown-10)
+prep_as(enter-5, backup-12)
+advmod(forced-15, also-14)
+det(short-17, a-16)
+nsubj(throw-18, short-17)
+ccomp(forced-15, throw-18)
+nsubjpass(intercepted-21, that-19)
+auxpass(intercepted-21, was-20)
+ccomp(throw-18, intercepted-21)
+nn(Williams-24, K’Waun-23)
+agent(intercepted-21, Williams-24)
+conj_and(forced-15, returned-26)
+det(touchdown-29, a-28)
+prep_for(returned-26, touchdown-29)
+
+Sentence #24 (25 tokens):
+Browns coach Mike Pettine did not grade any of Manziel’s snaps, but said he’s been “very engaged in meetings.”
+[Text=Browns CharacterOffsetBegin=2297 CharacterOffsetEnd=2303 PartOfSpeech=NNS Lemma=brown NamedEntityTag=ORGANIZATION] [Text=coach CharacterOffsetBegin=2304 CharacterOffsetEnd=2309 PartOfSpeech=NN Lemma=coach NamedEntityTag=O] [Text=Mike CharacterOffsetBegin=2310 CharacterOffsetEnd=2314 PartOfSpeech=NNP Lemma=Mike NamedEntityTag=PERSON] [Text=Pettine CharacterOffsetBegin=2315 CharacterOffsetEnd=2322 PartOfSpeech=NNP Lemma=Pettine NamedEntityTag=PERSON] [Text=did CharacterOffsetBegin=2323 CharacterOffsetEnd=2326 PartOfSpeech=VBD Lemma=do NamedEntityTag=O] [Text=not CharacterOffsetBegin=2327 CharacterOffsetEnd=2330 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=grade CharacterOffsetBegin=2331 CharacterOffsetEnd=2336 PartOfSpeech=NN Lemma=grade NamedEntityTag=O] [Text=any CharacterOffsetBegin=2337 CharacterOffsetEnd=2340 PartOfSpeech=DT Lemma=any NamedEntityTag=O] [Text=of CharacterOffsetBegin=2341 CharacterOffsetEnd=2343 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=2344 CharacterOffsetEnd=2351 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2351 CharacterOffsetEnd=2353 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=snaps CharacterOffsetBegin=2354 CharacterOffsetEnd=2359 PartOfSpeech=VBZ Lemma=snap NamedEntityTag=O] [Text=, CharacterOffsetBegin=2359 CharacterOffsetEnd=2360 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=2361 CharacterOffsetEnd=2364 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=said CharacterOffsetBegin=2365 CharacterOffsetEnd=2369 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=he CharacterOffsetBegin=2370 CharacterOffsetEnd=2372 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2372 CharacterOffsetEnd=2374 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=been CharacterOffsetBegin=2375 CharacterOffsetEnd=2379 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=`` CharacterOffsetBegin=2380 CharacterOffsetEnd=2381 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=very CharacterOffsetBegin=2381 CharacterOffsetEnd=2385 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=engaged CharacterOffsetBegin=2386 CharacterOffsetEnd=2393 PartOfSpeech=VBN Lemma=engage NamedEntityTag=O] [Text=in CharacterOffsetBegin=2394 CharacterOffsetEnd=2396 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=meetings CharacterOffsetBegin=2397 CharacterOffsetEnd=2405 PartOfSpeech=NNS Lemma=meeting NamedEntityTag=O] [Text=. CharacterOffsetBegin=2405 CharacterOffsetEnd=2406 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2406 CharacterOffsetEnd=2407 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (NNS Browns) (NN coach))
+      (SBAR
+        (S
+          (NP (NNP Mike) (NNP Pettine))
+          (VP (VBD did) (RB not)
+            (VP (NN grade)
+              (NP
+                (NP (DT any))
+                (PP (IN of)
+                  (NP (NNP Manziel) (POS _s)))))))))
+    (VP
+      (VP (VBZ snaps))
+      (, ,)
+      (CC but)
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ _s)
+              (VP (VBN been) (`` ``)
+                (VP
+                  (ADJP (RB very) (VBN engaged))
+                  (PP (IN in)
+                    (NP (NNS meetings))))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, snaps-12)
+nn(coach-2, Browns-1)
+nsubj(snaps-12, coach-2)
+nn(Pettine-4, Mike-3)
+nsubj(grade-7, Pettine-4)
+aux(grade-7, did-5)
+neg(grade-7, not-6)
+rcmod(coach-2, grade-7)
+dobj(grade-7, any-8)
+prep_of(any-8, Manziel-10)
+possessive(Manziel-10, _s-11)
+conj_but(snaps-12, said-15)
+nsubjpass(engaged-21, he-16)
+auxpass(engaged-21, _s-17)
+aux(engaged-21, been-18)
+advmod(engaged-21, very-20)
+ccomp(said-15, engaged-21)
+prep_in(engaged-21, meetings-23)
+
+Sentence #25 (15 tokens):
+As for Manziel’s personality, Pettine said the popular QB hasn’t changed.
+[Text=As CharacterOffsetBegin=2408 CharacterOffsetEnd=2410 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=for CharacterOffsetBegin=2411 CharacterOffsetEnd=2414 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=2415 CharacterOffsetEnd=2422 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=_s CharacterOffsetBegin=2422 CharacterOffsetEnd=2424 PartOfSpeech=POS Lemma=_s NamedEntityTag=O] [Text=personality CharacterOffsetBegin=2425 CharacterOffsetEnd=2436 PartOfSpeech=NN Lemma=personality NamedEntityTag=O] [Text=, CharacterOffsetBegin=2436 CharacterOffsetEnd=2437 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=Pettine CharacterOffsetBegin=2438 CharacterOffsetEnd=2445 PartOfSpeech=NNP Lemma=Pettine NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2446 CharacterOffsetEnd=2450 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=the CharacterOffsetBegin=2451 CharacterOffsetEnd=2454 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=popular CharacterOffsetBegin=2455 CharacterOffsetEnd=2462 PartOfSpeech=JJ Lemma=popular NamedEntityTag=O] [Text=QB CharacterOffsetBegin=2463 CharacterOffsetEnd=2465 PartOfSpeech=NN Lemma=qb NamedEntityTag=O] [Text=has CharacterOffsetBegin=2466 CharacterOffsetEnd=2469 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=2469 CharacterOffsetEnd=2472 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=changed CharacterOffsetBegin=2473 CharacterOffsetEnd=2480 PartOfSpeech=VBN Lemma=change NamedEntityTag=O] [Text=. CharacterOffsetBegin=2480 CharacterOffsetEnd=2481 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN for)
+        (NP
+          (NP (NNP Manziel) (POS _s))
+          (NN personality))))
+    (, ,)
+    (NP (NNP Pettine))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (JJ popular) (NN QB))
+          (VP (VBZ has) (RB n_t)
+            (VP (VBN changed))))))
+    (. .)))
+
+root(ROOT-0, said-8)
+prepc_as_for(said-8, for-2)
+poss(personality-5, Manziel-3)
+pobj(said-8, personality-5)
+nsubj(said-8, Pettine-7)
+det(QB-11, the-9)
+amod(QB-11, popular-10)
+nsubj(changed-14, QB-11)
+aux(changed-14, has-12)
+neg(changed-14, n_t-13)
+ccomp(said-8, changed-14)
+
+Sentence #26 (18 tokens):
+“I just think he’s probably a little bit more focused now,” Pettine said.
+[Text=`` CharacterOffsetBegin=2482 CharacterOffsetEnd=2483 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=I CharacterOffsetBegin=2483 CharacterOffsetEnd=2484 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=just CharacterOffsetBegin=2485 CharacterOffsetEnd=2489 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=think CharacterOffsetBegin=2490 CharacterOffsetEnd=2495 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=he CharacterOffsetBegin=2496 CharacterOffsetEnd=2498 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2498 CharacterOffsetEnd=2500 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=probably CharacterOffsetBegin=2501 CharacterOffsetEnd=2509 PartOfSpeech=RB Lemma=probably NamedEntityTag=O] [Text=a CharacterOffsetBegin=2510 CharacterOffsetEnd=2511 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=little CharacterOffsetBegin=2512 CharacterOffsetEnd=2518 PartOfSpeech=JJ Lemma=little NamedEntityTag=O] [Text=bit CharacterOffsetBegin=2519 CharacterOffsetEnd=2522 PartOfSpeech=NN Lemma=bit NamedEntityTag=O] [Text=more CharacterOffsetBegin=2523 CharacterOffsetEnd=2527 PartOfSpeech=RBR Lemma=more NamedEntityTag=O] [Text=focused CharacterOffsetBegin=2528 CharacterOffsetEnd=2535 PartOfSpeech=VBN Lemma=focus NamedEntityTag=O] [Text=now CharacterOffsetBegin=2536 CharacterOffsetEnd=2539 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t9" type="DATE" value="PRESENT_REF">now<_TIMEX3>] [Text=, CharacterOffsetBegin=2539 CharacterOffsetEnd=2540 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2540 CharacterOffsetEnd=2541 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=Pettine CharacterOffsetBegin=2542 CharacterOffsetEnd=2549 PartOfSpeech=NNP Lemma=Pettine NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2550 CharacterOffsetEnd=2554 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2554 CharacterOffsetEnd=2555 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (ADVP (RB just))
+      (VP (VBP think)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ _s)
+              (ADVP (RB probably))
+              (VP
+                (ADVP
+                  (NP (DT a) (JJ little) (NN bit))
+                  (RBR more))
+                (VBN focused)
+                (ADVP (RB now))))))))
+    (, ,) (__ __)
+    (NP (NNP Pettine))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-17)
+nsubj(think-4, I-2)
+advmod(think-4, just-3)
+ccomp(said-17, think-4)
+nsubjpass(focused-12, he-5)
+auxpass(focused-12, _s-6)
+advmod(focused-12, probably-7)
+det(bit-10, a-8)
+amod(bit-10, little-9)
+npadvmod(more-11, bit-10)
+advmod(focused-12, more-11)
+ccomp(think-4, focused-12)
+advmod(focused-12, now-13)
+nsubj(said-17, Pettine-16)
+
+Sentence #27 (23 tokens):
+“But it’s something that he knows and he has said, he’ll have to prove it every day.”
+[Text=`` CharacterOffsetBegin=2556 CharacterOffsetEnd=2557 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=But CharacterOffsetBegin=2557 CharacterOffsetEnd=2560 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=it CharacterOffsetBegin=2561 CharacterOffsetEnd=2563 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2563 CharacterOffsetEnd=2565 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=something CharacterOffsetBegin=2566 CharacterOffsetEnd=2575 PartOfSpeech=NN Lemma=something NamedEntityTag=O] [Text=that CharacterOffsetBegin=2576 CharacterOffsetEnd=2580 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=he CharacterOffsetBegin=2581 CharacterOffsetEnd=2583 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=knows CharacterOffsetBegin=2584 CharacterOffsetEnd=2589 PartOfSpeech=VBZ Lemma=know NamedEntityTag=O] [Text=and CharacterOffsetBegin=2590 CharacterOffsetEnd=2593 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=2594 CharacterOffsetEnd=2596 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=has CharacterOffsetBegin=2597 CharacterOffsetEnd=2600 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=said CharacterOffsetBegin=2601 CharacterOffsetEnd=2605 PartOfSpeech=VBN Lemma=say NamedEntityTag=O] [Text=, CharacterOffsetBegin=2605 CharacterOffsetEnd=2606 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=he CharacterOffsetBegin=2607 CharacterOffsetEnd=2609 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_ll CharacterOffsetBegin=2609 CharacterOffsetEnd=2612 PartOfSpeech=MD Lemma=_ll NamedEntityTag=O] [Text=have CharacterOffsetBegin=2613 CharacterOffsetEnd=2617 PartOfSpeech=VB Lemma=have NamedEntityTag=O] [Text=to CharacterOffsetBegin=2618 CharacterOffsetEnd=2620 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=prove CharacterOffsetBegin=2621 CharacterOffsetEnd=2626 PartOfSpeech=VB Lemma=prove NamedEntityTag=O] [Text=it CharacterOffsetBegin=2627 CharacterOffsetEnd=2629 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=every CharacterOffsetBegin=2630 CharacterOffsetEnd=2635 PartOfSpeech=DT Lemma=every NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t10" type="SET" value="P1D">every day<_TIMEX3>] [Text=day CharacterOffsetBegin=2636 CharacterOffsetEnd=2639 PartOfSpeech=NN Lemma=day NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t10" type="SET" value="P1D">every day<_TIMEX3>] [Text=. CharacterOffsetBegin=2639 CharacterOffsetEnd=2640 PartOfSpeech=. Lemma=. NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2640 CharacterOffsetEnd=2641 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (CC But)
+    (S
+      (NP (PRP it))
+      (VP (VBZ _s)
+        (NP (NN something))
+        (SBAR (IN that)
+          (S
+            (S
+              (NP (PRP he))
+              (VP (VBZ knows)))
+            (CC and)
+            (S
+              (NP (PRP he))
+              (VP (VBZ has)
+                (VP (VBN said))))))))
+    (, ,)
+    (S
+      (NP (PRP he))
+      (VP (MD _ll)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB prove)
+                (NP (PRP it))
+                (NP-TMP (DT every) (NN day))))))))
+    (. .) (__ __)))
+
+root(ROOT-0, something-5)
+cc(something-5, But-2)
+nsubj(something-5, it-3)
+cop(something-5, _s-4)
+mark(knows-8, that-6)
+nsubj(knows-8, he-7)
+ccomp(something-5, knows-8)
+nsubj(said-12, he-10)
+aux(said-12, has-11)
+conj_and(knows-8, said-12)
+nsubj(have-16, he-14)
+aux(have-16, _ll-15)
+parataxis(something-5, have-16)
+aux(prove-18, to-17)
+xcomp(have-16, prove-18)
+dobj(prove-18, it-19)
+det(day-21, every-20)
+tmod(prove-18, day-21)
+
+Sentence #28 (5 tokens):
+McCown has seen it.
+[Text=McCown CharacterOffsetBegin=2642 CharacterOffsetEnd=2648 PartOfSpeech=NNP Lemma=McCown NamedEntityTag=PERSON] [Text=has CharacterOffsetBegin=2649 CharacterOffsetEnd=2652 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=seen CharacterOffsetBegin=2653 CharacterOffsetEnd=2657 PartOfSpeech=VBN Lemma=see NamedEntityTag=O] [Text=it CharacterOffsetBegin=2658 CharacterOffsetEnd=2660 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=. CharacterOffsetBegin=2660 CharacterOffsetEnd=2661 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (NNP McCown))
+    (VP (VBZ has)
+      (VP (VBN seen)
+        (NP (PRP it))))
+    (. .)))
+
+root(ROOT-0, seen-3)
+nsubj(seen-3, McCown-1)
+aux(seen-3, has-2)
+dobj(seen-3, it-4)
+
+Sentence #29 (26 tokens):
+The 13-year veteran has only been teammates with Manziel for a short time, but said Manziel just needs to keep stacking up good days.
+[Text=The CharacterOffsetBegin=2662 CharacterOffsetEnd=2665 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=13-year CharacterOffsetBegin=2666 CharacterOffsetEnd=2673 PartOfSpeech=JJ Lemma=13-year NamedEntityTag=DURATION NormalizedNamedEntityTag=P13Y Timex=<TIMEX3 tid="t11" type="DURATION" value="P13Y">13-year<_TIMEX3>] [Text=veteran CharacterOffsetBegin=2674 CharacterOffsetEnd=2681 PartOfSpeech=NN Lemma=veteran NamedEntityTag=O] [Text=has CharacterOffsetBegin=2682 CharacterOffsetEnd=2685 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=only CharacterOffsetBegin=2686 CharacterOffsetEnd=2690 PartOfSpeech=RB Lemma=only NamedEntityTag=O] [Text=been CharacterOffsetBegin=2691 CharacterOffsetEnd=2695 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=teammates CharacterOffsetBegin=2696 CharacterOffsetEnd=2705 PartOfSpeech=NNS Lemma=teammate NamedEntityTag=O] [Text=with CharacterOffsetBegin=2706 CharacterOffsetEnd=2710 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=2711 CharacterOffsetEnd=2718 PartOfSpeech=NN Lemma=manziel NamedEntityTag=PERSON] [Text=for CharacterOffsetBegin=2719 CharacterOffsetEnd=2722 PartOfSpeech=IN Lemma=for NamedEntityTag=O] [Text=a CharacterOffsetBegin=2723 CharacterOffsetEnd=2724 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=short CharacterOffsetBegin=2725 CharacterOffsetEnd=2730 PartOfSpeech=JJ Lemma=short NamedEntityTag=O] [Text=time CharacterOffsetBegin=2731 CharacterOffsetEnd=2735 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=, CharacterOffsetBegin=2735 CharacterOffsetEnd=2736 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=but CharacterOffsetBegin=2737 CharacterOffsetEnd=2740 PartOfSpeech=CC Lemma=but NamedEntityTag=O] [Text=said CharacterOffsetBegin=2741 CharacterOffsetEnd=2745 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=Manziel CharacterOffsetBegin=2746 CharacterOffsetEnd=2753 PartOfSpeech=NNP Lemma=Manziel NamedEntityTag=PERSON] [Text=just CharacterOffsetBegin=2754 CharacterOffsetEnd=2758 PartOfSpeech=RB Lemma=just NamedEntityTag=O] [Text=needs CharacterOffsetBegin=2759 CharacterOffsetEnd=2764 PartOfSpeech=VBZ Lemma=need NamedEntityTag=O] [Text=to CharacterOffsetBegin=2765 CharacterOffsetEnd=2767 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=keep CharacterOffsetBegin=2768 CharacterOffsetEnd=2772 PartOfSpeech=VB Lemma=keep NamedEntityTag=O] [Text=stacking CharacterOffsetBegin=2773 CharacterOffsetEnd=2781 PartOfSpeech=VBG Lemma=stack NamedEntityTag=O] [Text=up CharacterOffsetBegin=2782 CharacterOffsetEnd=2784 PartOfSpeech=RB Lemma=up NamedEntityTag=O] [Text=good CharacterOffsetBegin=2785 CharacterOffsetEnd=2789 PartOfSpeech=JJ Lemma=good NamedEntityTag=O] [Text=days CharacterOffsetBegin=2790 CharacterOffsetEnd=2794 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t12" type="DURATION" value="PXD">days<_TIMEX3>] [Text=. CharacterOffsetBegin=2794 CharacterOffsetEnd=2795 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (DT The) (JJ 13-year) (NN veteran))
+    (VP
+      (VP (VBZ has)
+        (ADVP (RB only))
+        (VP (VBN been)
+          (NP
+            (NP (NNS teammates))
+            (PP (IN with)
+              (NP (NN Manziel))))
+          (PP (IN for)
+            (NP (DT a) (JJ short) (NN time)))))
+      (, ,)
+      (CC but)
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (NNP Manziel))
+            (ADVP (RB just))
+            (VP (VBZ needs)
+              (S
+                (VP (TO to)
+                  (VP (VB keep)
+                    (S
+                      (VP (VBG stacking)
+                        (PRT (RB up))
+                        (NP (JJ good) (NNS days))))))))))))
+    (. .)))
+
+root(ROOT-0, teammates-7)
+det(veteran-3, The-1)
+amod(veteran-3, 13-year-2)
+nsubj(teammates-7, veteran-3)
+aux(teammates-7, has-4)
+advmod(teammates-7, only-5)
+cop(teammates-7, been-6)
+prep_with(teammates-7, Manziel-9)
+det(time-13, a-11)
+amod(time-13, short-12)
+prep_for(teammates-7, time-13)
+conj_but(teammates-7, said-16)
+nsubj(needs-19, Manziel-17)
+advmod(needs-19, just-18)
+ccomp(said-16, needs-19)
+aux(keep-21, to-20)
+xcomp(needs-19, keep-21)
+xcomp(keep-21, stacking-22)
+prt(stacking-22, up-23)
+amod(days-25, good-24)
+tmod(stacking-22, days-25)
+
+Sentence #30 (7 tokens):
+“His position is very demanding.
+[Text=`` CharacterOffsetBegin=2796 CharacterOffsetEnd=2797 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=His CharacterOffsetBegin=2797 CharacterOffsetEnd=2800 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O] [Text=position CharacterOffsetBegin=2801 CharacterOffsetEnd=2809 PartOfSpeech=NN Lemma=position NamedEntityTag=O] [Text=is CharacterOffsetBegin=2810 CharacterOffsetEnd=2812 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=very CharacterOffsetBegin=2813 CharacterOffsetEnd=2817 PartOfSpeech=RB Lemma=very NamedEntityTag=O] [Text=demanding CharacterOffsetBegin=2818 CharacterOffsetEnd=2827 PartOfSpeech=VBG Lemma=demand NamedEntityTag=O] [Text=. CharacterOffsetBegin=2827 CharacterOffsetEnd=2828 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (`` ``)
+    (NP (PRP$ His) (NN position))
+    (VP (VBZ is)
+      (ADVP (RB very)
+        (VP (VBG demanding))))
+    (. .)))
+
+root(ROOT-0, is-4)
+poss(position-3, His-2)
+nsubj(is-4, position-3)
+advmod(is-4, very-5)
+dep(very-5, demanding-6)
+
+Sentence #31 (39 tokens):
+It’s demanding of a lot of things — emotionally, your time and effort — and I think he’s understanding that and he’s embracing that, and that’s the key,” McCown said.
+[Text=It CharacterOffsetBegin=2829 CharacterOffsetEnd=2831 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2831 CharacterOffsetEnd=2833 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=demanding CharacterOffsetBegin=2834 CharacterOffsetEnd=2843 PartOfSpeech=VBG Lemma=demand NamedEntityTag=O] [Text=of CharacterOffsetBegin=2844 CharacterOffsetEnd=2846 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=a CharacterOffsetBegin=2847 CharacterOffsetEnd=2848 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=lot CharacterOffsetBegin=2849 CharacterOffsetEnd=2852 PartOfSpeech=NN Lemma=lot NamedEntityTag=O] [Text=of CharacterOffsetBegin=2853 CharacterOffsetEnd=2855 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=things CharacterOffsetBegin=2856 CharacterOffsetEnd=2862 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2863 CharacterOffsetEnd=2864 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=emotionally CharacterOffsetBegin=2865 CharacterOffsetEnd=2876 PartOfSpeech=RB Lemma=emotionally NamedEntityTag=O] [Text=, CharacterOffsetBegin=2876 CharacterOffsetEnd=2877 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=your CharacterOffsetBegin=2878 CharacterOffsetEnd=2882 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=time CharacterOffsetBegin=2883 CharacterOffsetEnd=2887 PartOfSpeech=NN Lemma=time NamedEntityTag=O] [Text=and CharacterOffsetBegin=2888 CharacterOffsetEnd=2891 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=effort CharacterOffsetBegin=2892 CharacterOffsetEnd=2898 PartOfSpeech=NN Lemma=effort NamedEntityTag=O] [Text=-- CharacterOffsetBegin=2899 CharacterOffsetEnd=2900 PartOfSpeech=: Lemma=-- NamedEntityTag=O] [Text=and CharacterOffsetBegin=2901 CharacterOffsetEnd=2904 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=I CharacterOffsetBegin=2905 CharacterOffsetEnd=2906 PartOfSpeech=PRP Lemma=I NamedEntityTag=O] [Text=think CharacterOffsetBegin=2907 CharacterOffsetEnd=2912 PartOfSpeech=VBP Lemma=think NamedEntityTag=O] [Text=he CharacterOffsetBegin=2913 CharacterOffsetEnd=2915 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2915 CharacterOffsetEnd=2917 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=understanding CharacterOffsetBegin=2918 CharacterOffsetEnd=2931 PartOfSpeech=VBG Lemma=understand NamedEntityTag=O] [Text=that CharacterOffsetBegin=2932 CharacterOffsetEnd=2936 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=and CharacterOffsetBegin=2937 CharacterOffsetEnd=2940 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=he CharacterOffsetBegin=2941 CharacterOffsetEnd=2943 PartOfSpeech=PRP Lemma=he NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2943 CharacterOffsetEnd=2945 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=embracing CharacterOffsetBegin=2946 CharacterOffsetEnd=2955 PartOfSpeech=VBG Lemma=embrace NamedEntityTag=O] [Text=that CharacterOffsetBegin=2956 CharacterOffsetEnd=2960 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=, CharacterOffsetBegin=2960 CharacterOffsetEnd=2961 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=and CharacterOffsetBegin=2962 CharacterOffsetEnd=2965 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=that CharacterOffsetBegin=2966 CharacterOffsetEnd=2970 PartOfSpeech=DT Lemma=that NamedEntityTag=O] [Text=_s CharacterOffsetBegin=2970 CharacterOffsetEnd=2972 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O] [Text=the CharacterOffsetBegin=2973 CharacterOffsetEnd=2976 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=key CharacterOffsetBegin=2977 CharacterOffsetEnd=2980 PartOfSpeech=NN Lemma=key NamedEntityTag=O] [Text=, CharacterOffsetBegin=2980 CharacterOffsetEnd=2981 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=__ CharacterOffsetBegin=2981 CharacterOffsetEnd=2982 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=McCown CharacterOffsetBegin=2983 CharacterOffsetEnd=2989 PartOfSpeech=NNP Lemma=McCown NamedEntityTag=PERSON] [Text=said CharacterOffsetBegin=2990 CharacterOffsetEnd=2994 PartOfSpeech=VBD Lemma=say NamedEntityTag=O] [Text=. CharacterOffsetBegin=2994 CharacterOffsetEnd=2995 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP It))
+        (VP (VBZ _s)
+          (VP (VBG demanding)
+            (PP (IN of)
+              (NP
+                (NP (DT a) (NN lot))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS things))
+                    (PRN (: --)
+                      (ADVP (RB emotionally))
+                      (, ,)
+                      (NP
+                        (NP (PRP$ your) (NN time))
+                        (CC and)
+                        (NP (NN effort)))
+                      (: --)))))))))
+      (CC and)
+      (S
+        (NP (PRP I))
+        (VP (VBP think)
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (VBZ _s)
+                (VP (VBG understanding)
+                  (SBAR (IN that)
+                    (S
+                      (S (CC and)
+                        (NP (PRP he))
+                        (VP (VBZ _s)
+                          (VP (VBG embracing) (IN that))))
+                      (, ,)
+                      (CC and)
+                      (S
+                        (NP (DT that))
+                        (VP (VBZ _s)
+                          (NP (DT the) (NN key)))))))))))))
+    (, ,) (__ __)
+    (NP (NNP McCown))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-38)
+nsubj(demanding-3, It-1)
+aux(demanding-3, _s-2)
+ccomp(said-38, demanding-3)
+det(lot-6, a-5)
+prep_of(demanding-3, lot-6)
+prep_of(lot-6, things-8)
+dep(time-13, emotionally-10)
+poss(time-13, your-12)
+dep(things-8, time-13)
+conj_and(time-13, effort-15)
+nsubj(think-19, I-18)
+conj_and(demanding-3, think-19)
+nsubj(understanding-22, he-20)
+aux(understanding-22, _s-21)
+ccomp(think-19, understanding-22)
+mark(embracing-27, that-23)
+nsubj(embracing-27, he-25)
+aux(embracing-27, _s-26)
+ccomp(understanding-22, embracing-27)
+dep(embracing-27, that-28)
+nsubj(key-34, that-31)
+cop(key-34, _s-32)
+det(key-34, the-33)
+conj_and(embracing-27, key-34)
+nsubj(said-38, McCown-37)
+
+Sentence #32 (94 tokens):
+Share this:
+Sign Up _ Sign In Sign In __ Sign Up
+With your existing account from...
+{* loginWidget *}
+{* #userInformationForm *}                     {* traditionalSignIn_emailAddress *}                     {* traditionalSignIn_password *}
+Welcome Back, {* welcomeName *}
+Welcome back
+{* #socialRegistrationForm *}             {* socialRegistration_emailAddress *}             {* socialRegistration_displayName *}             {* socialRegistration_ageVerification *}             By clicking "Sign In", you confirm that you accept our terms of service and have read and understand privacy policy .
+[Text=Share CharacterOffsetBegin=2996 CharacterOffsetEnd=3001 PartOfSpeech=NN Lemma=share NamedEntityTag=O] [Text=this CharacterOffsetBegin=3002 CharacterOffsetEnd=3006 PartOfSpeech=DT Lemma=this NamedEntityTag=O] [Text=: CharacterOffsetBegin=3006 CharacterOffsetEnd=3007 PartOfSpeech=: Lemma=: NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3008 CharacterOffsetEnd=3012 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=Up CharacterOffsetBegin=3013 CharacterOffsetEnd=3015 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=_ CharacterOffsetBegin=3016 CharacterOffsetEnd=3017 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3018 CharacterOffsetEnd=3022 PartOfSpeech=NN Lemma=sign NamedEntityTag=O] [Text=In CharacterOffsetBegin=3023 CharacterOffsetEnd=3025 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3026 CharacterOffsetEnd=3030 PartOfSpeech=NN Lemma=sign NamedEntityTag=O] [Text=In CharacterOffsetBegin=3031 CharacterOffsetEnd=3033 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=_ CharacterOffsetBegin=3034 CharacterOffsetEnd=3035 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=_ CharacterOffsetBegin=3035 CharacterOffsetEnd=3036 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3037 CharacterOffsetEnd=3041 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=Up CharacterOffsetBegin=3042 CharacterOffsetEnd=3044 PartOfSpeech=RP Lemma=up NamedEntityTag=O] [Text=With CharacterOffsetBegin=3045 CharacterOffsetEnd=3049 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=your CharacterOffsetBegin=3050 CharacterOffsetEnd=3054 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=existing CharacterOffsetBegin=3055 CharacterOffsetEnd=3063 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O] [Text=account CharacterOffsetBegin=3064 CharacterOffsetEnd=3071 PartOfSpeech=NN Lemma=account NamedEntityTag=O] [Text=from CharacterOffsetBegin=3072 CharacterOffsetEnd=3076 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=... CharacterOffsetBegin=3076 CharacterOffsetEnd=3079 PartOfSpeech=: Lemma=... NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3080 CharacterOffsetEnd=3081 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3081 CharacterOffsetEnd=3082 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=loginWidget CharacterOffsetBegin=3083 CharacterOffsetEnd=3094 PartOfSpeech=NN Lemma=loginwidget NamedEntityTag=O] [Text=* CharacterOffsetBegin=3095 CharacterOffsetEnd=3096 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3096 CharacterOffsetEnd=3097 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3098 CharacterOffsetEnd=3099 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3099 CharacterOffsetEnd=3100 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=#userInformationForm CharacterOffsetBegin=3101 CharacterOffsetEnd=3121 PartOfSpeech=NN Lemma=#userinformationform NamedEntityTag=O] [Text=* CharacterOffsetBegin=3122 CharacterOffsetEnd=3123 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3123 CharacterOffsetEnd=3124 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3145 CharacterOffsetEnd=3146 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3146 CharacterOffsetEnd=3147 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=traditionalSignIn_emailAddress CharacterOffsetBegin=3148 CharacterOffsetEnd=3178 PartOfSpeech=NN Lemma=traditionalsignin_emailaddress NamedEntityTag=O] [Text=* CharacterOffsetBegin=3179 CharacterOffsetEnd=3180 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3180 CharacterOffsetEnd=3181 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3202 CharacterOffsetEnd=3203 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3203 CharacterOffsetEnd=3204 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=traditionalSignIn_password CharacterOffsetBegin=3205 CharacterOffsetEnd=3231 PartOfSpeech=NN Lemma=traditionalsignin_password NamedEntityTag=O] [Text=* CharacterOffsetBegin=3232 CharacterOffsetEnd=3233 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3233 CharacterOffsetEnd=3234 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=Welcome CharacterOffsetBegin=3235 CharacterOffsetEnd=3242 PartOfSpeech=UH Lemma=welcome NamedEntityTag=O] [Text=Back CharacterOffsetBegin=3243 CharacterOffsetEnd=3247 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=, CharacterOffsetBegin=3247 CharacterOffsetEnd=3248 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3249 CharacterOffsetEnd=3250 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3250 CharacterOffsetEnd=3251 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=welcomeName CharacterOffsetBegin=3252 CharacterOffsetEnd=3263 PartOfSpeech=NNP Lemma=welcomeName NamedEntityTag=O] [Text=* CharacterOffsetBegin=3264 CharacterOffsetEnd=3265 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3265 CharacterOffsetEnd=3266 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=Welcome CharacterOffsetBegin=3267 CharacterOffsetEnd=3274 PartOfSpeech=VB Lemma=welcome NamedEntityTag=O] [Text=back CharacterOffsetBegin=3275 CharacterOffsetEnd=3279 PartOfSpeech=RB Lemma=back NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3280 CharacterOffsetEnd=3281 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3281 CharacterOffsetEnd=3282 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=#socialRegistrationForm CharacterOffsetBegin=3283 CharacterOffsetEnd=3306 PartOfSpeech=NN Lemma=#socialregistrationform NamedEntityTag=O] [Text=* CharacterOffsetBegin=3307 CharacterOffsetEnd=3308 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3308 CharacterOffsetEnd=3309 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3322 CharacterOffsetEnd=3323 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3323 CharacterOffsetEnd=3324 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=socialRegistration_emailAddress CharacterOffsetBegin=3325 CharacterOffsetEnd=3356 PartOfSpeech=NN Lemma=socialregistration_emailaddress NamedEntityTag=O] [Text=* CharacterOffsetBegin=3357 CharacterOffsetEnd=3358 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3358 CharacterOffsetEnd=3359 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3372 CharacterOffsetEnd=3373 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3373 CharacterOffsetEnd=3374 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=socialRegistration_displayName CharacterOffsetBegin=3375 CharacterOffsetEnd=3405 PartOfSpeech=NN Lemma=socialregistration_displayname NamedEntityTag=O] [Text=* CharacterOffsetBegin=3406 CharacterOffsetEnd=3407 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3407 CharacterOffsetEnd=3408 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3421 CharacterOffsetEnd=3422 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3422 CharacterOffsetEnd=3423 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=socialRegistration_ageVerification CharacterOffsetBegin=3424 CharacterOffsetEnd=3458 PartOfSpeech=NN Lemma=socialregistration_ageverification NamedEntityTag=O] [Text=* CharacterOffsetBegin=3459 CharacterOffsetEnd=3460 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3460 CharacterOffsetEnd=3461 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=By CharacterOffsetBegin=3474 CharacterOffsetEnd=3476 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=clicking CharacterOffsetBegin=3477 CharacterOffsetEnd=3485 PartOfSpeech=VBG Lemma=click NamedEntityTag=O] [Text=`` CharacterOffsetBegin=3486 CharacterOffsetEnd=3487 PartOfSpeech=`` Lemma=`` NamedEntityTag=O] [Text=Sign CharacterOffsetBegin=3487 CharacterOffsetEnd=3491 PartOfSpeech=VB Lemma=sign NamedEntityTag=O] [Text=In CharacterOffsetBegin=3492 CharacterOffsetEnd=3494 PartOfSpeech=IN Lemma=in NamedEntityTag=O] [Text=__ CharacterOffsetBegin=3494 CharacterOffsetEnd=3495 PartOfSpeech=__ Lemma=__ NamedEntityTag=O] [Text=, CharacterOffsetBegin=3495 CharacterOffsetEnd=3496 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=you CharacterOffsetBegin=3497 CharacterOffsetEnd=3500 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=confirm CharacterOffsetBegin=3501 CharacterOffsetEnd=3508 PartOfSpeech=VBP Lemma=confirm NamedEntityTag=O] [Text=that CharacterOffsetBegin=3509 CharacterOffsetEnd=3513 PartOfSpeech=IN Lemma=that NamedEntityTag=O] [Text=you CharacterOffsetBegin=3514 CharacterOffsetEnd=3517 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=accept CharacterOffsetBegin=3518 CharacterOffsetEnd=3524 PartOfSpeech=VBP Lemma=accept NamedEntityTag=O] [Text=our CharacterOffsetBegin=3525 CharacterOffsetEnd=3528 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O] [Text=terms CharacterOffsetBegin=3529 CharacterOffsetEnd=3534 PartOfSpeech=NNS Lemma=term NamedEntityTag=O] [Text=of CharacterOffsetBegin=3535 CharacterOffsetEnd=3537 PartOfSpeech=IN Lemma=of NamedEntityTag=O] [Text=service CharacterOffsetBegin=3538 CharacterOffsetEnd=3545 PartOfSpeech=NN Lemma=service NamedEntityTag=O] [Text=and CharacterOffsetBegin=3546 CharacterOffsetEnd=3549 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=have CharacterOffsetBegin=3550 CharacterOffsetEnd=3554 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=read CharacterOffsetBegin=3555 CharacterOffsetEnd=3559 PartOfSpeech=VBN Lemma=read NamedEntityTag=O] [Text=and CharacterOffsetBegin=3560 CharacterOffsetEnd=3563 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=understand CharacterOffsetBegin=3564 CharacterOffsetEnd=3574 PartOfSpeech=VB Lemma=understand NamedEntityTag=O] [Text=privacy CharacterOffsetBegin=3575 CharacterOffsetEnd=3582 PartOfSpeech=NN Lemma=privacy NamedEntityTag=O] [Text=policy CharacterOffsetBegin=3583 CharacterOffsetEnd=3589 PartOfSpeech=NN Lemma=policy NamedEntityTag=O] [Text=. CharacterOffsetBegin=3590 CharacterOffsetEnd=3591 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP (NN Share))
+      (VP
+        (NP
+          (NP
+            (NP
+              (NP (DT this))
+              (PRN (: :)
+                (S
+                  (VP (VB Sign)
+                    (PRT (RP Up))))
+                (: _)))
+            (NP
+              (NP (NN Sign))
+              (PP
+                (PP (IN In)
+                  (FRAG
+                    (ADJP
+                      (ADJP (NN Sign))
+                      (PP (IN In)))
+                    (: _)))
+                (PRN (: _)
+                  (S
+                    (VP (VB Sign)
+                      (PRT (RP Up))
+                      (SBAR
+                        (SBAR (IN With)
+                          (S
+                            (NP (PRP$ your))
+                            (VP (VBG existing)
+                              (NP (NN account))
+                              (PP (IN from)))))
+                        (: ...)
+                        (PRN (-LRB- -LCB-)
+                          (S
+                            (VP (SYM *)
+                              (NP (NN loginWidget))
+                              (X (SYM *))))
+                          (-RRB- -RCB-)))))))))
+          (PRN (-LRB- -LCB-)
+            (X
+              (X (SYM *))
+              (NP (NN #userInformationForm) (SYM *)))
+            (-RRB- -RCB-)))
+        (PRN (-LRB- -LCB-)
+          (FRAG
+            (X (SYM *))
+            (NP (NN traditionalSignIn_emailAddress) (SYM *)))
+          (-RRB- -RCB-))))
+    (PRN (-LRB- -LCB-)
+      (SBAR
+        (X (SYM *))
+        (S
+          (NP
+            (NP (NN traditionalSignIn_password))
+            (SBAR
+              (S
+                (VP (SYM *) (-RRB- -RCB-)
+                  (NP
+                    (INTJ (UH Welcome))
+                    (NP (RB Back)))
+                  (, ,)
+                  (PRN (-LRB- -LCB-)
+                    (SBAR
+                      (X (SYM *))
+                      (S
+                        (NP (NNP welcomeName))
+                        (VP (SYM *))))
+                    (-RRB- -RCB-))))))
+          (VP (VB Welcome)
+            (NP
+              (NP
+                (NP
+                  (NP
+                    (NP
+                      (NP (RB back))
+                      (PRN (-LRB- -LCB-)
+                        (X
+                          (X (SYM *))
+                          (NP (NN #socialRegistrationForm) (SYM *)))
+                        (-RRB- -RCB-)))
+                    (PRN (-LRB- -LCB-)
+                      (X
+                        (X (SYM *))
+                        (NP (NN socialRegistration_emailAddress) (SYM *)))
+                      (-RRB- -RCB-)))
+                  (PRN (-LRB- -LCB-)
+                    (X
+                      (X (SYM *))
+                      (NP (NN socialRegistration_displayName) (SYM *)))
+                    (-RRB- -RCB-)))
+                (PRN (-LRB- -LCB-)
+                  (X (SYM *))
+                  (NN socialRegistration_ageVerification)))
+              (X (SYM *))))))
+      (-RRB- -RCB-))
+    (S
+      (PP (IN By)
+        (S
+          (VP (VBG clicking)
+            (S
+              (VP (`` ``) (VB Sign)
+                (ADVP (IN In))
+                (__ __))))))
+      (, ,)
+      (NP (PRP you))
+      (VP (VBP confirm)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP
+              (VP (VBP accept)
+                (NP
+                  (NP (PRP$ our) (NNS terms))
+                  (PP (IN of)
+                    (NP (NN service)))))
+              (CC and)
+              (VP (VBP have)
+                (VP
+                  (VP (VBN read))
+                  (CC and)
+                  (VP (VB understand)
+                    (NP (NN privacy) (NN policy))))))))))
+    (. .)))
+
+root(ROOT-0, this-2)
+nsubj(this-2, Share-1)
+dep(this-2, Sign-4)
+prt(Sign-4, Up-5)
+punct(Sign-4, _-6)
+dep(this-2, Sign-7)
+prep(Sign-7, In-8)
+dep(In-8, Sign-9)
+prep(Sign-9, In-10)
+punct(Sign-9, _-11)
+punct(Sign-13, _-12)
+dep(In-8, Sign-13)
+prt(Sign-13, Up-14)
+mark(existing-17, With-15)
+nsubj(existing-17, your-16)
+advcl(Sign-13, existing-17)
+dobj(existing-17, account-18)
+prep(existing-17, from-19)
+dep(loginWidget-23, *-22)
+dep(existing-17, loginWidget-23)
+dep(loginWidget-23, *-24)
+dep(#userInformationForm-28, *-27)
+dep(this-2, #userInformationForm-28)
+dep(#userInformationForm-28, *-29)
+dep(traditionalSignIn_emailAddress-33, *-32)
+dep(this-2, traditionalSignIn_emailAddress-33)
+dep(traditionalSignIn_emailAddress-33, *-34)
+dep(Welcome-49, *-37)
+nsubj(Welcome-49, traditionalSignIn_password-38)
+dep(Back-42, *-39)
+discourse(Back-42, Welcome-41)
+rcmod(traditionalSignIn_password-38, Back-42)
+dep(*-47, *-45)
+nsubj(*-47, welcomeName-46)
+parataxis(Back-42, *-47)
+dep(this-2, Welcome-49)
+dobj(Welcome-49, back-50)
+dep(#socialRegistrationForm-53, *-52)
+dep(back-50, #socialRegistrationForm-53)
+dep(#socialRegistrationForm-53, *-54)
+dep(socialRegistration_emailAddress-58, *-57)
+dep(back-50, socialRegistration_emailAddress-58)
+dep(socialRegistration_emailAddress-58, *-59)
+dep(socialRegistration_displayName-63, *-62)
+dep(back-50, socialRegistration_displayName-63)
+dep(socialRegistration_displayName-63, *-64)
+dep(socialRegistration_ageVerification-68, *-67)
+dep(back-50, socialRegistration_ageVerification-68)
+dep(back-50, *-69)
+prepc_by(confirm-79, clicking-72)
+ccomp(clicking-72, Sign-74)
+advmod(Sign-74, In-75)
+nsubj(confirm-79, you-78)
+parataxis(this-2, confirm-79)
+mark(accept-82, that-80)
+nsubj(accept-82, you-81)
+ccomp(confirm-79, accept-82)
+poss(terms-84, our-83)
+dobj(accept-82, terms-84)
+prep_of(terms-84, service-86)
+aux(read-89, have-88)
+conj_and(accept-82, read-89)
+conj_and(read-89, understand-91)
+nn(policy-93, privacy-92)
+dobj(understand-91, policy-93)
+
+Sentence #33 (18 tokens):
+{* backButton *}
+{* socialRegistration_signInButton *}
+{* _socialRegistrationForm *}
+Password?
+[Text=-LCB- CharacterOffsetBegin=3592 CharacterOffsetEnd=3593 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3593 CharacterOffsetEnd=3594 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=backButton CharacterOffsetBegin=3595 CharacterOffsetEnd=3605 PartOfSpeech=NN Lemma=backbutton NamedEntityTag=O] [Text=* CharacterOffsetBegin=3606 CharacterOffsetEnd=3607 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3607 CharacterOffsetEnd=3608 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3609 CharacterOffsetEnd=3610 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3610 CharacterOffsetEnd=3611 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=socialRegistration_signInButton CharacterOffsetBegin=3612 CharacterOffsetEnd=3643 PartOfSpeech=NN Lemma=socialregistration_signinbutton NamedEntityTag=O] [Text=* CharacterOffsetBegin=3644 CharacterOffsetEnd=3645 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3645 CharacterOffsetEnd=3646 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3647 CharacterOffsetEnd=3648 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3648 CharacterOffsetEnd=3649 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=_ CharacterOffsetBegin=3650 CharacterOffsetEnd=3651 PartOfSpeech=: Lemma=_ NamedEntityTag=O] [Text=socialRegistrationForm CharacterOffsetBegin=3651 CharacterOffsetEnd=3673 PartOfSpeech=NN Lemma=socialregistrationform NamedEntityTag=O] [Text=* CharacterOffsetBegin=3674 CharacterOffsetEnd=3675 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3675 CharacterOffsetEnd=3676 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=Password CharacterOffsetBegin=3677 CharacterOffsetEnd=3685 PartOfSpeech=NNP Lemma=Password NamedEntityTag=O] [Text=? CharacterOffsetBegin=3685 CharacterOffsetEnd=3686 PartOfSpeech=. Lemma=? NamedEntityTag=O] 
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (-LRB- -LCB-)
+          (QP (SYM *) (NN backButton) (SYM *))
+          (-RRB- -RCB-))
+        (PRN (-LRB- -LCB-)
+          (X
+            (X (SYM *))
+            (NP (NN socialRegistration_signInButton) (SYM *)))
+          (-RRB- -RCB-)))
+      (PRN (-LRB- -LCB-)
+        (FRAG
+          (X (SYM *))
+          (: _)
+          (NP (NN socialRegistrationForm) (SYM *)))
+        (-RRB- -RCB-)))
+    (ADJP (NNP Password))
+    (. ?)))
+
+root(ROOT-0, backButton-3)
+dep(backButton-3, *-2)
+dep(backButton-3, *-4)
+dep(socialRegistration_signInButton-8, *-7)
+dep(backButton-3, socialRegistration_signInButton-8)
+dep(socialRegistration_signInButton-8, *-9)
+dep(socialRegistrationForm-14, *-12)
+punct(socialRegistrationForm-14, _-13)
+dep(backButton-3, socialRegistrationForm-14)
+dep(socialRegistrationForm-14, *-15)
+amod(backButton-3, Password-17)
+
+Sentence #34 (7 tokens):
+Don_t worry, it happens.
+[Text=Do CharacterOffsetBegin=3687 CharacterOffsetEnd=3689 PartOfSpeech=VBP Lemma=do NamedEntityTag=O] [Text=n_t CharacterOffsetBegin=3689 CharacterOffsetEnd=3692 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=worry CharacterOffsetBegin=3693 CharacterOffsetEnd=3698 PartOfSpeech=VB Lemma=worry NamedEntityTag=O] [Text=, CharacterOffsetBegin=3698 CharacterOffsetEnd=3699 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=it CharacterOffsetBegin=3700 CharacterOffsetEnd=3702 PartOfSpeech=PRP Lemma=it NamedEntityTag=O] [Text=happens CharacterOffsetBegin=3703 CharacterOffsetEnd=3710 PartOfSpeech=VBZ Lemma=happen NamedEntityTag=O] [Text=. CharacterOffsetBegin=3710 CharacterOffsetEnd=3711 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (VP (VBP Do) (RB n_t)
+        (VP (VB worry))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ happens))
+    (. .)))
+
+root(ROOT-0, happens-6)
+aux(worry-3, Do-1)
+neg(worry-3, n_t-2)
+ccomp(happens-6, worry-3)
+nsubj(happens-6, it-5)
+
+Sentence #35 (12 tokens):
+We_ll send you a link to create a new password.
+[Text=We CharacterOffsetBegin=3712 CharacterOffsetEnd=3714 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ll CharacterOffsetBegin=3714 CharacterOffsetEnd=3717 PartOfSpeech=MD Lemma=_ll NamedEntityTag=O] [Text=send CharacterOffsetBegin=3718 CharacterOffsetEnd=3722 PartOfSpeech=VB Lemma=send NamedEntityTag=O] [Text=you CharacterOffsetBegin=3723 CharacterOffsetEnd=3726 PartOfSpeech=PRP Lemma=you NamedEntityTag=O] [Text=a CharacterOffsetBegin=3727 CharacterOffsetEnd=3728 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=link CharacterOffsetBegin=3729 CharacterOffsetEnd=3733 PartOfSpeech=NN Lemma=link NamedEntityTag=O] [Text=to CharacterOffsetBegin=3734 CharacterOffsetEnd=3736 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=create CharacterOffsetBegin=3737 CharacterOffsetEnd=3743 PartOfSpeech=VB Lemma=create NamedEntityTag=O] [Text=a CharacterOffsetBegin=3744 CharacterOffsetEnd=3745 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=3746 CharacterOffsetEnd=3749 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=password CharacterOffsetBegin=3750 CharacterOffsetEnd=3758 PartOfSpeech=NN Lemma=password NamedEntityTag=O] [Text=. CharacterOffsetBegin=3758 CharacterOffsetEnd=3759 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD _ll)
+      (VP (VB send)
+        (NP (PRP you))
+        (NP (DT a) (NN link)
+          (S
+            (VP (TO to)
+              (VP (VB create)
+                (NP (DT a) (JJ new) (NN password))))))))
+    (. .)))
+
+root(ROOT-0, send-3)
+nsubj(send-3, We-1)
+aux(send-3, _ll-2)
+iobj(send-3, you-4)
+det(link-6, a-5)
+dobj(send-3, link-6)
+aux(create-8, to-7)
+vmod(link-6, create-8)
+det(password-11, a-9)
+amod(password-11, new-10)
+dobj(create-8, password-11)
+
+Sentence #36 (16 tokens):
+{* #forgotPasswordForm *}         {* traditionalSignIn_emailAddress *}
+Create a new password Sent!
+[Text=-LCB- CharacterOffsetBegin=3760 CharacterOffsetEnd=3761 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3761 CharacterOffsetEnd=3762 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=#forgotPasswordForm CharacterOffsetBegin=3763 CharacterOffsetEnd=3782 PartOfSpeech=NN Lemma=#forgotpasswordform NamedEntityTag=O] [Text=* CharacterOffsetBegin=3783 CharacterOffsetEnd=3784 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3784 CharacterOffsetEnd=3785 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=3794 CharacterOffsetEnd=3795 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3795 CharacterOffsetEnd=3796 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=traditionalSignIn_emailAddress CharacterOffsetBegin=3797 CharacterOffsetEnd=3827 PartOfSpeech=NN Lemma=traditionalsignin_emailaddress NamedEntityTag=O] [Text=* CharacterOffsetBegin=3828 CharacterOffsetEnd=3829 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3829 CharacterOffsetEnd=3830 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=Create CharacterOffsetBegin=3831 CharacterOffsetEnd=3837 PartOfSpeech=VB Lemma=create NamedEntityTag=O] [Text=a CharacterOffsetBegin=3838 CharacterOffsetEnd=3839 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=3840 CharacterOffsetEnd=3843 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=password CharacterOffsetBegin=3844 CharacterOffsetEnd=3852 PartOfSpeech=NN Lemma=password NamedEntityTag=O] [Text=Sent CharacterOffsetBegin=3853 CharacterOffsetEnd=3857 PartOfSpeech=NN Lemma=sent NamedEntityTag=O] [Text=! CharacterOffsetBegin=3857 CharacterOffsetEnd=3858 PartOfSpeech=. Lemma=! NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LCB-)
+        (QP (SYM *) (NN #forgotPasswordForm) (SYM *))
+        (-RRB- -RCB-))
+      (PRN (-LRB- -LCB-)
+        (X
+          (X (SYM *))
+          (NP (NN traditionalSignIn_emailAddress) (SYM *)))
+        (-RRB- -RCB-)))
+    (VP (VB Create)
+      (NP (DT a) (JJ new) (NN password) (NN Sent)))
+    (. !)))
+
+root(ROOT-0, Create-11)
+dep(#forgotPasswordForm-3, *-2)
+nsubj(Create-11, #forgotPasswordForm-3)
+dep(#forgotPasswordForm-3, *-4)
+dep(traditionalSignIn_emailAddress-8, *-7)
+dep(#forgotPasswordForm-3, traditionalSignIn_emailAddress-8)
+dep(traditionalSignIn_emailAddress-8, *-9)
+det(Sent-15, a-12)
+amod(Sent-15, new-13)
+nn(Sent-15, password-14)
+dobj(Create-11, Sent-15)
+
+Sentence #37 (13 tokens):
+We_ve sent an email with instructions to create a new password.
+[Text=We CharacterOffsetBegin=3859 CharacterOffsetEnd=3861 PartOfSpeech=PRP Lemma=we NamedEntityTag=O] [Text=_ve CharacterOffsetBegin=3861 CharacterOffsetEnd=3864 PartOfSpeech=VBP Lemma=have NamedEntityTag=O] [Text=sent CharacterOffsetBegin=3865 CharacterOffsetEnd=3869 PartOfSpeech=VBN Lemma=send NamedEntityTag=O] [Text=an CharacterOffsetBegin=3870 CharacterOffsetEnd=3872 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=email CharacterOffsetBegin=3873 CharacterOffsetEnd=3878 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=with CharacterOffsetBegin=3879 CharacterOffsetEnd=3883 PartOfSpeech=IN Lemma=with NamedEntityTag=O] [Text=instructions CharacterOffsetBegin=3884 CharacterOffsetEnd=3896 PartOfSpeech=NNS Lemma=instruction NamedEntityTag=O] [Text=to CharacterOffsetBegin=3897 CharacterOffsetEnd=3899 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=create CharacterOffsetBegin=3900 CharacterOffsetEnd=3906 PartOfSpeech=VB Lemma=create NamedEntityTag=O] [Text=a CharacterOffsetBegin=3907 CharacterOffsetEnd=3908 PartOfSpeech=DT Lemma=a NamedEntityTag=O] [Text=new CharacterOffsetBegin=3909 CharacterOffsetEnd=3912 PartOfSpeech=JJ Lemma=new NamedEntityTag=O] [Text=password CharacterOffsetBegin=3913 CharacterOffsetEnd=3921 PartOfSpeech=NN Lemma=password NamedEntityTag=O] [Text=. CharacterOffsetBegin=3921 CharacterOffsetEnd=3922 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP _ve)
+      (VP (VBN sent)
+        (NP (DT an) (NN email))
+        (PP (IN with)
+          (NP (NNS instructions)))
+        (S
+          (VP (TO to)
+            (VP (VB create)
+              (NP (DT a) (JJ new) (NN password)))))))
+    (. .)))
+
+root(ROOT-0, sent-3)
+nsubj(sent-3, We-1)
+aux(sent-3, _ve-2)
+det(email-5, an-4)
+dobj(sent-3, email-5)
+prep_with(sent-3, instructions-7)
+aux(create-9, to-8)
+vmod(sent-3, create-9)
+det(password-12, a-10)
+amod(password-12, new-11)
+dobj(create-9, password-12)
+
+Sentence #38 (8 tokens):
+Your existing password has not been changed.
+[Text=Your CharacterOffsetBegin=3923 CharacterOffsetEnd=3927 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=existing CharacterOffsetBegin=3928 CharacterOffsetEnd=3936 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O] [Text=password CharacterOffsetBegin=3937 CharacterOffsetEnd=3945 PartOfSpeech=NN Lemma=password NamedEntityTag=O] [Text=has CharacterOffsetBegin=3946 CharacterOffsetEnd=3949 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O] [Text=not CharacterOffsetBegin=3950 CharacterOffsetEnd=3953 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=been CharacterOffsetBegin=3954 CharacterOffsetEnd=3958 PartOfSpeech=VBN Lemma=be NamedEntityTag=O] [Text=changed CharacterOffsetBegin=3959 CharacterOffsetEnd=3966 PartOfSpeech=VBN Lemma=change NamedEntityTag=O] [Text=. CharacterOffsetBegin=3966 CharacterOffsetEnd=3967 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S
+    (NP (PRP$ Your)
+      (ADJP (VBG existing))
+      (NN password))
+    (VP (VBZ has) (RB not)
+      (VP (VBN been)
+        (VP (VBN changed))))
+    (. .)))
+
+root(ROOT-0, changed-7)
+poss(password-3, Your-1)
+amod(password-3, existing-2)
+nsubjpass(changed-7, password-3)
+aux(changed-7, has-4)
+neg(changed-7, not-5)
+auxpass(changed-7, been-6)
+
+Sentence #39 (33 tokens):
+{* #tradAuthenticateMergeForm *}         {* traditionalSignIn_emailAddress *}         {* mergePassword *}
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+[Text=-LCB- CharacterOffsetBegin=3968 CharacterOffsetEnd=3969 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=3969 CharacterOffsetEnd=3970 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=#tradAuthenticateMergeForm CharacterOffsetBegin=3971 CharacterOffsetEnd=3997 PartOfSpeech=NN Lemma=#tradauthenticatemergeform NamedEntityTag=O] [Text=* CharacterOffsetBegin=3998 CharacterOffsetEnd=3999 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=3999 CharacterOffsetEnd=4000 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=4009 CharacterOffsetEnd=4010 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=4010 CharacterOffsetEnd=4011 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=traditionalSignIn_emailAddress CharacterOffsetBegin=4012 CharacterOffsetEnd=4042 PartOfSpeech=NN Lemma=traditionalsignin_emailaddress NamedEntityTag=O] [Text=* CharacterOffsetBegin=4043 CharacterOffsetEnd=4044 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=4044 CharacterOffsetEnd=4045 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=-LCB- CharacterOffsetBegin=4054 CharacterOffsetEnd=4055 PartOfSpeech=-LRB- Lemma=-lcb- NamedEntityTag=O] [Text=* CharacterOffsetBegin=4055 CharacterOffsetEnd=4056 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=mergePassword CharacterOffsetBegin=4057 CharacterOffsetEnd=4070 PartOfSpeech=NN Lemma=mergepassword NamedEntityTag=O] [Text=* CharacterOffsetBegin=4071 CharacterOffsetEnd=4072 PartOfSpeech=SYM Lemma=* NamedEntityTag=O] [Text=-RCB- CharacterOffsetBegin=4072 CharacterOffsetEnd=4073 PartOfSpeech=-RRB- Lemma=-rcb- NamedEntityTag=O] [Text=Email CharacterOffsetBegin=4074 CharacterOffsetEnd=4079 PartOfSpeech=VB Lemma=email NamedEntityTag=O] [Text=check CharacterOffsetBegin=4080 CharacterOffsetEnd=4085 PartOfSpeech=NN Lemma=check NamedEntityTag=O] [Text=failed CharacterOffsetBegin=4086 CharacterOffsetEnd=4092 PartOfSpeech=VBD Lemma=fail NamedEntityTag=O] [Text=, CharacterOffsetBegin=4092 CharacterOffsetEnd=4093 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=please CharacterOffsetBegin=4094 CharacterOffsetEnd=4100 PartOfSpeech=VB Lemma=please NamedEntityTag=O] [Text=try CharacterOffsetBegin=4101 CharacterOffsetEnd=4104 PartOfSpeech=VB Lemma=try NamedEntityTag=O] [Text=again CharacterOffsetBegin=4105 CharacterOffsetEnd=4110 PartOfSpeech=RB Lemma=again NamedEntityTag=O] [Text=Sorry CharacterOffsetBegin=4111 CharacterOffsetEnd=4116 PartOfSpeech=JJ Lemma=sorry NamedEntityTag=O] [Text=, CharacterOffsetBegin=4116 CharacterOffsetEnd=4117 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=your CharacterOffsetBegin=4118 CharacterOffsetEnd=4122 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O] [Text=blog CharacterOffsetBegin=4123 CharacterOffsetEnd=4127 PartOfSpeech=NN Lemma=blog NamedEntityTag=O] [Text=can CharacterOffsetBegin=4128 CharacterOffsetEnd=4131 PartOfSpeech=MD Lemma=can NamedEntityTag=O] [Text=not CharacterOffsetBegin=4131 CharacterOffsetEnd=4134 PartOfSpeech=RB Lemma=not NamedEntityTag=O] [Text=share CharacterOffsetBegin=4135 CharacterOffsetEnd=4140 PartOfSpeech=VB Lemma=share NamedEntityTag=O] [Text=posts CharacterOffsetBegin=4141 CharacterOffsetEnd=4146 PartOfSpeech=NNS Lemma=post NamedEntityTag=O] [Text=by CharacterOffsetBegin=4147 CharacterOffsetEnd=4149 PartOfSpeech=IN Lemma=by NamedEntityTag=O] [Text=email CharacterOffsetBegin=4150 CharacterOffsetEnd=4155 PartOfSpeech=NN Lemma=email NamedEntityTag=O] [Text=. CharacterOffsetBegin=4155 CharacterOffsetEnd=4156 PartOfSpeech=. Lemma=. NamedEntityTag=O] 
+(ROOT
+  (S (-LRB- -LCB-)
+    (SBAR
+      (X
+        (X (SYM *))
+        (NP (NN #tradAuthenticateMergeForm)))
+      (S
+        (SBAR
+          (X (SYM *))
+          (S
+            (NP
+              (NP
+                (NP (-RRB- -RCB-))
+                (PRN (-LRB- -LCB-)
+                  (X
+                    (X (SYM *))
+                    (NP (NN traditionalSignIn_emailAddress) (SYM *)))
+                  (-RRB- -RCB-)))
+              (PRN (-LRB- -LCB-)
+                (X
+                  (X (SYM *))
+                  (NP (NN mergePassword) (SYM *)))
+                (-RRB- -RCB-)))
+            (VP (VB Email)
+              (NP (NN check)))))
+        (VP (VBD failed))))
+    (, ,)
+    (S
+      (INTJ (VB please))
+      (VP (VB try)
+        (ADJP
+          (ADVP (RB again))
+          (JJ Sorry))))
+    (, ,)
+    (NP (PRP$ your) (NN blog))
+    (VP (MD can) (RB not)
+      (VP (VB share)
+        (NP (NNS posts))
+        (PP (IN by)
+          (NP (NN email)))))
+    (. .)))
+
+root(ROOT-0, share-29)
+dep(#tradAuthenticateMergeForm-3, *-2)
+dep(failed-18, #tradAuthenticateMergeForm-3)
+dep(Email-16, *-4)
+dep(traditionalSignIn_emailAddress-8, *-7)
+dep(-RCB--5, traditionalSignIn_emailAddress-8)
+dep(traditionalSignIn_emailAddress-8, *-9)
+dep(mergePassword-13, *-12)
+dep(-RCB--5, mergePassword-13)
+dep(mergePassword-13, *-14)
+csubj(failed-18, Email-16)
+dobj(Email-16, check-17)
+advcl(share-29, failed-18)
+discourse(try-21, please-20)
+ccomp(share-29, try-21)
+advmod(Sorry-23, again-22)
+acomp(try-21, Sorry-23)
+poss(blog-26, your-25)
+nsubj(share-29, blog-26)
+aux(share-29, can-27)
+neg(share-29, not-28)
+dobj(share-29, posts-30)
+prep_by(share-29, email-32)
+
+Coreference set:
+ (2,1,[1,2]) -> (1,4,[4,5]), that is: "We" -> "us"
+Coreference set:
+ (6,1,[1,2]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (6,10,[10,11]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (6,12,[12,13]) -> (3,17,[16,18]), that is: "his" -> "Johnny Manziel"
+ (6,18,[18,19]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (6,22,[22,23]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (7,1,[1,2]) -> (3,17,[16,18]), that is: "His" -> "Johnny Manziel"
+ (8,21,[21,22]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (10,11,[11,12]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (17,6,[6,7]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (18,11,[11,13]) -> (3,17,[16,18]), that is: "Manziel _s" -> "Johnny Manziel"
+ (19,30,[30,31]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (21,1,[1,2]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (22,1,[1,2]) -> (3,17,[16,18]), that is: "He" -> "Johnny Manziel"
+ (23,1,[1,13]) -> (3,17,[16,18]), that is: "Manziel , who will enter training camp as Josh McCown _s backup" -> "Johnny Manziel"
+ (23,1,[1,2]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+ (24,10,[10,12]) -> (3,17,[16,18]), that is: "Manziel _s" -> "Johnny Manziel"
+ (25,3,[3,5]) -> (3,17,[16,18]), that is: "Manziel _s" -> "Johnny Manziel"
+ (26,5,[5,6]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (27,7,[7,8]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (27,10,[10,11]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (27,14,[14,15]) -> (3,17,[16,18]), that is: "he" -> "Johnny Manziel"
+ (29,17,[17,18]) -> (3,17,[16,18]), that is: "Manziel" -> "Johnny Manziel"
+Coreference set:
+ (4,1,[1,2]) -> (3,12,[12,13]), that is: "He" -> "his"
+ (5,1,[1,2]) -> (3,12,[12,13]), that is: "He" -> "his"
+ (5,4,[4,5]) -> (3,12,[12,13]), that is: "his" -> "his"
+Coreference set:
+ (5,13,[13,14]) -> (8,31,[30,32]), that is: "Browns" -> "the Browns"
+ (12,28,[28,29]) -> (8,31,[30,32]), that is: "Browns" -> "the Browns"
+ (15,14,[13,15]) -> (8,31,[30,32]), that is: "The Browns" -> "the Browns"
+ (18,8,[8,9]) -> (8,31,[30,32]), that is: "Browns" -> "the Browns"
+ (24,1,[1,2]) -> (8,31,[30,32]), that is: "Browns" -> "the Browns"
+Coreference set:
+ (10,6,[5,7]) -> (5,14,[13,15]), that is: "his teammates" -> "Browns teammates"
+Coreference set:
+ (7,7,[7,8]) -> (7,2,[1,6]), that is: "ongoing" -> "His comeback -- day-to-day --"
+Coreference set:
+ (19,15,[15,16]) -> (8,3,[3,4]), that is: "first" -> "first"
+Coreference set:
+ (8,4,[2,20]) -> (17,1,[1,2]), that is: "the first time since a highly publicized , 10-week stay at a rehab facility in Pennsylvania this winter" -> "Time"
+Coreference set:
+ (8,38,[38,39]) -> (8,26,[26,29]), that is: "their" -> "journalists on Tuesday"
+Coreference set:
+ (10,5,[5,6]) -> (9,2,[1,3]), that is: "his" -> "The 22-year-old"
+ (11,6,[6,7]) -> (9,2,[1,3]), that is: "his" -> "The 22-year-old"
+ (12,2,[2,3]) -> (9,2,[1,3]), that is: "He" -> "The 22-year-old"
+ (12,7,[7,8]) -> (9,2,[1,3]), that is: "he" -> "The 22-year-old"
+ (12,12,[12,13]) -> (9,2,[1,3]), that is: "he" -> "The 22-year-old"
+ (12,22,[22,23]) -> (9,2,[1,3]), that is: "himself" -> "The 22-year-old"
+ (13,3,[3,4]) -> (9,2,[1,3]), that is: "he" -> "The 22-year-old"
+ (14,1,[1,2]) -> (9,2,[1,3]), that is: "He" -> "The 22-year-old"
+Coreference set:
+ (11,1,[1,2]) -> (10,3,[3,7]), that is: "They" -> "several of his teammates"
+Coreference set:
+ (13,7,[7,8]) -> (11,7,[6,18]), that is: "it" -> "his determination to change a party-boy image following a bad rookie year"
+Coreference set:
+ (20,7,[6,8]) -> (12,17,[15,18]), that is: "the steps" -> "the proper steps"
+Coreference set:
+ (18,1,[1,2]) -> (12,31,[28,32]), that is: "Whitner" -> "Browns safety Donte Whitner"
+ (18,4,[4,5]) -> (12,31,[28,32]), that is: "he" -> "Browns safety Donte Whitner"
+ (19,3,[3,4]) -> (12,31,[28,32]), that is: "you" -> "Browns safety Donte Whitner"
+ (19,10,[10,11]) -> (12,31,[28,32]), that is: "you" -> "Browns safety Donte Whitner"
+ (19,20,[20,21]) -> (12,31,[28,32]), that is: "you" -> "Browns safety Donte Whitner"
+Coreference set:
+ (16,17,[17,18]) -> (16,1,[1,2]), that is: "they" -> "They"
+Coreference set:
+ (16,20,[20,21]) -> (16,12,[8,13]), that is: "he" -> "the former Heisman Trophy winner"
+Coreference set:
+ (20,9,[9,10]) -> (19,8,[7,9]), that is: "it" -> "the morning"
+Coreference set:
+ (20,3,[3,4]) -> (19,26,[26,28]), that is: "he" -> "everybody else"
+Coreference set:
+ (28,1,[1,2]) -> (23,10,[9,12]), that is: "McCown" -> "Josh McCown _s"
+ (31,18,[18,19]) -> (23,10,[9,12]), that is: "I" -> "Josh McCown _s"
+ (31,37,[37,38]) -> (23,10,[9,12]), that is: "McCown" -> "Josh McCown _s"
+Coreference set:
+ (23,19,[19,20]) -> (23,7,[6,8]), that is: "that" -> "training camp"
+Coreference set:
+ (25,7,[7,8]) -> (24,4,[3,5]), that is: "Pettine" -> "Mike Pettine"
+ (26,2,[2,3]) -> (24,4,[3,5]), that is: "I" -> "Mike Pettine"
+ (26,16,[16,17]) -> (24,4,[3,5]), that is: "Pettine" -> "Mike Pettine"
+ (31,12,[12,13]) -> (24,4,[3,5]), that is: "your" -> "Mike Pettine"
+Coreference set:
+ (24,16,[16,17]) -> (24,2,[1,12]), that is: "he" -> "Browns coach Mike Pettine did not grade any of Manziel _s"
+Coreference set:
+ (27,3,[3,4]) -> (26,10,[8,11]), that is: "it" -> "a little bit"
+ (27,19,[19,20]) -> (26,10,[8,11]), that is: "it" -> "a little bit"
+ (28,4,[4,5]) -> (26,10,[8,11]), that is: "it" -> "a little bit"
+Coreference set:
+ (30,2,[2,3]) -> (29,3,[1,4]), that is: "His" -> "The 13-year veteran"
+ (31,20,[20,21]) -> (29,3,[1,4]), that is: "he" -> "The 13-year veteran"
+ (31,25,[25,26]) -> (29,3,[1,4]), that is: "he" -> "The 13-year veteran"
+Coreference set:
+ (31,13,[12,14]) -> (29,13,[11,14]), that is: "your time" -> "a short time"
+ (31,31,[31,32]) -> (29,13,[11,14]), that is: "that" -> "a short time"
+ (31,34,[33,35]) -> (29,13,[11,14]), that is: "the key" -> "a short time"
+Coreference set:
+ (31,1,[1,2]) -> (30,3,[2,4]), that is: "It" -> "His position"
+Coreference set:
+ (36,8,[8,10]) -> (32,33,[33,35]), that is: "traditionalSignIn_emailAddress *" -> "traditionalSignIn_emailAddress *"
+ (39,8,[8,10]) -> (32,33,[33,35]), that is: "traditionalSignIn_emailAddress *" -> "traditionalSignIn_emailAddress *"
+Coreference set:
+ (35,1,[1,2]) -> (32,83,[83,84]), that is: "We" -> "our"
+ (37,1,[1,2]) -> (32,83,[83,84]), that is: "We" -> "our"
+Coreference set:
+ (34,5,[5,6]) -> (33,3,[1,19]), that is: "it" -> "-LCB- * backButton * -RCB- -LCB- * socialRegistration_signInButton * -RCB- -LCB- * _ socialRegistrationForm * -RCB- Password ?"
+Coreference set:
+ (37,12,[10,13]) -> (35,11,[9,12]), that is: "a new password" -> "a new password"

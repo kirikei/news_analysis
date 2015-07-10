@@ -24,14 +24,15 @@ public class organize_entity {
 			//System.out.println(p);
 			//System.out.println("aaa");
 			ArrayList<String> word_tree = tree_change.tree_c_m(treesan.get(p),verbs.get(p)); //System.out.println("word_tree:"+word_tree);
-			if((t = check_in_list(word_tree,entity)) != -1){
-				String str = word_tree.get(t); //args[1]����entity�������word_tree������΂��̎}��str��
+			if((t = check_in_list(word_tree,entity)) != -1){//entityの含まれる木が存在するなら
+				String str = word_tree.get(t); //entityの存在するword_treeの要素をstrに格納
 				int i = 0,q=0;	//System.out.println(str);//
+				int flag = 0; //２回以上終点についたらbreak
 				while(true){
-					//entity�̐e�ƂȂ铮���𔭌�������
+					//entityの部分木を抽出する
 					String i_facter = word_tree.get(i);
 					String is_facter = tree_change.second_facter(i_facter);
-
+					//System.out.println("str "+str);
 					if((check_in_list_b(verbs.get(p),tree_change.first_facter(str)) != -1) || tree_change.first_facter(str).equals("ROOT-0")){//str�̑��v�f�������Ȃ�
 						//System.out.println(str);
 						break;
@@ -42,6 +43,14 @@ public class organize_entity {
 						//System.out.println(verbs.get(p));
 						str = i_facter;//
 						q = i;//System.out.println(q);
+						flag = 0;
+						
+					}else{
+						if(flag>word_tree.size()){//ツリーを全部読み込んでも存在しないなら
+							break;
+						}
+						flag++;//見つからなかった時のツリーを読み込んだ数
+						
 					}
 					i++;
 					//
