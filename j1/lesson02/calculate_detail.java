@@ -158,6 +158,11 @@ public class calculate_detail {
 						at_s.put(ss, new_at);
 					}
 
+				}else{//重み以下の場合
+					if(at_s.containsKey(ss) == false){//まだ入力されていないならば####if文を入れなければssのスコアがリセットされる
+						at_s.put(ss, 0.0);
+					}
+					//at_s.put(ss, 0.0);//トピックssは0
 				}
 				ss++;
 
@@ -271,13 +276,13 @@ public class calculate_detail {
 
 
 	public static Map<String, Double> dif_detailedness(String[] args, Map<String, ArrayList<String>> all_entities, ArrayList<String> cores) throws Exception{
-		
+
 		String origin = args[0]; //元記事
 		//綺麗に出力するためのマップ
 		Map<String, Double> print_detailed = new HashMap<String, Double>();
 
 		//detailednessの初期化
-		
+
 
 		//<Named Entity, <file名, <行数, subtree>>>
 		Map<String, Map<String,Map<Integer,String[]>>> topic_data = make_t_e(args,all_entities);
@@ -285,192 +290,191 @@ public class calculate_detail {
 		//System.out.println("aaaaaaaaa"+topic_data);
 		double topic_weight = Topic_Weight;
 		//while(topic_weight < 0.91){
-				
+
 		double entity_weight = Entity_Weight;
-		
+
 		//while(entity_weight < 0.91){
-			//詳細度の値（ファイル名, 詳細度）
-			Map<String, Double> detailedness = new HashMap<String,Double>();
-			
-			detailedness.put(origin,0.0);
+		//詳細度の値（ファイル名, 詳細度）
+		Map<String, Double> detailedness = new HashMap<String,Double>();
 
-			int j = 1;
-			while(j < args.length){
-				detailedness.put(args[j],0.0);
-				j+=1;//####２かもしれない
-			}
+		detailedness.put(origin,0.0);
 
-			//初期化終了
-			System.out.println("初期化しました。"+detailedness);
-			
+		int j = 1;
+		while(j < args.length){
+			detailedness.put(args[j],0.0);
+			j+=1;//####２かもしれない
+		}
+
+		//初期化終了
+		System.out.println("初期化しました。"+detailedness);
+
 		Set<String> entities = topic_data.keySet();
 		Iterator<String> it = entities.iterator();
 		//Named Entityのiterator
 		//entityの重み
-		
 
+		//Named Entityごとに詳細の差を計算
+		while(it.hasNext()){	
+			String named_entity = it.next();
+			Map<String, Map<Integer,String[]>> file_topics = topic_data.get(named_entity); // <file名, <行数, subtree>>
+			Set<String> file_names = file_topics.keySet();
+			//System.out.println( "file_topics: " + named_entity +"+" + file_topics);
+			Iterator<String> it_file = file_names.iterator();
+			int[] tree_count = new int[500];//各fileのNamed Entityのsubtree数
+			int total_subtree = 0;
+			int t = 0;
 
-		
-			//Named Entityごとに詳細の差を計算
-			while(it.hasNext()){	
-				String named_entity = it.next();
-				Map<String, Map<Integer,String[]>> file_topics = topic_data.get(named_entity); // <file名, <行数, subtree>>
-				Set<String> file_names = file_topics.keySet();
-				//System.out.println( "file_topics: " + named_entity +"+" + file_topics);
-				Iterator<String> it_file = file_names.iterator();
-				int[] tree_count = new int[500];//各fileのNamed Entityのsubtree数
-				int total_subtree = 0;
-				int t = 0;
-
-				////各fileの各Named Entityのsubtree数をゲット
-				while(it_file.hasNext()){
-					String S_file = it_file.next();
-					if (file_topics.get(S_file) == null){
-						tree_count[t] = 0;
-					}else{
-						Set<Integer> num_trees = (file_topics.get(S_file)).keySet();
-						//System.out.println("num_tree: "+num_trees);
-						tree_count[t] = num_trees.size();
-
-
-						total_subtree += tree_count[t];
-
-					}
-					t++;
-				}
-				if(total_subtree < args.length ){ //全ての記事のサブツリー数がファイル数以下ならトピック生成しない
-					//System.out.println("finish::::::::?");
-					continue;
-
+			////各fileの各Named Entityのsubtree数をゲット
+			while(it_file.hasNext()){
+				String S_file = it_file.next();
+				if (file_topics.get(S_file) == null){
+					tree_count[t] = 0;
 				}else{
-
-					String topic_file_name = named_entity + ".csv";
-					//System.out.println("name:"+topic_file_name);
-					//Map<Integer,String[]> topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
-					Map<Integer,String[]> topic_words = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/"+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
-					Map<Integer,String[]> topic_scores = get_csv1("/Users/admin/Documents/workspace/a_measure.clean/topic_probability/topic_"+named_entity+".csv"); //各行のトピック確率
-					//print_map(topic_words);
-					//print_map(topic_scores);
-					Set<String> file_names2 = file_topics.keySet();//ファイル毎のサブツリー
-					Iterator<String> it_file2 = file_names2.iterator();
-					Map<String,Map<Integer,Double>> at_scores = new HashMap<String,Map<Integer,Double>>();//各行のatスコア
-					int file_num = 0; //subtreeの通し番号
-					int total_before = 0; //今まで読み込んだtopic数を保存
+					Set<Integer> num_trees = (file_topics.get(S_file)).keySet();
+					//System.out.println("num_tree: "+num_trees);
+					tree_count[t] = num_trees.size();
 
 
-					//各ファイルのat_scoreを取り出し
-					while(it_file2.hasNext()){
-						String S2 = it_file2.next();
-						Map<Integer,String[]> each_file_words = file_topics.get(S2);//各ファイルのサブツリー
-						Map<Integer, String[]> each_file_topic = new HashMap<Integer,String[]>();//各ファイルのトピック確率＜ツリー, トピック確率＞
-						int tree_num = 0;//file番号
-
-						while(tree_num < tree_count[file_num]){//tree_countは各ファイルのsubtree数
-							//System.out.println("num:"+tree_num+" count:"+tree_count[file_num]);
-
-							//System.out.println("each topic::"+topic_scores.get(tree_num + tree_count[file_num-1]));
-							each_file_topic.put(tree_num, topic_scores.get(tree_num + total_before)); //今まで読み込んだもの以降のトピック
-
-							tree_num++;
-						}
-
-						//各ファイルのトピック確率を取得完了
-						//print_map(each_file_topic);
-						//System.out.println("++++++++++++++topic_weight:"+topic_weight);
-						at_scores.put(S2, at_score_get(each_file_topic, topic_words, each_file_words,topic_weight));
-
-						//file_num xの各トピックのat_scoreを格納
-						total_before+=tree_count[file_num];
-						file_num++;
-
-					}
-					//System.out.println(at_scores);
-
-					Set<String> file_keys = at_scores.keySet();
-					Iterator<String> it_file_at = file_keys.iterator();
-					Map<Integer, Double> ori_score_each = at_scores.get(origin);//元記事のat_score
-
-					//file毎に詳細の差を出す
-					while(it_file_at.hasNext()){
-
-						String file_S = it_file_at.next();
-						if(file_S.equals(origin) == false){//元記事でなければ
-							//System.out.print(file_S);
-							Map<Integer, Double> at_score_each = at_scores.get(file_S);
-							//System.out.println(" +++ "+at_score_each);
-							double detail_each = cal_det(at_score_each, ori_score_each);//file_Sの詳細の差を計算
-							//entityで場合分け
-							if(cores.contains(named_entity)){
-								//System.out.println("c_weight:"+entity_weight);
-								detailedness.put(file_S, detailedness.get(file_S)+(entity_weight*detail_each));//detailednessを更新
-								//detailedness.put(file_S, detailedness.get(file_S)+(detail_each));
-							}else{
-								//System.out.println("weight:"+entity_weight);
-								detailedness.put(file_S, detailedness.get(file_S)+((1-entity_weight)*detail_each));
-								//detailedness.put(file_S, detailedness.get(file_S)+(detail_each));
-							}
-						}
-					}
+					total_subtree += tree_count[t];
 
 				}
+				t++;
 			}
+			if(total_subtree < args.length ){ //全ての記事のサブツリー数がファイル数以下ならトピック生成しない
+				//System.out.println("finish::::::::?");
+				continue;
 
-			//データベースに格納
-			//import_newsDB.entry_measure(detailedness, "detaileds");	
-			System.out.println("詳細度:"+detailedness);
-			//positive_score.print_score(detailedness, args, "detailedness");
-			String most_file = null;
+			}else{
 
-			//detailedness最大を取り出す
-//			Set<String> keys = detailedness.keySet();
-//			Iterator<String> itt = keys.iterator();
-//			double max = 0;
-//			while(itt.hasNext()){
-//				String SS = itt.next();
-//				if(SS.equals(origin)==false){
-//					double each_det = detailedness.get(SS);
-//					//keyをファイル名＋重みで表現
-//					String print_key = SS + String.valueOf(entity_weight);
-//					print_detailed.put(print_key, each_det);
-//					if(max < each_det){
-//						max = each_det;
-//						most_file = SS;
-//					}
-//				}
-//
-//			}
-			//csvへ出力
-			System.out.println("weight:::::"+entity_weight);
-			return detailedness;
-			
-			//entity_weight+=0.1;}
-			
-			//-----------重み計算用--------------
+				String topic_file_name = named_entity + ".csv";
+				//System.out.println("name:"+topic_file_name);
+				//Map<Integer,String[]> topic_words = TopicModel.topic_modeling(topic_file_name,named_entity,total_subtree);//各entityのtopic確率のcsvを製作
+				Map<Integer,String[]> topic_words = get_csv1(connecter_stan.TopicCsvFolder+named_entity+"_topic_words.csv");//各entityのトピック単語を取得
+				Map<Integer,String[]> topic_scores = get_csv1(connecter_stan.TopicCsvFolder+"topic_"+named_entity+".csv"); //各行のトピック確率
+				//print_map(topic_words);
+				//print_map(topic_scores);
+				Set<String> file_names2 = file_topics.keySet();//ファイル毎のサブツリー
+				Iterator<String> it_file2 = file_names2.iterator();
+				Map<String,Map<Integer,Double>> at_scores = new HashMap<String,Map<Integer,Double>>();//各行のatスコア
+				int file_num = 0; //subtreeの通し番号
+				int total_before = 0; //今まで読み込んだtopic数を保存
 
-//		try {
-//			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ent_detailedness/ent_"+connecter_stan.event+"_result.csv", true);  //���P
-//			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
-//		
-//			for (int id = 1; id < args.length; id++) {
-//
-//				String print_file  = args[id];
-//				//各重み毎に取り出し出力
-//				if(print_file.equals(origin) == false){
-//				for (double i = 0.10; i < 0.91; i+=0.10) {
-//					//keyを作成
-//					String file_wei = print_file + String.valueOf(i);
-//					Double score = print_detailed.get(file_wei);
-//					pw.print(file_wei+","+score+",");
-//				}
-//				pw.println();
-//				}
-//
-//			}
-//			pw.println("topic="+topic_weight);
-//			pw.close();
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//		}
+
+				//各ファイルのat_scoreを取り出し
+				while(it_file2.hasNext()){
+					String S2 = it_file2.next();
+					Map<Integer,String[]> each_file_words = file_topics.get(S2);//各ファイルのサブツリー
+					Map<Integer, String[]> each_file_topic = new HashMap<Integer,String[]>();//各ファイルのトピック確率＜ツリー, トピック確率＞
+					int tree_num = 0;//file番号
+
+					while(tree_num < tree_count[file_num]){//tree_countは各ファイルのsubtree数
+						//System.out.println("num:"+tree_num+" count:"+tree_count[file_num]);
+
+						//System.out.println("each topic::"+topic_scores.get(tree_num + tree_count[file_num-1]));
+						each_file_topic.put(tree_num, topic_scores.get(tree_num + total_before)); //今まで読み込んだもの以降のトピック
+
+						tree_num++;
+					}
+
+					//各ファイルのトピック確率を取得完了
+					//print_map(each_file_topic);
+					//System.out.println("++++++++++++++topic_weight:"+topic_weight);
+					at_scores.put(S2, at_score_get(each_file_topic, topic_words, each_file_words,topic_weight));
+
+					//file_num xの各トピックのat_scoreを格納
+					total_before+=tree_count[file_num];
+					file_num++;
+
+				}
+				//System.out.println(at_scores);
+
+				Set<String> file_keys = at_scores.keySet();
+				Iterator<String> it_file_at = file_keys.iterator();
+				Map<Integer, Double> ori_score_each = at_scores.get(origin);//元記事のat_score
+
+				//file毎に詳細の差を出す
+				while(it_file_at.hasNext()){
+
+					String file_S = it_file_at.next();
+					if(file_S.equals(origin) == false){//元記事でなければ
+						//System.out.print(file_S);
+						Map<Integer, Double> at_score_each = at_scores.get(file_S);
+						//System.out.println(" +++ "+at_score_each);
+						double detail_each = cal_det(at_score_each, ori_score_each);//file_Sの詳細の差を計算
+						System.out.println("at_score_each : "+at_score_each+" ot_score_each : "+ori_score_each);
+						System.out.println("cal_detの結果："+detail_each);
+						//entityで場合分け
+						if(cores.contains(named_entity)){
+							//System.out.println("c_weight:"+entity_weight);
+							detailedness.put(file_S, detailedness.get(file_S)+(entity_weight*detail_each));//detailednessを更新
+							//detailedness.put(file_S, detailedness.get(file_S)+(detail_each));
+						}else{
+							//System.out.println("weight:"+entity_weight);
+							detailedness.put(file_S, detailedness.get(file_S)+((1-entity_weight)*detail_each));
+							//detailedness.put(file_S, detailedness.get(file_S)+(detail_each));
+						}
+					}
+				}
+
+			}
+		}
+
+		//データベースに格納
+		//import_newsDB.entry_measure(detailedness, "detaileds");	
+		System.out.println("詳細度:"+detailedness);
+		//positive_score.print_score(detailedness, args, "detailedness");
+		String most_file = null;
+
+		//detailedness最大を取り出す
+		//			Set<String> keys = detailedness.keySet();
+		//			Iterator<String> itt = keys.iterator();
+		//			double max = 0;
+		//			while(itt.hasNext()){
+		//				String SS = itt.next();
+		//				if(SS.equals(origin)==false){
+		//					double each_det = detailedness.get(SS);
+		//					//keyをファイル名＋重みで表現
+		//					String print_key = SS + String.valueOf(entity_weight);
+		//					print_detailed.put(print_key, each_det);
+		//					if(max < each_det){
+		//						max = each_det;
+		//						most_file = SS;
+		//					}
+		//				}
+		//
+		//			}
+		//csvへ出力
+		System.out.println("weight:::::"+entity_weight);
+		return detailedness;
+
+		//entity_weight+=0.1;}
+
+		//-----------重み計算用--------------
+
+		//		try {
+		//			FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ent_detailedness/ent_"+connecter_stan.event+"_result.csv", true);  //���P
+		//			PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
+		//		
+		//			for (int id = 1; id < args.length; id++) {
+		//
+		//				String print_file  = args[id];
+		//				//各重み毎に取り出し出力
+		//				if(print_file.equals(origin) == false){
+		//				for (double i = 0.10; i < 0.91; i+=0.10) {
+		//					//keyを作成
+		//					String file_wei = print_file + String.valueOf(i);
+		//					Double score = print_detailed.get(file_wei);
+		//					pw.print(file_wei+","+score+",");
+		//				}
+		//				pw.println();
+		//				}
+		//
+		//			}
+		//			pw.println("topic="+topic_weight);
+		//			pw.close();
+		//		} catch (Exception e) {
+		//			// TODO: handle exception
+		//		}
 		//topic_weight+=0.10;}//return most_file;
 	}
 

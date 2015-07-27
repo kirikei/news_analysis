@@ -24,16 +24,16 @@ public class positive_score {
 		Map<Integer, ArrayList<String>> trees = organize_entity.get_tree(file1);//センテンス毎のツリー
 		//System.out.println("trees::"+trees);
 		Map<Integer, Map<String, Double>> wordscores = word_hit.POS_score_get(file1);//センテンス毎の感情語とスコア
-		Map<Integer,ArrayList<String>> verbs = organize_entity.get_verb(file1);//センテンス毎の動詞
+		Map<Integer,ArrayList<String>> verbs = organize_entity.get_verb2(file1);//センテンス毎の動詞
 		Map<String,Double> entity_score = new HashMap<String,Double>();//entityの感情語スコア
-		int sentense_num = 1;//1???
+		int sentense_num = 1;//1！！
 
 		//センテンス毎に回す
-		while(sentense_num < trees.size()){ 
+		while(sentense_num <= trees.size()){ 
 			//センテンス毎の部分木,動詞,感情語を取り出す
 			ArrayList<String> treekun = trees.get(sentense_num);
 			ArrayList<String> focus_verb = verbs.get(sentense_num);
-			//System.out.println("verb:"+focus_verb);
+			System.out.println("Sentence : "+sentense_num+", verb:"+focus_verb);
 			ArrayList<String> focus_tree = tree_change.tree_c_m(treekun,focus_verb);//System.out.println("tree:"+focus_tree);
 			Map<String,Double> focus_score = wordscores.get(sentense_num);//System.out.println("score:"+focus_score);
 			ArrayList<String> senti_words = new ArrayList<String>();
@@ -63,12 +63,15 @@ public class positive_score {
 
 					//感情語とentityの位置関係を検索
 					while(true){
-						String f_facter = tree_change.first_facter(start_node);
+						String f_factor = tree_change.first_facter(start_node);
 						//System.out.println("start_node:::"+f_facter);
 
 						//動詞に行き着くか、ルートに行き着いたら=>感情語とのパス中にentityが現れなかったら
-						if(organize_entity.check_in_list_b(focus_verb, f_facter) != -1 || f_facter.equals("ROOT-0"))
+						if(organize_entity.check_in_list_b(focus_verb, f_factor) != -1 || f_factor.equals("ROOT-0"))
 						{	//System.out.println("Start_node>>>>"+start_node);
+							
+							//否定語があるかを判定
+							boolean neg_flag = seeking_neg(f_factor, focus_tree);
 
 							ArrayList<Integer> check_list = new ArrayList<Integer>();
 							if(ii == 0){//ii=-1(見つからない場合)の代入を防ぐ
@@ -111,6 +114,13 @@ public class positive_score {
 										ent_num = organize_entity.check_in_list_b(entities,sub_tree.get(get_ent_num));
 										String ent = entities.get(ent_num);//発見したentity
 										Double score = focus_score.get(s_word);//部分木に含まれる感情語のスコア
+										
+										//もしサブツリーの親となるverbがnegならば
+										if(neg_flag){
+											System.out.println("negtive_s_word>>>>"+s_word);
+											score = (-1) * score;
+										}
+										
 
 										//既にentのスコアが記述されているとき
 										if(entity_score.containsKey(ent)){
@@ -152,7 +162,7 @@ public class positive_score {
 
 						//パス中にentityに遭遇したら
 						//System.out.println("entities:"+entities);
-						if((ent_num = organize_entity.check_in_list_b(entities,f_facter))!= -1){
+						if((ent_num = organize_entity.check_in_list_b(entities,f_factor))!= -1){
 							String ent = entities.get(ent_num);
 							Double score = focus_score.get(s_word);
 
@@ -171,7 +181,7 @@ public class positive_score {
 						String find_node = focus_tree.get(ii);
 						String s_f_facter = tree_change.second_facter(find_node);
 						//System.out.println("sf--------->"+s_f_facter);
-						if(s_f_facter.equals(f_facter)){
+						if(s_f_facter.equals(f_factor)){
 							//付け替える
 							start_node = find_node;//System.out.println("ccc");
 						}
@@ -317,6 +327,24 @@ public class positive_score {
 		//import_newsDB.entry_measure(scores,"polarities");
 		return scores;
 	}
+	
+	//verb以下のnegをチェック
+	public static boolean seeking_neg(String first_verb, ArrayList<String> tree){
+		boolean flag = false; 
+		for (String gov_depend : tree) {
+			if(tree_change.first_facter(gov_depend).equals(first_verb)){
+				//System.out.println("neg_check : "+gov_depend);
+				if(tree_change.br_type(gov_depend).equals("neg")){
+					flag = true;
+					break;
+				}
+			}
+			
+		}	
+		
+		return flag;
+	}
+	
 	
 	//各尺度のスコアを出力する関数 scores:スコア, args : 入力ファイル, attribute : 尺度の属性（ファイルの名前）
 	public static void print_score(Map<String, Double> scores, String[] args, String attribute){

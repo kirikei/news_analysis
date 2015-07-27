@@ -1,0 +1,67 @@
+Sentence #1 (32 tokens):
+Apple and IBM promo - Herald.ie
+All smiles as Zebo's sister Jessika walks down the aisle
+FROM sports star to supportive sibling, rugby player Simon Zebo helped sister Jessika...
+[Text=Apple CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Apple NamedEntityTag=O] [Text=and CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=CC Lemma=and NamedEntityTag=O] [Text=IBM CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=IBM NamedEntityTag=ORGANIZATION] [Text=promo CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NN Lemma=promo NamedEntityTag=O] [Text=- CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=: Lemma=- NamedEntityTag=O] [Text=Herald.ie CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Herald.ie NamedEntityTag=O] [Text=All CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=All NamedEntityTag=O] [Text=smiles CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=VBZ Lemma=smile NamedEntityTag=O] [Text=as CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN Lemma=as NamedEntityTag=O] [Text=Zebo CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Zebo NamedEntityTag=PERSON] [Text='s CharacterOffsetBegin=51 CharacterOffsetEnd=53 PartOfSpeech=POS Lemma='s NamedEntityTag=O] [Text=sister CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=sister NamedEntityTag=O] [Text=Jessika CharacterOffsetBegin=61 CharacterOffsetEnd=68 PartOfSpeech=NNP Lemma=Jessika NamedEntityTag=PERSON] [Text=walks CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=VBZ Lemma=walk NamedEntityTag=O] [Text=down CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=RP Lemma=down NamedEntityTag=O] [Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT Lemma=the NamedEntityTag=O] [Text=aisle CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=aisle NamedEntityTag=O] [Text=FROM CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=IN Lemma=from NamedEntityTag=O] [Text=sports CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NNS Lemma=sport NamedEntityTag=O] [Text=star CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=star NamedEntityTag=O] [Text=to CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=TO Lemma=to NamedEntityTag=O] [Text=supportive CharacterOffsetBegin=111 CharacterOffsetEnd=121 PartOfSpeech=JJ Lemma=supportive NamedEntityTag=O] [Text=sibling CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=NN Lemma=sibling NamedEntityTag=O] [Text=, CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=, Lemma=, NamedEntityTag=O] [Text=rugby CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=JJ Lemma=rugby NamedEntityTag=O] [Text=player CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=NN Lemma=player NamedEntityTag=O] [Text=Simon CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Simon NamedEntityTag=PERSON] [Text=Zebo CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NNP Lemma=Zebo NamedEntityTag=PERSON] [Text=helped CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=VBD Lemma=help NamedEntityTag=O] [Text=sister CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NN Lemma=sister NamedEntityTag=O] [Text=Jessika CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=NNP Lemma=Jessika NamedEntityTag=PERSON] [Text=... CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=: Lemma=... NamedEntityTag=O] 
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Apple))
+        (CC and)
+        (NP
+          (NP (NNP IBM) (NN promo))
+          (: -)
+          (NP (NNP Herald.ie) (NNP All))))
+      (VP (VBZ smiles)
+        (PP (IN as)
+          (NP
+            (NP
+              (NP (NNP Zebo) (POS 's))
+              (NN sister))
+            (SBAR
+              (S
+                (NP (NNP Jessika))
+                (VP (VBZ walks)
+                  (PRT (RP down))
+                  (NP (DT the) (NN aisle))
+                  (PP (IN FROM)
+                    (NP
+                      (NP (NNS sports) (NN star))
+                      (PP (TO to)
+                        (NP
+                          (ADJP (JJ supportive))
+                          (NN sibling))))))))))))
+    (, ,)
+    (NP (JJ rugby) (NN player) (NNP Simon) (NNP Zebo))
+    (VP (VBD helped)
+      (NP (NN sister) (NNP Jessika)))
+    (: ...)))
+
+root(ROOT-0, helped-29)
+nsubj(smiles-8, Apple-1)
+nn(promo-4, IBM-3)
+conj_and(Apple-1, promo-4)
+nn(All-7, Herald.ie-6)
+dep(promo-4, All-7)
+ccomp(helped-29, smiles-8)
+poss(sister-12, Zebo-10)
+prep_as(smiles-8, sister-12)
+nsubj(walks-14, Jessika-13)
+rcmod(sister-12, walks-14)
+prt(walks-14, down-15)
+det(aisle-17, the-16)
+dobj(walks-14, aisle-17)
+nn(star-20, sports-19)
+prep_from(walks-14, star-20)
+amod(sibling-23, supportive-22)
+prep_to(star-20, sibling-23)
+amod(Zebo-28, rugby-25)
+nn(Zebo-28, player-26)
+nn(Zebo-28, Simon-27)
+nsubj(helped-29, Zebo-28)
+nn(Jessika-31, sister-30)
+dobj(helped-29, Jessika-31)
+
+Coreference set:
+	(1,13,[13,14]) -> (1,31,[30,32]), that is: "Jessika" -> "sister Jessika"

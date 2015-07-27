@@ -18,7 +18,7 @@ import java.util.Set;
 
 public class import_newsDB {
 	private static int Max_file = 10000;
-	private static String Database_path = "jdbc:sqlite:/Users/admin/Documents/workspace/a_measure.clean/relevant_news.db";
+	private static String Database_path = "jdbc:sqlite:/Users/admin/Documents/workspace/news_analysis/article_data.db";
 	//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db");
 	
 	//トップニュースを取り出す(pid = NULL)
@@ -118,7 +118,41 @@ public class import_newsDB {
 			return null;
 		}
 	}
-
+	public static String[] import_news1(String event){
+		String[] news_aids = new String[100];
+		try {
+			Class.forName("org.sqlite.JDBC");
+			Connection conn = DriverManager.getConnection(
+					//"jdbc:sqlite:/Users/admin/Documents/java_set/test.db"); 
+					Database_path); 
+			Statement st = conn.createStatement();
+			ResultSet rs = 
+		    st.executeQuery("select * from "+event);
+			int i =0;
+		while(rs.next()) {
+			news_aids[i] = rs.getString(1) + ".txt";//aid.txt
+			i++;
+			}
+			rs.close();
+			st.close();
+			conn.close(); 
+			int j = 0;
+			String[] news_files = new String[i];
+			while(j < i){
+				news_files[j] = news_aids[j];
+				System.out.println(news_files[j]);
+				j++;
+			}
+			return news_files;
+	
+		} catch (ClassNotFoundException e) {
+			System.out.println(e);
+			return null;
+			} catch (SQLException e) { 
+				System.out.println("sql:"+ e);
+				return null;
+				}
+	}
 
 
 

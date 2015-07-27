@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -117,8 +118,8 @@ public class word_hit {
 
 	public static ArrayList<String> entity_arrange(ArrayList<String> entities, String text_file2){
 		ArrayList<String> result_entities = new ArrayList<String>();
-		Map<String,String> ent_map = new HashMap<String,String>(); //organizeしたentityを入れる
-		Map<String,String> check_ent = new HashMap<String,String>();//keyとvalueを逆にしてentityの同期に使用
+		Map<String,String> ent_map = new HashMap<String,String>(); //organizeしたentityを入れる(ent=>座標)
+		Map<String,String> check_ent = new HashMap<String,String>();//keyとvalueを逆にしてentityの同期に使用(座標=>ent)
 
 		//text_file2がnullのとき、即ち元記事のentity抽出だったとき
 		if(text_file2 == null){	
@@ -132,6 +133,7 @@ public class word_hit {
 			//System.out.println(ent_map);
 
 			int ii = 0;
+			
 			//記事のentityを見ていく
 			while(ii < entities.size()){
 				String checker = entities.get(ii);
@@ -301,8 +303,49 @@ public class word_hit {
 		return result_list;
 	}
 	
+	//照応解析をre_ファイル全体に反映
+	public static Map<String,String> change_entity(String arg){	
+		try{
+			File file = new File(connecter_stan.ArticleFolder + arg);
+
+			if (cut_file.checkBeforeReadfile(file)){
+				BufferedReader br = new BufferedReader(new FileReader(file));
+				String str;
+				Map<String,String> organizer = new HashMap<String,String>();
+				while((str = br.readLine()) != null){
+					//照応解析の行に来たら	
+					if (str.matches(".*?" + "->" + ".*?" + "->" + ".*")){
+						//矢印の前と先を取り出す
+						String regex = "(.*?-> )(.*?)(, that.*: \")(.*?)(\".*)";
+						Pattern p = Pattern.compile(regex);
+						Matcher m = p.matcher(str);
+						if(m.find()){
+							organizer.put(m.group(4),m.group(2));
+						}
+					}		
+				}	
+				
+
+				//System.out.println(organizer.keySet());
+
+				br.close();
+				return organizer;
+
+			}else{
+				System.out.println("ファイルが見つからないか開けません");
+			}
+		}catch(FileNotFoundException e){
+			System.out.println(e);
+		}catch(IOException e){
+			System.out.println(e);
+		}
+		return null;
+
+	}
 	public static void main(String args[]) throws IOException{	
-		POS_score_get(args[0]);
+		//POS_score_get(args[0]);
+		file_entities(args);
+		
 
 	}
 }

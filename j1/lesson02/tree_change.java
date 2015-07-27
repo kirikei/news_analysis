@@ -37,7 +37,8 @@ public class tree_change {
 	        	}
 	        	else{
 	        switch(fact){
-	        case "conj" :
+	        case "conj_and" :
+	        case "conj_or" :
 	        	int c = 0;
 	        	String cf = first_facter(t_facters[n]);
 	        	String cs =  second_facter(t_facters[n]);
@@ -176,7 +177,7 @@ public class tree_change {
 			
 		}		
 		
-		private static String br_type(String p_tree){
+		public static String br_type(String p_tree){
 			String regex = "(.+?)(\\(.+)";
 			Pattern pt = Pattern.compile(regex);
 			Matcher mt = pt.matcher(p_tree);

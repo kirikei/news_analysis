@@ -88,7 +88,7 @@ public class organize_entity {
 
 			try {
 				//�o�͐���쐬����
-				FileWriter fw = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmcsvs/"+ nomal_entity + ".csv", true);  //���P
+				FileWriter fw = new FileWriter(connecter_stan.EntityTreeCsvFolder+ nomal_entity + ".csv", true);  //���P
 				PrintWriter pw = new PrintWriter(new BufferedWriter(fw));
 				//FileWriter fw_lda = new FileWriter("/Users/admin/Documents/workspace/a_measure.clean/ibmtxt/"+nomal_entity+".txt",true);
 				//PrintWriter pw_lda = new PrintWriter(new BufferedWriter(fw_lda));
@@ -464,6 +464,76 @@ public class organize_entity {
 
 
 
+	}
+	
+	//動詞を取得
+	public static Map<Integer, ArrayList<String>> get_verb2(String text_file1){
+		Map<Integer,ArrayList<String>> file_verbs = new HashMap<Integer,ArrayList<String>>();//<sentence, [verbs]>
+		try{
+			File file = new File(connecter_stan.ArticleFolder + text_file1);
+
+			if (cut_file.checkBeforeReadfile(file)){
+				BufferedReader br = new BufferedReader(new FileReader(file));
+				String str1;
+				String[] strs1;
+				int sent_num = 0;
+				boolean frag = false; //sentenceを拾ったらtrueになる
+
+				while((str1 = br.readLine()) != null){
+
+
+					ArrayList<String> verbs = new ArrayList<String>();//sentence_numのverbを格納
+					if(str1.matches("Sentence" + " #.*")){
+						String str_text = "";
+						sent_num++;
+
+						while(str1.matches("\\(ROOT") == false){
+							str1 = br.readLine();
+							if (str1.matches(".*" + "Text=" + ".*")){
+								str_text = str_text+str1;
+							}
+						}
+						//System.out.println("str_text"+str_text);
+						strs1 = str_text.split("] ");
+						int i=0;
+
+						while(i < strs1.length){
+							String regex = "(\\[Text=)(.*?)( C.*?)(PartOfSpeech=)(.*?)( .*?)(NamedEntityTag=)(.*)";
+							Pattern p = Pattern.compile(regex);
+							//System.out.println("aaa");
+							Matcher m2 = p.matcher(strs1[i]);
+							//
+							//SentiWordNetで得られる値を見つける
+							if(m2.find()){// ;
+									String text = m2.group(2);
+									String pos = m2.group(5);
+									if(pos.startsWith("V")){//動詞の場合
+										verbs.add(text);
+								}
+
+							}
+							i++;
+
+						}
+
+						if(verbs.size() > 0){//一つでも感情語があれば
+
+							file_verbs.put(sent_num, verbs);
+						}
+					}
+				}
+				System.out.println(file_verbs);
+				return file_verbs;
+
+			}else{
+				System.out.println("ファイルが見つからないか開けません");
+			}
+		}catch(FileNotFoundException e){
+			System.out.println(e);
+		}catch(IOException e){
+			System.out.println(e);
+		}
+		return file_verbs;
 	}
 
 }

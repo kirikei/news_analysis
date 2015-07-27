@@ -97,10 +97,15 @@ public class calculate_rel_div {
 		Set<String> com_list = new HashSet<String>();
 		com_list.addAll(a_entities);
 		com_list.addAll(ori_ents);
-		
+
 		System.out.println("@@@@commmmmm"+com_data+" com_list:"+com_list);
-		System.out.println(com_data / com_list.size());
-		return com_data / com_list.size();
+		if(com_list.size() >0){
+			System.out.println(com_data / com_list.size());
+			return com_data / com_list.size();
+		}
+		else{
+			return 0.0;
+		}
 	}
 
 	//発散度
